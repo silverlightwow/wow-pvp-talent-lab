@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -50,7 +50,10 @@
         "talent_name": "Shiv",
         "spell_id": 5938,
         "visible_spell_id": null,
-        "icon": "inv_throwingknife_04"
+        "icon": "inv_throwingknife_04",
+        "icon_candidates": [
+          "inv_throwingknife_04"
+        ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (105.336% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -323,8 +326,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -356,7 +359,10 @@
         "talent_name": "Blind",
         "spell_id": 2094,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindsteal"
+        "icon": "spell_shadow_mindsteal",
+        "icon_candidates": [
+          "spell_shadow_mindsteal"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
       "pvp_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -380,8 +386,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -412,7 +418,10 @@
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nethercloak"
+        "icon": "spell_shadow_nethercloak",
+        "icon_candidates": [
+          "spell_shadow_nethercloak"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -436,8 +445,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -469,7 +478,10 @@
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
         "visible_spell_id": null,
-        "icon": "ability_rogue_poisonedknife"
+        "icon": "ability_rogue_poisonedknife",
+        "icon_candidates": [
+          "ability_rogue_poisonedknife"
+        ]
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
       "pvp_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -493,8 +505,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -528,7 +540,10 @@
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
         "visible_spell_id": null,
-        "icon": "ability_rogue_quickrecovery"
+        "icon": "ability_rogue_quickrecovery",
+        "icon_candidates": [
+          "ability_rogue_quickrecovery"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 15%.",
       "pvp_tooltip": "Movement speed increased by 15%.",
@@ -552,8 +567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -585,7 +600,10 @@
         "talent_name": "Gouge",
         "spell_id": 1776,
         "visible_spell_id": null,
-        "icon": "ability_gouge"
+        "icon": "ability_gouge",
+        "icon_candidates": [
+          "ability_gouge"
+        ]
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
       "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -609,8 +627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -642,7 +660,10 @@
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodyeye"
+        "icon": "ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
       "pvp_tooltip": "Blind has 50% reduced cooldown, 35% reduced duration, and applies to all nearby enemies.",
@@ -713,8 +734,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -748,7 +769,10 @@
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart_shadowflame"
+        "icon": "inv_ragnaros_heart_shadowflame",
+        "icon_candidates": [
+          "inv_ragnaros_heart_shadowflame"
+        ]
       },
       "pve_tooltip": "Shadowstep has 1 additional charge.",
       "pvp_tooltip": "Shadowstep has 1 additional charge.",
@@ -772,8 +796,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -805,7 +829,10 @@
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
         "visible_spell_id": null,
-        "icon": "ability_stealth"
+        "icon": "ability_stealth",
+        "icon_candidates": [
+          "ability_stealth"
+        ]
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
       "pvp_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -829,8 +856,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -864,7 +891,10 @@
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
       "pvp_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -929,8 +959,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -964,7 +994,10 @@
         "talent_name": "Elusiveness",
         "spell_id": 79008,
         "visible_spell_id": null,
-        "icon": "ability_rogue_turnthetables"
+        "icon": "ability_rogue_turnthetables",
+        "icon_candidates": [
+          "ability_rogue_turnthetables"
+        ]
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
       "pvp_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -988,8 +1021,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1023,7 +1056,10 @@
         "talent_name": "Cheat Death",
         "spell_id": 31230,
         "visible_spell_id": null,
-        "icon": "ability_rogue_cheatdeath"
+        "icon": "ability_rogue_cheatdeath",
+        "icon_candidates": [
+          "ability_rogue_cheatdeath"
+        ]
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
       "pvp_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1047,8 +1083,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1082,7 +1118,10 @@
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
         "visible_spell_id": null,
-        "icon": "ability_rogue_tricksofthetrade"
+        "icon": "ability_rogue_tricksofthetrade",
+        "icon_candidates": [
+          "ability_rogue_tricksofthetrade"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1106,8 +1145,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1141,7 +1180,10 @@
         "talent_name": "Blackjack",
         "spell_id": 379005,
         "visible_spell_id": null,
-        "icon": "ability_rogue_blackjack"
+        "icon": "ability_rogue_blackjack",
+        "icon_candidates": [
+          "ability_rogue_blackjack"
+        ]
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "pvp_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1165,8 +1207,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1199,7 +1241,10 @@
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_16"
+        "icon": "inv_misc_herb_16",
+        "icon_candidates": [
+          "inv_misc_herb_16"
+        ]
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
       "pvp_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1223,8 +1268,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1258,7 +1303,10 @@
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
         "visible_spell_id": null,
-        "icon": "ability_rogue_crimsonvial"
+        "icon": "ability_rogue_crimsonvial",
+        "icon_candidates": [
+          "ability_rogue_crimsonvial"
+        ]
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
       "pvp_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1282,8 +1330,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1315,7 +1363,10 @@
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
       "pvp_tooltip": "Physical damage taken reduced by 5%.",
@@ -1339,8 +1390,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1374,7 +1425,10 @@
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
         "visible_spell_id": null,
-        "icon": "ability_rogue_improvedrecuperate"
+        "icon": "ability_rogue_improvedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_improvedrecuperate"
+        ]
       },
       "pve_tooltip": "Increases your Agility by 3%.",
       "pvp_tooltip": "Increases your Agility by 3%.",
@@ -1398,8 +1452,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1432,7 +1486,10 @@
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1456,8 +1513,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1489,7 +1546,10 @@
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
         "visible_spell_id": null,
-        "icon": "inv_misc_potionsete"
+        "icon": "inv_misc_potionsete",
+        "icon_candidates": [
+          "inv_misc_potionsete"
+        ]
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
       "pvp_tooltip": "Crippling Poison reduces movement speed by an additional 5%.",
@@ -1560,8 +1620,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1595,7 +1655,10 @@
         "talent_name": "Evasion",
         "spell_id": 5277,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowward"
+        "icon": "spell_shadow_shadowward",
+        "icon_candidates": [
+          "spell_shadow_shadowward"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1619,8 +1682,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1652,7 +1715,10 @@
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
         "visible_spell_id": null,
-        "icon": "inv_misc_organ_11"
+        "icon": "inv_misc_organ_11",
+        "icon_candidates": [
+          "inv_misc_organ_11"
+        ]
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
       "pvp_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1676,8 +1742,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1713,7 +1779,10 @@
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
       "pvp_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1737,8 +1806,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1770,7 +1839,10 @@
         "talent_name": "Stillshroud",
         "spell_id": 423662,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shroudofconcealment"
+        "icon": "ability_rogue_shroudofconcealment",
+        "icon_candidates": [
+          "ability_rogue_shroudofconcealment"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
       "pvp_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1794,8 +1866,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1829,7 +1901,10 @@
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ghostpirate"
+        "icon": "ability_rogue_ghostpirate",
+        "icon_candidates": [
+          "ability_rogue_ghostpirate"
+        ]
       },
       "pve_tooltip": "Feint has 1 additional charge.",
       "pvp_tooltip": "Feint has 1 additional charge.",
@@ -1853,8 +1928,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1886,7 +1961,10 @@
         "talent_name": "Featherfoot",
         "spell_id": 423683,
         "visible_spell_id": null,
-        "icon": "spell_magic_featherfall"
+        "icon": "spell_magic_featherfall",
+        "icon_candidates": [
+          "spell_magic_featherfall"
+        ]
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
       "pvp_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1910,8 +1988,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1944,7 +2022,10 @@
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
         "visible_spell_id": null,
-        "icon": "spell_nature_nullifydisease"
+        "icon": "spell_nature_nullifydisease",
+        "icon_candidates": [
+          "spell_nature_nullifydisease"
+        ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
       "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -2040,8 +2121,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2074,10 +2155,13 @@
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2098,8 +2182,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2134,7 +2218,10 @@
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deadenednerves"
+        "icon": "ability_rogue_deadenednerves",
+        "icon_candidates": [
+          "ability_rogue_deadenednerves"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
       "pvp_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2158,8 +2245,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2191,7 +2278,10 @@
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
         "visible_spell_id": null,
-        "icon": "inv_misc_potiona5"
+        "icon": "inv_misc_potiona5",
+        "icon_candidates": [
+          "inv_misc_potiona5"
+        ]
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
       "pvp_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2215,8 +2305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2251,7 +2341,10 @@
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
         "visible_spell_id": null,
-        "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
+        "icon": "inv_1115_firstkilloftheday_firstkilloftheday",
+        "icon_candidates": [
+          "inv_1115_firstkilloftheday_firstkilloftheday"
+        ]
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
       "pvp_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2275,8 +2368,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2309,7 +2402,10 @@
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
         "visible_spell_id": null,
-        "icon": "ability_rogue_trip"
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
       "pvp_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2333,8 +2429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2368,7 +2464,10 @@
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
         "visible_spell_id": null,
-        "icon": "ability_rogue_wrongfullyaccused"
+        "icon": "ability_rogue_wrongfullyaccused",
+        "icon_candidates": [
+          "ability_rogue_wrongfullyaccused"
+        ]
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
       "pvp_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2392,8 +2491,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2429,7 +2528,10 @@
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
         "visible_spell_id": null,
-        "icon": "ability_rogue_slicedice"
+        "icon": "ability_rogue_slicedice",
+        "icon_candidates": [
+          "ability_rogue_slicedice"
+        ]
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
       "pvp_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2453,8 +2555,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2488,7 +2590,10 @@
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ambush"
+        "icon": "ability_rogue_ambush",
+        "icon_candidates": [
+          "ability_rogue_ambush"
+        ]
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
       "pvp_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2512,8 +2617,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2547,7 +2652,10 @@
         "talent_name": "Tight Spender",
         "spell_id": 381621,
         "visible_spell_id": null,
-        "icon": "inv_misc_coin_03"
+        "icon": "inv_misc_coin_03",
+        "icon_candidates": [
+          "inv_misc_coin_03"
+        ]
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
       "pvp_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2571,8 +2679,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2604,7 +2712,10 @@
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
         "visible_spell_id": null,
-        "icon": "rogue_leeching_poison"
+        "icon": "rogue_leeching_poison",
+        "icon_candidates": [
+          "rogue_leeching_poison"
+        ]
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
       "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
@@ -2628,8 +2739,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2662,7 +2773,10 @@
         "talent_name": "Lethality",
         "spell_id": 382238,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
       "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2705,8 +2819,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2738,7 +2852,10 @@
         "talent_name": "Recuperator",
         "spell_id": 378996,
         "visible_spell_id": null,
-        "icon": "inv_gizmo_runichealthinjector"
+        "icon": "inv_gizmo_runichealthinjector",
+        "icon_candidates": [
+          "inv_gizmo_runichealthinjector"
+        ]
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
       "pvp_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2762,8 +2879,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2796,7 +2913,10 @@
         "talent_name": "Alacrity",
         "spell_id": 193539,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Haste increased by 3%.",
       "pvp_tooltip": "Haste increased by 3%.",
@@ -2839,8 +2959,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2872,7 +2992,10 @@
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
       "pvp_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2938,8 +3061,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2971,7 +3094,10 @@
         "talent_name": "Vigor",
         "spell_id": 14983,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vigor"
+        "icon": "ability_rogue_vigor",
+        "icon_candidates": [
+          "ability_rogue_vigor"
+        ]
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
       "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -3014,8 +3140,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3047,7 +3173,10 @@
         "talent_name": "Supercharger",
         "spell_id": 470347,
         "visible_spell_id": null,
-        "icon": "inv_engineering_90_electrifiedether"
+        "icon": "inv_engineering_90_electrifiedether",
+        "icon_candidates": [
+          "inv_engineering_90_electrifiedether"
+        ]
       },
       "pve_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "pvp_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -3090,8 +3219,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3123,7 +3252,10 @@
         "talent_name": "Subterfuge",
         "spell_id": 108208,
         "visible_spell_id": null,
-        "icon": "rogue_subterfuge"
+        "icon": "rogue_subterfuge",
+        "icon_candidates": [
+          "rogue_subterfuge"
+        ]
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
       "pvp_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
@@ -3166,8 +3298,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3197,7 +3329,10 @@
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
         "visible_spell_id": 381623,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
       "pvp_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3221,8 +3356,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3252,7 +3387,10 @@
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
         "visible_spell_id": null,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
       "pvp_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3276,8 +3414,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3307,7 +3445,10 @@
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
         "visible_spell_id": null,
-        "icon": "spell_ice_lament"
+        "icon": "spell_ice_lament",
+        "icon_candidates": [
+          "spell_ice_lament"
+        ]
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
       "pvp_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3331,8 +3472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3362,7 +3503,10 @@
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
         "visible_spell_id": null,
-        "icon": "inv_ability_rogue_echoingreprimand"
+        "icon": "inv_ability_rogue_echoingreprimand",
+        "icon_candidates": [
+          "inv_ability_rogue_echoingreprimand"
+        ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Backstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
       "pvp_tooltip": "After consuming a supercharged combo point, your next Backstab also strikes the target with an Echoing Reprimand dealing (99.12% of Attack Power) Physical damage.",
@@ -3446,8 +3590,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3477,7 +3621,10 @@
         "talent_name": "Forced Induction",
         "spell_id": 470668,
         "visible_spell_id": null,
-        "icon": "inv_misc_enggizmos_06"
+        "icon": "inv_misc_enggizmos_06",
+        "icon_candidates": [
+          "inv_misc_enggizmos_06"
+        ]
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
       "pvp_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3501,8 +3648,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3532,7 +3679,10 @@
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3556,8 +3706,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3587,7 +3737,10 @@
         "talent_name": "Without a Trace",
         "spell_id": 382513,
         "visible_spell_id": null,
-        "icon": "ability_vanish"
+        "icon": "ability_vanish",
+        "icon_candidates": [
+          "ability_vanish"
+        ]
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
       "pvp_tooltip": "Vanish has 1 additional charge.",
@@ -3611,8 +3764,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3644,7 +3797,10 @@
         "talent_name": "Find Weakness",
         "spell_id": 91023,
         "visible_spell_id": null,
-        "icon": "ability_rogue_findweakness"
+        "icon": "ability_rogue_findweakness",
+        "icon_candidates": [
+          "ability_rogue_findweakness"
+        ]
       },
       "pve_tooltip": "Your Stealth abilities allow you to see the flaws in enemies' defenses, causing your attacks to ignore 30% armor for 10 sec.",
       "pvp_tooltip": "Your Stealth abilities allow you to see the flaws in enemies' defenses, causing your attacks to ignore 30% armor for 10 sec.",
@@ -3668,8 +3824,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3701,7 +3857,10 @@
         "talent_name": "Improved Backstab",
         "spell_id": 319949,
         "visible_spell_id": null,
-        "icon": "ability_backstab"
+        "icon": "ability_backstab",
+        "icon_candidates": [
+          "ability_backstab"
+        ]
       },
       "pve_tooltip": "[Gloomblade / Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
       "pvp_tooltip": "[Gloomblade / Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
@@ -3725,8 +3884,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3758,7 +3917,10 @@
         "talent_name": "Shadow Blades",
         "spell_id": 121471,
         "visible_spell_id": null,
-        "icon": "inv_knife_1h_grimbatolraid_d_03"
+        "icon": "inv_knife_1h_grimbatolraid_d_03",
+        "icon_candidates": [
+          "inv_knife_1h_grimbatolraid_d_03"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nDraws upon surrounding shadows to empower your weapons, causing your attacks to deal 20% additional damage as Shadow and causing your combo point generating abilities to generate double combo points for 16 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nDraws upon surrounding shadows to empower your weapons, causing your attacks to deal 5% additional damage as Shadow and causing your combo point generating abilities to generate double combo points for 16 sec.",
@@ -3829,8 +3991,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3862,7 +4024,11 @@
         "talent_name": "Improved Shuriken Storm",
         "spell_id": 319951,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shuriken-storm"
+        "icon": "ability_rogue_shuriken_storm",
+        "icon_candidates": [
+          "ability_rogue_shuriken_storm",
+          "ability_rogue_shuriken-storm"
+        ]
       },
       "pve_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
       "pvp_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
@@ -3886,8 +4052,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3920,7 +4086,10 @@
         "talent_name": "Premeditation",
         "spell_id": 343160,
         "visible_spell_id": null,
-        "icon": "spell_shadow_possession"
+        "icon": "spell_shadow_possession",
+        "icon_candidates": [
+          "spell_shadow_possession"
+        ]
       },
       "pve_tooltip": "After entering Stealth, your next combo point generating ability generates full combo points.",
       "pvp_tooltip": "After entering Stealth, your next combo point generating ability generates full combo points.",
@@ -3944,8 +4113,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3978,7 +4147,10 @@
         "talent_name": "Quick Decisions",
         "spell_id": 382503,
         "visible_spell_id": null,
-        "icon": "inv_misc_hook_01"
+        "icon": "inv_misc_hook_01",
+        "icon_candidates": [
+          "inv_misc_hook_01"
+        ]
       },
       "pve_tooltip": "Shadowstep's cooldown is reduced by 20%, and its maximum range is increased by 20%.",
       "pvp_tooltip": "Shadowstep's cooldown is reduced by 20%, and its maximum range is increased by 20%.",
@@ -4002,8 +4174,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4036,7 +4208,10 @@
         "talent_name": "Ephemeral Bond",
         "spell_id": 426563,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soullink"
+        "icon": "ability_warlock_soullink",
+        "icon_candidates": [
+          "ability_warlock_soullink"
+        ]
       },
       "pve_tooltip": "Increases healing received by 8%.",
       "pvp_tooltip": "Increases healing received by 8%.",
@@ -4060,8 +4235,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4094,7 +4269,11 @@
         "talent_name": "Silent Storm",
         "spell_id": 385722,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shuriken-storm"
+        "icon": "ability_rogue_shuriken_storm",
+        "icon_candidates": [
+          "ability_rogue_shuriken_storm",
+          "ability_rogue_shuriken-storm"
+        ]
       },
       "pve_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
       "pvp_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
@@ -4118,8 +4297,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4151,7 +4330,10 @@
         "talent_name": "Shrouded in Darkness",
         "spell_id": 382507,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment increases the movement speed of allies by 100% and leaving its area no longer cancels the effect.",
       "pvp_tooltip": "Shroud of Concealment increases the movement speed of allies by 100% and leaving its area no longer cancels the effect.",
@@ -4175,8 +4357,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4211,7 +4393,10 @@
         "talent_name": "Shot in the Dark",
         "spell_id": 257505,
         "visible_spell_id": null,
-        "icon": "ability_cheapshot"
+        "icon": "ability_cheapshot",
+        "icon_candidates": [
+          "ability_cheapshot"
+        ]
       },
       "pve_tooltip": "After using Vanish or Shadow Dance, your next Cheap Shot is free and ignores its cooldown.",
       "pvp_tooltip": "After using Vanish or Shadow Dance, your next Cheap Shot is free and ignores its cooldown.",
@@ -4235,8 +4420,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4271,7 +4456,10 @@
         "talent_name": "Exhilarating Execution",
         "spell_id": 428486,
         "visible_spell_id": null,
-        "icon": "inv_weapon_hand_04"
+        "icon": "inv_weapon_hand_04",
+        "icon_candidates": [
+          "inv_weapon_hand_04"
+        ]
       },
       "pve_tooltip": "Your finishing moves heal you for 5% of damage done. At full health gain shielding instead, absorbing up to 10% of your maximum health.",
       "pvp_tooltip": "Your finishing moves heal you for 5% of damage done. At full health gain shielding instead, absorbing up to 10% of your maximum health.",
@@ -4295,8 +4483,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4331,7 +4519,10 @@
         "talent_name": "Cloaked in Shadows",
         "spell_id": 382515,
         "visible_spell_id": null,
-        "icon": "inv_helm_cloth_shadowmoonclan_b_01"
+        "icon": "inv_helm_cloth_shadowmoonclan_b_01",
+        "icon_candidates": [
+          "inv_helm_cloth_shadowmoonclan_b_01"
+        ]
       },
       "pve_tooltip": "Vanish grants you a shield for 6 sec, absorbing damage equal to 18% of your maximum health.",
       "pvp_tooltip": "Vanish grants you a shield for 6 sec, absorbing damage equal to 18% of your maximum health.",
@@ -4388,8 +4579,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4424,7 +4615,10 @@
         "talent_name": "Fade to Nothing",
         "spell_id": 382514,
         "visible_spell_id": null,
-        "icon": "ability_warlock_everlastingaffliction"
+        "icon": "ability_warlock_everlastingaffliction",
+        "icon_candidates": [
+          "ability_warlock_everlastingaffliction"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 20% and damage taken reduced by 10% for 8 sec after gaining Stealth, Vanish, or Shadow Dance.",
       "pvp_tooltip": "Movement speed increased by 20% and damage taken reduced by 10% for 8 sec after gaining Stealth, Vanish, or Shadow Dance.",
@@ -4448,8 +4642,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4481,7 +4675,10 @@
         "talent_name": "Night Terrors",
         "spell_id": 277953,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadesofdarkness"
+        "icon": "spell_shadow_shadesofdarkness",
+        "icon_candidates": [
+          "spell_shadow_shadesofdarkness"
+        ]
       },
       "pve_tooltip": "Shuriken Storm reduces enemies' movement speed by 50% for 8 sec.",
       "pvp_tooltip": "Shuriken Storm reduces enemies' movement speed by 50% for 8 sec.",
@@ -4505,8 +4702,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4538,7 +4735,10 @@
         "talent_name": "Terrifying Pace",
         "spell_id": 428387,
         "visible_spell_id": null,
-        "icon": "ability_druid_typhoon"
+        "icon": "ability_druid_typhoon",
+        "icon_candidates": [
+          "ability_druid_typhoon"
+        ]
       },
       "pve_tooltip": "Shuriken Storm increases your movement speed by 30% for 3 sec when striking 3 or more enemies.",
       "pvp_tooltip": "Shuriken Storm increases your movement speed by 30% for 3 sec when striking 3 or more enemies.",
@@ -4562,8 +4762,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4598,7 +4798,10 @@
         "talent_name": "Master of Shadows",
         "spell_id": 196976,
         "visible_spell_id": null,
-        "icon": "spell_shadow_charm"
+        "icon": "spell_shadow_charm",
+        "icon_candidates": [
+          "spell_shadow_charm"
+        ]
       },
       "pve_tooltip": "Gain 30 Energy over 3 sec when you enter Stealth or activate Shadow Dance.",
       "pvp_tooltip": "Gain 30 Energy over 3 sec when you enter Stealth or activate Shadow Dance.",
@@ -4622,8 +4825,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4655,7 +4858,10 @@
         "talent_name": "Gloomblade",
         "spell_id": 200758,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_convulsiveshadows"
+        "icon": "ability_ironmaidens_convulsiveshadows",
+        "icon_candidates": [
+          "ability_ironmaidens_convulsiveshadows"
+        ]
       },
       "pve_tooltip": "Replaces Backstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [Improved Backstab: Critical strikes apply Find Weakness for 10 sec]\nAwards 1 combo points.",
       "pvp_tooltip": "Replaces Backstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (179.7768% of Attack Power) Shadow damage, bypassing armor. [Improved Backstab: Critical strikes apply Find Weakness for 10 sec]\nAwards 1 combo points.",
@@ -4736,8 +4942,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4771,7 +4977,10 @@
         "talent_name": "Shadow Focus",
         "spell_id": 108209,
         "visible_spell_id": null,
-        "icon": "rogue_shadowfocus"
+        "icon": "rogue_shadowfocus",
+        "icon_candidates": [
+          "rogue_shadowfocus"
+        ]
       },
       "pve_tooltip": "Abilities deal 10% more damage while Stealth or Shadow Dance is active.",
       "pvp_tooltip": "Abilities deal 10% more damage while Stealth or Shadow Dance is active.",
@@ -4795,8 +5004,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4828,7 +5037,10 @@
         "talent_name": "Improved Secret Technique",
         "spell_id": 1279444,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sinistercalling"
+        "icon": "ability_rogue_sinistercalling",
+        "icon_candidates": [
+          "ability_rogue_sinistercalling"
+        ]
       },
       "pve_tooltip": "Secret Technique damage increased by 15%.",
       "pvp_tooltip": "Secret Technique damage increased by 15%.",
@@ -4852,8 +5064,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4888,7 +5100,10 @@
         "talent_name": "Relentless Strikes",
         "spell_id": 58423,
         "visible_spell_id": null,
-        "icon": "ability_warrior_decisivestrike"
+        "icon": "ability_warrior_decisivestrike",
+        "icon_candidates": [
+          "ability_warrior_decisivestrike"
+        ]
       },
       "pve_tooltip": "Your finishing moves generate 4 Energy per combo point spent.",
       "pvp_tooltip": "Your finishing moves generate 4 Energy per combo point spent.",
@@ -4912,8 +5127,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4945,7 +5160,10 @@
         "talent_name": "Weaponmaster",
         "spell_id": 193537,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bladerush"
+        "icon": "ability_ironmaidens_bladerush",
+        "icon_candidates": [
+          "ability_ironmaidens_bladerush"
+        ]
       },
       "pve_tooltip": "[Gloomblade / Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "pvp_tooltip": "[Gloomblade / Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -4969,8 +5187,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5003,7 +5221,10 @@
         "talent_name": "Planned Execution",
         "spell_id": 382508,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_02"
+        "icon": "ability_creature_cursed_02",
+        "icon_candidates": [
+          "ability_creature_cursed_02"
+        ]
       },
       "pve_tooltip": "Shadow Dance increases the critical strike damage bonus of your abilities by 10%.",
       "pvp_tooltip": "Shadow Dance increases the critical strike damage bonus of your abilities by 10%.",
@@ -5027,8 +5248,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5061,7 +5282,10 @@
         "talent_name": "Warning Signs",
         "spell_id": 426555,
         "visible_spell_id": null,
-        "icon": "achievement_bg_kill_flag_carrier"
+        "icon": "achievement_bg_kill_flag_carrier",
+        "icon_candidates": [
+          "achievement_bg_kill_flag_carrier"
+        ]
       },
       "pve_tooltip": "Shadow Dance increases attack speed by 25%.",
       "pvp_tooltip": "Shadow Dance increases attack speed by 25%.",
@@ -5085,8 +5309,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5121,7 +5345,10 @@
         "talent_name": "Double Dance",
         "spell_id": 394930,
         "visible_spell_id": null,
-        "icon": "warrior_doubletime"
+        "icon": "warrior_doubletime",
+        "icon_candidates": [
+          "warrior_doubletime"
+        ]
       },
       "pve_tooltip": "Shadow Dance has 1 additional charge.",
       "pvp_tooltip": "Shadow Dance has 1 additional charge.",
@@ -5145,8 +5372,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5181,7 +5408,10 @@
         "talent_name": "Shadowed Finishers",
         "spell_id": 382511,
         "visible_spell_id": null,
-        "icon": "ability_rogue_eviscerate"
+        "icon": "ability_rogue_eviscerate",
+        "icon_candidates": [
+          "ability_rogue_eviscerate"
+        ]
       },
       "pve_tooltip": "Eviscerate and Black Powder deal an additional 30% damage as Shadow while Find Weakness is active.",
       "pvp_tooltip": "Eviscerate and Black Powder deal an additional 30% damage as Shadow while Find Weakness is active.",
@@ -5205,8 +5435,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5239,7 +5469,10 @@
         "talent_name": "Secret Stratagem",
         "spell_id": 394320,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -5263,8 +5496,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5296,7 +5529,10 @@
         "talent_name": "Shuriken Tornado",
         "spell_id": 1264764,
         "visible_spell_id": null,
-        "icon": "ability_rogue_throwingspecialization"
+        "icon": "ability_rogue_throwingspecialization",
+        "icon_candidates": [
+          "ability_rogue_throwingspecialization"
+        ]
       },
       "pve_tooltip": "Shuriken Storm has a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "pvp_tooltip": "Shuriken Storm has a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -5320,8 +5556,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5354,7 +5590,10 @@
         "talent_name": "Umbral Edge",
         "spell_id": 1281468,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nightblade"
+        "icon": "ability_rogue_nightblade",
+        "icon_candidates": [
+          "ability_rogue_nightblade"
+        ]
       },
       "pve_tooltip": "Shadow Clones deal 15% increased damage.\nCheap Shot creates a Shadow Clone to Shadowstrike the target for 50% of normal damage as Shadow.\nKidney Shot creates a Shadow Clone to Eviscerate the target for 50% of normal damage as Shadow.",
       "pvp_tooltip": "Shadow Clones deal 15% increased damage.\nCheap Shot creates a Shadow Clone to Shadowstrike the target for 50% of normal damage as Shadow.\nKidney Shot creates a Shadow Clone to Eviscerate the target for 50% of normal damage as Shadow.",
@@ -5378,8 +5617,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5413,7 +5652,10 @@
         "talent_name": "Deepening Shadows",
         "spell_id": 185314,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (0 / 1000) sec",
       "pvp_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (0 / 1000) sec",
@@ -5437,8 +5679,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5473,7 +5715,10 @@
         "talent_name": "Goremaw's Bite",
         "spell_id": 426591,
         "visible_spell_id": null,
-        "icon": "inv_knife_1h_artifactfangs_d_01"
+        "icon": "inv_knife_1h_artifactfangs_d_01",
+        "icon_candidates": [
+          "inv_knife_1h_artifactfangs_d_01"
+        ]
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (630% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
       "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (529.2% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
@@ -5627,8 +5872,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5662,7 +5907,10 @@
         "talent_name": "Veiltouched",
         "spell_id": 382017,
         "visible_spell_id": null,
-        "icon": "spell_arcane_prismaticcloak"
+        "icon": "spell_arcane_prismaticcloak",
+        "icon_candidates": [
+          "spell_arcane_prismaticcloak"
+        ]
       },
       "pve_tooltip": "Your abilities deal 5% increased magic damage.",
       "pvp_tooltip": "Your abilities deal 5% increased magic damage.",
@@ -5686,8 +5934,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5720,7 +5968,10 @@
         "talent_name": "Replicating Shadows",
         "spell_id": 382506,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_strangulate"
+        "icon": "spell_deathknight_strangulate",
+        "icon_candidates": [
+          "spell_deathknight_strangulate"
+        ]
       },
       "pve_tooltip": "Shadow Clones deal 15% increased damage and your effects that have a chance to create them have 5% additional chance to occur.",
       "pvp_tooltip": "Shadow Clones deal 5% increased damage and your effects that have a chance to create them have 5% additional chance to occur.",
@@ -5791,8 +6042,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5825,7 +6076,10 @@
         "talent_name": "Improved Find Weakness",
         "spell_id": 382512,
         "visible_spell_id": null,
-        "icon": "ability_rogue_findweakness"
+        "icon": "ability_rogue_findweakness",
+        "icon_candidates": [
+          "ability_rogue_findweakness"
+        ]
       },
       "pve_tooltip": "Find Weakness causes your attacks to ignore an additional 20% armor.",
       "pvp_tooltip": "Find Weakness causes your attacks to ignore an additional 20% armor.",
@@ -5849,8 +6103,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5884,7 +6138,10 @@
         "talent_name": "Perforated Veins",
         "spell_id": 382518,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodfrenzy"
+        "icon": "ability_warrior_bloodfrenzy",
+        "icon_candidates": [
+          "ability_warrior_bloodfrenzy"
+        ]
       },
       "pve_tooltip": "[Gloomblade / Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
       "pvp_tooltip": "[Gloomblade / Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
@@ -5908,8 +6165,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5941,7 +6198,10 @@
         "talent_name": "Lingering Shadow",
         "spell_id": 382524,
         "visible_spell_id": null,
-        "icon": "spell_fire_twilightnova"
+        "icon": "spell_fire_twilightnova",
+        "icon_candidates": [
+          "spell_fire_twilightnova"
+        ]
       },
       "pve_tooltip": "After Shadow Dance ends, [Gloomblade / Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
       "pvp_tooltip": "After Shadow Dance ends, [Gloomblade / Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
@@ -5965,8 +6225,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6000,7 +6260,10 @@
         "talent_name": "Deeper Daggers",
         "spell_id": 382517,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_15"
+        "icon": "inv_weapon_shortblade_15",
+        "icon_candidates": [
+          "inv_weapon_shortblade_15"
+        ]
       },
       "pve_tooltip": "Shadow damage increased by 8%.\n(500ms cooldown)",
       "pvp_tooltip": "Shadow damage increased by 8%.\n(500ms cooldown)",
@@ -6024,8 +6287,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6058,7 +6321,10 @@
         "talent_name": "Potent Powder",
         "spell_id": 1265952,
         "visible_spell_id": null,
-        "icon": "spell_priest_divinestar_shadow"
+        "icon": "spell_priest_divinestar_shadow",
+        "icon_candidates": [
+          "spell_priest_divinestar_shadow"
+        ]
       },
       "pve_tooltip": "Black Powder deals increased damage equal to 20% of your Mastery when it spends 5 or more combo points.\n(500ms cooldown)",
       "pvp_tooltip": "Black Powder deals increased damage equal to 20% of your Mastery when it spends 5 or more combo points.\n(500ms cooldown)",
@@ -6082,8 +6348,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6117,7 +6383,10 @@
         "talent_name": "Death Perception",
         "spell_id": 469642,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_shortsighted"
+        "icon": "spell_nzinsanity_shortsighted",
+        "icon_candidates": [
+          "spell_nzinsanity_shortsighted"
+        ]
       },
       "pve_tooltip": "Find Weakness increases the damage of finishing moves by 10%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
       "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 6%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
@@ -6287,8 +6556,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6324,7 +6593,10 @@
         "talent_name": "Dark Shadow",
         "spell_id": 245687,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonsoul"
+        "icon": "spell_warlock_demonsoul",
+        "icon_candidates": [
+          "spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 10%.",
       "pvp_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 6.667%.",
@@ -6465,8 +6737,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6500,7 +6772,10 @@
         "talent_name": "Finality",
         "spell_id": 382525,
         "visible_spell_id": null,
-        "icon": "ability_rogue_eviscerate"
+        "icon": "ability_rogue_eviscerate",
+        "icon_candidates": [
+          "ability_rogue_eviscerate"
+        ]
       },
       "pve_tooltip": "Eviscerate and Black Powder have 30% increased critical strike damage bonus.",
       "pvp_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
@@ -6646,8 +6921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6677,7 +6952,10 @@
         "talent_name": "The Rotten",
         "spell_id": 382015,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nightofthedead"
+        "icon": "spell_shadow_nightofthedead",
+        "icon_candidates": [
+          "spell_shadow_nightofthedead"
+        ]
       },
       "pve_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 35% increased damage.",
       "pvp_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 21% increased damage.",
@@ -6753,8 +7031,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6785,7 +7063,10 @@
         "talent_name": "Shadowcraft",
         "spell_id": 426594,
         "visible_spell_id": null,
-        "icon": "spell_shadow_sealofkings"
+        "icon": "spell_shadow_sealofkings",
+        "icon_candidates": [
+          "spell_shadow_sealofkings"
+        ]
       },
       "pve_tooltip": "While Shadow Dance is active, your Shadow Techniques triggers 25% more frequently and generates 1 additional combo point.",
       "pvp_tooltip": "While Shadow Dance is active, your Shadow Techniques triggers 25% more frequently and generates 1 additional combo point.",
@@ -6809,8 +7090,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6840,7 +7121,10 @@
         "talent_name": "Danse Macabre",
         "spell_id": 382528,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_death"
+        "icon": "ability_deathwing_bloodcorruption_death",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_death"
+        ]
       },
       "pve_tooltip": "While Shadow Dance is active, each different attack that generates or spends combo points lashes out at the target, dealing (420% of Attack Power) Shadow damage.\n(500ms cooldown)",
       "pvp_tooltip": "While Shadow Dance is active, each different attack that generates or spends combo points lashes out at the target, dealing (352.8% of Attack Power) Shadow damage.\n(500ms cooldown)",
@@ -6924,8 +7208,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6956,7 +7240,10 @@
         "talent_name": "The First Dance",
         "spell_id": 382505,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shadowdance"
+        "icon": "ability_rogue_shadowdance",
+        "icon_candidates": [
+          "ability_rogue_shadowdance"
+        ]
       },
       "pve_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
       "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
@@ -7022,8 +7309,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7053,7 +7340,10 @@
         "talent_name": "Dark Brew",
         "spell_id": 382504,
         "visible_spell_id": null,
-        "icon": "spell_nature_slowpoison"
+        "icon": "spell_nature_slowpoison",
+        "icon_candidates": [
+          "spell_nature_slowpoison"
+        ]
       },
       "pve_tooltip": "Your weapon poisons have 10% increased application chance and now deal damage as Shadow instead of Nature.\nShadow damage increased by 10%.",
       "pvp_tooltip": "Your weapon poisons have 10% increased application chance and now deal damage as Shadow instead of Nature.\nShadow damage increased by 10%.",
@@ -7077,8 +7367,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7106,7 +7396,10 @@
         "talent_name": "Ancient Arts",
         "spell_id": 1268932,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_ancientarts"
+        "icon": "inv12_apextalent_rogue_ancientarts",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_ancientarts"
+        ]
       },
       "pve_tooltip": "Damaging attacks that expend Shadow Techniques to generate combo points have a 15% chance per stack expended to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "pvp_tooltip": "Damaging attacks that expend Shadow Techniques to generate combo points have a 15% chance per stack expended to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -7130,8 +7423,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7159,7 +7452,10 @@
         "talent_name": "Ancient Arts",
         "spell_id": 1268936,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_ancientarts"
+        "icon": "inv12_apextalent_rogue_ancientarts",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_ancientarts"
+        ]
       },
       "pve_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
       "pvp_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
@@ -7202,8 +7498,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7231,7 +7527,10 @@
         "talent_name": "Ancient Arts",
         "spell_id": 1268939,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_ancientarts"
+        "icon": "inv12_apextalent_rogue_ancientarts",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_ancientarts"
+        ]
       },
       "pve_tooltip": "After attacks that generate combo points, if 5 or more stacks of Shadow Techniques remain, your next damaging finishing move will expend them to generate combo points up to your max.",
       "pvp_tooltip": "After attacks that generate combo points, if 5 or more stacks of Shadow Techniques remain, your next damaging finishing move will expend them to generate combo points up to your max.",
@@ -7255,8 +7554,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7289,7 +7588,10 @@
         "talent_name": "Deathstalker's Mark",
         "spell_id": 457052,
         "visible_spell_id": null,
-        "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
+        "icon": "inv_ability_deathstalkerrogue_deathstalkersmark",
+        "icon_candidates": [
+          "inv_ability_deathstalkerrogue_deathstalkersmark"
+        ]
       },
       "pve_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
       "pvp_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (131.04% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
@@ -7373,8 +7675,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7406,7 +7708,10 @@
         "talent_name": "Clear the Witnesses",
         "spell_id": 1248793,
         "visible_spell_id": null,
-        "icon": "ability_rogue_fanofknives"
+        "icon": "ability_rogue_fanofknives",
+        "icon_candidates": [
+          "ability_rogue_fanofknives"
+        ]
       },
       "pve_tooltip": "Shuriken Storm damage increased by 60%.",
       "pvp_tooltip": "Shuriken Storm damage increased by 60%.",
@@ -7430,8 +7735,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7463,7 +7768,10 @@
         "talent_name": "Hunt Them Down",
         "spell_id": 457054,
         "visible_spell_id": null,
-        "icon": "ability_rogue_creepingvenom"
+        "icon": "ability_rogue_creepingvenom",
+        "icon_candidates": [
+          "ability_rogue_creepingvenom"
+        ]
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
       "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (8.4% of Attack Power) Plague damage.",
@@ -7547,8 +7855,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7580,7 +7888,10 @@
         "talent_name": "Singular Focus",
         "spell_id": 457055,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
       "pvp_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
@@ -7604,8 +7915,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7637,7 +7948,10 @@
         "talent_name": "Precise Killer",
         "spell_id": 1272989,
         "visible_spell_id": null,
-        "icon": "inv_tradeskillitem_sorcererswind"
+        "icon": "inv_tradeskillitem_sorcererswind",
+        "icon_candidates": [
+          "inv_tradeskillitem_sorcererswind"
+        ]
       },
       "pve_tooltip": "Critical strike damage bonus increased by 20%.",
       "pvp_tooltip": "Critical strike damage bonus increased by 20%.",
@@ -7661,8 +7975,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7694,7 +8008,10 @@
         "talent_name": "Unshakeable Drive",
         "spell_id": 1248774,
         "visible_spell_id": null,
-        "icon": "ability_warrior_deepcuts"
+        "icon": "ability_warrior_deepcuts",
+        "icon_candidates": [
+          "ability_warrior_deepcuts"
+        ]
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next is increased by 50% or Shadowstrike increased by 25%.",
       "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next is increased by 30% or Shadowstrike increased by 15%.",
@@ -7817,8 +8134,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7850,7 +8167,10 @@
         "talent_name": "Corrupt the Blood",
         "spell_id": 1248785,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bloodritual"
+        "icon": "ability_ironmaidens_bloodritual",
+        "icon_candidates": [
+          "ability_ironmaidens_bloodritual"
+        ]
       },
       "pve_tooltip": "Deathstalker's Mark damage increased by 25%.",
       "pvp_tooltip": "Deathstalker's Mark damage increased by 25%.",
@@ -7874,8 +8194,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7907,7 +8227,10 @@
         "talent_name": "Lingering Darkness",
         "spell_id": 457056,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "After Shadow Blades expires, gain 30% increased Shadow damage for 30 sec.",
       "pvp_tooltip": "After Shadow Blades expires, gain 30% increased Shadow damage for 30 sec.",
@@ -7931,8 +8254,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7964,7 +8287,10 @@
         "talent_name": "Symbolic Victory",
         "spell_id": 457062,
         "visible_spell_id": null,
-        "icon": "ability_priest_surgeofdarkness"
+        "icon": "ability_priest_surgeofdarkness",
+        "icon_candidates": [
+          "ability_priest_surgeofdarkness"
+        ]
       },
       "pve_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 15%.",
       "pvp_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 10%.",
@@ -7983,16 +8309,6 @@
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 18.0,
-          "new": 10.080000000000002,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             2
@@ -8066,7 +8382,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8080,8 +8396,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8113,7 +8429,10 @@
         "talent_name": "Quietus Celeris",
         "spell_id": 1273017,
         "visible_spell_id": null,
-        "icon": "ability_argus_deathfog"
+        "icon": "ability_argus_deathfog",
+        "icon_candidates": [
+          "ability_argus_deathfog"
+        ]
       },
       "pve_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
       "pvp_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
@@ -8137,8 +8456,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8170,7 +8489,10 @@
         "talent_name": "Ethereal Cloak",
         "spell_id": 457022,
         "visible_spell_id": null,
-        "icon": "spell_arcane_prismaticcloak"
+        "icon": "spell_arcane_prismaticcloak",
+        "icon_candidates": [
+          "spell_arcane_prismaticcloak"
+        ]
       },
       "pve_tooltip": "Cloak of Shadows duration increased by 2 sec.",
       "pvp_tooltip": "Cloak of Shadows duration increased by 2 sec.",
@@ -8194,8 +8516,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8227,7 +8549,10 @@
         "talent_name": "Bait and Switch",
         "spell_id": 457034,
         "visible_spell_id": null,
-        "icon": "ability_druid_earthandsky"
+        "icon": "ability_druid_earthandsky",
+        "icon_candidates": [
+          "ability_druid_earthandsky"
+        ]
       },
       "pve_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
       "pvp_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
@@ -8251,8 +8576,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8284,7 +8609,10 @@
         "talent_name": "Momentum of Despair",
         "spell_id": 457067,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadesofdarkness"
+        "icon": "spell_shadow_shadesofdarkness",
+        "icon_candidates": [
+          "spell_shadow_shadesofdarkness"
+        ]
       },
       "pve_tooltip": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by 10% and critical strike damage by 30% for 8 sec.",
       "pvp_tooltip": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by 10% and critical strike damage by 30% for 8 sec.",
@@ -8308,8 +8636,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8341,7 +8669,10 @@
         "talent_name": "Follow the Blood",
         "spell_id": 457068,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye_nightmare"
+        "icon": "sha_ability_rogue_bloodyeye_nightmare",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye_nightmare"
+        ]
       },
       "pve_tooltip": "Shuriken Storm and Black Powder deal 15% additional damage while Find Weakness is active.",
       "pvp_tooltip": "Shuriken Storm and Black Powder deal 15% additional damage while Find Weakness is active.",
@@ -8365,8 +8696,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8398,7 +8729,10 @@
         "talent_name": "Shadewalker",
         "spell_id": 457057,
         "visible_spell_id": null,
-        "icon": "rogue_shadow_reflection"
+        "icon": "rogue_shadow_reflection",
+        "icon_candidates": [
+          "rogue_shadow_reflection"
+        ]
       },
       "pve_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
       "pvp_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
@@ -8422,8 +8756,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8455,7 +8789,10 @@
         "talent_name": "Shroud of Night",
         "spell_id": 457063,
         "visible_spell_id": null,
-        "icon": "spell_holy_elunesgrace"
+        "icon": "spell_holy_elunesgrace",
+        "icon_candidates": [
+          "spell_holy_elunesgrace"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment duration increased by 5 sec.",
       "pvp_tooltip": "Shroud of Concealment duration increased by 5 sec.",
@@ -8479,8 +8816,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8512,7 +8849,10 @@
         "talent_name": "Mass Casualty",
         "spell_id": 1273035,
         "visible_spell_id": null,
-        "icon": "ability_hunter_rapidkilling"
+        "icon": "ability_hunter_rapidkilling",
+        "icon_candidates": [
+          "ability_hunter_rapidkilling"
+        ]
       },
       "pve_tooltip": "Deathstalker's Mark deals 75% of its normal damage to all other enemies within 8 yds when a stack is consumed by Black Powder.",
       "pvp_tooltip": "Deathstalker's Mark deals 75% of its normal damage to all other enemies within 8 yds when a stack is consumed by Black Powder.",
@@ -8536,8 +8876,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8570,7 +8910,10 @@
         "talent_name": "Darkest Night",
         "spell_id": 457058,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Eviscerate cast with 5 or more combo points to critically strike, deal 50% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEviscerate cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
       "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Eviscerate cast with 5 or more combo points to critically strike, deal 50% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEviscerate cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
@@ -8636,8 +8979,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8670,7 +9013,10 @@
         "talent_name": "Unseen Blade",
         "spell_id": 441146,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_55"
+        "icon": "inv_weapon_shortblade_55",
+        "icon_candidates": [
+          "inv_weapon_shortblade_55"
+        ]
       },
       "pve_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
       "pvp_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (235.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
@@ -8754,8 +9100,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8787,7 +9133,10 @@
         "talent_name": "Surprising Strikes",
         "spell_id": 441273,
         "visible_spell_id": null,
-        "icon": "ability_rogue_surpriseattack2"
+        "icon": "ability_rogue_surpriseattack2",
+        "icon_candidates": [
+          "ability_rogue_surpriseattack2"
+        ]
       },
       "pve_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
       "pvp_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
@@ -8811,8 +9160,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8844,7 +9193,10 @@
         "talent_name": "Smoke",
         "spell_id": 441247,
         "visible_spell_id": null,
-        "icon": "rogue_dirtytricks"
+        "icon": "rogue_dirtytricks",
+        "icon_candidates": [
+          "rogue_dirtytricks"
+        ]
       },
       "pve_tooltip": "You take 5% reduced damage from Fazed targets.",
       "pvp_tooltip": "You take 5% reduced damage from Fazed targets.",
@@ -8868,8 +9220,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8901,7 +9253,10 @@
         "talent_name": "Mirrors",
         "spell_id": 441250,
         "visible_spell_id": null,
-        "icon": "trade_archaeology_highbornesoulmirror"
+        "icon": "trade_archaeology_highbornesoulmirror",
+        "icon_candidates": [
+          "trade_archaeology_highbornesoulmirror"
+        ]
       },
       "pve_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
       "pvp_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
@@ -8925,8 +9280,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8958,7 +9313,10 @@
         "talent_name": "Flawless Form",
         "spell_id": 441321,
         "visible_spell_id": null,
-        "icon": "inv_qiraj_jewelblessed"
+        "icon": "inv_qiraj_jewelblessed",
+        "icon_candidates": [
+          "inv_qiraj_jewelblessed"
+        ]
       },
       "pve_tooltip": "Unseen Blade and Secret Technique increase the damage of your finishing moves by 2% for 12 sec. Max 5 stacks.",
       "pvp_tooltip": "Unseen Blade and Secret Technique increase the damage of your finishing moves by 2% for 12 sec. Max 5 stacks.",
@@ -8982,8 +9340,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9015,7 +9373,10 @@
         "talent_name": "Hoodwink",
         "spell_id": 1276626,
         "visible_spell_id": null,
-        "icon": "spell_holy_dizzy"
+        "icon": "spell_holy_dizzy",
+        "icon_candidates": [
+          "spell_holy_dizzy"
+        ]
       },
       "pve_tooltip": "Fazed increases damage taken by an additional 3%.",
       "pvp_tooltip": "Fazed increases damage taken by an additional 3%.",
@@ -9039,8 +9400,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9072,7 +9433,10 @@
         "talent_name": "So Tricky",
         "spell_id": 441403,
         "visible_spell_id": null,
-        "icon": "ability_rogue_tricksofthetrade"
+        "icon": "ability_rogue_tricksofthetrade",
+        "icon_candidates": [
+          "ability_rogue_tricksofthetrade"
+        ]
       },
       "pve_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
       "pvp_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
@@ -9096,8 +9460,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9129,7 +9493,10 @@
         "talent_name": "Don't Be Suspicious",
         "spell_id": 441415,
         "visible_spell_id": null,
-        "icon": "ability_rogue_disguise"
+        "icon": "ability_rogue_disguise",
+        "icon_candidates": [
+          "ability_rogue_disguise"
+        ]
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
       "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 5 yd increased range.",
@@ -9200,8 +9567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9233,7 +9600,10 @@
         "talent_name": "Devious Distractions",
         "spell_id": 441263,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ghostpirate"
+        "icon": "ability_rogue_ghostpirate",
+        "icon_candidates": [
+          "ability_rogue_ghostpirate"
+        ]
       },
       "pve_tooltip": "Secret Technique applies Fazed to any targets struck.",
       "pvp_tooltip": "Secret Technique applies Fazed to any targets struck.",
@@ -9257,8 +9627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9290,7 +9660,10 @@
         "talent_name": "Thousand Cuts",
         "spell_id": 441346,
         "visible_spell_id": null,
-        "icon": "inv_10_specialization_blacksmithing_blades_color1"
+        "icon": "inv_10_specialization_blacksmithing_blades_color1",
+        "icon_candidates": [
+          "inv_10_specialization_blacksmithing_blades_color1"
+        ]
       },
       "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
       "pvp_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
@@ -9314,8 +9687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9347,7 +9720,10 @@
         "talent_name": "Flickerstrike",
         "spell_id": 441359,
         "visible_spell_id": null,
-        "icon": "spell_nature_invisibilty"
+        "icon": "spell_nature_invisibilty",
+        "icon_candidates": [
+          "spell_nature_invisibilty"
+        ]
       },
       "pve_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "pvp_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -9371,8 +9747,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9404,7 +9780,10 @@
         "talent_name": "Flashing Steel",
         "spell_id": 1276630,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fastermeleeattacks"
+        "icon": "inv_1115_warrior_fastermeleeattacks",
+        "icon_candidates": [
+          "inv_1115_warrior_fastermeleeattacks"
+        ]
       },
       "pve_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
       "pvp_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
@@ -9428,8 +9807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9461,7 +9840,10 @@
         "talent_name": "Disorienting Strikes",
         "spell_id": 441274,
         "visible_spell_id": null,
-        "icon": "petbattle_speed"
+        "icon": "petbattle_speed",
+        "icon_candidates": [
+          "petbattle_speed"
+        ]
       },
       "pve_tooltip": "Secret Technique has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
       "pvp_tooltip": "Secret Technique has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
@@ -9485,8 +9867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9518,7 +9900,10 @@
         "talent_name": "Cloud Cover",
         "spell_id": 441429,
         "visible_spell_id": null,
-        "icon": "ability_rogue_smoke"
+        "icon": "ability_rogue_smoke",
+        "icon_candidates": [
+          "ability_rogue_smoke"
+        ]
       },
       "pve_tooltip": "Activating Shadow Blades creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 2 additional times.\nEffect persists for 6 sec after leaving the cloud.",
       "pvp_tooltip": "Activating Shadow Blades creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 2 additional times.\nEffect persists for 6 sec after leaving the cloud.",
@@ -9542,8 +9927,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9575,7 +9960,10 @@
         "talent_name": "No Scruples",
         "spell_id": 441398,
         "visible_spell_id": null,
-        "icon": "ability_rogue_surpriseattack"
+        "icon": "ability_rogue_surpriseattack",
+        "icon_candidates": [
+          "ability_rogue_surpriseattack"
+        ]
       },
       "pve_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
       "pvp_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
@@ -9599,8 +9987,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9632,7 +10020,10 @@
         "talent_name": "Nimble Flurry",
         "spell_id": 441367,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bladetwisting"
+        "icon": "ability_rogue_bladetwisting",
+        "icon_candidates": [
+          "ability_rogue_bladetwisting"
+        ]
       },
       "pve_tooltip": "Your auto-attacks, Unseen Blade, and Coup de Grace also strike up to 7 nearby enemies for 50% of normal damage while Flawless Form is active.",
       "pvp_tooltip": "Your auto-attacks, Unseen Blade, and Coup de Grace also strike up to 7 nearby enemies for 50% of normal damage while Flawless Form is active.",
@@ -9656,8 +10047,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9689,7 +10080,10 @@
         "talent_name": "Clever Combatant",
         "spell_id": 1276679,
         "visible_spell_id": null,
-        "icon": "ability_rogue_versatility"
+        "icon": "ability_rogue_versatility",
+        "icon_candidates": [
+          "ability_rogue_versatility"
+        ]
       },
       "pve_tooltip": "Shuriken Storm has 10% increased critical strike chance and now triggers Unseen Blade when available.",
       "pvp_tooltip": "Shuriken Storm has 10% increased critical strike chance and now triggers Unseen Blade when available.",
@@ -9713,8 +10107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9747,7 +10141,10 @@
         "talent_name": "Coup de Grace",
         "spell_id": 441423,
         "visible_spell_id": null,
-        "icon": "inv_ability_tricksterrogue_coupdegrace"
+        "icon": "inv_ability_tricksterrogue_coupdegrace",
+        "icon_candidates": [
+          "inv_ability_tricksterrogue_coupdegrace"
+        ]
       },
       "pve_tooltip": "After 4 strikes with Unseen Blade, your next Eviscerate will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
       "pvp_tooltip": "After 4 strikes with Unseen Blade, your next Eviscerate will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
@@ -10038,7 +10435,7 @@
   },
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-22T19:28:56.841512+00:00",
+  "generated_at": "2026-09-24T11:51:18.251935+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 19,

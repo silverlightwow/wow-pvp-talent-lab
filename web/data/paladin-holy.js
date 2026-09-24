@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -51,7 +51,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lay on Hands",
         "spell_id": 633,
         "visible_spell_id": null,
-        "icon": "spell_holy_layonhands"
+        "icon": "spell_holy_layonhands",
+        "icon_candidates": [
+          "spell_holy_layonhands"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 100% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 75% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
@@ -187,8 +190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -220,7 +223,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Auras of the Resolute",
         "spell_id": 385633,
         "visible_spell_id": null,
-        "icon": "spell_holy_devotionaura"
+        "icon": "spell_holy_devotionaura",
+        "icon_candidates": [
+          "spell_holy_devotionaura"
+        ]
       },
       "pve_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
       "pvp_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
@@ -333,8 +339,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -366,7 +372,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hammer of Wrath",
         "spell_id": 1241288,
         "visible_spell_id": null,
-        "icon": "inv12_ability_paladin_hammerofwrath"
+        "icon": "inv12_ability_paladin_hammerofwrath",
+        "icon_candidates": [
+          "inv12_ability_paladin_hammerofwrath"
+        ]
       },
       "pve_tooltip": "During Avenging Wrath, Judgment is empowered into Hammer of Wrath.\nHammer of Wrath\nHurls a divine hammer that strikes an enemy for [(123.75% of Attack Power) * 1] [Blades of Light: Holystrike / Holy] damage.\nGenerates 1 Holy Power.",
       "pvp_tooltip": "During Avenging Wrath, Judgment is empowered into Hammer of Wrath.\nHammer of Wrath\nHurls a divine hammer that strikes an enemy for [(123.75% of Attack Power) * 1] [Blades of Light: Holystrike / Holy] damage.\nGenerates 1 Holy Power.",
@@ -376,82 +385,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 1241288,
-          "source_spell_id": 24275,
-          "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 2.15807 )",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1241288,
-            24275
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 428076,
-              "game_effect_id": 1150035,
-              "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 1241288,
-          "source_spell_id": 24275,
-          "effect_index": 3,
-          "effect_text": "School Damage (Holy) (AP mod: 1.61855 )",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1241288,
-            24275
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 428076,
-              "game_effect_id": 1150035,
-              "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "EMBEDDED",
@@ -495,7 +428,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -515,8 +449,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -549,7 +483,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Cleanse",
         "spell_id": 393024,
         "visible_spell_id": null,
-        "icon": "spell_holy_purify"
+        "icon": "spell_holy_purify",
+        "icon_candidates": [
+          "spell_holy_purify"
+        ]
       },
       "pve_tooltip": "Cleanse additionally removes all Disease and Poison effects.",
       "pvp_tooltip": "Cleanse additionally removes all Disease and Poison effects.",
@@ -573,8 +510,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -606,7 +543,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empyreal Ward",
         "spell_id": 387791,
         "visible_spell_id": null,
-        "icon": "spell_holy_layonhands"
+        "icon": "spell_holy_layonhands",
+        "icon_candidates": [
+          "spell_holy_layonhands"
+        ]
       },
       "pve_tooltip": "Lay on Hands grants the target 30% increased armor for 8 sec and now ignores healing reduction effects.",
       "pvp_tooltip": "Lay on Hands grants the target 49.8% increased armor for 8 sec and now ignores healing reduction effects.",
@@ -682,8 +622,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -718,7 +658,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fist of Justice",
         "spell_id": 234299,
         "visible_spell_id": null,
-        "icon": "spell_holy_fistofjustice"
+        "icon": "spell_holy_fistofjustice",
+        "icon_candidates": [
+          "spell_holy_fistofjustice"
+        ]
       },
       "pve_tooltip": "Hammer of Justice's cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Hammer of Justice's cooldown is reduced by 15 sec.",
@@ -742,8 +685,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -778,7 +721,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blinding Light",
         "spell_id": 115750,
         "visible_spell_id": null,
-        "icon": "ability_paladin_blindinglight"
+        "icon": "ability_paladin_blindinglight",
+        "icon_candidates": [
+          "ability_paladin_blindinglight"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n1.5 min cooldown\nEmits dazzling light in all directions, blinding enemies within 10 yds, causing them to wander disoriented for 6 sec. Damage may cancel the effect.",
       "pvp_tooltip": "1.2% of base mana\nInstant\n1.5 min cooldown\nEmits dazzling light in all directions, blinding enemies within 10 yds, causing them to wander disoriented for 6 sec. Damage may cancel the effect.",
@@ -802,8 +748,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -835,7 +781,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Turn Evil",
         "spell_id": 10326,
         "visible_spell_id": null,
-        "icon": "ability_paladin_turnevil"
+        "icon": "ability_paladin_turnevil",
+        "icon_candidates": [
+          "ability_paladin_turnevil"
+        ]
       },
       "pve_tooltip": "2.1% of base mana\n20 yd range\n1.5 sec cast\n15 sec cooldown\nThe power of the Light compels an Undead, Aberration, or Demon target to flee for up to 40 sec. Damage may break the effect. Lesser creatures have a chance to be destroyed. Only one target can be turned at a time.",
       "pvp_tooltip": "2.1% of base mana\n20 yd range\n1.5 sec cast\n15 sec cooldown\nThe power of the Light compels an Undead, Aberration, or Demon target to flee for up to 40 sec. Damage may break the effect. Lesser creatures have a chance to be destroyed. Only one target can be turned at a time.",
@@ -859,8 +808,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -892,16 +841,19 @@ window.WOW_PVP_DATA = {
         "talent_name": "A Just Reward",
         "spell_id": 469411,
         "visible_spell_id": null,
-        "icon": "spell_holy_blindingheal"
+        "icon": "spell_holy_blindingheal",
+        "icon_candidates": [
+          "spell_holy_blindingheal"
+        ]
       },
-      "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
-      "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(177.0014% of Spell Power)].",
+      "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (1080% of Spell Power).",
+      "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (177.0014% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 81,
-          "end": 85,
+          "start": 80,
+          "end": 84,
           "old_token": "1080",
           "new_token": "177.0014",
           "kind": "spell_power_coefficient",
@@ -968,13 +920,13 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
-          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(88.5007% of Spell Power)].",
+          "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (540% of Spell Power).",
+          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (88.5007% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 81,
-              "end": 84,
+              "start": 80,
+              "end": 83,
               "old_token": "540",
               "new_token": "88.5007",
               "kind": "spell_power_coefficient",
@@ -988,13 +940,13 @@ window.WOW_PVP_DATA = {
         },
         {
           "rank": 2,
-          "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
-          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(177.0014% of Spell Power)].",
+          "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (1080% of Spell Power).",
+          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (177.0014% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 81,
-              "end": 85,
+              "start": 80,
+              "end": 84,
               "old_token": "1080",
               "new_token": "177.0014",
               "kind": "spell_power_coefficient",
@@ -1019,8 +971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1054,7 +1006,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Afterimage",
         "spell_id": 385414,
         "visible_spell_id": null,
-        "icon": "spell_holy_aspiration"
+        "icon": "spell_holy_aspiration",
+        "icon_candidates": [
+          "spell_holy_aspiration"
+        ]
       },
       "pve_tooltip": "After you spend 20 Holy Power, your next Word of Glory echoes onto a nearby ally at 30% effectiveness.",
       "pvp_tooltip": "After you spend 20 Holy Power, your next Word of Glory echoes onto a nearby ally at 30% effectiveness.",
@@ -1078,8 +1033,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1109,7 +1064,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guided Prayer",
         "spell_id": 404357,
         "visible_spell_id": null,
-        "icon": "ability_crown_of_the_heavens_icon"
+        "icon": "ability_crown_of_the_heavens_icon",
+        "icon_candidates": [
+          "ability_crown_of_the_heavens_icon"
+        ]
       },
       "pve_tooltip": "When your health is brought below 25%, you instantly cast a free Word of Glory at 60% effectiveness on yourself.\nCannot occur more than once every 60 sec.\n(1m cooldown)",
       "pvp_tooltip": "When your health is brought below 25%, you instantly cast a free Word of Glory at 60% effectiveness on yourself.\nCannot occur more than once every 60 sec.\n(1m cooldown)",
@@ -1133,8 +1091,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1170,7 +1128,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Steed",
         "spell_id": 190784,
         "visible_spell_id": null,
-        "icon": "ability_paladin_divinesteed"
+        "icon": "ability_paladin_divinesteed",
+        "icon_candidates": [
+          "ability_paladin_divinesteed"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat.",
       "pvp_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat.",
@@ -1194,8 +1155,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1225,7 +1186,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Countenance",
         "spell_id": 469325,
         "visible_spell_id": null,
-        "icon": "inv_shoulder_raidpaladindragon_d_01"
+        "icon": "inv_shoulder_raidpaladindragon_d_01",
+        "icon_candidates": [
+          "inv_shoulder_raidpaladindragon_d_01"
+        ]
       },
       "pve_tooltip": "The cooldown of Blinding Light is reduced by 15 sec.",
       "pvp_tooltip": "The cooldown of Blinding Light is reduced by 15 sec.",
@@ -1249,8 +1213,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1284,16 +1248,19 @@ window.WOW_PVP_DATA = {
         "talent_name": "Greater Judgment",
         "spell_id": 231644,
         "visible_spell_id": null,
-        "icon": "spell_holy_righteousfury"
+        "icon": "spell_holy_righteousfury",
+        "icon_candidates": [
+          "spell_holy_righteousfury"
+        ]
       },
-      "pve_tooltip": "Judgment deems the target unworthy, preventing the next [(Spell Power * 483 / 100) * (1 + Versatility)] damage dealt by the target.",
-      "pvp_tooltip": "Judgment deems the target unworthy, preventing the next [(Spell Power * 179.3862 / 100) * (1 + Versatility)] damage dealt by the target.",
+      "pve_tooltip": "Judgment deems the target unworthy, preventing the next (Spell Power * 483 / 100) * (1 + Versatility) damage dealt by the target.",
+      "pvp_tooltip": "Judgment deems the target unworthy, preventing the next (Spell Power * 179.3862 / 100) * (1 + Versatility) damage dealt by the target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 72,
-          "end": 75,
+          "start": 71,
+          "end": 74,
           "old_token": "483",
           "new_token": "179.3862",
           "kind": "ordinary_value",
@@ -1355,8 +1322,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1388,7 +1355,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wrench Evil",
         "spell_id": 460720,
         "visible_spell_id": null,
-        "icon": "ability_paladin_turnevil"
+        "icon": "ability_paladin_turnevil",
+        "icon_candidates": [
+          "ability_paladin_turnevil"
+        ]
       },
       "pve_tooltip": "Turn Evil's cast time is reduced by 100%.",
       "pvp_tooltip": "Turn Evil's cast time is reduced by 100%.",
@@ -1412,8 +1382,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1445,7 +1415,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stand Against Evil",
         "spell_id": 469317,
         "visible_spell_id": null,
-        "icon": "spell_holy_excorcism"
+        "icon": "spell_holy_excorcism",
+        "icon_candidates": [
+          "spell_holy_excorcism"
+        ]
       },
       "pve_tooltip": "Turn Evil now affects 5 additional enemies.",
       "pvp_tooltip": "Turn Evil now affects 5 additional enemies.",
@@ -1469,8 +1442,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1504,7 +1477,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Reprieve",
         "spell_id": 469445,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofsalvation"
+        "icon": "spell_holy_sealofsalvation",
+        "icon_candidates": [
+          "spell_holy_sealofsalvation"
+        ]
       },
       "pve_tooltip": "Your Forbearance's duration is reduced by 10 sec.",
       "pvp_tooltip": "Your Forbearance's duration is reduced by 10 sec.",
@@ -1528,8 +1504,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1563,7 +1539,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cavalier",
         "spell_id": 230332,
         "visible_spell_id": null,
-        "icon": "ability_paladin_divinesteed"
+        "icon": "ability_paladin_divinesteed",
+        "icon_candidates": [
+          "ability_paladin_divinesteed"
+        ]
       },
       "pve_tooltip": "Divine Steed now has 2 charges.",
       "pvp_tooltip": "Divine Steed now has 2 charges.",
@@ -1587,8 +1566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1618,7 +1597,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Spurs",
         "spell_id": 469409,
         "visible_spell_id": null,
-        "icon": "ability_mount_charger"
+        "icon": "ability_mount_charger",
+        "icon_candidates": [
+          "ability_mount_charger"
+        ]
       },
       "pve_tooltip": "Divine Steed's cooldown is reduced by 20%, but its duration is reduced by 40%.",
       "pvp_tooltip": "Divine Steed's cooldown is reduced by 20%, but its duration is reduced by 40%.",
@@ -1642,8 +1624,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1677,7 +1659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Steed of Liberty",
         "spell_id": 469304,
         "visible_spell_id": null,
-        "icon": "spell_holy_crusaderaura"
+        "icon": "spell_holy_crusaderaura",
+        "icon_candidates": [
+          "spell_holy_crusaderaura"
+        ]
       },
       "pve_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom:\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom:\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.\n(100ms cooldown)",
@@ -1701,8 +1686,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1736,7 +1721,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of Freedom",
         "spell_id": 1044,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofvalor"
+        "icon": "spell_holy_sealofvalor",
+        "icon_candidates": [
+          "spell_holy_sealofvalor"
+        ]
       },
       "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.",
       "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.",
@@ -1760,8 +1748,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1794,7 +1782,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Armory of Light",
         "spell_id": 1277443,
         "visible_spell_id": null,
-        "icon": "inv12_ability_paladin_sentinel"
+        "icon": "inv12_ability_paladin_sentinel",
+        "icon_candidates": [
+          "inv12_ability_paladin_sentinel"
+        ]
       },
       "pve_tooltip": "While holding a shield, you have a 15% chance to block incoming spells, reducing their damage by 20%.\nWithout a shield, you have a 15% chance to parry incoming melee attacks, reducing their damage by 20%.",
       "pvp_tooltip": "While holding a shield, you have a 15% chance to block incoming spells, reducing their damage by 20%.\nWithout a shield, you have a 15% chance to parry incoming melee attacks, reducing their damage by 20%.",
@@ -1818,8 +1809,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1854,7 +1845,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Obduracy",
         "spell_id": 385427,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
       "pvp_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
@@ -1897,8 +1891,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1933,7 +1927,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Toll",
         "spell_id": 375576,
         "visible_spell_id": null,
-        "icon": "inv_ability_paladin_divinetoll"
+        "icon": "inv_ability_paladin_divinetoll",
+        "icon_candidates": [
+          "inv_ability_paladin_divinetoll"
+        ]
       },
       "pve_tooltip": "3% of base mana\n30 yd range\nInstant\n45 sec cooldown\nInstantly cast Holy Shock, Avenger's Shield, or Judgment on up to 5 targets within 30 yds.",
       "pvp_tooltip": "3% of base mana\n30 yd range\nInstant\n45 sec cooldown\nInstantly cast Holy Shock, Avenger's Shield, or Judgment on up to 5 targets within 30 yds.",
@@ -1957,8 +1954,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1993,7 +1990,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Prism",
         "spell_id": 114165,
         "visible_spell_id": null,
-        "icon": "spell_paladin_holyprism"
+        "icon": "spell_paladin_holyprism",
+        "icon_candidates": [
+          "spell_paladin_holyprism"
+        ]
       },
       "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n45 sec cooldown\nFires a beam of light that scatters to strike a clump of targets.\nIf the beam is aimed at an enemy target, it deals (648% of Spell Power) Holy damage and radiates [(688% of Spell Power) * 1] healing to 5 allies within 30 yds.\nIf the beam is aimed at a friendly target, it heals for [(1587.6% of Spell Power) * 1] and radiates (245.7% of Spell Power) Holy damage to 5 enemies within 30 yds.\nGenerates 3 Holy Power.",
       "pvp_tooltip": "2.6% of base mana\n40 yd range\nInstant\n45 sec cooldown\nFires a beam of light that scatters to strike a clump of targets.\nIf the beam is aimed at an enemy target, it deals (648% of Spell Power) Holy damage and radiates [(688% of Spell Power) * 1] healing to 5 allies within 30 yds.\nIf the beam is aimed at a friendly target, it heals for [(1587.6% of Spell Power) * 1] and radiates (245.7% of Spell Power) Holy damage to 5 enemies within 30 yds.\nGenerates 3 Holy Power.",
@@ -2017,8 +2017,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2050,7 +2050,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Echoing Blessings",
         "spell_id": 387801,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_heroic_gloryoftheraider"
+        "icon": "achievement_dungeon_heroic_gloryoftheraider",
+        "icon_candidates": [
+          "achievement_dungeon_heroic_gloryoftheraider"
+        ]
       },
       "pve_tooltip": "Blessing of Freedom increases the target's movement speed by 30%. [Blessing of Spellwarding / Blessing of Protection] and Blessing of Sacrifice reduce the target's damage taken by 15%. These effects linger for 8 sec after the Blessing ends.",
       "pvp_tooltip": "Blessing of Freedom increases the target's movement speed by 30%. [Blessing of Spellwarding / Blessing of Protection] and Blessing of Sacrifice reduce the target's damage taken by 15%. These effects linger for 8 sec after the Blessing ends.",
@@ -2074,8 +2077,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2107,7 +2110,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unbound Freedom",
         "spell_id": 305394,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofvalor"
+        "icon": "spell_holy_sealofvalor",
+        "icon_candidates": [
+          "spell_holy_sealofvalor"
+        ]
       },
       "pve_tooltip": "Blessing of Freedom increases movement speed by 30%, and you gain Blessing of Freedom when cast on a friendly target.",
       "pvp_tooltip": "Blessing of Freedom increases movement speed by 30%, and you gain Blessing of Freedom when cast on a friendly target.",
@@ -2131,8 +2137,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2168,7 +2174,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanctified Plates",
         "spell_id": 402964,
         "visible_spell_id": null,
-        "icon": "inv_chest_plate_raidpaladin_s_01"
+        "icon": "inv_chest_plate_raidpaladin_s_01",
+        "icon_candidates": [
+          "inv_chest_plate_raidpaladin_s_01"
+        ]
       },
       "pve_tooltip": "Armor increased by 20%, Stamina increased by 10% and damage taken from area of effect attacks reduced by 6%.",
       "pvp_tooltip": "Armor increased by 33.4%, Stamina increased by 16.7% and damage taken from area of effect attacks reduced by 10%.",
@@ -2432,8 +2441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2467,7 +2476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Reach",
         "spell_id": 469476,
         "visible_spell_id": null,
-        "icon": "spell_holy_mindvision"
+        "icon": "spell_holy_mindvision",
+        "icon_candidates": [
+          "spell_holy_mindvision"
+        ]
       },
       "pve_tooltip": "The radius of your auras is increased by 20 yds.",
       "pvp_tooltip": "The radius of your auras is increased by 20 yds.",
@@ -2491,8 +2503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2524,7 +2536,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Brought to Light",
         "spell_id": 1265549,
         "visible_spell_id": null,
-        "icon": "paladin_holy"
+        "icon": "paladin_holy",
+        "icon_candidates": [
+          "paladin_holy"
+        ]
       },
       "pve_tooltip": "Killing an enemy that yields experience or honor causes you to explode with holy energy, healing up to 5 nearby allies and yourself for (625% of Attack Power), split evenly among them.",
       "pvp_tooltip": "Killing an enemy that yields experience or honor causes you to explode with holy energy, healing up to 5 nearby allies and yourself for (625% of Attack Power), split evenly among them.",
@@ -2548,8 +2563,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2585,7 +2600,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of Sacrifice",
         "spell_id": 6940,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofsacrifice"
+        "icon": "spell_holy_sealofsacrifice",
+        "icon_candidates": [
+          "spell_holy_sealofsacrifice"
+        ]
       },
       "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
       "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
@@ -2609,8 +2627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2640,7 +2658,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Resonance",
         "spell_id": 386738,
         "visible_spell_id": null,
-        "icon": "ability_mount_goatmountwhite"
+        "icon": "ability_mount_goatmountwhite",
+        "icon_candidates": [
+          "ability_mount_goatmountwhite"
+        ]
       },
       "pve_tooltip": "After casting Holy Prism, Holy Armament, or Divine Toll, you instantly cast Holy Shock every 5 sec for 15 sec.",
       "pvp_tooltip": "After casting Holy Prism, Holy Armament, or Divine Toll, you instantly cast Holy Shock every 5 sec for 15 sec.",
@@ -2664,8 +2685,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2695,7 +2716,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quickened Invocation",
         "spell_id": 379391,
         "visible_spell_id": null,
-        "icon": "spell_holy_pureofheart"
+        "icon": "spell_holy_pureofheart",
+        "icon_candidates": [
+          "spell_holy_pureofheart"
+        ]
       },
       "pve_tooltip": "Divine Toll's, Holy Armament's, and Holy Prism's cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Divine Toll's, Holy Armament's, and Holy Prism's cooldown is reduced by 15 sec.",
@@ -2719,8 +2743,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2756,7 +2780,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of Protection",
         "spell_id": 1022,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofprotection"
+        "icon": "spell_holy_sealofprotection",
+        "icon_candidates": [
+          "spell_holy_sealofprotection"
+        ]
       },
       "pve_tooltip": "3% of base mana\n40 yd range\nInstant\n5 min cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to Physical damage and harmful effects for 10 sec.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
       "pvp_tooltip": "3% of base mana\n40 yd range\nInstant\n5 min cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to Physical damage and harmful effects for 10 sec.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
@@ -2780,8 +2807,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2813,7 +2840,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fear No Evil",
         "spell_id": 1265541,
         "visible_spell_id": null,
-        "icon": "inv_bracer_plate_raidpaladin_r_01mythic"
+        "icon": "inv_bracer_plate_raidpaladin_r_01mythic",
+        "icon_candidates": [
+          "inv_bracer_plate_raidpaladin_r_01mythic"
+        ]
       },
       "pve_tooltip": "Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.",
       "pvp_tooltip": "Fear duration on you reduced by 5%. This effect is increased to 15% during Avenging Wrath.",
@@ -2953,8 +2983,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2987,7 +3017,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Consecrated Ground",
         "spell_id": 204054,
         "visible_spell_id": null,
-        "icon": "ability_paladin_righteousvengeance"
+        "icon": "ability_paladin_righteousvengeance",
+        "icon_candidates": [
+          "ability_paladin_righteousvengeance"
+        ]
       },
       "pve_tooltip": "Your Consecration is 15% larger, and enemies within it have 50% reduced movement speed.",
       "pvp_tooltip": "Your Consecration is 15% larger, and enemies within it have 50% reduced movement speed.",
@@ -3011,8 +3044,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3047,7 +3080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Aegis",
         "spell_id": 385515,
         "visible_spell_id": null,
-        "icon": "ability_paladin_touchedbylight"
+        "icon": "ability_paladin_touchedbylight",
+        "icon_candidates": [
+          "ability_paladin_touchedbylight"
+        ]
       },
       "pve_tooltip": "Armor and critical strike chance increased by 4%.",
       "pvp_tooltip": "Armor and critical strike chance increased by 4%.",
@@ -3071,8 +3107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3106,7 +3142,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sacrifice of the Just",
         "spell_id": 384820,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofsacrifice"
+        "icon": "spell_holy_sealofsacrifice",
+        "icon_candidates": [
+          "spell_holy_sealofsacrifice"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
@@ -3130,8 +3169,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3165,7 +3204,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Recompense",
         "spell_id": 384914,
         "visible_spell_id": null,
-        "icon": "ability_racial_foregedinflames"
+        "icon": "ability_racial_foregedinflames",
+        "icon_candidates": [
+          "ability_racial_foregedinflames"
+        ]
       },
       "pve_tooltip": "After your Blessing of Sacrifice ends, 50% of the total damage it diverted is added to your next Judgment as bonus damage, or your next Word of Glory as bonus healing.\nThis effect's bonus damage cannot exceed 30% of your maximum health and its bonus healing cannot exceed 100% of your maximum health.",
       "pvp_tooltip": "After your Blessing of Sacrifice ends, 50% of the total damage it diverted is added to your next Judgment as bonus damage, or your next Word of Glory as bonus healing.\nThis effect's bonus damage cannot exceed 30% of your maximum health and its bonus healing cannot exceed 100% of your maximum health.",
@@ -3189,8 +3231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3224,7 +3266,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sacred Strength",
         "spell_id": 469337,
         "visible_spell_id": null,
-        "icon": "spell_holy_righteousnessaura"
+        "icon": "spell_holy_righteousnessaura",
+        "icon_candidates": [
+          "spell_holy_righteousnessaura"
+        ]
       },
       "pve_tooltip": "Holy Power spending abilities have 2% increased damage and healing.",
       "pvp_tooltip": "Holy Power spending abilities have 2% increased damage and healing.",
@@ -3248,8 +3293,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3283,7 +3328,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Purpose",
         "spell_id": 223817,
         "visible_spell_id": null,
-        "icon": "spell_holy_divinepurpose"
+        "icon": "spell_holy_divinepurpose",
+        "icon_candidates": [
+          "spell_holy_divinepurpose"
+        ]
       },
       "pve_tooltip": "Holy Power spending abilities have a 15% chance to make your next Holy Power spending ability free and deal 15% increased damage and healing.\n(100ms cooldown)",
       "pvp_tooltip": "Holy Power spending abilities have a 15% chance to make your next Holy Power spending ability free and deal 10% increased damage and healing.\n(100ms cooldown)",
@@ -3359,8 +3407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3393,7 +3441,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Blessing of Protection",
         "spell_id": 384909,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofprotection"
+        "icon": "spell_holy_sealofprotection",
+        "icon_candidates": [
+          "spell_holy_sealofprotection"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Blessing of Protection by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Blessing of Protection by 60 sec.",
@@ -3417,8 +3468,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3453,7 +3504,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unbreakable Spirit",
         "spell_id": 114154,
         "visible_spell_id": null,
-        "icon": "spell_holy_holyguidance"
+        "icon": "spell_holy_holyguidance",
+        "icon_candidates": [
+          "spell_holy_holyguidance"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
       "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
@@ -3477,8 +3531,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3511,7 +3565,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lightforged Blessing",
         "spell_id": 406468,
         "visible_spell_id": null,
-        "icon": "spell_holy_circleofrenewal"
+        "icon": "spell_holy_circleofrenewal",
+        "icon_candidates": [
+          "spell_holy_circleofrenewal"
+        ]
       },
       "pve_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
       "pvp_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (73.75% of Attack Power).",
@@ -3595,8 +3652,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3631,7 +3688,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lead the Charge",
         "spell_id": 469780,
         "visible_spell_id": null,
-        "icon": "inv_helm_plate_raidpaladin_r_01mythic"
+        "icon": "inv_helm_plate_raidpaladin_r_01mythic",
+        "icon_candidates": [
+          "inv_helm_plate_raidpaladin_r_01mythic"
+        ]
       },
       "pve_tooltip": "Divine Steed reduces the cooldown of 4 nearby ally's major movement ability by 3.0 sec.\nYour movement speed is increased by 3%.\n(300ms cooldown)",
       "pvp_tooltip": "Divine Steed reduces the cooldown of 4 nearby ally's major movement ability by 3.0 sec.\nYour movement speed is increased by 3%.\n(300ms cooldown)",
@@ -3655,8 +3715,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3688,7 +3748,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Worthy Sacrifice",
         "spell_id": 469279,
         "visible_spell_id": null,
-        "icon": "ability_paladin_handoflight"
+        "icon": "ability_paladin_handoflight",
+        "icon_candidates": [
+          "ability_paladin_handoflight"
+        ]
       },
       "pve_tooltip": "You automatically cast Blessing of Sacrifice onto an ally within 40 yds when they are below 35% health and you are not in a loss of control effect.\nThis effect activates 100% of Blessing of Sacrifice's cooldown.",
       "pvp_tooltip": "You automatically cast Blessing of Sacrifice onto an ally within 40 yds when they are below 35% health and you are not in a loss of control effect.\nThis effect activates 100% of Blessing of Sacrifice's cooldown.",
@@ -3712,8 +3775,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3745,7 +3808,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Righteous Protection",
         "spell_id": 469321,
         "visible_spell_id": null,
-        "icon": "spell_holy_blessingofprotection"
+        "icon": "spell_holy_blessingofprotection",
+        "icon_candidates": [
+          "spell_holy_blessingofprotection"
+        ]
       },
       "pve_tooltip": "Blessing of Sacrifice now removes and prevents all Poison and Disease effects.",
       "pvp_tooltip": "Blessing of Sacrifice now removes and prevents all Poison and Disease effects.",
@@ -3769,8 +3835,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3804,7 +3870,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Ritual",
         "spell_id": 199422,
         "visible_spell_id": null,
-        "icon": "inv_relics_libramoftruth"
+        "icon": "inv_relics_libramoftruth",
+        "icon_candidates": [
+          "inv_relics_libramoftruth"
+        ]
       },
       "pve_tooltip": "Allies are healed for (2000% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
       "pvp_tooltip": "Allies are healed for (1180% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
@@ -3888,8 +3957,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3922,7 +3991,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessed Calling",
         "spell_id": 469770,
         "visible_spell_id": null,
-        "icon": "ability_paladin_judgementofthepure"
+        "icon": "ability_paladin_judgementofthepure",
+        "icon_candidates": [
+          "ability_paladin_judgementofthepure"
+        ]
       },
       "pve_tooltip": "Allies affected by your Blessings have 15% increased movement speed.",
       "pvp_tooltip": "Allies affected by your Blessings have 15% increased movement speed.",
@@ -3946,8 +4018,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3982,7 +4054,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inspired Guard",
         "spell_id": 469439,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineprotection"
+        "icon": "spell_holy_divineprotection",
+        "icon_candidates": [
+          "spell_holy_divineprotection"
+        ]
       },
       "pve_tooltip": "Divine Protection increases healing taken by 15% for its duration.",
       "pvp_tooltip": "Divine Protection increases healing taken by 15% for its duration.",
@@ -4006,8 +4081,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4040,7 +4115,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Revocation",
         "spell_id": 146956,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineshield"
+        "icon": "spell_holy_divineshield",
+        "icon_candidates": [
+          "spell_holy_divineshield"
+        ]
       },
       "pve_tooltip": "Removing harmful effects with Divine Shield heals you for 10% for each effect removed. This heal cannot exceed 30% of your maximum health.\nDivine Shield may now be cast while Forbearance is active.",
       "pvp_tooltip": "Removing harmful effects with Divine Shield heals you for 10% for each effect removed. This heal cannot exceed 30% of your maximum health.\nDivine Shield may now be cast while Forbearance is active.",
@@ -4064,8 +4142,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4098,7 +4176,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Faith's Armor",
         "spell_id": 406101,
         "visible_spell_id": null,
-        "icon": "inv_shield_1h_newplayer_a_01"
+        "icon": "inv_shield_1h_newplayer_a_01",
+        "icon_candidates": [
+          "inv_shield_1h_newplayer_a_01"
+        ]
       },
       "pve_tooltip": "Word of Glory grants 20% bonus armor for 4.5 sec.",
       "pvp_tooltip": "Word of Glory grants 20% bonus armor for 4.5 sec.",
@@ -4122,8 +4203,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4155,7 +4236,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stoicism",
         "spell_id": 469316,
         "visible_spell_id": null,
-        "icon": "spell_magic_magearmor"
+        "icon": "spell_magic_magearmor",
+        "icon_candidates": [
+          "spell_magic_magearmor"
+        ]
       },
       "pve_tooltip": "The duration of stun effects on you is reduced by 20%.",
       "pvp_tooltip": "The duration of stun effects on you is reduced by 10%.",
@@ -4226,8 +4310,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4262,7 +4346,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Seal of Might",
         "spell_id": 385450,
         "visible_spell_id": null,
-        "icon": "spell_holy_sealofwrath"
+        "icon": "spell_holy_sealofwrath",
+        "icon_candidates": [
+          "spell_holy_sealofwrath"
+        ]
       },
       "pve_tooltip": "Mastery increased by 4% and Intellect increased by 4%.",
       "pvp_tooltip": "Mastery increased by 4% and Intellect increased by 4%.",
@@ -4305,8 +4392,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4341,7 +4428,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vengeful Wrath",
         "spell_id": 1241958,
         "visible_spell_id": null,
-        "icon": "spell_paladin_hammerofwrath"
+        "icon": "spell_paladin_hammerofwrath",
+        "icon_candidates": [
+          "spell_paladin_hammerofwrath"
+        ]
       },
       "pve_tooltip": "Hammer of Wrath deals up to 50% additional damage based on its target's health. Lower health targets receive more damage.",
       "pvp_tooltip": "Hammer of Wrath deals up to 20% additional damage based on its target's health. Lower health targets receive more damage.",
@@ -4453,8 +4543,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4486,7 +4576,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eye for an Eye",
         "spell_id": 469309,
         "visible_spell_id": null,
-        "icon": "spell_holy_eyeforaneye"
+        "icon": "spell_holy_eyeforaneye",
+        "icon_candidates": [
+          "spell_holy_eyeforaneye"
+        ]
       },
       "pve_tooltip": "Melee and ranged attackers receive (35% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
       "pvp_tooltip": "Melee and ranged attackers receive (131.25% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
@@ -4562,8 +4655,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4596,16 +4689,19 @@ window.WOW_PVP_DATA = {
         "talent_name": "Golden Path",
         "spell_id": 377128,
         "visible_spell_id": null,
-        "icon": "ability_priest_cascade"
+        "icon": "ability_priest_cascade",
+        "icon_candidates": [
+          "ability_priest_cascade"
+        ]
       },
-      "pve_tooltip": "Consecration heals you and 5 allies within it for [(6.25% of Attack Power)] every 1 sec.",
-      "pvp_tooltip": "Consecration heals you and 5 allies within it for [(3.6875% of Attack Power)] every 1 sec.",
+      "pve_tooltip": "Consecration heals you and 5 allies within it for (6.25% of Attack Power) every 1 sec.",
+      "pvp_tooltip": "Consecration heals you and 5 allies within it for (3.6875% of Attack Power) every 1 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 52,
-          "end": 56,
+          "start": 51,
+          "end": 55,
           "old_token": "6.25",
           "new_token": "3.6875",
           "kind": "attack_power_coefficient",
@@ -4722,8 +4818,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4756,7 +4852,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Selfless Healer",
         "spell_id": 469434,
         "visible_spell_id": null,
-        "icon": "ability_paladin_gaurdedbythelight"
+        "icon": "ability_paladin_gaurdedbythelight",
+        "icon_candidates": [
+          "ability_paladin_gaurdedbythelight"
+        ]
       },
       "pve_tooltip": "Flash of Light and Holy Light are 30% more effective on your allies and 40% of the healing done also heals you.",
       "pvp_tooltip": "Flash of Light and Holy Light are 30% more effective on your allies and 40% of the healing done also heals you.",
@@ -4780,8 +4879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4813,7 +4912,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of Dawn",
         "spell_id": 183416,
         "visible_spell_id": null,
-        "icon": "achievement_zone_valeofeternalblossoms"
+        "icon": "achievement_zone_valeofeternalblossoms",
+        "icon_candidates": [
+          "achievement_zone_valeofeternalblossoms"
+        ]
       },
       "pve_tooltip": "While you are above 85% health, 5% of all damage taken by allies within 20 yds is redirected to you, up to a maximum of (5 * Total Health / 100) every 5 sec.",
       "pvp_tooltip": "While you are above 85% health, 5% of all damage taken by allies within 20 yds is redirected to you, up to a maximum of (5 * Total Health / 100) every 5 sec.",
@@ -4837,8 +4939,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4869,7 +4971,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lightbearer",
         "spell_id": 469416,
         "visible_spell_id": null,
-        "icon": "spell_paladin_clarityofpurpose"
+        "icon": "spell_paladin_clarityofpurpose",
+        "icon_candidates": [
+          "spell_paladin_clarityofpurpose"
+        ]
       },
       "pve_tooltip": "10% of all healing done to you from other sources heals up to 4 nearby allies, divided evenly among them.",
       "pvp_tooltip": "10% of all healing done to you from other sources heals up to 4 nearby allies, divided evenly among them.",
@@ -4893,8 +4998,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4926,7 +5031,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of Dusk",
         "spell_id": 1241945,
         "visible_spell_id": null,
-        "icon": "achievement_zone_newshadowmoonvalley"
+        "icon": "achievement_zone_newshadowmoonvalley",
+        "icon_candidates": [
+          "achievement_zone_newshadowmoonvalley"
+        ]
       },
       "pve_tooltip": "Damage taken reduced by up to 10%, increasing as your health decreases.",
       "pvp_tooltip": "Damage taken reduced by up to 10%, increasing as your health decreases.",
@@ -4950,8 +5058,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4982,7 +5090,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Shock",
         "spell_id": 20473,
         "visible_spell_id": null,
-        "icon": "spell_holy_searinglight"
+        "icon": "spell_holy_searinglight",
+        "icon_candidates": [
+          "spell_holy_searinglight"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nTriggers a burst of Light on the target, dealing (216% of Spell Power) Holy damage to an enemy, or (1117% of Spell Power) healing to an ally. [Holy Shock: Has an additional 10% critical strike chance]\nGenerates 1 Holy Power.",
       "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nTriggers a burst of Light on the target, dealing (216% of Spell Power) Holy damage to an enemy, or (599.0583% of Spell Power) healing to an ally. [Holy Shock: Has an additional 10% critical strike chance]\nGenerates 1 Holy Power.",
@@ -5068,8 +5179,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5102,7 +5213,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infusion of Light",
         "spell_id": 53576,
         "visible_spell_id": null,
-        "icon": "ability_paladin_infusionoflight"
+        "icon": "ability_paladin_infusionoflight",
+        "icon_candidates": [
+          "ability_paladin_infusionoflight"
+        ]
       },
       "pve_tooltip": "Your Holy Shocks have a 10% chance to empower your next spell cast:\nFlash of Light: healing increased by 200% and becomes instant cast.\nJudgment: Greater Judgment prevents an additional 150% damage dealt by the target and generates 1 additional Holy Power.",
       "pvp_tooltip": "Your Holy Shocks have a 10% chance to empower your next spell cast:\nFlash of Light: healing increased by 200% and becomes instant cast.\nJudgment: Greater Judgment prevents an additional 150% damage dealt by the target and generates 1 additional Holy Power.",
@@ -5126,8 +5240,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5160,7 +5274,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light of Dawn",
         "spell_id": 85222,
         "visible_spell_id": null,
-        "icon": "spell_paladin_lightofdawn"
+        "icon": "spell_paladin_lightofdawn",
+        "icon_candidates": [
+          "spell_paladin_lightofdawn"
+        ]
       },
       "pve_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (506.736% of Spell Power).",
       "pvp_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (249.1352% of Spell Power).",
@@ -5241,8 +5358,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5275,7 +5392,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Conviction",
         "spell_id": 414073,
         "visible_spell_id": null,
-        "icon": "paladin_holy"
+        "icon": "paladin_holy",
+        "icon_candidates": [
+          "paladin_holy"
+        ]
       },
       "pve_tooltip": "Holy Shock now has 2 charges and it refunds 50% of its mana cost when cast on an enemy.",
       "pvp_tooltip": "Holy Shock now has 2 charges and it refunds 50% of its mana cost when cast on an enemy.",
@@ -5299,8 +5419,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5335,7 +5455,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aura Mastery",
         "spell_id": 31821,
         "visible_spell_id": null,
-        "icon": "spell_holy_auramastery"
+        "icon": "spell_holy_auramastery",
+        "icon_candidates": [
+          "spell_holy_auramastery"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nEmpowers your chosen aura for 8 sec.\nDevotion Aura: Damage reduction increased to 12%.\nCrusader Aura: Mount speed bonus increased to 60%.\nConcentration Aura: Affected allies immune to interrupts and silences.",
       "pvp_tooltip": "Instant\n3 min cooldown\nEmpowers your chosen aura for 8 sec.\nDevotion Aura: Damage reduction increased to 12%.\nCrusader Aura: Mount speed bonus increased to 60%.\nConcentration Aura: Affected allies immune to interrupts and silences.",
@@ -5396,8 +5519,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5430,7 +5553,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of the Lightbringer",
         "spell_id": 197446,
         "visible_spell_id": null,
-        "icon": "spell_paladin_clarityofpurpose"
+        "icon": "spell_paladin_clarityofpurpose",
+        "icon_candidates": [
+          "spell_paladin_clarityofpurpose"
+        ]
       },
       "pve_tooltip": "Mastery: Lightbringer now increases your healing based on the target's proximity to either you or your Beacon of Light, whichever is closer.",
       "pvp_tooltip": "Mastery: Lightbringer now increases your healing based on the target's proximity to either you or your Beacon of Light, whichever is closer.",
@@ -5454,8 +5580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5488,7 +5614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Extrication",
         "spell_id": 461278,
         "visible_spell_id": null,
-        "icon": "spell_holy_spiritualguidence"
+        "icon": "spell_holy_spiritualguidence",
+        "icon_candidates": [
+          "spell_holy_spiritualguidence"
+        ]
       },
       "pve_tooltip": "Word of Glory and Light of Dawn gain up to 30% additional chance to critically strike, based on their target's current health. Lower health targets are more likely to be critically struck.",
       "pvp_tooltip": "Word of Glory and Light of Dawn gain up to 30% additional chance to critically strike, based on their target's current health. Lower health targets are more likely to be critically struck.",
@@ -5512,8 +5641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5546,7 +5675,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ringing of the Heavens",
         "spell_id": 1241542,
         "visible_spell_id": null,
-        "icon": "paladin_protection"
+        "icon": "paladin_protection",
+        "icon_candidates": [
+          "paladin_protection"
+        ]
       },
       "pve_tooltip": "Activating Aura Mastery also casts a Divine Toll at 200% effectiveness.\n(500ms cooldown)",
       "pvp_tooltip": "Activating Aura Mastery also casts a Divine Toll at 200% effectiveness.\n(500ms cooldown)",
@@ -5570,8 +5702,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5603,7 +5735,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unending Light",
         "spell_id": 1271221,
         "visible_spell_id": null,
-        "icon": "spell_holy_holybolt"
+        "icon": "spell_holy_holybolt",
+        "icon_candidates": [
+          "spell_holy_holybolt"
+        ]
       },
       "pve_tooltip": "Light of Dawn receives 20% increased benefit from Mastery: Lightbringer.",
       "pvp_tooltip": "Light of Dawn receives 20% increased benefit from Mastery: Lightbringer.",
@@ -5627,8 +5762,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5661,7 +5796,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Awestruck",
         "spell_id": 417855,
         "visible_spell_id": null,
-        "icon": "ability_paladin_blindinglight2"
+        "icon": "ability_paladin_blindinglight2",
+        "icon_candidates": [
+          "ability_paladin_blindinglight2"
+        ]
       },
       "pve_tooltip": "Holy Shock, Holy Light, and Flash of Light critical healing increased by 20%.",
       "pvp_tooltip": "Holy Shock, Holy Light, and Flash of Light critical healing increased by 20%.",
@@ -5685,8 +5823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5719,7 +5857,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moment of Compassion",
         "spell_id": 387786,
         "visible_spell_id": null,
-        "icon": "spell_holy_flashheal"
+        "icon": "spell_holy_flashheal",
+        "icon_candidates": [
+          "spell_holy_flashheal"
+        ]
       },
       "pve_tooltip": "Your Flash of Light heals for an additional 50% when cast on a target affected by your Beacon of Light.",
       "pvp_tooltip": "Your Flash of Light heals for an additional 15% when cast on a target affected by your Beacon of Light.",
@@ -5790,8 +5931,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5824,7 +5965,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Resplendent Light",
         "spell_id": 392902,
         "visible_spell_id": null,
-        "icon": "ability_priest_voidshift"
+        "icon": "ability_priest_voidshift",
+        "icon_candidates": [
+          "ability_priest_voidshift"
+        ]
       },
       "pve_tooltip": "Holy Light heals up to 5 targets within 12 yds for 8% of its healing.",
       "pvp_tooltip": "Holy Light heals up to 5 targets within 12 yds for 8% of its healing.",
@@ -5848,8 +5992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5884,7 +6028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Favor",
         "spell_id": 1270916,
         "visible_spell_id": null,
-        "icon": "spell_holy_heal"
+        "icon": "spell_holy_heal",
+        "icon_candidates": [
+          "spell_holy_heal"
+        ]
       },
       "pve_tooltip": "The mana cost of Holy Light is reduced by 10% and its cast time is reduced by 15%.",
       "pvp_tooltip": "The mana cost of Holy Light is reduced by 30% and its cast time is reduced by 15%.",
@@ -5955,8 +6102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5989,7 +6136,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unwavering Spirit",
         "spell_id": 392911,
         "visible_spell_id": null,
-        "icon": "spell_holy_fanaticism"
+        "icon": "spell_holy_fanaticism",
+        "icon_candidates": [
+          "spell_holy_fanaticism"
+        ]
       },
       "pve_tooltip": "The cooldown of Aura Mastery is reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aura Mastery is reduced by 30 sec.",
@@ -6013,8 +6163,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6047,7 +6197,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Protection of Tyr",
         "spell_id": 200430,
         "visible_spell_id": null,
-        "icon": "spell_holy_auramastery"
+        "icon": "spell_holy_auramastery",
+        "icon_candidates": [
+          "spell_holy_auramastery"
+        ]
       },
       "pve_tooltip": "100 yd range\nAura Mastery also increases all healing received by party or raid members within 40 yards by 10%.",
       "pvp_tooltip": "100 yd range\nAura Mastery also increases all healing received by party or raid members within 40 yards by 10%.",
@@ -6071,8 +6224,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6107,7 +6260,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imbued Infusions",
         "spell_id": 392961,
         "visible_spell_id": null,
-        "icon": "ability_priest_flashoflight"
+        "icon": "ability_priest_flashoflight",
+        "icon_candidates": [
+          "ability_priest_flashoflight"
+        ]
       },
       "pve_tooltip": "Consuming Infusion of Light reduces the cooldown of Holy Shock by 1.0 sec.",
       "pvp_tooltip": "Consuming Infusion of Light reduces the cooldown of Holy Shock by 1.0 sec.",
@@ -6131,8 +6287,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6164,7 +6320,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light of the Martyr",
         "spell_id": 447985,
         "visible_spell_id": null,
-        "icon": "ability_paladin_lightofthemartyr"
+        "icon": "ability_paladin_lightofthemartyr",
+        "icon_candidates": [
+          "ability_paladin_lightofthemartyr"
+        ]
       },
       "pve_tooltip": "While above 80% health, Holy Shock's healing is increased 20%, but creates a heal absorb on you for 30% of the amount healed that prevents Beacon of Light from healing you until it has dissipated.",
       "pvp_tooltip": "While above 80% health, Holy Shock's healing is increased 20%, but creates a heal absorb on you for 30% of the amount healed that prevents Beacon of Light from healing you until it has dissipated.",
@@ -6188,8 +6347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6225,7 +6384,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Righteous Judgment",
         "spell_id": 414113,
         "visible_spell_id": null,
-        "icon": "ability_priest_holybolts01"
+        "icon": "ability_priest_holybolts01",
+        "icon_candidates": [
+          "ability_priest_holybolts01"
+        ]
       },
       "pve_tooltip": "Judgment has a 100% chance to cast Consecration at the target's location.\nThe limit on Consecration does not apply to this effect.",
       "pvp_tooltip": "Judgment has a 100% chance to cast Consecration at the target's location.\nThe limit on Consecration does not apply to this effect.",
@@ -6249,8 +6411,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6286,7 +6448,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Saved by the Light",
         "spell_id": 157047,
         "visible_spell_id": null,
-        "icon": "ability_paladin_savedbythelight"
+        "icon": "ability_paladin_savedbythelight",
+        "icon_candidates": [
+          "ability_paladin_savedbythelight"
+        ]
       },
       "pve_tooltip": "When an ally with your Beacon of Light is damaged, they absorb the next 0 damage, increasing by up to 300% based on their current health. Lower health allies are shielded for more.",
       "pvp_tooltip": "When an ally with your Beacon of Light is damaged, they absorb the next 0 damage, increasing by up to 300% based on their current health. Lower health allies are shielded for more.",
@@ -6352,8 +6517,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6388,7 +6553,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Protection",
         "spell_id": 461243,
         "visible_spell_id": null,
-        "icon": "spell_holy_absolution"
+        "icon": "spell_holy_absolution",
+        "icon_candidates": [
+          "spell_holy_absolution"
+        ]
       },
       "pve_tooltip": "Allies with Beacon of Light receive 5% less damage.",
       "pvp_tooltip": "Allies with Beacon of Light receive 5% less damage.",
@@ -6412,8 +6580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6445,7 +6613,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overflowing Light",
         "spell_id": 461244,
         "visible_spell_id": null,
-        "icon": "spell_holy_holyguidance"
+        "icon": "spell_holy_holyguidance",
+        "icon_candidates": [
+          "spell_holy_holyguidance"
+        ]
       },
       "pve_tooltip": "50% of Holy Shock's overhealing is converted into an absorb shield. The shield amount cannot exceed 10% of your max health.",
       "pvp_tooltip": "50% of Holy Shock's overhealing is converted into an absorb shield. The shield amount cannot exceed 10% of your max health.",
@@ -6469,8 +6640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6503,7 +6674,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shining Righteousness",
         "spell_id": 414443,
         "visible_spell_id": null,
-        "icon": "spell_holy_holynova"
+        "icon": "spell_holy_holynova",
+        "icon_candidates": [
+          "spell_holy_holynova"
+        ]
       },
       "pve_tooltip": "[Denounce / Shield of the Righteous] deals (256% of Spell Power) damage to its first target struck.\n[Denounce / Shield of the Righteous] now has a 35% chance to activate Divine Purpose if talented.",
       "pvp_tooltip": "[Denounce / Shield of the Righteous] deals (256% of Spell Power) damage to its first target struck.\n[Denounce / Shield of the Righteous] now has a 35% chance to activate Divine Purpose if talented.",
@@ -6527,8 +6701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6561,7 +6735,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Liberation",
         "spell_id": 461287,
         "visible_spell_id": null,
-        "icon": "ability_paladin_toweroflight"
+        "icon": "ability_paladin_toweroflight",
+        "icon_candidates": [
+          "ability_paladin_toweroflight"
+        ]
       },
       "pve_tooltip": "12% of Word of Glory and Light of Dawn's healing is converted into Holy damage that strikes a nearby enemy.",
       "pvp_tooltip": "12% of Word of Glory and Light of Dawn's healing is converted into Holy damage that strikes a nearby enemy.",
@@ -6585,8 +6762,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6619,7 +6796,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crusader's Might",
         "spell_id": 196926,
         "visible_spell_id": null,
-        "icon": "ability_paladin_swiftretribution"
+        "icon": "ability_paladin_swiftretribution",
+        "icon_candidates": [
+          "ability_paladin_swiftretribution"
+        ]
       },
       "pve_tooltip": "Holy Shock reduces the cooldown of Judgment by 1.5 sec and Crusader Strike reduces the cooldown of Judgment by 1.5 sec.\n(800ms cooldown)",
       "pvp_tooltip": "Holy Shock reduces the cooldown of Judgment by 1.5 sec and Crusader Strike reduces the cooldown of Judgment by 1.5 sec.\n(800ms cooldown)",
@@ -6643,8 +6823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6676,7 +6856,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tirion's Devotion",
         "spell_id": 414720,
         "visible_spell_id": null,
-        "icon": "spell_holy_revivechampion"
+        "icon": "spell_holy_revivechampion",
+        "icon_candidates": [
+          "spell_holy_revivechampion"
+        ]
       },
       "pve_tooltip": "Lay on Hands' cooldown is reduced by 40% and restores 5% of your Mana.",
       "pvp_tooltip": "Lay on Hands' cooldown is reduced by 40% and restores 5% of your Mana.",
@@ -6700,8 +6883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6737,7 +6920,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Commanding Light",
         "spell_id": 387781,
         "visible_spell_id": null,
-        "icon": "ability_paladin_beaconoflight"
+        "icon": "ability_paladin_beaconoflight",
+        "icon_candidates": [
+          "ability_paladin_beaconoflight"
+        ]
       },
       "pve_tooltip": "Beacon of Light transfers an additional 5% of the amount healed.",
       "pvp_tooltip": "Beacon of Light transfers an additional 5% of the amount healed.",
@@ -6761,8 +6947,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6794,7 +6980,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Glistening Radiance",
         "spell_id": 1241805,
         "visible_spell_id": null,
-        "icon": "spell_paladin_divinecircle"
+        "icon": "spell_paladin_divinecircle",
+        "icon_candidates": [
+          "spell_paladin_divinecircle"
+        ]
       },
       "pve_tooltip": "While at maximum health, targets with Beacon of Light generate an absorb shield equal to 2% of their health every 3 sec, up to a maximum of 6%.",
       "pvp_tooltip": "While at maximum health, targets with Beacon of Light generate an absorb shield equal to 2% of their health every 3 sec, up to a maximum of 6%.",
@@ -6857,8 +7046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6892,7 +7081,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Breaking Dawn",
         "spell_id": 387879,
         "visible_spell_id": null,
-        "icon": "spell_holy_rune"
+        "icon": "spell_holy_rune",
+        "icon_candidates": [
+          "spell_holy_rune"
+        ]
       },
       "pve_tooltip": "Increases Light of Dawn's healing by 10%.",
       "pvp_tooltip": "Increases Light of Dawn's healing by 10%.",
@@ -6935,8 +7127,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6968,7 +7160,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Revelations",
         "spell_id": 387808,
         "visible_spell_id": null,
-        "icon": "ability_paladin_infusionoflight"
+        "icon": "ability_paladin_infusionoflight",
+        "icon_candidates": [
+          "ability_paladin_infusionoflight"
+        ]
       },
       "pve_tooltip": "While empowered by Infusion of Light, Flash of Light heals for an additional 20% and Judgment refunds 0.5% of your maximum mana.",
       "pvp_tooltip": "While empowered by Infusion of Light, Flash of Light heals for an additional 20% and Judgment refunds 0.5% of your maximum mana.",
@@ -6992,8 +7187,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7028,7 +7223,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Glimpse",
         "spell_id": 387805,
         "visible_spell_id": null,
-        "icon": "spell_holy_healingaura"
+        "icon": "spell_holy_healingaura",
+        "icon_candidates": [
+          "spell_holy_healingaura"
+        ]
       },
       "pve_tooltip": "Holy Shock and Judgment have a 8% increased critical strike chance.",
       "pvp_tooltip": "Holy Shock and Judgment have a 8% increased critical strike chance.",
@@ -7052,8 +7250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7086,7 +7284,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bestow Light",
         "spell_id": 448040,
         "visible_spell_id": null,
-        "icon": "ability_paladin_sheathoflight"
+        "icon": "ability_paladin_sheathoflight",
+        "icon_candidates": [
+          "ability_paladin_sheathoflight"
+        ]
       },
       "pve_tooltip": "Light of the Martyr's health threshold is reduced to 70% and increases Holy Shock's healing by an additional 5% for every 5 sec Light of the Martyr is active, stacking up to 3 times.\nWhile below 70% health, the light urgently heals you for (20% of Spell Power) every 1 sec.",
       "pvp_tooltip": "Light of the Martyr's health threshold is reduced to 70% and increases Holy Shock's healing by an additional 5% for every 5 sec Light of the Martyr is active, stacking up to 3 times.\nWhile below 70% health, the light urgently heals you for (20% of Spell Power) every 1 sec.",
@@ -7110,8 +7311,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7147,7 +7348,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of Faith",
         "spell_id": 156910,
         "visible_spell_id": null,
-        "icon": "ability_paladin_beaconsoflight"
+        "icon": "ability_paladin_beaconsoflight",
+        "icon_candidates": [
+          "ability_paladin_beaconsoflight"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n60 yd range\nInstant\nMark a second target as a Beacon, mimicking the effects of Beacon of Light. Your heals will now heal both of your Beacons, but at 30% reduced effectiveness.\n(1s cooldown)",
       "pvp_tooltip": "0.5% of base mana\n60 yd range\nInstant\nMark a second target as a Beacon, mimicking the effects of Beacon of Light. Your heals will now heal both of your Beacons, but at 30% reduced effectiveness.\n(1s cooldown)",
@@ -7256,8 +7460,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7293,7 +7497,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of Virtue",
         "spell_id": 200025,
         "visible_spell_id": null,
-        "icon": "ability_paladin_beaconofinsight"
+        "icon": "ability_paladin_beaconofinsight",
+        "icon_candidates": [
+          "ability_paladin_beaconofinsight"
+        ]
       },
       "pve_tooltip": "4.5% of base mana\n40 yd range\nInstant\n15 sec cooldown\nApply a Beacon of Light to your target and 4 injured allies within 30 yds for 9 sec.\nAll affected allies will be healed for 10% of the amount of your other healing done.\n(1s cooldown)",
       "pvp_tooltip": "4.5% of base mana\n40 yd range\nInstant\n15 sec cooldown\nApply a Beacon of Light to your target and 4 injured allies within 30 yds for 9 sec.\nAll affected allies will be healed for 10% of the amount of your other healing done.\n(1s cooldown)",
@@ -7358,8 +7565,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7391,7 +7598,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empyrean Legacy",
         "spell_id": 1241358,
         "visible_spell_id": null,
-        "icon": "item_holyspark"
+        "icon": "item_holyspark",
+        "icon_candidates": [
+          "item_holyspark"
+        ]
       },
       "pve_tooltip": "Judgment critical strikes empower your next Word of Glory to automatically activate Light of Dawn at 30% effectiveness.",
       "pvp_tooltip": "Judgment critical strikes empower your next Word of Glory to automatically activate Light of Dawn at 30% effectiveness.",
@@ -7415,8 +7625,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7450,7 +7660,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Veneration",
         "spell_id": 392938,
         "visible_spell_id": null,
-        "icon": "ability_crown_of_the_heavens_icon"
+        "icon": "ability_crown_of_the_heavens_icon",
+        "icon_candidates": [
+          "ability_crown_of_the_heavens_icon"
+        ]
       },
       "pve_tooltip": "Judgment grants an absorb shield on up to 5 injured allies for 8% of the damage done, split evenly among them.\nFlash of Light and Holy Light critical strikes reset the cooldown of Judgment.",
       "pvp_tooltip": "Judgment grants an absorb shield on up to 5 injured allies for 8% of the damage done, split evenly among them.\nFlash of Light and Holy Light critical strikes reset the cooldown of Judgment.",
@@ -7474,8 +7687,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7511,7 +7724,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Avenging Wrath",
         "spell_id": 31884,
         "visible_spell_id": 31884,
-        "icon": "spell_holy_avenginewrath"
+        "icon": "spell_holy_avenginewrath",
+        "icon_candidates": [
+          "spell_holy_avenginewrath"
+        ]
       },
       "pve_tooltip": "Instant\n19 sec cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec / Divine Wrath: 24 sec / Call of the Righteous: 15 sec.",
       "pvp_tooltip": "Instant\n19 sec cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec / Divine Wrath: 24 sec / Call of the Righteous: 15 sec.",
@@ -7615,8 +7831,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7652,7 +7868,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Avenging Crusader",
         "spell_id": 394088,
         "visible_spell_id": 216331,
-        "icon": "ability_paladin_veneration"
+        "icon": "ability_paladin_veneration",
+        "icon_candidates": [
+          "ability_paladin_veneration"
+        ]
       },
       "pve_tooltip": "You become the ultimate crusader of light for 15 sec. Crusader Strike and Judgment cool down 0% faster and heal up to 5 injured allies for 55% of the damage they deal.\nIf Avenging Wrath is known, also increases Judgment, Crusader Strike, and auto-attack damage by 0%.",
       "pvp_tooltip": "You become the ultimate crusader of light for 15 sec. Crusader Strike and Judgment cool down 0% faster and heal up to 5 injured allies for 80.3% of the damage they deal.\nIf Avenging Wrath is known, also increases Judgment, Crusader Strike, and auto-attack damage by 0%.",
@@ -7768,8 +7987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7803,7 +8022,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reclamation",
         "spell_id": 415364,
         "visible_spell_id": null,
-        "icon": "ability_paladin_longarmofthelaw"
+        "icon": "ability_paladin_longarmofthelaw",
+        "icon_candidates": [
+          "ability_paladin_longarmofthelaw"
+        ]
       },
       "pve_tooltip": "Holy Shock refunds up to 10% of its Mana cost and deals up to 50% more healing or damage, based on the target's missing health.",
       "pvp_tooltip": "Holy Shock refunds up to 10% of its Mana cost and deals up to 50% more healing or damage, based on the target's missing health.",
@@ -7827,8 +8049,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7858,7 +8080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pillars of Light",
         "spell_id": 1232616,
         "visible_spell_id": null,
-        "icon": "inv_helm_plate_raidpaladindragon_d_01"
+        "icon": "inv_helm_plate_raidpaladindragon_d_01",
+        "icon_candidates": [
+          "inv_helm_plate_raidpaladindragon_d_01"
+        ]
       },
       "pve_tooltip": "Beacon of Faith:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
       "pvp_tooltip": "Beacon of Faith:\nAllies with Beacon of Light or Beacon of Faith are healed for (19.47% of Spell Power) every 3 sec.\nBeacon of Virtue:\nBeacon of Virtue instantly heals allies for (345.74% of Spell Power).",
@@ -7999,8 +8224,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8034,7 +8259,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Seek Deliverance",
         "spell_id": 1271016,
         "visible_spell_id": null,
-        "icon": "spell_holy_blessedresillience"
+        "icon": "spell_holy_blessedresillience",
+        "icon_candidates": [
+          "spell_holy_blessedresillience"
+        ]
       },
       "pve_tooltip": "While Avenging Wrath is not active, you gain 5% Mastery.\nWhile Avenging Wrath is active, you gain 30% movement speed.",
       "pvp_tooltip": "While Avenging Wrath is not active, you gain 5% Mastery.\nWhile Avenging Wrath is active, you gain 30% movement speed.",
@@ -8058,8 +8286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8093,7 +8321,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanctified Wrath",
         "spell_id": 53376,
         "visible_spell_id": null,
-        "icon": "ability_paladin_judgementsofthejust"
+        "icon": "ability_paladin_judgementsofthejust",
+        "icon_candidates": [
+          "ability_paladin_judgementsofthejust"
+        ]
       },
       "pve_tooltip": "Avenging Wrath and Avenging Crusader have 50% increased duration.\n[Avenging Wrath and Avenging Crusader have 25% increased duration]",
       "pvp_tooltip": "Avenging Wrath and Avenging Crusader have 50% increased duration.\n[Avenging Wrath and Avenging Crusader have 25% increased duration]",
@@ -8193,8 +8424,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8228,7 +8459,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Awakening",
         "spell_id": 414195,
         "visible_spell_id": null,
-        "icon": "inv_helm_plate_raidpaladin_n_01"
+        "icon": "inv_helm_plate_raidpaladin_n_01",
+        "icon_candidates": [
+          "inv_helm_plate_raidpaladin_n_01"
+        ]
       },
       "pve_tooltip": "While in combat, your Holy Power spenders have a 15% chance to cause your next Judgment to deal 30% increased damage and critically strike.\nActivating Avenging Wrath activates Awakening.\n(400ms cooldown)",
       "pvp_tooltip": "While in combat, your Holy Power spenders have a 15% chance to cause your next Judgment to deal 30% increased damage and critically strike.\nActivating Avenging Wrath activates Awakening.\n(400ms cooldown)",
@@ -8252,8 +8486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8286,7 +8520,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Call of the Righteous",
         "spell_id": 1241511,
         "visible_spell_id": null,
-        "icon": "ability_paladin_gaurdedbythelight"
+        "icon": "ability_paladin_gaurdedbythelight",
+        "icon_candidates": [
+          "ability_paladin_gaurdedbythelight"
+        ]
       },
       "pve_tooltip": "Avenging Wrath's cooldown is reduced by 30 sec, but its duration is reduced by 8 sec.\nAvenging Crusader's cooldown is reduced by 15 sec, but its duration is reduced by 5 sec.",
       "pvp_tooltip": "Avenging Wrath's cooldown is reduced by 30 sec, but its duration is reduced by 8 sec.\nAvenging Crusader's cooldown is reduced by 15 sec, but its duration is reduced by 5 sec.",
@@ -8329,8 +8566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8362,7 +8599,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Truth Prevails",
         "spell_id": 461273,
         "visible_spell_id": null,
-        "icon": "ability_paladin_artofwar"
+        "icon": "ability_paladin_artofwar",
+        "icon_candidates": [
+          "ability_paladin_artofwar"
+        ]
       },
       "pve_tooltip": "Judgment heals you for (312% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
       "pvp_tooltip": "Judgment heals you for (184.08% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
@@ -8446,8 +8686,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8480,7 +8720,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Overload",
         "spell_id": 1271077,
         "visible_spell_id": null,
-        "icon": "spell_holy_surgeoflight"
+        "icon": "spell_holy_surgeoflight",
+        "icon_candidates": [
+          "spell_holy_surgeoflight"
+        ]
       },
       "pve_tooltip": "Holy Light's healing is increased by 30%, but its mana cost is increased by 20%.",
       "pvp_tooltip": "Holy Light's healing is increased by 30%, but its mana cost is increased by 20%.",
@@ -8504,8 +8747,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8535,7 +8778,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rising Sunlight",
         "spell_id": 1277651,
         "visible_spell_id": null,
-        "icon": "spell_priest_divinestar_holy"
+        "icon": "spell_priest_divinestar_holy",
+        "icon_candidates": [
+          "spell_priest_divinestar_holy"
+        ]
       },
       "pve_tooltip": "Your healing is increased by up to 10%, based on the average health percentage of allies with your Beacon of Light.",
       "pvp_tooltip": "Your healing is increased by up to 10%, based on the average health percentage of allies with your Beacon of Light.",
@@ -8559,8 +8805,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8591,7 +8837,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Glorious Dawn",
         "spell_id": 461246,
         "visible_spell_id": null,
-        "icon": "ability_paladin_holyavenger"
+        "icon": "ability_paladin_holyavenger",
+        "icon_candidates": [
+          "ability_paladin_holyavenger"
+        ]
       },
       "pve_tooltip": "Holy Shock has a 12% chance to refund a charge when cast and its healing is increased by 10%.",
       "pvp_tooltip": "Holy Shock has a 12% chance to refund a charge when cast and its healing is increased by 10%.",
@@ -8615,8 +8864,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8646,7 +8895,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Seraphic Barrier",
         "spell_id": 1241714,
         "visible_spell_id": null,
-        "icon": "ability_paladin_protectoroftheinnocent"
+        "icon": "ability_paladin_protectoroftheinnocent",
+        "icon_candidates": [
+          "ability_paladin_protectoroftheinnocent"
+        ]
       },
       "pve_tooltip": "Word of Glory and Light of Dawn now convert 15% of their healing into an absorb shield instead.",
       "pvp_tooltip": "Word of Glory and Light of Dawn now convert 15% of their healing into an absorb shield instead.",
@@ -8670,8 +8922,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8703,7 +8955,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tyr's Deliverance",
         "spell_id": 1241275,
         "visible_spell_id": null,
-        "icon": "inv_mace_2h_artifactsilverhand_d_01"
+        "icon": "inv_mace_2h_artifactsilverhand_d_01",
+        "icon_candidates": [
+          "inv_mace_2h_artifactsilverhand_d_01"
+        ]
       },
       "pve_tooltip": "Activating Avenging Wrath releases the Light within yourself, healing 5 injured allies instantly and an injured ally every 1 sec within 40 yds for (35.1% of Spell Power).\nAllies healed also receive 10% increased healing from your Holy Light, Flash of Light, and Holy Shock spells for 12 sec.",
       "pvp_tooltip": "Activating Avenging Wrath releases the Light within yourself, healing 5 injured allies instantly and an injured ally every 1 sec within 40 yds for (35.1% of Spell Power).\nAllies healed also receive 10% increased healing from your Holy Light, Flash of Light, and Holy Shock spells for 12 sec.",
@@ -8727,8 +8982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8760,7 +9015,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hand of Divinity",
         "spell_id": 1242008,
         "visible_spell_id": null,
-        "icon": "spell_holy_vindication"
+        "icon": "spell_holy_vindication",
+        "icon_candidates": [
+          "spell_holy_vindication"
+        ]
       },
       "pve_tooltip": "Activating Avenging Wrath calls upon the Light to empower you, causing your next [Avenging Crusader: Holy Light / 2 Holy Lights] to be instant cast and cost 50% less mana.",
       "pvp_tooltip": "Activating Avenging Wrath calls upon the Light to empower you, causing your next [Avenging Crusader: Holy Light / 2 Holy Lights] to be instant cast and cost 50% less mana.",
@@ -8784,8 +9042,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8817,7 +9075,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inflorescence of the Sunwell",
         "spell_id": 392907,
         "visible_spell_id": null,
-        "icon": "spell_lfieblood"
+        "icon": "spell_lfieblood",
+        "icon_candidates": [
+          "spell_lfieblood"
+        ]
       },
       "pve_tooltip": "Infusion of Light has 1 additional charge.",
       "pvp_tooltip": "Infusion of Light has 1 additional charge.",
@@ -8841,8 +9102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8870,7 +9131,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of the Savior",
         "spell_id": 1244878,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_paladin_beaconofthesavior"
+        "icon": "inv12_apextalent_paladin_beaconofthesavior",
+        "icon_candidates": [
+          "inv12_apextalent_paladin_beaconofthesavior"
+        ]
       },
       "pve_tooltip": "While in combat, apply a Beacon of the Savior to the lowest health ally within 30 yds that causes your direct healing on others to also heal that ally for 10% of the amount healed.\nBeacon of the Savior transfers to the lowest health ally within 30 yds if it heals a target past maximum health or if an ally drops below 50% health.",
       "pvp_tooltip": "While in combat, apply a Beacon of the Savior to the lowest health ally within 30 yds that causes your direct healing on others to also heal that ally for 10% of the amount healed.\nBeacon of the Savior transfers to the lowest health ally within 30 yds if it heals a target past maximum health or if an ally drops below 50% health.",
@@ -8894,8 +9158,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8923,7 +9187,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of the Savior",
         "spell_id": 1245367,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_paladin_beaconofthesavior"
+        "icon": "inv12_apextalent_paladin_beaconofthesavior",
+        "icon_candidates": [
+          "inv12_apextalent_paladin_beaconofthesavior"
+        ]
       },
       "pve_tooltip": "Beacon of the Savior transfers an additional 10% of the amount healed and allies with Beacon of the Savior receive 20% more healing from you.",
       "pvp_tooltip": "Beacon of the Savior transfers an additional 10% of the amount healed and allies with Beacon of the Savior receive 20% more healing from you.",
@@ -8966,8 +9233,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8995,7 +9262,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Beacon of the Savior",
         "spell_id": 1245368,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_paladin_beaconofthesavior"
+        "icon": "inv12_apextalent_paladin_beaconofthesavior",
+        "icon_candidates": [
+          "inv12_apextalent_paladin_beaconofthesavior"
+        ]
       },
       "pve_tooltip": "Every 8 sec or when Beacon of the Savior transfers to a new injured target, they are granted an absorb shield that prevents the next 0 damage and reduces damage taken by 10% for 15 sec.\nBeacon of the Savior now additionally follows the target of your Holy Light and Flash of Light spells once every 5 sec.\n(5s cooldown)",
       "pvp_tooltip": "Every 8 sec or when Beacon of the Savior transfers to a new injured target, they are granted an absorb shield that prevents the next 0 damage and reduces damage taken by 10% for 15 sec.\nBeacon of the Savior now additionally follows the target of your Holy Light and Flash of Light spells once every 5 sec.\n(5s cooldown)",
@@ -9019,8 +9289,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9053,7 +9323,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dawnlight",
         "spell_id": 431377,
         "visible_spell_id": null,
-        "icon": "inv_ability_heraldofthesunpaladin_dawnlight"
+        "icon": "inv_ability_heraldofthesunpaladin_dawnlight",
+        "icon_candidates": [
+          "inv_ability_heraldofthesunpaladin_dawnlight"
+        ]
       },
       "pve_tooltip": "Casting Holy Prism or Divine Toll causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n8% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\nDawnlight's healing does not transfer to Beacon of Light.",
       "pvp_tooltip": "Casting Holy Prism or Divine Toll causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n8% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\nDawnlight's healing does not transfer to Beacon of Light.",
@@ -9108,8 +9381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9141,7 +9414,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Morning Star",
         "spell_id": 431482,
         "visible_spell_id": null,
-        "icon": "spell_holy_persecution"
+        "icon": "spell_holy_persecution",
+        "icon_candidates": [
+          "spell_holy_persecution"
+        ]
       },
       "pve_tooltip": "Every 5.0 sec, your next Dawnlight's damage or healing is increased by 5%, stacking up to 10 times.\nMorning Star stacks twice as fast while out of combat.",
       "pvp_tooltip": "Every 5.0 sec, your next Dawnlight's damage or healing is increased by 5%, stacking up to 10 times.\nMorning Star stacks twice as fast while out of combat.",
@@ -9165,8 +9441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9198,7 +9474,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gleaming Rays",
         "spell_id": 431480,
         "visible_spell_id": null,
-        "icon": "spell_priest_power-word"
+        "icon": "spell_priest_power_word",
+        "icon_candidates": [
+          "spell_priest_power_word",
+          "spell_priest_power-word"
+        ]
       },
       "pve_tooltip": "Your Holy Power spenders deal 3% additional damage and healing.",
       "pvp_tooltip": "Your Holy Power spenders deal 3% additional damage and healing.",
@@ -9222,8 +9502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9255,7 +9535,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eternal Flame",
         "spell_id": 156322,
         "visible_spell_id": null,
-        "icon": "inv_torch_thrown"
+        "icon": "inv_torch_thrown",
+        "icon_candidates": [
+          "inv_torch_thrown"
+        ]
       },
       "pve_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (378% of Spell Power) and an additional (109.44% of Spell Power) over 16 sec.\nHealing increased by 25% when cast on self.",
       "pvp_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (267.624% of Spell Power) and an additional (77.4835% of Spell Power) over 16 sec.\nHealing increased by 15% when cast on self.",
@@ -9287,7 +9570,7 @@ window.WOW_PVP_DATA = {
           "end": 172,
           "old_token": "25",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -9327,7 +9610,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "15"
         }
@@ -9481,8 +9764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9514,7 +9797,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Luminosity",
         "spell_id": 431402,
         "visible_spell_id": null,
-        "icon": "inv_qirajidol_sun"
+        "icon": "inv_qirajidol_sun",
+        "icon_candidates": [
+          "inv_qirajidol_sun"
+        ]
       },
       "pve_tooltip": "Critical Strike chance of Holy Shock and Light of Dawn increased by 5%.",
       "pvp_tooltip": "Critical Strike chance of Holy Shock and Light of Dawn increased by 5%.",
@@ -9538,8 +9824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9571,7 +9857,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Endless Gleam",
         "spell_id": 1263787,
         "visible_spell_id": null,
-        "icon": "spell_paladin_inquisition"
+        "icon": "spell_paladin_inquisition",
+        "icon_candidates": [
+          "spell_paladin_inquisition"
+        ]
       },
       "pve_tooltip": "Dawnlight's duration is increased by 0.5 sec when it heals an ally with full health.",
       "pvp_tooltip": "Dawnlight's duration is increased by 0.5 sec when it heals an ally with full health.",
@@ -9595,8 +9884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9628,7 +9917,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Illumine",
         "spell_id": 431423,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineillumination"
+        "icon": "spell_holy_divineillumination",
+        "icon_candidates": [
+          "spell_holy_divineillumination"
+        ]
       },
       "pve_tooltip": "Dawnlight reduces the movement speed of enemies by 50% and increases the movement speed of allies by 20%.",
       "pvp_tooltip": "Dawnlight reduces the movement speed of enemies by 30% and increases the movement speed of allies by 20%.",
@@ -9742,8 +10034,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9775,7 +10067,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Will of the Dawn",
         "spell_id": 431406,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineprovidence"
+        "icon": "spell_holy_divineprovidence",
+        "icon_candidates": [
+          "spell_holy_divineprovidence"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 5% while above 80% health.\nWhen your health is brought below 35%, your movement speed is increased by 40% for 5 sec. Cannot occur more than once every 1 min.",
       "pvp_tooltip": "Movement speed increased by 5% while above 80% health.\nWhen your health is brought below 35%, your movement speed is increased by 40% for 5 sec. Cannot occur more than once every 1 min.",
@@ -9799,8 +10094,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9832,7 +10127,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of An'she",
         "spell_id": 445200,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_orb"
+        "icon": "inv_ability_holyfire_orb",
+        "icon_candidates": [
+          "inv_ability_holyfire_orb"
+        ]
       },
       "pve_tooltip": "Approximately 2 procs per minute\nThe healing and damage of Holy Shock is increased by 15%.",
       "pvp_tooltip": "Approximately 2 procs per minute\nThe healing and damage of Holy Shock is increased by 15%.",
@@ -9856,8 +10154,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9889,7 +10187,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lingering Radiance",
         "spell_id": 431407,
         "visible_spell_id": null,
-        "icon": "spell_holy_mindvision"
+        "icon": "spell_holy_mindvision",
+        "icon_candidates": [
+          "spell_holy_mindvision"
+        ]
       },
       "pve_tooltip": "Dawnlight leaves an Eternal Flame for 6 sec on allies or a Greater Judgment on enemies when it expires or is extended.",
       "pvp_tooltip": "Dawnlight leaves an Eternal Flame for 6 sec on allies or a Greater Judgment on enemies when it expires or is extended.",
@@ -9913,8 +10214,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9946,7 +10247,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sun Sear",
         "spell_id": 431413,
         "visible_spell_id": null,
-        "icon": "spell_priest_burningwill"
+        "icon": "spell_priest_burningwill",
+        "icon_candidates": [
+          "spell_priest_burningwill"
+        ]
       },
       "pve_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
       "pvp_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
@@ -10043,8 +10347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10076,7 +10380,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Solar Grace",
         "spell_id": 431404,
         "visible_spell_id": null,
-        "icon": "ability_malkorok_blightofyshaarj_yellow"
+        "icon": "ability_malkorok_blightofyshaarj_yellow",
+        "icon_candidates": [
+          "ability_malkorok_blightofyshaarj_yellow"
+        ]
       },
       "pve_tooltip": "Haste is increased by 5%.",
       "pvp_tooltip": "Haste is increased by 5%.",
@@ -10100,8 +10407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10133,7 +10440,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aurora",
         "spell_id": 439760,
         "visible_spell_id": null,
-        "icon": "spell_holy_rune"
+        "icon": "spell_holy_rune",
+        "icon_candidates": [
+          "spell_holy_rune"
+        ]
       },
       "pve_tooltip": "After you cast Holy Prism or Divine Toll, gain Divine Purpose.\nDivine Purpose\nYour next Holy Power spending ability is free and deals 15% increased damage and healing.",
       "pvp_tooltip": "After you cast Holy Prism or Divine Toll, gain Divine Purpose.\nDivine Purpose\nYour next Holy Power spending ability is free and deals 15% increased damage and healing.",
@@ -10157,8 +10467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10190,7 +10500,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Walk Into Light",
         "spell_id": 1263782,
         "visible_spell_id": null,
-        "icon": "ability_paladin_sheathoflight"
+        "icon": "ability_paladin_sheathoflight",
+        "icon_candidates": [
+          "ability_paladin_sheathoflight"
+        ]
       },
       "pve_tooltip": "Infusion of Light occurs 100% more often during Avenging Wrath.",
       "pvp_tooltip": "Infusion of Light occurs 100% more often during Avenging Wrath.",
@@ -10214,8 +10527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10247,7 +10560,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Second Sunrise",
         "spell_id": 431474,
         "visible_spell_id": null,
-        "icon": "ability_priest_halo"
+        "icon": "ability_priest_halo",
+        "icon_candidates": [
+          "ability_priest_halo"
+        ]
       },
       "pve_tooltip": "Light of Dawn and Holy Shock have a 15% chance to cast again at 30% effectiveness.\n(1s cooldown)",
       "pvp_tooltip": "Light of Dawn and Holy Shock have a 15% chance to cast again at 30% effectiveness.\n(1s cooldown)",
@@ -10271,8 +10587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10304,7 +10620,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Born in Sunlight",
         "spell_id": 1263920,
         "visible_spell_id": null,
-        "icon": "spell_paladin_lightofdawn"
+        "icon": "spell_paladin_lightofdawn",
+        "icon_candidates": [
+          "spell_paladin_lightofdawn"
+        ]
       },
       "pve_tooltip": "Dawnlight's critical strike chance is increased by 15% during Avenging Wrath.\n(1s cooldown)",
       "pvp_tooltip": "Dawnlight's critical strike chance is increased by 15% during Avenging Wrath.\n(1s cooldown)",
@@ -10328,8 +10647,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10362,7 +10681,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sun's Avatar",
         "spell_id": 431425,
         "visible_spell_id": null,
-        "icon": "ability_paladin_holyavenger"
+        "icon": "ability_paladin_holyavenger",
+        "icon_candidates": [
+          "ability_paladin_holyavenger"
+        ]
       },
       "pve_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
       "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (21.9834% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
@@ -10446,8 +10768,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10480,7 +10802,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Armaments",
         "spell_id": 1289728,
         "visible_spell_id": 432459,
-        "icon": "inv_ability_lightsmithpaladin_holybulwark"
+        "icon": "inv_ability_lightsmithpaladin_holybulwark",
+        "icon_candidates": [
+          "inv_ability_lightsmithpaladin_holybulwark"
+        ]
       },
       "pve_tooltip": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your target.\nSacred Weapon:\nWhile wielding a Sacred Weapon, your spells and abilities have a chance to deal (104% of Attack Power) additional Holy damage or healing to nearby targets. Effect is increased when Sacred Weapon strikes a single target, and reduced above 5. Lasts 20 sec.\nBecomes Holy Bulwark after use.\nGenerates 3 Holy Power.",
       "pvp_tooltip": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your target.\nSacred Weapon:\nWhile wielding a Sacred Weapon, your spells and abilities have a chance to deal (104% of Attack Power) additional Holy damage or healing to nearby targets. Effect is increased when Sacred Weapon strikes a single target, and reduced above 5. Lasts 20 sec.\nBecomes Holy Bulwark after use.\nGenerates 3 Holy Power.",
@@ -10569,8 +10894,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10602,7 +10927,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rite of Sanctification",
         "spell_id": 433568,
         "visible_spell_id": null,
-        "icon": "inv_inscription_weaponscroll01"
+        "icon": "inv_inscription_weaponscroll01",
+        "icon_candidates": [
+          "inv_inscription_weaponscroll01"
+        ]
       },
       "pve_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your armor by 5% and your primary stat by 5%.\nLasts 1 hour.",
       "pvp_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your armor by 5% and your primary stat by 5%.\nLasts 1 hour.",
@@ -10626,8 +10954,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10659,7 +10987,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rite of Adjuration",
         "spell_id": 433583,
         "visible_spell_id": null,
-        "icon": "inv_inscription_armorscroll02"
+        "icon": "inv_inscription_armorscroll02",
+        "icon_candidates": [
+          "inv_inscription_armorscroll02"
+        ]
       },
       "pve_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your Stamina by 3% and causing your Holy Power abilities to sometimes unleash a burst of healing around a target.\nLasts 1 hour.",
       "pvp_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your Stamina by 3% and causing your Holy Power abilities to sometimes unleash a burst of healing around a target.\nLasts 1 hour.",
@@ -10683,8 +11014,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10716,7 +11047,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Solidarity",
         "spell_id": 432802,
         "visible_spell_id": null,
-        "icon": "spell_holy_heroism"
+        "icon": "spell_holy_heroism",
+        "icon_candidates": [
+          "spell_holy_heroism"
+        ]
       },
       "pve_tooltip": "40 yd range\nIf you bestow an Armament upon an ally, you also gain its benefits.\nIf you bestow an Armament upon yourself, a nearby ally also gains its benefits.",
       "pvp_tooltip": "40 yd range\nIf you bestow an Armament upon an ally, you also gain its benefits.\nIf you bestow an Armament upon yourself, a nearby ally also gains its benefits.",
@@ -10740,8 +11074,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10773,7 +11107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Guidance",
         "spell_id": 433106,
         "visible_spell_id": null,
-        "icon": "spell_holy_lightsgrace"
+        "icon": "spell_holy_lightsgrace",
+        "icon_candidates": [
+          "spell_holy_lightsgrace"
+        ]
       },
       "pve_tooltip": "For each Holy Power ability cast, your next Consecration deals [(Spell Power * 20 / 10) * (1 + Versatility) * 1.19] damage immediately, split across all enemies.\nUp to 3 nearby allies are each healed for 100% of the damage amount.",
       "pvp_tooltip": "For each Holy Power ability cast, your next Consecration deals [(Spell Power * 20 / 10) * (1 + Versatility) * 1.19] damage immediately, split across all enemies.\nUp to 3 nearby allies are each healed for 100% of the damage amount.",
@@ -10827,8 +11164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10860,7 +11197,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessed Assurance",
         "spell_id": 433015,
         "visible_spell_id": null,
-        "icon": "spell_holy_blessedlife"
+        "icon": "spell_holy_blessedlife",
+        "icon_candidates": [
+          "spell_holy_blessedlife"
+        ]
       },
       "pve_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Holy Shock by 100%.",
       "pvp_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Holy Shock by 100%.",
@@ -10884,8 +11224,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10917,7 +11257,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Masterwork",
         "spell_id": 1271387,
         "visible_spell_id": null,
-        "icon": "inv_mace_1h_blacksmithing_b_01_black"
+        "icon": "inv_mace_1h_blacksmithing_b_01_black",
+        "icon_candidates": [
+          "inv_mace_1h_blacksmithing_b_01_black"
+        ]
       },
       "pve_tooltip": "After casting a Holy Armament, your next 3 casts of Holy Shock or Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
       "pvp_tooltip": "After casting a Holy Armament, your next 3 casts of Holy Shock or Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
@@ -10941,8 +11284,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10974,7 +11317,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Inspiration",
         "spell_id": 432964,
         "visible_spell_id": null,
-        "icon": "ability_priest_flashoflight"
+        "icon": "ability_priest_flashoflight",
+        "icon_candidates": [
+          "ability_priest_flashoflight"
+        ]
       },
       "pve_tooltip": "Your spells and abilities have a chance to manifest a Holy Armament for a nearby ally.\n(1s cooldown)",
       "pvp_tooltip": "Your spells and abilities have a chance to manifest a Holy Armament for a nearby ally.\n(1s cooldown)",
@@ -10998,8 +11344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11031,7 +11377,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Forewarning",
         "spell_id": 432804,
         "visible_spell_id": null,
-        "icon": "ability_paladin_gaurdedbythelight"
+        "icon": "ability_paladin_gaurdedbythelight",
+        "icon_candidates": [
+          "ability_paladin_gaurdedbythelight"
+        ]
       },
       "pve_tooltip": "40 yd range\nThe cooldown of Holy Armaments is reduced by 20%.",
       "pvp_tooltip": "40 yd range\nThe cooldown of Holy Armaments is reduced by 20%.",
@@ -11055,8 +11404,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11088,7 +11437,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Authoritative Rebuke",
         "spell_id": 469886,
         "visible_spell_id": null,
-        "icon": "inv_misc_symbolofkings_01"
+        "icon": "inv_misc_symbolofkings_01",
+        "icon_candidates": [
+          "inv_misc_symbolofkings_01"
+        ]
       },
       "pve_tooltip": "40 yd range\nSuccessfully dispelling a harmful effect reduces Cleanse's cooldown by 1.0 sec. Effect increased by 100% while wielding a Holy Armament.",
       "pvp_tooltip": "40 yd range\nSuccessfully dispelling a harmful effect reduces Cleanse's cooldown by 1.0 sec. Effect increased by 100% while wielding a Holy Armament.",
@@ -11112,8 +11464,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11145,7 +11497,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tempered in Battle",
         "spell_id": 469701,
         "visible_spell_id": null,
-        "icon": "inv_everburningforge_yellow"
+        "icon": "inv_everburningforge_yellow",
+        "icon_candidates": [
+          "inv_everburningforge_yellow"
+        ]
       },
       "pve_tooltip": "When you or an ally wielding a Holy Bulwark are healed above maximum health, transfer 100% of the overhealing to your ally.\nWhen you or an ally wielding a Sacred Weapon drop below 40% health, redistribute your health immediately and every 1 sec for 4 sec. May only occur once per cast.",
       "pvp_tooltip": "When you or an ally wielding a Holy Bulwark are healed above maximum health, transfer 100% of the overhealing to your ally.\nWhen you or an ally wielding a Sacred Weapon drop below 40% health, redistribute your health immediately and every 1 sec for 4 sec. May only occur once per cast.",
@@ -11169,8 +11524,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11202,7 +11557,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Laying Down Arms",
         "spell_id": 432866,
         "visible_spell_id": null,
-        "icon": "ability_paladin_handoflight"
+        "icon": "ability_paladin_handoflight",
+        "icon_candidates": [
+          "ability_paladin_handoflight"
+        ]
       },
       "pve_tooltip": "40 yd range\nWhen an Armament fades from you, the cooldown of Lay on Hands is reduced by 15.0 sec and you gain Infusion of Light.",
       "pvp_tooltip": "40 yd range\nWhen an Armament fades from you, the cooldown of Lay on Hands is reduced by 15.0 sec and you gain Infusion of Light.",
@@ -11226,8 +11584,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11259,7 +11617,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hammer and Anvil",
         "spell_id": 433718,
         "visible_spell_id": null,
-        "icon": "inv_10_blacksmithing_consumable_repairhammer_color1"
+        "icon": "inv_10_blacksmithing_consumable_repairhammer_color1",
+        "icon_candidates": [
+          "inv_10_blacksmithing_consumable_repairhammer_color1"
+        ]
       },
       "pve_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (113.4% of Spell Power).",
       "pvp_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (49.5773% of Spell Power).",
@@ -11345,8 +11706,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11378,7 +11739,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Valiance",
         "spell_id": 432919,
         "visible_spell_id": null,
-        "icon": "inv_mace_47"
+        "icon": "inv_mace_47",
+        "icon_candidates": [
+          "inv_mace_47"
+        ]
       },
       "pve_tooltip": "40 yd range\nConsuming Infusion of Light reduces the cooldown of Holy Armaments by 3.0 sec.",
       "pvp_tooltip": "40 yd range\nConsuming Infusion of Light reduces the cooldown of Holy Armaments by 3.0 sec.",
@@ -11402,8 +11766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11435,7 +11799,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shared Resolve",
         "spell_id": 432821,
         "visible_spell_id": null,
-        "icon": "spell_holy_devotionaura"
+        "icon": "spell_holy_devotionaura",
+        "icon_candidates": [
+          "spell_holy_devotionaura"
+        ]
       },
       "pve_tooltip": "40 yd range\nThe effect of your active Aura is increased by 33% on targets with your Armaments.",
       "pvp_tooltip": "40 yd range\nThe effect of your active Aura is increased by 33% on targets with your Armaments.",
@@ -11520,8 +11887,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11553,7 +11920,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reflection of Radiance",
         "spell_id": 1271466,
         "visible_spell_id": null,
-        "icon": "inv_enchanting_70_pet_torch"
+        "icon": "inv_enchanting_70_pet_torch",
+        "icon_candidates": [
+          "inv_enchanting_70_pet_torch"
+        ]
       },
       "pve_tooltip": "When your Holy Bulwark absorbs damage or your Sacred Weapon deals damage or healing, you have a chance to gain Awakening.",
       "pvp_tooltip": "When your Holy Bulwark absorbs damage or your Sacred Weapon deals damage or healing, you have a chance to gain Awakening.",
@@ -11577,8 +11947,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11610,7 +11980,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Resounding Strike",
         "spell_id": 1271553,
         "visible_spell_id": null,
-        "icon": "inv_11_0_arathordungeon_bell_color1"
+        "icon": "inv_11_0_arathordungeon_bell_color1",
+        "icon_candidates": [
+          "inv_11_0_arathordungeon_bell_color1"
+        ]
       },
       "pve_tooltip": "Holy Armaments activate Hammer and Anvil at 100% effectiveness.",
       "pvp_tooltip": "Holy Armaments activate Hammer and Anvil at 100% effectiveness.",
@@ -11634,8 +12007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11668,7 +12041,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blessing of the Forge",
         "spell_id": 433011,
         "visible_spell_id": null,
-        "icon": "inv_ability_lightsmithpaladin_sacredweapon"
+        "icon": "inv_ability_lightsmithpaladin_sacredweapon",
+        "icon_candidates": [
+          "inv_ability_lightsmithpaladin_sacredweapon"
+        ]
       },
       "pve_tooltip": "40 yd range\nAvenging Wrath summons an additional Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities.",
       "pvp_tooltip": "40 yd range\nAvenging Wrath summons an additional Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities.",
@@ -11987,7 +12363,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "paladin-holy",
-  "generated_at": "2026-09-22T19:27:46.715351+00:00",
+  "generated_at": "2026-09-24T11:48:01.874262+00:00",
   "validation": {
     "talents": 150,
     "changed_tooltips": 24,

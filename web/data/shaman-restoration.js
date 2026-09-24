@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chain Heal",
         "spell_id": 1064,
         "visible_spell_id": null,
-        "icon": "inv_1115_shaman_chainheal"
+        "icon": "inv_1115_shaman_chainheal",
+        "icon_candidates": [
+          "inv_1115_shaman_chainheal"
+        ]
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
       "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (218.988% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
@@ -131,8 +134,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -164,7 +167,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lava Burst",
         "spell_id": 51505,
         "visible_spell_id": null,
-        "icon": "spell_shaman_lavaburst"
+        "icon": "spell_shaman_lavaburst",
+        "icon_candidates": [
+          "spell_shaman_lavaburst"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\n2 sec cast\n8 sec cooldown\n1 Charge\nHurls molten lava at the target, dealing (181% of Spell Power) Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock and its damage is increased by your critical strike chance.",
       "pvp_tooltip": "0.5% of base mana\n40 yd range\n2 sec cast\n8 sec cooldown\n1 Charge\nHurls molten lava at the target, dealing (235.3% of Spell Power) Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock and its damage is increased by your critical strike chance.",
@@ -248,8 +254,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -280,7 +286,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chain Lightning",
         "spell_id": 188443,
         "visible_spell_id": null,
-        "icon": "spell_nature_chainlightning"
+        "icon": "spell_nature_chainlightning",
+        "icon_candidates": [
+          "spell_nature_chainlightning"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets",
       "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets",
@@ -304,8 +313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -338,7 +347,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earth Shield",
         "spell_id": 974,
         "visible_spell_id": null,
-        "icon": "spell_nature_skinofearth"
+        "icon": "spell_nature_skinofearth",
+        "icon_candidates": [
+          "spell_nature_skinofearth"
+        ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(58.8234% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
@@ -483,8 +495,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -518,7 +530,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Wolf Affinity",
         "spell_id": 382197,
         "visible_spell_id": null,
-        "icon": "spell_beastmaster_wolf"
+        "icon": "spell_beastmaster_wolf",
+        "icon_candidates": [
+          "spell_beastmaster_wolf"
+        ]
       },
       "pve_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
       "pvp_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
@@ -542,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -575,7 +590,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fire and Ice",
         "spell_id": 382886,
         "visible_spell_id": null,
-        "icon": "spell_firefrost-orb"
+        "icon": "spell_firefrost_orb",
+        "icon_candidates": [
+          "spell_firefrost_orb",
+          "spell_firefrost-orb"
+        ]
       },
       "pve_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
       "pvp_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
@@ -599,8 +618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -634,7 +653,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spirit Wolf",
         "spell_id": 260878,
         "visible_spell_id": null,
-        "icon": "spell_hunter_lonewolf"
+        "icon": "spell_hunter_lonewolf",
+        "icon_candidates": [
+          "spell_hunter_lonewolf"
+        ]
       },
       "pve_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
       "pvp_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
@@ -658,8 +680,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -693,7 +715,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thunderous Paws",
         "spell_id": 378075,
         "visible_spell_id": null,
-        "icon": "ability_hunter_longevity"
+        "icon": "ability_hunter_longevity",
+        "icon_candidates": [
+          "ability_hunter_longevity"
+        ]
       },
       "pve_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
       "pvp_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
@@ -717,8 +742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -751,7 +776,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frost Shock",
         "spell_id": 196840,
         "visible_spell_id": null,
-        "icon": "spell_frost_frostshock"
+        "icon": "spell_frost_frostshock",
+        "icon_candidates": [
+          "spell_frost_frostshock"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
       "pvp_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
@@ -775,8 +803,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -808,7 +836,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Orbit",
         "spell_id": 383010,
         "visible_spell_id": null,
-        "icon": "ability_mage_shattershield"
+        "icon": "ability_mage_shattershield",
+        "icon_candidates": [
+          "ability_mage_shattershield"
+        ]
       },
       "pve_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
       "pvp_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
@@ -832,8 +863,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -867,7 +898,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spirit Walk",
         "spell_id": 58875,
         "visible_spell_id": null,
-        "icon": "ability_tracking"
+        "icon": "ability_tracking",
+        "icon_candidates": [
+          "ability_tracking"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
       "pvp_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
@@ -891,8 +925,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -926,7 +960,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gust of Wind",
         "spell_id": 192063,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatileair"
+        "icon": "inv_misc_volatileair",
+        "icon_candidates": [
+          "inv_misc_volatileair"
+        ]
       },
       "pve_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
       "pvp_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
@@ -950,8 +987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -987,7 +1024,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Astral Shift",
         "spell_id": 108271,
         "visible_spell_id": null,
-        "icon": "ability_shaman_astralshift"
+        "icon": "ability_shaman_astralshift",
+        "icon_candidates": [
+          "ability_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
@@ -1011,8 +1051,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1046,7 +1086,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nature's Guardian",
         "spell_id": 30884,
         "visible_spell_id": null,
-        "icon": "spell_nature_natureguardian"
+        "icon": "spell_nature_natureguardian",
+        "icon_candidates": [
+          "spell_nature_natureguardian"
+        ]
       },
       "pve_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
       "pvp_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
@@ -1070,8 +1113,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1103,7 +1146,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Encasing Cold",
         "spell_id": 462762,
         "visible_spell_id": null,
-        "icon": "ability_mage_coldasice"
+        "icon": "ability_mage_coldasice",
+        "icon_candidates": [
+          "ability_mage_coldasice"
+        ]
       },
       "pve_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
       "pvp_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
@@ -1127,8 +1173,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1160,7 +1206,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arctic Snowstorm",
         "spell_id": 462764,
         "visible_spell_id": null,
-        "icon": "spell_frost_glacier"
+        "icon": "spell_frost_glacier",
+        "icon_candidates": [
+          "spell_frost_glacier"
+        ]
       },
       "pve_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 30%.",
       "pvp_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 20%.",
@@ -1236,8 +1285,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1271,7 +1320,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Stream Totem",
         "spell_id": 392915,
         "visible_spell_id": 5394,
-        "icon": "inv_spear_04"
+        "icon": "inv_spear_04",
+        "icon_candidates": [
+          "inv_spear_04"
+        ]
       },
       "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
@@ -1338,8 +1390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1373,7 +1425,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Winds of Al'Akir",
         "spell_id": 382215,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
       "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
@@ -1416,8 +1471,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1450,7 +1505,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Planes Traveler",
         "spell_id": 381647,
         "visible_spell_id": null,
-        "icon": "spell_shaman_astralshift"
+        "icon": "spell_shaman_astralshift",
+        "icon_candidates": [
+          "spell_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
       "pvp_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
@@ -1474,8 +1532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1508,7 +1566,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Astral Bulwark",
         "spell_id": 377933,
         "visible_spell_id": null,
-        "icon": "spell_shaman_ancestralawakening"
+        "icon": "spell_shaman_ancestralawakening",
+        "icon_candidates": [
+          "spell_shaman_ancestralawakening"
+        ]
       },
       "pve_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
       "pvp_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
@@ -1532,8 +1593,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1567,7 +1628,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Brimming with Life",
         "spell_id": 381689,
         "visible_spell_id": null,
-        "icon": "inv_jewelry_talisman_06"
+        "icon": "inv_jewelry_talisman_06",
+        "icon_candidates": [
+          "inv_jewelry_talisman_06"
+        ]
       },
       "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
       "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
@@ -1610,8 +1674,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1645,7 +1709,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wind Shear",
         "spell_id": 57994,
         "visible_spell_id": null,
-        "icon": "spell_nature_cyclone"
+        "icon": "spell_nature_cyclone",
+        "icon_candidates": [
+          "spell_nature_cyclone"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n30 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
@@ -1669,8 +1736,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1702,7 +1769,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Resistance",
         "spell_id": 462368,
         "visible_spell_id": null,
-        "icon": "spell_fireresistancetotem_01"
+        "icon": "spell_fireresistancetotem_01",
+        "icon_candidates": [
+          "spell_fireresistancetotem_01"
+        ]
       },
       "pve_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
       "pvp_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
@@ -1726,8 +1796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1761,7 +1831,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthgrab Totem",
         "spell_id": 51485,
         "visible_spell_id": null,
-        "icon": "spell_nature_stranglevines"
+        "icon": "spell_nature_stranglevines",
+        "icon_candidates": [
+          "spell_nature_stranglevines"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 50% movement speed reduction.",
       "pvp_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 30% movement speed reduction.",
@@ -1837,8 +1910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1873,7 +1946,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Capacitor Totem",
         "spell_id": 192058,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
       "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
@@ -1897,8 +1973,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1932,7 +2008,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritual Awakening",
         "spell_id": 1270375,
         "visible_spell_id": null,
-        "icon": "spell_shaman_blessingoftheeternals"
+        "icon": "spell_shaman_blessingoftheeternals",
+        "icon_candidates": [
+          "spell_shaman_blessingoftheeternals"
+        ]
       },
       "pve_tooltip": "Mastery increased by 3%.",
       "pvp_tooltip": "Mastery increased by 3%.",
@@ -1956,8 +2035,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -1990,7 +2069,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Enhanced Imbues",
         "spell_id": 462796,
         "visible_spell_id": null,
-        "icon": "spell_nature_rockbiter"
+        "icon": "spell_nature_rockbiter",
+        "icon_candidates": [
+          "spell_nature_rockbiter"
+        ]
       },
       "pve_tooltip": "The effects of your weapon and shield imbues are increased by 20%.",
       "pvp_tooltip": "The effects of your weapon and shield imbues are increased by 20%.",
@@ -2014,8 +2096,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2047,7 +2129,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Windveil",
         "spell_id": 355630,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_air"
+        "icon": "inv_elemental_primal_air",
+        "icon_candidates": [
+          "inv_elemental_primal_air"
+        ]
       },
       "pve_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
       "pvp_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
@@ -2071,8 +2156,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2106,7 +2191,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Refreshing Waters",
         "spell_id": 378211,
         "visible_spell_id": null,
-        "icon": "ability_shaman_fortifyingwaters"
+        "icon": "ability_shaman_fortifyingwaters",
+        "icon_candidates": [
+          "ability_shaman_fortifyingwaters"
+        ]
       },
       "pve_tooltip": "Your Healing Wave is 25% more effective on yourself.",
       "pvp_tooltip": "Your Healing Wave is 25% more effective on yourself.",
@@ -2130,8 +2218,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2165,7 +2253,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Purify Spirit",
         "spell_id": 383016,
         "visible_spell_id": null,
-        "icon": "ability_shaman_cleansespirit"
+        "icon": "ability_shaman_cleansespirit",
+        "icon_candidates": [
+          "ability_shaman_cleansespirit"
+        ]
       },
       "pve_tooltip": "Purify Spirit additionally removes all Curse effects.",
       "pvp_tooltip": "Purify Spirit additionally removes all Curse effects.",
@@ -2189,8 +2280,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2222,7 +2313,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Static Charge",
         "spell_id": 265046,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
       "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
@@ -2265,8 +2359,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2300,7 +2394,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wind Rush Totem",
         "spell_id": 192077,
         "visible_spell_id": null,
-        "icon": "ability_shaman_windwalktotem"
+        "icon": "ability_shaman_windwalktotem",
+        "icon_candidates": [
+          "ability_shaman_windwalktotem"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
@@ -2324,8 +2421,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2359,7 +2456,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earth Elemental",
         "spell_id": 198103,
         "visible_spell_id": null,
-        "icon": "spell_nature_earthelemental_totem"
+        "icon": "spell_nature_earthelemental_totem",
+        "icon_candidates": [
+          "spell_nature_earthelemental_totem"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
@@ -2383,8 +2483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2418,7 +2518,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Purge",
         "spell_id": 370,
         "visible_spell_id": null,
-        "icon": "spell_nature_purge"
+        "icon": "spell_nature_purge",
+        "icon_candidates": [
+          "spell_nature_purge"
+        ]
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
       "pvp_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
@@ -2442,8 +2545,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2477,7 +2580,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Greater Purge",
         "spell_id": 378773,
         "visible_spell_id": null,
-        "icon": "spell_shaman_focusedstrikes"
+        "icon": "spell_shaman_focusedstrikes",
+        "icon_candidates": [
+          "spell_shaman_focusedstrikes"
+        ]
       },
       "pve_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
       "pvp_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
@@ -2501,8 +2607,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2537,7 +2643,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nature's Fury",
         "spell_id": 381655,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
       "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
@@ -2580,8 +2689,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2614,7 +2723,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ascending Air",
         "spell_id": 462791,
         "visible_spell_id": null,
-        "icon": "achievement_raidprimalist_windelemental"
+        "icon": "achievement_raidprimalist_windelemental",
+        "icon_candidates": [
+          "achievement_raidprimalist_windelemental"
+        ]
       },
       "pve_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
       "pvp_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
@@ -2638,8 +2750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2672,7 +2784,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Jet Stream",
         "spell_id": 462817,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_air"
+        "icon": "inv_elemental_primal_air",
+        "icon_candidates": [
+          "inv_elemental_primal_air"
+        ]
       },
       "pve_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
       "pvp_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
@@ -2696,8 +2811,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2729,7 +2844,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primordial Bond",
         "spell_id": 1279819,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_earth"
+        "icon": "inv_elemental_primal_earth",
+        "icon_candidates": [
+          "inv_elemental_primal_earth"
+        ]
       },
       "pve_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
       "pvp_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
@@ -2753,8 +2871,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2788,7 +2906,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hex",
         "spell_id": 51514,
         "visible_spell_id": null,
-        "icon": "spell_shaman_hex"
+        "icon": "spell_shaman_hex",
+        "icon_candidates": [
+          "spell_shaman_hex"
+        ]
       },
       "pve_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
       "pvp_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
@@ -2812,8 +2933,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2846,7 +2967,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritwalker's Grace",
         "spell_id": 79206,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spiritwalkersgrace"
+        "icon": "spell_shaman_spiritwalkersgrace",
+        "icon_candidates": [
+          "spell_shaman_spiritwalkersgrace"
+        ]
       },
       "pve_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
       "pvp_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
@@ -2870,8 +2994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2904,7 +3028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Projection",
         "spell_id": 108287,
         "visible_spell_id": null,
-        "icon": "ability_shaman_totemrelocation"
+        "icon": "ability_shaman_totemrelocation",
+        "icon_candidates": [
+          "ability_shaman_totemrelocation"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
       "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
@@ -2928,8 +3055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -2964,7 +3091,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Warding",
         "spell_id": 381650,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_primordial"
+        "icon": "inv_10_elementalcombinedfoozles_primordial",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_primordial"
+        ]
       },
       "pve_tooltip": "Reduces all magic damage taken by 8%.",
       "pvp_tooltip": "Reduces all magic damage taken by 8%.",
@@ -2988,8 +3118,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3024,7 +3154,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Focus",
         "spell_id": 382201,
         "visible_spell_id": null,
-        "icon": "inv_relics_totemofrebirth"
+        "icon": "inv_relics_totemofrebirth",
+        "icon_candidates": [
+          "inv_relics_totemofrebirth"
+        ]
       },
       "pve_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, Ancestral Protection, Earthen Wall, and Wind Rush Totems by 3.0 sec.",
       "pvp_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, Ancestral Protection, Earthen Wall, and Wind Rush Totems by 3.0 sec.",
@@ -3048,8 +3181,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3081,7 +3214,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Graceful Spirit",
         "spell_id": 192088,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spectraltransformation"
+        "icon": "spell_shaman_spectraltransformation",
+        "icon_candidates": [
+          "spell_shaman_spectraltransformation"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
       "pvp_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
@@ -3105,8 +3241,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3138,7 +3274,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritwalker's Aegis",
         "spell_id": 378077,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
       "pvp_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
@@ -3162,8 +3301,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3197,7 +3336,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mana Spring",
         "spell_id": 381930,
         "visible_spell_id": null,
-        "icon": "spell_nature_manaregentotem"
+        "icon": "spell_nature_manaregentotem",
+        "icon_candidates": [
+          "spell_nature_manaregentotem"
+        ]
       },
       "pve_tooltip": "Level 90\nYour Lava Burst and Riptide casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
       "pvp_tooltip": "Level 90\nYour Lava Burst and Riptide casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
@@ -3221,8 +3363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3254,7 +3396,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tremor Totem",
         "spell_id": 8143,
         "visible_spell_id": null,
-        "icon": "spell_nature_tremortotem"
+        "icon": "spell_nature_tremortotem",
+        "icon_candidates": [
+          "spell_nature_tremortotem"
+        ]
       },
       "pve_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
       "pvp_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
@@ -3278,8 +3423,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3311,7 +3456,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Poison Cleansing Totem",
         "spell_id": 383013,
         "visible_spell_id": null,
-        "icon": "spell_nature_poisoncleansingtotem"
+        "icon": "spell_nature_poisoncleansingtotem",
+        "icon_candidates": [
+          "spell_nature_poisoncleansingtotem"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
       "pvp_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
@@ -3335,8 +3483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3370,7 +3518,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Therazane's Resilience",
         "spell_id": 1217622,
         "visible_spell_id": null,
-        "icon": "shaman_pvp_rockshield"
+        "icon": "shaman_pvp_rockshield",
+        "icon_candidates": [
+          "shaman_pvp_rockshield"
+        ]
       },
       "pve_tooltip": "Earth Shield and Water Shield no longer lose charges and are 115% effective.",
       "pvp_tooltip": "Earth Shield and Water Shield no longer lose charges and are 115% effective.",
@@ -3394,8 +3545,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3429,7 +3580,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reactive Warding",
         "spell_id": 462454,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_water"
+        "icon": "inv_10_elementalcombinedfoozles_water",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_water"
+        ]
       },
       "pve_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded 429 mana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
       "pvp_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (215.9307% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded 429 mana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
@@ -3513,8 +3667,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3546,7 +3700,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voodoo Mastery",
         "spell_id": 204268,
         "visible_spell_id": null,
-        "icon": "spell_shaman_hex"
+        "icon": "spell_shaman_hex",
+        "icon_candidates": [
+          "spell_shaman_hex"
+        ]
       },
       "pve_tooltip": "Your Hex target is slowed by 70% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
       "pvp_tooltip": "Your Hex target is slowed by 50% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
@@ -3622,8 +3779,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3654,7 +3811,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nature's Swiftness",
         "spell_id": 378081,
         "visible_spell_id": null,
-        "icon": "spell_nature_ravenform"
+        "icon": "spell_nature_ravenform",
+        "icon_candidates": [
+          "spell_nature_ravenform"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
       "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
@@ -3678,8 +3838,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3711,7 +3871,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Surge",
         "spell_id": 381867,
         "visible_spell_id": null,
-        "icon": "spell_nature_agitatingtotem"
+        "icon": "spell_nature_agitatingtotem",
+        "icon_candidates": [
+          "spell_nature_agitatingtotem"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of most totems by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of most totems by 5 sec.",
@@ -3735,8 +3898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3768,7 +3931,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Instinctive Imbuements",
         "spell_id": 1270350,
         "visible_spell_id": null,
-        "icon": "ability_shaman_ascendance"
+        "icon": "ability_shaman_ascendance",
+        "icon_candidates": [
+          "ability_shaman_ascendance"
+        ]
       },
       "pve_tooltip": "Water Shield increases your Intellect by 3%.\nCasting Water Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
       "pvp_tooltip": "Water Shield increases your Intellect by 3%.\nCasting Water Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
@@ -3792,8 +3958,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3824,7 +3990,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Riptide",
         "spell_id": 61295,
         "visible_spell_id": null,
-        "icon": "spell_nature_riptide"
+        "icon": "spell_nature_riptide",
+        "icon_candidates": [
+          "spell_nature_riptide"
+        ]
       },
       "pve_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (600% of Spell Power) and an additional (478.2% of Spell Power) over 18 sec.",
       "pvp_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (719.532% of Spell Power) and an additional (695.1115% of Spell Power) over 18 sec.",
@@ -3959,8 +4128,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -3994,7 +4163,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Rain",
         "spell_id": 73920,
         "visible_spell_id": null,
-        "icon": "spell_nature_giftofthewaterspirit"
+        "icon": "spell_nature_giftofthewaterspirit",
+        "icon_candidates": [
+          "spell_nature_giftofthewaterspirit"
+        ]
       },
       "pve_tooltip": "4.32% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nBlanket the target area in healing rains, restoring [(108% of Spell Power) * 6 * 2 / 5.19999981] health to up to 6 allies over 18 sec.\nYou can only have one Healing Rain active at a time.",
       "pvp_tooltip": "4.32% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nBlanket the target area in healing rains, restoring [(108% of Spell Power) * 6 * 2 / 5.19999981] health to up to 6 allies over 18 sec.\nYou can only have one Healing Rain active at a time.",
@@ -4018,8 +4190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4052,7 +4224,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Stream Totem",
         "spell_id": 392916,
         "visible_spell_id": 5394,
-        "icon": "inv_spear_04"
+        "icon": "inv_spear_04",
+        "icon_candidates": [
+          "inv_spear_04"
+        ]
       },
       "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
@@ -4119,8 +4294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4154,7 +4329,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soothing Rain",
         "spell_id": 1252874,
         "visible_spell_id": null,
-        "icon": "spell_shadow_soulleech_2"
+        "icon": "spell_shadow_soulleech_2",
+        "icon_candidates": [
+          "spell_shadow_soulleech_2"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Healing Rain by 10% and reduces its cast time by 0.5 sec.",
       "pvp_tooltip": "Increases the healing done by Healing Rain by 10% and reduces its cast time by 0.5 sec.",
@@ -4178,8 +4356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4211,16 +4389,19 @@ window.WOW_PVP_DATA = {
         "talent_name": "Acid Rain",
         "spell_id": 378443,
         "visible_spell_id": null,
-        "icon": "spell_nature_acid_01"
+        "icon": "spell_nature_acid_01",
+        "icon_candidates": [
+          "spell_nature_acid_01"
+        ]
       },
-      "pve_tooltip": "Deal [(100% of Spell Power)] Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
-      "pvp_tooltip": "Deal [(130% of Spell Power)] Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
+      "pve_tooltip": "Deal (100% of Spell Power) Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
+      "pvp_tooltip": "Deal (130% of Spell Power) Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 7,
-          "end": 10,
+          "start": 6,
+          "end": 9,
           "old_token": "100",
           "new_token": "130",
           "kind": "spell_power_coefficient",
@@ -4287,8 +4468,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4323,7 +4504,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ascendance",
         "spell_id": 114052,
         "visible_spell_id": null,
-        "icon": "8026698"
+        "icon": "inv121_ability_shaman_ascendance_water",
+        "icon_candidates": [
+          "inv121_ability_shaman_ascendance_water",
+          "8026698"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
       "pvp_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1017.2988% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
@@ -4407,8 +4592,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4443,7 +4628,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Tide Totem",
         "spell_id": 108280,
         "visible_spell_id": null,
-        "icon": "ability_shaman_healingtide"
+        "icon": "ability_shaman_healingtide",
+        "icon_candidates": [
+          "ability_shaman_healingtide"
+        ]
       },
       "pve_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for 10 sec, which pulses every 2 sec, healing all party or raid members within 40 yards for (514.5% of Spell Power).\nHealing reduced beyond 5 targets.",
       "pvp_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for 10 sec, which pulses every 2 sec, healing all party or raid members within 40 yards for (711.2962% of Spell Power).\nHealing reduced beyond 5 targets.",
@@ -4529,8 +4717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4563,7 +4751,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Water Totem Mastery",
         "spell_id": 382030,
         "visible_spell_id": null,
-        "icon": "ability_shaman_totemcooldownrefund"
+        "icon": "ability_shaman_totemcooldownrefund",
+        "icon_candidates": [
+          "ability_shaman_totemcooldownrefund"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Healing Stream Totem by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of Healing Stream Totem by 5 sec.",
@@ -4587,8 +4778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4620,7 +4811,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overflowing Shores",
         "spell_id": 383222,
         "visible_spell_id": null,
-        "icon": "spell_nature_giftofthewaterspirit"
+        "icon": "spell_nature_giftofthewaterspirit",
+        "icon_candidates": [
+          "spell_nature_giftofthewaterspirit"
+        ]
       },
       "pve_tooltip": "Healing Rain instantly restores (75.6756% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
       "pvp_tooltip": "Healing Rain instantly restores (59.7837% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
@@ -4704,8 +4898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4740,7 +4934,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Vigor",
         "spell_id": 207401,
         "visible_spell_id": null,
-        "icon": "spell_shaman_blessingoftheeternals"
+        "icon": "spell_shaman_blessingoftheeternals",
+        "icon_candidates": [
+          "spell_shaman_blessingoftheeternals"
+        ]
       },
       "pve_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
       "pvp_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
@@ -4783,8 +4980,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4816,7 +5013,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "First Ascendant",
         "spell_id": 462440,
         "visible_spell_id": null,
-        "icon": "spell_shaman_astralshift"
+        "icon": "spell_shaman_astralshift",
+        "icon_candidates": [
+          "spell_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "The cooldown of Ascendance and Healing Tide Totem is reduced by 60 sec.",
       "pvp_tooltip": "The cooldown of Ascendance and Healing Tide Totem is reduced by 60 sec.",
@@ -4840,8 +5040,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4873,7 +5073,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Preeminence",
         "spell_id": 462443,
         "visible_spell_id": null,
-        "icon": "spell_shaman_improvedreincarnation"
+        "icon": "spell_shaman_improvedreincarnation",
+        "icon_candidates": [
+          "spell_shaman_improvedreincarnation"
+        ]
       },
       "pve_tooltip": "Your haste is increased by 25% while Ascendance or Healing Tide Totem is active and their durations are increased by 3 sec.",
       "pvp_tooltip": "Your haste is increased by 25% while Ascendance or Healing Tide Totem is active and their durations are increased by 3 sec.",
@@ -4897,8 +5100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4932,7 +5135,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Resurgence",
         "spell_id": 16196,
         "visible_spell_id": null,
-        "icon": "ability_shaman_watershield"
+        "icon": "ability_shaman_watershield",
+        "icon_candidates": [
+          "ability_shaman_watershield"
+        ]
       },
       "pve_tooltip": "Your direct heal criticals refund a percentage of your maximum mana: 0.80% from Healing Wave, 0.48% from Riptide, and 0.20% from Chain Heal.",
       "pvp_tooltip": "Your direct heal criticals refund a percentage of your maximum mana: 0.80% from Healing Wave, 0.48% from Riptide, and 0.20% from Chain Heal.",
@@ -4956,8 +5162,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -4990,7 +5196,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Living Stream",
         "spell_id": 382482,
         "visible_spell_id": null,
-        "icon": "spell_nature_natureresistancetotem"
+        "icon": "spell_nature_natureresistancetotem",
+        "icon_candidates": [
+          "spell_nature_natureresistancetotem"
+        ]
       },
       "pve_tooltip": "Healing Stream Totem heals for 100% more, decaying over its duration.",
       "pvp_tooltip": "Healing Stream Totem heals for 100% more, decaying over its duration.",
@@ -5014,8 +5223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5050,7 +5259,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Current Control",
         "spell_id": 1253093,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatilewater"
+        "icon": "inv_misc_volatilewater",
+        "icon_candidates": [
+          "inv_misc_volatilewater"
+        ]
       },
       "pve_tooltip": "Reduces the mana cost of Healing Wave by 15% and the mana cost of Chain Heal by 15%.",
       "pvp_tooltip": "Reduces the mana cost of Healing Wave by 15% and the mana cost of Chain Heal by 15%.",
@@ -5074,8 +5286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5111,7 +5323,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "White Water",
         "spell_id": 462587,
         "visible_spell_id": null,
-        "icon": "ability_shawaterelemental_swirl"
+        "icon": "ability_shawaterelemental_swirl",
+        "icon_candidates": [
+          "ability_shawaterelemental_swirl"
+        ]
       },
       "pve_tooltip": "Your critical heals have 215% effectiveness instead of the usual 200%.",
       "pvp_tooltip": "Your critical heals have 215% effectiveness instead of the usual 200%.",
@@ -5135,8 +5350,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5171,7 +5386,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wavespeaker's Blessing",
         "spell_id": 381946,
         "visible_spell_id": null,
-        "icon": "inv_alchemist_81_spiritedalchemiststone"
+        "icon": "inv_alchemist_81_spiritedalchemiststone",
+        "icon_candidates": [
+          "inv_alchemist_81_spiritedalchemiststone"
+        ]
       },
       "pve_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
       "pvp_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
@@ -5214,8 +5432,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5247,7 +5465,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quickstream",
         "spell_id": 1253099,
         "visible_spell_id": null,
-        "icon": "inv_spear_04"
+        "icon": "inv_spear_04",
+        "icon_candidates": [
+          "inv_spear_04"
+        ]
       },
       "pve_tooltip": "Healing Stream Totem heals 15% more often.",
       "pvp_tooltip": "Healing Stream Totem heals 15% more often.",
@@ -5271,8 +5492,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5306,7 +5527,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rip Current",
         "spell_id": 1254251,
         "visible_spell_id": null,
-        "icon": "spell_frost_summonwaterelemental"
+        "icon": "spell_frost_summonwaterelemental",
+        "icon_candidates": [
+          "spell_frost_summonwaterelemental"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Riptide by 1.0 sec.",
       "pvp_tooltip": "Reduces the cooldown of Riptide by 1.0 sec.",
@@ -5330,8 +5554,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5363,7 +5587,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crashing Waves",
         "spell_id": 1253090,
         "visible_spell_id": null,
-        "icon": "spell_nature_healingwavelesser"
+        "icon": "spell_nature_healingwavelesser",
+        "icon_candidates": [
+          "spell_nature_healingwavelesser"
+        ]
       },
       "pve_tooltip": "Healing Wave's critical strike chance is increased by 12%.",
       "pvp_tooltip": "Healing Wave's critical strike chance is increased by 12%.",
@@ -5387,8 +5614,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5423,7 +5650,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unleash Life",
         "spell_id": 73685,
         "visible_spell_id": null,
-        "icon": "spell_shaman_unleashweapon_life"
+        "icon": "spell_shaman_unleashweapon_life",
+        "icon_candidates": [
+          "spell_shaman_unleashweapon_life"
+        ]
       },
       "pve_tooltip": "0.8% of base mana\n40 yd range\nInstant\n20 sec cooldown\n1 Charge\nUnleash elemental forces of Life, healing a friendly target for (1220% of Spell Power).\nIncreases the healing of your next Riptide, Chain Heal, or Healing Wave by 25% and reduces its cast time by 30%.",
       "pvp_tooltip": "0.8% of base mana\n40 yd range\nInstant\n20 sec cooldown\n1 Charge\nUnleash elemental forces of Life, healing a friendly target for (963.8% of Spell Power).\nIncreases the healing of your next Riptide, Chain Heal, or Healing Wave by 25% and reduces its cast time by 30%.",
@@ -5502,8 +5732,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5535,7 +5765,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Torrent",
         "spell_id": 200072,
         "visible_spell_id": null,
-        "icon": "spell_nature_riptide"
+        "icon": "spell_nature_riptide",
+        "icon_candidates": [
+          "spell_nature_riptide"
+        ]
       },
       "pve_tooltip": "Riptide's initial heal is increased 20% and has a 10% increased critical strike chance.",
       "pvp_tooltip": "Riptide's initial heal is increased 20% and has a 10% increased critical strike chance.",
@@ -5559,8 +5792,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5595,7 +5828,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthliving Weapon",
         "spell_id": 382021,
         "visible_spell_id": null,
-        "icon": "spell_shaman_giftearthmother"
+        "icon": "spell_shaman_giftearthmother",
+        "icon_candidates": [
+          "spell_shaman_giftearthmother"
+        ]
       },
       "pve_tooltip": "Instant\nImbue your weapon with the element of Earth for 1 hour. Your Riptide, Healing Wave, and Chain Heal healing has a 20% chance to trigger Earthliving on the target, healing for (138.915% of Spell Power) over 6 sec.",
       "pvp_tooltip": "Instant\nImbue your weapon with the element of Earth for 1 hour. Your Riptide, Healing Wave, and Chain Heal healing has a 20% chance to trigger Earthliving on the target, healing for (138.915% of Spell Power) over 6 sec.",
@@ -5660,8 +5896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5695,7 +5931,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthweaver",
         "spell_id": 1254210,
         "visible_spell_id": null,
-        "icon": "spell_nature_skinofearth"
+        "icon": "spell_nature_skinofearth",
+        "icon_candidates": [
+          "spell_nature_skinofearth"
+        ]
       },
       "pve_tooltip": "Increases Earth Shield healing by 40%.",
       "pvp_tooltip": "Increases Earth Shield healing by 40%.",
@@ -5719,8 +5958,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5755,7 +5994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deluge",
         "spell_id": 200076,
         "visible_spell_id": null,
-        "icon": "ability_shawaterelemental_reform"
+        "icon": "ability_shawaterelemental_reform",
+        "icon_candidates": [
+          "ability_shawaterelemental_reform"
+        ]
       },
       "pve_tooltip": "Healing Wave and Chain Heal heal for an additional 15% on targets affected by your Healing Rain or Riptide.",
       "pvp_tooltip": "Healing Wave and Chain Heal heal for an additional 15% on targets affected by your Healing Rain or Riptide.",
@@ -5779,8 +6021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5812,7 +6054,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthen Accord",
         "spell_id": 1271104,
         "visible_spell_id": null,
-        "icon": "ability_evoker_earthensky"
+        "icon": "ability_evoker_earthensky",
+        "icon_candidates": [
+          "ability_evoker_earthensky"
+        ]
       },
       "pve_tooltip": "Unleash Life heals for 30% more and its bonus healing effect is increased by 20%.",
       "pvp_tooltip": "Unleash Life heals for 30% more and its bonus healing effect is increased by 20%.",
@@ -5836,8 +6081,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5872,7 +6117,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tidal Waves",
         "spell_id": 51564,
         "visible_spell_id": null,
-        "icon": "spell_shaman_tidalwaves"
+        "icon": "spell_shaman_tidalwaves",
+        "icon_candidates": [
+          "spell_shaman_tidalwaves"
+        ]
       },
       "pve_tooltip": "Casting Riptide grants 1 stack of Tidal Waves. Tidal Waves reduces the cast time of your next Healing Wave or Chain Heal by 20%.\nCan accumulate up to 2 stacks.",
       "pvp_tooltip": "Casting Riptide grants 1 stack of Tidal Waves. Tidal Waves reduces the cast time of your next Healing Wave or Chain Heal by 20%.\nCan accumulate up to 2 stacks.",
@@ -5896,8 +6144,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5929,7 +6177,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Earthliving Weapon",
         "spell_id": 382315,
         "visible_spell_id": null,
-        "icon": "spell_shaman_giftearthmother"
+        "icon": "spell_shaman_giftearthmother",
+        "icon_candidates": [
+          "spell_shaman_giftearthmother"
+        ]
       },
       "pve_tooltip": "Earthliving receives 150% additional benefit from Mastery: Deep Healing.\nHealing Wave always triggers Earthliving on its target.",
       "pvp_tooltip": "Earthliving receives 150% additional benefit from Mastery: Deep Healing.\nHealing Wave always triggers Earthliving on its target.",
@@ -5953,8 +6204,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -5989,7 +6240,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Reach",
         "spell_id": 382732,
         "visible_spell_id": null,
-        "icon": "inv_1115_shaman_chainheal"
+        "icon": "inv_1115_shaman_chainheal",
+        "icon_candidates": [
+          "inv_1115_shaman_chainheal"
+        ]
       },
       "pve_tooltip": "Chain Heal bounces an additional time and its healing is increased by 8%.",
       "pvp_tooltip": "Chain Heal bounces an additional time and its healing is increased by 8%.",
@@ -6013,8 +6267,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6049,7 +6303,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flow of the Tides",
         "spell_id": 382039,
         "visible_spell_id": null,
-        "icon": "spell_frost_manarecharge"
+        "icon": "spell_frost_manarecharge",
+        "icon_candidates": [
+          "spell_frost_manarecharge"
+        ]
       },
       "pve_tooltip": "Chain Heal bounces an additional time and casting Chain Heal on a target affected by Riptide consumes Riptide, increasing the healing of your Chain Heal by 30%.",
       "pvp_tooltip": "Chain Heal bounces an additional time and casting Chain Heal on a target affected by Riptide consumes Riptide, increasing the healing of your Chain Heal by 30%.",
@@ -6073,8 +6330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6108,7 +6365,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Downpour",
         "spell_id": 462486,
         "visible_spell_id": null,
-        "icon": "ability_mage_waterjet"
+        "icon": "ability_mage_waterjet",
+        "icon_candidates": [
+          "ability_mage_waterjet"
+        ]
       },
       "pve_tooltip": "Casting Healing Rain grants a use of Downpour for 16 sec.\nDownpour\nA burst of water at your Healing Rain's location heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
       "pvp_tooltip": "Casting Healing Rain grants a use of Downpour for 16 sec.\nDownpour\nA burst of water at your Healing Rain's location heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
@@ -6171,8 +6431,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6208,7 +6468,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Echo of the Elements",
         "spell_id": 333919,
         "visible_spell_id": null,
-        "icon": "ability_shaman_echooftheelements"
+        "icon": "ability_shaman_echooftheelements",
+        "icon_candidates": [
+          "ability_shaman_echooftheelements"
+        ]
       },
       "pve_tooltip": "Riptide and Lava Burst have an additional charge.",
       "pvp_tooltip": "Riptide and Lava Burst have an additional charge.",
@@ -6232,8 +6495,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6269,7 +6532,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spirit Link Totem",
         "spell_id": 98008,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spiritlink"
+        "icon": "spell_shaman_spiritlink",
+        "icon_candidates": [
+          "spell_shaman_spiritlink"
+        ]
       },
       "pve_tooltip": "2.2% of base mana\n40 yd range\nInstant\n3 min cooldown\n1 Charge\nSummons a totem at the target location for 6 sec, which reduces damage taken by all party and raid members within 10 yards by 10%. Immediately and every 1 sec, the health of all affected players is redistributed evenly.",
       "pvp_tooltip": "2.2% of base mana\n40 yd range\nInstant\n3 min cooldown\n1 Charge\nSummons a totem at the target location for 6 sec, which reduces damage taken by all party and raid members within 10 yards by 10%. Immediately and every 1 sec, the health of all affected players is redistributed evenly.",
@@ -6293,8 +6559,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6328,7 +6594,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthen Harmony",
         "spell_id": 382020,
         "visible_spell_id": null,
-        "icon": "spell_shaman_improvedearthshield"
+        "icon": "spell_shaman_improvedearthshield",
+        "icon_candidates": [
+          "spell_shaman_improvedearthshield"
+        ]
       },
       "pve_tooltip": "Earth Shield reduces damage taken by 3% and its healing is increased by up to 150% as its target's health decreases. Maximum benefit is reached below 50% health.",
       "pvp_tooltip": "Earth Shield reduces damage taken by 5% and its healing is increased by up to 150% as its target's health decreases. Maximum benefit is reached below 50% health.",
@@ -6399,8 +6668,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6432,7 +6701,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Water Expulsion",
         "spell_id": 1253014,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_water"
+        "icon": "inv_elemental_primal_water",
+        "icon_candidates": [
+          "inv_elemental_primal_water"
+        ]
       },
       "pve_tooltip": "Increases Downpour healing by 20%.",
       "pvp_tooltip": "Increases Downpour healing by 20%.",
@@ -6456,8 +6728,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6490,7 +6762,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Awakening",
         "spell_id": 382309,
         "visible_spell_id": null,
-        "icon": "spell_shaman_ancestralawakening"
+        "icon": "spell_shaman_ancestralawakening",
+        "icon_candidates": [
+          "spell_shaman_ancestralawakening"
+        ]
       },
       "pve_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
       "pvp_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
@@ -6533,8 +6808,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6566,7 +6841,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tidewaters",
         "spell_id": 462424,
         "visible_spell_id": null,
-        "icon": "ability_shawaterelemental_split"
+        "icon": "ability_shawaterelemental_split",
+        "icon_candidates": [
+          "ability_shawaterelemental_split"
+        ]
       },
       "pve_tooltip": "When you cast Healing Rain, each ally with your Riptide on them is healed for (264.6% of Spell Power).",
       "pvp_tooltip": "When you cast Healing Rain, each ally with your Riptide on them is healed for (209.034% of Spell Power).",
@@ -6650,8 +6928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6685,7 +6963,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Undercurrent",
         "spell_id": 382194,
         "visible_spell_id": null,
-        "icon": "spell_fire_bluehellfire"
+        "icon": "spell_fire_bluehellfire",
+        "icon_candidates": [
+          "spell_fire_bluehellfire"
+        ]
       },
       "pve_tooltip": "For each Riptide active on an ally, your heals are 1% more effective.",
       "pvp_tooltip": "For each Riptide active on an ally, your heals are 2% more effective.",
@@ -6852,8 +7133,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -6885,7 +7166,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spouting Spirits",
         "spell_id": 462383,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spiritlink"
+        "icon": "spell_shaman_spiritlink",
+        "icon_candidates": [
+          "spell_shaman_spiritlink"
+        ]
       },
       "pve_tooltip": "Spirit Link Totem reduces damage taken by an additional 5%, and it restores (1146.6% of Spell Power) health to all nearby allies 1 second after it is dropped. Healing reduced beyond 5 targets.",
       "pvp_tooltip": "Spirit Link Totem reduces damage taken by an additional 5%, and it restores (905.814% of Spell Power) health to all nearby allies 1 second after it is dropped. Healing reduced beyond 5 targets.",
@@ -6969,8 +7253,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7004,7 +7288,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swelling Tides",
         "spell_id": 1312843,
         "visible_spell_id": null,
-        "icon": "ability_shaman_manatidetotem"
+        "icon": "ability_shaman_manatidetotem",
+        "icon_candidates": [
+          "ability_shaman_manatidetotem"
+        ]
       },
       "pve_tooltip": "Healing Stream Totem extends the duration of your active Riptides by 3.0 sec.",
       "pvp_tooltip": "Healing Stream Totem extends the duration of your active Riptides by 3.0 sec.",
@@ -7028,8 +7315,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7059,7 +7346,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Double Dip",
         "spell_id": 1252882,
         "visible_spell_id": null,
-        "icon": "ability_mage_waterjet"
+        "icon": "ability_mage_waterjet",
+        "icon_candidates": [
+          "ability_mage_waterjet"
+        ]
       },
       "pve_tooltip": "Healing Rain grants an additional use of Downpour.",
       "pvp_tooltip": "Healing Rain grants an additional use of Downpour.",
@@ -7083,8 +7373,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7116,7 +7406,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primal Tide Core",
         "spell_id": 382045,
         "visible_spell_id": null,
-        "icon": "ability_shaman_repulsiontotem"
+        "icon": "ability_shaman_repulsiontotem",
+        "icon_candidates": [
+          "ability_shaman_repulsiontotem"
+        ]
       },
       "pve_tooltip": "Every 4 casts of Riptide also applies Riptide to another friendly target near your Riptide target.",
       "pvp_tooltip": "Every 4 casts of Riptide also applies Riptide to another friendly target near your Riptide target.",
@@ -7140,8 +7433,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7173,7 +7466,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Coalescing Water",
         "spell_id": 470076,
         "visible_spell_id": null,
-        "icon": "inv_helm_mail_raidshamanmythic_s_01"
+        "icon": "inv_helm_mail_raidshamanmythic_s_01",
+        "icon_candidates": [
+          "inv_helm_mail_raidshamanmythic_s_01"
+        ]
       },
       "pve_tooltip": "Healing Wave and Chain Heal increase the initial healing of your next Riptide by 30%, stacking up to 2 times.",
       "pvp_tooltip": "Healing Wave and Chain Heal increase the initial healing of your next Riptide by 30%, stacking up to 2 times.",
@@ -7197,8 +7493,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7229,7 +7525,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deeply Rooted Elements",
         "spell_id": 378270,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_liferoot_stem"
+        "icon": "inv_misc_herb_liferoot_stem",
+        "icon_candidates": [
+          "inv_misc_herb_liferoot_stem"
+        ]
       },
       "pve_tooltip": "Casting Riptide has a 7% chance to activate Ascendance for 6.0 sec.\nAscendance\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
       "pvp_tooltip": "Casting Riptide has a 7% chance to activate Ascendance for 6.0 sec.\nAscendance\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
@@ -7355,8 +7654,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7384,7 +7683,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stormstream Totem",
         "spell_id": 1267016,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_shaman_stormstreamtotem"
+        "icon": "inv12_apextalent_shaman_stormstreamtotem",
+        "icon_candidates": [
+          "inv12_apextalent_shaman_stormstreamtotem"
+        ]
       },
       "pve_tooltip": "Riptide has a 6% chance to upgrade your next Healing Stream Totem to Stormstream Totem which heals for 10% more, heals 1 additional ally at 100% effectiveness, and heals 2 injured allies for (1323% of Spell Power) healing when used.",
       "pvp_tooltip": "Riptide has a 6% chance to upgrade your next Healing Stream Totem to Stormstream Totem which heals for 10% more, heals 1 additional ally at 100% effectiveness, and heals 2 injured allies for (1045.17% of Spell Power) healing when used.",
@@ -7468,8 +7770,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7497,7 +7799,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stormstream Totem",
         "spell_id": 1267093,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_shaman_stormstreamtotem"
+        "icon": "inv12_apextalent_shaman_stormstreamtotem",
+        "icon_candidates": [
+          "inv12_apextalent_shaman_stormstreamtotem"
+        ]
       },
       "pve_tooltip": "Healing Stream and Stormstream Totem healing increased by 40%.",
       "pvp_tooltip": "Healing Stream and Stormstream Totem healing increased by 40%.",
@@ -7540,8 +7845,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7569,7 +7874,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stormstream Totem",
         "spell_id": 1267120,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_shaman_stormstreamtotem"
+        "icon": "inv12_apextalent_shaman_stormstreamtotem",
+        "icon_candidates": [
+          "inv12_apextalent_shaman_stormstreamtotem"
+        ]
       },
       "pve_tooltip": "Casting [Ancestral Swiftness: Ancestral / Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
       "pvp_tooltip": "Casting [Ancestral Swiftness: Ancestral / Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
@@ -7593,8 +7901,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7627,7 +7935,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Call of the Ancestors",
         "spell_id": 443450,
         "visible_spell_id": null,
-        "icon": "ability_racial_ancestralcall"
+        "icon": "ability_racial_ancestralcall",
+        "icon_candidates": [
+          "ability_racial_ancestralcall"
+        ]
       },
       "pve_tooltip": "Unleash Life calls an Ancestor to your side for 12 sec.\nWhenever you cast a healing or damaging spell, the Ancestor will cast a similar spell.",
       "pvp_tooltip": "Unleash Life calls an Ancestor to your side for 12 sec.\nWhenever you cast a healing or damaging spell, the Ancestor will cast a similar spell.",
@@ -7651,8 +7962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7685,7 +7996,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Surging Totem",
         "spell_id": 455630,
         "visible_spell_id": 444995,
-        "icon": "inv_ability_totemicshaman_surgingtotem"
+        "icon": "inv_ability_totemicshaman_surgingtotem",
+        "icon_candidates": [
+          "inv_ability_totemicshaman_surgingtotem"
+        ]
       },
       "pve_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that maintains Healing Rain with 10% increased effectiveness for 25 sec.\nReplaces Healing Rain.",
       "pvp_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that maintains Healing Rain with 10% increased effectiveness for 25 sec.\nReplaces Healing Rain.",
@@ -7715,8 +8029,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7748,7 +8062,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Latent Wisdom",
         "spell_id": 443449,
         "visible_spell_id": null,
-        "icon": "spell_holy_spiritualguidence"
+        "icon": "spell_holy_spiritualguidence",
+        "icon_candidates": [
+          "spell_holy_spiritualguidence"
+        ]
       },
       "pve_tooltip": "Your Ancestors' spells are 25% more powerful.",
       "pvp_tooltip": "Your Ancestors' spells are 25% more powerful.",
@@ -7772,8 +8089,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7805,7 +8122,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancient Fellowship",
         "spell_id": 443423,
         "visible_spell_id": null,
-        "icon": "spell_shaman_astralshift"
+        "icon": "spell_shaman_astralshift",
+        "icon_candidates": [
+          "spell_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "Ancestors have a 20% chance to call another Ancestor for 8 sec when they depart.",
       "pvp_tooltip": "Ancestors have a 20% chance to call another Ancestor for 8 sec when they depart.",
@@ -7829,8 +8149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7862,7 +8182,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heed My Call",
         "spell_id": 443444,
         "visible_spell_id": null,
-        "icon": "spell_unused2"
+        "icon": "spell_unused2",
+        "icon_candidates": [
+          "spell_unused2"
+        ]
       },
       "pve_tooltip": "Ancestors last an additional 4 sec.",
       "pvp_tooltip": "Ancestors last an additional 4 sec.",
@@ -7886,8 +8209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7919,7 +8242,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Routine Communication",
         "spell_id": 443445,
         "visible_spell_id": null,
-        "icon": "spell_nature_undyingstrength"
+        "icon": "spell_nature_undyingstrength",
+        "icon_candidates": [
+          "spell_nature_undyingstrength"
+        ]
       },
       "pve_tooltip": "Riptide has a 15% chance to call an Ancestor to your side for 8 sec.",
       "pvp_tooltip": "Riptide has a 15% chance to call an Ancestor to your side for 8 sec.",
@@ -7943,8 +8269,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -7976,7 +8302,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Reverb",
         "spell_id": 443418,
         "visible_spell_id": null,
-        "icon": "ability_shaman_echooftheelements"
+        "icon": "ability_shaman_echooftheelements",
+        "icon_candidates": [
+          "ability_shaman_echooftheelements"
+        ]
       },
       "pve_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.\nRiptide gains an additional charge and heals for 20% more.",
       "pvp_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.\nRiptide gains an additional charge and heals for 25% more.",
@@ -8072,8 +8401,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8105,7 +8434,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Influence",
         "spell_id": 1270446,
         "visible_spell_id": null,
-        "icon": "shaman_pvp_leaderclan"
+        "icon": "shaman_pvp_leaderclan",
+        "icon_candidates": [
+          "shaman_pvp_leaderclan"
+        ]
       },
       "pve_tooltip": "Your Intellect is increased by 1.0% for each Ancestor active.",
       "pvp_tooltip": "Your Intellect is increased by 1.0% for each Ancestor active.",
@@ -8129,8 +8461,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8162,7 +8494,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Rebound",
         "spell_id": 445025,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_electrocharge"
+        "icon": "ability_vehicle_electrocharge",
+        "icon_candidates": [
+          "ability_vehicle_electrocharge"
+        ]
       },
       "pve_tooltip": "Approximately 10 procs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (220.5% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
       "pvp_tooltip": "Approximately 10 procs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (174.195% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
@@ -8185,16 +8520,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 161.0,
-          "new": 136.85,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "220.5",
@@ -8203,36 +8528,6 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 445025,
-          "source_spell_id": 458267,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.61 )",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.85,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            445025,
-            458267
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
@@ -8272,7 +8567,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8286,8 +8581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8319,7 +8614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Amplification Core",
         "spell_id": 445029,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburststacks"
+        "icon": "ability_evoker_essenceburststacks",
+        "icon_candidates": [
+          "ability_evoker_essenceburststacks"
+        ]
       },
       "pve_tooltip": "While Surging Totem is active, your damage and healing done is increased by 3%.",
       "pvp_tooltip": "While Surging Totem is active, your damage and healing done is increased by 3%.",
@@ -8343,8 +8641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8376,7 +8674,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Oversurge",
         "spell_id": 445030,
         "visible_spell_id": null,
-        "icon": "spell_fire_elementaldevastation"
+        "icon": "spell_fire_elementaldevastation",
+        "icon_candidates": [
+          "spell_fire_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Surging Totem deals 50% more damage while Ascendance or Healing Tide Totem is active.",
       "pvp_tooltip": "Surging Totem deals 25% more damage while Ascendance or Healing Tide Totem is active.",
@@ -8388,7 +8689,7 @@ window.WOW_PVP_DATA = {
           "end": 22,
           "old_token": "50",
           "new_token": "25",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "effect_indexes": [
             2
           ]
@@ -8400,7 +8701,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": "50",
           "new": "25"
         }
@@ -8447,8 +8748,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8480,7 +8781,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lively Totems",
         "spell_id": 445034,
         "visible_spell_id": null,
-        "icon": "spell_fire_searingtotem"
+        "icon": "spell_fire_searingtotem",
+        "icon_candidates": [
+          "spell_fire_searingtotem"
+        ]
       },
       "pve_tooltip": "When you summon a Healing Tide Totem, Healing Stream Totem, or Spirit Link Totem you cast a free instant Chain Heal at 100% effectiveness.",
       "pvp_tooltip": "When you summon a Healing Tide Totem, Healing Stream Totem, or Spirit Link Totem you cast a free instant Chain Heal at 100% effectiveness.",
@@ -8535,8 +8839,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8568,7 +8872,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Momentum",
         "spell_id": 1260644,
         "visible_spell_id": null,
-        "icon": "spell_frost_fireresistancetotem"
+        "icon": "spell_frost_fireresistancetotem",
+        "icon_candidates": [
+          "spell_frost_fireresistancetotem"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Healing Stream Totem by 3 sec.",
       "pvp_tooltip": "Reduces the cooldown of Healing Stream Totem by 3 sec.",
@@ -8592,8 +8899,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8625,7 +8932,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Offering from Beyond",
         "spell_id": 443451,
         "visible_spell_id": null,
-        "icon": "spell_shaman_blessingoftheeternals"
+        "icon": "spell_shaman_blessingoftheeternals",
+        "icon_candidates": [
+          "spell_shaman_blessingoftheeternals"
+        ]
       },
       "pve_tooltip": "When an Ancestor is called, they reduce the cooldown of Riptide by 2 sec.",
       "pvp_tooltip": "When an Ancestor is called, they reduce the cooldown of Riptide by 2 sec.",
@@ -8649,8 +8959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8682,7 +8992,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primordial Capacity",
         "spell_id": 443448,
         "visible_spell_id": null,
-        "icon": "ability_monk_chiswirl"
+        "icon": "ability_monk_chiswirl",
+        "icon_candidates": [
+          "ability_monk_chiswirl"
+        ]
       },
       "pve_tooltip": "Increases your maximum mana by 10%.\nTidal Waves can now stack up to 3 times.",
       "pvp_tooltip": "Increases your maximum mana by 5%.\nTidal Waves can now stack up to 3 times.",
@@ -8753,8 +9066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8786,7 +9099,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritwalker's Momentum",
         "spell_id": 443425,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spiritwalkersgrace"
+        "icon": "spell_shaman_spiritwalkersgrace",
+        "icon_candidates": [
+          "spell_shaman_spiritwalkersgrace"
+        ]
       },
       "pve_tooltip": "Using spells with a cast time increases the duration of Spiritwalker's Grace and Spiritwalker's Aegis by 1 sec, up to a maximum of 4 sec.",
       "pvp_tooltip": "Using spells with a cast time increases the duration of Spiritwalker's Grace and Spiritwalker's Aegis by 1 sec, up to a maximum of 4 sec.",
@@ -8810,8 +9126,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8843,7 +9159,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Windspeaker",
         "spell_id": 1270447,
         "visible_spell_id": null,
-        "icon": "achievement_raidprimalist_windelemental"
+        "icon": "achievement_raidprimalist_windelemental",
+        "icon_candidates": [
+          "achievement_raidprimalist_windelemental"
+        ]
       },
       "pve_tooltip": "The cast times of Healing Wave, Chain Heal, and Lava Burst are reduced by 10%.",
       "pvp_tooltip": "The cast times of Healing Wave, Chain Heal, and Lava Burst are reduced by 10%.",
@@ -8867,8 +9186,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8900,7 +9219,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Oversized Totems",
         "spell_id": 445026,
         "visible_spell_id": null,
-        "icon": "ability_shaman_totemrelocation"
+        "icon": "ability_shaman_totemrelocation",
+        "icon_candidates": [
+          "ability_shaman_totemrelocation"
+        ]
       },
       "pve_tooltip": "Increases the size and radius of your totems by 15%, and the health of your totems by 30%.",
       "pvp_tooltip": "Increases the size and radius of your totems by 15%, and the health of your totems by 30%.",
@@ -8924,8 +9246,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -8957,7 +9279,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Recall",
         "spell_id": 445027,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by 5 sec.\nCannot occur more than once every 20 sec per totem.",
       "pvp_tooltip": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by 5 sec.\nCannot occur more than once every 20 sec per totem.",
@@ -8981,8 +9306,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9014,7 +9339,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wind Barrier",
         "spell_id": 445031,
         "visible_spell_id": null,
-        "icon": "spell_nature_eyeofthestorm"
+        "icon": "spell_nature_eyeofthestorm",
+        "icon_candidates": [
+          "spell_nature_eyeofthestorm"
+        ]
       },
       "pve_tooltip": "If you have a totem active, your totem grants you a shield absorbing (Total Health * 6 / 100) damage for 30 sec every 30 sec.",
       "pvp_tooltip": "If you have a totem active, your totem grants you a shield absorbing (Total Health * 6 / 100) damage for 30 sec every 30 sec.",
@@ -9038,8 +9366,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9071,7 +9399,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Splitstream",
         "spell_id": 445035,
         "visible_spell_id": null,
-        "icon": "ability_rhyolith_lavapool"
+        "icon": "ability_rhyolith_lavapool",
+        "icon_candidates": [
+          "ability_rhyolith_lavapool"
+        ]
       },
       "pve_tooltip": "Your Healing Stream Totems heals an additional ally at 30% effectiveness.\nHealing Tide Totem healing increased by 25%.",
       "pvp_tooltip": "Your Healing Stream Totems heals an additional ally at 15% effectiveness.\nHealing Tide Totem healing increased by 25%.",
@@ -9142,8 +9473,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9175,7 +9506,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Attunement",
         "spell_id": 1263288,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_primordial"
+        "icon": "inv_10_elementalcombinedfoozles_primordial",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_primordial"
+        ]
       },
       "pve_tooltip": "Mastery increased by 2%.",
       "pvp_tooltip": "Mastery increased by 2%.",
@@ -9199,8 +9533,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9232,7 +9566,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Natural Harmony",
         "spell_id": 443442,
         "visible_spell_id": null,
-        "icon": "spell_nature_natureguardian"
+        "icon": "spell_nature_natureguardian",
+        "icon_candidates": [
+          "spell_nature_natureguardian"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Nature's Guardian by 15 sec and causes it to heal for an additional 10% of your maximum health.",
       "pvp_tooltip": "Reduces the cooldown of Nature's Guardian by 15 sec and causes it to heal for an additional 10% of your maximum health.",
@@ -9256,8 +9593,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9289,7 +9626,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthen Communion",
         "spell_id": 443441,
         "visible_spell_id": null,
-        "icon": "spell_nature_skinofearth"
+        "icon": "spell_nature_skinofearth",
+        "icon_candidates": [
+          "spell_nature_skinofearth"
+        ]
       },
       "pve_tooltip": "Earth Shield has an additional 3 charges and heals you for 25% more.",
       "pvp_tooltip": "Earth Shield has an additional 3 charges and heals you for 25% more.",
@@ -9313,8 +9653,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9346,7 +9686,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Maelstrom Supremacy",
         "spell_id": 443447,
         "visible_spell_id": null,
-        "icon": "spell_shadow_soulleech_2"
+        "icon": "spell_shadow_soulleech_2",
+        "icon_candidates": [
+          "spell_shadow_soulleech_2"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Healing Wave, Downpour, and Chain Heal by 25%.",
       "pvp_tooltip": "Increases the healing done by Healing Wave, Downpour, and Chain Heal by 20%.",
@@ -9417,8 +9760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9450,7 +9793,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Final Calling",
         "spell_id": 443446,
         "visible_spell_id": null,
-        "icon": "spell_shaman_ancestralawakening"
+        "icon": "spell_shaman_ancestralawakening",
+        "icon_candidates": [
+          "spell_shaman_ancestralawakening"
+        ]
       },
       "pve_tooltip": "When an Ancestor departs, they cast Hydrobubble on a nearby injured ally.\nHydrobubble\nSurrounds your target in a protective water bubble for 15 sec.\nThe shield absorbs the next 0 incoming damage, but the absorb amount decays fully over its duration.",
       "pvp_tooltip": "When an Ancestor departs, they cast Hydrobubble on a nearby injured ally.\nHydrobubble\nSurrounds your target in a protective water bubble for 15 sec.\nThe shield absorbs the next 0 incoming damage, but the absorb amount decays fully over its duration.",
@@ -9505,8 +9851,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9538,7 +9884,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mystic Knowledge",
         "spell_id": 1270450,
         "visible_spell_id": null,
-        "icon": "achievement_raidprimalist_council"
+        "icon": "achievement_raidprimalist_council",
+        "icon_candidates": [
+          "achievement_raidprimalist_council"
+        ]
       },
       "pve_tooltip": "For 8 sec after casting Nature's Swiftness or Ancestral Swiftness, the recharge rate of Riptide is increased by 10%.\nIncreases the chance for Lava Surge to occur by 20%.",
       "pvp_tooltip": "For 8 sec after casting Nature's Swiftness or Ancestral Swiftness, the recharge rate of Riptide is increased by 10%.\nIncreases the chance for Lava Surge to occur by 20%.",
@@ -9562,8 +9911,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9595,7 +9944,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imbuement Mastery",
         "spell_id": 445028,
         "visible_spell_id": null,
-        "icon": "spell_shaman_unleashweapon_wind"
+        "icon": "spell_shaman_unleashweapon_wind",
+        "icon_candidates": [
+          "spell_shaman_unleashweapon_wind"
+        ]
       },
       "pve_tooltip": "Increases the duration of your Earthliving effect by 3 sec.",
       "pvp_tooltip": "Increases the duration of your Earthliving effect by 3 sec.",
@@ -9619,8 +9971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9652,7 +10004,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pulse Capacitor",
         "spell_id": 445032,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalprecision_1"
+        "icon": "spell_nature_elementalprecision_1",
+        "icon_candidates": [
+          "spell_nature_elementalprecision_1"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Surging Totem by 10%.",
       "pvp_tooltip": "Increases the healing done by Surging Totem by 10%.",
@@ -9676,8 +10031,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9709,7 +10064,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Supportive Imbuements",
         "spell_id": 445033,
         "visible_spell_id": null,
-        "icon": "ability_shaman_fortifyingwaters"
+        "icon": "ability_shaman_fortifyingwaters",
+        "icon_candidates": [
+          "ability_shaman_fortifyingwaters"
+        ]
       },
       "pve_tooltip": "Learn a new weapon imbue, Tidecaller's Guard.\nTidecaller's Guard\nImbue your shield with the element of Water for 1 hour. Your healing done is increased by 2.0% and the duration of your Healing Stream Totem is increased by 3.0 sec.",
       "pvp_tooltip": "Learn a new weapon imbue, Tidecaller's Guard.\nTidecaller's Guard\nImbue your shield with the element of Water for 1 hour. Your healing done is increased by 2.0% and the duration of your Healing Stream Totem is increased by 3.0 sec.",
@@ -9733,8 +10091,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9766,7 +10124,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Totemic Coordination",
         "spell_id": 445036,
         "visible_spell_id": null,
-        "icon": "ability_shaman_echooftheelements"
+        "icon": "ability_shaman_echooftheelements",
+        "icon_candidates": [
+          "ability_shaman_echooftheelements"
+        ]
       },
       "pve_tooltip": "Chain Heals from Lively Totem and Totemic Rebound are 25% more effective.",
       "pvp_tooltip": "Chain Heals from Lively Totem and Totemic Rebound are 25% more effective.",
@@ -9790,8 +10151,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9823,7 +10184,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthsurge",
         "spell_id": 455590,
         "visible_spell_id": null,
-        "icon": "inv_elementalearth2"
+        "icon": "inv_elementalearth2",
+        "icon_candidates": [
+          "inv_elementalearth2"
+        ]
       },
       "pve_tooltip": "Allies affected by your Earthliving effect receive 15% increased healing from you.",
       "pvp_tooltip": "Allies affected by your Earthliving effect receive 5% increased healing from you.",
@@ -9894,8 +10258,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -9927,7 +10291,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primal Catalyst",
         "spell_id": 1260874,
         "visible_spell_id": null,
-        "icon": "misc_legionfall_shaman"
+        "icon": "misc_legionfall_shaman",
+        "icon_candidates": [
+          "misc_legionfall_shaman"
+        ]
       },
       "pve_tooltip": "Healing Stream Totem and Healing Tide Totem healing has a 8% chance to apply Earthliving to allies it heals.\n(500ms cooldown)",
       "pvp_tooltip": "Healing Stream Totem and Healing Tide Totem healing has a 8% chance to apply Earthliving to allies it heals.\n(500ms cooldown)",
@@ -9940,7 +10307,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": 150.0,
           "new": 50.1,
           "full_tooltip_match_count": 1
@@ -9988,8 +10355,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -10022,7 +10389,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancestral Swiftness",
         "spell_id": 448861,
         "visible_spell_id": 443454,
-        "icon": "inv_ability_farseershaman_ancestralswiftness"
+        "icon": "inv_ability_farseershaman_ancestralswiftness",
+        "icon_candidates": [
+          "inv_ability_farseershaman_ancestralswiftness"
+        ]
       },
       "pve_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
       "pvp_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
@@ -10046,8 +10416,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Restoration",
@@ -10080,7 +10450,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Whirling Elements",
         "spell_id": 445024,
         "visible_spell_id": null,
-        "icon": "inv_10_enchanting2_elementalswirl_color1"
+        "icon": "inv_10_enchanting2_elementalswirl_color1",
+        "icon_candidates": [
+          "inv_10_enchanting2_elementalswirl_color1"
+        ]
       },
       "pve_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater: Your next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir: Elemental, Restoration\nThe cast time of your next healing spell is reduced by 40%\nEarth: Elemental, Restoration\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit",
       "pvp_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater: Your next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir: Elemental, Restoration\nThe cast time of your next healing spell is reduced by 40%\nEarth: Elemental, Restoration\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit",
@@ -10379,7 +10752,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-22T19:29:16.261943+00:00",
+  "generated_at": "2026-09-24T11:51:37.954205+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 25,

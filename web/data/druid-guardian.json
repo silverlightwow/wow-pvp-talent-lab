@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -51,7 +51,10 @@
         "talent_name": "Rake",
         "spell_id": 1822,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
       "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
@@ -122,8 +125,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -155,7 +158,10 @@
         "talent_name": "Frenzied Regeneration",
         "spell_id": 22842,
         "visible_spell_id": null,
-        "icon": "ability_bullrush"
+        "icon": "ability_bullrush",
+        "icon_candidates": [
+          "ability_bullrush"
+        ]
       },
       "pve_tooltip": "10 Rage\nInstant\n26 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
       "pvp_tooltip": "10 Rage\nInstant\n26 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
@@ -226,8 +232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -259,7 +265,10 @@
         "talent_name": "Rejuvenation",
         "spell_id": 774,
         "visible_spell_id": null,
-        "icon": "spell_nature_rejuvenation"
+        "icon": "spell_nature_rejuvenation",
+        "icon_candidates": [
+          "spell_nature_rejuvenation"
+        ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
       "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
@@ -330,8 +339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -362,7 +371,10 @@
         "talent_name": "Starfire",
         "spell_id": 197628,
         "visible_spell_id": null,
-        "icon": "spell_arcane_starfire"
+        "icon": "spell_arcane_starfire",
+        "icon_candidates": [
+          "spell_arcane_starfire"
+        ]
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
@@ -386,8 +398,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -417,7 +429,10 @@
         "talent_name": "Grievous Wounds",
         "spell_id": 474526,
         "visible_spell_id": null,
-        "icon": "ability_xavius_tormentingswipe"
+        "icon": "ability_xavius_tormentingswipe",
+        "icon_candidates": [
+          "ability_xavius_tormentingswipe"
+        ]
       },
       "pve_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
       "pvp_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
@@ -441,8 +456,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -476,7 +491,10 @@
         "talent_name": "Swipe",
         "spell_id": 213764,
         "visible_spell_id": null,
-        "icon": "inv_misc_monsterclaw_03"
+        "icon": "inv_misc_monsterclaw_03",
+        "icon_candidates": [
+          "inv_misc_monsterclaw_03"
+        ]
       },
       "pve_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
       "pvp_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
@@ -500,8 +518,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -536,7 +554,10 @@
         "talent_name": "Ursoc's Spirit",
         "spell_id": 449182,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
       "pvp_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
@@ -560,8 +581,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -593,7 +614,10 @@
         "talent_name": "Wild Growth",
         "spell_id": 48438,
         "visible_spell_id": null,
-        "icon": "ability_druid_flourish"
+        "icon": "ability_druid_flourish",
+        "icon_candidates": [
+          "ability_druid_flourish"
+        ]
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
       "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
@@ -617,8 +641,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -648,7 +672,10 @@
         "talent_name": "Starsurge",
         "spell_id": 197626,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane03"
+        "icon": "spell_arcane_arcane03",
+        "icon_candidates": [
+          "spell_arcane_arcane03"
+        ]
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
       "pvp_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
@@ -672,8 +699,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -706,7 +733,10 @@
         "talent_name": "Rip",
         "spell_id": 1079,
         "visible_spell_id": null,
-        "icon": "ability_ghoulfrenzy"
+        "icon": "ability_ghoulfrenzy",
+        "icon_candidates": [
+          "ability_ghoulfrenzy"
+        ]
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
       "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(69.2954% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(69.2954% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(69.2954% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(69.2954% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(69.2954% of Attack Power) * 6 / 6] over 4 sec",
@@ -853,8 +883,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -890,7 +920,10 @@
         "talent_name": "Verdant Heart",
         "spell_id": 301768,
         "visible_spell_id": null,
-        "icon": "ability_bullrush"
+        "icon": "ability_bullrush",
+        "icon_candidates": [
+          "ability_bullrush"
+        ]
       },
       "pve_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
       "pvp_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
@@ -914,8 +947,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -950,7 +983,10 @@
         "talent_name": "Remove Corruption",
         "spell_id": 2782,
         "visible_spell_id": null,
-        "icon": "spell_holy_removecurse"
+        "icon": "spell_holy_removecurse",
+        "icon_candidates": [
+          "spell_holy_removecurse"
+        ]
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
       "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
@@ -974,8 +1010,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1008,7 +1044,10 @@
         "talent_name": "Moonkin Form",
         "spell_id": 24858,
         "visible_spell_id": null,
-        "icon": "spell_nature_forceofnature"
+        "icon": "spell_nature_forceofnature",
+        "icon_candidates": [
+          "spell_nature_forceofnature"
+        ]
       },
       "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
       "pvp_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
@@ -1067,8 +1106,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1098,10 +1137,13 @@
         "talent_name": "Maim",
         "spell_id": 22570,
         "visible_spell_id": null,
-        "icon": "ability_druid_mangle.tga"
+        "icon": "ability_druid_mangle.tga",
+        "icon_candidates": [
+          "ability_druid_mangle.tga"
+        ]
       },
-      "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
-      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
+      "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
+      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1122,8 +1164,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1159,7 +1201,10 @@
         "talent_name": "Killer Instinct",
         "spell_id": 108299,
         "visible_spell_id": null,
-        "icon": "ability_druid_predatoryinstincts"
+        "icon": "ability_druid_predatoryinstincts",
+        "icon_candidates": [
+          "ability_druid_predatoryinstincts"
+        ]
       },
       "pve_tooltip": "Physical damage and Armor increased by 6%.",
       "pvp_tooltip": "Physical damage and Armor increased by 6%.",
@@ -1202,8 +1247,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1233,7 +1278,10 @@
         "talent_name": "Ironfur",
         "spell_id": 192081,
         "visible_spell_id": null,
-        "icon": "ability_druid_ironfur"
+        "icon": "ability_druid_ironfur",
+        "icon_candidates": [
+          "ability_druid_ironfur"
+        ]
       },
       "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
       "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
@@ -1257,8 +1305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1294,7 +1342,10 @@
         "talent_name": "Improved Barkskin",
         "spell_id": 327993,
         "visible_spell_id": null,
-        "icon": "spell_nature_stoneclawtotem"
+        "icon": "spell_nature_stoneclawtotem",
+        "icon_candidates": [
+          "spell_nature_stoneclawtotem"
+        ]
       },
       "pve_tooltip": "Barkskin's duration is increased by 4 sec.",
       "pvp_tooltip": "Barkskin's duration is increased by 4 sec.",
@@ -1318,8 +1369,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1351,7 +1402,10 @@
         "talent_name": "Hibernate",
         "spell_id": 2637,
         "visible_spell_id": null,
-        "icon": "spell_nature_sleep"
+        "icon": "spell_nature_sleep",
+        "icon_candidates": [
+          "spell_nature_sleep"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
       "pvp_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
@@ -1375,8 +1429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1412,7 +1466,10 @@
         "talent_name": "Nurturing Instinct",
         "spell_id": 33873,
         "visible_spell_id": null,
-        "icon": "ability_druid_healinginstincts"
+        "icon": "ability_druid_healinginstincts",
+        "icon_candidates": [
+          "ability_druid_healinginstincts"
+        ]
       },
       "pve_tooltip": "Magical damage and healing increased by 6%.",
       "pvp_tooltip": "Magical damage and healing increased by 6%.",
@@ -1455,8 +1512,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1488,7 +1545,10 @@
         "talent_name": "Sunfire",
         "spell_id": 93402,
         "visible_spell_id": null,
-        "icon": "ability_mage_firestarter"
+        "icon": "ability_mage_firestarter",
+        "icon_candidates": [
+          "ability_mage_firestarter"
+        ]
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
       "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (28.196% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
@@ -1594,8 +1654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1625,7 +1685,10 @@
         "talent_name": "Primal Fury",
         "spell_id": 159286,
         "visible_spell_id": null,
-        "icon": "ability_racial_cannibalize"
+        "icon": "ability_racial_cannibalize",
+        "icon_candidates": [
+          "ability_racial_cannibalize"
+        ]
       },
       "pve_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
       "pvp_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
@@ -1649,8 +1712,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1685,7 +1748,10 @@
         "talent_name": "Thick Hide",
         "spell_id": 16931,
         "visible_spell_id": null,
-        "icon": "inv_misc_pelt_bear_03"
+        "icon": "inv_misc_pelt_bear_03",
+        "icon_candidates": [
+          "inv_misc_pelt_bear_03"
+        ]
       },
       "pve_tooltip": "Reduces all damage taken by 4%.",
       "pvp_tooltip": "Reduces all damage taken by 4%.",
@@ -1709,8 +1775,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1740,7 +1806,10 @@
         "talent_name": "Skull Bash",
         "spell_id": 106839,
         "visible_spell_id": null,
-        "icon": "inv_bone_skull_04"
+        "icon": "inv_bone_skull_04",
+        "icon_candidates": [
+          "inv_bone_skull_04"
+        ]
       },
       "pve_tooltip": "13 yd range\nInstant\n15 sec cooldown\nYou charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
       "pvp_tooltip": "13 yd range\nInstant\n15 sec cooldown\nYou charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
@@ -1764,8 +1833,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1801,7 +1870,10 @@
         "talent_name": "Natural Recovery",
         "spell_id": 377796,
         "visible_spell_id": null,
-        "icon": "ability_druid_naturalperfection"
+        "icon": "ability_druid_naturalperfection",
+        "icon_candidates": [
+          "ability_druid_naturalperfection"
+        ]
       },
       "pve_tooltip": "Healing you receive is increased by 4%.",
       "pvp_tooltip": "Healing you receive is increased by 4%.",
@@ -1825,8 +1897,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1858,7 +1930,10 @@
         "talent_name": "Astral Influence",
         "spell_id": 197524,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_lens_flare"
+        "icon": "ability_skyreach_lens_flare",
+        "icon_candidates": [
+          "ability_skyreach_lens_flare"
+        ]
       },
       "pve_tooltip": "Increases the range of all of your spells by 5 yards.",
       "pvp_tooltip": "Increases the range of all of your spells by 5 yards.",
@@ -1882,8 +1957,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1918,7 +1993,10 @@
         "talent_name": "Wild Charge",
         "spell_id": 102401,
         "visible_spell_id": null,
-        "icon": "spell_druid_wildcharge"
+        "icon": "spell_druid_wildcharge",
+        "icon_candidates": [
+          "spell_druid_wildcharge"
+        ]
       },
       "pve_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
       "pvp_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
@@ -1942,8 +2020,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1978,7 +2056,10 @@
         "talent_name": "Tiger Dash",
         "spell_id": 252216,
         "visible_spell_id": null,
-        "icon": "ability_druid_dash_orange"
+        "icon": "ability_druid_dash_orange",
+        "icon_candidates": [
+          "ability_druid_dash_orange"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
       "pvp_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
@@ -2002,8 +2083,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2036,7 +2117,10 @@
         "talent_name": "Soothe",
         "spell_id": 2908,
         "visible_spell_id": null,
-        "icon": "ability_hunter_beastsoothe"
+        "icon": "ability_hunter_beastsoothe",
+        "icon_candidates": [
+          "ability_hunter_beastsoothe"
+        ]
       },
       "pve_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
       "pvp_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
@@ -2060,8 +2144,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2094,7 +2178,10 @@
         "talent_name": "Cyclone",
         "spell_id": 33786,
         "visible_spell_id": null,
-        "icon": "spell_nature_earthbind"
+        "icon": "spell_nature_earthbind",
+        "icon_candidates": [
+          "spell_nature_earthbind"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
       "pvp_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
@@ -2118,8 +2205,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2154,7 +2241,10 @@
         "talent_name": "Aessina's Renewal",
         "spell_id": 474678,
         "visible_spell_id": null,
-        "icon": "spell_nature_healingtouch"
+        "icon": "spell_nature_healingtouch",
+        "icon_candidates": [
+          "spell_nature_healingtouch"
+        ]
       },
       "pve_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
       "pvp_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
@@ -2178,8 +2268,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2210,7 +2300,10 @@
         "talent_name": "Starlight Conduit",
         "spell_id": 451211,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane01"
+        "icon": "spell_arcane_arcane01",
+        "icon_candidates": [
+          "spell_arcane_arcane01"
+        ]
       },
       "pve_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
       "pvp_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
@@ -2234,8 +2327,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2267,7 +2360,10 @@
         "talent_name": "Feline Swiftness",
         "spell_id": 131768,
         "visible_spell_id": null,
-        "icon": "ability_druid_dash"
+        "icon": "ability_druid_dash",
+        "icon_candidates": [
+          "ability_druid_dash"
+        ]
       },
       "pve_tooltip": "Increases your movement speed by 15%.",
       "pvp_tooltip": "Increases your movement speed by 15%.",
@@ -2291,8 +2387,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2325,7 +2421,10 @@
         "talent_name": "Well-Honed Instincts",
         "spell_id": 377847,
         "visible_spell_id": null,
-        "icon": "ability_druid_tigersroar"
+        "icon": "ability_druid_tigersroar",
+        "icon_candidates": [
+          "ability_druid_tigersroar"
+        ]
       },
       "pve_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
       "pvp_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
@@ -2349,8 +2448,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2381,7 +2480,10 @@
         "talent_name": "Matted Fur",
         "spell_id": 385786,
         "visible_spell_id": null,
-        "icon": "inv_misc_pelt_15"
+        "icon": "inv_misc_pelt_15",
+        "icon_candidates": [
+          "inv_misc_pelt_15"
+        ]
       },
       "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
       "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
@@ -2424,8 +2526,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2459,7 +2561,10 @@
         "talent_name": "Stampeding Roar",
         "spell_id": 106898,
         "visible_spell_id": null,
-        "icon": "spell_druid_stampedingroar_cat"
+        "icon": "spell_druid_stampedingroar_cat",
+        "icon_candidates": [
+          "spell_druid_stampedingroar_cat"
+        ]
       },
       "pve_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
       "pvp_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
@@ -2483,8 +2588,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2515,7 +2620,10 @@
         "talent_name": "Lingering Healing",
         "spell_id": 231040,
         "visible_spell_id": null,
-        "icon": "spell_nature_rejuvenation"
+        "icon": "spell_nature_rejuvenation",
+        "icon_candidates": [
+          "spell_nature_rejuvenation"
+        ]
       },
       "pve_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
       "pvp_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
@@ -2539,8 +2647,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2573,7 +2681,10 @@
         "talent_name": "Typhoon",
         "spell_id": 132469,
         "visible_spell_id": null,
-        "icon": "ability_druid_typhoon"
+        "icon": "ability_druid_typhoon",
+        "icon_candidates": [
+          "ability_druid_typhoon"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
       "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 30% for 6 sec. Usable in all shapeshift forms.",
@@ -2649,8 +2760,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2682,7 +2793,10 @@
         "talent_name": "Mass Entanglement",
         "spell_id": 102359,
         "visible_spell_id": null,
-        "icon": "spell_druid_massentanglement"
+        "icon": "spell_druid_massentanglement",
+        "icon_candidates": [
+          "spell_druid_massentanglement"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
       "pvp_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
@@ -2706,8 +2820,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2739,7 +2853,10 @@
         "talent_name": "Ursol's Vortex",
         "spell_id": 102793,
         "visible_spell_id": null,
-        "icon": "spell_druid_ursolsvortex"
+        "icon": "spell_druid_ursolsvortex",
+        "icon_candidates": [
+          "spell_druid_ursolsvortex"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
       "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
@@ -2763,8 +2880,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2799,7 +2916,10 @@
         "talent_name": "Oakskin",
         "spell_id": 449191,
         "visible_spell_id": null,
-        "icon": "spell_nature_stoneclawtotem"
+        "icon": "spell_nature_stoneclawtotem",
+        "icon_candidates": [
+          "spell_nature_stoneclawtotem"
+        ]
       },
       "pve_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
       "pvp_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
@@ -2823,8 +2943,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2854,7 +2974,10 @@
         "talent_name": "Perfectly-Honed Instincts",
         "spell_id": 1213597,
         "visible_spell_id": null,
-        "icon": "ability_druid_tigersroar"
+        "icon": "ability_druid_tigersroar",
+        "icon_candidates": [
+          "ability_druid_tigersroar"
+        ]
       },
       "pve_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
       "pvp_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
@@ -2878,8 +3001,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2909,7 +3032,10 @@
         "talent_name": "Instincts of the Claw",
         "spell_id": 449184,
         "visible_spell_id": null,
-        "icon": "spell_shadow_vampiricaura"
+        "icon": "spell_shadow_vampiricaura",
+        "icon_candidates": [
+          "spell_shadow_vampiricaura"
+        ]
       },
       "pve_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
       "pvp_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
@@ -2933,8 +3059,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2968,7 +3094,10 @@
         "talent_name": "Lycara's Teachings",
         "spell_id": 378988,
         "visible_spell_id": null,
-        "icon": "inv_trinket_ardenweald_02_green"
+        "icon": "inv_trinket_ardenweald_02_green",
+        "icon_candidates": [
+          "inv_trinket_ardenweald_02_green"
+        ]
       },
       "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
       "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
@@ -3011,8 +3140,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3042,7 +3171,10 @@
         "talent_name": "Lore of the Grove",
         "spell_id": 449185,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire and Sunfire damage increased by 10%.",
       "pvp_tooltip": "Moonfire and Sunfire damage increased by 10%.",
@@ -3066,8 +3198,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3097,7 +3229,10 @@
         "talent_name": "Gale Winds",
         "spell_id": 400142,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
       "pvp_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
@@ -3121,8 +3256,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3152,7 +3287,10 @@
         "talent_name": "Incessant Tempest",
         "spell_id": 400140,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_wind"
+        "icon": "ability_skyreach_wind",
+        "icon_candidates": [
+          "ability_skyreach_wind"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
@@ -3176,8 +3314,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3212,7 +3350,10 @@
         "talent_name": "Gift of the Wild",
         "spell_id": 1262034,
         "visible_spell_id": null,
-        "icon": "spell_nature_giftofthewild"
+        "icon": "spell_nature_giftofthewild",
+        "icon_candidates": [
+          "spell_nature_giftofthewild"
+        ]
       },
       "pve_tooltip": "Mark of the Wild is 100% more effective on yourself.",
       "pvp_tooltip": "Mark of the Wild is 100% more effective on yourself.",
@@ -3236,8 +3377,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3267,7 +3408,10 @@
         "talent_name": "Incapacitating Roar",
         "spell_id": 99,
         "visible_spell_id": null,
-        "icon": "ability_druid_demoralizingroar"
+        "icon": "ability_druid_demoralizingroar",
+        "icon_candidates": [
+          "ability_druid_demoralizingroar"
+        ]
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
       "pvp_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
@@ -3291,8 +3435,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3322,7 +3466,10 @@
         "talent_name": "Mighty Bash",
         "spell_id": 5211,
         "visible_spell_id": null,
-        "icon": "ability_druid_bash"
+        "icon": "ability_druid_bash",
+        "icon_candidates": [
+          "ability_druid_bash"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
       "pvp_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
@@ -3346,8 +3493,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3377,7 +3524,10 @@
         "talent_name": "Ursine Vigor",
         "spell_id": 377842,
         "visible_spell_id": null,
-        "icon": "ability_druid_markofursol"
+        "icon": "ability_druid_markofursol",
+        "icon_candidates": [
+          "ability_druid_markofursol"
+        ]
       },
       "pve_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
       "pvp_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
@@ -3401,8 +3551,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3434,7 +3584,10 @@
         "talent_name": "Improved Stampeding Roar",
         "spell_id": 288826,
         "visible_spell_id": null,
-        "icon": "spell_druid_stamedingroar"
+        "icon": "spell_druid_stamedingroar",
+        "icon_candidates": [
+          "spell_druid_stamedingroar"
+        ]
       },
       "pve_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
@@ -3458,8 +3611,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3491,7 +3644,10 @@
         "talent_name": "Circle of the Wild",
         "spell_id": 474530,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "Physical damage dealt by your abilities increased by 5%.",
       "pvp_tooltip": "Physical damage dealt by your abilities increased by 5%.",
@@ -3515,8 +3671,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3548,7 +3704,10 @@
         "talent_name": "Circle of the Heavens",
         "spell_id": 474541,
         "visible_spell_id": null,
-        "icon": "spell_druid_equinox"
+        "icon": "spell_druid_equinox",
+        "icon_candidates": [
+          "spell_druid_equinox"
+        ]
       },
       "pve_tooltip": "Magical damage dealt by your spells increased by 5%.",
       "pvp_tooltip": "Magical damage dealt by your spells increased by 5%.",
@@ -3572,8 +3731,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3605,7 +3764,10 @@
         "talent_name": "Lycara's Inspiration",
         "spell_id": 1232897,
         "visible_spell_id": null,
-        "icon": "inv_trinket_ardenweald_02_yellow"
+        "icon": "inv_trinket_ardenweald_02_yellow",
+        "icon_candidates": [
+          "inv_trinket_ardenweald_02_yellow"
+        ]
       },
       "pve_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
       "pvp_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
@@ -3629,8 +3791,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3660,7 +3822,10 @@
         "talent_name": "Symbiotic Relationship",
         "spell_id": 474750,
         "visible_spell_id": null,
-        "icon": "ability_druid_focusedgrowth"
+        "icon": "ability_druid_focusedgrowth",
+        "icon_candidates": [
+          "ability_druid_focusedgrowth"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
       "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
@@ -3684,8 +3849,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3715,7 +3880,10 @@
         "talent_name": "Forestwalk",
         "spell_id": 400129,
         "visible_spell_id": null,
-        "icon": "spell_lifegivingspeed"
+        "icon": "spell_lifegivingspeed",
+        "icon_candidates": [
+          "spell_lifegivingspeed"
+        ]
       },
       "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
       "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
@@ -3758,8 +3926,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3789,7 +3957,10 @@
         "talent_name": "Fluid Form",
         "spell_id": 449193,
         "visible_spell_id": null,
-        "icon": "ability_druid_mastershapeshifter"
+        "icon": "ability_druid_mastershapeshifter",
+        "icon_candidates": [
+          "ability_druid_mastershapeshifter"
+        ]
       },
       "pve_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
       "pvp_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
@@ -3813,8 +3984,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3846,7 +4017,11 @@
         "talent_name": "Heart of the Wild",
         "spell_id": 1261867,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_flourish_empowered"
+        "icon": "spell_holy_blessingofagility",
+        "icon_candidates": [
+          "spell_holy_blessingofagility",
+          "inv12_ability_druid_flourish_empowered"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (27% of Spell Power)] Astral damage over 8 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (22.491% of Spell Power)] Astral damage over 8 sec.",
@@ -3922,8 +4097,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3953,7 +4128,10 @@
         "talent_name": "Innervate",
         "spell_id": 29166,
         "visible_spell_id": null,
-        "icon": "spell_nature_lightning"
+        "icon": "spell_nature_lightning",
+        "icon_candidates": [
+          "spell_nature_lightning"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
@@ -4014,8 +4192,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4046,7 +4224,10 @@
         "talent_name": "Maul",
         "spell_id": 6807,
         "visible_spell_id": null,
-        "icon": "ability_druid_maul"
+        "icon": "ability_druid_maul",
+        "icon_candidates": [
+          "ability_druid_maul"
+        ]
       },
       "pve_tooltip": "40 Rage\nMelee Range\nInstant\nMaul the target for (212.5% of Attack Power) Physical damage.",
       "pvp_tooltip": "40 Rage\nMelee Range\nInstant\nMaul the target for (212.5% of Attack Power) Physical damage.",
@@ -4070,8 +4251,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4104,7 +4285,10 @@
         "talent_name": "Gore",
         "spell_id": 210706,
         "visible_spell_id": null,
-        "icon": "spell_druid_bearhug"
+        "icon": "spell_druid_bearhug",
+        "icon_candidates": [
+          "spell_druid_bearhug"
+        ]
       },
       "pve_tooltip": "Thrash, Swipe, Moonfire, and Maul have a 15% chance to reset the cooldown on Mangle, and to cause it to generate an additional 4 Rage.\n(200ms cooldown)",
       "pvp_tooltip": "Thrash, Swipe, Moonfire, and Maul have a 15% chance to reset the cooldown on Mangle, and to cause it to generate an additional 4 Rage.\n(200ms cooldown)",
@@ -4128,8 +4312,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4162,7 +4346,10 @@
         "talent_name": "Survival Instincts",
         "spell_id": 61336,
         "visible_spell_id": null,
-        "icon": "ability_druid_tigersroar"
+        "icon": "ability_druid_tigersroar",
+        "icon_candidates": [
+          "ability_druid_tigersroar"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\n2 Charges\nReduces all damage you take by 50% for 6 sec.",
       "pvp_tooltip": "Instant\n3 min cooldown\n2 Charges\nReduces all damage you take by 50% for 6 sec.",
@@ -4186,8 +4373,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4219,7 +4406,10 @@
         "talent_name": "Front of the Pack",
         "spell_id": 377835,
         "visible_spell_id": null,
-        "icon": "spell_druid_stampedingroar_cat"
+        "icon": "spell_druid_stampedingroar_cat",
+        "icon_candidates": [
+          "spell_druid_stampedingroar_cat"
+        ]
       },
       "pve_tooltip": "Stampeding Roar's radius is increased by 30%.\nYour movement speed is increased by 5%.",
       "pvp_tooltip": "Stampeding Roar's radius is increased by 30%.\nYour movement speed is increased by 5%.",
@@ -4243,8 +4433,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4277,7 +4467,10 @@
         "talent_name": "Persistence",
         "spell_id": 1251406,
         "visible_spell_id": null,
-        "icon": "inv_1115_druid_bearstanding"
+        "icon": "inv_1115_druid_bearstanding",
+        "icon_candidates": [
+          "inv_1115_druid_bearstanding"
+        ]
       },
       "pve_tooltip": "When you shapeshift out of Bear Form, its benefits to health and armor slowly decay over 8 sec.",
       "pvp_tooltip": "When you shapeshift out of Bear Form, its benefits to health and armor slowly decay over 8 sec.",
@@ -4301,8 +4494,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4335,7 +4528,10 @@
         "talent_name": "Dream of Cenarius",
         "spell_id": 372119,
         "visible_spell_id": null,
-        "icon": "ability_druid_dreamstate"
+        "icon": "ability_druid_dreamstate",
+        "icon_candidates": [
+          "ability_druid_dreamstate"
+        ]
       },
       "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
       "pvp_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
@@ -4424,8 +4620,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4458,7 +4654,10 @@
         "talent_name": "Dream Guide",
         "spell_id": 1278886,
         "visible_spell_id": null,
-        "icon": "achievement_reputation_guardiansofcenarius"
+        "icon": "achievement_reputation_guardiansofcenarius",
+        "icon_candidates": [
+          "achievement_reputation_guardiansofcenarius"
+        ]
       },
       "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
       "pvp_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
@@ -4482,8 +4681,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4515,7 +4714,10 @@
         "talent_name": "Infected Wounds",
         "spell_id": 345208,
         "visible_spell_id": null,
-        "icon": "ability_druid_infectedwound"
+        "icon": "ability_druid_infectedwound",
+        "icon_candidates": [
+          "ability_druid_infectedwound"
+        ]
       },
       "pve_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 50% for 12 sec.",
       "pvp_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 30% for 12 sec.",
@@ -4552,7 +4754,7 @@
           "talent_spell_id": 345208,
           "source_spell_id": 345209,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -4569,8 +4771,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4590,8 +4793,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4625,7 +4828,10 @@
         "talent_name": "Innate Resolve",
         "spell_id": 377811,
         "visible_spell_id": null,
-        "icon": "spell_nature_healingway"
+        "icon": "spell_nature_healingway",
+        "icon_candidates": [
+          "spell_nature_healingway"
+        ]
       },
       "pve_tooltip": "Frenzied Regeneration's healing is increased by up to 80% based on your missing health.\nFrenzied Regeneration has 1 additional charge.",
       "pvp_tooltip": "Frenzied Regeneration's healing is increased by up to 80% based on your missing health.\nFrenzied Regeneration has 1 additional charge.",
@@ -4649,8 +4855,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4685,7 +4891,10 @@
         "talent_name": "Berserk",
         "spell_id": 50334,
         "visible_spell_id": null,
-        "icon": "ability_druid_berserk"
+        "icon": "ability_druid_berserk",
+        "icon_candidates": [
+          "ability_druid_berserk"
+        ]
       },
       "pve_tooltip": "Instant\n26 sec cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
       "pvp_tooltip": "Instant\n26 sec cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
@@ -4709,8 +4918,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4744,7 +4953,10 @@
         "talent_name": "Vulnerable Flesh",
         "spell_id": 372618,
         "visible_spell_id": null,
-        "icon": "ability_druid_primalagression"
+        "icon": "ability_druid_primalagression",
+        "icon_candidates": [
+          "ability_druid_primalagression"
+        ]
       },
       "pve_tooltip": "Maul and Raze deal 30% increased damage.",
       "pvp_tooltip": "Maul and Raze deal 30% increased damage.",
@@ -4768,8 +4980,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4802,7 +5014,10 @@
         "talent_name": "Survival of the Fittest",
         "spell_id": 203965,
         "visible_spell_id": null,
-        "icon": "ability_druid_enrage"
+        "icon": "ability_druid_enrage",
+        "icon_candidates": [
+          "ability_druid_enrage"
+        ]
       },
       "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
       "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
@@ -4845,8 +5060,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4880,7 +5095,10 @@
         "talent_name": "Reinvigoration",
         "spell_id": 372945,
         "visible_spell_id": null,
-        "icon": "ability_druid_overgrowth"
+        "icon": "ability_druid_overgrowth",
+        "icon_candidates": [
+          "ability_druid_overgrowth"
+        ]
       },
       "pve_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
       "pvp_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
@@ -4923,8 +5141,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4958,7 +5176,10 @@
         "talent_name": "After the Wildfire",
         "spell_id": 371905,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_afterthewildfire"
+        "icon": "inv12_ability_druid_afterthewildfire",
+        "icon_candidates": [
+          "inv12_ability_druid_afterthewildfire"
+        ]
       },
       "pve_tooltip": "Every 300 Rage you spend causes a burst of restorative energy, healing up to 5 allies within 20 yds for (750% of Attack Power).",
       "pvp_tooltip": "Every 300 Rage you spend causes a burst of restorative energy, healing up to 5 allies within 20 yds for (450% of Attack Power).",
@@ -4995,7 +5216,7 @@
           "talent_spell_id": 371905,
           "source_spell_id": 371982,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 7.5)",
+          "effect_text": "Heal (AP mod: 7.5 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": "direct",
@@ -5012,8 +5233,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5033,8 +5255,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5068,7 +5290,10 @@
         "talent_name": "Memory of Ysera",
         "spell_id": 1250906,
         "visible_spell_id": null,
-        "icon": "spell_nature_regeneration_02"
+        "icon": "spell_nature_regeneration_02",
+        "icon_candidates": [
+          "spell_nature_regeneration_02"
+        ]
       },
       "pve_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
       "pvp_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
@@ -5111,8 +5336,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5145,7 +5370,10 @@
         "talent_name": "Scintillating Moonlight",
         "spell_id": 238049,
         "visible_spell_id": null,
-        "icon": "spell_fire_twilightfireward"
+        "icon": "spell_fire_twilightfireward",
+        "icon_candidates": [
+          "spell_fire_twilightfireward"
+        ]
       },
       "pve_tooltip": "Moonfire reduces damage dealt to you by 12%.",
       "pvp_tooltip": "Moonfire reduces damage dealt to you by 12%.",
@@ -5188,8 +5416,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5222,7 +5450,10 @@
         "talent_name": "Ward of the Forest",
         "spell_id": 1250923,
         "visible_spell_id": null,
-        "icon": "achievement_zone_grizzlyhills_01"
+        "icon": "achievement_zone_grizzlyhills_01",
+        "icon_candidates": [
+          "achievement_zone_grizzlyhills_01"
+        ]
       },
       "pve_tooltip": "Barkskin increases your maximum health by 20%, but its duration is reduced by 40%.",
       "pvp_tooltip": "Barkskin increases your maximum health by 20%, but its duration is reduced by 40%.",
@@ -5246,8 +5477,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5280,7 +5511,10 @@
         "talent_name": "Brambles",
         "spell_id": 203953,
         "visible_spell_id": null,
-        "icon": "inv_misc_thornnecklace"
+        "icon": "inv_misc_thornnecklace",
+        "icon_candidates": [
+          "inv_misc_thornnecklace"
+        ]
       },
       "pve_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
       "pvp_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (3.75% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
@@ -5356,8 +5590,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5390,7 +5624,10 @@
         "talent_name": "Soul of the Forest",
         "spell_id": 158477,
         "visible_spell_id": null,
-        "icon": "ability_druid_manatree"
+        "icon": "ability_druid_manatree",
+        "icon_candidates": [
+          "ability_druid_manatree"
+        ]
       },
       "pve_tooltip": "Mangle generates 5 more Rage and deals 25% more damage.",
       "pvp_tooltip": "Mangle generates 5 more Rage and deals 25% more damage.",
@@ -5414,8 +5651,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5449,7 +5686,10 @@
         "talent_name": "Natural Resilience",
         "spell_id": 1278789,
         "visible_spell_id": null,
-        "icon": "spell_lfieblood"
+        "icon": "spell_lfieblood",
+        "icon_candidates": [
+          "spell_lfieblood"
+        ]
       },
       "pve_tooltip": "When Frenzied Regeneration would heal you above maximum health, 80% of its excess healing is instead converted to an absorb shield.",
       "pvp_tooltip": "When Frenzied Regeneration would heal you above maximum health, 80% of its excess healing is instead converted to an absorb shield.",
@@ -5473,8 +5713,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5506,7 +5746,10 @@
         "talent_name": "Reinforced Fur",
         "spell_id": 393618,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Ironfur increases armor by an additional 15% and Barkskin reduces damage taken by an additional 10%.",
       "pvp_tooltip": "Ironfur increases armor by an additional 15% and Barkskin reduces damage taken by an additional 10%.",
@@ -5530,8 +5773,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5563,7 +5806,10 @@
         "talent_name": "Bristling Fur",
         "spell_id": 155835,
         "visible_spell_id": null,
-        "icon": "spell_druid_bristlingfur"
+        "icon": "spell_druid_bristlingfur",
+        "icon_candidates": [
+          "spell_druid_bristlingfur"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
       "pvp_tooltip": "Instant\n45 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
@@ -5587,8 +5833,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5622,7 +5868,10 @@
         "talent_name": "Gift of an Ancient Guardian",
         "spell_id": 1251876,
         "visible_spell_id": null,
-        "icon": "inv_relics_idolofhealth"
+        "icon": "inv_relics_idolofhealth",
+        "icon_candidates": [
+          "inv_relics_idolofhealth"
+        ]
       },
       "pve_tooltip": "Ironfur increases your Mastery by 5%.",
       "pvp_tooltip": "Ironfur increases your Mastery by 5%.",
@@ -5646,8 +5895,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5681,7 +5930,10 @@
         "talent_name": "Guardian of Elune",
         "spell_id": 155578,
         "visible_spell_id": null,
-        "icon": "spell_druid_guardianofelune"
+        "icon": "spell_druid_guardianofelune",
+        "icon_candidates": [
+          "spell_druid_guardianofelune"
+        ]
       },
       "pve_tooltip": "Mangle increases the duration of your next Ironfur by 3 sec, or the healing of your next Frenzied Regeneration by 20%.",
       "pvp_tooltip": "Mangle increases the duration of your next Ironfur by 3 sec, or the healing of your next Frenzied Regeneration by 20%.",
@@ -5705,8 +5957,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5739,7 +5991,10 @@
         "talent_name": "Ursoc's Endurance",
         "spell_id": 393611,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pet_bear"
+        "icon": "ability_hunter_pet_bear",
+        "icon_candidates": [
+          "ability_hunter_pet_bear"
+        ]
       },
       "pve_tooltip": "Increases the duration of Barkskin and Ironfur by 2.0 sec.",
       "pvp_tooltip": "Increases the duration of Barkskin and Ironfur by 2.0 sec.",
@@ -5763,8 +6018,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5797,7 +6052,10 @@
         "talent_name": "Gory Fur",
         "spell_id": 200854,
         "visible_spell_id": null,
-        "icon": "artifactability_guardiandruid_goryfur"
+        "icon": "artifactability_guardiandruid_goryfur",
+        "icon_candidates": [
+          "artifactability_guardiandruid_goryfur"
+        ]
       },
       "pve_tooltip": "Ironfur has a 20% chance to make your next [Raze / Maul] or Ravage free.\n[Raze / Maul] and Ravage have a 10% chance to make your next Ironfur free.",
       "pvp_tooltip": "Ironfur has a 20% chance to make your next [Raze / Maul] or Ravage free.\n[Raze / Maul] and Ravage have a 10% chance to make your next Ironfur free.",
@@ -5821,8 +6079,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5855,7 +6113,10 @@
         "talent_name": "Ursol's Warding",
         "spell_id": 471492,
         "visible_spell_id": null,
-        "icon": "spell_nature_natureresistancetotem"
+        "icon": "spell_nature_natureresistancetotem",
+        "icon_candidates": [
+          "spell_nature_natureresistancetotem"
+        ]
       },
       "pve_tooltip": "Gain magical damage reduction equal to 10% of your damage reduction from armor.",
       "pvp_tooltip": "Gain magical damage reduction equal to 10% of your damage reduction from armor.",
@@ -5879,8 +6140,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5916,7 +6177,10 @@
         "talent_name": "Rend and Tear",
         "spell_id": 204053,
         "visible_spell_id": null,
-        "icon": "ability_druid_swipe"
+        "icon": "ability_druid_swipe",
+        "icon_candidates": [
+          "ability_druid_swipe"
+        ]
       },
       "pve_tooltip": "Each stack of Thrash reduces the target's damage to you by 3% and increases your damage to them by 2%.",
       "pvp_tooltip": "Each stack of Thrash reduces the target's damage to you by 3% and increases your damage to them by 2%.",
@@ -5940,8 +6204,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5977,7 +6241,10 @@
         "talent_name": "Untamed Savagery",
         "spell_id": 372943,
         "visible_spell_id": null,
-        "icon": "spell_druid_bloodythrash"
+        "icon": "spell_druid_bloodythrash",
+        "icon_candidates": [
+          "spell_druid_bloodythrash"
+        ]
       },
       "pve_tooltip": "Increases the damage and radius of Thrash by 25%.",
       "pvp_tooltip": "Increases the damage and radius of Thrash by 25%.",
@@ -6001,8 +6268,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6038,7 +6305,10 @@
         "talent_name": "Raze",
         "spell_id": 400254,
         "visible_spell_id": null,
-        "icon": "ability_druid_lacerate"
+        "icon": "ability_druid_lacerate",
+        "icon_candidates": [
+          "ability_druid_lacerate"
+        ]
       },
       "pve_tooltip": "40 Rage\nMelee Range\nInstant\nStrike with the might of Ursoc, dealing (212.5% of Attack Power) Physical damage to your target and (115.6% of Attack Power) to all other enemies in front of you. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "40 Rage\nMelee Range\nInstant\nStrike with the might of Ursoc, dealing (212.5% of Attack Power) Physical damage to your target and (115.6% of Attack Power) to all other enemies in front of you. Damage reduced beyond 5 targets.",
@@ -6062,8 +6332,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6099,7 +6369,10 @@
         "talent_name": "Lunar Beam",
         "spell_id": 204066,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a beam of lunar light at your target's location, dealing (40% of Attack Power) Arcane damage each second to your target and (40% of Attack Power) to up to 5 other enemies within 0 yd.\nLunar Beam also increases your mastery by (14 * $mas)%, and heals you for [(350% of Attack Power) * 8] over 8 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a beam of lunar light at your target's location, dealing (40% of Attack Power) Arcane damage each second to your target and (40% of Attack Power) to up to 5 other enemies within 0 yd.\nLunar Beam also increases your mastery by (14 * $mas)%, and heals you for [(350% of Attack Power) * 8] over 8 sec.",
@@ -6123,8 +6396,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6158,7 +6431,10 @@
         "talent_name": "Ursoc's Fury",
         "spell_id": 377210,
         "visible_spell_id": null,
-        "icon": "achievement_emeraldnightmare_ursoc"
+        "icon": "achievement_emeraldnightmare_ursoc",
+        "icon_candidates": [
+          "achievement_emeraldnightmare_ursoc"
+        ]
       },
       "pve_tooltip": "Thrash and Maul grant you an absorb shield for 35% of the damage dealt for 15 sec.",
       "pvp_tooltip": "Thrash and Maul grant you an absorb shield for 35% of the damage dealt for 15 sec.",
@@ -6182,8 +6458,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6215,7 +6491,10 @@
         "talent_name": "Flashing Claws",
         "spell_id": 393427,
         "visible_spell_id": null,
-        "icon": "spell_druid_thrash"
+        "icon": "spell_druid_thrash",
+        "icon_candidates": [
+          "spell_druid_thrash"
+        ]
       },
       "pve_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
       "pvp_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
@@ -6258,8 +6537,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6293,7 +6572,10 @@
         "talent_name": "Blood Frenzy",
         "spell_id": 203962,
         "visible_spell_id": null,
-        "icon": "ability_druid_primaltenacity"
+        "icon": "ability_druid_primaltenacity",
+        "icon_candidates": [
+          "ability_druid_primaltenacity"
+        ]
       },
       "pve_tooltip": "Thrash also generates 3 Rage each time it deals damage, on up to 5 targets.",
       "pvp_tooltip": "Thrash also generates 3 Rage each time it deals damage, on up to 5 targets.",
@@ -6317,8 +6599,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6352,7 +6634,10 @@
         "talent_name": "Moonless Night",
         "spell_id": 400278,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_newmoon"
+        "icon": "artifactability_balancedruid_newmoon",
+        "icon_candidates": [
+          "artifactability_balancedruid_newmoon"
+        ]
       },
       "pve_tooltip": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional 20% Arcane damage.",
       "pvp_tooltip": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional 20% Arcane damage.",
@@ -6376,8 +6661,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6409,7 +6694,10 @@
         "talent_name": "Fury of Nature",
         "spell_id": 370695,
         "visible_spell_id": null,
-        "icon": "ability_druid_cresentburn"
+        "icon": "ability_druid_cresentburn",
+        "icon_candidates": [
+          "ability_druid_cresentburn"
+        ]
       },
       "pve_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
       "pvp_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
@@ -6452,8 +6740,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6487,7 +6775,10 @@
         "talent_name": "Twin Moonfire",
         "spell_id": 372567,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire deals 8% increased damage and also hits another nearby enemy within 15 yds of the target.",
       "pvp_tooltip": "Moonfire deals 4% increased damage and also hits another nearby enemy within 15 yds of the target.",
@@ -6583,8 +6874,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6618,7 +6909,10 @@
         "talent_name": "Red Moon",
         "spell_id": 1252871,
         "visible_spell_id": null,
-        "icon": "sha_ability_mage_firestarter_nightmare"
+        "icon": "sha_ability_mage_firestarter_nightmare",
+        "icon_candidates": [
+          "sha_ability_mage_firestarter_nightmare"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nChannel the power of the enraged moon to deal (640% of Spell Power) Arcane damage to your target over 8 sec. Casting Mangle extends its duration by 1.0 sec and generates 8 Rage.",
       "pvp_tooltip": "40 yd range\nInstant\n30 sec cooldown\nChannel the power of the enraged moon to deal (640% of Spell Power) Arcane damage to your target over 8 sec. Casting Mangle extends its duration by 1.0 sec and generates 8 Rage.",
@@ -6642,8 +6936,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6678,7 +6972,10 @@
         "talent_name": "Harnessed Rage",
         "spell_id": 1253035,
         "visible_spell_id": null,
-        "icon": "inv_misc_bearclaw_nightmare"
+        "icon": "inv_misc_bearclaw_nightmare",
+        "icon_candidates": [
+          "inv_misc_bearclaw_nightmare"
+        ]
       },
       "pve_tooltip": "Mangle has 1 additional charge and when Maul is cast at 80 Rage or above its chance to activate Gore is increased by 100%.",
       "pvp_tooltip": "Mangle has 1 additional charge and when Maul is cast at 80 Rage or above its chance to activate Gore is increased by 100%.",
@@ -6702,8 +6999,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6739,7 +7036,10 @@
         "talent_name": "Incarnation: Guardian of Ursoc",
         "spell_id": 102558,
         "visible_spell_id": null,
-        "icon": "spell_druid_incarnation"
+        "icon": "spell_druid_incarnation",
+        "icon_candidates": [
+          "spell_druid_incarnation"
+        ]
       },
       "pve_tooltip": "Replaces Berserk\nInstant\n26 sec cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets, and increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
       "pvp_tooltip": "Replaces Berserk\nInstant\n26 sec cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets, and increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
@@ -6763,8 +7063,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6800,7 +7100,10 @@
         "talent_name": "Convoke the Spirits",
         "spell_id": 391528,
         "visible_spell_id": null,
-        "icon": "inv_ability_druid_convokethespirits"
+        "icon": "inv_ability_druid_convokethespirits",
+        "icon_candidates": [
+          "inv_ability_druid_convokethespirits"
+        ]
       },
       "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
       "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
@@ -6824,8 +7127,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6860,7 +7163,10 @@
         "talent_name": "Elune's Favored",
         "spell_id": 370586,
         "visible_spell_id": null,
-        "icon": "spell_holy_elunesgrace"
+        "icon": "spell_holy_elunesgrace",
+        "icon_candidates": [
+          "spell_holy_elunesgrace"
+        ]
       },
       "pve_tooltip": "While in Bear Form, you are healed for 18% of all Arcane damage done.",
       "pvp_tooltip": "While in Bear Form, you are healed for 18% of all Arcane damage done.",
@@ -6884,8 +7190,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6916,7 +7222,10 @@
         "talent_name": "Killing Blow",
         "spell_id": 1252994,
         "visible_spell_id": null,
-        "icon": "artifactability_feraldruid_ashamanesbite"
+        "icon": "artifactability_feraldruid_ashamanesbite",
+        "icon_candidates": [
+          "artifactability_feraldruid_ashamanesbite"
+        ]
       },
       "pve_tooltip": "Maul and Raze may consume up to 20 more Rage to deal up to 70% additional damage.",
       "pvp_tooltip": "Maul and Raze may consume up to 20 more Rage to deal up to 70% additional damage.",
@@ -6940,8 +7249,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6972,7 +7281,10 @@
         "talent_name": "Sundering Roar",
         "spell_id": 1253799,
         "visible_spell_id": null,
-        "icon": "artifactability_feraldruid_openwounds"
+        "icon": "artifactability_feraldruid_openwounds",
+        "icon_candidates": [
+          "artifactability_feraldruid_openwounds"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nRoar with earthshattering ferocity, dealing (280% of Attack Power) Physical damage, and resetting the cooldown of Thrash and allowing it to stack 5 additional times for 12 sec.\nWhen Sundering Roar ends, any excess stacks of Thrash immediately deal their remaining damage.",
       "pvp_tooltip": "Instant\n1 min cooldown\nRoar with earthshattering ferocity, dealing (280% of Attack Power) Physical damage, and resetting the cooldown of Thrash and allowing it to stack 5 additional times for 12 sec.\nWhen Sundering Roar ends, any excess stacks of Thrash immediately deal their remaining damage.",
@@ -6996,8 +7308,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7027,7 +7339,10 @@
         "talent_name": "Ursoc's Guidance",
         "spell_id": 393414,
         "visible_spell_id": null,
-        "icon": "inv_ability_druid_convokethespirits"
+        "icon": "inv_ability_druid_convokethespirits",
+        "icon_candidates": [
+          "inv_ability_druid_convokethespirits"
+        ]
       },
       "pve_tooltip": "Incarnation: Guardian of Ursoc:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
       "pvp_tooltip": "Incarnation: Guardian of Ursoc:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
@@ -7051,8 +7366,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7083,7 +7398,10 @@
         "talent_name": "Waking Nightmare",
         "spell_id": 1253461,
         "visible_spell_id": null,
-        "icon": "sha_spell_shadow_shadesofdarkness_nightmare"
+        "icon": "sha_spell_shadow_shadesofdarkness_nightmare",
+        "icon_candidates": [
+          "sha_spell_shadow_shadesofdarkness_nightmare"
+        ]
       },
       "pve_tooltip": "Approximately 2 procs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
       "pvp_tooltip": "Approximately 2 procs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
@@ -7107,8 +7425,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7139,7 +7457,10 @@
         "talent_name": "Galactic Guardian",
         "spell_id": 203964,
         "visible_spell_id": null,
-        "icon": "spell_frost_iceclaw"
+        "icon": "spell_frost_iceclaw",
+        "icon_candidates": [
+          "spell_frost_iceclaw"
+        ]
       },
       "pve_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
       "pvp_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
@@ -7163,8 +7484,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7192,7 +7513,10 @@
         "talent_name": "Wild Guardian",
         "spell_id": 1269614,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_wildguardian"
+        "icon": "inv12_apextalent_druid_wildguardian",
+        "icon_candidates": [
+          "inv12_apextalent_druid_wildguardian"
+        ]
       },
       "pve_tooltip": "Spending Rage has a 10% chance to awaken a guardian spirit for 8 sec, which attacks a nearby enemy for (300% of Attack Power) when you cast Thrash or Mangle.",
       "pvp_tooltip": "Spending Rage has a 10% chance to awaken a guardian spirit for 8 sec, which attacks a nearby enemy for (300% of Attack Power) when you cast Thrash or Mangle.",
@@ -7216,8 +7540,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7245,7 +7569,10 @@
         "talent_name": "Wild Guardian",
         "spell_id": 1269617,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_wildguardian"
+        "icon": "inv12_apextalent_druid_wildguardian",
+        "icon_candidates": [
+          "inv12_apextalent_druid_wildguardian"
+        ]
       },
       "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
       "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
@@ -7288,8 +7615,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7317,7 +7644,10 @@
         "talent_name": "Wild Guardian",
         "spell_id": 1269619,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_wildguardian"
+        "icon": "inv12_apextalent_druid_wildguardian",
+        "icon_candidates": [
+          "inv12_apextalent_druid_wildguardian"
+        ]
       },
       "pve_tooltip": "When a spirit is awakened, the cooldowns of Thrash and Mangle are reset, and they deal 30% increased damage while the spirit is with you. Each time a spirit attacks, you generate 8 additional Rage.\nAfter casting [Incarnation: Guardian of Ursoc / Berserk], gain 1 charge of Wild Guardian:\nWild Guardian:\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
       "pvp_tooltip": "When a spirit is awakened, the cooldowns of Thrash and Mangle are reset, and they deal 30% increased damage while the spirit is with you. Each time a spirit attacks, you generate 8 additional Rage.\nAfter casting [Incarnation: Guardian of Ursoc / Berserk], gain 1 charge of Wild Guardian:\nWild Guardian:\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
@@ -7341,8 +7671,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7375,7 +7705,10 @@
         "talent_name": "Boundless Moonlight",
         "spell_id": 424058,
         "visible_spell_id": null,
-        "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
+        "icon": "inv_ability_eluneschosendruid_boundlessmoonlight",
+        "icon_candidates": [
+          "inv_ability_eluneschosendruid_boundlessmoonlight"
+        ]
       },
       "pve_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.",
       "pvp_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (240.3315% of Spell Power) Astral damage.",
@@ -7412,7 +7745,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 424588,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 1.885)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -7429,8 +7762,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7441,7 +7775,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -7458,8 +7792,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7479,8 +7814,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7512,7 +7847,10 @@
         "talent_name": "Moon Guardian",
         "spell_id": 429520,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "Free automatic Moonfires from Galactic Guardian generate 5 Rage.",
       "pvp_tooltip": "Free automatic Moonfires from Galactic Guardian generate 5 Rage.",
@@ -7536,8 +7874,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7569,7 +7907,10 @@
         "talent_name": "Lunar Insight",
         "spell_id": 429530,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire deals 8% increased damage.\nRed Moon deals 30% increased damage.",
       "pvp_tooltip": "Moonfire deals 8% increased damage.\nRed Moon deals 30% increased damage.",
@@ -7593,8 +7934,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7626,7 +7967,10 @@
         "talent_name": "Glistening Fur",
         "spell_id": 429533,
         "visible_spell_id": null,
-        "icon": "ability_druid_ironfur"
+        "icon": "ability_druid_ironfur",
+        "icon_candidates": [
+          "ability_druid_ironfur"
+        ]
       },
       "pve_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
       "pvp_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
@@ -7650,8 +7994,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7683,7 +8027,10 @@
         "talent_name": "Star Cascade",
         "spell_id": 1271206,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane03"
+        "icon": "spell_arcane_arcane03",
+        "icon_candidates": [
+          "spell_arcane_arcane03"
+        ]
       },
       "pve_tooltip": "Thrash has a 50% chance to launch a Starsurge at a victim at 120% effectiveness.\n(100ms cooldown)",
       "pvp_tooltip": "Thrash has a 50% chance to launch a Starsurge at a victim at 120% effectiveness.\n(100ms cooldown)",
@@ -7707,8 +8054,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7740,7 +8087,10 @@
         "talent_name": "Stellar Command",
         "spell_id": 429668,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "Increases the damage of Lunar Beam by 30% and Fury of Elune by 15%.",
       "pvp_tooltip": "Increases the damage of Lunar Beam by 30% and Fury of Elune by 15%.",
@@ -7764,8 +8114,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7797,7 +8147,10 @@
         "talent_name": "Atmospheric Exposure",
         "spell_id": 429532,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_nova"
+        "icon": "inv_cosmicvoid_nova",
+        "icon_candidates": [
+          "inv_cosmicvoid_nova"
+        ]
       },
       "pve_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take 6% increased damage from you for 6 sec.",
       "pvp_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take 6% increased damage from you for 6 sec.",
@@ -7821,8 +8174,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7854,7 +8207,10 @@
         "talent_name": "Moondust",
         "spell_id": 429538,
         "visible_spell_id": null,
-        "icon": "inv_enchant_dust"
+        "icon": "inv_enchant_dust",
+        "icon_candidates": [
+          "inv_enchant_dust"
+        ]
       },
       "pve_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
       "pvp_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
@@ -7939,8 +8295,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7972,7 +8328,10 @@
         "talent_name": "Elune's Grace",
         "spell_id": 443046,
         "visible_spell_id": null,
-        "icon": "spell_druid_wildcharge"
+        "icon": "spell_druid_wildcharge",
+        "icon_candidates": [
+          "spell_druid_wildcharge"
+        ]
       },
       "pve_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
       "pvp_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
@@ -7996,8 +8355,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8029,7 +8388,10 @@
         "talent_name": "Penumbral Swell",
         "spell_id": 1271261,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipse"
+        "icon": "ability_druid_eclipse",
+        "icon_candidates": [
+          "ability_druid_eclipse"
+        ]
       },
       "pve_tooltip": "Lunar Beam increases Arcane damage you deal by 10% while it is active.\nLunar Beam increases Arcane damage you deal by 10% while it is active.",
       "pvp_tooltip": "Lunar Beam increases Arcane damage you deal by 10% while it is active.\nLunar Beam increases Arcane damage you deal by 10% while it is active.",
@@ -8053,8 +8415,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8086,25 +8448,17 @@
         "talent_name": "Lunar Calling",
         "spell_id": 429523,
         "visible_spell_id": null,
-        "icon": "ability_druid_cresentburn"
+        "icon": "ability_druid_cresentburn",
+        "icon_candidates": [
+          "ability_druid_cresentburn"
+        ]
       },
       "pve_tooltip": "Thrash now deals Arcane damage and its damage is increased by 12%.",
       "pvp_tooltip": "Thrash now deals Arcane damage and its damage is increased by 12%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 120.0,
-          "new": 60.0,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8133,7 +8487,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -8147,8 +8501,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8180,7 +8534,10 @@
         "talent_name": "The Light of Elune",
         "spell_id": 428655,
         "visible_spell_id": null,
-        "icon": "ability_druid_dreamstate"
+        "icon": "ability_druid_dreamstate",
+        "icon_candidates": [
+          "ability_druid_dreamstate"
+        ]
       },
       "pve_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
       "pvp_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
@@ -8204,8 +8561,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8237,7 +8594,10 @@
         "talent_name": "Astral Insight",
         "spell_id": 429536,
         "visible_spell_id": null,
-        "icon": "spell_druid_incarnation"
+        "icon": "spell_druid_incarnation",
+        "icon_candidates": [
+          "spell_druid_incarnation"
+        ]
       },
       "pve_tooltip": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
       "pvp_tooltip": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
@@ -8261,8 +8621,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8294,7 +8654,10 @@
         "talent_name": "Arcane Affinity",
         "spell_id": 429540,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane01"
+        "icon": "spell_arcane_arcane01",
+        "icon_candidates": [
+          "spell_arcane_arcane01"
+        ]
       },
       "pve_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
       "pvp_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
@@ -8318,8 +8681,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8351,7 +8714,10 @@
         "talent_name": "Lunation",
         "spell_id": 429539,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "Lunar Beam's cooldown is reduced by 20 sec.",
       "pvp_tooltip": "Lunar Beam's cooldown is reduced by 20 sec.",
@@ -8375,8 +8741,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8408,7 +8774,10 @@
         "talent_name": "Bask in Moonlight",
         "spell_id": 1271305,
         "visible_spell_id": null,
-        "icon": "spell_holy_elunesgrace"
+        "icon": "spell_holy_elunesgrace",
+        "icon_candidates": [
+          "spell_holy_elunesgrace"
+        ]
       },
       "pve_tooltip": "damage increased by 10%. Lunar Beam's damage dealt to its primary target increased by 30%.",
       "pvp_tooltip": "damage increased by 10%. Lunar Beam's damage dealt to its primary target increased by 30%.",
@@ -8432,8 +8801,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8466,7 +8835,10 @@
         "talent_name": "The Eternal Moon",
         "spell_id": 424113,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_newmoon"
+        "icon": "artifactability_balancedruid_newmoon",
+        "icon_candidates": [
+          "artifactability_balancedruid_newmoon"
+        ]
       },
       "pve_tooltip": "Further increases the power of Boundless Moonlight.\nLunar Beam\nLunar Beam increases Mastery by an additional (15 * $mas)%, deals 30% increased damage, and lasts 3 sec longer.\nFury of Elune\nThe flash of energy now generates 6 Rage and its damage is increased by 50%.",
       "pvp_tooltip": "Further increases the power of Boundless Moonlight.\nLunar Beam\nLunar Beam increases Mastery by an additional (15 * $mas)%, deals 30% increased damage, and lasts 3 sec longer.\nFury of Elune\nThe flash of energy now generates 6 Rage and its damage is increased by 50%.",
@@ -8482,7 +8854,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8499,8 +8871,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8511,7 +8884,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 424588,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 1.885)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8532,8 +8905,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8553,8 +8927,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8587,7 +8961,10 @@
         "talent_name": "Ravage",
         "spell_id": 441583,
         "visible_spell_id": null,
-        "icon": "inv_ability_druidoftheclawdruid_ravage"
+        "icon": "inv_ability_druidoftheclawdruid_ravage",
+        "icon_candidates": [
+          "inv_ability_druidoftheclawdruid_ravage"
+        ]
       },
       "pve_tooltip": "Your auto-attacks have a chance to make your next Maul become Ravage.\nRavage\nSlash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
       "pvp_tooltip": "Your auto-attacks have a chance to make your next Maul become Ravage.\nRavage\nSlash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
@@ -8595,263 +8972,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 441591,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 2.0416)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.2,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.2,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 441591,
-          "effect_index": 3,
-          "effect_text": "School Damage (2): physical (AP mod: 0.8446)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.44,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.44,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 102543,
-          "effect_index": 4,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.6667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6667,
-          "final_pvp_value": 10.000499999999999,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 102543,
-          "effect_index": 5,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.6667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6667,
-          "final_pvp_value": 10.000499999999999,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 102543,
-          "effect_index": 6,
-          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.6667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6667,
-          "final_pvp_value": 10.000499999999999,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 106951,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.3334,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.3334,
-          "final_pvp_value": 5.0009999999999994,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543,
-            106951
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 106951,
-          "effect_index": 4,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.3334,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.3334,
-          "final_pvp_value": 5.0009999999999994,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543,
-            106951
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 441583,
-          "source_spell_id": 106951,
-          "effect_index": 5,
-          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.334,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.334,
-          "final_pvp_value": 5.010000000000001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            441583,
-            441591,
-            102543,
-            106951
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0,
       "rank_tooltips": []
     },
@@ -8866,8 +8988,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8899,7 +9021,10 @@
         "talent_name": "Fount of Strength",
         "spell_id": 441675,
         "visible_spell_id": null,
-        "icon": "spell_nature_unyeildingstamina"
+        "icon": "spell_nature_unyeildingstamina",
+        "icon_candidates": [
+          "spell_nature_unyeildingstamina"
+        ]
       },
       "pve_tooltip": "Your maximum Energy and Rage are increased by 20.\nFrenzied Regeneration also increases your maximum health by 10%.",
       "pvp_tooltip": "Your maximum Energy and Rage are increased by 20.\nFrenzied Regeneration also increases your maximum health by 10%.",
@@ -8923,8 +9048,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8956,25 +9081,17 @@
         "talent_name": "Dreadful Wound",
         "spell_id": 441809,
         "visible_spell_id": null,
-        "icon": "artifactability_feraldruid_openwounds"
+        "icon": "artifactability_feraldruid_openwounds",
+        "icon_candidates": [
+          "artifactability_feraldruid_openwounds"
+        ]
       },
       "pve_tooltip": "Ravage also inflicts a Bleed that causes (100% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 15%.\nDreadful Wound is not affected by Circle of Life and Death.",
       "pvp_tooltip": "Ravage also inflicts a Bleed that causes (100% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 15%.\nDreadful Wound is not affected by Circle of Life and Death.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 50.4,
-          "new": 63.0,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8983,7 +9100,7 @@
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.504)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "periodic",
@@ -9000,10 +9117,11 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9011,7 +9129,7 @@
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Damage Taken% from Caster's Spells (271)",
+          "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
           "base_value": 8.0,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": null,
@@ -9028,13 +9146,14 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -9048,8 +9167,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9081,7 +9200,10 @@
         "talent_name": "Bestial Strength",
         "spell_id": 441841,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Maul and Raze damage increased by 10%.",
       "pvp_tooltip": "Maul and Raze damage increased by 10%.",
@@ -9105,8 +9227,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9138,7 +9260,10 @@
         "talent_name": "Limb from Limb",
         "spell_id": 1271540,
         "visible_spell_id": null,
-        "icon": "artifactability_feraldruid_ashamanesbite"
+        "icon": "artifactability_feraldruid_ashamanesbite",
+        "icon_candidates": [
+          "artifactability_feraldruid_ashamanesbite"
+        ]
       },
       "pve_tooltip": "Your auto-attacks are 30% more likely to make your next become Ravage.",
       "pvp_tooltip": "Your auto-attacks are 30% more likely to make your next become Ravage.",
@@ -9162,8 +9287,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9195,7 +9320,10 @@
         "talent_name": "Wildshape Mastery",
         "spell_id": 441678,
         "visible_spell_id": null,
-        "icon": "ability_druid_mastershapeshifter"
+        "icon": "ability_druid_mastershapeshifter",
+        "icon_candidates": [
+          "ability_druid_mastershapeshifter"
+        ]
       },
       "pve_tooltip": "Ironfur and Frenzied Regeneration persist in Cat Form.\nWhen transforming from Bear to Cat Form, you retain 80% of your Bear Form armor and health for 6 sec.\nFor 6 sec after entering Bear Form, you heal for 10% of damage taken over 8 sec.",
       "pvp_tooltip": "Ironfur and Frenzied Regeneration persist in Cat Form.\nWhen transforming from Bear to Cat Form, you retain 80% of your Bear Form armor and health for 6 sec.\nFor 6 sec after entering Bear Form, you heal for 10% of damage taken over 8 sec.",
@@ -9219,8 +9347,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9252,7 +9380,10 @@
         "talent_name": "Exacerbating Wounds",
         "spell_id": 1271839,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Your Dreadful Wounds increase the damage afflicted enemies take from your Bleed damage over time effects by 15%.",
       "pvp_tooltip": "Your Dreadful Wounds increase the damage afflicted enemies take from your Bleed damage over time effects by 15%.",
@@ -9260,8 +9391,33 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1271839,
+          "source_spell_id": 1271839,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Add Modifier - % (Label): Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 8.0,
+          "spell_pvp_multiplier": 1.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0,
       "rank_tooltips": []
     },
@@ -9276,8 +9432,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9309,7 +9465,10 @@
         "talent_name": "Pack's Endurance",
         "spell_id": 441844,
         "visible_spell_id": null,
-        "icon": "spell_druid_stampedingroar_cat"
+        "icon": "spell_druid_stampedingroar_cat",
+        "icon_candidates": [
+          "spell_druid_stampedingroar_cat"
+        ]
       },
       "pve_tooltip": "Stampeding Roar's duration is increased by 25%.",
       "pvp_tooltip": "Stampeding Roar's duration is increased by 25%.",
@@ -9333,8 +9492,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9366,7 +9525,10 @@
         "talent_name": "Ruthless Aggression",
         "spell_id": 441814,
         "visible_spell_id": null,
-        "icon": "ability_druid_rake"
+        "icon": "ability_druid_rake",
+        "icon_candidates": [
+          "ability_druid_rake"
+        ]
       },
       "pve_tooltip": "Ravage increases your auto-attack speed by 35% for 6 sec.",
       "pvp_tooltip": "Ravage increases your auto-attack speed by 35% for 6 sec.",
@@ -9390,8 +9552,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9423,7 +9585,10 @@
         "talent_name": "Killing Strikes",
         "spell_id": 441824,
         "visible_spell_id": null,
-        "icon": "ability_druid_kingofthejungle"
+        "icon": "ability_druid_kingofthejungle",
+        "icon_candidates": [
+          "ability_druid_kingofthejungle"
+        ]
       },
       "pve_tooltip": "Ravage increases your Agility by 8% and the armor granted by Ironfur by 20% for 8 sec.\nYour first Mangle after entering combat makes your next Maul become Ravage.",
       "pvp_tooltip": "Ravage increases your Agility by 8% and the armor granted by Ironfur by 20% for 8 sec.\nYour first Mangle after entering combat makes your next Maul become Ravage.",
@@ -9447,8 +9612,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9480,7 +9645,10 @@
         "talent_name": "Empowered Shapeshifting",
         "spell_id": 441689,
         "visible_spell_id": null,
-        "icon": "spell_druid_primaltenacity"
+        "icon": "spell_druid_primaltenacity",
+        "icon_candidates": [
+          "spell_druid_primaltenacity"
+        ]
       },
       "pve_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [Brutal Slash / Swipe] damage increased by 10%. Mangle damage increased by 25%.",
       "pvp_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [Brutal Slash / Swipe] damage increased by 10%. Mangle damage increased by 25%.",
@@ -9504,8 +9672,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9537,7 +9705,10 @@
         "talent_name": "Wildpower Surge",
         "spell_id": 441691,
         "visible_spell_id": null,
-        "icon": "ability_druid_ravage"
+        "icon": "ability_druid_ravage",
+        "icon_candidates": [
+          "ability_druid_ravage"
+        ]
       },
       "pve_tooltip": "Mangle grants Feline Potential. When you have 6 stacks, the next time you transform into Cat Form, gain 5 combo points and your next Ferocious Bite or Rip deals 50% increased damage for its full duration.\n(100ms cooldown)",
       "pvp_tooltip": "Mangle grants Feline Potential. When you have 6 stacks, the next time you transform into Cat Form, gain 5 combo points and your next Ferocious Bite or Rip deals 50% increased damage for its full duration.\n(100ms cooldown)",
@@ -9561,8 +9732,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9594,7 +9765,10 @@
         "talent_name": "Aggravate Wounds",
         "spell_id": 441829,
         "visible_spell_id": null,
-        "icon": "artifactability_guardiandruid_goryfur"
+        "icon": "artifactability_guardiandruid_goryfur",
+        "icon_candidates": [
+          "artifactability_guardiandruid_goryfur"
+        ]
       },
       "pve_tooltip": "Every [Maul, Raze, Mangle, Thrash, or Swipe / attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by 0.6 sec, up to 8 additional sec.\n(100ms cooldown)",
       "pvp_tooltip": "Every [Maul, Raze, Mangle, Thrash, or Swipe / attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by 0.6 sec, up to 8 additional sec.\n(100ms cooldown)",
@@ -9618,8 +9792,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9651,7 +9825,10 @@
         "talent_name": "Strike for the Heart",
         "spell_id": 441845,
         "visible_spell_id": null,
-        "icon": "ability_druid_primalagression"
+        "icon": "ability_druid_primalagression",
+        "icon_candidates": [
+          "ability_druid_primalagression"
+        ]
       },
       "pve_tooltip": "Mangle damage increased by 10% and its critical strike chance is increased by 10%.\nMangle heals you for 5% of maximum health.",
       "pvp_tooltip": "Mangle damage increased by 10% and its critical strike chance is increased by 10%.\nMangle heals you for 5% of maximum health.",
@@ -9675,8 +9852,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9708,7 +9885,10 @@
         "talent_name": "Tear Down the Mighty",
         "spell_id": 441846,
         "visible_spell_id": null,
-        "icon": "inv_1115_druid_jaguar"
+        "icon": "inv_1115_druid_jaguar",
+        "icon_candidates": [
+          "inv_1115_druid_jaguar"
+        ]
       },
       "pve_tooltip": "The cooldown of Sundering Roar is reduced by 15 sec.",
       "pvp_tooltip": "The cooldown of Sundering Roar is reduced by 15 sec.",
@@ -9732,8 +9912,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9765,7 +9945,10 @@
         "talent_name": "Twin Claw",
         "spell_id": 1271635,
         "visible_spell_id": null,
-        "icon": "ability_druid_swipe"
+        "icon": "ability_druid_swipe",
+        "icon_candidates": [
+          "ability_druid_swipe"
+        ]
       },
       "pve_tooltip": "You have a 18% chance to follow up any single target melee ability or Raze with a Twin Claw, dealing (340% of Attack Power) Physical damage and generating 5 Rage.\n(200ms cooldown)",
       "pvp_tooltip": "You have a 18% chance to follow up any single target melee ability or Raze with a Twin Claw, dealing (340% of Attack Power) Physical damage and generating 5 Rage.\n(200ms cooldown)",
@@ -9789,8 +9972,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9823,7 +10006,10 @@
         "talent_name": "Claw Rampage",
         "spell_id": 441835,
         "visible_spell_id": null,
-        "icon": "ability_xavius_tormentingswipe"
+        "icon": "ability_xavius_tormentingswipe",
+        "icon_candidates": [
+          "ability_xavius_tormentingswipe"
+        ]
       },
       "pve_tooltip": "During Berserk, Mangle, Thrash, and Swipe have a 20% chance to make your next Maul become Ravage.",
       "pvp_tooltip": "During Berserk, Mangle, Thrash, and Swipe have a 20% chance to make your next Maul become Ravage.",
@@ -10190,7 +10376,7 @@
   },
   "source_warnings": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-22T19:25:09.191742+00:00",
+  "generated_at": "2026-09-24T11:42:02.929890+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 11,
@@ -10203,37 +10389,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 345209,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=345209'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 371982,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=371982'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 424588,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=424588'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428682,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 441591,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441591'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Battle Stance",
         "spell_id": 386164,
         "visible_spell_id": null,
-        "icon": "ability_warrior_offensivestance"
+        "icon": "ability_warrior_offensivestance",
+        "icon_candidates": [
+          "ability_warrior_offensivestance"
+        ]
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3% and reduces the duration of movement impairing effects by 10%.\nLasts until canceled.",
       "pvp_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3% and reduces the duration of movement impairing effects by 25%.\nLasts until canceled.",
@@ -146,8 +149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -178,7 +181,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Defensive Stance",
         "spell_id": 386208,
         "visible_spell_id": null,
-        "icon": "ability_warrior_defensivestance"
+        "icon": "ability_warrior_defensivestance",
+        "icon_candidates": [
+          "ability_warrior_defensivestance"
+        ]
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 10%.\nLasts until canceled.",
       "pvp_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 15%.\nLasts until canceled.",
@@ -249,8 +255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -283,7 +289,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fast Footwork",
         "spell_id": 382260,
         "visible_spell_id": null,
-        "icon": "ability_hunter_posthaste"
+        "icon": "ability_hunter_posthaste",
+        "icon_candidates": [
+          "ability_hunter_posthaste"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 5%.",
       "pvp_tooltip": "Movement speed increased by 5%.",
@@ -307,8 +316,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -342,7 +351,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "War Machine",
         "spell_id": 262231,
         "visible_spell_id": null,
-        "icon": "ability_hunter_rapidkilling"
+        "icon": "ability_hunter_rapidkilling",
+        "icon_candidates": [
+          "ability_hunter_rapidkilling"
+        ]
       },
       "pve_tooltip": "Your auto-attacks generate 1050% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
       "pvp_tooltip": "Your auto-attacks generate 1050% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
@@ -366,8 +378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -401,7 +413,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thunder Clap",
         "spell_id": 6343,
         "visible_spell_id": null,
-        "icon": "spell_nature_thunderclap"
+        "icon": "spell_nature_thunderclap",
+        "icon_candidates": [
+          "spell_nature_thunderclap"
+        ]
       },
       "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
       "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (282.816% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
@@ -480,8 +495,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -514,7 +529,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Leeching Strikes",
         "spell_id": 382258,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Leech increased by 3%.",
       "pvp_tooltip": "Leech increased by 3%.",
@@ -538,8 +556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -574,7 +592,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Impending Victory",
         "spell_id": 202168,
         "visible_spell_id": null,
-        "icon": "spell_impending_victory"
+        "icon": "spell_impending_victory",
+        "icon_candidates": [
+          "spell_impending_victory"
+        ]
       },
       "pve_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
       "pvp_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (70.8% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
@@ -702,8 +723,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -738,7 +759,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heroic Leap",
         "spell_id": 6544,
         "visible_spell_id": null,
-        "icon": "ability_heroicleap"
+        "icon": "ability_heroicleap",
+        "icon_candidates": [
+          "ability_heroicleap"
+        ]
       },
       "pve_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
       "pvp_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (28.2% of Attack Power) Physical damage to all enemies within 8 yards.",
@@ -822,8 +846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -853,7 +877,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crackling Thunder",
         "spell_id": 203201,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_overcharge"
+        "icon": "ability_thunderking_overcharge",
+        "icon_candidates": [
+          "ability_thunderking_overcharge"
+        ]
       },
       "pve_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
       "pvp_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
@@ -877,8 +904,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -912,7 +939,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Storm Bolt",
         "spell_id": 107570,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_stormbolt"
+        "icon": "warrior_talent_icon_stormbolt",
+        "icon_candidates": [
+          "warrior_talent_icon_stormbolt"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
       "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (34.2% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
@@ -991,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1026,7 +1056,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rend",
         "spell_id": 772,
         "visible_spell_id": null,
-        "icon": "ability_gouge"
+        "icon": "ability_gouge",
+        "icon_candidates": [
+          "ability_gouge"
+        ]
       },
       "pve_tooltip": "10 Rage\nMelee Range\nInstant\nWounds the target, causing (124.581% of Attack Power) Physical damage instantly and an additional (190.465% of Attack Power) Bleed damage over 15 sec.",
       "pvp_tooltip": "10 Rage\nMelee Range\nInstant\nWounds the target, causing (197.71% of Attack Power) Physical damage instantly and an additional (190.465% of Attack Power) Bleed damage over 15 sec.",
@@ -1156,8 +1189,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1187,7 +1220,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Second Wind",
         "spell_id": 29838,
         "visible_spell_id": null,
-        "icon": "ability_hunter_harass"
+        "icon": "ability_hunter_harass",
+        "icon_candidates": [
+          "ability_hunter_harass"
+        ]
       },
       "pve_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
       "pvp_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
@@ -1211,8 +1247,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1248,7 +1284,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frothing Berserker",
         "spell_id": 392792,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_furyintheblood"
+        "icon": "warrior_talent_icon_furyintheblood",
+        "icon_candidates": [
+          "warrior_talent_icon_furyintheblood"
+        ]
       },
       "pve_tooltip": "Mortal Strike and Cleave have a 20% chance to immediately refund 10% of the Rage spent.",
       "pvp_tooltip": "Mortal Strike and Cleave have a 20% chance to immediately refund 10% of the Rage spent.",
@@ -1272,8 +1311,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1303,7 +1342,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bounding Stride",
         "spell_id": 202163,
         "visible_spell_id": null,
-        "icon": "ability_heroicleap"
+        "icon": "ability_heroicleap",
+        "icon_candidates": [
+          "ability_heroicleap"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
       "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
@@ -1448,8 +1490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1484,7 +1526,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pain and Gain",
         "spell_id": 382549,
         "visible_spell_id": null,
-        "icon": "spell_holy_painsupression"
+        "icon": "spell_holy_painsupression",
+        "icon_candidates": [
+          "spell_holy_painsupression"
+        ]
       },
       "pve_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
       "pvp_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
@@ -1508,8 +1553,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1543,7 +1588,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intervene",
         "spell_id": 3411,
         "visible_spell_id": null,
-        "icon": "ability_warrior_victoryrush"
+        "icon": "ability_warrior_victoryrush",
+        "icon_candidates": [
+          "ability_warrior_victoryrush"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
       "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
@@ -1567,8 +1615,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1602,7 +1650,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Interpose",
         "spell_id": 1244088,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
       "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
@@ -1626,8 +1677,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1662,7 +1713,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shockwave",
         "spell_id": 46968,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shockwave"
+        "icon": "ability_warrior_shockwave",
+        "icon_candidates": [
+          "ability_warrior_shockwave"
+        ]
       },
       "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
       "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (24% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
@@ -1741,8 +1795,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1772,7 +1826,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overwhelming Rage",
         "spell_id": 382767,
         "visible_spell_id": null,
-        "icon": "racial_orc_berserkerstrength"
+        "icon": "racial_orc_berserkerstrength",
+        "icon_candidates": [
+          "racial_orc_berserkerstrength"
+        ]
       },
       "pve_tooltip": "Maximum Rage increased by 30.",
       "pvp_tooltip": "Maximum Rage increased by 30.",
@@ -1796,8 +1853,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1831,7 +1888,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rallying Cry",
         "spell_id": 97462,
         "visible_spell_id": null,
-        "icon": "ability_warrior_rallyingcry"
+        "icon": "ability_warrior_rallyingcry",
+        "icon_candidates": [
+          "ability_warrior_rallyingcry"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 10% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
       "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 20% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
@@ -1902,8 +1962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1933,7 +1993,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Field Dressing",
         "spell_id": 1271926,
         "visible_spell_id": null,
-        "icon": "inv_misc_bandage_08"
+        "icon": "inv_misc_bandage_08",
+        "icon_candidates": [
+          "inv_misc_bandage_08"
+        ]
       },
       "pve_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
       "pvp_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
@@ -1957,8 +2020,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1992,7 +2055,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spell Reflection",
         "spell_id": 23920,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shieldreflection"
+        "icon": "ability_warrior_shieldreflection",
+        "icon_candidates": [
+          "ability_warrior_shieldreflection"
+        ]
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
       "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
@@ -2016,8 +2082,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2050,7 +2116,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wrecking Throw",
         "spell_id": 384110,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_mastercleaver"
+        "icon": "warrior_talent_icon_mastercleaver",
+        "icon_candidates": [
+          "warrior_talent_icon_mastercleaver"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "pvp_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (720% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
@@ -2221,8 +2290,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2255,7 +2324,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shattering Throw",
         "spell_id": 64382,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shatteringthrow"
+        "icon": "ability_warrior_shatteringthrow",
+        "icon_candidates": [
+          "ability_warrior_shatteringthrow"
+        ]
       },
       "pve_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "pvp_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (720% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
@@ -2426,8 +2498,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2457,7 +2529,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rumbling Earth",
         "spell_id": 275339,
         "visible_spell_id": null,
-        "icon": "spell_shaman_earthquake"
+        "icon": "spell_shaman_earthquake",
+        "icon_candidates": [
+          "spell_shaman_earthquake"
+        ]
       },
       "pve_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
@@ -2481,8 +2556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2516,7 +2591,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Berserker Shout",
         "spell_id": 384100,
         "visible_spell_id": null,
-        "icon": "spell_nature_ancestralguardian"
+        "icon": "spell_nature_ancestralguardian",
+        "icon_candidates": [
+          "spell_nature_ancestralguardian"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
       "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
@@ -2540,8 +2618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2575,7 +2653,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fearless",
         "spell_id": 1271925,
         "visible_spell_id": null,
-        "icon": "ability_warrior_endlessrage"
+        "icon": "ability_warrior_endlessrage",
+        "icon_candidates": [
+          "ability_warrior_endlessrage"
+        ]
       },
       "pve_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
       "pvp_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
@@ -2599,8 +2680,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2634,7 +2715,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intimidating Shout",
         "spell_id": 5246,
         "visible_spell_id": null,
-        "icon": "ability_golemthunderclap"
+        "icon": "ability_golemthunderclap",
+        "icon_candidates": [
+          "ability_golemthunderclap"
+        ]
       },
       "pve_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
       "pvp_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
@@ -2658,8 +2742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2693,7 +2777,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Piercing Howl",
         "spell_id": 12323,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathscream"
+        "icon": "spell_shadow_deathscream",
+        "icon_candidates": [
+          "spell_shadow_deathscream"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 70% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 50% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
@@ -2764,8 +2851,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2798,7 +2885,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Honed Reflexes",
         "spell_id": 391271,
         "visible_spell_id": null,
-        "icon": "spell_holy_borrowedtime"
+        "icon": "spell_holy_borrowedtime",
+        "icon_candidates": [
+          "spell_holy_borrowedtime"
+        ]
       },
       "pve_tooltip": "Cooldown of Die By the Sword, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
       "pvp_tooltip": "Cooldown of Die By the Sword, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
@@ -2822,8 +2912,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2857,7 +2947,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Armored to the Teeth",
         "spell_id": 384124,
         "visible_spell_id": null,
-        "icon": "inv_shoulder_22"
+        "icon": "inv_shoulder_22",
+        "icon_candidates": [
+          "inv_shoulder_22"
+        ]
       },
       "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
       "pvp_tooltip": "Gain Strength equal to 10% of your Armor.",
@@ -2900,8 +2993,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2935,7 +3028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Double Time",
         "spell_id": 103827,
         "visible_spell_id": null,
-        "icon": "inv_misc_horn_04"
+        "icon": "inv_misc_horn_04",
+        "icon_candidates": [
+          "inv_misc_horn_04"
+        ]
       },
       "pve_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
       "pvp_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 2.4 sec.",
@@ -3006,8 +3102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3041,7 +3137,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reinforced Plates",
         "spell_id": 382939,
         "visible_spell_id": null,
-        "icon": "inv_chest_plate04"
+        "icon": "inv_chest_plate04",
+        "icon_candidates": [
+          "inv_chest_plate04"
+        ]
       },
       "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
       "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
@@ -3084,8 +3183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3117,7 +3216,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Barbaric Training",
         "spell_id": 383082,
         "visible_spell_id": null,
-        "icon": "ability_garrosh_whirling_corruption"
+        "icon": "ability_garrosh_whirling_corruption",
+        "icon_candidates": [
+          "ability_garrosh_whirling_corruption"
+        ]
       },
       "pve_tooltip": "Slam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
       "pvp_tooltip": "Slam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
@@ -3141,8 +3243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3176,7 +3278,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Javelineer",
         "spell_id": 1271948,
         "visible_spell_id": null,
-        "icon": "8026700"
+        "icon": "inv121_ability_warrior_javelineer",
+        "icon_candidates": [
+          "inv121_ability_warrior_javelineer",
+          "8026700"
+        ]
       },
       "pve_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
       "pvp_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
@@ -3200,8 +3306,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3235,7 +3341,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Resonant Voice",
         "spell_id": 1243660,
         "visible_spell_id": null,
-        "icon": "warrior_disruptingshout"
+        "icon": "warrior_disruptingshout",
+        "icon_candidates": [
+          "warrior_disruptingshout"
+        ]
       },
       "pve_tooltip": "The effects of your shouts last 20% longer.",
       "pvp_tooltip": "The effects of your shouts last 20% longer.",
@@ -3259,8 +3368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3292,7 +3401,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crushing Force",
         "spell_id": 382764,
         "visible_spell_id": null,
-        "icon": "spell_shadow_unholystrength"
+        "icon": "spell_shadow_unholystrength",
+        "icon_candidates": [
+          "spell_shadow_unholystrength"
+        ]
       },
       "pve_tooltip": "Mortal Strike deals an additional 5% damage and deals 5% increased critical strike damage.",
       "pvp_tooltip": "Mortal Strike deals an additional 5% damage and deals 5% increased critical strike damage.",
@@ -3316,8 +3428,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3351,7 +3463,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cruel Strikes",
         "spell_id": 392777,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
       "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
@@ -3394,8 +3509,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3429,7 +3544,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Two-Handed Weapon Specialization",
         "spell_id": 382896,
         "visible_spell_id": null,
-        "icon": "inv_axe_09"
+        "icon": "inv_axe_09",
+        "icon_candidates": [
+          "inv_axe_09"
+        ]
       },
       "pve_tooltip": "While wielding two-handed weapons your damage is increased by 6% and damage taken from area of effect attacks is reduced by 4%.",
       "pvp_tooltip": "While wielding two-handed weapons your damage is increased by 6% and damage taken from area of effect attacks is reduced by 4%.",
@@ -3472,8 +3590,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3507,7 +3625,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wild Strikes",
         "spell_id": 382946,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
       "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
@@ -3550,8 +3671,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3581,7 +3702,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Anger Management",
         "spell_id": 152278,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_angermanagement"
+        "icon": "warrior_talent_icon_angermanagement",
+        "icon_candidates": [
+          "warrior_talent_icon_angermanagement"
+        ]
       },
       "pve_tooltip": "Every 20 Rage you spend on attacks reduces the remaining cooldown on Avatar and Colossus Smash by 1 sec.",
       "pvp_tooltip": "Every 10 Rage you spend on attacks reduces the remaining cooldown on Avatar and Colossus Smash by 1 sec.",
@@ -3652,8 +3776,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3684,7 +3808,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Champion's Spear",
         "spell_id": 376079,
         "visible_spell_id": null,
-        "icon": "inv_ability_warrior_championsspear"
+        "icon": "inv_ability_warrior_championsspear",
+        "icon_candidates": [
+          "inv_ability_warrior_championsspear"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
       "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (287.1% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (56.4% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
@@ -3863,8 +3990,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3895,7 +4022,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stance Mastery",
         "spell_id": 1280961,
         "visible_spell_id": null,
-        "icon": "crest_warrior"
+        "icon": "crest_warrior",
+        "icon_candidates": [
+          "crest_warrior"
+        ]
       },
       "pve_tooltip": "Your stances have additional effects.\nBattle Stance\nIncreases the critical strike damage of your abilities by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
       "pvp_tooltip": "Your stances have additional effects.\nBattle Stance\nIncreases the critical strike damage of your abilities by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
@@ -3919,8 +4049,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3950,7 +4080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Battlefield Commander",
         "spell_id": 424742,
         "visible_spell_id": null,
-        "icon": "ability_warrior_commandingshout"
+        "icon": "ability_warrior_commandingshout",
+        "icon_candidates": [
+          "ability_warrior_commandingshout"
+        ]
       },
       "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
       "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
@@ -3974,8 +4107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4006,7 +4139,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mortal Strike",
         "spell_id": 12294,
         "visible_spell_id": null,
-        "icon": "ability_warrior_savageblow"
+        "icon": "ability_warrior_savageblow",
+        "icon_candidates": [
+          "ability_warrior_savageblow"
+        ]
       },
       "pve_tooltip": "30 Rage\nMelee Range\nInstant\n6 sec cooldown\nA vicious strike that deals (520.121% of Attack Power) Physical damage and reduces the effectiveness of healing on the target by 50% for 10 sec.",
       "pvp_tooltip": "30 Rage\nMelee Range\nInstant\n6 sec cooldown\nA vicious strike that deals (725.5688% of Attack Power) Physical damage and reduces the effectiveness of healing on the target by 25% for 10 sec.",
@@ -4135,8 +4271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4168,7 +4304,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overpower",
         "spell_id": 7384,
         "visible_spell_id": null,
-        "icon": "ability_meleedamage"
+        "icon": "ability_meleedamage",
+        "icon_candidates": [
+          "ability_meleedamage"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n12 sec cooldown\n1 Charge\nOverpower the enemy, dealing (385.614% of Attack Power) Physical damage. Cannot be blocked, dodged, or parried. [Martial Prowess: Increases the damage of your next Mortal Strike or Cleave by (385.614% of Attack Power)%, stacking up to 1 times] [Increases the damage of your next Mortal Strike by (385.614% of Attack Power)%, stacking up to 1 times]",
       "pvp_tooltip": "Melee Range\nInstant\n12 sec cooldown\n1 Charge\nOverpower the enemy, dealing (499.7557% of Attack Power) Physical damage. Cannot be blocked, dodged, or parried. [Martial Prowess: Increases the damage of your next Mortal Strike or Cleave by (499.7557% of Attack Power)%, stacking up to 1 times] [Increases the damage of your next Mortal Strike by (499.7557% of Attack Power)%, stacking up to 1 times]",
@@ -4287,8 +4426,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4320,7 +4459,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sudden Death",
         "spell_id": 29725,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent 40 Rage.\n(3s cooldown)",
       "pvp_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent 40 Rage.\n(3s cooldown)",
@@ -4344,8 +4486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4378,7 +4520,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fueled by Violence",
         "spell_id": 383103,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bloodlet"
+        "icon": "ability_demonhunter_bloodlet",
+        "icon_candidates": [
+          "ability_demonhunter_bloodlet"
+        ]
       },
       "pve_tooltip": "You are healed for 85% of the Bleed damage dealt by Rend and Deep Wounds.",
       "pvp_tooltip": "You are healed for 85% of the Bleed damage dealt by Rend and Deep Wounds.",
@@ -4402,8 +4547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4436,7 +4581,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ignore Pain",
         "spell_id": 1277297,
         "visible_spell_id": null,
-        "icon": "ability_warrior_renewedvigor"
+        "icon": "ability_warrior_renewedvigor",
+        "icon_candidates": [
+          "ability_warrior_renewedvigor"
+        ]
       },
       "pve_tooltip": "Instant\n20 sec cooldown\nFight through the pain, ignoring 50% of damage taken for 12 sec or until [0 * (1 + Versatility)] damage has been prevented.",
       "pvp_tooltip": "Instant\n20 sec cooldown\nFight through the pain, ignoring 50% of damage taken for 12 sec or until [0 * (1 + Versatility)] damage has been prevented.",
@@ -4497,8 +4645,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4531,7 +4679,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Die by the Sword",
         "spell_id": 118038,
         "visible_spell_id": null,
-        "icon": "ability_warrior_challange"
+        "icon": "ability_warrior_challange",
+        "icon_candidates": [
+          "ability_warrior_challange"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your parry chance by 100% and reduces all damage you take by 30% for 8 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your parry chance by 100% and reduces all damage you take by 30% for 8 sec.",
@@ -4555,8 +4706,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4588,7 +4739,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloodsurge",
         "spell_id": 384361,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodsurge"
+        "icon": "ability_warrior_bloodsurge",
+        "icon_candidates": [
+          "ability_warrior_bloodsurge"
+        ]
       },
       "pve_tooltip": "Damage from Rend has a chance to generate 5 Rage.",
       "pvp_tooltip": "Damage from Rend has a chance to generate 5 Rage.",
@@ -4612,8 +4766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4646,7 +4800,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Overpower",
         "spell_id": 385571,
         "visible_spell_id": null,
-        "icon": "ability_meleedamage"
+        "icon": "ability_meleedamage",
+        "icon_candidates": [
+          "ability_meleedamage"
+        ]
       },
       "pve_tooltip": "Overpower has 2 charges and deals 15% more damage.",
       "pvp_tooltip": "Overpower has 2 charges and deals 15% more damage.",
@@ -4670,8 +4827,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4704,7 +4861,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Execute",
         "spell_id": 316405,
         "visible_spell_id": null,
-        "icon": "inv_sword_48"
+        "icon": "inv_sword_48",
+        "icon_candidates": [
+          "inv_sword_48"
+        ]
       },
       "pve_tooltip": "Execute no longer has a cooldown and if your foe survives, 10% of the Rage spent is refunded.",
       "pvp_tooltip": "Execute no longer has a cooldown and if your foe survives, 10% of the Rage spent is refunded.",
@@ -4791,8 +4951,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4824,7 +4984,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fervor of Battle",
         "spell_id": 202316,
         "visible_spell_id": null,
-        "icon": "ability_rogue_waylay"
+        "icon": "ability_rogue_waylay",
+        "icon_candidates": [
+          "ability_rogue_waylay"
+        ]
       },
       "pve_tooltip": "If Cleave or Whirlwind hits 3 or more targets you also Slam your primary target. This Slam deals 50% additional damage.",
       "pvp_tooltip": "If Cleave or Whirlwind hits 3 or more targets you also Slam your primary target. This Slam deals 50% additional damage.",
@@ -4848,8 +5011,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4884,7 +5047,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tactician",
         "spell_id": 184783,
         "visible_spell_id": null,
-        "icon": "ability_warrior_unrelentingassault"
+        "icon": "ability_warrior_unrelentingassault",
+        "icon_candidates": [
+          "ability_warrior_unrelentingassault"
+        ]
       },
       "pve_tooltip": "You have a 30% chance to gain a charge of Overpower when you use an attack that has a Rage cost.\nThis effect applies even if that ability's Rage cost has been reduced to zero.\n(500ms cooldown)",
       "pvp_tooltip": "You have a 30% chance to gain a charge of Overpower when you use an attack that has a Rage cost.\nThis effect applies even if that ability's Rage cost has been reduced to zero.\n(500ms cooldown)",
@@ -4908,8 +5074,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4944,7 +5110,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Colossus Smash",
         "spell_id": 167105,
         "visible_spell_id": null,
-        "icon": "inv_warbreaker"
+        "icon": "inv_warbreaker",
+        "icon_candidates": [
+          "inv_warbreaker"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nSmash the ground and shatter the armor of all enemies within 10 yds, dealing (306.263% of Attack Power) Physical damage and increasing damage you deal to them by 30% for 10 sec. Deals reduced damage beyond 8 targets.\nGenerates 15 Rage.",
       "pvp_tooltip": "Instant\n45 sec cooldown\nSmash the ground and shatter the armor of all enemies within 10 yds, dealing (588.025% of Attack Power) Physical damage and increasing damage you deal to them by 20% for 10 sec. Deals reduced damage beyond 8 targets.\nGenerates 15 Rage.",
@@ -5102,8 +5271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5138,7 +5307,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Impale",
         "spell_id": 383430,
         "visible_spell_id": null,
-        "icon": "ability_searingarrow"
+        "icon": "ability_searingarrow",
+        "icon_candidates": [
+          "ability_searingarrow"
+        ]
       },
       "pve_tooltip": "Critical strike damage of your abilities is increased by 10%.",
       "pvp_tooltip": "Critical strike damage of your abilities is increased by 10%.",
@@ -5162,8 +5334,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5195,7 +5367,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Brute Force",
         "spell_id": 1261046,
         "visible_spell_id": null,
-        "icon": "ability_smash"
+        "icon": "ability_smash",
+        "icon_candidates": [
+          "ability_smash"
+        ]
       },
       "pve_tooltip": "Slam has a 10% increased chance to trigger Tactician.",
       "pvp_tooltip": "Slam has a 10% increased chance to trigger Tactician.",
@@ -5219,8 +5394,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5252,7 +5427,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Efficiency",
         "spell_id": 1261047,
         "visible_spell_id": null,
-        "icon": "ability_warrior_revenge"
+        "icon": "ability_warrior_revenge",
+        "icon_candidates": [
+          "ability_warrior_revenge"
+        ]
       },
       "pve_tooltip": "Slam's Rage cost is reduced by 25%.",
       "pvp_tooltip": "Slam's Rage cost is reduced by 25%.",
@@ -5276,8 +5454,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5310,7 +5488,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overpowering Finish",
         "spell_id": 400205,
         "visible_spell_id": null,
-        "icon": "ability_warrior_punishingblow"
+        "icon": "ability_warrior_punishingblow",
+        "icon_candidates": [
+          "ability_warrior_punishingblow"
+        ]
       },
       "pve_tooltip": "Overpower deals 15% additional damage to targets below 35% health.",
       "pvp_tooltip": "Overpower deals 15% additional damage to targets below 35% health.",
@@ -5334,8 +5515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5368,7 +5549,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Execution",
         "spell_id": 1273075,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_mastercleaver"
+        "icon": "warrior_talent_icon_mastercleaver",
+        "icon_candidates": [
+          "warrior_talent_icon_mastercleaver"
+        ]
       },
       "pve_tooltip": "Cleave and Whirlwind deal 20% additional damage to targets below 35% health.",
       "pvp_tooltip": "Cleave and Whirlwind deal 20% additional damage to targets below 35% health.",
@@ -5392,8 +5576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5427,7 +5611,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strength of Arms",
         "spell_id": 400803,
         "visible_spell_id": null,
-        "icon": "inv_gauntlets_26"
+        "icon": "inv_gauntlets_26",
+        "icon_candidates": [
+          "inv_gauntlets_26"
+        ]
       },
       "pve_tooltip": "Overpower and Slam damage increased by 10% and critical strike damage increased by 10%.\nCritical strike chance of Slam and Overpower increased by 10%.",
       "pvp_tooltip": "Overpower and Slam damage increased by 10% and critical strike damage increased by 10%.\nCritical strike chance of Slam and Overpower increased by 10%.",
@@ -5470,8 +5657,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5503,7 +5690,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Just Warming Up",
         "spell_id": 1261048,
         "visible_spell_id": null,
-        "icon": "ability_warrior_endlessrage"
+        "icon": "ability_warrior_endlessrage",
+        "icon_candidates": [
+          "ability_warrior_endlessrage"
+        ]
       },
       "pve_tooltip": "Colossus Smash generates 15 Rage.",
       "pvp_tooltip": "Colossus Smash generates 15 Rage.",
@@ -5527,8 +5717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5560,7 +5750,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Broad Strokes",
         "spell_id": 1261049,
         "visible_spell_id": null,
-        "icon": "inv_ability_rogue_echoingreprimand"
+        "icon": "inv_ability_rogue_echoingreprimand",
+        "icon_candidates": [
+          "inv_ability_rogue_echoingreprimand"
+        ]
       },
       "pve_tooltip": "Colossus Smash grants 6 stacks of Sweeping Strikes.",
       "pvp_tooltip": "Colossus Smash grants 6 stacks of Sweeping Strikes.",
@@ -5584,8 +5777,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5619,7 +5812,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sharpened Blades",
         "spell_id": 383341,
         "visible_spell_id": null,
-        "icon": "inv_sword_27"
+        "icon": "inv_sword_27",
+        "icon_candidates": [
+          "inv_sword_27"
+        ]
       },
       "pve_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 10% and critical strike damage increased by 10%.",
       "pvp_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 5% and critical strike damage increased by 10%.",
@@ -5760,8 +5956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5793,7 +5989,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cleave",
         "spell_id": 845,
         "visible_spell_id": null,
-        "icon": "ability_warrior_cleave"
+        "icon": "ability_warrior_cleave",
+        "icon_candidates": [
+          "ability_warrior_cleave"
+        ]
       },
       "pve_tooltip": "20 Rage\nMelee Range\nInstant\n4.5 sec cooldown\nStrikes all enemies in front of you for (232.814% of Attack Power) Physical damage. Deals reduced damage beyond 5 targets. [Rend: Inflicts Rend on all targets /\nIf you know Rend, inflicts Rend on all targets.]",
       "pvp_tooltip": "20 Rage\nMelee Range\nInstant\n4.5 sec cooldown\nStrikes all enemies in front of you for (279.3768% of Attack Power) Physical damage. Deals reduced damage beyond 5 targets. [Rend: Inflicts Rend on all targets /\nIf you know Rend, inflicts Rend on all targets.]",
@@ -5872,8 +6071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5905,7 +6104,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Powerful Momentum",
         "spell_id": 1261050,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_crushingblow"
+        "icon": "inv_1115_warrior_crushingblow",
+        "icon_candidates": [
+          "inv_1115_warrior_crushingblow"
+        ]
       },
       "pve_tooltip": "Secondary targets take an additional 20% damage from Sweeping Strikes.",
       "pvp_tooltip": "Secondary targets take an additional 20% damage from Sweeping Strikes.",
@@ -5929,8 +6131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5963,7 +6165,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Martial Prowess",
         "spell_id": 1273062,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_igniteweapon"
+        "icon": "warrior_talent_icon_igniteweapon",
+        "icon_candidates": [
+          "warrior_talent_icon_igniteweapon"
+        ]
       },
       "pve_tooltip": "Overpower and Slam increase the damage of your next Mortal Strike by 5%, stacking up to 3 times.\n(500ms cooldown)",
       "pvp_tooltip": "Overpower and Slam increase the damage of your next Mortal Strike by 5%, stacking up to 3 times.\n(500ms cooldown)",
@@ -5987,8 +6192,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6021,7 +6226,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dreadnaught",
         "spell_id": 262150,
         "visible_spell_id": null,
-        "icon": "inv_sword_05"
+        "icon": "inv_sword_05",
+        "icon_candidates": [
+          "inv_sword_05"
+        ]
       },
       "pve_tooltip": "Overpower's impact causes a seismic wave, dealing (140% of Attack Power) damage to all enemies in a 10 yd line around your target. Deals reduced damage beyond 5 targets.\nDreadnaught benefits from all effects that modify Overpower's damage.",
       "pvp_tooltip": "Overpower's impact causes a seismic wave, dealing (168% of Attack Power) damage to all enemies in a 10 yd line around your target. Deals reduced damage beyond 5 targets.\nDreadnaught benefits from all effects that modify Overpower's damage.",
@@ -6105,8 +6313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6139,7 +6347,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deep Wounds",
         "spell_id": 1261060,
         "visible_spell_id": null,
-        "icon": "ability_backstab"
+        "icon": "ability_backstab",
+        "icon_candidates": [
+          "ability_backstab"
+        ]
       },
       "pve_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "pvp_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
@@ -6204,8 +6415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6237,7 +6448,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tactical Edge",
         "spell_id": 1261051,
         "visible_spell_id": null,
-        "icon": "inv12_ability_warrior_arms"
+        "icon": "inv12_ability_warrior_arms",
+        "icon_candidates": [
+          "inv12_ability_warrior_arms"
+        ]
       },
       "pve_tooltip": "Colossus Smash immediately grants 1 use of Sudden Death.",
       "pvp_tooltip": "Colossus Smash immediately grants 1 use of Sudden Death.",
@@ -6261,8 +6475,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6294,7 +6508,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crushing Combo",
         "spell_id": 1261056,
         "visible_spell_id": null,
-        "icon": "ability_warrior_cleave"
+        "icon": "ability_warrior_cleave",
+        "icon_candidates": [
+          "ability_warrior_cleave"
+        ]
       },
       "pve_tooltip": "Colossus Smash causes your next 2 Cleaves within 20 sec to trigger no cooldown.",
       "pvp_tooltip": "Colossus Smash causes your next 2 Cleaves within 20 sec to trigger no cooldown.",
@@ -6318,8 +6535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6352,7 +6569,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Massacre",
         "spell_id": 281001,
         "visible_spell_id": null,
-        "icon": "inv_axe_2h_orcwarrior_c_01"
+        "icon": "inv_axe_2h_orcwarrior_c_01",
+        "icon_candidates": [
+          "inv_axe_2h_orcwarrior_c_01"
+        ]
       },
       "pve_tooltip": "Execute is usable on targets below 35% health.",
       "pvp_tooltip": "Execute is usable on targets below 35% health.",
@@ -6376,8 +6596,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6411,7 +6631,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Collateral Damage",
         "spell_id": 334779,
         "visible_spell_id": null,
-        "icon": "ability_warrior_incite"
+        "icon": "ability_warrior_incite",
+        "icon_candidates": [
+          "ability_warrior_incite"
+        ]
       },
       "pve_tooltip": "When an ability used during Sweeping Strikes damages a second target, your next Cleave or Whirlwind deals 25% increased damage, stacking up to 3 times.",
       "pvp_tooltip": "When an ability used during Sweeping Strikes damages a second target, your next Cleave or Whirlwind deals 25% increased damage, stacking up to 3 times.",
@@ -6435,8 +6658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6471,7 +6694,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloodborne",
         "spell_id": 383287,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Your Bleed effects deal 10% increased damage and 10% increased critical strike damage.",
       "pvp_tooltip": "Your Bleed effects deal 10% increased damage and 10% increased critical strike damage.",
@@ -6514,8 +6740,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6550,7 +6776,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bladestorm",
         "spell_id": 227847,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bladestorm"
+        "icon": "ability_warrior_bladestorm",
+        "icon_candidates": [
+          "ability_warrior_bladestorm"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [7 * (271.635% of Attack Power)%] Physical damage over 6 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [7 * (271.635% of Attack Power)%] Physical damage over 6 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.",
@@ -6562,7 +6791,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
+          "dependency_kind": "RUNTIME",
           "talent_spell_id": 227847,
           "source_spell_id": 50622,
           "effect_index": 1,
@@ -6579,7 +6808,7 @@ window.WOW_PVP_DATA = {
             50622
           ],
           "dependency_relations": [
-            "tooltip_value_ref"
+            "triggered_by_reverse"
           ],
           "aura_rules": [
             {
@@ -6609,7 +6838,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
+          "dependency_kind": "RUNTIME",
           "talent_spell_id": 227847,
           "source_spell_id": 95738,
           "effect_index": 1,
@@ -6627,7 +6856,7 @@ window.WOW_PVP_DATA = {
             95738
           ],
           "dependency_relations": [
-            "tooltip_value_ref",
+            "triggered_by_reverse",
             "trigger_spell"
           ],
           "aura_rules": [
@@ -6671,8 +6900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6707,7 +6936,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ravager",
         "spell_id": 228920,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_ravager"
+        "icon": "warrior_talent_icon_ravager",
+        "icon_candidates": [
+          "warrior_talent_icon_ravager"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (179.276% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take 50% additional damage from your Bleeds for 12 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (279.6706% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take 50% additional damage from your Bleeds for 12 sec.",
@@ -6793,8 +7025,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6828,7 +7060,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Critical Thinking",
         "spell_id": 389306,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Execute critical strike chance increased by 10% and Execute immediately refunds an additional 20% of the Rage spent.",
       "pvp_tooltip": "Execute critical strike chance increased by 10% and Execute immediately refunds an additional 20% of the Rage spent.",
@@ -6871,8 +7106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6904,7 +7139,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master Tactician",
         "spell_id": 1261057,
         "visible_spell_id": null,
-        "icon": "ability_warrior_revenge"
+        "icon": "ability_warrior_revenge",
+        "icon_candidates": [
+          "ability_warrior_revenge"
+        ]
       },
       "pve_tooltip": "Tactician has a 5% increased chance to trigger.",
       "pvp_tooltip": "Tactician has a 5% increased chance to trigger.",
@@ -6928,8 +7166,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6963,7 +7201,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloodletting",
         "spell_id": 383154,
         "visible_spell_id": null,
-        "icon": "ability_skeer_bloodletting"
+        "icon": "ability_skeer_bloodletting",
+        "icon_candidates": [
+          "ability_skeer_bloodletting"
+        ]
       },
       "pve_tooltip": "Your abilities have a 5% increased chance to critically strike targets affected by Rend.\nIf you know Rend, Mortal Strike inflicts Rend on targets below 35% health.\nDeep Wounds lasts 33% longer.",
       "pvp_tooltip": "Your abilities have a 5% increased chance to critically strike targets affected by Rend.\nIf you know Rend, Mortal Strike inflicts Rend on targets below 35% health.\nDeep Wounds lasts 33% longer.",
@@ -6987,8 +7228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7022,7 +7263,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Executioner's Precision",
         "spell_id": 386634,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_warrior"
+        "icon": "ability_revendreth_warrior",
+        "icon_candidates": [
+          "ability_revendreth_warrior"
+        ]
       },
       "pve_tooltip": "Execute increases the damage of your next Mortal Strike by 35%, stacking up to 2 times.\n(500ms cooldown)",
       "pvp_tooltip": "Execute increases the damage of your next Mortal Strike by 10.5%, stacking up to 2 times.\n(500ms cooldown)",
@@ -7122,8 +7366,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7155,7 +7399,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fatality",
         "spell_id": 383703,
         "visible_spell_id": null,
-        "icon": "achievement_bg_killingblow_berserker"
+        "icon": "achievement_bg_killingblow_berserker",
+        "icon_candidates": [
+          "achievement_bg_killingblow_berserker"
+        ]
       },
       "pve_tooltip": "Mortal Strike has a 50% chance to apply a Fatal Mark to your target, stacking up to 5 times. Your next Execute on a target with a Fatal Mark causes the Fatal Mark to deal (276% of Attack Power) additional Physical damage per stack.",
       "pvp_tooltip": "Mortal Strike has a 50% chance to apply a Fatal Mark to your target, stacking up to 5 times. Your next Execute on a target with a Fatal Mark causes the Fatal Mark to deal (109.296% of Attack Power) additional Physical damage per stack.",
@@ -7241,8 +7488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7273,7 +7520,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Battlelord",
         "spell_id": 386630,
         "visible_spell_id": null,
-        "icon": "ability_pvp_hardiness"
+        "icon": "ability_pvp_hardiness",
+        "icon_candidates": [
+          "ability_pvp_hardiness"
+        ]
       },
       "pve_tooltip": "Overpower has a 35% chance to reset the cooldown of Mortal Strike and reduce the cost of your next Mortal Strike by 33%.\n(Proc chance: 35%, 500ms cooldown)",
       "pvp_tooltip": "Overpower has a 35% chance to reset the cooldown of Mortal Strike and reduce the cost of your next Mortal Strike by 33%.\n(Proc chance: 35%, 500ms cooldown)",
@@ -7297,8 +7547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7329,7 +7579,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mortal Wounds",
         "spell_id": 1261062,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodbath"
+        "icon": "ability_warrior_bloodbath",
+        "icon_candidates": [
+          "ability_warrior_bloodbath"
+        ]
       },
       "pve_tooltip": "Mortal Strike and Slam critical strikes inflict Deep Wounds at 100% effectiveness.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "pvp_tooltip": "Mortal Strike and Slam critical strikes inflict Deep Wounds at 100% effectiveness.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
@@ -7394,8 +7647,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7426,7 +7679,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Avatar",
         "spell_id": 107574,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_avatar"
+        "icon": "warrior_talent_icon_avatar",
+        "icon_candidates": [
+          "warrior_talent_icon_avatar"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and reducing damage you take from area of effect attacks by 5% for 20 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 15% and reducing damage you take from area of effect attacks by 5% for 20 sec.",
@@ -7549,8 +7805,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7578,7 +7834,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Warfare",
         "spell_id": 1269314,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_masterofwarfare"
+        "icon": "inv12_apextalent_warrior_masterofwarfare",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_masterofwarfare"
+        ]
       },
       "pve_tooltip": "Your single target melee abilities have a chance to upgrade Slam to Heroic Strike.\nAll modifiers and talents that affect Slam also affect Heroic Strike.\nHeroic Strike\n20 Rage\nMelee Range\nInstant\nPowerfully strike an opponent, causing (600% of Attack Power) Physical damage and gaining a stack of Master of Warfare, allowing your attacks to penetrate 3% armor for 30 sec. Multiple applications of this effect may overlap.\n(100ms cooldown)",
       "pvp_tooltip": "Your single target melee abilities have a chance to upgrade Slam to Heroic Strike.\nAll modifiers and talents that affect Slam also affect Heroic Strike.\nHeroic Strike\n20 Rage\nMelee Range\nInstant\nPowerfully strike an opponent, causing (600% of Attack Power) Physical damage and gaining a stack of Master of Warfare, allowing your attacks to penetrate 3% armor for 30 sec. Multiple applications of this effect may overlap.\n(100ms cooldown)",
@@ -7602,8 +7861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7631,7 +7890,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Warfare",
         "spell_id": 1269306,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_masterofwarfare"
+        "icon": "inv12_apextalent_warrior_masterofwarfare",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_masterofwarfare"
+        ]
       },
       "pve_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
       "pvp_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
@@ -7674,8 +7936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7703,7 +7965,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Warfare",
         "spell_id": 1269307,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_masterofwarfare"
+        "icon": "inv12_apextalent_warrior_masterofwarfare",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_masterofwarfare"
+        ]
       },
       "pve_tooltip": "Heroic Strike increases the damage you deal to enemies affected by your next Colossus Smash by an additional 3.0%. Stacks up to 5 times.",
       "pvp_tooltip": "Heroic Strike increases the damage you deal to enemies affected by your next Colossus Smash by an additional 3.0%. Stacks up to 5 times.",
@@ -7727,8 +7992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7761,7 +8026,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Slayer's Dominance",
         "spell_id": 444767,
         "visible_spell_id": null,
-        "icon": "inv_ability_slayerwarrior_slayersdominance"
+        "icon": "inv_ability_slayerwarrior_slayersdominance",
+        "icon_candidates": [
+          "inv_ability_slayerwarrior_slayersdominance"
+        ]
       },
       "pve_tooltip": "Your attacks against your primary target have a 25% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 3% for 12 sec. Multiple stacks of Executioner may overlap.\n(500ms cooldown)",
       "pvp_tooltip": "Your attacks against your primary target have a 25% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (1058.9292% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 1% for 12 sec. Multiple stacks of Executioner may overlap.\n(500ms cooldown)",
@@ -7963,8 +8231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7996,7 +8264,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imminent Demise",
         "spell_id": 444769,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
       "pvp_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
@@ -8020,8 +8291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8053,7 +8324,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overwhelming Blades",
         "spell_id": 444772,
         "visible_spell_id": null,
-        "icon": "inv_10_specialization_blacksmithing_blades_color1"
+        "icon": "inv_10_specialization_blacksmithing_blades_color1",
+        "icon_candidates": [
+          "inv_10_specialization_blacksmithing_blades_color1"
+        ]
       },
       "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
       "pvp_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
@@ -8077,8 +8351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8110,7 +8384,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Relentless Pursuit",
         "spell_id": 444776,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Charge increases your movement speed by 70% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
       "pvp_tooltip": "Charge increases your movement speed by 50.4% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
@@ -8186,8 +8463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8219,7 +8496,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vicious Agility",
         "spell_id": 444777,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
       "pvp_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
@@ -8243,8 +8523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8276,7 +8556,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Violent Euphoria",
         "spell_id": 1270717,
         "visible_spell_id": null,
-        "icon": "ability_butcher_exsanguination"
+        "icon": "ability_butcher_exsanguination",
+        "icon_candidates": [
+          "ability_butcher_exsanguination"
+        ]
       },
       "pve_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
       "pvp_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
@@ -8300,8 +8583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8333,7 +8616,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Death Drive",
         "spell_id": 444770,
         "visible_spell_id": null,
-        "icon": "ability_warrior_focusedrage"
+        "icon": "ability_warrior_focusedrage",
+        "icon_candidates": [
+          "ability_warrior_focusedrage"
+        ]
       },
       "pve_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
       "pvp_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
@@ -8357,8 +8643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8390,7 +8676,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Culling Cyclone",
         "spell_id": 444778,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bladestorm"
+        "icon": "ability_warrior_bladestorm",
+        "icon_candidates": [
+          "ability_warrior_bladestorm"
+        ]
       },
       "pve_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
       "pvp_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
@@ -8414,8 +8703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8447,7 +8736,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Brutal Finish",
         "spell_id": 446085,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_warrior"
+        "icon": "ability_revendreth_warrior",
+        "icon_candidates": [
+          "ability_revendreth_warrior"
+        ]
       },
       "pve_tooltip": "Your next Mortal Strike after Bladestorm ends deals 50% additional damage.",
       "pvp_tooltip": "Your next Mortal Strike after Bladestorm ends deals 30% additional damage.",
@@ -8461,16 +8753,14 @@ window.WOW_PVP_DATA = {
           "new_token": "30",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -8539,7 +8829,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8553,8 +8843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8586,7 +8876,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fierce Followthrough",
         "spell_id": 444773,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
       "pve_tooltip": "Mortal Strike critical strikes increase the damage of your next Mortal Strike by 20%.",
       "pvp_tooltip": "Mortal Strike critical strikes increase the damage of your next Mortal Strike by 20%.",
@@ -8610,8 +8903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8643,7 +8936,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Opportunist",
         "spell_id": 444774,
         "visible_spell_id": null,
-        "icon": "ability_warrior_weaponmastery"
+        "icon": "ability_warrior_weaponmastery",
+        "icon_candidates": [
+          "ability_warrior_weaponmastery"
+        ]
       },
       "pve_tooltip": "When Overpower has its cooldown reset by Tactician, your next Overpower deals 20% additional damage and 20% additional critical damage. Stacking up to 2 times.",
       "pvp_tooltip": "When Overpower has its cooldown reset by Tactician, your next Overpower deals 20% additional damage and 20% additional critical damage. Stacking up to 2 times.",
@@ -8667,8 +8963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8700,7 +8996,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadly Focus",
         "spell_id": 1270718,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Executioner's duration is increased by 6 sec.",
       "pvp_tooltip": "Executioner's duration is increased by 6 sec.",
@@ -8724,8 +9023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8757,7 +9056,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Show No Mercy",
         "spell_id": 444771,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_lambstotheslaughter"
+        "icon": "warrior_talent_icon_lambstotheslaughter",
+        "icon_candidates": [
+          "warrior_talent_icon_lambstotheslaughter"
+        ]
       },
       "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 3% per stack.",
       "pvp_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 1% per stack.",
@@ -8954,8 +9256,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8987,7 +9289,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reap the Storm",
         "spell_id": 444775,
         "visible_spell_id": null,
-        "icon": "ability_arakkoa_spinning_blade"
+        "icon": "ability_arakkoa_spinning_blade",
+        "icon_candidates": [
+          "ability_arakkoa_spinning_blade"
+        ]
       },
       "pve_tooltip": "When Cleave hits 3 or more targets you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "When Cleave hits 3 or more targets you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (569.6688% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.",
@@ -9073,8 +9378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9106,7 +9411,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Slayer's Malice",
         "spell_id": 444779,
         "visible_spell_id": null,
-        "icon": "ability_warrior_revenge"
+        "icon": "ability_warrior_revenge",
+        "icon_candidates": [
+          "ability_warrior_revenge"
+        ]
       },
       "pve_tooltip": "Overpower and Execute damage increased by 15%.",
       "pvp_tooltip": "Overpower and Execute damage increased by 15%.",
@@ -9130,8 +9438,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9163,7 +9471,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unhinged",
         "spell_id": 386628,
         "visible_spell_id": null,
-        "icon": "spell_shadow_spectralsight"
+        "icon": "spell_shadow_spectralsight",
+        "icon_candidates": [
+          "spell_shadow_spectralsight"
+        ]
       },
       "pve_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing 100% of normal damage.",
       "pvp_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing 40% of normal damage.",
@@ -9234,8 +9545,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9268,7 +9579,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unrelenting Onslaught",
         "spell_id": 444780,
         "visible_spell_id": null,
-        "icon": "ability_warrior_commandingshout"
+        "icon": "ability_warrior_commandingshout",
+        "icon_candidates": [
+          "ability_warrior_commandingshout"
+        ]
       },
       "pve_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
       "pvp_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
@@ -9292,8 +9606,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9326,16 +9640,19 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demolish",
         "spell_id": 436358,
         "visible_spell_id": null,
-        "icon": "inv_ability_colossuswarrior_demolish"
+        "icon": "inv_ability_colossuswarrior_demolish",
+        "icon_candidates": [
+          "inv_ability_colossuswarrior_demolish"
+        ]
       },
-      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing [(531.455% of Attack Power) + (531.455% of Attack Power) + (1232.36% of Attack Power)] damage to it, and (1232.36% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
-      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing [(637.746% of Attack Power) + (637.746% of Attack Power) + (1183.0656% of Attack Power)] damage to it, and (1183.0656% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
+      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing (531.455% of Attack Power) + (531.455% of Attack Power) + (1232.36% of Attack Power) damage to it, and (1232.36% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
+      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing (637.746% of Attack Power) + (637.746% of Attack Power) + (1183.0656% of Attack Power) damage to it, and (1183.0656% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 131,
-          "end": 138,
+          "start": 130,
+          "end": 137,
           "old_token": "531.455",
           "new_token": "637.746",
           "kind": "attack_power_coefficient",
@@ -9345,8 +9662,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 160,
-          "end": 167,
+          "start": 159,
+          "end": 166,
           "old_token": "531.455",
           "new_token": "637.746",
           "kind": "attack_power_coefficient",
@@ -9356,8 +9673,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 189,
-          "end": 196,
+          "start": 188,
+          "end": 195,
           "old_token": "1232.36",
           "new_token": "1183.0656",
           "kind": "attack_power_coefficient",
@@ -9366,8 +9683,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 235,
-          "end": 242,
+          "start": 233,
+          "end": 240,
           "old_token": "1232.36",
           "new_token": "1183.0656",
           "kind": "attack_power_coefficient",
@@ -9583,8 +9900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9616,7 +9933,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Martial Expert",
         "spell_id": 429638,
         "visible_spell_id": null,
-        "icon": "ability_warrior_stalwartprotector"
+        "icon": "ability_warrior_stalwartprotector",
+        "icon_candidates": [
+          "ability_warrior_stalwartprotector"
+        ]
       },
       "pve_tooltip": "Critical strike damage of your abilities is increased by 10% and the amount of damage blocked by your critical blocks is increased by 20%.",
       "pvp_tooltip": "Critical strike damage of your abilities is increased by 10% and the amount of damage blocked by your critical blocks is increased by 20%.",
@@ -9640,8 +9960,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9673,7 +9993,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Colossal Might",
         "spell_id": 429634,
         "visible_spell_id": null,
-        "icon": "ability_warrior_strengthofarms"
+        "icon": "ability_warrior_strengthofarms",
+        "icon_candidates": [
+          "ability_warrior_strengthofarms"
+        ]
       },
       "pve_tooltip": "Colossal Might increases damage dealt by your next Demolish by 5%, stacking up to 5 times.\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes 3 or more targets.",
       "pvp_tooltip": "Colossal Might increases damage dealt by your next Demolish by 2.5%, stacking up to 5 times.\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes 3 or more targets.",
@@ -9749,8 +10072,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9782,7 +10105,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Boneshaker",
         "spell_id": 429639,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_brittlebones"
+        "icon": "ability_deathknight_brittlebones",
+        "icon_candidates": [
+          "ability_deathknight_brittlebones"
+        ]
       },
       "pve_tooltip": "Shockwave's stun duration is increased by 1 sec and reduces the movement speed of affected enemies by 40% for 3 sec after the stun ends.",
       "pvp_tooltip": "Shockwave's stun duration is increased by 1 sec and reduces the movement speed of affected enemies by 30% for 3 sec after the stun ends.",
@@ -9858,8 +10184,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9891,7 +10217,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Earthquaker",
         "spell_id": 440992,
         "visible_spell_id": null,
-        "icon": "spell_shaman_earthquake"
+        "icon": "spell_shaman_earthquake",
+        "icon_candidates": [
+          "spell_shaman_earthquake"
+        ]
       },
       "pve_tooltip": "Shockwave also knocks enemies into the air and its cooldown is reduced by 5 sec.",
       "pvp_tooltip": "Shockwave also knocks enemies into the air and its cooldown is reduced by 5 sec.",
@@ -9915,8 +10244,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9948,7 +10277,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Decimator",
         "spell_id": 1270704,
         "visible_spell_id": null,
-        "icon": "inv_10_blacksmithing_craftedbar_bloodyalloy"
+        "icon": "inv_10_blacksmithing_craftedbar_bloodyalloy",
+        "icon_candidates": [
+          "inv_10_blacksmithing_craftedbar_bloodyalloy"
+        ]
       },
       "pve_tooltip": "Demolish's final strike applies Deep Wounds to all targets at 100% effectiveness.",
       "pvp_tooltip": "Demolish's final strike applies Deep Wounds to all targets at 100% effectiveness.",
@@ -9972,8 +10304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10005,7 +10337,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "One Against Many",
         "spell_id": 429637,
         "visible_spell_id": null,
-        "icon": "ability_warrior_incite"
+        "icon": "ability_warrior_incite",
+        "icon_candidates": [
+          "ability_warrior_incite"
+        ]
       },
       "pve_tooltip": "Shockwave, Cleave, and Whirlwind deal 5% more damage per target affected up to 5.",
       "pvp_tooltip": "Shockwave, Cleave, and Whirlwind deal 5% more damage per target affected up to 5.",
@@ -10029,8 +10364,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10062,7 +10397,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arterial Bleed",
         "spell_id": 440995,
         "visible_spell_id": null,
-        "icon": "ability_butcher_gushingwounds"
+        "icon": "ability_butcher_gushingwounds",
+        "icon_candidates": [
+          "ability_butcher_gushingwounds"
+        ]
       },
       "pve_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 3% per stack.",
       "pvp_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 3% per stack.",
@@ -10117,8 +10455,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10150,7 +10488,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tide of Battle",
         "spell_id": 429641,
         "visible_spell_id": null,
-        "icon": "ability_warrior_weaponmastery"
+        "icon": "ability_warrior_weaponmastery",
+        "icon_candidates": [
+          "ability_warrior_weaponmastery"
+        ]
       },
       "pve_tooltip": "Colossal Might increases the damage of your Overpower and Execute by 3% per stack.",
       "pvp_tooltip": "Colossal Might increases the damage of your Overpower and Execute by 3% per stack.",
@@ -10205,8 +10546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10238,7 +10579,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Stranger to Pain",
         "spell_id": 429644,
         "visible_spell_id": null,
-        "icon": "ability_warrior_renewedvigor"
+        "icon": "ability_warrior_renewedvigor",
+        "icon_candidates": [
+          "ability_warrior_renewedvigor"
+        ]
       },
       "pve_tooltip": "Damage prevented by each use of Ignore Pain is increased by 30%.",
       "pvp_tooltip": "Damage prevented by each use of Ignore Pain is increased by 30%.",
@@ -10262,8 +10606,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10295,7 +10639,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Veteran Vitality",
         "spell_id": 440993,
         "visible_spell_id": null,
-        "icon": "ability_hunter_harass"
+        "icon": "ability_hunter_harass",
+        "icon_candidates": [
+          "ability_hunter_harass"
+        ]
       },
       "pve_tooltip": "When your health is brought below 35%, you gain a Second Wind, healing you for 12% of your max health over 2 sec.\nThis effect cannot occur more than once every 60 sec.\n(1m cooldown)",
       "pvp_tooltip": "When your health is brought below 35%, you gain a Second Wind, healing you for 12% of your max health over 2 sec.\nThis effect cannot occur more than once every 60 sec.\n(1m cooldown)",
@@ -10319,8 +10666,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10352,7 +10699,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cut to the Bone",
         "spell_id": 1270709,
         "visible_spell_id": null,
-        "icon": "ability_warrior_deepcuts"
+        "icon": "ability_warrior_deepcuts",
+        "icon_candidates": [
+          "ability_warrior_deepcuts"
+        ]
       },
       "pve_tooltip": "Mortal Strike critical strikes increase your Rend and Deep Wounds damage by 15% for 8 sec.",
       "pvp_tooltip": "Mortal Strike critical strikes increase your Rend and Deep Wounds damage by 15% for 8 sec.",
@@ -10376,8 +10726,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10409,10 +10759,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Practiced Strikes",
         "spell_id": 429647,
         "visible_spell_id": null,
-        "icon": "spell_warrior_sharpenblade"
+        "icon": "spell_warrior_sharpenblade",
+        "icon_candidates": [
+          "spell_warrior_sharpenblade"
+        ]
       },
       "pve_tooltip": "Mortal Strike and Slam damage increased by 25%.\nCleave and Whirlwind damage increased by 15%.",
-      "pvp_tooltip": "Mortal Strike and Slam damage increased by 15%.\nCleave and Whirlwind damage increased by 15%.",
+      "pvp_tooltip": "Mortal Strike and Slam damage increased by 30%.\nCleave and Whirlwind damage increased by 15%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10420,24 +10773,32 @@ window.WOW_PVP_DATA = {
           "start": 43,
           "end": 45,
           "old_token": "25",
-          "new_token": "15",
+          "new_token": "30",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             3
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "percent_value",
+          "old": 25.0,
+          "new": 15.0,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "25",
-          "new": "15"
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10450,20 +10811,41 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 25.0,
-          "spell_pvp_multiplier": 0.6,
+          "spell_pvp_multiplier": 1.2,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": 15.0,
+          "final_pvp_multiplier": 1.2,
+          "final_pvp_value": 30.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated",
+            "simc"
           ],
-          "source_notes": [],
-          "confidence": "ambiguous"
+          "source_notes": [
+            {
+              "spell_id": 429647,
+              "talent_name": "Practiced Strikes",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.6,
+              "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1114022,
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "previous_multiplier": 0.6,
+              "current_multiplier": 1.2,
+              "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+              "resolved_by": [
+                "simc_exact_build_hotfix"
+              ]
+            }
+          ],
+          "confidence": "high"
         },
         {
           "effect_origin": "DIRECT",
@@ -10484,6 +10866,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -10504,8 +10887,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10537,7 +10920,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precise Might",
         "spell_id": 431548,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Mortal Strike critical strikes grant an additional stack of Colossal Might.",
       "pvp_tooltip": "Mortal Strike critical strikes grant an additional stack of Colossal Might.",
@@ -10592,8 +10978,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10625,7 +11011,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mountain of Muscle and Scars",
         "spell_id": 429642,
         "visible_spell_id": null,
-        "icon": "ability_warrior_intensifyrage"
+        "icon": "ability_warrior_intensifyrage",
+        "icon_candidates": [
+          "ability_warrior_intensifyrage"
+        ]
       },
       "pve_tooltip": "You deal 5% more damage and take 5% less damage.\nSize increased by 5%.",
       "pvp_tooltip": "You deal 5% more damage and take 3% less damage.\nSize increased by 5%.",
@@ -10696,8 +11085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10729,7 +11118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celeritous Conclusion",
         "spell_id": 1270710,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fasterreflexes"
+        "icon": "inv_1115_warrior_fasterreflexes",
+        "icon_candidates": [
+          "inv_1115_warrior_fasterreflexes"
+        ]
       },
       "pve_tooltip": "Demolish's final strike grants 10% Haste for 10 sec and increases the critical strike chance of your next Mortal Strike by 100%.",
       "pvp_tooltip": "Demolish's final strike grants 10% Haste for 10 sec and increases the critical strike chance of your next Mortal Strike by 15%.",
@@ -10805,8 +11197,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10839,7 +11231,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominance of the Colossus",
         "spell_id": 429636,
         "visible_spell_id": null,
-        "icon": "ability_warrior_titansgrip"
+        "icon": "ability_warrior_titansgrip",
+        "icon_candidates": [
+          "ability_warrior_titansgrip"
+        ]
       },
       "pve_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 20% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
       "pvp_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 10% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
@@ -11225,15 +11620,24 @@ window.WOW_PVP_DATA = {
     {
       "spell_id": 429647,
       "talent_name": "Practiced Strikes",
-      "side": "wowhead",
-      "reason": "WOWHEAD_ONLY_MODIFIER",
-      "effect_index": 1,
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
       "multiplier": 0.6,
-      "effect_text": "Apply Aura: Modifies Damage/Healing Done"
+      "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1114022,
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "previous_multiplier": 0.6,
+      "current_multiplier": 1.2,
+      "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+      "resolved_by": [
+        "simc_exact_build_hotfix"
+      ]
     }
   ],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-22T19:30:09.321577+00:00",
+  "generated_at": "2026-09-24T11:53:29.748722+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 39,
@@ -11254,11 +11658,20 @@ window.WOW_PVP_DATA = {
       {
         "spell_id": 429647,
         "talent_name": "Practiced Strikes",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 1,
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
         "multiplier": 0.6,
-        "effect_text": "Apply Aura: Modifies Damage/Healing Done"
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1114022,
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "previous_multiplier": 0.6,
+        "current_multiplier": 1.2,
+        "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "resolved_by": [
+          "simc_exact_build_hotfix"
+        ]
       }
     ],
     "unresolved_examples": [],

@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -50,7 +50,10 @@
         "talent_name": "Chain Heal",
         "spell_id": 1064,
         "visible_spell_id": null,
-        "icon": "inv_1115_shaman_chainheal"
+        "icon": "inv_1115_shaman_chainheal",
+        "icon_candidates": [
+          "inv_1115_shaman_chainheal"
+        ]
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
       "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (277.2% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
@@ -121,8 +124,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -154,7 +157,10 @@
         "talent_name": "Lava Lash",
         "spell_id": 60103,
         "visible_spell_id": null,
-        "icon": "ability_shaman_lavalash"
+        "icon": "ability_shaman_lavalash",
+        "icon_candidates": [
+          "ability_shaman_lavalash"
+        ]
       },
       "pve_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (238.717% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
       "pvp_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (275.7181% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
@@ -235,8 +241,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -267,7 +273,10 @@
         "talent_name": "Chain Lightning",
         "spell_id": 188443,
         "visible_spell_id": null,
-        "icon": "spell_nature_chainlightning"
+        "icon": "spell_nature_chainlightning",
+        "icon_candidates": [
+          "spell_nature_chainlightning"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
       "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (80.6652% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
@@ -355,8 +364,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -389,7 +398,10 @@
         "talent_name": "Earth Shield",
         "spell_id": 974,
         "visible_spell_id": null,
-        "icon": "spell_nature_skinofearth"
+        "icon": "spell_nature_skinofearth",
+        "icon_candidates": [
+          "spell_nature_skinofearth"
+        ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(38.471% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
@@ -475,8 +487,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -510,7 +522,10 @@
         "talent_name": "Ancestral Wolf Affinity",
         "spell_id": 382197,
         "visible_spell_id": null,
-        "icon": "spell_beastmaster_wolf"
+        "icon": "spell_beastmaster_wolf",
+        "icon_candidates": [
+          "spell_beastmaster_wolf"
+        ]
       },
       "pve_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
       "pvp_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
@@ -534,8 +549,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -567,7 +582,11 @@
         "talent_name": "Fire and Ice",
         "spell_id": 382886,
         "visible_spell_id": null,
-        "icon": "spell_firefrost-orb"
+        "icon": "spell_firefrost_orb",
+        "icon_candidates": [
+          "spell_firefrost_orb",
+          "spell_firefrost-orb"
+        ]
       },
       "pve_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
       "pvp_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
@@ -591,8 +610,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -626,7 +645,10 @@
         "talent_name": "Spirit Wolf",
         "spell_id": 260878,
         "visible_spell_id": null,
-        "icon": "spell_hunter_lonewolf"
+        "icon": "spell_hunter_lonewolf",
+        "icon_candidates": [
+          "spell_hunter_lonewolf"
+        ]
       },
       "pve_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
       "pvp_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
@@ -650,8 +672,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -685,7 +707,10 @@
         "talent_name": "Thunderous Paws",
         "spell_id": 378075,
         "visible_spell_id": null,
-        "icon": "ability_hunter_longevity"
+        "icon": "ability_hunter_longevity",
+        "icon_candidates": [
+          "ability_hunter_longevity"
+        ]
       },
       "pve_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
       "pvp_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
@@ -709,8 +734,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -743,7 +768,10 @@
         "talent_name": "Frost Shock",
         "spell_id": 196840,
         "visible_spell_id": null,
-        "icon": "spell_frost_frostshock"
+        "icon": "spell_frost_frostshock",
+        "icon_candidates": [
+          "spell_frost_frostshock"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
       "pvp_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (106.5015% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
@@ -831,8 +859,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -864,7 +892,10 @@
         "talent_name": "Elemental Orbit",
         "spell_id": 383010,
         "visible_spell_id": null,
-        "icon": "ability_mage_shattershield"
+        "icon": "ability_mage_shattershield",
+        "icon_candidates": [
+          "ability_mage_shattershield"
+        ]
       },
       "pve_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
       "pvp_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
@@ -888,8 +919,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -923,7 +954,10 @@
         "talent_name": "Spirit Walk",
         "spell_id": 58875,
         "visible_spell_id": null,
-        "icon": "ability_tracking"
+        "icon": "ability_tracking",
+        "icon_candidates": [
+          "ability_tracking"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
       "pvp_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
@@ -947,8 +981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -982,7 +1016,10 @@
         "talent_name": "Gust of Wind",
         "spell_id": 192063,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatileair"
+        "icon": "inv_misc_volatileair",
+        "icon_candidates": [
+          "inv_misc_volatileair"
+        ]
       },
       "pve_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
       "pvp_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
@@ -1006,8 +1043,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1043,7 +1080,10 @@
         "talent_name": "Astral Shift",
         "spell_id": 108271,
         "visible_spell_id": null,
-        "icon": "ability_shaman_astralshift"
+        "icon": "ability_shaman_astralshift",
+        "icon_candidates": [
+          "ability_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
@@ -1067,8 +1107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1102,7 +1142,10 @@
         "talent_name": "Nature's Guardian",
         "spell_id": 30884,
         "visible_spell_id": null,
-        "icon": "spell_nature_natureguardian"
+        "icon": "spell_nature_natureguardian",
+        "icon_candidates": [
+          "spell_nature_natureguardian"
+        ]
       },
       "pve_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
       "pvp_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
@@ -1126,8 +1169,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1159,7 +1202,10 @@
         "talent_name": "Encasing Cold",
         "spell_id": 462762,
         "visible_spell_id": null,
-        "icon": "ability_mage_coldasice"
+        "icon": "ability_mage_coldasice",
+        "icon_candidates": [
+          "ability_mage_coldasice"
+        ]
       },
       "pve_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
       "pvp_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
@@ -1183,8 +1229,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1216,7 +1262,10 @@
         "talent_name": "Arctic Snowstorm",
         "spell_id": 462764,
         "visible_spell_id": null,
-        "icon": "spell_frost_glacier"
+        "icon": "spell_frost_glacier",
+        "icon_candidates": [
+          "spell_frost_glacier"
+        ]
       },
       "pve_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 30%.",
       "pvp_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 20%.",
@@ -1292,8 +1341,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1327,7 +1376,10 @@
         "talent_name": "Healing Stream Totem",
         "spell_id": 392915,
         "visible_spell_id": 5394,
-        "icon": "inv_spear_04"
+        "icon": "inv_spear_04",
+        "icon_candidates": [
+          "inv_spear_04"
+        ]
       },
       "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
@@ -1384,8 +1436,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1419,7 +1471,10 @@
         "talent_name": "Winds of Al'Akir",
         "spell_id": 382215,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
       "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
@@ -1462,8 +1517,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1496,7 +1551,10 @@
         "talent_name": "Planes Traveler",
         "spell_id": 381647,
         "visible_spell_id": null,
-        "icon": "spell_shaman_astralshift"
+        "icon": "spell_shaman_astralshift",
+        "icon_candidates": [
+          "spell_shaman_astralshift"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
       "pvp_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
@@ -1520,8 +1578,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1554,7 +1612,10 @@
         "talent_name": "Astral Bulwark",
         "spell_id": 377933,
         "visible_spell_id": null,
-        "icon": "spell_shaman_ancestralawakening"
+        "icon": "spell_shaman_ancestralawakening",
+        "icon_candidates": [
+          "spell_shaman_ancestralawakening"
+        ]
       },
       "pve_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
       "pvp_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
@@ -1578,8 +1639,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1613,7 +1674,10 @@
         "talent_name": "Brimming with Life",
         "spell_id": 381689,
         "visible_spell_id": null,
-        "icon": "inv_jewelry_talisman_06"
+        "icon": "inv_jewelry_talisman_06",
+        "icon_candidates": [
+          "inv_jewelry_talisman_06"
+        ]
       },
       "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
       "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
@@ -1656,8 +1720,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1691,7 +1755,10 @@
         "talent_name": "Wind Shear",
         "spell_id": 57994,
         "visible_spell_id": null,
-        "icon": "spell_nature_cyclone"
+        "icon": "spell_nature_cyclone",
+        "icon_candidates": [
+          "spell_nature_cyclone"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
@@ -1715,8 +1782,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1748,7 +1815,10 @@
         "talent_name": "Elemental Resistance",
         "spell_id": 462368,
         "visible_spell_id": null,
-        "icon": "spell_fireresistancetotem_01"
+        "icon": "spell_fireresistancetotem_01",
+        "icon_candidates": [
+          "spell_fireresistancetotem_01"
+        ]
       },
       "pve_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
       "pvp_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
@@ -1772,8 +1842,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1807,7 +1877,10 @@
         "talent_name": "Earthgrab Totem",
         "spell_id": 51485,
         "visible_spell_id": null,
-        "icon": "spell_nature_stranglevines"
+        "icon": "spell_nature_stranglevines",
+        "icon_candidates": [
+          "spell_nature_stranglevines"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 50% movement speed reduction.",
       "pvp_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 30% movement speed reduction.",
@@ -1883,8 +1956,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1919,7 +1992,10 @@
         "talent_name": "Capacitor Totem",
         "spell_id": 192058,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
       "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
@@ -1943,8 +2019,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1978,7 +2054,10 @@
         "talent_name": "Spiritual Awakening",
         "spell_id": 1270375,
         "visible_spell_id": null,
-        "icon": "spell_shaman_blessingoftheeternals"
+        "icon": "spell_shaman_blessingoftheeternals",
+        "icon_candidates": [
+          "spell_shaman_blessingoftheeternals"
+        ]
       },
       "pve_tooltip": "Mastery increased by 3%.",
       "pvp_tooltip": "Mastery increased by 3%.",
@@ -2002,8 +2081,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2036,7 +2115,10 @@
         "talent_name": "Enhanced Imbues",
         "spell_id": 462796,
         "visible_spell_id": null,
-        "icon": "spell_nature_rockbiter"
+        "icon": "spell_nature_rockbiter",
+        "icon_candidates": [
+          "spell_nature_rockbiter"
+        ]
       },
       "pve_tooltip": "The effects of your weapon imbues are increased by 15%.",
       "pvp_tooltip": "The effects of your weapon imbues are increased by 15%.",
@@ -2060,8 +2142,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2093,7 +2175,10 @@
         "talent_name": "Windveil",
         "spell_id": 355630,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_air"
+        "icon": "inv_elemental_primal_air",
+        "icon_candidates": [
+          "inv_elemental_primal_air"
+        ]
       },
       "pve_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
       "pvp_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
@@ -2117,8 +2202,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2152,7 +2237,10 @@
         "talent_name": "Refreshing Waters",
         "spell_id": 378211,
         "visible_spell_id": null,
-        "icon": "ability_shaman_fortifyingwaters"
+        "icon": "ability_shaman_fortifyingwaters",
+        "icon_candidates": [
+          "ability_shaman_fortifyingwaters"
+        ]
       },
       "pve_tooltip": "Your Healing Surge is 25% more effective on yourself.",
       "pvp_tooltip": "Your Healing Surge is 25% more effective on yourself.",
@@ -2176,8 +2264,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2211,7 +2299,10 @@
         "talent_name": "Cleanse Spirit",
         "spell_id": 51886,
         "visible_spell_id": null,
-        "icon": "ability_shaman_cleansespirit"
+        "icon": "ability_shaman_cleansespirit",
+        "icon_candidates": [
+          "ability_shaman_cleansespirit"
+        ]
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curse effects from a friendly target.",
       "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curse effects from a friendly target.",
@@ -2235,8 +2326,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2268,7 +2359,10 @@
         "talent_name": "Static Charge",
         "spell_id": 265046,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
       "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
@@ -2311,8 +2405,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2346,7 +2440,10 @@
         "talent_name": "Wind Rush Totem",
         "spell_id": 192077,
         "visible_spell_id": null,
-        "icon": "ability_shaman_windwalktotem"
+        "icon": "ability_shaman_windwalktotem",
+        "icon_candidates": [
+          "ability_shaman_windwalktotem"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
@@ -2370,8 +2467,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2405,7 +2502,10 @@
         "talent_name": "Earth Elemental",
         "spell_id": 198103,
         "visible_spell_id": null,
-        "icon": "spell_nature_earthelemental_totem"
+        "icon": "spell_nature_earthelemental_totem",
+        "icon_candidates": [
+          "spell_nature_earthelemental_totem"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
@@ -2429,8 +2529,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2464,7 +2564,10 @@
         "talent_name": "Purge",
         "spell_id": 370,
         "visible_spell_id": null,
-        "icon": "spell_nature_purge"
+        "icon": "spell_nature_purge",
+        "icon_candidates": [
+          "spell_nature_purge"
+        ]
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
       "pvp_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
@@ -2488,8 +2591,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2523,7 +2626,10 @@
         "talent_name": "Greater Purge",
         "spell_id": 378773,
         "visible_spell_id": null,
-        "icon": "spell_shaman_focusedstrikes"
+        "icon": "spell_shaman_focusedstrikes",
+        "icon_candidates": [
+          "spell_shaman_focusedstrikes"
+        ]
       },
       "pve_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
       "pvp_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
@@ -2547,8 +2653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2583,7 +2689,10 @@
         "talent_name": "Nature's Fury",
         "spell_id": 381655,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
       "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
@@ -2626,8 +2735,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2660,7 +2769,10 @@
         "talent_name": "Ascending Air",
         "spell_id": 462791,
         "visible_spell_id": null,
-        "icon": "achievement_raidprimalist_windelemental"
+        "icon": "achievement_raidprimalist_windelemental",
+        "icon_candidates": [
+          "achievement_raidprimalist_windelemental"
+        ]
       },
       "pve_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
       "pvp_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
@@ -2684,8 +2796,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2718,7 +2830,10 @@
         "talent_name": "Jet Stream",
         "spell_id": 462817,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_air"
+        "icon": "inv_elemental_primal_air",
+        "icon_candidates": [
+          "inv_elemental_primal_air"
+        ]
       },
       "pve_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
       "pvp_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
@@ -2742,8 +2857,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2775,7 +2890,10 @@
         "talent_name": "Primordial Bond",
         "spell_id": 1279819,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_earth"
+        "icon": "inv_elemental_primal_earth",
+        "icon_candidates": [
+          "inv_elemental_primal_earth"
+        ]
       },
       "pve_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
       "pvp_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
@@ -2799,8 +2917,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2834,7 +2952,10 @@
         "talent_name": "Hex",
         "spell_id": 51514,
         "visible_spell_id": null,
-        "icon": "spell_shaman_hex"
+        "icon": "spell_shaman_hex",
+        "icon_candidates": [
+          "spell_shaman_hex"
+        ]
       },
       "pve_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
       "pvp_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
@@ -2858,8 +2979,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2892,7 +3013,10 @@
         "talent_name": "Spiritwalker's Grace",
         "spell_id": 79206,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spiritwalkersgrace"
+        "icon": "spell_shaman_spiritwalkersgrace",
+        "icon_candidates": [
+          "spell_shaman_spiritwalkersgrace"
+        ]
       },
       "pve_tooltip": "2.82% of base mana\nInstant\n6 sec cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
       "pvp_tooltip": "2.82% of base mana\nInstant\n6 sec cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
@@ -2916,8 +3040,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2950,7 +3074,10 @@
         "talent_name": "Totemic Projection",
         "spell_id": 108287,
         "visible_spell_id": null,
-        "icon": "ability_shaman_totemrelocation"
+        "icon": "ability_shaman_totemrelocation",
+        "icon_candidates": [
+          "ability_shaman_totemrelocation"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
       "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
@@ -2974,8 +3101,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3010,7 +3137,10 @@
         "talent_name": "Elemental Warding",
         "spell_id": 381650,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_primordial"
+        "icon": "inv_10_elementalcombinedfoozles_primordial",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_primordial"
+        ]
       },
       "pve_tooltip": "Reduces all magic damage taken by 8%.",
       "pvp_tooltip": "Reduces all magic damage taken by 8%.",
@@ -3034,8 +3164,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3070,7 +3200,10 @@
         "talent_name": "Totemic Focus",
         "spell_id": 382201,
         "visible_spell_id": null,
-        "icon": "inv_relics_totemofrebirth"
+        "icon": "inv_relics_totemofrebirth",
+        "icon_candidates": [
+          "inv_relics_totemofrebirth"
+        ]
       },
       "pve_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by 3.0 sec.",
       "pvp_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by 3.0 sec.",
@@ -3094,8 +3227,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3127,7 +3260,10 @@
         "talent_name": "Graceful Spirit",
         "spell_id": 192088,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spectraltransformation"
+        "icon": "spell_shaman_spectraltransformation",
+        "icon_candidates": [
+          "spell_shaman_spectraltransformation"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
       "pvp_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
@@ -3151,8 +3287,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3184,7 +3320,10 @@
         "talent_name": "Spiritwalker's Aegis",
         "spell_id": 378077,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
       "pvp_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
@@ -3208,8 +3347,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3243,7 +3382,10 @@
         "talent_name": "Mana Spring",
         "spell_id": 381930,
         "visible_spell_id": null,
-        "icon": "spell_nature_manaregentotem"
+        "icon": "spell_nature_manaregentotem",
+        "icon_candidates": [
+          "spell_nature_manaregentotem"
+        ]
       },
       "pve_tooltip": "Level 90\nYour Lava BurstStormstrike casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
       "pvp_tooltip": "Level 90\nYour Lava BurstStormstrike casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
@@ -3267,8 +3409,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3300,7 +3442,10 @@
         "talent_name": "Tremor Totem",
         "spell_id": 8143,
         "visible_spell_id": null,
-        "icon": "spell_nature_tremortotem"
+        "icon": "spell_nature_tremortotem",
+        "icon_candidates": [
+          "spell_nature_tremortotem"
+        ]
       },
       "pve_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
       "pvp_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
@@ -3324,8 +3469,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3357,7 +3502,10 @@
         "talent_name": "Poison Cleansing Totem",
         "spell_id": 383013,
         "visible_spell_id": null,
-        "icon": "spell_nature_poisoncleansingtotem"
+        "icon": "spell_nature_poisoncleansingtotem",
+        "icon_candidates": [
+          "spell_nature_poisoncleansingtotem"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
       "pvp_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
@@ -3381,8 +3529,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3416,7 +3564,10 @@
         "talent_name": "Therazane's Resilience",
         "spell_id": 1217622,
         "visible_spell_id": null,
-        "icon": "shaman_pvp_rockshield"
+        "icon": "shaman_pvp_rockshield",
+        "icon_candidates": [
+          "shaman_pvp_rockshield"
+        ]
       },
       "pve_tooltip": "Earth Shield no longer loses charges and is 115% effective.",
       "pvp_tooltip": "Earth Shield no longer loses charges and is 115% effective.",
@@ -3440,8 +3591,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3475,7 +3626,10 @@
         "talent_name": "Reactive Warding",
         "spell_id": 462454,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_water"
+        "icon": "inv_10_elementalcombinedfoozles_water",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_water"
+        ]
       },
       "pve_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
       "pvp_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
@@ -3499,8 +3653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3532,7 +3686,10 @@
         "talent_name": "Voodoo Mastery",
         "spell_id": 204268,
         "visible_spell_id": null,
-        "icon": "spell_shaman_hex"
+        "icon": "spell_shaman_hex",
+        "icon_candidates": [
+          "spell_shaman_hex"
+        ]
       },
       "pve_tooltip": "Your Hex target is slowed by 70% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
       "pvp_tooltip": "Your Hex target is slowed by 50% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
@@ -3608,8 +3765,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3640,7 +3797,10 @@
         "talent_name": "Nature's Swiftness",
         "spell_id": 378081,
         "visible_spell_id": null,
-        "icon": "spell_nature_ravenform"
+        "icon": "spell_nature_ravenform",
+        "icon_candidates": [
+          "spell_nature_ravenform"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
       "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
@@ -3664,8 +3824,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3697,7 +3857,10 @@
         "talent_name": "Totemic Surge",
         "spell_id": 381867,
         "visible_spell_id": null,
-        "icon": "spell_nature_agitatingtotem"
+        "icon": "spell_nature_agitatingtotem",
+        "icon_candidates": [
+          "spell_nature_agitatingtotem"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of most totems by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of most totems by 5 sec.",
@@ -3721,8 +3884,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3754,7 +3917,10 @@
         "talent_name": "Instinctive Imbuements",
         "spell_id": 1270350,
         "visible_spell_id": null,
-        "icon": "ability_shaman_ascendance"
+        "icon": "ability_shaman_ascendance",
+        "icon_candidates": [
+          "ability_shaman_ascendance"
+        ]
       },
       "pve_tooltip": "Lightning Shield increases your Agility by 3%.\nCasting Lightning Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
       "pvp_tooltip": "Lightning Shield increases your Agility by 3%.\nCasting Lightning Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
@@ -3778,8 +3944,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3810,7 +3976,10 @@
         "talent_name": "Maelstrom Weapon",
         "spell_id": 187880,
         "visible_spell_id": null,
-        "icon": "spell_shaman_maelstromweapon"
+        "icon": "spell_shaman_maelstromweapon",
+        "icon_candidates": [
+          "spell_shaman_maelstromweapon"
+        ]
       },
       "pve_tooltip": "When you deal damage with a melee weapon, you have a chance to generate Maelstrom Weapon, stacking up to 5 times.\nEach stack of Maelstrom Weapon reduces the cast time of your next Lightning Bolt or Chain Lightning by 20% and increases its damage by 20%.\n(Proc chance: 20%)",
       "pvp_tooltip": "When you deal damage with a melee weapon, you have a chance to generate Maelstrom Weapon, stacking up to 5 times.\nEach stack of Maelstrom Weapon reduces the cast time of your next Lightning Bolt or Chain Lightning by 20% and increases its damage by 20%.\n(Proc chance: 20%)",
@@ -3834,8 +4003,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3868,7 +4037,10 @@
         "talent_name": "Windfury Weapon",
         "spell_id": 33757,
         "visible_spell_id": null,
-        "icon": "spell_shaman_unleashweapon_wind"
+        "icon": "spell_shaman_unleashweapon_wind",
+        "icon_candidates": [
+          "spell_shaman_unleashweapon_wind"
+        ]
       },
       "pve_tooltip": "Instant\nImbue your main-hand weapon with the element of Wind for 1 hour. Each main-hand attack has a 15% chance to trigger [Unruly Winds: three / two] extra attacks, dealing (27.945% of Attack Power)% Physical damage each.",
       "pvp_tooltip": "Instant\nImbue your main-hand weapon with the element of Wind for 1 hour. Each main-hand attack has a 15% chance to trigger [Unruly Winds: three / two] extra attacks, dealing (27.945% of Attack Power)% Physical damage each.",
@@ -3892,8 +4064,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3926,7 +4098,10 @@
         "talent_name": "Flametongue Weapon",
         "spell_id": 318038,
         "visible_spell_id": null,
-        "icon": "spell_fire_flametounge"
+        "icon": "spell_fire_flametounge",
+        "icon_candidates": [
+          "spell_fire_flametounge"
+        ]
       },
       "pve_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (3.96% of Attack Power) additional Fire damage.",
       "pvp_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (4.158% of Attack Power) additional Fire damage.",
@@ -4010,8 +4185,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4043,7 +4218,10 @@
         "talent_name": "Forceful Winds",
         "spell_id": 262647,
         "visible_spell_id": null,
-        "icon": "spell_shaman_unleashweapon_wind"
+        "icon": "spell_shaman_unleashweapon_wind",
+        "icon_candidates": [
+          "spell_shaman_unleashweapon_wind"
+        ]
       },
       "pve_tooltip": "Windfury has a 10% additional chance to trigger and its damage is increased by 50%.",
       "pvp_tooltip": "Windfury has a 10% additional chance to trigger and its damage is increased by 50%.",
@@ -4067,8 +4245,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4101,7 +4279,10 @@
         "talent_name": "Crash Lightning",
         "spell_id": 187874,
         "visible_spell_id": null,
-        "icon": "spell_shaman_crashlightning"
+        "icon": "spell_shaman_crashlightning",
+        "icon_candidates": [
+          "spell_shaman_crashlightning"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (183.617% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (97.7592% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
       "pvp_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (291.5103% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (93.4089% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
@@ -4257,8 +4438,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4290,7 +4471,10 @@
         "talent_name": "Molten Assault",
         "spell_id": 334033,
         "visible_spell_id": null,
-        "icon": "spell_fire_ragnaros_lavabolt"
+        "icon": "spell_fire_ragnaros_lavabolt",
+        "icon_candidates": [
+          "spell_fire_ragnaros_lavabolt"
+        ]
       },
       "pve_tooltip": "40 yd range\nLava Lash cooldown reduced by 6.0 sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to 5 nearby enemies.",
       "pvp_tooltip": "40 yd range\nLava Lash cooldown reduced by 6.0 sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to 5 nearby enemies.",
@@ -4314,8 +4498,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4349,7 +4533,10 @@
         "talent_name": "Unruly Winds",
         "spell_id": 390288,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_wind_wall"
+        "icon": "ability_skyreach_wind_wall",
+        "icon_candidates": [
+          "ability_skyreach_wind_wall"
+        ]
       },
       "pve_tooltip": "Windfury Weapon has a 100% chance to trigger a third attack.",
       "pvp_tooltip": "Windfury Weapon has a 100% chance to trigger a third attack.",
@@ -4373,8 +4560,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4408,7 +4595,10 @@
         "talent_name": "Overflowing Maelstrom",
         "spell_id": 384143,
         "visible_spell_id": null,
-        "icon": "inv_magic_swirl_color3"
+        "icon": "inv_magic_swirl_color3",
+        "icon_candidates": [
+          "inv_magic_swirl_color3"
+        ]
       },
       "pve_tooltip": "Maelstrom Weapon can now stack 5 additional times.\nEach Maelstrom Weapon stacks consumed grants Overflowing Maelstrom, reducing the cast time of your next Healing Surge or Chain Heal by 10%, and increasing their healing by 10% up to 10 times. This effect can be accumulated up to 20 times.",
       "pvp_tooltip": "Maelstrom Weapon can now stack 5 additional times.\nEach Maelstrom Weapon stacks consumed grants Overflowing Maelstrom, reducing the cast time of your next Healing Surge or Chain Heal by 10%, and increasing their healing by 10% up to 10 times. This effect can be accumulated up to 20 times.",
@@ -4432,8 +4622,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4467,7 +4657,10 @@
         "talent_name": "Ashen Catalyst",
         "spell_id": 390370,
         "visible_spell_id": null,
-        "icon": "spell_shaman_stormearthfire"
+        "icon": "spell_shaman_stormearthfire",
+        "icon_candidates": [
+          "spell_shaman_stormearthfire"
+        ]
       },
       "pve_tooltip": "When Lava Lash strikes a target affected by your Flame Shock, its cooldown is reduced by 2.0 sec.",
       "pvp_tooltip": "When Lava Lash strikes a target affected by your Flame Shock, its cooldown is reduced by 2.0 sec.",
@@ -4491,8 +4684,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4525,7 +4718,10 @@
         "talent_name": "Stormblast",
         "spell_id": 319930,
         "visible_spell_id": null,
-        "icon": "spell_shaman_focusedstrikes"
+        "icon": "spell_shaman_focusedstrikes",
+        "icon_candidates": [
+          "spell_shaman_focusedstrikes"
+        ]
       },
       "pve_tooltip": "40 yd range\nStormstrike has an additional charge.\nStormsurge now also causes your next Stormstrike to deal 25% additional damage as Nature damage, stacking up to 2 times.",
       "pvp_tooltip": "40 yd range\nStormstrike has an additional charge.\nStormsurge now also causes your next Stormstrike to deal 25% additional damage as Nature damage, stacking up to 2 times.",
@@ -4549,8 +4745,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4584,7 +4780,10 @@
         "talent_name": "Overcharge",
         "spell_id": 1251026,
         "visible_spell_id": null,
-        "icon": "spell_nature_unrelentingstorm"
+        "icon": "spell_nature_unrelentingstorm",
+        "icon_candidates": [
+          "spell_nature_unrelentingstorm"
+        ]
       },
       "pve_tooltip": "100 yd range\nThe critical strike damage of your Nature abilities are increased by 40% of your critical strike chance.",
       "pvp_tooltip": "100 yd range\nThe critical strike damage of your Nature abilities are increased by 40% of your critical strike chance.",
@@ -4608,8 +4807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4641,7 +4840,10 @@
         "talent_name": "Raging Maelstrom",
         "spell_id": 384149,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalabsorption"
+        "icon": "spell_nature_elementalabsorption",
+        "icon_candidates": [
+          "spell_nature_elementalabsorption"
+        ]
       },
       "pve_tooltip": "Lightning Bolt and Chain Lightning can consume up to 10 Maelstrom Weapon stacks.",
       "pvp_tooltip": "Lightning Bolt and Chain Lightning can consume up to 10 Maelstrom Weapon stacks.",
@@ -4665,8 +4867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4700,7 +4902,10 @@
         "talent_name": "Flurry",
         "spell_id": 382888,
         "visible_spell_id": null,
-        "icon": "ability_ghoulfrenzy"
+        "icon": "ability_ghoulfrenzy",
+        "icon_candidates": [
+          "ability_ghoulfrenzy"
+        ]
       },
       "pve_tooltip": "Increases your attack speed by 15% for your next 3 melee swings after dealing a critical strike with a spell or ability.",
       "pvp_tooltip": "Increases your attack speed by 15% for your next 3 melee swings after dealing a critical strike with a spell or ability.",
@@ -4724,8 +4929,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4758,7 +4963,10 @@
         "talent_name": "Hot Hand",
         "spell_id": 201900,
         "visible_spell_id": null,
-        "icon": "spell_fire_playingwithfire"
+        "icon": "spell_fire_playingwithfire",
+        "icon_candidates": [
+          "spell_fire_playingwithfire"
+        ]
       },
       "pve_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 50% and increase the damage of Lava Lash by 40% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
       "pvp_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 50% and increase the damage of Lava Lash by 40% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
@@ -4801,8 +5009,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4838,7 +5046,10 @@
         "talent_name": "Storm's Wrath",
         "spell_id": 392352,
         "visible_spell_id": null,
-        "icon": "spell_nature_stormreach"
+        "icon": "spell_nature_stormreach",
+        "icon_candidates": [
+          "spell_nature_stormreach"
+        ]
       },
       "pve_tooltip": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormsurge by 150%.",
       "pvp_tooltip": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormsurge by 150%.",
@@ -4862,8 +5073,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4899,7 +5110,10 @@
         "talent_name": "Elemental Tempo",
         "spell_id": 1250364,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalprecision_1"
+        "icon": "spell_nature_elementalprecision_1",
+        "icon_candidates": [
+          "spell_nature_elementalprecision_1"
+        ]
       },
       "pve_tooltip": "Elemental damage increased by 10%.\nEach stack of Maelstrom Weapon consumed reduces the cooldown of Stormstrike by 0.3 sec and Lava Lash by 0.3 sec.",
       "pvp_tooltip": "Elemental damage increased by 10%.\nEach stack of Maelstrom Weapon consumed reduces the cooldown of Stormstrike by 0.3 sec and Lava Lash by 0.3 sec.",
@@ -4923,8 +5137,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4960,7 +5174,10 @@
         "talent_name": "Voltaic Blaze",
         "spell_id": 470057,
         "visible_spell_id": null,
-        "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_fire"
+        "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_fire",
+        "icon_candidates": [
+          "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_fire"
+        ]
       },
       "pve_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (400% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
       "pvp_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (420% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
@@ -5044,8 +5261,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5078,7 +5295,10 @@
         "talent_name": "Chaining Storms",
         "spell_id": 334308,
         "visible_spell_id": null,
-        "icon": "spell_nature_chainlightning"
+        "icon": "spell_nature_chainlightning",
+        "icon_candidates": [
+          "spell_nature_chainlightning"
+        ]
       },
       "pve_tooltip": "Chain Lightning now jumps to 2 additional targets and deals 10% increased damage.",
       "pvp_tooltip": "Chain Lightning now jumps to 2 additional targets and deals 10% increased damage.",
@@ -5102,8 +5322,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5135,7 +5355,10 @@
         "talent_name": "Converging Storms",
         "spell_id": 384363,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_stormbolt"
+        "icon": "warrior_talent_icon_stormbolt",
+        "icon_candidates": [
+          "warrior_talent_icon_stormbolt"
+        ]
       },
       "pve_tooltip": "Each target hit by Crash Lightning increases the damage of your next Stormstrike by 25%, up to a maximum of 6 stacks.",
       "pvp_tooltip": "Each target hit by Crash Lightning increases the damage of your next Stormstrike by 10%, up to a maximum of 6 stacks.",
@@ -5211,8 +5434,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5246,7 +5469,10 @@
         "talent_name": "Stormflurry",
         "spell_id": 344357,
         "visible_spell_id": null,
-        "icon": "ability_shaman_stormstrike"
+        "icon": "ability_shaman_stormstrike",
+        "icon_candidates": [
+          "ability_shaman_stormstrike"
+        ]
       },
       "pve_tooltip": "100 yd range\nStormstrike has a 20% chance to strike the target an additional time for 40% of normal damage. This effect can chain off of itself.",
       "pvp_tooltip": "100 yd range\nStormstrike has a 20% chance to strike the target an additional time for 40% of normal damage. This effect can chain off of itself.",
@@ -5270,8 +5496,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5303,7 +5529,10 @@
         "talent_name": "Stormbind",
         "spell_id": 1251069,
         "visible_spell_id": null,
-        "icon": "ability_siege_engineer_magnetic_lasso"
+        "icon": "ability_siege_engineer_magnetic_lasso",
+        "icon_candidates": [
+          "ability_siege_engineer_magnetic_lasso"
+        ]
       },
       "pve_tooltip": "100 yd range\nCritical strikes of your Nature abilities reduce the target's movement speed by 60% for 5 sec.",
       "pvp_tooltip": "100 yd range\nCritical strikes of your Nature abilities reduce the target's movement speed by 60% for 5 sec.",
@@ -5327,8 +5556,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5362,7 +5591,10 @@
         "talent_name": "Elemental Weapons",
         "spell_id": 384355,
         "visible_spell_id": null,
-        "icon": "inv_mace_2h_draenorraid_d_03"
+        "icon": "inv_mace_2h_draenorraid_d_03",
+        "icon_candidates": [
+          "inv_mace_2h_draenorraid_d_03"
+        ]
       },
       "pve_tooltip": "Each active weapon imbue increases all Fire, Frost, and Nature damage dealt by 5.0%.",
       "pvp_tooltip": "Each active weapon imbue increases all Fire, Frost, and Nature damage dealt by 5.0%.",
@@ -5386,8 +5618,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5419,7 +5651,10 @@
         "talent_name": "Fire Nova",
         "spell_id": 1260666,
         "visible_spell_id": null,
-        "icon": "spell_shaman_lavaflow"
+        "icon": "spell_shaman_lavaflow",
+        "icon_candidates": [
+          "spell_shaman_lavaflow"
+        ]
       },
       "pve_tooltip": "Voltaic Blaze generates 2 additional Maelstrom Weapon and has a 30% chance to cause a Fire Nova.\nFire Nova\nErupt a burst of fiery damage from all targets affected by your Flame Shock, dealing (99.682% of Attack Power) Volcanic damage to up to 6 targets within 8 yds of your Flame Shock targets.",
       "pvp_tooltip": "Voltaic Blaze generates 2 additional Maelstrom Weapon and has a 30% chance to cause a Fire Nova.\nFire Nova\nErupt a burst of fiery damage from all targets affected by your Flame Shock, dealing (99.682% of Attack Power) Volcanic damage to up to 6 targets within 8 yds of your Flame Shock targets.",
@@ -5486,8 +5721,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5520,7 +5755,10 @@
         "talent_name": "Lashing Flames",
         "spell_id": 334046,
         "visible_spell_id": null,
-        "icon": "spell_shaman_shockinglava"
+        "icon": "spell_shaman_shockinglava",
+        "icon_candidates": [
+          "spell_shaman_shockinglava"
+        ]
       },
       "pve_tooltip": "100 yd range\nLava Lash and Sundering increases the damage of Flame Shock on its target by 100% for 20 sec.",
       "pvp_tooltip": "100 yd range\nLava Lash and Sundering increases the damage of Flame Shock on its target by 100% for 20 sec.",
@@ -5544,8 +5782,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5580,7 +5818,10 @@
         "talent_name": "Ride the Lightning",
         "spell_id": 289874,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_balllightning"
+        "icon": "ability_thunderking_balllightning",
+        "icon_candidates": [
+          "ability_thunderking_balllightning"
+        ]
       },
       "pve_tooltip": "Stormstrike and Lava Lash unleash a Chain Lightning at 100% effectiveness that deals 20% reduced damage with each jump.",
       "pvp_tooltip": "Stormstrike and Lava Lash unleash a Chain Lightning at 100% effectiveness that deals 20% reduced damage with each jump.",
@@ -5604,8 +5845,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5641,7 +5882,10 @@
         "talent_name": "Doom Winds",
         "spell_id": 384352,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_swirlingvortex"
+        "icon": "ability_ironmaidens_swirlingvortex",
+        "icon_candidates": [
+          "ability_ironmaidens_swirlingvortex"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (120% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
       "pvp_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (126% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
@@ -5725,8 +5969,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5761,7 +6005,10 @@
         "talent_name": "Sundering",
         "spell_id": 197214,
         "visible_spell_id": null,
-        "icon": "ability_rhyolith_lavapool"
+        "icon": "ability_rhyolith_lavapool",
+        "icon_candidates": [
+          "ability_rhyolith_lavapool"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (253.92% of Attack Power) Flamestrike damage to any enemy hit.",
       "pvp_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (266.616% of Attack Power) Flamestrike damage to any enemy hit.",
@@ -5840,8 +6087,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5873,7 +6120,10 @@
         "talent_name": "Lightning Strikes",
         "spell_id": 384450,
         "visible_spell_id": null,
-        "icon": "ability_thunderclap"
+        "icon": "ability_thunderclap",
+        "icon_candidates": [
+          "ability_thunderclap"
+        ]
       },
       "pve_tooltip": "Consuming 10 stacks of Maelstrom Weapon increases the damage of your next Stormstrike or Lava Lash by 25% and causes them to generate a stack of Maelstrom Weapon.",
       "pvp_tooltip": "Consuming 10 stacks of Maelstrom Weapon increases the damage of your next Stormstrike or Lava Lash by 25% and causes them to generate a stack of Maelstrom Weapon.",
@@ -5897,8 +6147,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5929,7 +6179,10 @@
         "talent_name": "Elemental Assault",
         "spell_id": 210853,
         "visible_spell_id": null,
-        "icon": "spell_shaman_improvedstormstrike"
+        "icon": "spell_shaman_improvedstormstrike",
+        "icon_candidates": [
+          "spell_shaman_improvedstormstrike"
+        ]
       },
       "pve_tooltip": "Stormstrike damage is increased by 20%, and Stormstrike and Lava Lash have a 100% chance to generate 1 stack of Maelstrom Weapon.\n(100ms cooldown)",
       "pvp_tooltip": "Stormstrike damage is increased by 20%, and Stormstrike and Lava Lash have a 100% chance to generate 1 stack of Maelstrom Weapon.\n(100ms cooldown)",
@@ -5953,8 +6206,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5987,7 +6240,10 @@
         "talent_name": "Static Accumulation",
         "spell_id": 384411,
         "visible_spell_id": null,
-        "icon": "spell_nature_callstorm"
+        "icon": "spell_nature_callstorm",
+        "icon_candidates": [
+          "spell_nature_callstorm"
+        ]
       },
       "pve_tooltip": "During Doom Winds or Ascendance, you generate 2 Maelstrom Weapon stack every 1 sec.",
       "pvp_tooltip": "During Doom Winds or Ascendance, you generate 2 Maelstrom Weapon stack every 1 sec.",
@@ -6030,8 +6286,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6062,7 +6318,10 @@
         "talent_name": "Feral Spirit",
         "spell_id": 469314,
         "visible_spell_id": null,
-        "icon": "spell_shaman_feralspirit"
+        "icon": "spell_shaman_feralspirit",
+        "icon_candidates": [
+          "spell_shaman_feralspirit"
+        ]
       },
       "pve_tooltip": "Casting Sundering summons 1 Fire Feral Spirit and Doom Winds summons 1 Nature Feral Spirit by your side for 8 sec.\nFeral Spirit\nAn Elemental Spirit [Glyph of Spirit Raptors: Raptor / Wolf] infused with Fire or Nature magic, granting the summoner with 5% increased Fire or Nature damage and 5% Physical damage for 8 sec.",
       "pvp_tooltip": "Casting Sundering summons 1 Fire Feral Spirit and Doom Winds summons 1 Nature Feral Spirit by your side for 8 sec.\nFeral Spirit\nAn Elemental Spirit [Glyph of Spirit Raptors: Raptor / Wolf] infused with Fire or Nature magic, granting the summoner with 5% increased Fire or Nature damage and 5% Physical damage for 8 sec.",
@@ -6086,8 +6345,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6119,7 +6378,10 @@
         "talent_name": "Surging Elements",
         "spell_id": 382042,
         "visible_spell_id": null,
-        "icon": "item_sparkofragnoros"
+        "icon": "item_sparkofragnoros",
+        "icon_candidates": [
+          "item_sparkofragnoros"
+        ]
       },
       "pve_tooltip": "Casting Sundering grants you 15% Haste for 12 sec, and generates 5 stacks of Maelstrom Weapon.",
       "pvp_tooltip": "Casting Sundering grants you 15% Haste for 12 sec, and generates 5 stacks of Maelstrom Weapon.",
@@ -6174,8 +6436,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6205,7 +6467,10 @@
         "talent_name": "Thunder Capacitor",
         "spell_id": 1262635,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_thunderstruck"
+        "icon": "ability_thunderking_thunderstruck",
+        "icon_candidates": [
+          "ability_thunderking_thunderstruck"
+        ]
       },
       "pve_tooltip": "Lightning Bolt and Chain Lightning deal 20% increased damage and have a 20% chance to refund the Maelstrom Weapon spent.",
       "pvp_tooltip": "Lightning Bolt and Chain Lightning deal 20% increased damage and have a 20% chance to refund the Maelstrom Weapon spent.",
@@ -6229,8 +6494,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6260,7 +6525,10 @@
         "talent_name": "Deeply Rooted Elements",
         "spell_id": 378270,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_liferoot_stem"
+        "icon": "inv_misc_herb_liferoot_stem",
+        "icon_candidates": [
+          "inv_misc_herb_liferoot_stem"
+        ]
       },
       "pve_tooltip": "Each stack of Maelstrom Weapon consumed has a 0.6% chance to activate Ascendance for 6.0 sec.\nAscendance\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.",
       "pvp_tooltip": "Each stack of Maelstrom Weapon consumed has a 0.6% chance to activate Ascendance for 6.0 sec.\nAscendance\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.",
@@ -6409,8 +6677,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6440,7 +6708,10 @@
         "talent_name": "Ascendance",
         "spell_id": 114051,
         "visible_spell_id": null,
-        "icon": "inv121_ability_shaman_ascendance_air"
+        "icon": "inv121_ability_shaman_ascendance_air",
+        "icon_candidates": [
+          "inv121_ability_shaman_ascendance_air"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.\nMaelstrom Weapon spenders have a 0.5% chance to unleash Doom Winds per Maelstrom Weapon spent while Ascendance is not active.",
       "pvp_tooltip": "Instant\n3 min cooldown\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.\nMaelstrom Weapon spenders have a 0.5% chance to unleash Doom Winds per Maelstrom Weapon spent while Ascendance is not active.",
@@ -6545,8 +6816,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6576,7 +6847,10 @@
         "talent_name": "Thorim's Invocation",
         "spell_id": 384444,
         "visible_spell_id": null,
-        "icon": "spell_shaman_ancestralawakening"
+        "icon": "spell_shaman_ancestralawakening",
+        "icon_candidates": [
+          "spell_shaman_ancestralawakening"
+        ]
       },
       "pve_tooltip": "Doom Winds and Deeply Rooted Elements last 2 sec longer, and the cooldown of Ascendance is reduced by 60 sec.\nDuring Doom Winds or Ascendance, Stormstrike and Crash Lightning consume up to 10 Maelstrom Weapon to discharge a Lightning Bolt or Chain Lightning at 100% effectiveness at your enemy, whichever you most recently used.",
       "pvp_tooltip": "Doom Winds and Deeply Rooted Elements last 2 sec longer, and the cooldown of Ascendance is reduced by 60 sec.\nDuring Doom Winds or Ascendance, Stormstrike and Crash Lightning consume up to 10 Maelstrom Weapon to discharge a Lightning Bolt or Chain Lightning at 35% effectiveness at your enemy, whichever you most recently used.",
@@ -6647,8 +6921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6678,7 +6952,10 @@
         "talent_name": "Primordial Storm",
         "spell_id": 1218047,
         "visible_spell_id": null,
-        "icon": "ability_shaman_ascendance"
+        "icon": "ability_shaman_ascendance",
+        "icon_candidates": [
+          "ability_shaman_ascendance"
+        ]
       },
       "pve_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (118.8% of Attack Power) Flamestrike, (118.8% of Attack Power) Froststrike, (118.8% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 150% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
       "pvp_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (89.8128% of Attack Power) Flamestrike, (89.8128% of Attack Power) Froststrike, (89.8128% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 100% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
@@ -6938,8 +7215,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6967,7 +7244,10 @@
         "talent_name": "Storm Unleashed",
         "spell_id": 1262713,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_shaman_stormunleashed"
+        "icon": "inv12_apextalent_shaman_stormunleashed",
+        "icon_candidates": [
+          "inv12_apextalent_shaman_stormunleashed"
+        ]
       },
       "pve_tooltip": "Each Maelstrom Weapon spent has a 2% chance to cause your next Crash Lightning to ignore its cooldown. The weapon enhancement effect of Crash Lightning may now overlap.",
       "pvp_tooltip": "Each Maelstrom Weapon spent has a 2% chance to cause your next Crash Lightning to ignore its cooldown. The weapon enhancement effect of Crash Lightning may now overlap.",
@@ -6991,8 +7271,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7020,7 +7300,10 @@
         "talent_name": "Storm Unleashed",
         "spell_id": 1262761,
         "visible_spell_id": null,
-        "icon": "spell_druid_astralstorm"
+        "icon": "spell_druid_astralstorm",
+        "icon_candidates": [
+          "spell_druid_astralstorm"
+        ]
       },
       "pve_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
       "pvp_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
@@ -7063,8 +7346,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7092,7 +7375,10 @@
         "talent_name": "Storm Unleashed",
         "spell_id": 1252373,
         "visible_spell_id": null,
-        "icon": "spell_druid_astralstorm"
+        "icon": "spell_druid_astralstorm",
+        "icon_candidates": [
+          "spell_druid_astralstorm"
+        ]
       },
       "pve_tooltip": "Crash Lightning electrocutes the area struck, dealing 50% of its damage 2 additional times over 2 sec, and its weapon enhancement effect now increases auto-attack speed by 15%.",
       "pvp_tooltip": "Crash Lightning electrocutes the area struck, dealing 50% of its damage 2 additional times over 2 sec, and its weapon enhancement effect now increases auto-attack speed by 15%.",
@@ -7177,8 +7463,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7211,7 +7497,10 @@
         "talent_name": "Surging Totem",
         "spell_id": 455630,
         "visible_spell_id": 444995,
-        "icon": "inv_ability_totemicshaman_surgingtotem"
+        "icon": "inv_ability_totemicshaman_surgingtotem",
+        "icon_candidates": [
+          "inv_ability_totemicshaman_surgingtotem"
+        ]
       },
       "pve_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (122.382% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
       "pvp_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (128.5011% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
@@ -7312,8 +7601,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7345,7 +7634,10 @@
         "talent_name": "Totemic Rebound",
         "spell_id": 445025,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_electrocharge"
+        "icon": "ability_vehicle_electrocharge",
+        "icon_candidates": [
+          "ability_vehicle_electrocharge"
+        ]
       },
       "pve_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (161% of Attack Power) Nature damage. The damage bonus effect can stack.",
       "pvp_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (143.6925% of Attack Power) Nature damage. The damage bonus effect can stack.",
@@ -7431,8 +7723,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7464,7 +7756,10 @@
         "talent_name": "Amplification Core",
         "spell_id": 445029,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburststacks"
+        "icon": "ability_evoker_essenceburststacks",
+        "icon_candidates": [
+          "ability_evoker_essenceburststacks"
+        ]
       },
       "pve_tooltip": "While Surging Totem is active, your damage and healing done is increased by 3%.",
       "pvp_tooltip": "While Surging Totem is active, your damage and healing done is increased by 3%.",
@@ -7488,8 +7783,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7521,7 +7816,10 @@
         "talent_name": "Oversurge",
         "spell_id": 445030,
         "visible_spell_id": null,
-        "icon": "spell_fire_elementaldevastation"
+        "icon": "spell_fire_elementaldevastation",
+        "icon_candidates": [
+          "spell_fire_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Surging Totem deals 50% more damage while Ascendance or Healing Tide Totem is active.",
       "pvp_tooltip": "Surging Totem deals 25% more damage while Ascendance or Healing Tide Totem is active.",
@@ -7545,7 +7843,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": 150.0,
           "new": 60.0,
           "full_tooltip_match_count": 0
@@ -7635,8 +7933,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7668,7 +7966,10 @@
         "talent_name": "Lively Totems",
         "spell_id": 445034,
         "visible_spell_id": null,
-        "icon": "spell_fire_searingtotem"
+        "icon": "spell_fire_searingtotem",
+        "icon_candidates": [
+          "spell_fire_searingtotem"
+        ]
       },
       "pve_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (65.205% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (92.736% of Spell Power) Fire damage.",
       "pvp_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (68.4652% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (97.3728% of Spell Power) Fire damage.",
@@ -7793,36 +8094,6 @@
           ],
           "source_notes": [],
           "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 445034,
-          "source_spell_id": 458221,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 1.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.5,
-          "final_pvp_value": 150.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            445034,
-            458221
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -7839,8 +8110,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7872,7 +8143,10 @@
         "talent_name": "Totemic Momentum",
         "spell_id": 1260644,
         "visible_spell_id": null,
-        "icon": "spell_frost_fireresistancetotem"
+        "icon": "spell_frost_fireresistancetotem",
+        "icon_candidates": [
+          "spell_frost_fireresistancetotem"
+        ]
       },
       "pve_tooltip": "Lava Lash damage increased by 10%.\nEach stack of Maelstrom Weapon consumed increases the duration of an active Hot Hand by 0.20 sec.",
       "pvp_tooltip": "Lava Lash damage increased by 10%.\nEach stack of Maelstrom Weapon consumed increases the duration of an active Hot Hand by 0.20 sec.",
@@ -7896,8 +8170,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7929,7 +8203,10 @@
         "talent_name": "Oversized Totems",
         "spell_id": 445026,
         "visible_spell_id": null,
-        "icon": "ability_shaman_totemrelocation"
+        "icon": "ability_shaman_totemrelocation",
+        "icon_candidates": [
+          "ability_shaman_totemrelocation"
+        ]
       },
       "pve_tooltip": "Increases the size and radius of your totems by 15%, and the health of your totems by 30%.",
       "pvp_tooltip": "Increases the size and radius of your totems by 15%, and the health of your totems by 30%.",
@@ -7953,8 +8230,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7986,7 +8263,10 @@
         "talent_name": "Swift Recall",
         "spell_id": 445027,
         "visible_spell_id": null,
-        "icon": "spell_nature_brilliance"
+        "icon": "spell_nature_brilliance",
+        "icon_candidates": [
+          "spell_nature_brilliance"
+        ]
       },
       "pve_tooltip": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by 5 sec.\nCannot occur more than once every 20 sec per totem.",
       "pvp_tooltip": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by 5 sec.\nCannot occur more than once every 20 sec per totem.",
@@ -8010,8 +8290,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8043,7 +8323,10 @@
         "talent_name": "Wind Barrier",
         "spell_id": 445031,
         "visible_spell_id": null,
-        "icon": "spell_nature_eyeofthestorm"
+        "icon": "spell_nature_eyeofthestorm",
+        "icon_candidates": [
+          "spell_nature_eyeofthestorm"
+        ]
       },
       "pve_tooltip": "If you have a totem active, your totem grants you a shield absorbing (Total Health * 6 / 100) damage for 30 sec every 30 sec.",
       "pvp_tooltip": "If you have a totem active, your totem grants you a shield absorbing (Total Health * 6 / 100) damage for 30 sec every 30 sec.",
@@ -8067,8 +8350,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8100,7 +8383,10 @@
         "talent_name": "Splitstream",
         "spell_id": 445035,
         "visible_spell_id": null,
-        "icon": "ability_rhyolith_lavapool"
+        "icon": "ability_rhyolith_lavapool",
+        "icon_candidates": [
+          "ability_rhyolith_lavapool"
+        ]
       },
       "pve_tooltip": "While Hot Hand is active Lava Lash shatters the earth, causing a Sundering at 80% effectiveness.",
       "pvp_tooltip": "While Hot Hand is active Lava Lash shatters the earth, causing a Sundering at 80% effectiveness.",
@@ -8113,7 +8399,7 @@
             3
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": 30.0,
           "new": 15.0,
           "full_tooltip_match_count": 1
@@ -8161,8 +8447,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8194,7 +8480,10 @@
         "talent_name": "Elemental Attunement",
         "spell_id": 1263288,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_primordial"
+        "icon": "inv_10_elementalcombinedfoozles_primordial",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_primordial"
+        ]
       },
       "pve_tooltip": "Mastery increased by 2%.",
       "pvp_tooltip": "Mastery increased by 2%.",
@@ -8218,8 +8507,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8251,7 +8540,10 @@
         "talent_name": "Imbuement Mastery",
         "spell_id": 445028,
         "visible_spell_id": null,
-        "icon": "spell_shaman_unleashweapon_wind"
+        "icon": "spell_shaman_unleashweapon_wind",
+        "icon_candidates": [
+          "spell_shaman_unleashweapon_wind"
+        ]
       },
       "pve_tooltip": "Increases the chance for Windfury Weapon to trigger by 5% and increases its damage by 8%.\nWhen Flametongue Weapon triggers from Windfury Weapon attacks, it has a chance to gather a whirl of flame around the target, dealing 300% of its damage to all nearby enemies.",
       "pvp_tooltip": "Increases the chance for Windfury Weapon to trigger by 5% and increases its damage by 8%.\nWhen Flametongue Weapon triggers from Windfury Weapon attacks, it has a chance to gather a whirl of flame around the target, dealing 300% of its damage to all nearby enemies.",
@@ -8275,8 +8567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8308,7 +8600,10 @@
         "talent_name": "Pulse Capacitor",
         "spell_id": 445032,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalprecision_1"
+        "icon": "spell_nature_elementalprecision_1",
+        "icon_candidates": [
+          "spell_nature_elementalprecision_1"
+        ]
       },
       "pve_tooltip": "Increases the damage of Surging Totem by 18%.",
       "pvp_tooltip": "Increases the damage of Surging Totem by 18%.",
@@ -8332,8 +8627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8365,7 +8660,10 @@
         "talent_name": "Supportive Imbuements",
         "spell_id": 445033,
         "visible_spell_id": null,
-        "icon": "ability_shaman_fortifyingwaters"
+        "icon": "ability_shaman_fortifyingwaters",
+        "icon_candidates": [
+          "ability_shaman_fortifyingwaters"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of Flametongue Weapon by 25%, and its critical strike damage by 100%.",
       "pvp_tooltip": "Increases the critical strike chance of Flametongue Weapon by 25%, and its critical strike damage by 100%.",
@@ -8389,8 +8687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8422,7 +8720,10 @@
         "talent_name": "Totemic Coordination",
         "spell_id": 445036,
         "visible_spell_id": null,
-        "icon": "ability_shaman_echooftheelements"
+        "icon": "ability_shaman_echooftheelements",
+        "icon_candidates": [
+          "ability_shaman_echooftheelements"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Searing Totem's attacks by 15%, and its critical strike damage by 30%.",
       "pvp_tooltip": "Increases the critical strike chance of your Searing Totem's attacks by 15%, and its critical strike damage by 30%.",
@@ -8446,8 +8747,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8479,25 +8780,17 @@
         "talent_name": "Earthsurge",
         "spell_id": 455590,
         "visible_spell_id": null,
-        "icon": "inv_elementalearth2"
+        "icon": "inv_elementalearth2",
+        "icon_candidates": [
+          "inv_elementalearth2"
+        ]
       },
       "pve_tooltip": "Casting Sundering within 40 yards of your Surging Totem causes it to create a Tremor at 125% effectiveness at the target area.",
       "pvp_tooltip": "Casting Sundering within 40 yards of your Surging Totem causes it to create a Tremor at 125% effectiveness at the target area.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 15.0,
-          "new": 5.010000000000001,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8526,7 +8819,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -8540,8 +8833,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8573,7 +8866,10 @@
         "talent_name": "Primal Catalyst",
         "spell_id": 1260874,
         "visible_spell_id": null,
-        "icon": "misc_legionfall_shaman"
+        "icon": "misc_legionfall_shaman",
+        "icon_candidates": [
+          "misc_legionfall_shaman"
+        ]
       },
       "pve_tooltip": "After casting Surging Totem, your next Lava Lash casts again at 150% effectiveness.",
       "pvp_tooltip": "After casting Surging Totem, your next Lava Lash casts again at 50.1% effectiveness.",
@@ -8644,8 +8940,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8678,7 +8974,10 @@
         "talent_name": "Whirling Elements",
         "spell_id": 445024,
         "visible_spell_id": null,
-        "icon": "inv_10_enchanting2_elementalswirl_color1"
+        "icon": "inv_10_enchanting2_elementalswirl_color1",
+        "icon_candidates": [
+          "inv_10_enchanting2_elementalswirl_color1"
+        ]
       },
       "pve_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nAir: Your next Lightning Bolt, Chain Lightning or Elemental Blast unleashes 3 Surging Bolts at your Surging Totem\nEarth: Your next Sundering deals 100% increased damage and summons a Searing Totem\nFire: Your next Lava Lash grants you Hot Hand for 8 sec.",
       "pvp_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nAir: Your next Lightning Bolt, Chain Lightning or Elemental Blast unleashes 3 Surging Bolts at your Surging Totem\nEarth: Your next Sundering deals 100% increased damage and summons a Searing Totem\nFire: Your next Lava Lash grants you Hot Hand for 8 sec.",
@@ -8702,8 +9001,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8736,7 +9035,10 @@
         "talent_name": "Tempest",
         "spell_id": 454009,
         "visible_spell_id": null,
-        "icon": "inv_ability_stormcallershaman_tempest"
+        "icon": "inv_ability_stormcallershaman_tempest",
+        "icon_candidates": [
+          "inv_ability_stormcallershaman_tempest"
+        ]
       },
       "pve_tooltip": "Each Maelstrom Weapon spent has a 2.00% chance to upgrade your next Lightning Bolt to Tempest.\nTempest\n0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.\nConsumes Maelstrom Weapon for increased cast speed.",
       "pvp_tooltip": "Each Maelstrom Weapon spent has a 2.00% chance to upgrade your next Lightning Bolt to Tempest.\nTempest\n0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.\nConsumes Maelstrom Weapon for increased cast speed.",
@@ -8760,8 +9062,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8793,7 +9095,10 @@
         "talent_name": "Unlimited Power",
         "spell_id": 454391,
         "visible_spell_id": null,
-        "icon": "spell_nature_purge"
+        "icon": "spell_nature_purge",
+        "icon_candidates": [
+          "spell_nature_purge"
+        ]
       },
       "pve_tooltip": "Spending Maelstrom Weapon stacks grants you 1% haste for 15 sec.\nMultiple applications may overlap.",
       "pvp_tooltip": "Spending Maelstrom Weapon stacks grants you 1% haste for 15 sec.\nMultiple applications may overlap.",
@@ -8817,8 +9122,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8850,7 +9155,10 @@
         "talent_name": "Stormcaller",
         "spell_id": 454021,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_electrocharge"
+        "icon": "ability_vehicle_electrocharge",
+        "icon_candidates": [
+          "ability_vehicle_electrocharge"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Nature damage spells by 5% and the critical strike damage of your Nature spells by 10%.",
       "pvp_tooltip": "Increases the critical strike chance of your Nature damage spells by 5% and the critical strike damage of your Nature spells by 10%.",
@@ -8874,8 +9182,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8907,7 +9215,10 @@
         "talent_name": "Lightning Conduit",
         "spell_id": 467778,
         "visible_spell_id": null,
-        "icon": "spell_shaman_staticshock"
+        "icon": "spell_shaman_staticshock",
+        "icon_candidates": [
+          "spell_shaman_staticshock"
+        ]
       },
       "pve_tooltip": "You have a chance to get struck by lightning, increasing your movement speed by 50% for 5 sec. The effectiveness is increased to 100% in outdoor areas.\nYou call down a Thunderstorm when you Reincarnate.",
       "pvp_tooltip": "You have a chance to get struck by lightning, increasing your movement speed by 50% for 5 sec. The effectiveness is increased to 100% in outdoor areas.\nYou call down a Thunderstorm when you Reincarnate.",
@@ -8931,8 +9242,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8964,7 +9275,10 @@
         "talent_name": "Electroshock",
         "spell_id": 454022,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_overcharge"
+        "icon": "ability_thunderking_overcharge",
+        "icon_candidates": [
+          "ability_thunderking_overcharge"
+        ]
       },
       "pve_tooltip": "Tempest increases your movement speed by 20% for 5 sec.",
       "pvp_tooltip": "Tempest increases your movement speed by 20% for 5 sec.",
@@ -8988,8 +9302,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9021,7 +9335,10 @@
         "talent_name": "Stormwell",
         "spell_id": 1264762,
         "visible_spell_id": null,
-        "icon": "inv_112_raidtrinkets_etherealenergystoragesphere_purple"
+        "icon": "inv_112_raidtrinkets_etherealenergystoragesphere_purple",
+        "icon_candidates": [
+          "inv_112_raidtrinkets_etherealenergystoragesphere_purple"
+        ]
       },
       "pve_tooltip": "Windfury Weapon damage increased by 10%.\nWhen Crash Lightning hits a single enemy, it activates Windfury Weapon.",
       "pvp_tooltip": "Windfury Weapon damage increased by 10%.\nWhen Crash Lightning hits a single enemy, it activates Windfury Weapon.",
@@ -9045,8 +9362,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9078,7 +9395,10 @@
         "talent_name": "Storm Swell",
         "spell_id": 455088,
         "visible_spell_id": null,
-        "icon": "spell_nature_unrelentingstorm"
+        "icon": "spell_nature_unrelentingstorm",
+        "icon_candidates": [
+          "spell_nature_unrelentingstorm"
+        ]
       },
       "pve_tooltip": "Tempest grants (5 * $mas)% Mastery for 6 sec.",
       "pvp_tooltip": "Tempest grants (5 * $mas)% Mastery for 6 sec.",
@@ -9102,8 +9422,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9135,7 +9455,10 @@
         "talent_name": "Supercharge",
         "spell_id": 455110,
         "visible_spell_id": null,
-        "icon": "inv_misc_stormlordsfavor"
+        "icon": "inv_misc_stormlordsfavor",
+        "icon_candidates": [
+          "inv_misc_stormlordsfavor"
+        ]
       },
       "pve_tooltip": "Lightning Bolt, Tempest, and Chain Lightning have a 35% chance to refund 2 Maelstrom Weapon stacks.",
       "pvp_tooltip": "Lightning Bolt, Tempest, and Chain Lightning have a 35% chance to refund 2 Maelstrom Weapon stacks.",
@@ -9159,8 +9482,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9192,7 +9515,10 @@
         "talent_name": "Arc Discharge",
         "spell_id": 455096,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_balllightning"
+        "icon": "ability_thunderking_balllightning",
+        "icon_candidates": [
+          "ability_thunderking_balllightning"
+        ]
       },
       "pve_tooltip": "Tempest causes your next Chain Lightning to be instant cast, deal 40% increased damage, and cast an additional time.\nCan accumulate up to 2 charges.",
       "pvp_tooltip": "Tempest causes your next Chain Lightning to be instant cast, deal 20% increased damage, and cast an additional time.\nCan accumulate up to 2 charges.",
@@ -9268,8 +9594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9301,7 +9627,10 @@
         "talent_name": "Rolling Thunder",
         "spell_id": 454026,
         "visible_spell_id": null,
-        "icon": "spell_lightning_lightningbolt01"
+        "icon": "spell_lightning_lightningbolt01",
+        "icon_candidates": [
+          "spell_lightning_lightningbolt01"
+        ]
       },
       "pve_tooltip": "Doom Winds summons a Nature Feral Spirit for 12 sec.\nFeral Spirit\nAn Elemental Spirit infused with Nature magic, granting the summoner with 5% increased Nature damage and 5% Physical damage for 12 sec.",
       "pvp_tooltip": "Doom Winds summons a Nature Feral Spirit for 12 sec.\nFeral Spirit\nAn Elemental Spirit infused with Nature magic, granting the summoner with 5% increased Nature damage and 5% Physical damage for 12 sec.",
@@ -9325,8 +9654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9358,7 +9687,10 @@
         "talent_name": "Natural Gift",
         "spell_id": 1264691,
         "visible_spell_id": null,
-        "icon": "spell_shaman_maelstromweapon"
+        "icon": "spell_shaman_maelstromweapon",
+        "icon_candidates": [
+          "spell_shaman_maelstromweapon"
+        ]
       },
       "pve_tooltip": "Nature damage is increased by 6%\n(100ms cooldown)",
       "pvp_tooltip": "Nature damage is increased by 6%\n(100ms cooldown)",
@@ -9382,8 +9714,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9415,7 +9747,10 @@
         "talent_name": "Voltaic Surge",
         "spell_id": 454919,
         "visible_spell_id": null,
-        "icon": "spell_nature_callstorm"
+        "icon": "spell_nature_callstorm",
+        "icon_candidates": [
+          "spell_nature_callstorm"
+        ]
       },
       "pve_tooltip": "Crash Lightning and Chain Lightning damage increased by 20%.",
       "pvp_tooltip": "Crash Lightning and Chain Lightning damage increased by 20%.",
@@ -9439,8 +9774,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9472,7 +9807,10 @@
         "talent_name": "Conductive Energy",
         "spell_id": 455123,
         "visible_spell_id": null,
-        "icon": "inv_rod_enchantedcobalt"
+        "icon": "inv_rod_enchantedcobalt",
+        "icon_candidates": [
+          "inv_rod_enchantedcobalt"
+        ]
       },
       "pve_tooltip": "Gain the effects of the Lightning Rod talent:\nLightning Rod\n[Tempest: Tempest] Lightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [Tempest: Tempest, Lightning Bolt / Lightning Bolt] and Chain Lightning.",
       "pvp_tooltip": "Gain the effects of the Lightning Rod talent:\nLightning Rod\n[Tempest: Tempest] Lightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [Tempest: Tempest, Lightning Bolt / Lightning Bolt] and Chain Lightning.",
@@ -9496,8 +9834,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9529,7 +9867,10 @@
         "talent_name": "Nature's Protection",
         "spell_id": 454027,
         "visible_spell_id": null,
-        "icon": "spell_nature_lightningshield"
+        "icon": "spell_nature_lightningshield",
+        "icon_candidates": [
+          "spell_nature_lightningshield"
+        ]
       },
       "pve_tooltip": "Lightning Shield reduces the damage you take by 3%.",
       "pvp_tooltip": "Lightning Shield reduces the damage you take by 3%.",
@@ -9553,8 +9894,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9586,7 +9927,10 @@
         "talent_name": "Surging Currents",
         "spell_id": 454372,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_thunderstruck"
+        "icon": "ability_thunderking_thunderstruck",
+        "icon_candidates": [
+          "ability_thunderking_thunderstruck"
+        ]
       },
       "pve_tooltip": "Casting Tempest grants Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by 16%, up to 80%.\n(900ms cooldown)",
       "pvp_tooltip": "Casting Tempest grants Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by 16%, up to 80%.\n(900ms cooldown)",
@@ -9610,8 +9954,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9643,7 +9987,10 @@
         "talent_name": "Descending Skies",
         "spell_id": 1264688,
         "visible_spell_id": null,
-        "icon": "spell_nature_wispheal"
+        "icon": "spell_nature_wispheal",
+        "icon_candidates": [
+          "spell_nature_wispheal"
+        ]
       },
       "pve_tooltip": "Ascendance upgrades your next Lightning Bolt to Tempest.",
       "pvp_tooltip": "Ascendance upgrades your next Lightning Bolt to Tempest.",
@@ -9667,8 +10014,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9701,7 +10048,10 @@
         "talent_name": "Awakening Storms",
         "spell_id": 455129,
         "visible_spell_id": null,
-        "icon": "spell_nature_stormreach"
+        "icon": "spell_nature_stormreach",
+        "icon_candidates": [
+          "spell_nature_stormreach"
+        ]
       },
       "pve_tooltip": "Approximately 1.1 procs per minute\nStormstrike has a small chance to upgrade your next Lightning Bolt to Tempest.",
       "pvp_tooltip": "Approximately 1.1 procs per minute\nStormstrike has a small chance to upgrade your next Lightning Bolt to Tempest.",
@@ -10000,7 +10350,7 @@
   },
   "source_warnings": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-22T19:29:18.043608+00:00",
+  "generated_at": "2026-09-24T11:51:37.651760+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 22,

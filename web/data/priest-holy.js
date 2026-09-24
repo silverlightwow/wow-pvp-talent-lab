@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Flash Heal",
         "spell_id": 393870,
         "visible_spell_id": null,
-        "icon": "spell_holy_heal"
+        "icon": "spell_holy_heal",
+        "icon_candidates": [
+          "spell_holy_heal"
+        ]
       },
       "pve_tooltip": "Increases healing done by Flash Heal by 15%.",
       "pvp_tooltip": "Increases healing done by Flash Heal by 15%.",
@@ -74,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -106,7 +109,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Angelic Feather",
         "spell_id": 121536,
         "visible_spell_id": null,
-        "icon": "ability_priest_angelicfeather"
+        "icon": "ability_priest_angelicfeather",
+        "icon_candidates": [
+          "ability_priest_angelicfeather"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
       "pvp_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
@@ -130,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -162,7 +168,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Fire",
         "spell_id": 14914,
         "visible_spell_id": null,
-        "icon": "spell_holy_searinglight"
+        "icon": "spell_holy_searinglight",
+        "icon_candidates": [
+          "spell_holy_searinglight"
+        ]
       },
       "pve_tooltip": "0.24% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nConsumes the enemy in Holy flames that cause (308% of Spell Power) Holy damage and an additional (98.91% of Spell Power) Holy damage over 7 sec.",
       "pvp_tooltip": "0.24% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nConsumes the enemy in Holy flames that cause (462% of Spell Power) Holy damage and an additional (163.2015% of Spell Power) Holy damage over 7 sec.",
@@ -277,8 +286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -312,7 +321,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Nova",
         "spell_id": 132157,
         "visible_spell_id": null,
-        "icon": "spell_holy_holynova"
+        "icon": "spell_holy_holynova",
+        "icon_candidates": [
+          "spell_holy_holynova"
+        ]
       },
       "pve_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
       "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (28.35% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
@@ -349,7 +361,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 132157,
           "source_spell_id": 281265,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.315)",
+          "effect_text": "Direct Heal (10) (SP mod: 0.315)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -376,10 +388,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -396,8 +409,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -432,7 +445,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dispel Magic",
         "spell_id": 528,
         "visible_spell_id": null,
-        "icon": "spell_nature_nullifydisease"
+        "icon": "spell_nature_nullifydisease",
+        "icon_candidates": [
+          "spell_nature_nullifydisease"
+        ]
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
       "pvp_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
@@ -456,8 +472,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -491,7 +507,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritual Guidance",
         "spell_id": 1250818,
         "visible_spell_id": null,
-        "icon": "spell_holy_spiritualguidence"
+        "icon": "spell_holy_spiritualguidence",
+        "icon_candidates": [
+          "spell_holy_spiritualguidence"
+        ]
       },
       "pve_tooltip": "Increases your Intellect by 3%.",
       "pvp_tooltip": "Increases your Intellect by 3%.",
@@ -515,8 +534,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -550,7 +569,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Psychic Scream",
         "spell_id": 8122,
         "visible_spell_id": null,
-        "icon": "spell_shadow_psychicscream"
+        "icon": "spell_shadow_psychicscream",
+        "icon_candidates": [
+          "spell_shadow_psychicscream"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
       "pvp_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
@@ -574,8 +596,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -605,7 +627,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lightburst",
         "spell_id": 1246549,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_nova"
+        "icon": "inv_ability_holyfire_nova",
+        "icon_candidates": [
+          "inv_ability_holyfire_nova"
+        ]
       },
       "pve_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
       "pvp_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
@@ -629,8 +654,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -665,7 +690,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Leap of Faith",
         "spell_id": 73325,
         "visible_spell_id": null,
-        "icon": "priest_spell_leapoffaith_a"
+        "icon": "priest_spell_leapoffaith_a",
+        "icon_candidates": [
+          "priest_spell_leapoffaith_a"
+        ]
       },
       "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
       "pvp_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
@@ -689,8 +717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -722,7 +750,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Purify",
         "spell_id": 390632,
         "visible_spell_id": null,
-        "icon": "spell_holy_nullifydisease"
+        "icon": "spell_holy_nullifydisease",
+        "icon_candidates": [
+          "spell_holy_nullifydisease"
+        ]
       },
       "pve_tooltip": "Purify additionally removes all Disease effects.",
       "pvp_tooltip": "Purify additionally removes all Disease effects.",
@@ -746,8 +777,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -782,7 +813,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Power Infusion",
         "spell_id": 10060,
         "visible_spell_id": null,
-        "icon": "spell_holy_powerinfusion"
+        "icon": "spell_holy_powerinfusion",
+        "icon_candidates": [
+          "spell_holy_powerinfusion"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
@@ -832,8 +866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -867,7 +901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Painful Invocation",
         "spell_id": 1251030,
         "visible_spell_id": null,
-        "icon": "spell_holy_mindsooth"
+        "icon": "spell_holy_mindsooth",
+        "icon_candidates": [
+          "spell_holy_mindsooth"
+        ]
       },
       "pve_tooltip": "Increases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.",
       "pvp_tooltip": "Increases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.",
@@ -891,8 +928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -924,7 +961,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sheer Terror",
         "spell_id": 390919,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_fearofdeath"
+        "icon": "spell_nzinsanity_fearofdeath",
+        "icon_candidates": [
+          "spell_nzinsanity_fearofdeath"
+        ]
       },
       "pve_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
       "pvp_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
@@ -948,8 +988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -981,7 +1021,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Petrifying Scream",
         "spell_id": 55676,
         "visible_spell_id": null,
-        "icon": "spell_shadow_psychichorrors"
+        "icon": "spell_shadow_psychichorrors",
+        "icon_candidates": [
+          "spell_shadow_psychichorrors"
+        ]
       },
       "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
       "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
@@ -1005,8 +1048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1039,7 +1082,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Surge of Light",
         "spell_id": 109186,
         "visible_spell_id": null,
-        "icon": "spell_holy_surgeoflight"
+        "icon": "spell_holy_surgeoflight",
+        "icon_candidates": [
+          "spell_holy_surgeoflight"
+        ]
       },
       "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
       "pvp_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -1104,7 +1150,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 109186,
           "source_spell_id": 186263,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 8.74)",
+          "effect_text": "Direct Heal (10) (SP mod: 8.74)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1142,10 +1188,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -1162,8 +1209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1195,7 +1242,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Body and Soul",
         "spell_id": 64129,
         "visible_spell_id": null,
-        "icon": "spell_holy_symbolofhope"
+        "icon": "spell_holy_symbolofhope",
+        "icon_candidates": [
+          "spell_holy_symbolofhope"
+        ]
       },
       "pve_tooltip": "Prayer of Mending and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
       "pvp_tooltip": "Prayer of Mending and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
@@ -1219,8 +1269,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1255,7 +1305,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Dispel",
         "spell_id": 32375,
         "visible_spell_id": null,
-        "icon": "spell_arcane_massdispel"
+        "icon": "spell_arcane_massdispel",
+        "icon_candidates": [
+          "spell_arcane_massdispel"
+        ]
       },
       "pve_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
       "pvp_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
@@ -1279,8 +1332,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1312,7 +1365,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twins of the Sun Priestess",
         "spell_id": 373466,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamering_red"
+        "icon": "spell_fire_felflamering_red",
+        "icon_candidates": [
+          "spell_fire_felflamering_red"
+        ]
       },
       "pve_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
       "pvp_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
@@ -1336,8 +1392,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1371,7 +1427,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strength of Resolve",
         "spell_id": 1250820,
         "visible_spell_id": null,
-        "icon": "spell_holy_ashestoashes"
+        "icon": "spell_holy_ashestoashes",
+        "icon_candidates": [
+          "spell_holy_ashestoashes"
+        ]
       },
       "pve_tooltip": "Increases your Stamina by 6%.",
       "pvp_tooltip": "Increases your Stamina by 4%.",
@@ -1442,8 +1501,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1478,7 +1537,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mind Control",
         "spell_id": 605,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowworddominate"
+        "icon": "spell_shadow_shadowworddominate",
+        "icon_candidates": [
+          "spell_shadow_shadowworddominate"
+        ]
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
       "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
@@ -1502,8 +1564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1538,7 +1600,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominate Mind",
         "spell_id": 205364,
         "visible_spell_id": null,
-        "icon": "spell_priest_void_flay"
+        "icon": "spell_priest_void_flay",
+        "icon_candidates": [
+          "spell_priest_void_flay"
+        ]
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
       "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -1562,8 +1627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1595,7 +1660,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Psychic Voice",
         "spell_id": 196704,
         "visible_spell_id": null,
-        "icon": "ability_warrior_commandingshout"
+        "icon": "ability_warrior_commandingshout",
+        "icon_candidates": [
+          "ability_warrior_commandingshout"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
       "pvp_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
@@ -1619,8 +1687,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1652,7 +1720,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Void Tendrils",
         "spell_id": 1250691,
         "visible_spell_id": null,
-        "icon": "spell_priest_voidtendrils"
+        "icon": "spell_priest_voidtendrils",
+        "icon_candidates": [
+          "spell_priest_voidtendrils"
+        ]
       },
       "pve_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
       "pvp_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
@@ -1676,8 +1747,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1709,7 +1780,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Everlasting Light",
         "spell_id": 1249233,
         "visible_spell_id": null,
-        "icon": "spell_holy_greaterheal"
+        "icon": "spell_holy_greaterheal",
+        "icon_candidates": [
+          "spell_holy_greaterheal"
+        ]
       },
       "pve_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
       "pvp_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
@@ -1733,8 +1807,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1767,7 +1841,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Move with Grace",
         "spell_id": 390620,
         "visible_spell_id": null,
-        "icon": "ability_priest_savinggrace"
+        "icon": "ability_priest_savinggrace",
+        "icon_candidates": [
+          "ability_priest_savinggrace"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
       "pvp_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
@@ -1791,8 +1868,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1824,7 +1901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mental Agility",
         "spell_id": 341167,
         "visible_spell_id": null,
-        "icon": "spell_holy_dispelmagic"
+        "icon": "spell_holy_dispelmagic",
+        "icon_candidates": [
+          "spell_holy_dispelmagic"
+        ]
       },
       "pve_tooltip": "Reduces the mana cost of Purify and Mass Dispel by 50% and Dispel Magic by 10%.",
       "pvp_tooltip": "Reduces the mana cost of Purify and Mass Dispel by 25% and Dispel Magic by 10%.",
@@ -1945,8 +2025,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1981,7 +2061,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twin Disciplines",
         "spell_id": 1251077,
         "visible_spell_id": null,
-        "icon": "ability_priest_innerlightandshadow"
+        "icon": "ability_priest_innerlightandshadow",
+        "icon_candidates": [
+          "ability_priest_innerlightandshadow"
+        ]
       },
       "pve_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
       "pvp_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
@@ -2005,8 +2088,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2040,7 +2123,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dark Enlightenment",
         "spell_id": 1250835,
         "visible_spell_id": null,
-        "icon": "ability_priest_darkness"
+        "icon": "ability_priest_darkness",
+        "icon_candidates": [
+          "ability_priest_darkness"
+        ]
       },
       "pve_tooltip": "Increases your haste by 3%.",
       "pvp_tooltip": "Increases your haste by 3%.",
@@ -2064,8 +2150,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2097,7 +2183,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "False Autonomy",
         "spell_id": 1250806,
         "visible_spell_id": null,
-        "icon": "spell_arcane_mindmastery"
+        "icon": "spell_arcane_mindmastery",
+        "icon_candidates": [
+          "spell_arcane_mindmastery"
+        ]
       },
       "pve_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
       "pvp_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
@@ -2121,8 +2210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2155,7 +2244,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shackle Horror",
         "spell_id": 9484,
         "visible_spell_id": null,
-        "icon": "spell_nature_slow"
+        "icon": "spell_nature_slow",
+        "icon_candidates": [
+          "spell_nature_slow"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
       "pvp_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
@@ -2179,8 +2271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2213,7 +2305,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inspiration",
         "spell_id": 390676,
         "visible_spell_id": null,
-        "icon": "spell_holy_layonhands"
+        "icon": "spell_holy_layonhands",
+        "icon_candidates": [
+          "spell_holy_layonhands"
+        ]
       },
       "pve_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal or Holy Word: Serenity.",
       "pvp_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal or Holy Word: Serenity.",
@@ -2237,8 +2332,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2273,7 +2368,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Binding Heals",
         "spell_id": 368275,
         "visible_spell_id": null,
-        "icon": "spell_holy_blindingheal"
+        "icon": "spell_holy_blindingheal",
+        "icon_candidates": [
+          "spell_holy_blindingheal"
+        ]
       },
       "pve_tooltip": "20% of Flash Heal healing on other targets also heals you.",
       "pvp_tooltip": "20% of Flash Heal healing on other targets also heals you.",
@@ -2297,8 +2395,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2333,7 +2431,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadow Word: Death",
         "spell_id": 32379,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demonicfortitude"
+        "icon": "spell_shadow_demonicfortitude",
+        "icon_candidates": [
+          "spell_shadow_demonicfortitude"
+        ]
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (85% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.",
       "pvp_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (85% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.",
@@ -2357,8 +2458,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2392,7 +2493,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanguine Teachings",
         "spell_id": 373218,
         "visible_spell_id": null,
-        "icon": "inv_archaeology_80_zandalari_sanguinetotem"
+        "icon": "inv_archaeology_80_zandalari_sanguinetotem",
+        "icon_candidates": [
+          "inv_archaeology_80_zandalari_sanguinetotem"
+        ]
       },
       "pve_tooltip": "Increases your Leech by 2%.",
       "pvp_tooltip": "Increases your Leech by 2%.",
@@ -2416,8 +2520,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2451,7 +2555,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Desperate Prayer",
         "spell_id": 19236,
         "visible_spell_id": null,
-        "icon": "spell_holy_testoffaith"
+        "icon": "spell_holy_testoffaith",
+        "icon_candidates": [
+          "spell_holy_testoffaith"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
@@ -2475,8 +2582,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2510,7 +2617,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twist of Fate",
         "spell_id": 390972,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindtwisting"
+        "icon": "spell_shadow_mindtwisting",
+        "icon_candidates": [
+          "spell_shadow_mindtwisting"
+        ]
       },
       "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
       "pvp_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
@@ -2553,8 +2663,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2586,7 +2696,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tithe Evasion",
         "spell_id": 373223,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_bloodthirst"
+        "icon": "spell_nzinsanity_bloodthirst",
+        "icon_candidates": [
+          "spell_nzinsanity_bloodthirst"
+        ]
       },
       "pve_tooltip": "Shadow Word: Death deals 50% less damage to you.",
       "pvp_tooltip": "Shadow Word: Death deals 50% less damage to you.",
@@ -2610,8 +2723,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2646,7 +2759,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fade",
         "spell_id": 586,
         "visible_spell_id": null,
-        "icon": "spell_magic_lesserinvisibilty"
+        "icon": "spell_magic_lesserinvisibilty",
+        "icon_candidates": [
+          "spell_magic_lesserinvisibilty"
+        ]
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
       "pvp_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
@@ -2670,8 +2786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2704,7 +2820,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Angel's Mercy",
         "spell_id": 238100,
         "visible_spell_id": null,
-        "icon": "spell_holy_testoffaith"
+        "icon": "spell_holy_testoffaith",
+        "icon_candidates": [
+          "spell_holy_testoffaith"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
       "pvp_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
@@ -2728,8 +2847,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2763,7 +2882,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Protective Light",
         "spell_id": 193063,
         "visible_spell_id": null,
-        "icon": "spell_holy_holyprotection"
+        "icon": "spell_holy_holyprotection",
+        "icon_candidates": [
+          "spell_holy_holyprotection"
+        ]
       },
       "pve_tooltip": "Casting Flash Heal on yourself reduces all damage you take by 10% for 10 sec.",
       "pvp_tooltip": "Casting Flash Heal on yourself reduces all damage you take by 10% for 10 sec.",
@@ -2787,8 +2909,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2822,7 +2944,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mindpierce",
         "spell_id": 1251029,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindshear"
+        "icon": "spell_shadow_mindshear",
+        "icon_candidates": [
+          "spell_shadow_mindshear"
+        ]
       },
       "pve_tooltip": "Increases the damage of Smite by 15%.",
       "pvp_tooltip": "Increases the damage of Smite by 15%.",
@@ -2846,8 +2971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2879,7 +3004,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spectral Illusion",
         "spell_id": 1250378,
         "visible_spell_id": null,
-        "icon": "spell_priest_spectralguise"
+        "icon": "spell_priest_spectralguise",
+        "icon_candidates": [
+          "spell_priest_spectralguise"
+        ]
       },
       "pve_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
       "pvp_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
@@ -2903,8 +3031,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2937,7 +3065,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Fade",
         "spell_id": 390670,
         "visible_spell_id": null,
-        "icon": "spell_magic_lesserinvisibilty"
+        "icon": "spell_magic_lesserinvisibilty",
+        "icon_candidates": [
+          "spell_magic_lesserinvisibilty"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Fade by 10 sec.",
       "pvp_tooltip": "Reduces the cooldown of Fade by 10 sec.",
@@ -2980,8 +3111,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3013,7 +3144,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Inspiration",
         "spell_id": 373450,
         "visible_spell_id": null,
-        "icon": "spell_holy_restoration"
+        "icon": "spell_holy_restoration",
+        "icon_candidates": [
+          "spell_holy_restoration"
+        ]
       },
       "pve_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
       "pvp_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
@@ -3037,8 +3171,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3072,7 +3206,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unwavering Will",
         "spell_id": 373456,
         "visible_spell_id": null,
-        "icon": "ability_warrior_unrelentingassault"
+        "icon": "ability_warrior_unrelentingassault",
+        "icon_candidates": [
+          "ability_warrior_unrelentingassault"
+        ]
       },
       "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 10%.",
       "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 10%.",
@@ -3115,8 +3252,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3150,7 +3287,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spell Warding",
         "spell_id": 390667,
         "visible_spell_id": null,
-        "icon": "spell_holy_spellwarding"
+        "icon": "spell_holy_spellwarding",
+        "icon_candidates": [
+          "spell_holy_spellwarding"
+        ]
       },
       "pve_tooltip": "Reduces all magic damage taken by 6%.",
       "pvp_tooltip": "Reduces all magic damage taken by 4%.",
@@ -3262,8 +3402,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3297,7 +3437,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Phantasm",
         "spell_id": 108942,
         "visible_spell_id": null,
-        "icon": "ability_priest_phantasm"
+        "icon": "ability_priest_phantasm",
+        "icon_candidates": [
+          "ability_priest_phantasm"
+        ]
       },
       "pve_tooltip": "Activating Fade removes all snare effects.",
       "pvp_tooltip": "Activating Fade removes all snare effects.",
@@ -3321,8 +3464,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3353,7 +3496,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Angelic Bulwark",
         "spell_id": 108945,
         "visible_spell_id": null,
-        "icon": "ability_priest_angelicbulwark"
+        "icon": "ability_priest_angelicbulwark",
+        "icon_candidates": [
+          "ability_priest_angelicbulwark"
+        ]
       },
       "pve_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
       "pvp_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
@@ -3377,8 +3523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3409,7 +3555,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Benevolence",
         "spell_id": 415416,
         "visible_spell_id": null,
-        "icon": "ability_priest_spiritoftheredeemer"
+        "icon": "ability_priest_spiritoftheredeemer",
+        "icon_candidates": [
+          "ability_priest_spiritoftheredeemer"
+        ]
       },
       "pve_tooltip": "Increases the healing of your spells by 3%.",
       "pvp_tooltip": "Increases the healing of your spells by 3%.",
@@ -3433,8 +3582,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3465,7 +3614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Power",
         "spell_id": 1249230,
         "visible_spell_id": null,
-        "icon": "ability_priest_focusedwill"
+        "icon": "ability_priest_focusedwill",
+        "icon_candidates": [
+          "ability_priest_focusedwill"
+        ]
       },
       "pve_tooltip": "Increases the damage of your spells by 3%.",
       "pvp_tooltip": "Increases the damage of your spells by 3%.",
@@ -3489,8 +3641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3521,7 +3673,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Phantom Reach",
         "spell_id": 459559,
         "visible_spell_id": null,
-        "icon": "spell_shadow_chilltouch"
+        "icon": "spell_shadow_chilltouch",
+        "icon_candidates": [
+          "spell_shadow_chilltouch"
+        ]
       },
       "pve_tooltip": "Increases the range of most spells by 15%.",
       "pvp_tooltip": "Increases the range of most spells by 15%.",
@@ -3545,8 +3700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3577,7 +3732,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Translucent Image",
         "spell_id": 373446,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twistedfaith"
+        "icon": "spell_shadow_twistedfaith",
+        "icon_candidates": [
+          "spell_shadow_twistedfaith"
+        ]
       },
       "pve_tooltip": "Fade reduces damage you take by 10%.",
       "pvp_tooltip": "Fade reduces damage you take by 10%.",
@@ -3601,8 +3759,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3634,7 +3792,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Word: Serenity",
         "spell_id": 2050,
         "visible_spell_id": null,
-        "icon": "spell_holy_persuitofjustice"
+        "icon": "spell_holy_persuitofjustice",
+        "icon_candidates": [
+          "spell_holy_persuitofjustice"
+        ]
       },
       "pve_tooltip": "2.375% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nPerform a miracle, healing an ally for (2144.93% of Spell Power).\nCooldown reduced by 6 sec when you cast Flash Heal.",
       "pvp_tooltip": "2.375% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nPerform a miracle, healing an ally for (2470.9594% of Spell Power).\nCooldown reduced by 6 sec when you cast Flash Heal.",
@@ -3715,8 +3876,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3749,7 +3910,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Word: Sanctify",
         "spell_id": 34861,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineprovidence"
+        "icon": "spell_holy_divineprovidence",
+        "icon_candidates": [
+          "spell_holy_divineprovidence"
+        ]
       },
       "pve_tooltip": "3.325% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nReleases miraculous light at a target location, healing up to 5 allies within 10 yds for (601.321% of Spell Power).\nCooldown reduced by 6 sec when you cast Prayer of Healing.",
       "pvp_tooltip": "3.325% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nReleases miraculous light at a target location, healing up to 5 allies within 10 yds for (818.2776% of Spell Power).\nCooldown reduced by 6 sec when you cast Prayer of Healing.",
@@ -3830,8 +3994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3863,7 +4027,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guardian Spirit",
         "spell_id": 47788,
         "visible_spell_id": null,
-        "icon": "spell_holy_guardianspirit"
+        "icon": "spell_holy_guardianspirit",
+        "icon_candidates": [
+          "spell_holy_guardianspirit"
+        ]
       },
       "pve_tooltip": "0.9% of base mana\n40 yd range\nInstant\n3 min cooldown\nCalls upon a guardian spirit to watch over the friendly target for 10 sec, increasing healing received by 60%. If the target would die, the Spirit sacrifices itself and restores the target to 40% health.\nCastable while stunned. Cannot save the target from massive damage.",
       "pvp_tooltip": "0.9% of base mana\n40 yd range\nInstant\n3 min cooldown\nCalls upon a guardian spirit to watch over the friendly target for 10 sec, increasing healing received by 60%. If the target would die, the Spirit sacrifices itself and restores the target to 40% health.\nCastable while stunned. Cannot save the target from massive damage.",
@@ -3887,8 +4054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3921,7 +4088,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Word: Chastise",
         "spell_id": 88625,
         "visible_spell_id": null,
-        "icon": "spell_holy_chastise"
+        "icon": "spell_holy_chastise",
+        "icon_candidates": [
+          "spell_holy_chastise"
+        ]
       },
       "pve_tooltip": "0.6% of base mana\n30 yd range\nInstant\n1 min cooldown\nChastises the target for (385.749% of Spell Power) Holy damage and [Censure: stuns / incapacitates] them for [Censure: 4 sec / 4 sec]. [Serendipity: Cooldown reduced by 4 sec when you cast Smite or Holy Nova.]",
       "pvp_tooltip": "0.6% of base mana\n30 yd range\nInstant\n1 min cooldown\nChastises the target for (385.749% of Spell Power) Holy damage and [Censure: stuns / incapacitates] them for [Censure: 4 sec / 4 sec]. [Serendipity: Cooldown reduced by 4 sec when you cast Smite or Holy Nova.]",
@@ -3945,8 +4115,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3980,7 +4150,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prayer of Healing",
         "spell_id": 596,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofhealing02"
+        "icon": "spell_holy_prayerofhealing02",
+        "icon_candidates": [
+          "spell_holy_prayerofhealing02"
+        ]
       },
       "pve_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (578.742% of Spell Power).",
       "pvp_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (520.8678% of Spell Power).",
@@ -4059,8 +4232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4093,7 +4266,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Restitution",
         "spell_id": 391124,
         "visible_spell_id": null,
-        "icon": "inv_staff_2h_artifactheartofkure_d_03"
+        "icon": "inv_staff_2h_artifactheartofkure_d_03",
+        "icon_candidates": [
+          "inv_staff_2h_artifactheartofkure_d_03"
+        ]
       },
       "pve_tooltip": "After Spirit of Redemption expires, you will revive at up to 100% health, based on your healing done during Spirit of Redemption. After reviving, you cannot benefit from Spirit of Redemption for 10 min.",
       "pvp_tooltip": "After Spirit of Redemption expires, you will revive at up to 100% health, based on your healing done during Spirit of Redemption. After reviving, you cannot benefit from Spirit of Redemption for 10 min.",
@@ -4117,8 +4293,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4151,7 +4327,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guardian Angel",
         "spell_id": 200209,
         "visible_spell_id": null,
-        "icon": "ability_priest_pathofthedevout"
+        "icon": "ability_priest_pathofthedevout",
+        "icon_candidates": [
+          "ability_priest_pathofthedevout"
+        ]
       },
       "pve_tooltip": "When Guardian Spirit saves the target from death, it does not expire.\nWhen Guardian Spirit expires without saving the target from death, reduce its remaining cooldown to 60 seconds.",
       "pvp_tooltip": "When Guardian Spirit saves the target from death, it does not expire.\nWhen Guardian Spirit expires without saving the target from death, reduce its remaining cooldown to 60 seconds.",
@@ -4175,8 +4354,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4208,7 +4387,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Censure",
         "spell_id": 200199,
         "visible_spell_id": null,
-        "icon": "spell_holy_eyeforaneye"
+        "icon": "spell_holy_eyeforaneye",
+        "icon_candidates": [
+          "spell_holy_eyeforaneye"
+        ]
       },
       "pve_tooltip": "Holy Word: Chastise stuns the target for 4 sec and is not broken by damage.",
       "pvp_tooltip": "Holy Word: Chastise stuns the target for 4 sec and is not broken by damage.",
@@ -4232,8 +4414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4266,7 +4448,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empyreal Blaze",
         "spell_id": 372616,
         "visible_spell_id": null,
-        "icon": "ability_priest_empyrealblaze"
+        "icon": "ability_priest_empyrealblaze",
+        "icon_candidates": [
+          "ability_priest_empyrealblaze"
+        ]
       },
       "pve_tooltip": "Holy Word: Chastise causes your next 2 casts of Holy Fire to be instant, cost no mana, and incur no cooldown.\nRefreshing Holy Fire on a target now extends its duration by 7 sec.",
       "pvp_tooltip": "Holy Word: Chastise causes your next 2 casts of Holy Fire to be instant, cost no mana, and incur no cooldown.\nRefreshing Holy Fire on a target now extends its duration by 7 sec.",
@@ -4290,8 +4475,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4323,7 +4508,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prayerful Litany",
         "spell_id": 391209,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofhealing02"
+        "icon": "spell_holy_prayerofhealing02",
+        "icon_candidates": [
+          "spell_holy_prayerofhealing02"
+        ]
       },
       "pve_tooltip": "The primary target of Prayer of Healing is healed for 125% more.",
       "pvp_tooltip": "The primary target of Prayer of Healing is healed for 125% more.",
@@ -4347,8 +4535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4383,7 +4571,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cosmic Ripple",
         "spell_id": 238136,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_nova"
+        "icon": "inv_ability_holyfire_nova",
+        "icon_candidates": [
+          "inv_ability_holyfire_nova"
+        ]
       },
       "pve_tooltip": "When Holy Word: Serenity or Holy Word: Sanctify finish their cooldown, you emit a burst of light that heals up to 5 injured targets within 40 yards for (122.693% of Spell Power).",
       "pvp_tooltip": "When Holy Word: Serenity or Holy Word: Sanctify finish their cooldown, you emit a burst of light that heals up to 5 injured targets within 40 yards for (110.4237% of Spell Power).",
@@ -4420,7 +4611,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 238136,
           "source_spell_id": 243241,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 1.22693)",
+          "effect_text": "Direct Heal (10) (SP mod: 1.22693)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4447,10 +4638,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4467,8 +4659,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4500,7 +4692,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Afterlife",
         "spell_id": 196707,
         "visible_spell_id": null,
-        "icon": "inv_enchant_essencemagiclarge"
+        "icon": "inv_enchant_essencemagiclarge",
+        "icon_candidates": [
+          "inv_enchant_essencemagiclarge"
+        ]
       },
       "pve_tooltip": "Increases the duration of Spirit of Redemption by 50% and the range of its spells by 50%.",
       "pvp_tooltip": "Increases the duration of Spirit of Redemption by 50% and the range of its spells by 50%.",
@@ -4524,8 +4719,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4561,7 +4756,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voice of Harmony",
         "spell_id": 390994,
         "visible_spell_id": null,
-        "icon": "ability_priest_heavanlyvoice"
+        "icon": "ability_priest_heavanlyvoice",
+        "icon_candidates": [
+          "ability_priest_heavanlyvoice"
+        ]
       },
       "pve_tooltip": "Prayer of Mending [Halo: and creating a Halo]reduces the cooldown of Holy Word: Serenity by 4 sec.\n[Creating a Halo reduces the cooldown of Holy Word: Sanctify by 4 sec.]\nHoly Fire reduces the cooldown of Holy Word: Chastise by 4 sec.",
       "pvp_tooltip": "Prayer of Mending [Halo: and creating a Halo]reduces the cooldown of Holy Word: Serenity by 4 sec.\n[Creating a Halo reduces the cooldown of Holy Word: Sanctify by 4 sec.]\nHoly Fire reduces the cooldown of Holy Word: Chastise by 2 sec.",
@@ -4632,8 +4830,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4665,7 +4863,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burning Vehemence",
         "spell_id": 372307,
         "visible_spell_id": null,
-        "icon": "ability_paladin_sacredcleansing"
+        "icon": "ability_paladin_sacredcleansing",
+        "icon_candidates": [
+          "ability_paladin_sacredcleansing"
+        ]
       },
       "pve_tooltip": "Increases the damage of Holy Fire by 30%.\nHoly Fire deals 75% of its initial damage to all nearby enemies within 12 yards of your target. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "Increases the damage of Holy Fire by 30%.\nHoly Fire deals 75% of its initial damage to all nearby enemies within 12 yards of your target. Damage reduced beyond 5 targets.",
@@ -4689,8 +4890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4724,7 +4925,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Uplifting Words",
         "spell_id": 1250562,
         "visible_spell_id": null,
-        "icon": "spell_holy_persecution"
+        "icon": "spell_holy_persecution",
+        "icon_candidates": [
+          "spell_holy_persecution"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Holy Word: Serenity and Holy Word: Sanctify by 10%.",
       "pvp_tooltip": "Increases the critical strike chance of your Holy Word: Serenity and Holy Word: Sanctify by 10%.",
@@ -4748,8 +4952,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4781,7 +4985,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cosmic Wave",
         "spell_id": 1248418,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_wave"
+        "icon": "inv_ability_holyfire_wave",
+        "icon_candidates": [
+          "inv_ability_holyfire_wave"
+        ]
       },
       "pve_tooltip": "Increases Cosmic Ripple healing by 15%.",
       "pvp_tooltip": "Increases Cosmic Ripple healing by 15%.",
@@ -4805,8 +5012,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4842,7 +5049,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Hymn",
         "spell_id": 64843,
         "visible_spell_id": null,
-        "icon": "spell_holy_divinehymn"
+        "icon": "spell_holy_divinehymn",
+        "icon_candidates": [
+          "spell_holy_divinehymn"
+        ]
       },
       "pve_tooltip": "4.4% of base mana\n40 yd range\nChanneled (5 sec cast)\n3 min cooldown\nHeals all party or raid members within 40 yards for [5 * (560.88% of Spell Power)] over 5 sec. Each heal increases all targets' healing taken by 4% for 15 sec, stacking.\nYou gain Guardian Spirit while channeling Divine Hymn.\nHealing reduced beyond 5 targets.",
       "pvp_tooltip": "4.4% of base mana\n40 yd range\nChanneled (5 sec cast)\n3 min cooldown\nHeals all party or raid members within 40 yards for [5 * (605.7504% of Spell Power)] over 5 sec. Each heal increases all targets' healing taken by 4% for 15 sec, stacking.\nYou gain Guardian Spirit while channeling Divine Hymn.\nHealing reduced beyond 5 targets.",
@@ -4928,8 +5138,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4961,7 +5171,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Enlightenment",
         "spell_id": 193155,
         "visible_spell_id": null,
-        "icon": "spell_arcane_mindmastery"
+        "icon": "spell_arcane_mindmastery",
+        "icon_candidates": [
+          "spell_arcane_mindmastery"
+        ]
       },
       "pve_tooltip": "You regenerate mana 25% faster.",
       "pvp_tooltip": "You regenerate mana 10% faster.",
@@ -5032,8 +5245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5067,7 +5280,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light's Resurgence",
         "spell_id": 193157,
         "visible_spell_id": null,
-        "icon": "spell_monk_diffusemagic"
+        "icon": "spell_monk_diffusemagic",
+        "icon_candidates": [
+          "spell_monk_diffusemagic"
+        ]
       },
       "pve_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (304.64% of Spell Power) over 15 sec.",
       "pvp_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (304.64% of Spell Power) over 15 sec.",
@@ -5132,8 +5348,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5166,7 +5382,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Efficient Prayers",
         "spell_id": 1247131,
         "visible_spell_id": null,
-        "icon": "spell_priest_finalprayer"
+        "icon": "spell_priest_finalprayer",
+        "icon_candidates": [
+          "spell_priest_finalprayer"
+        ]
       },
       "pve_tooltip": "Reduces the mana cost of Prayer of Healing by 15%.",
       "pvp_tooltip": "Reduces the mana cost of Prayer of Healing by 15%.",
@@ -5190,8 +5409,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5226,7 +5445,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Focus",
         "spell_id": 1247166,
         "visible_spell_id": null,
-        "icon": "spell_holy_healingfocus"
+        "icon": "spell_holy_healingfocus",
+        "icon_candidates": [
+          "spell_holy_healingfocus"
+        ]
       },
       "pve_tooltip": "Reduces the mana cost of Flash Heal by 15%.",
       "pvp_tooltip": "Reduces the mana cost of Flash Heal by 15%.",
@@ -5250,8 +5472,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5283,7 +5505,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Seraphic Crescendo",
         "spell_id": 419110,
         "visible_spell_id": null,
-        "icon": "spell_holy_divinehymn"
+        "icon": "spell_holy_divinehymn",
+        "icon_candidates": [
+          "spell_holy_divinehymn"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Divine Hymn by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Divine Hymn by 60 sec.",
@@ -5307,8 +5532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5340,7 +5565,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gales of Song",
         "spell_id": 372370,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatileair"
+        "icon": "inv_misc_volatileair",
+        "icon_candidates": [
+          "inv_misc_volatileair"
+        ]
       },
       "pve_tooltip": "While channeling Divine Hymn, place 2 stacks of Prayer of Mending on up to 3 allies within its range every 1.0 sec.",
       "pvp_tooltip": "While channeling Divine Hymn, place 2 stacks of Prayer of Mending on up to 3 allies within its range every 1.0 sec.",
@@ -5418,8 +5646,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5454,7 +5682,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Service",
         "spell_id": 391233,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofspirit"
+        "icon": "spell_holy_prayerofspirit",
+        "icon_candidates": [
+          "spell_holy_prayerofspirit"
+        ]
       },
       "pve_tooltip": "Prayer of Mending heals 4% more for each bounce remaining.",
       "pvp_tooltip": "Prayer of Mending heals 4% more for each bounce remaining.",
@@ -5478,8 +5709,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5512,7 +5743,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Renewed Faith",
         "spell_id": 341997,
         "visible_spell_id": null,
-        "icon": "ability_pvp_innerrenewal"
+        "icon": "ability_pvp_innerrenewal",
+        "icon_candidates": [
+          "ability_pvp_innerrenewal"
+        ]
       },
       "pve_tooltip": "Your healing on allies with your Renew is increased by 10%.",
       "pvp_tooltip": "Your healing on allies with your Renew is increased by 10%.",
@@ -5536,8 +5770,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5572,7 +5806,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Angelic Touch",
         "spell_id": 1250565,
         "visible_spell_id": null,
-        "icon": "spell_holy_hopeandgrace"
+        "icon": "spell_holy_hopeandgrace",
+        "icon_candidates": [
+          "spell_holy_hopeandgrace"
+        ]
       },
       "pve_tooltip": "Your healing spells critically strike for 220% of healing done instead of the usual 200%.",
       "pvp_tooltip": "Your healing spells critically strike for 220% of healing done instead of the usual 150%.",
@@ -5678,8 +5915,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5715,7 +5952,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Apotheosis",
         "spell_id": 200183,
         "visible_spell_id": null,
-        "icon": "ability_priest_ascension"
+        "icon": "ability_priest_ascension",
+        "icon_candidates": [
+          "ability_priest_ascension"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\n[Miracle Worker: Gain a charge / Reset the cooldown] of your Holy Words, and enter a pure Holy form for 20 sec, increasing the cooldown reductions to your Holy Words by 200% and reducing their cost by 70%.",
       "pvp_tooltip": "Instant\n2 min cooldown\n[Miracle Worker: Gain a charge / Reset the cooldown] of your Holy Words, and enter a pure Holy form for 20 sec, increasing the cooldown reductions to your Holy Words by 200% and reducing their cost by 70%.",
@@ -5739,8 +5979,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5774,7 +6014,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prayers of the Virtuous",
         "spell_id": 390977,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofmendingtga"
+        "icon": "spell_holy_prayerofmendingtga",
+        "icon_candidates": [
+          "spell_holy_prayerofmendingtga"
+        ]
       },
       "pve_tooltip": "Prayer of Mending jumps 2 additional times.",
       "pvp_tooltip": "Prayer of Mending jumps 2 additional times.",
@@ -5798,8 +6041,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5833,7 +6076,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dispersing Light",
         "spell_id": 1215265,
         "visible_spell_id": null,
-        "icon": "ability_priest_spiritoftheredeemer"
+        "icon": "ability_priest_spiritoftheredeemer",
+        "icon_candidates": [
+          "ability_priest_spiritoftheredeemer"
+        ]
       },
       "pve_tooltip": "5% of healing done with Flash Heal is replicated to 4 injured allies within 40 yards.",
       "pvp_tooltip": "5% of healing done with Flash Heal is replicated to 4 injured allies within 40 yards.",
@@ -5857,8 +6103,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5892,7 +6138,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trail of Light",
         "spell_id": 200128,
         "visible_spell_id": null,
-        "icon": "ability_priest_wordsofmeaning"
+        "icon": "ability_priest_wordsofmeaning",
+        "icon_candidates": [
+          "ability_priest_wordsofmeaning"
+        ]
       },
       "pve_tooltip": "25% of healing done by Flash Heal is replicated to the previous target you healed with those spells.",
       "pvp_tooltip": "25% of healing done by Flash Heal is replicated to the previous target you healed with those spells.",
@@ -5916,8 +6165,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5952,7 +6201,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Miracle Worker",
         "spell_id": 235587,
         "visible_spell_id": null,
-        "icon": "spell_holy_persuitofjustice"
+        "icon": "spell_holy_persuitofjustice",
+        "icon_candidates": [
+          "spell_holy_persuitofjustice"
+        ]
       },
       "pve_tooltip": "Holy Word: Serenity[gains][and Holy Word: Sanctify gain] an additional charge.",
       "pvp_tooltip": "Holy Word: Serenity[gains][and Holy Word: Sanctify gain] an additional charge.",
@@ -5976,8 +6228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6009,7 +6261,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eternal Sanctity",
         "spell_id": 1215245,
         "visible_spell_id": null,
-        "icon": "ability_priest_archangel"
+        "icon": "ability_priest_archangel",
+        "icon_candidates": [
+          "ability_priest_archangel"
+        ]
       },
       "pve_tooltip": "Increases the duration of Apotheosis by 12 sec.",
       "pvp_tooltip": "Increases the duration of Apotheosis by 12 sec.",
@@ -6033,8 +6288,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6066,7 +6321,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divinity",
         "spell_id": 1215241,
         "visible_spell_id": null,
-        "icon": "ability_priest_rayofhope"
+        "icon": "ability_priest_rayofhope",
+        "icon_candidates": [
+          "ability_priest_rayofhope"
+        ]
       },
       "pve_tooltip": "Your healing is increased by 10% while Apotheosis is active.\nCasting Apotheosis causes your next 3 Prayer of Healing casts to be instant and heal for 25% more.",
       "pvp_tooltip": "Your healing is increased by 10% while Apotheosis is active.\nCasting Apotheosis causes your next 3 Prayer of Healing casts to be instant and heal for 25% more.",
@@ -6090,8 +6348,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6125,7 +6383,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Holy Celerity",
         "spell_id": 1215275,
         "visible_spell_id": null,
-        "icon": "spell_priest_pathofdevout"
+        "icon": "spell_priest_pathofdevout",
+        "icon_candidates": [
+          "spell_priest_pathofdevout"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of your Holy Words by 15 sec.",
       "pvp_tooltip": "Reduces the cooldown of your Holy Words by 15 sec.",
@@ -6149,8 +6410,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6184,7 +6445,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Say Your Prayers",
         "spell_id": 391186,
         "visible_spell_id": null,
-        "icon": "ability_priest_bindingprayers"
+        "icon": "ability_priest_bindingprayers",
+        "icon_candidates": [
+          "ability_priest_bindingprayers"
+        ]
       },
       "pve_tooltip": "100 yd range\nPrayer of Mending has a 15% chance to not consume a charge when it jumps to a new target.",
       "pvp_tooltip": "100 yd range\nPrayer of Mending has a 15% chance to not consume a charge when it jumps to a new target.",
@@ -6208,8 +6472,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6241,7 +6505,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crisis Management",
         "spell_id": 390954,
         "visible_spell_id": null,
-        "icon": "spell_holy_flashheal"
+        "icon": "spell_holy_flashheal",
+        "icon_candidates": [
+          "spell_holy_flashheal"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of Flash Heal and Prayer of Healing by 15%.",
       "pvp_tooltip": "Increases the critical strike chance of Flash Heal and Prayer of Healing by 15%.",
@@ -6265,8 +6532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6300,7 +6567,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light of the Naaru",
         "spell_id": 196985,
         "visible_spell_id": null,
-        "icon": "inv_pet_naaru"
+        "icon": "inv_pet_naaru",
+        "icon_candidates": [
+          "inv_pet_naaru"
+        ]
       },
       "pve_tooltip": "The cooldowns of your Holy Words are reduced by an additional 20% when you cast the relevant spells.",
       "pvp_tooltip": "The cooldowns of your Holy Words are reduced by an additional 20% when you cast the relevant spells.",
@@ -6343,8 +6613,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6377,7 +6647,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light in the Darkness",
         "spell_id": 471668,
         "visible_spell_id": null,
-        "icon": "spell_holy_divineprovidence"
+        "icon": "spell_holy_divineprovidence",
+        "icon_candidates": [
+          "spell_holy_divineprovidence"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 25%.\nIncreases the radius of Holy Word: Sanctify by 30%.",
       "pvp_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 25%.\nIncreases the radius of Holy Word: Sanctify by 30%.",
@@ -6420,8 +6693,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6456,7 +6729,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prismatic Echoes",
         "spell_id": 390967,
         "visible_spell_id": null,
-        "icon": "spell_holy_aspiration"
+        "icon": "spell_holy_aspiration",
+        "icon_candidates": [
+          "spell_holy_aspiration"
+        ]
       },
       "pve_tooltip": "Increases the healing done by your Mastery: Echo of Light by 15% and your Renew by 40%.",
       "pvp_tooltip": "Increases the healing done by your Mastery: Echo of Light by 15% and your Renew by 40%.",
@@ -6499,8 +6775,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6534,7 +6810,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Desperate Times",
         "spell_id": 391381,
         "visible_spell_id": null,
-        "icon": "ability_pvp_defenderoftheweak"
+        "icon": "ability_pvp_defenderoftheweak",
+        "icon_candidates": [
+          "ability_pvp_defenderoftheweak"
+        ]
       },
       "pve_tooltip": "Increases healing by 20% on friendly targets at or below 50% health.",
       "pvp_tooltip": "Increases healing by 20% on friendly targets at or below 50% health.",
@@ -6577,8 +6856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6610,7 +6889,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Radiant Plea",
         "spell_id": 1250684,
         "visible_spell_id": null,
-        "icon": "spell_priest_pontifex"
+        "icon": "spell_priest_pontifex",
+        "icon_candidates": [
+          "spell_priest_pontifex"
+        ]
       },
       "pve_tooltip": "Increases Prayer of Mending healing by 15%.",
       "pvp_tooltip": "Increases Prayer of Mending healing by 15%.",
@@ -6634,8 +6916,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6666,7 +6948,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lightweaver",
         "spell_id": 390992,
         "visible_spell_id": null,
-        "icon": "spell_holy_greaterheal"
+        "icon": "spell_holy_greaterheal",
+        "icon_candidates": [
+          "spell_holy_greaterheal"
+        ]
       },
       "pve_tooltip": "Flash Heal reduces the cast time of your next Prayer of Healing within 20 sec by 30% and increases its healing done by 18%.\nCan accumulate up to 4 charges.",
       "pvp_tooltip": "Flash Heal reduces the cast time of your next Prayer of Healing within 20 sec by 30% and increases its healing done by 18%.\nCan accumulate up to 4 charges.",
@@ -6733,8 +7018,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6765,7 +7050,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ultimate Serenity",
         "spell_id": 1246517,
         "visible_spell_id": null,
-        "icon": "ability_priest_holywordlife"
+        "icon": "ability_priest_holywordlife",
+        "icon_candidates": [
+          "ability_priest_holywordlife"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Holy Word: Serenity by 10% and causes it to heal 4 nearby injured allies within 40 yards for 15% of its healing done.\nTalents that affect Holy Word: Sanctify instead affect Holy Word: Serenity.",
       "pvp_tooltip": "Increases the healing done by Holy Word: Serenity by 10% and causes it to heal 4 nearby injured allies within 40 yards for 15% of its healing done.\nTalents that affect Holy Word: Sanctify instead affect Holy Word: Serenity.",
@@ -6781,7 +7069,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246517,
           "source_spell_id": 1250581,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 3.2174)",
+          "effect_text": "Direct Heal (10) (SP mod: 3.2174)",
           "base_value": null,
           "spell_pvp_multiplier": 1.28,
           "amount_kind": "direct",
@@ -6808,9 +7096,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6830,8 +7118,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6862,7 +7150,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Image",
         "spell_id": 392988,
         "visible_spell_id": null,
-        "icon": "inv_staff_2h_artifactheartofkure_d_04"
+        "icon": "inv_staff_2h_artifactheartofkure_d_04",
+        "icon_candidates": [
+          "inv_staff_2h_artifactheartofkure_d_04"
+        ]
       },
       "pve_tooltip": "Your Holy Words summon an image of a Naaru at your side. For 9 sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\nIf an image has already been summoned, that image is empowered instead.",
       "pvp_tooltip": "Your Holy Words summon an image of a Naaru at your side. For 9 sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\nIf an image has already been summoned, that image is empowered instead.",
@@ -6886,8 +7177,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6918,7 +7209,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lasting Words",
         "spell_id": 471504,
         "visible_spell_id": null,
-        "icon": "spell_holy_renew"
+        "icon": "spell_holy_renew",
+        "icon_candidates": [
+          "spell_holy_renew"
+        ]
       },
       "pve_tooltip": "Holy Word: Serenity applies 12 sec of Renew to its target.\nHoly Word: Sanctify applies 6 sec of Renew to allies it heals.\nRenew\nFill the target with faith in the light, healing for [(304.64% of Spell Power) * 12000 / 15000] over 12 sec.",
       "pvp_tooltip": "Holy Word: Serenity applies 12 sec of Renew to its target.\nHoly Word: Sanctify applies 6 sec of Renew to allies it heals.\nRenew\nFill the target with faith in the light, healing for [(304.64% of Spell Power) * 12000 / 15000] over 12 sec.",
@@ -6942,8 +7236,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6974,7 +7268,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Epiphany",
         "spell_id": 414553,
         "visible_spell_id": null,
-        "icon": "ability_mage_studentofthemind"
+        "icon": "ability_mage_studentofthemind",
+        "icon_candidates": [
+          "ability_mage_studentofthemind"
+        ]
       },
       "pve_tooltip": "Your Holy Words have a 25% chance to cause your next cast of Prayer of Mending to ignore its cooldown.",
       "pvp_tooltip": "Your Holy Words have a 25% chance to cause your next cast of Prayer of Mending to ignore its cooldown.",
@@ -6998,8 +7295,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7027,7 +7324,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Benediction",
         "spell_id": 1262755,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_priest_benediction"
+        "icon": "inv12_apextalent_priest_benediction",
+        "icon_candidates": [
+          "inv12_apextalent_priest_benediction"
+        ]
       },
       "pve_tooltip": "Approximately 5 procs per minute\nPrayer of Mending healing has a chance to upgrade your next Flash Heal to Benediction, healing the target for 30% more and causing a Cosmic Ripple.",
       "pvp_tooltip": "Approximately 5 procs per minute\nPrayer of Mending healing has a chance to upgrade your next Flash Heal to Benediction, healing the target for 30% more and causing a Cosmic Ripple.",
@@ -7051,8 +7351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7080,7 +7380,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Benediction",
         "spell_id": 1262758,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_priest_benediction"
+        "icon": "inv12_apextalent_priest_benediction",
+        "icon_candidates": [
+          "inv12_apextalent_priest_benediction"
+        ]
       },
       "pve_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
       "pvp_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
@@ -7123,8 +7426,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7152,7 +7455,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Benediction",
         "spell_id": 1262760,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_priest_benediction"
+        "icon": "inv12_apextalent_priest_benediction",
+        "icon_candidates": [
+          "inv12_apextalent_priest_benediction"
+        ]
       },
       "pve_tooltip": "Each pulse of Divine Hymn emits a Cosmic Ripple at 75% effectiveness.\nHoly Word: Serenity now has a 100% chance to upgrade your next Flash Heal to Benediction.",
       "pvp_tooltip": "Each pulse of Divine Hymn emits a Cosmic Ripple at 75% effectiveness.\nHoly Word: Serenity now has a 100% chance to upgrade your next Flash Heal to Benediction.",
@@ -7176,8 +7482,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7210,7 +7516,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guiding Light",
         "spell_id": 1248423,
         "visible_spell_id": null,
-        "icon": "ability_priest_holywordlife"
+        "icon": "ability_priest_holywordlife",
+        "icon_candidates": [
+          "ability_priest_holywordlife"
+        ]
       },
       "pve_tooltip": "Prayer of Mending gains an additional charge.",
       "pvp_tooltip": "Prayer of Mending gains an additional charge.",
@@ -7234,8 +7543,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7268,7 +7577,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Halo",
         "spell_id": 120517,
         "visible_spell_id": null,
-        "icon": "ability_priest_halo"
+        "icon": "ability_priest_halo",
+        "icon_candidates": [
+          "ability_priest_halo"
+        ]
       },
       "pve_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a 40 yd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) * 1] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
       "pvp_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a 40 yd radius, healing allies for (181.125% of Spell Power) and dealing [(144.2% of Spell Power) * 1] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
@@ -7305,7 +7617,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120692,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 1.61)",
+          "effect_text": "Direct Heal (10) (SP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7341,10 +7653,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7352,7 +7665,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7379,10 +7692,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7399,8 +7713,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7432,7 +7746,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Preventive Measures",
         "spell_id": 440662,
         "visible_spell_id": null,
-        "icon": "spell_holy_powerwordshield"
+        "icon": "spell_holy_powerwordshield",
+        "icon_candidates": [
+          "spell_holy_powerwordshield"
+        ]
       },
       "pve_tooltip": "Increases the healing done by Prayer of Mending by 40%.\nAll damage dealt by Smite, Holy Fire and Holy Nova increased by 40%.",
       "pvp_tooltip": "Increases the healing done by Prayer of Mending by 40%.\nAll damage dealt by Smite, Holy Fire and Holy Nova increased by 15%.",
@@ -7451,26 +7768,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 25.02,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 15.0,
-          "new": 20.000999999999998,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             4
@@ -7584,7 +7881,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7598,8 +7895,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7631,7 +7928,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Preemptive Care",
         "spell_id": 440671,
         "visible_spell_id": null,
-        "icon": "spell_holy_renew"
+        "icon": "spell_holy_renew",
+        "icon_candidates": [
+          "spell_holy_renew"
+        ]
       },
       "pve_tooltip": "Increases the duration of your Renew by 40%.",
       "pvp_tooltip": "Increases the duration of your Renew by 40%.",
@@ -7655,8 +7955,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7688,7 +7988,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Waste No Time",
         "spell_id": 440681,
         "visible_spell_id": null,
-        "icon": "spell_nature_timestop"
+        "icon": "spell_nature_timestop",
+        "icon_candidates": [
+          "spell_nature_timestop"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Prayer of Mending by 1.5 sec.",
       "pvp_tooltip": "Reduces the cooldown of Prayer of Mending by 1.5 sec.",
@@ -7712,8 +8015,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7745,7 +8048,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Words of the Wise",
         "spell_id": 1272352,
         "visible_spell_id": null,
-        "icon": "spell_priest_power-word"
+        "icon": "spell_priest_power_word",
+        "icon_candidates": [
+          "spell_priest_power_word",
+          "spell_priest_power-word"
+        ]
       },
       "pve_tooltip": "Holy Word: Serenity healing increased by 40%.Holy Word: Serenity and Holy Word: Sanctify healing increased by 40%.",
       "pvp_tooltip": "Holy Word: Serenity healing increased by 40%.Holy Word: Serenity and Holy Word: Sanctify healing increased by 40%.",
@@ -7769,8 +8076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7802,7 +8109,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Perfected Form",
         "spell_id": 453917,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_buff"
+        "icon": "inv_ability_holyfire_buff",
+        "icon_candidates": [
+          "inv_ability_holyfire_buff"
+        ]
       },
       "pve_tooltip": "Your healing done is increased by 10% while Apotheosis is active.",
       "pvp_tooltip": "Your healing done is increased by 10% while Apotheosis is active.",
@@ -7826,8 +8136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7859,7 +8169,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Power Surge",
         "spell_id": 453109,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_groundstate"
+        "icon": "inv_ability_holyfire_groundstate",
+        "icon_candidates": [
+          "inv_ability_holyfire_groundstate"
+        ]
       },
       "pve_tooltip": "Casting Halo also causes you to create a Halo around you at 100% effectiveness every 5 sec for 10 sec.",
       "pvp_tooltip": "Casting Halo also causes you to create a Halo around you at 100% effectiveness every 5 sec for 10 sec.",
@@ -7883,8 +8196,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7916,7 +8229,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Manifested Power",
         "spell_id": 453783,
         "visible_spell_id": null,
-        "icon": "spell_holy_surgeoflight"
+        "icon": "spell_holy_surgeoflight",
+        "icon_candidates": [
+          "spell_holy_surgeoflight"
+        ]
       },
       "pve_tooltip": "Creating a Halo grants Surge of Light.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
       "pvp_tooltip": "Creating a Halo grants Surge of Light.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -7926,65 +8242,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 453783,
-          "source_spell_id": 391403,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.875,
-          "amount_kind": "periodic",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.875,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            453783,
-            391403
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 453783,
-          "source_spell_id": 391403,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -70.0,
-          "spell_pvp_multiplier": 0.714286,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            453783,
-            391403
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "EMBEDDED",
@@ -8042,7 +8299,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 453783,
           "source_spell_id": 186263,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 8.74)",
+          "effect_text": "Direct Heal (10) (SP mod: 8.74)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8082,10 +8339,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -8102,8 +8360,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8135,17 +8393,66 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Outburst",
         "spell_id": 1272320,
         "visible_spell_id": null,
-        "icon": "ability_priest_spiritoftheredeemer"
+        "icon": "ability_priest_spiritoftheredeemer",
+        "icon_candidates": [
+          "ability_priest_spiritoftheredeemer"
+        ]
       },
       "pve_tooltip": "Prayer of Healing mana cost reduced by 10% and its cast time is reduced by 15%.",
-      "pvp_tooltip": "Prayer of Healing mana cost reduced by 10% and its cast time is reduced by 15%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Prayer of Healing mana cost reduced by 10% and its cast time is reduced by 40%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 75,
+          "end": 77,
+          "old_token": "15",
+          "new_token": "40",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "15",
+          "new": "40"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1272320,
+          "source_spell_id": 1272320,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Cast Time (10)",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 2.66667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.66667,
+          "final_pvp_value": -40.00005,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8159,8 +8466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8192,7 +8499,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Assured Safety",
         "spell_id": 440766,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofmendingtga"
+        "icon": "spell_holy_prayerofmendingtga",
+        "icon_candidates": [
+          "spell_holy_prayerofmendingtga"
+        ]
       },
       "pve_tooltip": "Casting Prayer of Mending applies Power Word: Shield to your target.\nPower Word: Shield\nShields an ally for 15 sec, absorbing 0 damage.",
       "pvp_tooltip": "Casting Prayer of Mending applies Power Word: Shield to your target.\nPower Word: Shield\nShields an ally for 15 sec, absorbing 0 damage.",
@@ -8208,7 +8518,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440766,
           "source_spell_id": 1246768,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.638)",
+          "effect_text": "Apply Aura (6) | Absorb Damage (69) (SP mod: 4.638)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "absorb",
@@ -8235,58 +8545,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 440766,
-          "source_spell_id": 33110,
-          "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.732)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.65,
-          "amount_kind": "direct",
-          "aura_factor": 1.332,
-          "final_pvp_multiplier": 2.1978,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            440766,
-            33076,
-            33110
-          ],
-          "dependency_relations": [
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1238052,
-              "game_effect_id": 1235032,
-              "amount_kind": "direct",
-              "value_pct": -10.0,
-              "factor": 0.9,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            },
-            {
-              "aura_spell_id": 1238052,
-              "game_effect_id": 1264783,
-              "amount_kind": "direct",
-              "value_pct": 48.0,
-              "factor": 1.48,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8306,8 +8566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8339,7 +8599,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Feathers",
         "spell_id": 440670,
         "visible_spell_id": null,
-        "icon": "ability_priest_angelicfeather"
+        "icon": "ability_priest_angelicfeather",
+        "icon_candidates": [
+          "ability_priest_angelicfeather"
+        ]
       },
       "pve_tooltip": "Your Angelic Feathers increase movement speed by an additional 10%.\nWhen an ally walks through your Angelic Feather, you are also granted 100% of its effect.",
       "pvp_tooltip": "Your Angelic Feathers increase movement speed by an additional 10%.\nWhen an ally walks through your Angelic Feather, you are also granted 100% of its effect.",
@@ -8363,8 +8626,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8396,7 +8659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Save the Day",
         "spell_id": 440669,
         "visible_spell_id": null,
-        "icon": "priest_spell_leapoffaith_a"
+        "icon": "priest_spell_leapoffaith_a",
+        "icon_candidates": [
+          "priest_spell_leapoffaith_a"
+        ]
       },
       "pve_tooltip": "For 6 sec after casting Leap of Faith you may cast it a second time for free, ignoring its cooldown.",
       "pvp_tooltip": "For 6 sec after casting Leap of Faith you may cast it a second time for free, ignoring its cooldown.",
@@ -8420,8 +8686,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8453,7 +8719,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Foreseen Circumstances",
         "spell_id": 440738,
         "visible_spell_id": null,
-        "icon": "spell_holy_painsupression"
+        "icon": "spell_holy_painsupression",
+        "icon_candidates": [
+          "spell_holy_painsupression"
+        ]
       },
       "pve_tooltip": "Guardian Spirit lasts an additional 2 sec.",
       "pvp_tooltip": "Guardian Spirit lasts an additional 2 sec.",
@@ -8477,8 +8746,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8510,7 +8779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prophet's Insight",
         "spell_id": 1272359,
         "visible_spell_id": null,
-        "icon": "spell_priest_pontifex"
+        "icon": "spell_priest_pontifex",
+        "icon_candidates": [
+          "spell_priest_pontifex"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of your Holy Words by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of your Holy Words by 5 sec.",
@@ -8534,8 +8806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8567,7 +8839,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shock Pulse",
         "spell_id": 453852,
         "visible_spell_id": null,
-        "icon": "spell_priest_pathofdevout"
+        "icon": "spell_priest_pathofdevout",
+        "icon_candidates": [
+          "spell_priest_pathofdevout"
+        ]
       },
       "pve_tooltip": "Halo damage reduces enemy movement speed by 5% for 5 sec, stacking up to 5 times.",
       "pvp_tooltip": "Halo damage reduces enemy movement speed by 5% for 5 sec, stacking up to 5 times.",
@@ -8591,8 +8866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8624,7 +8899,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Incessant Screams",
         "spell_id": 453918,
         "visible_spell_id": null,
-        "icon": "spell_shadow_psychicscream"
+        "icon": "spell_shadow_psychicscream",
+        "icon_candidates": [
+          "spell_shadow_psychicscream"
+        ]
       },
       "pve_tooltip": "Psychic Scream creates an image of you at your location. After 4 sec, the image will let out a Psychic Scream.",
       "pvp_tooltip": "Psychic Scream creates an image of you at your location. After 4 sec, the image will let out a Psychic Scream.",
@@ -8648,8 +8926,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8681,7 +8959,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Energy Conservation",
         "spell_id": 1272308,
         "visible_spell_id": null,
-        "icon": "ability_priest_clarityofpurpose"
+        "icon": "ability_priest_clarityofpurpose",
+        "icon_candidates": [
+          "ability_priest_clarityofpurpose"
+        ]
       },
       "pve_tooltip": "Power Surge lasts an additional 5 sec.",
       "pvp_tooltip": "Power Surge lasts an additional 5 sec.",
@@ -8705,8 +8986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8738,7 +9019,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empowered Surges",
         "spell_id": 453799,
         "visible_spell_id": null,
-        "icon": "ability_priest_flashoflight"
+        "icon": "ability_priest_flashoflight",
+        "icon_candidates": [
+          "ability_priest_flashoflight"
+        ]
       },
       "pve_tooltip": "Your spells affected by Surge of Light heal for 5% more while Surge of Light is active.",
       "pvp_tooltip": "Your spells affected by Surge of Light heal for 5% more while Surge of Light is active.",
@@ -8762,8 +9046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8795,7 +9079,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Word of Supremacy",
         "spell_id": 453726,
         "visible_spell_id": null,
-        "icon": "spell_holy_wordfortitude"
+        "icon": "spell_holy_wordfortitude",
+        "icon_candidates": [
+          "spell_holy_wordfortitude"
+        ]
       },
       "pve_tooltip": "Power Word: Fortitude grants you an additional 5% stamina.",
       "pvp_tooltip": "Power Word: Fortitude grants you an additional 5% stamina.",
@@ -8819,8 +9106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8852,7 +9139,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heightened Alteration",
         "spell_id": 453729,
         "visible_spell_id": null,
-        "icon": "inv_enchant_essenceeternallarge"
+        "icon": "inv_enchant_essenceeternallarge",
+        "icon_candidates": [
+          "inv_enchant_essenceeternallarge"
+        ]
       },
       "pve_tooltip": "Increases the duration of Spirit of Redemption by 5 sec.",
       "pvp_tooltip": "Increases the duration of Spirit of Redemption by 5 sec.",
@@ -8876,8 +9166,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8909,7 +9199,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prophet's Will",
         "spell_id": 433905,
         "visible_spell_id": null,
-        "icon": "ability_priest_clarityofpurpose"
+        "icon": "ability_priest_clarityofpurpose",
+        "icon_candidates": [
+          "ability_priest_clarityofpurpose"
+        ]
       },
       "pve_tooltip": "Your Flash Heal and Holy Word: Serenity are 30% more effective when cast on yourself.",
       "pvp_tooltip": "Your Flash Heal and Holy Word: Serenity are 15% more effective when cast on yourself.",
@@ -8980,8 +9273,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9013,7 +9306,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Desperate Measures",
         "spell_id": 458718,
         "visible_spell_id": null,
-        "icon": "spell_holy_testoffaith"
+        "icon": "spell_holy_testoffaith",
+        "icon_candidates": [
+          "spell_holy_testoffaith"
+        ]
       },
       "pve_tooltip": "Desperate Prayer lasts an additional 10 sec.\nAngelic Bulwark's absorption effect is increased by 15% of your maximum health.",
       "pvp_tooltip": "Desperate Prayer lasts an additional 10 sec.\nAngelic Bulwark's absorption effect is increased by 15% of your maximum health.",
@@ -9037,8 +9333,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9070,7 +9366,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prompt Prognosis",
         "spell_id": 1246799,
         "visible_spell_id": null,
-        "icon": "spell_holy_blessedlife"
+        "icon": "spell_holy_blessedlife",
+        "icon_candidates": [
+          "spell_holy_blessedlife"
+        ]
       },
       "pve_tooltip": "Casting Prayer of Mending heals your target for (1222% of Spell Power).",
       "pvp_tooltip": "Casting Prayer of Mending heals your target for (1222% of Spell Power).",
@@ -9086,7 +9385,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246799,
           "source_spell_id": 1246798,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 12.22)",
+          "effect_text": "Direct Heal (10) (SP mod: 12.22)",
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "direct",
@@ -9113,9 +9412,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9135,8 +9434,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9168,7 +9467,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Piety",
         "spell_id": 1246802,
         "visible_spell_id": null,
-        "icon": "inv_ability_oraclepriest_premonitionpiety"
+        "icon": "inv_ability_oraclepriest_premonitionpiety",
+        "icon_candidates": [
+          "inv_ability_oraclepriest_premonitionpiety"
+        ]
       },
       "pve_tooltip": "20% of overhealing done is redistributed to up to 4 nearby injured allies.",
       "pvp_tooltip": "20% of overhealing done is redistributed to up to 4 nearby injured allies.",
@@ -9192,8 +9494,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9225,7 +9527,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unfolding Vision",
         "spell_id": 1272363,
         "visible_spell_id": null,
-        "icon": "spell_holy_mindvision"
+        "icon": "spell_holy_mindvision",
+        "icon_candidates": [
+          "spell_holy_mindvision"
+        ]
       },
       "pve_tooltip": "When Prayer of Mending expires without healing, it jumps to a nearby injured ally and loses 2 stacks instead.",
       "pvp_tooltip": "When Prayer of Mending expires without healing, it jumps to a nearby injured ally and loses 2 stacks instead.",
@@ -9249,8 +9554,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9282,7 +9587,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Energy Compression",
         "spell_id": 449874,
         "visible_spell_id": null,
-        "icon": "spell_holy_circleofrenewal"
+        "icon": "spell_holy_circleofrenewal",
+        "icon_candidates": [
+          "spell_holy_circleofrenewal"
+        ]
       },
       "pve_tooltip": "Halo damage and healing is increased by 30%.",
       "pvp_tooltip": "Halo damage and healing is increased by 30%.",
@@ -9306,8 +9614,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9339,7 +9647,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sustained Potency",
         "spell_id": 454001,
         "visible_spell_id": null,
-        "icon": "ability_priest_ascension"
+        "icon": "ability_priest_ascension",
+        "icon_candidates": [
+          "ability_priest_ascension"
+        ]
       },
       "pve_tooltip": "Creating a Halo extends the duration of Apotheosis by 1 sec. If Apotheosis is not active, up to 6 seconds is stored.\nWhile out of combat or affected by a loss of control effect, the duration of Apotheosis is paused for up to 20 sec.",
       "pvp_tooltip": "Creating a Halo extends the duration of Apotheosis by 1 sec. If Apotheosis is not active, up to 6 seconds is stored.\nWhile out of combat or affected by a loss of control effect, the duration of Apotheosis is paused for up to 20 sec.",
@@ -9363,8 +9674,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9396,7 +9707,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Resonant Energy",
         "spell_id": 453845,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_orb"
+        "icon": "inv_ability_holyfire_orb",
+        "icon_candidates": [
+          "inv_ability_holyfire_orb"
+        ]
       },
       "pve_tooltip": "Creating a Halo increases your healing done by 2% for 10 sec, stacking up to 4 times.",
       "pvp_tooltip": "Creating a Halo increases your healing done by 2% for 10 sec, stacking up to 4 times.",
@@ -9420,8 +9734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9453,7 +9767,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Energy Cycle",
         "spell_id": 453828,
         "visible_spell_id": null,
-        "icon": "ability_priest_voidshift"
+        "icon": "ability_priest_voidshift",
+        "icon_candidates": [
+          "ability_priest_voidshift"
+        ]
       },
       "pve_tooltip": "Consuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
       "pvp_tooltip": "Consuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
@@ -9477,8 +9794,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9510,17 +9827,66 @@ window.WOW_PVP_DATA = {
         "talent_name": "Realized Potential",
         "spell_id": 1272326,
         "visible_spell_id": null,
-        "icon": "spell_holy_flashheal"
+        "icon": "spell_holy_flashheal",
+        "icon_candidates": [
+          "spell_holy_flashheal"
+        ]
       },
       "pve_tooltip": "Flash Heal healing increased by 10%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
-      "pvp_tooltip": "Flash Heal healing increased by 10%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Flash Heal healing increased by 20%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 32,
+          "end": 34,
+          "old_token": "10",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "10",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1272326,
+          "source_spell_id": 1272326,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -9534,8 +9900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9567,7 +9933,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiritwell",
         "spell_id": 1247178,
         "visible_spell_id": null,
-        "icon": "spell_holy_prayerofhealing02"
+        "icon": "spell_holy_prayerofhealing02",
+        "icon_candidates": [
+          "spell_holy_prayerofhealing02"
+        ]
       },
       "pve_tooltip": "Surge of Light can now be consumed by Prayer of Healing in addition to Flash Heal.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
       "pvp_tooltip": "Surge of Light can now be consumed by Prayer of Healing in addition to Flash Heal.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -9634,7 +10003,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247178,
           "source_spell_id": 186263,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 8.74)",
+          "effect_text": "Direct Heal (10) (SP mod: 8.74)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9674,10 +10043,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9694,8 +10064,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9728,7 +10098,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twinsight",
         "spell_id": 440742,
         "visible_spell_id": null,
-        "icon": "inv_ability_oraclepriest_clairvoyance"
+        "icon": "inv_ability_oraclepriest_clairvoyance",
+        "icon_candidates": [
+          "inv_ability_oraclepriest_clairvoyance"
+        ]
       },
       "pve_tooltip": "An additional 4 stacks of Prayer of Mending is placed on a second ally within 40 yards when casting Prayer of Mending.",
       "pvp_tooltip": "An additional 2 stacks of Prayer of Mending is placed on a second ally within 40 yards when casting Prayer of Mending.",
@@ -9799,8 +10172,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9833,7 +10206,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Divine Halo",
         "spell_id": 449806,
         "visible_spell_id": null,
-        "icon": "inv_ability_holyfire_nova"
+        "icon": "inv_ability_holyfire_nova",
+        "icon_candidates": [
+          "inv_ability_holyfire_nova"
+        ]
       },
       "pve_tooltip": "Halo now centers around you and returns to you after it reaches its maximum distance, healing allies and damaging enemies each time it passes through them.",
       "pvp_tooltip": "Halo now centers around you and returns to you after it reaches its maximum distance, healing allies and damaging enemies each time it passes through them.",
@@ -10146,11 +10522,11 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "priest-holy",
-  "generated_at": "2026-09-22T19:28:16.541224+00:00",
+  "generated_at": "2026-09-24T11:50:02.012576+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 17,
-    "talents_with_pvp_mechanics": 27,
+    "changed_tooltips": 19,
+    "talents_with_pvp_mechanics": 29,
     "unique_nodes": 119,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -10159,11 +10535,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 8,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 120692,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 120696,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 186263,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=186263'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 243241,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=243241'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 281265,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=281265'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

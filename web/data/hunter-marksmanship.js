@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -49,7 +49,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rejuvenating Wind",
         "spell_id": 385539,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
       "pvp_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
@@ -73,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -104,7 +107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Survival of the Fittest",
         "spell_id": 264735,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 30% for 6 sec.",
       "pvp_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 25% for 6 sec.",
@@ -200,8 +206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -231,7 +237,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Posthaste",
         "spell_id": 109215,
         "visible_spell_id": null,
-        "icon": "ability_hunter_posthaste"
+        "icon": "ability_hunter_posthaste",
+        "icon_candidates": [
+          "ability_hunter_posthaste"
+        ]
       },
       "pve_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
       "pvp_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
@@ -255,8 +264,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -289,7 +298,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Natural Mending",
         "spell_id": 270581,
         "visible_spell_id": null,
-        "icon": "ability_hunter_onewithnature"
+        "icon": "ability_hunter_onewithnature",
+        "icon_candidates": [
+          "ability_hunter_onewithnature"
+        ]
       },
       "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
@@ -332,8 +344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -366,7 +378,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Padded Armor",
         "spell_id": 459450,
         "visible_spell_id": null,
-        "icon": "ability_rogue_plunderarmor"
+        "icon": "ability_rogue_plunderarmor",
+        "icon_candidates": [
+          "ability_rogue_plunderarmor"
+        ]
       },
       "pve_tooltip": "Survival of the Fittest gains an additional charge.",
       "pvp_tooltip": "Survival of the Fittest gains an additional charge.",
@@ -390,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -424,7 +439,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hunter's Avoidance",
         "spell_id": 384799,
         "visible_spell_id": null,
-        "icon": "rogue_burstofspeed"
+        "icon": "rogue_burstofspeed",
+        "icon_candidates": [
+          "rogue_burstofspeed"
+        ]
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
       "pvp_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
@@ -448,8 +466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -481,7 +499,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wilderness Medicine",
         "spell_id": 343242,
         "visible_spell_id": null,
-        "icon": "ability_hunter_mendpet"
+        "icon": "ability_hunter_mendpet",
+        "icon_candidates": [
+          "ability_hunter_mendpet"
+        ]
       },
       "pve_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
       "pvp_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
@@ -536,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -571,7 +592,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combat Experience",
         "spell_id": 1268871,
         "visible_spell_id": null,
-        "icon": "ability_hunter_combatexperience"
+        "icon": "ability_hunter_combatexperience",
+        "icon_candidates": [
+          "ability_hunter_combatexperience"
+        ]
       },
       "pve_tooltip": "Your Agility is increased by 3%.",
       "pvp_tooltip": "Your Agility is increased by 3%.",
@@ -595,8 +619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -630,7 +654,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Aspect of the Cheetah",
         "spell_id": 1258407,
         "visible_spell_id": null,
-        "icon": "ability_mount_jungletiger"
+        "icon": "ability_mount_jungletiger",
+        "icon_candidates": [
+          "ability_mount_jungletiger"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
@@ -654,8 +681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -687,7 +714,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Concussive Shot",
         "spell_id": 5116,
         "visible_spell_id": null,
-        "icon": "spell_frost_stun"
+        "icon": "spell_frost_stun",
+        "icon_candidates": [
+          "spell_frost_stun"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 50% for 6 sec.\nSteady Shot will increase the duration of Concussive Shot on the target by 3.0 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 30% for 6 sec.\nSteady Shot will increase the duration of Concussive Shot on the target by 3.0 sec.",
@@ -758,8 +788,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -793,7 +823,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precision Strikes",
         "spell_id": 1267003,
         "visible_spell_id": null,
-        "icon": "inv12_ability_hunter_rupturingblow"
+        "icon": "inv12_ability_hunter_rupturingblow",
+        "icon_candidates": [
+          "inv12_ability_hunter_rupturingblow"
+        ]
       },
       "pve_tooltip": "Your auto shot damage is increased by 25%.",
       "pvp_tooltip": "Your auto shot damage is increased by 25%.",
@@ -817,8 +850,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -853,7 +886,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Counter Shot",
         "spell_id": 147362,
         "visible_spell_id": null,
-        "icon": "inv_ammo_arrow_03"
+        "icon": "inv_ammo_arrow_03",
+        "icon_candidates": [
+          "inv_ammo_arrow_03"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n24 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n24 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
@@ -877,8 +913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -912,7 +948,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Serrated Tips",
         "spell_id": 459502,
         "visible_spell_id": null,
-        "icon": "inv_spear_01"
+        "icon": "inv_spear_01",
+        "icon_candidates": [
+          "inv_spear_01"
+        ]
       },
       "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
       "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
@@ -955,8 +994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -989,7 +1028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tranquilizing Shot",
         "spell_id": 19801,
         "visible_spell_id": null,
-        "icon": "spell_nature_drowsy"
+        "icon": "spell_nature_drowsy",
+        "icon_candidates": [
+          "spell_nature_drowsy"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
       "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
@@ -1013,8 +1055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1048,7 +1090,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pathfinding",
         "spell_id": 378002,
         "visible_spell_id": null,
-        "icon": "ability_hunter_displacement"
+        "icon": "ability_hunter_displacement",
+        "icon_candidates": [
+          "ability_hunter_displacement"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 4%.",
       "pvp_tooltip": "Movement speed increased by 4%.",
@@ -1072,8 +1117,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1107,7 +1152,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Disruptive Rounds",
         "spell_id": 343244,
         "visible_spell_id": null,
-        "icon": "hunter_pvp_vipersting"
+        "icon": "hunter_pvp_vipersting",
+        "icon_candidates": [
+          "hunter_pvp_vipersting"
+        ]
       },
       "pve_tooltip": "When Counter Shot interrupts a cast, gain 30 Focus.",
       "pvp_tooltip": "When Counter Shot interrupts a cast, gain 30 Focus.",
@@ -1131,8 +1179,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1166,7 +1214,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Feign Death",
         "spell_id": 1258486,
         "visible_spell_id": null,
-        "icon": "ability_rogue_feigndeath"
+        "icon": "ability_rogue_feigndeath",
+        "icon_candidates": [
+          "ability_rogue_feigndeath"
+        ]
       },
       "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
       "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
@@ -1209,8 +1260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1243,7 +1294,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Misdirection",
         "spell_id": 34477,
         "visible_spell_id": null,
-        "icon": "ability_hunter_misdirection"
+        "icon": "ability_hunter_misdirection",
+        "icon_candidates": [
+          "ability_hunter_misdirection"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
@@ -1267,8 +1321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1300,7 +1354,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kodo Tranquilizer",
         "spell_id": 459983,
         "visible_spell_id": null,
-        "icon": "ability_mount_kodo_03"
+        "icon": "ability_mount_kodo_03",
+        "icon_candidates": [
+          "ability_mount_kodo_03"
+        ]
       },
       "pve_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
       "pvp_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
@@ -1324,8 +1381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1357,7 +1414,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devilsaur Tranquilizer",
         "spell_id": 459991,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pet_devilsaur"
+        "icon": "ability_hunter_pet_devilsaur",
+        "icon_candidates": [
+          "ability_hunter_pet_devilsaur"
+        ]
       },
       "pve_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
       "pvp_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
@@ -1381,8 +1441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1415,7 +1475,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kindling Flare",
         "spell_id": 459506,
         "visible_spell_id": null,
-        "icon": "achievment_raid_houroftwilight"
+        "icon": "achievment_raid_houroftwilight",
+        "icon_candidates": [
+          "achievment_raid_houroftwilight"
+        ]
       },
       "pve_tooltip": "Flare's radius is increased by 50%.",
       "pvp_tooltip": "Flare's radius is increased by 50%.",
@@ -1439,8 +1502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1474,7 +1537,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trigger Finger",
         "spell_id": 459534,
         "visible_spell_id": null,
-        "icon": "inv_10_engineering2_pvpflaregun_color1"
+        "icon": "inv_10_engineering2_pvpflaregun_color1",
+        "icon_candidates": [
+          "inv_10_engineering2_pvpflaregun_color1"
+        ]
       },
       "pve_tooltip": "100 yd range\nHaste increased by 2%.",
       "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
@@ -1517,8 +1583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1550,7 +1616,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tar Trap",
         "spell_id": 187698,
         "visible_spell_id": null,
-        "icon": "spell_yorsahj_bloodboil_black"
+        "icon": "spell_yorsahj_bloodboil_black",
+        "icon_candidates": [
+          "spell_yorsahj_bloodboil_black"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 50% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
       "pvp_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 30% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
@@ -1626,8 +1695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1659,7 +1728,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scare Beast",
         "spell_id": 1513,
         "visible_spell_id": null,
-        "icon": "ability_druid_cower"
+        "icon": "ability_druid_cower",
+        "icon_candidates": [
+          "ability_druid_cower"
+        ]
       },
       "pve_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
       "pvp_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
@@ -1683,8 +1755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1718,7 +1790,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Touch of Grass",
         "spell_id": 1258402,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_lifetreading"
+        "icon": "inv12_ability_druid_lifetreading",
+        "icon_candidates": [
+          "inv12_ability_druid_lifetreading"
+        ]
       },
       "pve_tooltip": "Your maximum health is increased by 10%.",
       "pvp_tooltip": "Your maximum health is increased by 10%.",
@@ -1761,8 +1836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1795,7 +1870,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Camouflage",
         "spell_id": 199483,
         "visible_spell_id": null,
-        "icon": "ability_hunter_camouflage"
+        "icon": "ability_hunter_camouflage",
+        "icon_candidates": [
+          "ability_hunter_camouflage"
+        ]
       },
       "pve_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
       "pvp_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
@@ -1819,8 +1897,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1852,7 +1930,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Hard Feelings",
         "spell_id": 459546,
         "visible_spell_id": null,
-        "icon": "ability_seal"
+        "icon": "ability_seal",
+        "icon_candidates": [
+          "ability_seal"
+        ]
       },
       "pve_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
       "pvp_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
@@ -1876,8 +1957,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1913,7 +1994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Aspect of the Turtle",
         "spell_id": 1258485,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pet_turtle"
+        "icon": "ability_hunter_pet_turtle",
+        "icon_candidates": [
+          "ability_hunter_pet_turtle"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
@@ -1937,8 +2021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1974,7 +2058,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Specialized Arsenal",
         "spell_id": 459542,
         "visible_spell_id": null,
-        "icon": "inv_misc_quiver_03"
+        "icon": "inv_misc_quiver_03",
+        "icon_candidates": [
+          "inv_misc_quiver_03"
+        ]
       },
       "pve_tooltip": "Aimed Shot deals 10% increased damage.",
       "pvp_tooltip": "Aimed Shot deals 10% increased damage.",
@@ -1998,8 +2085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2035,7 +2122,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scout's Instincts",
         "spell_id": 459455,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
       "pvp_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
@@ -2059,8 +2149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2092,7 +2182,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shell Wall",
         "spell_id": 1267218,
         "visible_spell_id": null,
-        "icon": "inv_cape_special_turtleshell_c_01"
+        "icon": "inv_cape_special_turtleshell_c_01",
+        "icon_candidates": [
+          "inv_cape_special_turtleshell_c_01"
+        ]
       },
       "pve_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
       "pvp_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
@@ -2116,8 +2209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2151,7 +2244,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intimidation",
         "spell_id": 474421,
         "visible_spell_id": null,
-        "icon": "artifactability_survivalhunter_eaglesbite"
+        "icon": "artifactability_survivalhunter_eaglesbite",
+        "icon_candidates": [
+          "artifactability_survivalhunter_eaglesbite"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nYour Spotting Eagle descends from the skies, stunning your target for 5 sec. [Binding Shackles: Targets stunned by Intimidation deal 10% less damage to you for 8 sec after the effect ends]\nThis ability does not require line of sight when used against players.",
       "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nYour Spotting Eagle descends from the skies, stunning your target for 5 sec. [Binding Shackles: Targets stunned by Intimidation deal 10% less damage to you for 8 sec after the effect ends]\nThis ability does not require line of sight when used against players.",
@@ -2175,8 +2271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2209,7 +2305,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Snaring",
         "spell_id": 1268868,
         "visible_spell_id": null,
-        "icon": "inv_fishing_nethooks01"
+        "icon": "inv_fishing_nethooks01",
+        "icon_candidates": [
+          "inv_fishing_nethooks01"
+        ]
       },
       "pve_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
       "pvp_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
@@ -2233,8 +2332,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2267,7 +2366,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lone Survivor",
         "spell_id": 388039,
         "visible_spell_id": null,
-        "icon": "ability_hunter_huntervswild"
+        "icon": "ability_hunter_huntervswild",
+        "icon_candidates": [
+          "ability_hunter_huntervswild"
+        ]
       },
       "pve_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
       "pvp_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
@@ -2291,8 +2393,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2325,7 +2427,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Catlike Reflexes",
         "spell_id": 1258404,
         "visible_spell_id": null,
-        "icon": "ability_hunter_catlikereflexes"
+        "icon": "ability_hunter_catlikereflexes",
+        "icon_candidates": [
+          "ability_hunter_catlikereflexes"
+        ]
       },
       "pve_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
       "pvp_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
@@ -2349,8 +2454,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2384,7 +2489,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Binding Shot",
         "spell_id": 109248,
         "visible_spell_id": null,
-        "icon": "spell_shaman_bindelemental"
+        "icon": "spell_shaman_bindelemental",
+        "icon_candidates": [
+          "spell_shaman_bindelemental"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
       "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
@@ -2408,8 +2516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2441,7 +2549,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trailblazer",
         "spell_id": 199921,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aspectmastery"
+        "icon": "ability_hunter_aspectmastery",
+        "icon_candidates": [
+          "ability_hunter_aspectmastery"
+        ]
       },
       "pve_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
       "pvp_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
@@ -2465,8 +2576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2498,7 +2609,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moment of Opportunity",
         "spell_id": 459488,
         "visible_spell_id": null,
-        "icon": "ability_karoz_leap"
+        "icon": "ability_karoz_leap",
+        "icon_candidates": [
+          "ability_karoz_leap"
+        ]
       },
       "pve_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
       "pvp_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
@@ -2522,8 +2636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2556,7 +2670,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cold Feet",
         "spell_id": 1268671,
         "visible_spell_id": null,
-        "icon": "ability_mage_icyfeet"
+        "icon": "ability_mage_icyfeet",
+        "icon_candidates": [
+          "ability_mage_icyfeet"
+        ]
       },
       "pve_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 70% for 4 sec.",
       "pvp_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 50% for 4 sec.",
@@ -2632,8 +2749,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2663,7 +2780,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Territorial Instincts",
         "spell_id": 459507,
         "visible_spell_id": null,
-        "icon": "spell_nature_shamanrage"
+        "icon": "spell_nature_shamanrage",
+        "icon_candidates": [
+          "spell_nature_shamanrage"
+        ]
       },
       "pve_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
       "pvp_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
@@ -2687,8 +2807,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2718,7 +2838,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guttural Roar",
         "spell_id": 1258509,
         "visible_spell_id": null,
-        "icon": "ability_druid_challangingroar"
+        "icon": "ability_druid_challangingroar",
+        "icon_candidates": [
+          "ability_druid_challangingroar"
+        ]
       },
       "pve_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
       "pvp_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
@@ -2742,8 +2865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2778,7 +2901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Born To Be Wild",
         "spell_id": 266921,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aspectoftheviper"
+        "icon": "ability_hunter_aspectoftheviper",
+        "icon_candidates": [
+          "ability_hunter_aspectoftheviper"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
@@ -2821,8 +2947,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2857,7 +2983,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Keen Eyesight",
         "spell_id": 378004,
         "visible_spell_id": null,
-        "icon": "ability_hunter_silenthunter"
+        "icon": "ability_hunter_silenthunter",
+        "icon_candidates": [
+          "ability_hunter_silenthunter"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 4%.",
       "pvp_tooltip": "Critical strike chance increased by 4%.",
@@ -2900,8 +3029,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2931,7 +3060,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tar-Coated Bindings",
         "spell_id": 459460,
         "visible_spell_id": null,
-        "icon": "inv_misc_food_legion_goooil_pool"
+        "icon": "inv_misc_food_legion_goooil_pool",
+        "icon_candidates": [
+          "inv_misc_food_legion_goooil_pool"
+        ]
       },
       "pve_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
       "pvp_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
@@ -2955,8 +3087,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2986,7 +3118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Horsehair Tether",
         "spell_id": 472729,
         "visible_spell_id": null,
-        "icon": "inv_misc_rope_01"
+        "icon": "inv_misc_rope_01",
+        "icon_candidates": [
+          "inv_misc_rope_01"
+        ]
       },
       "pve_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
       "pvp_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
@@ -3010,8 +3145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3044,7 +3179,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Traps",
         "spell_id": 343247,
         "visible_spell_id": null,
-        "icon": "ability_hunter_traplauncher"
+        "icon": "ability_hunter_traplauncher",
+        "icon_candidates": [
+          "ability_hunter_traplauncher"
+        ]
       },
       "pve_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
       "pvp_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
@@ -3068,8 +3206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3100,7 +3238,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Emergency Salve",
         "spell_id": 459517,
         "visible_spell_id": null,
-        "icon": "inv_potion_29"
+        "icon": "inv_potion_29",
+        "icon_candidates": [
+          "inv_potion_29"
+        ]
       },
       "pve_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
       "pvp_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
@@ -3124,8 +3265,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3156,7 +3297,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Roar of Sacrifice",
         "spell_id": 53480,
         "visible_spell_id": null,
-        "icon": "ability_hunter_fervor"
+        "icon": "ability_hunter_fervor",
+        "icon_candidates": [
+          "ability_hunter_fervor"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 15%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 25%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
@@ -3227,8 +3371,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3259,7 +3403,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guardian's Hide",
         "spell_id": 1272094,
         "visible_spell_id": null,
-        "icon": "spell_druid_bristlingfur"
+        "icon": "spell_druid_bristlingfur",
+        "icon_candidates": [
+          "spell_druid_bristlingfur"
+        ]
       },
       "pve_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
       "pvp_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
@@ -3283,8 +3430,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3315,7 +3462,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unnatural Causes",
         "spell_id": 459527,
         "visible_spell_id": null,
-        "icon": "ability_hunter_potentvenom"
+        "icon": "ability_hunter_potentvenom",
+        "icon_candidates": [
+          "ability_hunter_potentvenom"
+        ]
       },
       "pve_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
       "pvp_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
@@ -3339,8 +3489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3371,7 +3521,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aimed Shot",
         "spell_id": 19434,
         "visible_spell_id": null,
-        "icon": "inv121_ability_hunter_aimedshot"
+        "icon": "inv121_ability_hunter_aimedshot",
+        "icon_candidates": [
+          "inv121_ability_hunter_aimedshot"
+        ]
       },
       "pve_tooltip": "35 Focus\n40 yd range\n2.5 sec cast\n15 sec recharge\n2 Charges\nA powerful aimed shot that deals (972% of Attack Power) Physical damage.",
       "pvp_tooltip": "35 Focus\n40 yd range\n2.5 sec cast\n15 sec recharge\n2 Charges\nA powerful aimed shot that deals (1237.356% of Attack Power) Physical damage.",
@@ -3450,8 +3603,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3484,7 +3637,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rapid Fire",
         "spell_id": 257044,
         "visible_spell_id": null,
-        "icon": "ability_hunter_efficiency"
+        "icon": "ability_hunter_efficiency",
+        "icon_candidates": [
+          "ability_hunter_efficiency"
+        ]
       },
       "pve_tooltip": "40 yd range\nChanneled (2 sec cast)\n16 sec cooldown\nShoot a stream of 7 / Double Tap: 13 / Quick Draw: 10 shots at your target over 2 sec, dealing a total of [7 / Double Tap: 12.6 / Quick Draw: 10 * (105% of Attack Power)%] Physical damage. Usable while moving.\nEach shot generates 3 / Double Tap: 5 / Quick Draw: 6 Focus.",
       "pvp_tooltip": "40 yd range\nChanneled (2 sec cast)\n16 sec cooldown\nShoot a stream of 7 / Double Tap: 13 / Quick Draw: 10 shots at your target over 2 sec, dealing a total of [7 / Double Tap: 12.6 / Quick Draw: 10 * (105% of Attack Power)%] Physical damage. Usable while moving.\nEach shot generates 3 / Double Tap: 5 / Quick Draw: 6 Focus.",
@@ -3508,8 +3664,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3542,7 +3698,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precise Shots",
         "spell_id": 260240,
         "visible_spell_id": null,
-        "icon": "ability_hunter_snipertraining"
+        "icon": "ability_hunter_snipertraining",
+        "icon_candidates": [
+          "ability_hunter_snipertraining"
+        ]
       },
       "pve_tooltip": "Aimed Shot causes your next Arcane Shot or Multi-Shot to deal 50% more damage and cost 60% less Focus.\nPrecise Shots benefits Kill Shot's damage at 100% effectiveness.",
       "pvp_tooltip": "Aimed Shot causes your next Arcane Shot or Multi-Shot to deal 50% more damage and cost 60% less Focus.\nPrecise Shots benefits Kill Shot's damage at 50% effectiveness.",
@@ -3613,8 +3772,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3646,7 +3805,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Draw",
         "spell_id": 459794,
         "visible_spell_id": null,
-        "icon": "ability_rogue_pistolshot"
+        "icon": "ability_rogue_pistolshot",
+        "icon_candidates": [
+          "ability_rogue_pistolshot"
+        ]
       },
       "pve_tooltip": "Rapid Fire shoots 3 additional shots.\nAimed Shot grants 50% increased movement speed for 2 sec, decaying rapidly over its duration.",
       "pvp_tooltip": "Rapid Fire shoots 3 additional shots.\nAimed Shot grants 50% increased movement speed for 2 sec, decaying rapidly over its duration.",
@@ -3670,8 +3832,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3705,7 +3867,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Avian Specialization",
         "spell_id": 466867,
         "visible_spell_id": null,
-        "icon": "inv_111_hunter_ability_eyesinthesky"
+        "icon": "inv_111_hunter_ability_eyesinthesky",
+        "icon_candidates": [
+          "inv_111_hunter_ability_eyesinthesky"
+        ]
       },
       "pve_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot to deal 20% increased damage to the target.",
       "pvp_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot to deal 10% increased damage to the target.",
@@ -3781,8 +3946,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3816,7 +3981,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unbreakable Bond",
         "spell_id": 1223323,
         "visible_spell_id": null,
-        "icon": "ability_hunter_separationanxiety"
+        "icon": "ability_hunter_separationanxiety",
+        "icon_candidates": [
+          "ability_hunter_separationanxiety"
+        ]
       },
       "pve_tooltip": "40 yd range\nRegain access to Call Pet.\nWhile outdoors, your pet deals 15% increased damage and takes 15% reduced damage.",
       "pvp_tooltip": "40 yd range\nRegain access to Call Pet.\nWhile outdoors, your pet deals 15% increased damage and takes 15% reduced damage.",
@@ -3840,8 +4008,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3874,7 +4042,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lock and Load",
         "spell_id": 194595,
         "visible_spell_id": null,
-        "icon": "ability_hunter_lockandload"
+        "icon": "ability_hunter_lockandload",
+        "icon_candidates": [
+          "ability_hunter_lockandload"
+        ]
       },
       "pve_tooltip": "Your ranged auto attacks have a 10% chance to trigger Lock and Load, causing your next Aimed Shot to cost no Focus and be instant.",
       "pvp_tooltip": "Your ranged auto attacks have a 10% chance to trigger Lock and Load, causing your next Aimed Shot to cost no Focus and be instant.",
@@ -3898,8 +4069,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3932,7 +4103,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Surging Shots",
         "spell_id": 391559,
         "visible_spell_id": null,
-        "icon": "ability_hunter_resistanceisfutile"
+        "icon": "ability_hunter_resistanceisfutile",
+        "icon_candidates": [
+          "ability_hunter_resistanceisfutile"
+        ]
       },
       "pve_tooltip": "Rapid Fire deals 35% additional damage, and Aimed Shot has a 15% chance to reset the cooldown of Rapid Fire.",
       "pvp_tooltip": "Rapid Fire deals 35% additional damage, and Aimed Shot has a 15% chance to reset the cooldown of Rapid Fire.",
@@ -3956,8 +4130,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3989,7 +4163,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tenacious",
         "spell_id": 474456,
         "visible_spell_id": null,
-        "icon": "ability_druid_demoralizingroar"
+        "icon": "ability_druid_demoralizingroar",
+        "icon_candidates": [
+          "ability_druid_demoralizingroar"
+        ]
       },
       "pve_tooltip": "Your Spotting Eagle gains the Tenacity specialization, granting you Endurance Training and Air Superiority.\nEndurance Training\nYou gain 5% increased maximum health.\nAir Superiority\nYour Spotting Eagle alerts you to oncoming danger, reducing all damage you take by 3%",
       "pvp_tooltip": "Your Spotting Eagle gains the Tenacity specialization, granting you Endurance Training and Air Superiority.\nEndurance Training\nYou gain 5% increased maximum health.\nAir Superiority\nYour Spotting Eagle alerts you to oncoming danger, reducing all damage you take by 3%",
@@ -4013,8 +4190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4046,7 +4223,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cunning",
         "spell_id": 474440,
         "visible_spell_id": null,
-        "icon": "ability_eyeoftheowl"
+        "icon": "ability_eyeoftheowl",
+        "icon_candidates": [
+          "ability_eyeoftheowl"
+        ]
       },
       "pve_tooltip": "Your Spotting Eagle gains the Cunning specialization, granting you Master's Call and Pathfinding.\nMaster's Call\nYour pet removes all root and movement impairing effects from itself and a friendly target, and grants immunity to all such effects for 4 sec.\nPathfinding\nYour movement speed is increased by 8%.",
       "pvp_tooltip": "Your Spotting Eagle gains the Cunning specialization, granting you Master's Call and Pathfinding.\nMaster's Call\nYour pet removes all root and movement impairing effects from itself and a friendly target, and grants immunity to all such effects for 4 sec.\nPathfinding\nYour movement speed is increased by 8%.",
@@ -4070,8 +4250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4106,7 +4286,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Penetrating Shots",
         "spell_id": 459783,
         "visible_spell_id": null,
-        "icon": "achievement_guildperk_reinforce_rank2"
+        "icon": "achievement_guildperk_reinforce_rank2",
+        "icon_candidates": [
+          "achievement_guildperk_reinforce_rank2"
+        ]
       },
       "pve_tooltip": "Gain critical strike damage equal to 25% of your critical strike chance.",
       "pvp_tooltip": "Gain critical strike damage equal to 25% of your critical strike chance.",
@@ -4130,8 +4313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4164,18 +4347,21 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trick Shots",
         "spell_id": 257621,
         "visible_spell_id": null,
-        "icon": "inv_trickshot"
+        "icon": "inv_trickshot",
+        "icon_candidates": [
+          "inv_trickshot"
+        ]
       },
-      "pve_tooltip": "When Multi-Shot hits 3 or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to 5 additional targets for 60% of normal damage.",
-      "pvp_tooltip": "When Multi-Shot hits 3 or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to 5 additional targets for 32.4% of normal damage.",
+      "pve_tooltip": "When Multi-Shot hits 3 or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to 5 additional targets for 75% of normal damage.",
+      "pvp_tooltip": "When Multi-Shot hits 3 or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to 5 additional targets for 40.5% of normal damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 128,
           "end": 130,
-          "old_token": "60",
-          "new_token": "32.4",
+          "old_token": "75",
+          "new_token": "40.5",
           "kind": "percent_value",
           "effect_indexes": [
             4,
@@ -4191,8 +4377,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "60",
-          "new": "32.4"
+          "old": "75",
+          "new": "40.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4204,12 +4390,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 257621,
           "effect_index": 4,
           "effect_text": "Apply Aura: Dummy (9)",
-          "base_value": 60.0,
+          "base_value": 75.0,
           "spell_pvp_multiplier": 0.54,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.54,
-          "final_pvp_value": 32.400000000000006,
+          "final_pvp_value": 40.5,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4228,12 +4414,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 257621,
           "effect_index": 5,
           "effect_text": "Apply Aura: Dummy (9)",
-          "base_value": 60.0,
+          "base_value": 75.0,
           "spell_pvp_multiplier": 0.54,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.54,
-          "final_pvp_value": 32.400000000000006,
+          "final_pvp_value": 40.5,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4260,8 +4446,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4294,7 +4480,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aspect of the Hydra",
         "spell_id": 470945,
         "visible_spell_id": null,
-        "icon": "inv_111_hunter_ability_doubleknock"
+        "icon": "inv_111_hunter_ability_doubleknock",
+        "icon_candidates": [
+          "inv_111_hunter_ability_doubleknock"
+        ]
       },
       "pve_tooltip": "Aimed Shot and Rapid Fire now hit 1 additional target for 35% of their damage.",
       "pvp_tooltip": "Aimed Shot and Rapid Fire now hit 1 additional target for 17.5% of their damage.",
@@ -4365,8 +4554,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4398,7 +4587,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Obsidian Arrowhead",
         "spell_id": 471350,
         "visible_spell_id": null,
-        "icon": "ability_theblackarrow"
+        "icon": "ability_theblackarrow",
+        "icon_candidates": [
+          "ability_theblackarrow"
+        ]
       },
       "pve_tooltip": "The damage of your auto shot is increased by 25% and its critical strike chance is increased by 15%.",
       "pvp_tooltip": "The damage of your auto shot is increased by 25% and its critical strike chance is increased by 15%.",
@@ -4422,8 +4614,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4455,7 +4647,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "On Target",
         "spell_id": 471348,
         "visible_spell_id": null,
-        "icon": "ability_hunter_blindingshot"
+        "icon": "ability_hunter_blindingshot",
+        "icon_candidates": [
+          "ability_hunter_blindingshot"
+        ]
       },
       "pve_tooltip": "Your Haste is increased by 2%.",
       "pvp_tooltip": "Your Haste is increased by 2%.",
@@ -4479,8 +4674,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4516,7 +4711,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Scope",
         "spell_id": 473385,
         "visible_spell_id": null,
-        "icon": "inv_eng_crowsnestscope"
+        "icon": "inv_eng_crowsnestscope",
+        "icon_candidates": [
+          "inv_eng_crowsnestscope"
+        ]
       },
       "pve_tooltip": "Rapid Fire grants Precise Shots.",
       "pvp_tooltip": "Rapid Fire grants Precise Shots.",
@@ -4540,8 +4738,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4576,7 +4774,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Explosive Shot",
         "spell_id": 212431,
         "visible_spell_id": null,
-        "icon": "ability_hunter_explosiveshot"
+        "icon": "ability_hunter_explosiveshot",
+        "icon_candidates": [
+          "ability_hunter_explosiveshot"
+        ]
       },
       "pve_tooltip": "20 Focus\n40 yd range\nInstant\n30 sec cooldown\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (307% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
       "pvp_tooltip": "20 Focus\n40 yd range\nInstant\n30 sec cooldown\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (291.65% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
@@ -4655,8 +4856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4688,7 +4889,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light Ammo",
         "spell_id": 378913,
         "visible_spell_id": null,
-        "icon": "ships_ability_armorpiercingammo"
+        "icon": "ships_ability_armorpiercingammo",
+        "icon_candidates": [
+          "ships_ability_armorpiercingammo"
+        ]
       },
       "pve_tooltip": "Trick Shots now causes Aimed Shot and Rapid Fire to ricochet to 2 additional targets.\nAspect of the Hydra's damage bonus is increased by 15%.",
       "pvp_tooltip": "Trick Shots now causes Aimed Shot and Rapid Fire to ricochet to 2 additional targets.\nAspect of the Hydra's damage bonus is increased by 15%.",
@@ -4712,8 +4916,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4748,7 +4952,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kill Shot",
         "spell_id": 53351,
         "visible_spell_id": null,
-        "icon": "ability_hunter_assassinate2"
+        "icon": "ability_hunter_assassinate2",
+        "icon_candidates": [
+          "ability_hunter_assassinate2"
+        ]
       },
       "pve_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (1050% of Attack Power) Physical damage. Only usable on enemies with less than 20% health.",
       "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (997.5% of Attack Power) Physical damage. Only usable on enemies with less than 20% health.",
@@ -4836,8 +5043,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4873,7 +5080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trueshot",
         "spell_id": 288613,
         "visible_spell_id": null,
-        "icon": "ability_trueshot"
+        "icon": "ability_trueshot",
+        "icon_candidates": [
+          "ability_trueshot"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your critical strike chance by 10% and critical strike damage by 20% for 15 sec.\nAimed Shot\nCooldown recovers 40% faster.\nRapid Fire\nCooldown recovers 60% faster.\n[Applies Spotter's Mark.]",
       "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your critical strike chance by 10% and critical strike damage by 10% for 15 sec.\nAimed Shot\nCooldown recovers 40% faster.\nRapid Fire\nCooldown recovers 60% faster.\n[Applies Spotter's Mark.]",
@@ -4944,8 +5154,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4977,7 +5187,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tactical Reload",
         "spell_id": 1301406,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bombardment"
+        "icon": "ability_ironmaidens_bombardment",
+        "icon_candidates": [
+          "ability_ironmaidens_bombardment"
+        ]
       },
       "pve_tooltip": "Explosive Shot has a 100% chance to grant the Lock and Load effect.",
       "pvp_tooltip": "Explosive Shot has a 100% chance to grant the Lock and Load effect.",
@@ -5001,8 +5214,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5034,7 +5247,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unstable Trigger",
         "spell_id": 473520,
         "visible_spell_id": null,
-        "icon": "spell_sandexplosion"
+        "icon": "spell_sandexplosion",
+        "icon_candidates": [
+          "spell_sandexplosion"
+        ]
       },
       "pve_tooltip": "Explosive Shot can now be used a second time if cast within 3.0 sec. Explosive Shot will incorporate any remaining damage from previous Explosive Shots on your target.",
       "pvp_tooltip": "Explosive Shot can now be used a second time if cast within 3.0 sec. Explosive Shot will incorporate any remaining damage from previous Explosive Shots on your target.",
@@ -5058,8 +5274,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5093,7 +5309,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precision Detonation",
         "spell_id": 471369,
         "visible_spell_id": null,
-        "icon": "ability_hunter_explosiveshot"
+        "icon": "ability_hunter_explosiveshot",
+        "icon_candidates": [
+          "ability_hunter_explosiveshot"
+        ]
       },
       "pve_tooltip": "Explosive Shot lasts 1.0 sec longer.",
       "pvp_tooltip": "Explosive Shot lasts 1.0 sec longer.",
@@ -5117,8 +5336,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5150,7 +5369,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Critical Precision",
         "spell_id": 1277572,
         "visible_spell_id": null,
-        "icon": "ability_impalingbolt"
+        "icon": "ability_impalingbolt",
+        "icon_candidates": [
+          "ability_impalingbolt"
+        ]
       },
       "pve_tooltip": "Precise Shots now increases the critical strike chance of Arcane Shot and Multi-Shot by 10%",
       "pvp_tooltip": "Precise Shots now increases the critical strike chance of Arcane Shot and Multi-Shot by 10%",
@@ -5174,8 +5396,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5207,7 +5429,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deathblow",
         "spell_id": 343248,
         "visible_spell_id": null,
-        "icon": "ability_hunter_runningshot"
+        "icon": "ability_hunter_runningshot",
+        "icon_candidates": [
+          "ability_hunter_runningshot"
+        ]
       },
       "pve_tooltip": "Aimed Shot has a 10% chance to cause your next Aimed Shot to grant Deathblow.\nDeathblow\nThe cooldown of Kill Shot is reset. Your next can be used on any target, regardless of their current health.",
       "pvp_tooltip": "Aimed Shot has a 10% chance to cause your next Aimed Shot to grant Deathblow.\nDeathblow\nThe cooldown of Kill Shot is reset. Your next can be used on any target, regardless of their current health.",
@@ -5231,8 +5456,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5264,7 +5489,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadeye",
         "spell_id": 321460,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Kill Shot now has 2 charges and has its cooldown reduced by 2.0 sec.",
       "pvp_tooltip": "Kill Shot now has 2 charges and has its cooldown reduced by 2.0 sec.",
@@ -5288,8 +5516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5323,7 +5551,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bullseye",
         "spell_id": 204089,
         "visible_spell_id": null,
-        "icon": "ability_hunter_focusedaim"
+        "icon": "ability_hunter_focusedaim",
+        "icon_candidates": [
+          "ability_hunter_focusedaim"
+        ]
       },
       "pve_tooltip": "When your abilities damage a target below 20% health, you gain 1% increased critical strike chance for 6 sec, stacking up to 30 times.\n(100ms cooldown)",
       "pvp_tooltip": "When your abilities damage a target below 20% health, you gain 1% increased critical strike chance for 6 sec, stacking up to 30 times.\n(100ms cooldown)",
@@ -5347,8 +5578,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5380,7 +5611,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Feathered Frenzy",
         "spell_id": 470943,
         "visible_spell_id": null,
-        "icon": "inv_111_hunter_ability_featheredfrenzy"
+        "icon": "inv_111_hunter_ability_featheredfrenzy",
+        "icon_candidates": [
+          "inv_111_hunter_ability_featheredfrenzy"
+        ]
       },
       "pve_tooltip": "Trueshot sends your Spotting Eagle into a frenzy, instantly applying Spotter's Mark to your target.\nDuring Trueshot, your chance to apply Spotter's Mark is increased by 100%.",
       "pvp_tooltip": "Trueshot sends your Spotting Eagle into a frenzy, instantly applying Spotter's Mark to your target.\nDuring Trueshot, your chance to apply Spotter's Mark is increased by 100%.",
@@ -5404,8 +5638,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5439,7 +5673,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master Marksman",
         "spell_id": 260309,
         "visible_spell_id": null,
-        "icon": "ability_hunter_mastermarksman"
+        "icon": "ability_hunter_mastermarksman",
+        "icon_candidates": [
+          "ability_hunter_mastermarksman"
+        ]
       },
       "pve_tooltip": "Your ranged ability critical strikes cause the target to bleed for an additional 10% of the damage dealt over 6 sec.",
       "pvp_tooltip": "Your ranged ability critical strikes cause the target to bleed for an additional 10% of the damage dealt over 6 sec.",
@@ -5463,8 +5700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5497,7 +5734,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eagle's Accuracy",
         "spell_id": 473369,
         "visible_spell_id": null,
-        "icon": "ability_hunter_silenthunter"
+        "icon": "ability_hunter_silenthunter",
+        "icon_candidates": [
+          "ability_hunter_silenthunter"
+        ]
       },
       "pve_tooltip": "Aimed Shot deals 5% increased damage.\nRapid Fire deals 10% increased damage.",
       "pvp_tooltip": "Aimed Shot deals 5% increased damage.\nRapid Fire deals 10% increased damage.",
@@ -5521,8 +5761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5557,7 +5797,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unmatched Precision",
         "spell_id": 1232955,
         "visible_spell_id": null,
-        "icon": "hunter_pvp_snipershot"
+        "icon": "hunter_pvp_snipershot",
+        "icon_candidates": [
+          "hunter_pvp_snipershot"
+        ]
       },
       "pve_tooltip": "The damage bonus of Precise Shots is increased by an additional 20%.",
       "pvp_tooltip": "The damage bonus of Precise Shots is increased by an additional 20%.",
@@ -5600,8 +5843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5635,7 +5878,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Calling the Shots",
         "spell_id": 260404,
         "visible_spell_id": null,
-        "icon": "ability_hunter_assassinate"
+        "icon": "ability_hunter_assassinate",
+        "icon_candidates": [
+          "ability_hunter_assassinate"
+        ]
       },
       "pve_tooltip": "Trueshot's cooldown is reduced by 30 sec.",
       "pvp_tooltip": "Trueshot's cooldown is reduced by 30 sec.",
@@ -5659,8 +5905,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5694,7 +5940,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unerring Vision",
         "spell_id": 474738,
         "visible_spell_id": null,
-        "icon": "spell_hunter_exoticmunitions_frozen"
+        "icon": "spell_hunter_exoticmunitions_frozen",
+        "icon_candidates": [
+          "spell_hunter_exoticmunitions_frozen"
+        ]
       },
       "pve_tooltip": "Trueshot now increases your critical strike chance by an additional 10% and increases your critical strike damage by an additional 20%.",
       "pvp_tooltip": "Trueshot now increases your critical strike chance by an additional 5% and increases your critical strike damage by an additional 10%.",
@@ -5809,8 +6058,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5845,7 +6094,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Small Game Hunter",
         "spell_id": 459802,
         "visible_spell_id": null,
-        "icon": "inv_rabbit2_darkmoon"
+        "icon": "inv_rabbit2_darkmoon",
+        "icon_candidates": [
+          "inv_rabbit2_darkmoon"
+        ]
       },
       "pve_tooltip": "Explosive Shot deals 16% increased damage and Volley deals 24% increased damage.",
       "pvp_tooltip": "Explosive Shot deals 16% increased damage and Volley deals 24% increased damage.",
@@ -5888,8 +6140,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5921,7 +6173,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Aim",
         "spell_id": 378767,
         "visible_spell_id": null,
-        "icon": "inv_engineering_snipingscope"
+        "icon": "inv_engineering_snipingscope",
+        "icon_candidates": [
+          "inv_engineering_snipingscope"
+        ]
       },
       "pve_tooltip": "Consuming Precise Shots reduces the cooldown of Aimed Shot by 1.00 sec.",
       "pvp_tooltip": "Consuming Precise Shots reduces the cooldown of Aimed Shot by 1.00 sec.",
@@ -5945,8 +6200,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5979,7 +6234,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bulletstorm",
         "spell_id": 389019,
         "visible_spell_id": null,
-        "icon": "ability_hunter_markedshot"
+        "icon": "ability_hunter_markedshot",
+        "icon_candidates": [
+          "ability_hunter_markedshot"
+        ]
       },
       "pve_tooltip": "Rapid Fire increases the damage of your next Aimed Shot by 20%.",
       "pvp_tooltip": "Rapid Fire increases the damage of your next Aimed Shot by 20%.",
@@ -6003,8 +6261,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6034,7 +6292,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tensile Bowstring",
         "spell_id": 471366,
         "visible_spell_id": null,
-        "icon": "inv_archaeology_70_tauren_stonewoodbow"
+        "icon": "inv_archaeology_70_tauren_stonewoodbow",
+        "icon_candidates": [
+          "inv_archaeology_70_tauren_stonewoodbow"
+        ]
       },
       "pve_tooltip": "Trueshot now also reduces the cast time of Aimed Shot by 40% and reduces the Focus cost of Aimed Shot by 60%.",
       "pvp_tooltip": "Trueshot now also reduces the cast time of Aimed Shot by 40% and reduces the Focus cost of Aimed Shot by 60%.",
@@ -6058,8 +6319,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6092,18 +6353,21 @@ window.WOW_PVP_DATA = {
         "talent_name": "Volley",
         "spell_id": 260243,
         "visible_spell_id": null,
-        "icon": "ability_hunter_rapidkilling"
+        "icon": "ability_hunter_rapidkilling",
+        "icon_candidates": [
+          "ability_hunter_rapidkilling"
+        ]
       },
-      "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nRain a volley of arrows down over 6 sec, dealing up to [(168% of Attack Power) * 12] Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active.",
-      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nRain a volley of arrows down over 6 sec, dealing up to [(159.6% of Attack Power) * 12] Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active.",
+      "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nRain a volley of arrows down over 6 sec, dealing up to [(185% of Attack Power) * 12] Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active.",
+      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nRain a volley of arrows down over 6 sec, dealing up to [(175.75% of Attack Power) * 12] Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 93,
           "end": 96,
-          "old_token": "168",
-          "new_token": "159.6",
+          "old_token": "185",
+          "new_token": "175.75",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6117,8 +6381,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "168",
-          "new": "159.6"
+          "old": "185",
+          "new": "175.75"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6129,7 +6393,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 260243,
           "source_spell_id": 260247,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.68 )",
+          "effect_text": "School Damage (Physical) (AP mod: 1.85 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6176,8 +6440,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6209,7 +6473,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focus Fire",
         "spell_id": 1277546,
         "visible_spell_id": null,
-        "icon": "ability_hunter_focusfire"
+        "icon": "ability_hunter_focusfire",
+        "icon_candidates": [
+          "ability_hunter_focusfire"
+        ]
       },
       "pve_tooltip": "When Surging Shots resets the cooldown of Rapid Fire, the damage of your next Rapid Fire is increased by 20%.",
       "pvp_tooltip": "When Surging Shots resets the cooldown of Rapid Fire, the damage of your next Rapid Fire is increased by 20%.",
@@ -6233,8 +6500,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6264,7 +6531,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Windrunner Quiver",
         "spell_id": 473523,
         "visible_spell_id": null,
-        "icon": "inv_quiver_1h_hunter_c_01_green"
+        "icon": "inv_quiver_1h_hunter_c_01_green",
+        "icon_candidates": [
+          "inv_quiver_1h_hunter_c_01_green"
+        ]
       },
       "pve_tooltip": "Rapid Fire damage increased by 10%.\nRapid Fire has a 30% chance to grant the Lock and Load effect.",
       "pvp_tooltip": "Rapid Fire damage increased by 10%.\nRapid Fire has a 30% chance to grant the Lock and Load effect.",
@@ -6288,8 +6558,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6319,7 +6589,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Accuracy By Volume",
         "spell_id": 471428,
         "visible_spell_id": null,
-        "icon": "inv12_ability_hunter_fierymunitions"
+        "icon": "inv12_ability_hunter_fierymunitions",
+        "icon_candidates": [
+          "inv12_ability_hunter_fierymunitions"
+        ]
       },
       "pve_tooltip": "Bulletstorm now affects 1 additional Aimed Shot.",
       "pvp_tooltip": "Bulletstorm now affects 1 additional Aimed Shot.",
@@ -6343,8 +6616,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6374,7 +6647,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Salvo",
         "spell_id": 400456,
         "visible_spell_id": null,
-        "icon": "spell_hunter_exoticmunitions_incendiary"
+        "icon": "spell_hunter_exoticmunitions_incendiary",
+        "icon_candidates": [
+          "spell_hunter_exoticmunitions_incendiary"
+        ]
       },
       "pve_tooltip": "Volley now also applies Explosive Shot to up to 2 targets hit.\nExplosive Shot\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (307% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
       "pvp_tooltip": "Volley now also applies Explosive Shot to up to 2 targets hit.\nExplosive Shot\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (307% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
@@ -6398,8 +6674,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6429,7 +6705,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unload",
         "spell_id": 1277548,
         "visible_spell_id": null,
-        "icon": "ability_hunter_efficiency_brown"
+        "icon": "ability_hunter_efficiency_brown",
+        "icon_candidates": [
+          "ability_hunter_efficiency_brown"
+        ]
       },
       "pve_tooltip": "When Rapid Fire begins and finishes channeling, it releases an Arcane Shot at 100% effectiveness.\nIf your target is below 20% health, Rapid Fire instead releases Kill Shots.",
       "pvp_tooltip": "When Rapid Fire begins and finishes channeling, it releases an Arcane Shot at 50% effectiveness.\nIf your target is below 20% health, Rapid Fire instead releases Kill Shots.",
@@ -6500,8 +6779,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6529,7 +6808,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Take Aim",
         "spell_id": 1273132,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_hunter_deadlyinsight"
+        "icon": "inv12_apextalent_hunter_deadlyinsight",
+        "icon_candidates": [
+          "inv12_apextalent_hunter_deadlyinsight"
+        ]
       },
       "pve_tooltip": "Rapid Fire damage increased by 25%.\nEach shot fired from Rapid Fire reduces the cooldown of Aimed Shot by 0.50 sec.",
       "pvp_tooltip": "Rapid Fire damage increased by 25%.\nEach shot fired from Rapid Fire reduces the cooldown of Aimed Shot by 0.50 sec.",
@@ -6553,8 +6835,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6582,7 +6864,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Take Aim",
         "spell_id": 1273129,
         "visible_spell_id": null,
-        "icon": "ability_hunter_wildquiver"
+        "icon": "ability_hunter_wildquiver",
+        "icon_candidates": [
+          "ability_hunter_wildquiver"
+        ]
       },
       "pve_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
       "pvp_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
@@ -6625,8 +6910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6654,7 +6939,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Take Aim",
         "spell_id": 1273128,
         "visible_spell_id": null,
-        "icon": "inv_spear_07"
+        "icon": "inv_spear_07",
+        "icon_candidates": [
+          "inv_spear_07"
+        ]
       },
       "pve_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 20%.",
       "pvp_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 20%.",
@@ -6709,8 +6997,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6743,7 +7031,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Black Arrow",
         "spell_id": 466932,
         "visible_spell_id": null,
-        "icon": "inv_ability_darkrangerhunter_blackarrow"
+        "icon": "inv_ability_darkrangerhunter_blackarrow",
+        "icon_candidates": [
+          "inv_ability_darkrangerhunter_blackarrow"
+        ]
       },
       "pve_tooltip": "Your Kill Shot is replaced with Black Arrow.\nBlack Arrow\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
       "pvp_tooltip": "Your Kill Shot is replaced with Black Arrow.\nBlack Arrow\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
@@ -6815,8 +7106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6849,7 +7140,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sentinel",
         "spell_id": 1253599,
         "visible_spell_id": null,
-        "icon": "inv_ability_sentinelhunter_lunarstorm"
+        "icon": "inv_ability_sentinelhunter_lunarstorm",
+        "icon_candidates": [
+          "inv_ability_sentinelhunter_lunarstorm"
+        ]
       },
       "pve_tooltip": "Your Eagle is replaced with a Sentinel Owl that applies an enhanced Sentinel's Mark.\nSentinel's Mark\nYour next Aimed Shot deals 20% increased direct damage to the marked target.",
       "pvp_tooltip": "Your Eagle is replaced with a Sentinel Owl that applies an enhanced Sentinel's Mark.\nSentinel's Mark\nYour next Aimed Shot deals 20% increased direct damage to the marked target.",
@@ -6873,8 +7167,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6906,7 +7200,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bleak Arrows",
         "spell_id": 467749,
         "visible_spell_id": null,
-        "icon": "inv_quiver_1h_mawraid_d_01"
+        "icon": "inv_quiver_1h_mawraid_d_01",
+        "icon_candidates": [
+          "inv_quiver_1h_mawraid_d_01"
+        ]
       },
       "pve_tooltip": "Your auto shot now deals Shadow damage, allowing it to bypass armor.\nAuto shot damage increased by 100%.",
       "pvp_tooltip": "Your auto shot now deals Shadow damage, allowing it to bypass armor.\nAuto shot damage increased by 100%.",
@@ -6930,8 +7227,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6963,7 +7260,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Drinker",
         "spell_id": 469638,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulsiphon"
+        "icon": "ability_warlock_soulsiphon",
+        "icon_candidates": [
+          "ability_warlock_soulsiphon"
+        ]
       },
       "pve_tooltip": "Aimed Shot's chance to grant Deathblow is increased by 10%. Rapid Fire has a 100% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
       "pvp_tooltip": "Aimed Shot's chance to grant Deathblow is increased by 10%. Rapid Fire has a 100% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
@@ -6987,8 +7287,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7020,7 +7320,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bleak Powder",
         "spell_id": 467911,
         "visible_spell_id": null,
-        "icon": "inv_misc_powder_tin"
+        "icon": "inv_misc_powder_tin",
+        "icon_candidates": [
+          "inv_misc_powder_tin"
+        ]
       },
       "pve_tooltip": "Black Arrow now explodes in a cloud of shadow and sulfur on impact, dealing (250% of Attack Power) Shadow damage to all enemies within an 8 yd cone behind the target. Damage reduced beyond 8 targets.\n(700ms cooldown)",
       "pvp_tooltip": "Black Arrow now explodes in a cloud of shadow and sulfur on impact, dealing (237.5% of Attack Power) Shadow damage to all enemies within an 8 yd cone behind the target. Damage reduced beyond 8 targets.\n(700ms cooldown)",
@@ -7034,7 +7337,6 @@ window.WOW_PVP_DATA = {
           "new_token": "237.5",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
-            1,
             1
           ]
         }
@@ -7042,7 +7344,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             1
           ],
           "status": "APPLIED",
@@ -7090,47 +7391,9 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 467911,
-          "source_spell_id": 472084,
-          "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 2.5 )",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.95,
-          "final_pvp_multiplier": 0.95,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            467911,
-            472084
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256940,
-              "game_effect_id": 1264705,
-              "amount_kind": "direct",
-              "value_pct": -5.0,
-              "factor": 0.95,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7144,8 +7407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7177,7 +7440,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Corpsecaller",
         "spell_id": 1264289,
         "visible_spell_id": null,
-        "icon": "ability_fiegndead"
+        "icon": "ability_fiegndead",
+        "icon_candidates": [
+          "ability_fiegndead"
+        ]
       },
       "pve_tooltip": "Approximately 0.5 procs per minute\nBlack Arrow's periodic damage has a small chance to rouse the dead, summoning a Dark Minion to fight alongside you for 20 sec.",
       "pvp_tooltip": "Approximately 0.5 procs per minute\nBlack Arrow's periodic damage has a small chance to rouse the dead, summoning a Dark Minion to fight alongside you for 20 sec.",
@@ -7201,8 +7467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7234,7 +7500,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Don't Look Back",
         "spell_id": 450373,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 10.0% of your maximum health.",
       "pvp_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 5% of your maximum health.",
@@ -7330,8 +7599,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7363,7 +7632,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moon's Blessing",
         "spell_id": 1253825,
         "visible_spell_id": null,
-        "icon": "spell_druid_lunarinspiration"
+        "icon": "spell_druid_lunarinspiration",
+        "icon_candidates": [
+          "spell_druid_lunarinspiration"
+        ]
       },
       "pve_tooltip": "Consuming Precise Shots has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Aimed Shot by 1.0 sec.",
       "pvp_tooltip": "Consuming Precise Shots has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Aimed Shot by 1.0 sec.",
@@ -7387,8 +7659,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7420,7 +7692,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanctified Armaments",
         "spell_id": 1253831,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_arakkoa_c_01"
+        "icon": "inv_polearm_2h_arakkoa_c_01",
+        "icon_candidates": [
+          "inv_polearm_2h_arakkoa_c_01"
+        ]
       },
       "pve_tooltip": "An additional 25% of Rapid Fire's damage is dealt as Arcane damage over 6 sec.",
       "pvp_tooltip": "An additional 25% of Rapid Fire's damage is dealt as Arcane damage over 6 sec.",
@@ -7444,8 +7719,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7477,7 +7752,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moonlight Chakram",
         "spell_id": 1264902,
         "visible_spell_id": null,
-        "icon": "inv_ability_hunter_deathchakram"
+        "icon": "inv_ability_hunter_deathchakram",
+        "icon_candidates": [
+          "inv_ability_hunter_deathchakram"
+        ]
       },
       "pve_tooltip": "For 15 sec after casting Trueshot, Trueshot is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.\n(1s cooldown)",
       "pvp_tooltip": "For 15 sec after casting Trueshot, Trueshot is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.\n(1s cooldown)",
@@ -7495,10 +7773,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.7,
+          "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
           "aura_factor": 0.95,
-          "final_pvp_multiplier": 0.6649999999999999,
+          "final_pvp_multiplier": 0.5652499999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7523,9 +7801,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1266081,
+              "talent_name": "Moonlight Chakram",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264902,
+              "source_spell_id": 1266081,
+              "dependency_kind": "EMBEDDED",
+              "dependency_path": [
+                1264902,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 1266081,
+              "talent_name": "Radiant Edge",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264903,
+              "source_spell_id": 1266081,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1264903,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -7577,8 +7918,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7610,7 +7951,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ebon Bowstring",
         "spell_id": 467897,
         "visible_spell_id": null,
-        "icon": "inv_10_tailoring_craftingoptionalreagent_enhancedspellthread_color4"
+        "icon": "inv_10_tailoring_craftingoptionalreagent_enhancedspellthread_color4",
+        "icon_candidates": [
+          "inv_10_tailoring_craftingoptionalreagent_enhancedspellthread_color4"
+        ]
       },
       "pve_tooltip": "Casting Black Arrow has a 15% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
       "pvp_tooltip": "Casting Black Arrow has a 15% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
@@ -7634,8 +7978,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7667,7 +8011,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Through the Eyes",
         "spell_id": 1277565,
         "visible_spell_id": null,
-        "icon": "ability_cheapshot"
+        "icon": "ability_cheapshot",
+        "icon_candidates": [
+          "ability_cheapshot"
+        ]
       },
       "pve_tooltip": "Kill Shot damage increased by 10%.",
       "pvp_tooltip": "Kill Shot damage increased by 10%.",
@@ -7691,8 +8038,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7724,7 +8071,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Smoke Screen",
         "spell_id": 430709,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonsoul"
+        "icon": "spell_warlock_demonsoul",
+        "icon_candidates": [
+          "spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Exhilaration grants you 3 sec of Survival of the Fittest.\nSurvival of the Fittest activates Exhilaration at 50% effectiveness.",
       "pvp_tooltip": "Exhilaration grants you 3 sec of Survival of the Fittest.\nSurvival of the Fittest activates Exhilaration at 50% effectiveness.",
@@ -7748,8 +8098,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7781,7 +8131,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dark Chains",
         "spell_id": 430712,
         "visible_spell_id": null,
-        "icon": "inv_belt_44c"
+        "icon": "inv_belt_44c",
+        "icon_candidates": [
+          "inv_belt_44c"
+        ]
       },
       "pve_tooltip": "While in combat, Disengage will chain the closest target to the ground, causing them to move 40% slower until they move 8 yards away.",
       "pvp_tooltip": "While in combat, Disengage will chain the closest target to the ground, causing them to move 30% slower until they move 8 yards away.",
@@ -7857,8 +8210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7890,7 +8243,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadow Dagger",
         "spell_id": 467741,
         "visible_spell_id": null,
-        "icon": "ability_throw"
+        "icon": "ability_throw",
+        "icon_candidates": [
+          "ability_throw"
+        ]
       },
       "pve_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by 30% for 6 sec.",
       "pvp_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by 20% for 6 sec.",
@@ -7966,8 +8322,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7999,7 +8355,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wailing Dead",
         "spell_id": 1264290,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_summongargoyle"
+        "icon": "ability_deathknight_summongargoyle",
+        "icon_candidates": [
+          "ability_deathknight_summongargoyle"
+        ]
       },
       "pve_tooltip": "Trueshot summons a Dark Minion.\nFor 15 sec after casting Trueshot, Trueshot is replaced with Wailing Arrow.\nWailing Arrow\nFire an enchanted arrow, dealing (1400% of Attack Power) Shadow damage to your target and an additional (700% of Attack Power) Shadow damage to all enemies within 8 yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for 1 sec.\nGrants Deathblow.\n(1s cooldown)",
       "pvp_tooltip": "Trueshot summons a Dark Minion.\nFor 15 sec after casting Trueshot, Trueshot is replaced with Wailing Arrow.\nWailing Arrow\nFire an enchanted arrow, dealing (1400% of Attack Power) Shadow damage to your target and an additional (700% of Attack Power) Shadow damage to all enemies within 8 yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for 1 sec.\nGrants Deathblow.\n(1s cooldown)",
@@ -8104,8 +8463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8137,7 +8496,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stargazer",
         "spell_id": 1253751,
         "visible_spell_id": null,
-        "icon": "icon_7fx_nightborn_astromancer_blue"
+        "icon": "icon_7fx_nightborn_astromancer_blue",
+        "icon_candidates": [
+          "icon_7fx_nightborn_astromancer_blue"
+        ]
       },
       "pve_tooltip": "Consuming Precise Shots grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Consuming Precise Shots grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
@@ -8161,8 +8523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8194,7 +8556,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Open Fire",
         "spell_id": 1253807,
         "visible_spell_id": null,
-        "icon": "spell_fire_flare"
+        "icon": "spell_fire_flare",
+        "icon_candidates": [
+          "spell_fire_flare"
+        ]
       },
       "pve_tooltip": "Volley damage increased by 25%.",
       "pvp_tooltip": "Volley damage increased by 25%.",
@@ -8218,8 +8583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8251,7 +8616,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Can't Miss, Won't Miss",
         "spell_id": 1253830,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aimedshot"
+        "icon": "ability_hunter_aimedshot",
+        "icon_candidates": [
+          "ability_hunter_aimedshot"
+        ]
       },
       "pve_tooltip": "Precise Shots damage bonus increased by 10%.\nTrueshot duration increased by 2 sec.",
       "pvp_tooltip": "Precise Shots damage bonus increased by 10%.\nTrueshot duration increased by 2 sec.",
@@ -8275,8 +8643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8308,7 +8676,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Invigorating Pulse",
         "spell_id": 450379,
         "visible_spell_id": null,
-        "icon": "ability_mage_netherwindpresence"
+        "icon": "ability_mage_netherwindpresence",
+        "icon_candidates": [
+          "ability_mage_netherwindpresence"
+        ]
       },
       "pve_tooltip": "Steady Shot grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
       "pvp_tooltip": "Steady Shot grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
@@ -8332,8 +8703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8365,7 +8736,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twilight Requiem",
         "spell_id": 1264904,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (200% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (190% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
@@ -8449,8 +8823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8482,7 +8856,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stalk and Strike",
         "spell_id": 1266069,
         "visible_spell_id": null,
-        "icon": "ability_ambush"
+        "icon": "ability_ambush",
+        "icon_candidates": [
+          "ability_ambush"
+        ]
       },
       "pve_tooltip": "Throwing your Moonlight Chakram grants you Lock and Load.",
       "pvp_tooltip": "Throwing your Moonlight Chakram grants you Lock and Load.",
@@ -8506,8 +8883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8539,7 +8916,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blighted Quiver",
         "spell_id": 1264291,
         "visible_spell_id": null,
-        "icon": "inv_quiver_1h_sylvanas_d_01"
+        "icon": "inv_quiver_1h_sylvanas_d_01",
+        "icon_candidates": [
+          "inv_quiver_1h_sylvanas_d_01"
+        ]
       },
       "pve_tooltip": "You fire 2 additional Black Arrows during Withering Fire's barrage.\nTrick Shots damage bonus increased by 10%. Aspect of the Hydra's damage bonus increased by 12%.",
       "pvp_tooltip": "You fire 2 additional Black Arrows during Withering Fire's barrage.\nTrick Shots damage bonus increased by 10%. Aspect of the Hydra's damage bonus increased by 12%.",
@@ -8563,8 +8943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8596,7 +8976,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Banshee's Mark",
         "spell_id": 467902,
         "visible_spell_id": null,
-        "icon": "achievement_leader_sylvanas"
+        "icon": "achievement_leader_sylvanas",
+        "icon_candidates": [
+          "achievement_leader_sylvanas"
+        ]
       },
       "pve_tooltip": "Black Arrow and Bleak Powder critical strike damage increased by 10%.",
       "pvp_tooltip": "Black Arrow and Bleak Powder critical strike damage increased by 10%.",
@@ -8620,8 +9003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8653,7 +9036,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "The Bell Tolls",
         "spell_id": 467644,
         "visible_spell_id": null,
-        "icon": "spell_shadow_animatedead"
+        "icon": "spell_shadow_animatedead",
+        "icon_candidates": [
+          "spell_shadow_animatedead"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 3%.\nDark Minion damage increased by 10%.",
       "pvp_tooltip": "Critical strike chance increased by 3%.\nDark Minion damage increased by 10%.",
@@ -8677,8 +9063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8710,7 +9096,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Umbral Reach",
         "spell_id": 1235397,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_strangulate"
+        "icon": "spell_deathknight_strangulate",
+        "icon_candidates": [
+          "spell_deathknight_strangulate"
+        ]
       },
       "pve_tooltip": "Bleak Powder now applies Black Arrow's periodic effect to all enemies it damages.\nIf Bleak Powder damages 2 or more enemies, gain Trick Shots if talented.",
       "pvp_tooltip": "Bleak Powder now applies Black Arrow's periodic effect to all enemies it damages.\nIf Bleak Powder damages 2 or more enemies, gain Trick Shots if talented.",
@@ -8734,8 +9123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8767,7 +9156,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of the Hollow",
         "spell_id": 1264690,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_03"
+        "icon": "ability_creature_cursed_03",
+        "icon_candidates": [
+          "ability_creature_cursed_03"
+        ]
       },
       "pve_tooltip": "Aimed Shot causes your Dark Minion to fire a Blighted Arrow, dealing (500% of Attack Power) Shadow damage to up to 8 nearby enemies.",
       "pvp_tooltip": "Aimed Shot causes your Dark Minion to fire a Blighted Arrow, dealing (500% of Attack Power) Shadow damage to up to 8 nearby enemies.",
@@ -8791,8 +9183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8824,7 +9216,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arcane Talons",
         "spell_id": 1253846,
         "visible_spell_id": null,
-        "icon": "inv_10_specialreagentfoozles_tuskclaw-ice"
+        "icon": "inv_10_specialreagentfoozles_tuskclaw_ice",
+        "icon_candidates": [
+          "inv_10_specialreagentfoozles_tuskclaw_ice",
+          "inv_10_specialreagentfoozles_tuskclaw-ice"
+        ]
       },
       "pve_tooltip": "Sentinel's Mark further increases the damage of Aimed Shot by 15%",
       "pvp_tooltip": "Sentinel's Mark further increases the damage of Aimed Shot by 15%",
@@ -8848,8 +9244,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8881,7 +9277,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lunar Calling",
         "spell_id": 1253852,
         "visible_spell_id": null,
-        "icon": "ability_hunter_sentinelowl"
+        "icon": "ability_hunter_sentinelowl",
+        "icon_candidates": [
+          "ability_hunter_sentinelowl"
+        ]
       },
       "pve_tooltip": "Feathered Frenzy further increases your chance to summon your Sentinel Owl during Trueshot by 10%.",
       "pvp_tooltip": "Feathered Frenzy further increases your chance to summon your Sentinel Owl during Trueshot by 10%.",
@@ -8905,8 +9304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8938,7 +9337,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Conditioning",
         "spell_id": 1253887,
         "visible_spell_id": null,
-        "icon": "ability_racial_runningwild"
+        "icon": "ability_racial_runningwild",
+        "icon_candidates": [
+          "ability_racial_runningwild"
+        ]
       },
       "pve_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
       "pvp_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
@@ -8962,8 +9364,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8995,7 +9397,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scout's Vigil",
         "spell_id": 1253892,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye"
+        "icon": "sha_ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Enemy detection radius reduced by 10 yds.",
       "pvp_tooltip": "Enemy detection radius reduced by 10 yds.",
@@ -9019,8 +9424,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9052,7 +9457,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Radiant Edge",
         "spell_id": 1264903,
         "visible_spell_id": null,
-        "icon": "inv_misc_nightelfglaive"
+        "icon": "inv_misc_nightelfglaive",
+        "icon_candidates": [
+          "inv_misc_nightelfglaive"
+        ]
       },
       "pve_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
       "pvp_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
@@ -9067,7 +9475,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 284.4,
-          "new": 189.12599999999998,
+          "new": 160.75709999999995,
           "full_tooltip_match_count": 0
         }
       ],
@@ -9081,10 +9489,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.7,
+          "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
           "aura_factor": 0.95,
-          "final_pvp_multiplier": 0.6649999999999999,
+          "final_pvp_multiplier": 0.5652499999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9109,9 +9517,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1266081,
+              "talent_name": "Moonlight Chakram",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264902,
+              "source_spell_id": 1266081,
+              "dependency_kind": "EMBEDDED",
+              "dependency_path": [
+                1264902,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 1266081,
+              "talent_name": "Radiant Edge",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264903,
+              "source_spell_id": 1266081,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1264903,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         }
       ],
@@ -9129,8 +9600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9163,7 +9634,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Withering Fire",
         "spell_id": 466990,
         "visible_spell_id": null,
-        "icon": "spell_shadow_painspike"
+        "icon": "spell_shadow_painspike",
+        "icon_candidates": [
+          "spell_shadow_painspike"
+        ]
       },
       "pve_tooltip": "Trueshot causes you to surrender to darkness, granting you Withering Fire for the duration of Trueshot and Deathblow.\nWithering Fire\nCasting Black Arrow fires a barrage of 2 additional Black Arrows at nearby targets at 30% effectiveness, prioritizing enemies that aren't affected by Black Arrow's damage over time effect.",
       "pvp_tooltip": "Trueshot causes you to surrender to darkness, granting you Withering Fire for the duration of Trueshot and Deathblow.\nWithering Fire\nCasting Black Arrow fires a barrage of 2 additional Black Arrows at nearby targets at 15% effectiveness, prioritizing enemies that aren't affected by Black Arrow's damage over time effect.",
@@ -9218,36 +9692,6 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 466990,
-          "source_spell_id": 466991,
-          "effect_index": 3,
-          "effect_text": "Dummy",
-          "base_value": 50.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 25.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            466990,
-            466991
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9264,8 +9708,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9298,7 +9742,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lunar Storm",
         "spell_id": 1253732,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (200% of Attack Power) Arcane damage to enemies within 10 yds.",
       "pvp_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (190% of Attack Power) Arcane damage to enemies within 10 yds.",
@@ -9661,10 +10108,72 @@ window.WOW_PVP_DATA = {
       "effect_index": 1,
       "multiplier": 1.34,
       "effect_text": "School Damage (Physical) (AP mod: 9.72 )"
+    },
+    {
+      "spell_id": 1266081,
+      "talent_name": "Moonlight Chakram",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.7,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1278279,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1264902,
+      "source_spell_id": 1266081,
+      "dependency_kind": "EMBEDDED",
+      "dependency_path": [
+        1264902,
+        1264949,
+        1266081
+      ],
+      "dependency_relations": [
+        "spelldesc_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.595,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 1266081,
+      "talent_name": "Radiant Edge",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.7,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1278279,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1264903,
+      "source_spell_id": 1266081,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        1264903,
+        1264949,
+        1266081
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.595,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
     }
   ],
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-22T19:26:10.569333+00:00",
+  "generated_at": "2026-09-24T11:44:18.234036+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,
@@ -9677,7 +10186,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -9690,6 +10199,68 @@ window.WOW_PVP_DATA = {
         "effect_index": 1,
         "multiplier": 1.34,
         "effect_text": "School Damage (Physical) (AP mod: 9.72 )"
+      },
+      {
+        "spell_id": 1266081,
+        "talent_name": "Moonlight Chakram",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.7,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1278279,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1264902,
+        "source_spell_id": 1266081,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1264902,
+          1264949,
+          1266081
+        ],
+        "dependency_relations": [
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.595,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 1266081,
+        "talent_name": "Radiant Edge",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.7,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1278279,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1264903,
+        "source_spell_id": 1266081,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1264903,
+          1264949,
+          1266081
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.595,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
       }
     ],
     "unresolved_examples": [],

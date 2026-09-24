@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shiv",
         "spell_id": 5938,
         "visible_spell_id": null,
-        "icon": "inv_throwingknife_04"
+        "icon": "inv_throwingknife_04",
+        "icon_candidates": [
+          "inv_throwingknife_04"
+        ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (117.876% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -323,8 +326,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -356,7 +359,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blind",
         "spell_id": 2094,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindsteal"
+        "icon": "spell_shadow_mindsteal",
+        "icon_candidates": [
+          "spell_shadow_mindsteal"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
       "pvp_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -380,8 +386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -412,7 +418,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nethercloak"
+        "icon": "spell_shadow_nethercloak",
+        "icon_candidates": [
+          "spell_shadow_nethercloak"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -436,8 +445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -469,7 +478,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
         "visible_spell_id": null,
-        "icon": "ability_rogue_poisonedknife"
+        "icon": "ability_rogue_poisonedknife",
+        "icon_candidates": [
+          "ability_rogue_poisonedknife"
+        ]
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
       "pvp_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -493,8 +505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -528,7 +540,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
         "visible_spell_id": null,
-        "icon": "ability_rogue_quickrecovery"
+        "icon": "ability_rogue_quickrecovery",
+        "icon_candidates": [
+          "ability_rogue_quickrecovery"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 15%.",
       "pvp_tooltip": "Movement speed increased by 15%.",
@@ -552,8 +567,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -585,7 +600,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gouge",
         "spell_id": 1776,
         "visible_spell_id": null,
-        "icon": "ability_gouge"
+        "icon": "ability_gouge",
+        "icon_candidates": [
+          "ability_gouge"
+        ]
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
       "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -609,8 +627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -642,7 +660,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodyeye"
+        "icon": "ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
       "pvp_tooltip": "Blind has 50% reduced cooldown, 35% reduced duration, and applies to all nearby enemies.",
@@ -713,8 +734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -748,7 +769,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart_shadowflame"
+        "icon": "inv_ragnaros_heart_shadowflame",
+        "icon_candidates": [
+          "inv_ragnaros_heart_shadowflame"
+        ]
       },
       "pve_tooltip": "Grappling Hook has 1 additional charge.",
       "pvp_tooltip": "Grappling Hook has 1 additional charge.",
@@ -772,8 +796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -805,7 +829,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
         "visible_spell_id": null,
-        "icon": "ability_stealth"
+        "icon": "ability_stealth",
+        "icon_candidates": [
+          "ability_stealth"
+        ]
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
       "pvp_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -829,8 +856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -864,7 +891,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
       "pvp_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -929,8 +959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -964,7 +994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elusiveness",
         "spell_id": 79008,
         "visible_spell_id": null,
-        "icon": "ability_rogue_turnthetables"
+        "icon": "ability_rogue_turnthetables",
+        "icon_candidates": [
+          "ability_rogue_turnthetables"
+        ]
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
       "pvp_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -988,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1023,7 +1056,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cheat Death",
         "spell_id": 31230,
         "visible_spell_id": null,
-        "icon": "ability_rogue_cheatdeath"
+        "icon": "ability_rogue_cheatdeath",
+        "icon_candidates": [
+          "ability_rogue_cheatdeath"
+        ]
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
       "pvp_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1047,8 +1083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1082,7 +1118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
         "visible_spell_id": null,
-        "icon": "ability_rogue_tricksofthetrade"
+        "icon": "ability_rogue_tricksofthetrade",
+        "icon_candidates": [
+          "ability_rogue_tricksofthetrade"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1106,8 +1145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1141,7 +1180,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blackjack",
         "spell_id": 379005,
         "visible_spell_id": null,
-        "icon": "ability_rogue_blackjack"
+        "icon": "ability_rogue_blackjack",
+        "icon_candidates": [
+          "ability_rogue_blackjack"
+        ]
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "pvp_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1165,8 +1207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1199,7 +1241,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_16"
+        "icon": "inv_misc_herb_16",
+        "icon_candidates": [
+          "inv_misc_herb_16"
+        ]
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
       "pvp_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1223,8 +1268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1258,7 +1303,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
         "visible_spell_id": null,
-        "icon": "ability_rogue_crimsonvial"
+        "icon": "ability_rogue_crimsonvial",
+        "icon_candidates": [
+          "ability_rogue_crimsonvial"
+        ]
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
       "pvp_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1282,8 +1330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1315,7 +1363,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
       "pvp_tooltip": "Physical damage taken reduced by 5%.",
@@ -1339,8 +1390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1374,7 +1425,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
         "visible_spell_id": null,
-        "icon": "ability_rogue_improvedrecuperate"
+        "icon": "ability_rogue_improvedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_improvedrecuperate"
+        ]
       },
       "pve_tooltip": "Increases your Agility by 3%.",
       "pvp_tooltip": "Increases your Agility by 3%.",
@@ -1398,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1432,7 +1486,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1456,8 +1513,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1489,7 +1546,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
         "visible_spell_id": null,
-        "icon": "inv_misc_potionsete"
+        "icon": "inv_misc_potionsete",
+        "icon_candidates": [
+          "inv_misc_potionsete"
+        ]
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
       "pvp_tooltip": "Crippling Poison reduces movement speed by an additional 5%.",
@@ -1560,8 +1620,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1595,7 +1655,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Evasion",
         "spell_id": 5277,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowward"
+        "icon": "spell_shadow_shadowward",
+        "icon_candidates": [
+          "spell_shadow_shadowward"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1619,8 +1682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1652,7 +1715,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
         "visible_spell_id": null,
-        "icon": "inv_misc_organ_11"
+        "icon": "inv_misc_organ_11",
+        "icon_candidates": [
+          "inv_misc_organ_11"
+        ]
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
       "pvp_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1676,8 +1742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1713,7 +1779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
       "pvp_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1737,8 +1806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1770,7 +1839,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stillshroud",
         "spell_id": 423662,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shroudofconcealment"
+        "icon": "ability_rogue_shroudofconcealment",
+        "icon_candidates": [
+          "ability_rogue_shroudofconcealment"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
       "pvp_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1794,8 +1866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1829,7 +1901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ghostpirate"
+        "icon": "ability_rogue_ghostpirate",
+        "icon_candidates": [
+          "ability_rogue_ghostpirate"
+        ]
       },
       "pve_tooltip": "Feint has 1 additional charge.",
       "pvp_tooltip": "Feint has 1 additional charge.",
@@ -1853,8 +1928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1886,7 +1961,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Featherfoot",
         "spell_id": 423683,
         "visible_spell_id": null,
-        "icon": "spell_magic_featherfall"
+        "icon": "spell_magic_featherfall",
+        "icon_candidates": [
+          "spell_magic_featherfall"
+        ]
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
       "pvp_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1910,8 +1988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1944,7 +2022,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
         "visible_spell_id": null,
-        "icon": "spell_nature_nullifydisease"
+        "icon": "spell_nature_nullifydisease",
+        "icon_candidates": [
+          "spell_nature_nullifydisease"
+        ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
       "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -2040,8 +2121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2074,10 +2155,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2098,8 +2182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2134,7 +2218,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deadenednerves"
+        "icon": "ability_rogue_deadenednerves",
+        "icon_candidates": [
+          "ability_rogue_deadenednerves"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
       "pvp_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2158,8 +2245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2191,7 +2278,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
         "visible_spell_id": null,
-        "icon": "inv_misc_potiona5"
+        "icon": "inv_misc_potiona5",
+        "icon_candidates": [
+          "inv_misc_potiona5"
+        ]
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
       "pvp_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2215,8 +2305,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2251,7 +2341,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
         "visible_spell_id": null,
-        "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
+        "icon": "inv_1115_firstkilloftheday_firstkilloftheday",
+        "icon_candidates": [
+          "inv_1115_firstkilloftheday_firstkilloftheday"
+        ]
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
       "pvp_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2275,8 +2368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2309,7 +2402,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
         "visible_spell_id": null,
-        "icon": "ability_rogue_trip"
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
       "pvp_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2333,8 +2429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2368,7 +2464,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
         "visible_spell_id": null,
-        "icon": "ability_rogue_wrongfullyaccused"
+        "icon": "ability_rogue_wrongfullyaccused",
+        "icon_candidates": [
+          "ability_rogue_wrongfullyaccused"
+        ]
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
       "pvp_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2392,8 +2491,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2429,7 +2528,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
         "visible_spell_id": null,
-        "icon": "ability_rogue_slicedice"
+        "icon": "ability_rogue_slicedice",
+        "icon_candidates": [
+          "ability_rogue_slicedice"
+        ]
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
       "pvp_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2453,8 +2555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2488,7 +2590,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ambush"
+        "icon": "ability_rogue_ambush",
+        "icon_candidates": [
+          "ability_rogue_ambush"
+        ]
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
       "pvp_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2512,8 +2617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2547,7 +2652,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tight Spender",
         "spell_id": 381621,
         "visible_spell_id": null,
-        "icon": "inv_misc_coin_03"
+        "icon": "inv_misc_coin_03",
+        "icon_candidates": [
+          "inv_misc_coin_03"
+        ]
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
       "pvp_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2571,8 +2679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2604,7 +2712,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
         "visible_spell_id": null,
-        "icon": "rogue_leeching_poison"
+        "icon": "rogue_leeching_poison",
+        "icon_candidates": [
+          "rogue_leeching_poison"
+        ]
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
       "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
@@ -2628,8 +2739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2662,7 +2773,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lethality",
         "spell_id": 382238,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
       "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2705,8 +2819,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2738,7 +2852,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Recuperator",
         "spell_id": 378996,
         "visible_spell_id": null,
-        "icon": "inv_gizmo_runichealthinjector"
+        "icon": "inv_gizmo_runichealthinjector",
+        "icon_candidates": [
+          "inv_gizmo_runichealthinjector"
+        ]
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
       "pvp_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2762,8 +2879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2796,7 +2913,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Alacrity",
         "spell_id": 193539,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Haste increased by 3%.",
       "pvp_tooltip": "Haste increased by 3%.",
@@ -2839,8 +2959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2872,7 +2992,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
       "pvp_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2938,8 +3061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2971,7 +3094,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vigor",
         "spell_id": 14983,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vigor"
+        "icon": "ability_rogue_vigor",
+        "icon_candidates": [
+          "ability_rogue_vigor"
+        ]
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
       "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -3014,8 +3140,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3047,7 +3173,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Supercharger",
         "spell_id": 470347,
         "visible_spell_id": null,
-        "icon": "inv_engineering_90_electrifiedether"
+        "icon": "inv_engineering_90_electrifiedether",
+        "icon_candidates": [
+          "inv_engineering_90_electrifiedether"
+        ]
       },
       "pve_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "pvp_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -3090,8 +3219,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3123,7 +3252,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Subterfuge",
         "spell_id": 108208,
         "visible_spell_id": null,
-        "icon": "rogue_subterfuge"
+        "icon": "rogue_subterfuge",
+        "icon_candidates": [
+          "rogue_subterfuge"
+        ]
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
       "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
@@ -3166,8 +3298,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3197,7 +3329,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
         "visible_spell_id": 381623,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
       "pvp_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3221,8 +3356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3252,7 +3387,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
         "visible_spell_id": null,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
       "pvp_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3276,8 +3414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3307,7 +3445,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
         "visible_spell_id": null,
-        "icon": "spell_ice_lament"
+        "icon": "spell_ice_lament",
+        "icon_candidates": [
+          "spell_ice_lament"
+        ]
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
       "pvp_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3331,8 +3472,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3362,7 +3503,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
         "visible_spell_id": null,
-        "icon": "inv_ability_rogue_echoingreprimand"
+        "icon": "inv_ability_rogue_echoingreprimand",
+        "icon_candidates": [
+          "inv_ability_rogue_echoingreprimand"
+        ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
       "pvp_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (110.92% of Attack Power) Physical damage.",
@@ -3446,8 +3590,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3477,7 +3621,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Forced Induction",
         "spell_id": 470668,
         "visible_spell_id": null,
-        "icon": "inv_misc_enggizmos_06"
+        "icon": "inv_misc_enggizmos_06",
+        "icon_candidates": [
+          "inv_misc_enggizmos_06"
+        ]
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
       "pvp_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3501,8 +3648,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3532,7 +3679,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3556,8 +3706,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3587,7 +3737,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Without a Trace",
         "spell_id": 382513,
         "visible_spell_id": null,
-        "icon": "ability_vanish"
+        "icon": "ability_vanish",
+        "icon_candidates": [
+          "ability_vanish"
+        ]
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
       "pvp_tooltip": "Vanish has 1 additional charge.",
@@ -3611,8 +3764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3644,7 +3797,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Opportunity",
         "spell_id": 279876,
         "visible_spell_id": null,
-        "icon": "ability_rogue_pistolshot"
+        "icon": "ability_rogue_pistolshot",
+        "icon_candidates": [
+          "ability_rogue_pistolshot"
+        ]
       },
       "pve_tooltip": "Sinister Strike has a 30% chance to hit an additional time and grant Opportunity.\nOpportunity\nYour next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
       "pvp_tooltip": "Sinister Strike has a 30% chance to hit an additional time and grant Opportunity.\nOpportunity\nYour next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
@@ -3743,8 +3899,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3776,7 +3932,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hit and Run",
         "spell_id": 196922,
         "visible_spell_id": null,
-        "icon": "ability_rogue_fleetfooted"
+        "icon": "ability_rogue_fleetfooted",
+        "icon_candidates": [
+          "ability_rogue_fleetfooted"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 15%.",
       "pvp_tooltip": "Movement speed increased by 15%.",
@@ -3800,8 +3959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3833,7 +3992,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combat Stamina",
         "spell_id": 381877,
         "visible_spell_id": null,
-        "icon": "ability_rogue_imrovedrecuperate"
+        "icon": "ability_rogue_imrovedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_imrovedrecuperate"
+        ]
       },
       "pve_tooltip": "Stamina increased by (5 * 1)%.",
       "pvp_tooltip": "Stamina increased by (18 * 1)%.",
@@ -3904,8 +4066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3939,7 +4101,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Adrenaline Rush",
         "spell_id": 13750,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowworddominate"
+        "icon": "spell_shadow_shadowworddominate",
+        "icon_candidates": [
+          "spell_shadow_shadowworddominate"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for 15 sec.\n[Damage of combo point generating abilities and finishers increased by 0%.]",
       "pvp_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for 15 sec.\n[Damage of combo point generating abilities and finishers increased by 0%.]",
@@ -3963,8 +4128,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3996,7 +4161,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Retractable Hook",
         "spell_id": 256188,
         "visible_spell_id": null,
-        "icon": "ability_rogue_grapplinghook"
+        "icon": "ability_rogue_grapplinghook",
+        "icon_candidates": [
+          "ability_rogue_grapplinghook"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Grappling Hook by 15 sec.",
       "pvp_tooltip": "Reduces the cooldown of Grappling Hook by 15 sec.",
@@ -4020,8 +4188,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4053,7 +4221,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blinding Powder",
         "spell_id": 256165,
         "visible_spell_id": null,
-        "icon": "inv_misc_ammo_gunpowder_06"
+        "icon": "inv_misc_ammo_gunpowder_06",
+        "icon_candidates": [
+          "inv_misc_ammo_gunpowder_06"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Blind by 25% and increases its range by 5 yds.",
       "pvp_tooltip": "Reduces the cooldown of Blind by 25% and increases its range by 5 yds.",
@@ -4077,8 +4248,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4112,7 +4283,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Expert Duelist",
         "spell_id": 1259498,
         "visible_spell_id": null,
-        "icon": "inv_weapon_rifle_01"
+        "icon": "inv_weapon_rifle_01",
+        "icon_candidates": [
+          "inv_weapon_rifle_01"
+        ]
       },
       "pve_tooltip": "Between the Eyes increases your damage dealt by an additional 2%.",
       "pvp_tooltip": "Between the Eyes increases your damage dealt by an additional 2%.",
@@ -4136,8 +4310,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4171,7 +4345,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combat Potency",
         "spell_id": 61329,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_38"
+        "icon": "inv_weapon_shortblade_38",
+        "icon_candidates": [
+          "inv_weapon_shortblade_38"
+        ]
       },
       "pve_tooltip": "Increases your Energy regeneration rate by 16%.",
       "pvp_tooltip": "Increases your Energy regeneration rate by 16%.",
@@ -4195,8 +4372,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4228,7 +4405,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadly Pursuit",
         "spell_id": 1259612,
         "visible_spell_id": null,
-        "icon": "ability_rogue_murderspree"
+        "icon": "ability_rogue_murderspree",
+        "icon_candidates": [
+          "ability_rogue_murderspree"
+        ]
       },
       "pve_tooltip": "After spending 15 combo points, if you spend no combo points for 4 sec, abilities affected by Restless Blades will cool down 200% faster for 5 sec or until you spend a combo point.",
       "pvp_tooltip": "After spending 15 combo points, if you spend no combo points for 4 sec, abilities affected by Restless Blades will cool down 200% faster for 5 sec or until you spend a combo point.",
@@ -4252,8 +4432,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4285,7 +4465,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precision Shot",
         "spell_id": 428377,
         "visible_spell_id": null,
-        "icon": "inv_legendary_gun"
+        "icon": "inv_legendary_gun",
+        "icon_candidates": [
+          "inv_legendary_gun"
+        ]
       },
       "pve_tooltip": "Between the Eyes and Pistol Shot have 10 yd increased range and deal 20% increased damage.",
       "pvp_tooltip": "Between the Eyes and Pistol Shot have 10 yd increased range and deal 20% increased damage.",
@@ -4309,8 +4492,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4342,7 +4525,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crescendo of Violence",
         "spell_id": 1259499,
         "visible_spell_id": null,
-        "icon": "ability_rogue_dirtydeeds"
+        "icon": "ability_rogue_dirtydeeds",
+        "icon_candidates": [
+          "ability_rogue_dirtydeeds"
+        ]
       },
       "pve_tooltip": "Your finishing moves deal 10% increased damage.",
       "pvp_tooltip": "Your finishing moves deal 10% increased damage.",
@@ -4366,8 +4552,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4399,7 +4585,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deft Maneuvers",
         "spell_id": 381878,
         "visible_spell_id": null,
-        "icon": "spell_warrior_wildstrike"
+        "icon": "spell_warrior_wildstrike",
+        "icon_candidates": [
+          "spell_warrior_wildstrike"
+        ]
       },
       "pve_tooltip": "Blade Flurry's initial damage is increased by 100% and generates 1 combo point per target struck, but its Energy cost is increased by 30.",
       "pvp_tooltip": "Blade Flurry's initial damage is increased by 100% and generates 1 combo point per target struck, but its Energy cost is increased by 30.",
@@ -4423,8 +4612,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4459,7 +4648,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devious Stratagem",
         "spell_id": 394321,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -4483,8 +4675,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4518,7 +4710,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fatal Flourish",
         "spell_id": 35551,
         "visible_spell_id": null,
-        "icon": "ability_rogue_unfairadvantage"
+        "icon": "ability_rogue_unfairadvantage",
+        "icon_candidates": [
+          "ability_rogue_unfairadvantage"
+        ]
       },
       "pve_tooltip": "Your off-hand attacks and Pistol Shots have a 25% chance to generate 8 Energy.",
       "pvp_tooltip": "Your off-hand attacks and Pistol Shots have a 25% chance to generate 8 Energy.",
@@ -4542,8 +4737,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4578,7 +4773,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Draw",
         "spell_id": 196938,
         "visible_spell_id": null,
-        "icon": "inv_weapon_rifle_40"
+        "icon": "inv_weapon_rifle_40",
+        "icon_candidates": [
+          "inv_weapon_rifle_40"
+        ]
       },
       "pve_tooltip": "Opportunity increases the damage of Pistol Shot by an additional 20%. Each charge of Opportunity consumed by Pistol Shot generates 1 combo point.",
       "pvp_tooltip": "Opportunity increases the damage of Pistol Shot by an additional 20%. Each charge of Opportunity consumed by Pistol Shot generates 1 combo point.",
@@ -4602,8 +4800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4637,7 +4835,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ruthlessness",
         "spell_id": 14161,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "Your finishing moves have a 20% chance per combo point spent to grant a combo point.",
       "pvp_tooltip": "Your finishing moves have a 20% chance per combo point spent to grant a combo point.",
@@ -4661,8 +4862,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4694,7 +4895,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blade Rush",
         "spell_id": 271877,
         "visible_spell_id": null,
-        "icon": "ability_arakkoa_spinning_blade"
+        "icon": "ability_arakkoa_spinning_blade",
+        "icon_candidates": [
+          "ability_arakkoa_spinning_blade"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(375.3% of Attack Power)% * 230 / 100] Physical damage to the target and (375.3% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
       "pvp_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(375.3% of Attack Power)% * 230 / 100] Physical damage to the target and (375.3% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
@@ -4757,8 +4961,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4791,7 +4995,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Loaded Dice",
         "spell_id": 256170,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rollthebones"
+        "icon": "ability_rogue_rollthebones",
+        "icon_candidates": [
+          "ability_rogue_rollthebones"
+        ]
       },
       "pve_tooltip": "Activating Adrenaline Rush improves the result of your next Roll the Bones by one level.",
       "pvp_tooltip": "Activating Adrenaline Rush improves the result of your next Roll the Bones by one level.",
@@ -4815,8 +5022,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4849,7 +5056,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sleight of Hand",
         "spell_id": 381839,
         "visible_spell_id": null,
-        "icon": "inv_misc_dice_02"
+        "icon": "inv_misc_dice_02",
+        "icon_candidates": [
+          "inv_misc_dice_02"
+        ]
       },
       "pve_tooltip": "Roll the Bones has a 20% increased chance of granting more powerful results.",
       "pvp_tooltip": "Roll the Bones has a 20% increased chance of granting more powerful results.",
@@ -4873,8 +5083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4906,7 +5116,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Between the Eyes",
         "spell_id": 235484,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rollthebones01"
+        "icon": "ability_rogue_rollthebones01",
+        "icon_candidates": [
+          "ability_rogue_rollthebones01"
+        ]
       },
       "pve_tooltip": "Critical strikes with Between the Eyes deal 2.5 times normal damage.",
       "pvp_tooltip": "Critical strikes with Between the Eyes deal 2.5 times normal damage.",
@@ -4967,8 +5180,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5002,7 +5215,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thief's Versatility",
         "spell_id": 381619,
         "visible_spell_id": null,
-        "icon": "ability_rogue_versatility"
+        "icon": "ability_rogue_versatility",
+        "icon_candidates": [
+          "ability_rogue_versatility"
+        ]
       },
       "pve_tooltip": "Versatility increased by 3%.",
       "pvp_tooltip": "Versatility increased by 3%.",
@@ -5026,8 +5242,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5061,7 +5277,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flickering Steel",
         "spell_id": 1259492,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fastermeleeattacks"
+        "icon": "inv_1115_warrior_fastermeleeattacks",
+        "icon_candidates": [
+          "inv_1115_warrior_fastermeleeattacks"
+        ]
       },
       "pve_tooltip": "Sinister Strike and Ambush deal 20% increased damage. They also generate 5 Energy when they grant you Opportunity.",
       "pvp_tooltip": "Sinister Strike and Ambush deal 20% increased damage. They also generate 5 Energy when they grant you Opportunity.",
@@ -5085,8 +5304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5118,7 +5337,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Audacity",
         "spell_id": 381845,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ambush"
+        "icon": "ability_rogue_ambush",
+        "icon_candidates": [
+          "ability_rogue_ambush"
+        ]
       },
       "pve_tooltip": "Using Pistol Shot with Opportunity has a 30% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
       "pvp_tooltip": "Using Pistol Shot with Opportunity has a 30% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
@@ -5221,8 +5443,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5257,7 +5479,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heavy Hitter",
         "spell_id": 381885,
         "visible_spell_id": null,
-        "icon": "spell_shadow_ritualofsacrifice"
+        "icon": "spell_shadow_ritualofsacrifice",
+        "icon_candidates": [
+          "spell_shadow_ritualofsacrifice"
+        ]
       },
       "pve_tooltip": "Attacks that generate combo points deal 30% increased damage.",
       "pvp_tooltip": "Attacks that generate combo points deal 30% increased damage.",
@@ -5300,8 +5525,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5335,7 +5560,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Adrenaline Rush",
         "spell_id": 395422,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowworddominate"
+        "icon": "spell_shadow_shadowworddominate",
+        "icon_candidates": [
+          "spell_shadow_shadowworddominate"
+        ]
       },
       "pve_tooltip": "Generate full combo points when you gain Adrenaline Rush.",
       "pvp_tooltip": "Generate full combo points when you gain Adrenaline Rush.",
@@ -5359,8 +5587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5395,7 +5623,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ace Up Your Sleeve",
         "spell_id": 381828,
         "visible_spell_id": null,
-        "icon": "inv_inscription_darkmooncard_putrescence"
+        "icon": "inv_inscription_darkmooncard_putrescence",
+        "icon_candidates": [
+          "inv_inscription_darkmooncard_putrescence"
+        ]
       },
       "pve_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
       "pvp_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
@@ -5438,8 +5669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5471,7 +5702,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dancing Steel",
         "spell_id": 272026,
         "visible_spell_id": null,
-        "icon": "ability_warrior_punishingblow"
+        "icon": "ability_warrior_punishingblow",
+        "icon_candidates": [
+          "ability_warrior_punishingblow"
+        ]
       },
       "pve_tooltip": "Blade Flurry strikes 3 additional enemies and its duration is increased by 3 sec.",
       "pvp_tooltip": "Blade Flurry strikes 3 additional enemies and its duration is increased by 3 sec.",
@@ -5495,8 +5729,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5530,7 +5764,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Find an Opening",
         "spell_id": 1259457,
         "visible_spell_id": null,
-        "icon": "ability_rogue_pistolshot"
+        "icon": "ability_rogue_pistolshot",
+        "icon_candidates": [
+          "ability_rogue_pistolshot"
+        ]
       },
       "pve_tooltip": "Your chance for Sinister Strike to strike twice and grant Opportunity is increased by 10%",
       "pvp_tooltip": "Your chance for Sinister Strike to strike twice and grant Opportunity is increased by 10%",
@@ -5554,8 +5791,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5589,7 +5826,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Acrobatic Strikes",
         "spell_id": 455143,
         "visible_spell_id": null,
-        "icon": "spell_warrior_wildstrike"
+        "icon": "spell_warrior_wildstrike",
+        "icon_candidates": [
+          "spell_warrior_wildstrike"
+        ]
       },
       "pve_tooltip": "Auto-attacks increase auto-attack damage by 3% and movement speed by 1% for 3 sec, stacking up to 10 times.",
       "pvp_tooltip": "Auto-attacks increase auto-attack damage by 3% and movement speed by 1% for 3 sec, stacking up to 10 times.",
@@ -5613,8 +5853,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5646,7 +5886,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heightened Rush",
         "spell_id": 1259465,
         "visible_spell_id": null,
-        "icon": "spell_shadow_unholyfrenzy"
+        "icon": "spell_shadow_unholyfrenzy",
+        "icon_candidates": [
+          "spell_shadow_unholyfrenzy"
+        ]
       },
       "pve_tooltip": "Adrenaline Rush's duration is increased by 4 sec.",
       "pvp_tooltip": "Adrenaline Rush's duration is increased by 4 sec.",
@@ -5670,8 +5913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5703,7 +5946,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Menacing Rush",
         "spell_id": 1256630,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fasterreflexes"
+        "icon": "inv_1115_warrior_fasterreflexes",
+        "icon_candidates": [
+          "inv_1115_warrior_fasterreflexes"
+        ]
       },
       "pve_tooltip": "Adrenaline Rush magnifies your precision and power, increasing the damage your combo point generating abilities and finishers deal by 20%.",
       "pvp_tooltip": "Adrenaline Rush magnifies your precision and power, increasing the damage your combo point generating abilities and finishers deal by 10%.",
@@ -5799,8 +6045,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5834,7 +6080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Zero In",
         "spell_id": 1259485,
         "visible_spell_id": null,
-        "icon": "ability_hisek_aim"
+        "icon": "ability_hisek_aim",
+        "icon_candidates": [
+          "ability_hisek_aim"
+        ]
       },
       "pve_tooltip": "Your auto-attack critical strikes increase the damage and critical strike chance of your next Between the Eyes by 2%, stacking up to 20 times.",
       "pvp_tooltip": "Your auto-attack critical strikes increase the damage and critical strike chance of your next Between the Eyes by 2%, stacking up to 20 times.",
@@ -5858,8 +6107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5893,7 +6142,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Grand Melee",
         "spell_id": 1259469,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rollthebones02"
+        "icon": "ability_rogue_rollthebones02",
+        "icon_candidates": [
+          "ability_rogue_rollthebones02"
+        ]
       },
       "pve_tooltip": "Blade Flurry causes your attacks to hit nearby enemies for an additional 8% of their normal damage.",
       "pvp_tooltip": "Blade Flurry causes your attacks to hit nearby enemies for an additional 8% of their normal damage.",
@@ -5917,8 +6169,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5952,7 +6204,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summarily Dispatched",
         "spell_id": 381990,
         "visible_spell_id": null,
-        "icon": "ability_rogue_waylay"
+        "icon": "ability_rogue_waylay",
+        "icon_candidates": [
+          "ability_rogue_waylay"
+        ]
       },
       "pve_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
       "pvp_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
@@ -6036,8 +6291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6073,7 +6328,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dragon-Bone Dice",
         "spell_id": 1259481,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rollthebones"
+        "icon": "ability_rogue_rollthebones",
+        "icon_candidates": [
+          "ability_rogue_rollthebones"
+        ]
       },
       "pve_tooltip": "The bonuses granted by your Roll the Bones are stronger.\nBonuses to chance for Sinister Strike to strike twice are 5% greater.\nBonuses to Sinister Strike and Ambush damage are 5% greater.\nBonuses to Restless Blades cooldown reduction are 10% greater.\nJackpot's bonus to critical strike chance is 5% greater.",
       "pvp_tooltip": "The bonuses granted by your Roll the Bones are stronger.\nBonuses to chance for Sinister Strike to strike twice are 5% greater.\nBonuses to Sinister Strike and Ambush damage are 5% greater.\nBonuses to Restless Blades cooldown reduction are 10% greater.\nJackpot's bonus to critical strike chance is 5% greater.",
@@ -6097,8 +6355,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6132,7 +6390,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fan the Hammer",
         "spell_id": 381846,
         "visible_spell_id": null,
-        "icon": "ability_rogue_pistolshot"
+        "icon": "ability_rogue_pistolshot",
+        "icon_candidates": [
+          "ability_rogue_pistolshot"
+        ]
       },
       "pve_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
       "pvp_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
@@ -6175,8 +6436,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6206,7 +6467,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hidden Opportunity",
         "spell_id": 383281,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ambush"
+        "icon": "ability_rogue_ambush",
+        "icon_candidates": [
+          "ability_rogue_ambush"
+        ]
       },
       "pve_tooltip": "Ambush has a chance to grant Opportunity. Chance to trigger this effect is 100% of the chance for Sinister Strike to grant Opportunity.\nEnergy cost of Ambush reduced by 5.",
       "pvp_tooltip": "Ambush has a chance to grant Opportunity. Chance to trigger this effect is 100% of the chance for Sinister Strike to grant Opportunity.\nEnergy cost of Ambush reduced by 5.",
@@ -6230,8 +6494,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6262,7 +6526,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Killing Spree",
         "spell_id": 51690,
         "visible_spell_id": null,
-        "icon": "inv_112_rogue_betweentheeyes"
+        "icon": "inv_112_rogue_betweentheeyes",
+        "icon_candidates": [
+          "inv_112_rogue_betweentheeyes"
+        ]
       },
       "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
       "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((131.6% of Attack Power) + (131.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 8] over 3.50 sec]",
@@ -6670,8 +6937,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6701,7 +6968,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Keep It Rolling",
         "spell_id": 381989,
         "visible_spell_id": null,
-        "icon": "ability_rogue_keepitrolling"
+        "icon": "ability_rogue_keepitrolling",
+        "icon_candidates": [
+          "ability_rogue_keepitrolling"
+        ]
       },
       "pve_tooltip": "Instant\n6 min cooldown\nIncrease the remaining duration of your active Roll the Bones combat enhancement by 30 sec.",
       "pvp_tooltip": "Instant\n6 min cooldown\nIncrease the remaining duration of your active Roll the Bones combat enhancement by 30 sec.",
@@ -6725,8 +6995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6757,7 +7027,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fast Action",
         "spell_id": 1259480,
         "visible_spell_id": null,
-        "icon": "inv_musket_02"
+        "icon": "inv_musket_02",
+        "icon_candidates": [
+          "inv_musket_02"
+        ]
       },
       "pve_tooltip": "The cooldown of Between the Eyes is reduced by 8 sec.\nBetween the Eyes increases your damage dealt by an additional 1%.",
       "pvp_tooltip": "The cooldown of Between the Eyes is reduced by 8 sec.\nBetween the Eyes increases your damage dealt by an additional 1%.",
@@ -6781,8 +7054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6812,7 +7085,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Preparation",
         "spell_id": 1277933,
         "visible_spell_id": null,
-        "icon": "ability_rogue_preparation"
+        "icon": "ability_rogue_preparation",
+        "icon_candidates": [
+          "ability_rogue_preparation"
+        ]
       },
       "pve_tooltip": "Instant\n4 min cooldown\nImmediately reset the cooldowns of Adrenaline Rush, Between the Eyes, Blade Flurry, Blade Rush, and Killing Spree.",
       "pvp_tooltip": "Instant\n4 min cooldown\nImmediately reset the cooldowns of Adrenaline Rush, Between the Eyes, Blade Flurry, Blade Rush, and Killing Spree.",
@@ -6836,8 +7112,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6865,7 +7141,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gravedigger",
         "spell_id": 1265861,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_gravedigger"
+        "icon": "inv12_apextalent_rogue_gravedigger",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_gravedigger"
+        ]
       },
       "pve_tooltip": "Between the Eyes has a 45% chance to apply 2 stacks of its bonus to your damage dealt.",
       "pvp_tooltip": "Between the Eyes has a 45% chance to apply 2 stacks of its bonus to your damage dealt.",
@@ -6889,8 +7168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6918,7 +7197,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gravedigger",
         "spell_id": 1265862,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_gravedigger"
+        "icon": "inv12_apextalent_rogue_gravedigger",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_gravedigger"
+        ]
       },
       "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
       "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
@@ -7038,8 +7320,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7067,7 +7349,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gravedigger",
         "spell_id": 1265863,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_gravedigger"
+        "icon": "inv12_apextalent_rogue_gravedigger",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_gravedigger"
+        ]
       },
       "pve_tooltip": "When you Dispatch you have a 12% chance per combo point spent to hide a bullet up your sleeve. When you've hidden 6 bullets, your next Between the Eyes consumes them and costs no Energy, generates 6 combo points, and immediately resets its own cooldown.\n(100ms cooldown)",
       "pvp_tooltip": "When you Dispatch you have a 12% chance per combo point spent to hide a bullet up your sleeve. When you've hidden 6 bullets, your next Between the Eyes consumes them and costs no Energy, generates 6 combo points, and immediately resets its own cooldown.\n(100ms cooldown)",
@@ -7091,8 +7376,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7125,7 +7410,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hand of Fate",
         "spell_id": 452536,
         "visible_spell_id": null,
-        "icon": "inv_ability_fateboundrogue_handoffateheads"
+        "icon": "inv_ability_fateboundrogue_handoffateheads",
+        "icon_candidates": [
+          "inv_ability_fateboundrogue_handoffateheads"
+        ]
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
       "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (105.8064% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
@@ -7211,8 +7499,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7244,7 +7532,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chosen's Revelry",
         "spell_id": 1249201,
         "visible_spell_id": null,
-        "icon": "ability_priest_heavanlyvoice"
+        "icon": "ability_priest_heavanlyvoice",
+        "icon_candidates": [
+          "ability_priest_heavanlyvoice"
+        ]
       },
       "pve_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
       "pvp_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
@@ -7268,8 +7559,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7301,7 +7592,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tempted Fate",
         "spell_id": 454286,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sabreslash"
+        "icon": "ability_rogue_sabreslash",
+        "icon_candidates": [
+          "ability_rogue_sabreslash"
+        ]
       },
       "pve_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
       "pvp_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
@@ -7325,8 +7619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7358,7 +7652,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mean Streak",
         "spell_id": 453428,
         "visible_spell_id": null,
-        "icon": "inv_sigil_thorim"
+        "icon": "inv_sigil_thorim",
+        "icon_candidates": [
+          "inv_sigil_thorim"
+        ]
       },
       "pve_tooltip": "Fatebound Coins flipped by Dispatch are 33% more likely to match the same face as the last flip.",
       "pvp_tooltip": "Fatebound Coins flipped by Dispatch are 33% more likely to match the same face as the last flip.",
@@ -7382,8 +7679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7415,7 +7712,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inexorable March",
         "spell_id": 454432,
         "visible_spell_id": null,
-        "icon": "ability_monk_ridethewind"
+        "icon": "ability_monk_ridethewind",
+        "icon_candidates": [
+          "ability_monk_ridethewind"
+        ]
       },
       "pve_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
       "pvp_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
@@ -7439,8 +7739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7472,7 +7772,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Death's Arrival",
         "spell_id": 454433,
         "visible_spell_id": null,
-        "icon": "achievement_guildperk_havegroup-willtravel"
+        "icon": "achievement_guildperk_havegroup_willtravel",
+        "icon_candidates": [
+          "achievement_guildperk_havegroup_willtravel",
+          "achievement_guildperk_havegroup-willtravel"
+        ]
       },
       "pve_tooltip": "Grappling Hook may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
       "pvp_tooltip": "Grappling Hook may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 10 sec.",
@@ -7524,6 +7828,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -7548,6 +7853,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -7568,8 +7874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7601,7 +7907,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sometimes Lucky",
         "spell_id": 1277030,
         "visible_spell_id": null,
-        "icon": "inv_misc_celestialmap"
+        "icon": "inv_misc_celestialmap",
+        "icon_candidates": [
+          "inv_misc_celestialmap"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 3%.",
       "pvp_tooltip": "Critical strike chance increased by 3%.",
@@ -7625,8 +7934,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7658,7 +7967,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deal Fate",
         "spell_id": 454419,
         "visible_spell_id": null,
-        "icon": "ability_rogue_preparation"
+        "icon": "ability_rogue_preparation",
+        "icon_candidates": [
+          "ability_rogue_preparation"
+        ]
       },
       "pve_tooltip": "Sinister Strike generates 1 additional combo point when it grants Opportunity.",
       "pvp_tooltip": "Sinister Strike generates 1 additional combo point when it grants Opportunity.",
@@ -7682,8 +7994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7715,7 +8027,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fate Intertwined",
         "spell_id": 1249215,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_beam"
+        "icon": "inv_cosmicvoid_beam",
+        "icon_candidates": [
+          "inv_cosmicvoid_beam"
+        ]
       },
       "pve_tooltip": "Blade Flurry causes an additional 5% of attack damage dealt to be dealt to affected enemies.",
       "pvp_tooltip": "Blade Flurry causes an additional 5% of attack damage dealt to be dealt to affected enemies.",
@@ -7739,8 +8054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7772,7 +8087,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Edge Case",
         "spell_id": 453457,
         "visible_spell_id": null,
-        "icon": "item_icecrownnecklacea"
+        "icon": "item_icecrownnecklacea",
+        "icon_candidates": [
+          "item_icecrownnecklacea"
+        ]
       },
       "pve_tooltip": "Activating Adrenaline Rush flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
       "pvp_tooltip": "Activating Adrenaline Rush flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
@@ -7796,8 +8114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7829,7 +8147,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Controlled Chaos",
         "spell_id": 1276816,
         "visible_spell_id": null,
-        "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
+        "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple",
+        "icon_candidates": [
+          "inv_112_raidtrinkets_blobofswirlingvoid_purple"
+        ]
       },
       "pve_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
       "pvp_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
@@ -7853,8 +8174,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7886,7 +8207,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Delivered Doom",
         "spell_id": 1249194,
         "visible_spell_id": null,
-        "icon": "ability_bossgorefiend_touchofdoom"
+        "icon": "ability_bossgorefiend_touchofdoom",
+        "icon_candidates": [
+          "ability_bossgorefiend_touchofdoom"
+        ]
       },
       "pve_tooltip": "Dispatch and Between the Eyes deal 5% more damage when they consume 5 or more combo points.",
       "pvp_tooltip": "Dispatch and Between the Eyes deal 5% more damage when they consume 5 or more combo points.",
@@ -7910,8 +8234,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7943,7 +8267,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overflowing Purse",
         "spell_id": 1249190,
         "visible_spell_id": null,
-        "icon": "inv_misc_coinbag_special"
+        "icon": "inv_misc_coinbag_special",
+        "icon_candidates": [
+          "inv_misc_coinbag_special"
+        ]
       },
       "pve_tooltip": "Dispatch has a 4% chance to flip 3 Fatebound Coins.",
       "pvp_tooltip": "Dispatch has a 4% chance to flip 3 Fatebound Coins.",
@@ -7967,8 +8294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8000,7 +8327,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Destiny Defined",
         "spell_id": 454435,
         "visible_spell_id": null,
-        "icon": "ability_boss_fatescribe_rune6"
+        "icon": "ability_boss_fatescribe_rune6",
+        "icon_candidates": [
+          "ability_boss_fatescribe_rune6"
+        ]
       },
       "pve_tooltip": "Sinister Strike has 5% increased chance to strike an additional time and grant Opportunity and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
       "pvp_tooltip": "Sinister Strike has 5% increased chance to strike an additional time and grant Opportunity and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
@@ -8024,8 +8354,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8057,7 +8387,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rush to the Inevitable",
         "spell_id": 1249204,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vigor"
+        "icon": "ability_rogue_vigor",
+        "icon_candidates": [
+          "ability_rogue_vigor"
+        ]
       },
       "pve_tooltip": "Gain 2 Energy every time you flip a Fatebound Coin. Gain 10 Energy for Coins that land on their edge.",
       "pvp_tooltip": "Gain 2 Energy every time you flip a Fatebound Coin. Gain 10 Energy for Coins that land on their edge.",
@@ -8081,8 +8414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8114,7 +8447,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ravenholdt Mint",
         "spell_id": 1276809,
         "visible_spell_id": null,
-        "icon": "inv_misc_coin_02"
+        "icon": "inv_misc_coin_02",
+        "icon_candidates": [
+          "inv_misc_coin_02"
+        ]
       },
       "pve_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
       "pvp_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
@@ -8138,8 +8474,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8172,7 +8508,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lucky Coin",
         "spell_id": 1248970,
         "visible_spell_id": null,
-        "icon": "inv_misc_markoftheworldtree"
+        "icon": "inv_misc_markoftheworldtree",
+        "icon_candidates": [
+          "inv_misc_markoftheworldtree"
+        ]
       },
       "pve_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
       "pvp_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
@@ -8196,8 +8535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8230,7 +8569,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unseen Blade",
         "spell_id": 441146,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_55"
+        "icon": "inv_weapon_shortblade_55",
+        "icon_candidates": [
+          "inv_weapon_shortblade_55"
+        ]
       },
       "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
       "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (263.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
@@ -8314,8 +8656,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8347,7 +8689,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Surprising Strikes",
         "spell_id": 441273,
         "visible_spell_id": null,
-        "icon": "ability_rogue_surpriseattack2"
+        "icon": "ability_rogue_surpriseattack2",
+        "icon_candidates": [
+          "ability_rogue_surpriseattack2"
+        ]
       },
       "pve_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
       "pvp_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
@@ -8371,8 +8716,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8404,7 +8749,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Smoke",
         "spell_id": 441247,
         "visible_spell_id": null,
-        "icon": "rogue_dirtytricks"
+        "icon": "rogue_dirtytricks",
+        "icon_candidates": [
+          "rogue_dirtytricks"
+        ]
       },
       "pve_tooltip": "You take 5% reduced damage from Fazed targets.",
       "pvp_tooltip": "You take 5% reduced damage from Fazed targets.",
@@ -8428,8 +8776,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8461,7 +8809,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mirrors",
         "spell_id": 441250,
         "visible_spell_id": null,
-        "icon": "trade_archaeology_highbornesoulmirror"
+        "icon": "trade_archaeology_highbornesoulmirror",
+        "icon_candidates": [
+          "trade_archaeology_highbornesoulmirror"
+        ]
       },
       "pve_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
       "pvp_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
@@ -8485,8 +8836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8518,7 +8869,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flawless Form",
         "spell_id": 441321,
         "visible_spell_id": null,
-        "icon": "inv_qiraj_jewelblessed"
+        "icon": "inv_qiraj_jewelblessed",
+        "icon_candidates": [
+          "inv_qiraj_jewelblessed"
+        ]
       },
       "pve_tooltip": "Unseen Blade and Killing Spree increase the damage of your finishing moves by 4% for 12 sec. Max 5 stacks.",
       "pvp_tooltip": "Unseen Blade and Killing Spree increase the damage of your finishing moves by 4% for 12 sec. Max 5 stacks.",
@@ -8542,8 +8896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8575,7 +8929,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hoodwink",
         "spell_id": 1276626,
         "visible_spell_id": null,
-        "icon": "spell_holy_dizzy"
+        "icon": "spell_holy_dizzy",
+        "icon_candidates": [
+          "spell_holy_dizzy"
+        ]
       },
       "pve_tooltip": "Fazed increases damage taken by an additional 3%.",
       "pvp_tooltip": "Fazed increases damage taken by an additional 3%.",
@@ -8599,8 +8956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8632,7 +8989,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "So Tricky",
         "spell_id": 441403,
         "visible_spell_id": null,
-        "icon": "ability_rogue_tricksofthetrade"
+        "icon": "ability_rogue_tricksofthetrade",
+        "icon_candidates": [
+          "ability_rogue_tricksofthetrade"
+        ]
       },
       "pve_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
       "pvp_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
@@ -8656,8 +9016,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8689,7 +9049,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Don't Be Suspicious",
         "spell_id": 441415,
         "visible_spell_id": null,
-        "icon": "ability_rogue_disguise"
+        "icon": "ability_rogue_disguise",
+        "icon_candidates": [
+          "ability_rogue_disguise"
+        ]
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
       "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 5 yd increased range.",
@@ -8760,8 +9123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8793,7 +9156,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devious Distractions",
         "spell_id": 441263,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ghostpirate"
+        "icon": "ability_rogue_ghostpirate",
+        "icon_candidates": [
+          "ability_rogue_ghostpirate"
+        ]
       },
       "pve_tooltip": "Killing Spree applies Fazed to any targets struck.",
       "pvp_tooltip": "Killing Spree applies Fazed to any targets struck.",
@@ -8817,8 +9183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8850,7 +9216,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thousand Cuts",
         "spell_id": 441346,
         "visible_spell_id": null,
-        "icon": "inv_10_specialization_blacksmithing_blades_color1"
+        "icon": "inv_10_specialization_blacksmithing_blades_color1",
+        "icon_candidates": [
+          "inv_10_specialization_blacksmithing_blades_color1"
+        ]
       },
       "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
       "pvp_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
@@ -8874,8 +9243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8907,7 +9276,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flickerstrike",
         "spell_id": 441359,
         "visible_spell_id": null,
-        "icon": "spell_nature_invisibilty"
+        "icon": "spell_nature_invisibilty",
+        "icon_candidates": [
+          "spell_nature_invisibilty"
+        ]
       },
       "pve_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "pvp_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -8931,8 +9303,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8964,7 +9336,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flashing Steel",
         "spell_id": 1276630,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fastermeleeattacks"
+        "icon": "inv_1115_warrior_fastermeleeattacks",
+        "icon_candidates": [
+          "inv_1115_warrior_fastermeleeattacks"
+        ]
       },
       "pve_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
       "pvp_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
@@ -8988,8 +9363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9021,7 +9396,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Disorienting Strikes",
         "spell_id": 441274,
         "visible_spell_id": null,
-        "icon": "petbattle_speed"
+        "icon": "petbattle_speed",
+        "icon_candidates": [
+          "petbattle_speed"
+        ]
       },
       "pve_tooltip": "Killing Spree has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
       "pvp_tooltip": "Killing Spree has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
@@ -9045,8 +9423,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9078,7 +9456,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cloud Cover",
         "spell_id": 441429,
         "visible_spell_id": null,
-        "icon": "ability_rogue_smoke"
+        "icon": "ability_rogue_smoke",
+        "icon_candidates": [
+          "ability_rogue_smoke"
+        ]
       },
       "pve_tooltip": "Activating Adrenaline Rush creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 1 additional time.\nEffect persists for 6 sec after leaving the cloud.",
       "pvp_tooltip": "Activating Adrenaline Rush creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 1 additional time.\nEffect persists for 6 sec after leaving the cloud.",
@@ -9102,8 +9483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9135,7 +9516,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Scruples",
         "spell_id": 441398,
         "visible_spell_id": null,
-        "icon": "ability_rogue_surpriseattack"
+        "icon": "ability_rogue_surpriseattack",
+        "icon_candidates": [
+          "ability_rogue_surpriseattack"
+        ]
       },
       "pve_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
       "pvp_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
@@ -9159,8 +9543,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9192,7 +9576,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nimble Flurry",
         "spell_id": 441367,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bladetwisting"
+        "icon": "ability_rogue_bladetwisting",
+        "icon_candidates": [
+          "ability_rogue_bladetwisting"
+        ]
       },
       "pve_tooltip": "Blade Flurry damage is increased by 25% while Flawless Form is active.",
       "pvp_tooltip": "Blade Flurry damage is increased by 25% while Flawless Form is active.",
@@ -9216,8 +9603,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9249,7 +9636,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Clever Combatant",
         "spell_id": 1276679,
         "visible_spell_id": null,
-        "icon": "ability_rogue_versatility"
+        "icon": "ability_rogue_versatility",
+        "icon_candidates": [
+          "ability_rogue_versatility"
+        ]
       },
       "pve_tooltip": "Pistol Shot has 20% increased critical strike chance and now triggers Unseen Blade when available.",
       "pvp_tooltip": "Pistol Shot has 20% increased critical strike chance and now triggers Unseen Blade when available.",
@@ -9273,8 +9663,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9307,7 +9697,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Coup de Grace",
         "spell_id": 441423,
         "visible_spell_id": null,
-        "icon": "inv_ability_tricksterrogue_coupdegrace"
+        "icon": "inv_ability_tricksterrogue_coupdegrace",
+        "icon_candidates": [
+          "inv_ability_tricksterrogue_coupdegrace"
+        ]
       },
       "pve_tooltip": "After 4 strikes with Unseen Blade, your next Dispatch will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
       "pvp_tooltip": "After 4 strikes with Unseen Blade, your next Dispatch will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
@@ -9598,7 +9991,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-22T19:28:22.512212+00:00",
+  "generated_at": "2026-09-24T11:50:06.129098+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 12,

@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shiv",
         "spell_id": 5938,
         "visible_spell_id": null,
-        "icon": "inv_throwingknife_04"
+        "icon": "inv_throwingknife_04",
+        "icon_candidates": [
+          "inv_throwingknife_04"
+        ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (135.432% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -323,8 +326,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -356,7 +359,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blind",
         "spell_id": 2094,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindsteal"
+        "icon": "spell_shadow_mindsteal",
+        "icon_candidates": [
+          "spell_shadow_mindsteal"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
       "pvp_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -380,8 +386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -412,7 +418,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nethercloak"
+        "icon": "spell_shadow_nethercloak",
+        "icon_candidates": [
+          "spell_shadow_nethercloak"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -436,8 +445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -469,7 +478,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
         "visible_spell_id": null,
-        "icon": "ability_rogue_poisonedknife"
+        "icon": "ability_rogue_poisonedknife",
+        "icon_candidates": [
+          "ability_rogue_poisonedknife"
+        ]
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
       "pvp_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -493,8 +505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -528,7 +540,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
         "visible_spell_id": null,
-        "icon": "ability_rogue_quickrecovery"
+        "icon": "ability_rogue_quickrecovery",
+        "icon_candidates": [
+          "ability_rogue_quickrecovery"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 15%.",
       "pvp_tooltip": "Movement speed increased by 15%.",
@@ -552,8 +567,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -585,7 +600,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gouge",
         "spell_id": 1776,
         "visible_spell_id": null,
-        "icon": "ability_gouge"
+        "icon": "ability_gouge",
+        "icon_candidates": [
+          "ability_gouge"
+        ]
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
       "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -609,8 +627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -642,7 +660,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodyeye"
+        "icon": "ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
       "pvp_tooltip": "Blind has 50% reduced cooldown, 35% reduced duration, and applies to all nearby enemies.",
@@ -713,8 +734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -748,7 +769,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart_shadowflame"
+        "icon": "inv_ragnaros_heart_shadowflame",
+        "icon_candidates": [
+          "inv_ragnaros_heart_shadowflame"
+        ]
       },
       "pve_tooltip": "Shadowstep has 1 additional charge.",
       "pvp_tooltip": "Shadowstep has 1 additional charge.",
@@ -772,8 +796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -805,7 +829,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
         "visible_spell_id": null,
-        "icon": "ability_stealth"
+        "icon": "ability_stealth",
+        "icon_candidates": [
+          "ability_stealth"
+        ]
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
       "pvp_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -829,8 +856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -864,7 +891,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
       "pvp_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -929,8 +959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -964,7 +994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elusiveness",
         "spell_id": 79008,
         "visible_spell_id": null,
-        "icon": "ability_rogue_turnthetables"
+        "icon": "ability_rogue_turnthetables",
+        "icon_candidates": [
+          "ability_rogue_turnthetables"
+        ]
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
       "pvp_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -988,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1023,7 +1056,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cheat Death",
         "spell_id": 31230,
         "visible_spell_id": null,
-        "icon": "ability_rogue_cheatdeath"
+        "icon": "ability_rogue_cheatdeath",
+        "icon_candidates": [
+          "ability_rogue_cheatdeath"
+        ]
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
       "pvp_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1047,8 +1083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1082,7 +1118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
         "visible_spell_id": null,
-        "icon": "ability_rogue_tricksofthetrade"
+        "icon": "ability_rogue_tricksofthetrade",
+        "icon_candidates": [
+          "ability_rogue_tricksofthetrade"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1106,8 +1145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1141,7 +1180,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blackjack",
         "spell_id": 379005,
         "visible_spell_id": null,
-        "icon": "ability_rogue_blackjack"
+        "icon": "ability_rogue_blackjack",
+        "icon_candidates": [
+          "ability_rogue_blackjack"
+        ]
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "pvp_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1165,8 +1207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1199,7 +1241,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_16"
+        "icon": "inv_misc_herb_16",
+        "icon_candidates": [
+          "inv_misc_herb_16"
+        ]
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
       "pvp_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1223,8 +1268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1258,7 +1303,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
         "visible_spell_id": null,
-        "icon": "ability_rogue_crimsonvial"
+        "icon": "ability_rogue_crimsonvial",
+        "icon_candidates": [
+          "ability_rogue_crimsonvial"
+        ]
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
       "pvp_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1282,8 +1330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1315,7 +1363,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
       "pvp_tooltip": "Physical damage taken reduced by 5%.",
@@ -1339,8 +1390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1374,7 +1425,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
         "visible_spell_id": null,
-        "icon": "ability_rogue_improvedrecuperate"
+        "icon": "ability_rogue_improvedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_improvedrecuperate"
+        ]
       },
       "pve_tooltip": "Increases your Agility by 3%.",
       "pvp_tooltip": "Increases your Agility by 3%.",
@@ -1398,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1432,7 +1486,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1456,8 +1513,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1489,7 +1546,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
         "visible_spell_id": null,
-        "icon": "inv_misc_potionsete"
+        "icon": "inv_misc_potionsete",
+        "icon_candidates": [
+          "inv_misc_potionsete"
+        ]
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
       "pvp_tooltip": "Crippling Poison reduces movement speed by an additional 5%.",
@@ -1560,8 +1620,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1595,7 +1655,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Evasion",
         "spell_id": 5277,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowward"
+        "icon": "spell_shadow_shadowward",
+        "icon_candidates": [
+          "spell_shadow_shadowward"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1619,8 +1682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1652,7 +1715,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
         "visible_spell_id": null,
-        "icon": "inv_misc_organ_11"
+        "icon": "inv_misc_organ_11",
+        "icon_candidates": [
+          "inv_misc_organ_11"
+        ]
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
       "pvp_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1676,8 +1742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1713,7 +1779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
       "pvp_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1737,8 +1806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1770,7 +1839,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stillshroud",
         "spell_id": 423662,
         "visible_spell_id": null,
-        "icon": "ability_rogue_shroudofconcealment"
+        "icon": "ability_rogue_shroudofconcealment",
+        "icon_candidates": [
+          "ability_rogue_shroudofconcealment"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
       "pvp_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1794,8 +1866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1829,7 +1901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ghostpirate"
+        "icon": "ability_rogue_ghostpirate",
+        "icon_candidates": [
+          "ability_rogue_ghostpirate"
+        ]
       },
       "pve_tooltip": "Feint has 1 additional charge.",
       "pvp_tooltip": "Feint has 1 additional charge.",
@@ -1853,8 +1928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1886,7 +1961,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Featherfoot",
         "spell_id": 423683,
         "visible_spell_id": null,
-        "icon": "spell_magic_featherfall"
+        "icon": "spell_magic_featherfall",
+        "icon_candidates": [
+          "spell_magic_featherfall"
+        ]
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
       "pvp_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1910,8 +1988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1944,7 +2022,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
         "visible_spell_id": null,
-        "icon": "spell_nature_nullifydisease"
+        "icon": "spell_nature_nullifydisease",
+        "icon_candidates": [
+          "spell_nature_nullifydisease"
+        ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
       "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -2040,8 +2121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2074,10 +2155,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
         "visible_spell_id": null,
-        "icon": "ability_rogue_nervesofsteel"
+        "icon": "ability_rogue_nervesofsteel",
+        "icon_candidates": [
+          "ability_rogue_nervesofsteel"
+        ]
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (4 *- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2098,8 +2182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2134,7 +2218,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deadenednerves"
+        "icon": "ability_rogue_deadenednerves",
+        "icon_candidates": [
+          "ability_rogue_deadenednerves"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
       "pvp_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2158,8 +2245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2191,7 +2278,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
         "visible_spell_id": null,
-        "icon": "inv_misc_potiona5"
+        "icon": "inv_misc_potiona5",
+        "icon_candidates": [
+          "inv_misc_potiona5"
+        ]
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
       "pvp_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2215,8 +2305,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2251,7 +2341,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
         "visible_spell_id": null,
-        "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
+        "icon": "inv_1115_firstkilloftheday_firstkilloftheday",
+        "icon_candidates": [
+          "inv_1115_firstkilloftheday_firstkilloftheday"
+        ]
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
       "pvp_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2275,8 +2368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2309,7 +2402,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
         "visible_spell_id": null,
-        "icon": "ability_rogue_trip"
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
       "pvp_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2333,8 +2429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2368,7 +2464,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
         "visible_spell_id": null,
-        "icon": "ability_rogue_wrongfullyaccused"
+        "icon": "ability_rogue_wrongfullyaccused",
+        "icon_candidates": [
+          "ability_rogue_wrongfullyaccused"
+        ]
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
       "pvp_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2392,8 +2491,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2429,7 +2528,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
         "visible_spell_id": null,
-        "icon": "ability_rogue_slicedice"
+        "icon": "ability_rogue_slicedice",
+        "icon_candidates": [
+          "ability_rogue_slicedice"
+        ]
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
       "pvp_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2453,8 +2555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2488,7 +2590,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
         "visible_spell_id": null,
-        "icon": "ability_rogue_ambush"
+        "icon": "ability_rogue_ambush",
+        "icon_candidates": [
+          "ability_rogue_ambush"
+        ]
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
       "pvp_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2512,8 +2617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2547,7 +2652,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tight Spender",
         "spell_id": 381621,
         "visible_spell_id": null,
-        "icon": "inv_misc_coin_03"
+        "icon": "inv_misc_coin_03",
+        "icon_candidates": [
+          "inv_misc_coin_03"
+        ]
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
       "pvp_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2571,8 +2679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2604,7 +2712,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
         "visible_spell_id": null,
-        "icon": "rogue_leeching_poison"
+        "icon": "rogue_leeching_poison",
+        "icon_candidates": [
+          "rogue_leeching_poison"
+        ]
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
       "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 1.5% Leech.",
@@ -2688,8 +2799,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2722,7 +2833,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lethality",
         "spell_id": 382238,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
       "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2765,8 +2879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2798,7 +2912,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Recuperator",
         "spell_id": 378996,
         "visible_spell_id": null,
-        "icon": "inv_gizmo_runichealthinjector"
+        "icon": "inv_gizmo_runichealthinjector",
+        "icon_candidates": [
+          "inv_gizmo_runichealthinjector"
+        ]
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
       "pvp_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2822,8 +2939,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2856,7 +2973,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Alacrity",
         "spell_id": 193539,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Haste increased by 3%.",
       "pvp_tooltip": "Haste increased by 3%.",
@@ -2899,8 +3019,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2932,7 +3052,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
       "pvp_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2998,8 +3121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3031,7 +3154,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vigor",
         "spell_id": 14983,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vigor"
+        "icon": "ability_rogue_vigor",
+        "icon_candidates": [
+          "ability_rogue_vigor"
+        ]
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
       "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -3074,8 +3200,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3107,7 +3233,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Supercharger",
         "spell_id": 470347,
         "visible_spell_id": null,
-        "icon": "inv_engineering_90_electrifiedether"
+        "icon": "inv_engineering_90_electrifiedether",
+        "icon_candidates": [
+          "inv_engineering_90_electrifiedether"
+        ]
       },
       "pve_tooltip": "Kingsbane supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "pvp_tooltip": "Kingsbane supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -3150,8 +3279,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3183,7 +3312,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Subterfuge",
         "spell_id": 108208,
         "visible_spell_id": null,
-        "icon": "rogue_subterfuge"
+        "icon": "rogue_subterfuge",
+        "icon_candidates": [
+          "rogue_subterfuge"
+        ]
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
       "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
@@ -3226,8 +3358,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3257,7 +3389,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
         "visible_spell_id": 381623,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
       "pvp_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3281,8 +3416,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3312,7 +3447,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
         "visible_spell_id": null,
-        "icon": "inv_drink_milk_05"
+        "icon": "inv_drink_milk_05",
+        "icon_candidates": [
+          "inv_drink_milk_05"
+        ]
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
       "pvp_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3336,8 +3474,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3367,7 +3505,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
         "visible_spell_id": null,
-        "icon": "spell_ice_lament"
+        "icon": "spell_ice_lament",
+        "icon_candidates": [
+          "spell_ice_lament"
+        ]
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
       "pvp_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3391,8 +3532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3422,7 +3563,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
         "visible_spell_id": null,
-        "icon": "inv_ability_rogue_echoingreprimand"
+        "icon": "inv_ability_rogue_echoingreprimand",
+        "icon_candidates": [
+          "inv_ability_rogue_echoingreprimand"
+        ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
       "pvp_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (127.44% of Attack Power) Physical damage.",
@@ -3506,8 +3650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3537,7 +3681,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Forced Induction",
         "spell_id": 470668,
         "visible_spell_id": null,
-        "icon": "inv_misc_enggizmos_06"
+        "icon": "inv_misc_enggizmos_06",
+        "icon_candidates": [
+          "inv_misc_enggizmos_06"
+        ]
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
       "pvp_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3561,8 +3708,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3592,7 +3739,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3616,8 +3766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3647,7 +3797,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Without a Trace",
         "spell_id": 382513,
         "visible_spell_id": null,
-        "icon": "ability_vanish"
+        "icon": "ability_vanish",
+        "icon_candidates": [
+          "ability_vanish"
+        ]
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
       "pvp_tooltip": "Vanish has 1 additional charge.",
@@ -3671,8 +3824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3704,7 +3857,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deadly Poison",
         "spell_id": 2823,
         "visible_spell_id": null,
-        "icon": "ability_rogue_dualweild"
+        "icon": "ability_rogue_dualweild",
+        "icon_candidates": [
+          "ability_rogue_dualweild"
+        ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.14% of Attack Power) Nature damage.\n(Proc chance: 30%)",
       "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.7912% of Attack Power) Nature damage.\n(Proc chance: 30%)",
@@ -3826,8 +3982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3860,7 +4016,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Motivated Murderer",
         "spell_id": 1247993,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deadliness"
+        "icon": "ability_rogue_deadliness",
+        "icon_candidates": [
+          "ability_rogue_deadliness"
+        ]
       },
       "pve_tooltip": "Increases your Energy regeneration by 20%.",
       "pvp_tooltip": "Increases your Energy regeneration by 20%.",
@@ -3884,8 +4043,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3915,7 +4074,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Poisons",
         "spell_id": 381624,
         "visible_spell_id": null,
-        "icon": "ability_poisons"
+        "icon": "ability_poisons",
+        "icon_candidates": [
+          "ability_poisons"
+        ]
       },
       "pve_tooltip": "Increases the application chance of your weapon poisons by 5%.",
       "pvp_tooltip": "Increases the application chance of your weapon poisons by 5%.",
@@ -3939,8 +4101,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3973,7 +4135,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Path of Blood",
         "spell_id": 423054,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Increases maximum Energy by 50.",
       "pvp_tooltip": "Increases maximum Energy by 50.",
@@ -3997,8 +4162,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4032,7 +4197,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crimson Tempest",
         "spell_id": 1247227,
         "visible_spell_id": null,
-        "icon": "inv12_ability_rogue_crimsontempest"
+        "icon": "inv12_ability_rogue_crimsontempest",
+        "icon_candidates": [
+          "inv12_ability_rogue_crimsontempest"
+        ]
       },
       "pve_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (110% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
       "pvp_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (118.8% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
@@ -4111,8 +4279,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4146,7 +4314,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Canny Strikes",
         "spell_id": 1250359,
         "visible_spell_id": null,
-        "icon": "ability_rogue_combatexpertise"
+        "icon": "ability_rogue_combatexpertise",
+        "icon_candidates": [
+          "ability_rogue_combatexpertise"
+        ]
       },
       "pve_tooltip": "Increases Critical Strike chance by 2%.",
       "pvp_tooltip": "Increases Critical Strike chance by 2%.",
@@ -4170,8 +4341,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4205,7 +4376,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Internal Bleeding",
         "spell_id": 381627,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodsplatter"
+        "icon": "ability_rogue_bloodsplatter",
+        "icon_candidates": [
+          "ability_rogue_bloodsplatter"
+        ]
       },
       "pve_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
       "pvp_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
@@ -4268,8 +4442,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4303,7 +4477,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Garrote",
         "spell_id": 381632,
         "visible_spell_id": null,
-        "icon": "ability_rogue_garrote"
+        "icon": "ability_rogue_garrote",
+        "icon_candidates": [
+          "ability_rogue_garrote"
+        ]
       },
       "pve_tooltip": "Garrote deals 50% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
       "pvp_tooltip": "Garrote deals 20% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
@@ -4404,8 +4581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4437,7 +4614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thrown Precision",
         "spell_id": 381629,
         "visible_spell_id": null,
-        "icon": "ability_hunter_cobrashot"
+        "icon": "ability_hunter_cobrashot",
+        "icon_candidates": [
+          "ability_hunter_cobrashot"
+        ]
       },
       "pve_tooltip": "Fan of Knives has 5% increased critical strike chance and its critical strikes always apply your weapon poisons.",
       "pvp_tooltip": "Fan of Knives has 5% increased critical strike chance and its critical strikes always apply your weapon poisons.",
@@ -4461,8 +4641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4496,7 +4676,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Seal Fate",
         "spell_id": 14190,
         "visible_spell_id": null,
-        "icon": "ability_rogue_stayofexecution"
+        "icon": "ability_rogue_stayofexecution",
+        "icon_candidates": [
+          "ability_rogue_stayofexecution"
+        ]
       },
       "pve_tooltip": "Critical strikes with attacks that generate combo points grant an additional combo point per critical strike.",
       "pvp_tooltip": "Critical strikes with attacks that generate combo points grant an additional combo point per critical strike.",
@@ -4520,8 +4703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4555,7 +4738,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Doomblade",
         "spell_id": 381673,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_earth"
+        "icon": "ability_deathwing_bloodcorruption_earth",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_earth"
+        ]
       },
       "pve_tooltip": "Mutilate deals an additional 25% Bleed damage over 8 sec.",
       "pvp_tooltip": "Mutilate deals an additional 25% Bleed damage over 8 sec.",
@@ -4579,8 +4765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4612,7 +4798,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Razor Wire",
         "spell_id": 1249802,
         "visible_spell_id": null,
-        "icon": "ability_hunter_razorwire"
+        "icon": "ability_hunter_razorwire",
+        "icon_candidates": [
+          "ability_hunter_razorwire"
+        ]
       },
       "pve_tooltip": "Garrote lasts 6 sec longer.",
       "pvp_tooltip": "Garrote lasts 6 sec longer.",
@@ -4636,8 +4825,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4673,7 +4862,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloody Mess",
         "spell_id": 381626,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rupture"
+        "icon": "ability_rogue_rupture",
+        "icon_candidates": [
+          "ability_rogue_rupture"
+        ]
       },
       "pve_tooltip": "Garrote and Rupture damage increased by 15%.",
       "pvp_tooltip": "Garrote and Rupture damage increased by 15%.",
@@ -4697,8 +4889,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4733,7 +4925,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deathmark",
         "spell_id": 360194,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deathmark"
+        "icon": "ability_rogue_deathmark",
+        "icon_candidates": [
+          "ability_rogue_deathmark"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (320% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
       "pvp_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (345.6% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
@@ -4812,8 +5007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4849,7 +5044,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Caustic Spatter",
         "spell_id": 421975,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_02"
+        "icon": "ability_creature_poison_02",
+        "icon_candidates": [
+          "ability_creature_poison_02"
+        ]
       },
       "pve_tooltip": "Envenom or Kingsbane apply Caustic Spatter for 10 sec. Limit 1.\nCaustic Spatter causes 20% of your Nature damage dealt to splash onto other nearby enemies, reduced beyond 5 targets.",
       "pvp_tooltip": "Envenom or Kingsbane apply Caustic Spatter for 10 sec. Limit 1.\nCaustic Spatter causes 20% of your Nature damage dealt to splash onto other nearby enemies, reduced beyond 5 targets.",
@@ -4873,8 +5071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4906,7 +5104,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanguine Stratagem",
         "spell_id": 457512,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_changkiboard"
+        "icon": "archaeology_5_0_changkiboard",
+        "icon_candidates": [
+          "archaeology_5_0_changkiboard"
+        ]
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -4930,8 +5131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4963,7 +5164,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intent to Kill",
         "spell_id": 381630,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodyeye"
+        "icon": "ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Shadowstep's cooldown is reduced by 33% when used on a target afflicted by your Garrote.",
       "pvp_tooltip": "Shadowstep's cooldown is reduced by 33% when used on a target afflicted by your Garrote.",
@@ -4987,8 +5191,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5020,7 +5224,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Iron Wire",
         "spell_id": 196861,
         "visible_spell_id": null,
-        "icon": "inv_jewelcrafting_delicatecopperwire"
+        "icon": "inv_jewelcrafting_delicatecopperwire",
+        "icon_candidates": [
+          "inv_jewelcrafting_delicatecopperwire"
+        ]
       },
       "pve_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 5 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
       "pvp_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 3 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
@@ -5091,8 +5298,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5126,7 +5333,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fatal Concoction",
         "spell_id": 392384,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_06"
+        "icon": "ability_creature_poison_06",
+        "icon_candidates": [
+          "ability_creature_poison_06"
+        ]
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 40%.",
       "pvp_tooltip": "Increases the damage of your weapon poisons by 40%.",
@@ -5169,8 +5379,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5202,7 +5412,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Finish the Job",
         "spell_id": 1249809,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_demonhunter"
+        "icon": "ability_revendreth_demonhunter",
+        "icon_candidates": [
+          "ability_revendreth_demonhunter"
+        ]
       },
       "pve_tooltip": "All damage you deal is increased by 10% while Deathmark is active.",
       "pvp_tooltip": "All damage you deal is increased by 10% while Deathmark is active.",
@@ -5226,8 +5439,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5259,7 +5472,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Negotiable Contract",
         "spell_id": 1292996,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_rogue"
+        "icon": "ability_revendreth_rogue",
+        "icon_candidates": [
+          "ability_revendreth_rogue"
+        ]
       },
       "pve_tooltip": "If the target of your Deathmark dies, Deathmark jumps to a nearby enemy combatant for its remaining duration.",
       "pvp_tooltip": "If the target of your Deathmark dies, Deathmark jumps to a nearby enemy combatant for its remaining duration.",
@@ -5283,8 +5499,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5318,7 +5534,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lethal Dose",
         "spell_id": 381640,
         "visible_spell_id": null,
-        "icon": "ability_rogue_deviouspoisons"
+        "icon": "ability_rogue_deviouspoisons",
+        "icon_candidates": [
+          "ability_rogue_deviouspoisons"
+        ]
       },
       "pve_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 2% increased damage to targets for each of your lethal poison or damage over time effects on them.",
       "pvp_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 2% increased damage to targets for each of your lethal poison or damage over time effects on them.",
@@ -5361,8 +5580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5394,7 +5613,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flying Daggers",
         "spell_id": 381631,
         "visible_spell_id": null,
-        "icon": "ability_rogue_fanofknives"
+        "icon": "ability_rogue_fanofknives",
+        "icon_candidates": [
+          "ability_rogue_fanofknives"
+        ]
       },
       "pve_tooltip": "Fan of Knives has its radius increased to 12 yds, deals 20% more damage, and an additional 10% when striking 5 or more targets.",
       "pvp_tooltip": "Fan of Knives has its radius increased to 12 yds, deals 20% more damage, and an additional 10% when striking 5 or more targets.",
@@ -5418,8 +5640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5451,7 +5673,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Secondary Poisoning",
         "spell_id": 1250141,
         "visible_spell_id": null,
-        "icon": "ability_poisons"
+        "icon": "ability_poisons",
+        "icon_candidates": [
+          "ability_poisons"
+        ]
       },
       "pve_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
       "pvp_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (16.2% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
@@ -5535,8 +5760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5568,7 +5793,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Poison Bomb",
         "spell_id": 255544,
         "visible_spell_id": null,
-        "icon": "rogue_paralytic_poison"
+        "icon": "rogue_paralytic_poison",
+        "icon_candidates": [
+          "rogue_paralytic_poison"
+        ]
       },
       "pve_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(38.3328% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
       "pvp_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(41.3994% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
@@ -5652,8 +5880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5688,7 +5916,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Amplifying Poison",
         "spell_id": 381664,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_fellotus"
+        "icon": "inv_misc_herb_fellotus",
+        "icon_candidates": [
+          "inv_misc_herb_fellotus"
+        ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.14% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
       "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.7912% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
@@ -5772,8 +6003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5809,7 +6040,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Venomous Wounds",
         "spell_id": 79134,
         "visible_spell_id": null,
-        "icon": "ability_rogue_venomouswounds"
+        "icon": "ability_rogue_venomouswounds",
+        "icon_candidates": [
+          "ability_rogue_venomouswounds"
+        ]
       },
       "pve_tooltip": "You regain 3 Energy each time your Garrote or Rupture deal Bleed damage to a target affected by your weapon poisons. Energy gain is reduced for bleeds beyond the first.\nIf an enemy dies while afflicted by your Rupture, you regain energy based on its remaining duration.",
       "pvp_tooltip": "You regain 3 Energy each time your Garrote or Rupture deal Bleed damage to a target affected by your weapon poisons. Energy gain is reduced for bleeds beyond the first.\nIf an enemy dies while afflicted by your Rupture, you regain energy based on its remaining duration.",
@@ -5833,8 +6067,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5869,7 +6103,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Systemic Failure",
         "spell_id": 381652,
         "visible_spell_id": null,
-        "icon": "ability_skeer_bloodletting"
+        "icon": "ability_skeer_bloodletting",
+        "icon_candidates": [
+          "ability_skeer_bloodletting"
+        ]
       },
       "pve_tooltip": "Garrote increases the damage of Ambush and Mutilate on the target by 30%.",
       "pvp_tooltip": "Garrote increases the damage of Ambush and Mutilate on the target by 30%.",
@@ -5893,8 +6130,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5926,7 +6163,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dashing Scoundrel",
         "spell_id": 381797,
         "visible_spell_id": null,
-        "icon": "ability_rogue_venomouswounds"
+        "icon": "ability_rogue_venomouswounds",
+        "icon_candidates": [
+          "ability_rogue_venomouswounds"
+        ]
       },
       "pve_tooltip": "Envenom's effect also increases the critical strike chance of your weapon poisons by 8%. Your Energy generation is increased by 4% for each lethal poison on your weapons.",
       "pvp_tooltip": "Envenom's effect also increases the critical strike chance of your weapon poisons by 8%. Your Energy generation is increased by 4% for each lethal poison on your weapons.",
@@ -5950,8 +6190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5985,7 +6225,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kingsbane",
         "spell_id": 385627,
         "visible_spell_id": null,
-        "icon": "inv_knife_1h_artifactgarona_d_01"
+        "icon": "inv_knife_1h_artifactgarona_d_01",
+        "icon_candidates": [
+          "inv_knife_1h_artifactgarona_d_01"
+        ]
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (146.9% of Attack Power) Nature damage instantly and an additional (203% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
       "pvp_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (111.0564% of Attack Power) Nature damage instantly and an additional (219.24% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
@@ -6118,8 +6361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6152,7 +6395,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rapid Injection",
         "spell_id": 455072,
         "visible_spell_id": null,
-        "icon": "inv_ammo_arrow_04"
+        "icon": "inv_ammo_arrow_04",
+        "icon_candidates": [
+          "inv_ammo_arrow_04"
+        ]
       },
       "pve_tooltip": "Envenom's effect increases the damage of Envenom by 40%.",
       "pvp_tooltip": "Envenom's effect increases the damage of Envenom by 40%.",
@@ -6195,8 +6441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6230,7 +6476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shrouded Suffocation",
         "spell_id": 385478,
         "visible_spell_id": null,
-        "icon": "ability_rogue_garrote"
+        "icon": "ability_rogue_garrote",
+        "icon_candidates": [
+          "ability_rogue_garrote"
+        ]
       },
       "pve_tooltip": "Garrote damage increased by 30%. Garrote generates 2 additional combo points when used from Stealth.",
       "pvp_tooltip": "Garrote damage increased by 30%. Garrote generates 2 additional combo points when used from Stealth.",
@@ -6254,8 +6503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6287,7 +6536,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blindside",
         "spell_id": 328085,
         "visible_spell_id": null,
-        "icon": "ability_rogue_focusedattacks"
+        "icon": "ability_rogue_focusedattacks",
+        "icon_candidates": [
+          "ability_rogue_focusedattacks"
+        ]
       },
       "pve_tooltip": "Ambush and Mutilate have a 10% chance to make your next Ambush free and usable without Stealth. Chance increased to 20% if the target is under 35% health.",
       "pvp_tooltip": "Ambush and Mutilate have a 10% chance to make your next Ambush free and usable without Stealth. Chance increased to 20% if the target is under 35% health.",
@@ -6311,8 +6563,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6345,7 +6597,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Zoldyck Recipe",
         "spell_id": 381798,
         "visible_spell_id": null,
-        "icon": "archaeology_5_0_thunderkinginsignia"
+        "icon": "archaeology_5_0_thunderkinginsignia",
+        "icon_candidates": [
+          "archaeology_5_0_thunderkinginsignia"
+        ]
       },
       "pve_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 30% against targets below 35% health.",
       "pvp_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 30% against targets below 35% health.",
@@ -6388,8 +6643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6419,7 +6674,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Regicide's Reward",
         "spell_id": 1250325,
         "visible_spell_id": null,
-        "icon": "inv_knife_1h_artifactfangs_d_02"
+        "icon": "inv_knife_1h_artifactfangs_d_02",
+        "icon_candidates": [
+          "inv_knife_1h_artifactfangs_d_02"
+        ]
       },
       "pve_tooltip": "When Kingsbane ends, gain 2% haste for every 5 stacks of increased Kingsbane damage that you had, decreasing by 2% every 2 sec.",
       "pvp_tooltip": "When Kingsbane ends, gain 2% haste for every 5 stacks of increased Kingsbane damage that you had, decreasing by 2% every 2 sec.",
@@ -6443,8 +6701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6476,7 +6734,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inspiring Strike",
         "spell_id": 1250036,
         "visible_spell_id": null,
-        "icon": "ability_rogue_disembowel"
+        "icon": "ability_rogue_disembowel",
+        "icon_candidates": [
+          "ability_rogue_disembowel"
+        ]
       },
       "pve_tooltip": "Applying Envenom while Envenom is already active causes it to increase all damage you deal by 5% in addition to increasing your poison application chance.",
       "pvp_tooltip": "Applying Envenom while Envenom is already active causes it to increase all damage you deal by 5% in addition to increasing your poison application chance.",
@@ -6500,8 +6761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6533,7 +6794,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Poisoner's Drive",
         "spell_id": 1250318,
         "visible_spell_id": null,
-        "icon": "inv_ability_rogue_sepsis"
+        "icon": "inv_ability_rogue_sepsis",
+        "icon_candidates": [
+          "inv_ability_rogue_sepsis"
+        ]
       },
       "pve_tooltip": "Applying Envenom while Envenom is already active restores 1 combo point.",
       "pvp_tooltip": "Applying Envenom while Envenom is already active restores 1 combo point.",
@@ -6557,8 +6821,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6589,7 +6853,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Avulsion",
         "spell_id": 1250358,
         "visible_spell_id": null,
-        "icon": "inv_artifact_corruptedbloodofzakajz"
+        "icon": "inv_artifact_corruptedbloodofzakajz",
+        "icon_candidates": [
+          "inv_artifact_corruptedbloodofzakajz"
+        ]
       },
       "pve_tooltip": "Rupture damage increased by 25%.",
       "pvp_tooltip": "Rupture damage increased by 25%.",
@@ -6613,8 +6880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6647,7 +6914,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scent of Blood",
         "spell_id": 381799,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rupture"
+        "icon": "ability_rogue_rupture",
+        "icon_candidates": [
+          "ability_rogue_rupture"
+        ]
       },
       "pve_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 4%, up to a maximum of 20%.",
       "pvp_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 4%, up to a maximum of 20%.",
@@ -6690,8 +6960,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6721,7 +6991,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unstable Toxin",
         "spell_id": 1298812,
         "visible_spell_id": null,
-        "icon": "rogue_venomzest"
+        "icon": "rogue_venomzest",
+        "icon_candidates": [
+          "rogue_venomzest"
+        ]
       },
       "pve_tooltip": "Envenom's damage is increased by 18%, but its duration is reduced by 2 sec.",
       "pvp_tooltip": "Envenom's damage is increased by 18%, but its duration is reduced by 2 sec.",
@@ -6745,8 +7018,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6776,7 +7049,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dragon-Tempered Blades",
         "spell_id": 381801,
         "visible_spell_id": null,
-        "icon": "spell_fire_flameblades"
+        "icon": "spell_fire_flameblades",
+        "icon_candidates": [
+          "spell_fire_flameblades"
+        ]
       },
       "pve_tooltip": "You may apply 1 additional Lethal and Non-Lethal Poison to your weapons, but they have 30% less application chance.",
       "pvp_tooltip": "You may apply 1 additional Lethal and Non-Lethal Poison to your weapons, but they have 30% less application chance.",
@@ -6800,8 +7076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6831,7 +7107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sudden Demise",
         "spell_id": 423136,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_hemorrhagicfever"
+        "icon": "ability_deathknight_hemorrhagicfever",
+        "icon_candidates": [
+          "ability_deathknight_hemorrhagicfever"
+        ]
       },
       "pve_tooltip": "Bleed damage increased by 10%.\nTargets below 35% health instantly bleed out and take fatal damage when the remaining Bleed damage you would deal to them exceeds 150% of their remaining health.",
       "pvp_tooltip": "Bleed damage increased by 10%.\nTargets below 10% health instantly bleed out and take fatal damage when the remaining Bleed damage you would deal to them exceeds 250% of their remaining health.",
@@ -6946,8 +7225,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6975,7 +7254,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Implacable",
         "spell_id": 1265385,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_implacable"
+        "icon": "inv12_apextalent_rogue_implacable",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_implacable"
+        ]
       },
       "pve_tooltip": "Nothing will save your target from you. Envenom damage increased by 10%. Envenom restores 2 Energy per combo point spent.",
       "pvp_tooltip": "Nothing will save your target from you. Envenom damage increased by 10%. Envenom restores 2 Energy per combo point spent.",
@@ -6999,8 +7281,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7028,7 +7310,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Implacable",
         "spell_id": 1265386,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_implacable"
+        "icon": "inv12_apextalent_rogue_implacable",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_implacable"
+        ]
       },
       "pve_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
       "pvp_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
@@ -7071,8 +7356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7100,7 +7385,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Implacable",
         "spell_id": 1265387,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_rogue_implacable"
+        "icon": "inv12_apextalent_rogue_implacable",
+        "icon_candidates": [
+          "inv12_apextalent_rogue_implacable"
+        ]
       },
       "pve_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (300% of Attack Power) Physical and (207% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
       "pvp_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (178.2% of Attack Power) Physical and (122.958% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
@@ -7245,8 +7533,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7279,7 +7567,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hand of Fate",
         "spell_id": 452536,
         "visible_spell_id": null,
-        "icon": "inv_ability_fateboundrogue_handoffateheads"
+        "icon": "inv_ability_fateboundrogue_handoffateheads",
+        "icon_candidates": [
+          "inv_ability_fateboundrogue_handoffateheads"
+        ]
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
       "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (109.4083% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
@@ -7374,8 +7665,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7408,7 +7699,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deathstalker's Mark",
         "spell_id": 457052,
         "visible_spell_id": null,
-        "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
+        "icon": "inv_ability_deathstalkerrogue_deathstalkersmark",
+        "icon_candidates": [
+          "inv_ability_deathstalkerrogue_deathstalkersmark"
+        ]
       },
       "pve_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
       "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (168.48% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
@@ -7492,8 +7786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7525,7 +7819,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chosen's Revelry",
         "spell_id": 1249201,
         "visible_spell_id": null,
-        "icon": "ability_priest_heavanlyvoice"
+        "icon": "ability_priest_heavanlyvoice",
+        "icon_candidates": [
+          "ability_priest_heavanlyvoice"
+        ]
       },
       "pve_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
       "pvp_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
@@ -7549,8 +7846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7582,7 +7879,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tempted Fate",
         "spell_id": 454286,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sabreslash"
+        "icon": "ability_rogue_sabreslash",
+        "icon_candidates": [
+          "ability_rogue_sabreslash"
+        ]
       },
       "pve_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
       "pvp_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
@@ -7606,8 +7906,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7639,7 +7939,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mean Streak",
         "spell_id": 453428,
         "visible_spell_id": null,
-        "icon": "inv_sigil_thorim"
+        "icon": "inv_sigil_thorim",
+        "icon_candidates": [
+          "inv_sigil_thorim"
+        ]
       },
       "pve_tooltip": "Fatebound Coins flipped by Envenom are 33% more likely to match the same face as the last flip.",
       "pvp_tooltip": "Fatebound Coins flipped by Envenom are 33% more likely to match the same face as the last flip.",
@@ -7663,8 +7966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7696,7 +7999,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inexorable March",
         "spell_id": 454432,
         "visible_spell_id": null,
-        "icon": "ability_monk_ridethewind"
+        "icon": "ability_monk_ridethewind",
+        "icon_candidates": [
+          "ability_monk_ridethewind"
+        ]
       },
       "pve_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
       "pvp_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
@@ -7720,8 +8026,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7753,7 +8059,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Death's Arrival",
         "spell_id": 454433,
         "visible_spell_id": null,
-        "icon": "achievement_guildperk_havegroup-willtravel"
+        "icon": "achievement_guildperk_havegroup_willtravel",
+        "icon_candidates": [
+          "achievement_guildperk_havegroup_willtravel",
+          "achievement_guildperk_havegroup-willtravel"
+        ]
       },
       "pve_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
       "pvp_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 10 sec.",
@@ -7805,6 +8115,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -7829,6 +8140,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -7849,8 +8161,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7882,7 +8194,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sometimes Lucky",
         "spell_id": 1277030,
         "visible_spell_id": null,
-        "icon": "inv_misc_celestialmap"
+        "icon": "inv_misc_celestialmap",
+        "icon_candidates": [
+          "inv_misc_celestialmap"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 3%.",
       "pvp_tooltip": "Critical strike chance increased by 3%.",
@@ -7906,8 +8221,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7939,7 +8254,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Clear the Witnesses",
         "spell_id": 1248793,
         "visible_spell_id": null,
-        "icon": "ability_rogue_fanofknives"
+        "icon": "ability_rogue_fanofknives",
+        "icon_candidates": [
+          "ability_rogue_fanofknives"
+        ]
       },
       "pve_tooltip": "Fan of Knives damage increased by 60%.",
       "pvp_tooltip": "Fan of Knives damage increased by 60%.",
@@ -7963,8 +8281,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7996,7 +8314,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hunt Them Down",
         "spell_id": 457054,
         "visible_spell_id": null,
-        "icon": "ability_rogue_creepingvenom"
+        "icon": "ability_rogue_creepingvenom",
+        "icon_candidates": [
+          "ability_rogue_creepingvenom"
+        ]
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
       "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10.8% of Attack Power) Plague damage.",
@@ -8080,8 +8401,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8113,7 +8434,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Singular Focus",
         "spell_id": 457055,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
       "pvp_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
@@ -8137,8 +8461,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8170,7 +8494,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precise Killer",
         "spell_id": 1272989,
         "visible_spell_id": null,
-        "icon": "inv_tradeskillitem_sorcererswind"
+        "icon": "inv_tradeskillitem_sorcererswind",
+        "icon_candidates": [
+          "inv_tradeskillitem_sorcererswind"
+        ]
       },
       "pve_tooltip": "Critical strike damage bonus increased by 20%.",
       "pvp_tooltip": "Critical strike damage bonus increased by 20%.",
@@ -8194,8 +8521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8227,7 +8554,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deal Fate",
         "spell_id": 454419,
         "visible_spell_id": null,
-        "icon": "ability_rogue_preparation"
+        "icon": "ability_rogue_preparation",
+        "icon_candidates": [
+          "ability_rogue_preparation"
+        ]
       },
       "pve_tooltip": "Mutilate, Ambush, and Fan of Knives have a 60% chance to generate 1 additional combo point when they trigger Seal Fate.",
       "pvp_tooltip": "Mutilate, Ambush, and Fan of Knives have a 60% chance to generate 1 additional combo point when they trigger Seal Fate.",
@@ -8251,8 +8581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8284,7 +8614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fate Intertwined",
         "spell_id": 1249215,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_beam"
+        "icon": "inv_cosmicvoid_beam",
+        "icon_candidates": [
+          "inv_cosmicvoid_beam"
+        ]
       },
       "pve_tooltip": "Caustic Spatter causes an additional 5% of Nature damage dealt to be dealt to affected enemies.",
       "pvp_tooltip": "Caustic Spatter causes an additional 5% of Nature damage dealt to be dealt to affected enemies.",
@@ -8308,8 +8641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8341,7 +8674,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Edge Case",
         "spell_id": 453457,
         "visible_spell_id": null,
-        "icon": "item_icecrownnecklacea"
+        "icon": "item_icecrownnecklacea",
+        "icon_candidates": [
+          "item_icecrownnecklacea"
+        ]
       },
       "pve_tooltip": "Activating Deathmark flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
       "pvp_tooltip": "Activating Deathmark flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
@@ -8365,8 +8701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8398,7 +8734,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Controlled Chaos",
         "spell_id": 1276816,
         "visible_spell_id": null,
-        "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
+        "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple",
+        "icon_candidates": [
+          "inv_112_raidtrinkets_blobofswirlingvoid_purple"
+        ]
       },
       "pve_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
       "pvp_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
@@ -8422,8 +8761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8455,7 +8794,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unshakeable Drive",
         "spell_id": 1248774,
         "visible_spell_id": null,
-        "icon": "ability_warrior_deepcuts"
+        "icon": "ability_warrior_deepcuts",
+        "icon_candidates": [
+          "ability_warrior_deepcuts"
+        ]
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
       "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 30%.",
@@ -8474,16 +8816,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 25.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -8555,7 +8887,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8569,8 +8901,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8602,7 +8934,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Corrupt the Blood",
         "spell_id": 1248785,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bloodritual"
+        "icon": "ability_ironmaidens_bloodritual",
+        "icon_candidates": [
+          "ability_ironmaidens_bloodritual"
+        ]
       },
       "pve_tooltip": "Rupture damage increased by 20%.",
       "pvp_tooltip": "Rupture damage increased by 20%.",
@@ -8626,8 +8961,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8659,7 +8994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lingering Darkness",
         "spell_id": 457056,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "After Deathmark expires, gain 30% increased Nature damage for 30 sec.",
       "pvp_tooltip": "After Deathmark expires, gain 30% increased Nature damage for 30 sec.",
@@ -8683,8 +9021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8716,7 +9054,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Symbolic Victory",
         "spell_id": 457062,
         "visible_spell_id": null,
-        "icon": "ability_priest_surgeofdarkness"
+        "icon": "ability_priest_surgeofdarkness",
+        "icon_candidates": [
+          "ability_priest_surgeofdarkness"
+        ]
       },
       "pve_tooltip": "Kingsbane additionally increases the damage of your next two Envenoms by 18%.",
       "pvp_tooltip": "Kingsbane additionally increases the damage of your next two Envenoms by 10.08%.",
@@ -8735,16 +9076,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 15.0,
-          "new": 10.000499999999999,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -8818,7 +9149,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8832,8 +9163,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8865,7 +9196,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quietus Celeris",
         "spell_id": 1273017,
         "visible_spell_id": null,
-        "icon": "ability_argus_deathfog"
+        "icon": "ability_argus_deathfog",
+        "icon_candidates": [
+          "ability_argus_deathfog"
+        ]
       },
       "pve_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
       "pvp_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
@@ -8889,8 +9223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8922,7 +9256,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Delivered Doom",
         "spell_id": 1249194,
         "visible_spell_id": null,
-        "icon": "ability_bossgorefiend_touchofdoom"
+        "icon": "ability_bossgorefiend_touchofdoom",
+        "icon_candidates": [
+          "ability_bossgorefiend_touchofdoom"
+        ]
       },
       "pve_tooltip": "Envenom deals 5% more damage when it consumes 5 or more combo points.",
       "pvp_tooltip": "Envenom deals 5% more damage when it consumes 5 or more combo points.",
@@ -8946,8 +9283,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8979,7 +9316,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overflowing Purse",
         "spell_id": 1249190,
         "visible_spell_id": null,
-        "icon": "inv_misc_coinbag_special"
+        "icon": "inv_misc_coinbag_special",
+        "icon_candidates": [
+          "inv_misc_coinbag_special"
+        ]
       },
       "pve_tooltip": "Envenom has a 15% chance to flip 3 Fatebound Coins.",
       "pvp_tooltip": "Envenom has a 15% chance to flip 3 Fatebound Coins.",
@@ -9003,8 +9343,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9036,7 +9376,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Destiny Defined",
         "spell_id": 454435,
         "visible_spell_id": null,
-        "icon": "ability_boss_fatescribe_rune6"
+        "icon": "ability_boss_fatescribe_rune6",
+        "icon_candidates": [
+          "ability_boss_fatescribe_rune6"
+        ]
       },
       "pve_tooltip": "Weapon poisons have 5% increased application chance and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
       "pvp_tooltip": "Weapon poisons have 5% increased application chance and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
@@ -9060,8 +9403,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9093,7 +9436,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rush to the Inevitable",
         "spell_id": 1249204,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vigor"
+        "icon": "ability_rogue_vigor",
+        "icon_candidates": [
+          "ability_rogue_vigor"
+        ]
       },
       "pve_tooltip": "Gain 5 Energy every time you flip a Fatebound Coin. Gain 15 Energy for Coins that land on their edge.",
       "pvp_tooltip": "Gain 5 Energy every time you flip a Fatebound Coin. Gain 15 Energy for Coins that land on their edge.",
@@ -9117,8 +9463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9150,7 +9496,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ravenholdt Mint",
         "spell_id": 1276809,
         "visible_spell_id": null,
-        "icon": "inv_misc_coin_02"
+        "icon": "inv_misc_coin_02",
+        "icon_candidates": [
+          "inv_misc_coin_02"
+        ]
       },
       "pve_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
       "pvp_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
@@ -9174,8 +9523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9207,7 +9556,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ethereal Cloak",
         "spell_id": 457022,
         "visible_spell_id": null,
-        "icon": "spell_arcane_prismaticcloak"
+        "icon": "spell_arcane_prismaticcloak",
+        "icon_candidates": [
+          "spell_arcane_prismaticcloak"
+        ]
       },
       "pve_tooltip": "Cloak of Shadows duration increased by 2 sec.",
       "pvp_tooltip": "Cloak of Shadows duration increased by 2 sec.",
@@ -9231,8 +9583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9264,7 +9616,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bait and Switch",
         "spell_id": 457034,
         "visible_spell_id": null,
-        "icon": "ability_druid_earthandsky"
+        "icon": "ability_druid_earthandsky",
+        "icon_candidates": [
+          "ability_druid_earthandsky"
+        ]
       },
       "pve_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
       "pvp_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
@@ -9288,8 +9643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9321,7 +9676,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Momentum of Despair",
         "spell_id": 457067,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadesofdarkness"
+        "icon": "spell_shadow_shadesofdarkness",
+        "icon_candidates": [
+          "spell_shadow_shadesofdarkness"
+        ]
       },
       "pve_tooltip": "If you have critically struck with Fan of Knives, increase the critical strike chance of Fan of Knives and Crimson Tempest by 10% and critical strike damage by 20% for 8 sec.",
       "pvp_tooltip": "If you have critically struck with Fan of Knives, increase the critical strike chance of Fan of Knives and Crimson Tempest by 10% and critical strike damage by 20% for 8 sec.",
@@ -9345,8 +9703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9378,7 +9736,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Follow the Blood",
         "spell_id": 457068,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye_nightmare"
+        "icon": "sha_ability_rogue_bloodyeye_nightmare",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye_nightmare"
+        ]
       },
       "pve_tooltip": "Fan of Knives and Crimson Tempest deal 30% additional damage while 2 or more enemies are afflicted with Rupture.",
       "pvp_tooltip": "Fan of Knives and Crimson Tempest deal 30% additional damage while 2 or more enemies are afflicted with Rupture.",
@@ -9402,8 +9763,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9435,7 +9796,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadewalker",
         "spell_id": 457057,
         "visible_spell_id": null,
-        "icon": "rogue_shadow_reflection"
+        "icon": "rogue_shadow_reflection",
+        "icon_candidates": [
+          "rogue_shadow_reflection"
+        ]
       },
       "pve_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
       "pvp_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
@@ -9459,8 +9823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9492,7 +9856,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shroud of Night",
         "spell_id": 457063,
         "visible_spell_id": null,
-        "icon": "spell_holy_elunesgrace"
+        "icon": "spell_holy_elunesgrace",
+        "icon_candidates": [
+          "spell_holy_elunesgrace"
+        ]
       },
       "pve_tooltip": "Shroud of Concealment duration increased by 5 sec.",
       "pvp_tooltip": "Shroud of Concealment duration increased by 5 sec.",
@@ -9516,8 +9883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9549,7 +9916,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Casualty",
         "spell_id": 1273035,
         "visible_spell_id": null,
-        "icon": "ability_hunter_rapidkilling"
+        "icon": "ability_hunter_rapidkilling",
+        "icon_candidates": [
+          "ability_hunter_rapidkilling"
+        ]
       },
       "pve_tooltip": "Deathstalker's Mark deals 40% of its normal damage to all other enemies within 8 yds that are afflicted by Rupture.",
       "pvp_tooltip": "Deathstalker's Mark deals 40% of its normal damage to all other enemies within 8 yds that are afflicted by Rupture.",
@@ -9573,8 +9943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9607,7 +9977,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lucky Coin",
         "spell_id": 1248970,
         "visible_spell_id": null,
-        "icon": "inv_misc_markoftheworldtree"
+        "icon": "inv_misc_markoftheworldtree",
+        "icon_candidates": [
+          "inv_misc_markoftheworldtree"
+        ]
       },
       "pve_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
       "pvp_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
@@ -9631,8 +10004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9665,7 +10038,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Darkest Night",
         "spell_id": 457058,
         "visible_spell_id": null,
-        "icon": "spell_shadow_twilight"
+        "icon": "spell_shadow_twilight",
+        "icon_candidates": [
+          "spell_shadow_twilight"
+        ]
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
       "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 8.75% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
@@ -10008,7 +10384,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-22T19:28:18.713281+00:00",
+  "generated_at": "2026-09-24T11:49:38.543012+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,

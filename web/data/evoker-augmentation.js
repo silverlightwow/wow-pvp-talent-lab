@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -49,7 +49,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Landslide",
         "spell_id": 358385,
         "visible_spell_id": null,
-        "icon": "ability_earthen_pillar"
+        "icon": "ability_earthen_pillar",
+        "icon_candidates": [
+          "ability_earthen_pillar"
+        ]
       },
       "pve_tooltip": "1.4% of base mana\n10 - 40 yd range\nInstant\n1.5 min cooldown\nConjure a path of shifting stone towards the target location, rooting enemies for 15 sec. Damage may cancel the effect.",
       "pvp_tooltip": "1.4% of base mana\n10 - 40 yd range\nInstant\n1.5 min cooldown\nConjure a path of shifting stone towards the target location, rooting enemies for 15 sec. Damage may cancel the effect.",
@@ -73,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -104,7 +107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Obsidian Scales",
         "spell_id": 363916,
         "visible_spell_id": null,
-        "icon": "inv_artifact_dragonscales"
+        "icon": "inv_artifact_dragonscales",
+        "icon_candidates": [
+          "inv_artifact_dragonscales"
+        ]
       },
       "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
       "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
@@ -128,8 +134,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -159,7 +165,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Expunge",
         "spell_id": 365585,
         "visible_spell_id": null,
-        "icon": "ability_evoker_fontofmagic_green"
+        "icon": "ability_evoker_fontofmagic_green",
+        "icon_candidates": [
+          "ability_evoker_fontofmagic_green"
+        ]
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n8 sec cooldown\nExpunge toxins affecting an ally, removing all Poison effects.",
       "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n8 sec cooldown\nExpunge toxins affecting an ally, removing all Poison effects.",
@@ -183,8 +192,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -218,7 +227,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Natural Convergence",
         "spell_id": 369913,
         "visible_spell_id": null,
-        "icon": "spell_frost_frostblast"
+        "icon": "spell_frost_frostblast",
+        "icon_candidates": [
+          "spell_frost_frostblast"
+        ]
       },
       "pve_tooltip": "Disintegrate channels 20% faster and Eruption's cast time is reduced by 20%.",
       "pvp_tooltip": "Disintegrate channels 20% faster and Eruption's cast time is reduced by 20%.",
@@ -242,8 +254,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -277,7 +289,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heavy Wingbeats",
         "spell_id": 368838,
         "visible_spell_id": null,
-        "icon": "ability_racial_wingbuffet"
+        "icon": "ability_racial_wingbuffet",
+        "icon_candidates": [
+          "ability_racial_wingbuffet"
+        ]
       },
       "pve_tooltip": "Wing Buffet's cooldown is reduced by 2 min.",
       "pvp_tooltip": "Wing Buffet's cooldown is reduced by 2 min.",
@@ -301,8 +316,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -336,7 +351,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Verdant Embrace",
         "spell_id": 360995,
         "visible_spell_id": null,
-        "icon": "ability_evoker_rescue"
+        "icon": "ability_evoker_rescue",
+        "icon_candidates": [
+          "ability_evoker_rescue"
+        ]
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1719% of Spell Power), or heal yourself for the same amount.",
       "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1375.2% of Spell Power), or heal yourself for the same amount.",
@@ -412,8 +430,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -443,7 +461,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Forger of Mountains",
         "spell_id": 375528,
         "visible_spell_id": null,
-        "icon": "ability_earthen_pillar"
+        "icon": "ability_earthen_pillar",
+        "icon_candidates": [
+          "ability_earthen_pillar"
+        ]
       },
       "pve_tooltip": "Landslide's cooldown is reduced by 30 sec, and it can withstand 200% more damage before breaking.",
       "pvp_tooltip": "Landslide's cooldown is reduced by 30 sec, and it can withstand 200% more damage before breaking.",
@@ -467,8 +488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -503,7 +524,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Innate Magic",
         "spell_id": 375520,
         "visible_spell_id": null,
-        "icon": "ability_evoker_innatemagic4"
+        "icon": "ability_evoker_innatemagic4",
+        "icon_candidates": [
+          "ability_evoker_innatemagic4"
+        ]
       },
       "pve_tooltip": "Essence regenerates 10% faster.",
       "pvp_tooltip": "Essence regenerates 10% faster.",
@@ -546,8 +570,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -577,7 +601,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Obsidian Bulwark",
         "spell_id": 375406,
         "visible_spell_id": null,
-        "icon": "inv_shield_1h_revenantfire_d_01"
+        "icon": "inv_shield_1h_revenantfire_d_01",
+        "icon_candidates": [
+          "inv_shield_1h_revenantfire_d_01"
+        ]
       },
       "pve_tooltip": "Obsidian Scales has an additional charge.",
       "pvp_tooltip": "Obsidian Scales has an additional charge.",
@@ -601,8 +628,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -637,7 +664,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Enkindled",
         "spell_id": 375554,
         "visible_spell_id": null,
-        "icon": "ability_evoker_livingflame"
+        "icon": "ability_evoker_livingflame",
+        "icon_candidates": [
+          "ability_evoker_livingflame"
+        ]
       },
       "pve_tooltip": "Living Flame deals 6% more damage and healing.",
       "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
@@ -680,8 +710,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -711,7 +741,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scarlet Adaptation",
         "spell_id": 372469,
         "visible_spell_id": null,
-        "icon": "inv_bijou_red"
+        "icon": "inv_bijou_red",
+        "icon_candidates": [
+          "inv_bijou_red"
+        ]
       },
       "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
       "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
@@ -735,8 +768,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -770,7 +803,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inner Radiance",
         "spell_id": 386405,
         "visible_spell_id": null,
-        "icon": "spell_holy_spellwarding"
+        "icon": "spell_holy_spellwarding",
+        "icon_candidates": [
+          "spell_holy_spellwarding"
+        ]
       },
       "pve_tooltip": "Your Living Flame and Emerald Blossom are 30% more effective on yourself.",
       "pvp_tooltip": "Your Living Flame and Emerald Blossom are 30% more effective on yourself.",
@@ -794,8 +830,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -827,7 +863,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Recall",
         "spell_id": 371806,
         "visible_spell_id": null,
-        "icon": "ability_evoker_recall"
+        "icon": "ability_evoker_recall",
+        "icon_candidates": [
+          "ability_evoker_recall"
+        ]
       },
       "pve_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
       "pvp_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
@@ -851,8 +890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -883,7 +922,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Clobbering Sweep",
         "spell_id": 375443,
         "visible_spell_id": null,
-        "icon": "ability_racial_tailswipe"
+        "icon": "ability_racial_tailswipe",
+        "icon_candidates": [
+          "ability_racial_tailswipe"
+        ]
       },
       "pve_tooltip": "Tail Swipe's cooldown is reduced by 2 min.",
       "pvp_tooltip": "Tail Swipe's cooldown is reduced by 2 min.",
@@ -907,8 +949,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -940,7 +982,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tailwind",
         "spell_id": 375556,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_wind"
+        "icon": "ability_skyreach_wind",
+        "icon_candidates": [
+          "ability_skyreach_wind"
+        ]
       },
       "pve_tooltip": "Hover increases your movement speed by 70% for the first 4 sec.",
       "pvp_tooltip": "Hover increases your movement speed by 70% for the first 4 sec.",
@@ -964,8 +1009,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -999,7 +1044,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cauterizing Flame",
         "spell_id": 374251,
         "visible_spell_id": null,
-        "icon": "ability_evoker_fontofmagic_red"
+        "icon": "ability_evoker_fontofmagic_red",
+        "icon_candidates": [
+          "ability_evoker_fontofmagic_red"
+        ]
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n1 min cooldown\nCauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for (350% of Spell Power) upon removing any effect.",
       "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n1 min cooldown\nCauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for (350% of Spell Power) upon removing any effect.",
@@ -1023,8 +1071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1054,7 +1102,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancient Flame",
         "spell_id": 369990,
         "visible_spell_id": null,
-        "icon": "inv_elemental_mote_fire01"
+        "icon": "inv_elemental_mote_fire01",
+        "icon_candidates": [
+          "inv_elemental_mote_fire01"
+        ]
       },
       "pve_tooltip": "Casting Emerald Blossom or Verdant Embrace reduces the cast time of your next Living Flame by 40%.\n(500ms cooldown)",
       "pvp_tooltip": "Casting Emerald Blossom or Verdant Embrace reduces the cast time of your next Living Flame by 40%.\n(500ms cooldown)",
@@ -1078,8 +1129,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1111,7 +1162,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Instinctive Arcana",
         "spell_id": 376164,
         "visible_spell_id": null,
-        "icon": "spell_arcane_studentofmagic"
+        "icon": "spell_arcane_studentofmagic",
+        "icon_candidates": [
+          "spell_arcane_studentofmagic"
+        ]
       },
       "pve_tooltip": "Your Magic damage done is increased by 4%.",
       "pvp_tooltip": "Your Magic damage done is increased by 4%.",
@@ -1154,8 +1208,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1187,7 +1241,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tip the Scales",
         "spell_id": 370553,
         "visible_spell_id": null,
-        "icon": "ability_evoker_tipthescales"
+        "icon": "ability_evoker_tipthescales",
+        "icon_candidates": [
+          "ability_evoker_tipthescales"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCompress time to make your next empowered spell cast instantly at its maximum empower level.",
       "pvp_tooltip": "Instant\n2 min cooldown\nCompress time to make your next empowered spell cast instantly at its maximum empower level.",
@@ -1211,8 +1268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1244,7 +1301,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Attuned to the Dream",
         "spell_id": 376930,
         "visible_spell_id": null,
-        "icon": "ability_rogue_imrovedrecuperate"
+        "icon": "ability_rogue_imrovedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_imrovedrecuperate"
+        ]
       },
       "pve_tooltip": "Your healing done and healing received are increased by 4%.",
       "pvp_tooltip": "Your healing done and healing received are increased by 4%.",
@@ -1287,8 +1347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1318,7 +1378,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sleep Walk",
         "spell_id": 360806,
         "visible_spell_id": null,
-        "icon": "ability_xavius_dreamsimulacrum"
+        "icon": "ability_xavius_dreamsimulacrum",
+        "icon_candidates": [
+          "ability_xavius_dreamsimulacrum"
+        ]
       },
       "pve_tooltip": "1% of base mana\n25 yd range\n1.7 sec cast\nDisorient an enemy for 20 sec, causing them to sleep walk towards you. Damage has a chance to awaken them.",
       "pvp_tooltip": "1% of base mana\n25 yd range\n1.7 sec cast\nDisorient an enemy for 20 sec, causing them to sleep walk towards you. Damage has a chance to awaken them.",
@@ -1342,8 +1405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1376,7 +1439,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Protracted Talons",
         "spell_id": 369909,
         "visible_spell_id": null,
-        "icon": "ability_evoker_azurestrike"
+        "icon": "ability_evoker_azurestrike",
+        "icon_candidates": [
+          "ability_evoker_azurestrike"
+        ]
       },
       "pve_tooltip": "Azure Strike damages 1 additional enemy.",
       "pvp_tooltip": "Azure Strike damages 1 additional enemy.",
@@ -1400,8 +1466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1435,7 +1501,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inherent Resistance",
         "spell_id": 375544,
         "visible_spell_id": null,
-        "icon": "inv_misc_rubysanctum1"
+        "icon": "inv_misc_rubysanctum1",
+        "icon_candidates": [
+          "inv_misc_rubysanctum1"
+        ]
       },
       "pve_tooltip": "Magic damage taken reduced by 4%.",
       "pvp_tooltip": "Magic damage taken reduced by 4%.",
@@ -1478,8 +1547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1511,7 +1580,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Draconic Legacy",
         "spell_id": 376166,
         "visible_spell_id": null,
-        "icon": "inv_helm_mail_dracthyrquest_b_02"
+        "icon": "inv_helm_mail_dracthyrquest_b_02",
+        "icon_candidates": [
+          "inv_helm_mail_dracthyrquest_b_02"
+        ]
       },
       "pve_tooltip": "Your Stamina is increased by 6%.",
       "pvp_tooltip": "Your Stamina is increased by 6%.",
@@ -1535,8 +1607,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1570,7 +1642,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Extended Flight",
         "spell_id": 375517,
         "visible_spell_id": null,
-        "icon": "ability_evoker_hover"
+        "icon": "ability_evoker_hover",
+        "icon_candidates": [
+          "ability_evoker_hover"
+        ]
       },
       "pve_tooltip": "Hover lasts 4 sec longer.",
       "pvp_tooltip": "Hover lasts 4 sec longer.",
@@ -1613,8 +1688,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1646,7 +1721,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bountiful Bloom",
         "spell_id": 370886,
         "visible_spell_id": null,
-        "icon": "ability_evoker_emeraldblossom"
+        "icon": "ability_evoker_emeraldblossom",
+        "icon_candidates": [
+          "ability_evoker_emeraldblossom"
+        ]
       },
       "pve_tooltip": "Emerald Blossom heals 2 additional allies.",
       "pvp_tooltip": "Emerald Blossom heals 2 additional allies.",
@@ -1670,8 +1748,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1701,7 +1779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Regenerative Magic",
         "spell_id": 387787,
         "visible_spell_id": null,
-        "icon": "spell_frost_manarecharge"
+        "icon": "spell_frost_manarecharge",
+        "icon_candidates": [
+          "spell_frost_manarecharge"
+        ]
       },
       "pve_tooltip": "Your Leech is increased by 2%.",
       "pvp_tooltip": "Your Leech is increased by 2%.",
@@ -1725,8 +1806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1761,7 +1842,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blast Furnace",
         "spell_id": 375510,
         "visible_spell_id": null,
-        "icon": "ability_evoker_firebreath"
+        "icon": "ability_evoker_firebreath",
+        "icon_candidates": [
+          "ability_evoker_firebreath"
+        ]
       },
       "pve_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
       "pvp_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
@@ -1785,8 +1869,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1818,7 +1902,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Exuberance",
         "spell_id": 375542,
         "visible_spell_id": null,
-        "icon": "ability_evoker_hover2"
+        "icon": "ability_evoker_hover2",
+        "icon_candidates": [
+          "ability_evoker_hover2"
+        ]
       },
       "pve_tooltip": "While above 75% health, your movement speed is increased by 10%.",
       "pvp_tooltip": "While above 75% health, your movement speed is increased by 10%.",
@@ -1842,8 +1929,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1877,7 +1964,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Renewing Blaze",
         "spell_id": 374348,
         "visible_spell_id": null,
-        "icon": "ability_evoker_masterylifebinder_red"
+        "icon": "ability_evoker_masterylifebinder_red",
+        "icon_candidates": [
+          "ability_evoker_masterylifebinder_red"
+        ]
       },
       "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
       "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
@@ -1901,8 +1991,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1934,7 +2024,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Walloping Blow",
         "spell_id": 387341,
         "visible_spell_id": null,
-        "icon": "inv_misc_monsterscales_06"
+        "icon": "inv_misc_monsterscales_06",
+        "icon_candidates": [
+          "inv_misc_monsterscales_06"
+        ]
       },
       "pve_tooltip": "Wing Buffet and Tail Swipe knock enemies further and daze them, reducing movement speed by 70% for 4 sec.",
       "pvp_tooltip": "Wing Buffet and Tail Swipe knock enemies further and daze them, reducing movement speed by 70% for 4 sec.",
@@ -1958,8 +2051,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -1994,7 +2087,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Panacea",
         "spell_id": 387761,
         "visible_spell_id": null,
-        "icon": "ability_druid_protectionofthegrove"
+        "icon": "ability_druid_protectionofthegrove",
+        "icon_candidates": [
+          "ability_druid_protectionofthegrove"
+        ]
       },
       "pve_tooltip": "Emerald Blossom and Verdant Embrace instantly heal you for (250% of Spell Power) when cast.",
       "pvp_tooltip": "Emerald Blossom and Verdant Embrace instantly heal you for (250% of Spell Power) when cast.",
@@ -2018,8 +2114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2052,7 +2148,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stretch Time",
         "spell_id": 410352,
         "visible_spell_id": null,
-        "icon": "ability_evoker_timedilation"
+        "icon": "ability_evoker_timedilation",
+        "icon_candidates": [
+          "ability_evoker_timedilation"
+        ]
       },
       "pve_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
       "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
@@ -2076,8 +2175,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2109,7 +2208,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unravel",
         "spell_id": 1264378,
         "visible_spell_id": null,
-        "icon": "ability_evoker_unravel"
+        "icon": "ability_evoker_unravel",
+        "icon_candidates": [
+          "ability_evoker_unravel"
+        ]
       },
       "pve_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1200% of Spell Power) additional Spellfrost damage to them.",
       "pvp_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1092% of Spell Power) additional Spellfrost damage to them.",
@@ -2195,8 +2297,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2232,7 +2334,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Oppressing Roar",
         "spell_id": 372048,
         "visible_spell_id": null,
-        "icon": "ability_evoker_oppressingroar"
+        "icon": "ability_evoker_oppressingroar",
+        "icon_candidates": [
+          "ability_evoker_oppressingroar"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
       "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
@@ -2718,8 +2823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2751,7 +2856,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Foci of Life",
         "spell_id": 375574,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "Renewing Blaze restores you more quickly, causing damage you take to be healed back over 4 sec.",
       "pvp_tooltip": "Renewing Blaze restores you more quickly, causing damage you take to be healed back over 4 sec.",
@@ -2775,8 +2883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2811,7 +2919,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rescue",
         "spell_id": 370665,
         "visible_spell_id": null,
-        "icon": "ability_evoker_flywithme"
+        "icon": "ability_evoker_flywithme",
+        "icon_candidates": [
+          "ability_evoker_flywithme"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nSwoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.",
       "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nSwoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.",
@@ -2835,8 +2946,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2868,7 +2979,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lush Growth",
         "spell_id": 375561,
         "visible_spell_id": null,
-        "icon": "inv_staff_2h_bloodelf_c_01"
+        "icon": "inv_staff_2h_bloodelf_c_01",
+        "icon_candidates": [
+          "inv_staff_2h_bloodelf_c_01"
+        ]
       },
       "pve_tooltip": "Green spells restore 10% more health.",
       "pvp_tooltip": "Green spells restore 10% more health.",
@@ -2911,8 +3025,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -2944,7 +3058,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Source of Magic",
         "spell_id": 369459,
         "visible_spell_id": null,
-        "icon": "ability_evoker_blue_01"
+        "icon": "ability_evoker_blue_01",
+        "icon_candidates": [
+          "ability_evoker_blue_01"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\nRedirect your excess magic to a friendly healer for 1 hour. When you cast an empowered spell, you restore 0.25% of their maximum mana per empower level. Limit 1.",
       "pvp_tooltip": "25 yd range\nInstant\nRedirect your excess magic to a friendly healer for 1 hour. When you cast an empowered spell, you restore 0.25% of their maximum mana per empower level. Limit 1.",
@@ -2968,8 +3085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3001,7 +3118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strike from Above",
         "spell_id": 1267206,
         "visible_spell_id": null,
-        "icon": "ability_racial_glide"
+        "icon": "ability_racial_glide",
+        "icon_candidates": [
+          "ability_racial_glide"
+        ]
       },
       "pve_tooltip": "Glide speed and height increased by 10%.",
       "pvp_tooltip": "Glide speed and height increased by 10%.",
@@ -3025,8 +3145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3060,7 +3180,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Leaping Flames",
         "spell_id": 369939,
         "visible_spell_id": null,
-        "icon": "ability_evoker_pupilofalexstraza"
+        "icon": "ability_evoker_pupilofalexstraza",
+        "icon_candidates": [
+          "ability_evoker_pupilofalexstraza"
+        ]
       },
       "pve_tooltip": "Fire Breath causes your next Living Flame to strike 1 additional target per empower level.",
       "pvp_tooltip": "Fire Breath causes your next Living Flame to strike 1 additional target per empower level.",
@@ -3084,8 +3207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3115,7 +3238,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overawe",
         "spell_id": 374346,
         "visible_spell_id": null,
-        "icon": "ability_evoker_oppressingroar2"
+        "icon": "ability_evoker_oppressingroar2",
+        "icon_candidates": [
+          "ability_evoker_oppressingroar2"
+        ]
       },
       "pve_tooltip": "Oppressing Roar removes 1 Enrage effect from each enemy, and its cooldown is reduced by 30 sec.",
       "pvp_tooltip": "Oppressing Roar removes 1 Enrage effect from each enemy, and its cooldown is reduced by 30 sec.",
@@ -3139,8 +3265,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3174,7 +3300,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aerial Mastery",
         "spell_id": 365933,
         "visible_spell_id": null,
-        "icon": "ability_evoker_aerialmastery"
+        "icon": "ability_evoker_aerialmastery",
+        "icon_candidates": [
+          "ability_evoker_aerialmastery"
+        ]
       },
       "pve_tooltip": "Hover gains 1 additional charge.",
       "pvp_tooltip": "Hover gains 1 additional charge.",
@@ -3198,8 +3327,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3231,7 +3360,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twin Guardian",
         "spell_id": 370888,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatileair"
+        "icon": "inv_misc_volatileair",
+        "icon_candidates": [
+          "inv_misc_volatileair"
+        ]
       },
       "pve_tooltip": "Rescue increases movement speed by 100% and allows spells to be cast while moving for 3 sec.",
       "pvp_tooltip": "Rescue increases movement speed by 100% and allows spells to be cast while moving for 3 sec.",
@@ -3255,8 +3387,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3288,7 +3420,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Potent Mana",
         "spell_id": 418101,
         "visible_spell_id": null,
-        "icon": "spell_magic_managain"
+        "icon": "spell_magic_managain",
+        "icon_candidates": [
+          "spell_magic_managain"
+        ]
       },
       "pve_tooltip": "Source of Magic increases the target's healing and damage done by 3%.",
       "pvp_tooltip": "Source of Magic increases the target's healing and damage done by 3%.",
@@ -3312,8 +3447,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3344,7 +3479,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Terror of the Skies",
         "spell_id": 371032,
         "visible_spell_id": null,
-        "icon": "ability_evoker_terroroftheskies"
+        "icon": "ability_evoker_terroroftheskies",
+        "icon_candidates": [
+          "ability_evoker_terroroftheskies"
+        ]
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
       "pvp_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
@@ -3368,8 +3506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3399,7 +3537,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Spiral",
         "spell_id": 374968,
         "visible_spell_id": null,
-        "icon": "ability_evoker_timespiral"
+        "icon": "ability_evoker_timespiral",
+        "icon_candidates": [
+          "ability_evoker_timespiral"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nBend time, allowing you and your allies within 40 yds to cast their major movement ability once in the next 10 sec, even if it is on cooldown.",
       "pvp_tooltip": "Instant\n2 min cooldown\nBend time, allowing you and your allies within 40 yds to cast their major movement ability once in the next 10 sec, even if it is on cooldown.",
@@ -3423,8 +3564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3454,7 +3595,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spatial Paradox",
         "spell_id": 406732,
         "visible_spell_id": null,
-        "icon": "ability_evoker_stretchtime"
+        "icon": "ability_evoker_stretchtime",
+        "icon_candidates": [
+          "ability_evoker_stretchtime"
+        ]
       },
       "pve_tooltip": "60 yd range\nInstant\n3 min cooldown\nEvoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by 100% for 10 sec.\nAffects the nearest healer within 60 yds, if you do not have a healer targeted.",
       "pvp_tooltip": "60 yd range\nInstant\n3 min cooldown\nEvoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by 100% for 10 sec.\nAffects the nearest healer within 60 yds, if you do not have a healer targeted.",
@@ -3478,8 +3622,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3511,7 +3655,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Zephyr",
         "spell_id": 374227,
         "visible_spell_id": null,
-        "icon": "ability_evoker_hoverblack"
+        "icon": "ability_evoker_hoverblack",
+        "icon_candidates": [
+          "ability_evoker_hoverblack"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
@@ -3535,8 +3682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3567,10 +3714,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ebon Might",
         "spell_id": 395152,
         "visible_spell_id": null,
-        "icon": "spell_sarkareth"
+        "icon": "spell_sarkareth",
+        "icon_candidates": [
+          "spell_sarkareth"
+        ]
       },
       "pve_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (8 + 0)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [Breath of Eons / Deep Breath], and your empower spells extend the duration of these effects.",
-      "pvp_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 + 0)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [Breath of Eons / Deep Breath], and your empower spells extend the duration of these effects.",
+      "pvp_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (12 + 0)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [Breath of Eons / Deep Breath], and your empower spells extend the duration of these effects.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3578,7 +3728,7 @@ window.WOW_PVP_DATA = {
           "start": 98,
           "end": 99,
           "old_token": "8",
-          "new_token": "10",
+          "new_token": "12",
           "kind": "ordinary_value",
           "effect_indexes": [
             1
@@ -3593,7 +3743,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "ordinary_value",
           "old": "8",
-          "new": "10"
+          "new": "12"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3606,44 +3756,40 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Dummy",
           "base_value": 8.0,
-          "spell_pvp_multiplier": 1.25,
+          "spell_pvp_multiplier": 1.5,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.25,
-          "final_pvp_value": 10.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": 12.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc_generated",
+            "simc"
           ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DIRECT",
-          "dependency_kind": null,
-          "talent_spell_id": 395152,
-          "source_spell_id": 395152,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Modify Critical Strike Chance % (1)",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.25,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.25,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [],
-          "dependency_relations": [],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
+          "source_notes": [
+            {
+              "spell_id": 395152,
+              "talent_name": "Ebon Might",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.25,
+              "effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1035393,
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 1.5,
+              "current_effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
           ],
-          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -3691,8 +3837,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3725,18 +3871,21 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eruption",
         "spell_id": 395160,
         "visible_spell_id": null,
-        "icon": "ability_evoker_eruption"
+        "icon": "ability_evoker_eruption",
+        "icon_candidates": [
+          "ability_evoker_eruption"
+        ]
       },
-      "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (280% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
-      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (523.25% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
+      "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (322% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
+      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (601.7375% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 94,
           "end": 97,
-          "old_token": "280",
-          "new_token": "523.25",
+          "old_token": "322",
+          "new_token": "601.7375",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -3750,8 +3899,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": "280",
-          "new": "523.25"
+          "old": "322",
+          "new": "601.7375"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3762,7 +3911,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 395160,
           "source_spell_id": 395160,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature) (SP mod: 2.8)",
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 3.22)",
           "base_value": null,
           "spell_pvp_multiplier": 1.4375,
           "amount_kind": "direct",
@@ -3806,8 +3955,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3840,7 +3989,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Essence Burst",
         "spell_id": 396187,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburst"
+        "icon": "ability_evoker_essenceburst",
+        "icon_candidates": [
+          "ability_evoker_essenceburst"
+        ]
       },
       "pve_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [Dream of Spring: or Emerald Blossom]cost no Essence. [Essence Attunement: Stacks 1 times]",
       "pvp_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [Dream of Spring: or Emerald Blossom]cost no Essence. [Essence Attunement: Stacks 1 times]",
@@ -3864,8 +4016,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3897,7 +4049,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quell",
         "spell_id": 351338,
         "visible_spell_id": null,
-        "icon": "ability_evoker_quell"
+        "icon": "ability_evoker_quell",
+        "icon_candidates": [
+          "ability_evoker_quell"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n20 sec cooldown\nInterrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for 6 sec.",
       "pvp_tooltip": "25 yd range\nInstant\n20 sec cooldown\nInterrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for 6 sec.",
@@ -3921,8 +4076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -3955,7 +4110,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ricocheting Pyroclast",
         "spell_id": 406659,
         "visible_spell_id": null,
-        "icon": "ability_rhyolith_volcano"
+        "icon": "ability_rhyolith_volcano",
+        "icon_candidates": [
+          "ability_rhyolith_volcano"
+        ]
       },
       "pve_tooltip": "Eruption deals 30% more damage per enemy struck, up to 150%.",
       "pvp_tooltip": "Eruption deals 30% more damage per enemy struck, up to 150%.",
@@ -3979,8 +4137,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4013,7 +4171,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Essence Attunement",
         "spell_id": 375722,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburststacks"
+        "icon": "ability_evoker_essenceburststacks",
+        "icon_candidates": [
+          "ability_evoker_essenceburststacks"
+        ]
       },
       "pve_tooltip": "Essence Burst stacks 2 times.",
       "pvp_tooltip": "Essence Burst stacks 2 times.",
@@ -4037,8 +4198,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4070,7 +4231,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pupil of Alexstrasza",
         "spell_id": 407814,
         "visible_spell_id": null,
-        "icon": "ability_evoker_pupilofalexstraza"
+        "icon": "ability_evoker_pupilofalexstraza",
+        "icon_candidates": [
+          "ability_evoker_pupilofalexstraza"
+        ]
       },
       "pve_tooltip": "When cast at an enemy, Living Flame strikes 1 additional enemy for 100% damage.",
       "pvp_tooltip": "When cast at an enemy, Living Flame strikes 1 additional enemy for 100% damage.",
@@ -4094,8 +4258,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4127,7 +4291,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Echoing Strike",
         "spell_id": 410784,
         "visible_spell_id": null,
-        "icon": "ability_evoker_echoingstrike"
+        "icon": "ability_evoker_echoingstrike",
+        "icon_candidates": [
+          "ability_evoker_echoingstrike"
+        ]
       },
       "pve_tooltip": "Azure Strike deals 15% increased damage and has a 10% chance per target hit to echo, casting again.",
       "pvp_tooltip": "Azure Strike deals 15% increased damage and has a 10% chance per target hit to echo, casting again.",
@@ -4151,8 +4318,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4187,18 +4354,21 @@ window.WOW_PVP_DATA = {
         "talent_name": "Upheaval",
         "spell_id": 396286,
         "visible_spell_id": null,
-        "icon": "ability_evoker_upheaval"
+        "icon": "ability_evoker_upheaval",
+        "icon_candidates": [
+          "ability_evoker_upheaval"
+        ]
       },
-      "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (430% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
-      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (559% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
+      "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (602% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
+      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (782.6% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 141,
           "end": 144,
-          "old_token": "430",
-          "new_token": "559",
+          "old_token": "602",
+          "new_token": "782.6",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -4212,8 +4382,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": "430",
-          "new": "559"
+          "old": "602",
+          "new": "782.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4224,7 +4394,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 396286,
           "source_spell_id": 396288,
           "effect_index": 2,
-          "effect_text": "School Damage (Fire, Nature) (SP mod: 4.3)",
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 6.02)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4271,8 +4441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4306,7 +4476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Breath of Eons",
         "spell_id": 403631,
         "visible_spell_id": null,
-        "icon": "ability_evoker_breathofeons"
+        "icon": "ability_evoker_breathofeons",
+        "icon_candidates": [
+          "ability_evoker_breathofeons"
+        ]
       },
       "pve_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a Temporal Wound on enemies in your path for 10 sec [Sands of Time: and granting Ebon Might for 5 sec / .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
       "pvp_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a Temporal Wound on enemies in your path for 10 sec [Sands of Time: and granting Ebon Might for 5 sec / .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n22.5% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
@@ -4414,8 +4587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4450,7 +4623,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Defy Fate",
         "spell_id": 404195,
         "visible_spell_id": null,
-        "icon": "ability_evoker_defyfate"
+        "icon": "ability_evoker_defyfate",
+        "icon_candidates": [
+          "ability_evoker_defyfate"
+        ]
       },
       "pve_tooltip": "Fatal attacks are diverted into a nearby timeline, preventing the damage, and your death, in this one.\nThe release of temporal energy restores [(750% of Spell Power) * 3] health to you, and (750% of Spell Power) to 4 nearby allies, over 9 sec. Healing starts high and declines over the duration.\nMay only occur once every 6 min.",
       "pvp_tooltip": "Fatal attacks are diverted into a nearby timeline, preventing the damage, and your death, in this one.\nThe release of temporal energy restores [(750% of Spell Power) * 3] health to you, and (750% of Spell Power) to 4 nearby allies, over 9 sec. Healing starts high and declines over the duration.\nMay only occur once every 6 min.",
@@ -4474,8 +4650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4508,7 +4684,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ignition Rush",
         "spell_id": 408775,
         "visible_spell_id": null,
-        "icon": "spell_fire_immolation"
+        "icon": "spell_fire_immolation",
+        "icon_candidates": [
+          "spell_fire_immolation"
+        ]
       },
       "pve_tooltip": "Essence Burst reduces the cast time of Eruption by 40% and increases its damage by 20%.",
       "pvp_tooltip": "Essence Burst reduces the cast time of Eruption by 40% and increases its damage by 20%.",
@@ -4532,8 +4711,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4565,7 +4744,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Power Nexus",
         "spell_id": 369908,
         "visible_spell_id": null,
-        "icon": "ability_evoker_powernexus"
+        "icon": "ability_evoker_powernexus",
+        "icon_candidates": [
+          "ability_evoker_powernexus"
+        ]
       },
       "pve_tooltip": "Increases your maximum Essence to 6.",
       "pvp_tooltip": "Increases your maximum Essence to 6.",
@@ -4589,8 +4771,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4623,7 +4805,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Volcanism",
         "spell_id": 406904,
         "visible_spell_id": null,
-        "icon": "spell_fire_volcano"
+        "icon": "spell_fire_volcano",
+        "icon_candidates": [
+          "spell_fire_volcano"
+        ]
       },
       "pve_tooltip": "Eruption's Essence cost is reduced by 1.",
       "pvp_tooltip": "Eruption's Essence cost is reduced by 1.",
@@ -4647,8 +4832,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4680,7 +4865,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Perilous Fate",
         "spell_id": 410253,
         "visible_spell_id": null,
-        "icon": "spell_shadow_lastingafflictions"
+        "icon": "spell_shadow_lastingafflictions",
+        "icon_candidates": [
+          "spell_shadow_lastingafflictions"
+        ]
       },
       "pve_tooltip": "Breath of Eons reduces enemies' movement speed by 70%, and reduces their attack speed by 50%, for 10 sec.",
       "pvp_tooltip": "Breath of Eons reduces enemies' movement speed by 50%, and reduces their attack speed by 50%, for 10 sec.",
@@ -4756,8 +4944,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4789,7 +4977,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chrono Ward",
         "spell_id": 409676,
         "visible_spell_id": null,
-        "icon": "ability_evoker_bronze_01"
+        "icon": "ability_evoker_bronze_01",
+        "icon_candidates": [
+          "ability_evoker_bronze_01"
+        ]
       },
       "pve_tooltip": "When allies deal damage with Temporal Wounds, they gain a shield for 100% of the damage dealt. Absorption cannot exceed 30% of your maximum health.",
       "pvp_tooltip": "When allies deal damage with Temporal Wounds, they gain a shield for 100% of the damage dealt. Absorption cannot exceed 30% of your maximum health.",
@@ -4813,8 +5004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4848,7 +5039,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bestow Weyrnstone",
         "spell_id": 408233,
         "visible_spell_id": null,
-        "icon": "ability_evoker_bestowweyrnstone"
+        "icon": "ability_evoker_bestowweyrnstone",
+        "icon_candidates": [
+          "ability_evoker_bestowweyrnstone"
+        ]
       },
       "pve_tooltip": "25 yd range\n3 sec cast\n1 min cooldown\nConjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within 100 yds.",
       "pvp_tooltip": "25 yd range\n3 sec cast\n1 min cooldown\nConjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within 100 yds.",
@@ -4872,8 +5066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4905,7 +5099,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Timelessness",
         "spell_id": 412710,
         "visible_spell_id": null,
-        "icon": "ability_evoker_timelessness"
+        "icon": "ability_evoker_timelessness",
+        "icon_candidates": [
+          "ability_evoker_timelessness"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\nEnchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by 30% for 1 hour. Less effective on tank-specialized allies.\nMay only be placed on one target at a time.",
       "pvp_tooltip": "25 yd range\nInstant\nEnchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by 30% for 1 hour. Less effective on tank-specialized allies.\nMay only be placed on one target at a time.",
@@ -4929,8 +5126,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -4962,7 +5159,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Defy Fate",
         "spell_id": 1268881,
         "visible_spell_id": null,
-        "icon": "ability_evoker_masterytimewalker"
+        "icon": "ability_evoker_masterytimewalker",
+        "icon_candidates": [
+          "ability_evoker_masterytimewalker"
+        ]
       },
       "pve_tooltip": "Defy Fate healing increased by 100% and its cooldown is reduced by 1 min.",
       "pvp_tooltip": "Defy Fate healing increased by 100% and its cooldown is reduced by 1 min.",
@@ -4986,8 +5186,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5023,10 +5223,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blistering Scales",
         "spell_id": 360827,
         "visible_spell_id": null,
-        "icon": "ability_evoker_blisteringscales"
+        "icon": "ability_evoker_blisteringscales",
+        "icon_candidates": [
+          "ability_evoker_blisteringscales"
+        ]
       },
-      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.3 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
-      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.3 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
+      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.6 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
+      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.6 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5047,8 +5250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5084,7 +5287,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Draconic Attunements",
         "spell_id": 403208,
         "visible_spell_id": null,
-        "icon": "ability_evoker_draconicattunements"
+        "icon": "ability_evoker_draconicattunements",
+        "icon_candidates": [
+          "ability_evoker_draconicattunements"
+        ]
       },
       "pve_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement:You and your 4 nearest allies have 10% increased movement speed.",
       "pvp_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement:You and your 4 nearest allies have 10% increased movement speed.",
@@ -5108,8 +5314,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5145,7 +5351,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prescience",
         "spell_id": 409311,
         "visible_spell_id": null,
-        "icon": "ability_evoker_prescience"
+        "icon": "ability_evoker_prescience",
+        "icon_candidates": [
+          "ability_evoker_prescience"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by 3% [Fate Mirror: and occasionally copying their damage and healing spells at 15% power]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
       "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by 3% [Fate Mirror: and occasionally copying their damage and healing spells at 15% power]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
@@ -5200,8 +5409,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5232,7 +5441,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unyielding Domain",
         "spell_id": 412733,
         "visible_spell_id": null,
-        "icon": "spell_shaman_stormearthfire"
+        "icon": "spell_shaman_stormearthfire",
+        "icon_candidates": [
+          "spell_shaman_stormearthfire"
+        ]
       },
       "pve_tooltip": "Upheaval cannot be interrupted, and has an additional 10% chance to critically strike.",
       "pvp_tooltip": "Upheaval cannot be interrupted, and has an additional 10% chance to critically strike.",
@@ -5256,8 +5468,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5288,7 +5500,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tectonic Locus",
         "spell_id": 408002,
         "visible_spell_id": null,
-        "icon": "6bf_explosive_shard"
+        "icon": "6bf_explosive_shard",
+        "icon_candidates": [
+          "6bf_explosive_shard"
+        ]
       },
       "pve_tooltip": "Upheaval deals 50% increased damage to the primary target, and launches them higher.",
       "pvp_tooltip": "Upheaval deals 15% increased damage to the primary target, and launches them higher.",
@@ -5359,8 +5574,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5394,7 +5609,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Regenerative Chitin",
         "spell_id": 406907,
         "visible_spell_id": null,
-        "icon": "inv12_ability_evoker_blisteringscalesinfinite"
+        "icon": "inv12_ability_evoker_blisteringscalesinfinite",
+        "icon_candidates": [
+          "inv12_ability_evoker_blisteringscalesinfinite"
+        ]
       },
       "pve_tooltip": "Blistering Scales no longer loses charges and deals 20% more damage.",
       "pvp_tooltip": "Blistering Scales no longer loses charges and deals 20% more damage.",
@@ -5418,8 +5636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5453,7 +5671,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Molten Blood",
         "spell_id": 410643,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spewlava"
+        "icon": "spell_shaman_spewlava",
+        "icon_candidates": [
+          "spell_shaman_spewlava"
+        ]
       },
       "pve_tooltip": "When cast, Blistering Scales grants the target a shield that absorbs up to [Spell Power * 15 * (1 + Versatility)] damage for 30 sec based on their missing health. Lower health targets gain a larger shield.",
       "pvp_tooltip": "When cast, Blistering Scales grants the target a shield that absorbs up to [Spell Power * 15 * (1 + Versatility)] damage for 30 sec based on their missing health. Lower health targets gain a larger shield.",
@@ -5477,8 +5698,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5511,7 +5732,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Momentum Shift",
         "spell_id": 408004,
         "visible_spell_id": null,
-        "icon": "ability_priest_voidshift"
+        "icon": "ability_priest_voidshift",
+        "icon_candidates": [
+          "ability_priest_voidshift"
+        ]
       },
       "pve_tooltip": "Consuming Essence Burst grants you 5% Intellect for 6 sec. Stacks up to 2 times.",
       "pvp_tooltip": "Consuming Essence Burst grants you 5% Intellect for 6 sec. Stacks up to 2 times.",
@@ -5535,8 +5759,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5569,7 +5793,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aspects' Favor",
         "spell_id": 407243,
         "visible_spell_id": null,
-        "icon": "ability_evoker_aspectsfavor"
+        "icon": "ability_evoker_aspectsfavor",
+        "icon_candidates": [
+          "ability_evoker_aspectsfavor"
+        ]
       },
       "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
       "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
@@ -5612,8 +5839,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5646,7 +5873,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arcane Reach",
         "spell_id": 454983,
         "visible_spell_id": null,
-        "icon": "classicon_evoker"
+        "icon": "classicon_evoker",
+        "icon_candidates": [
+          "classicon_evoker"
+        ]
       },
       "pve_tooltip": "The range of your helpful magics is increased by 5 yards.",
       "pvp_tooltip": "The range of your helpful magics is increased by 5 yards.",
@@ -5670,8 +5900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5704,7 +5934,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fate Mirror",
         "spell_id": 412774,
         "visible_spell_id": null,
-        "icon": "trade_archaeology_highbornesoulmirror"
+        "icon": "trade_archaeology_highbornesoulmirror",
+        "icon_candidates": [
+          "trade_archaeology_highbornesoulmirror"
+        ]
       },
       "pve_tooltip": "Prescience grants the ally a chance for their spells and abilities to echo their damage or healing, dealing 15% of the amount again.",
       "pvp_tooltip": "Prescience grants the ally a chance for their spells and abilities to echo their damage or healing, dealing 15% of the amount again.",
@@ -5728,8 +5961,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5761,7 +5994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Symbiotic Bloom",
         "spell_id": 410685,
         "visible_spell_id": null,
-        "icon": "inv_10_herb_seed_magiccolor5"
+        "icon": "inv_10_herb_seed_magiccolor5",
+        "icon_candidates": [
+          "inv_10_herb_seed_magiccolor5"
+        ]
       },
       "pve_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
       "pvp_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
@@ -5804,8 +6040,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5837,7 +6073,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reactive Hide",
         "spell_id": 409329,
         "visible_spell_id": null,
-        "icon": "ability_evoker_reactivehide"
+        "icon": "ability_evoker_reactivehide",
+        "icon_candidates": [
+          "ability_evoker_reactivehide"
+        ]
       },
       "pve_tooltip": "Each time Blistering Scales explodes it deals 15% more damage for 12 sec, stacking 10 times.",
       "pvp_tooltip": "Each time Blistering Scales explodes it deals 15% more damage for 12 sec, stacking 10 times.",
@@ -5861,8 +6100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5894,7 +6133,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Font of Magic",
         "spell_id": 408083,
         "visible_spell_id": null,
-        "icon": "ability_evoker_fontofmagic"
+        "icon": "ability_evoker_fontofmagic",
+        "icon_candidates": [
+          "ability_evoker_fontofmagic"
+        ]
       },
       "pve_tooltip": "Your empower spells' maximum level is increased by 1, and they reach maximum empower level 20% faster.",
       "pvp_tooltip": "Your empower spells' maximum level is increased by 1, and they reach maximum empower level 20% faster.",
@@ -5918,8 +6160,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -5955,7 +6197,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hoarded Power",
         "spell_id": 375796,
         "visible_spell_id": null,
-        "icon": "ability_evoker_innatemagic2"
+        "icon": "ability_evoker_innatemagic2",
+        "icon_candidates": [
+          "ability_evoker_innatemagic2"
+        ]
       },
       "pve_tooltip": "Essence Burst has a 20% chance to not be consumed.",
       "pvp_tooltip": "Essence Burst has a 20% chance to not be consumed.",
@@ -5979,8 +6224,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6015,7 +6260,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Motes of Possibility",
         "spell_id": 409267,
         "visible_spell_id": null,
-        "icon": "ability_evoker_motesofpossibility"
+        "icon": "ability_evoker_motesofpossibility",
+        "icon_candidates": [
+          "ability_evoker_motesofpossibility"
+        ]
       },
       "pve_tooltip": "Eruption has a 25% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
       "pvp_tooltip": "Eruption has a 25% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
@@ -6039,8 +6287,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6072,7 +6320,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Anachronism",
         "spell_id": 407869,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburst6"
+        "icon": "ability_evoker_essenceburst6",
+        "icon_candidates": [
+          "ability_evoker_essenceburst6"
+        ]
       },
       "pve_tooltip": "Prescience has a 35% chance to grant Essence Burst.",
       "pvp_tooltip": "Prescience has a 35% chance to grant Essence Burst.",
@@ -6096,8 +6347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6129,7 +6380,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Prolong Life",
         "spell_id": 410687,
         "visible_spell_id": null,
-        "icon": "ability_evoker_reversion_green"
+        "icon": "ability_evoker_reversion_green",
+        "icon_candidates": [
+          "ability_evoker_reversion_green"
+        ]
       },
       "pve_tooltip": "Your effects that extend Ebon Might also extend Symbiotic Bloom.",
       "pvp_tooltip": "Your effects that extend Ebon Might also extend Symbiotic Bloom.",
@@ -6153,8 +6407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6186,7 +6440,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dream of Spring",
         "spell_id": 414969,
         "visible_spell_id": null,
-        "icon": "ability_evoker_masterylifebinder"
+        "icon": "ability_evoker_masterylifebinder",
+        "icon_candidates": [
+          "ability_evoker_masterylifebinder"
+        ]
       },
       "pve_tooltip": "Emerald Blossom no longer has a cooldown, deals 35% increased healing, and increases the duration of your active Ebon Might effects by 1 sec, but costs 3 Essence.",
       "pvp_tooltip": "Emerald Blossom no longer has a cooldown, deals 35% increased healing, and increases the duration of your active Ebon Might effects by 1 sec, but costs 3 Essence.",
@@ -6210,8 +6467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6245,7 +6502,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Accretion",
         "spell_id": 407876,
         "visible_spell_id": null,
-        "icon": "ability_evoker_accretion"
+        "icon": "ability_evoker_accretion",
+        "icon_candidates": [
+          "ability_evoker_accretion"
+        ]
       },
       "pve_tooltip": "Eruption reduces the remaining cooldown of Upheaval by 1.0 sec.",
       "pvp_tooltip": "Eruption reduces the remaining cooldown of Upheaval by 1.0 sec.",
@@ -6269,8 +6529,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6302,7 +6562,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imminent Destruction",
         "spell_id": 459537,
         "visible_spell_id": null,
-        "icon": "spell_burningbladeshaman_blazing_radiance"
+        "icon": "spell_burningbladeshaman_blazing_radiance",
+        "icon_candidates": [
+          "spell_burningbladeshaman_blazing_radiance"
+        ]
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
       "pvp_tooltip": "[Breath of Eons / Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
@@ -6326,8 +6589,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6360,7 +6623,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Skip",
         "spell_id": 404977,
         "visible_spell_id": null,
-        "icon": "ability_evoker_timeskip"
+        "icon": "ability_evoker_timeskip",
+        "icon_candidates": [
+          "ability_evoker_timeskip"
+        ]
       },
       "pve_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for 2 sec.",
       "pvp_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for 2 sec.",
@@ -6384,8 +6650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6417,7 +6683,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Clairvoyant",
         "spell_id": 1250914,
         "visible_spell_id": null,
-        "icon": "ability_evoker_masterylifebinder_bronze"
+        "icon": "ability_evoker_masterylifebinder_bronze",
+        "icon_candidates": [
+          "ability_evoker_masterylifebinder_bronze"
+        ]
       },
       "pve_tooltip": "Motes of Possibility may now grant Prescience to allies and have a 10% increased chance to activate.",
       "pvp_tooltip": "Motes of Possibility may now grant Prescience to allies and have a 10% increased chance to activate.",
@@ -6441,8 +6710,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6475,7 +6744,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inferno's Blessing",
         "spell_id": 410261,
         "visible_spell_id": null,
-        "icon": "ability_evoker_infernosblessing"
+        "icon": "ability_evoker_infernosblessing",
+        "icon_candidates": [
+          "ability_evoker_infernosblessing"
+        ]
       },
       "pve_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 * 1 * (1 + Versatility) * Percent Damage] Fire damage.",
       "pvp_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 * 1 * (1 + Versatility) * Percent Damage] Fire damage.",
@@ -6499,8 +6771,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6530,7 +6802,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rumbling Earth",
         "spell_id": 459120,
         "visible_spell_id": null,
-        "icon": "ability_evoker_geomancy"
+        "icon": "ability_evoker_geomancy",
+        "icon_candidates": [
+          "ability_evoker_geomancy"
+        ]
       },
       "pve_tooltip": "Upheaval causes an aftershock at its location, dealing 30% of its damage 2 additional times.",
       "pvp_tooltip": "Upheaval causes an aftershock at its location, dealing 30% of its damage 2 additional times.",
@@ -6554,8 +6829,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6585,7 +6860,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Plot the Future",
         "spell_id": 407866,
         "visible_spell_id": null,
-        "icon": "ability_evoker_plotthefuture"
+        "icon": "ability_evoker_plotthefuture",
+        "icon_candidates": [
+          "ability_evoker_plotthefuture"
+        ]
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
       "pvp_tooltip": "[Breath of Eons / Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
@@ -6609,8 +6887,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6640,7 +6918,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tomorrow, Today",
         "spell_id": 412723,
         "visible_spell_id": null,
-        "icon": "ability_evoker_rewind2"
+        "icon": "ability_evoker_rewind2",
+        "icon_candidates": [
+          "ability_evoker_rewind2"
+        ]
       },
       "pve_tooltip": "Time Skip channels for 1 sec longer.",
       "pvp_tooltip": "Time Skip channels for 1 sec longer.",
@@ -6664,8 +6945,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6695,7 +6976,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Interwoven Threads",
         "spell_id": 412713,
         "visible_spell_id": null,
-        "icon": "inv_enchant_optionalreagent_01"
+        "icon": "inv_enchant_optionalreagent_01",
+        "icon_candidates": [
+          "inv_enchant_optionalreagent_01"
+        ]
       },
       "pve_tooltip": "The cooldowns of your spells are reduced by 10%.",
       "pvp_tooltip": "The cooldowns of your spells are reduced by 10%.",
@@ -6719,8 +7003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6750,7 +7034,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overlord",
         "spell_id": 410260,
         "visible_spell_id": null,
-        "icon": "ability_evoker_overlord"
+        "icon": "ability_evoker_overlord",
+        "icon_candidates": [
+          "ability_evoker_overlord"
+        ]
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
       "pvp_tooltip": "[Breath of Eons / Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
@@ -6774,8 +7061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6805,7 +7092,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mighty Inferno",
         "spell_id": 1291457,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembers"
+        "icon": "ability_warlock_burningembers",
+        "icon_candidates": [
+          "ability_warlock_burningembers"
+        ]
       },
       "pve_tooltip": "Inferno's Blessing's damage is increased by 40%, and your effects that extend Ebon Might also extend Inferno's Blessing.",
       "pvp_tooltip": "Inferno's Blessing's damage is increased by 40%, and your effects that extend Ebon Might also extend Inferno's Blessing.",
@@ -6829,8 +7119,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6858,7 +7148,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Duplicate",
         "spell_id": 1259173,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_evoker_duplicate"
+        "icon": "inv12_apextalent_evoker_duplicate",
+        "icon_candidates": [
+          "inv12_apextalent_evoker_duplicate"
+        ]
       },
       "pve_tooltip": "2 min cooldown\nBreath of Eons summons a version of you from the future to assist you in battle, lasting 20 sec. Your duplicate casts Eruption, Fire Breath, and Upheaval.",
       "pvp_tooltip": "2 min cooldown\nBreath of Eons summons a version of you from the future to assist you in battle, lasting 20 sec. Your duplicate casts Eruption, Fire Breath, and Upheaval.",
@@ -6882,8 +7175,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6911,7 +7204,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Duplicate",
         "spell_id": 1259174,
         "visible_spell_id": null,
-        "icon": "ability_evoker_masterytimewalker"
+        "icon": "ability_evoker_masterytimewalker",
+        "icon_candidates": [
+          "ability_evoker_masterytimewalker"
+        ]
       },
       "pve_tooltip": "2 min cooldown\nAny time you extend Ebon Might, your duplicate is also extended, equal to 100% of the amount you extended Ebon Might by.",
       "pvp_tooltip": "2 min cooldown\nAny time you extend Ebon Might, your duplicate is also extended, equal to 100% of the amount you extended Ebon Might by.",
@@ -6954,8 +7250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -6983,7 +7279,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Duplicate",
         "spell_id": 1259175,
         "visible_spell_id": null,
-        "icon": "ability_evoker_ouroboros"
+        "icon": "ability_evoker_ouroboros",
+        "icon_candidates": [
+          "ability_evoker_ouroboros"
+        ]
       },
       "pve_tooltip": "2 min cooldown\nWhile your duplicate is active, your Ebon Might grants 75% additional stats and Upheaval and Eruption deal 25% increased damage.",
       "pvp_tooltip": "2 min cooldown\nWhile your duplicate is active, your Ebon Might grants 75% additional stats and Upheaval and Eruption deal 25% increased damage.",
@@ -7007,8 +7306,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7041,7 +7340,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Eruption",
         "spell_id": 438587,
         "visible_spell_id": null,
-        "icon": "ability_evoker_eruption"
+        "icon": "ability_evoker_eruption",
+        "icon_candidates": [
+          "ability_evoker_eruption"
+        ]
       },
       "pve_tooltip": "Empower spells cause your next Eruption to strike up to 3 targets. When striking less than 3 targets, Eruption damage is increased by 10% for each missing target.",
       "pvp_tooltip": "Empower spells cause your next Eruption to strike up to 3 targets. When striking less than 3 targets, Eruption damage is increased by 10% for each missing target.",
@@ -7065,8 +7367,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7098,7 +7400,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Might of the Black Dragonflight",
         "spell_id": 441705,
         "visible_spell_id": null,
-        "icon": "ability_evoker_blackattunementalt"
+        "icon": "ability_evoker_blackattunementalt",
+        "icon_candidates": [
+          "ability_evoker_blackattunementalt"
+        ]
       },
       "pve_tooltip": "Black spells deal 20% increased damage.",
       "pvp_tooltip": "Black spells deal 20% increased damage.",
@@ -7122,8 +7427,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7155,7 +7460,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bombardments",
         "spell_id": 434300,
         "visible_spell_id": null,
-        "icon": "inv_ability_scalecommanderevoker_bombardments"
+        "icon": "inv_ability_scalecommanderevoker_bombardments",
+        "icon_candidates": [
+          "inv_ability_scalecommanderevoker_bombardments"
+        ]
       },
       "pve_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage * 1] Volcanic damage split amongst all nearby enemies.",
       "pvp_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage * 1] Volcanic damage split amongst all nearby enemies.",
@@ -7179,8 +7487,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7212,7 +7520,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Onslaught",
         "spell_id": 441245,
         "visible_spell_id": null,
-        "icon": "spell_fire_soulburn"
+        "icon": "spell_fire_soulburn",
+        "icon_candidates": [
+          "spell_fire_soulburn"
+        ]
       },
       "pve_tooltip": "Entering combat grants a charge of Burnout, causing your next Living Flame to cast instantly.",
       "pvp_tooltip": "Entering combat grants a charge of Burnout, causing your next Living Flame to cast instantly.",
@@ -7236,8 +7547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7269,7 +7580,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Command Squadron",
         "spell_id": 1260745,
         "visible_spell_id": null,
-        "icon": "ability_dragonriding_dynamicflight01"
+        "icon": "ability_dragonriding_dynamicflight01",
+        "icon_candidates": [
+          "ability_dragonriding_dynamicflight01"
+        ]
       },
       "pve_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
       "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (108.108% of Spell Power) Fire damage to nearby enemies up to 8 times.",
@@ -7294,8 +7608,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 440.00000000000006,
-          "new": 572.0000000000001,
+          "old": 484.0,
+          "new": 572.572,
           "full_tooltip_match_count": 0
         },
         {
@@ -7356,12 +7670,12 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1260745,
           "source_spell_id": 357212,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 4.4)",
+          "effect_text": "School Damage (Fire) (SP mod: 4.84)",
           "base_value": null,
-          "spell_pvp_multiplier": 1.0,
+          "spell_pvp_multiplier": 0.91,
           "amount_kind": "direct",
           "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "final_pvp_multiplier": 1.183,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7387,10 +7701,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -7407,8 +7722,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7440,7 +7755,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Melt Armor",
         "spell_id": 441176,
         "visible_spell_id": null,
-        "icon": "inv_10_gearupgrade_drakesshadowflameenhancedcrest"
+        "icon": "inv_10_gearupgrade_drakesshadowflameenhancedcrest",
+        "icon_candidates": [
+          "inv_10_gearupgrade_drakesshadowflameenhancedcrest"
+        ]
       },
       "pve_tooltip": "Deep Breath causes enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
       "pvp_tooltip": "Deep Breath causes enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
@@ -7503,8 +7821,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7536,7 +7854,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wingleader",
         "spell_id": 441206,
         "visible_spell_id": null,
-        "icon": "ability_racial_soar"
+        "icon": "ability_racial_soar",
+        "icon_candidates": [
+          "ability_racial_soar"
+        ]
       },
       "pve_tooltip": "Mass Eruption reduces the remaining cooldown of Breath of Eons by 1.5 sec for each target struck.",
       "pvp_tooltip": "Mass Eruption reduces the remaining cooldown of Breath of Eons by 1.5 sec for each target struck.",
@@ -7560,8 +7881,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7593,7 +7914,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unrelenting Siege",
         "spell_id": 441246,
         "visible_spell_id": null,
-        "icon": "ability_siege_engineer_superheated"
+        "icon": "ability_siege_engineer_superheated",
+        "icon_candidates": [
+          "ability_siege_engineer_superheated"
+        ]
       },
       "pve_tooltip": "For each second you are in combat, Azure Strike, Living Flame, and Eruption deal 1% increased damage, up to 15%.",
       "pvp_tooltip": "For each second you are in combat, Azure Strike, Living Flame, and Eruption deal 1% increased damage, up to 15%.",
@@ -7617,8 +7941,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7650,7 +7974,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Concentrated Power",
         "spell_id": 1261448,
         "visible_spell_id": null,
-        "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue"
+        "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue",
+        "icon_candidates": [
+          "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue"
+        ]
       },
       "pve_tooltip": "Mass Eruption strikes 1 additional target.",
       "pvp_tooltip": "Mass Eruption strikes 1 additional target.",
@@ -7674,8 +8001,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7707,7 +8034,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hardened Scales",
         "spell_id": 441180,
         "visible_spell_id": null,
-        "icon": "inv_10_skinning_scales_black"
+        "icon": "inv_10_skinning_scales_black",
+        "icon_candidates": [
+          "inv_10_skinning_scales_black"
+        ]
       },
       "pve_tooltip": "Obsidian Scales reduces damage taken by an additional 10%.",
       "pvp_tooltip": "Obsidian Scales reduces damage taken by an additional 10%.",
@@ -7731,8 +8061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7764,7 +8094,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Menacing Presence",
         "spell_id": 441181,
         "visible_spell_id": null,
-        "icon": "ability_racial_wingbuffet"
+        "icon": "ability_racial_wingbuffet",
+        "icon_candidates": [
+          "ability_racial_wingbuffet"
+        ]
       },
       "pve_tooltip": "Knocking enemies up or backwards reduces their damage done to you by 15% for 8 sec.",
       "pvp_tooltip": "Knocking enemies up or backwards reduces their damage done to you by 15% for 8 sec.",
@@ -7788,8 +8121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7821,7 +8154,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Extended Battle",
         "spell_id": 441212,
         "visible_spell_id": null,
-        "icon": "ability_evoker_divideandconquer"
+        "icon": "ability_evoker_divideandconquer",
+        "icon_candidates": [
+          "ability_evoker_divideandconquer"
+        ]
       },
       "pve_tooltip": "Essence abilities extend Bombardments by 1 sec.",
       "pvp_tooltip": "Essence abilities extend Bombardments by 1 sec.",
@@ -7845,8 +8181,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7878,7 +8214,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Diverted Power",
         "spell_id": 441219,
         "visible_spell_id": null,
-        "icon": "ability_evoker_powerswell"
+        "icon": "ability_evoker_powerswell",
+        "icon_candidates": [
+          "ability_evoker_powerswell"
+        ]
       },
       "pve_tooltip": "Bombardments have a chance to generate Essence Burst.",
       "pvp_tooltip": "Bombardments have a chance to generate Essence Burst.",
@@ -7902,8 +8241,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7935,7 +8274,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nimble Flyer",
         "spell_id": 441253,
         "visible_spell_id": null,
-        "icon": "ability_evoker_hover"
+        "icon": "ability_evoker_hover",
+        "icon_candidates": [
+          "ability_evoker_hover"
+        ]
       },
       "pve_tooltip": "While Hovering, damage taken from area of effect attacks is reduced by 10%.",
       "pvp_tooltip": "While Hovering, damage taken from area of effect attacks is reduced by 10%.",
@@ -7959,8 +8301,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -7992,7 +8334,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Slipstream",
         "spell_id": 441257,
         "visible_spell_id": null,
-        "icon": "ability_dragonriding_barrelroll01"
+        "icon": "ability_dragonriding_barrelroll01",
+        "icon_candidates": [
+          "ability_dragonriding_barrelroll01"
+        ]
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] resets a charge of Hover.",
       "pvp_tooltip": "[Breath of Eons / Deep Breath] resets a charge of Hover.",
@@ -8016,8 +8361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8049,7 +8394,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Refined Essence",
         "spell_id": 1261452,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburststacks"
+        "icon": "ability_evoker_essenceburststacks",
+        "icon_candidates": [
+          "ability_evoker_essenceburststacks"
+        ]
       },
       "pve_tooltip": "Essence abilities deal 15% additional damage.",
       "pvp_tooltip": "Essence abilities deal 15% additional damage.",
@@ -8073,8 +8421,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8107,7 +8455,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Maneuverability",
         "spell_id": 433871,
         "visible_spell_id": null,
-        "icon": "ability_evoker_deepbreath"
+        "icon": "ability_evoker_deepbreath",
+        "icon_candidates": [
+          "ability_evoker_deepbreath"
+        ]
       },
       "pve_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
       "pvp_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
@@ -8170,8 +8521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8204,10 +8555,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chrono Flame",
         "spell_id": 431442,
         "visible_spell_id": null,
-        "icon": "inv_ability_chronowardenevoker_chronoflame"
+        "icon": "inv_ability_chronowardenevoker_chronoflame",
+        "icon_candidates": [
+          "inv_ability_chronowardenevoker_chronoflame"
+        ]
       },
-      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
-      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
+      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to (Spell Power * 2.5) * (1 + Versatility).",
+      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to (Spell Power * 2.5) * (1 + Versatility).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8228,8 +8582,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8261,7 +8615,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Warp",
         "spell_id": 429483,
         "visible_spell_id": null,
-        "icon": "ability_evoker_spatialparadox"
+        "icon": "ability_evoker_spatialparadox",
+        "icon_candidates": [
+          "ability_evoker_spatialparadox"
+        ]
       },
       "pve_tooltip": "Hover now causes you to briefly warp out of existence and appear at your destination. Hover's cooldown is also reduced by 5 sec.\nHover continues to allow Evoker spells to be cast while moving.",
       "pvp_tooltip": "Hover now causes you to briefly warp out of existence and appear at your destination. Hover's cooldown is also reduced by 5 sec.\nHover continues to allow Evoker spells to be cast while moving.",
@@ -8285,8 +8642,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8318,7 +8675,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Temporal Burst",
         "spell_id": 431695,
         "visible_spell_id": null,
-        "icon": "ability_evoker_essenceburst5"
+        "icon": "ability_evoker_essenceburst5",
+        "icon_candidates": [
+          "ability_evoker_essenceburst5"
+        ]
       },
       "pve_tooltip": "Tip the Scales overloads you with temporal energy, increasing your haste, movement speed, and cooldown recovery rate by 30%, decreasing over 30 sec.",
       "pvp_tooltip": "Tip the Scales overloads you with temporal energy, increasing your haste, movement speed, and cooldown recovery rate by 30%, decreasing over 30 sec.",
@@ -8732,8 +9092,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8765,7 +9125,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chronoboon",
         "spell_id": 1260484,
         "visible_spell_id": null,
-        "icon": "ability_evoker_tipthescales"
+        "icon": "ability_evoker_tipthescales",
+        "icon_candidates": [
+          "ability_evoker_tipthescales"
+        ]
       },
       "pve_tooltip": "Tip the Scales' cooldown is reduced by 30 sec.",
       "pvp_tooltip": "Tip the Scales' cooldown is reduced by 30 sec.",
@@ -8789,8 +9152,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8822,7 +9185,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reverberations",
         "spell_id": 431615,
         "visible_spell_id": null,
-        "icon": "ability_evoker_giftoftheaspects"
+        "icon": "ability_evoker_giftoftheaspects",
+        "icon_candidates": [
+          "ability_evoker_giftoftheaspects"
+        ]
       },
       "pve_tooltip": "Upheaval deals 50% additional damage over 8 sec.",
       "pvp_tooltip": "Upheaval deals 50% additional damage over 8 sec.",
@@ -8836,8 +9202,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 430.0,
-          "new": 559.0,
+          "old": 602.0,
+          "new": 782.6,
           "full_tooltip_match_count": 0
         }
       ],
@@ -8849,7 +9215,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431615,
           "source_spell_id": 396288,
           "effect_index": 2,
-          "effect_text": "School Damage (Fire, Nature) (SP mod: 4.3)",
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 6.02)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8900,8 +9266,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8933,7 +9299,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Temporality",
         "spell_id": 431873,
         "visible_spell_id": null,
-        "icon": "ability_evoker_return"
+        "icon": "ability_evoker_return",
+        "icon_candidates": [
+          "ability_evoker_return"
+        ]
       },
       "pve_tooltip": "Warp reduces damage taken by 20%, starting high and reducing over 3 sec.",
       "pvp_tooltip": "Warp reduces damage taken by 20%, starting high and reducing over 3 sec.",
@@ -8957,8 +9326,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -8990,7 +9359,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Motes of Acceleration",
         "spell_id": 432008,
         "visible_spell_id": null,
-        "icon": "item_timemote_icon"
+        "icon": "item_timemote_icon",
+        "icon_candidates": [
+          "item_timemote_icon"
+        ]
       },
       "pve_tooltip": "Warp leaves a trail of Motes of Acceleration. Allies who come in contact with a mote gain 20% increased movement speed for 30 sec.",
       "pvp_tooltip": "Warp leaves a trail of Motes of Acceleration. Allies who come in contact with a mote gain 20% increased movement speed for 30 sec.",
@@ -9014,8 +9386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9047,7 +9419,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nozdormu Adept",
         "spell_id": 431715,
         "visible_spell_id": null,
-        "icon": "ability_evoker_aspectsfavorbronze"
+        "icon": "ability_evoker_aspectsfavorbronze",
+        "icon_candidates": [
+          "ability_evoker_aspectsfavorbronze"
+        ]
       },
       "pve_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
       "pvp_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
@@ -9071,8 +9446,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9104,7 +9479,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chronal Dynamo",
         "spell_id": 1291522,
         "visible_spell_id": null,
-        "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_red"
+        "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_red",
+        "icon_candidates": [
+          "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_red"
+        ]
       },
       "pve_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
       "pvp_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
@@ -9128,8 +9506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9161,7 +9539,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primacy",
         "spell_id": 431657,
         "visible_spell_id": null,
-        "icon": "inv_misc_pocketwatch_01"
+        "icon": "inv_misc_pocketwatch_01",
+        "icon_candidates": [
+          "inv_misc_pocketwatch_01"
+        ]
       },
       "pve_tooltip": "For each damage over time effect from Upheaval, gain 3% haste, up to 9%.",
       "pvp_tooltip": "For each damage over time effect from Upheaval, gain 3% haste, up to 9%.",
@@ -9185,8 +9566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9218,7 +9599,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Double-time",
         "spell_id": 431874,
         "visible_spell_id": null,
-        "icon": "spell_holy_borrowedtime"
+        "icon": "spell_holy_borrowedtime",
+        "icon_candidates": [
+          "spell_holy_borrowedtime"
+        ]
       },
       "pve_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts 15.0 sec.",
       "pvp_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts 15.0 sec.",
@@ -9242,8 +9626,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9275,7 +9659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Convergence",
         "spell_id": 431984,
         "visible_spell_id": null,
-        "icon": "ability_evoker_plotthefuture"
+        "icon": "ability_evoker_plotthefuture",
+        "icon_candidates": [
+          "ability_evoker_plotthefuture"
+        ]
       },
       "pve_tooltip": "Non-defensive abilities with a 45 second or longer cooldown grant 5% Intellect for 15 sec.\nEssence spells extend the duration by 1 sec.",
       "pvp_tooltip": "Non-defensive abilities with a 45 second or longer cooldown grant 5% Intellect for 15 sec.\nEssence spells extend the duration by 1 sec.",
@@ -9299,8 +9686,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9332,7 +9719,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Instability Matrix",
         "spell_id": 431484,
         "visible_spell_id": null,
-        "icon": "ability_dragonriding_bronzerewind01"
+        "icon": "ability_dragonriding_bronzerewind01",
+        "icon_candidates": [
+          "ability_dragonriding_bronzerewind01"
+        ]
       },
       "pve_tooltip": "Each time you cast an empower spell, unstable time magic reduces its cooldown by up to 6 sec.",
       "pvp_tooltip": "Each time you cast an empower spell, unstable time magic reduces its cooldown by up to 6 sec.",
@@ -9356,8 +9746,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9389,10 +9779,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overclock",
         "spell_id": 1260647,
         "visible_spell_id": null,
-        "icon": "spell_holy_borrowedtime"
+        "icon": "spell_holy_borrowedtime",
+        "icon_candidates": [
+          "spell_holy_borrowedtime"
+        ]
       },
-      "pve_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to [(Spell Power * 3.5) * (1 + Versatility)] Arcane.",
-      "pvp_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to [(Spell Power * 3.5) * (1 + Versatility)] Arcane.",
+      "pve_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to (Spell Power * 3.5) * (1 + Versatility) Arcane.",
+      "pvp_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to (Spell Power * 3.5) * (1 + Versatility) Arcane.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9413,8 +9806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9446,7 +9839,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Golden Opportunity",
         "spell_id": 432004,
         "visible_spell_id": null,
-        "icon": "achievement_faction_goldenlotus"
+        "icon": "achievement_faction_goldenlotus",
+        "icon_candidates": [
+          "achievement_faction_goldenlotus"
+        ]
       },
       "pve_tooltip": "Prescience lasts 15% longer.",
       "pvp_tooltip": "Prescience lasts 15% longer.",
@@ -9470,8 +9866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Augmentation",
@@ -9504,7 +9900,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Afterimage",
         "spell_id": 431875,
         "visible_spell_id": null,
-        "icon": "ability_evoker_livingflame"
+        "icon": "ability_evoker_livingflame",
+        "icon_candidates": [
+          "ability_evoker_livingflame"
+        ]
       },
       "pve_tooltip": "Empower spells send up to 3 Chrono Flames to your targets.",
       "pvp_tooltip": "Empower spells send up to 3 Chrono Flames to your targets.",
@@ -9807,9 +10206,46 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "spell_id": 395152,
+      "talent_name": "Ebon Might",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.25,
+      "effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1035393,
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 1.5,
+      "current_effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 395152,
+      "talent_name": "Ebon Might",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.25,
+      "effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1035394,
+      "current_build": "12.1.0.69933",
+      "effect_index": 2,
+      "previous_multiplier": 1.25,
+      "current_multiplier": 1.0,
+      "current_effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+      "resolved_by": [
+        "simc_exact_build_hotfix"
+      ]
+    }
+  ],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-22T19:25:49.974594+00:00",
+  "generated_at": "2026-09-24T11:42:33.206323+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,
@@ -9822,11 +10258,48 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "spell_id": 395152,
+        "talent_name": "Ebon Might",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.25,
+        "effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1035393,
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 1.5,
+        "current_effect_text": "Apply Aura (6) | Periodic Dummy (226): every 1 seconds",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 395152,
+        "talent_name": "Ebon Might",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.25,
+        "effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1035394,
+        "current_build": "12.1.0.69933",
+        "effect_index": 2,
+        "previous_multiplier": 1.25,
+        "current_multiplier": 1.0,
+        "current_effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+        "resolved_by": [
+          "simc_exact_build_hotfix"
+        ]
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

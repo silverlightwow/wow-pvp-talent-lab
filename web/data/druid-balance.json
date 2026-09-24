@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -51,7 +51,10 @@
         "talent_name": "Rake",
         "spell_id": 1822,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
       "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
@@ -122,8 +125,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -155,7 +158,10 @@
         "talent_name": "Frenzied Regeneration",
         "spell_id": 22842,
         "visible_spell_id": null,
-        "icon": "ability_bullrush"
+        "icon": "ability_bullrush",
+        "icon_candidates": [
+          "ability_bullrush"
+        ]
       },
       "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
       "pvp_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
@@ -226,8 +232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -259,7 +265,10 @@
         "talent_name": "Rejuvenation",
         "spell_id": 774,
         "visible_spell_id": null,
-        "icon": "spell_nature_rejuvenation"
+        "icon": "spell_nature_rejuvenation",
+        "icon_candidates": [
+          "spell_nature_rejuvenation"
+        ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
       "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
@@ -330,8 +339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -362,7 +371,10 @@
         "talent_name": "Starfire",
         "spell_id": 194153,
         "visible_spell_id": null,
-        "icon": "spell_arcane_starfire"
+        "icon": "spell_arcane_starfire",
+        "icon_candidates": [
+          "spell_arcane_starfire"
+        ]
       },
       "pve_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (121.8% of Spell Power) Arcane damage to the target, and [(121.8% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 / Warrior of Elune: 104 / Wild Surges: 100 / Moon Guardian: 100 / 10) Astral Power.",
       "pvp_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (126.672% of Spell Power) Arcane damage to the target, and [(126.672% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 / Warrior of Elune: 104 / Wild Surges: 100 / Moon Guardian: 100 / 10) Astral Power.",
@@ -462,8 +474,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -493,7 +505,10 @@
         "talent_name": "Grievous Wounds",
         "spell_id": 474526,
         "visible_spell_id": null,
-        "icon": "ability_xavius_tormentingswipe"
+        "icon": "ability_xavius_tormentingswipe",
+        "icon_candidates": [
+          "ability_xavius_tormentingswipe"
+        ]
       },
       "pve_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
       "pvp_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
@@ -517,8 +532,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -552,7 +567,10 @@
         "talent_name": "Swipe",
         "spell_id": 213764,
         "visible_spell_id": null,
-        "icon": "inv_misc_monsterclaw_03"
+        "icon": "inv_misc_monsterclaw_03",
+        "icon_candidates": [
+          "inv_misc_monsterclaw_03"
+        ]
       },
       "pve_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
       "pvp_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
@@ -576,8 +594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -612,7 +630,10 @@
         "talent_name": "Ursoc's Spirit",
         "spell_id": 449182,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
       "pvp_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
@@ -636,8 +657,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -669,7 +690,10 @@
         "talent_name": "Wild Growth",
         "spell_id": 48438,
         "visible_spell_id": null,
-        "icon": "ability_druid_flourish"
+        "icon": "ability_druid_flourish",
+        "icon_candidates": [
+          "ability_druid_flourish"
+        ]
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
       "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
@@ -693,8 +717,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -724,7 +748,10 @@
         "talent_name": "Starsurge",
         "spell_id": 78674,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane03"
+        "icon": "spell_arcane_arcane03",
+        "icon_candidates": [
+          "spell_arcane_arcane03"
+        ]
       },
       "pve_tooltip": "40 Astral Power\n40 yd range\nInstant\nLaunch a surge of stellar energies at the target, dealing (367.6% of Spell Power) Astral damage.",
       "pvp_tooltip": "40 Astral Power\n40 yd range\nInstant\nLaunch a surge of stellar energies at the target, dealing (294.08% of Spell Power) Astral damage.",
@@ -803,8 +830,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -837,7 +864,10 @@
         "talent_name": "Rip",
         "spell_id": 1079,
         "visible_spell_id": null,
-        "icon": "ability_ghoulfrenzy"
+        "icon": "ability_ghoulfrenzy",
+        "icon_candidates": [
+          "ability_ghoulfrenzy"
+        ]
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
       "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(69.2954% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(69.2954% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(69.2954% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(69.2954% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(69.2954% of Attack Power) * 6 / 6] over 4 sec",
@@ -984,8 +1014,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1021,7 +1051,10 @@
         "talent_name": "Verdant Heart",
         "spell_id": 301768,
         "visible_spell_id": null,
-        "icon": "ability_bullrush"
+        "icon": "ability_bullrush",
+        "icon_candidates": [
+          "ability_bullrush"
+        ]
       },
       "pve_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
       "pvp_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
@@ -1045,8 +1078,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1081,7 +1114,10 @@
         "talent_name": "Remove Corruption",
         "spell_id": 2782,
         "visible_spell_id": null,
-        "icon": "spell_holy_removecurse"
+        "icon": "spell_holy_removecurse",
+        "icon_candidates": [
+          "spell_holy_removecurse"
+        ]
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
       "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
@@ -1105,8 +1141,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1139,7 +1175,10 @@
         "talent_name": "Moonkin Form",
         "spell_id": 24858,
         "visible_spell_id": null,
-        "icon": "spell_nature_forceofnature"
+        "icon": "spell_nature_forceofnature",
+        "icon_candidates": [
+          "spell_nature_forceofnature"
+        ]
       },
       "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
       "pvp_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
@@ -1208,8 +1247,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1239,10 +1278,13 @@
         "talent_name": "Maim",
         "spell_id": 22570,
         "visible_spell_id": null,
-        "icon": "ability_druid_mangle.tga"
+        "icon": "ability_druid_mangle.tga",
+        "icon_candidates": [
+          "ability_druid_mangle.tga"
+        ]
       },
-      "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
-      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
+      "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
+      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1263,8 +1305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1300,7 +1342,10 @@
         "talent_name": "Killer Instinct",
         "spell_id": 108299,
         "visible_spell_id": null,
-        "icon": "ability_druid_predatoryinstincts"
+        "icon": "ability_druid_predatoryinstincts",
+        "icon_candidates": [
+          "ability_druid_predatoryinstincts"
+        ]
       },
       "pve_tooltip": "Physical damage and Armor increased by 6%.",
       "pvp_tooltip": "Physical damage and Armor increased by 6%.",
@@ -1343,8 +1388,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1374,7 +1419,10 @@
         "talent_name": "Ironfur",
         "spell_id": 192081,
         "visible_spell_id": null,
-        "icon": "ability_druid_ironfur"
+        "icon": "ability_druid_ironfur",
+        "icon_candidates": [
+          "ability_druid_ironfur"
+        ]
       },
       "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
       "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
@@ -1398,8 +1446,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1435,7 +1483,10 @@
         "talent_name": "Improved Barkskin",
         "spell_id": 327993,
         "visible_spell_id": null,
-        "icon": "spell_nature_stoneclawtotem"
+        "icon": "spell_nature_stoneclawtotem",
+        "icon_candidates": [
+          "spell_nature_stoneclawtotem"
+        ]
       },
       "pve_tooltip": "Barkskin's duration is increased by 4 sec.",
       "pvp_tooltip": "Barkskin's duration is increased by 4 sec.",
@@ -1459,8 +1510,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1492,7 +1543,10 @@
         "talent_name": "Hibernate",
         "spell_id": 2637,
         "visible_spell_id": null,
-        "icon": "spell_nature_sleep"
+        "icon": "spell_nature_sleep",
+        "icon_candidates": [
+          "spell_nature_sleep"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
       "pvp_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
@@ -1516,8 +1570,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1553,7 +1607,10 @@
         "talent_name": "Nurturing Instinct",
         "spell_id": 33873,
         "visible_spell_id": null,
-        "icon": "ability_druid_healinginstincts"
+        "icon": "ability_druid_healinginstincts",
+        "icon_candidates": [
+          "ability_druid_healinginstincts"
+        ]
       },
       "pve_tooltip": "Magical damage and healing increased by 6%.",
       "pvp_tooltip": "Magical damage and healing increased by 6%.",
@@ -1596,8 +1653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1629,7 +1686,10 @@
         "talent_name": "Sunfire",
         "spell_id": 93402,
         "visible_spell_id": null,
-        "icon": "ability_mage_firestarter"
+        "icon": "ability_mage_firestarter",
+        "icon_candidates": [
+          "ability_mage_firestarter"
+        ]
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
       "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (22.5568% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
@@ -1755,8 +1815,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1786,7 +1846,10 @@
         "talent_name": "Primal Fury",
         "spell_id": 159286,
         "visible_spell_id": null,
-        "icon": "ability_racial_cannibalize"
+        "icon": "ability_racial_cannibalize",
+        "icon_candidates": [
+          "ability_racial_cannibalize"
+        ]
       },
       "pve_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
       "pvp_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
@@ -1810,8 +1873,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1846,7 +1909,10 @@
         "talent_name": "Thick Hide",
         "spell_id": 16931,
         "visible_spell_id": null,
-        "icon": "inv_misc_pelt_bear_03"
+        "icon": "inv_misc_pelt_bear_03",
+        "icon_candidates": [
+          "inv_misc_pelt_bear_03"
+        ]
       },
       "pve_tooltip": "Reduces all damage taken by 4%.",
       "pvp_tooltip": "Reduces all damage taken by 4%.",
@@ -1870,8 +1936,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1901,7 +1967,10 @@
         "talent_name": "Light of the Sun",
         "spell_id": 202918,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_sonicshockwave"
+        "icon": "ability_vehicle_sonicshockwave",
+        "icon_candidates": [
+          "ability_vehicle_sonicshockwave"
+        ]
       },
       "pve_tooltip": "Reduces the remaining cooldown on Solar Beam by 15 sec when it interrupts the primary target.",
       "pvp_tooltip": "Reduces the remaining cooldown on Solar Beam by 15 sec when it interrupts the primary target.",
@@ -1925,8 +1994,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1962,7 +2031,10 @@
         "talent_name": "Natural Recovery",
         "spell_id": 377796,
         "visible_spell_id": null,
-        "icon": "ability_druid_naturalperfection"
+        "icon": "ability_druid_naturalperfection",
+        "icon_candidates": [
+          "ability_druid_naturalperfection"
+        ]
       },
       "pve_tooltip": "Healing you receive is increased by 4%.",
       "pvp_tooltip": "Healing you receive is increased by 4%.",
@@ -1986,8 +2058,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2019,7 +2091,10 @@
         "talent_name": "Astral Influence",
         "spell_id": 197524,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_lens_flare"
+        "icon": "ability_skyreach_lens_flare",
+        "icon_candidates": [
+          "ability_skyreach_lens_flare"
+        ]
       },
       "pve_tooltip": "Increases the range of all of your spells by 5 yards.",
       "pvp_tooltip": "Increases the range of all of your spells by 5 yards.",
@@ -2043,8 +2118,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2079,7 +2154,10 @@
         "talent_name": "Wild Charge",
         "spell_id": 102401,
         "visible_spell_id": null,
-        "icon": "spell_druid_wildcharge"
+        "icon": "spell_druid_wildcharge",
+        "icon_candidates": [
+          "spell_druid_wildcharge"
+        ]
       },
       "pve_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
       "pvp_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
@@ -2103,8 +2181,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2139,7 +2217,10 @@
         "talent_name": "Tiger Dash",
         "spell_id": 252216,
         "visible_spell_id": null,
-        "icon": "ability_druid_dash_orange"
+        "icon": "ability_druid_dash_orange",
+        "icon_candidates": [
+          "ability_druid_dash_orange"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
       "pvp_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
@@ -2163,8 +2244,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2197,7 +2278,10 @@
         "talent_name": "Soothe",
         "spell_id": 2908,
         "visible_spell_id": null,
-        "icon": "ability_hunter_beastsoothe"
+        "icon": "ability_hunter_beastsoothe",
+        "icon_candidates": [
+          "ability_hunter_beastsoothe"
+        ]
       },
       "pve_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
       "pvp_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
@@ -2221,8 +2305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2255,7 +2339,10 @@
         "talent_name": "Cyclone",
         "spell_id": 33786,
         "visible_spell_id": null,
-        "icon": "spell_nature_earthbind"
+        "icon": "spell_nature_earthbind",
+        "icon_candidates": [
+          "spell_nature_earthbind"
+        ]
       },
       "pve_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
       "pvp_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
@@ -2279,8 +2366,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2315,7 +2402,10 @@
         "talent_name": "Aessina's Renewal",
         "spell_id": 474678,
         "visible_spell_id": null,
-        "icon": "spell_nature_healingtouch"
+        "icon": "spell_nature_healingtouch",
+        "icon_candidates": [
+          "spell_nature_healingtouch"
+        ]
       },
       "pve_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
       "pvp_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
@@ -2339,8 +2429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2371,7 +2461,10 @@
         "talent_name": "Starlight Conduit",
         "spell_id": 451211,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane01"
+        "icon": "spell_arcane_arcane01",
+        "icon_candidates": [
+          "spell_arcane_arcane01"
+        ]
       },
       "pve_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
       "pvp_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
@@ -2395,8 +2488,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2428,7 +2521,10 @@
         "talent_name": "Feline Swiftness",
         "spell_id": 131768,
         "visible_spell_id": null,
-        "icon": "ability_druid_dash"
+        "icon": "ability_druid_dash",
+        "icon_candidates": [
+          "ability_druid_dash"
+        ]
       },
       "pve_tooltip": "Increases your movement speed by 15%.",
       "pvp_tooltip": "Increases your movement speed by 15%.",
@@ -2452,8 +2548,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2486,7 +2582,10 @@
         "talent_name": "Well-Honed Instincts",
         "spell_id": 377847,
         "visible_spell_id": null,
-        "icon": "ability_druid_tigersroar"
+        "icon": "ability_druid_tigersroar",
+        "icon_candidates": [
+          "ability_druid_tigersroar"
+        ]
       },
       "pve_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
       "pvp_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
@@ -2510,8 +2609,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2542,7 +2641,10 @@
         "talent_name": "Matted Fur",
         "spell_id": 385786,
         "visible_spell_id": null,
-        "icon": "inv_misc_pelt_15"
+        "icon": "inv_misc_pelt_15",
+        "icon_candidates": [
+          "inv_misc_pelt_15"
+        ]
       },
       "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
       "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
@@ -2585,8 +2687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2620,7 +2722,10 @@
         "talent_name": "Stampeding Roar",
         "spell_id": 106898,
         "visible_spell_id": null,
-        "icon": "spell_druid_stampedingroar_cat"
+        "icon": "spell_druid_stampedingroar_cat",
+        "icon_candidates": [
+          "spell_druid_stampedingroar_cat"
+        ]
       },
       "pve_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
       "pvp_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
@@ -2644,8 +2749,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2676,7 +2781,10 @@
         "talent_name": "Lingering Healing",
         "spell_id": 231040,
         "visible_spell_id": null,
-        "icon": "spell_nature_rejuvenation"
+        "icon": "spell_nature_rejuvenation",
+        "icon_candidates": [
+          "spell_nature_rejuvenation"
+        ]
       },
       "pve_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
       "pvp_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
@@ -2700,8 +2808,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2734,7 +2842,10 @@
         "talent_name": "Typhoon",
         "spell_id": 132469,
         "visible_spell_id": null,
-        "icon": "ability_druid_typhoon"
+        "icon": "ability_druid_typhoon",
+        "icon_candidates": [
+          "ability_druid_typhoon"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
       "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 30% for 6 sec. Usable in all shapeshift forms.",
@@ -2810,8 +2921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2843,7 +2954,10 @@
         "talent_name": "Mass Entanglement",
         "spell_id": 102359,
         "visible_spell_id": null,
-        "icon": "spell_druid_massentanglement"
+        "icon": "spell_druid_massentanglement",
+        "icon_candidates": [
+          "spell_druid_massentanglement"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
       "pvp_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
@@ -2867,8 +2981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2900,7 +3014,10 @@
         "talent_name": "Ursol's Vortex",
         "spell_id": 102793,
         "visible_spell_id": null,
-        "icon": "spell_druid_ursolsvortex"
+        "icon": "spell_druid_ursolsvortex",
+        "icon_candidates": [
+          "spell_druid_ursolsvortex"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
       "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
@@ -2924,8 +3041,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2960,7 +3077,10 @@
         "talent_name": "Oakskin",
         "spell_id": 449191,
         "visible_spell_id": null,
-        "icon": "spell_nature_stoneclawtotem"
+        "icon": "spell_nature_stoneclawtotem",
+        "icon_candidates": [
+          "spell_nature_stoneclawtotem"
+        ]
       },
       "pve_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
       "pvp_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
@@ -2984,8 +3104,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3015,7 +3135,10 @@
         "talent_name": "Perfectly-Honed Instincts",
         "spell_id": 1213597,
         "visible_spell_id": null,
-        "icon": "ability_druid_tigersroar"
+        "icon": "ability_druid_tigersroar",
+        "icon_candidates": [
+          "ability_druid_tigersroar"
+        ]
       },
       "pve_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
       "pvp_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
@@ -3039,8 +3162,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3070,7 +3193,10 @@
         "talent_name": "Instincts of the Claw",
         "spell_id": 449184,
         "visible_spell_id": null,
-        "icon": "spell_shadow_vampiricaura"
+        "icon": "spell_shadow_vampiricaura",
+        "icon_candidates": [
+          "spell_shadow_vampiricaura"
+        ]
       },
       "pve_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
       "pvp_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
@@ -3094,8 +3220,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3129,7 +3255,10 @@
         "talent_name": "Lycara's Teachings",
         "spell_id": 378988,
         "visible_spell_id": null,
-        "icon": "inv_trinket_ardenweald_02_green"
+        "icon": "inv_trinket_ardenweald_02_green",
+        "icon_candidates": [
+          "inv_trinket_ardenweald_02_green"
+        ]
       },
       "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
       "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
@@ -3172,8 +3301,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3203,7 +3332,10 @@
         "talent_name": "Lore of the Grove",
         "spell_id": 449185,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire and Sunfire damage increased by 10%.",
       "pvp_tooltip": "Moonfire and Sunfire damage increased by 10%.",
@@ -3227,8 +3359,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3258,7 +3390,10 @@
         "talent_name": "Gale Winds",
         "spell_id": 400142,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
       "pvp_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
@@ -3282,8 +3417,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3313,7 +3448,10 @@
         "talent_name": "Incessant Tempest",
         "spell_id": 400140,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_wind"
+        "icon": "ability_skyreach_wind",
+        "icon_candidates": [
+          "ability_skyreach_wind"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
       "pvp_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
@@ -3337,8 +3475,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3373,7 +3511,10 @@
         "talent_name": "Gift of the Wild",
         "spell_id": 1262034,
         "visible_spell_id": null,
-        "icon": "spell_nature_giftofthewild"
+        "icon": "spell_nature_giftofthewild",
+        "icon_candidates": [
+          "spell_nature_giftofthewild"
+        ]
       },
       "pve_tooltip": "Mark of the Wild is 100% more effective on yourself.",
       "pvp_tooltip": "Mark of the Wild is 100% more effective on yourself.",
@@ -3397,8 +3538,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3428,7 +3569,10 @@
         "talent_name": "Incapacitating Roar",
         "spell_id": 99,
         "visible_spell_id": null,
-        "icon": "ability_druid_demoralizingroar"
+        "icon": "ability_druid_demoralizingroar",
+        "icon_candidates": [
+          "ability_druid_demoralizingroar"
+        ]
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
       "pvp_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
@@ -3452,8 +3596,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3483,7 +3627,10 @@
         "talent_name": "Mighty Bash",
         "spell_id": 5211,
         "visible_spell_id": null,
-        "icon": "ability_druid_bash"
+        "icon": "ability_druid_bash",
+        "icon_candidates": [
+          "ability_druid_bash"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
       "pvp_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
@@ -3507,8 +3654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3538,7 +3685,10 @@
         "talent_name": "Ursine Vigor",
         "spell_id": 377842,
         "visible_spell_id": null,
-        "icon": "ability_druid_markofursol"
+        "icon": "ability_druid_markofursol",
+        "icon_candidates": [
+          "ability_druid_markofursol"
+        ]
       },
       "pve_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
       "pvp_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
@@ -3562,8 +3712,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3595,7 +3745,10 @@
         "talent_name": "Improved Stampeding Roar",
         "spell_id": 288826,
         "visible_spell_id": null,
-        "icon": "spell_druid_stamedingroar"
+        "icon": "spell_druid_stamedingroar",
+        "icon_candidates": [
+          "spell_druid_stamedingroar"
+        ]
       },
       "pve_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
@@ -3619,8 +3772,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3652,7 +3805,10 @@
         "talent_name": "Circle of the Wild",
         "spell_id": 474530,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "Physical damage dealt by your abilities increased by 5%.",
       "pvp_tooltip": "Physical damage dealt by your abilities increased by 5%.",
@@ -3676,8 +3832,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3709,7 +3865,10 @@
         "talent_name": "Circle of the Heavens",
         "spell_id": 474541,
         "visible_spell_id": null,
-        "icon": "spell_druid_equinox"
+        "icon": "spell_druid_equinox",
+        "icon_candidates": [
+          "spell_druid_equinox"
+        ]
       },
       "pve_tooltip": "Magical damage dealt by your spells increased by 5%.",
       "pvp_tooltip": "Magical damage dealt by your spells increased by 5%.",
@@ -3733,8 +3892,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3766,7 +3925,10 @@
         "talent_name": "Lycara's Inspiration",
         "spell_id": 1232897,
         "visible_spell_id": null,
-        "icon": "inv_trinket_ardenweald_02_yellow"
+        "icon": "inv_trinket_ardenweald_02_yellow",
+        "icon_candidates": [
+          "inv_trinket_ardenweald_02_yellow"
+        ]
       },
       "pve_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
       "pvp_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
@@ -3790,8 +3952,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3821,7 +3983,10 @@
         "talent_name": "Symbiotic Relationship",
         "spell_id": 474750,
         "visible_spell_id": null,
-        "icon": "ability_druid_focusedgrowth"
+        "icon": "ability_druid_focusedgrowth",
+        "icon_candidates": [
+          "ability_druid_focusedgrowth"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
       "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
@@ -3845,8 +4010,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3876,7 +4041,10 @@
         "talent_name": "Forestwalk",
         "spell_id": 400129,
         "visible_spell_id": null,
-        "icon": "spell_lifegivingspeed"
+        "icon": "spell_lifegivingspeed",
+        "icon_candidates": [
+          "spell_lifegivingspeed"
+        ]
       },
       "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
       "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
@@ -3919,8 +4087,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3950,7 +4118,10 @@
         "talent_name": "Fluid Form",
         "spell_id": 449193,
         "visible_spell_id": null,
-        "icon": "ability_druid_mastershapeshifter"
+        "icon": "ability_druid_mastershapeshifter",
+        "icon_candidates": [
+          "ability_druid_mastershapeshifter"
+        ]
       },
       "pve_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
       "pvp_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
@@ -3974,8 +4145,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4007,7 +4178,11 @@
         "talent_name": "Heart of the Wild",
         "spell_id": 1261867,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_flourish_empowered"
+        "icon": "spell_holy_blessingofagility",
+        "icon_candidates": [
+          "spell_holy_blessingofagility",
+          "inv12_ability_druid_flourish_empowered"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.",
@@ -4083,8 +4258,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4114,7 +4289,10 @@
         "talent_name": "Innervate",
         "spell_id": 29166,
         "visible_spell_id": null,
-        "icon": "spell_nature_lightning"
+        "icon": "spell_nature_lightning",
+        "icon_candidates": [
+          "spell_nature_lightning"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
@@ -4175,8 +4353,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4207,7 +4385,10 @@
         "talent_name": "Eclipse",
         "spell_id": 1239669,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipseorange"
+        "icon": "ability_druid_eclipseorange",
+        "icon_candidates": [
+          "ability_druid_eclipseorange"
+        ]
       },
       "pve_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and 32 sec cooldown.\nEclipse (Solar)\nNature spells deal 15% additional damage and Wrath damage is increased by 40%.\nEclipse (Lunar)\nArcane spells deal 15% additional damage and Starfire damage is increased by 40%.",
       "pvp_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and 32 sec cooldown.\nEclipse (Solar)\nNature spells deal 15% additional damage and Wrath damage is increased by 40%.\nEclipse (Lunar)\nArcane spells deal 15% additional damage and Starfire damage is increased by 40%.",
@@ -4262,8 +4443,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4296,7 +4477,10 @@
         "talent_name": "Shooting Stars",
         "spell_id": 202342,
         "visible_spell_id": null,
-        "icon": "spell_priest_divinestar_shadow2"
+        "icon": "spell_priest_divinestar_shadow2",
+        "icon_candidates": [
+          "spell_priest_divinestar_shadow2"
+        ]
       },
       "pve_tooltip": "Moonfire and Sunfire damage over time has a chance to call down a falling star, dealing (68% of Spell Power) Astral damage and generating 2 Astral Power.",
       "pvp_tooltip": "Moonfire and Sunfire damage over time has a chance to call down a falling star, dealing (54.4% of Spell Power) Astral damage and generating 2 Astral Power.",
@@ -4380,8 +4564,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4414,7 +4598,10 @@
         "talent_name": "Solar Beam",
         "spell_id": 78675,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_sonicshockwave"
+        "icon": "ability_vehicle_sonicshockwave",
+        "icon_candidates": [
+          "ability_vehicle_sonicshockwave"
+        ]
       },
       "pve_tooltip": "3.36% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a beam of solar light over an enemy target's location, interrupting the target and silencing all enemies within the beam. Lasts 8 sec.",
       "pvp_tooltip": "3.36% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a beam of solar light over an enemy target's location, interrupting the target and silencing all enemies within the beam. Lasts 8 sec.",
@@ -4438,8 +4625,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4472,7 +4659,10 @@
         "talent_name": "Solstice",
         "spell_id": 343647,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "During the first 6 sec of every Eclipse, Shooting Stars fall 200% more often.",
       "pvp_tooltip": "During the first 6 sec of every Eclipse, Shooting Stars fall 200% more often.",
@@ -4496,8 +4686,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4532,7 +4722,10 @@
         "talent_name": "Force of Nature",
         "spell_id": 205636,
         "visible_spell_id": null,
-        "icon": "ability_druid_forceofnature"
+        "icon": "ability_druid_forceofnature",
+        "icon_candidates": [
+          "ability_druid_forceofnature"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a stand of 3 Treants for 10 sec which immediately taunt and attack enemies in the targeted area.\nGenerates 20 Astral Power.",
       "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a stand of 3 Treants for 10 sec which immediately taunt and attack enemies in the targeted area.\nGenerates 20 Astral Power.",
@@ -4556,8 +4749,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4590,7 +4783,10 @@
         "talent_name": "Twin Moons",
         "spell_id": 279620,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire deals 10% increased damage and also hits another nearby enemy within 15 yds of the target.",
       "pvp_tooltip": "Moonfire deals 10% increased damage and also hits another nearby enemy within 15 yds of the target.",
@@ -4614,8 +4810,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4648,7 +4844,10 @@
         "talent_name": "Improved Eclipse",
         "spell_id": 1240906,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipseorange"
+        "icon": "ability_druid_eclipseorange",
+        "icon_candidates": [
+          "ability_druid_eclipseorange"
+        ]
       },
       "pve_tooltip": "Lunar Eclipse and Solar Eclipse have one additional charge.",
       "pvp_tooltip": "Lunar Eclipse and Solar Eclipse have one additional charge.",
@@ -4672,8 +4871,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4707,7 +4906,10 @@
         "talent_name": "Nature's Balance",
         "spell_id": 202430,
         "visible_spell_id": null,
-        "icon": "ability_druid_balanceofpower"
+        "icon": "ability_druid_balanceofpower",
+        "icon_candidates": [
+          "ability_druid_balanceofpower"
+        ]
       },
       "pve_tooltip": "While in combat you generate 1 Astral Power every 2 sec.\nWhile out of combat your Astral Power rebalances to 50 instead of depleting to empty.",
       "pvp_tooltip": "While in combat you generate 1 Astral Power every 2 sec.\nWhile out of combat your Astral Power rebalances to 50 instead of depleting to empty.",
@@ -4731,8 +4933,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4766,7 +4968,10 @@
         "talent_name": "Umbral Intensity",
         "spell_id": 383195,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipse"
+        "icon": "ability_druid_eclipse",
+        "icon_candidates": [
+          "ability_druid_eclipse"
+        ]
       },
       "pve_tooltip": "Wrath damage increased by 12%.\nStarfire damage increased by 12%.",
       "pvp_tooltip": "Wrath damage increased by 12%.\nStarfire damage increased by 12%.",
@@ -4790,8 +4995,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4824,7 +5029,10 @@
         "talent_name": "Aetherial Kindling",
         "spell_id": 327541,
         "visible_spell_id": null,
-        "icon": "ability_druid_starfall"
+        "icon": "ability_druid_starfall",
+        "icon_candidates": [
+          "ability_druid_starfall"
+        ]
       },
       "pve_tooltip": "Casting Starfall extends the duration of active Moonfires and Sunfires by 3.0 sec, up to 28 sec.",
       "pvp_tooltip": "Casting Starfall extends the duration of active Moonfires and Sunfires by 3.0 sec, up to 28 sec.",
@@ -4848,8 +5056,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4882,7 +5090,10 @@
         "talent_name": "Meteor Storm",
         "spell_id": 1240262,
         "visible_spell_id": null,
-        "icon": "spell_arcane_starfire"
+        "icon": "spell_arcane_starfire",
+        "icon_candidates": [
+          "spell_arcane_starfire"
+        ]
       },
       "pve_tooltip": "Starfall deals its damage 100% faster.",
       "pvp_tooltip": "Starfall deals its damage 100% faster.",
@@ -4906,8 +5117,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4942,7 +5153,10 @@
         "talent_name": "Wild Surges",
         "spell_id": 406890,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_lens_flare"
+        "icon": "ability_skyreach_lens_flare",
+        "icon_candidates": [
+          "ability_skyreach_lens_flare"
+        ]
       },
       "pve_tooltip": "Your Wrath and Starfire chance to critically strike is increased by 10% and they generate 2 additional Astral Power.",
       "pvp_tooltip": "Your Wrath and Starfire chance to critically strike is increased by 10% and they generate 2 additional Astral Power.",
@@ -4966,8 +5180,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5003,7 +5217,10 @@
         "talent_name": "Celestial Alignment",
         "spell_id": 395022,
         "visible_spell_id": 194223,
-        "icon": "spell_nature_natureguardian"
+        "icon": "spell_nature_natureguardian",
+        "icon_candidates": [
+          "spell_nature_natureguardian"
+        ]
       },
       "pve_tooltip": "Celestial bodies align, maintaining both Eclipses and granting 10% haste for 15 sec.",
       "pvp_tooltip": "Celestial bodies align, maintaining both Eclipses and granting 10% haste for 15 sec.",
@@ -5027,8 +5244,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5063,7 +5280,10 @@
         "talent_name": "Soul of the Forest",
         "spell_id": 114107,
         "visible_spell_id": null,
-        "icon": "ability_druid_manatree"
+        "icon": "ability_druid_manatree",
+        "icon_candidates": [
+          "ability_druid_manatree"
+        ]
       },
       "pve_tooltip": "Solar Eclipse increases Wrath's Astral Power generation by 40% and Lunar Eclipse increases Starfire's Astral Power generation by 40%.",
       "pvp_tooltip": "Solar Eclipse increases Wrath's Astral Power generation by 40% and Lunar Eclipse increases Starfire's Astral Power generation by 40%.",
@@ -5087,8 +5307,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5122,7 +5342,10 @@
         "talent_name": "Sunseeker Mushroom",
         "spell_id": 468936,
         "visible_spell_id": null,
-        "icon": "druid_ability_wildmushroom_b"
+        "icon": "druid_ability_wildmushroom_b",
+        "icon_candidates": [
+          "druid_ability_wildmushroom_b"
+        ]
       },
       "pve_tooltip": "Approximately 1.66 procs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (265.85% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
       "pvp_tooltip": "Approximately 1.66 procs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (212.68% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 30%.\nGenerates up to 20 Astral Power based on targets hit.",
@@ -5178,7 +5401,7 @@
           "talent_spell_id": 468936,
           "source_spell_id": 1280212,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (SP mod: 2.6585)",
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (SP mod: 2.6585)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5205,10 +5428,41 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280213,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280213
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5216,7 +5470,7 @@
           "talent_spell_id": 468936,
           "source_spell_id": 1280213,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 2 seconds (SP mod: 0.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5243,37 +5497,9 @@
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 468936,
-          "source_spell_id": 1280213,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            468936,
-            1280213
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5293,8 +5519,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5328,7 +5554,10 @@
         "talent_name": "Wild Mushroom",
         "spell_id": 88747,
         "visible_spell_id": null,
-        "icon": "druid_ability_wildmushroom_a"
+        "icon": "druid_ability_wildmushroom_a",
+        "icon_candidates": [
+          "druid_ability_wildmushroom_a"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec recharge\n3 Charges\nGrow a magical mushroom at the target enemy's location. After 1 sec, the mushroom detonates, dealing (318.7% of Spell Power) Nature damage and then an additional (180% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
       "pvp_tooltip": "40 yd range\nInstant\n30 sec recharge\n3 Charges\nGrow a magical mushroom at the target enemy's location. After 1 sec, the mushroom detonates, dealing (254.96% of Spell Power) Nature damage and then an additional (180% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 30%.\nGenerates up to 20 Astral Power based on targets hit.",
@@ -5499,8 +5728,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5532,7 +5761,10 @@
         "talent_name": "Nature's Grace",
         "spell_id": 450347,
         "visible_spell_id": null,
-        "icon": "ability_druid_lunarguidance"
+        "icon": "ability_druid_lunarguidance",
+        "icon_candidates": [
+          "ability_druid_lunarguidance"
+        ]
       },
       "pve_tooltip": "When Eclipse ends or when you enter combat, enter a Dreamstate, reducing the cast time of your next 2 Starfires or Wraths by 30%.",
       "pvp_tooltip": "When Eclipse ends or when you enter combat, enter a Dreamstate, reducing the cast time of your next 2 Starfires or Wraths by 30%.",
@@ -5556,8 +5788,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5589,7 +5821,10 @@
         "talent_name": "Elune's Challenge",
         "spell_id": 1240283,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "When you exit Eclipse with less than 40 Astral Power, Wrath and Starfire's cast times are reduced by 20% for 15 sec or until you enter an Eclipse.",
       "pvp_tooltip": "When you exit Eclipse with less than 40 Astral Power, Wrath and Starfire's cast times are reduced by 20% for 15 sec or until you enter an Eclipse.",
@@ -5613,8 +5848,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5647,7 +5882,10 @@
         "talent_name": "Stellar Amplification",
         "spell_id": 450212,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane04"
+        "icon": "spell_arcane_arcane04",
+        "icon_candidates": [
+          "spell_arcane_arcane04"
+        ]
       },
       "pve_tooltip": "Starsurge increases the damage the target takes from your periodic effects and Shooting Stars by 16% for 5 sec. Reapplying this effect extends its duration, up to 20 sec. Limit 1.",
       "pvp_tooltip": "Starsurge increases the damage the target takes from your periodic effects and Shooting Stars by 16% for 5 sec. Reapplying this effect extends its duration, up to 20 sec. Limit 1.",
@@ -5671,8 +5909,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5705,7 +5943,10 @@
         "talent_name": "Whirling Stars",
         "spell_id": 468743,
         "visible_spell_id": null,
-        "icon": "spell_druid_equinox"
+        "icon": "spell_druid_equinox",
+        "icon_candidates": [
+          "spell_druid_equinox"
+        ]
       },
       "pve_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
       "pvp_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
@@ -5755,8 +5996,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5789,7 +6030,10 @@
         "talent_name": "Orbital Strike",
         "spell_id": 390378,
         "visible_spell_id": null,
-        "icon": "ability_druid_cresentburn"
+        "icon": "ability_druid_cresentburn",
+        "icon_candidates": [
+          "ability_druid_cresentburn"
+        ]
       },
       "pve_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment] blasts all enemies in a targeted area for [(201.4% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [Incarnation: Chosen of Elune / Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (36% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (211.5% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
       "pvp_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment] blasts all enemies in a targeted area for [(161.12% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [Incarnation: Chosen of Elune / Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (28.8% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (169.2% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
@@ -6025,8 +6269,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6060,7 +6304,10 @@
         "talent_name": "Touch the Cosmos",
         "spell_id": 450356,
         "visible_spell_id": null,
-        "icon": "ability_bossgorefiend_touchofdoom"
+        "icon": "ability_bossgorefiend_touchofdoom",
+        "icon_candidates": [
+          "ability_bossgorefiend_touchofdoom"
+        ]
       },
       "pve_tooltip": "Casting Wrath has a 12% chance to make your next Starsurge or Starfall free.\nCasting Starfire has a 15% chance to make your next Starsurge or Starfall free.",
       "pvp_tooltip": "Casting Wrath has a 12% chance to make your next Starsurge or Starfall free.\nCasting Starfire has a 15% chance to make your next Starsurge or Starfall free.",
@@ -6084,8 +6331,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6119,7 +6366,10 @@
         "talent_name": "Meteorites",
         "spell_id": 1240907,
         "visible_spell_id": null,
-        "icon": "ability_druid_starfall"
+        "icon": "ability_druid_starfall",
+        "icon_candidates": [
+          "ability_druid_starfall"
+        ]
       },
       "pve_tooltip": "Every time Starfall drops a wave of stars, a meteorite also falls on up to 2 targets in its range, each dealing (21.95% of Spell Power) Astral damage.",
       "pvp_tooltip": "Every time Starfall drops a wave of stars, a meteorite also falls on up to 2 targets in its range, each dealing (14.048% of Spell Power) Astral damage.",
@@ -6156,7 +6406,7 @@
           "talent_spell_id": 1240907,
           "source_spell_id": 1240913,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.2195)",
+          "effect_text": "School Damage (2): astral (SP mod: 0.2195)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -6183,9 +6433,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6205,8 +6455,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6241,7 +6491,10 @@
         "talent_name": "Cosmic Rapidity",
         "spell_id": 400059,
         "visible_spell_id": null,
-        "icon": "spell_druid_swarm"
+        "icon": "spell_druid_swarm",
+        "icon_candidates": [
+          "spell_druid_swarm"
+        ]
       },
       "pve_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
       "pvp_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
@@ -6284,8 +6537,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6315,7 +6568,10 @@
         "talent_name": "Celestial Fire",
         "spell_id": 1240185,
         "visible_spell_id": null,
-        "icon": "ability_mage_firestarter"
+        "icon": "ability_mage_firestarter",
+        "icon_candidates": [
+          "ability_mage_firestarter"
+        ]
       },
       "pve_tooltip": "Moonfire, Sunfire, and Shooting Stars damage increased by 10%.",
       "pvp_tooltip": "Moonfire, Sunfire, and Shooting Stars damage increased by 10%.",
@@ -6339,8 +6595,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6373,7 +6629,10 @@
         "talent_name": "Sculpt the Stars",
         "spell_id": 1240188,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipseorange"
+        "icon": "ability_druid_eclipseorange",
+        "icon_candidates": [
+          "ability_druid_eclipseorange"
+        ]
       },
       "pve_tooltip": "The cooldowns of Lunar Eclipse and Solar Eclipse are reduced by 3 sec.",
       "pvp_tooltip": "The cooldowns of Lunar Eclipse and Solar Eclipse are reduced by 3 sec.",
@@ -6397,8 +6656,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6428,7 +6687,10 @@
         "talent_name": "Hail of Stars",
         "spell_id": 469004,
         "visible_spell_id": null,
-        "icon": "ability_druid_starfall"
+        "icon": "ability_druid_starfall",
+        "icon_candidates": [
+          "ability_druid_starfall"
+        ]
       },
       "pve_tooltip": "Casting a free Starsurge or Starfall grants Solstice for 3 sec.",
       "pvp_tooltip": "Casting a free Starsurge or Starfall grants Solstice for 3 sec.",
@@ -6452,8 +6714,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6489,7 +6751,10 @@
         "talent_name": "Starlord",
         "spell_id": 202345,
         "visible_spell_id": null,
-        "icon": "spell_shaman_measuredinsight"
+        "icon": "spell_shaman_measuredinsight",
+        "icon_candidates": [
+          "spell_shaman_measuredinsight"
+        ]
       },
       "pve_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
       "pvp_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
@@ -6532,8 +6797,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6566,7 +6831,10 @@
         "talent_name": "Astral Communion",
         "spell_id": 450598,
         "visible_spell_id": null,
-        "icon": "talentspec_druid_balance"
+        "icon": "talentspec_druid_balance",
+        "icon_candidates": [
+          "talentspec_druid_balance"
+        ]
       },
       "pve_tooltip": "Increases maximum Astral Power by 20. Entering Eclipse reduces the Astral Power cost of your next Starsurge or Starfall by 15.",
       "pvp_tooltip": "Increases maximum Astral Power by 20. Entering Eclipse reduces the Astral Power cost of your next Starsurge or Starfall by 15.",
@@ -6590,8 +6858,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6625,7 +6893,10 @@
         "talent_name": "Balance of All Things",
         "spell_id": 394048,
         "visible_spell_id": null,
-        "icon": "ability_druid_earthandsky"
+        "icon": "ability_druid_earthandsky",
+        "icon_candidates": [
+          "ability_druid_earthandsky"
+        ]
       },
       "pve_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 20%, decreasing by 2% every 1 sec.",
       "pvp_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 20%, decreasing by 2% every 1 sec.",
@@ -6668,8 +6939,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6703,7 +6974,10 @@
         "talent_name": "Total Eclipse",
         "spell_id": 1240206,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_totaleclipse"
+        "icon": "inv12_ability_druid_totaleclipse",
+        "icon_candidates": [
+          "inv12_ability_druid_totaleclipse"
+        ]
       },
       "pve_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
       "pvp_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
@@ -6746,8 +7020,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6779,7 +7053,10 @@
         "talent_name": "Starweaver",
         "spell_id": 393940,
         "visible_spell_id": null,
-        "icon": "spell_arcane_invocation"
+        "icon": "spell_arcane_invocation",
+        "icon_candidates": [
+          "spell_arcane_invocation"
+        ]
       },
       "pve_tooltip": "Starsurge has a 20% chance to make Starfall free. Starfall has a 40% chance to make Starsurge free.",
       "pvp_tooltip": "Starsurge has a 20% chance to make Starfall free. Starfall has a 40% chance to make Starsurge free.",
@@ -6803,8 +7080,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6836,7 +7113,10 @@
         "talent_name": "Rattle the Stars",
         "spell_id": 393954,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane01"
+        "icon": "spell_arcane_arcane01",
+        "icon_candidates": [
+          "spell_arcane_arcane01"
+        ]
       },
       "pve_tooltip": "Starsurge and Starfall deal 8% increased damage and their cost is reduced by 10%.",
       "pvp_tooltip": "Starsurge and Starfall deal 8% increased damage and their cost is reduced by 10%.",
@@ -6860,8 +7140,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6894,7 +7174,10 @@
         "talent_name": "Power of Goldrinn",
         "spell_id": 394046,
         "visible_spell_id": null,
-        "icon": "inv_mount_spectralwolf"
+        "icon": "inv_mount_spectralwolf",
+        "icon_candidates": [
+          "inv_mount_spectralwolf"
+        ]
       },
       "pve_tooltip": "Starsurge has a chance to summon the Spirit of Goldrinn, which immediately deals [(192.7% of Spell Power) * 1.1236] Astral damage to the target.\n(Proc chance: 33%)",
       "pvp_tooltip": "Starsurge has a chance to summon the Spirit of Goldrinn, which immediately deals [(77.08% of Spell Power) * 1.1236] Astral damage to the target.\n(Proc chance: 33%)",
@@ -7005,8 +7288,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7040,7 +7323,10 @@
         "talent_name": "Sundered Firmament",
         "spell_id": 394094,
         "visible_spell_id": null,
-        "icon": "spell_druid_equinox"
+        "icon": "spell_druid_equinox",
+        "icon_candidates": [
+          "spell_druid_equinox"
+        ]
       },
       "pve_tooltip": "Every other Eclipse creates a Fury of Elune at 25% effectiveness that follows your current target for 8 sec.",
       "pvp_tooltip": "Every other Eclipse creates a Fury of Elune at 25% effectiveness that follows your current target for 8 sec.",
@@ -7064,8 +7350,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7099,7 +7385,10 @@
         "talent_name": "Orbit Breaker",
         "spell_id": 383197,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "Every 30th Shooting Star calls down a Full Moon at 50% effectiveness upon its target.\n(100ms cooldown)",
       "pvp_tooltip": "Every 30th Shooting Star calls down a Full Moon at 37.5% effectiveness upon its target.\n(100ms cooldown)",
@@ -7170,8 +7459,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7206,7 +7495,10 @@
         "talent_name": "Incarnation: Chosen of Elune",
         "spell_id": 394013,
         "visible_spell_id": 102560,
-        "icon": "spell_druid_incarnation"
+        "icon": "spell_druid_incarnation",
+        "icon_candidates": [
+          "spell_druid_incarnation"
+        ]
       },
       "pve_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
       "pvp_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
@@ -7230,8 +7522,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7266,7 +7558,10 @@
         "talent_name": "Convoke the Spirits",
         "spell_id": 391528,
         "visible_spell_id": null,
-        "icon": "inv_ability_druid_convokethespirits"
+        "icon": "inv_ability_druid_convokethespirits",
+        "icon_candidates": [
+          "inv_ability_druid_convokethespirits"
+        ]
       },
       "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
       "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
@@ -7290,8 +7585,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7326,7 +7621,10 @@
         "talent_name": "Fury of Elune",
         "spell_id": 202770,
         "visible_spell_id": null,
-        "icon": "ability_druid_dreamstate"
+        "icon": "ability_druid_dreamstate",
+        "icon_candidates": [
+          "ability_druid_dreamstate"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nCalls down a beam of pure celestial energy that follows the enemy, dealing up to [8 * 2 * (18.34% of Spell Power)] Astral damage over 8 sec within its area. Damage reduced on secondary targets.\nGenerates 40 Astral Power over its duration.",
       "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nCalls down a beam of pure celestial energy that follows the enemy, dealing up to [8 * 2 * (14.672% of Spell Power)] Astral damage over 8 sec within its area. Damage reduced on secondary targets.\nGenerates 40 Astral Power over its duration.",
@@ -7410,8 +7708,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7446,7 +7744,10 @@
         "talent_name": "New Moon",
         "spell_id": 274281,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_newmoon"
+        "icon": "artifactability_balancedruid_newmoon",
+        "icon_candidates": [
+          "artifactability_balancedruid_newmoon"
+        ]
       },
       "pve_tooltip": "40 yd range\n1 sec cast\n20 sec recharge\n3 Charges\nDeals (258.4% of Spell Power) Astral damage to the target and empowers New Moon to become Half Moon.\nGenerates 10 Astral Power.",
       "pvp_tooltip": "40 yd range\n1 sec cast\n20 sec recharge\n3 Charges\nDeals (206.72% of Spell Power) Astral damage to the target and empowers New Moon to become Half Moon.\nGenerates 10 Astral Power.",
@@ -7525,8 +7826,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7556,7 +7857,10 @@
         "talent_name": "Umbral Embrace",
         "spell_id": 393760,
         "visible_spell_id": null,
-        "icon": "ability_druid_improvedmoonkinform"
+        "icon": "ability_druid_improvedmoonkinform",
+        "icon_candidates": [
+          "ability_druid_improvedmoonkinform"
+        ]
       },
       "pve_tooltip": "Wrath and Starfire have a 20% chance to cause your next Wrath or Starfire cast during an Eclipse to become Astral and deal 75% additional damage.",
       "pvp_tooltip": "Wrath and Starfire have a 20% chance to cause your next Wrath or Starfire cast during an Eclipse to become Astral and deal 40% additional damage.",
@@ -7627,8 +7931,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7659,7 +7963,10 @@
         "talent_name": "Harmony of the Heavens",
         "spell_id": 450558,
         "visible_spell_id": null,
-        "icon": "spell_arcane_massdispel"
+        "icon": "spell_arcane_massdispel",
+        "icon_candidates": [
+          "spell_arcane_massdispel"
+        ]
       },
       "pve_tooltip": "Starsurge or Starfall increase your current Eclipse's Arcane or Nature damage bonus by an additional 2%, up to 6%.",
       "pvp_tooltip": "Starsurge or Starfall increase your current Eclipse's Arcane or Nature damage bonus by an additional 2%, up to 6%.",
@@ -7683,8 +7990,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7714,7 +8021,10 @@
         "talent_name": "Elune's Guidance",
         "spell_id": 393991,
         "visible_spell_id": null,
-        "icon": "ability_ardenweald_druid"
+        "icon": "ability_ardenweald_druid",
+        "icon_candidates": [
+          "ability_ardenweald_druid"
+        ]
       },
       "pve_tooltip": "Incarnation: Chosen of Elune\nReduces the Astral Power cost of Starsurge by 10, and the Astral Power cost of Starfall by 12.\nConvoke the Spirits\nCooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
       "pvp_tooltip": "Incarnation: Chosen of Elune\nReduces the Astral Power cost of Starsurge by 10, and the Astral Power cost of Starfall by 12.\nConvoke the Spirits\nCooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
@@ -7738,8 +8048,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7770,7 +8080,10 @@
         "talent_name": "Denizen of the Dream",
         "spell_id": 394065,
         "visible_spell_id": null,
-        "icon": "inv_faeriedragon2_orange"
+        "icon": "inv_faeriedragon2_orange",
+        "icon_candidates": [
+          "inv_faeriedragon2_orange"
+        ]
       },
       "pve_tooltip": "Approximately 1 procs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
       "pvp_tooltip": "Approximately 1 procs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
@@ -7794,8 +8107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7825,7 +8138,10 @@
         "talent_name": "Radiant Moonlight",
         "spell_id": 394121,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_fullmoon"
+        "icon": "artifactability_balancedruid_fullmoon",
+        "icon_candidates": [
+          "artifactability_balancedruid_fullmoon"
+        ]
       },
       "pve_tooltip": "New Moon, Half Moon, and Full Moon deal 25% increased damage. Full Moon becomes Full Moon once more before resetting to New Moon.\nFury of Elune deals 50% increased damage and its cooldown is reduced by 15 sec.",
       "pvp_tooltip": "New Moon, Half Moon, and Full Moon deal 25% increased damage. Full Moon becomes Full Moon once more before resetting to New Moon.\nFury of Elune deals 50% increased damage and its cooldown is reduced by 15 sec.",
@@ -7849,8 +8165,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7878,7 +8194,10 @@
         "talent_name": "Ascendant Eclipses",
         "spell_id": 1261564,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_ascendanceeclipses"
+        "icon": "inv12_apextalent_druid_ascendanceeclipses",
+        "icon_candidates": [
+          "inv12_apextalent_druid_ascendanceeclipses"
+        ]
       },
       "pve_tooltip": "Activating an Eclipse makes your next Wrath or Starfire instant. The first 3 Starsurges or Starfalls you cast during each Eclipse deal 20% increased damage.\n(100ms cooldown)",
       "pvp_tooltip": "Activating an Eclipse makes your next Wrath or Starfire instant. The first 3 Starsurges or Starfalls you cast during each Eclipse deal 20% increased damage.\n(100ms cooldown)",
@@ -7902,8 +8221,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7931,7 +8250,10 @@
         "talent_name": "Ascendant Eclipses",
         "spell_id": 1261565,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_ascendanceeclipses"
+        "icon": "inv12_apextalent_druid_ascendanceeclipses",
+        "icon_candidates": [
+          "inv12_apextalent_druid_ascendanceeclipses"
+        ]
       },
       "pve_tooltip": "Your critical strikes dealt during an Eclipse cause their victims to languish for an additional 20% of damage dealt for 8 sec.",
       "pvp_tooltip": "Your critical strikes dealt during an Eclipse cause their victims to languish for an additional 20% of damage dealt for 8 sec.",
@@ -7974,8 +8296,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8003,7 +8325,10 @@
         "talent_name": "Ascendant Eclipses",
         "spell_id": 1261566,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_druid_ascendanceeclipses"
+        "icon": "inv12_apextalent_druid_ascendanceeclipses",
+        "icon_candidates": [
+          "inv12_apextalent_druid_ascendanceeclipses"
+        ]
       },
       "pve_tooltip": "Activating an Eclipse also launches Solar or Lunar Bolts at enemies within 40 yds that always critically strike.\nSolar Bolt\nEntering Solar Eclipse launches a Solar Bolt at 1 enemy that deals (632.5% of Spell Power) Nature damage.\nLunar Bolt\nEntering Lunar Eclipse launches 3 Lunar Bolts at enemies that deal (100% of Spell Power) Arcane damage to them and nearby targets. Deals reduced damage beyond 5 targets.\n(200ms cooldown)",
       "pvp_tooltip": "Activating an Eclipse also launches Solar or Lunar Bolts at enemies within 40 yds that always critically strike.\nSolar Bolt\nEntering Solar Eclipse launches a Solar Bolt at 1 enemy that deals (506% of Spell Power) Nature damage.\nLunar Bolt\nEntering Lunar Eclipse launches 3 Lunar Bolts at enemies that deal (72.8% of Spell Power) Arcane damage to them and nearby targets. Deals reduced damage beyond 5 targets.\n(200ms cooldown)",
@@ -8059,7 +8384,7 @@
           "talent_spell_id": 1261566,
           "source_spell_id": 1261573,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (SP mod: 6.325)",
+          "effect_text": "School Damage (2): nature (SP mod: 6.325)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8086,10 +8411,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8097,7 +8423,7 @@
           "talent_spell_id": 1261566,
           "source_spell_id": 1263137,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane)",
+          "effect_text": "School Damage (2): arcane (SP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 0.91,
           "amount_kind": "direct",
@@ -8124,9 +8450,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8146,8 +8472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8180,7 +8506,10 @@
         "talent_name": "Boundless Moonlight",
         "spell_id": 424058,
         "visible_spell_id": null,
-        "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
+        "icon": "inv_ability_eluneschosendruid_boundlessmoonlight",
+        "icon_candidates": [
+          "inv_ability_eluneschosendruid_boundlessmoonlight"
+        ]
       },
       "pve_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor Moons that deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
       "pvp_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (192.2652% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor Moons that deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
@@ -8257,7 +8586,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8284,9 +8613,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8306,8 +8635,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8339,7 +8668,10 @@
         "talent_name": "Moon Guardian",
         "spell_id": 429520,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "Moonfire and Starfire generate 2 additional Astral Power.",
       "pvp_tooltip": "Moonfire and Starfire generate 2 additional Astral Power.",
@@ -8363,8 +8695,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8396,7 +8728,10 @@
         "talent_name": "Lunar Insight",
         "spell_id": 429530,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Moonfire deals 20% increased damage.",
       "pvp_tooltip": "Moonfire deals 20% increased damage.",
@@ -8420,8 +8755,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8453,7 +8788,10 @@
         "talent_name": "Glistening Fur",
         "spell_id": 429533,
         "visible_spell_id": null,
-        "icon": "ability_druid_ironfur"
+        "icon": "ability_druid_ironfur",
+        "icon_candidates": [
+          "ability_druid_ironfur"
+        ]
       },
       "pve_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
       "pvp_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
@@ -8477,8 +8815,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8510,7 +8848,10 @@
         "talent_name": "Star Cascade",
         "spell_id": 1271206,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane03"
+        "icon": "spell_arcane_arcane03",
+        "icon_candidates": [
+          "spell_arcane_arcane03"
+        ]
       },
       "pve_tooltip": "Gaining Astral Power with Starfire has a 30% chance to launch a Starsurge at a victim at 50% effectiveness.",
       "pvp_tooltip": "Gaining Astral Power with Starfire has a 30% chance to launch a Starsurge at a victim at 50% effectiveness.",
@@ -8534,8 +8875,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8567,7 +8908,10 @@
         "talent_name": "Stellar Command",
         "spell_id": 429668,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "Increases the damage of Fury of Elune by 15% and the damage of Full Moon by 25%.",
       "pvp_tooltip": "Increases the damage of Fury of Elune by 15% and the damage of Full Moon by 25%.",
@@ -8591,8 +8935,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8624,7 +8968,10 @@
         "talent_name": "Atmospheric Exposure",
         "spell_id": 429532,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_nova"
+        "icon": "inv_cosmicvoid_nova",
+        "icon_candidates": [
+          "inv_cosmicvoid_nova"
+        ]
       },
       "pve_tooltip": "Enemies damaged by Full Moon or Fury of Elune take 6% increased damage from you for 6 sec.",
       "pvp_tooltip": "Enemies damaged by Full Moon or Fury of Elune take 6% increased damage from you for 6 sec.",
@@ -8648,8 +8995,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8681,7 +9028,10 @@
         "talent_name": "Moondust",
         "spell_id": 429538,
         "visible_spell_id": null,
-        "icon": "inv_enchant_dust"
+        "icon": "inv_enchant_dust",
+        "icon_candidates": [
+          "inv_enchant_dust"
+        ]
       },
       "pve_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
       "pvp_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
@@ -8786,8 +9136,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8819,7 +9169,10 @@
         "talent_name": "Elune's Grace",
         "spell_id": 443046,
         "visible_spell_id": null,
-        "icon": "spell_druid_wildcharge"
+        "icon": "spell_druid_wildcharge",
+        "icon_candidates": [
+          "spell_druid_wildcharge"
+        ]
       },
       "pve_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
       "pvp_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
@@ -8843,8 +9196,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8876,7 +9229,10 @@
         "talent_name": "Penumbral Swell",
         "spell_id": 1271261,
         "visible_spell_id": null,
-        "icon": "ability_druid_eclipse"
+        "icon": "ability_druid_eclipse",
+        "icon_candidates": [
+          "ability_druid_eclipse"
+        ]
       },
       "pve_tooltip": "Lunar Eclipse increases Arcane damage by an additional 3%.",
       "pvp_tooltip": "Lunar Eclipse increases Arcane damage by an additional 3%.",
@@ -8900,8 +9256,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8933,7 +9289,10 @@
         "talent_name": "Lunar Calling",
         "spell_id": 429523,
         "visible_spell_id": null,
-        "icon": "ability_druid_cresentburn"
+        "icon": "ability_druid_cresentburn",
+        "icon_candidates": [
+          "ability_druid_cresentburn"
+        ]
       },
       "pve_tooltip": "Starfire deals 120% increased damage to its primary target.\nWrath no longer changes your Eclipse ability's mode to Solar Eclipse.",
       "pvp_tooltip": "Starfire deals 60% increased damage to its primary target.\nWrath no longer changes your Eclipse ability's mode to Solar Eclipse.",
@@ -9004,8 +9363,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9037,7 +9396,10 @@
         "talent_name": "The Light of Elune",
         "spell_id": 428655,
         "visible_spell_id": null,
-        "icon": "ability_druid_dreamstate"
+        "icon": "ability_druid_dreamstate",
+        "icon_candidates": [
+          "ability_druid_dreamstate"
+        ]
       },
       "pve_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
       "pvp_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (14.672% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
@@ -9121,8 +9483,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9154,7 +9516,10 @@
         "talent_name": "Astral Insight",
         "spell_id": 429536,
         "visible_spell_id": null,
-        "icon": "spell_druid_incarnation"
+        "icon": "spell_druid_incarnation",
+        "icon_candidates": [
+          "spell_druid_incarnation"
+        ]
       },
       "pve_tooltip": "Incarnation: Chosen of Elune increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
       "pvp_tooltip": "Incarnation: Chosen of Elune increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
@@ -9178,8 +9543,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9211,7 +9576,10 @@
         "talent_name": "Arcane Affinity",
         "spell_id": 429540,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane01"
+        "icon": "spell_arcane_arcane01",
+        "icon_candidates": [
+          "spell_arcane_arcane01"
+        ]
       },
       "pve_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
       "pvp_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
@@ -9235,8 +9603,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9268,7 +9636,10 @@
         "talent_name": "Lunation",
         "spell_id": 429539,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "Your Arcane abilities reduce the cooldown of Fury of Elune by 1.5 sec and the cooldown of New Moon, Half Moon, and Full Moon by 1.0 sec.",
       "pvp_tooltip": "Your Arcane abilities reduce the cooldown of Fury of Elune by 1.5 sec and the cooldown of New Moon, Half Moon, and Full Moon by 1.0 sec.",
@@ -9292,8 +9663,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9325,7 +9696,10 @@
         "talent_name": "Bask in Moonlight",
         "spell_id": 1271305,
         "visible_spell_id": null,
-        "icon": "spell_holy_elunesgrace"
+        "icon": "spell_holy_elunesgrace",
+        "icon_candidates": [
+          "spell_holy_elunesgrace"
+        ]
       },
       "pve_tooltip": "Starsurge damage increased by 5%.\nStarfall damage increased by 10%.",
       "pvp_tooltip": "Starsurge damage increased by 5%.\nStarfall damage increased by 10%.",
@@ -9349,8 +9723,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9383,7 +9757,10 @@
         "talent_name": "The Eternal Moon",
         "spell_id": 424113,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_newmoon"
+        "icon": "artifactability_balancedruid_newmoon",
+        "icon_candidates": [
+          "artifactability_balancedruid_newmoon"
+        ]
       },
       "pve_tooltip": "Further increases the power of Boundless Moonlight.\nFury of Elune\nThe flash of energy now generates 6 Astral Power and its damage is increased by 50%.\nFull Moon\nNew Moon and Half Moon now also call down 1 Minor Moon.",
       "pvp_tooltip": "Further increases the power of Boundless Moonlight.\nFury of Elune\nThe flash of energy now generates 6 Astral Power and its damage is increased by 50%.\nFull Moon\nNew Moon and Half Moon now also call down 1 Minor Moon.",
@@ -9399,7 +9776,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -9426,9 +9803,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9492,8 +9869,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9526,7 +9903,10 @@
         "talent_name": "Dream Surge",
         "spell_id": 433831,
         "visible_spell_id": null,
-        "icon": "inv_ability_keeperofthegrovedruid_dreamsurge_fiendly"
+        "icon": "inv_ability_keeperofthegrovedruid_dreamsurge_fiendly",
+        "icon_candidates": [
+          "inv_ability_keeperofthegrovedruid_dreamsurge_fiendly"
+        ]
       },
       "pve_tooltip": "Force of Nature grants 3 charges of Dream Burst, causing your next Wrath or Starfire to explode on the target, dealing [(393% of Attack Power) * 1.06] Nature damage to nearby enemies. Damage reduced above 5 targets.",
       "pvp_tooltip": "Force of Nature grants 3 charges of Dream Burst, causing your next Wrath or Starfire to explode on the target, dealing [(157.2% of Attack Power) * 1.06] Nature damage to nearby enemies. Damage reduced above 5 targets.",
@@ -9563,7 +9943,7 @@
           "talent_spell_id": 433831,
           "source_spell_id": 433850,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
+          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5), Suppress Points Stacking (6) (AP mod: 3.93)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -9590,9 +9970,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9612,8 +9992,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9645,7 +10025,10 @@
         "talent_name": "Treants of the Moon",
         "spell_id": 428544,
         "visible_spell_id": null,
-        "icon": "spell_nature_starfall"
+        "icon": "spell_nature_starfall",
+        "icon_candidates": [
+          "spell_nature_starfall"
+        ]
       },
       "pve_tooltip": "Your Force of Nature treants cast Moonfire on nearby targets about once every 6 sec.",
       "pvp_tooltip": "Your Force of Nature treants cast Moonfire on nearby targets about once every 6 sec.",
@@ -9669,8 +10052,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9702,7 +10085,10 @@
         "talent_name": "Expansiveness",
         "spell_id": 429399,
         "visible_spell_id": null,
-        "icon": "spell_nature_abolishmagic"
+        "icon": "spell_nature_abolishmagic",
+        "icon_candidates": [
+          "spell_nature_abolishmagic"
+        ]
       },
       "pve_tooltip": "Your maximum mana is increased by 5% and your maximum Astral Power is increased by 20.",
       "pvp_tooltip": "Your maximum mana is increased by 5% and your maximum Astral Power is increased by 20.",
@@ -9726,8 +10112,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9759,7 +10145,10 @@
         "talent_name": "Protective Growth",
         "spell_id": 433748,
         "visible_spell_id": null,
-        "icon": "spell_nature_resistnature"
+        "icon": "spell_nature_resistnature",
+        "icon_candidates": [
+          "spell_nature_resistnature"
+        ]
       },
       "pve_tooltip": "Your Regrowth protects you, reducing damage you take by 8% while your Regrowth is on you.",
       "pvp_tooltip": "Your Regrowth protects you, reducing damage you take by 8% while your Regrowth is on you.",
@@ -9783,8 +10172,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9816,7 +10205,10 @@
         "talent_name": "Sylvan Beckoning",
         "spell_id": 1264614,
         "visible_spell_id": null,
-        "icon": "ui_darkshore_warfront_alliance_dryad"
+        "icon": "ui_darkshore_warfront_alliance_dryad",
+        "icon_candidates": [
+          "ui_darkshore_warfront_alliance_dryad"
+        ]
       },
       "pve_tooltip": "Approximately 1 procs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
       "pvp_tooltip": "Approximately 1 procs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
@@ -9840,8 +10232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9873,7 +10265,10 @@
         "talent_name": "Power of Nature",
         "spell_id": 428859,
         "visible_spell_id": null,
-        "icon": "spell_nature_naturesblessing"
+        "icon": "spell_nature_naturesblessing",
+        "icon_candidates": [
+          "spell_nature_naturesblessing"
+        ]
       },
       "pve_tooltip": "Your Force of Nature treants no longer taunt and deal 300% increased melee damage.",
       "pvp_tooltip": "Your Force of Nature treants no longer taunt and deal 300% increased melee damage.",
@@ -9897,8 +10292,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9930,7 +10325,10 @@
         "talent_name": "Durability of Nature",
         "spell_id": 429227,
         "visible_spell_id": null,
-        "icon": "ability_druid_manatree"
+        "icon": "ability_druid_manatree",
+        "icon_candidates": [
+          "ability_druid_manatree"
+        ]
       },
       "pve_tooltip": "Your Force of Nature treants have 100% increased health.",
       "pvp_tooltip": "Your Force of Nature treants have 100% increased health.",
@@ -9954,8 +10352,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9987,7 +10385,10 @@
         "talent_name": "Cenarius' Might",
         "spell_id": 455797,
         "visible_spell_id": null,
-        "icon": "achievement_reputation_guardiansofcenarius"
+        "icon": "achievement_reputation_guardiansofcenarius",
+        "icon_candidates": [
+          "achievement_reputation_guardiansofcenarius"
+        ]
       },
       "pve_tooltip": "Entering Eclipse increases your haste by 6% for 6 sec.",
       "pvp_tooltip": "Entering Eclipse increases your haste by 6% for 6 sec.",
@@ -10011,8 +10412,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10044,7 +10445,10 @@
         "talent_name": "Grove's Inspiration",
         "spell_id": 429402,
         "visible_spell_id": null,
-        "icon": "ability_druid_protectionofthegrove"
+        "icon": "ability_druid_protectionofthegrove",
+        "icon_candidates": [
+          "ability_druid_protectionofthegrove"
+        ]
       },
       "pve_tooltip": "Wrath and Starfire damage increased by 10%.\nRegrowth and Wild Growth healing increased by 9%.",
       "pvp_tooltip": "Wrath and Starfire damage increased by 10%.\nRegrowth and Wild Growth healing increased by 9%.",
@@ -10068,8 +10472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10101,35 +10505,17 @@
         "talent_name": "Potent Enchantments",
         "spell_id": 429420,
         "visible_spell_id": null,
-        "icon": "ability_druid_serenefocus"
+        "icon": "ability_druid_serenefocus",
+        "icon_candidates": [
+          "ability_druid_serenefocus"
+        ]
       },
       "pve_tooltip": "Orbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Celestial Alignment by an additional 6%.\nOrbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Incarnation: Chosen of Elune",
-      "pvp_tooltip": "Orbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Celestial Alignment by an additional 4%.\nOrbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Incarnation: Chosen of Elune",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 186,
-          "end": 187,
-          "old_token": "6",
-          "new_token": "4",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            5
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "6",
-          "new": "4"
-        }
-      ],
+      "pvp_tooltip": "Orbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Celestial Alignment by an additional 6%.\nOrbital Strike damage increased by 30%, and damage of Stellar Flares it applies increased by 30%.\nWhirling Stars increases the haste you gain during Incarnation: Chosen of Elune",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10158,7 +10544,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -10172,8 +10558,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10205,7 +10591,10 @@
         "talent_name": "Dryad's Dance",
         "spell_id": 1264776,
         "visible_spell_id": null,
-        "icon": "inv_stave_2h_druid_a_01"
+        "icon": "inv_stave_2h_druid_a_01",
+        "icon_candidates": [
+          "inv_stave_2h_druid_a_01"
+        ]
       },
       "pve_tooltip": "Dryads cause most of your Astral power generation to be increased by 10%.",
       "pvp_tooltip": "Dryads cause most of your Astral power generation to be increased by 10%.",
@@ -10229,8 +10618,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10262,7 +10651,10 @@
         "talent_name": "Bounteous Bloom",
         "spell_id": 429215,
         "visible_spell_id": null,
-        "icon": "inv_herbalism_70_dreamleaf"
+        "icon": "inv_herbalism_70_dreamleaf",
+        "icon_candidates": [
+          "inv_herbalism_70_dreamleaf"
+        ]
       },
       "pve_tooltip": "Force of Nature Treants last 4 sec longer.",
       "pvp_tooltip": "Force of Nature Treants last 4 sec longer.",
@@ -10286,8 +10678,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10319,7 +10711,10 @@
         "talent_name": "Early Spring",
         "spell_id": 428937,
         "visible_spell_id": null,
-        "icon": "inv_misc_trailofflowers"
+        "icon": "inv_misc_trailofflowers",
+        "icon_candidates": [
+          "inv_misc_trailofflowers"
+        ]
       },
       "pve_tooltip": "Force of Nature cooldown reduced by 15 sec.",
       "pvp_tooltip": "Force of Nature cooldown reduced by 15 sec.",
@@ -10343,8 +10738,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10376,7 +10771,10 @@
         "talent_name": "Power of the Dream",
         "spell_id": 434220,
         "visible_spell_id": null,
-        "icon": "ability_xavius_dreamsimulacrum"
+        "icon": "ability_xavius_dreamsimulacrum",
+        "icon_candidates": [
+          "ability_xavius_dreamsimulacrum"
+        ]
       },
       "pve_tooltip": "Force of Nature grants an additional stack of Dream Burst.",
       "pvp_tooltip": "Force of Nature grants an additional stack of Dream Burst.",
@@ -10400,8 +10798,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10433,7 +10831,10 @@
         "talent_name": "Control of the Dream",
         "spell_id": 434249,
         "visible_spell_id": null,
-        "icon": "inv_cloth_outdooremeralddream_d_01_buckle"
+        "icon": "inv_cloth_outdooremeralddream_d_01_buckle",
+        "icon_candidates": [
+          "inv_cloth_outdooremeralddream_d_01_buckle"
+        ]
       },
       "pve_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature, and Convoke the Spirits.",
       "pvp_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature, and Convoke the Spirits.",
@@ -10457,8 +10858,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10490,7 +10891,10 @@
         "talent_name": "Blooming Infusion",
         "spell_id": 429433,
         "visible_spell_id": null,
-        "icon": "spell_nature_thorns"
+        "icon": "spell_nature_thorns",
+        "icon_candidates": [
+          "spell_nature_thorns"
+        ]
       },
       "pve_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant.",
       "pvp_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 25%.\nEvery 5 Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant.",
@@ -10527,7 +10931,7 @@
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -10544,9 +10948,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10566,8 +10970,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10599,7 +11003,10 @@
         "talent_name": "Spirit of the Thicket",
         "spell_id": 1264899,
         "visible_spell_id": null,
-        "icon": "ability_druid_naturalperfection"
+        "icon": "ability_druid_naturalperfection",
+        "icon_candidates": [
+          "ability_druid_naturalperfection"
+        ]
       },
       "pve_tooltip": "Your Starfall damage is increased by 18% and your Starsurge damage is increased by 8%.",
       "pvp_tooltip": "Your Starfall damage is increased by 18% and your Starsurge damage is increased by 8%.",
@@ -10623,8 +11030,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10657,7 +11064,10 @@
         "talent_name": "Harmony of the Grove",
         "spell_id": 428731,
         "visible_spell_id": null,
-        "icon": "ability_druid_forceofnature"
+        "icon": "ability_druid_forceofnature",
+        "icon_candidates": [
+          "ability_druid_forceofnature"
+        ]
       },
       "pve_tooltip": "Each of your Force of Nature treants increases damage your spells deal by 4% while active.",
       "pvp_tooltip": "Each of your Force of Nature treants increases damage your spells deal by 2% while active.",
@@ -10693,8 +11103,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10711,9 +11121,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10723,8 +11133,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10741,9 +11151,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11106,10 +11516,10 @@
   },
   "source_warnings": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-22T19:24:54.370782+00:00",
+  "generated_at": "2026-09-24T11:41:16.182922+00:00",
   "validation": {
     "talents": 142,
-    "changed_tooltips": 25,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 33,
     "unique_nodes": 119,
     "tree_build": "12.1.0.69933",
@@ -11119,11 +11529,37 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 9,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 428682,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 428735,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428735'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 429474,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=429474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 433850,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=433850'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1240913,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1240913'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

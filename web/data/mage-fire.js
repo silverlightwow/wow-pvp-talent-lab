@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blazing Barrier",
         "spell_id": 235313,
         "visible_spell_id": null,
-        "icon": "ability_mage_moltenarmor"
+        "icon": "ability_mage_moltenarmor",
+        "icon_candidates": [
+          "ability_mage_moltenarmor"
+        ]
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
       "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
@@ -202,8 +205,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -236,7 +239,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Alter Time",
         "spell_id": 342245,
         "visible_spell_id": null,
-        "icon": "spell_mage_altertime"
+        "icon": "spell_mage_altertime",
+        "icon_candidates": [
+          "spell_mage_altertime"
+        ]
       },
       "pve_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
       "pvp_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
@@ -260,8 +266,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -294,7 +300,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ice Block",
         "spell_id": 45438,
         "visible_spell_id": null,
-        "icon": "spell_frost_frost"
+        "icon": "spell_frost_frost",
+        "icon_candidates": [
+          "spell_frost_frost"
+        ]
       },
       "pve_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
       "pvp_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
@@ -318,8 +327,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -351,7 +360,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Walk",
         "spell_id": 1244087,
         "visible_spell_id": null,
-        "icon": "warrior_doubletime"
+        "icon": "warrior_doubletime",
+        "icon_candidates": [
+          "warrior_doubletime"
+        ]
       },
       "pve_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
       "pvp_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
@@ -375,8 +387,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -408,7 +420,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Temporal Realignment",
         "spell_id": 1244090,
         "visible_spell_id": null,
-        "icon": "ability_evoker_timedilation"
+        "icon": "ability_evoker_timedilation",
+        "icon_candidates": [
+          "ability_evoker_timedilation"
+        ]
       },
       "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
       "pvp_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
@@ -432,8 +447,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -466,7 +481,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Time",
         "spell_id": 342249,
         "visible_spell_id": null,
-        "icon": "inv_belt_armor_waistoftime_d_01"
+        "icon": "inv_belt_armor_waistoftime_d_01",
+        "icon_candidates": [
+          "inv_belt_armor_waistoftime_d_01"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
       "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
@@ -509,8 +527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -543,7 +561,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Winter's Protection",
         "spell_id": 382424,
         "visible_spell_id": null,
-        "icon": "spell_ice_rune"
+        "icon": "spell_ice_rune",
+        "icon_candidates": [
+          "spell_ice_rune"
+        ]
       },
       "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
       "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
@@ -663,8 +684,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -696,7 +717,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frost Conditioning",
         "spell_id": 1250315,
         "visible_spell_id": null,
-        "icon": "spell_frost_icefloes"
+        "icon": "spell_frost_icefloes",
+        "icon_candidates": [
+          "spell_frost_icefloes"
+        ]
       },
       "pve_tooltip": "Hypothermia's duration is reduced by 10 sec.",
       "pvp_tooltip": "Hypothermia's duration is reduced by 10 sec.",
@@ -720,8 +744,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -755,7 +779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arcane Warding",
         "spell_id": 383092,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcaneresilience"
+        "icon": "spell_arcane_arcaneresilience",
+        "icon_candidates": [
+          "spell_arcane_arcaneresilience"
+        ]
       },
       "pve_tooltip": "Reduces magic damage taken by 8%.",
       "pvp_tooltip": "Reduces magic damage taken by 8%.",
@@ -798,8 +825,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -834,7 +861,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inspired Intellect",
         "spell_id": 458437,
         "visible_spell_id": null,
-        "icon": "spell_holy_arcaneintellect"
+        "icon": "spell_holy_arcaneintellect",
+        "icon_candidates": [
+          "spell_holy_arcaneintellect"
+        ]
       },
       "pve_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
       "pvp_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
@@ -858,8 +888,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -893,7 +923,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mirror Image",
         "spell_id": 55342,
         "visible_spell_id": null,
-        "icon": "spell_magic_lesserinvisibilty"
+        "icon": "spell_magic_lesserinvisibilty",
+        "icon_candidates": [
+          "spell_magic_lesserinvisibilty"
+        ]
       },
       "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
       "pvp_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
@@ -917,8 +950,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -951,7 +984,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spellsteal",
         "spell_id": 30449,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane02"
+        "icon": "spell_arcane_arcane02",
+        "icon_candidates": [
+          "spell_arcane_arcane02"
+        ]
       },
       "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
       "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
@@ -975,8 +1011,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1011,7 +1047,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Witted",
         "spell_id": 382297,
         "visible_spell_id": null,
-        "icon": "ability_priest_surgeofdarkness"
+        "icon": "ability_priest_surgeofdarkness",
+        "icon_candidates": [
+          "ability_priest_surgeofdarkness"
+        ]
       },
       "pve_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
       "pvp_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
@@ -1035,8 +1074,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1068,7 +1107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dragon's Breath",
         "spell_id": 31661,
         "visible_spell_id": null,
-        "icon": "inv_misc_head_dragon_01"
+        "icon": "inv_misc_head_dragon_01",
+        "icon_candidates": [
+          "inv_misc_head_dragon_01"
+        ]
       },
       "pve_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (66.99% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.\nAlways deals a critical strike and contributes to Hot Streak.",
       "pvp_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (60.9609% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.\nAlways deals a critical strike and contributes to Hot Streak.",
@@ -1147,8 +1189,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1180,7 +1222,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Supernova",
         "spell_id": 157980,
         "visible_spell_id": null,
-        "icon": "spell_mage_supernova"
+        "icon": "spell_mage_supernova",
+        "icon_candidates": [
+          "spell_mage_supernova"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (34.5% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
       "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (31.395% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
@@ -1259,8 +1304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1295,7 +1340,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Remove Curse",
         "spell_id": 475,
         "visible_spell_id": null,
-        "icon": "spell_nature_removecurse"
+        "icon": "spell_nature_removecurse",
+        "icon_candidates": [
+          "spell_nature_removecurse"
+        ]
       },
       "pve_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
       "pvp_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
@@ -1319,8 +1367,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1352,7 +1400,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Conjuration",
         "spell_id": 1244025,
         "visible_spell_id": null,
-        "icon": "spell_arcane_focusedpower"
+        "icon": "spell_arcane_focusedpower",
+        "icon_candidates": [
+          "spell_arcane_focusedpower"
+        ]
       },
       "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
@@ -1464,8 +1515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1497,7 +1548,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Spellsteal",
         "spell_id": 1270827,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcane02"
+        "icon": "spell_arcane_arcane02",
+        "icon_candidates": [
+          "spell_arcane_arcane02"
+        ]
       },
       "pve_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
       "pvp_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
@@ -1617,8 +1671,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1653,7 +1707,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shimmer",
         "spell_id": 212653,
         "visible_spell_id": null,
-        "icon": "spell_arcane_massdispel"
+        "icon": "spell_arcane_massdispel",
+        "icon_candidates": [
+          "spell_arcane_massdispel"
+        ]
       },
       "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
       "pvp_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
@@ -1718,8 +1775,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1754,7 +1811,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Blink",
         "spell_id": 1244340,
         "visible_spell_id": null,
-        "icon": "spell_arcane_blink"
+        "icon": "spell_arcane_blink",
+        "icon_candidates": [
+          "spell_arcane_blink"
+        ]
       },
       "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
       "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 1 sec.",
@@ -1825,8 +1885,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1858,7 +1918,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Counterspell",
         "spell_id": 1270865,
         "visible_spell_id": null,
-        "icon": "inv_1115_mage_counterspell"
+        "icon": "inv_1115_mage_counterspell",
+        "icon_candidates": [
+          "inv_1115_mage_counterspell"
+        ]
       },
       "pve_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
       "pvp_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
@@ -1882,8 +1945,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1919,7 +1982,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overflowing Energy",
         "spell_id": 390218,
         "visible_spell_id": null,
-        "icon": "spell_arcane_manatap"
+        "icon": "spell_arcane_manatap",
+        "icon_candidates": [
+          "spell_arcane_manatap"
+        ]
       },
       "pve_tooltip": "Each time your Fireball fails to critically strike, it gains 20% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
       "pvp_tooltip": "Each time your Fireball fails to critically strike, it gains 20% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
@@ -1943,8 +2009,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1976,7 +2042,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Remove Curse",
         "spell_id": 1270847,
         "visible_spell_id": null,
-        "icon": "spell_nature_removecurse"
+        "icon": "spell_nature_removecurse",
+        "icon_candidates": [
+          "spell_nature_removecurse"
+        ]
       },
       "pve_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
       "pvp_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
@@ -2000,8 +2069,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2036,7 +2105,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Greater Invisibility",
         "spell_id": 110959,
         "visible_spell_id": null,
-        "icon": "ability_mage_greaterinvisibility"
+        "icon": "ability_mage_greaterinvisibility",
+        "icon_candidates": [
+          "ability_mage_greaterinvisibility"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
       "pvp_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
@@ -2060,8 +2132,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2094,7 +2166,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Frost Nova",
         "spell_id": 343183,
         "visible_spell_id": null,
-        "icon": "spell_frost_frostnova"
+        "icon": "spell_frost_frostnova",
+        "icon_candidates": [
+          "spell_frost_frostnova"
+        ]
       },
       "pve_tooltip": "Frost Nova duration is increased by 2 sec.",
       "pvp_tooltip": "Frost Nova duration is increased by 2 sec.",
@@ -2118,8 +2193,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2152,7 +2227,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ice Ward",
         "spell_id": 205036,
         "visible_spell_id": null,
-        "icon": "spell_frost_frostward"
+        "icon": "spell_frost_frostward",
+        "icon_candidates": [
+          "spell_frost_frostward"
+        ]
       },
       "pve_tooltip": "Frost Nova now has 2 charges.",
       "pvp_tooltip": "Frost Nova now has 2 charges.",
@@ -2176,8 +2254,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2209,7 +2287,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Captured Thoughts",
         "spell_id": 1270872,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalabsorption"
+        "icon": "spell_nature_elementalabsorption",
+        "icon_candidates": [
+          "spell_nature_elementalabsorption"
+        ]
       },
       "pve_tooltip": "The duration of Hot Streak is increased by 15 sec.",
       "pvp_tooltip": "The duration of Hot Streak is increased by 15 sec.",
@@ -2233,8 +2314,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2270,7 +2351,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tome of Rhonin",
         "spell_id": 382493,
         "visible_spell_id": null,
-        "icon": "inv_misc_book_04"
+        "icon": "inv_misc_book_04",
+        "icon_candidates": [
+          "inv_misc_book_04"
+        ]
       },
       "pve_tooltip": "Increases critical strike chance by 2%.",
       "pvp_tooltip": "Increases critical strike chance by 2%.",
@@ -2294,8 +2378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2327,7 +2411,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Warding",
         "spell_id": 1297073,
         "visible_spell_id": null,
-        "icon": "inv_cloth_raidmage_p_01helm"
+        "icon": "inv_cloth_raidmage_p_01helm",
+        "icon_candidates": [
+          "inv_cloth_raidmage_p_01helm"
+        ]
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
       "pvp_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
@@ -2351,8 +2438,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2388,7 +2475,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tome of Antonidas",
         "spell_id": 382490,
         "visible_spell_id": null,
-        "icon": "inv_misc_book_18"
+        "icon": "inv_misc_book_18",
+        "icon_candidates": [
+          "inv_misc_book_18"
+        ]
       },
       "pve_tooltip": "Increases Haste by 2%.",
       "pvp_tooltip": "Increases Haste by 2%.",
@@ -2412,8 +2502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2445,7 +2535,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Incantation of Swiftness",
         "spell_id": 382293,
         "visible_spell_id": null,
-        "icon": "rogue_burstofspeed"
+        "icon": "rogue_burstofspeed",
+        "icon_candidates": [
+          "rogue_burstofspeed"
+        ]
       },
       "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
       "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
@@ -2557,8 +2650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2590,7 +2683,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Escape",
         "spell_id": 210476,
         "visible_spell_id": null,
-        "icon": "ability_mage_invisibility"
+        "icon": "ability_mage_invisibility",
+        "icon_candidates": [
+          "ability_mage_invisibility"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
@@ -2614,8 +2710,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2651,7 +2747,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Charm of Aegwynn",
         "spell_id": 1244105,
         "visible_spell_id": null,
-        "icon": "inv_nerubian_necklace_02_color5"
+        "icon": "inv_nerubian_necklace_02_color5",
+        "icon_candidates": [
+          "inv_nerubian_necklace_02_color5"
+        ]
       },
       "pve_tooltip": "The critical strike damage of your spells is increased by 5%.",
       "pvp_tooltip": "The critical strike damage of your spells is increased by 5%.",
@@ -2675,8 +2774,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2708,7 +2807,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Brainstorm",
         "spell_id": 461261,
         "visible_spell_id": null,
-        "icon": "ability_kaztik_dominatemind"
+        "icon": "ability_kaztik_dominatemind",
+        "icon_candidates": [
+          "ability_kaztik_dominatemind"
+        ]
       },
       "pve_tooltip": "Gaining Hot Streak increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
       "pvp_tooltip": "Gaining Hot Streak increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
@@ -2732,8 +2834,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2769,7 +2871,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flow of Time",
         "spell_id": 382268,
         "visible_spell_id": null,
-        "icon": "spell_arcane_blink"
+        "icon": "spell_arcane_blink",
+        "icon_candidates": [
+          "spell_arcane_blink"
+        ]
       },
       "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
       "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 1.5 sec.",
@@ -2821,6 +2926,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -2845,6 +2951,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -2865,8 +2972,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2898,7 +3005,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mana Confluence",
         "spell_id": 1270845,
         "visible_spell_id": null,
-        "icon": "spell_shaman_blessingoftheeternals"
+        "icon": "spell_shaman_blessingoftheeternals",
+        "icon_candidates": [
+          "spell_shaman_blessingoftheeternals"
+        ]
       },
       "pve_tooltip": "Your mana costs are reduced by 5%.",
       "pvp_tooltip": "Your mana costs are reduced by 5%.",
@@ -2922,8 +3032,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2959,7 +3069,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Charm of Medivh",
         "spell_id": 1244107,
         "visible_spell_id": null,
-        "icon": "inv_nerubian_necklace_02_color1"
+        "icon": "inv_nerubian_necklace_02_color1",
+        "icon_candidates": [
+          "inv_nerubian_necklace_02_color1"
+        ]
       },
       "pve_tooltip": "Your Mastery is increased by 3%.",
       "pvp_tooltip": "Your Mastery is increased by 3%.",
@@ -2983,8 +3096,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3016,7 +3129,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Permafrost Bauble",
         "spell_id": 1265517,
         "visible_spell_id": null,
-        "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost"
+        "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost",
+        "icon_candidates": [
+          "inv_10_dungeonjewelry_primalist_necklace_2_frost"
+        ]
       },
       "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
@@ -3040,8 +3156,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3073,7 +3189,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Freezing Cold",
         "spell_id": 386763,
         "visible_spell_id": null,
-        "icon": "spell_frost_glacier"
+        "icon": "spell_frost_glacier",
+        "icon_candidates": [
+          "spell_frost_glacier"
+        ]
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
       "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 70%, decaying over 3 sec.",
@@ -3149,8 +3268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3182,7 +3301,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ice Nova",
         "spell_id": 157997,
         "visible_spell_id": null,
-        "icon": "spell_mage_icenova"
+        "icon": "spell_mage_icenova",
+        "icon_candidates": [
+          "spell_mage_icenova"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (138% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (125.58% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
@@ -3261,8 +3383,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3297,7 +3419,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Manipulation",
         "spell_id": 387807,
         "visible_spell_id": null,
-        "icon": "spell_nature_timestop"
+        "icon": "spell_nature_timestop",
+        "icon_candidates": [
+          "spell_nature_timestop"
+        ]
       },
       "pve_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
       "pvp_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
@@ -3321,8 +3446,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3354,7 +3479,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ring of Frost",
         "spell_id": 113724,
         "visible_spell_id": null,
-        "icon": "spell_frost_ring_of_frost"
+        "icon": "spell_frost_ring_of_frost",
+        "icon_candidates": [
+          "spell_frost_ring_of_frost"
+        ]
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
       "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 50% for 4 sec.",
@@ -3430,8 +3558,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3463,7 +3591,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Polymorph",
         "spell_id": 383121,
         "visible_spell_id": null,
-        "icon": "spell_nature_doublepolymorph1"
+        "icon": "spell_nature_doublepolymorph1",
+        "icon_candidates": [
+          "spell_nature_doublepolymorph1"
+        ]
       },
       "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
       "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
@@ -3487,8 +3618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3523,7 +3654,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Energized Barriers",
         "spell_id": 386828,
         "visible_spell_id": null,
-        "icon": "spell_mage_temporalshield"
+        "icon": "spell_mage_temporalshield",
+        "icon_candidates": [
+          "spell_mage_temporalshield"
+        ]
       },
       "pve_tooltip": "Casting your barrier removes all snare effects.",
       "pvp_tooltip": "Casting your barrier removes all snare effects.",
@@ -3547,8 +3681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3580,7 +3714,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Invisibility",
         "spell_id": 414664,
         "visible_spell_id": null,
-        "icon": "ability_mage_massinvisibility"
+        "icon": "ability_mage_massinvisibility",
+        "icon_candidates": [
+          "ability_mage_massinvisibility"
+        ]
       },
       "pve_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
       "pvp_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
@@ -3604,8 +3741,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3637,7 +3774,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Barrier Diffusion",
         "spell_id": 455428,
         "visible_spell_id": null,
-        "icon": "spell_mage_evanesce"
+        "icon": "spell_mage_evanesce",
+        "icon_candidates": [
+          "spell_mage_evanesce"
+        ]
       },
       "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
       "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 2.5 sec.",
@@ -3708,8 +3848,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3741,7 +3881,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ice Cold",
         "spell_id": 414659,
         "visible_spell_id": null,
-        "icon": "spell_fire_bluefire"
+        "icon": "spell_fire_bluefire",
+        "icon_candidates": [
+          "spell_fire_bluefire"
+        ]
       },
       "pve_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
       "pvp_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
@@ -3765,8 +3908,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3798,7 +3941,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spatial Manipulation",
         "spell_id": 1244031,
         "visible_spell_id": null,
-        "icon": "spell_mage_overpowered"
+        "icon": "spell_mage_overpowered",
+        "icon_candidates": [
+          "spell_mage_overpowered"
+        ]
       },
       "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
       "pvp_tooltip": "[Shimmer / Blink] gains an additional charge.",
@@ -3822,8 +3968,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3855,7 +4001,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reflection",
         "spell_id": 1270829,
         "visible_spell_id": null,
-        "icon": "ability_hunter_displacement"
+        "icon": "ability_hunter_displacement",
+        "icon_candidates": [
+          "ability_hunter_displacement"
+        ]
       },
       "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
       "pvp_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
@@ -3879,8 +4028,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3912,7 +4061,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Blazing Barrier",
         "spell_id": 321708,
         "visible_spell_id": null,
-        "icon": "ability_mage_moltenarmor"
+        "icon": "ability_mage_moltenarmor",
+        "icon_candidates": [
+          "ability_mage_moltenarmor"
+        ]
       },
       "pve_tooltip": "Blazing Barrier gains an additional charge and cauterizes your wounds, healing you for 15% of the damage it absorbs.",
       "pvp_tooltip": "Blazing Barrier gains an additional charge and cauterizes your wounds, healing you for 15% of the damage it absorbs.",
@@ -3936,8 +4088,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3969,7 +4121,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pyroblast",
         "spell_id": 11366,
         "visible_spell_id": null,
-        "icon": "spell_fire_fireball02"
+        "icon": "spell_fire_fireball02",
+        "icon_candidates": [
+          "spell_fire_fireball02"
+        ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (638.8% of Spell Power) Fire damage.",
       "pvp_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (863.2424% of Spell Power) Fire damage.",
@@ -4088,8 +4243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4122,7 +4277,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fire Blast",
         "spell_id": 108853,
         "visible_spell_id": null,
-        "icon": "spell_fire_fireball"
+        "icon": "spell_fire_fireball",
+        "icon_candidates": [
+          "spell_fire_fireball"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(98.625% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(82.5689% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
@@ -4203,8 +4361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4234,7 +4392,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Firestarter",
         "spell_id": 205026,
         "visible_spell_id": null,
-        "icon": "spell_fire_fire"
+        "icon": "spell_fire_fire",
+        "icon_candidates": [
+          "spell_fire_fire"
+        ]
       },
       "pve_tooltip": "Your Fireball and Pyroblast spells always deal a critical strike when the target is above 90% health.",
       "pvp_tooltip": "Your Fireball and Pyroblast spells always deal a critical strike when the target is above 90% health.",
@@ -4258,8 +4419,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4292,7 +4453,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flamestrike",
         "spell_id": 2120,
         "visible_spell_id": null,
-        "icon": "spell_fire_selfdestruct"
+        "icon": "spell_fire_selfdestruct",
+        "icon_candidates": [
+          "spell_fire_selfdestruct"
+        ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
       "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
@@ -4428,8 +4592,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4462,7 +4626,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flamestrike",
         "spell_id": 1254851,
         "visible_spell_id": null,
-        "icon": "spell_fire_selfdestruct"
+        "icon": "spell_fire_selfdestruct",
+        "icon_candidates": [
+          "spell_fire_selfdestruct"
+        ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
       "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
@@ -4598,8 +4765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4631,7 +4798,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ignition",
         "spell_id": 1254756,
         "visible_spell_id": null,
-        "icon": "item_sparkofragnoros"
+        "icon": "item_sparkofragnoros",
+        "icon_candidates": [
+          "item_sparkofragnoros"
+        ]
       },
       "pve_tooltip": "Fire Blast now spreads 50% of your target's Ignite to 1 enemy.\nFlamestrike applies 15% more Ignite.",
       "pvp_tooltip": "Fire Blast now spreads 50% of your target's Ignite to 1 enemy.\nFlamestrike applies 15% more Ignite.",
@@ -4655,8 +4825,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4689,7 +4859,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combustion",
         "spell_id": 190319,
         "visible_spell_id": null,
-        "icon": "spell_fire_sealoffire"
+        "icon": "spell_fire_sealoffire",
+        "icon_candidates": [
+          "spell_fire_sealoffire"
+        ]
       },
       "pve_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[Additionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
       "pvp_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[Additionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
@@ -4713,8 +4886,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4746,7 +4919,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fuel the Fire",
         "spell_id": 416094,
         "visible_spell_id": null,
-        "icon": "ability_warlock_inferno"
+        "icon": "ability_warlock_inferno",
+        "icon_candidates": [
+          "ability_warlock_inferno"
+        ]
       },
       "pve_tooltip": "Flamestrike has a chance equal to 100% of your spell critical strike chance to build up to a Hot Streak.\nFlamestrike deals 5% increased damage for each enemy it damages, up to 25%.",
       "pvp_tooltip": "Flamestrike has a chance equal to 100% of your spell critical strike chance to build up to a Hot Streak.\nFlamestrike deals 5% increased damage for each enemy it damages, up to 25%.",
@@ -4770,8 +4946,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4804,7 +4980,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fervent Flickering",
         "spell_id": 387044,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembers"
+        "icon": "ability_warlock_burningembers",
+        "icon_candidates": [
+          "ability_warlock_burningembers"
+        ]
       },
       "pve_tooltip": "Fire Blast gains 1 additional charge and its damage is increased by 25%.",
       "pvp_tooltip": "Fire Blast gains 1 additional charge and its damage is increased by 25%.",
@@ -4828,8 +5007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4863,7 +5042,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cauterize",
         "spell_id": 86949,
         "visible_spell_id": null,
-        "icon": "spell_fire_rune"
+        "icon": "spell_fire_rune",
+        "icon_candidates": [
+          "spell_fire_rune"
+        ]
       },
       "pve_tooltip": "Fatal damage instead brings you to 35% health and then burns you for 28% of your maximum health over 6 sec.\nWhile burning, movement slowing effects are suppressed and your movement speed is increased by 150%.\nThis effect cannot occur more than once every 6 min.",
       "pvp_tooltip": "Fatal damage instead brings you to 35% health and then burns you for 28% of your maximum health over 6 sec.\nWhile burning, movement slowing effects are suppressed and your movement speed is increased by 150%.\nThis effect cannot occur more than once every 6 min.",
@@ -4887,8 +5069,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4921,17 +5103,20 @@ window.WOW_PVP_DATA = {
         "talent_name": "Meteor",
         "spell_id": 153561,
         "visible_spell_id": null,
-        "icon": "spell_mage_meteor"
+        "icon": "spell_mage_meteor",
+        "icon_candidates": [
+          "spell_mage_meteor"
+        ]
       },
-      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (900% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (52% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (900% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (104% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (664.3728% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (61.516% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 214,
-          "end": 216,
-          "old_token": "52",
+          "end": 217,
+          "old_token": "104",
           "new_token": "61.516",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
@@ -4965,7 +5150,7 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": "52",
+          "old": "104",
           "new": "61.516"
         }
       ],
@@ -4979,10 +5164,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
-          "spell_pvp_multiplier": 1.3,
+          "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
           "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.183,
+          "final_pvp_multiplier": 0.5915,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5005,9 +5190,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 155158,
+              "talent_name": "Meteor",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.3,
+              "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 215526,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 153561,
+              "source_spell_id": 155158,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                153561,
+                155158
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.65,
+              "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 155158,
+              "talent_name": "Isothermic Core",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.3,
+              "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 215526,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 431095,
+              "source_spell_id": 155158,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                431095,
+                351140,
+                153561,
+                155158
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.65,
+              "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -5065,8 +5313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5099,7 +5347,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scorch",
         "spell_id": 2948,
         "visible_spell_id": null,
-        "icon": "spell_fire_soulburn"
+        "icon": "spell_fire_soulburn",
+        "icon_candidates": [
+          "spell_fire_soulburn"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (100% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
       "pvp_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (273% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
@@ -5180,8 +5431,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5215,7 +5466,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flame On",
         "spell_id": 205029,
         "visible_spell_id": null,
-        "icon": "inv_helm_circlet_firelands_d_01"
+        "icon": "inv_helm_circlet_firelands_d_01",
+        "icon_candidates": [
+          "inv_helm_circlet_firelands_d_01"
+        ]
       },
       "pve_tooltip": "Fire Blast gains 1 additional charge and its cooldown is reduced by 2.0 sec.",
       "pvp_tooltip": "Fire Blast gains 1 additional charge and its cooldown is reduced by 2.0 sec.",
@@ -5239,8 +5493,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5272,7 +5526,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kindling",
         "spell_id": 1254194,
         "visible_spell_id": null,
-        "icon": "spell_mage_kindling"
+        "icon": "spell_mage_kindling",
+        "icon_candidates": [
+          "spell_mage_kindling"
+        ]
       },
       "pve_tooltip": "Combustion's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Combustion's cooldown is reduced by 60 sec.",
@@ -5296,8 +5553,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5331,7 +5588,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Critical Mass",
         "spell_id": 117216,
         "visible_spell_id": null,
-        "icon": "spell_fire_volcano"
+        "icon": "spell_fire_volcano",
+        "icon_candidates": [
+          "spell_fire_volcano"
+        ]
       },
       "pve_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
       "pvp_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
@@ -5374,8 +5634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5408,7 +5668,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Deep Impact",
         "spell_id": 1254857,
         "visible_spell_id": null,
-        "icon": "spell_fire_moltenblood"
+        "icon": "spell_fire_moltenblood",
+        "icon_candidates": [
+          "spell_fire_moltenblood"
+        ]
       },
       "pve_tooltip": "The enemy closest to the center of Meteor's impact takes 75% increased damage.",
       "pvp_tooltip": "The enemy closest to the center of Meteor's impact takes 75% increased damage.",
@@ -5432,8 +5695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5465,7 +5728,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heat Shimmer",
         "spell_id": 457735,
         "visible_spell_id": null,
-        "icon": "ability_rhyolith_magmaflow_wave"
+        "icon": "ability_rhyolith_magmaflow_wave",
+        "icon_candidates": [
+          "ability_rhyolith_magmaflow_wave"
+        ]
       },
       "pve_tooltip": "Approximately 3 procs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 100% increased damage, and deal damage as though your target was below 30% health.",
       "pvp_tooltip": "Approximately 3 procs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 25% increased damage, and deal damage as though your target was below 30% health.",
@@ -5541,8 +5807,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5577,7 +5843,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scald",
         "spell_id": 450746,
         "visible_spell_id": null,
-        "icon": "ability_racial_foregedinflames"
+        "icon": "ability_racial_foregedinflames",
+        "icon_candidates": [
+          "ability_racial_foregedinflames"
+        ]
       },
       "pve_tooltip": "Fireball always critically strikes enemies below 30% health.\nWhen Fireball or Scorch damage an enemy below 30% health, Fireball deals 25% increased damage and Scorch deals 250% increased damage.",
       "pvp_tooltip": "Fireball always critically strikes enemies below 30% health.\nWhen Fireball or Scorch damage an enemy below 30% health, Fireball deals 25% increased damage and Scorch deals 250% increased damage.",
@@ -5601,8 +5870,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5636,7 +5905,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Controlled Destruction",
         "spell_id": 383669,
         "visible_spell_id": null,
-        "icon": "spell_fire_playingwithfire"
+        "icon": "spell_fire_playingwithfire",
+        "icon_candidates": [
+          "spell_fire_playingwithfire"
+        ]
       },
       "pve_tooltip": "Damaging an enemy with Fireball, Pyroblast, or Flamestrike increases the damage it receives from Ignite by 0.2%. Stacks up to 50 times.",
       "pvp_tooltip": "Damaging an enemy with Fireball, Pyroblast, or Flamestrike increases the damage it receives from Ignite by 0.2%. Stacks up to 50 times.",
@@ -5660,8 +5932,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5696,7 +5968,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mote of Flame",
         "spell_id": 343230,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_fire"
+        "icon": "inv_10_elementalcombinedfoozles_fire",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_fire"
+        ]
       },
       "pve_tooltip": "All Fire damage dealt increased by 3%.",
       "pvp_tooltip": "All Fire damage dealt increased by 3%.",
@@ -5720,8 +5995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5753,7 +6028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blast Zone",
         "spell_id": 416719,
         "visible_spell_id": null,
-        "icon": "spell_fire_elementaldevastation"
+        "icon": "spell_fire_elementaldevastation",
+        "icon_candidates": [
+          "spell_fire_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Meteor's cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Meteor's cooldown is reduced by 15 sec.",
@@ -5777,8 +6055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5811,7 +6089,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Conflagration",
         "spell_id": 1271171,
         "visible_spell_id": null,
-        "icon": "spell_shaman_firenova"
+        "icon": "spell_shaman_firenova",
+        "icon_candidates": [
+          "spell_shaman_firenova"
+        ]
       },
       "pve_tooltip": "Fire Blast deals (40% of Spell Power) additional Fire damage to up to 8 nearby enemies.",
       "pvp_tooltip": "Fire Blast deals (36.4% of Spell Power) additional Fire damage to up to 8 nearby enemies.",
@@ -5895,8 +6176,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5929,7 +6210,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intensifying Flame",
         "spell_id": 416714,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "While Ignite is on 3 or fewer enemies it flares up dealing an additional 30% of its damage to affected targets.",
       "pvp_tooltip": "While Ignite is on 3 or fewer enemies it flares up dealing an additional 30% of its damage to affected targets.",
@@ -5953,8 +6237,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5988,7 +6272,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spontaneous Combustion",
         "spell_id": 451875,
         "visible_spell_id": null,
-        "icon": "ability_mage_worldinflames"
+        "icon": "ability_mage_worldinflames",
+        "icon_candidates": [
+          "ability_mage_worldinflames"
+        ]
       },
       "pve_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
       "pvp_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
@@ -6031,8 +6318,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6065,7 +6352,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Molten Fury",
         "spell_id": 457803,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_furyintheblood"
+        "icon": "warrior_talent_icon_furyintheblood",
+        "icon_candidates": [
+          "warrior_talent_icon_furyintheblood"
+        ]
       },
       "pve_tooltip": "Damage dealt to targets below 35% health is increased by 15%.",
       "pvp_tooltip": "Damage dealt to targets below 35% health is increased by 10%.",
@@ -6168,8 +6458,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6202,7 +6492,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inflame",
         "spell_id": 417467,
         "visible_spell_id": null,
-        "icon": "spell_fire_ragnaros_lavabolt"
+        "icon": "spell_fire_ragnaros_lavabolt",
+        "icon_candidates": [
+          "spell_fire_ragnaros_lavabolt"
+        ]
       },
       "pve_tooltip": "Hot Streak increases the amount of Ignite damage from Pyroblast or Flamestrike by an additional 25%.",
       "pvp_tooltip": "Hot Streak increases the amount of Ignite damage from Pyroblast or Flamestrike by an additional 25%.",
@@ -6226,8 +6519,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6261,7 +6554,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wildfire",
         "spell_id": 1254828,
         "visible_spell_id": null,
-        "icon": "ability_warlock_inferno"
+        "icon": "ability_warlock_inferno",
+        "icon_candidates": [
+          "ability_warlock_inferno"
+        ]
       },
       "pve_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
       "pvp_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
@@ -6304,8 +6600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6341,7 +6637,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fevered Incantation",
         "spell_id": 383810,
         "visible_spell_id": null,
-        "icon": "inv_misc_enchantedpearld"
+        "icon": "inv_misc_enchantedpearld",
+        "icon_candidates": [
+          "inv_misc_enchantedpearld"
+        ]
       },
       "pve_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
       "pvp_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
@@ -6415,8 +6714,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6450,7 +6749,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fire's Ire",
         "spell_id": 450831,
         "visible_spell_id": null,
-        "icon": "achievement_boss_lordanthricyst"
+        "icon": "achievement_boss_lordanthricyst",
+        "icon_candidates": [
+          "achievement_boss_lordanthricyst"
+        ]
       },
       "pve_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
       "pvp_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
@@ -6493,8 +6795,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6526,7 +6828,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of Flame",
         "spell_id": 384174,
         "visible_spell_id": null,
-        "icon": "inv_trinket_firelands_02"
+        "icon": "inv_trinket_firelands_02",
+        "icon_candidates": [
+          "inv_trinket_firelands_02"
+        ]
       },
       "pve_tooltip": "Ignite deals 15% more damage when Combustion is not active.\nFire Blast now spreads an additional 50% of your Ignite.",
       "pvp_tooltip": "Ignite deals 15% more damage when Combustion is not active.\nFire Blast now spreads an additional 50% of your Ignite.",
@@ -6550,8 +6855,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6585,7 +6890,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "From the Ashes",
         "spell_id": 342344,
         "visible_spell_id": null,
-        "icon": "inv_misc_phoenixegg"
+        "icon": "inv_misc_phoenixegg",
+        "icon_candidates": [
+          "inv_misc_phoenixegg"
+        ]
       },
       "pve_tooltip": "Fire Blast damage increased by 15%.\nYour direct damage spells reduce the cooldown of Fire Blast by 0.50 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Fire Blast damage increased by 15%.\nYour direct damage spells reduce the cooldown of Fire Blast by 0.50 sec.\n(100ms cooldown)",
@@ -6609,8 +6917,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6642,7 +6950,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fiery Rush",
         "spell_id": 383634,
         "visible_spell_id": null,
-        "icon": "inv_summerfest_firespirit"
+        "icon": "inv_summerfest_firespirit",
+        "icon_candidates": [
+          "inv_summerfest_firespirit"
+        ]
       },
       "pve_tooltip": "While Combustion is active, Fire Blast recharges 50% faster.",
       "pvp_tooltip": "While Combustion is active, Fire Blast recharges 30% faster.",
@@ -6718,8 +7029,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6753,7 +7064,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flame Accelerant",
         "spell_id": 453282,
         "visible_spell_id": null,
-        "icon": "inv_ember"
+        "icon": "inv_ember",
+        "icon_candidates": [
+          "inv_ember"
+        ]
       },
       "pve_tooltip": "The cast time of Pyroblast and Flamestrike is reduced by 20%.",
       "pvp_tooltip": "The cast time of Pyroblast and Flamestrike is reduced by 20%.",
@@ -6777,8 +7091,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6810,7 +7124,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pyromaniac",
         "spell_id": 451466,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatilefire"
+        "icon": "inv_misc_volatilefire",
+        "icon_candidates": [
+          "inv_misc_volatilefire"
+        ]
       },
       "pve_tooltip": "Casting Pyroblast or Flamestrike while Hot Streak is active has a 6% chance to repeat the spell cast at 50% effectiveness.\nThis effect counts as consuming Hot Streak.\n(700ms cooldown)",
       "pvp_tooltip": "Casting Pyroblast or Flamestrike while Hot Streak is active has a 6% chance to repeat the spell cast at 50% effectiveness.\nThis effect counts as consuming Hot Streak.\n(700ms cooldown)",
@@ -6834,8 +7151,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6865,7 +7182,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burnout",
         "spell_id": 1271177,
         "visible_spell_id": null,
-        "icon": "ability_mage_burnout"
+        "icon": "ability_mage_burnout",
+        "icon_candidates": [
+          "ability_mage_burnout"
+        ]
       },
       "pve_tooltip": "When Combustion expires, all of your active Ignites explode, dealing 75% of their remaining damage.",
       "pvp_tooltip": "When Combustion expires, all of your active Ignites explode, dealing 50% of their remaining damage.",
@@ -6936,8 +7256,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6967,7 +7287,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Feel the Burn",
         "spell_id": 383391,
         "visible_spell_id": null,
-        "icon": "spell_fire_fireball"
+        "icon": "spell_fire_fireball",
+        "icon_candidates": [
+          "spell_fire_fireball"
+        ]
       },
       "pve_tooltip": "Fire Blast increases your mastery by 2% for 4 sec. Multiple applications may overlap.\n(100ms cooldown)",
       "pvp_tooltip": "Fire Blast increases your mastery by 2% for 4 sec. Multiple applications may overlap.\n(100ms cooldown)",
@@ -6991,8 +7314,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7024,7 +7347,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Slow Burn",
         "spell_id": 383967,
         "visible_spell_id": null,
-        "icon": "spell_fire_sealoffire"
+        "icon": "spell_fire_sealoffire",
+        "icon_candidates": [
+          "spell_fire_sealoffire"
+        ]
       },
       "pve_tooltip": "Combustion grants mastery equal to 75% of your Critical Strike stat.\nCombustion causes your spells to apply Ignite at 15% increased effectiveness.",
       "pvp_tooltip": "Combustion grants mastery equal to 75% of your Critical Strike stat.\nCombustion causes your spells to apply Ignite at 15% increased effectiveness.",
@@ -7048,8 +7374,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7081,7 +7407,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burn It All",
         "spell_id": 1254512,
         "visible_spell_id": null,
-        "icon": "ability_mage_fierypayback"
+        "icon": "ability_mage_fierypayback",
+        "icon_candidates": [
+          "ability_mage_fierypayback"
+        ]
       },
       "pve_tooltip": "Combustion grants you 10% increased spell damage plus an additional 20% of your critical strike chance as spell damage.",
       "pvp_tooltip": "Combustion grants you 5% increased spell damage plus an additional 20% of your critical strike chance as spell damage.",
@@ -7177,8 +7506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7208,7 +7537,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pyroclasm",
         "spell_id": 269650,
         "visible_spell_id": null,
-        "icon": "spell_shaman_lavasurge"
+        "icon": "spell_shaman_lavasurge",
+        "icon_candidates": [
+          "spell_shaman_lavasurge"
+        ]
       },
       "pve_tooltip": "Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast or Flamestrike cast within 20 sec deal 230% additional damage.\nMaximum 2 stacks.",
       "pvp_tooltip": "Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast or Flamestrike cast within 20 sec deal 230% additional damage.\nMaximum 2 stacks.",
@@ -7232,8 +7564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7263,7 +7595,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cinderstorm",
         "spell_id": 1254865,
         "visible_spell_id": null,
-        "icon": "spell_fire_flare"
+        "icon": "spell_fire_flare",
+        "icon_candidates": [
+          "spell_fire_flare"
+        ]
       },
       "pve_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (200% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
       "pvp_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (182% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
@@ -7347,8 +7682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7376,7 +7711,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fired Up",
         "spell_id": 1257343,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_mage_firedup"
+        "icon": "inv12_apextalent_mage_firedup",
+        "icon_candidates": [
+          "inv12_apextalent_mage_firedup"
+        ]
       },
       "pve_tooltip": "40 yd range\nConsuming Hot Streak has a 20% chance to grant you a stack of Fired Up, increasing your Fire damage by 2% for 8 sec. Multiple applications may overlap.",
       "pvp_tooltip": "40 yd range\nConsuming Hot Streak has a 20% chance to grant you a stack of Fired Up, increasing your Fire damage by 1% for 8 sec. Multiple applications may overlap.",
@@ -7452,8 +7790,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7481,7 +7819,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fired Up",
         "spell_id": 1257349,
         "visible_spell_id": null,
-        "icon": "ability_warlock_backdraft"
+        "icon": "ability_warlock_backdraft",
+        "icon_candidates": [
+          "ability_warlock_backdraft"
+        ]
       },
       "pve_tooltip": "40 yd range\nGaining Fired Up reduces the cooldown of Fire Blast by 5 sec.\nAll Fire damage dealt is increased by 10%.",
       "pvp_tooltip": "40 yd range\nGaining Fired Up reduces the cooldown of Fire Blast by 5 sec.\nAll Fire damage dealt is increased by 10%.",
@@ -7524,8 +7865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7553,7 +7894,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fired Up",
         "spell_id": 1257348,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembers"
+        "icon": "ability_warlock_burningembers",
+        "icon_candidates": [
+          "ability_warlock_burningembers"
+        ]
       },
       "pve_tooltip": "40 yd range\nCombustion significantly increases your chance of gaining Fired Up, reducing each time you gain Fired Up.\nAdditionally Fired Up now extends Combustion's duration by 1.0 sec.",
       "pvp_tooltip": "40 yd range\nCombustion significantly increases your chance of gaining Fired Up, reducing each time you gain Fired Up.\nAdditionally Fired Up now extends Combustion's duration by 1.0 sec.",
@@ -7577,8 +7921,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7611,7 +7955,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frostfire Bolt",
         "spell_id": 431044,
         "visible_spell_id": null,
-        "icon": "inv_ability_frostfiremage_frostfirebolt"
+        "icon": "inv_ability_frostfiremage_frostfirebolt",
+        "icon_candidates": [
+          "inv_ability_frostfiremage_frostfirebolt"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (259.4% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.",
       "pvp_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (695.179% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.",
@@ -7796,7 +8143,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.248)",
+          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7845,8 +8192,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7878,7 +8225,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imbued Warding",
         "spell_id": 431066,
         "visible_spell_id": null,
-        "icon": "inv_10_jewelcrafting_gem3primal_fire_cut_blue"
+        "icon": "inv_10_jewelcrafting_gem3primal_fire_cut_blue",
+        "icon_candidates": [
+          "inv_10_jewelcrafting_gem3primal_fire_cut_blue"
+        ]
       },
       "pve_tooltip": "Blazing Barrier also casts an Ice Barrier at 25% effectiveness.",
       "pvp_tooltip": "Blazing Barrier also casts an Ice Barrier at 15% effectiveness.",
@@ -7974,8 +8324,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8007,7 +8357,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Meltdown",
         "spell_id": 431131,
         "visible_spell_id": null,
-        "icon": "spell_frost_arcticwinds"
+        "icon": "spell_frost_arcticwinds",
+        "icon_candidates": [
+          "spell_frost_arcticwinds"
+        ]
       },
       "pve_tooltip": "You melt slightly out of your Ice Block and Ice Cold, allowing you to move slowly during Ice Block and increasing your movement speed over time.\nIce Block and Ice Cold trigger a Blazing Barrier when they end.",
       "pvp_tooltip": "You melt slightly out of your Ice Block and Ice Cold, allowing you to move slowly during Ice Block and increasing your movement speed over time.\nIce Block and Ice Cold trigger a Blazing Barrier when they end.",
@@ -8031,8 +8384,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8064,7 +8417,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frostfire Empowerment",
         "spell_id": 431176,
         "visible_spell_id": null,
-        "icon": "spell_frostfire-orb"
+        "icon": "spell_frostfire_orb",
+        "icon_candidates": [
+          "spell_frostfire_orb",
+          "spell_frostfire-orb"
+        ]
       },
       "pve_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 10% increased damage, explode for 30% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
@@ -8243,8 +8600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8276,7 +8633,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Affinity",
         "spell_id": 431067,
         "visible_spell_id": null,
-        "icon": "inv_10_dungeonjewelry_dragon_trinket_5_red"
+        "icon": "inv_10_dungeonjewelry_dragon_trinket_5_red",
+        "icon_candidates": [
+          "inv_10_dungeonjewelry_dragon_trinket_5_red"
+        ]
       },
       "pve_tooltip": "The cooldown of Frost spells with a base cooldown shorter than 4 minutes is reduced by 30%.",
       "pvp_tooltip": "The cooldown of Frost spells with a base cooldown shorter than 4 minutes is reduced by 30%.",
@@ -8300,8 +8660,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8333,7 +8693,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flame and Frost",
         "spell_id": 431112,
         "visible_spell_id": null,
-        "icon": "spell_firefrost-orb"
+        "icon": "spell_firefrost_orb",
+        "icon_candidates": [
+          "spell_firefrost_orb",
+          "spell_firefrost-orb"
+        ]
       },
       "pve_tooltip": "Cauterize resets the cooldown of your Frost spells with a base cooldown shorter than 4 minutes when it activates.",
       "pvp_tooltip": "Cauterize resets the cooldown of your Frost spells with a base cooldown shorter than 4 minutes when it activates.",
@@ -8357,8 +8721,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8390,7 +8754,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Duality",
         "spell_id": 1262843,
         "visible_spell_id": null,
-        "icon": "ability_mage_frostfirebolt"
+        "icon": "ability_mage_frostfirebolt",
+        "icon_candidates": [
+          "ability_mage_frostfirebolt"
+        ]
       },
       "pve_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (366.24% of Spell Power) Frost damage.",
       "pvp_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (109.9819% of Spell Power) Frost damage.",
@@ -8409,16 +8776,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 881.3000000000001,
-          "new": 264.65439000000003,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -8470,49 +8827,9 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1262843,
-          "source_spell_id": 1262863,
-          "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 8.813)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.33,
-          "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.3003,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1262843,
-            1262863
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256911,
-              "game_effect_id": 1264664,
-              "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8526,8 +8843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8559,7 +8876,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heat Sink",
         "spell_id": 1248002,
         "visible_spell_id": null,
-        "icon": "spell_fire_masterofelements"
+        "icon": "spell_fire_masterofelements",
+        "icon_candidates": [
+          "spell_fire_masterofelements"
+        ]
       },
       "pve_tooltip": "Fire Blast now deals Frostfire damage and its damage is increased by 15%.",
       "pvp_tooltip": "Fire Blast now deals Frostfire damage and its damage is increased by 15%.",
@@ -8583,8 +8903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8616,7 +8936,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Thermal Conditioning",
         "spell_id": 431117,
         "visible_spell_id": null,
-        "icon": "spell_fireresistancetotem_01"
+        "icon": "spell_fireresistancetotem_01",
+        "icon_candidates": [
+          "spell_fireresistancetotem_01"
+        ]
       },
       "pve_tooltip": "Frostfire Bolt's cast time is reduced by 10%.",
       "pvp_tooltip": "Frostfire Bolt's cast time is reduced by 10%.",
@@ -8640,8 +8963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8673,7 +8996,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Severe Temperatures",
         "spell_id": 431189,
         "visible_spell_id": null,
-        "icon": "inv_magemount_fire"
+        "icon": "inv_magemount_fire",
+        "icon_candidates": [
+          "inv_magemount_fire"
+        ]
       },
       "pve_tooltip": "Frostfire Empowerment stacks 1 additional time and it causes Frostfire Bolt to explode for an additional 20% of its damage.",
       "pvp_tooltip": "Frostfire Empowerment stacks 1 additional time and it causes Frostfire Bolt to explode for an additional 20% of its damage.",
@@ -8697,8 +9023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8730,10 +9056,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dualcasting Adept",
         "spell_id": 1248014,
         "visible_spell_id": null,
-        "icon": "ability_dualwieldspecialization"
+        "icon": "ability_dualwieldspecialization",
+        "icon_candidates": [
+          "ability_dualwieldspecialization"
+        ]
       },
-      "pve_tooltip": "Your Frost spells deal 20% increased critical strike damage.\nPyroblast damage increased by 15%.\nFlamestrike damage increased by 10%.",
-      "pvp_tooltip": "Your Frost spells deal 20% increased critical strike damage.\nPyroblast damage increased by 15%.\nFlamestrike damage increased by 10%.",
+      "pve_tooltip": "Your Frost spells deal 20% increased critical strike damage.\nPyroblast damage increased by 15%.\nFlamestrike damage increased by 15%.",
+      "pvp_tooltip": "Your Frost spells deal 20% increased critical strike damage.\nPyroblast damage increased by 15%.\nFlamestrike damage increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8754,8 +9083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8787,7 +9116,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Molten Chill",
         "spell_id": 1262844,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "Your Frostfire spells apply Ignite at 10% increased effectiveness.",
       "pvp_tooltip": "Your Frostfire spells apply Ignite at 10% increased effectiveness.",
@@ -8811,8 +9143,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8844,7 +9176,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frostfire Infusion",
         "spell_id": 431166,
         "visible_spell_id": null,
-        "icon": "inv_10_blacksmithing_craftedbar_frostfirealloy"
+        "icon": "inv_10_blacksmithing_craftedbar_frostfirealloy",
+        "icon_candidates": [
+          "inv_10_blacksmithing_craftedbar_frostfirealloy"
+        ]
       },
       "pve_tooltip": "Frostfire Bolt's critical strike chance is increased by 15%..\nThe damage of your Frost spells and Fire spells are increased by 4%.",
       "pvp_tooltip": "Frostfire Bolt's critical strike chance is increased by 15%..\nThe damage of your Frost spells and Fire spells are increased by 4%.",
@@ -8868,8 +9203,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8901,7 +9236,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flash Freezeburn",
         "spell_id": 431178,
         "visible_spell_id": null,
-        "icon": "spell_fire_elementaldevastation"
+        "icon": "spell_fire_elementaldevastation",
+        "icon_candidates": [
+          "spell_fire_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Meteor's damage is increased by 25%.\nMeteor now grants Frostfire Empowerment.",
       "pvp_tooltip": "Meteor's damage is increased by 25%.\nMeteor now grants Frostfire Empowerment.",
@@ -8925,8 +9263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8958,7 +9296,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blast Radius",
         "spell_id": 1248016,
         "visible_spell_id": null,
-        "icon": "spell_frostresistancetotem_01"
+        "icon": "spell_frostresistancetotem_01",
+        "icon_candidates": [
+          "spell_frostresistancetotem_01"
+        ]
       },
       "pve_tooltip": "Meteor damage increased by 20%.\nComet Storm damage increased by 20%.",
       "pvp_tooltip": "Meteor damage increased by 20%.\nComet Storm damage increased by 20%.",
@@ -8982,8 +9323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9015,7 +9356,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elemental Conduit",
         "spell_id": 1262845,
         "visible_spell_id": null,
-        "icon": "inv_ability_shaman_primordialwave"
+        "icon": "inv_ability_shaman_primordialwave",
+        "icon_candidates": [
+          "inv_ability_shaman_primordialwave"
+        ]
       },
       "pve_tooltip": "Comet Storm and Glacial Spike now apply Ignite.\nYour Haste is increased by 2%.",
       "pvp_tooltip": "Comet Storm and Glacial Spike now apply Ignite.\nYour Haste is increased by 2%.",
@@ -9039,8 +9383,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9073,7 +9417,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Isothermic Core",
         "spell_id": 431095,
         "visible_spell_id": null,
-        "icon": "inv12_ability_mage_isothermiccore"
+        "icon": "inv12_ability_mage_isothermiccore",
+        "icon_candidates": [
+          "inv12_ability_mage_isothermiccore"
+        ]
       },
       "pve_tooltip": "Meteor now also calls down a Comet Storm, dealing [(92.8% of Spell Power) * 7] Frost damage to nearby enemies.",
       "pvp_tooltip": "Meteor now also calls down a Comet Storm, dealing [(67.5584% of Spell Power) * 7] Frost damage to nearby enemies.",
@@ -9128,8 +9475,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 86.0,
-          "new": 109.56400000000001,
+          "old": 129.0,
+          "new": 109.1727,
           "full_tooltip_match_count": 0
         },
         {
@@ -9138,7 +9485,7 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 52.0,
+          "old": 104.0,
           "new": 61.516000000000005,
           "full_tooltip_match_count": 0
         },
@@ -9305,7 +9652,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.248)",
+          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9345,12 +9692,12 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.86)",
+          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
           "base_value": null,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
           "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.274,
+          "final_pvp_multiplier": 0.8463,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9377,9 +9724,43 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 153596,
+              "talent_name": "Isothermic Core",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.4,
+              "effect_text": "School Damage (2): frost",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 212872,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 431095,
+              "source_spell_id": 153596,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                431095,
+                438609,
+                153595,
+                153596
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.93,
+              "current_effect_text": "School Damage (2): frost",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -9390,10 +9771,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
-          "spell_pvp_multiplier": 1.3,
+          "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
           "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.183,
+          "final_pvp_multiplier": 0.5915,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9420,9 +9801,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 155158,
+              "talent_name": "Meteor",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.3,
+              "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 215526,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 153561,
+              "source_spell_id": 155158,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                153561,
+                155158
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.65,
+              "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 155158,
+              "talent_name": "Isothermic Core",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.3,
+              "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 215526,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 431095,
+              "source_spell_id": 155158,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                431095,
+                351140,
+                153561,
+                155158
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.65,
+              "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         }
       ],
@@ -9440,8 +9884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9474,7 +9918,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spellfire Spheres",
         "spell_id": 448601,
         "visible_spell_id": null,
-        "icon": "inv_1115_mage_spellfirespheresgeneration"
+        "icon": "inv_1115_mage_spellfirespheresgeneration",
+        "icon_candidates": [
+          "inv_1115_mage_spellfirespheresgeneration"
+        ]
       },
       "pve_tooltip": "Consuming Hot Streak has a 12% chance to conjure a Spellfire Sphere.\nWhile you're out of combat, you will slowly conjure Spellfire Spheres over time.\nSpellfire Sphere\nIncreases your spell damage by 1.0%. Stacks up to 3 times.",
       "pvp_tooltip": "Consuming Hot Streak has a 12% chance to conjure a Spellfire Sphere.\nWhile you're out of combat, you will slowly conjure Spellfire Spheres over time.\nSpellfire Sphere\nIncreases your spell damage by 1.0%. Stacks up to 3 times.",
@@ -9587,8 +10034,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9620,7 +10067,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mana Cascade",
         "spell_id": 449293,
         "visible_spell_id": null,
-        "icon": "spell_frost_manarecharge"
+        "icon": "spell_frost_manarecharge",
+        "icon_candidates": [
+          "spell_frost_manarecharge"
+        ]
       },
       "pve_tooltip": "Consuming Hot Streak grants you 0.5% Haste for 6 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Consuming Hot Streak grants you 0.5% Haste for 6 sec. Multiple applications may overlap.",
@@ -9644,8 +10094,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9677,7 +10127,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Invocation: Arcane Phoenix",
         "spell_id": 448658,
         "visible_spell_id": null,
-        "icon": "inv_misc_phoenixegg"
+        "icon": "inv_misc_phoenixegg",
+        "icon_candidates": [
+          "inv_misc_phoenixegg"
+        ]
       },
       "pve_tooltip": "When you cast Combustion, summon an Arcane Phoenix to aid you in battle.\nArcane Phoenix\nYour Arcane Phoenix aids you for the duration of your Combustion, casting random Arcane and Fire spells.",
       "pvp_tooltip": "When you cast Combustion, summon an Arcane Phoenix to aid you in battle.\nArcane Phoenix\nYour Arcane Phoenix aids you for the duration of your Combustion, casting random Arcane and Fire spells.",
@@ -9701,8 +10154,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9734,10 +10187,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burden of Power",
         "spell_id": 451035,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart"
+        "icon": "inv_ragnaros_heart",
+        "icon_candidates": [
+          "inv_ragnaros_heart"
+        ]
       },
-      "pve_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
-      "pvp_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
+      "pve_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 6%.",
+      "pvp_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9758,8 +10214,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9791,7 +10247,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Glorious Incandescence",
         "spell_id": 449394,
         "visible_spell_id": null,
-        "icon": "spell_burningsoul"
+        "icon": "spell_burningsoul",
+        "icon_candidates": [
+          "spell_burningsoul"
+        ]
       },
       "pve_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
       "pvp_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
@@ -9856,8 +10315,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9889,7 +10348,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Merely a Setback",
         "spell_id": 449330,
         "visible_spell_id": null,
-        "icon": "inv_helm_robe_raidmage_i_01"
+        "icon": "inv_helm_robe_raidmage_i_01",
+        "icon_candidates": [
+          "inv_helm_robe_raidmage_i_01"
+        ]
       },
       "pve_tooltip": "The bonuses provided by your Barrier spells persist at 100% effectiveness for an additional 8 sec after your Barrier is removed.\nAdditionally, Cauterize no longer deals damage to you.",
       "pvp_tooltip": "The bonuses provided by your Barrier spells persist at 100% effectiveness for an additional 8 sec after your Barrier is removed.\nAdditionally, Cauterize no longer deals damage to you.",
@@ -9910,95 +10372,6 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 449330,
-          "source_spell_id": 449336,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy (127)",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 0.0,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.0,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            449330,
-            449336
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 449330,
-          "source_spell_id": 449336,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
-          "base_value": -15.0,
-          "spell_pvp_multiplier": 0.67,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.67,
-          "final_pvp_value": -10.05,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            449330,
-            449336
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 449330,
-          "source_spell_id": 449336,
-          "effect_index": 4,
-          "effect_text": "Apply Aura: Mod Debuffs Duration % (Magic)",
-          "base_value": -25.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -15.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            449330,
-            449336
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
@@ -10083,8 +10456,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10116,7 +10489,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Time Twist",
         "spell_id": 1255166,
         "visible_spell_id": null,
-        "icon": "spell_holy_borrowedtime"
+        "icon": "spell_holy_borrowedtime",
+        "icon_candidates": [
+          "spell_holy_borrowedtime"
+        ]
       },
       "pve_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
       "pvp_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
@@ -10140,8 +10516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10173,7 +10549,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Codex of the Sunstriders",
         "spell_id": 449382,
         "visible_spell_id": null,
-        "icon": "inv_10_inscription2_book3_color1"
+        "icon": "inv_10_inscription2_book3_color1",
+        "icon_candidates": [
+          "inv_10_inscription2_book3_color1"
+        ]
       },
       "pve_tooltip": "When your Arcane Phoenix is summoned, it consumes all your Spellfire Spheres.\nEach Sphere consumed increases your spell damage during Combustion by 1% and causes your Arcane Phoenix to cast an exceptional Arcane or Fire spell over its duration.",
       "pvp_tooltip": "When your Arcane Phoenix is summoned, it consumes all your Spellfire Spheres.\nEach Sphere consumed increases your spell damage during Combustion by 1% and causes your Arcane Phoenix to cast an exceptional Arcane or Fire spell over its duration.",
@@ -10197,8 +10576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10230,7 +10609,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lessons in Debilitation",
         "spell_id": 449627,
         "visible_spell_id": null,
-        "icon": "ability_paladin_handoflight"
+        "icon": "ability_paladin_handoflight",
+        "icon_candidates": [
+          "ability_paladin_handoflight"
+        ]
       },
       "pve_tooltip": "Your Arcane Phoenix has picked up a few tricks, and will Spellsteal when it is summoned and when it expires.",
       "pvp_tooltip": "Your Arcane Phoenix has picked up a few tricks, and will Spellsteal when it is summoned and when it expires.",
@@ -10254,8 +10636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10287,7 +10669,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Explosive Potential",
         "spell_id": 1246030,
         "visible_spell_id": null,
-        "icon": "6bf_explosive_shard"
+        "icon": "6bf_explosive_shard",
+        "icon_candidates": [
+          "6bf_explosive_shard"
+        ]
       },
       "pve_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
       "pvp_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (49.4471% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
@@ -10400,8 +10785,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10433,7 +10818,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pyrocosm",
         "spell_id": 1260673,
         "visible_spell_id": null,
-        "icon": "spell_fire_meteorstorm"
+        "icon": "spell_fire_meteorstorm",
+        "icon_candidates": [
+          "spell_fire_meteorstorm"
+        ]
       },
       "pve_tooltip": "Damage from Fireball has a 20% chance to summon a Meteorite.\nWhen a Meteorite lands, the cooldown of Fire Blast is reduced by 0.5 sec.",
       "pvp_tooltip": "Damage from Fireball has a 20% chance to summon a Meteorite.\nWhen a Meteorite lands, the cooldown of Fire Blast is reduced by 0.5 sec.",
@@ -10457,8 +10845,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10490,7 +10878,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Savor the Moment",
         "spell_id": 449412,
         "visible_spell_id": null,
-        "icon": "spell_fire_masterofelements"
+        "icon": "spell_fire_masterofelements",
+        "icon_candidates": [
+          "spell_fire_masterofelements"
+        ]
       },
       "pve_tooltip": "When you cast Combustion, its duration is extended by 0.8 sec for each Spellfire Sphere you have, up to 2.4 sec.",
       "pvp_tooltip": "When you cast Combustion, its duration is extended by 0.8 sec for each Spellfire Sphere you have, up to 2.4 sec.",
@@ -10514,8 +10905,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10547,7 +10938,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sunfury Execution",
         "spell_id": 449349,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowandflame"
+        "icon": "spell_shadow_shadowandflame",
+        "icon_candidates": [
+          "spell_shadow_shadowandflame"
+        ]
       },
       "pve_tooltip": "Pyroclasm's damage bonus is increased by 20% and Meteor grants Pyroclasm if talented.",
       "pvp_tooltip": "Pyroclasm's damage bonus is increased by 20% and Meteor grants Pyroclasm if talented.",
@@ -10571,8 +10965,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10604,7 +10998,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ashes of Inspiration",
         "spell_id": 1260272,
         "visible_spell_id": null,
-        "icon": "inv_misc_powder_copper"
+        "icon": "inv_misc_powder_copper",
+        "icon_candidates": [
+          "inv_misc_powder_copper"
+        ]
       },
       "pve_tooltip": "Each time your Phoenix casts a spell, gain 1 stack of Mana Cascade.\nExceptional spells grant 1 additional stack.",
       "pvp_tooltip": "Each time your Phoenix casts a spell, gain 1 stack of Mana Cascade.\nExceptional spells grant 1 additional stack.",
@@ -10628,8 +11025,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10661,7 +11058,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rondurmancy",
         "spell_id": 449596,
         "visible_spell_id": null,
-        "icon": "spell_arcane_focusedpower"
+        "icon": "spell_arcane_focusedpower",
+        "icon_candidates": [
+          "spell_arcane_focusedpower"
+        ]
       },
       "pve_tooltip": "Your chance to generate a Spellfire Sphere is increased by 12%.\nSpellfire Spheres grant an additional 1% spell damage.",
       "pvp_tooltip": "Your chance to generate a Spellfire Sphere is increased by 12%.\nSpellfire Spheres grant an additional 1% spell damage.",
@@ -10685,8 +11085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10718,7 +11118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spellfire Salvo",
         "spell_id": 1260616,
         "visible_spell_id": null,
-        "icon": "shaman_talent_elementalblast"
+        "icon": "shaman_talent_elementalblast",
+        "icon_candidates": [
+          "shaman_talent_elementalblast"
+        ]
       },
       "pve_tooltip": "Fire Blast cooldown reduced by 1.0 sec.\nMeteorite damage increased by 15%.",
       "pvp_tooltip": "Fire Blast cooldown reduced by 1.0 sec.\nMeteorite damage increased by 15%.",
@@ -10742,8 +11145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10776,7 +11179,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Memory of Al'ar",
         "spell_id": 449619,
         "visible_spell_id": null,
-        "icon": "inv_ability_sunfurymage_spellfirespheres"
+        "icon": "inv_ability_sunfurymage_spellfirespheres",
+        "icon_candidates": [
+          "inv_ability_sunfurymage_spellfirespheres"
+        ]
       },
       "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
       "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
@@ -11070,6 +11476,101 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [
     {
+      "spell_id": 155158,
+      "talent_name": "Meteor",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.3,
+      "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 215526,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 153561,
+      "source_spell_id": 155158,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        153561,
+        155158
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.65,
+      "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 153596,
+      "talent_name": "Isothermic Core",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.4,
+      "effect_text": "School Damage (2): frost",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 212872,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 431095,
+      "source_spell_id": 153596,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        431095,
+        438609,
+        153595,
+        153596
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "spelldesc_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.93,
+      "current_effect_text": "School Damage (2): frost",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 155158,
+      "talent_name": "Isothermic Core",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.3,
+      "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 215526,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 431095,
+      "source_spell_id": 155158,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        431095,
+        351140,
+        153561,
+        155158
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "spelldesc_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.65,
+      "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
       "spell_id": 448604,
       "talent_name": "Spellfire Spheres",
       "side": "drustvar",
@@ -11100,7 +11601,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-fire",
-  "generated_at": "2026-09-22T19:26:40.479136+00:00",
+  "generated_at": "2026-09-24T11:45:10.516581+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 32,
@@ -11113,11 +11614,106 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "spell_id": 155158,
+        "talent_name": "Meteor",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.3,
+        "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 215526,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 153561,
+        "source_spell_id": 155158,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          153561,
+          155158
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.65,
+        "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 153596,
+        "talent_name": "Isothermic Core",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.4,
+        "effect_text": "School Damage (2): frost",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 212872,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 431095,
+        "source_spell_id": 153596,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          431095,
+          438609,
+          153595,
+          153596
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.93,
+        "current_effect_text": "School Damage (2): frost",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 155158,
+        "talent_name": "Isothermic Core",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.3,
+        "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 215526,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 431095,
+        "source_spell_id": 155158,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          431095,
+          351140,
+          153561,
+          155158
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.65,
+        "current_effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
       {
         "spell_id": 448604,
         "talent_name": "Spellfire Spheres",

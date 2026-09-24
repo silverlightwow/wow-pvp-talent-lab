@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soothing Mist",
         "spell_id": 115175,
         "visible_spell_id": null,
-        "icon": "ability_monk_soothingmists"
+        "icon": "ability_monk_soothingmists",
+        "icon_candidates": [
+          "ability_monk_soothingmists"
+        ]
       },
       "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
       "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
@@ -74,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -106,7 +109,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Paralysis",
         "spell_id": 115078,
         "visible_spell_id": null,
-        "icon": "ability_monk_paralysis"
+        "icon": "ability_monk_paralysis",
+        "icon_candidates": [
+          "ability_monk_paralysis"
+        ]
       },
       "pve_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
       "pvp_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
@@ -130,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -162,7 +168,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stagger",
         "spell_id": 115069,
         "visible_spell_id": null,
-        "icon": "monk_stance_drunkenox"
+        "icon": "monk_stance_drunkenox",
+        "icon_candidates": [
+          "monk_stance_drunkenox"
+        ]
       },
       "pve_tooltip": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]",
       "pvp_tooltip": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]",
@@ -186,8 +195,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -220,7 +229,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elusive Mists",
         "spell_id": 388681,
         "visible_spell_id": null,
-        "icon": "ability_monk_soothingmists"
+        "icon": "ability_monk_soothingmists",
+        "icon_candidates": [
+          "ability_monk_soothingmists"
+        ]
       },
       "pve_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
       "pvp_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
@@ -244,8 +256,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -280,7 +292,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tiger's Lust",
         "spell_id": 116841,
         "visible_spell_id": null,
-        "icon": "ability_monk_tigerslust"
+        "icon": "ability_monk_tigerslust",
+        "icon_candidates": [
+          "ability_monk_tigerslust"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
       "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
@@ -304,8 +319,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -340,7 +355,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Crashing Momentum",
         "spell_id": 450335,
         "visible_spell_id": null,
-        "icon": "ability_monk_blackoutkick"
+        "icon": "ability_monk_blackoutkick",
+        "icon_candidates": [
+          "ability_monk_blackoutkick"
+        ]
       },
       "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
       "pvp_tooltip": "Targets you Roll through are snared by 30% for 5 sec.",
@@ -395,7 +413,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -415,8 +434,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -451,7 +470,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Disable",
         "spell_id": 116095,
         "visible_spell_id": null,
-        "icon": "ability_shockwave"
+        "icon": "ability_shockwave",
+        "icon_candidates": [
+          "ability_shockwave"
+        ]
       },
       "pve_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
       "pvp_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
@@ -475,8 +497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -509,7 +531,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fast Feet",
         "spell_id": 1261543,
         "visible_spell_id": null,
-        "icon": "ability_monk_mightyoxkick"
+        "icon": "ability_monk_mightyoxkick",
+        "icon_candidates": [
+          "ability_monk_mightyoxkick"
+        ]
       },
       "pve_tooltip": "Blackout Kick deals 20% increased damage. Spinning Crane Kick deals 10% additional damage.",
       "pvp_tooltip": "Blackout Kick deals 20% increased damage. Spinning Crane Kick deals 10% additional damage.",
@@ -533,8 +558,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -569,7 +594,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Grace of the Crane",
         "spell_id": 388811,
         "visible_spell_id": null,
-        "icon": "monk_ability_cherrymanatea"
+        "icon": "monk_ability_cherrymanatea",
+        "icon_candidates": [
+          "monk_ability_cherrymanatea"
+        ]
       },
       "pve_tooltip": "Increases all healing taken by 6%.",
       "pvp_tooltip": "Increases all healing taken by 6%.",
@@ -593,8 +621,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -626,7 +654,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bounding Agility",
         "spell_id": 450520,
         "visible_spell_id": null,
-        "icon": "ability_monk_roll"
+        "icon": "ability_monk_roll",
+        "icon_candidates": [
+          "ability_monk_roll"
+        ]
       },
       "pve_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
       "pvp_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
@@ -650,8 +681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -686,7 +717,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Calming Presence",
         "spell_id": 388664,
         "visible_spell_id": null,
-        "icon": "inv_misc_orb_01"
+        "icon": "inv_misc_orb_01",
+        "icon_candidates": [
+          "inv_misc_orb_01"
+        ]
       },
       "pve_tooltip": "Reduces all damage taken by 3%.",
       "pvp_tooltip": "Reduces all damage taken by 3%.",
@@ -710,8 +744,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -743,7 +777,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wind's Reach",
         "spell_id": 450514,
         "visible_spell_id": null,
-        "icon": "ability_monk_zenflight"
+        "icon": "ability_monk_zenflight",
+        "icon_candidates": [
+          "ability_monk_zenflight"
+        ]
       },
       "pve_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
       "pvp_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
@@ -767,8 +804,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -803,7 +840,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Detox",
         "spell_id": 218164,
         "visible_spell_id": null,
-        "icon": "ability_rogue_imrovedrecuperate"
+        "icon": "ability_rogue_imrovedrecuperate",
+        "icon_candidates": [
+          "ability_rogue_imrovedrecuperate"
+        ]
       },
       "pve_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
       "pvp_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
@@ -827,8 +867,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -862,7 +902,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vivacious Vivification",
         "spell_id": 388812,
         "visible_spell_id": null,
-        "icon": "ability_monk_vivify"
+        "icon": "ability_monk_vivify",
+        "icon_candidates": [
+          "ability_monk_vivify"
+        ]
       },
       "pve_tooltip": "After casting Keg Smash, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.",
       "pvp_tooltip": "After casting Keg Smash, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.",
@@ -886,8 +929,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -919,7 +962,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Silent Sanctuary",
         "spell_id": 1266719,
         "visible_spell_id": null,
-        "icon": "spell_monk_zenpilgrimage"
+        "icon": "spell_monk_zenpilgrimage",
+        "icon_candidates": [
+          "spell_monk_zenpilgrimage"
+        ]
       },
       "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
       "pvp_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
@@ -943,8 +989,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -979,7 +1025,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Jade Walk",
         "spell_id": 450553,
         "visible_spell_id": null,
-        "icon": "spell_lifegivingspeed"
+        "icon": "spell_lifegivingspeed",
+        "icon_candidates": [
+          "spell_lifegivingspeed"
+        ]
       },
       "pve_tooltip": "While out of combat, your movement speed is increased by 15%.",
       "pvp_tooltip": "While out of combat, your movement speed is increased by 15%.",
@@ -1003,8 +1052,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1036,7 +1085,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pressure Points",
         "spell_id": 450432,
         "visible_spell_id": null,
-        "icon": "ability_monk_deadlyreach"
+        "icon": "ability_monk_deadlyreach",
+        "icon_candidates": [
+          "ability_monk_deadlyreach"
+        ]
       },
       "pve_tooltip": "Paralysis now removes all Enrage effects from its target.",
       "pvp_tooltip": "Paralysis now removes all Enrage effects from its target.",
@@ -1060,8 +1112,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1097,7 +1149,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spear Hand Strike",
         "spell_id": 116705,
         "visible_spell_id": null,
-        "icon": "ability_monk_spearhand"
+        "icon": "ability_monk_spearhand",
+        "icon_candidates": [
+          "ability_monk_spearhand"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
       "pvp_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
@@ -1121,8 +1176,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1154,7 +1209,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reinvigoration",
         "spell_id": 1266740,
         "visible_spell_id": null,
-        "icon": "ability_monk_quipunch"
+        "icon": "ability_monk_quipunch",
+        "icon_candidates": [
+          "ability_monk_quipunch"
+        ]
       },
       "pve_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
       "pvp_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
@@ -1178,8 +1236,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1213,7 +1271,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ancient Arts",
         "spell_id": 344359,
         "visible_spell_id": null,
-        "icon": "ability_monk_dpsstance"
+        "icon": "ability_monk_dpsstance",
+        "icon_candidates": [
+          "ability_monk_dpsstance"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
       "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
@@ -1256,8 +1317,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1292,7 +1353,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chi Wave",
         "spell_id": 450391,
         "visible_spell_id": null,
-        "icon": "ability_monk_chiwave"
+        "icon": "ability_monk_chiwave",
+        "icon_candidates": [
+          "ability_monk_chiwave"
+        ]
       },
       "pve_tooltip": "Every 15 sec, your next Keg Smash or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
       "pvp_tooltip": "Every 15 sec, your next Keg Smash or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (17% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
@@ -1329,7 +1393,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1356,10 +1420,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -1376,8 +1441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1412,7 +1477,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chi Burst",
         "spell_id": 123986,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcanetorrent"
+        "icon": "spell_arcane_arcanetorrent",
+        "icon_candidates": [
+          "spell_arcane_arcanetorrent"
+        ]
       },
       "pve_tooltip": "40 yd range\n1 sec cast\n30 sec cooldown\nHurls a torrent of Chi energy up to 40 yds forward, dealing (280% of Attack Power) Nature damage to all enemies, and (220% of Attack Power) healing to the Monk and all allies in its path. Healing and damage reduced beyond 5 targets.\nCasting Chi Burst does not prevent avoiding attacks.",
       "pvp_tooltip": "40 yd range\n1 sec cast\n30 sec cooldown\nHurls a torrent of Chi energy up to 40 yds forward, dealing (404.6% of Attack Power) Nature damage to all enemies, and (220% of Attack Power) healing to the Monk and all allies in its path. Healing and damage reduced beyond 5 targets.\nCasting Chi Burst does not prevent avoiding attacks.",
@@ -1449,7 +1517,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 123986,
           "source_spell_id": 148135,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5) (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.7,
           "amount_kind": "direct",
@@ -1476,9 +1544,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1498,8 +1566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1535,7 +1603,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Transcendence",
         "spell_id": 101643,
         "visible_spell_id": null,
-        "icon": "monk_ability_transcendence"
+        "icon": "monk_ability_transcendence",
+        "icon_candidates": [
+          "monk_ability_transcendence"
+        ]
       },
       "pve_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
       "pvp_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
@@ -1559,8 +1630,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1592,7 +1663,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Energy Transfer",
         "spell_id": 450631,
         "visible_spell_id": null,
-        "icon": "monk_ability_avertharm"
+        "icon": "monk_ability_avertharm",
+        "icon_candidates": [
+          "monk_ability_avertharm"
+        ]
       },
       "pve_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
       "pvp_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
@@ -1616,8 +1690,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1652,7 +1726,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celerity",
         "spell_id": 115173,
         "visible_spell_id": null,
-        "icon": "ability_monk_quipunch"
+        "icon": "ability_monk_quipunch",
+        "icon_candidates": [
+          "ability_monk_quipunch"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
       "pvp_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
@@ -1676,8 +1753,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1712,7 +1789,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chi Torpedo",
         "spell_id": 115008,
         "visible_spell_id": null,
-        "icon": "ability_monk_quitornado"
+        "icon": "ability_monk_quitornado",
+        "icon_candidates": [
+          "ability_monk_quitornado"
+        ]
       },
       "pve_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
       "pvp_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
@@ -1736,8 +1816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1769,7 +1849,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stillstep Coil",
         "spell_id": 1266733,
         "visible_spell_id": null,
-        "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01"
+        "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01",
+        "icon_candidates": [
+          "inv_helm_leather_raidmonkprogenitormythic_d_01"
+        ]
       },
       "pve_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
       "pvp_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
@@ -1793,8 +1876,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1828,7 +1911,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Footed",
         "spell_id": 450503,
         "visible_spell_id": null,
-        "icon": "ability_monk_hurricanestrike"
+        "icon": "ability_monk_hurricanestrike",
+        "icon_candidates": [
+          "ability_monk_hurricanestrike"
+        ]
       },
       "pve_tooltip": "The duration of snare effects on you is reduced by 20%.",
       "pvp_tooltip": "The duration of snare effects on you is reduced by 20%.",
@@ -1852,8 +1938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1887,7 +1973,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hasty Provocation",
         "spell_id": 328670,
         "visible_spell_id": null,
-        "icon": "ability_monk_provoke"
+        "icon": "ability_monk_provoke",
+        "icon_candidates": [
+          "ability_monk_provoke"
+        ]
       },
       "pve_tooltip": "Provoked targets move towards you at 50% increased speed.",
       "pvp_tooltip": "Provoked targets move towards you at 50% increased speed.",
@@ -1911,8 +2000,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1945,7 +2034,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ferocity of Xuen",
         "spell_id": 388674,
         "visible_spell_id": null,
-        "icon": "ability_mount_pinktiger"
+        "icon": "ability_mount_pinktiger",
+        "icon_candidates": [
+          "ability_mount_pinktiger"
+        ]
       },
       "pve_tooltip": "Increases all damage dealt by 4%.",
       "pvp_tooltip": "Increases all damage dealt by 4%.",
@@ -1988,8 +2080,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2023,7 +2115,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ring of Peace",
         "spell_id": 116844,
         "visible_spell_id": null,
-        "icon": "spell_monk_ringofpeace"
+        "icon": "spell_monk_ringofpeace",
+        "icon_candidates": [
+          "spell_monk_ringofpeace"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
       "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
@@ -2047,8 +2142,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2082,7 +2177,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Song of Chi-Ji",
         "spell_id": 198898,
         "visible_spell_id": null,
-        "icon": "inv_chaos_orb"
+        "icon": "inv_chaos_orb",
+        "icon_candidates": [
+          "inv_chaos_orb"
+        ]
       },
       "pve_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
       "pvp_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
@@ -2106,8 +2204,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2140,7 +2238,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spirit's Essence",
         "spell_id": 450595,
         "visible_spell_id": null,
-        "icon": "spell_shaman_spectraltransformation"
+        "icon": "spell_shaman_spectraltransformation",
+        "icon_candidates": [
+          "spell_shaman_spectraltransformation"
+        ]
       },
       "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
       "pvp_tooltip": "Transcendence: Transfer snares targets within 10 yds by 50% for 4 sec when cast.",
@@ -2195,7 +2296,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2215,8 +2317,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2249,7 +2351,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tiger Tail Sweep",
         "spell_id": 264348,
         "visible_spell_id": null,
-        "icon": "ability_monk_legsweep"
+        "icon": "ability_monk_legsweep",
+        "icon_candidates": [
+          "ability_monk_legsweep"
+        ]
       },
       "pve_tooltip": "Increases the range of Leg Sweep by 4 yds.",
       "pvp_tooltip": "Increases the range of Leg Sweep by 4 yds.",
@@ -2273,8 +2378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2308,7 +2413,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Touch of Death",
         "spell_id": 322113,
         "visible_spell_id": null,
-        "icon": "ability_monk_touchofdeath"
+        "icon": "ability_monk_touchofdeath",
+        "icon_candidates": [
+          "ability_monk_touchofdeath"
+        ]
       },
       "pve_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
       "pvp_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
@@ -2332,8 +2440,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2368,7 +2476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vigorous Expulsion",
         "spell_id": 392900,
         "visible_spell_id": null,
-        "icon": "ability_monk_expelharm"
+        "icon": "ability_monk_expelharm",
+        "icon_candidates": [
+          "ability_monk_expelharm"
+        ]
       },
       "pve_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
       "pvp_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
@@ -2392,8 +2503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2428,7 +2539,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Yu'lon's Grace",
         "spell_id": 414131,
         "visible_spell_id": null,
-        "icon": "ability_monk_dragonkick"
+        "icon": "ability_monk_dragonkick",
+        "icon_candidates": [
+          "ability_monk_dragonkick"
+        ]
       },
       "pve_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 10%.",
       "pvp_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 0.5% of your max health every 3 sec in combat, stacking up to 10%.",
@@ -2499,8 +2613,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2532,7 +2646,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Peace and Prosperity",
         "spell_id": 450448,
         "visible_spell_id": null,
-        "icon": "inv_inscription_deck_redcrane"
+        "icon": "inv_inscription_deck_redcrane",
+        "icon_candidates": [
+          "inv_inscription_deck_redcrane"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
       "pvp_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
@@ -2556,8 +2673,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2592,7 +2709,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fortifying Brew",
         "spell_id": 388917,
         "visible_spell_id": 115203,
-        "icon": "ability_monk_fortifyingale_new"
+        "icon": "ability_monk_fortifyingale_new",
+        "icon_candidates": [
+          "ability_monk_fortifyingale_new"
+        ]
       },
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
@@ -2647,8 +2767,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2682,7 +2802,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dance of the Wind",
         "spell_id": 414132,
         "visible_spell_id": null,
-        "icon": "ability_monk_dematerialize"
+        "icon": "ability_monk_dematerialize",
+        "icon_candidates": [
+          "ability_monk_dematerialize"
+        ]
       },
       "pve_tooltip": "Your dodge chance is increased by 5%.",
       "pvp_tooltip": "Your dodge chance is increased by 5%.",
@@ -2706,8 +2829,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2740,7 +2863,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Save Them All",
         "spell_id": 389579,
         "visible_spell_id": null,
-        "icon": "inv_weapon_hand_22"
+        "icon": "inv_weapon_hand_22",
+        "icon_candidates": [
+          "inv_weapon_hand_22"
+        ]
       },
       "pve_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
       "pvp_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
@@ -2764,8 +2890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2798,7 +2924,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Art",
         "spell_id": 450622,
         "visible_spell_id": null,
-        "icon": "ability_monk_standingkick"
+        "icon": "ability_monk_standingkick",
+        "icon_candidates": [
+          "ability_monk_standingkick"
+        ]
       },
       "pve_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
       "pvp_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
@@ -2822,8 +2951,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2857,7 +2986,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strength of Spirit",
         "spell_id": 387276,
         "visible_spell_id": null,
-        "icon": "ability_monk_healthsphere"
+        "icon": "ability_monk_healthsphere",
+        "icon_candidates": [
+          "ability_monk_healthsphere"
+        ]
       },
       "pve_tooltip": "Expel Harm's healing is increased by up to 100%, based on your missing health.",
       "pvp_tooltip": "Expel Harm's healing is increased by up to 70%, based on your missing health.",
@@ -2928,8 +3060,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2963,7 +3095,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Profound Rebuttal",
         "spell_id": 392910,
         "visible_spell_id": null,
-        "icon": "ability_monk_expelharm"
+        "icon": "ability_monk_expelharm",
+        "icon_candidates": [
+          "ability_monk_expelharm"
+        ]
       },
       "pve_tooltip": "Expel Harm's critical healing is increased by 50%.",
       "pvp_tooltip": "Expel Harm's critical healing is increased by 50%.",
@@ -2987,8 +3122,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3022,7 +3157,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summon Black Ox Statue",
         "spell_id": 115315,
         "visible_spell_id": null,
-        "icon": "monk_ability_summonoxstatue"
+        "icon": "monk_ability_summonoxstatue",
+        "icon_candidates": [
+          "monk_ability_summonoxstatue"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 20 yards.\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
       "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 20 yards.\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
@@ -3046,8 +3184,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3081,7 +3219,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ironshell Brew",
         "spell_id": 388814,
         "visible_spell_id": null,
-        "icon": "ability_monk_fortifyingale_new"
+        "icon": "ability_monk_fortifyingale_new",
+        "icon_candidates": [
+          "ability_monk_fortifyingale_new"
+        ]
       },
       "pve_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
       "pvp_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
@@ -3105,8 +3246,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3140,7 +3281,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Expeditious Fortification",
         "spell_id": 388813,
         "visible_spell_id": null,
-        "icon": "ability_monk_fortifyingale_new"
+        "icon": "ability_monk_fortifyingale_new",
+        "icon_candidates": [
+          "ability_monk_fortifyingale_new"
+        ]
       },
       "pve_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
       "pvp_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
@@ -3164,8 +3308,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3195,7 +3339,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Diffuse Magic",
         "spell_id": 1243287,
         "visible_spell_id": null,
-        "icon": "spell_monk_diffusemagic"
+        "icon": "spell_monk_diffusemagic",
+        "icon_candidates": [
+          "spell_monk_diffusemagic"
+        ]
       },
       "pve_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
       "pvp_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
@@ -3219,8 +3366,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3253,7 +3400,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celestial Determination",
         "spell_id": 450638,
         "visible_spell_id": null,
-        "icon": "ability_monk_essencefont"
+        "icon": "ability_monk_essencefont",
+        "icon_candidates": [
+          "ability_monk_essencefont"
+        ]
       },
       "pve_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
       "pvp_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
@@ -3277,8 +3427,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3313,7 +3463,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chi Proficiency",
         "spell_id": 450426,
         "visible_spell_id": null,
-        "icon": "ability_monk_chiswirl"
+        "icon": "ability_monk_chiswirl",
+        "icon_candidates": [
+          "ability_monk_chiswirl"
+        ]
       },
       "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
       "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
@@ -3356,8 +3509,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3390,7 +3543,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Healing Winds",
         "spell_id": 450560,
         "visible_spell_id": null,
-        "icon": "ability_monk_pathofmists"
+        "icon": "ability_monk_pathofmists",
+        "icon_candidates": [
+          "ability_monk_pathofmists"
+        ]
       },
       "pve_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
       "pvp_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
@@ -3414,8 +3570,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3449,7 +3605,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Windwalking",
         "spell_id": 157411,
         "visible_spell_id": null,
-        "icon": "monk_stance_whitetiger"
+        "icon": "monk_stance_whitetiger",
+        "icon_candidates": [
+          "monk_stance_whitetiger"
+        ]
       },
       "pve_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
       "pvp_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
@@ -3473,8 +3632,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3507,7 +3666,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Chi Transfer",
         "spell_id": 1272452,
         "visible_spell_id": null,
-        "icon": "ability_monk_zenmeditation"
+        "icon": "ability_monk_zenmeditation",
+        "icon_candidates": [
+          "ability_monk_zenmeditation"
+        ]
       },
       "pve_tooltip": "Touch of Death now heals you for 60% of its damage done.",
       "pvp_tooltip": "Touch of Death now heals you for 60% of its damage done.",
@@ -3531,8 +3693,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3566,7 +3728,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Martial Instincts",
         "spell_id": 450427,
         "visible_spell_id": null,
-        "icon": "ability_monk_palmstrike"
+        "icon": "ability_monk_palmstrike",
+        "icon_candidates": [
+          "ability_monk_palmstrike"
+        ]
       },
       "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
       "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
@@ -3609,8 +3774,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3640,7 +3805,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lighter Than Air",
         "spell_id": 449582,
         "visible_spell_id": null,
-        "icon": "ability_monk_ridethewind"
+        "icon": "ability_monk_ridethewind",
+        "icon_candidates": [
+          "ability_monk_ridethewind"
+        ]
       },
       "pve_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
       "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 4 sec.",
@@ -3711,8 +3879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3743,7 +3911,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flow of Chi",
         "spell_id": 450569,
         "visible_spell_id": null,
-        "icon": "ability_monk_healthsphere"
+        "icon": "ability_monk_healthsphere",
+        "icon_candidates": [
+          "ability_monk_healthsphere"
+        ]
       },
       "pve_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
       "pvp_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
@@ -3767,8 +3938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3800,7 +3971,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Escape from Reality",
         "spell_id": 394110,
         "visible_spell_id": null,
-        "icon": "monk_ability_transcendence"
+        "icon": "monk_ability_transcendence",
+        "icon_candidates": [
+          "monk_ability_transcendence"
+        ]
       },
       "pve_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
       "pvp_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
@@ -3824,8 +3998,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3857,7 +4031,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Transcendence: Linked Spirits",
         "spell_id": 434774,
         "visible_spell_id": null,
-        "icon": "monk_ability_transcendence"
+        "icon": "monk_ability_transcendence",
+        "icon_candidates": [
+          "monk_ability_transcendence"
+        ]
       },
       "pve_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
       "pvp_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
@@ -3881,8 +4058,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3913,7 +4090,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fatal Touch",
         "spell_id": 394123,
         "visible_spell_id": null,
-        "icon": "ability_monk_touchofdeath"
+        "icon": "ability_monk_touchofdeath",
+        "icon_candidates": [
+          "ability_monk_touchofdeath"
+        ]
       },
       "pve_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
       "pvp_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
@@ -3937,8 +4117,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3968,7 +4148,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rushing Reflexes",
         "spell_id": 450154,
         "visible_spell_id": null,
-        "icon": "ability_monk_yulonsgift"
+        "icon": "ability_monk_yulonsgift",
+        "icon_candidates": [
+          "ability_monk_yulonsgift"
+        ]
       },
       "pve_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
       "pvp_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
@@ -3992,8 +4175,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4024,7 +4207,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Keg Smash",
         "spell_id": 121253,
         "visible_spell_id": null,
-        "icon": "achievement_brewery_2"
+        "icon": "achievement_brewery_2",
+        "icon_candidates": [
+          "achievement_brewery_2"
+        ]
       },
       "pve_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(190% of Attack Power) * 1.5] Physical damage to your primary target and (190% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
       "pvp_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(161.5% of Attack Power) * 1.5] Physical damage to your primary target and (161.5% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
@@ -4122,8 +4308,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4157,7 +4343,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Purifying Brew",
         "spell_id": 119582,
         "visible_spell_id": null,
-        "icon": "inv_misc_beer_06"
+        "icon": "inv_misc_beer_06",
+        "icon_candidates": [
+          "inv_misc_beer_06"
+        ]
       },
       "pve_tooltip": "Instant\n20 sec recharge\n2 Charges\nClears 50% of your Staggered damage, or a minimum of 8% of your maximum health.",
       "pvp_tooltip": "Instant\n20 sec recharge\n2 Charges\nClears 50% of your Staggered damage, or a minimum of 8% of your maximum health.",
@@ -4181,8 +4370,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4216,7 +4405,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shuffle",
         "spell_id": 322120,
         "visible_spell_id": null,
-        "icon": "ability_monk_shuffle"
+        "icon": "ability_monk_shuffle",
+        "icon_candidates": [
+          "ability_monk_shuffle"
+        ]
       },
       "pve_tooltip": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by 100%.\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.\nStagger: You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]\n(100ms cooldown)",
       "pvp_tooltip": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by 100%.\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.\nStagger: You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]\n(100ms cooldown)",
@@ -4240,8 +4432,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4273,7 +4465,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "August Blessing",
         "spell_id": 454483,
         "visible_spell_id": null,
-        "icon": "inv_celestialserpentmount"
+        "icon": "inv_celestialserpentmount",
+        "icon_candidates": [
+          "inv_celestialserpentmount"
+        ]
       },
       "pve_tooltip": "When you would be healed above maximum health, you instead convert an amount equal to 40% of your critical strike chance to a heal over time effect.",
       "pvp_tooltip": "When you would be healed above maximum health, you instead convert an amount equal to 40% of your critical strike chance to a heal over time effect.",
@@ -4297,8 +4492,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4331,7 +4526,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Staggering Strikes",
         "spell_id": 387625,
         "visible_spell_id": null,
-        "icon": "ability_monk_blackoutstrike"
+        "icon": "ability_monk_blackoutstrike",
+        "icon_candidates": [
+          "ability_monk_blackoutstrike"
+        ]
       },
       "pve_tooltip": "When you Blackout Kick, your Stagger is reduced by (Attack Power * 750 / 100), increased by up to 200% based on your missing health.",
       "pvp_tooltip": "When you Blackout Kick, your Stagger is reduced by (Attack Power * 750 / 100), increased by up to 200% based on your missing health.",
@@ -4355,8 +4553,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4389,7 +4587,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Sip",
         "spell_id": 388505,
         "visible_spell_id": null,
-        "icon": "achievement_faction_brewmaster"
+        "icon": "achievement_faction_brewmaster",
+        "icon_candidates": [
+          "achievement_faction_brewmaster"
+        ]
       },
       "pve_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
       "pvp_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
@@ -4413,8 +4614,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4447,7 +4648,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elixir of Determination",
         "spell_id": 455139,
         "visible_spell_id": null,
-        "icon": "monk_ability_cherrymanatea"
+        "icon": "monk_ability_cherrymanatea",
+        "icon_candidates": [
+          "monk_ability_cherrymanatea"
+        ]
       },
       "pve_tooltip": "When you fall below 40% health, you gain an absorb for 30% of your recently Purified damage, or a minimum of 8% of your maximum health. Cannot occur more than once every 15 sec.",
       "pvp_tooltip": "When you fall below 40% health, you gain an absorb for 30% of your recently Purified damage, or a minimum of 8% of your maximum health. Cannot occur more than once every 15 sec.",
@@ -4471,8 +4675,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4505,7 +4709,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Blackout Kick",
         "spell_id": 383695,
         "visible_spell_id": null,
-        "icon": "ability_monk_roundhousekick"
+        "icon": "ability_monk_roundhousekick",
+        "icon_candidates": [
+          "ability_monk_roundhousekick"
+        ]
       },
       "pve_tooltip": "Blackout Kick deals 20% increased damage.",
       "pvp_tooltip": "Blackout Kick deals 20% increased damage.",
@@ -4529,8 +4736,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4562,7 +4769,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift as a Coursing River",
         "spell_id": 1263346,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint_blue"
+        "icon": "ability_rogue_sprint_blue",
+        "icon_candidates": [
+          "ability_rogue_sprint_blue"
+        ]
       },
       "pve_tooltip": "Drinking from a Brew increases your movement speed by 15% and your auto-attack speed by 10% for 15 sec.",
       "pvp_tooltip": "Drinking from a Brew increases your movement speed by 15% and your auto-attack speed by 10% for 15 sec.",
@@ -4586,8 +4796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4622,7 +4832,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gift of the Ox",
         "spell_id": 124502,
         "visible_spell_id": null,
-        "icon": "ability_druid_giftoftheearthmother"
+        "icon": "ability_druid_giftoftheearthmother",
+        "icon_candidates": [
+          "ability_druid_giftoftheearthmother"
+        ]
       },
       "pve_tooltip": "When you take damage, you have a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
       "pvp_tooltip": "When you take damage, you have a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
@@ -4646,8 +4859,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4683,7 +4896,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Special Delivery",
         "spell_id": 196730,
         "visible_spell_id": null,
-        "icon": "achievement_brewery_2"
+        "icon": "achievement_brewery_2",
+        "icon_candidates": [
+          "achievement_brewery_2"
+        ]
       },
       "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
       "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (85% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
@@ -4738,7 +4954,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4777,7 +4994,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4797,8 +5015,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4834,7 +5052,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rushing Jade Wind",
         "spell_id": 116847,
         "visible_spell_id": null,
-        "icon": "ability_monk_rushingjadewind"
+        "icon": "ability_monk_rushingjadewind",
+        "icon_candidates": [
+          "ability_monk_rushingjadewind"
+        ]
       },
       "pve_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [9 * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
       "pvp_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [9 * (11.305% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
@@ -4871,7 +5092,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116847,
           "source_spell_id": 148187,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.133)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4898,10 +5119,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4918,8 +5140,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4954,7 +5176,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spirit of the Ox",
         "spell_id": 400629,
         "visible_spell_id": null,
-        "icon": "ability_titankeeper_cleansingorb"
+        "icon": "ability_titankeeper_cleansingorb",
+        "icon_candidates": [
+          "ability_titankeeper_cleansingorb"
+        ]
       },
       "pve_tooltip": "Approximately 6 procs per minute\nBlackout Kick has a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
       "pvp_tooltip": "Approximately 6 procs per minute\nBlackout Kick has a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
@@ -4978,8 +5203,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5011,7 +5236,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Jade Flash",
         "spell_id": 1262334,
         "visible_spell_id": null,
-        "icon": "shaman_pvp_staticcling"
+        "icon": "shaman_pvp_staticcling",
+        "icon_candidates": [
+          "shaman_pvp_staticcling"
+        ]
       },
       "pve_tooltip": "Crackling Jade Lightning deals its damage in 75% less time, costs 75% less Energy, and strikes 4 additional targets, but has a 60 sec cooldown.",
       "pvp_tooltip": "Crackling Jade Lightning deals its damage in 75% less time, costs 75% less Energy, and strikes 4 additional targets, but has a 60 sec cooldown.",
@@ -5035,8 +5263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5070,7 +5298,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celestial Brew",
         "spell_id": 322507,
         "visible_spell_id": null,
-        "icon": "ability_monk_ironskinbrew"
+        "icon": "ability_monk_ironskinbrew",
+        "icon_candidates": [
+          "ability_monk_ironskinbrew"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing 0 damage.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing 0 damage.",
@@ -5094,8 +5325,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5129,7 +5360,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celestial Infusion",
         "spell_id": 1241059,
         "visible_spell_id": null,
-        "icon": "ability_monk_tigereyebrandy"
+        "icon": "ability_monk_tigereyebrandy",
+        "icon_candidates": [
+          "ability_monk_tigereyebrandy"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing 30% of incoming damage, up to 0 total.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing 30% of incoming damage, up to 0 total.",
@@ -5153,8 +5387,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5187,7 +5421,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Niuzao's Resolve",
         "spell_id": 1241097,
         "visible_spell_id": null,
-        "icon": "inv_ability_monk_renewingmists_active"
+        "icon": "inv_ability_monk_renewingmists_active",
+        "icon_candidates": [
+          "inv_ability_monk_renewingmists_active"
+        ]
       },
       "pve_tooltip": "Healing Spheres now heal over 10 sec, and their healing is increased by up to 80% based on your missing health.",
       "pvp_tooltip": "Healing Spheres now heal over 10 sec, and their healing is increased by up to 80% based on your missing health.",
@@ -5211,8 +5448,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5246,7 +5483,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celestial Flames",
         "spell_id": 1263353,
         "visible_spell_id": null,
-        "icon": "inv_misc_volatilefire"
+        "icon": "inv_misc_volatilefire",
+        "icon_candidates": [
+          "inv_misc_volatilefire"
+        ]
       },
       "pve_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
       "pvp_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (85% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
@@ -5331,8 +5571,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5365,7 +5605,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadowboxing Treads",
         "spell_id": 387638,
         "visible_spell_id": null,
-        "icon": "ability_monk_roundhousekick"
+        "icon": "ability_monk_roundhousekick",
+        "icon_candidates": [
+          "ability_monk_roundhousekick"
+        ]
       },
       "pve_tooltip": "Blackout Kick's damage increased by 20% and it strikes an additional 2 targets.",
       "pvp_tooltip": "Blackout Kick's damage increased by 20% and it strikes an additional 2 targets.",
@@ -5389,8 +5632,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5423,7 +5666,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fluidity of Motion",
         "spell_id": 387230,
         "visible_spell_id": null,
-        "icon": "ability_monk_standingkick"
+        "icon": "ability_monk_standingkick",
+        "icon_candidates": [
+          "ability_monk_standingkick"
+        ]
       },
       "pve_tooltip": "Blackout Kick's cooldown is reduced by 1 sec.",
       "pvp_tooltip": "Blackout Kick's cooldown is reduced by 1 sec.",
@@ -5447,8 +5693,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5482,7 +5728,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Elusive Footwork",
         "spell_id": 387046,
         "visible_spell_id": null,
-        "icon": "ability_monk_shuffle"
+        "icon": "ability_monk_shuffle",
+        "icon_candidates": [
+          "ability_monk_shuffle"
+        ]
       },
       "pve_tooltip": "Blackout Kick deals an additional 5% damage. Blackout Kick critical hits grant an additional 1 stack of Elusive Brawler.",
       "pvp_tooltip": "Blackout Kick deals an additional 5% damage. Blackout Kick critical hits grant an additional 1 stack of Elusive Brawler.",
@@ -5506,8 +5755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5539,7 +5788,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "One With the Wind",
         "spell_id": 454484,
         "visible_spell_id": null,
-        "icon": "ability_skyreach_wind"
+        "icon": "ability_skyreach_wind",
+        "icon_candidates": [
+          "ability_skyreach_wind"
+        ]
       },
       "pve_tooltip": "You have a 10% chance to not reset your Elusive Brawler stacks after a successful dodge.",
       "pvp_tooltip": "You have a 10% chance to not reset your Elusive Brawler stacks after a successful dodge.",
@@ -5563,8 +5815,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5598,7 +5850,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Breath of Fire",
         "spell_id": 115181,
         "visible_spell_id": null,
-        "icon": "ability_monk_breathoffire"
+        "icon": "ability_monk_breathoffire",
+        "icon_candidates": [
+          "ability_monk_breathoffire"
+        ]
       },
       "pve_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
       "pvp_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (114.75% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
@@ -5719,8 +5974,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5756,7 +6011,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gai Plin's Imperial Brew",
         "spell_id": 383700,
         "visible_spell_id": null,
-        "icon": "inv_misc_beer_05"
+        "icon": "inv_misc_beer_06",
+        "icon_candidates": [
+          "inv_misc_beer_06",
+          "inv_misc_beer_05"
+        ]
       },
       "pve_tooltip": "Purifying Brew instantly heals you for 25% of the Staggered damage it clears.",
       "pvp_tooltip": "Purifying Brew instantly heals you for 25% of the Staggered damage it clears.",
@@ -5780,8 +6039,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5817,7 +6076,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Light Brewing",
         "spell_id": 325093,
         "visible_spell_id": null,
-        "icon": "spell_brew_wheat"
+        "icon": "spell_brew_wheat",
+        "icon_candidates": [
+          "spell_brew_wheat"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Purifying Brew, Celestial Brew, and Celestial Infusion by 20%.",
       "pvp_tooltip": "Reduces the cooldown of Purifying Brew, Celestial Brew, and Celestial Infusion by 20%.",
@@ -5841,8 +6103,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5878,7 +6140,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Training of Niuzao",
         "spell_id": 383714,
         "visible_spell_id": null,
-        "icon": "monk_stance_drunkenox"
+        "icon": "monk_stance_drunkenox",
+        "icon_candidates": [
+          "monk_stance_drunkenox"
+        ]
       },
       "pve_tooltip": "Gain up to 15% Mastery based on your current level of Stagger.",
       "pvp_tooltip": "Gain up to 15% Mastery based on your current level of Stagger.",
@@ -5902,8 +6167,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5937,7 +6202,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pretense of Instability",
         "spell_id": 393516,
         "visible_spell_id": null,
-        "icon": "inv_misc_archaeology_vrykuldrinkinghorn"
+        "icon": "inv_misc_archaeology_vrykuldrinkinghorn",
+        "icon_candidates": [
+          "inv_misc_archaeology_vrykuldrinkinghorn"
+        ]
       },
       "pve_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
       "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
@@ -5961,8 +6229,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5996,7 +6264,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scalding Brew",
         "spell_id": 383698,
         "visible_spell_id": null,
-        "icon": "spell_brew_bolt_dark"
+        "icon": "spell_brew_bolt_dark",
+        "icon_candidates": [
+          "spell_brew_bolt_dark"
+        ]
       },
       "pve_tooltip": "Keg Smash deals an additional 20% damage to targets affected by Breath of Fire.",
       "pvp_tooltip": "Keg Smash deals an additional 20% damage to targets affected by Breath of Fire.",
@@ -6020,8 +6291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6055,7 +6326,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sal'salabim's Strength",
         "spell_id": 383697,
         "visible_spell_id": null,
-        "icon": "ability_warrior_unrelentingassault"
+        "icon": "ability_warrior_unrelentingassault",
+        "icon_candidates": [
+          "ability_warrior_unrelentingassault"
+        ]
       },
       "pve_tooltip": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
       "pvp_tooltip": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
@@ -6079,8 +6353,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6114,7 +6388,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fortifying Brew: Determination",
         "spell_id": 322960,
         "visible_spell_id": null,
-        "icon": "ability_monk_fortifyingale_new"
+        "icon": "ability_monk_fortifyingale_new",
+        "icon_candidates": [
+          "ability_monk_fortifyingale_new"
+        ]
       },
       "pve_tooltip": "Fortifying Brew increases Stagger effectiveness by 15% while active.\nCombines with other Fortifying Brew effects.",
       "pvp_tooltip": "Fortifying Brew increases Stagger effectiveness by 15% while active.\nCombines with other Fortifying Brew effects.",
@@ -6138,8 +6415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6173,7 +6450,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bob and Weave",
         "spell_id": 280515,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_04"
+        "icon": "ability_creature_cursed_04",
+        "icon_candidates": [
+          "ability_creature_cursed_04"
+        ]
       },
       "pve_tooltip": "Increases the duration of Stagger by 5.0 sec, causing Staggered damage to be dealt to you more gradually.",
       "pvp_tooltip": "Increases the duration of Stagger by 5.0 sec, causing Staggered damage to be dealt to you more gradually.",
@@ -6197,8 +6477,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6232,7 +6512,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Black Ox Brew",
         "spell_id": 115399,
         "visible_spell_id": null,
-        "icon": "ability_monk_chibrew"
+        "icon": "ability_monk_chibrew",
+        "icon_candidates": [
+          "ability_monk_chibrew"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nChug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial Infusion.",
       "pvp_tooltip": "Instant\n2 min cooldown\nChug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial Infusion.",
@@ -6256,8 +6539,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6291,7 +6574,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Walk with the Ox",
         "spell_id": 387219,
         "visible_spell_id": null,
-        "icon": "ability_monk_chargingoxwave"
+        "icon": "ability_monk_chargingoxwave",
+        "icon_candidates": [
+          "ability_monk_chargingoxwave"
+        ]
       },
       "pve_tooltip": "100 yd range\nYour damaging abilities have an increased chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
       "pvp_tooltip": "100 yd range\nYour damaging abilities have an increased chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (340% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
@@ -6417,8 +6703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6452,7 +6738,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Zen State",
         "spell_id": 1241136,
         "visible_spell_id": null,
-        "icon": "spell_monk_zenpilgrimage"
+        "icon": "spell_monk_zenpilgrimage",
+        "icon_candidates": [
+          "spell_monk_zenpilgrimage"
+        ]
       },
       "pve_tooltip": "The effectiveness of your Stagger is increased by up to 15%, based on your missing health.",
       "pvp_tooltip": "The effectiveness of your Stagger is increased by up to 15%, based on your missing health.",
@@ -6476,8 +6765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6511,7 +6800,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tranquil Spirit",
         "spell_id": 393357,
         "visible_spell_id": null,
-        "icon": "ability_monk_chiswirl"
+        "icon": "ability_monk_chiswirl",
+        "icon_candidates": [
+          "ability_monk_chiswirl"
+        ]
       },
       "pve_tooltip": "When you consume a Healing Sphere, you clear 5% of your currently Staggered damage.",
       "pvp_tooltip": "When you consume a Healing Sphere, you clear 5% of your currently Staggered damage.",
@@ -6535,8 +6827,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6570,7 +6862,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Face Palm",
         "spell_id": 389942,
         "visible_spell_id": null,
-        "icon": "ability_monk_tigerpalm"
+        "icon": "ability_monk_tigerpalm",
+        "icon_candidates": [
+          "ability_monk_tigerpalm"
+        ]
       },
       "pve_tooltip": "Tiger Palm's damage is increased by 100% and reduces the remaining cooldown of your Brews by 0.5 additional sec.",
       "pvp_tooltip": "Tiger Palm's damage is increased by 100% and reduces the remaining cooldown of your Brews by 0.5 additional sec.",
@@ -6594,8 +6889,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6627,7 +6922,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dragonfire Brew",
         "spell_id": 383994,
         "visible_spell_id": null,
-        "icon": "spell_fire_burnout"
+        "icon": "spell_fire_burnout",
+        "icon_candidates": [
+          "spell_fire_burnout"
+        ]
       },
       "pve_tooltip": "Breath of Fire deals 100% increased damage, and after using Breath of Fire, you breathe fire 2 additional times, each dealing (20% of Attack Power) Fire damage.",
       "pvp_tooltip": "Breath of Fire deals 100% increased damage, and after using Breath of Fire, you breathe fire 2 additional times, each dealing (27% of Attack Power) Fire damage.",
@@ -6682,7 +6980,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6702,8 +7001,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6735,7 +7034,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Charred Passions",
         "spell_id": 386965,
         "visible_spell_id": null,
-        "icon": "ability_monk_mightyoxkick"
+        "icon": "ability_monk_mightyoxkick",
+        "icon_candidates": [
+          "ability_monk_mightyoxkick"
+        ]
       },
       "pve_tooltip": "Your Breath of Fire ignites your right leg in flame for 8 sec, causing your Blackout Kick and Spinning Crane Kick to deal 50% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
       "pvp_tooltip": "Your Breath of Fire ignites your right leg in flame for 8 sec, causing your Blackout Kick and Spinning Crane Kick to deal 50% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
@@ -6759,8 +7061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6795,7 +7097,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "High Tolerance",
         "spell_id": 196737,
         "visible_spell_id": null,
-        "icon": "monk_ability_avertharm"
+        "icon": "monk_ability_avertharm",
+        "icon_candidates": [
+          "monk_ability_avertharm"
+        ]
       },
       "pve_tooltip": "Stagger is 4% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at Elevated Stagger.",
       "pvp_tooltip": "Stagger is 4% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at Elevated Stagger.",
@@ -6838,8 +7143,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6875,7 +7180,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Press the Advantage",
         "spell_id": 418359,
         "visible_spell_id": null,
-        "icon": "inv__fistofthewhitetiger"
+        "icon": "inv__fistofthewhitetiger",
+        "icon_candidates": [
+          "inv__fistofthewhitetiger"
+        ]
       },
       "pve_tooltip": "Replaces Tiger Palm\nYour main hand auto attacks reduce the cooldown on your Brews by 0.50 sec and block your target's chi, dealing (30% of Attack Power) additional Nature damage.\nAfter 10 attacks, the next casts Tiger Palm at 100% effectiveness.",
       "pvp_tooltip": "Replaces Tiger Palm\nYour main hand auto attacks reduce the cooldown on your Brews by 0.50 sec and block your target's chi, dealing (25.5% of Attack Power) additional Nature damage.\nAfter 10 attacks, the next casts Tiger Palm at 100% effectiveness.",
@@ -6960,8 +7268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6997,7 +7305,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blackout Combo",
         "spell_id": 196736,
         "visible_spell_id": null,
-        "icon": "ability_monk_blackoutkick"
+        "icon": "ability_monk_blackoutkick",
+        "icon_candidates": [
+          "ability_monk_blackoutkick"
+        ]
       },
       "pve_tooltip": "Blackout Kick also empowers your next ability:\nTiger Palm: Damage increased by 100%.\nKeg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.",
       "pvp_tooltip": "Blackout Kick also empowers your next ability:\nTiger Palm: Damage increased by 100%.\nKeg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.",
@@ -7021,8 +7332,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7057,7 +7368,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Anvil and Stave",
         "spell_id": 386937,
         "visible_spell_id": null,
-        "icon": "ability_monk_elusiveale"
+        "icon": "ability_monk_elusiveale",
+        "icon_candidates": [
+          "ability_monk_elusiveale"
+        ]
       },
       "pve_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 1 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
       "pvp_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 1 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
@@ -7100,8 +7414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7133,7 +7447,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Counterstrike",
         "spell_id": 383785,
         "visible_spell_id": null,
-        "icon": "ability_monk_palmstrike"
+        "icon": "ability_monk_palmstrike",
+        "icon_candidates": [
+          "ability_monk_palmstrike"
+        ]
       },
       "pve_tooltip": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals 100% increased damage.\n(1s cooldown)",
       "pvp_tooltip": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals 100% increased damage.\n(1s cooldown)",
@@ -7253,8 +7570,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7289,7 +7606,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Exploding Keg",
         "spell_id": 325153,
         "visible_spell_id": null,
-        "icon": "inv12_ability_monk_explodingkeg"
+        "icon": "inv12_ability_monk_explodingkeg",
+        "icon_candidates": [
+          "inv12_ability_monk_explodingkeg"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (380% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (30% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
       "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (323% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (25.5% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
@@ -7426,8 +7746,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7461,7 +7781,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ox Stance",
         "spell_id": 455068,
         "visible_spell_id": null,
-        "icon": "ability_monk_leeroftheox"
+        "icon": "ability_monk_leeroftheox",
+        "icon_candidates": [
+          "ability_monk_leeroftheox"
+        ]
       },
       "pve_tooltip": "Casting Purifying Brew grants a charge of Ox Stance. When you take damage that is greater than 60% of your current health, a charge is consumed to increase the amount you Stagger.",
       "pvp_tooltip": "Casting Purifying Brew grants a charge of Ox Stance. When you take damage that is greater than 60% of your current health, a charge is consumed to increase the amount you Stagger.",
@@ -7485,8 +7808,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7520,7 +7843,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Awakening Spirit",
         "spell_id": 1262628,
         "visible_spell_id": null,
-        "icon": "achievement_boss_golden_lotus_council"
+        "icon": "achievement_boss_golden_lotus_council",
+        "icon_candidates": [
+          "achievement_boss_golden_lotus_council"
+        ]
       },
       "pve_tooltip": "Purifying Brew also surrounds you with protective energies for 15 sec.\nWhen Staggered damage would be dealt to you, you instead absorb up to 50%, until 0 has been prevented.",
       "pvp_tooltip": "Purifying Brew also surrounds you with protective energies for 15 sec.\nWhen Staggered damage would be dealt to you, you instead absorb up to 50%, until 0 has been prevented.",
@@ -7544,8 +7870,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7579,7 +7905,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vital Flame",
         "spell_id": 1262659,
         "visible_spell_id": null,
-        "icon": "achievement_faction_shadopan"
+        "icon": "achievement_faction_shadopan",
+        "icon_candidates": [
+          "achievement_faction_shadopan"
+        ]
       },
       "pve_tooltip": "Heal for 50% of all Fire or Nature damage dealt by your spells and abilities.",
       "pvp_tooltip": "Heal for 50% of all Fire or Nature damage dealt by your spells and abilities.",
@@ -7603,8 +7932,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7639,7 +7968,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Invoke Niuzao, the Black Ox",
         "spell_id": 132578,
         "visible_spell_id": null,
-        "icon": "spell_monk_brewmaster_spec"
+        "icon": "spell_monk_brewmaster_spec",
+        "icon_candidates": [
+          "spell_monk_brewmaster_spec"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Niuzao, the Black Ox for 25 sec that attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby enemies.\nWhile active, 40% of damage delayed by Stagger is instead Staggered by Niuzao, and Niuzao is healed for 100% of your purified Stagger.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Niuzao, the Black Ox for 25 sec that attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby enemies.\nWhile active, 40% of damage delayed by Stagger is instead Staggered by Niuzao, and Niuzao is healed for 100% of your purified Stagger.",
@@ -7663,8 +7995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7694,7 +8026,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fuel on the Fire",
         "spell_id": 1262017,
         "visible_spell_id": null,
-        "icon": "spell_shaman_stormearthfire"
+        "icon": "spell_shaman_stormearthfire",
+        "icon_candidates": [
+          "spell_shaman_stormearthfire"
+        ]
       },
       "pve_tooltip": "Exploding Keg also causes your next 2 casts of Keg Smash to summon a whirl of flame which spirals outwards, dealing (200% of Attack Power) additional Fire damage to each enemy struck.",
       "pvp_tooltip": "Exploding Keg also causes your next 2 casts of Keg Smash to summon a whirl of flame which spirals outwards, dealing (200% of Attack Power) additional Fire damage to each enemy struck.",
@@ -7718,8 +8053,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7749,7 +8084,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empty the Cellar",
         "spell_id": 1262329,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_liquidpyrite"
+        "icon": "ability_vehicle_liquidpyrite",
+        "icon_candidates": [
+          "ability_vehicle_liquidpyrite"
+        ]
       },
       "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
       "pvp_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (170% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
@@ -7834,8 +8172,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7865,7 +8203,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empty the Cellar",
         "spell_id": 1262329,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_liquidpyrite"
+        "icon": "ability_vehicle_liquidpyrite",
+        "icon_candidates": [
+          "ability_vehicle_liquidpyrite"
+        ]
       },
       "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
       "pvp_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (170% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
@@ -7950,8 +8291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7983,7 +8324,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stormstout's Last Keg",
         "spell_id": 383707,
         "visible_spell_id": null,
-        "icon": "achievement_brewery_2"
+        "icon": "achievement_brewery_2",
+        "icon_candidates": [
+          "achievement_brewery_2"
+        ]
       },
       "pve_tooltip": "Keg Smash deals 50% additional damage to its primary target, has 1 additional charge, and its range is increased by 10 yards.",
       "pvp_tooltip": "Keg Smash deals 50% additional damage to its primary target, has 1 additional charge, and its range is increased by 10 yards.",
@@ -8007,8 +8351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8038,7 +8382,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Heart of the Ox",
         "spell_id": 1263245,
         "visible_spell_id": null,
-        "icon": "inv_muskox_white"
+        "icon": "inv_muskox_white",
+        "icon_candidates": [
+          "inv_muskox_white"
+        ]
       },
       "pve_tooltip": "Mastery increased by 5%. Double this effect while Invoke Niuzao, the Black Ox is active.",
       "pvp_tooltip": "Mastery increased by 5%. Double this effect while Invoke Niuzao, the Black Ox is active.",
@@ -8062,8 +8409,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8093,7 +8440,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mighty Stomp",
         "spell_id": 322740,
         "visible_spell_id": null,
-        "icon": "inv_inscription_trinket_ox"
+        "icon": "inv_inscription_trinket_ox",
+        "icon_candidates": [
+          "inv_inscription_trinket_ox"
+        ]
       },
       "pve_tooltip": "While active, Invoke Niuzao, the Black Ox can be recast to cause Niuzao to stomp mightily and knock nearby enemies into the air.",
       "pvp_tooltip": "While active, Invoke Niuzao, the Black Ox can be recast to cause Niuzao to stomp mightily and knock nearby enemies into the air.",
@@ -8117,8 +8467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8146,7 +8496,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bring Me Another",
         "spell_id": 1265129,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_monk_bringmeanother"
+        "icon": "inv12_apextalent_monk_bringmeanother",
+        "icon_candidates": [
+          "inv12_apextalent_monk_bringmeanother"
+        ]
       },
       "pve_tooltip": "Drinking a Brew has a 20% chance to leave you with an Empty Barrel, which is tossed along with your next Keg Smash to deal (300% of Attack Power) Physical damage to your target. Ricochets up to 4 times at 80% effectiveness.\n(Proc chance: 20%)",
       "pvp_tooltip": "Drinking a Brew has a 20% chance to leave you with an Empty Barrel, which is tossed along with your next Keg Smash to deal (300% of Attack Power) Physical damage to your target. Ricochets up to 4 times at 80% effectiveness.\n(Proc chance: 20%)",
@@ -8170,8 +8523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8199,7 +8552,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bring Me Another",
         "spell_id": 1265138,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_monk_bringmeanother"
+        "icon": "inv12_apextalent_monk_bringmeanother",
+        "icon_candidates": [
+          "inv12_apextalent_monk_bringmeanother"
+        ]
       },
       "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
       "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
@@ -8242,8 +8598,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8271,7 +8627,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bring Me Another",
         "spell_id": 1265141,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_monk_bringmeanother"
+        "icon": "inv12_apextalent_monk_bringmeanother",
+        "icon_candidates": [
+          "inv12_apextalent_monk_bringmeanother"
+        ]
       },
       "pve_tooltip": "When you cast Fortifying Brew or [Celestial Infusion / Celestial Brew] you tap a fresh keg, granting yourself and 2 nearby allies a refreshing drink, and leaving you with an Empty Barrel.\nEmpty Barrels deal 100% increased damage.\nRefreshing Drink:\nUpon taking damage, automatically consume a refreshing drink to heal for (3200% of Attack Power) over 8 sec.",
       "pvp_tooltip": "When you cast Fortifying Brew or [Celestial Infusion / Celestial Brew] you tap a fresh keg, granting yourself and 2 nearby allies a refreshing drink, and leaving you with an Empty Barrel.\nEmpty Barrels deal 100% increased damage.\nRefreshing Drink:\nUpon taking damage, automatically consume a refreshing drink to heal for (3200% of Attack Power) over 8 sec.",
@@ -8295,8 +8654,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8329,7 +8688,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flurry Strikes",
         "spell_id": 450615,
         "visible_spell_id": null,
-        "icon": "inv_ability_shadopanmonk_flurrystrikes"
+        "icon": "inv_ability_shadopanmonk_flurrystrikes",
+        "icon_candidates": [
+          "inv_ability_shadopanmonk_flurrystrikes"
+        ]
       },
       "pve_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Keg Smash, unleash all Flurry Charges, dealing (60% of Attack Power) Physical damage per charge.",
       "pvp_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Keg Smash, unleash all Flurry Charges, dealing (51% of Attack Power) Physical damage per charge.",
@@ -8414,8 +8776,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8447,7 +8809,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pride of Pandaria",
         "spell_id": 450979,
         "visible_spell_id": null,
-        "icon": "inv_staff_2h_pandarenmonk_c_01"
+        "icon": "inv_staff_2h_pandarenmonk_c_01",
+        "icon_candidates": [
+          "inv_staff_2h_pandarenmonk_c_01"
+        ]
       },
       "pve_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
       "pvp_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
@@ -8471,8 +8836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8504,7 +8869,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "High Impact",
         "spell_id": 450982,
         "visible_spell_id": null,
-        "icon": "ability_monk_powerstrikes"
+        "icon": "ability_monk_powerstrikes",
+        "icon_candidates": [
+          "ability_monk_powerstrikes"
+        ]
       },
       "pve_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
       "pvp_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
@@ -8528,8 +8896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8561,7 +8929,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Veteran's Eye",
         "spell_id": 450987,
         "visible_spell_id": null,
-        "icon": "ability_monk_provoke"
+        "icon": "ability_monk_provoke",
+        "icon_candidates": [
+          "ability_monk_provoke"
+        ]
       },
       "pve_tooltip": "Haste increased by 5%.",
       "pvp_tooltip": "Haste increased by 5%.",
@@ -8585,8 +8956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8618,7 +8989,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Martial Precision",
         "spell_id": 450990,
         "visible_spell_id": null,
-        "icon": "ability_monk_jab"
+        "icon": "ability_monk_jab",
+        "icon_candidates": [
+          "ability_monk_jab"
+        ]
       },
       "pve_tooltip": "Your attacks penetrate 12% armor.",
       "pvp_tooltip": "Your attacks penetrate 12% armor.",
@@ -8642,8 +9016,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8675,7 +9049,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shado Over the Battlefield",
         "spell_id": 1262612,
         "visible_spell_id": null,
-        "icon": "inv_elemental_primal_shadow"
+        "icon": "inv_elemental_primal_shadow",
+        "icon_candidates": [
+          "inv_elemental_primal_shadow"
+        ]
       },
       "pve_tooltip": "Flurry Strikes deal (52% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
       "pvp_tooltip": "Flurry Strikes deal (44.2% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
@@ -8760,8 +9137,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8793,7 +9170,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combat Stance",
         "spell_id": 1272844,
         "visible_spell_id": null,
-        "icon": "ability_monk_roll"
+        "icon": "ability_monk_roll",
+        "icon_candidates": [
+          "ability_monk_roll"
+        ]
       },
       "pve_tooltip": "The cooldown of Roll is decreased by 10%.",
       "pvp_tooltip": "The cooldown of Roll is decreased by 10%.",
@@ -8817,8 +9197,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8850,7 +9230,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Initiator's Edge",
         "spell_id": 1272849,
         "visible_spell_id": null,
-        "icon": "crest_monk"
+        "icon": "crest_monk",
+        "icon_candidates": [
+          "crest_monk"
+        ]
       },
       "pve_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
       "pvp_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
@@ -8874,8 +9257,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8907,7 +9290,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "One Versus Many",
         "spell_id": 450988,
         "visible_spell_id": null,
-        "icon": "ability_monk_chargingoxwave"
+        "icon": "ability_monk_chargingoxwave",
+        "icon_candidates": [
+          "ability_monk_chargingoxwave"
+        ]
       },
       "pve_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nKeg Smash damage increased by 35%.",
       "pvp_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nKeg Smash damage increased by 35%.",
@@ -8931,8 +9317,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8964,7 +9350,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Whirling Steel",
         "spell_id": 450991,
         "visible_spell_id": null,
-        "icon": "ability_whirlwind"
+        "icon": "ability_whirlwind",
+        "icon_candidates": [
+          "ability_whirlwind"
+        ]
       },
       "pve_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
       "pvp_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
@@ -8988,8 +9377,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9021,7 +9410,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Predictive Training",
         "spell_id": 450992,
         "visible_spell_id": null,
-        "icon": "ability_monk_domeofmist"
+        "icon": "ability_monk_domeofmist",
+        "icon_candidates": [
+          "ability_monk_domeofmist"
+        ]
       },
       "pve_tooltip": "When you dodge or parry an attack, reduce all damage taken by 8% for the next 6 sec.",
       "pvp_tooltip": "When you dodge or parry an attack, reduce all damage taken by 8% for the next 6 sec.",
@@ -9045,8 +9437,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9078,7 +9470,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stand Ready",
         "spell_id": 1262603,
         "visible_spell_id": null,
-        "icon": "ability_monk_sparring"
+        "icon": "ability_monk_sparring",
+        "icon_candidates": [
+          "ability_monk_sparring"
+        ]
       },
       "pve_tooltip": "Activating Invoke Niuzao, the Black Ox instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
       "pvp_tooltip": "Activating Invoke Niuzao, the Black Ox instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
@@ -9102,8 +9497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9135,7 +9530,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Against All Odds",
         "spell_id": 450986,
         "visible_spell_id": null,
-        "icon": "achievement_legionpvp6tier1"
+        "icon": "achievement_legionpvp6tier1",
+        "icon_candidates": [
+          "achievement_legionpvp6tier1"
+        ]
       },
       "pve_tooltip": "Your agility is increased by 4%.",
       "pvp_tooltip": "Your agility is increased by 4%.",
@@ -9159,8 +9557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9192,7 +9590,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Efficient Training",
         "spell_id": 450989,
         "visible_spell_id": null,
-        "icon": "inv_fistofthewhitetiger"
+        "icon": "inv_fistofthewhitetiger",
+        "icon_candidates": [
+          "inv_fistofthewhitetiger"
+        ]
       },
       "pve_tooltip": "Energy spenders deal an additional 20% damage.\nThe cooldown of Invoke Niuzao, the Black Ox is reduced by 25 sec.",
       "pvp_tooltip": "Energy spenders deal an additional 20% damage.\nThe cooldown of Invoke Niuzao, the Black Ox is reduced by 25 sec.",
@@ -9216,8 +9617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9249,7 +9650,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vigilant Watch",
         "spell_id": 450993,
         "visible_spell_id": null,
-        "icon": "ability_rogue_masterofsubtlety"
+        "icon": "ability_rogue_masterofsubtlety",
+        "icon_candidates": [
+          "ability_rogue_masterofsubtlety"
+        ]
       },
       "pve_tooltip": "Blackout Kick deals an additional 30% critical damage.",
       "pvp_tooltip": "Blackout Kick deals an additional 30% critical damage.",
@@ -9273,8 +9677,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9306,7 +9710,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Weapons of the Wall",
         "spell_id": 1262610,
         "visible_spell_id": null,
-        "icon": "misc_legionfall_monk"
+        "icon": "misc_legionfall_monk",
+        "icon_candidates": [
+          "misc_legionfall_monk"
+        ]
       },
       "pve_tooltip": "Invoke Niuzao, the Black Ox's stomp damage increased by 20%.",
       "pvp_tooltip": "Invoke Niuzao, the Black Ox's stomp damage increased by 20%.",
@@ -9330,8 +9737,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9364,7 +9771,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wisdom of the Wall",
         "spell_id": 1272821,
         "visible_spell_id": null,
-        "icon": "inv_legendary_sigilofwisdom"
+        "icon": "inv_legendary_sigilofwisdom",
+        "icon_candidates": [
+          "inv_legendary_sigilofwisdom"
+        ]
       },
       "pve_tooltip": "Invoke Niuzao, the Black Ox causes Breath of Fire to launch 3 Flurry Strikes.",
       "pvp_tooltip": "Invoke Niuzao, the Black Ox causes Breath of Fire to launch 3 Flurry Strikes.",
@@ -9388,8 +9798,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9422,7 +9832,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aspect of Harmony",
         "spell_id": 450508,
         "visible_spell_id": null,
-        "icon": "inv_ability_masterofharmonymonk_aspectofharmony"
+        "icon": "inv_ability_masterofharmonymonk_aspectofharmony",
+        "icon_candidates": [
+          "inv_ability_masterofharmonymonk_aspectofharmony"
+        ]
       },
       "pve_tooltip": "Store vitality from 12% of your damage dealt and 6% of your effective healing.\nFor 10 sec after casting Celestial Brew or Celestial Infusion your spells and abilities draw upon the stored vitality to deal 40% additional damage over 8 sec.",
       "pvp_tooltip": "Store vitality from 12% of your damage dealt and 6% of your effective healing.\nFor 10 sec after casting Celestial Brew or Celestial Infusion your spells and abilities draw upon the stored vitality to deal 40% additional damage over 8 sec.",
@@ -9483,8 +9896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9516,7 +9929,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Manifestation",
         "spell_id": 450875,
         "visible_spell_id": null,
-        "icon": "inv_shoulder_inv_leather_raidmonk_s_01"
+        "icon": "inv_shoulder_inv_leather_raidmonk_s_01",
+        "icon_candidates": [
+          "inv_shoulder_inv_leather_raidmonk_s_01"
+        ]
       },
       "pve_tooltip": "Chi Burst and Chi Wave deal 50% increased damage and healing.",
       "pvp_tooltip": "Chi Burst and Chi Wave deal 25% increased damage and healing.",
@@ -9587,8 +10003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9620,7 +10036,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Purified Spirit",
         "spell_id": 450867,
         "visible_spell_id": null,
-        "icon": "ability_monk_explodingjadeblossom"
+        "icon": "ability_monk_explodingjadeblossom",
+        "icon_candidates": [
+          "ability_monk_explodingjadeblossom"
+        ]
       },
       "pve_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over 8 sec, split among nearby targets.",
       "pvp_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over 8 sec, split among nearby targets.",
@@ -9644,8 +10063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9677,7 +10096,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Harmonic Gambit",
         "spell_id": 450870,
         "visible_spell_id": null,
-        "icon": "passive_monk_teachingsofmonastery"
+        "icon": "passive_monk_teachingsofmonastery",
+        "icon_candidates": [
+          "passive_monk_teachingsofmonastery"
+        ]
       },
       "pve_tooltip": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional 40% over 8 sec.",
       "pvp_tooltip": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional 40% over 8 sec.",
@@ -9701,8 +10123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9734,7 +10156,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Balanced Stratagem",
         "spell_id": 450889,
         "visible_spell_id": null,
-        "icon": "ability_monk_sphereharmonydiscord"
+        "icon": "ability_monk_sphereharmonydiscord",
+        "icon_candidates": [
+          "ability_monk_sphereharmonydiscord"
+        ]
       },
       "pve_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
       "pvp_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
@@ -9758,8 +10183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9791,7 +10216,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Harmonic Surge",
         "spell_id": 1270958,
         "visible_spell_id": null,
-        "icon": "ability_socererking_forcenova"
+        "icon": "ability_socererking_forcenova",
+        "icon_candidates": [
+          "ability_socererking_forcenova"
+        ]
       },
       "pve_tooltip": "Casting grants 2 charges of Potential Energy. Your next cast of Tiger Palm or Vivify consumes all charges of Potential Energy to cause a Harmonic Surge.\nHarmonic Surge:\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
       "pvp_tooltip": "Casting grants 2 charges of Potential Energy. Your next cast of Tiger Palm or Vivify consumes all charges of Potential Energy to cause a Harmonic Surge.\nHarmonic Surge:\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 18.15 / 100] Nature damage to your target and [(400% of Spell Power) * 18.15 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
@@ -10001,7 +10429,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
@@ -10039,7 +10468,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
@@ -10070,7 +10500,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10090,8 +10521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10123,7 +10554,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tiger's Vigor",
         "spell_id": 451041,
         "visible_spell_id": null,
-        "icon": "monk_stance_whitetiger"
+        "icon": "monk_stance_whitetiger",
+        "icon_candidates": [
+          "monk_stance_whitetiger"
+        ]
       },
       "pve_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
       "pvp_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
@@ -10147,8 +10581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10180,7 +10614,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Roar from the Heavens",
         "spell_id": 451043,
         "visible_spell_id": null,
-        "icon": "inv_celestialserpentmount"
+        "icon": "inv_celestialserpentmount",
+        "icon_candidates": [
+          "inv_celestialserpentmount"
+        ]
       },
       "pve_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
       "pvp_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
@@ -10204,8 +10641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10237,7 +10674,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Endless Draught",
         "spell_id": 450892,
         "visible_spell_id": null,
-        "icon": "inv_drink_25_honeytea"
+        "icon": "inv_drink_25_honeytea",
+        "icon_candidates": [
+          "inv_drink_25_honeytea"
+        ]
       },
       "pve_tooltip": "Celestial Brew and Celestial Infusion have 1 additional charge.",
       "pvp_tooltip": "Celestial Brew and Celestial Infusion have 1 additional charge.",
@@ -10261,8 +10701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10294,10 +10734,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mantra of Purity",
         "spell_id": 451036,
         "visible_spell_id": null,
-        "icon": "ability_monk_domeofmist"
+        "icon": "ability_monk_domeofmist",
+        "icon_candidates": [
+          "ability_monk_domeofmist"
+        ]
       },
-      "pve_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to [(Attack Power * 100 / 100) * (1 + Versatility)] incoming Stagger.",
-      "pvp_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to [(Attack Power * 100 / 100) * (1 + Versatility)] incoming Stagger.",
+      "pve_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to (Attack Power * 100 / 100) * (1 + Versatility) incoming Stagger.",
+      "pvp_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to (Attack Power * 100 / 100) * (1 + Versatility) incoming Stagger.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -10318,8 +10761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10351,7 +10794,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mantra of Tenacity",
         "spell_id": 451029,
         "visible_spell_id": null,
-        "icon": "spell_monk_brewmastertraining"
+        "icon": "spell_monk_brewmastertraining",
+        "icon_candidates": [
+          "spell_monk_brewmastertraining"
+        ]
       },
       "pve_tooltip": "Fortifying Brew applies a Chi Cocoon, absorbing [Total Health * 12 / 100 * (1 + Versatility)] damage.",
       "pvp_tooltip": "Fortifying Brew applies a Chi Cocoon, absorbing [Total Health * 12 / 100 * (1 + Versatility)] damage.",
@@ -10375,8 +10821,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10408,7 +10854,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Potential Energy",
         "spell_id": 1271048,
         "visible_spell_id": null,
-        "icon": "spell_magic_managain"
+        "icon": "spell_magic_managain",
+        "icon_candidates": [
+          "spell_magic_managain"
+        ]
       },
       "pve_tooltip": "Casting Keg Smash grants a charge of Potential Energy.",
       "pvp_tooltip": "Casting Keg Smash grants a charge of Potential Energy.",
@@ -10432,8 +10881,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10465,7 +10914,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Overwhelming Force",
         "spell_id": 451024,
         "visible_spell_id": null,
-        "icon": "ability_titankeeper_piercingcorruption"
+        "icon": "ability_titankeeper_piercingcorruption",
+        "icon_candidates": [
+          "ability_titankeeper_piercingcorruption"
+        ]
       },
       "pve_tooltip": "Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
       "pvp_tooltip": "Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
@@ -10489,8 +10941,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10522,7 +10974,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Path of Resurgence",
         "spell_id": 450912,
         "visible_spell_id": null,
-        "icon": "ability_monk_pathofmists"
+        "icon": "ability_monk_pathofmists",
+        "icon_candidates": [
+          "ability_monk_pathofmists"
+        ]
       },
       "pve_tooltip": "Chi Burst increases vitality stored by 25% for 10 sec.\n(3s cooldown)",
       "pvp_tooltip": "Chi Burst increases vitality stored by 25% for 10 sec.\n(3s cooldown)",
@@ -10546,8 +11001,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10579,7 +11034,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Way of a Thousand Strikes",
         "spell_id": 450965,
         "visible_spell_id": null,
-        "icon": "ability_monk_mightyoxkick"
+        "icon": "ability_monk_mightyoxkick",
+        "icon_candidates": [
+          "ability_monk_mightyoxkick"
+        ]
       },
       "pve_tooltip": "Blackout Kick and Tiger Palm contribute 30% additional vitality.",
       "pvp_tooltip": "Blackout Kick and Tiger Palm contribute 30% additional vitality.",
@@ -10603,8 +11061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10636,10 +11094,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Clarity of Purpose",
         "spell_id": 451017,
         "visible_spell_id": null,
-        "icon": "ability_titankeeper_cleanse"
+        "icon": "ability_titankeeper_cleanse",
+        "icon_candidates": [
+          "ability_titankeeper_cleanse"
+        ]
       },
-      "pve_tooltip": "Casting Purifying Brew stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
-      "pvp_tooltip": "Casting Purifying Brew stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
+      "pve_tooltip": "Casting Purifying Brew stores (Spell Power * 300 / 100) * (1 + Versatility) additional vitality.",
+      "pvp_tooltip": "Casting Purifying Brew stores (Spell Power * 300 / 100) * (1 + Versatility) additional vitality.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -10660,8 +11121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10693,7 +11154,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Meditative Focus",
         "spell_id": 1271105,
         "visible_spell_id": null,
-        "icon": "inv_misc_herb_mountainsilversage"
+        "icon": "inv_misc_herb_mountainsilversage",
+        "icon_candidates": [
+          "inv_misc_herb_mountainsilversage"
+        ]
       },
       "pve_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
       "pvp_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
@@ -10717,8 +11181,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10751,7 +11215,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Coalescence",
         "spell_id": 450529,
         "visible_spell_id": null,
-        "icon": "ability_monk_effuse"
+        "icon": "ability_monk_effuse",
+        "icon_candidates": [
+          "ability_monk_effuse"
+        ]
       },
       "pve_tooltip": "When Aspect of Harmony deals damage, it has a chance to spread to a nearby enemy. When you directly attack an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nKeg Smash no longer contributes vitality. While Aspect of Harmony is not active, Keg Smash instead draws on available vitality to deal an additional 100% damage over 8 sec.\nVitality stored by other abilities is increased by 50%.",
       "pvp_tooltip": "When Aspect of Harmony deals damage, it has a chance to spread to a nearby enemy. When you directly attack an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nKeg Smash no longer contributes vitality. While Aspect of Harmony is not active, Keg Smash instead draws on available vitality to deal an additional 100% damage over 8 sec.\nVitality stored by other abilities is increased by 50%.",
@@ -11089,7 +11556,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-22T19:26:59.765192+00:00",
+  "generated_at": "2026-09-24T11:46:04.222215+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 22,
@@ -11102,11 +11569,26 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 13,
+    "source_warning_count": 16,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 132467,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 148135,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 148187,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148187'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 196733,
@@ -11116,21 +11598,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 387621,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387621'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 388867,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388867'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 418360,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=418360'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 450342,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450342'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

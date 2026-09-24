@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -50,7 +50,10 @@
         "talent_name": "Vengeful Retreat",
         "spell_id": 198793,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat2"
+        "icon": "ability_demonhunter_vengefulretreat2",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat2"
+        ]
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
       "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (15.36% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 50% for 3 sec].",
@@ -183,8 +186,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -215,7 +218,10 @@
         "talent_name": "Felblade",
         "spell_id": 232893,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_felblade"
+        "icon": "ability_demonhunter_felblade",
+        "icon_candidates": [
+          "ability_demonhunter_felblade"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)% Fire damage.\n[Fracture: Generates 15 Fury.] [Demonic Wards: Generates 15 Fury.]Generates 15 Fury.",
       "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)% Fire damage.\n[Fracture: Generates 15 Fury.] [Demonic Wards: Generates 15 Fury.]Generates 15 Fury.",
@@ -280,8 +286,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -312,7 +318,10 @@
         "talent_name": "Sigil of Misery",
         "spell_id": 207684,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_sigilofmisery"
+        "icon": "ability_demonhunter_sigilofmisery",
+        "icon_candidates": [
+          "ability_demonhunter_sigilofmisery"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
@@ -336,8 +345,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -369,7 +378,10 @@
         "talent_name": "Vengeful Bonds",
         "spell_id": 320635,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat2"
+        "icon": "ability_demonhunter_vengefulretreat2",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat2"
+        ]
       },
       "pve_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 70% for 3 sec.",
       "pvp_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 50% for 3 sec.",
@@ -483,8 +495,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -518,7 +530,10 @@
         "talent_name": "Unrestrained Fury",
         "spell_id": 320770,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Increases maximum Fury by 20.",
       "pvp_tooltip": "Increases maximum Fury by 20.",
@@ -542,8 +557,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -577,7 +592,10 @@
         "talent_name": "Shattered Restoration",
         "spell_id": 389824,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulsiphon"
+        "icon": "ability_warlock_soulsiphon",
+        "icon_candidates": [
+          "ability_warlock_soulsiphon"
+        ]
       },
       "pve_tooltip": "The healing of Shattered Souls is increased by 10%.",
       "pvp_tooltip": "The healing of Shattered Souls is increased by 10%.",
@@ -601,8 +619,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -634,7 +652,10 @@
         "talent_name": "Improved Sigil of Misery",
         "spell_id": 320418,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_sigilofmisery"
+        "icon": "ability_demonhunter_sigilofmisery",
+        "icon_candidates": [
+          "ability_demonhunter_sigilofmisery"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
       "pvp_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
@@ -658,8 +679,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -693,7 +714,10 @@
         "talent_name": "Bouncing Glaives",
         "spell_id": 320386,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_throwglaive"
+        "icon": "ability_demonhunter_throwglaive",
+        "icon_candidates": [
+          "ability_demonhunter_throwglaive"
+        ]
       },
       "pve_tooltip": "Throw Glaive ricochets to 1 additional target.",
       "pvp_tooltip": "Throw Glaive ricochets to 1 additional target.",
@@ -717,8 +741,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -752,7 +776,10 @@
         "talent_name": "Imprison",
         "spell_id": 217832,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_imprison"
+        "icon": "ability_demonhunter_imprison",
+        "icon_candidates": [
+          "ability_demonhunter_imprison"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
       "pvp_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
@@ -776,8 +803,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -811,7 +838,10 @@
         "talent_name": "Charred Warblades",
         "spell_id": 213010,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "You heal for 3% of all Fire damage you deal.",
       "pvp_tooltip": "You heal for 3% of all Fire damage you deal.",
@@ -835,8 +865,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -869,7 +899,10 @@
         "talent_name": "Chaos Nova",
         "spell_id": 179057,
         "visible_spell_id": null,
-        "icon": "spell_fire_felfirenova"
+        "icon": "spell_fire_felfirenova",
+        "icon_candidates": [
+          "spell_fire_felfirenova"
+        ]
       },
       "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [Chaos Fragments: Each enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment]",
       "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (26.3823% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [Chaos Fragments: Each enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment]",
@@ -948,8 +981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -984,7 +1017,10 @@
         "talent_name": "Improved Disrupt",
         "spell_id": 320361,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_consumemagic"
+        "icon": "ability_demonhunter_consumemagic",
+        "icon_candidates": [
+          "ability_demonhunter_consumemagic"
+        ]
       },
       "pve_tooltip": "Increases the range of Disrupt to 10 yds.",
       "pvp_tooltip": "Increases the range of Disrupt to 10 yds.",
@@ -1008,8 +1044,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1044,7 +1080,10 @@
         "talent_name": "Consume Magic",
         "spell_id": 278326,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
       "pvp_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
@@ -1068,8 +1107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1102,7 +1141,10 @@
         "talent_name": "Aldrachi Design",
         "spell_id": 391409,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactaldrochi_d_01dual"
+        "icon": "inv_glaive_1h_artifactaldrochi_d_01dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactaldrochi_d_01dual"
+        ]
       },
       "pve_tooltip": "Increases your chance to parry by 3%.",
       "pvp_tooltip": "Increases your chance to parry by 3%.",
@@ -1126,8 +1168,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1159,7 +1201,10 @@
         "talent_name": "Focused Ire",
         "spell_id": 1266296,
         "visible_spell_id": null,
-        "icon": "ability_bossfellord_felspike"
+        "icon": "ability_bossfellord_felspike",
+        "icon_candidates": [
+          "ability_bossfellord_felspike"
+        ]
       },
       "pve_tooltip": "The primary target of Chaos Nova is stunned for an additional 2 sec.",
       "pvp_tooltip": "The primary target of Chaos Nova is stunned for an additional 1 sec.",
@@ -1230,8 +1275,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1265,7 +1310,10 @@
         "talent_name": "Master of the Glaive",
         "spell_id": 389763,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_demonhunter_a_01"
+        "icon": "inv_glaive_1h_demonhunter_a_01",
+        "icon_candidates": [
+          "inv_glaive_1h_demonhunter_a_01"
+        ]
       },
       "pve_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
       "pvp_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 30% for 6 sec.",
@@ -1341,8 +1389,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1376,7 +1424,10 @@
         "talent_name": "Champion of the Glaive",
         "spell_id": 429211,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_battledungeon_c_01"
+        "icon": "inv_glaive_1h_battledungeon_c_01",
+        "icon_candidates": [
+          "inv_glaive_1h_battledungeon_c_01"
+        ]
       },
       "pve_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
       "pvp_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
@@ -1400,8 +1451,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1433,7 +1484,10 @@
         "talent_name": "Disrupting Fury",
         "spell_id": 183782,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_consumemagic"
+        "icon": "ability_demonhunter_consumemagic",
+        "icon_candidates": [
+          "ability_demonhunter_consumemagic"
+        ]
       },
       "pve_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
       "pvp_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
@@ -1457,8 +1511,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1493,7 +1547,10 @@
         "talent_name": "Blazing Path",
         "spell_id": 320416,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_felrush"
+        "icon": "ability_demonhunter_felrush",
+        "icon_candidates": [
+          "ability_demonhunter_felrush"
+        ]
       },
       "pve_tooltip": "gains an additional charge.",
       "pvp_tooltip": "gains an additional charge.",
@@ -1517,8 +1574,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1548,7 +1605,10 @@
         "talent_name": "Swallowed Anger",
         "spell_id": 320313,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
       "pvp_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
@@ -1572,8 +1632,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1608,7 +1668,10 @@
         "talent_name": "Aura of Pain",
         "spell_id": 207347,
         "visible_spell_id": null,
-        "icon": "spell_fire_felimmolation"
+        "icon": "spell_fire_felimmolation",
+        "icon_candidates": [
+          "spell_fire_felimmolation"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of Immolation Aura by 6%.",
       "pvp_tooltip": "Increases the critical strike chance of Immolation Aura by 6%.",
@@ -1632,8 +1695,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1665,7 +1728,10 @@
         "talent_name": "Live by the Glaive",
         "spell_id": 428607,
         "visible_spell_id": null,
-        "icon": "inv_sword_108"
+        "icon": "inv_sword_108",
+        "icon_candidates": [
+          "inv_sword_108"
+        ]
       },
       "pve_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "pvp_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -1689,8 +1755,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1723,7 +1789,10 @@
         "talent_name": "Pursuit",
         "spell_id": 320654,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_infernalstrike2"
+        "icon": "ability_demonhunter_infernalstrike2",
+        "icon_candidates": [
+          "ability_demonhunter_infernalstrike2"
+        ]
       },
       "pve_tooltip": "Mastery increases your movement speed.",
       "pvp_tooltip": "Mastery increases your movement speed.",
@@ -1747,8 +1816,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1783,7 +1852,10 @@
         "talent_name": "Soul Rending",
         "spell_id": 204909,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
       "pvp_tooltip": "Leech increased by 8.3333%.\nGain an additional 8.3333% leech while Metamorphosis is active.",
@@ -1967,8 +2039,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2000,7 +2072,10 @@
         "talent_name": "Felfire Haste",
         "spell_id": 389846,
         "visible_spell_id": null,
-        "icon": "inv_boots_cloth_35v4"
+        "icon": "inv_boots_cloth_35v4",
+        "icon_candidates": [
+          "inv_boots_cloth_35v4"
+        ]
       },
       "pve_tooltip": "Fel Rush increases your movement speed by 10% for 8 sec.",
       "pvp_tooltip": "Fel Rush increases your movement speed by 10% for 8 sec.",
@@ -2024,8 +2099,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2059,16 +2134,19 @@
         "talent_name": "Infernal Armor",
         "spell_id": 320331,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_immolation"
+        "icon": "ability_demonhunter_immolation",
+        "icon_candidates": [
+          "ability_demonhunter_immolation"
+        ]
       },
-      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
-      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(11.52% of Attack Power)] Fire damage.",
+      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
+      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (11.52% of Attack Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 83,
-          "end": 85,
+          "start": 82,
+          "end": 84,
           "old_token": "12",
           "new_token": "11.52",
           "kind": "attack_power_coefficient",
@@ -2133,13 +2211,13 @@
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
-          "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(5.76% of Attack Power)] Fire damage.",
+          "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer (6% of Attack Power) Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer (5.76% of Attack Power) Fire damage.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 83,
-              "end": 84,
+              "start": 82,
+              "end": 83,
               "old_token": "6",
               "new_token": "5.76",
               "kind": "attack_power_coefficient",
@@ -2153,13 +2231,13 @@
         },
         {
           "rank": 2,
-          "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
-          "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(11.52% of Attack Power)] Fire damage.",
+          "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (11.52% of Attack Power) Fire damage.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 83,
-              "end": 85,
+              "start": 82,
+              "end": 84,
               "old_token": "12",
               "new_token": "11.52",
               "kind": "attack_power_coefficient",
@@ -2184,8 +2262,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2217,7 +2295,10 @@
         "talent_name": "Burn It Out",
         "spell_id": 1266316,
         "visible_spell_id": null,
-        "icon": "spell_fel_elementaldevastation"
+        "icon": "spell_fel_elementaldevastation",
+        "icon_candidates": [
+          "spell_fel_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Immolation Aura removes 1 Disease effect.",
       "pvp_tooltip": "Immolation Aura removes 1 Disease effect.",
@@ -2241,8 +2322,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2274,7 +2355,10 @@
         "talent_name": "Soul Cleanse",
         "spell_id": 1266496,
         "visible_spell_id": null,
-        "icon": "spell_nature_removecurse"
+        "icon": "spell_nature_removecurse",
+        "icon_candidates": [
+          "spell_nature_removecurse"
+        ]
       },
       "pve_tooltip": "Immolation Aura removes 1 Curse effect.",
       "pvp_tooltip": "Immolation Aura removes 1 Curse effect.",
@@ -2298,8 +2382,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2332,7 +2416,10 @@
         "talent_name": "Lost in Darkness",
         "spell_id": 389849,
         "visible_spell_id": null,
-        "icon": "inv_pet_inquisitoreye"
+        "icon": "inv_pet_inquisitoreye",
+        "icon_candidates": [
+          "inv_pet_inquisitoreye"
+        ]
       },
       "pve_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
       "pvp_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
@@ -2356,8 +2443,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2391,7 +2478,10 @@
         "talent_name": "Illidari Knowledge",
         "spell_id": 389696,
         "visible_spell_id": null,
-        "icon": "spell_mage_overpowered"
+        "icon": "spell_mage_overpowered",
+        "icon_candidates": [
+          "spell_mage_overpowered"
+        ]
       },
       "pve_tooltip": "Reduces magic damage taken by 6%.",
       "pvp_tooltip": "Reduces magic damage taken by 4%.",
@@ -2503,8 +2593,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2539,7 +2629,10 @@
         "talent_name": "Felbound",
         "spell_id": 1266762,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_doublejump"
+        "icon": "ability_demonhunter_doublejump",
+        "icon_candidates": [
+          "ability_demonhunter_doublejump"
+        ]
       },
       "pve_tooltip": "Your movement speed is increased by 3%.",
       "pvp_tooltip": "Your movement speed is increased by 3%.",
@@ -2563,8 +2656,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2599,7 +2692,10 @@
         "talent_name": "Will of the Illidari",
         "spell_id": 389695,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_spectank"
+        "icon": "ability_demonhunter_spectank",
+        "icon_candidates": [
+          "ability_demonhunter_spectank"
+        ]
       },
       "pve_tooltip": "Increases maximum health by 6%.",
       "pvp_tooltip": "Increases maximum health by 3.6%.",
@@ -2711,8 +2807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2744,7 +2840,10 @@
         "talent_name": "Internal Struggle",
         "spell_id": 393822,
         "visible_spell_id": null,
-        "icon": "ability_warlock_demonicpower"
+        "icon": "ability_warlock_demonicpower",
+        "icon_candidates": [
+          "ability_warlock_demonicpower"
+        ]
       },
       "pve_tooltip": "Increases your mastery by (2 * $mas)%.",
       "pvp_tooltip": "Increases your mastery by (2 * $mas)%.",
@@ -2768,8 +2867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2803,7 +2902,10 @@
         "talent_name": "Furious",
         "spell_id": 1266326,
         "visible_spell_id": null,
-        "icon": "ability_warlock_shadowfurytga"
+        "icon": "ability_warlock_shadowfurytga",
+        "icon_candidates": [
+          "ability_warlock_shadowfurytga"
+        ]
       },
       "pve_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
       "pvp_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
@@ -2827,8 +2929,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2862,7 +2964,10 @@
         "talent_name": "Remorseless",
         "spell_id": 1266328,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_npc_d_02"
+        "icon": "inv_glaive_1h_npc_d_02",
+        "icon_candidates": [
+          "inv_glaive_1h_npc_d_02"
+        ]
       },
       "pve_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
       "pvp_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
@@ -2886,8 +2991,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2919,7 +3024,10 @@
         "talent_name": "First In, Last Out",
         "spell_id": 1266497,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_demonictrample"
+        "icon": "ability_demonhunter_demonictrample",
+        "icon_candidates": [
+          "ability_demonhunter_demonictrample"
+        ]
       },
       "pve_tooltip": "Fel Rush grants you a rapidly decaying shield equal to 6% of your maximum health.",
       "pvp_tooltip": "Fel Rush grants you a rapidly decaying shield equal to 6% of your maximum health.",
@@ -2943,8 +3051,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2976,7 +3084,10 @@
         "talent_name": "Erratic Felheart",
         "spell_id": 391397,
         "visible_spell_id": null,
-        "icon": "inv_archaeology_70_crystallineeyeofundravius"
+        "icon": "inv_archaeology_70_crystallineeyeofundravius",
+        "icon_candidates": [
+          "inv_archaeology_70_crystallineeyeofundravius"
+        ]
       },
       "pve_tooltip": "The cooldown of Fel Rush is reduced by 2 sec.",
       "pvp_tooltip": "The cooldown of Fel Rush is reduced by 2 sec.",
@@ -3019,8 +3130,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3050,7 +3161,10 @@
         "talent_name": "Final Breath",
         "spell_id": 1266500,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamebreath"
+        "icon": "spell_fire_felflamebreath",
+        "icon_candidates": [
+          "spell_fire_felflamebreath"
+        ]
       },
       "pve_tooltip": "Fully channeling Eye Beam increases the damage of its final tick by 300%.",
       "pvp_tooltip": "Fully channeling Eye Beam increases the damage of its final tick by 300%.",
@@ -3074,8 +3188,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3108,7 +3222,10 @@
         "talent_name": "Darkness",
         "spell_id": 196718,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_darkness"
+        "icon": "ability_demonhunter_darkness",
+        "icon_candidates": [
+          "ability_demonhunter_darkness"
+        ]
       },
       "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
       "pvp_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
@@ -3184,8 +3301,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3215,7 +3332,10 @@
         "talent_name": "Demon Muzzle",
         "spell_id": 1266329,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonicservitude"
+        "icon": "spell_warlock_demonicservitude",
+        "icon_candidates": [
+          "spell_warlock_demonicservitude"
+        ]
       },
       "pve_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
       "pvp_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 5% for 12 sec.",
@@ -3252,7 +3372,7 @@
           "talent_spell_id": 1266329,
           "source_spell_id": 1266616,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
+          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.3334,
           "amount_kind": null,
@@ -3269,8 +3389,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3290,8 +3411,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3323,7 +3444,10 @@
         "talent_name": "Soul Splitter",
         "spell_id": 1266330,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulswap"
+        "icon": "ability_warlock_soulswap",
+        "icon_candidates": [
+          "ability_warlock_soulswap"
+        ]
       },
       "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
       "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
@@ -3366,8 +3490,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3397,7 +3521,10 @@
         "talent_name": "Wings of Wrath",
         "spell_id": 1266493,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_glide"
+        "icon": "ability_demonhunter_glide",
+        "icon_candidates": [
+          "ability_demonhunter_glide"
+        ]
       },
       "pve_tooltip": "Glide speed increased by 10%.",
       "pvp_tooltip": "Glide speed increased by 10%.",
@@ -3421,8 +3548,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3452,7 +3579,10 @@
         "talent_name": "Long Night",
         "spell_id": 389781,
         "visible_spell_id": null,
-        "icon": "spell_fire_twilightimmolation"
+        "icon": "spell_fire_twilightimmolation",
+        "icon_candidates": [
+          "spell_fire_twilightimmolation"
+        ]
       },
       "pve_tooltip": "Increases the duration of Darkness by 3 sec.",
       "pvp_tooltip": "Increases the duration of Darkness by 3 sec.",
@@ -3476,8 +3606,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3507,7 +3637,10 @@
         "talent_name": "Pitch Black",
         "spell_id": 389783,
         "visible_spell_id": null,
-        "icon": "sha_spell_warlock_demonsoul"
+        "icon": "sha_spell_warlock_demonsoul",
+        "icon_candidates": [
+          "sha_spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
       "pvp_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
@@ -3531,8 +3664,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3562,7 +3695,10 @@
         "talent_name": "Demonic Resilience",
         "spell_id": 1266307,
         "visible_spell_id": null,
-        "icon": "inv_summondemonictyrant"
+        "icon": "inv_summondemonictyrant",
+        "icon_candidates": [
+          "inv_summondemonictyrant"
+        ]
       },
       "pve_tooltip": "Blur gains 1 additional charge.",
       "pvp_tooltip": "Blur gains 1 additional charge.",
@@ -3586,8 +3722,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3618,7 +3754,10 @@
         "talent_name": "Eye Beam",
         "spell_id": 198013,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_eyebeam"
+        "icon": "ability_demonhunter_eyebeam",
+        "icon_candidates": [
+          "ability_demonhunter_eyebeam"
+        ]
       },
       "pve_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [Looks Can Kill: dealing guaranteed critical strikes] for up to {?a320415[{[(40.26% of Attack Power) * 10 * 2]][{[(40.26% of Attack Power) * 10]] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [Furious Gaze: When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec]",
       "pvp_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [Looks Can Kill: dealing guaranteed critical strikes] for up to {?a320415[{[(38.6496% of Attack Power) * 10 * 2]][{[(38.6496% of Attack Power) * 10]] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [Furious Gaze: When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec]",
@@ -3721,8 +3860,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3756,7 +3895,10 @@
         "talent_name": "Critical Chaos",
         "spell_id": 320413,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_battledungeon_c_02"
+        "icon": "inv_glaive_1h_battledungeon_c_02",
+        "icon_candidates": [
+          "inv_glaive_1h_battledungeon_c_02"
+        ]
       },
       "pve_tooltip": "The chance that Chaos Strike will refund 20 Fury is increased by 30% of your critical strike chance.",
       "pvp_tooltip": "The chance that Chaos Strike will refund 20 Fury is increased by 30% of your critical strike chance.",
@@ -3890,8 +4032,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3925,7 +4067,10 @@
         "talent_name": "Burning Hatred",
         "spell_id": 320374,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_immolation"
+        "icon": "ability_demonhunter_immolation",
+        "icon_candidates": [
+          "ability_demonhunter_immolation"
+        ]
       },
       "pve_tooltip": "Immolation Aura generates an additional 18 Fury over 6 sec.",
       "pvp_tooltip": "Immolation Aura generates an additional 18 Fury over 6 sec.",
@@ -4057,8 +4202,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4090,7 +4235,10 @@
         "talent_name": "Never Say Die",
         "spell_id": 427794,
         "visible_spell_id": null,
-        "icon": "inv_misc_food_legion_goosaporange_drop"
+        "icon": "inv_misc_food_legion_goosaporange_drop",
+        "icon_candidates": [
+          "inv_misc_food_legion_goosaporange_drop"
+        ]
       },
       "pve_tooltip": "Damage is increased by 3% while above 50% Health.\nLeech is increased by 5% while below 50% Health.",
       "pvp_tooltip": "Damage is increased by 3% while above 50% Health.\nLeech is increased by 5% while below 50% Health.",
@@ -4114,8 +4262,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4147,7 +4295,10 @@
         "talent_name": "Improved Chaos Strike",
         "spell_id": 343206,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_chaosstrike"
+        "icon": "ability_demonhunter_chaosstrike",
+        "icon_candidates": [
+          "ability_demonhunter_chaosstrike"
+        ]
       },
       "pve_tooltip": "Chaos Strike damage increased by 10%.",
       "pvp_tooltip": "Chaos Strike damage increased by 10%.",
@@ -4171,8 +4322,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4206,7 +4357,10 @@
         "talent_name": "First Blood",
         "spell_id": 206416,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_death"
+        "icon": "ability_deathwing_bloodcorruption_death",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_death"
+        ]
       },
       "pve_tooltip": "Blade Dance deals [(3 * (24.75% of Attack Power)% + (74.2% of Attack Power)%) * 195 / 100 * 1] Chaos damage to the first target struck.",
       "pvp_tooltip": "Blade Dance deals [(3 * (24.75% of Attack Power)% + (74.2% of Attack Power)%) * 195 / 100 * 1] Chaos damage to the first target struck.",
@@ -4230,8 +4384,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4263,7 +4417,10 @@
         "talent_name": "Accelerated Blade",
         "spell_id": 391275,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_throwglaive"
+        "icon": "ability_demonhunter_throwglaive",
+        "icon_candidates": [
+          "ability_demonhunter_throwglaive"
+        ]
       },
       "pve_tooltip": "Throw Glaive deals 60% increased damage, reduced by 30% for each previous enemy hit.",
       "pvp_tooltip": "Throw Glaive deals 60% increased damage, reduced by 30% for each previous enemy hit.",
@@ -4287,8 +4444,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4320,7 +4477,10 @@
         "talent_name": "Demon Hide",
         "spell_id": 428241,
         "visible_spell_id": null,
-        "icon": "misc_legionfall_demonhunter"
+        "icon": "misc_legionfall_demonhunter",
+        "icon_candidates": [
+          "misc_legionfall_demonhunter"
+        ]
       },
       "pve_tooltip": "Magical damage increased by 3%, and Physical damage taken reduced by 5%.",
       "pvp_tooltip": "Magical damage increased by 3%, and Physical damage taken reduced by 3%.",
@@ -4391,8 +4551,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4428,7 +4588,10 @@
         "talent_name": "Desperate Instincts",
         "spell_id": 205411,
         "visible_spell_id": null,
-        "icon": "spell_shadow_manafeed"
+        "icon": "spell_shadow_manafeed",
+        "icon_candidates": [
+          "spell_shadow_manafeed"
+        ]
       },
       "pve_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
       "pvp_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 5%.",
@@ -4499,8 +4662,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4536,7 +4699,10 @@
         "talent_name": "Deflecting Dance",
         "spell_id": 427776,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bladerush"
+        "icon": "ability_ironmaidens_bladerush",
+        "icon_candidates": [
+          "ability_ironmaidens_bladerush"
+        ]
       },
       "pve_tooltip": "You deflect incoming attacks while Blade Dancing, absorbing damage up to 15% of your maximum health.",
       "pvp_tooltip": "You deflect incoming attacks while Blade Dancing, absorbing damage up to 15% of your maximum health.",
@@ -4560,8 +4726,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4597,7 +4763,10 @@
         "talent_name": "Mortal Dance",
         "spell_id": 328725,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat"
+        "icon": "ability_demonhunter_vengefulretreat",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat"
+        ]
       },
       "pve_tooltip": "Blade Dance now reduces targets' healing received by 50% for 6 sec.",
       "pvp_tooltip": "Blade Dance now reduces targets' healing received by 25% for 6 sec.",
@@ -4704,8 +4873,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4738,7 +4907,10 @@
         "talent_name": "Initiative",
         "spell_id": 388108,
         "visible_spell_id": null,
-        "icon": "ability_rogue_surpriseattack"
+        "icon": "ability_rogue_surpriseattack",
+        "icon_candidates": [
+          "ability_rogue_surpriseattack"
+        ]
       },
       "pve_tooltip": "Damaging an enemy before they damage you increases your critical strike chance by 10% for 5 sec.\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with.",
       "pvp_tooltip": "Damaging an enemy before they damage you increases your critical strike chance by 10% for 5 sec.\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with.",
@@ -4762,8 +4934,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4795,7 +4967,10 @@
         "talent_name": "Scars of Suffering",
         "spell_id": 428232,
         "visible_spell_id": null,
-        "icon": "spell_fire_felimmolation"
+        "icon": "spell_fire_felimmolation",
+        "icon_candidates": [
+          "spell_fire_felimmolation"
+        ]
       },
       "pve_tooltip": "Increases Versatility by 4% and reduces threat generated by 8%.",
       "pvp_tooltip": "Increases Versatility by 2% and reduces threat generated by 8%.",
@@ -4866,8 +5041,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4902,7 +5077,10 @@
         "talent_name": "Demonic",
         "spell_id": 213410,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demonform"
+        "icon": "spell_shadow_demonform",
+        "icon_candidates": [
+          "spell_shadow_demonform"
+        ]
       },
       "pve_tooltip": "Eye Beam causes you to enter demon form for 5 sec after it finishes dealing damage.",
       "pvp_tooltip": "Eye Beam causes you to enter demon form for 5 sec after it finishes dealing damage.",
@@ -4926,8 +5104,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4959,7 +5137,10 @@
         "talent_name": "Furious Throws",
         "spell_id": 393029,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_npc_d_01"
+        "icon": "inv_glaive_1h_npc_d_01",
+        "icon_candidates": [
+          "inv_glaive_1h_npc_d_01"
+        ]
       },
       "pve_tooltip": "Throw Glaive now costs 25 Fury and throws a second glaive at the target.",
       "pvp_tooltip": "Throw Glaive now costs 25 Fury and throws a second glaive at the target.",
@@ -4983,8 +5164,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5017,7 +5198,10 @@
         "talent_name": "Trail of Ruin",
         "spell_id": 258881,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bladedance"
+        "icon": "ability_demonhunter_bladedance",
+        "icon_candidates": [
+          "ability_demonhunter_bladedance"
+        ]
       },
       "pve_tooltip": "The final slash of Blade Dance inflicts an additional (72% of Attack Power) Chaos damage.",
       "pvp_tooltip": "The final slash of Blade Dance inflicts an additional (69.12% of Attack Power) Chaos damage.",
@@ -5101,8 +5285,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5135,7 +5319,10 @@
         "talent_name": "Tactical Retreat",
         "spell_id": 389688,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat2"
+        "icon": "ability_demonhunter_vengefulretreat2",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat2"
+        ]
       },
       "pve_tooltip": "Vengeful Retreat has a 5 sec reduced cooldown and generates 80 Fury over 10 sec.",
       "pvp_tooltip": "Vengeful Retreat has a 5 sec reduced cooldown and generates 80 Fury over 10 sec.",
@@ -5159,8 +5346,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5195,7 +5382,10 @@
         "talent_name": "Blind Fury",
         "spell_id": 203550,
         "visible_spell_id": null,
-        "icon": "ability_bosskilrogg_deadeye"
+        "icon": "ability_bosskilrogg_deadeye",
+        "icon_candidates": [
+          "ability_bosskilrogg_deadeye"
+        ]
       },
       "pve_tooltip": "Eye Beam generates 20 Fury every second, has 20% increased duration, and deals 20% increased damage.",
       "pvp_tooltip": "Eye Beam generates 20 Fury every second, has 20% increased duration, and deals 20% increased damage.",
@@ -5238,8 +5428,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5271,7 +5461,10 @@
         "talent_name": "Furious Gaze",
         "spell_id": 343311,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_eyebeam"
+        "icon": "ability_demonhunter_eyebeam",
+        "icon_candidates": [
+          "ability_demonhunter_eyebeam"
+        ]
       },
       "pve_tooltip": "When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec.",
       "pvp_tooltip": "When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec.",
@@ -5295,8 +5488,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5331,7 +5524,10 @@
         "talent_name": "Dancing with Fate",
         "spell_id": 389978,
         "visible_spell_id": null,
-        "icon": "inv_polearm_1h_felfireraid_d_02"
+        "icon": "inv_polearm_1h_felfireraid_d_02",
+        "icon_candidates": [
+          "inv_polearm_1h_felfireraid_d_02"
+        ]
       },
       "pve_tooltip": "The final slash of Blade Dance deals an additional 50% damage.",
       "pvp_tooltip": "The final slash of Blade Dance deals an additional 50% damage.",
@@ -5374,8 +5570,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5408,7 +5604,10 @@
         "talent_name": "Growing Inferno",
         "spell_id": 390158,
         "visible_spell_id": null,
-        "icon": "spell_fel_incinerate"
+        "icon": "spell_fel_incinerate",
+        "icon_candidates": [
+          "spell_fel_incinerate"
+        ]
       },
       "pve_tooltip": "Immolation Aura's damage increases by 10% each time it deals damage.",
       "pvp_tooltip": "Immolation Aura's damage increases by 10% each time it deals damage.",
@@ -5432,8 +5631,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5466,7 +5665,10 @@
         "talent_name": "Exergy",
         "spell_id": 206476,
         "visible_spell_id": null,
-        "icon": "ability_foundryraid_demolition"
+        "icon": "ability_foundryraid_demolition",
+        "icon_candidates": [
+          "ability_foundryraid_demolition"
+        ]
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat increase your damage by 5% for 20 sec.\n(400ms cooldown)",
       "pvp_tooltip": "The Hunt and Vengeful Retreat increase your damage by 5% for 20 sec.\n(400ms cooldown)",
@@ -5490,8 +5692,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5524,7 +5726,10 @@
         "talent_name": "Inertia",
         "spell_id": 427640,
         "visible_spell_id": null,
-        "icon": "inv_10_inscription3_pigments_black"
+        "icon": "inv_10_inscription3_pigments_black",
+        "icon_candidates": [
+          "inv_10_inscription3_pigments_black"
+        ]
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by 12% for 5 sec.\n(400ms cooldown)",
       "pvp_tooltip": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by 8% for 5 sec.\n(400ms cooldown)",
@@ -5660,8 +5865,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5694,7 +5899,10 @@
         "talent_name": "Isolated Prey",
         "spell_id": 388113,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadesofdarkness"
+        "icon": "spell_shadow_shadesofdarkness",
+        "icon_candidates": [
+          "spell_shadow_shadesofdarkness"
+        ]
       },
       "pve_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova:\nStun duration increased by 2 sec.\nEye Beam:\nDeals 30% increased damage.\nImmolation Aura:\nAlways critically strikes.",
       "pvp_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova:\nStun duration increased by 1 sec.\nEye Beam:\nDeals 30% increased damage.\nImmolation Aura:\nAlways critically strikes.",
@@ -5765,8 +5973,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5802,7 +6010,10 @@
         "talent_name": "The Hunt",
         "spell_id": 370965,
         "visible_spell_id": null,
-        "icon": "inv_ability_demonhunter_thehunt"
+        "icon": "inv_ability_demonhunter_thehunt",
+        "icon_candidates": [
+          "inv_ability_demonhunter_thehunt"
+        ]
       },
       "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
       "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (607.2998% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
@@ -5927,7 +6138,7 @@
           "talent_spell_id": 370965,
           "source_spell_id": 1246169,
           "effect_index": 1,
-          "effect_text": "School Damage (2): cosmic (SP mod: 6)",
+          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 6)",
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
@@ -5948,8 +6159,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5969,8 +6181,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6003,7 +6215,10 @@
         "talent_name": "Serrated Glaive",
         "spell_id": 390154,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
+        "icon": "inv_glaive_1h_artifactaldrochi_d_03dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactaldrochi_d_03dual"
+        ]
       },
       "pve_tooltip": "Striking an enemy with Chaos Strike or Throw Glaive increases Chaos Strike and Throw Glaive damage by 15% for 12 sec.",
       "pvp_tooltip": "Striking an enemy with Chaos Strike or Throw Glaive increases Chaos Strike and Throw Glaive damage by 15% for 12 sec.",
@@ -6027,8 +6242,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6061,7 +6276,10 @@
         "talent_name": "Burning Wound",
         "spell_id": 391189,
         "visible_spell_id": null,
-        "icon": "spell_fire_felhellfire"
+        "icon": "spell_fire_felhellfire",
+        "icon_candidates": [
+          "spell_fire_felhellfire"
+        ]
       },
       "pve_tooltip": "[Demon Blades / Demon's Bite] and Throw Glaive leave open wounds on your enemies, dealing (73.45% of Attack Power) Chaos damage over 15 sec and increasing damage taken from your Immolation Aura by 35%.\nMay be applied to up to 3 targets.",
       "pvp_tooltip": "[Demon Blades / Demon's Bite] and Throw Glaive leave open wounds on your enemies, dealing (73.45% of Attack Power) Chaos damage over 15 sec and increasing damage taken from your Immolation Aura by 35%.\nMay be applied to up to 3 targets.",
@@ -6124,8 +6342,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6157,7 +6375,10 @@
         "talent_name": "Unbound Chaos",
         "spell_id": 347461,
         "visible_spell_id": null,
-        "icon": "artifactability_vengeancedemonhunter_painbringer"
+        "icon": "artifactability_vengeancedemonhunter_painbringer",
+        "icon_candidates": [
+          "artifactability_vengeancedemonhunter_painbringer"
+        ]
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by 300%. Lasts 12 sec.",
       "pvp_tooltip": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by 300%. Lasts 12 sec.",
@@ -6181,8 +6402,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6216,7 +6437,10 @@
         "talent_name": "Chaos Theory",
         "spell_id": 389687,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
+        "icon": "inv_glaive_1h_artifactaldrochi_d_03dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactaldrochi_d_03dual"
+        ]
       },
       "pve_tooltip": "Blade Dance causes your next Chaos Strike within 8 sec to have a 14-30% increased critical strike chance and will always refund Fury.",
       "pvp_tooltip": "Blade Dance causes your next Chaos Strike within 8 sec to have a 14-30% increased critical strike chance and will always refund Fury.",
@@ -6354,8 +6578,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6389,7 +6613,10 @@
         "talent_name": "Inner Demon",
         "spell_id": 389693,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_glide"
+        "icon": "ability_demonhunter_glide",
+        "icon_candidates": [
+          "ability_demonhunter_glide"
+        ]
       },
       "pve_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
       "pvp_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (204.48% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
@@ -6473,8 +6700,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6508,7 +6735,10 @@
         "talent_name": "Chaotic Transformation",
         "spell_id": 388112,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_glide"
+        "icon": "ability_demonhunter_glide",
+        "icon_candidates": [
+          "ability_demonhunter_glide"
+        ]
       },
       "pve_tooltip": "When you activate Metamorphosis, the cooldowns of Blade Dance and Eye Beam are immediately reset.",
       "pvp_tooltip": "When you activate Metamorphosis, the cooldowns of Blade Dance and Eye Beam are immediately reset.",
@@ -6532,8 +6762,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6567,7 +6797,10 @@
         "talent_name": "Relentless Onslaught",
         "spell_id": 389977,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Chaos Strike has a 10% chance to trigger a second Chaos Strike.\n(1s cooldown)",
       "pvp_tooltip": "Chaos Strike has a 10% chance to trigger a second Chaos Strike.\n(1s cooldown)",
@@ -6591,8 +6824,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6626,7 +6859,10 @@
         "talent_name": "Soulscar",
         "spell_id": 388106,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bloodlet"
+        "icon": "ability_demonhunter_bloodlet",
+        "icon_candidates": [
+          "ability_demonhunter_bloodlet"
+        ]
       },
       "pve_tooltip": "Throw Glaive causes targets to take an additional 80% of damage dealt as Chaos over 6 sec.",
       "pvp_tooltip": "Throw Glaive causes targets to take an additional 80% of damage dealt as Chaos over 6 sec.",
@@ -6650,8 +6886,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6683,7 +6919,10 @@
         "talent_name": "Ragefire",
         "spell_id": 388107,
         "visible_spell_id": null,
-        "icon": "spell_fire_fireballgreen"
+        "icon": "spell_fire_fireballgreen",
+        "icon_candidates": [
+          "spell_fire_fireballgreen"
+        ]
       },
       "pve_tooltip": "Each time Immolation Aura deals damage, 35% of the damage dealt by up to 3 critical strikes is gathered as Ragefire.\nWhen Immolation Aura expires you explode, dealing all stored Ragefire damage to nearby enemies.",
       "pvp_tooltip": "Each time Immolation Aura deals damage, 35% of the damage dealt by up to 3 critical strikes is gathered as Ragefire.\nWhen Immolation Aura expires you explode, dealing all stored Ragefire damage to nearby enemies.",
@@ -6707,8 +6946,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6743,7 +6982,10 @@
         "talent_name": "Know Your Enemy",
         "spell_id": 388118,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_eyeofleotheras"
+        "icon": "ability_demonhunter_eyeofleotheras",
+        "icon_candidates": [
+          "ability_demonhunter_eyeofleotheras"
+        ]
       },
       "pve_tooltip": "Gain critical strike damage equal to 80% of your critical strike chance.",
       "pvp_tooltip": "Gain critical strike damage equal to 80% of your critical strike chance.",
@@ -6786,8 +7028,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6821,7 +7063,10 @@
         "talent_name": "Cycle of Hatred",
         "spell_id": 258887,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_whirlofblood"
+        "icon": "ability_ironmaidens_whirlofblood",
+        "icon_candidates": [
+          "ability_ironmaidens_whirlofblood"
+        ]
       },
       "pve_tooltip": "Activating Eye Beam reduces the cooldown of your next Eye Beam by 2.5 sec, stacking up to 10 sec.",
       "pvp_tooltip": "Activating Eye Beam reduces the cooldown of your next Eye Beam by 2.5 sec, stacking up to 10 sec.",
@@ -6845,8 +7090,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6881,7 +7126,10 @@
         "talent_name": "Chaotic Disposition",
         "spell_id": 428492,
         "visible_spell_id": null,
-        "icon": "inv_inscription_tarotchaos"
+        "icon": "inv_inscription_tarotchaos",
+        "icon_candidates": [
+          "inv_inscription_tarotchaos"
+        ]
       },
       "pve_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 17%, occurring up to 7 total times.",
       "pvp_tooltip": "Your Chaos damage has a 33.33% chance to be increased by 4%, occurring up to 7 total times.",
@@ -7057,8 +7305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7088,7 +7336,10 @@
         "talent_name": "Essence Break",
         "spell_id": 258860,
         "visible_spell_id": null,
-        "icon": "spell_shadow_ritualofsacrifice"
+        "icon": "spell_shadow_ritualofsacrifice",
+        "icon_candidates": [
+          "spell_shadow_ritualofsacrifice"
+        ]
       },
       "pve_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (443.52% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (247.104% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
@@ -7177,7 +7428,7 @@
           "talent_spell_id": 258860,
           "source_spell_id": 1245759,
           "effect_index": 1,
-          "effect_text": "School Damage (2): chaos (AP mod: 2.574)",
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.574 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7204,11 +7455,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -7225,8 +7475,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7257,7 +7507,10 @@
         "talent_name": "Glaive Tempest",
         "spell_id": 1244557,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactazgalor_d_06dual"
+        "icon": "inv_glaive_1h_artifactazgalor_d_06dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactazgalor_d_06dual"
+        ]
       },
       "pve_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (12.672% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -7341,8 +7594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7372,7 +7625,10 @@
         "talent_name": "Shattered Destiny",
         "spell_id": 388116,
         "visible_spell_id": null,
-        "icon": "achievement_boss_triumvirate_darknaaru"
+        "icon": "achievement_boss_triumvirate_darknaaru",
+        "icon_candidates": [
+          "achievement_boss_triumvirate_darknaaru"
+        ]
       },
       "pve_tooltip": "The duration of your active demon form is extended by 0.1 sec per 12 Fury spent.",
       "pvp_tooltip": "The duration of your active demon form is extended by 0.1 sec per 12 Fury spent.",
@@ -7396,8 +7652,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7427,7 +7683,10 @@
         "talent_name": "Collective Anguish",
         "spell_id": 390152,
         "visible_spell_id": null,
-        "icon": "artifactability_havocdemonhunter_anguishofthedeceiver"
+        "icon": "artifactability_havocdemonhunter_anguishofthedeceiver",
+        "icon_candidates": [
+          "artifactability_havocdemonhunter_anguishofthedeceiver"
+        ]
       },
       "pve_tooltip": "Eye Beam summons an allied Vengeance Demon Hunter who casts Fel Devastation, dealing [(26.2% of Attack Power) * 10] Fire damage over 2 sec. Dealing damage heals you for up to [(562.5% of Attack Power) * 0.384615] health.",
       "pvp_tooltip": "Eye Beam summons an allied Vengeance Demon Hunter who casts Fel Devastation, dealing [(25.152% of Attack Power) * 10] Fire damage over 2 sec. Dealing damage heals you for up to [(562.5% of Attack Power) * 0.384615] health.",
@@ -7613,8 +7872,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7645,7 +7904,10 @@
         "talent_name": "Screaming Brutality",
         "spell_id": 1220506,
         "visible_spell_id": null,
-        "icon": "inv_misc_magtheridonshead"
+        "icon": "inv_misc_magtheridonshead",
+        "icon_candidates": [
+          "inv_misc_magtheridonshead"
+        ]
       },
       "pve_tooltip": "Blade Dance automatically triggers Throw Glaive on your primary target for 100% damage and each slash has a 50% chance to Throw Glaive an enemy for 35% damage.",
       "pvp_tooltip": "Blade Dance automatically triggers Throw Glaive on your primary target for 100% damage and each slash has a 50% chance to Throw Glaive an enemy for 35% damage.",
@@ -7669,8 +7931,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7700,7 +7962,10 @@
         "talent_name": "A Fire Inside",
         "spell_id": 427775,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_chaoticimprint_fire"
+        "icon": "ability_demonhunter_chaoticimprint_fire",
+        "icon_candidates": [
+          "ability_demonhunter_chaoticimprint_fire"
+        ]
       },
       "pve_tooltip": "Immolation Aura has 1 additional charge, has 6 sec reduced cooldown, and deals Chaos damage instead of Fire.\nYou can have multiple Immolation Auras active at a time.",
       "pvp_tooltip": "Immolation Aura has 1 additional charge, has 6 sec reduced cooldown, and deals Chaos damage instead of Fire.\nYou can have multiple Immolation Auras active at a time.",
@@ -7724,8 +7989,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7753,7 +8018,10 @@
         "talent_name": "Eternal Hunt",
         "spell_id": 1270898,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_demonhunter_eternalhunt"
+        "icon": "inv12_apextalent_demonhunter_eternalhunt",
+        "icon_candidates": [
+          "inv12_apextalent_demonhunter_eternalhunt"
+        ]
       },
       "pve_tooltip": "The Hunt empowers your next Eye Beam, increasing damage by 100% and affecting enemies in a wider area.",
       "pvp_tooltip": "The Hunt empowers your next Eye Beam, increasing damage by 100% and affecting enemies in a wider area.",
@@ -7777,8 +8045,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7806,7 +8074,10 @@
         "talent_name": "Eternal Hunt",
         "spell_id": 1270900,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_demonhunter_eternalhunt"
+        "icon": "inv12_apextalent_demonhunter_eternalhunt",
+        "icon_candidates": [
+          "inv12_apextalent_demonhunter_eternalhunt"
+        ]
       },
       "pve_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
       "pvp_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
@@ -7849,8 +8120,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7878,7 +8149,10 @@
         "talent_name": "Eternal Hunt",
         "spell_id": 1270901,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_demonhunter_eternalhunt"
+        "icon": "inv12_apextalent_demonhunter_eternalhunt",
+        "icon_candidates": [
+          "inv12_apextalent_demonhunter_eternalhunt"
+        ]
       },
       "pve_tooltip": "Blade Dance damage increased by 20%.\nFully channeling Eye Beam causes your next Blade Dance to refresh its own cooldown.",
       "pvp_tooltip": "Blade Dance damage increased by 20%.\nFully channeling Eye Beam causes your next Blade Dance to refresh its own cooldown.",
@@ -7902,8 +8176,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7936,10 +8210,13 @@
         "talent_name": "Art of the Glaive",
         "spell_id": 442290,
         "visible_spell_id": null,
-        "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
+        "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive",
+        "icon_candidates": [
+          "inv_ability_aldrachireaverdemonhunter_reaversglaive"
+        ]
       },
-      "pve_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
-      "pvp_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pve_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (481% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 15% increased damage, and the second deals 30% increased damage.",
+      "pvp_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (481% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 15% increased damage, and the second deals 30% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7952,7 +8229,7 @@
           "talent_spell_id": 442290,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8008,8 +8285,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8041,7 +8318,10 @@
         "talent_name": "Fury of the Aldrachi",
         "spell_id": 442718,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamestrike"
+        "icon": "spell_fire_felflamestrike",
+        "icon_candidates": [
+          "spell_fire_felflamestrike"
+        ]
       },
       "pve_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast 6 slashes instead.",
       "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast 6 slashes instead.",
@@ -8057,7 +8337,7 @@
           "talent_spell_id": 442718,
           "source_spell_id": 444806,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.24)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8093,11 +8373,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8105,7 +8384,7 @@
           "talent_spell_id": 442718,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8165,8 +8444,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8198,7 +8477,10 @@
         "talent_name": "Evasive Action",
         "spell_id": 444926,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat"
+        "icon": "ability_demonhunter_vengefulretreat",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat"
+        ]
       },
       "pve_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
       "pvp_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
@@ -8222,8 +8504,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8255,7 +8537,10 @@
         "talent_name": "Unhindered Assault",
         "spell_id": 444931,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bladerush"
+        "icon": "ability_ironmaidens_bladerush",
+        "icon_candidates": [
+          "ability_ironmaidens_bladerush"
+        ]
       },
       "pve_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
       "pvp_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
@@ -8279,8 +8564,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8312,10 +8597,13 @@
         "talent_name": "Reaver's Mark",
         "spell_id": 442679,
         "visible_spell_id": null,
-        "icon": "ability_hunter_harass"
+        "icon": "ability_hunter_harass",
+        "icon_candidates": [
+          "ability_hunter_harass"
+        ]
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 8% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 8% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8336,8 +8624,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8369,10 +8657,13 @@
         "talent_name": "Broken Spirit",
         "spell_id": 1272143,
         "visible_spell_id": null,
-        "icon": "ability_argus_soulbombdebufflarge"
+        "icon": "ability_argus_soulbombdebufflarge",
+        "icon_candidates": [
+          "ability_argus_soulbombdebufflarge"
+        ]
       },
-      "pve_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 15% chance to shatter a Soul Fragment.\n(100ms cooldown)",
-      "pvp_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 15% chance to shatter a Soul Fragment.\n(100ms cooldown)",
+      "pve_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 20% chance to shatter a Soul Fragment.\n(100ms cooldown)",
+      "pvp_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 20% chance to shatter a Soul Fragment.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8393,8 +8684,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8426,7 +8717,10 @@
         "talent_name": "Aldrachi Tactics",
         "spell_id": 442683,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
       "pvp_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
@@ -8450,8 +8744,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8483,7 +8777,10 @@
         "talent_name": "Army Unto Oneself",
         "spell_id": 442714,
         "visible_spell_id": null,
-        "icon": "ability_warlock_avoidance"
+        "icon": "ability_warlock_avoidance",
+        "icon_candidates": [
+          "ability_warlock_avoidance"
+        ]
       },
       "pve_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
       "pvp_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
@@ -8507,8 +8804,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8540,7 +8837,10 @@
         "talent_name": "Incorruptible Spirit",
         "spell_id": 442736,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_chasedbyshadows"
+        "icon": "spell_nzinsanity_chasedbyshadows",
+        "icon_candidates": [
+          "spell_nzinsanity_chasedbyshadows"
+        ]
       },
       "pve_tooltip": "Each Soul Fragment you consume shields you for an additional 15% of the amount healed.",
       "pvp_tooltip": "Each Soul Fragment you consume shields you for an additional 15% of the amount healed.",
@@ -8564,8 +8864,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8597,7 +8897,10 @@
         "talent_name": "Wounded Quarry",
         "spell_id": 442806,
         "visible_spell_id": null,
-        "icon": "ability_rogue_venomouswounds"
+        "icon": "ability_rogue_venomouswounds",
+        "icon_candidates": [
+          "ability_rogue_venomouswounds"
+        ]
       },
       "pve_tooltip": "Expose weaknesses in the target of your Reaver's Mark, causing your Physical damage to any enemy to also deal 30% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
       "pvp_tooltip": "Expose weaknesses in the target of your Reaver's Mark, causing your Physical damage to any enemy to also deal 30% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
@@ -8621,8 +8924,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8654,7 +8957,10 @@
         "talent_name": "Keen Edge",
         "spell_id": 1272138,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_tyrande_d_01"
+        "icon": "inv_glaive_1h_tyrande_d_01",
+        "icon_candidates": [
+          "inv_glaive_1h_tyrande_d_01"
+        ]
       },
       "pve_tooltip": "Reaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
       "pvp_tooltip": "Reaver's Glaive damage is increased by 6.6% and other Physical-only damage is increased by 10%.",
@@ -8725,8 +9031,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8758,7 +9064,10 @@
         "talent_name": "Incisive Blade",
         "spell_id": 442492,
         "visible_spell_id": null,
-        "icon": "ability_dualwieldspecialization"
+        "icon": "ability_dualwieldspecialization",
+        "icon_candidates": [
+          "ability_dualwieldspecialization"
+        ]
       },
       "pve_tooltip": "Chaos Strike deals 10% increased damage.",
       "pvp_tooltip": "Chaos Strike deals 10% increased damage.",
@@ -8782,8 +9091,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8815,7 +9124,10 @@
         "talent_name": "Keen Engagement",
         "spell_id": 442497,
         "visible_spell_id": null,
-        "icon": "ability_warlock_shadowfurytga"
+        "icon": "ability_warlock_shadowfurytga",
+        "icon_candidates": [
+          "ability_warlock_shadowfurytga"
+        ]
       },
       "pve_tooltip": "Reaver's Glaive generates 20 Fury.",
       "pvp_tooltip": "Reaver's Glaive generates 20 Fury.",
@@ -8839,8 +9151,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8872,7 +9184,10 @@
         "talent_name": "Preemptive Strike",
         "spell_id": 444997,
         "visible_spell_id": null,
-        "icon": "ability_rogue_focusedattacks"
+        "icon": "ability_rogue_focusedattacks",
+        "icon_candidates": [
+          "ability_rogue_focusedattacks"
+        ]
       },
       "pve_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
       "pvp_tooltip": "Throw Glaive deals (19.2% of Attack Power) Physical damage to enemies near its initial target.",
@@ -8909,7 +9224,7 @@
           "talent_spell_id": 444997,
           "source_spell_id": 444979,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.2)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8945,11 +9260,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8966,8 +9280,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8999,7 +9313,10 @@
         "talent_name": "Bladecraft",
         "spell_id": 1272153,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave3"
+        "icon": "ability_demonhunter_soulcleave3",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave3"
+        ]
       },
       "pve_tooltip": "Fury of the Aldrachi further empowers Blade Dance when cast after Chaos Strike, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Chaos Strike when cast after Blade Dance, applying an additional stack.",
       "pvp_tooltip": "Fury of the Aldrachi further empowers Blade Dance when cast after Chaos Strike, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Chaos Strike when cast after Blade Dance, applying an additional stack.",
@@ -9015,7 +9332,7 @@
           "talent_spell_id": 1272153,
           "source_spell_id": 444806,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.24)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9053,11 +9370,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9065,7 +9381,7 @@
           "talent_spell_id": 1272153,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9127,8 +9443,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9160,7 +9476,10 @@
         "talent_name": "Warblade's Hunger",
         "spell_id": 442502,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulsiphon"
+        "icon": "ability_warlock_soulsiphon",
+        "icon_candidates": [
+          "ability_warlock_soulsiphon"
+        ]
       },
       "pve_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
       "pvp_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (59.52% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
@@ -9253,8 +9572,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9287,7 +9606,10 @@
         "talent_name": "Thrill of the Fight",
         "spell_id": 442686,
         "visible_spell_id": null,
-        "icon": "spell_arcane_arcanetactics"
+        "icon": "spell_arcane_arcanetactics",
+        "icon_candidates": [
+          "spell_arcane_arcanetactics"
+        ]
       },
       "pve_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
       "pvp_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
@@ -9311,8 +9633,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9345,7 +9667,10 @@
         "talent_name": "Demonsurge",
         "spell_id": 452402,
         "visible_spell_id": null,
-        "icon": "inv_ability_felscarreddemonhunter_demonsurge"
+        "icon": "inv_ability_felscarreddemonhunter_demonsurge",
+        "icon_candidates": [
+          "inv_ability_felscarreddemonhunter_demonsurge"
+        ]
       },
       "pve_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (215.04% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -9364,16 +9689,6 @@
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 625.0,
-          "new": 400.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             2
@@ -9402,7 +9717,7 @@
           "talent_spell_id": 452402,
           "source_spell_id": 452416,
           "effect_index": 1,
-          "effect_text": "School Damage (2): magic (AP mod: 2.8)",
+          "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -9429,37 +9744,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 452402,
-          "source_spell_id": 1246160,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): cosmic (SP mod: 6.25)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.64,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.64,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            452402,
-            1246160
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9541,7 +9828,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -9555,8 +9842,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9588,7 +9875,10 @@
         "talent_name": "Wave of Debilitation",
         "spell_id": 452403,
         "visible_spell_id": null,
-        "icon": "spell_fire_felfirenova"
+        "icon": "spell_fire_felfirenova",
+        "icon_candidates": [
+          "spell_fire_felfirenova"
+        ]
       },
       "pve_tooltip": "Chaos Nova slows enemies by 60% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
       "pvp_tooltip": "Chaos Nova slows enemies by 40% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
@@ -9625,7 +9915,7 @@
           "talent_spell_id": 452403,
           "source_spell_id": 453263,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": 60.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -9642,8 +9932,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9654,7 +9945,7 @@
           "talent_spell_id": 452403,
           "source_spell_id": 453263,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
+          "effect_text": "Apply Aura: Mod Casting Speed %",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": null,
@@ -9671,8 +9962,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9692,8 +9984,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9725,7 +10017,10 @@
         "talent_name": "Pursuit of Angriness",
         "spell_id": 452404,
         "visible_spell_id": null,
-        "icon": "ability_felarakkoa_focusedblast"
+        "icon": "ability_felarakkoa_focusedblast",
+        "icon_candidates": [
+          "ability_felarakkoa_focusedblast"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 1% per 10 Fury.",
       "pvp_tooltip": "Movement speed increased by 1% per 10 Fury.",
@@ -9749,8 +10044,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9782,7 +10077,10 @@
         "talent_name": "Focused Hatred",
         "spell_id": 452405,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_illidansgrasp"
+        "icon": "ability_demonhunter_illidansgrasp",
+        "icon_candidates": [
+          "ability_demonhunter_illidansgrasp"
+        ]
       },
       "pve_tooltip": "Demonsurge deals 50% increased damage when it strikes a single target.\nEach additional target reduces this bonus by 10%.",
       "pvp_tooltip": "Demonsurge deals 10% increased damage when it strikes a single target.\nEach additional target reduces this bonus by 2%.",
@@ -9895,8 +10193,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9928,7 +10226,10 @@
         "talent_name": "Set Fire to the Pain",
         "spell_id": 452406,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_empowerwards"
+        "icon": "ability_demonhunter_empowerwards",
+        "icon_candidates": [
+          "ability_demonhunter_empowerwards"
+        ]
       },
       "pve_tooltip": "5% of all non-Fire damage taken is instead taken as Fire damage over 6 sec.\nFire damage taken reduced by 10%.",
       "pvp_tooltip": "5% of all non-Fire damage taken is instead taken as Fire damage over 6 sec.\nFire damage taken reduced by 10%.",
@@ -9952,8 +10253,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9985,7 +10286,10 @@
         "talent_name": "Improved Soul Rending",
         "spell_id": 452407,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Leech granted by Soul Rending increased by 2% and an additional 2% while Metamorphosis is active.",
       "pvp_tooltip": "Leech granted by Soul Rending increased by 2% and an additional 2% while Metamorphosis is active.",
@@ -10009,8 +10313,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10042,7 +10346,10 @@
         "talent_name": "Blind Focus",
         "spell_id": 1272364,
         "visible_spell_id": null,
-        "icon": "inv_belt_leather_raiddemonhunter_r_01"
+        "icon": "inv_belt_leather_raiddemonhunter_r_01",
+        "icon_candidates": [
+          "inv_belt_leather_raiddemonhunter_r_01"
+        ]
       },
       "pve_tooltip": "Fire damage increased by 5%.\nEffect is doubled while in demon form.",
       "pvp_tooltip": "Fire damage increased by 5%.\nEffect is doubled while in demon form.",
@@ -10066,8 +10373,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10099,7 +10406,10 @@
         "talent_name": "Burning Blades",
         "spell_id": 452408,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactazgalor_d_02dual"
+        "icon": "inv_glaive_1h_artifactazgalor_d_02dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactazgalor_d_02dual"
+        ]
       },
       "pve_tooltip": "Your blades burn with Fel energy, causing the damage from Chaos Strike, Throw Glaive, Blade Dance's First Blood, and auto-attacks to burn for an additional 35% damage as Fire over 6 sec.",
       "pvp_tooltip": "Your blades burn with Fel energy, causing the damage from Chaos Strike, Throw Glaive, Blade Dance's First Blood, and auto-attacks to burn for an additional 35% damage as Fire over 6 sec.",
@@ -10115,7 +10425,7 @@
           "talent_spell_id": 452408,
           "source_spell_id": 453177,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 2 seconds",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -10142,11 +10452,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10163,8 +10472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10196,7 +10505,10 @@
         "talent_name": "Violent Transformation",
         "spell_id": 452409,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demoniccirclesummon"
+        "icon": "spell_shadow_demoniccirclesummon",
+        "icon_candidates": [
+          "spell_shadow_demoniccirclesummon"
+        ]
       },
       "pve_tooltip": "When you activate Metamorphosis, reset the cooldown of Immolation Aura.",
       "pvp_tooltip": "When you activate Metamorphosis, reset the cooldown of Immolation Aura.",
@@ -10220,8 +10532,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10253,7 +10565,10 @@
         "talent_name": "Enduring Torment",
         "spell_id": 452410,
         "visible_spell_id": null,
-        "icon": "spell_fire_felimmolation"
+        "icon": "spell_fire_felimmolation",
+        "icon_candidates": [
+          "spell_fire_felimmolation"
+        ]
       },
       "pve_tooltip": "The effects of your demon form persist outside of it in a weakened state, increasing Chaos Strike and Blade Dance damage by 15%, and Haste by 5%.",
       "pvp_tooltip": "The effects of your demon form persist outside of it in a weakened state, increasing Chaos Strike and Blade Dance damage by 15%, and Haste by 5%.",
@@ -10277,8 +10592,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10310,7 +10625,10 @@
         "talent_name": "Undying Embers",
         "spell_id": 1272405,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembersgreen"
+        "icon": "ability_warlock_burningembersgreen",
+        "icon_candidates": [
+          "ability_warlock_burningembersgreen"
+        ]
       },
       "pve_tooltip": "Immolation Aura has a 25% chance to reignite after it expires, reapplying its effect.",
       "pvp_tooltip": "Immolation Aura has a 25% chance to reignite after it expires, reapplying its effect.",
@@ -10334,8 +10652,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10367,7 +10685,10 @@
         "talent_name": "Untethered Fury",
         "spell_id": 452411,
         "visible_spell_id": null,
-        "icon": "inv__felbarrage"
+        "icon": "inv__felbarrage",
+        "icon_candidates": [
+          "inv__felbarrage"
+        ]
       },
       "pve_tooltip": "Maximum Fury increased by 50.",
       "pvp_tooltip": "Maximum Fury increased by 50.",
@@ -10391,8 +10712,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10424,7 +10745,10 @@
         "talent_name": "Student of Suffering",
         "spell_id": 452412,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_theatreofpain_kultharok"
+        "icon": "achievement_dungeon_theatreofpain_kultharok",
+        "icon_candidates": [
+          "achievement_dungeon_theatreofpain_kultharok"
+        ]
       },
       "pve_tooltip": "Eye Beam applies Student of Suffering to you, increasing Mastery by (8 * $mas)% and granting 5 Fury every 2 sec, for 6 sec.",
       "pvp_tooltip": "Eye Beam applies Student of Suffering to you, increasing Mastery by (8 * $mas)% and granting 5 Fury every 2 sec, for 6 sec.",
@@ -10448,8 +10772,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10481,7 +10805,10 @@
         "talent_name": "Flamebound",
         "spell_id": 452413,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamering"
+        "icon": "spell_fire_felflamering",
+        "icon_candidates": [
+          "spell_fire_felflamering"
+        ]
       },
       "pve_tooltip": "Immolation Aura has 2 yd increased radius and 50% increased critical strike damage bonus.",
       "pvp_tooltip": "Immolation Aura has 2 yd increased radius and 50% increased critical strike damage bonus.",
@@ -10531,8 +10858,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10564,7 +10891,10 @@
         "talent_name": "Monster Rising",
         "spell_id": 452414,
         "visible_spell_id": null,
-        "icon": "ability_warlock_demonicpower"
+        "icon": "ability_warlock_demonicpower",
+        "icon_candidates": [
+          "ability_warlock_demonicpower"
+        ]
       },
       "pve_tooltip": "Agility increased by 8% while not in demon form.",
       "pvp_tooltip": "Agility increased by 8% while not in demon form.",
@@ -10588,8 +10918,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10621,7 +10951,10 @@
         "talent_name": "Volatile Instinct",
         "spell_id": 1272453,
         "visible_spell_id": null,
-        "icon": "inv_nature_nova"
+        "icon": "inv_nature_nova",
+        "icon_candidates": [
+          "inv_nature_nova"
+        ]
       },
       "pve_tooltip": "Entering demon form immediately induces a Demonsurge.\n(100ms cooldown)",
       "pvp_tooltip": "Entering demon form immediately induces a Demonsurge.\n(100ms cooldown)",
@@ -10645,8 +10978,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10679,7 +11012,10 @@
         "talent_name": "Demonic Intensity",
         "spell_id": 452415,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonicempowerment"
+        "icon": "spell_warlock_demonicempowerment",
+        "icon_candidates": [
+          "spell_warlock_demonicempowerment"
+        ]
       },
       "pve_tooltip": "Activating Metamorphosis greatly empowers Eye Beam, Immolation Aura.\nDemonsurge damage is increased by 5% for each time it previously triggered while your demon form is active.",
       "pvp_tooltip": "Activating Metamorphosis greatly empowers Eye Beam, Immolation Aura.\nDemonsurge damage is increased by 5% for each time it previously triggered while your demon form is active.",
@@ -10695,7 +11031,7 @@
           "talent_spell_id": 452415,
           "source_spell_id": 452416,
           "effect_index": 1,
-          "effect_text": "School Damage (2): magic (AP mod: 2.8)",
+          "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -10722,37 +11058,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 452415,
-          "source_spell_id": 1246160,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): cosmic (SP mod: 6.25)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.64,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.64,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            452415,
-            1246160
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11060,7 +11368,7 @@
   },
   "source_warnings": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-22T19:24:36.801520+00:00",
+  "generated_at": "2026-09-24T11:40:22.068553+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 31,
@@ -11073,37 +11381,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 11,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 444661,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444661'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 444806,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444806'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 444929,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444929'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 444979,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444979'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 452416,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452416'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

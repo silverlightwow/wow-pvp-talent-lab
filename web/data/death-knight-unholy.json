@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -49,7 +49,10 @@
         "talent_name": "Icebound Fortitude",
         "spell_id": 48792,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_iceboundfortitude"
+        "icon": "spell_deathknight_iceboundfortitude",
+        "icon_candidates": [
+          "spell_deathknight_iceboundfortitude"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nYour blood freezes, granting immunity to Stun effects and reducing all damage you take by 30% for 8 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nYour blood freezes, granting immunity to Stun effects and reducing all damage you take by 30% for 8 sec.",
@@ -73,8 +76,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -104,18 +107,21 @@
         "talent_name": "Death Strike",
         "spell_id": 49998,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (156.1824% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (176.1% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (179.622% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 80,
-          "end": 86,
-          "old_token": "153.12",
-          "new_token": "156.1824",
+          "end": 85,
+          "old_token": "176.1",
+          "new_token": "179.622",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -139,8 +145,8 @@
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "153.12",
-          "new": "156.1824"
+          "old": "176.1",
+          "new": "179.622"
         }
       ],
       "has_pvp_mechanics": true,
@@ -151,7 +157,7 @@
           "talent_spell_id": 49998,
           "source_spell_id": 49998,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.5312 )",
+          "effect_text": "School Damage (Physical) (AP mod: 1.761 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -231,8 +237,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -262,7 +268,10 @@
         "talent_name": "Raise Dead",
         "spell_id": 46585,
         "visible_spell_id": null,
-        "icon": "inv_pet_ghoul"
+        "icon": "inv_pet_ghoul",
+        "icon_candidates": [
+          "inv_pet_ghoul"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
       "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
@@ -286,8 +295,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -321,7 +330,10 @@
         "talent_name": "Runic Attenuation",
         "spell_id": 207104,
         "visible_spell_id": null,
-        "icon": "boss_odunrunes_blue"
+        "icon": "boss_odunrunes_blue",
+        "icon_candidates": [
+          "boss_odunrunes_blue"
+        ]
       },
       "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
       "pvp_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
@@ -345,8 +357,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -380,7 +392,10 @@
         "talent_name": "Improved Death Strike",
         "spell_id": 374277,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
       "pve_tooltip": "Death Strike's cost is reduced by 10, and its healing is increased by 60%.",
       "pvp_tooltip": "Death Strike's cost is reduced by 10, and its healing is increased by 60%.",
@@ -404,8 +419,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -439,7 +454,10 @@
         "talent_name": "Cleaving Strikes",
         "spell_id": 316916,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fastermeleeattacks"
+        "icon": "inv_1115_warrior_fastermeleeattacks",
+        "icon_candidates": [
+          "inv_1115_warrior_fastermeleeattacks"
+        ]
       },
       "pve_tooltip": "Scourge Strike and Festering Strike deal 10% increased damage.",
       "pvp_tooltip": "Scourge Strike and Festering Strike deal 10% increased damage.",
@@ -463,8 +481,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -497,7 +515,10 @@
         "talent_name": "Mind Freeze",
         "spell_id": 47528,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_mindfreeze"
+        "icon": "spell_deathknight_mindfreeze",
+        "icon_candidates": [
+          "spell_deathknight_mindfreeze"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n15 sec cooldown\nSmash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
       "pvp_tooltip": "15 yd range\nInstant\n15 sec cooldown\nSmash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
@@ -521,8 +542,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -554,7 +575,10 @@
         "talent_name": "Blinding Sleet",
         "spell_id": 207167,
         "visible_spell_id": null,
-        "icon": "spell_frost_chillingblast"
+        "icon": "spell_frost_chillingblast",
+        "icon_candidates": [
+          "spell_frost_chillingblast"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
       "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 30% for 6 sec.",
@@ -665,8 +689,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -701,7 +725,10 @@
         "talent_name": "Gloom Ward",
         "spell_id": 391571,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "Absorbs are 30% more effective on you.",
       "pvp_tooltip": "Absorbs are 30% more effective on you.",
@@ -744,8 +771,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -777,7 +804,10 @@
         "talent_name": "March of Darkness",
         "spell_id": 391546,
         "visible_spell_id": null,
-        "icon": "ability_argus_deathfog"
+        "icon": "ability_argus_deathfog",
+        "icon_candidates": [
+          "ability_argus_deathfog"
+        ]
       },
       "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
       "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
@@ -801,8 +831,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -834,7 +864,10 @@
         "talent_name": "Wraith Walk",
         "spell_id": 212552,
         "visible_spell_id": null,
-        "icon": "inv_helm_plate_raiddeathknight_p_01"
+        "icon": "inv_helm_plate_raiddeathknight_p_01",
+        "icon_candidates": [
+          "inv_helm_plate_raiddeathknight_p_01"
+        ]
       },
       "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
       "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
@@ -858,8 +891,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -894,7 +927,10 @@
         "talent_name": "Unholy Momentum",
         "spell_id": 374265,
         "visible_spell_id": null,
-        "icon": "spell_necro_deathrift"
+        "icon": "spell_necro_deathrift",
+        "icon_candidates": [
+          "spell_necro_deathrift"
+        ]
       },
       "pve_tooltip": "Increases Haste by 4%.",
       "pvp_tooltip": "Increases Haste by 4%.",
@@ -937,8 +973,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -970,7 +1006,10 @@
         "talent_name": "Control Undead",
         "spell_id": 111673,
         "visible_spell_id": null,
-        "icon": "inv_misc_bone_skull_01"
+        "icon": "inv_misc_bone_skull_01",
+        "icon_candidates": [
+          "inv_misc_bone_skull_01"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\n1.5 sec cast\nDominates the target undead creature up to level 38, forcing it to do your bidding for 5 min.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\n1.5 sec cast\nDominates the target undead creature up to level 38, forcing it to do your bidding for 5 min.",
@@ -994,8 +1033,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1028,7 +1067,10 @@
         "talent_name": "Enfeeble",
         "spell_id": 392566,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_01"
+        "icon": "ability_creature_poison_01",
+        "icon_candidates": [
+          "ability_creature_poison_01"
+        ]
       },
       "pve_tooltip": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by 30% and the damage they deal to you by 12% for 6 sec.",
       "pvp_tooltip": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by 20% and the damage they deal to you by 8% for 6 sec.",
@@ -1153,8 +1195,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1186,7 +1228,10 @@
         "talent_name": "Coldthirst",
         "spell_id": 378848,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_mindfreeze"
+        "icon": "spell_deathknight_mindfreeze",
+        "icon_candidates": [
+          "spell_deathknight_mindfreeze"
+        ]
       },
       "pve_tooltip": "Successfully interrupting an enemy with Mind Freeze grants 10 Runic Power and reduces its cooldown by 3 sec.",
       "pvp_tooltip": "Successfully interrupting an enemy with Mind Freeze grants 10 Runic Power and reduces its cooldown by 3 sec.",
@@ -1210,8 +1255,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1245,7 +1290,10 @@
         "talent_name": "Proliferating Chill",
         "spell_id": 373930,
         "visible_spell_id": null,
-        "icon": "spell_frost_chainsofice"
+        "icon": "spell_frost_chainsofice",
+        "icon_candidates": [
+          "spell_frost_chainsofice"
+        ]
       },
       "pve_tooltip": "Chains of Ice affects 1 additional nearby enemy.",
       "pvp_tooltip": "Chains of Ice affects 1 additional nearby enemy.",
@@ -1269,8 +1317,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1304,7 +1352,10 @@
         "talent_name": "Permafrost",
         "spell_id": 207200,
         "visible_spell_id": null,
-        "icon": "achievement_zone_frostfire"
+        "icon": "achievement_zone_frostfire",
+        "icon_candidates": [
+          "achievement_zone_frostfire"
+        ]
       },
       "pve_tooltip": "Your auto attack damage grants you an absorb shield equal to 35% of the damage dealt.",
       "pvp_tooltip": "Your auto attack damage grants you an absorb shield equal to 35% of the damage dealt.",
@@ -1328,8 +1379,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1363,7 +1414,10 @@
         "talent_name": "Veteran of the Third War",
         "spell_id": 48263,
         "visible_spell_id": null,
-        "icon": "spell_misc_warsongfocus"
+        "icon": "spell_misc_warsongfocus",
+        "icon_candidates": [
+          "spell_misc_warsongfocus"
+        ]
       },
       "pve_tooltip": "Stamina increased by 12%.",
       "pvp_tooltip": "Stamina increased by 12%.",
@@ -1424,8 +1478,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1459,7 +1513,10 @@
         "talent_name": "Death Pact",
         "spell_id": 48743,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathpact"
+        "icon": "spell_shadow_deathpact",
+        "icon_candidates": [
+          "spell_shadow_deathpact"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCreate a death pact that heals you for 50% of your maximum health, but absorbs incoming healing equal to 30% of your max health for 15 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nCreate a death pact that heals you for 50% of your maximum health, but absorbs incoming healing equal to 30% of your max health for 15 sec.",
@@ -1483,8 +1540,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1518,7 +1575,10 @@
         "talent_name": "Brittle",
         "spell_id": 374504,
         "visible_spell_id": null,
-        "icon": "ability_bosskilrogg_deaththroes"
+        "icon": "ability_bosskilrogg_deaththroes",
+        "icon_candidates": [
+          "ability_bosskilrogg_deaththroes"
+        ]
       },
       "pve_tooltip": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal 6% increased damage for 5 sec.\n(Proc chance: 15%)",
       "pvp_tooltip": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal 6% increased damage for 5 sec.\n(Proc chance: 15%)",
@@ -1542,8 +1602,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1575,7 +1635,10 @@
         "talent_name": "Blood Bond",
         "spell_id": 1267028,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_roilingblood"
+        "icon": "ability_deathknight_roilingblood",
+        "icon_candidates": [
+          "ability_deathknight_roilingblood"
+        ]
       },
       "pve_tooltip": "While you are below 50% health, your Ghoul sacrifices 4% of its maximum health to heal you for 1% of your maximum health every sec.",
       "pvp_tooltip": "While you are below 50% health, your Ghoul sacrifices 4% of its maximum health to heal you for 1% of your maximum health every sec.",
@@ -1599,8 +1662,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1635,7 +1698,10 @@
         "talent_name": "Icy Talons",
         "spell_id": 194878,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_icytalons"
+        "icon": "spell_deathknight_icytalons",
+        "icon_candidates": [
+          "spell_deathknight_icytalons"
+        ]
       },
       "pve_tooltip": "Your Runic Power spending abilities increase your melee attack speed by 6% for 10 sec, stacking up to 3 times.\n(500ms cooldown)",
       "pvp_tooltip": "Your Runic Power spending abilities increase your melee attack speed by 6% for 10 sec, stacking up to 3 times.\n(500ms cooldown)",
@@ -1659,8 +1725,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1692,7 +1758,10 @@
         "talent_name": "Death Notes",
         "spell_id": 1266819,
         "visible_spell_id": null,
-        "icon": "inv_misc_book_01"
+        "icon": "inv_misc_book_01",
+        "icon_candidates": [
+          "inv_misc_book_01"
+        ]
       },
       "pve_tooltip": "Raise Ally costs 30 less Runic Power.",
       "pvp_tooltip": "Raise Ally costs 30 less Runic Power.",
@@ -1716,8 +1785,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1753,7 +1822,10 @@
         "talent_name": "Anti-Magic Zone",
         "spell_id": 51052,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_antimagiczone"
+        "icon": "spell_deathknight_antimagiczone",
+        "icon_candidates": [
+          "spell_deathknight_antimagiczone"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
       "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
@@ -1777,8 +1849,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1810,7 +1882,10 @@
         "talent_name": "Death Defiance",
         "spell_id": 1266818,
         "visible_spell_id": null,
-        "icon": "spell_nature_shamanrage"
+        "icon": "spell_nature_shamanrage",
+        "icon_candidates": [
+          "spell_nature_shamanrage"
+        ]
       },
       "pve_tooltip": "The cooldown of Death Pact is reduced by 30 sec, and you receive 50% increased healing while its healing absorb is active.",
       "pvp_tooltip": "The cooldown of Death Pact is reduced by 30 sec, and you receive 50% increased healing while its healing absorb is active.",
@@ -1834,8 +1909,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1870,7 +1945,10 @@
         "talent_name": "Unholy Bond",
         "spell_id": 374261,
         "visible_spell_id": null,
-        "icon": "inv_sword_1h_felfireraid_d_01"
+        "icon": "inv_sword_1h_felfireraid_d_01",
+        "icon_candidates": [
+          "inv_sword_1h_felfireraid_d_01"
+        ]
       },
       "pve_tooltip": "Increases the effectiveness of your Runeforge effects by 20%.",
       "pvp_tooltip": "Increases the effectiveness of your Runeforge effects by 20%.",
@@ -1894,8 +1972,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1927,7 +2005,10 @@
         "talent_name": "Ice Prison",
         "spell_id": 454786,
         "visible_spell_id": null,
-        "icon": "ability_mage_deepfreeze"
+        "icon": "ability_mage_deepfreeze",
+        "icon_candidates": [
+          "ability_mage_deepfreeze"
+        ]
       },
       "pve_tooltip": "Chains of Ice now also roots enemies for 4 sec but its cooldown is increased to 12 sec.",
       "pvp_tooltip": "Chains of Ice now also roots enemies for 4 sec but its cooldown is increased to 12 sec.",
@@ -1951,8 +2032,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1987,7 +2068,10 @@
         "talent_name": "Asphyxiate",
         "spell_id": 221562,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_asphixiate"
+        "icon": "ability_deathknight_asphixiate",
+        "icon_candidates": [
+          "ability_deathknight_asphixiate"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nLifts the enemy target off the ground, crushing their throat with dark energy and stunning them for 5 sec.",
       "pvp_tooltip": "20 yd range\nInstant\n45 sec cooldown\nLifts the enemy target off the ground, crushing their throat with dark energy and stunning them for 5 sec.",
@@ -2011,8 +2095,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2047,7 +2131,10 @@
         "talent_name": "Death's Reach",
         "spell_id": 276079,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_strangulate"
+        "icon": "spell_deathknight_strangulate",
+        "icon_candidates": [
+          "spell_deathknight_strangulate"
+        ]
       },
       "pve_tooltip": "Increases the range of Death Grip by 10 yds.\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
       "pvp_tooltip": "Increases the range of Death Grip by 10 yds.\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
@@ -2071,8 +2158,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2104,7 +2191,10 @@
         "talent_name": "Assimilation",
         "spell_id": 374383,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_antimagiczone"
+        "icon": "spell_deathknight_antimagiczone",
+        "icon_candidates": [
+          "spell_deathknight_antimagiczone"
+        ]
       },
       "pve_tooltip": "The cooldown of Anti-Magic Zone is reduced by 60 sec and its duration is increased by 2 sec.",
       "pvp_tooltip": "The cooldown of Anti-Magic Zone is reduced by 60 sec and its duration is increased by 2 sec.",
@@ -2128,8 +2218,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2164,7 +2254,10 @@
         "talent_name": "Anti-Magic Barrier",
         "spell_id": 205727,
         "visible_spell_id": null,
-        "icon": "spell_shadow_antimagicshell"
+        "icon": "spell_shadow_antimagicshell",
+        "icon_candidates": [
+          "spell_shadow_antimagicshell"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Anti-Magic Shell by 20 sec and increases its duration and amount absorbed by 40%.",
       "pvp_tooltip": "Reduces the cooldown of Anti-Magic Shell by 20 sec and increases its duration and amount absorbed by 20%.",
@@ -2235,8 +2328,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2268,7 +2361,10 @@
         "talent_name": "Grip of the Dead",
         "spell_id": 273952,
         "visible_spell_id": null,
-        "icon": "ability_creature_disease_05"
+        "icon": "ability_creature_disease_05",
+        "icon_candidates": [
+          "ability_creature_disease_05"
+        ]
       },
       "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
       "pvp_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
@@ -2292,8 +2388,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2327,7 +2423,10 @@
         "talent_name": "Suppression",
         "spell_id": 374049,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 3%. When suffering a loss of control effect, this bonus is increased by an additional 6% for 6 sec.",
       "pvp_tooltip": "Damage taken from area of effect attacks reduced by 3%. When suffering a loss of control effect, this bonus is increased by an additional 6% for 6 sec.",
@@ -2351,8 +2450,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2387,7 +2486,10 @@
         "talent_name": "Blood Scent",
         "spell_id": 374030,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bloodritual"
+        "icon": "ability_ironmaidens_bloodritual",
+        "icon_candidates": [
+          "ability_ironmaidens_bloodritual"
+        ]
       },
       "pve_tooltip": "Increases Leech by 3%.",
       "pvp_tooltip": "Increases Leech by 3%.",
@@ -2411,8 +2513,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2446,7 +2548,10 @@
         "talent_name": "Unholy Endurance",
         "spell_id": 389682,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_subversion"
+        "icon": "spell_deathknight_subversion",
+        "icon_candidates": [
+          "spell_deathknight_subversion"
+        ]
       },
       "pve_tooltip": "Increases Lichborne duration by 2 sec and reduces the cooldown by 30 sec.",
       "pvp_tooltip": "Increases Lichborne duration by 2 sec and reduces the cooldown by 30 sec.",
@@ -2470,8 +2575,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2503,7 +2608,10 @@
         "talent_name": "Osmosis",
         "spell_id": 454835,
         "visible_spell_id": null,
-        "icon": "spell_nature_rune"
+        "icon": "spell_nature_rune",
+        "icon_candidates": [
+          "spell_nature_rune"
+        ]
       },
       "pve_tooltip": "Anti-Magic Shell increases healing received by 15%.",
       "pvp_tooltip": "Anti-Magic Shell increases healing received by 15%.",
@@ -2527,8 +2635,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2562,7 +2670,10 @@
         "talent_name": "Insidious Chill",
         "spell_id": 391566,
         "visible_spell_id": null,
-        "icon": "ability_racial_wardoftheloafrost"
+        "icon": "ability_racial_wardoftheloafrost",
+        "icon_candidates": [
+          "ability_racial_wardoftheloafrost"
+        ]
       },
       "pve_tooltip": "Your auto-attacks reduce the target's auto-attack speed by 5% for 30 sec, stacking up to 4 times.",
       "pvp_tooltip": "Your auto-attacks reduce the target's auto-attack speed by 5% for 30 sec, stacking up to 4 times.",
@@ -2586,8 +2697,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2621,7 +2732,10 @@
         "talent_name": "Runic Protection",
         "spell_id": 454788,
         "visible_spell_id": null,
-        "icon": "ability_mage_shattershield"
+        "icon": "ability_mage_shattershield",
+        "icon_candidates": [
+          "ability_mage_shattershield"
+        ]
       },
       "pve_tooltip": "Your chance to be critically struck is reduced by 3% and your Armor is increased by 6%.",
       "pvp_tooltip": "Your chance to be critically struck is reduced by 3% and your Armor is increased by 6%.",
@@ -2645,8 +2759,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2678,7 +2792,10 @@
         "talent_name": "Blood Draw",
         "spell_id": 374598,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
       "pvp_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
@@ -2702,8 +2819,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2737,7 +2854,10 @@
         "talent_name": "Rune Mastery",
         "spell_id": 374574,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_hungeringruneblade"
+        "icon": "ability_deathknight_hungeringruneblade",
+        "icon_candidates": [
+          "ability_deathknight_hungeringruneblade"
+        ]
       },
       "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
       "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
@@ -2780,8 +2900,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2815,7 +2935,10 @@
         "talent_name": "Subduing Grasp",
         "spell_id": 454822,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalshields"
+        "icon": "spell_nature_elementalshields",
+        "icon_candidates": [
+          "spell_nature_elementalshields"
+        ]
       },
       "pve_tooltip": "When you would pull an enemy, the damage they deal to you is reduced by 6% for 6 sec.",
       "pvp_tooltip": "When you would pull an enemy, the damage they deal to you is reduced by 6% for 6 sec.",
@@ -2839,8 +2962,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2874,7 +2997,10 @@
         "talent_name": "Will of the Necropolis",
         "spell_id": 206967,
         "visible_spell_id": null,
-        "icon": "achievement_boss_kelthuzad_01"
+        "icon": "achievement_boss_kelthuzad_01",
+        "icon_candidates": [
+          "achievement_boss_kelthuzad_01"
+        ]
       },
       "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
       "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
@@ -2986,8 +3112,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3017,7 +3143,10 @@
         "talent_name": "Null Magic",
         "spell_id": 454842,
         "visible_spell_id": null,
-        "icon": "spell_shadow_detectinvisibility"
+        "icon": "spell_shadow_detectinvisibility",
+        "icon_candidates": [
+          "spell_shadow_detectinvisibility"
+        ]
       },
       "pve_tooltip": "Magic damage taken is reduced by 5% and the duration of harmful Magic effects against you are reduced by 35%.",
       "pvp_tooltip": "Magic damage taken is reduced by 5% and the duration of harmful Magic effects against you are reduced by 10.15%.",
@@ -3123,8 +3252,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3155,7 +3284,10 @@
         "talent_name": "Unyielding Will",
         "spell_id": 457574,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nethercloak"
+        "icon": "spell_shadow_nethercloak",
+        "icon_candidates": [
+          "spell_shadow_nethercloak"
+        ]
       },
       "pve_tooltip": "Anti-Magic Shell now removes all harmful magical effects when activated, but its cooldown is increased by 20 sec.",
       "pvp_tooltip": "Anti-Magic Shell now removes all harmful magical effects when activated, but its cooldown is increased by 20 sec.",
@@ -3179,8 +3311,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3211,7 +3343,10 @@
         "talent_name": "Death's Echo",
         "spell_id": 356367,
         "visible_spell_id": null,
-        "icon": "inv_fabric_ebonweave"
+        "icon": "inv_fabric_ebonweave",
+        "icon_candidates": [
+          "inv_fabric_ebonweave"
+        ]
       },
       "pve_tooltip": "Death's Advance, Death and Decay, and Death Grip have 1 additional charge.",
       "pvp_tooltip": "Death's Advance, Death and Decay, and Death Grip have 1 additional charge.",
@@ -3235,8 +3370,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3266,7 +3401,10 @@
         "talent_name": "Vestigial Shell",
         "spell_id": 454851,
         "visible_spell_id": null,
-        "icon": "ability_domination_rune12"
+        "icon": "ability_domination_rune12",
+        "icon_candidates": [
+          "ability_domination_rune12"
+        ]
       },
       "pve_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%.",
       "pvp_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 30%.",
@@ -3342,8 +3480,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3374,7 +3512,10 @@
         "talent_name": "Outbreak",
         "spell_id": 77575,
         "visible_spell_id": null,
-        "icon": "spell_deathvortex"
+        "icon": "spell_deathvortex",
+        "icon_candidates": [
+          "spell_deathvortex"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to 1 host at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to 1 host at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
@@ -3521,8 +3662,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3555,7 +3696,10 @@
         "talent_name": "Scourge Strike",
         "spell_id": 55090,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_scourgestrike"
+        "icon": "spell_deathknight_scourgestrike",
+        "icon_candidates": [
+          "spell_deathknight_scourgestrike"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nAn unholy strike that deals (135% of Attack Power) Shadow damage and causing your plagues on the target to erupt, dealing their damage an additional time at 35% effectiveness.\nApplies Virulent Plague or spreads it to a nearby enemy.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nAn unholy strike that deals (110.16% of Attack Power) Shadow damage and causing your plagues on the target to erupt, dealing their damage an additional time at 35% effectiveness.\nApplies Virulent Plague or spreads it to a nearby enemy.",
@@ -3636,8 +3780,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3670,7 +3814,10 @@
         "talent_name": "Sudden Doom",
         "spell_id": 49530,
         "visible_spell_id": null,
-        "icon": "spell_shadow_painspike"
+        "icon": "spell_shadow_painspike",
+        "icon_candidates": [
+          "spell_shadow_painspike"
+        ]
       },
       "pve_tooltip": "Dread Plague has a 35% chance to exhilarate you, making your next Death Coil or Epidemic cost 15 less Runic Power and deal 35% increased damage.",
       "pvp_tooltip": "Dread Plague has a 35% chance to exhilarate you, making your next Death Coil or Epidemic cost 15 less Runic Power and deal 35% increased damage.",
@@ -3694,8 +3841,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3727,7 +3874,10 @@
         "talent_name": "Clawing Shadows",
         "spell_id": 1241567,
         "visible_spell_id": null,
-        "icon": "warlock_curse_shadow"
+        "icon": "warlock_curse_shadow",
+        "icon_candidates": [
+          "warlock_curse_shadow"
+        ]
       },
       "pve_tooltip": "Shadows guide your strikes, increasing the damage of your Scourge Strike by 25%, and causing it to grant you Clawing Shadows up to 4 times.\nFor each stack of Clawing Shadows, your Scourge Strike chains to an additional enemy. Each subsequent chain deals 10% reduced damage.",
       "pvp_tooltip": "Shadows guide your strikes, increasing the damage of your Scourge Strike by 25%, and causing it to grant you Clawing Shadows up to 4 times.\nFor each stack of Clawing Shadows, your Scourge Strike chains to an additional enemy. Each subsequent chain deals 10% reduced damage.",
@@ -3751,8 +3901,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3785,7 +3935,10 @@
         "talent_name": "Putrefy",
         "spell_id": 1247378,
         "visible_spell_id": null,
-        "icon": "inv12_ability_deathknight_putrefy"
+        "icon": "inv12_ability_deathknight_putrefy",
+        "icon_candidates": [
+          "inv12_ability_deathknight_putrefy"
+        ]
       },
       "pve_tooltip": "-10 Runic Power / 1 Rune\n40 yd range\nInstant\n30 sec cooldown\n1 Charge\nSummon a Lesser Ghoul to strike the enemy for (199.665% of Attack Power) Shadow damage and have them explode for (139.421% of Attack Power) Shadow damage to nearby enemies.",
       "pvp_tooltip": "-10 Runic Power / 1 Rune\n40 yd range\nInstant\n30 sec cooldown\n1 Charge\nSummon a Lesser Ghoul to strike the enemy for (203.6583% of Attack Power) Shadow damage and have them explode for (142.2094% of Attack Power) Shadow damage to nearby enemies.",
@@ -3926,8 +4079,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3959,7 +4112,10 @@
         "talent_name": "Dark Transformation",
         "spell_id": 1233448,
         "visible_spell_id": null,
-        "icon": "achievement_boss_festergutrotface"
+        "icon": "achievement_boss_festergutrotface",
+        "icon_candidates": [
+          "achievement_boss_festergutrotface"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n45 sec cooldown\nCorrupt and evolve your Ghoul into a Monstrosity, greatly empowering its abilities for 15 sec.\nDeath Coil and Epidemic extends the duration of this effect by 1.0 sec.",
       "pvp_tooltip": "100 yd range\nInstant\n45 sec cooldown\nCorrupt and evolve your Ghoul into a Monstrosity, greatly empowering its abilities for 15 sec.\nDeath Coil and Epidemic extends the duration of this effect by 1.0 sec.",
@@ -4020,8 +4176,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4055,7 +4211,10 @@
         "talent_name": "Foul Infections",
         "spell_id": 455396,
         "visible_spell_id": null,
-        "icon": "spell_holy_nullifydisease"
+        "icon": "spell_holy_nullifydisease",
+        "icon_candidates": [
+          "spell_holy_nullifydisease"
+        ]
       },
       "pve_tooltip": "Your diseases deal 10% more damage and have a 5% increased chance to critically strike.",
       "pvp_tooltip": "Your diseases deal 10% more damage and have a 5% increased chance to critically strike.",
@@ -4079,8 +4238,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4114,7 +4273,10 @@
         "talent_name": "Plague Mastery",
         "spell_id": 390166,
         "visible_spell_id": null,
-        "icon": "spell_shadow_blackplague"
+        "icon": "spell_shadow_blackplague",
+        "icon_candidates": [
+          "spell_shadow_blackplague"
+        ]
       },
       "pve_tooltip": "Critical strike damage of your diseases is increased by 25%",
       "pvp_tooltip": "Critical strike damage of your diseases is increased by 25%",
@@ -4138,8 +4300,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4173,7 +4335,10 @@
         "talent_name": "Grave Mastery",
         "spell_id": 1238900,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_plaguefall_stradamamargrave"
+        "icon": "achievement_dungeon_plaguefall_stradamamargrave",
+        "icon_candidates": [
+          "achievement_dungeon_plaguefall_stradamamargrave"
+        ]
       },
       "pve_tooltip": "Critical strike damage of your minions is increased by 15%",
       "pvp_tooltip": "Critical strike damage of your minions is increased by 15%",
@@ -4197,8 +4362,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4232,7 +4397,10 @@
         "talent_name": "Necromancer's Cunning",
         "spell_id": 288848,
         "visible_spell_id": null,
-        "icon": "artifactability_unholydeathknight_deathsembrace"
+        "icon": "artifactability_unholydeathknight_deathsembrace",
+        "icon_candidates": [
+          "artifactability_unholydeathknight_deathsembrace"
+        ]
       },
       "pve_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1] Shadow damage to enemies nearby.",
       "pvp_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1] Shadow damage to enemies nearby.",
@@ -4256,8 +4424,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4290,7 +4458,10 @@
         "talent_name": "Ebon Fever",
         "spell_id": 207269,
         "visible_spell_id": null,
-        "icon": "spell_shadow_creepingplague"
+        "icon": "spell_shadow_creepingplague",
+        "icon_candidates": [
+          "spell_shadow_creepingplague"
+        ]
       },
       "pve_tooltip": "Plagues deal 15% more damage over time in 75% of their duration.",
       "pvp_tooltip": "Plagues deal 15% more damage over time in 75% of their duration.",
@@ -4314,8 +4485,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4348,7 +4519,10 @@
         "talent_name": "Festering Scythe",
         "spell_id": 455397,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_mawnecromancerboss_d_01_darkblue"
+        "icon": "inv_polearm_2h_mawnecromancerboss_d_01_darkblue",
+        "icon_candidates": [
+          "inv_polearm_2h_mawnecromancerboss_d_01_darkblue"
+        ]
       },
       "pve_tooltip": "Festering Strike now follows up with a Festering Scythe that costs no Runes.\nFestering Scythe\nSlashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
       "pvp_tooltip": "Festering Strike now follows up with a Festering Scythe that costs no Runes.\nFestering Scythe\nSlashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
@@ -4413,8 +4587,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4448,7 +4622,10 @@
         "talent_name": "Superstrain",
         "spell_id": 390283,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_explode_ghoul"
+        "icon": "spell_deathknight_explode_ghoul",
+        "icon_candidates": [
+          "spell_deathknight_explode_ghoul"
+        ]
       },
       "pve_tooltip": "Dread Plague deals damage to an additional nearby enemy at 75% effectiveness and has a chance to grant you 4 Runic Power.",
       "pvp_tooltip": "Dread Plague deals damage to an additional nearby enemy at 75% effectiveness and has a chance to grant you 4 Runic Power.",
@@ -4472,8 +4649,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4507,7 +4684,10 @@
         "talent_name": "Soul Reaper",
         "spell_id": 343294,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_soulreaper"
+        "icon": "ability_deathknight_soulreaper",
+        "icon_candidates": [
+          "ability_deathknight_soulreaper"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\nMelee Range\nInstant\n15 sec cooldown\nRupture the soul of your enemy, dealing (450% of Attack Power) Shadowfrost damage and causing the foe to take 20% increased damage from your diseases and minions for 8 sec.\nOnly usable on enemies below 35% maximum health.\nConsumes up to 3 Lesser Ghoul stacks to summon them instantly.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\nMelee Range\nInstant\n15 sec cooldown\nRupture the soul of your enemy, dealing (229.5% of Attack Power) Shadowfrost damage and causing the foe to take 20% increased damage from your diseases and minions for 8 sec.\nOnly usable on enemies below 35% maximum health.\nConsumes up to 3 Lesser Ghoul stacks to summon them instantly.",
@@ -4588,8 +4768,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4623,7 +4803,10 @@
         "talent_name": "Magus of the Dead",
         "spell_id": 390196,
         "visible_spell_id": null,
-        "icon": "ability_maldraxxus_mage"
+        "icon": "ability_maldraxxus_mage",
+        "icon_candidates": [
+          "ability_maldraxxus_mage"
+        ]
       },
       "pve_tooltip": "Dark Transformation and Army of the Dead summon a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.",
       "pvp_tooltip": "Dark Transformation and Army of the Dead summon a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.",
@@ -4647,8 +4830,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4680,7 +4863,10 @@
         "talent_name": "Infected Claws",
         "spell_id": 207272,
         "visible_spell_id": null,
-        "icon": "ability_creature_disease_05"
+        "icon": "ability_creature_disease_05",
+        "icon_candidates": [
+          "ability_creature_disease_05"
+        ]
       },
       "pve_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.5925% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
       "pvp_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.5925% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
@@ -4743,8 +4929,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4779,7 +4965,10 @@
         "talent_name": "Cycle of Death",
         "spell_id": 1290864,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_whirlofblood"
+        "icon": "ability_ironmaidens_whirlofblood",
+        "icon_candidates": [
+          "ability_ironmaidens_whirlofblood"
+        ]
       },
       "pve_tooltip": "Putrefy reduces the cooldown of Death and Decay by 1.0 sec.\nDeath and Decay reduces the cooldown of Putrefy by 0.3 sec for each enemy it damages, up to 3.0 sec.",
       "pvp_tooltip": "Putrefy reduces the cooldown of Death and Decay by 1.0 sec.\nDeath and Decay reduces the cooldown of Putrefy by 0.3 sec for each enemy it damages, up to 3.0 sec.",
@@ -4803,8 +4992,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4837,7 +5026,10 @@
         "talent_name": "Coil of Devastation",
         "spell_id": 390270,
         "visible_spell_id": null,
-        "icon": "ability_malkorok_blightofyshaarj_green"
+        "icon": "ability_malkorok_blightofyshaarj_green",
+        "icon_candidates": [
+          "ability_malkorok_blightofyshaarj_green"
+        ]
       },
       "pve_tooltip": "Death Coil deals 10% increased damage and causes the target to take an additional 30% of the direct damage dealt over 4 sec.",
       "pvp_tooltip": "Death Coil deals 10% increased damage and causes the target to take an additional 30% of the direct damage dealt over 4 sec.",
@@ -4861,8 +5053,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4898,7 +5090,10 @@
         "talent_name": "Army of the Dead",
         "spell_id": 42650,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_armyofthedead"
+        "icon": "spell_deathknight_armyofthedead",
+        "icon_candidates": [
+          "spell_deathknight_armyofthedead"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (115% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
@@ -4974,8 +5169,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5008,7 +5203,10 @@
         "talent_name": "Reaping",
         "spell_id": 377514,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_death"
+        "icon": "ability_deathwing_bloodcorruption_death",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_death"
+        ]
       },
       "pve_tooltip": "Scourge Strike, Festering Strike, and Death Coil deal 30% additional damage to enemies below 35% health.\nDark Transformation resets Soul Reaper's cooldown and allows it to be used on any target.\n(300ms cooldown)",
       "pvp_tooltip": "Scourge Strike, Festering Strike, and Death Coil deal 20% additional damage to enemies below 35% health.\nDark Transformation resets Soul Reaper's cooldown and allows it to be used on any target.\n(300ms cooldown)",
@@ -5079,8 +5277,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5114,7 +5312,10 @@
         "talent_name": "Menacing Magus",
         "spell_id": 455135,
         "visible_spell_id": null,
-        "icon": "ability_warlock_coil2"
+        "icon": "ability_warlock_coil2",
+        "icon_candidates": [
+          "ability_warlock_coil2"
+        ]
       },
       "pve_tooltip": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to 8 nearby enemies.\nYour Lord of the Dead Frostbolts now chain to 3 additional enemies.",
       "pvp_tooltip": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to 8 nearby enemies.\nYour Lord of the Dead Frostbolts now chain to 3 additional enemies.",
@@ -5138,8 +5339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5172,7 +5373,10 @@
         "talent_name": "Ghoulish Frenzy",
         "spell_id": 377587,
         "visible_spell_id": null,
-        "icon": "ability_warlock_baneofhavoc"
+        "icon": "ability_warlock_baneofhavoc",
+        "icon_candidates": [
+          "ability_warlock_baneofhavoc"
+        ]
       },
       "pve_tooltip": "Dark Transformation increases the attack speed and damage of you and your Monstrosity by 5% for 15 sec.",
       "pvp_tooltip": "Dark Transformation increases the attack speed and damage of you and your Monstrosity by 5% for 15 sec.",
@@ -5196,8 +5400,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5230,7 +5434,10 @@
         "talent_name": "Morbidity",
         "spell_id": 377592,
         "visible_spell_id": null,
-        "icon": "spell_necro_deathlyecho"
+        "icon": "spell_necro_deathlyecho",
+        "icon_candidates": [
+          "spell_necro_deathlyecho"
+        ]
       },
       "pve_tooltip": "Diseased enemies take 1% increased damage from you per disease they are affected by.",
       "pvp_tooltip": "Diseased enemies take 1% increased damage from you per disease they are affected by.",
@@ -5254,8 +5461,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5290,7 +5497,10 @@
         "talent_name": "Harbinger of Doom",
         "spell_id": 276023,
         "visible_spell_id": null,
-        "icon": "inv_mawguardpet_black"
+        "icon": "inv_mawguardpet_black",
+        "icon_candidates": [
+          "inv_mawguardpet_black"
+        ]
       },
       "pve_tooltip": "Sudden Doom triggers 30% more often and can accumulate up to 2 charges.\nSummoning a Lesser Ghoul with Scourge Strike reduces the cooldown of Putrefy by 2.5 sec.\n(300ms cooldown)",
       "pvp_tooltip": "Sudden Doom triggers 30% more often and can accumulate up to 2 charges.\nSummoning a Lesser Ghoul with Scourge Strike reduces the cooldown of Putrefy by 2.5 sec.\n(300ms cooldown)",
@@ -5314,8 +5524,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5347,7 +5557,10 @@
         "talent_name": "Raise Abomination",
         "spell_id": 1242608,
         "visible_spell_id": null,
-        "icon": "achievement_boss_patchwerk"
+        "icon": "achievement_boss_patchwerk",
+        "icon_candidates": [
+          "achievement_boss_patchwerk"
+        ]
       },
       "pve_tooltip": "Army of the Dead now raises an Abomination for 30 sec to attack enemies while emitting a disease cloud, dealing (35% of Attack Power) Plague damage to nearby enemies every 2 sec.",
       "pvp_tooltip": "Army of the Dead now raises an Abomination for 30 sec to attack enemies while emitting a disease cloud, dealing (35% of Attack Power) Plague damage to nearby enemies every 2 sec.",
@@ -5371,8 +5584,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5404,7 +5617,10 @@
         "talent_name": "Summon Gargoyle",
         "spell_id": 1242147,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_summongargoyle"
+        "icon": "ability_deathknight_summongargoyle",
+        "icon_candidates": [
+          "ability_deathknight_summongargoyle"
+        ]
       },
       "pve_tooltip": "Army of the Dead now summons a Gargoyle into the battlefield to bombard your enemies for 25 sec.\nThe Gargoyle gains 1% increased damage for every 1 Runic Power you spend and always critically strikes.",
       "pvp_tooltip": "Army of the Dead now summons a Gargoyle into the battlefield to bombard your enemies for 25 sec.\nThe Gargoyle gains 1% increased damage for every 1 Runic Power you spend and always critically strikes.",
@@ -5428,8 +5644,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5464,7 +5680,10 @@
         "talent_name": "Unholy Devotion",
         "spell_id": 1241858,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_03"
+        "icon": "ability_creature_cursed_03",
+        "icon_candidates": [
+          "ability_creature_cursed_03"
+        ]
       },
       "pve_tooltip": "Putrefy causes your permanent Ghoul to go on an unholy frenzy, increasing its attack speed and energy regeneration by 25% for 12 sec.\nMultiple applications may overlap.",
       "pvp_tooltip": "Putrefy causes your permanent Ghoul to go on an unholy frenzy, increasing its attack speed and energy regeneration by 25% for 12 sec.\nMultiple applications may overlap.",
@@ -5488,8 +5707,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5522,7 +5741,10 @@
         "talent_name": "All Will Serve",
         "spell_id": 194916,
         "visible_spell_id": null,
-        "icon": "ability_fiegndead"
+        "icon": "ability_fiegndead",
+        "icon_candidates": [
+          "ability_fiegndead"
+        ]
       },
       "pve_tooltip": "Raise Dead summons an additional skeletal archer at your command that shoots Blighted Arrows.\nBlighted Arrow\nAn unholy arrow that deals (34% of Attack Power) Shadow damage. When consuming Sudden Doom, your Death Coil commands your archer to fire an additional Blighted Arrow at 80% effectiveness. Epidemic will instead cause Blighted Arrow to ricochet and hit up to 5 additional targets.",
       "pvp_tooltip": "Raise Dead summons an additional skeletal archer at your command that shoots Blighted Arrows.\nBlighted Arrow\nAn unholy arrow that deals (34% of Attack Power) Shadow damage. When consuming Sudden Doom, your Death Coil commands your archer to fire an additional Blighted Arrow at 80% effectiveness. Epidemic will instead cause Blighted Arrow to ricochet and hit up to 5 additional targets.",
@@ -5546,8 +5768,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5582,7 +5804,10 @@
         "talent_name": "Blightburst",
         "spell_id": 1254552,
         "visible_spell_id": null,
-        "icon": "spell_shadow_unstableaffliction_3_purple"
+        "icon": "spell_shadow_unstableaffliction_3_purple",
+        "icon_candidates": [
+          "spell_shadow_unstableaffliction_3_purple"
+        ]
       },
       "pve_tooltip": "The explosion effect of Putrefy extends the duration of your plagues by 3.0 sec and deals 35% of the damage they would deal over that time instantly.\nPutrefy now applies your plagues to unaffected targets.",
       "pvp_tooltip": "The explosion effect of Putrefy extends the duration of your plagues by 3.0 sec and deals 35% of the damage they would deal over that time instantly.\nPutrefy now applies your plagues to unaffected targets.",
@@ -5606,8 +5831,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5642,7 +5867,10 @@
         "talent_name": "Putrid Echoes",
         "spell_id": 377580,
         "visible_spell_id": null,
-        "icon": "inv12_ability_deathknight_dreadplague"
+        "icon": "inv12_ability_deathknight_dreadplague",
+        "icon_candidates": [
+          "inv12_ability_deathknight_dreadplague"
+        ]
       },
       "pve_tooltip": "Putrefy deals 20% increased damage, has 2 additional charges and consumes up to 2 available charges.",
       "pvp_tooltip": "Putrefy deals 20% increased damage, has 2 additional charges and consumes up to 2 available charges.",
@@ -5666,8 +5894,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5702,7 +5930,10 @@
         "talent_name": "Doomed Bidding",
         "spell_id": 455386,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_shatteringbone"
+        "icon": "ability_deathknight_shatteringbone",
+        "icon_candidates": [
+          "ability_deathknight_shatteringbone"
+        ]
       },
       "pve_tooltip": "Consuming Sudden Doom summons forth a Lesser Ghoul to assist you for 8 sec.",
       "pvp_tooltip": "Consuming Sudden Doom summons forth a Lesser Ghoul to assist you for 8 sec.",
@@ -5726,8 +5957,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5759,22 +5990,61 @@
         "talent_name": "Scourging",
         "spell_id": 1242604,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_deathstrike"
+        "icon": "spell_deathknight_deathstrike",
+        "icon_candidates": [
+          "spell_deathknight_deathstrike"
+        ]
       },
-      "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 77% effectiveness.\nClawing Shadows can now stack 2 additional times.",
-      "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 77% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+      "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 100% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+      "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 100% effectiveness.\nClawing Shadows can now stack 2 additional times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 65.0,
+          "new": 35.00003,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1242604,
+          "source_spell_id": 1242604,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #2's Value (12)",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.538462,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.538462,
+          "final_pvp_value": 16.15386,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
-          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
+          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 65% effectiveness.\nClawing Shadows can now stack 1 additional times.",
+          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 65% effectiveness.\nClawing Shadows can now stack 1 additional times.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -5782,8 +6052,8 @@
         },
         {
           "rank": 2,
-          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 77% effectiveness.\nClawing Shadows can now stack 2 additional times.",
-          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 77% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 100% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 100% effectiveness.\nClawing Shadows can now stack 2 additional times.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -5802,8 +6072,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5836,7 +6106,10 @@
         "talent_name": "Ancient Power",
         "spell_id": 377590,
         "visible_spell_id": null,
-        "icon": "inv_relics_runestone"
+        "icon": "inv_relics_runestone",
+        "icon_candidates": [
+          "inv_relics_runestone"
+        ]
       },
       "pve_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
       "pvp_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
@@ -5879,8 +6152,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5913,7 +6186,10 @@
         "talent_name": "Unholy Aura",
         "spell_id": 377440,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_decomposingaura"
+        "icon": "ability_deathknight_decomposingaura",
+        "icon_candidates": [
+          "ability_deathknight_decomposingaura"
+        ]
       },
       "pve_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
       "pvp_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
@@ -5956,8 +6232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5989,7 +6265,10 @@
         "talent_name": "Commander of the Dead",
         "spell_id": 390259,
         "visible_spell_id": null,
-        "icon": "spell_shadow_fumble"
+        "icon": "spell_shadow_fumble",
+        "icon_candidates": [
+          "spell_shadow_fumble"
+        ]
       },
       "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
       "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
@@ -6032,8 +6311,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6063,9 +6342,12 @@
         "talent_name": "Blightfall",
         "spell_id": 1271974,
         "visible_spell_id": null,
-        "icon": "inv_nullstone_shadow"
+        "icon": "inv_nullstone_shadow",
+        "icon_candidates": [
+          "inv_nullstone_shadow"
+        ]
       },
-      "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
+      "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 200% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
       "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 50% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
@@ -6073,7 +6355,7 @@
         {
           "start": 109,
           "end": 112,
-          "old_token": "100",
+          "old_token": "200",
           "new_token": "50",
           "kind": "ordinary_value",
           "effect_indexes": [
@@ -6088,7 +6370,7 @@
           ],
           "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": "100",
+          "old": "200",
           "new": "50"
         }
       ],
@@ -6101,11 +6383,11 @@
           "source_spell_id": 1271974,
           "effect_index": 2,
           "effect_text": "Apply Aura: Dummy",
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.5,
+          "base_value": 200.0,
+          "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
+          "final_pvp_multiplier": 0.25,
           "final_pvp_value": 50.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -6113,9 +6395,29 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc_generated",
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1271974,
+              "talent_name": "Blightfall",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.5,
+              "effect_text": "Apply Aura (6) | Dummy (4)",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1285178,
+              "current_build": "12.1.0.69933",
+              "effect_index": 2,
+              "current_multiplier": 0.25,
+              "current_effect_text": "Apply Aura (6) | Dummy (4)",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         }
       ],
@@ -6133,8 +6435,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6165,7 +6467,10 @@
         "talent_name": "Lord of the Dead",
         "spell_id": 1256813,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_thenecroticwake_nalthor"
+        "icon": "achievement_dungeon_thenecroticwake_nalthor",
+        "icon_candidates": [
+          "achievement_dungeon_thenecroticwake_nalthor"
+        ]
       },
       "pve_tooltip": "Putrefying a Lesser Ghoul has a 100% chance to reanimate it as a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.\nWhen you control 3 Magus of the Dead, sacrifice them to summon their Lord of the Dead for 15 sec, casting Frostbolts that chain between 2 enemies. Magus with higher remaining duration grant increased power.",
       "pvp_tooltip": "Putrefying a Lesser Ghoul has a 100% chance to reanimate it as a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.\nWhen you control 3 Magus of the Dead, sacrifice them to summon their Lord of the Dead for 15 sec, casting Frostbolts that chain between 2 enemies. Magus with higher remaining duration grant increased power.",
@@ -6189,8 +6494,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6220,7 +6525,10 @@
         "talent_name": "Outnumber",
         "spell_id": 1241705,
         "visible_spell_id": null,
-        "icon": "spell_shadow_darksummoning"
+        "icon": "spell_shadow_darksummoning",
+        "icon_candidates": [
+          "spell_shadow_darksummoning"
+        ]
       },
       "pve_tooltip": "Each Lesser Ghoul increases the damage of your permanent Ghoul by 10%, and Dark Transformation additionally empowers the Claw attacks of your Lesser Ghouls to Sweeping Claws.\nSweeping Claws\nRakes an enemy with deformed claws, dealing [(Attack Power * 0.2484) * (1 + Versatility) * 2 * 1.144] Shadow damage to the target and [(Attack Power * 0.17155125) * (1 + Versatility) * 2 * 1.144] Shadow damage to nearby enemies.",
       "pvp_tooltip": "Each Lesser Ghoul increases the damage of your permanent Ghoul by 10%, and Dark Transformation additionally empowers the Claw attacks of your Lesser Ghouls to Sweeping Claws.\nSweeping Claws\nRakes an enemy with deformed claws, dealing [(Attack Power * 0.2484) * (1 + Versatility) * 2 * 1.144] Shadow damage to the target and [(Attack Power * 0.17155125) * (1 + Versatility) * 2 * 1.144] Shadow damage to nearby enemies.",
@@ -6244,8 +6552,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6273,7 +6581,10 @@
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1242158,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_deathknight_forbiddenknowledge"
+        "icon": "inv12_apextalent_deathknight_forbiddenknowledge",
+        "icon_candidates": [
+          "inv12_apextalent_deathknight_forbiddenknowledge"
+        ]
       },
       "pve_tooltip": "Army of the Dead siphons the power of the fallen, transforming Death Coil and Epidemic into Necrotic Coil and Graveyard for 30 sec.\nNecrotic Coil\nUnleash a vortex of necrotic energy and bone, dealing (205.335% of Attack Power) Shadowstrike damage up to 3 foes and (64.584% of Attack Power) Shadow damage to all pierced enemies.\nGraveyard\nThe dead erupt beneath all foes with Virulent Plague, dealing (111.983% of Attack Power) Shadow damage and (52.6989% of Attack Power) Shadow damage to enemies nearby.",
       "pvp_tooltip": "Army of the Dead siphons the power of the fallen, transforming Death Coil and Epidemic into Necrotic Coil and Graveyard for 30 sec.\nNecrotic Coil\nUnleash a vortex of necrotic energy and bone, dealing (205.335% of Attack Power) Shadowstrike damage up to 3 foes and (64.584% of Attack Power) Shadow damage to all pierced enemies.\nGraveyard\nThe dead erupt beneath all foes with Virulent Plague, dealing (111.983% of Attack Power) Shadow damage and (52.6989% of Attack Power) Shadow damage to enemies nearby.",
@@ -6476,8 +6787,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6505,7 +6816,10 @@
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1256565,
         "visible_spell_id": null,
-        "icon": "spell_shadow_fingerofdeath"
+        "icon": "spell_shadow_fingerofdeath",
+        "icon_candidates": [
+          "spell_shadow_fingerofdeath"
+        ]
       },
       "pve_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
       "pvp_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
@@ -6548,8 +6862,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6577,7 +6891,10 @@
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1256566,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_deathknight_forbiddenknowledge"
+        "icon": "inv12_apextalent_deathknight_forbiddenknowledge",
+        "icon_candidates": [
+          "inv12_apextalent_deathknight_forbiddenknowledge"
+        ]
       },
       "pve_tooltip": "Dread Plague has a 20% chance to rouse the dead, causing a Lesser Ghoul to unearth and leap at the target to Putrefy at 100% effectiveness.",
       "pvp_tooltip": "Dread Plague has a 20% chance to rouse the dead, causing a Lesser Ghoul to unearth and leap at the target to Putrefy at 100% effectiveness.",
@@ -6601,8 +6918,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6635,7 +6952,10 @@
         "talent_name": "Vampiric Strike",
         "spell_id": 433901,
         "visible_spell_id": null,
-        "icon": "inv_ability_sanlayndeathknight_vampiricstrike"
+        "icon": "inv_ability_sanlayndeathknight_vampiricstrike",
+        "icon_candidates": [
+          "inv_ability_sanlayndeathknight_vampiricstrike"
+        ]
       },
       "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next become Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
       "pvp_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next become Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
@@ -6653,10 +6973,10 @@
           "effect_index": 1,
           "effect_text": "School Damage (Shadow) (AP mod: 1.69884 )",
           "base_value": null,
-          "spell_pvp_multiplier": 1.352,
+          "spell_pvp_multiplier": 2.704,
           "amount_kind": "direct",
           "aura_factor": 1.02,
-          "final_pvp_multiplier": 1.37904,
+          "final_pvp_multiplier": 2.75808,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6681,9 +7001,41 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 433895,
+              "talent_name": "Vampiric Strike",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.35,
+              "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1123513,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 433901,
+              "source_spell_id": 433895,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                433901,
+                434422,
+                433895
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "spelldesc_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 2.704,
+              "current_effect_text": "School Damage (2): shadow",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -6743,8 +7095,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6776,7 +7128,10 @@
         "talent_name": "Newly Turned",
         "spell_id": 433934,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_hemorrhagicfever"
+        "icon": "ability_deathknight_hemorrhagicfever",
+        "icon_candidates": [
+          "ability_deathknight_hemorrhagicfever"
+        ]
       },
       "pve_tooltip": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to 20% of your maximum health.",
       "pvp_tooltip": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to 20% of your maximum health.",
@@ -6800,8 +7155,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6833,7 +7188,10 @@
         "talent_name": "Vampiric Speed",
         "spell_id": 434028,
         "visible_spell_id": null,
-        "icon": "inv_boots_cloth_34v2"
+        "icon": "inv_boots_cloth_34v2",
+        "icon_candidates": [
+          "inv_boots_cloth_34v2"
+        ]
       },
       "pve_tooltip": "Death's Advance and Wraith Walk movement speed bonuses are increased by 10%.\nActivating Death's Advance or Wraith Walk increases 4 nearby allies movement speed by 20% for 5 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Death's Advance and Wraith Walk movement speed bonuses are increased by 10%.\nActivating Death's Advance or Wraith Walk increases 4 nearby allies movement speed by 20% for 5 sec.\n(100ms cooldown)",
@@ -6857,8 +7215,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6890,7 +7248,10 @@
         "talent_name": "Blood-Soaked Ground",
         "spell_id": 434033,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_corruptedblood"
+        "icon": "ability_ironmaidens_corruptedblood",
+        "icon_candidates": [
+          "ability_ironmaidens_corruptedblood"
+        ]
       },
       "pve_tooltip": "While you are within your Death and Decay, your physical damage taken is reduced by 8% and your chance to gain Vampiric Strike is increased by 5%.",
       "pvp_tooltip": "While you are within your Death and Decay, your physical damage taken is reduced by 8% and your chance to gain Vampiric Strike is increased by 5%.",
@@ -6914,8 +7275,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6947,7 +7308,10 @@
         "talent_name": "Desecrate",
         "spell_id": 1234559,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye_nightmare"
+        "icon": "sha_ability_rogue_bloodyeye_nightmare",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye_nightmare"
+        ]
       },
       "pve_tooltip": "Death and Decay deals its damage 100% faster.",
       "pvp_tooltip": "Death and Decay deals its damage 100% faster.",
@@ -6971,8 +7335,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7004,7 +7368,10 @@
         "talent_name": "Vampiric Aura",
         "spell_id": 434100,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vendetta"
+        "icon": "ability_rogue_vendetta",
+        "icon_candidates": [
+          "ability_rogue_vendetta"
+        ]
       },
       "pve_tooltip": "Your Leech is increased by 2%.\nWhile Lichborne is active, the Leech bonus of this effect is increased by 100%, and it affects 4 allies within 12 yds.",
       "pvp_tooltip": "Your Leech is increased by 2%.\nWhile Lichborne is active, the Leech bonus of this effect is increased by 100%, and it affects 4 allies within 12 yds.",
@@ -7028,8 +7395,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7061,7 +7428,10 @@
         "talent_name": "Bloody Fortitude",
         "spell_id": 434136,
         "visible_spell_id": null,
-        "icon": "ability_warrior_intensifyrage"
+        "icon": "ability_warrior_intensifyrage",
+        "icon_candidates": [
+          "ability_warrior_intensifyrage"
+        ]
       },
       "pve_tooltip": "Icebound Fortitude reduces all damage you take by up to an additional 20% based on your missing health.\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by 3 sec.",
       "pvp_tooltip": "Icebound Fortitude reduces all damage you take by up to an additional 20% based on your missing health.\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by 3 sec.",
@@ -7085,8 +7455,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7118,10 +7488,13 @@
         "talent_name": "Thrill of Blood",
         "spell_id": 1265547,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_bloodthirst"
+        "icon": "spell_nzinsanity_bloodthirst",
+        "icon_candidates": [
+          "spell_nzinsanity_bloodthirst"
+        ]
       },
-      "pve_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 0.2% per stack.\nDread Plague deals 10% and Virulent Plague deals 10% increased damage.",
-      "pvp_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 0.2% per stack.\nDread Plague deals 10% and Virulent Plague deals 10% increased damage.",
+      "pve_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 0.2% per stack.\nDread Plague deals 20% and Virulent Plague deals 10% increased damage.",
+      "pvp_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 0.2% per stack.\nDread Plague deals 20% and Virulent Plague deals 10% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7142,8 +7515,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7175,10 +7548,13 @@
         "talent_name": "Infliction of Sorrow",
         "spell_id": 434143,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodbath"
+        "icon": "ability_warrior_bloodbath",
+        "icon_candidates": [
+          "ability_warrior_bloodbath"
+        ]
       },
-      "pve_tooltip": "When Vampiric Strike damages an enemy affected by your plagues, it extends the duration of the plagues by 3.0 sec, and erupts them with 30% increased effectiveness.",
-      "pvp_tooltip": "When Vampiric Strike damages an enemy affected by your plagues, it extends the duration of the plagues by 3.0 sec, and erupts them with 30% increased effectiveness.",
+      "pve_tooltip": "When Vampiric Strike damages an enemy affected by your plagues, it extends the duration of the plagues by 3.0 sec, and erupts them with 75% increased effectiveness.",
+      "pvp_tooltip": "When Vampiric Strike damages an enemy affected by your plagues, it extends the duration of the plagues by 3.0 sec, and erupts them with 75% increased effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7199,8 +7575,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7232,10 +7608,13 @@
         "talent_name": "Frenzied Bloodthirst",
         "spell_id": 434075,
         "visible_spell_id": null,
-        "icon": "inv_sulfurelemental_blood"
+        "icon": "inv_sulfurelemental_blood",
+        "icon_candidates": [
+          "inv_sulfurelemental_blood"
+        ]
       },
-      "pve_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 3%, and Epidemic by 5% per stack.",
-      "pvp_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 3%, and Epidemic by 5% per stack.",
+      "pve_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 5%, and Epidemic by 5% per stack.",
+      "pvp_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 5%, and Epidemic by 5% per stack.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7256,8 +7635,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7289,7 +7668,10 @@
         "talent_name": "The Blood is Life",
         "spell_id": 434260,
         "visible_spell_id": null,
-        "icon": "achievement_nazmir_boss_bloodofghuun"
+        "icon": "achievement_nazmir_boss_bloodofghuun",
+        "icon_candidates": [
+          "achievement_nazmir_boss_bloodofghuun"
+        ]
       },
       "pve_tooltip": "summons a Blood Beast to attack your enemy for 10 sec.\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 15% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "summons a Blood Beast to attack your enemy for 10 sec.\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 15% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.",
@@ -7313,8 +7695,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7346,7 +7728,10 @@
         "talent_name": "Visceral Strength",
         "spell_id": 434157,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart"
+        "icon": "inv_ragnaros_heart",
+        "icon_candidates": [
+          "inv_ragnaros_heart"
+        ]
       },
       "pve_tooltip": "When Sudden Doom is consumed, you gain 4% Strength for 5 sec.",
       "pvp_tooltip": "When Sudden Doom is consumed, you gain 4% Strength for 5 sec.",
@@ -7370,8 +7755,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7403,17 +7788,66 @@
         "talent_name": "Inevitable",
         "spell_id": 1280658,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonsoul"
+        "icon": "spell_warlock_demonsoul",
+        "icon_candidates": [
+          "spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Your plagues deal up to 30% increased damage based on the target's missing health.\nVampiric Strike grants maximum stacks of Clawing Shadows.",
-      "pvp_tooltip": "Your plagues deal up to 30% increased damage based on the target's missing health.\nVampiric Strike grants maximum stacks of Clawing Shadows.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Your plagues deal up to 60% increased damage based on the target's missing health.\nVampiric Strike grants maximum stacks of Clawing Shadows.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 24,
+          "end": 26,
+          "old_token": "30",
+          "new_token": "60",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "30",
+          "new": "60"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1280658,
+          "source_spell_id": 1280658,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 60.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7427,8 +7861,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7460,7 +7894,10 @@
         "talent_name": "Incite Terror",
         "spell_id": 434151,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improveddemonictactics"
+        "icon": "ability_warlock_improveddemonictactics",
+        "icon_candidates": [
+          "ability_warlock_improveddemonictactics"
+        ]
       },
       "pve_tooltip": "Vampiric Strike and cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
       "pvp_tooltip": "Vampiric Strike and cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
@@ -7484,8 +7921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7517,7 +7954,10 @@
         "talent_name": "Pact of the San'layn",
         "spell_id": 434261,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodnova"
+        "icon": "ability_warrior_bloodnova",
+        "icon_candidates": [
+          "ability_warrior_bloodnova"
+        ]
       },
       "pve_tooltip": "You store 10% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
       "pvp_tooltip": "You store 10% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
@@ -7541,8 +7981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7574,7 +8014,10 @@
         "talent_name": "Sanguine Scent",
         "spell_id": 434263,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_roilingblood"
+        "icon": "ability_deathknight_roilingblood",
+        "icon_candidates": [
+          "ability_deathknight_roilingblood"
+        ]
       },
       "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 15% increased chance to trigger Vampiric Strike when damaging enemies below 35% health.",
       "pvp_tooltip": "Your Death Coil, Epidemic and Death Strike have a 15% increased chance to trigger Vampiric Strike when damaging enemies below 35% health.",
@@ -7598,8 +8041,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7631,25 +8074,17 @@
         "talent_name": "Transfusion",
         "spell_id": 1265574,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Vampiric Strike increases the damage of your Lesser Ghouls by 10% for 8 sec.",
       "pvp_tooltip": "Vampiric Strike increases the damage of your Lesser Ghouls by 10% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 20.0,
-          "new": 6.800000000000001,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7807,7 +8242,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -7821,8 +8256,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7855,7 +8290,10 @@
         "talent_name": "Gift of the San'layn",
         "spell_id": 434152,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_bloodtap"
+        "icon": "spell_deathknight_bloodtap",
+        "icon_candidates": [
+          "spell_deathknight_bloodtap"
+        ]
       },
       "pve_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your for the duration.",
       "pvp_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your for the duration.",
@@ -7879,8 +8317,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7913,7 +8351,10 @@
         "talent_name": "Rider's Champion",
         "spell_id": 444005,
         "visible_spell_id": null,
-        "icon": "achievement_zone_icecrown_01"
+        "icon": "achievement_zone_icecrown_01",
+        "icon_candidates": [
+          "achievement_zone_icecrown_01"
+        ]
       },
       "pve_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 40% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
       "pvp_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (7.0026% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 20% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
@@ -8093,8 +8534,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8126,7 +8567,10 @@
         "talent_name": "On a Paler Horse",
         "spell_id": 444008,
         "visible_spell_id": null,
-        "icon": "inv_skeletalwarhorse_01_purple"
+        "icon": "inv_skeletalwarhorse_01_purple",
+        "icon_candidates": [
+          "inv_skeletalwarhorse_01_purple"
+        ]
       },
       "pve_tooltip": "While outdoors you are able to mount your Acherus Deathcharger in combat.",
       "pvp_tooltip": "While outdoors you are able to mount your Acherus Deathcharger in combat.",
@@ -8150,8 +8594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8183,7 +8627,10 @@
         "talent_name": "Death Charge",
         "spell_id": 444010,
         "visible_spell_id": null,
-        "icon": "ability_mount_steelwarhorse"
+        "icon": "ability_mount_steelwarhorse",
+        "icon_candidates": [
+          "ability_mount_steelwarhorse"
+        ]
       },
       "pve_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 100%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
       "pvp_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 80%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
@@ -8259,8 +8706,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8292,7 +8739,10 @@
         "talent_name": "Mograine's Might",
         "spell_id": 444047,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improvedsoulleech"
+        "icon": "ability_warlock_improvedsoulleech",
+        "icon_candidates": [
+          "ability_warlock_improvedsoulleech"
+        ]
       },
       "pve_tooltip": "Your damage is increased by 5% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay.",
       "pvp_tooltip": "Your damage is increased by 5% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay.",
@@ -8316,8 +8766,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8349,7 +8799,10 @@
         "talent_name": "Horsemen's Aid",
         "spell_id": 444074,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_nexusraid_10man"
+        "icon": "achievement_dungeon_nexusraid_10man",
+        "icon_candidates": [
+          "achievement_dungeon_nexusraid_10man"
+        ]
       },
       "pve_tooltip": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at 80% effectiveness.\nYou may only benefit from this effect every 45 sec.",
       "pvp_tooltip": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at 80% effectiveness.\nYou may only benefit from this effect every 45 sec.",
@@ -8403,8 +8856,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8436,7 +8889,10 @@
         "talent_name": "Pact of the Apocalypse",
         "spell_id": 444083,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_nexus80_25man"
+        "icon": "achievement_dungeon_nexus80_25man",
+        "icon_candidates": [
+          "achievement_dungeon_nexus80_25man"
+        ]
       },
       "pve_tooltip": "When you take damage, 5% of the damage is redirected to each active horsemen.",
       "pvp_tooltip": "When you take damage, 5% of the damage is redirected to each active horsemen.",
@@ -8460,8 +8916,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8493,7 +8949,10 @@
         "talent_name": "Ride or Die!",
         "spell_id": 1265959,
         "visible_spell_id": null,
-        "icon": "achievement_boss_fourhorsemen"
+        "icon": "achievement_boss_fourhorsemen",
+        "icon_candidates": [
+          "achievement_boss_fourhorsemen"
+        ]
       },
       "pve_tooltip": "Dark Transformation summons forth Whitemane for 6 sec.",
       "pvp_tooltip": "Dark Transformation summons forth Whitemane for 3.96 sec.",
@@ -8589,8 +9048,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8622,7 +9081,10 @@
         "talent_name": "Whitemane's Famine",
         "spell_id": 444033,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_necroticplague"
+        "icon": "spell_deathknight_necroticplague",
+        "icon_candidates": [
+          "spell_deathknight_necroticplague"
+        ]
       },
       "pve_tooltip": "When damages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
       "pvp_tooltip": "When damages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
@@ -8646,8 +9108,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8679,7 +9141,10 @@
         "talent_name": "Nazgrim's Conquest",
         "spell_id": 444052,
         "visible_spell_id": null,
-        "icon": "ability_maldraxxus_warriorplantbanner"
+        "icon": "ability_maldraxxus_warriorplantbanner",
+        "icon_candidates": [
+          "ability_maldraxxus_warriorplantbanner"
+        ]
       },
       "pve_tooltip": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by 3%.\nAdditionally, each Rune you spend increase its value by 1%.",
       "pvp_tooltip": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by 3%.\nAdditionally, each Rune you spend increase its value by 1%.",
@@ -8703,8 +9168,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8736,7 +9201,10 @@
         "talent_name": "Trollbane's Icy Fury",
         "spell_id": 444097,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shatteringthrow"
+        "icon": "ability_warrior_shatteringthrow",
+        "icon_candidates": [
+          "ability_warrior_shatteringthrow"
+        ]
       },
       "pve_tooltip": "shatters Trollbane's Chains of Ice when hit, dealing (105.3% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 40% for 4 sec. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "shatters Trollbane's Chains of Ice when hit, dealing (142.85% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 20% for 4 sec. Deals reduced damage beyond 8 targets.",
@@ -8878,8 +9346,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8911,7 +9379,10 @@
         "talent_name": "Let Terror Reign",
         "spell_id": 1265949,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_plaguestrike"
+        "icon": "spell_deathknight_plaguestrike",
+        "icon_candidates": [
+          "spell_deathknight_plaguestrike"
+        ]
       },
       "pve_tooltip": "Casting Death Coil or Epidemic orders Whitemane to cast her Death Coil or Epidemic alongside you at 125% effectiveness.",
       "pvp_tooltip": "Casting Death Coil or Epidemic orders Whitemane to cast her Death Coil or Epidemic alongside you at 41.25% effectiveness.",
@@ -8935,7 +9406,7 @@
             1
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": 100.0,
           "new": 33.0,
           "full_tooltip_match_count": 1
@@ -9015,8 +9486,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9048,7 +9519,10 @@
         "talent_name": "Hungering Thirst",
         "spell_id": 444037,
         "visible_spell_id": null,
-        "icon": "spell_shadow_fumble"
+        "icon": "spell_shadow_fumble",
+        "icon_candidates": [
+          "spell_shadow_fumble"
+        ]
       },
       "pve_tooltip": "The damage of your diseases and Death Coil are increased by 5%.",
       "pvp_tooltip": "The damage of your diseases and Death Coil are increased by 5%.",
@@ -9072,8 +9546,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9105,7 +9579,10 @@
         "talent_name": "Fury of the Horsemen",
         "spell_id": 444069,
         "visible_spell_id": null,
-        "icon": "inv_plate_raiddeathknightmythic_o_01helm"
+        "icon": "inv_plate_raiddeathknightmythic_o_01helm",
+        "icon_candidates": [
+          "inv_plate_raiddeathknightmythic_o_01helm"
+        ]
       },
       "pve_tooltip": "Every 50 Runic Power you spend extends the duration of the Horsemen's aid in combat by 1 sec, up to 5 sec.",
       "pvp_tooltip": "Every 50 Runic Power you spend extends the duration of the Horsemen's aid in combat by 1 sec, up to 5 sec.",
@@ -9129,8 +9606,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9162,7 +9639,10 @@
         "talent_name": "A Feast of Souls",
         "spell_id": 444072,
         "visible_spell_id": null,
-        "icon": "inv_misc_supersoulash"
+        "icon": "inv_misc_supersoulash",
+        "icon_candidates": [
+          "inv_misc_supersoulash"
+        ]
       },
       "pve_tooltip": "While you have 2 or more Horsemen aiding you, your Death Coil deals 20% and Epidemic deals 20% increased damage.",
       "pvp_tooltip": "While you have 2 or more Horsemen aiding you, your Death Coil deals 20% and Epidemic deals 20% increased damage.",
@@ -9186,8 +9666,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9219,7 +9699,10 @@
         "talent_name": "Mawsworn Menace",
         "spell_id": 444099,
         "visible_spell_id": null,
-        "icon": "inv_mawguardpet_black"
+        "icon": "inv_mawguardpet_black",
+        "icon_candidates": [
+          "inv_mawguardpet_black"
+        ]
       },
       "pve_tooltip": "% increased damage and the cooldown of your Death and Decay is reduced by 5 sec.",
       "pvp_tooltip": "% increased damage and the cooldown of your Death and Decay is reduced by 5 sec.",
@@ -9243,8 +9726,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9276,7 +9759,10 @@
         "talent_name": "Unholy Armaments",
         "spell_id": 1265971,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_necroticstrike"
+        "icon": "ability_deathknight_necroticstrike",
+        "icon_candidates": [
+          "ability_deathknight_necroticstrike"
+        ]
       },
       "pve_tooltip": "The abilities that Horsemen cast deal 5% increased damage.\nYour Ghoul and skeletal archer deals 10% and Lesser Ghouls deal 20% increased damage.",
       "pvp_tooltip": "The abilities that Horsemen cast deal 5% increased damage.\nYour Ghoul and skeletal archer deals 10% and Lesser Ghouls deal 20% increased damage.",
@@ -9300,8 +9786,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9334,7 +9820,10 @@
         "talent_name": "Apocalypse Now",
         "spell_id": 444040,
         "visible_spell_id": null,
-        "icon": "inv_ability_rideroftheapocalypsedeathknight_apocalypsenow"
+        "icon": "inv_ability_rideroftheapocalypsedeathknight_apocalypsenow",
+        "icon_candidates": [
+          "inv_ability_rideroftheapocalypsedeathknight_apocalypsenow"
+        ]
       },
       "pve_tooltip": "Army of the Dead and Frostwyrm's Fury call upon all 4 Horsemen to aid you for 20 sec.\n(1s cooldown)",
       "pvp_tooltip": "Army of the Dead and Frostwyrm's Fury call upon all 4 Horsemen to aid you for 20 sec.\n(1s cooldown)",
@@ -9623,13 +10112,63 @@
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "spell_id": 1271974,
+      "talent_name": "Blightfall",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.5,
+      "effect_text": "Apply Aura (6) | Dummy (4)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1285178,
+      "current_build": "12.1.0.69933",
+      "effect_index": 2,
+      "current_multiplier": 0.25,
+      "current_effect_text": "Apply Aura (6) | Dummy (4)",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 433895,
+      "talent_name": "Vampiric Strike",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.35,
+      "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1123513,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 433901,
+      "source_spell_id": 433895,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        433901,
+        434422,
+        433895
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "spelldesc_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 2.704,
+      "current_effect_text": "School Damage (2): shadow",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    }
+  ],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-22T19:24:47.794205+00:00",
+  "generated_at": "2026-09-24T11:38:56.026092+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 18,
-    "talents_with_pvp_mechanics": 27,
+    "changed_tooltips": 19,
+    "talents_with_pvp_mechanics": 29,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -9638,11 +10177,61 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "spell_id": 1271974,
+        "talent_name": "Blightfall",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.5,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1285178,
+        "current_build": "12.1.0.69933",
+        "effect_index": 2,
+        "current_multiplier": 0.25,
+        "current_effect_text": "Apply Aura (6) | Dummy (4)",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 433895,
+        "talent_name": "Vampiric Strike",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.35,
+        "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1123513,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 433901,
+        "source_spell_id": 433895,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          433901,
+          434422,
+          433895
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "spelldesc_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 2.704,
+        "current_effect_text": "School Damage (2): shadow",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -50,7 +50,10 @@
         "talent_name": "Berserker Stance",
         "spell_id": 386196,
         "visible_spell_id": null,
-        "icon": "ability_racial_avatar"
+        "icon": "ability_racial_avatar",
+        "icon_candidates": [
+          "ability_racial_avatar"
+        ]
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15% and reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
       "pvp_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15% and reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
@@ -74,8 +77,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -106,7 +109,10 @@
         "talent_name": "Defensive Stance",
         "spell_id": 386208,
         "visible_spell_id": null,
-        "icon": "ability_warrior_defensivestance"
+        "icon": "ability_warrior_defensivestance",
+        "icon_candidates": [
+          "ability_warrior_defensivestance"
+        ]
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 10%.\nLasts until canceled.",
       "pvp_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 15%.\nLasts until canceled.",
@@ -177,8 +183,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -211,7 +217,10 @@
         "talent_name": "Fast Footwork",
         "spell_id": 382260,
         "visible_spell_id": null,
-        "icon": "ability_hunter_posthaste"
+        "icon": "ability_hunter_posthaste",
+        "icon_candidates": [
+          "ability_hunter_posthaste"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 5%.",
       "pvp_tooltip": "Movement speed increased by 5%.",
@@ -235,8 +244,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -270,7 +279,10 @@
         "talent_name": "War Machine",
         "spell_id": 262231,
         "visible_spell_id": null,
-        "icon": "ability_hunter_rapidkilling"
+        "icon": "ability_hunter_rapidkilling",
+        "icon_candidates": [
+          "ability_hunter_rapidkilling"
+        ]
       },
       "pve_tooltip": "Your auto-attacks generate 50% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
       "pvp_tooltip": "Your auto-attacks generate 50% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
@@ -294,8 +306,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -329,7 +341,10 @@
         "talent_name": "Thunder Clap",
         "spell_id": 6343,
         "visible_spell_id": null,
-        "icon": "spell_nature_thunderclap"
+        "icon": "spell_nature_thunderclap",
+        "icon_candidates": [
+          "spell_nature_thunderclap"
+        ]
       },
       "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
       "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
@@ -353,8 +368,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -387,7 +402,10 @@
         "talent_name": "Leeching Strikes",
         "spell_id": 382258,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Leech increased by 3%.",
       "pvp_tooltip": "Leech increased by 3%.",
@@ -411,8 +429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -447,7 +465,10 @@
         "talent_name": "Impending Victory",
         "spell_id": 202168,
         "visible_spell_id": null,
-        "icon": "spell_impending_victory"
+        "icon": "spell_impending_victory",
+        "icon_candidates": [
+          "spell_impending_victory"
+        ]
       },
       "pve_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
       "pvp_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
@@ -523,8 +544,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -559,7 +580,10 @@
         "talent_name": "Heroic Leap",
         "spell_id": 6544,
         "visible_spell_id": null,
-        "icon": "ability_heroicleap"
+        "icon": "ability_heroicleap",
+        "icon_candidates": [
+          "ability_heroicleap"
+        ]
       },
       "pve_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
       "pvp_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
@@ -583,8 +607,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -614,7 +638,10 @@
         "talent_name": "Crackling Thunder",
         "spell_id": 203201,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_overcharge"
+        "icon": "ability_thunderking_overcharge",
+        "icon_candidates": [
+          "ability_thunderking_overcharge"
+        ]
       },
       "pve_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
       "pvp_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
@@ -638,8 +665,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -673,7 +700,10 @@
         "talent_name": "Storm Bolt",
         "spell_id": 107570,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_stormbolt"
+        "icon": "warrior_talent_icon_stormbolt",
+        "icon_candidates": [
+          "warrior_talent_icon_stormbolt"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
       "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
@@ -697,8 +727,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -732,7 +762,10 @@
         "talent_name": "Storm of Blood",
         "spell_id": 1299025,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_whirlofblood"
+        "icon": "ability_ironmaidens_whirlofblood",
+        "icon_candidates": [
+          "ability_ironmaidens_whirlofblood"
+        ]
       },
       "pve_tooltip": "Whirlwind affects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
       "pvp_tooltip": "Whirlwind affects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
@@ -819,8 +852,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -850,7 +883,10 @@
         "talent_name": "Second Wind",
         "spell_id": 29838,
         "visible_spell_id": null,
-        "icon": "ability_hunter_harass"
+        "icon": "ability_hunter_harass",
+        "icon_candidates": [
+          "ability_hunter_harass"
+        ]
       },
       "pve_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
       "pvp_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
@@ -874,8 +910,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -911,7 +947,10 @@
         "talent_name": "Frothing Berserker",
         "spell_id": 392792,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_furyintheblood"
+        "icon": "warrior_talent_icon_furyintheblood",
+        "icon_candidates": [
+          "warrior_talent_icon_furyintheblood"
+        ]
       },
       "pve_tooltip": "Rampage has a 20% chance to immediately refund 10% of the Rage spent.",
       "pvp_tooltip": "Rampage has a 20% chance to immediately refund 10% of the Rage spent.",
@@ -935,8 +974,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -966,7 +1005,10 @@
         "talent_name": "Bounding Stride",
         "spell_id": 202163,
         "visible_spell_id": null,
-        "icon": "ability_heroicleap"
+        "icon": "ability_heroicleap",
+        "icon_candidates": [
+          "ability_heroicleap"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
       "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
@@ -1111,8 +1153,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1147,7 +1189,10 @@
         "talent_name": "Pain and Gain",
         "spell_id": 382549,
         "visible_spell_id": null,
-        "icon": "spell_holy_painsupression"
+        "icon": "spell_holy_painsupression",
+        "icon_candidates": [
+          "spell_holy_painsupression"
+        ]
       },
       "pve_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
       "pvp_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
@@ -1171,8 +1216,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1206,7 +1251,10 @@
         "talent_name": "Intervene",
         "spell_id": 3411,
         "visible_spell_id": null,
-        "icon": "ability_warrior_victoryrush"
+        "icon": "ability_warrior_victoryrush",
+        "icon_candidates": [
+          "ability_warrior_victoryrush"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
       "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
@@ -1230,8 +1278,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1265,7 +1313,10 @@
         "talent_name": "Interpose",
         "spell_id": 1244088,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
       "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
@@ -1289,8 +1340,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1325,7 +1376,10 @@
         "talent_name": "Shockwave",
         "spell_id": 46968,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shockwave"
+        "icon": "ability_warrior_shockwave",
+        "icon_candidates": [
+          "ability_warrior_shockwave"
+        ]
       },
       "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
       "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
@@ -1349,8 +1403,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1380,7 +1434,10 @@
         "talent_name": "Overwhelming Rage",
         "spell_id": 382767,
         "visible_spell_id": null,
-        "icon": "racial_orc_berserkerstrength"
+        "icon": "racial_orc_berserkerstrength",
+        "icon_candidates": [
+          "racial_orc_berserkerstrength"
+        ]
       },
       "pve_tooltip": "Maximum Rage increased by 30.",
       "pvp_tooltip": "Maximum Rage increased by 30.",
@@ -1404,8 +1461,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1439,7 +1496,10 @@
         "talent_name": "Rallying Cry",
         "spell_id": 97462,
         "visible_spell_id": null,
-        "icon": "ability_warrior_rallyingcry"
+        "icon": "ability_warrior_rallyingcry",
+        "icon_candidates": [
+          "ability_warrior_rallyingcry"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 10% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
       "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 20% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
@@ -1510,8 +1570,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1541,7 +1601,10 @@
         "talent_name": "Field Dressing",
         "spell_id": 1271926,
         "visible_spell_id": null,
-        "icon": "inv_misc_bandage_08"
+        "icon": "inv_misc_bandage_08",
+        "icon_candidates": [
+          "inv_misc_bandage_08"
+        ]
       },
       "pve_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
       "pvp_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
@@ -1565,8 +1628,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1600,7 +1663,10 @@
         "talent_name": "Spell Reflection",
         "spell_id": 23920,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shieldreflection"
+        "icon": "ability_warrior_shieldreflection",
+        "icon_candidates": [
+          "ability_warrior_shieldreflection"
+        ]
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
       "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
@@ -1624,8 +1690,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1658,7 +1724,10 @@
         "talent_name": "Wrecking Throw",
         "spell_id": 384110,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_mastercleaver"
+        "icon": "warrior_talent_icon_mastercleaver",
+        "icon_candidates": [
+          "warrior_talent_icon_mastercleaver"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "pvp_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
@@ -1734,8 +1803,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1768,7 +1837,10 @@
         "talent_name": "Shattering Throw",
         "spell_id": 64382,
         "visible_spell_id": null,
-        "icon": "ability_warrior_shatteringthrow"
+        "icon": "ability_warrior_shatteringthrow",
+        "icon_candidates": [
+          "ability_warrior_shatteringthrow"
+        ]
       },
       "pve_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "pvp_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
@@ -1844,8 +1916,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1875,7 +1947,10 @@
         "talent_name": "Rumbling Earth",
         "spell_id": 275339,
         "visible_spell_id": null,
-        "icon": "spell_shaman_earthquake"
+        "icon": "spell_shaman_earthquake",
+        "icon_candidates": [
+          "spell_shaman_earthquake"
+        ]
       },
       "pve_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
@@ -1899,8 +1974,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1934,7 +2009,10 @@
         "talent_name": "Berserker Shout",
         "spell_id": 384100,
         "visible_spell_id": null,
-        "icon": "spell_nature_ancestralguardian"
+        "icon": "spell_nature_ancestralguardian",
+        "icon_candidates": [
+          "spell_nature_ancestralguardian"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
       "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
@@ -1958,8 +2036,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1993,7 +2071,10 @@
         "talent_name": "Fearless",
         "spell_id": 1271925,
         "visible_spell_id": null,
-        "icon": "ability_warrior_endlessrage"
+        "icon": "ability_warrior_endlessrage",
+        "icon_candidates": [
+          "ability_warrior_endlessrage"
+        ]
       },
       "pve_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
       "pvp_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
@@ -2017,8 +2098,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2052,7 +2133,10 @@
         "talent_name": "Intimidating Shout",
         "spell_id": 5246,
         "visible_spell_id": null,
-        "icon": "ability_golemthunderclap"
+        "icon": "ability_golemthunderclap",
+        "icon_candidates": [
+          "ability_golemthunderclap"
+        ]
       },
       "pve_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
       "pvp_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
@@ -2076,8 +2160,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2111,7 +2195,10 @@
         "talent_name": "Piercing Howl",
         "spell_id": 12323,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathscream"
+        "icon": "spell_shadow_deathscream",
+        "icon_candidates": [
+          "spell_shadow_deathscream"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 70% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 50% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
@@ -2182,8 +2269,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2216,7 +2303,10 @@
         "talent_name": "Honed Reflexes",
         "spell_id": 391271,
         "visible_spell_id": null,
-        "icon": "spell_holy_borrowedtime"
+        "icon": "spell_holy_borrowedtime",
+        "icon_candidates": [
+          "spell_holy_borrowedtime"
+        ]
       },
       "pve_tooltip": "Cooldown of Enraged Regeneration, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
       "pvp_tooltip": "Cooldown of Enraged Regeneration, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
@@ -2240,8 +2330,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2275,7 +2365,10 @@
         "talent_name": "Armored to the Teeth",
         "spell_id": 384124,
         "visible_spell_id": null,
-        "icon": "inv_shoulder_22"
+        "icon": "inv_shoulder_22",
+        "icon_candidates": [
+          "inv_shoulder_22"
+        ]
       },
       "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
       "pvp_tooltip": "Gain Strength equal to 10% of your Armor.",
@@ -2318,8 +2411,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2353,7 +2446,10 @@
         "talent_name": "Double Time",
         "spell_id": 103827,
         "visible_spell_id": null,
-        "icon": "inv_misc_horn_04"
+        "icon": "inv_misc_horn_04",
+        "icon_candidates": [
+          "inv_misc_horn_04"
+        ]
       },
       "pve_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
       "pvp_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 2.4 sec.",
@@ -2424,8 +2520,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2459,7 +2555,10 @@
         "talent_name": "Reinforced Plates",
         "spell_id": 382939,
         "visible_spell_id": null,
-        "icon": "inv_chest_plate04"
+        "icon": "inv_chest_plate04",
+        "icon_candidates": [
+          "inv_chest_plate04"
+        ]
       },
       "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
       "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
@@ -2502,8 +2601,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2535,7 +2634,10 @@
         "talent_name": "Barbaric Training",
         "spell_id": 383082,
         "visible_spell_id": null,
-        "icon": "ability_garrosh_whirling_corruption"
+        "icon": "ability_garrosh_whirling_corruption",
+        "icon_candidates": [
+          "ability_garrosh_whirling_corruption"
+        ]
       },
       "pve_tooltip": "Thunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nWhirlwind and Raging Blow deal 10% more damage and 5% increased critical strike damage.",
       "pvp_tooltip": "Thunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nWhirlwind and Raging Blow deal 10% more damage and 5% increased critical strike damage.",
@@ -2559,8 +2661,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2594,7 +2696,11 @@
         "talent_name": "Javelineer",
         "spell_id": 1271948,
         "visible_spell_id": null,
-        "icon": "8026700"
+        "icon": "inv121_ability_warrior_javelineer",
+        "icon_candidates": [
+          "inv121_ability_warrior_javelineer",
+          "8026700"
+        ]
       },
       "pve_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
       "pvp_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
@@ -2618,8 +2724,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2653,7 +2759,10 @@
         "talent_name": "Resonant Voice",
         "spell_id": 1243660,
         "visible_spell_id": null,
-        "icon": "warrior_disruptingshout"
+        "icon": "warrior_disruptingshout",
+        "icon_candidates": [
+          "warrior_disruptingshout"
+        ]
       },
       "pve_tooltip": "The effects of your shouts last 20% longer.",
       "pvp_tooltip": "The effects of your shouts last 20% longer.",
@@ -2677,8 +2786,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2710,7 +2819,10 @@
         "talent_name": "Crushing Force",
         "spell_id": 382764,
         "visible_spell_id": null,
-        "icon": "spell_shadow_unholystrength"
+        "icon": "spell_shadow_unholystrength",
+        "icon_candidates": [
+          "spell_shadow_unholystrength"
+        ]
       },
       "pve_tooltip": "Bloodthirst deals an additional 5% damage and deals 5% increased critical strike damage.",
       "pvp_tooltip": "Bloodthirst deals an additional 5% damage and deals 5% increased critical strike damage.",
@@ -2734,8 +2846,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2769,7 +2881,10 @@
         "talent_name": "Cruel Strikes",
         "spell_id": 392777,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
       "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
@@ -2812,8 +2927,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2847,7 +2962,10 @@
         "talent_name": "Dual Wield Specialization",
         "spell_id": 382900,
         "visible_spell_id": null,
-        "icon": "ability_dualwield"
+        "icon": "ability_dualwield",
+        "icon_candidates": [
+          "ability_dualwield"
+        ]
       },
       "pve_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
       "pvp_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
@@ -2890,8 +3008,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2925,7 +3043,10 @@
         "talent_name": "Wild Strikes",
         "spell_id": 382946,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
       "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
@@ -2968,8 +3089,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2999,7 +3120,10 @@
         "talent_name": "Anger Management",
         "spell_id": 152278,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_angermanagement"
+        "icon": "warrior_talent_icon_angermanagement",
+        "icon_candidates": [
+          "warrior_talent_icon_angermanagement"
+        ]
       },
       "pve_tooltip": "Every 20 Rage you spend on attacks reduces the remaining cooldown on Avatar and Recklessness by 1 sec.",
       "pvp_tooltip": "Every 10 Rage you spend on attacks reduces the remaining cooldown on Avatar and Recklessness by 1 sec.",
@@ -3070,8 +3194,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3102,7 +3226,10 @@
         "talent_name": "Champion's Spear",
         "spell_id": 376079,
         "visible_spell_id": null,
-        "icon": "inv_ability_warrior_championsspear"
+        "icon": "inv_ability_warrior_championsspear",
+        "icon_candidates": [
+          "inv_ability_warrior_championsspear"
+        ]
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
       "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
@@ -3126,8 +3253,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3158,7 +3285,10 @@
         "talent_name": "Stance Mastery",
         "spell_id": 1280961,
         "visible_spell_id": null,
-        "icon": "crest_warrior"
+        "icon": "crest_warrior",
+        "icon_candidates": [
+          "crest_warrior"
+        ]
       },
       "pve_tooltip": "Your stances have additional effects.\nBerserker Stance\nIncreases your auto-attack speed by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
       "pvp_tooltip": "Your stances have additional effects.\nBerserker Stance\nIncreases your auto-attack speed by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
@@ -3241,8 +3371,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3272,7 +3402,10 @@
         "talent_name": "Battlefield Commander",
         "spell_id": 424742,
         "visible_spell_id": null,
-        "icon": "ability_warrior_commandingshout"
+        "icon": "ability_warrior_commandingshout",
+        "icon_candidates": [
+          "ability_warrior_commandingshout"
+        ]
       },
       "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
       "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
@@ -3296,8 +3429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3327,7 +3460,10 @@
         "talent_name": "Bloodthirst",
         "spell_id": 23881,
         "visible_spell_id": null,
-        "icon": "spell_nature_bloodlust"
+        "icon": "spell_nature_bloodlust",
+        "icon_candidates": [
+          "spell_nature_bloodlust"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 3% of your health.\nGenerates (80 / Recklessness: 120 / Seethe: 100 / 10) Rage and has a 30% chance to Enrage you.",
       "pvp_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 2% of your health.\nGenerates (80 / Recklessness: 120 / Seethe: 100 / 10) Rage and has a 30% chance to Enrage you.",
@@ -3403,8 +3539,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3438,10 +3574,13 @@
         "talent_name": "Raging Blow",
         "spell_id": 85288,
         "visible_spell_id": null,
-        "icon": "warrior_wild_strike"
+        "icon": "warrior_wild_strike",
+        "icon_candidates": [
+          "warrior_wild_strike"
+        ]
       },
-      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
-      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
+      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of (206.998% of Attack Power) + (206.998% of Attack Power) Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
+      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of (206.998% of Attack Power) + (206.998% of Attack Power) Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3462,8 +3601,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3496,7 +3635,10 @@
         "talent_name": "Sudden Death",
         "spell_id": 29725,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
       "pvp_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
@@ -3520,8 +3662,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3554,7 +3696,10 @@
         "talent_name": "Frenzied Enrage",
         "spell_id": 383848,
         "visible_spell_id": null,
-        "icon": "spell_shadow_unholyfrenzy"
+        "icon": "spell_shadow_unholyfrenzy",
+        "icon_candidates": [
+          "spell_shadow_unholyfrenzy"
+        ]
       },
       "pve_tooltip": "Enrage increases your haste by 15% and your movement speed by 10%.",
       "pvp_tooltip": "Enrage increases your haste by 15% and your movement speed by 10%.",
@@ -3626,8 +3771,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3660,7 +3805,10 @@
         "talent_name": "Powerful Enrage",
         "spell_id": 440277,
         "visible_spell_id": null,
-        "icon": "ability_warrior_strengthofarms"
+        "icon": "ability_warrior_strengthofarms",
+        "icon_candidates": [
+          "ability_warrior_strengthofarms"
+        ]
       },
       "pve_tooltip": "Enrage increases your mastery by 15% and your Leech by 3%.",
       "pvp_tooltip": "Enrage increases your mastery by 15% and your Leech by 2%.",
@@ -3742,8 +3890,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3776,7 +3924,10 @@
         "talent_name": "Improved Execute",
         "spell_id": 316402,
         "visible_spell_id": null,
-        "icon": "inv_sword_48"
+        "icon": "inv_sword_48",
+        "icon_candidates": [
+          "inv_sword_48"
+        ]
       },
       "pve_tooltip": "Execute no longer costs Rage and now generates 20 Rage.",
       "pvp_tooltip": "Execute no longer costs Rage and now generates 20 Rage.",
@@ -3800,8 +3951,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3834,7 +3985,10 @@
         "talent_name": "Focus in Chaos",
         "spell_id": 383486,
         "visible_spell_id": null,
-        "icon": "ability_hunter_mastermarksman"
+        "icon": "ability_hunter_mastermarksman",
+        "icon_candidates": [
+          "ability_hunter_mastermarksman"
+        ]
       },
       "pve_tooltip": "While Enraged, your auto-attacks can no longer miss.",
       "pvp_tooltip": "While Enraged, your auto-attacks can no longer miss.",
@@ -3858,8 +4012,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3894,7 +4048,10 @@
         "talent_name": "Enraged Regeneration",
         "spell_id": 184364,
         "visible_spell_id": null,
-        "icon": "ability_warrior_focusedrage"
+        "icon": "ability_warrior_focusedrage",
+        "icon_candidates": [
+          "ability_warrior_focusedrage"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for 8 sec. Usable while stunned or incapacitated.",
       "pvp_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for 8 sec. Usable while stunned or incapacitated.",
@@ -3918,8 +4075,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3953,7 +4110,10 @@
         "talent_name": "Warpaint",
         "spell_id": 208154,
         "visible_spell_id": null,
-        "icon": "ability_rogue_preparation"
+        "icon": "ability_rogue_preparation",
+        "icon_candidates": [
+          "ability_rogue_preparation"
+        ]
       },
       "pve_tooltip": "You take 10% reduced damage while Enrage is active.",
       "pvp_tooltip": "You take 5% reduced damage while Enrage is active.",
@@ -4024,8 +4184,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4058,7 +4218,10 @@
         "talent_name": "Improved Whirlwind",
         "spell_id": 12950,
         "visible_spell_id": null,
-        "icon": "ability_whirlwind"
+        "icon": "ability_whirlwind",
+        "icon_candidates": [
+          "ability_whirlwind"
+        ]
       },
       "pve_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap cause / causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
       "pvp_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap cause / causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
@@ -4082,8 +4245,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4115,7 +4278,10 @@
         "talent_name": "Massacre",
         "spell_id": 206315,
         "visible_spell_id": null,
-        "icon": "inv_axe_2h_orcwarrior_c_01"
+        "icon": "inv_axe_2h_orcwarrior_c_01",
+        "icon_candidates": [
+          "inv_axe_2h_orcwarrior_c_01"
+        ]
       },
       "pve_tooltip": "Execute is usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
       "pvp_tooltip": "Execute is usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
@@ -4139,8 +4305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4174,7 +4340,10 @@
         "talent_name": "Fresh Meat",
         "spell_id": 215568,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_death"
+        "icon": "ability_deathwing_bloodcorruption_death",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_death"
+        ]
       },
       "pve_tooltip": "Bloodthirst always Enrages you the first time you strike a target and it has a 15% increased chance to trigger Enrage.",
       "pvp_tooltip": "Bloodthirst always Enrages you the first time you strike a target and it has a 15% increased chance to trigger Enrage.",
@@ -4198,8 +4367,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4229,7 +4398,10 @@
         "talent_name": "Invigorating Fury",
         "spell_id": 383468,
         "visible_spell_id": null,
-        "icon": "spell_misc_emotionangry"
+        "icon": "spell_misc_emotionangry",
+        "icon_candidates": [
+          "spell_misc_emotionangry"
+        ]
       },
       "pve_tooltip": "Enraged Regeneration lasts 3 sec longer and instantly heals for 10% of your maximum health.",
       "pvp_tooltip": "Enraged Regeneration lasts 3 sec longer and instantly heals for 10% of your maximum health.",
@@ -4253,8 +4425,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4289,16 +4461,19 @@
         "talent_name": "Rampage",
         "spell_id": 184367,
         "visible_spell_id": null,
-        "icon": "ability_warrior_rampage"
+        "icon": "ability_warrior_rampage",
+        "icon_candidates": [
+          "ability_warrior_rampage"
+        ]
       },
-      "pve_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(258.9079% of Attack Power) + (151.0301% of Attack Power) + (345.2139% of Attack Power) + (194.1825% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of (203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power) Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of (258.9079% of Attack Power) + (151.0301% of Attack Power) + (345.2139% of Attack Power) + (194.1825% of Attack Power) Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 82,
-          "end": 89,
+          "start": 81,
+          "end": 88,
           "old_token": "203.065",
           "new_token": "258.9079",
           "kind": "attack_power_coefficient",
@@ -4307,8 +4482,8 @@
           ]
         },
         {
-          "start": 111,
-          "end": 118,
+          "start": 110,
+          "end": 117,
           "old_token": "118.455",
           "new_token": "151.0301",
           "kind": "attack_power_coefficient",
@@ -4317,8 +4492,8 @@
           ]
         },
         {
-          "start": 169,
-          "end": 174,
+          "start": 168,
+          "end": 173,
           "old_token": "152.3",
           "new_token": "194.1825",
           "kind": "attack_power_coefficient",
@@ -4327,8 +4502,8 @@
           ]
         },
         {
-          "start": 140,
-          "end": 147,
+          "start": 139,
+          "end": 146,
           "old_token": "270.756",
           "new_token": "345.2139",
           "kind": "attack_power_coefficient",
@@ -4337,8 +4512,8 @@
           ]
         },
         {
-          "start": 290,
-          "end": 297,
+          "start": 288,
+          "end": 295,
           "old_token": "372.289",
           "new_token": "474.6685",
           "kind": "attack_power_coefficient",
@@ -4522,7 +4697,7 @@
           "talent_spell_id": 184367,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
+          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4539,8 +4714,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4560,8 +4736,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4595,7 +4771,10 @@
         "talent_name": "Improved Raging Blow",
         "spell_id": 383854,
         "visible_spell_id": null,
-        "icon": "warrior_wild_strike"
+        "icon": "warrior_wild_strike",
+        "icon_candidates": [
+          "warrior_wild_strike"
+        ]
       },
       "pve_tooltip": "Raging Blow has 2 charges and has a 25% chance to instantly reset its own cooldown.",
       "pvp_tooltip": "Raging Blow has 2 charges and has a 25% chance to instantly reset its own cooldown.",
@@ -4619,8 +4798,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4652,7 +4831,10 @@
         "talent_name": "Rampaging Ruin",
         "spell_id": 1265357,
         "visible_spell_id": null,
-        "icon": "ability_warrior_trauma"
+        "icon": "ability_warrior_trauma",
+        "icon_candidates": [
+          "ability_warrior_trauma"
+        ]
       },
       "pve_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
       "pvp_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
@@ -4729,7 +4911,7 @@
           "talent_spell_id": 1265357,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
+          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4746,8 +4928,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4903,8 +5086,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4935,7 +5118,10 @@
         "talent_name": "Deep Wounds",
         "spell_id": 1261060,
         "visible_spell_id": null,
-        "icon": "ability_backstab"
+        "icon": "ability_backstab",
+        "icon_candidates": [
+          "ability_backstab"
+        ]
       },
       "pve_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "pvp_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
@@ -4990,8 +5176,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5024,7 +5210,10 @@
         "talent_name": "Spite",
         "spell_id": 383852,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_furyintheblood"
+        "icon": "warrior_talent_icon_furyintheblood",
+        "icon_candidates": [
+          "warrior_talent_icon_furyintheblood"
+        ]
       },
       "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
       "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
@@ -5067,8 +5256,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5101,7 +5290,10 @@
         "talent_name": "Scent of Blood",
         "spell_id": 1265355,
         "visible_spell_id": null,
-        "icon": "ability_hunter_harass"
+        "icon": "ability_hunter_harass",
+        "icon_candidates": [
+          "ability_hunter_harass"
+        ]
       },
       "pve_tooltip": "Rampage increases the damage of your next Bloodthirst by 10%, stacking up to 2 times.\n(500ms cooldown)",
       "pvp_tooltip": "Rampage increases the damage of your next Bloodthirst by 10%, stacking up to 2 times.\n(500ms cooldown)",
@@ -5125,8 +5317,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5158,7 +5350,10 @@
         "talent_name": "Kill or Be Killed",
         "spell_id": 1265361,
         "visible_spell_id": null,
-        "icon": "inv12_ability_warrior_fury"
+        "icon": "inv12_ability_warrior_fury",
+        "icon_candidates": [
+          "inv12_ability_warrior_fury"
+        ]
       },
       "pve_tooltip": "When you would sustain fatal damage, you instead fly into an unstoppable rage, becoming unkillable and immune to movement-impairing effects for 8 sec as you seek revenge on your would-be killer.\nIf you kill your killer in that time, you emerge from your blind rage triumphant, with at least 20% of your max health intact. If you are not victorious, you die.\nThis effect can only occur once every 5 min and if your killer is alive when you sustain fatal damage.",
       "pvp_tooltip": "When you would sustain fatal damage, you instead fly into an unstoppable rage, becoming unkillable and immune to movement-impairing effects for 8 sec as you seek revenge on your would-be killer.\nIf you kill your killer in that time, you emerge from your blind rage triumphant, with at least 20% of your max health intact. If you are not victorious, you die.\nThis effect can only occur once every 5 min and if your killer is alive when you sustain fatal damage.",
@@ -5182,8 +5377,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5216,7 +5411,10 @@
         "talent_name": "Hack and Slash",
         "spell_id": 383877,
         "visible_spell_id": null,
-        "icon": "ability_rogue_rollthebones02"
+        "icon": "ability_rogue_rollthebones02",
+        "icon_candidates": [
+          "ability_rogue_rollthebones02"
+        ]
       },
       "pve_tooltip": "Rampage has a 75% chance to refund a charge of Raging Blow and increase the damage of your next Raging Blow by 20%.\n(Proc chance: 75%, 500ms cooldown)",
       "pvp_tooltip": "Rampage has a 75% chance to refund a charge of Raging Blow and increase the damage of your next Raging Blow by 20%.\n(Proc chance: 75%, 500ms cooldown)",
@@ -5240,8 +5438,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5274,7 +5472,10 @@
         "talent_name": "Cruelty",
         "spell_id": 392931,
         "visible_spell_id": null,
-        "icon": "spell_nature_focusedmind"
+        "icon": "spell_nature_focusedmind",
+        "icon_candidates": [
+          "spell_nature_focusedmind"
+        ]
       },
       "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
       "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
@@ -5317,8 +5518,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5349,7 +5550,10 @@
         "talent_name": "Meat Cleaver",
         "spell_id": 280392,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_mastercleaver"
+        "icon": "warrior_talent_icon_mastercleaver",
+        "icon_candidates": [
+          "warrior_talent_icon_mastercleaver"
+        ]
       },
       "pve_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap deal / deals] 50% additional damage when [Crashing Thunder: they hit / it hits] 3 or more targets.",
       "pvp_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap deal / deals] 50% additional damage when [Crashing Thunder: they hit / it hits] 3 or more targets.",
@@ -5373,8 +5577,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5405,7 +5609,10 @@
         "talent_name": "Carving Blades",
         "spell_id": 1300463,
         "visible_spell_id": null,
-        "icon": "inv_knife_1h_goblinrogue_c_01"
+        "icon": "inv_knife_1h_goblinrogue_c_01",
+        "icon_candidates": [
+          "inv_knife_1h_goblinrogue_c_01"
+        ]
       },
       "pve_tooltip": "Whirlwind deals 50% additional damage when it hits only a single target.",
       "pvp_tooltip": "Whirlwind deals 50% additional damage when it hits only a single target.",
@@ -5429,8 +5636,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5462,7 +5669,10 @@
         "talent_name": "Cold Steel, Hot Blood",
         "spell_id": 383959,
         "visible_spell_id": null,
-        "icon": "ability_rogue_hungerforblood"
+        "icon": "ability_rogue_hungerforblood",
+        "icon_candidates": [
+          "ability_rogue_hungerforblood"
+        ]
       },
       "pve_tooltip": "Bloodthirst critical strikes generate 4 additional Rage and inflict a Gushing Wound that deals 9 Bleed damage over 6 sec and heals you for the damage dealt.\n(500ms cooldown)",
       "pvp_tooltip": "Bloodthirst critical strikes generate 4 additional Rage and inflict a Gushing Wound that deals 9 Bleed damage over 6 sec and heals you for the damage dealt.\n(500ms cooldown)",
@@ -5486,8 +5696,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5521,7 +5731,10 @@
         "talent_name": "Ragedrinker",
         "spell_id": 1265356,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_bloodthirst"
+        "icon": "spell_nzinsanity_bloodthirst",
+        "icon_candidates": [
+          "spell_nzinsanity_bloodthirst"
+        ]
       },
       "pve_tooltip": "Bloodthirst critical strikes restore 3% additional health and increase the damage of Raging Blow by 10% for 4 sec.\n(500ms cooldown)",
       "pvp_tooltip": "Bloodthirst critical strikes restore 2% additional health and increase the damage of Raging Blow by 10% for 4 sec.\n(500ms cooldown)",
@@ -5558,7 +5771,7 @@
           "talent_spell_id": 1265356,
           "source_spell_id": 1283442,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -5575,8 +5788,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5596,8 +5810,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5631,7 +5845,10 @@
         "talent_name": "Recklessness",
         "spell_id": 1719,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_innerrage"
+        "icon": "warrior_talent_icon_innerrage",
+        "icon_candidates": [
+          "warrior_talent_icon_innerrage"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nGo berserk, increasing all Rage generation by 50% and granting your abilities 20% increased critical strike chance for 12 sec.\nGenerates 0 Rage.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nGo berserk, increasing all Rage generation by 50% and granting your abilities 20% increased critical strike chance for 12 sec.\nGenerates 0 Rage.",
@@ -5655,8 +5872,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5690,7 +5907,10 @@
         "talent_name": "Bloodcraze",
         "spell_id": 393950,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_02"
+        "icon": "ability_creature_cursed_02",
+        "icon_candidates": [
+          "ability_creature_cursed_02"
+        ]
       },
       "pve_tooltip": "Raging Blow increases the damage of your next Bloodthirst by 5%, stacking up to 5 times.",
       "pvp_tooltip": "Raging Blow increases the damage of your next Bloodthirst by 5%, stacking up to 5 times.",
@@ -5714,8 +5934,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5747,7 +5967,10 @@
         "talent_name": "Wrath and Fury",
         "spell_id": 392936,
         "visible_spell_id": null,
-        "icon": "inv_sword_2h_artifactarathor_d_03"
+        "icon": "inv_sword_2h_artifactarathor_d_03",
+        "icon_candidates": [
+          "inv_sword_2h_artifactarathor_d_03"
+        ]
       },
       "pve_tooltip": "Raging Blow deals 15% increased damage and while Enraged, Raging Blow has a 10% increased chance to instantly reset its own cooldown.",
       "pvp_tooltip": "Raging Blow deals 15% increased damage and while Enraged, Raging Blow has a 10% increased chance to instantly reset its own cooldown.",
@@ -5771,8 +5994,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5806,7 +6029,10 @@
         "talent_name": "Deft Experience",
         "spell_id": 383295,
         "visible_spell_id": null,
-        "icon": "inv_misc_book_07"
+        "icon": "inv_misc_book_07",
+        "icon_candidates": [
+          "inv_misc_book_07"
+        ]
       },
       "pve_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
       "pvp_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
@@ -5849,8 +6075,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5885,7 +6111,10 @@
         "talent_name": "Frenzy",
         "spell_id": 335077,
         "visible_spell_id": null,
-        "icon": "ability_rogue_bloodyeye"
+        "icon": "ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Rampage increases your haste by 2% for 12 sec. Multiple instances of this effect may overlap.\n(500ms cooldown)",
       "pvp_tooltip": "Rampage increases your haste by 2% for 12 sec. Multiple instances of this effect may overlap.\n(500ms cooldown)",
@@ -5909,8 +6138,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5944,7 +6173,10 @@
         "talent_name": "Critical Thinking",
         "spell_id": 383297,
         "visible_spell_id": null,
-        "icon": "ability_criticalstrike"
+        "icon": "ability_criticalstrike",
+        "icon_candidates": [
+          "ability_criticalstrike"
+        ]
       },
       "pve_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
       "pvp_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
@@ -5987,8 +6219,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6020,7 +6252,10 @@
         "talent_name": "Vicious Contempt",
         "spell_id": 383885,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_sorkasprey"
+        "icon": "ability_ironmaidens_sorkasprey",
+        "icon_candidates": [
+          "ability_ironmaidens_sorkasprey"
+        ]
       },
       "pve_tooltip": "Bloodthirst deals 25% increased damage to enemies who are below 35% health.",
       "pvp_tooltip": "Bloodthirst deals 25% increased damage to enemies who are below 35% health.",
@@ -6044,8 +6279,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6079,7 +6314,10 @@
         "talent_name": "Odyn's Fury",
         "spell_id": 385059,
         "visible_spell_id": null,
-        "icon": "inv_sword_1h_artifactvigfus_d_01"
+        "icon": "inv_sword_1h_artifactvigfus_d_01",
+        "icon_candidates": [
+          "inv_sword_1h_artifactvigfus_d_01"
+        ]
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nUnleashes your power, dealing [(182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)%] Physical damage and an additional (520% of Attack Power) Bleed damage over 4 sec to all enemies within 12 yards. Deals reduced damage beyond 8 targets.\nEnrages you and generates 20 Rage.",
       "pvp_tooltip": "Instant\n45 sec cooldown\nUnleashes your power, dealing [(182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)%] Physical damage and an additional (520% of Attack Power) Bleed damage over 4 sec to all enemies within 12 yards. Deals reduced damage beyond 8 targets.\nEnrages you and generates 20 Rage.",
@@ -6224,8 +6462,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6259,7 +6497,10 @@
         "talent_name": "Bloodborne",
         "spell_id": 385703,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Bloodthirst causes your Bleeds to deal 20% additional damage for 8 sec.",
       "pvp_tooltip": "Bloodthirst causes your Bleeds to deal 20% additional damage for 8 sec.",
@@ -6283,8 +6524,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6316,7 +6557,10 @@
         "talent_name": "Surge of Adrenaline",
         "spell_id": 1265359,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fasterreflexes"
+        "icon": "inv_1115_warrior_fasterreflexes",
+        "icon_candidates": [
+          "inv_1115_warrior_fasterreflexes"
+        ]
       },
       "pve_tooltip": "When Raging Blow resets its own cooldown, your auto-attack damage and speed is increased by 30% for 6 sec.",
       "pvp_tooltip": "When Raging Blow resets its own cooldown, your auto-attack damage and speed is increased by 30% for 6 sec.",
@@ -6340,8 +6584,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6372,7 +6616,10 @@
         "talent_name": "Executioner's Wrath",
         "spell_id": 1265570,
         "visible_spell_id": null,
-        "icon": "inv_12_nonmasculinecharacter_human"
+        "icon": "inv_12_nonmasculinecharacter_human",
+        "icon_candidates": [
+          "inv_12_nonmasculinecharacter_human"
+        ]
       },
       "pve_tooltip": "Execute generates 5 additional Rage and increases the damage of Rampage by 10% for 4 sec.",
       "pvp_tooltip": "Execute generates 5 additional Rage and increases the damage of Rampage by 10% for 4 sec.",
@@ -6396,8 +6643,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6428,7 +6675,10 @@
         "talent_name": "Reckless Abandon",
         "spell_id": 396749,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "Activating Recklessness generates 50 Rage and while Recklessness is active, Raging Blow and Bloodthirst are upgraded to Crushing Blow and Bloodbath.\nCrushing Blow\nDeals increased damage and deals 20% additional critical strike damage.\nBloodbath\nDeals increased damage and wounds the target to suffer (187.26% of Attack Power) Bleed damage over 6 sec. Using Bloodbath on a target affected by Bloodbath extends the bleed by 6 sec.",
       "pvp_tooltip": "Activating Recklessness generates 50 Rage and while Recklessness is active, Raging Blow and Bloodthirst are upgraded to Crushing Blow and Bloodbath.\nCrushing Blow\nDeals increased damage and deals 20% additional critical strike damage.\nBloodbath\nDeals increased damage and wounds the target to suffer (187.26% of Attack Power) Bleed damage over 6 sec. Using Bloodbath on a target affected by Bloodbath extends the bleed by 6 sec.",
@@ -6498,8 +6748,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6530,7 +6780,10 @@
         "talent_name": "Avatar",
         "spell_id": 107574,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_avatar"
+        "icon": "warrior_talent_icon_avatar",
+        "icon_candidates": [
+          "warrior_talent_icon_avatar"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and increasing your movement speed by 5% for 20 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 15% and increasing your movement speed by 5% for 20 sec.",
@@ -6653,8 +6906,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6685,7 +6938,10 @@
         "talent_name": "Bladestorm",
         "spell_id": 227847,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bladestorm"
+        "icon": "ability_warrior_bladestorm",
+        "icon_candidates": [
+          "ability_warrior_bladestorm"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [5 * (271.635% of Attack Power)%] Physical damage over 4 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\nGenerates 5 Rage on each strike.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [5 * (271.635% of Attack Power)%] Physical damage over 4 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\nGenerates 5 Rage on each strike.",
@@ -6788,8 +7044,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6817,7 +7073,10 @@
         "talent_name": "Rampaging Berserker",
         "spell_id": 1269308,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_rampagingberserker2"
+        "icon": "inv12_apextalent_warrior_rampagingberserker2",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_rampagingberserker2"
+        ]
       },
       "pve_tooltip": "Rampage damage increased by 10% and Rampage makes you go Berserk, increasing your Strength by 3% for 8 sec. Multiple applications of Berserk may overlap.\n(500ms cooldown)",
       "pvp_tooltip": "Rampage damage increased by 10% and Rampage makes you go Berserk, increasing your Strength by 3% for 8 sec. Multiple applications of Berserk may overlap.\n(500ms cooldown)",
@@ -6841,8 +7100,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6870,7 +7129,10 @@
         "talent_name": "Rampaging Berserker",
         "spell_id": 1269309,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_rampagingberserker2"
+        "icon": "inv12_apextalent_warrior_rampagingberserker2",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_rampagingberserker2"
+        ]
       },
       "pve_tooltip": "Rampage's Rage cost is reduced by 30 and damage is increased by a further 10% during Recklessness.",
       "pvp_tooltip": "Rampage's Rage cost is reduced by 30 and damage is increased by a further 10% during Recklessness.",
@@ -6913,8 +7175,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6942,7 +7204,10 @@
         "talent_name": "Rampaging Berserker",
         "spell_id": 1269310,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warrior_rampagingberserker2"
+        "icon": "inv12_apextalent_warrior_rampagingberserker2",
+        "icon_candidates": [
+          "inv12_apextalent_warrior_rampagingberserker2"
+        ]
       },
       "pve_tooltip": "Recklessness grants 3 stacks of Berserk and duration of Recklessness increased by 50%.",
       "pvp_tooltip": "Recklessness grants 3 stacks of Berserk and duration of Recklessness increased by 50%.",
@@ -6966,8 +7231,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7000,17 +7265,71 @@
         "talent_name": "Lightning Strikes",
         "spell_id": 434969,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_electrocharge"
+        "icon": "ability_vehicle_electrocharge",
+        "icon_candidates": [
+          "ability_vehicle_electrocharge"
+        ]
       },
-      "pve_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
-      "pvp_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pve_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (232.65% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
+      "pvp_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (116.325% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 128,
+          "end": 134,
+          "old_token": "232.65",
+          "new_token": "116.325",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "232.65",
+          "new": "116.325"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 434969,
+          "source_spell_id": 435791,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 2.3265 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            434969,
+            435791
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7024,8 +7343,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7057,7 +7376,10 @@
         "talent_name": "Crashing Thunder",
         "spell_id": 436707,
         "visible_spell_id": null,
-        "icon": "spell_nature_thunderclap"
+        "icon": "spell_nature_thunderclap",
+        "icon_candidates": [
+          "spell_nature_thunderclap"
+        ]
       },
       "pve_tooltip": "Stormstrike or Nature damage your abilities deal is increased by 5%. Stormstrike damage ignores Armor.\nThunder Clap damage increased by 10%, no longer costs Rage, and now generates 8 Rage.\nImproved Whirlwind, Meat Cleaver, Storm of Blood, and Barbaric Training affect Thunder Clap in addition to Whirlwind.",
       "pvp_tooltip": "Stormstrike or Nature damage your abilities deal is increased by 5%. Stormstrike damage ignores Armor.\nThunder Clap damage increased by 10%, no longer costs Rage, and now generates 8 Rage.\nImproved Whirlwind, Meat Cleaver, Storm of Blood, and Barbaric Training affect Thunder Clap in addition to Whirlwind.",
@@ -7081,8 +7403,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7114,17 +7436,71 @@
         "talent_name": "Ground Current",
         "spell_id": 436148,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_thunderstruck"
+        "icon": "warrior_talent_icon_thunderstruck",
+        "icon_candidates": [
+          "warrior_talent_icon_thunderstruck"
+        ]
       },
-      "pve_tooltip": "Lightning Strikes also deal (111.787% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "Lightning Strikes also deal (111.787% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pve_tooltip": "Lightning Strikes also deal (167.681% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "Lightning Strikes also deal (83.8405% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 29,
+          "end": 36,
+          "old_token": "167.681",
+          "new_token": "83.8405",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "167.681",
+          "new": "83.8405"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 436148,
+          "source_spell_id": 460670,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 1.67681 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            436148,
+            460670
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7138,8 +7514,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7171,7 +7547,10 @@
         "talent_name": "Strength of the Mountain",
         "spell_id": 437068,
         "visible_spell_id": null,
-        "icon": "ability_warrior_titansgrip"
+        "icon": "ability_warrior_titansgrip",
+        "icon_candidates": [
+          "ability_warrior_titansgrip"
+        ]
       },
       "pve_tooltip": "Shield Slam damage increased by 15%.\nBloodthirst and Rampage damage increased by 25%.",
       "pvp_tooltip": "Shield Slam damage increased by 15%.\nBloodthirst and Rampage damage increased by 25%.",
@@ -7195,8 +7574,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7228,7 +7607,10 @@
         "talent_name": "Storm Surge",
         "spell_id": 275336,
         "visible_spell_id": null,
-        "icon": "ability_racial_avatar"
+        "icon": "ability_racial_avatar",
+        "icon_candidates": [
+          "ability_racial_avatar"
+        ]
       },
       "pve_tooltip": "Avatar increases the damage of Thunder Clap by 50% and reduces its cooldown by 50%.",
       "pvp_tooltip": "Avatar increases the damage of Thunder Clap by 50% and reduces its cooldown by 50%.",
@@ -7252,8 +7634,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7286,7 +7668,10 @@
         "talent_name": "Slayer's Dominance",
         "spell_id": 444767,
         "visible_spell_id": null,
-        "icon": "inv_ability_slayerwarrior_slayersdominance"
+        "icon": "inv_ability_slayerwarrior_slayersdominance",
+        "icon_candidates": [
+          "inv_ability_slayerwarrior_slayersdominance"
+        ]
       },
       "pve_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 3% for 12 sec. Multiple stacks of Executioner may overlap.",
       "pvp_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 1% for 12 sec. Multiple stacks of Executioner may overlap.",
@@ -7422,8 +7807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7455,7 +7840,10 @@
         "talent_name": "Thunder Blast",
         "spell_id": 435607,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_bloodandthunder"
+        "icon": "warrior_talent_icon_bloodandthunder",
+        "icon_candidates": [
+          "warrior_talent_icon_bloodandthunder"
+        ]
       },
       "pve_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
       "pvp_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
@@ -7479,8 +7867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7512,7 +7900,10 @@
         "talent_name": "Storm Bolts",
         "spell_id": 436162,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_stormbolt"
+        "icon": "warrior_talent_icon_stormbolt",
+        "icon_candidates": [
+          "warrior_talent_icon_stormbolt"
+        ]
       },
       "pve_tooltip": "Storm Bolt also hits 2 additional nearby targets, stunning them for 2 sec, but its cooldown is increased by 10 sec.",
       "pvp_tooltip": "Storm Bolt also hits 2 additional nearby targets, stunning them for 2 sec, but its cooldown is increased by 10 sec.",
@@ -7536,8 +7927,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7569,7 +7960,10 @@
         "talent_name": "Storm Shield",
         "spell_id": 438597,
         "visible_spell_id": null,
-        "icon": "spell_winston_bubble"
+        "icon": "spell_winston_bubble",
+        "icon_candidates": [
+          "spell_winston_bubble"
+        ]
       },
       "pve_tooltip": "Intervening a target grants them a shield for 5 sec that absorbs magic damage equal to 3 times your Armor.",
       "pvp_tooltip": "Intervening a target grants them a shield for 5 sec that absorbs magic damage equal to 3 times your Armor.",
@@ -7593,8 +7987,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7626,7 +8020,10 @@
         "talent_name": "Keep Your Feet on the Ground",
         "spell_id": 438590,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_overcharge"
+        "icon": "ability_thunderking_overcharge",
+        "icon_candidates": [
+          "ability_thunderking_overcharge"
+        ]
       },
       "pve_tooltip": "Physical damage taken reduced by 2%.\nThunder Blast reduces damage you take by 8% for 5 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Physical damage taken reduced by 2%.\nThunder Blast reduces damage you take by 8% for 5 sec.\n(100ms cooldown)",
@@ -7650,8 +8047,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7683,7 +8080,10 @@
         "talent_name": "Steadfast as the Peaks",
         "spell_id": 434970,
         "visible_spell_id": null,
-        "icon": "ability_warrior_devastate"
+        "icon": "ability_warrior_devastate",
+        "icon_candidates": [
+          "ability_warrior_devastate"
+        ]
       },
       "pve_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
       "pvp_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
@@ -7707,8 +8107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7740,7 +8140,10 @@
         "talent_name": "Conductivity",
         "spell_id": 1270723,
         "visible_spell_id": null,
-        "icon": "spell_shaman_thunderstorm"
+        "icon": "spell_shaman_thunderstorm",
+        "icon_candidates": [
+          "spell_shaman_thunderstorm"
+        ]
       },
       "pve_tooltip": "Lightning Strike damage increased by 10% and critical strike damage increased by 10%.",
       "pvp_tooltip": "Lightning Strike damage increased by 10% and critical strike damage increased by 10%.",
@@ -7764,8 +8167,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7797,7 +8200,10 @@
         "talent_name": "Imminent Demise",
         "spell_id": 444769,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
       "pvp_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
@@ -7821,8 +8227,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7854,7 +8260,10 @@
         "talent_name": "Overwhelming Blades",
         "spell_id": 444772,
         "visible_spell_id": null,
-        "icon": "inv_10_specialization_blacksmithing_blades_color1"
+        "icon": "inv_10_specialization_blacksmithing_blades_color1",
+        "icon_candidates": [
+          "inv_10_specialization_blacksmithing_blades_color1"
+        ]
       },
       "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
       "pvp_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
@@ -7878,8 +8287,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7911,7 +8320,10 @@
         "talent_name": "Relentless Pursuit",
         "spell_id": 444776,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "Charge increases your movement speed by 70% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
       "pvp_tooltip": "Charge increases your movement speed by 50.4% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
@@ -7987,8 +8399,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8020,7 +8432,10 @@
         "talent_name": "Vicious Agility",
         "spell_id": 444777,
         "visible_spell_id": null,
-        "icon": "ability_paladin_speedoflight"
+        "icon": "ability_paladin_speedoflight",
+        "icon_candidates": [
+          "ability_paladin_speedoflight"
+        ]
       },
       "pve_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
       "pvp_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
@@ -8044,8 +8459,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8077,7 +8492,10 @@
         "talent_name": "Violent Euphoria",
         "spell_id": 1270717,
         "visible_spell_id": null,
-        "icon": "ability_butcher_exsanguination"
+        "icon": "ability_butcher_exsanguination",
+        "icon_candidates": [
+          "ability_butcher_exsanguination"
+        ]
       },
       "pve_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
       "pvp_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
@@ -8101,8 +8519,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8134,7 +8552,10 @@
         "talent_name": "Flashing Skies",
         "spell_id": 437079,
         "visible_spell_id": null,
-        "icon": "spell_lightning_lightningbolt01"
+        "icon": "spell_lightning_lightningbolt01",
+        "icon_candidates": [
+          "spell_lightning_lightningbolt01"
+        ]
       },
       "pve_tooltip": "Thunder Blast calls down a Lightning Strike on an enemy it hits.",
       "pvp_tooltip": "Thunder Blast calls down a Lightning Strike on an enemy it hits.",
@@ -8158,8 +8579,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8191,7 +8612,10 @@
         "talent_name": "Snap Induction",
         "spell_id": 456270,
         "visible_spell_id": null,
-        "icon": "ability_thunderking_thunderstruck"
+        "icon": "ability_thunderking_thunderstruck",
+        "icon_candidates": [
+          "ability_thunderking_thunderstruck"
+        ]
       },
       "pve_tooltip": "Activating Recklessness grants a charge of Thunder Blast.\n(100ms cooldown)",
       "pvp_tooltip": "Activating Recklessness grants a charge of Thunder Blast.\n(100ms cooldown)",
@@ -8215,8 +8639,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8248,7 +8672,10 @@
         "talent_name": "Gathering Clouds",
         "spell_id": 436201,
         "visible_spell_id": null,
-        "icon": "spell_nature_stormreach"
+        "icon": "spell_nature_stormreach",
+        "icon_candidates": [
+          "spell_nature_stormreach"
+        ]
       },
       "pve_tooltip": "Your attacks trigger Lightning Strikes 30% more often.",
       "pvp_tooltip": "Your attacks trigger Lightning Strikes 30% more often.",
@@ -8272,8 +8699,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8305,7 +8732,10 @@
         "talent_name": "Thorim's Might",
         "spell_id": 436152,
         "visible_spell_id": null,
-        "icon": "inv_ability_mountainthanewarrior_thorimsmight"
+        "icon": "inv_ability_mountainthanewarrior_thorimsmight",
+        "icon_candidates": [
+          "inv_ability_mountainthanewarrior_thorimsmight"
+        ]
       },
       "pve_tooltip": "Lightning Strikes generate 3 Rage.\nRaging Blow and Execute damage increased by 25%.",
       "pvp_tooltip": "Lightning Strikes generate 3 Rage.\nRaging Blow and Execute damage increased by 25%.",
@@ -8329,8 +8759,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8362,7 +8792,10 @@
         "talent_name": "Burst of Power",
         "spell_id": 437118,
         "visible_spell_id": null,
-        "icon": "shaman_pvp_thundercharge"
+        "icon": "shaman_pvp_thundercharge",
+        "icon_candidates": [
+          "shaman_pvp_thundercharge"
+        ]
       },
       "pve_tooltip": "Lightning Strikes have a 15% chance to make your next 2 Bloodthirsts have no cooldown, deal 35% increased damage, and generate 2 additional Rage.",
       "pvp_tooltip": "Lightning Strikes have a 15% chance to make your next 2 Bloodthirsts have no cooldown, deal 15% increased damage, and generate 2 additional Rage.",
@@ -8438,8 +8871,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8471,7 +8904,10 @@
         "talent_name": "Capacitance",
         "spell_id": 1270724,
         "visible_spell_id": null,
-        "icon": "spell_nature_purge"
+        "icon": "spell_nature_purge",
+        "icon_candidates": [
+          "spell_nature_purge"
+        ]
       },
       "pve_tooltip": "During Avatar, Thunder Blast extends Avatar's duration by 2.0 sec.",
       "pvp_tooltip": "During Avatar, Thunder Blast extends Avatar's duration by 2.0 sec.",
@@ -8495,8 +8931,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8528,7 +8964,10 @@
         "talent_name": "Death Drive",
         "spell_id": 444770,
         "visible_spell_id": null,
-        "icon": "ability_warrior_focusedrage"
+        "icon": "ability_warrior_focusedrage",
+        "icon_candidates": [
+          "ability_warrior_focusedrage"
+        ]
       },
       "pve_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
       "pvp_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
@@ -8552,8 +8991,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8585,7 +9024,10 @@
         "talent_name": "Culling Cyclone",
         "spell_id": 444778,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bladestorm"
+        "icon": "ability_warrior_bladestorm",
+        "icon_candidates": [
+          "ability_warrior_bladestorm"
+        ]
       },
       "pve_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
       "pvp_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
@@ -8609,8 +9051,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8642,7 +9084,10 @@
         "talent_name": "Brutal Finish",
         "spell_id": 446085,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_warrior"
+        "icon": "ability_revendreth_warrior",
+        "icon_candidates": [
+          "ability_revendreth_warrior"
+        ]
       },
       "pve_tooltip": "Your next Rampage after Bladestorm ends deals 50% additional damage.",
       "pvp_tooltip": "Your next Rampage after Bladestorm ends deals 30% additional damage.",
@@ -8656,7 +9101,6 @@
           "new_token": "30",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
             2
           ]
         }
@@ -8664,7 +9108,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             2
           ],
           "status": "APPLIED",
@@ -8734,7 +9177,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8748,8 +9191,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8781,7 +9224,10 @@
         "talent_name": "Fierce Followthrough",
         "spell_id": 444773,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
       "pve_tooltip": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by 20%.",
       "pvp_tooltip": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by 20%.",
@@ -8805,8 +9251,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8838,7 +9284,10 @@
         "talent_name": "Opportunist",
         "spell_id": 444774,
         "visible_spell_id": null,
-        "icon": "ability_warrior_weaponmastery"
+        "icon": "ability_warrior_weaponmastery",
+        "icon_candidates": [
+          "ability_warrior_weaponmastery"
+        ]
       },
       "pve_tooltip": "When Raging Blow resets its own cooldown, your next Raging Blow deals 10% additional damage and 10% additional critical damage. Stacking up to 2 times.",
       "pvp_tooltip": "When Raging Blow resets its own cooldown, your next Raging Blow deals 10% additional damage and 10% additional critical damage. Stacking up to 2 times.",
@@ -8862,8 +9311,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8895,7 +9344,10 @@
         "talent_name": "Deadly Focus",
         "spell_id": 1270718,
         "visible_spell_id": null,
-        "icon": "spell_hunter_focusingshot"
+        "icon": "spell_hunter_focusingshot",
+        "icon_candidates": [
+          "spell_hunter_focusingshot"
+        ]
       },
       "pve_tooltip": "Executioner's duration is increased by 6 sec.",
       "pvp_tooltip": "Executioner's duration is increased by 6 sec.",
@@ -8919,8 +9371,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8953,7 +9405,10 @@
         "talent_name": "Avatar of the Storm",
         "spell_id": 437134,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_blackrockcaverns_ascendantlordobsidius"
+        "icon": "achievement_dungeon_blackrockcaverns_ascendantlordobsidius",
+        "icon_candidates": [
+          "achievement_dungeon_blackrockcaverns_ascendantlordobsidius"
+        ]
       },
       "pve_tooltip": "Casting Avatar grants you 2 charges of Thunder Blast and resets the cooldown of Thunder Clap.\nWhile Avatar is not active, Lightning Strikes have a 10% chance to grant you Avatar for 4 secs.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage.",
       "pvp_tooltip": "Casting Avatar grants you 2 charges of Thunder Blast and resets the cooldown of Thunder Clap.\nWhile Avatar is not active, Lightning Strikes have a 10% chance to grant you Avatar for 4 secs.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage.",
@@ -8977,8 +9432,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9010,7 +9465,10 @@
         "talent_name": "Show No Mercy",
         "spell_id": 444771,
         "visible_spell_id": null,
-        "icon": "warrior_talent_icon_lambstotheslaughter"
+        "icon": "warrior_talent_icon_lambstotheslaughter",
+        "icon_candidates": [
+          "warrior_talent_icon_lambstotheslaughter"
+        ]
       },
       "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 3% per stack.",
       "pvp_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 1% per stack.",
@@ -9146,8 +9604,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9179,7 +9637,10 @@
         "talent_name": "Reap the Storm",
         "spell_id": 444775,
         "visible_spell_id": null,
-        "icon": "ability_arakkoa_spinning_blade"
+        "icon": "ability_arakkoa_spinning_blade",
+        "icon_candidates": [
+          "ability_arakkoa_spinning_blade"
+        ]
       },
       "pve_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
       "pvp_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (474.724% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
@@ -9255,8 +9716,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9288,7 +9749,10 @@
         "talent_name": "Slayer's Malice",
         "spell_id": 444779,
         "visible_spell_id": null,
-        "icon": "ability_warrior_revenge"
+        "icon": "ability_warrior_revenge",
+        "icon_candidates": [
+          "ability_warrior_revenge"
+        ]
       },
       "pve_tooltip": "Raging Blow and Execute damage increased by 15%.",
       "pvp_tooltip": "Raging Blow and Execute damage increased by 15%.",
@@ -9312,8 +9776,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9345,7 +9809,10 @@
         "talent_name": "Unhinged",
         "spell_id": 386628,
         "visible_spell_id": null,
-        "icon": "spell_shadow_spectralsight"
+        "icon": "spell_shadow_spectralsight",
+        "icon_candidates": [
+          "spell_shadow_spectralsight"
+        ]
       },
       "pve_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing 100% of normal damage.",
       "pvp_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing 40% of normal damage.",
@@ -9416,8 +9883,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9450,7 +9917,10 @@
         "talent_name": "Unrelenting Onslaught",
         "spell_id": 444780,
         "visible_spell_id": null,
-        "icon": "ability_warrior_commandingshout"
+        "icon": "ability_warrior_commandingshout",
+        "icon_candidates": [
+          "ability_warrior_commandingshout"
+        ]
       },
       "pve_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
       "pvp_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
@@ -9744,11 +10214,11 @@
   },
   "source_warnings": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-22T19:30:06.882428+00:00",
+  "generated_at": "2026-09-24T11:54:50.393337+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 23,
-    "talents_with_pvp_mechanics": 30,
+    "changed_tooltips": 25,
+    "talents_with_pvp_mechanics": 32,
     "unique_nodes": 106,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -9757,22 +10227,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 2,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1283442,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1283442'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1299944,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1299944'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -49,7 +49,10 @@
         "talent_name": "Icebound Fortitude",
         "spell_id": 48792,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_iceboundfortitude"
+        "icon": "spell_deathknight_iceboundfortitude",
+        "icon_candidates": [
+          "spell_deathknight_iceboundfortitude"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nYour blood freezes, granting immunity to Stun effects and reducing all damage you take by 30% for 8 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nYour blood freezes, granting immunity to Stun effects and reducing all damage you take by 30% for 8 sec.",
@@ -73,8 +76,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -104,18 +107,21 @@
         "talent_name": "Death Strike",
         "spell_id": 49998,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (107.184% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (176.1% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (123.27% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 80,
-          "end": 86,
-          "old_token": "153.12",
-          "new_token": "107.184",
+          "end": 85,
+          "old_token": "176.1",
+          "new_token": "123.27",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -139,8 +145,8 @@
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "153.12",
-          "new": "107.184"
+          "old": "176.1",
+          "new": "123.27"
         }
       ],
       "has_pvp_mechanics": true,
@@ -151,7 +157,7 @@
           "talent_spell_id": 49998,
           "source_spell_id": 49998,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.5312 )",
+          "effect_text": "School Damage (Physical) (AP mod: 1.761 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -231,8 +237,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -262,7 +268,10 @@
         "talent_name": "Raise Dead",
         "spell_id": 46585,
         "visible_spell_id": null,
-        "icon": "inv_pet_ghoul"
+        "icon": "inv_pet_ghoul",
+        "icon_candidates": [
+          "inv_pet_ghoul"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
       "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
@@ -286,8 +295,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -321,7 +330,10 @@
         "talent_name": "Runic Attenuation",
         "spell_id": 207104,
         "visible_spell_id": null,
-        "icon": "boss_odunrunes_blue"
+        "icon": "boss_odunrunes_blue",
+        "icon_candidates": [
+          "boss_odunrunes_blue"
+        ]
       },
       "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
       "pvp_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
@@ -345,8 +357,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -380,7 +392,10 @@
         "talent_name": "Improved Death Strike",
         "spell_id": 374277,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_butcher2"
+        "icon": "spell_deathknight_butcher2",
+        "icon_candidates": [
+          "spell_deathknight_butcher2"
+        ]
       },
       "pve_tooltip": "Death Strike's cost is reduced by 5, and its healing is increased by 15%.",
       "pvp_tooltip": "Death Strike's cost is reduced by 5, and its healing is increased by 15%.",
@@ -404,8 +419,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -439,7 +454,10 @@
         "talent_name": "Cleaving Strikes",
         "spell_id": 316916,
         "visible_spell_id": null,
-        "icon": "inv_1115_warrior_fastermeleeattacks"
+        "icon": "inv_1115_warrior_fastermeleeattacks",
+        "icon_candidates": [
+          "inv_1115_warrior_fastermeleeattacks"
+        ]
       },
       "pve_tooltip": "Heart Strike hits up to 3 additional enemies while you remain in Death and Decay.\nWhen leaving your Death and Decay you retain its bonus effects for 4 sec.",
       "pvp_tooltip": "Heart Strike hits up to 3 additional enemies while you remain in Death and Decay.\nWhen leaving your Death and Decay you retain its bonus effects for 4 sec.",
@@ -463,8 +481,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -497,7 +515,10 @@
         "talent_name": "Mind Freeze",
         "spell_id": 47528,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_mindfreeze"
+        "icon": "spell_deathknight_mindfreeze",
+        "icon_candidates": [
+          "spell_deathknight_mindfreeze"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n15 sec cooldown\nSmash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
       "pvp_tooltip": "15 yd range\nInstant\n15 sec cooldown\nSmash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
@@ -521,8 +542,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -554,7 +575,10 @@
         "talent_name": "Blinding Sleet",
         "spell_id": 207167,
         "visible_spell_id": null,
-        "icon": "spell_frost_chillingblast"
+        "icon": "spell_frost_chillingblast",
+        "icon_candidates": [
+          "spell_frost_chillingblast"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
       "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 30% for 6 sec.",
@@ -665,8 +689,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -701,7 +725,10 @@
         "talent_name": "Gloom Ward",
         "spell_id": 391571,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "Absorbs are 30% more effective on you.",
       "pvp_tooltip": "Absorbs are 30% more effective on you.",
@@ -744,8 +771,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -777,7 +804,10 @@
         "talent_name": "March of Darkness",
         "spell_id": 391546,
         "visible_spell_id": null,
-        "icon": "ability_argus_deathfog"
+        "icon": "ability_argus_deathfog",
+        "icon_candidates": [
+          "ability_argus_deathfog"
+        ]
       },
       "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
       "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
@@ -801,8 +831,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -834,7 +864,10 @@
         "talent_name": "Wraith Walk",
         "spell_id": 212552,
         "visible_spell_id": null,
-        "icon": "inv_helm_plate_raiddeathknight_p_01"
+        "icon": "inv_helm_plate_raiddeathknight_p_01",
+        "icon_candidates": [
+          "inv_helm_plate_raiddeathknight_p_01"
+        ]
       },
       "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
       "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
@@ -858,8 +891,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -894,7 +927,10 @@
         "talent_name": "Unholy Momentum",
         "spell_id": 374265,
         "visible_spell_id": null,
-        "icon": "spell_necro_deathrift"
+        "icon": "spell_necro_deathrift",
+        "icon_candidates": [
+          "spell_necro_deathrift"
+        ]
       },
       "pve_tooltip": "Increases Haste by 4%.",
       "pvp_tooltip": "Increases Haste by 4%.",
@@ -937,8 +973,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -970,7 +1006,10 @@
         "talent_name": "Control Undead",
         "spell_id": 111673,
         "visible_spell_id": null,
-        "icon": "inv_misc_bone_skull_01"
+        "icon": "inv_misc_bone_skull_01",
+        "icon_candidates": [
+          "inv_misc_bone_skull_01"
+        ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\n1.5 sec cast\nDominates the target undead creature up to level 38, forcing it to do your bidding for 5 min.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\n1.5 sec cast\nDominates the target undead creature up to level 38, forcing it to do your bidding for 5 min.",
@@ -994,8 +1033,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1028,7 +1067,10 @@
         "talent_name": "Enfeeble",
         "spell_id": 392566,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_01"
+        "icon": "ability_creature_poison_01",
+        "icon_candidates": [
+          "ability_creature_poison_01"
+        ]
       },
       "pve_tooltip": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by 30% and the damage they deal to you by 12% for 6 sec.",
       "pvp_tooltip": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by 20% and the damage they deal to you by 8% for 6 sec.",
@@ -1153,8 +1195,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1186,7 +1228,10 @@
         "talent_name": "Coldthirst",
         "spell_id": 378848,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_mindfreeze"
+        "icon": "spell_deathknight_mindfreeze",
+        "icon_candidates": [
+          "spell_deathknight_mindfreeze"
+        ]
       },
       "pve_tooltip": "Successfully interrupting an enemy with Mind Freeze grants 10 Runic Power and reduces its cooldown by 3 sec.",
       "pvp_tooltip": "Successfully interrupting an enemy with Mind Freeze grants 10 Runic Power and reduces its cooldown by 3 sec.",
@@ -1210,8 +1255,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1245,7 +1290,10 @@
         "talent_name": "Proliferating Chill",
         "spell_id": 373930,
         "visible_spell_id": null,
-        "icon": "spell_frost_chainsofice"
+        "icon": "spell_frost_chainsofice",
+        "icon_candidates": [
+          "spell_frost_chainsofice"
+        ]
       },
       "pve_tooltip": "Chains of Ice affects 1 additional nearby enemy.",
       "pvp_tooltip": "Chains of Ice affects 1 additional nearby enemy.",
@@ -1269,8 +1317,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1304,7 +1352,10 @@
         "talent_name": "Permafrost",
         "spell_id": 207200,
         "visible_spell_id": null,
-        "icon": "achievement_zone_frostfire"
+        "icon": "achievement_zone_frostfire",
+        "icon_candidates": [
+          "achievement_zone_frostfire"
+        ]
       },
       "pve_tooltip": "Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
       "pvp_tooltip": "Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
@@ -1337,8 +1388,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1372,7 +1423,10 @@
         "talent_name": "Veteran of the Third War",
         "spell_id": 48263,
         "visible_spell_id": null,
-        "icon": "spell_misc_warsongfocus"
+        "icon": "spell_misc_warsongfocus",
+        "icon_candidates": [
+          "spell_misc_warsongfocus"
+        ]
       },
       "pve_tooltip": "Stamina increased by 20%.",
       "pvp_tooltip": "Stamina increased by 10%.",
@@ -1443,8 +1497,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1478,7 +1532,10 @@
         "talent_name": "Death Pact",
         "spell_id": 48743,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathpact"
+        "icon": "spell_shadow_deathpact",
+        "icon_candidates": [
+          "spell_shadow_deathpact"
+        ]
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCreate a death pact that heals you for 50% of your maximum health, but absorbs incoming healing equal to 30% of your max health for 15 sec.",
       "pvp_tooltip": "Instant\n2 min cooldown\nCreate a death pact that heals you for 50% of your maximum health, but absorbs incoming healing equal to 30% of your max health for 15 sec.",
@@ -1502,8 +1559,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1537,7 +1594,10 @@
         "talent_name": "Brittle",
         "spell_id": 374504,
         "visible_spell_id": null,
-        "icon": "ability_bosskilrogg_deaththroes"
+        "icon": "ability_bosskilrogg_deaththroes",
+        "icon_candidates": [
+          "ability_bosskilrogg_deaththroes"
+        ]
       },
       "pve_tooltip": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal 6% increased damage for 5 sec.\n(Proc chance: 15%)",
       "pvp_tooltip": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal 6% increased damage for 5 sec.\n(Proc chance: 15%)",
@@ -1561,8 +1621,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1594,7 +1654,10 @@
         "talent_name": "Blood Bond",
         "spell_id": 1267028,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_roilingblood"
+        "icon": "ability_deathknight_roilingblood",
+        "icon_candidates": [
+          "ability_deathknight_roilingblood"
+        ]
       },
       "pve_tooltip": "While you are below 50% health, your Ghoul sacrifices 4% of its maximum health to heal you for 1% of your maximum health every sec.",
       "pvp_tooltip": "While you are below 50% health, your Ghoul sacrifices 4% of its maximum health to heal you for 1% of your maximum health every sec.",
@@ -1618,8 +1681,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1654,7 +1717,10 @@
         "talent_name": "Icy Talons",
         "spell_id": 194878,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_icytalons"
+        "icon": "spell_deathknight_icytalons",
+        "icon_candidates": [
+          "spell_deathknight_icytalons"
+        ]
       },
       "pve_tooltip": "Your Runic Power spending abilities increase your melee attack speed by 6% for 10 sec, stacking up to 3 times.\n(500ms cooldown)",
       "pvp_tooltip": "Your Runic Power spending abilities increase your melee attack speed by 6% for 10 sec, stacking up to 3 times.\n(500ms cooldown)",
@@ -1678,8 +1744,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1711,7 +1777,10 @@
         "talent_name": "Death Notes",
         "spell_id": 1266819,
         "visible_spell_id": null,
-        "icon": "inv_misc_book_01"
+        "icon": "inv_misc_book_01",
+        "icon_candidates": [
+          "inv_misc_book_01"
+        ]
       },
       "pve_tooltip": "Raise Ally costs 30 less Runic Power.",
       "pvp_tooltip": "Raise Ally costs 30 less Runic Power.",
@@ -1735,8 +1804,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1772,7 +1841,10 @@
         "talent_name": "Anti-Magic Zone",
         "spell_id": 51052,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_antimagiczone"
+        "icon": "spell_deathknight_antimagiczone",
+        "icon_candidates": [
+          "spell_deathknight_antimagiczone"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
       "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
@@ -1796,8 +1868,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1829,7 +1901,10 @@
         "talent_name": "Death Defiance",
         "spell_id": 1266818,
         "visible_spell_id": null,
-        "icon": "spell_nature_shamanrage"
+        "icon": "spell_nature_shamanrage",
+        "icon_candidates": [
+          "spell_nature_shamanrage"
+        ]
       },
       "pve_tooltip": "The cooldown of Death Pact is reduced by 30 sec, and you receive 50% increased healing while its healing absorb is active.",
       "pvp_tooltip": "The cooldown of Death Pact is reduced by 30 sec, and you receive 50% increased healing while its healing absorb is active.",
@@ -1853,8 +1928,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1889,7 +1964,10 @@
         "talent_name": "Unholy Bond",
         "spell_id": 374261,
         "visible_spell_id": null,
-        "icon": "inv_sword_1h_felfireraid_d_01"
+        "icon": "inv_sword_1h_felfireraid_d_01",
+        "icon_candidates": [
+          "inv_sword_1h_felfireraid_d_01"
+        ]
       },
       "pve_tooltip": "Increases the effectiveness of your Runeforge effects by 20%.",
       "pvp_tooltip": "Increases the effectiveness of your Runeforge effects by 20%.",
@@ -1913,8 +1991,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -1946,7 +2024,10 @@
         "talent_name": "Ice Prison",
         "spell_id": 454786,
         "visible_spell_id": null,
-        "icon": "ability_mage_deepfreeze"
+        "icon": "ability_mage_deepfreeze",
+        "icon_candidates": [
+          "ability_mage_deepfreeze"
+        ]
       },
       "pve_tooltip": "Chains of Ice now also roots enemies for 4 sec but its cooldown is increased to 12 sec.",
       "pvp_tooltip": "Chains of Ice now also roots enemies for 4 sec but its cooldown is increased to 12 sec.",
@@ -1970,8 +2051,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2006,7 +2087,10 @@
         "talent_name": "Asphyxiate",
         "spell_id": 221562,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_asphixiate"
+        "icon": "ability_deathknight_asphixiate",
+        "icon_candidates": [
+          "ability_deathknight_asphixiate"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nLifts the enemy target off the ground, crushing their throat with dark energy and stunning them for 5 sec.",
       "pvp_tooltip": "20 yd range\nInstant\n45 sec cooldown\nLifts the enemy target off the ground, crushing their throat with dark energy and stunning them for 5 sec.",
@@ -2030,8 +2114,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2066,7 +2150,10 @@
         "talent_name": "Death's Reach",
         "spell_id": 276079,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_strangulate"
+        "icon": "spell_deathknight_strangulate",
+        "icon_candidates": [
+          "spell_deathknight_strangulate"
+        ]
       },
       "pve_tooltip": "Increases the range of Death Grip by 10 yds.\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
       "pvp_tooltip": "Increases the range of Death Grip by 10 yds.\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
@@ -2090,8 +2177,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2123,7 +2210,10 @@
         "talent_name": "Assimilation",
         "spell_id": 374383,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_antimagiczone"
+        "icon": "spell_deathknight_antimagiczone",
+        "icon_candidates": [
+          "spell_deathknight_antimagiczone"
+        ]
       },
       "pve_tooltip": "The cooldown of Anti-Magic Zone is reduced by 60 sec and its duration is increased by 2 sec.",
       "pvp_tooltip": "The cooldown of Anti-Magic Zone is reduced by 60 sec and its duration is increased by 2 sec.",
@@ -2147,8 +2237,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2183,7 +2273,10 @@
         "talent_name": "Anti-Magic Barrier",
         "spell_id": 205727,
         "visible_spell_id": null,
-        "icon": "spell_shadow_antimagicshell"
+        "icon": "spell_shadow_antimagicshell",
+        "icon_candidates": [
+          "spell_shadow_antimagicshell"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Anti-Magic Shell by 20 sec and increases its duration and amount absorbed by 40%.",
       "pvp_tooltip": "Reduces the cooldown of Anti-Magic Shell by 20 sec and increases its duration and amount absorbed by 20%.",
@@ -2254,8 +2347,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2287,7 +2380,10 @@
         "talent_name": "Grip of the Dead",
         "spell_id": 273952,
         "visible_spell_id": null,
-        "icon": "ability_creature_disease_05"
+        "icon": "ability_creature_disease_05",
+        "icon_candidates": [
+          "ability_creature_disease_05"
+        ]
       },
       "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
       "pvp_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
@@ -2311,8 +2407,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2346,7 +2442,10 @@
         "talent_name": "Suppression",
         "spell_id": 374049,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 3%. When suffering a loss of control effect, this bonus is increased by an additional 6% for 6 sec.",
       "pvp_tooltip": "Damage taken from area of effect attacks reduced by 3%. When suffering a loss of control effect, this bonus is increased by an additional 6% for 6 sec.",
@@ -2370,8 +2469,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2406,7 +2505,10 @@
         "talent_name": "Blood Scent",
         "spell_id": 374030,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bloodritual"
+        "icon": "ability_ironmaidens_bloodritual",
+        "icon_candidates": [
+          "ability_ironmaidens_bloodritual"
+        ]
       },
       "pve_tooltip": "Increases Leech by 3%.",
       "pvp_tooltip": "Increases Leech by 3%.",
@@ -2430,8 +2532,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2465,7 +2567,10 @@
         "talent_name": "Unholy Endurance",
         "spell_id": 389682,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_subversion"
+        "icon": "spell_deathknight_subversion",
+        "icon_candidates": [
+          "spell_deathknight_subversion"
+        ]
       },
       "pve_tooltip": "Increases Lichborne duration by 2 sec and reduces the cooldown by 30 sec.",
       "pvp_tooltip": "Increases Lichborne duration by 2 sec and reduces the cooldown by 30 sec.",
@@ -2489,8 +2594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2522,7 +2627,10 @@
         "talent_name": "Osmosis",
         "spell_id": 454835,
         "visible_spell_id": null,
-        "icon": "spell_nature_rune"
+        "icon": "spell_nature_rune",
+        "icon_candidates": [
+          "spell_nature_rune"
+        ]
       },
       "pve_tooltip": "Anti-Magic Shell increases healing received by 15%.",
       "pvp_tooltip": "Anti-Magic Shell increases healing received by 15%.",
@@ -2546,8 +2654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2581,7 +2689,10 @@
         "talent_name": "Insidious Chill",
         "spell_id": 391566,
         "visible_spell_id": null,
-        "icon": "ability_racial_wardoftheloafrost"
+        "icon": "ability_racial_wardoftheloafrost",
+        "icon_candidates": [
+          "ability_racial_wardoftheloafrost"
+        ]
       },
       "pve_tooltip": "Your auto-attacks reduce the target's auto-attack speed by 5% for 30 sec, stacking up to 4 times.",
       "pvp_tooltip": "Your auto-attacks reduce the target's auto-attack speed by 5% for 30 sec, stacking up to 4 times.",
@@ -2605,8 +2716,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2640,7 +2751,10 @@
         "talent_name": "Runic Protection",
         "spell_id": 454788,
         "visible_spell_id": null,
-        "icon": "ability_mage_shattershield"
+        "icon": "ability_mage_shattershield",
+        "icon_candidates": [
+          "ability_mage_shattershield"
+        ]
       },
       "pve_tooltip": "Your chance to be critically struck is reduced by 3% and your Armor is increased by 6%.",
       "pvp_tooltip": "Your chance to be critically struck is reduced by 3% and your Armor is increased by 6%.",
@@ -2664,8 +2778,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2697,7 +2811,10 @@
         "talent_name": "Blood Draw",
         "spell_id": 374598,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
       "pvp_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
@@ -2721,8 +2838,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2756,7 +2873,10 @@
         "talent_name": "Rune Mastery",
         "spell_id": 374574,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_hungeringruneblade"
+        "icon": "ability_deathknight_hungeringruneblade",
+        "icon_candidates": [
+          "ability_deathknight_hungeringruneblade"
+        ]
       },
       "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
       "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
@@ -2799,8 +2919,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2834,7 +2954,10 @@
         "talent_name": "Subduing Grasp",
         "spell_id": 454822,
         "visible_spell_id": null,
-        "icon": "spell_nature_elementalshields"
+        "icon": "spell_nature_elementalshields",
+        "icon_candidates": [
+          "spell_nature_elementalshields"
+        ]
       },
       "pve_tooltip": "When you would pull an enemy, the damage they deal to you is reduced by 6% for 6 sec.",
       "pvp_tooltip": "When you would pull an enemy, the damage they deal to you is reduced by 6% for 6 sec.",
@@ -2858,8 +2981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -2893,7 +3016,10 @@
         "talent_name": "Will of the Necropolis",
         "spell_id": 206967,
         "visible_spell_id": null,
-        "icon": "achievement_boss_kelthuzad_01"
+        "icon": "achievement_boss_kelthuzad_01",
+        "icon_candidates": [
+          "achievement_boss_kelthuzad_01"
+        ]
       },
       "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
       "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
@@ -3005,8 +3131,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3036,7 +3162,10 @@
         "talent_name": "Null Magic",
         "spell_id": 454842,
         "visible_spell_id": null,
-        "icon": "spell_shadow_detectinvisibility"
+        "icon": "spell_shadow_detectinvisibility",
+        "icon_candidates": [
+          "spell_shadow_detectinvisibility"
+        ]
       },
       "pve_tooltip": "Magic damage taken is reduced by 8% and the duration of harmful Magic effects against you are reduced by 35%.",
       "pvp_tooltip": "Magic damage taken is reduced by 4.8% and the duration of harmful Magic effects against you are reduced by 10.15%.",
@@ -3151,8 +3280,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3183,7 +3312,10 @@
         "talent_name": "Unyielding Will",
         "spell_id": 457574,
         "visible_spell_id": null,
-        "icon": "spell_shadow_nethercloak"
+        "icon": "spell_shadow_nethercloak",
+        "icon_candidates": [
+          "spell_shadow_nethercloak"
+        ]
       },
       "pve_tooltip": "Anti-Magic Shell now removes all harmful magical effects when activated, but its cooldown is increased by 20 sec.",
       "pvp_tooltip": "Anti-Magic Shell now removes all harmful magical effects when activated, but its cooldown is increased by 20 sec.",
@@ -3207,8 +3339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3239,7 +3371,10 @@
         "talent_name": "Death's Echo",
         "spell_id": 356367,
         "visible_spell_id": null,
-        "icon": "inv_fabric_ebonweave"
+        "icon": "inv_fabric_ebonweave",
+        "icon_candidates": [
+          "inv_fabric_ebonweave"
+        ]
       },
       "pve_tooltip": "Death's Advance, Death and Decay, and Death Grip have 1 additional charge.",
       "pvp_tooltip": "Death's Advance, Death and Decay, and Death Grip have 1 additional charge.",
@@ -3263,8 +3398,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3294,7 +3429,10 @@
         "talent_name": "Vestigial Shell",
         "spell_id": 454851,
         "visible_spell_id": null,
-        "icon": "ability_domination_rune12"
+        "icon": "ability_domination_rune12",
+        "icon_candidates": [
+          "ability_domination_rune12"
+        ]
       },
       "pve_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%.",
       "pvp_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 30%.",
@@ -3370,8 +3508,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3402,7 +3540,10 @@
         "talent_name": "Heart Strike",
         "spell_id": 206930,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_40"
+        "icon": "inv_weapon_shortblade_40",
+        "icon_candidates": [
+          "inv_weapon_shortblade_40"
+        ]
       },
       "pve_tooltip": "1 Rune / -15 Runic Power\nMelee Range\nInstant\nInstantly strike the target and 1 other nearby enemy, causing (196.7% of Attack Power) Physical damage, and reducing enemies' movement speed by 20% for 8 sec [Heart Strike: Generates 5 bonus Runic Power] [Heartbreaker: plus 2 Runic Power per additional enemy struck].",
       "pvp_tooltip": "1 Rune / -15 Runic Power\nMelee Range\nInstant\nInstantly strike the target and 1 other nearby enemy, causing (196.7% of Attack Power) Physical damage, and reducing enemies' movement speed by 20% for 8 sec [Heart Strike: Generates 5 bonus Runic Power] [Heartbreaker: plus 2 Runic Power per additional enemy struck].",
@@ -3426,8 +3567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3459,7 +3600,10 @@
         "talent_name": "Marrowrend",
         "spell_id": 195182,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_marrowrend"
+        "icon": "ability_deathknight_marrowrend",
+        "icon_candidates": [
+          "ability_deathknight_marrowrend"
+        ]
       },
       "pve_tooltip": "2 Runes / -20 Runic Power\nMelee Range\nInstant\nSmash the target, dealing (220.65% of Attack Power) Physical damage and generating 3 charges of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
       "pvp_tooltip": "2 Runes / -20 Runic Power\nMelee Range\nInstant\nSmash the target, dealing (220.65% of Attack Power) Physical damage and generating 3 charges of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
@@ -3483,8 +3627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3516,7 +3660,10 @@
         "talent_name": "Blood Boil",
         "spell_id": 50842,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_bloodboil"
+        "icon": "spell_deathknight_bloodboil",
+        "icon_candidates": [
+          "spell_deathknight_bloodboil"
+        ]
       },
       "pve_tooltip": "Instant\n7.5 sec recharge\n2 Charges\nDeals (164% of Attack Power) Shadow damage and infects all enemies within 10 yds with Blood Plague.\nBlood Plague\nA shadowy disease that drains 64 health from the target over 24 sec.",
       "pvp_tooltip": "Instant\n7.5 sec recharge\n2 Charges\nDeals (164% of Attack Power) Shadow damage and infects all enemies within 10 yds with Blood Plague.\nBlood Plague\nA shadowy disease that drains 64 health from the target over 24 sec.",
@@ -3540,8 +3687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3574,7 +3721,10 @@
         "talent_name": "Vampiric Blood",
         "spell_id": 55233,
         "visible_spell_id": null,
-        "icon": "spell_shadow_lifedrain"
+        "icon": "spell_shadow_lifedrain",
+        "icon_candidates": [
+          "spell_shadow_lifedrain"
+        ]
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by 30% for 10 sec.",
       "pvp_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by 30% for 10 sec.",
@@ -3598,8 +3748,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3632,7 +3782,10 @@
         "talent_name": "Bone Collector",
         "spell_id": 458572,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_boneshield"
+        "icon": "ability_deathknight_boneshield",
+        "icon_candidates": [
+          "ability_deathknight_boneshield"
+        ]
       },
       "pve_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
       "pvp_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
@@ -3656,8 +3809,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3691,7 +3844,10 @@
         "talent_name": "Ossuary",
         "spell_id": 219786,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_brittlebones"
+        "icon": "ability_deathknight_brittlebones",
+        "icon_candidates": [
+          "ability_deathknight_brittlebones"
+        ]
       },
       "pve_tooltip": "While you have at least 5 Bone Shield charges, the cost of Death Strike is reduced by 5 Runic Power.\nAdditionally, your maximum Runic Power is increased by 10.",
       "pvp_tooltip": "While you have at least 5 Bone Shield charges, the cost of Death Strike is reduced by 5 Runic Power.\nAdditionally, your maximum Runic Power is increased by 10.",
@@ -3715,8 +3871,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3749,7 +3905,10 @@
         "talent_name": "Improved Vampiric Blood",
         "spell_id": 317133,
         "visible_spell_id": null,
-        "icon": "spell_shadow_lifedrain"
+        "icon": "spell_shadow_lifedrain",
+        "icon_candidates": [
+          "spell_shadow_lifedrain"
+        ]
       },
       "pve_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
       "pvp_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
@@ -3792,8 +3951,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3826,7 +3985,10 @@
         "talent_name": "Improved Heart Strike",
         "spell_id": 374717,
         "visible_spell_id": null,
-        "icon": "inv_weapon_shortblade_40"
+        "icon": "inv_weapon_shortblade_40",
+        "icon_candidates": [
+          "inv_weapon_shortblade_40"
+        ]
       },
       "pve_tooltip": "Heart Strike damage increased by 30%.",
       "pvp_tooltip": "Heart Strike damage increased by 30%.",
@@ -3869,8 +4031,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3904,7 +4066,10 @@
         "talent_name": "Relish in Blood",
         "spell_id": 317610,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_roilingblood"
+        "icon": "ability_deathknight_roilingblood",
+        "icon_candidates": [
+          "ability_deathknight_roilingblood"
+        ]
       },
       "pve_tooltip": "While Crimson Scourge is active, your next Death and Decay heals you for (37.5% of Attack Power) health per Bone Shield charge and you immediately gain 10 Runic Power.",
       "pvp_tooltip": "While Crimson Scourge is active, your next Death and Decay heals you for (37.5% of Attack Power) health per Bone Shield charge and you immediately gain 10 Runic Power.",
@@ -3928,8 +4093,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -3962,7 +4127,10 @@
         "talent_name": "Leeching Strike",
         "spell_id": 377629,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_death"
+        "icon": "ability_deathwing_bloodcorruption_death",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_death"
+        ]
       },
       "pve_tooltip": "Heart Strike heals you for 0.25% health for each enemy hit while affected by Blood Plague.",
       "pvp_tooltip": "Heart Strike heals you for 0.25% health for each enemy hit while affected by Blood Plague.",
@@ -3986,8 +4154,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4019,7 +4187,10 @@
         "talent_name": "Heartbreaker",
         "spell_id": 221536,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_deathstrike"
+        "icon": "spell_deathknight_deathstrike",
+        "icon_candidates": [
+          "spell_deathknight_deathstrike"
+        ]
       },
       "pve_tooltip": "Your Heart Strike generates 2 additional Runic Power per target hit.",
       "pvp_tooltip": "Your Heart Strike generates 2 additional Runic Power per target hit.",
@@ -4043,8 +4214,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4078,7 +4249,10 @@
         "talent_name": "Foul Bulwark",
         "spell_id": 206974,
         "visible_spell_id": null,
-        "icon": "inv_armor_shield_naxxramas_d_02"
+        "icon": "inv_armor_shield_naxxramas_d_02",
+        "icon_candidates": [
+          "inv_armor_shield_naxxramas_d_02"
+        ]
       },
       "pve_tooltip": "Each charge of Bone Shield increases your maximum health by 1%.",
       "pvp_tooltip": "Each charge of Bone Shield increases your maximum health by 1%.",
@@ -4102,8 +4276,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4138,7 +4312,10 @@
         "talent_name": "Dancing Rune Weapon",
         "spell_id": 49028,
         "visible_spell_id": null,
-        "icon": "inv_sword_07"
+        "icon": "inv_sword_07",
+        "icon_candidates": [
+          "inv_sword_07"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for 8 sec that mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain 30% parry chance.",
       "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for 8 sec that mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain 30% parry chance.",
@@ -4162,8 +4339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4197,7 +4374,10 @@
         "talent_name": "Hemostasis",
         "spell_id": 273946,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_bloodcorruption_earth"
+        "icon": "ability_deathwing_bloodcorruption_earth",
+        "icon_candidates": [
+          "ability_deathwing_bloodcorruption_earth"
+        ]
       },
       "pve_tooltip": "Each enemy hit by Blood Boil increases the damage and healing done by your next Death Strike by 8%, stacking up to 5 times.",
       "pvp_tooltip": "Each enemy hit by Blood Boil increases the damage and healing done by your next Death Strike by 8%, stacking up to 5 times.",
@@ -4221,8 +4401,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4254,7 +4434,10 @@
         "talent_name": "Perseverance of the Ebon Blade",
         "spell_id": 374747,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_sanguinfortitude"
+        "icon": "ability_deathknight_sanguinfortitude",
+        "icon_candidates": [
+          "ability_deathknight_sanguinfortitude"
+        ]
       },
       "pve_tooltip": "When Crimson Scourge is consumed, damage taken is reduced by 4% for 10 sec.",
       "pvp_tooltip": "When Crimson Scourge is consumed, damage taken is reduced by 4% for 10 sec.",
@@ -4278,8 +4461,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4312,7 +4495,10 @@
         "talent_name": "Bloodworms",
         "spell_id": 195679,
         "visible_spell_id": null,
-        "icon": "spell_shadow_soulleech"
+        "icon": "spell_shadow_soulleech",
+        "icon_candidates": [
+          "spell_shadow_soulleech"
+        ]
       },
       "pve_tooltip": "Approximately 5 procs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
       "pvp_tooltip": "Approximately 5 procs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
@@ -4336,8 +4522,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4372,7 +4558,10 @@
         "talent_name": "Gorefiend's Grasp",
         "spell_id": 108199,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_aoedeathgrip"
+        "icon": "ability_deathknight_aoedeathgrip",
+        "icon_candidates": [
+          "ability_deathknight_aoedeathgrip"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n15 sec cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n15 sec cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
@@ -4396,8 +4585,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4432,7 +4621,10 @@
         "talent_name": "Abomination Limb",
         "spell_id": 1263569,
         "visible_spell_id": null,
-        "icon": "ability_maldraxxus_deathknight"
+        "icon": "ability_maldraxxus_deathknight",
+        "icon_candidates": [
+          "ability_maldraxxus_deathknight"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n2 min cooldown\nSprout an additional limb, pulling enemies further than 8 yds from you every 1 sec.\nThe same enemy can only be pulled once every 4 sec.",
       "pvp_tooltip": "20 yd range\nInstant\n2 min cooldown\nSprout an additional limb, pulling enemies further than 8 yds from you every 1 sec.\nThe same enemy can only be pulled once every 4 sec.",
@@ -4456,8 +4648,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4490,7 +4682,10 @@
         "talent_name": "Improved Bone Shield",
         "spell_id": 374715,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_marrowrend"
+        "icon": "ability_deathknight_marrowrend",
+        "icon_candidates": [
+          "ability_deathknight_marrowrend"
+        ]
       },
       "pve_tooltip": "Bone Shield increases your Haste by 10% and it can stack 2 additional times.",
       "pvp_tooltip": "Bone Shield increases your Haste by 10% and it can stack 2 additional times.",
@@ -4514,8 +4709,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4549,7 +4744,10 @@
         "talent_name": "Insatiable Blade",
         "spell_id": 377637,
         "visible_spell_id": null,
-        "icon": "70_inscription_vantus_rune_nightmare"
+        "icon": "70_inscription_vantus_rune_nightmare",
+        "icon_candidates": [
+          "70_inscription_vantus_rune_nightmare"
+        ]
       },
       "pve_tooltip": "Dancing Rune Weapon's cooldown is reduced by 30 sec and now generates 5 Bone Shield charges.",
       "pvp_tooltip": "Dancing Rune Weapon's cooldown is reduced by 30 sec and now generates 5 Bone Shield charges.",
@@ -4573,8 +4771,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4607,10 +4805,13 @@
         "talent_name": "Deadly Reach",
         "spell_id": 1264235,
         "visible_spell_id": null,
-        "icon": "inv12_ability_deathknight_cleavingdeathstrikes"
+        "icon": "inv12_ability_deathknight_cleavingdeathstrikes",
+        "icon_candidates": [
+          "inv12_ability_deathknight_cleavingdeathstrikes"
+        ]
       },
-      "pve_tooltip": "Death Strike hits an additional 2 enemies at 75% effectiveness.",
-      "pvp_tooltip": "Death Strike hits an additional 2 enemies at 75% effectiveness.",
+      "pve_tooltip": "Death Strike hits an additional 2 enemies at 60% effectiveness.",
+      "pvp_tooltip": "Death Strike hits an additional 2 enemies at 60% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4631,8 +4832,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4667,7 +4868,10 @@
         "talent_name": "Rapid Decomposition",
         "spell_id": 194662,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_deathsiphon2"
+        "icon": "ability_deathknight_deathsiphon2",
+        "icon_candidates": [
+          "ability_deathknight_deathsiphon2"
+        ]
       },
       "pve_tooltip": "Your Blood Plague and Death and Decay deal damage 15% more often.\nAdditionally, your Blood Plague leeches 85% more Health.",
       "pvp_tooltip": "Your Blood Plague and Death and Decay deal damage 15% more often.\nAdditionally, your Blood Plague leeches 85% more Health.",
@@ -4691,8 +4895,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4725,7 +4929,10 @@
         "talent_name": "Boiling Point",
         "spell_id": 1265790,
         "visible_spell_id": null,
-        "icon": "warlock_pvp_endlessaffliction"
+        "icon": "warlock_pvp_endlessaffliction",
+        "icon_candidates": [
+          "warlock_pvp_endlessaffliction"
+        ]
       },
       "pve_tooltip": "Heart Strike has a chance to make your next Blood Boil empowered, dealing 50% increased damage and echoing after 3 sec.",
       "pvp_tooltip": "Heart Strike has a chance to make your next Blood Boil empowered, dealing 50% increased damage and echoing after 3 sec.",
@@ -4749,8 +4956,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4786,7 +4993,10 @@
         "talent_name": "Lifeblood",
         "spell_id": 1264296,
         "visible_spell_id": null,
-        "icon": "inv_10_elementalcombinedfoozles_blood"
+        "icon": "inv_10_elementalcombinedfoozles_blood",
+        "icon_candidates": [
+          "inv_10_elementalcombinedfoozles_blood"
+        ]
       },
       "pve_tooltip": "Death Strike heals for an additional 20% of its healing over 5 sec.",
       "pvp_tooltip": "Death Strike heals for an additional 20% of its healing over 5 sec.",
@@ -4810,8 +5020,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4843,7 +5053,10 @@
         "talent_name": "Everlasting Bond",
         "spell_id": 377668,
         "visible_spell_id": null,
-        "icon": "inv_sword_07"
+        "icon": "inv_sword_07",
+        "icon_candidates": [
+          "inv_sword_07"
+        ]
       },
       "pve_tooltip": "Summons 1 additional copy of Dancing Rune Weapon and increases its duration by 4 sec.",
       "pvp_tooltip": "Summons 1 additional copy of Dancing Rune Weapon and increases its duration by 4 sec.",
@@ -4867,8 +5080,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4904,7 +5117,10 @@
         "talent_name": "Voracious",
         "spell_id": 273953,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_whirlofblood"
+        "icon": "ability_ironmaidens_whirlofblood",
+        "icon_candidates": [
+          "ability_ironmaidens_whirlofblood"
+        ]
       },
       "pve_tooltip": "Death Strike's healing is increased by 5% and grants you 15% Leech for 8 sec.",
       "pvp_tooltip": "Death Strike's healing is increased by 5% and grants you 15% Leech for 8 sec.",
@@ -4928,8 +5144,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -4962,7 +5178,10 @@
         "talent_name": "Blood Feast",
         "spell_id": 391386,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_vendetta"
+        "icon": "spell_deathknight_vendetta",
+        "icon_candidates": [
+          "spell_deathknight_vendetta"
+        ]
       },
       "pve_tooltip": "Anti-Magic Shell heals you for 100% of the damage it absorbs.",
       "pvp_tooltip": "Anti-Magic Shell heals you for 100% of the damage it absorbs.",
@@ -4986,8 +5205,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5020,7 +5239,10 @@
         "talent_name": "Plague Infusion",
         "spell_id": 1265869,
         "visible_spell_id": null,
-        "icon": "spell_yorsahj_bloodboil_blue"
+        "icon": "spell_yorsahj_bloodboil_blue",
+        "icon_candidates": [
+          "spell_yorsahj_bloodboil_blue"
+        ]
       },
       "pve_tooltip": "Your Blood Plague critical hits have a chance to reduce the cooldown of your Blood Boil by 0.25 sec.\n(1s cooldown)",
       "pvp_tooltip": "Your Blood Plague critical hits have a chance to reduce the cooldown of your Blood Boil by 0.25 sec.\n(1s cooldown)",
@@ -5044,8 +5266,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5077,7 +5299,10 @@
         "talent_name": "Bloody Reflection",
         "spell_id": 1279633,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodbath"
+        "icon": "ability_warrior_bloodbath",
+        "icon_candidates": [
+          "ability_warrior_bloodbath"
+        ]
       },
       "pve_tooltip": "While Blood Shield is active, taking direct damage reflects (110% of Attack Power) Shadow damage back to the attacker. Blood Shield can now absorb up to 65% of your maximum health.",
       "pvp_tooltip": "While Blood Shield is active, taking direct damage reflects (110% of Attack Power) Shadow damage back to the attacker. Blood Shield can now absorb up to 65% of your maximum health.",
@@ -5101,8 +5326,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5138,7 +5363,10 @@
         "talent_name": "Iron Heart",
         "spell_id": 391395,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart"
+        "icon": "inv_ragnaros_heart",
+        "icon_candidates": [
+          "inv_ragnaros_heart"
+        ]
       },
       "pve_tooltip": "Blood Shield's duration is increased by 2 sec and it absorbs 20% more damage.",
       "pvp_tooltip": "Blood Shield's duration is increased by 2 sec and it absorbs 20% more damage.",
@@ -5162,8 +5390,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5195,7 +5423,10 @@
         "talent_name": "Bloodied Blade",
         "spell_id": 458753,
         "visible_spell_id": null,
-        "icon": "inv_sword_2h_ebonblade_b_01_red"
+        "icon": "inv_sword_2h_ebonblade_b_01_red",
+        "icon_candidates": [
+          "inv_sword_2h_ebonblade_b_01_red"
+        ]
       },
       "pve_tooltip": "Parrying an attack grants you a charge of Bloodied Blade, increasing your Strength by 0.5%, up to 4.0% for 15 sec.\nAt 8 stacks, your next parry consumes all charges to unleash a Heart Strike at 300% effectiveness, and increases your Strength by 10% for 6 sec.\n(500ms cooldown)",
       "pvp_tooltip": "Parrying an attack grants you a charge of Bloodied Blade, increasing your Strength by 0.5%, up to 4.0% for 15 sec.\nAt 8 stacks, your next parry consumes all charges to unleash a Heart Strike at 300% effectiveness, and increases your Strength by 10% for 6 sec.\n(500ms cooldown)",
@@ -5219,8 +5450,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5253,7 +5484,10 @@
         "talent_name": "Coagulopathy",
         "spell_id": 391477,
         "visible_spell_id": null,
-        "icon": "ability_skeer_bloodletting"
+        "icon": "ability_skeer_bloodletting",
+        "icon_candidates": [
+          "ability_skeer_bloodletting"
+        ]
       },
       "pve_tooltip": "Enemies affected by Blood Plague take 5% increased damage from you and Death Strike increases the damage of your Blood Plague by 10% for 15 sec, stacking up to 4 times.",
       "pvp_tooltip": "Enemies affected by Blood Plague take 5% increased damage from you and Death Strike increases the damage of your Blood Plague by 10% for 15 sec, stacking up to 4 times.",
@@ -5277,8 +5511,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5310,7 +5544,10 @@
         "talent_name": "Blood Mist",
         "spell_id": 1263743,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_deathknight"
+        "icon": "ability_revendreth_deathknight",
+        "icon_candidates": [
+          "ability_revendreth_deathknight"
+        ]
       },
       "pve_tooltip": "When you cast Dancing Rune Weapon, you become enveloped in a blood mist that surrounds you for 8 sec, increasing your Parry by 5%.\nDeals (64% of Attack Power) Shadow damage every 1 sec to enemies within 10 yds. Every time it deals damage you gain 2 Runic Power, up to a maximum of 10 Runic Power. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "When you cast Dancing Rune Weapon, you become enveloped in a blood mist that surrounds you for 8 sec, increasing your Parry by 5%.\nDeals (64% of Attack Power) Shadow damage every 1 sec to enemies within 10 yds. Every time it deals damage you gain 2 Runic Power, up to a maximum of 10 Runic Power. Deals reduced damage beyond 8 targets.",
@@ -5334,8 +5571,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5368,7 +5605,10 @@
         "talent_name": "Sanguine Ground",
         "spell_id": 391458,
         "visible_spell_id": null,
-        "icon": "inv_artifact_corruptedbloodofzakajz"
+        "icon": "inv_artifact_corruptedbloodofzakajz",
+        "icon_candidates": [
+          "inv_artifact_corruptedbloodofzakajz"
+        ]
       },
       "pve_tooltip": "You deal 6% more damage and receive 5% more healing while standing in your Death and Decay.",
       "pvp_tooltip": "You deal 6% more damage and receive 5% more healing while standing in your Death and Decay.",
@@ -5392,8 +5632,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5423,7 +5663,10 @@
         "talent_name": "Bloodshot",
         "spell_id": 391398,
         "visible_spell_id": null,
-        "icon": "ability_warlock_baneofhavoc"
+        "icon": "ability_warlock_baneofhavoc",
+        "icon_candidates": [
+          "ability_warlock_baneofhavoc"
+        ]
       },
       "pve_tooltip": "While Blood Shield is active, you deal 8% increased damage and damage taken is reduced by 4%.",
       "pvp_tooltip": "While Blood Shield is active, you deal 8% increased damage and damage taken is reduced by 4%.",
@@ -5447,8 +5690,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5481,7 +5724,10 @@
         "talent_name": "Consumption",
         "spell_id": 1263824,
         "visible_spell_id": null,
-        "icon": "inv_axe_2h_artifactmaw_d_01"
+        "icon": "inv_axe_2h_artifactmaw_d_01",
+        "icon_candidates": [
+          "inv_axe_2h_artifactmaw_d_01"
+        ]
       },
       "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI: Consumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by 5% and an additional 8 sec after empowering.\nII: Consumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII: Consumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
       "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI: Consumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by 5% and an additional 8 sec after empowering.\nII: Consumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII: Consumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
@@ -5505,8 +5751,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5538,7 +5784,10 @@
         "talent_name": "Red Thirst",
         "spell_id": 205723,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_bloodpresence"
+        "icon": "spell_deathknight_bloodpresence",
+        "icon_candidates": [
+          "spell_deathknight_bloodpresence"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown on Vampiric Blood by 2.0 sec per 10 Runic Power spent.",
       "pvp_tooltip": "Reduces the cooldown on Vampiric Blood by 2.0 sec per 10 Runic Power spent.",
@@ -5562,8 +5811,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5593,7 +5842,10 @@
         "talent_name": "Sanguinary Burst",
         "spell_id": 1263781,
         "visible_spell_id": null,
-        "icon": "spell_animarevendreth_groundstate"
+        "icon": "spell_animarevendreth_groundstate",
+        "icon_candidates": [
+          "spell_animarevendreth_groundstate"
+        ]
       },
       "pve_tooltip": "When Blood Mist ends it deals (276% of Attack Power) Shadow damage to 8 nearby enemies, healing you for 18% of the damage dealt. The damage is increased by 2% for every 1 Runic Power spent while Blood Mist was active.",
       "pvp_tooltip": "When Blood Mist ends it deals (276% of Attack Power) Shadow damage to 8 nearby enemies, healing you for 18% of the damage dealt. The damage is increased by 2% for every 1 Runic Power spent while Blood Mist was active.",
@@ -5617,8 +5869,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5648,7 +5900,10 @@
         "talent_name": "Purgatory",
         "spell_id": 114556,
         "visible_spell_id": null,
-        "icon": "inv_misc_shadowegg"
+        "icon": "inv_misc_shadowegg",
+        "icon_candidates": [
+          "inv_misc_shadowegg"
+        ]
       },
       "pve_tooltip": "An unholy pact that prevents fatal damage, instead absorbing incoming healing equal to the damage prevented, lasting 3 sec.\nIf any healing absorption remains when this effect expires, you will die. This effect may only occur every 4 min.",
       "pvp_tooltip": "An unholy pact that prevents fatal damage, instead absorbing incoming healing equal to the damage prevented, lasting 3 sec.\nIf any healing absorption remains when this effect expires, you will die. This effect may only occur every 4 min.",
@@ -5672,8 +5927,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5703,7 +5958,10 @@
         "talent_name": "Carnage",
         "spell_id": 458752,
         "visible_spell_id": null,
-        "icon": "sha_ability_warrior_bloodnova_nightmare"
+        "icon": "sha_ability_warrior_bloodnova_nightmare",
+        "icon_candidates": [
+          "sha_ability_warrior_bloodnova_nightmare"
+        ]
       },
       "pve_tooltip": "Approximately 1.1 procs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
       "pvp_tooltip": "Approximately 1.1 procs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
@@ -5727,8 +5985,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5758,7 +6016,10 @@
         "talent_name": "Umbilicus Eternus",
         "spell_id": 391517,
         "visible_spell_id": null,
-        "icon": "artifactability_blooddeathknight_umbilicuseternus"
+        "icon": "artifactability_blooddeathknight_umbilicuseternus",
+        "icon_candidates": [
+          "artifactability_blooddeathknight_umbilicuseternus"
+        ]
       },
       "pve_tooltip": "After Vampiric Blood expires, you absorb damage equal to 6 times the damage your Blood Plague dealt during Vampiric Blood.",
       "pvp_tooltip": "After Vampiric Blood expires, you absorb damage equal to 6 times the damage your Blood Plague dealt during Vampiric Blood.",
@@ -5782,8 +6043,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5811,7 +6072,10 @@
         "talent_name": "Dance of Midnight",
         "spell_id": 1264506,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_deathknight_danceofmidnight"
+        "icon": "inv12_apextalent_deathknight_danceofmidnight",
+        "icon_candidates": [
+          "inv12_apextalent_deathknight_danceofmidnight"
+        ]
       },
       "pve_tooltip": "While Dancing Rune Weapon is active, Parrying an attack has a 100% chance to make your next Heart Strike cost no Runes and deal 150% increased damage.\n(3s cooldown)",
       "pvp_tooltip": "While Dancing Rune Weapon is active, Parrying an attack has a 100% chance to make your next Heart Strike cost no Runes and deal 150% increased damage.\n(3s cooldown)",
@@ -5835,8 +6099,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5864,7 +6128,10 @@
         "talent_name": "Dance of Midnight",
         "spell_id": 1264405,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bladedance"
+        "icon": "ability_demonhunter_bladedance",
+        "icon_candidates": [
+          "ability_demonhunter_bladedance"
+        ]
       },
       "pve_tooltip": "For each Dancing Rune Weapon active your damage is increased by 6% and your damage taken is reduced by 6%.",
       "pvp_tooltip": "For each Dancing Rune Weapon active your damage is increased by 6% and your damage taken is reduced by 6%.",
@@ -5907,8 +6174,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5936,7 +6203,10 @@
         "talent_name": "Dance of Midnight",
         "spell_id": 1264351,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bladedance"
+        "icon": "ability_demonhunter_bladedance",
+        "icon_candidates": [
+          "ability_demonhunter_bladedance"
+        ]
       },
       "pve_tooltip": "When you consume a Rune you have a chance to call a Dancing Rune Weapon to your aid for 8 sec.",
       "pvp_tooltip": "When you consume a Rune you have a chance to call a Dancing Rune Weapon to your aid for 8 sec.",
@@ -5960,8 +6230,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -5994,18 +6264,21 @@
         "talent_name": "Reaper's Mark",
         "spell_id": 439843,
         "visible_spell_id": null,
-        "icon": "inv_ability_deathbringerdeathknight_reapersmark"
+        "icon": "inv_ability_deathbringerdeathknight_reapersmark",
+        "icon_candidates": [
+          "inv_ability_deathbringerdeathknight_reapersmark"
+        ]
       },
-      "pve_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (45.348% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (25.1681% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
+      "pve_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (530.712% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (54.4176% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
+      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (530.712% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (30.2018% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 307,
-          "end": 313,
-          "old_token": "45.348",
-          "new_token": "25.1681",
+          "start": 308,
+          "end": 315,
+          "old_token": "54.4176",
+          "new_token": "30.2018",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6025,22 +6298,12 @@
         },
         {
           "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 30.364,
-          "new": 16.841908788,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "45.348",
-          "new": "25.1681"
+          "old": "54.4176",
+          "new": "30.2018"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6076,7 +6339,7 @@
           "talent_spell_id": 439843,
           "source_spell_id": 436304,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.45348 )",
+          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.544176 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.555,
           "amount_kind": "direct",
@@ -6129,7 +6392,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -6143,8 +6406,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6177,7 +6440,10 @@
         "talent_name": "Vampiric Strike",
         "spell_id": 433901,
         "visible_spell_id": null,
-        "icon": "inv_ability_sanlayndeathknight_vampiricstrike"
+        "icon": "inv_ability_sanlayndeathknight_vampiricstrike",
+        "icon_candidates": [
+          "inv_ability_sanlayndeathknight_vampiricstrike"
+        ]
       },
       "pve_tooltip": "Your Death Coil and Death Strike have a 35% chance to make your next Heart Strike become Vampiric Strike.\nVampiric Strike heals you for 1% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 2.0%, up to 10.0% for 20 sec.",
       "pvp_tooltip": "Your Death Coil and Death Strike have a 35% chance to make your next Heart Strike become Vampiric Strike.\nVampiric Strike heals you for 1% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 2.0%, up to 10.0% for 20 sec.",
@@ -6195,10 +6461,10 @@
           "effect_index": 1,
           "effect_text": "School Damage (Shadow) (AP mod: 1.69884 )",
           "base_value": null,
-          "spell_pvp_multiplier": 1.352,
+          "spell_pvp_multiplier": 2.704,
           "amount_kind": "direct",
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.352,
+          "final_pvp_multiplier": 2.704,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6213,9 +6479,41 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 433895,
+              "talent_name": "Vampiric Strike",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 1.35,
+              "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1123513,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 433901,
+              "source_spell_id": 433895,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                433901,
+                434422,
+                433895
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "spelldesc_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 2.704,
+              "current_effect_text": "School Damage (2): shadow",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -6265,8 +6563,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6298,18 +6596,21 @@
         "talent_name": "Wave of Souls",
         "spell_id": 439851,
         "visible_spell_id": null,
-        "icon": "spell_animamaw_wave"
+        "icon": "spell_animamaw_wave",
+        "icon_candidates": [
+          "spell_animamaw_wave"
+        ]
       },
-      "pve_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (211.92% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
-      "pvp_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (326.3568% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
+      "pve_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (254.304% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
+      "pvp_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (391.6282% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 74,
-          "end": 80,
-          "old_token": "211.92",
-          "new_token": "326.3568",
+          "end": 81,
+          "old_token": "254.304",
+          "new_token": "391.6282",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6319,22 +6620,12 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 96.7079,
-          "new": 148.93016599999999,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "211.92",
-          "new": "326.3568"
+          "old": "254.304",
+          "new": "391.6282"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6345,7 +6636,7 @@
           "talent_spell_id": 439851,
           "source_spell_id": 435802,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.1192 )",
+          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.54304 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.54,
           "amount_kind": "direct",
@@ -6398,7 +6689,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -6412,8 +6703,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6445,7 +6736,10 @@
         "talent_name": "Wither Away",
         "spell_id": 441894,
         "visible_spell_id": null,
-        "icon": "sha_spell_warlock_demonsoul"
+        "icon": "sha_spell_warlock_demonsoul",
+        "icon_candidates": [
+          "sha_spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Blood Plague deals its damage 100% faster, and the second scythe of Exterminate applies Blood Plague.",
       "pvp_tooltip": "Blood Plague deals its damage 0% faster, and the second scythe of Exterminate applies Blood Plague.",
@@ -6506,6 +6800,7 @@
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -6531,6 +6826,7 @@
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -6556,6 +6852,7 @@
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -6600,8 +6897,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6633,10 +6930,13 @@
         "talent_name": "Bind in Darkness",
         "spell_id": 440031,
         "visible_spell_id": null,
-        "icon": "ability_argus_soulbombdebuffsmall"
+        "icon": "ability_argus_soulbombdebuffsmall",
+        "icon_candidates": [
+          "ability_argus_soulbombdebuffsmall"
+        ]
       },
-      "pve_tooltip": "Blood Boil deals 30% increased damage, and is now Shadowfrost.\nShadowfrost damage applies 2 stacks to Reaper's Mark and 4 stacks when it is a critical strike.",
-      "pvp_tooltip": "Blood Boil deals 30% increased damage, and is now Shadowfrost.\nShadowfrost damage applies 2 stacks to Reaper's Mark and 4 stacks when it is a critical strike.",
+      "pve_tooltip": "Blood Boil deals 50% increased damage, and is now Shadowfrost.\nShadowfrost damage applies 2 stacks to Reaper's Mark and 4 stacks when it is a critical strike.",
+      "pvp_tooltip": "Blood Boil deals 50% increased damage, and is now Shadowfrost.\nShadowfrost damage applies 2 stacks to Reaper's Mark and 4 stacks when it is a critical strike.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6657,8 +6957,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6690,7 +6990,10 @@
         "talent_name": "Frigid Resolve",
         "spell_id": 1265859,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_icetouch"
+        "icon": "spell_deathknight_icetouch",
+        "icon_candidates": [
+          "spell_deathknight_icetouch"
+        ]
       },
       "pve_tooltip": "The effectiveness of Permafrost is increased by 100% and Exterminate grants Permafrost equal to 10% of the damage dealt.\nPermafrost\nYour auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
       "pvp_tooltip": "The effectiveness of Permafrost is increased by 100% and Exterminate grants Permafrost equal to 10% of the damage dealt.\nPermafrost\nYour auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
@@ -6714,8 +7017,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6747,7 +7050,10 @@
         "talent_name": "Newly Turned",
         "spell_id": 433934,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_hemorrhagicfever"
+        "icon": "ability_deathknight_hemorrhagicfever",
+        "icon_candidates": [
+          "ability_deathknight_hemorrhagicfever"
+        ]
       },
       "pve_tooltip": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to 20% of your maximum health.",
       "pvp_tooltip": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to 20% of your maximum health.",
@@ -6771,8 +7077,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6804,7 +7110,10 @@
         "talent_name": "Vampiric Speed",
         "spell_id": 434028,
         "visible_spell_id": null,
-        "icon": "inv_boots_cloth_34v2"
+        "icon": "inv_boots_cloth_34v2",
+        "icon_candidates": [
+          "inv_boots_cloth_34v2"
+        ]
       },
       "pve_tooltip": "Death's Advance and Wraith Walk movement speed bonuses are increased by 10%.\nActivating Death's Advance or Wraith Walk increases 4 nearby allies movement speed by 20% for 5 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Death's Advance and Wraith Walk movement speed bonuses are increased by 10%.\nActivating Death's Advance or Wraith Walk increases 4 nearby allies movement speed by 20% for 5 sec.\n(100ms cooldown)",
@@ -6828,8 +7137,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6861,7 +7170,10 @@
         "talent_name": "Blood-Soaked Ground",
         "spell_id": 434033,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_corruptedblood"
+        "icon": "ability_ironmaidens_corruptedblood",
+        "icon_candidates": [
+          "ability_ironmaidens_corruptedblood"
+        ]
       },
       "pve_tooltip": "While you are within your Death and Decay, your physical damage taken is reduced by 8% and your chance to gain Vampiric Strike is increased by 5%.",
       "pvp_tooltip": "While you are within your Death and Decay, your physical damage taken is reduced by 8% and your chance to gain Vampiric Strike is increased by 5%.",
@@ -6885,8 +7197,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6918,7 +7230,10 @@
         "talent_name": "Desecrate",
         "spell_id": 1234559,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye_nightmare"
+        "icon": "sha_ability_rogue_bloodyeye_nightmare",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye_nightmare"
+        ]
       },
       "pve_tooltip": "Death and Decay deals its damage 100% faster.",
       "pvp_tooltip": "Death and Decay deals its damage 100% faster.",
@@ -6942,8 +7257,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -6975,7 +7290,10 @@
         "talent_name": "Vampiric Aura",
         "spell_id": 434100,
         "visible_spell_id": null,
-        "icon": "ability_rogue_vendetta"
+        "icon": "ability_rogue_vendetta",
+        "icon_candidates": [
+          "ability_rogue_vendetta"
+        ]
       },
       "pve_tooltip": "Your Leech is increased by 2%.\nWhile Lichborne is active, the Leech bonus of this effect is increased by 100%, and it affects 4 allies within 12 yds.",
       "pvp_tooltip": "Your Leech is increased by 2%.\nWhile Lichborne is active, the Leech bonus of this effect is increased by 100%, and it affects 4 allies within 12 yds.",
@@ -6999,8 +7317,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7032,7 +7350,10 @@
         "talent_name": "Bloody Fortitude",
         "spell_id": 434136,
         "visible_spell_id": null,
-        "icon": "ability_warrior_intensifyrage"
+        "icon": "ability_warrior_intensifyrage",
+        "icon_candidates": [
+          "ability_warrior_intensifyrage"
+        ]
       },
       "pve_tooltip": "Icebound Fortitude reduces all damage you take by up to an additional 20% based on your missing health.\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by 3 sec.",
       "pvp_tooltip": "Icebound Fortitude reduces all damage you take by up to an additional 20% based on your missing health.\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by 3 sec.",
@@ -7056,8 +7377,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7089,7 +7410,10 @@
         "talent_name": "Thrill of Blood",
         "spell_id": 1265547,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_bloodthirst"
+        "icon": "spell_nzinsanity_bloodthirst",
+        "icon_candidates": [
+          "spell_nzinsanity_bloodthirst"
+        ]
       },
       "pve_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 1.0% per stack.\nBlood Plague deals 5% increased damage.",
       "pvp_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 1.0% per stack.\nBlood Plague deals 5% increased damage.",
@@ -7113,8 +7437,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7146,7 +7470,10 @@
         "talent_name": "Soul Rupture",
         "spell_id": 437161,
         "visible_spell_id": null,
-        "icon": "warlock_siphonlife"
+        "icon": "warlock_siphonlife",
+        "icon_candidates": [
+          "warlock_siphonlife"
+        ]
       },
       "pve_tooltip": "100 yd range\nWhen Reaper's Mark explodes, it deals 10% of the damage dealt to nearby enemies.",
       "pvp_tooltip": "100 yd range\nWhen Reaper's Mark explodes, it deals 10% of the damage dealt to nearby enemies.",
@@ -7170,8 +7497,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7203,7 +7530,10 @@
         "talent_name": "Grim Reaper",
         "spell_id": 434905,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "Reaper's Mark initial strike grants [3 charges of Bone Shield][Killing Machine].\nReaper's Mark explosion deals up to 30% increased damage based on your target's missing health.",
       "pvp_tooltip": "Reaper's Mark initial strike grants [3 charges of Bone Shield][Killing Machine].\nReaper's Mark explosion deals up to 30% increased damage based on your target's missing health.",
@@ -7227,8 +7557,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7260,7 +7590,10 @@
         "talent_name": "Pact of the Deathbringer",
         "spell_id": 440476,
         "visible_spell_id": null,
-        "icon": "ability_revendreth_deathknight"
+        "icon": "ability_revendreth_deathknight",
+        "icon_candidates": [
+          "ability_revendreth_deathknight"
+        ]
       },
       "pve_tooltip": "When you suffer a damaging effect equal to 25% of your maximum health, you instantly cast Death Pact at 50% effectiveness. May only occur every 2 min.\nWhen a Reaper's Mark explodes, the cooldowns of this effect and Death Pact are reduced by 5 sec.",
       "pvp_tooltip": "When you suffer a damaging effect equal to 15% of your maximum health, you instantly cast Death Pact at 50% effectiveness. May only occur every 2 min.\nWhen a Reaper's Mark explodes, the cooldowns of this effect and Death Pact are reduced by 5 sec.",
@@ -7331,8 +7664,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7364,7 +7697,10 @@
         "talent_name": "Rune Carved Plates",
         "spell_id": 440282,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_runetap"
+        "icon": "spell_deathknight_runetap",
+        "icon_candidates": [
+          "spell_deathknight_runetap"
+        ]
       },
       "pve_tooltip": "Each Rune spent reduces the magic damage you take by 1.5% and each Rune generated reduces the physical damage you take by 1.5% for 5 sec, up to 5 times.",
       "pvp_tooltip": "Each Rune spent reduces the magic damage you take by 1.5% and each Rune generated reduces the physical damage you take by 1.5% for 5 sec, up to 5 times.",
@@ -7461,8 +7797,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7494,10 +7830,13 @@
         "talent_name": "Deathly Blows",
         "spell_id": 1265932,
         "visible_spell_id": null,
-        "icon": "inv_sword_1h_mawraid_d_02"
+        "icon": "inv_sword_1h_mawraid_d_02",
+        "icon_candidates": [
+          "inv_sword_1h_mawraid_d_02"
+        ]
       },
-      "pve_tooltip": "Death Strike damage increased by 12%.",
-      "pvp_tooltip": "Death Strike damage increased by 12%.",
+      "pve_tooltip": "Death Strike damage increased by 20%.",
+      "pvp_tooltip": "Death Strike damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7518,8 +7857,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7551,7 +7890,10 @@
         "talent_name": "Infliction of Sorrow",
         "spell_id": 434143,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodbath"
+        "icon": "ability_warrior_bloodbath",
+        "icon_candidates": [
+          "ability_warrior_bloodbath"
+        ]
       },
       "pve_tooltip": "When Vampiric Strike damages an enemy affected by your Blood Plague, it extends the duration of the disease by 3.0 sec, and deals 20% of the remaining damage to the enemy.",
       "pvp_tooltip": "When Vampiric Strike damages an enemy affected by your Blood Plague, it extends the duration of the disease by 3.0 sec, and deals 20% of the remaining damage to the enemy.",
@@ -7575,8 +7917,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7608,7 +7950,10 @@
         "talent_name": "Frenzied Bloodthirst",
         "spell_id": 434075,
         "visible_spell_id": null,
-        "icon": "inv_sulfurelemental_blood"
+        "icon": "inv_sulfurelemental_blood",
+        "icon_candidates": [
+          "inv_sulfurelemental_blood"
+        ]
       },
       "pve_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 5% per stack.",
       "pvp_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 2.5% per stack.",
@@ -7687,8 +8032,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7720,7 +8065,10 @@
         "talent_name": "The Blood is Life",
         "spell_id": 434260,
         "visible_spell_id": null,
-        "icon": "achievement_nazmir_boss_bloodofghuun"
+        "icon": "achievement_nazmir_boss_bloodofghuun",
+        "icon_candidates": [
+          "achievement_nazmir_boss_bloodofghuun"
+        ]
       },
       "pve_tooltip": "Dancing Rune Weapon summons a Blood Beast to attack your enemy for 10 sec.\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 15% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
       "pvp_tooltip": "Dancing Rune Weapon summons a Blood Beast to attack your enemy for 10 sec.\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 15% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
@@ -7744,8 +8092,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7777,7 +8125,10 @@
         "talent_name": "Visceral Strength",
         "spell_id": 434157,
         "visible_spell_id": null,
-        "icon": "inv_ragnaros_heart"
+        "icon": "inv_ragnaros_heart",
+        "icon_candidates": [
+          "inv_ragnaros_heart"
+        ]
       },
       "pve_tooltip": "When Crimson Scourge is consumed, you gain 6% Strength for 12 sec.",
       "pvp_tooltip": "When Crimson Scourge is consumed, you gain 6% Strength for 12 sec.",
@@ -7801,8 +8152,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7834,10 +8185,13 @@
         "talent_name": "Swift and Painful",
         "spell_id": 443560,
         "visible_spell_id": null,
-        "icon": "ability_domination_rune02"
+        "icon": "ability_domination_rune02",
+        "icon_candidates": [
+          "ability_domination_rune02"
+        ]
       },
-      "pve_tooltip": "If no enemies are struck by Soul Rupture, you gain 10% Strength for 8 sec.\nWave of Souls is 100% more effective on the main target of your Reaper's Mark.",
-      "pvp_tooltip": "If no enemies are struck by Soul Rupture, you gain 10% Strength for 8 sec.\nWave of Souls is 100% more effective on the main target of your Reaper's Mark.",
+      "pve_tooltip": "If no enemies are struck by Soul Rupture, you gain 15% Strength for 8 sec.\nWave of Souls is 100% more effective on the main target of your Reaper's Mark.",
+      "pvp_tooltip": "If no enemies are struck by Soul Rupture, you gain 15% Strength for 8 sec.\nWave of Souls is 100% more effective on the main target of your Reaper's Mark.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7858,8 +8212,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7891,7 +8245,10 @@
         "talent_name": "Dark Talons",
         "spell_id": 436687,
         "visible_spell_id": null,
-        "icon": "inv_shoulder_93"
+        "icon": "inv_shoulder_93",
+        "icon_candidates": [
+          "inv_shoulder_93"
+        ]
       },
       "pve_tooltip": "Marrowrend and Heart Strike have a 25% chance to grant 3 stacks of Icy Talons and increase its maximum stacks by the same amount for 6 sec.\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active.\n(1s cooldown)",
       "pvp_tooltip": "Marrowrend and Heart Strike have a 25% chance to grant 3 stacks of Icy Talons and increase its maximum stacks by the same amount for 6 sec.\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active.\n(1s cooldown)",
@@ -7915,8 +8272,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -7948,7 +8305,10 @@
         "talent_name": "Reaper's Onslaught",
         "spell_id": 469870,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Reaper's Mark by 15 sec, but the amount of Marrowrends empowered by Exterminate is reduced by 1.",
       "pvp_tooltip": "Reduces the cooldown of Reaper's Mark by 15 sec, but the amount of Marrowrends empowered by Exterminate is reduced by 1.",
@@ -7972,8 +8332,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8005,7 +8365,10 @@
         "talent_name": "Death's Messenger",
         "spell_id": 437122,
         "visible_spell_id": null,
-        "icon": "ability_argus_deathfog"
+        "icon": "ability_argus_deathfog",
+        "icon_candidates": [
+          "ability_argus_deathfog"
+        ]
       },
       "pve_tooltip": "Reduces the cooldowns of Lichborne and Raise Dead by 30 sec.",
       "pvp_tooltip": "Reduces the cooldowns of Lichborne and Raise Dead by 30 sec.",
@@ -8029,8 +8392,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8062,7 +8425,10 @@
         "talent_name": "Expelling Shield",
         "spell_id": 439948,
         "visible_spell_id": null,
-        "icon": "spell_shadow_antimagicshell"
+        "icon": "spell_shadow_antimagicshell",
+        "icon_candidates": [
+          "spell_shadow_antimagicshell"
+        ]
       },
       "pve_tooltip": "When an enemy deals direct damage to your Anti-Magic Shell, their cast speed is reduced by 10% for 6 sec.",
       "pvp_tooltip": "When an enemy deals direct damage to your Anti-Magic Shell, their cast speed is reduced by 4% for 6 sec.",
@@ -8138,8 +8504,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8171,7 +8537,10 @@
         "talent_name": "Echoing Fury",
         "spell_id": 1265855,
         "visible_spell_id": null,
-        "icon": "spell_fire_blueflamebreath"
+        "icon": "spell_fire_blueflamebreath",
+        "icon_candidates": [
+          "spell_fire_blueflamebreath"
+        ]
       },
       "pve_tooltip": "Reaper's Mark deals 5% increased damage.\nCasting Dancing Rune Weapon grants 1 stack of Exterminate with 100% first scythe and 100% second scythe effectiveness.",
       "pvp_tooltip": "Reaper's Mark deals 5% increased damage.\nCasting Dancing Rune Weapon grants 1 stack of Exterminate with 100% first scythe and 100% second scythe effectiveness.",
@@ -8195,8 +8564,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8228,17 +8597,66 @@
         "talent_name": "Inevitable",
         "spell_id": 1280658,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonsoul"
+        "icon": "spell_warlock_demonsoul",
+        "icon_candidates": [
+          "spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Blood Plague deals up to 30% increased damage based on the target's missing health.",
-      "pvp_tooltip": "Blood Plague deals up to 30% increased damage based on the target's missing health.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Blood Plague deals up to 60% increased damage based on the target's missing health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 25,
+          "end": 27,
+          "old_token": "30",
+          "new_token": "60",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "60"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1280658,
+          "source_spell_id": 1280658,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 60.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8252,8 +8670,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8285,7 +8703,10 @@
         "talent_name": "Incite Terror",
         "spell_id": 434151,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improveddemonictactics"
+        "icon": "ability_warlock_improveddemonictactics",
+        "icon_candidates": [
+          "ability_warlock_improveddemonictactics"
+        ]
       },
       "pve_tooltip": "Vampiric Strike and Heart Strike cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
       "pvp_tooltip": "Vampiric Strike and Heart Strike cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
@@ -8309,8 +8730,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8342,7 +8763,10 @@
         "talent_name": "Pact of the San'layn",
         "spell_id": 434261,
         "visible_spell_id": null,
-        "icon": "ability_warrior_bloodnova"
+        "icon": "ability_warrior_bloodnova",
+        "icon_candidates": [
+          "ability_warrior_bloodnova"
+        ]
       },
       "pve_tooltip": "You store 15% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
       "pvp_tooltip": "You store 15% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
@@ -8366,8 +8790,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8399,7 +8823,10 @@
         "talent_name": "Sanguine Scent",
         "spell_id": 434263,
         "visible_spell_id": null,
-        "icon": "ability_deathknight_roilingblood"
+        "icon": "ability_deathknight_roilingblood",
+        "icon_candidates": [
+          "ability_deathknight_roilingblood"
+        ]
       },
       "pve_tooltip": "Your Death Coil and Death Strike have a 15% increased chance to trigger Vampiric Strike when damaging enemies below 35% health.",
       "pvp_tooltip": "Your Death Coil and Death Strike have a 15% increased chance to trigger Vampiric Strike when damaging enemies below 35% health.",
@@ -8423,8 +8850,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8456,7 +8883,10 @@
         "talent_name": "Transfusion",
         "spell_id": 1265574,
         "visible_spell_id": null,
-        "icon": "inv_artifact_bloodoftheassassinated"
+        "icon": "inv_artifact_bloodoftheassassinated",
+        "icon_candidates": [
+          "inv_artifact_bloodoftheassassinated"
+        ]
       },
       "pve_tooltip": "Vampiric Strike increases the damage of your Dancing Rune Weapons by 20% for 8 sec.\nMultiple applications may overlap.",
       "pvp_tooltip": "Vampiric Strike increases the damage of your Dancing Rune Weapons by 6.8% for 8 sec.\nMultiple applications may overlap.",
@@ -8533,7 +8963,7 @@
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265574,
-            1280386,
+            1236822,
             1236260
           ],
           "dependency_relations": [
@@ -8564,7 +8994,7 @@
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265574,
-            1280386,
+            1236822,
             1236260
           ],
           "dependency_relations": [
@@ -8595,7 +9025,7 @@
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265574,
-            1280386,
+            1236822,
             1236260
           ],
           "dependency_relations": [
@@ -8626,7 +9056,7 @@
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265574,
-            1280386,
+            1236822,
             1236260
           ],
           "dependency_relations": [
@@ -8656,8 +9086,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8690,18 +9120,21 @@
         "talent_name": "Exterminate",
         "spell_id": 441378,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_titanargus_d_01"
+        "icon": "inv_polearm_2h_titanargus_d_01",
+        "icon_candidates": [
+          "inv_polearm_2h_titanargus_d_01"
+        ]
       },
-      "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (721.175% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (328.44% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1287.81% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (572.424% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (901.467% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (400.6968% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 153,
           "end": 160,
-          "old_token": "1030.25",
-          "new_token": "721.175",
+          "old_token": "1287.81",
+          "new_token": "901.467",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -8709,9 +9142,9 @@
         },
         {
           "start": 264,
-          "end": 269,
-          "old_token": "469.2",
-          "new_token": "328.44",
+          "end": 271,
+          "old_token": "572.424",
+          "new_token": "400.6968",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -8721,23 +9154,12 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            2
+            1
           ],
-          "status": "OTHER_SPEC_BRANCH",
+          "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": 440.205,
-          "new": 374.17425,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 178.008,
-          "new": 151.3068,
-          "full_tooltip_match_count": 1
+          "old": "1287.81",
+          "new": "901.467"
         },
         {
           "effect_indexes": [
@@ -8745,17 +9167,8 @@
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "1030.25",
-          "new": "721.175"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "469.2",
-          "new": "328.44"
+          "old": "572.424",
+          "new": "400.6968"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8766,7 +9179,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441424,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 10.3025 )",
+          "effect_text": "School Damage (Frost, Shadow) (AP mod: 12.8781 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -8826,7 +9239,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441426,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 4.692 )",
+          "effect_text": "School Damage (Frost, Shadow) (AP mod: 5.72424 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -8881,7 +9294,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -8895,8 +9308,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Blood",
@@ -8929,7 +9342,10 @@
         "talent_name": "Gift of the San'layn",
         "spell_id": 434152,
         "visible_spell_id": null,
-        "icon": "spell_deathknight_bloodtap"
+        "icon": "spell_deathknight_bloodtap",
+        "icon_candidates": [
+          "spell_deathknight_bloodtap"
+        ]
       },
       "pve_tooltip": "While Dancing Rune Weapon is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 200%, and Vampiric Strike replaces your Heart Strike for the duration.",
       "pvp_tooltip": "While Dancing Rune Weapon is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 200%, and Vampiric Strike replaces your Heart Strike for the duration.",
@@ -9218,13 +9634,45 @@
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "spell_id": 433895,
+      "talent_name": "Vampiric Strike",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 1.35,
+      "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1123513,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 433901,
+      "source_spell_id": 433895,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        433901,
+        434422,
+        433895
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "spelldesc_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 2.704,
+      "current_effect_text": "School Damage (2): shadow",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    }
+  ],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-22T19:24:34.541152+00:00",
+  "generated_at": "2026-09-24T11:38:52.968962+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 16,
-    "talents_with_pvp_mechanics": 18,
+    "changed_tooltips": 17,
+    "talents_with_pvp_mechanics": 19,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -9233,11 +9681,43 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "spell_id": 433895,
+        "talent_name": "Vampiric Strike",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 1.35,
+        "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1123513,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 433901,
+        "source_spell_id": 433895,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          433901,
+          434422,
+          433895
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "spelldesc_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 2.704,
+        "current_effect_text": "School Damage (2): shadow",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

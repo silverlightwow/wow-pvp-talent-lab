@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -49,7 +49,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rejuvenating Wind",
         "spell_id": 385539,
         "visible_spell_id": null,
-        "icon": "ability_druid_galewinds"
+        "icon": "ability_druid_galewinds",
+        "icon_candidates": [
+          "ability_druid_galewinds"
+        ]
       },
       "pve_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
       "pvp_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
@@ -73,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -104,7 +107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Survival of the Fittest",
         "spell_id": 264735,
         "visible_spell_id": null,
-        "icon": "spell_nature_spiritarmor"
+        "icon": "spell_nature_spiritarmor",
+        "icon_candidates": [
+          "spell_nature_spiritarmor"
+        ]
       },
       "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 30% for 6 sec.",
       "pvp_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 25% for 6 sec.",
@@ -200,8 +206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -231,7 +237,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Posthaste",
         "spell_id": 109215,
         "visible_spell_id": null,
-        "icon": "ability_hunter_posthaste"
+        "icon": "ability_hunter_posthaste",
+        "icon_candidates": [
+          "ability_hunter_posthaste"
+        ]
       },
       "pve_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
       "pvp_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
@@ -255,8 +264,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -289,7 +298,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Natural Mending",
         "spell_id": 270581,
         "visible_spell_id": null,
-        "icon": "ability_hunter_onewithnature"
+        "icon": "ability_hunter_onewithnature",
+        "icon_candidates": [
+          "ability_hunter_onewithnature"
+        ]
       },
       "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
       "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
@@ -332,8 +344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -366,7 +378,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Padded Armor",
         "spell_id": 459450,
         "visible_spell_id": null,
-        "icon": "ability_rogue_plunderarmor"
+        "icon": "ability_rogue_plunderarmor",
+        "icon_candidates": [
+          "ability_rogue_plunderarmor"
+        ]
       },
       "pve_tooltip": "Survival of the Fittest gains an additional charge.",
       "pvp_tooltip": "Survival of the Fittest gains an additional charge.",
@@ -390,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -424,7 +439,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hunter's Avoidance",
         "spell_id": 384799,
         "visible_spell_id": null,
-        "icon": "rogue_burstofspeed"
+        "icon": "rogue_burstofspeed",
+        "icon_candidates": [
+          "rogue_burstofspeed"
+        ]
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
       "pvp_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
@@ -448,8 +466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -481,7 +499,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wilderness Medicine",
         "spell_id": 343242,
         "visible_spell_id": null,
-        "icon": "ability_hunter_mendpet"
+        "icon": "ability_hunter_mendpet",
+        "icon_candidates": [
+          "ability_hunter_mendpet"
+        ]
       },
       "pve_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
       "pvp_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
@@ -536,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -571,7 +592,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Combat Experience",
         "spell_id": 1268871,
         "visible_spell_id": null,
-        "icon": "ability_hunter_combatexperience"
+        "icon": "ability_hunter_combatexperience",
+        "icon_candidates": [
+          "ability_hunter_combatexperience"
+        ]
       },
       "pve_tooltip": "Your Agility is increased by 3%.",
       "pvp_tooltip": "Your Agility is increased by 3%.",
@@ -595,8 +619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -630,7 +654,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Aspect of the Cheetah",
         "spell_id": 1258407,
         "visible_spell_id": null,
-        "icon": "ability_mount_jungletiger"
+        "icon": "ability_mount_jungletiger",
+        "icon_candidates": [
+          "ability_mount_jungletiger"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
@@ -654,8 +681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -687,7 +714,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Concussive Shot",
         "spell_id": 5116,
         "visible_spell_id": null,
-        "icon": "spell_frost_stun"
+        "icon": "spell_frost_stun",
+        "icon_candidates": [
+          "spell_frost_stun"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 50% for 6 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 30% for 6 sec.",
@@ -758,8 +788,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -793,7 +823,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Precision Strikes",
         "spell_id": 1267003,
         "visible_spell_id": null,
-        "icon": "inv12_ability_hunter_rupturingblow"
+        "icon": "inv12_ability_hunter_rupturingblow",
+        "icon_candidates": [
+          "inv12_ability_hunter_rupturingblow"
+        ]
       },
       "pve_tooltip": "Your auto attack damage is increased by 25%.",
       "pvp_tooltip": "Your auto attack damage is increased by 25%.",
@@ -817,8 +850,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -853,7 +886,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Muzzle",
         "spell_id": 187707,
         "visible_spell_id": null,
-        "icon": "ability_hunter_negate"
+        "icon": "ability_hunter_negate",
+        "icon_candidates": [
+          "ability_hunter_negate"
+        ]
       },
       "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
       "pvp_tooltip": "Melee Range\nInstant\n15 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
@@ -877,8 +913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -912,7 +948,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Serrated Tips",
         "spell_id": 459502,
         "visible_spell_id": null,
-        "icon": "inv_spear_01"
+        "icon": "inv_spear_01",
+        "icon_candidates": [
+          "inv_spear_01"
+        ]
       },
       "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
       "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
@@ -955,8 +994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -989,7 +1028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tranquilizing Shot",
         "spell_id": 19801,
         "visible_spell_id": null,
-        "icon": "spell_nature_drowsy"
+        "icon": "spell_nature_drowsy",
+        "icon_candidates": [
+          "spell_nature_drowsy"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
       "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
@@ -1013,8 +1055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1048,7 +1090,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pathfinding",
         "spell_id": 378002,
         "visible_spell_id": null,
-        "icon": "ability_hunter_displacement"
+        "icon": "ability_hunter_displacement",
+        "icon_candidates": [
+          "ability_hunter_displacement"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 4%.",
       "pvp_tooltip": "Movement speed increased by 4%.",
@@ -1072,8 +1117,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1107,7 +1152,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Disruptive Rounds",
         "spell_id": 343244,
         "visible_spell_id": null,
-        "icon": "hunter_pvp_vipersting"
+        "icon": "hunter_pvp_vipersting",
+        "icon_candidates": [
+          "hunter_pvp_vipersting"
+        ]
       },
       "pve_tooltip": "When Muzzle interrupts a cast, gain 30 Focus.",
       "pvp_tooltip": "When Muzzle interrupts a cast, gain 30 Focus.",
@@ -1131,8 +1179,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1166,7 +1214,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Feign Death",
         "spell_id": 1258486,
         "visible_spell_id": null,
-        "icon": "ability_rogue_feigndeath"
+        "icon": "ability_rogue_feigndeath",
+        "icon_candidates": [
+          "ability_rogue_feigndeath"
+        ]
       },
       "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
       "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
@@ -1209,8 +1260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1243,7 +1294,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Misdirection",
         "spell_id": 34477,
         "visible_spell_id": null,
-        "icon": "ability_hunter_misdirection"
+        "icon": "ability_hunter_misdirection",
+        "icon_candidates": [
+          "ability_hunter_misdirection"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
@@ -1267,8 +1321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1300,7 +1354,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kodo Tranquilizer",
         "spell_id": 459983,
         "visible_spell_id": null,
-        "icon": "ability_mount_kodo_03"
+        "icon": "ability_mount_kodo_03",
+        "icon_candidates": [
+          "ability_mount_kodo_03"
+        ]
       },
       "pve_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
       "pvp_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
@@ -1324,8 +1381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1357,7 +1414,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devilsaur Tranquilizer",
         "spell_id": 459991,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pet_devilsaur"
+        "icon": "ability_hunter_pet_devilsaur",
+        "icon_candidates": [
+          "ability_hunter_pet_devilsaur"
+        ]
       },
       "pve_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
       "pvp_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
@@ -1381,8 +1441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1415,7 +1475,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kindling Flare",
         "spell_id": 459506,
         "visible_spell_id": null,
-        "icon": "achievment_raid_houroftwilight"
+        "icon": "achievment_raid_houroftwilight",
+        "icon_candidates": [
+          "achievment_raid_houroftwilight"
+        ]
       },
       "pve_tooltip": "Flare's radius is increased by 50%.",
       "pvp_tooltip": "Flare's radius is increased by 50%.",
@@ -1439,8 +1502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1474,7 +1537,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trigger Finger",
         "spell_id": 459534,
         "visible_spell_id": null,
-        "icon": "inv_10_engineering2_pvpflaregun_color1"
+        "icon": "inv_10_engineering2_pvpflaregun_color1",
+        "icon_candidates": [
+          "inv_10_engineering2_pvpflaregun_color1"
+        ]
       },
       "pve_tooltip": "100 yd range\nHaste increased by 2%.",
       "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
@@ -1517,8 +1583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1550,7 +1616,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tar Trap",
         "spell_id": 187698,
         "visible_spell_id": null,
-        "icon": "spell_yorsahj_bloodboil_black"
+        "icon": "spell_yorsahj_bloodboil_black",
+        "icon_candidates": [
+          "spell_yorsahj_bloodboil_black"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 50% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
       "pvp_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 30% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
@@ -1626,8 +1695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1659,7 +1728,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scare Beast",
         "spell_id": 1513,
         "visible_spell_id": null,
-        "icon": "ability_druid_cower"
+        "icon": "ability_druid_cower",
+        "icon_candidates": [
+          "ability_druid_cower"
+        ]
       },
       "pve_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
       "pvp_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
@@ -1683,8 +1755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1718,7 +1790,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Touch of Grass",
         "spell_id": 1258402,
         "visible_spell_id": null,
-        "icon": "inv12_ability_druid_lifetreading"
+        "icon": "inv12_ability_druid_lifetreading",
+        "icon_candidates": [
+          "inv12_ability_druid_lifetreading"
+        ]
       },
       "pve_tooltip": "Your maximum health is increased by 10%.",
       "pvp_tooltip": "Your maximum health is increased by 10%.",
@@ -1761,8 +1836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1795,7 +1870,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Camouflage",
         "spell_id": 199483,
         "visible_spell_id": null,
-        "icon": "ability_hunter_camouflage"
+        "icon": "ability_hunter_camouflage",
+        "icon_candidates": [
+          "ability_hunter_camouflage"
+        ]
       },
       "pve_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
       "pvp_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
@@ -1819,8 +1897,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1852,7 +1930,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Hard Feelings",
         "spell_id": 459546,
         "visible_spell_id": null,
-        "icon": "ability_seal"
+        "icon": "ability_seal",
+        "icon_candidates": [
+          "ability_seal"
+        ]
       },
       "pve_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
       "pvp_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
@@ -1876,8 +1957,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1913,7 +1994,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Aspect of the Turtle",
         "spell_id": 1258485,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pet_turtle"
+        "icon": "ability_hunter_pet_turtle",
+        "icon_candidates": [
+          "ability_hunter_pet_turtle"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
@@ -1937,8 +2021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1974,7 +2058,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Specialized Arsenal",
         "spell_id": 459542,
         "visible_spell_id": null,
-        "icon": "inv_misc_quiver_03"
+        "icon": "inv_misc_quiver_03",
+        "icon_candidates": [
+          "inv_misc_quiver_03"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb deals 10% increased damage.",
       "pvp_tooltip": "Wildfire Bomb deals 10% increased damage.",
@@ -1998,8 +2085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2035,7 +2122,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scout's Instincts",
         "spell_id": 459455,
         "visible_spell_id": null,
-        "icon": "ability_rogue_sprint"
+        "icon": "ability_rogue_sprint",
+        "icon_candidates": [
+          "ability_rogue_sprint"
+        ]
       },
       "pve_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
       "pvp_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
@@ -2059,8 +2149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2092,7 +2182,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shell Wall",
         "spell_id": 1267218,
         "visible_spell_id": null,
-        "icon": "inv_cape_special_turtleshell_c_01"
+        "icon": "inv_cape_special_turtleshell_c_01",
+        "icon_candidates": [
+          "inv_cape_special_turtleshell_c_01"
+        ]
       },
       "pve_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
       "pvp_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
@@ -2116,8 +2209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2151,7 +2244,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Intimidation",
         "spell_id": 19577,
         "visible_spell_id": null,
-        "icon": "ability_devour"
+        "icon": "ability_devour",
+        "icon_candidates": [
+          "ability_devour"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec.",
       "pvp_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec.",
@@ -2175,8 +2271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2209,7 +2305,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Snaring",
         "spell_id": 1268868,
         "visible_spell_id": null,
-        "icon": "inv_fishing_nethooks01"
+        "icon": "inv_fishing_nethooks01",
+        "icon_candidates": [
+          "inv_fishing_nethooks01"
+        ]
       },
       "pve_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
       "pvp_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
@@ -2233,8 +2332,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2267,7 +2366,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lone Survivor",
         "spell_id": 388039,
         "visible_spell_id": null,
-        "icon": "ability_hunter_huntervswild"
+        "icon": "ability_hunter_huntervswild",
+        "icon_candidates": [
+          "ability_hunter_huntervswild"
+        ]
       },
       "pve_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
       "pvp_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
@@ -2291,8 +2393,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2325,7 +2427,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Catlike Reflexes",
         "spell_id": 1258404,
         "visible_spell_id": null,
-        "icon": "ability_hunter_catlikereflexes"
+        "icon": "ability_hunter_catlikereflexes",
+        "icon_candidates": [
+          "ability_hunter_catlikereflexes"
+        ]
       },
       "pve_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
       "pvp_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
@@ -2349,8 +2454,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2384,7 +2489,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Binding Shot",
         "spell_id": 109248,
         "visible_spell_id": null,
-        "icon": "spell_shaman_bindelemental"
+        "icon": "spell_shaman_bindelemental",
+        "icon_candidates": [
+          "spell_shaman_bindelemental"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
       "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
@@ -2408,8 +2516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2441,7 +2549,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Trailblazer",
         "spell_id": 199921,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aspectmastery"
+        "icon": "ability_hunter_aspectmastery",
+        "icon_candidates": [
+          "ability_hunter_aspectmastery"
+        ]
       },
       "pve_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
       "pvp_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
@@ -2465,8 +2576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2498,7 +2609,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moment of Opportunity",
         "spell_id": 459488,
         "visible_spell_id": null,
-        "icon": "ability_karoz_leap"
+        "icon": "ability_karoz_leap",
+        "icon_candidates": [
+          "ability_karoz_leap"
+        ]
       },
       "pve_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
       "pvp_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
@@ -2522,8 +2636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2556,7 +2670,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cold Feet",
         "spell_id": 1268671,
         "visible_spell_id": null,
-        "icon": "ability_mage_icyfeet"
+        "icon": "ability_mage_icyfeet",
+        "icon_candidates": [
+          "ability_mage_icyfeet"
+        ]
       },
       "pve_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 70% for 4 sec.",
       "pvp_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 50% for 4 sec.",
@@ -2632,8 +2749,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2663,7 +2780,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Territorial Instincts",
         "spell_id": 459507,
         "visible_spell_id": null,
-        "icon": "spell_nature_shamanrage"
+        "icon": "spell_nature_shamanrage",
+        "icon_candidates": [
+          "spell_nature_shamanrage"
+        ]
       },
       "pve_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
       "pvp_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
@@ -2687,8 +2807,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2718,7 +2838,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guttural Roar",
         "spell_id": 1258509,
         "visible_spell_id": null,
-        "icon": "ability_druid_challangingroar"
+        "icon": "ability_druid_challangingroar",
+        "icon_candidates": [
+          "ability_druid_challangingroar"
+        ]
       },
       "pve_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
       "pvp_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
@@ -2742,8 +2865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2778,7 +2901,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Born To Be Wild",
         "spell_id": 266921,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aspectoftheviper"
+        "icon": "ability_hunter_aspectoftheviper",
+        "icon_candidates": [
+          "ability_hunter_aspectoftheviper"
+        ]
       },
       "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
       "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
@@ -2821,8 +2947,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2857,7 +2983,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Keen Eyesight",
         "spell_id": 378004,
         "visible_spell_id": null,
-        "icon": "ability_hunter_silenthunter"
+        "icon": "ability_hunter_silenthunter",
+        "icon_candidates": [
+          "ability_hunter_silenthunter"
+        ]
       },
       "pve_tooltip": "Critical strike chance increased by 4%.",
       "pvp_tooltip": "Critical strike chance increased by 4%.",
@@ -2900,8 +3029,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2931,7 +3060,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tar-Coated Bindings",
         "spell_id": 459460,
         "visible_spell_id": null,
-        "icon": "inv_misc_food_legion_goooil_pool"
+        "icon": "inv_misc_food_legion_goooil_pool",
+        "icon_candidates": [
+          "inv_misc_food_legion_goooil_pool"
+        ]
       },
       "pve_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
       "pvp_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
@@ -2955,8 +3087,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2986,7 +3118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Horsehair Tether",
         "spell_id": 472729,
         "visible_spell_id": null,
-        "icon": "inv_misc_rope_01"
+        "icon": "inv_misc_rope_01",
+        "icon_candidates": [
+          "inv_misc_rope_01"
+        ]
       },
       "pve_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
       "pvp_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
@@ -3010,8 +3145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3044,7 +3179,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Traps",
         "spell_id": 343247,
         "visible_spell_id": null,
-        "icon": "ability_hunter_traplauncher"
+        "icon": "ability_hunter_traplauncher",
+        "icon_candidates": [
+          "ability_hunter_traplauncher"
+        ]
       },
       "pve_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
       "pvp_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
@@ -3068,8 +3206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3100,7 +3238,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Emergency Salve",
         "spell_id": 459517,
         "visible_spell_id": null,
-        "icon": "inv_potion_29"
+        "icon": "inv_potion_29",
+        "icon_candidates": [
+          "inv_potion_29"
+        ]
       },
       "pve_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
       "pvp_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
@@ -3124,8 +3265,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3156,7 +3297,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Roar of Sacrifice",
         "spell_id": 53480,
         "visible_spell_id": null,
-        "icon": "ability_hunter_fervor"
+        "icon": "ability_hunter_fervor",
+        "icon_candidates": [
+          "ability_hunter_fervor"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 15%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 25%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
@@ -3227,8 +3371,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3259,7 +3403,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guardian's Hide",
         "spell_id": 1272094,
         "visible_spell_id": null,
-        "icon": "spell_druid_bristlingfur"
+        "icon": "spell_druid_bristlingfur",
+        "icon_candidates": [
+          "spell_druid_bristlingfur"
+        ]
       },
       "pve_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
       "pvp_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
@@ -3283,8 +3430,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3315,7 +3462,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unnatural Causes",
         "spell_id": 459527,
         "visible_spell_id": null,
-        "icon": "ability_hunter_potentvenom"
+        "icon": "ability_hunter_potentvenom",
+        "icon_candidates": [
+          "ability_hunter_potentvenom"
+        ]
       },
       "pve_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
       "pvp_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
@@ -3339,8 +3489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3371,7 +3521,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Kill Command",
         "spell_id": 259489,
         "visible_spell_id": null,
-        "icon": "ability_hunter_killcommand"
+        "icon": "ability_hunter_killcommand",
+        "icon_candidates": [
+          "ability_hunter_killcommand"
+        ]
       },
       "pve_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (300% of Attack Power) Physical damage to the enemy.\nGenerates 15 / Invigorating Pulse: 20 / Flanker's Advantage: 20 Focus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
       "pvp_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (345% of Attack Power) Physical damage to the enemy.\nGenerates 15 / Invigorating Pulse: 20 / Flanker's Advantage: 20 Focus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
@@ -3447,8 +3600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3480,18 +3633,21 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wildfire Bomb",
         "spell_id": 259495,
         "visible_spell_id": null,
-        "icon": "inv_wildfirebomb"
+        "icon": "inv_wildfirebomb",
+        "icon_candidates": [
+          "inv_wildfirebomb"
+        ]
       },
-      "pve_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (157.95% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
-      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (159.5295% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
+      "pve_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (190% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 50% increased damage to your primary target.",
+      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (191.9% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 50% increased damage to your primary target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 96,
-          "end": 102,
-          "old_token": "157.95",
-          "new_token": "159.5295",
+          "end": 99,
+          "old_token": "190",
+          "new_token": "191.9",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3505,8 +3661,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "157.95",
-          "new": "159.5295"
+          "old": "190",
+          "new": "191.9"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3517,7 +3673,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 259495,
           "source_spell_id": 265157,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 1.5795 )",
+          "effect_text": "School Damage (Fire) (AP mod: 1.9 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3602,8 +3758,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3635,7 +3791,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Raptor Strike",
         "spell_id": 186270,
         "visible_spell_id": null,
-        "icon": "ability_hunter_raptorstrike"
+        "icon": "ability_hunter_raptorstrike",
+        "icon_candidates": [
+          "ability_hunter_raptorstrike"
+        ]
       },
       "pve_tooltip": "30 Focus\nMelee Range\nInstant\nA vicious slash dealing (393.25% of Attack Power) Physical damage.",
       "pvp_tooltip": "30 Focus\nMelee Range\nInstant\nA vicious slash dealing (476.619% of Attack Power) Physical damage.",
@@ -3716,8 +3875,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3750,7 +3909,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guerrilla Tactics",
         "spell_id": 264332,
         "visible_spell_id": null,
-        "icon": "spell_mage_flameorb"
+        "icon": "spell_mage_flameorb",
+        "icon_candidates": [
+          "spell_mage_flameorb"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb now has 2 charges, and the initial explosion deals 15% increased damage.",
       "pvp_tooltip": "Wildfire Bomb now has 2 charges, and the initial explosion deals 15% increased damage.",
@@ -3774,8 +3936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3808,7 +3970,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tip of the Spear",
         "spell_id": 260285,
         "visible_spell_id": null,
-        "icon": "ability_bossmannoroth_glaivethrust"
+        "icon": "ability_bossmannoroth_glaivethrust",
+        "icon_candidates": [
+          "ability_bossmannoroth_glaivethrust"
+        ]
       },
       "pve_tooltip": "Kill Command increases the direct damage of your other abilities by 15%, stacking up to 3 times.",
       "pvp_tooltip": "Kill Command increases the direct damage of your other abilities by 15%, stacking up to 3 times.",
@@ -3832,8 +3997,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3866,7 +4031,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lunge",
         "spell_id": 378934,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_kultirasharpoon_a_01"
+        "icon": "inv_polearm_2h_kultirasharpoon_a_01",
+        "icon_candidates": [
+          "inv_polearm_2h_kultirasharpoon_a_01"
+        ]
       },
       "pve_tooltip": "The damage of your auto-attacks is increased by 25%.\nYour Agility is increased by 3%, increased by an additional 1% while dual-wielding.",
       "pvp_tooltip": "The damage of your auto-attacks is increased by 25%.\nYour Agility is increased by 3%, increased by an additional 1% while dual-wielding.",
@@ -3890,8 +4058,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3926,7 +4094,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Boomstick",
         "spell_id": 1261193,
         "visible_spell_id": null,
-        "icon": "inv_musket_04"
+        "icon": "inv_musket_04",
+        "icon_candidates": [
+          "inv_musket_04"
+        ]
       },
       "pve_tooltip": "50 Focus\n20 yd range\nChanneled (3 sec cast)\n1 min cooldown\nUnload a series of 4 shotgun blasts 20 yds in front of you, dealing [(607.5% of Attack Power) * 4] Physical damage over 3 sec. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "50 Focus\n20 yd range\nChanneled (3 sec cast)\n1 min cooldown\nUnload a series of 4 shotgun blasts 20 yds in front of you, dealing [(613.575% of Attack Power) * 4] Physical damage over 3 sec. Deals reduced damage beyond 8 targets.",
@@ -4010,8 +4181,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4045,7 +4216,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strike as One",
         "spell_id": 1251717,
         "visible_spell_id": null,
-        "icon": "inv_coordinatedassault"
+        "icon": "inv_coordinatedassault",
+        "icon_candidates": [
+          "inv_coordinatedassault"
+        ]
       },
       "pve_tooltip": "Consuming Tip of the Spear provokes your pet to attack your target, dealing (180% of Attack Power) Physical damage.\nAll damage dealt by your pet is increased by 30%.\n(700ms cooldown)",
       "pvp_tooltip": "Consuming Tip of the Spear provokes your pet to attack your target, dealing (180% of Attack Power) Physical damage.\nAll damage dealt by your pet is increased by 30%.\n(700ms cooldown)",
@@ -4069,8 +4243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4102,7 +4276,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shrapnel Bomb",
         "spell_id": 1253172,
         "visible_spell_id": null,
-        "icon": "inv_wildfirebomb_shrapnel"
+        "icon": "inv_wildfirebomb_shrapnel",
+        "icon_candidates": [
+          "inv_wildfirebomb_shrapnel"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb's periodic effect is now a Bleed and grants you and your pet 15 Focus over 3 sec.",
       "pvp_tooltip": "Wildfire Bomb's periodic effect is now a Bleed and grants you and your pet 15 Focus over 3 sec.",
@@ -4126,8 +4303,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4159,7 +4336,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flamebreak",
         "spell_id": 1253176,
         "visible_spell_id": null,
-        "icon": "inv_wildfirebomb_blood"
+        "icon": "inv_wildfirebomb_blood",
+        "icon_candidates": [
+          "inv_wildfirebomb_blood"
+        ]
       },
       "pve_tooltip": "All Fire damage dealt is increased by 8%.",
       "pvp_tooltip": "All Fire damage dealt is increased by 8%.",
@@ -4183,8 +4363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4217,7 +4397,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloodseeker",
         "spell_id": 260248,
         "visible_spell_id": null,
-        "icon": "ability_druid_primaltenacity"
+        "icon": "ability_druid_primaltenacity",
+        "icon_candidates": [
+          "ability_druid_primaltenacity"
+        ]
       },
       "pve_tooltip": "Unlimited range\nYou and your pet gain 10% attack speed for every bleeding enemy within 12 yds.",
       "pvp_tooltip": "Unlimited range\nYou and your pet gain 10% attack speed for every bleeding enemy within 12 yds.",
@@ -4241,8 +4424,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4275,7 +4458,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quick Reload",
         "spell_id": 1272136,
         "visible_spell_id": null,
-        "icon": "ability_vehicle_reloadammo"
+        "icon": "ability_vehicle_reloadammo",
+        "icon_candidates": [
+          "ability_vehicle_reloadammo"
+        ]
       },
       "pve_tooltip": "Boomstick's cooldown is reduced by 15 sec.",
       "pvp_tooltip": "Boomstick's cooldown is reduced by 15 sec.",
@@ -4299,8 +4485,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4333,7 +4519,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flanker's Advantage",
         "spell_id": 459964,
         "visible_spell_id": null,
-        "icon": "ability_hunter_beastmastery"
+        "icon": "ability_hunter_beastmastery",
+        "icon_candidates": [
+          "ability_hunter_beastmastery"
+        ]
       },
       "pve_tooltip": "Kill Command grants an additional 5 Focus and its critical strike chance is increased by 10%.",
       "pvp_tooltip": "Kill Command grants an additional 5 Focus and its critical strike chance is increased by 10%.",
@@ -4357,8 +4546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4390,7 +4579,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sic 'Em",
         "spell_id": 1253137,
         "visible_spell_id": null,
-        "icon": "ability_hunter_sickem"
+        "icon": "ability_hunter_sickem",
+        "icon_candidates": [
+          "ability_hunter_sickem"
+        ]
       },
       "pve_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40% of Attack Power) damage over 5 sec.",
       "pvp_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40% of Attack Power) damage over 5 sec.",
@@ -4453,8 +4645,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4486,7 +4678,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Two Against Many",
         "spell_id": 1251718,
         "visible_spell_id": null,
-        "icon": "ability_hunter_separationanxiety"
+        "icon": "ability_hunter_separationanxiety",
+        "icon_candidates": [
+          "ability_hunter_separationanxiety"
+        ]
       },
       "pve_tooltip": "Strike as One damages 2 additional enemies and its damage is increased by 10% for each enemy it strikes beyond the first.",
       "pvp_tooltip": "Strike as One damages 2 additional enemies and its damage is increased by 10% for each enemy it strikes beyond the first.",
@@ -4510,8 +4705,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4546,7 +4741,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mongoose Fury",
         "spell_id": 1252708,
         "visible_spell_id": null,
-        "icon": "ability_hunter_mongoosebite"
+        "icon": "ability_hunter_mongoosebite",
+        "icon_candidates": [
+          "ability_hunter_mongoosebite"
+        ]
       },
       "pve_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
@@ -4570,8 +4768,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4604,7 +4802,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mongoose Rounds",
         "spell_id": 1253945,
         "visible_spell_id": null,
-        "icon": "inv_ammo_bullet_08"
+        "icon": "inv_ammo_bullet_08",
+        "icon_candidates": [
+          "inv_ammo_bullet_08"
+        ]
       },
       "pve_tooltip": "Damaging one or more enemies with your Boomstick grants you 1 stack of Mongoose Fury.\nMongoose Fury\nRaptor Strike damage increased by 10%.\n(100ms cooldown)",
       "pvp_tooltip": "Damaging one or more enemies with your Boomstick grants you 1 stack of Mongoose Fury.\nMongoose Fury\nRaptor Strike damage increased by 10%.\n(100ms cooldown)",
@@ -4628,8 +4829,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4662,7 +4863,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wildfire Shells",
         "spell_id": 1261229,
         "visible_spell_id": null,
-        "icon": "inv_ammo_firetar"
+        "icon": "inv_ammo_firetar",
+        "icon_candidates": [
+          "inv_ammo_firetar"
+        ]
       },
       "pve_tooltip": "Damaging one or more enemies with your Boomstick reduces the cooldown of Wildfire Bomb by 3.0 sec.\n(100ms cooldown)",
       "pvp_tooltip": "Damaging one or more enemies with your Boomstick reduces the cooldown of Wildfire Bomb by 3.0 sec.\n(100ms cooldown)",
@@ -4686,8 +4890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4720,7 +4924,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shellshock",
         "spell_id": 1252931,
         "visible_spell_id": null,
-        "icon": "inv_10_engineering2_pvpflaregun_color1"
+        "icon": "inv_10_engineering2_pvpflaregun_color1",
+        "icon_candidates": [
+          "inv_10_engineering2_pvpflaregun_color1"
+        ]
       },
       "pve_tooltip": "Your Boomstick's damage is increased by 40% when striking a single target.\nEach additional target reduces this bonus by 5%.",
       "pvp_tooltip": "Your Boomstick's damage is increased by 40% when striking a single target.\nEach additional target reduces this bonus by 5%.",
@@ -4744,8 +4951,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4780,7 +4987,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Primal Surge",
         "spell_id": 1272154,
         "visible_spell_id": null,
-        "icon": "ability_hunter_longevity"
+        "icon": "ability_hunter_longevity",
+        "icon_candidates": [
+          "ability_hunter_longevity"
+        ]
       },
       "pve_tooltip": "Kill Command grants 1 additional stack of Tip of the Spear.\nTip of the Spear's damage bonus is increased by 5%.",
       "pvp_tooltip": "Kill Command grants 1 additional stack of Tip of the Spear.\nTip of the Spear's damage bonus is increased by 5%.",
@@ -4804,8 +5014,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4837,7 +5047,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bloody Claws",
         "spell_id": 385737,
         "visible_spell_id": null,
-        "icon": "ability_druid_disembowel"
+        "icon": "ability_druid_disembowel",
+        "icon_candidates": [
+          "ability_druid_disembowel"
+        ]
       },
       "pve_tooltip": "Each stack of Mongoose Fury also increases the damage of Strike as One by 10%.",
       "pvp_tooltip": "Each stack of Mongoose Fury also increases the damage of Strike as One by 10%.",
@@ -4861,8 +5074,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4894,7 +5107,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wallop",
         "spell_id": 1252738,
         "visible_spell_id": null,
-        "icon": "ability_butcher_heavyhanded"
+        "icon": "ability_butcher_heavyhanded",
+        "icon_candidates": [
+          "ability_butcher_heavyhanded"
+        ]
       },
       "pve_tooltip": "Gaining a stack of Mongoose Fury has a 20% chance to increase the damage of your next Raptor Strike by 50%.",
       "pvp_tooltip": "Gaining a stack of Mongoose Fury has a 20% chance to increase the damage of your next Raptor Strike by 25%.",
@@ -4970,8 +5186,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5003,7 +5219,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Wildfire Bomb",
         "spell_id": 321290,
         "visible_spell_id": null,
-        "icon": "inv_eng_bombfire"
+        "icon": "inv_eng_bombfire",
+        "icon_candidates": [
+          "inv_eng_bombfire"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb deals 12% additional damage.",
       "pvp_tooltip": "Wildfire Bomb deals 12% additional damage.",
@@ -5046,8 +5265,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5081,7 +5300,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bonding",
         "spell_id": 1262442,
         "visible_spell_id": null,
-        "icon": "ability_hunter_beastwithin"
+        "icon": "ability_hunter_beastwithin",
+        "icon_candidates": [
+          "ability_hunter_beastwithin"
+        ]
       },
       "pve_tooltip": "Mastery increased by 3%.\nYou gain 5% increased Mastery from all Mastery sources.",
       "pvp_tooltip": "Mastery increased by 3%.\nYou gain 5% increased Mastery from all Mastery sources.",
@@ -5105,8 +5327,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5139,7 +5361,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sweeping Spear",
         "spell_id": 378950,
         "visible_spell_id": null,
-        "icon": "spell_warrior_wildstrike"
+        "icon": "spell_warrior_wildstrike",
+        "icon_candidates": [
+          "spell_warrior_wildstrike"
+        ]
       },
       "pve_tooltip": "Raptor Strike damage increased by 20%.",
       "pvp_tooltip": "Raptor Strike damage increased by 20%.",
@@ -5182,8 +5407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5217,7 +5442,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vulnerability",
         "spell_id": 1257011,
         "visible_spell_id": null,
-        "icon": "ability_rogue_findweakness"
+        "icon": "ability_rogue_findweakness",
+        "icon_candidates": [
+          "ability_rogue_findweakness"
+        ]
       },
       "pve_tooltip": "Raptor Strike and Boomstick deal 20% increased critical strike damage.",
       "pvp_tooltip": "Raptor Strike and Boomstick deal 20% increased critical strike damage.",
@@ -5241,8 +5469,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5276,7 +5504,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blackrock Munitions",
         "spell_id": 462036,
         "visible_spell_id": null,
-        "icon": "inv_ore_blackrock_nugget"
+        "icon": "inv_ore_blackrock_nugget",
+        "icon_candidates": [
+          "inv_ore_blackrock_nugget"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb deals 20% increased critical strike damage.",
       "pvp_tooltip": "Wildfire Bomb deals 20% increased critical strike damage.",
@@ -5300,8 +5531,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5333,7 +5564,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Outland Venom",
         "spell_id": 459939,
         "visible_spell_id": null,
-        "icon": "ability_hunter_potentvenom"
+        "icon": "ability_hunter_potentvenom",
+        "icon_candidates": [
+          "ability_hunter_potentvenom"
+        ]
       },
       "pve_tooltip": "Each damage over time effect on a target increases the critical strike damage they receive from you by 4%.",
       "pvp_tooltip": "Each damage over time effect on a target increases the critical strike damage they receive from you by 4%.",
@@ -5357,8 +5591,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5392,7 +5626,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Explosives Expert",
         "spell_id": 378937,
         "visible_spell_id": null,
-        "icon": "inv_misc_bomb_05"
+        "icon": "inv_misc_bomb_05",
+        "icon_candidates": [
+          "inv_misc_bomb_05"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
       "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
@@ -5435,8 +5672,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5471,28 +5708,31 @@ window.WOW_PVP_DATA = {
         "talent_name": "Takedown",
         "spell_id": 1250646,
         "visible_spell_id": null,
-        "icon": "inv12_ability_hunter_takedown"
+        "icon": "inv12_ability_hunter_takedown",
+        "icon_candidates": [
+          "inv12_ability_hunter_takedown"
+        ]
       },
-      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(600% of Attack Power) + (1200% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
-      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(340.875% of Attack Power) + (681.75% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
+      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing (600% of Attack Power) + (1200% of Attack Power) Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
+      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing (289.7438% of Attack Power) + (613.575% of Attack Power) Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 128,
-          "end": 132,
+          "start": 127,
+          "end": 131,
           "old_token": "1200",
-          "new_token": "681.75",
+          "new_token": "613.575",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
           ]
         },
         {
-          "start": 103,
-          "end": 106,
+          "start": 102,
+          "end": 105,
           "old_token": "600",
-          "new_token": "340.875",
+          "new_token": "289.7438",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5507,7 +5747,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "600",
-          "new": "340.875"
+          "new": "289.7438"
         },
         {
           "effect_indexes": [
@@ -5516,7 +5756,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "1200",
-          "new": "681.75"
+          "new": "613.575"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5529,10 +5769,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 12 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.5625,
+          "spell_pvp_multiplier": 0.50625,
           "amount_kind": "direct",
           "aura_factor": 1.01,
-          "final_pvp_multiplier": 0.568125,
+          "final_pvp_multiplier": 0.5113125,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5555,9 +5795,39 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1253859,
+              "talent_name": "Takedown",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.56,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1259945,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1250646,
+              "source_spell_id": 1253859,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1250646,
+                1253859
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.50625,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -5568,10 +5838,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 6 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.5625,
+          "spell_pvp_multiplier": 0.478125,
           "amount_kind": "direct",
           "aura_factor": 1.01,
-          "final_pvp_multiplier": 0.568125,
+          "final_pvp_multiplier": 0.48290625000000004,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5594,9 +5864,39 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1253862,
+              "talent_name": "Takedown",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.56,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1259949,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1250646,
+              "source_spell_id": 1253862,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1250646,
+                1253862
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.478125,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         }
       ],
@@ -5614,8 +5914,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5648,7 +5948,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Killer Companion",
         "spell_id": 378955,
         "visible_spell_id": null,
-        "icon": "ability_hunter_masterscall"
+        "icon": "ability_hunter_masterscall",
+        "icon_candidates": [
+          "ability_hunter_masterscall"
+        ]
       },
       "pve_tooltip": "All damage dealt by your pet is increased by 20%.",
       "pvp_tooltip": "All damage dealt by your pet is increased by 20%.",
@@ -5691,8 +5994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5725,7 +6028,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bombardier",
         "spell_id": 1311963,
         "visible_spell_id": null,
-        "icon": "inv_misc_blackironbomb"
+        "icon": "inv_misc_blackironbomb",
+        "icon_candidates": [
+          "inv_misc_blackironbomb"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb damage increased by 15%, critical strike chance increased by 15%, and critical damage dealt increased by 15%.",
       "pvp_tooltip": "Wildfire Bomb damage increased by 15%, critical strike chance increased by 15%, and critical damage dealt increased by 15%.",
@@ -5749,8 +6055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5782,7 +6088,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twin Fangs",
         "spell_id": 1272139,
         "visible_spell_id": null,
-        "icon": "ability_hunter_spearhead"
+        "icon": "ability_hunter_spearhead",
+        "icon_candidates": [
+          "ability_hunter_spearhead"
+        ]
       },
       "pve_tooltip": "Takedown grants 3 stacks of Tip of the Spear.",
       "pvp_tooltip": "Takedown grants 3 stacks of Tip of the Spear.",
@@ -5806,8 +6115,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5839,7 +6148,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Savagery",
         "spell_id": 1251790,
         "visible_spell_id": null,
-        "icon": "ability_hunter_ferociousinspiration"
+        "icon": "ability_hunter_ferociousinspiration",
+        "icon_candidates": [
+          "ability_hunter_ferociousinspiration"
+        ]
       },
       "pve_tooltip": "Takedown cooldown reduced by 30 sec.",
       "pvp_tooltip": "Takedown cooldown reduced by 30 sec.",
@@ -5882,8 +6194,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5916,7 +6228,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wildfire Infusion",
         "spell_id": 460198,
         "visible_spell_id": null,
-        "icon": "inv_misc_5potionbag_special"
+        "icon": "inv_misc_5potionbag_special",
+        "icon_candidates": [
+          "inv_misc_5potionbag_special"
+        ]
       },
       "pve_tooltip": "Kill Command damage increased by 15%.\nKill Command reduces the cooldown of Wildfire Bomb by 1.0 sec.",
       "pvp_tooltip": "Kill Command damage increased by 15%.\nKill Command reduces the cooldown of Wildfire Bomb by 1.0 sec.",
@@ -5940,8 +6255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5971,7 +6286,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Grenade Juggler",
         "spell_id": 459843,
         "visible_spell_id": null,
-        "icon": "inv_misc_mohawkgrenade"
+        "icon": "inv_misc_mohawkgrenade",
+        "icon_candidates": [
+          "inv_misc_mohawkgrenade"
+        ]
       },
       "pve_tooltip": "Boomstick increases the cooldown recovery rate of Wildfire Bomb by 60% for 8 sec.",
       "pvp_tooltip": "Boomstick increases the cooldown recovery rate of Wildfire Bomb by 60% for 8 sec.",
@@ -5995,8 +6313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6026,7 +6344,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wildfire Imbuement",
         "spell_id": 1252943,
         "visible_spell_id": null,
-        "icon": "spell_shaman_improvelavalash"
+        "icon": "spell_shaman_improvelavalash",
+        "icon_candidates": [
+          "spell_shaman_improvelavalash"
+        ]
       },
       "pve_tooltip": "Approximately 2 procs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40% of Attack Power) Fire damage for 10 sec.",
       "pvp_tooltip": "Approximately 2 procs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40.4% of Attack Power) Fire damage for 10 sec.",
@@ -6110,8 +6431,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6142,7 +6463,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flanked",
         "spell_id": 1256938,
         "visible_spell_id": null,
-        "icon": "ability_hunter_invigeration"
+        "icon": "ability_hunter_invigeration",
+        "icon_candidates": [
+          "ability_hunter_invigeration"
+        ]
       },
       "pve_tooltip": "Takedown damage increased by 50% and it now strikes 4 additional nearby targets.\nDuring Takedown, your attack speed is increased by 100%.",
       "pvp_tooltip": "Takedown damage increased by 50% and it now strikes 4 additional nearby targets.\nDuring Takedown, your attack speed is increased by 100%.",
@@ -6166,8 +6490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6197,7 +6521,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lethal Calibration",
         "spell_id": 1262409,
         "visible_spell_id": null,
-        "icon": "ability_siege_engineer_detonate"
+        "icon": "ability_siege_engineer_detonate",
+        "icon_candidates": [
+          "ability_siege_engineer_detonate"
+        ]
       },
       "pve_tooltip": "Wildfire Bomb reduces the cooldown of Boomstick by 2.0 sec for each enemy hit, up to 10 sec.",
       "pvp_tooltip": "Wildfire Bomb reduces the cooldown of Boomstick by 2.0 sec for each enemy hit, up to 10 sec.",
@@ -6221,8 +6548,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6252,7 +6579,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Razor Edge",
         "spell_id": 1253053,
         "visible_spell_id": null,
-        "icon": "spell_druid_bloodythrash"
+        "icon": "spell_druid_bloodythrash",
+        "icon_candidates": [
+          "spell_druid_bloodythrash"
+        ]
       },
       "pve_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
       "pvp_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
@@ -6295,8 +6625,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6324,7 +6654,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Raptor Swipe",
         "spell_id": 1259003,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_hunter_raptorswipe"
+        "icon": "inv12_apextalent_hunter_raptorswipe",
+        "icon_candidates": [
+          "inv12_apextalent_hunter_raptorswipe"
+        ]
       },
       "pve_tooltip": "Raptor Strike has a 25% chance to upgrade itself to a Raptor Swipe, dealing (280% of Attack Power) Physical damage to all enemies within 15 yds in front of you. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "Raptor Strike has a 25% chance to upgrade itself to a Raptor Swipe, dealing (339.36% of Attack Power) Physical damage to all enemies within 15 yds in front of you. Damage reduced beyond 5 targets.",
@@ -6410,8 +6743,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6439,7 +6772,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Raptor Swipe",
         "spell_id": 1259017,
         "visible_spell_id": null,
-        "icon": "ability_hunter_raptorstrike"
+        "icon": "ability_hunter_raptorstrike",
+        "icon_candidates": [
+          "ability_hunter_raptorstrike"
+        ]
       },
       "pve_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
       "pvp_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
@@ -6482,8 +6818,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6511,7 +6847,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Raptor Swipe",
         "spell_id": 1259019,
         "visible_spell_id": null,
-        "icon": "inv_raptortravelform"
+        "icon": "inv_raptortravelform",
+        "icon_candidates": [
+          "inv_raptortravelform"
+        ]
       },
       "pve_tooltip": "Raptor Strike now has a 100% chance to upgrade itself to a Raptor Swipe.\nRaptor Swipes that benefit from Tip of the Spear provoke an additional Strike as One at 300% effectiveness.",
       "pvp_tooltip": "Raptor Strike now has a 100% chance to upgrade itself to a Raptor Swipe.\nRaptor Swipes that benefit from Tip of the Spear provoke an additional Strike as One at 300% effectiveness.",
@@ -6535,8 +6874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6569,7 +6908,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sentinel",
         "spell_id": 1253599,
         "visible_spell_id": null,
-        "icon": "inv_ability_sentinelhunter_lunarstorm"
+        "icon": "inv_ability_sentinelhunter_lunarstorm",
+        "icon_candidates": [
+          "inv_ability_sentinelhunter_lunarstorm"
+        ]
       },
       "pve_tooltip": "Consuming Tip of the Spear has a 10% chance to summon the aid of a Sentinel Owl that descends from the skies and applies Sentinel's Mark to your target.\nSentinel's Mark\nYour next Wildfire Bomb deals 40% increased direct damage to the marked target.",
       "pvp_tooltip": "Consuming Tip of the Spear has a 10% chance to summon the aid of a Sentinel Owl that descends from the skies and applies Sentinel's Mark to your target.\nSentinel's Mark\nYour next Wildfire Bomb deals 40% increased direct damage to the marked target.",
@@ -6593,8 +6935,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6626,7 +6968,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Don't Look Back",
         "spell_id": 450373,
         "visible_spell_id": null,
-        "icon": "ability_racial_forceshield"
+        "icon": "ability_racial_forceshield",
+        "icon_candidates": [
+          "ability_racial_forceshield"
+        ]
       },
       "pve_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 10.0% of your maximum health.",
       "pvp_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 5% of your maximum health.",
@@ -6722,8 +7067,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6755,7 +7100,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moon's Blessing",
         "spell_id": 1253825,
         "visible_spell_id": null,
-        "icon": "spell_druid_lunarinspiration"
+        "icon": "spell_druid_lunarinspiration",
+        "icon_candidates": [
+          "spell_druid_lunarinspiration"
+        ]
       },
       "pve_tooltip": "Consuming Tip of the Spear has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Wildfire Bomb by 6.0 sec.",
       "pvp_tooltip": "Consuming Tip of the Spear has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Wildfire Bomb by 6.0 sec.",
@@ -6779,8 +7127,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6812,7 +7160,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sanctified Armaments",
         "spell_id": 1253831,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_arakkoa_c_01"
+        "icon": "inv_polearm_2h_arakkoa_c_01",
+        "icon_candidates": [
+          "inv_polearm_2h_arakkoa_c_01"
+        ]
       },
       "pve_tooltip": "An additional 15% of Raptor Strike's damage is dealt as Arcane damage over 6 sec.",
       "pvp_tooltip": "An additional 15% of Raptor Strike's damage is dealt as Arcane damage over 6 sec.",
@@ -6836,8 +7187,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6869,7 +7220,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moonlight Chakram",
         "spell_id": 1264902,
         "visible_spell_id": null,
-        "icon": "inv_ability_hunter_deathchakram"
+        "icon": "inv_ability_hunter_deathchakram",
+        "icon_candidates": [
+          "inv_ability_hunter_deathchakram"
+        ]
       },
       "pve_tooltip": "For 15 sec after casting Takedown, Takedown is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.",
       "pvp_tooltip": "For 15 sec after casting Takedown, Takedown is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.",
@@ -6887,10 +7241,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.7,
+          "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
           "aura_factor": 1.01,
-          "final_pvp_multiplier": 0.707,
+          "final_pvp_multiplier": 0.60095,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6915,9 +7269,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1266081,
+              "talent_name": "Moonlight Chakram",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264902,
+              "source_spell_id": 1266081,
+              "dependency_kind": "EMBEDDED",
+              "dependency_path": [
+                1264902,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 1266081,
+              "talent_name": "Radiant Edge",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264903,
+              "source_spell_id": 1266081,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1264903,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         },
         {
@@ -6969,8 +7386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7002,7 +7419,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stargazer",
         "spell_id": 1253751,
         "visible_spell_id": null,
-        "icon": "icon_7fx_nightborn_astromancer_blue"
+        "icon": "icon_7fx_nightborn_astromancer_blue",
+        "icon_candidates": [
+          "icon_7fx_nightborn_astromancer_blue"
+        ]
       },
       "pve_tooltip": "Consuming Tip of the Spear grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Consuming Tip of the Spear grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
@@ -7026,8 +7446,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7059,7 +7479,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Open Fire",
         "spell_id": 1253807,
         "visible_spell_id": null,
-        "icon": "spell_fire_flare"
+        "icon": "spell_fire_flare",
+        "icon_candidates": [
+          "spell_fire_flare"
+        ]
       },
       "pve_tooltip": "Fire damage dealt increased by 5%.",
       "pvp_tooltip": "Fire damage dealt increased by 5%.",
@@ -7083,8 +7506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7116,7 +7539,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Can't Miss, Won't Miss",
         "spell_id": 1253830,
         "visible_spell_id": null,
-        "icon": "ability_hunter_aimedshot"
+        "icon": "ability_hunter_aimedshot",
+        "icon_candidates": [
+          "ability_hunter_aimedshot"
+        ]
       },
       "pve_tooltip": "Tip of the Spear damage bonus increased by 4%.\nTakedown duration increased by 2 sec.",
       "pvp_tooltip": "Tip of the Spear damage bonus increased by 4%.\nTakedown duration increased by 2 sec.",
@@ -7140,8 +7566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7173,7 +7599,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Invigorating Pulse",
         "spell_id": 450379,
         "visible_spell_id": null,
-        "icon": "ability_mage_netherwindpresence"
+        "icon": "ability_mage_netherwindpresence",
+        "icon_candidates": [
+          "ability_mage_netherwindpresence"
+        ]
       },
       "pve_tooltip": "Kill Command grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
       "pvp_tooltip": "Kill Command grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
@@ -7197,8 +7626,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7230,7 +7659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Twilight Requiem",
         "spell_id": 1264904,
         "visible_spell_id": null,
-        "icon": "spell_nature_moonglow"
+        "icon": "spell_nature_moonglow",
+        "icon_candidates": [
+          "spell_nature_moonglow"
+        ]
       },
       "pve_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (200% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (202% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
@@ -7314,8 +7746,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7347,7 +7779,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stalk and Strike",
         "spell_id": 1266069,
         "visible_spell_id": null,
-        "icon": "ability_ambush"
+        "icon": "ability_ambush",
+        "icon_candidates": [
+          "ability_ambush"
+        ]
       },
       "pve_tooltip": "Throwing your Moonlight Chakram reduces the cooldown of Wildfire Bomb by 10 sec.",
       "pvp_tooltip": "Throwing your Moonlight Chakram reduces the cooldown of Wildfire Bomb by 10 sec.",
@@ -7371,8 +7806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7404,7 +7839,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arcane Talons",
         "spell_id": 1253846,
         "visible_spell_id": null,
-        "icon": "inv_10_specialreagentfoozles_tuskclaw-ice"
+        "icon": "inv_10_specialreagentfoozles_tuskclaw_ice",
+        "icon_candidates": [
+          "inv_10_specialreagentfoozles_tuskclaw_ice",
+          "inv_10_specialreagentfoozles_tuskclaw-ice"
+        ]
       },
       "pve_tooltip": "Sentinel's Mark further increases the damage of Wildfire Bomb by 50%",
       "pvp_tooltip": "Sentinel's Mark further increases the damage of Wildfire Bomb by 50%",
@@ -7428,8 +7867,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7461,7 +7900,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lunar Calling",
         "spell_id": 1253852,
         "visible_spell_id": null,
-        "icon": "ability_hunter_sentinelowl"
+        "icon": "ability_hunter_sentinelowl",
+        "icon_candidates": [
+          "ability_hunter_sentinelowl"
+        ]
       },
       "pve_tooltip": "Takedown summons your Sentinel Owl and your chance to summon your Sentinel Owl is increased by an additional 10% during Takedown.",
       "pvp_tooltip": "Takedown summons your Sentinel Owl and your chance to summon your Sentinel Owl is increased by an additional 10% during Takedown.",
@@ -7485,8 +7927,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7518,7 +7960,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Conditioning",
         "spell_id": 1253887,
         "visible_spell_id": null,
-        "icon": "ability_racial_runningwild"
+        "icon": "ability_racial_runningwild",
+        "icon_candidates": [
+          "ability_racial_runningwild"
+        ]
       },
       "pve_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
       "pvp_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
@@ -7542,8 +7987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7575,7 +8020,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scout's Vigil",
         "spell_id": 1253892,
         "visible_spell_id": null,
-        "icon": "sha_ability_rogue_bloodyeye"
+        "icon": "sha_ability_rogue_bloodyeye",
+        "icon_candidates": [
+          "sha_ability_rogue_bloodyeye"
+        ]
       },
       "pve_tooltip": "Enemy detection radius reduced by 10 yds.",
       "pvp_tooltip": "Enemy detection radius reduced by 10 yds.",
@@ -7599,8 +8047,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7632,7 +8080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Radiant Edge",
         "spell_id": 1264903,
         "visible_spell_id": null,
-        "icon": "inv_misc_nightelfglaive"
+        "icon": "inv_misc_nightelfglaive",
+        "icon_candidates": [
+          "inv_misc_nightelfglaive"
+        ]
       },
       "pve_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
       "pvp_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
@@ -7647,7 +8098,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 284.4,
-          "new": 201.07079999999996,
+          "new": 170.91017999999997,
           "full_tooltip_match_count": 0
         }
       ],
@@ -7661,10 +8112,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
-          "spell_pvp_multiplier": 0.7,
+          "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
           "aura_factor": 1.01,
-          "final_pvp_multiplier": 0.707,
+          "final_pvp_multiplier": 0.60095,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7689,9 +8140,72 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "simc"
           ],
-          "source_notes": [],
+          "source_notes": [
+            {
+              "spell_id": 1266081,
+              "talent_name": "Moonlight Chakram",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264902,
+              "source_spell_id": 1266081,
+              "dependency_kind": "EMBEDDED",
+              "dependency_path": [
+                1264902,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "spelldesc_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            },
+            {
+              "spell_id": 1266081,
+              "talent_name": "Radiant Edge",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 0.7,
+              "effect_text": "School Damage (2): physical",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1278279,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 1264903,
+              "source_spell_id": 1266081,
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                1264903,
+                1264949,
+                1266081
+              ],
+              "dependency_relations": [
+                "tooltip_value_ref",
+                "tooltip_value_ref"
+              ],
+              "current_build": "12.1.0.69933",
+              "effect_index": 1,
+              "current_multiplier": 0.595,
+              "current_effect_text": "School Damage (2): physical",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
+          ],
           "confidence": "high"
         }
       ],
@@ -7709,8 +8223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7743,7 +8257,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lunar Storm",
         "spell_id": 1253732,
         "visible_spell_id": null,
-        "icon": "artifactability_balancedruid_moonandstars"
+        "icon": "artifactability_balancedruid_moonandstars",
+        "icon_candidates": [
+          "artifactability_balancedruid_moonandstars"
+        ]
       },
       "pve_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (200% of Attack Power) Arcane damage to enemies within 10 yds.",
       "pvp_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (202% of Attack Power) Arcane damage to enemies within 10 yds.",
@@ -7827,8 +8344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7861,7 +8378,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Howl of the Pack Leader",
         "spell_id": 471876,
         "visible_spell_id": null,
-        "icon": "inv_ability_packleaderhunter_vicioushunt"
+        "icon": "inv_ability_packleaderhunter_vicioushunt",
+        "icon_candidates": [
+          "inv_ability_packleaderhunter_vicioushunt"
+        ]
       },
       "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to 8 nearby enemies.",
       "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (727.2% of Attack Power) damage to nearby enemies and an additional (606% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to 8 nearby enemies.",
@@ -8044,8 +8564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8077,7 +8597,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pack Mentality",
         "spell_id": 472358,
         "visible_spell_id": null,
-        "icon": "spell_hunter_lonewolf"
+        "icon": "spell_hunter_lonewolf",
+        "icon_candidates": [
+          "spell_hunter_lonewolf"
+        ]
       },
       "pve_tooltip": "Howl of the Pack Leader increases the damage of your Kill Command by 50%.\nSummoning a Beast reduces the cooldown of Wildfire Bomb by 6.0 sec.",
       "pvp_tooltip": "Howl of the Pack Leader increases the damage of your Kill Command by 50%.\nSummoning a Beast reduces the cooldown of Wildfire Bomb by 6.0 sec.",
@@ -8101,8 +8624,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8134,7 +8657,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dire Summons",
         "spell_id": 472352,
         "visible_spell_id": null,
-        "icon": "inv_misc_horn_01"
+        "icon": "inv_misc_horn_01",
+        "icon_candidates": [
+          "inv_misc_horn_01"
+        ]
       },
       "pve_tooltip": "Kill Command reduces the cooldown of Howl of the Pack Leader by 1.5 sec.\nRaptor Strike reduces the cooldown of Howl of the Pack Leader by 1.0 sec.\n(700ms cooldown)",
       "pvp_tooltip": "Kill Command reduces the cooldown of Howl of the Pack Leader by 1.5 sec.\nRaptor Strike reduces the cooldown of Howl of the Pack Leader by 1.0 sec.\n(700ms cooldown)",
@@ -8158,8 +8684,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8191,7 +8717,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Better Together",
         "spell_id": 472357,
         "visible_spell_id": null,
-        "icon": "ability_hunter_pathfinding2"
+        "icon": "ability_hunter_pathfinding2",
+        "icon_candidates": [
+          "ability_hunter_pathfinding2"
+        ]
       },
       "pve_tooltip": "Damage dealt by your pet is increased by 5%.\nRaptor Strike damage increased by 5%.",
       "pvp_tooltip": "Damage dealt by your pet is increased by 5%.\nRaptor Strike damage increased by 5%.",
@@ -8215,8 +8744,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8248,7 +8777,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Slicked Shoes",
         "spell_id": 472719,
         "visible_spell_id": null,
-        "icon": "ability_heroicleap"
+        "icon": "ability_heroicleap",
+        "icon_candidates": [
+          "ability_heroicleap"
+        ]
       },
       "pve_tooltip": "When Disengage removes a movement impairing effect, its cooldown is reduced by 4 sec.",
       "pvp_tooltip": "When Disengage removes a movement impairing effect, its cooldown is reduced by 4 sec.",
@@ -8272,8 +8804,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8305,7 +8837,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Masterful Call",
         "spell_id": 1268705,
         "visible_spell_id": null,
-        "icon": "ability_hunter_masterscall"
+        "icon": "ability_hunter_masterscall",
+        "icon_candidates": [
+          "ability_hunter_masterscall"
+        ]
       },
       "pve_tooltip": "The duration of Master's Call is increased by 2 sec and it increases the movement speed of its target by 20%.",
       "pvp_tooltip": "The duration of Master's Call is increased by 2 sec and it increases the movement speed of its target by 20%.",
@@ -8329,8 +8864,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8362,7 +8897,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ursine Fury",
         "spell_id": 472476,
         "visible_spell_id": null,
-        "icon": "spell_druid_bearhug"
+        "icon": "spell_druid_bearhug",
+        "icon_candidates": [
+          "spell_druid_bearhug"
+        ]
       },
       "pve_tooltip": "When your Bear is summoned, it is joined by 2 Dire Beasts.",
       "pvp_tooltip": "When your Bear is summoned, it is joined by 2 Dire Beasts.",
@@ -8386,8 +8924,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8419,7 +8957,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sharpened Claws",
         "spell_id": 472524,
         "visible_spell_id": null,
-        "icon": "ability_druid_swipe"
+        "icon": "ability_druid_swipe",
+        "icon_candidates": [
+          "ability_druid_swipe"
+        ]
       },
       "pve_tooltip": "The damage of your Bear's Rend Flesh is increased by 15%.",
       "pvp_tooltip": "The damage of your Bear's Rend Flesh is increased by 15%.",
@@ -8443,8 +8984,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8476,7 +9017,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fury of the Wyvern",
         "spell_id": 472550,
         "visible_spell_id": null,
-        "icon": "spell_druid_feralchargecat"
+        "icon": "spell_druid_feralchargecat",
+        "icon_candidates": [
+          "spell_druid_feralchargecat"
+        ]
       },
       "pve_tooltip": "Your pet's attacks increase your Wyvern's damage bonus by 1%, up to 10%.\nCasting Wildfire Bomb extends the duration of your Wyvern by 5.0 sec, up to 10 additional sec.",
       "pvp_tooltip": "Your pet's attacks increase your Wyvern's damage bonus by 1%, up to 10%.\nCasting Wildfire Bomb extends the duration of your Wyvern by 5.0 sec, up to 10 additional sec.",
@@ -8652,8 +9196,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8685,7 +9229,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hogstrider",
         "spell_id": 472639,
         "visible_spell_id": null,
-        "icon": "inv_misc_boarshead"
+        "icon": "inv_misc_boarshead",
+        "icon_candidates": [
+          "inv_misc_boarshead"
+        ]
       },
       "pve_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 5%, up to 20%.",
       "pvp_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 2.5%, up to 20%.",
@@ -8704,16 +9251,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 100.0,
-          "new": 50.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             2
@@ -8785,7 +9322,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8799,8 +9336,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8832,7 +9369,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lethal Barbs",
         "spell_id": 1264781,
         "visible_spell_id": null,
-        "icon": "ability_hunter_criticalshot"
+        "icon": "ability_hunter_criticalshot",
+        "icon_candidates": [
+          "ability_hunter_criticalshot"
+        ]
       },
       "pve_tooltip": "Approximately 20 procs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
       "pvp_tooltip": "Approximately 20 procs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
@@ -8856,8 +9396,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8889,7 +9429,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "No Mercy",
         "spell_id": 472660,
         "visible_spell_id": null,
-        "icon": "ability_hunter_goforthethroat"
+        "icon": "ability_hunter_goforthethroat",
+        "icon_candidates": [
+          "ability_hunter_goforthethroat"
+        ]
       },
       "pve_tooltip": "Your Bleed effects deal 35% increased damage.",
       "pvp_tooltip": "Your Bleed effects deal 35% increased damage.",
@@ -8913,8 +9456,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8946,7 +9489,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shell Cover",
         "spell_id": 472707,
         "visible_spell_id": null,
-        "icon": "inv_babyturtle2"
+        "icon": "inv_babyturtle2",
+        "icon_candidates": [
+          "inv_babyturtle2"
+        ]
       },
       "pve_tooltip": "Survival of the Fittest now summons a Turtle to aid you, further increasing its damage reduction effect by 10%.",
       "pvp_tooltip": "Survival of the Fittest now summons a Turtle to aid you, further increasing its damage reduction effect by 10%.",
@@ -8970,8 +9516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9003,7 +9549,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hoof and Blade",
         "spell_id": 1264797,
         "visible_spell_id": null,
-        "icon": "ability_hunter_beastwithin"
+        "icon": "ability_hunter_beastwithin",
+        "icon_candidates": [
+          "ability_hunter_beastwithin"
+        ]
       },
       "pve_tooltip": "Hogstrider further increases the damage of Boomstick by 2%.",
       "pvp_tooltip": "Hogstrider further increases the damage of Boomstick by 2%.",
@@ -9027,8 +9576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9060,7 +9609,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wyvern's Gaze",
         "spell_id": 1264792,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_assualtaspects"
+        "icon": "ability_deathwing_assualtaspects",
+        "icon_candidates": [
+          "ability_deathwing_assualtaspects"
+        ]
       },
       "pve_tooltip": "The damage bonus from your Wyvern now lasts an additional 2.0 sec.",
       "pvp_tooltip": "The damage bonus from your Wyvern now lasts an additional 2.0 sec.",
@@ -9084,8 +9636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9117,7 +9669,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sharpened Fangs",
         "spell_id": 1264775,
         "visible_spell_id": null,
-        "icon": "inv_misc_monsterfang_02"
+        "icon": "inv_misc_monsterfang_02",
+        "icon_candidates": [
+          "inv_misc_monsterfang_02"
+        ]
       },
       "pve_tooltip": "Your mastery is increased by 3%.\nWildfire Bomb deals an additional 15% increased damage to its primary target.",
       "pvp_tooltip": "Your mastery is increased by 3%.\nWildfire Bomb deals an additional 15% increased damage to its primary target.",
@@ -9141,8 +9696,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9175,7 +9730,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stampede!",
         "spell_id": 472741,
         "visible_spell_id": null,
-        "icon": "ability_hunter_bestialdiscipline"
+        "icon": "ability_hunter_bestialdiscipline",
+        "icon_candidates": [
+          "ability_hunter_bestialdiscipline"
+        ]
       },
       "pve_tooltip": "Casting Takedown grants Howl of the Pack Leader and causes your next Kill Command to rouse the nearby wildlife into a Stampede, charging your target and dealing [(150% of Attack Power) * 9] Physical damage over 7 sec.\n(5s cooldown)",
       "pvp_tooltip": "Casting Takedown grants Howl of the Pack Leader and causes your next Kill Command to rouse the nearby wildlife into a Stampede, charging your target and dealing [(151.5% of Attack Power) * 9] Physical damage over 7 sec.\n(5s cooldown)",
@@ -9528,9 +10086,130 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "spell_id": 1253859,
+      "talent_name": "Takedown",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.56,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1259945,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1250646,
+      "source_spell_id": 1253859,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        1250646,
+        1253859
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.50625,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 1253862,
+      "talent_name": "Takedown",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.56,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1259949,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1250646,
+      "source_spell_id": 1253862,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        1250646,
+        1253862
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.478125,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 1266081,
+      "talent_name": "Moonlight Chakram",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.7,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1278279,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1264902,
+      "source_spell_id": 1266081,
+      "dependency_kind": "EMBEDDED",
+      "dependency_path": [
+        1264902,
+        1264949,
+        1266081
+      ],
+      "dependency_relations": [
+        "spelldesc_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.595,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    },
+    {
+      "spell_id": 1266081,
+      "talent_name": "Radiant Edge",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 0.7,
+      "effect_text": "School Damage (2): physical",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1278279,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 1264903,
+      "source_spell_id": 1266081,
+      "dependency_kind": "REFERENCED",
+      "dependency_path": [
+        1264903,
+        1264949,
+        1266081
+      ],
+      "dependency_relations": [
+        "tooltip_value_ref",
+        "tooltip_value_ref"
+      ],
+      "current_build": "12.1.0.69933",
+      "effect_index": 1,
+      "current_multiplier": 0.595,
+      "current_effect_text": "School Damage (2): physical",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    }
+  ],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-22T19:26:28.539160+00:00",
+  "generated_at": "2026-09-24T11:44:17.309093+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 19,
@@ -9543,11 +10222,132 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "spell_id": 1253859,
+        "talent_name": "Takedown",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.56,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1259945,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1250646,
+        "source_spell_id": 1253859,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1250646,
+          1253859
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.50625,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 1253862,
+        "talent_name": "Takedown",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.56,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1259949,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1250646,
+        "source_spell_id": 1253862,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1250646,
+          1253862
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.478125,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 1266081,
+        "talent_name": "Moonlight Chakram",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.7,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1278279,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1264902,
+        "source_spell_id": 1266081,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1264902,
+          1264949,
+          1266081
+        ],
+        "dependency_relations": [
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.595,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      },
+      {
+        "spell_id": 1266081,
+        "talent_name": "Radiant Edge",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 0.7,
+        "effect_text": "School Damage (2): physical",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1278279,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1264903,
+        "source_spell_id": 1266081,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1264903,
+          1264949,
+          1266081
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ],
+        "current_build": "12.1.0.69933",
+        "effect_index": 1,
+        "current_multiplier": 0.595,
+        "current_effect_text": "School Damage (2): physical",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

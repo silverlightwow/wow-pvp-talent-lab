@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vengeful Retreat",
         "spell_id": 198793,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat2"
+        "icon": "ability_demonhunter_vengefulretreat2",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat2"
+        ]
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
       "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 50% for 3 sec].",
@@ -126,8 +129,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -158,7 +161,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidblade",
         "spell_id": 1245412,
         "visible_spell_id": null,
-        "icon": "inv_12_voiddh_ability_voidblade"
+        "icon": "inv_12_voiddh_ability_voidblade",
+        "icon_candidates": [
+          "inv_12_voiddh_ability_voidblade"
+        ]
       },
       "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (225% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
       "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (332.235% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
@@ -244,8 +250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -276,7 +282,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sigil of Misery",
         "spell_id": 207684,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_sigilofmisery"
+        "icon": "ability_demonhunter_sigilofmisery",
+        "icon_candidates": [
+          "ability_demonhunter_sigilofmisery"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
@@ -300,8 +309,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -333,7 +342,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Vengeful Bonds",
         "spell_id": 320635,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_vengefulretreat2"
+        "icon": "ability_demonhunter_vengefulretreat2",
+        "icon_candidates": [
+          "ability_demonhunter_vengefulretreat2"
+        ]
       },
       "pve_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 70% for 3 sec.",
       "pvp_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 50% for 3 sec.",
@@ -409,8 +421,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -444,7 +456,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Unrestrained Fury",
         "spell_id": 320770,
         "visible_spell_id": null,
-        "icon": "ability_warrior_improveddisciplines"
+        "icon": "ability_warrior_improveddisciplines",
+        "icon_candidates": [
+          "ability_warrior_improveddisciplines"
+        ]
       },
       "pve_tooltip": "Increases maximum Fury by 20.",
       "pvp_tooltip": "Increases maximum Fury by 20.",
@@ -468,8 +483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -503,7 +518,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shattered Restoration",
         "spell_id": 389824,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulsiphon"
+        "icon": "ability_warlock_soulsiphon",
+        "icon_candidates": [
+          "ability_warlock_soulsiphon"
+        ]
       },
       "pve_tooltip": "The healing of Shattered Souls is increased by 10%.",
       "pvp_tooltip": "The healing of Shattered Souls is increased by 10%.",
@@ -527,8 +545,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -560,7 +578,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Sigil of Misery",
         "spell_id": 320418,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_sigilofmisery"
+        "icon": "ability_demonhunter_sigilofmisery",
+        "icon_candidates": [
+          "ability_demonhunter_sigilofmisery"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
       "pvp_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
@@ -584,8 +605,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -619,7 +640,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Bouncing Glaives",
         "spell_id": 320386,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_throwglaive"
+        "icon": "ability_demonhunter_throwglaive",
+        "icon_candidates": [
+          "ability_demonhunter_throwglaive"
+        ]
       },
       "pve_tooltip": "Throw Glaive ricochets to 1 additional target.",
       "pvp_tooltip": "Throw Glaive ricochets to 1 additional target.",
@@ -643,8 +667,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -678,7 +702,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imprison",
         "spell_id": 217832,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_imprison"
+        "icon": "ability_demonhunter_imprison",
+        "icon_candidates": [
+          "ability_demonhunter_imprison"
+        ]
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
       "pvp_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
@@ -702,8 +729,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -737,7 +764,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Charred Warblades",
         "spell_id": 213010,
         "visible_spell_id": null,
-        "icon": "spell_fire_incinerate"
+        "icon": "spell_fire_incinerate",
+        "icon_candidates": [
+          "spell_fire_incinerate"
+        ]
       },
       "pve_tooltip": "You heal for 3% of all Fire damage you deal.",
       "pvp_tooltip": "You heal for 3% of all Fire damage you deal.",
@@ -761,8 +791,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -795,7 +825,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Void Nova",
         "spell_id": 1234195,
         "visible_spell_id": null,
-        "icon": "inv_12_voiddh_ability_voidnova"
+        "icon": "inv_12_voiddh_ability_voidnova",
+        "icon_candidates": [
+          "inv_12_voiddh_ability_voidnova"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nUnleash an eruption of void energy, dealing (27.4816% of Spell Power) Cosmic damage and stunning your target and all nearby enemies for 2 sec.",
       "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nUnleash an eruption of void energy, dealing (27.4816% of Spell Power) Cosmic damage and stunning your target and all nearby enemies for 2 sec.",
@@ -819,8 +852,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -855,7 +888,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Disrupt",
         "spell_id": 320361,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_consumemagic"
+        "icon": "ability_demonhunter_consumemagic",
+        "icon_candidates": [
+          "ability_demonhunter_consumemagic"
+        ]
       },
       "pve_tooltip": "Increases the range of Disrupt to 10 yds.",
       "pvp_tooltip": "Increases the range of Disrupt to 10 yds.",
@@ -879,8 +915,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -915,7 +951,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Consume Magic",
         "spell_id": 278326,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
       "pvp_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
@@ -939,8 +978,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -973,7 +1012,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aldrachi Design",
         "spell_id": 391409,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactaldrochi_d_01dual"
+        "icon": "inv_glaive_1h_artifactaldrochi_d_01dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactaldrochi_d_01dual"
+        ]
       },
       "pve_tooltip": "Increases your chance to parry by 3%.",
       "pvp_tooltip": "Increases your chance to parry by 3%.",
@@ -997,8 +1039,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1030,7 +1072,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Ire",
         "spell_id": 1266296,
         "visible_spell_id": null,
-        "icon": "ability_bossfellord_felspike"
+        "icon": "ability_bossfellord_felspike",
+        "icon_candidates": [
+          "ability_bossfellord_felspike"
+        ]
       },
       "pve_tooltip": "The primary target of Void Nova is stunned for an additional 2 sec.",
       "pvp_tooltip": "The primary target of Void Nova is stunned for an additional 1 sec.",
@@ -1101,8 +1146,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1136,7 +1181,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master of the Glaive",
         "spell_id": 389763,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_demonhunter_a_01"
+        "icon": "inv_glaive_1h_demonhunter_a_01",
+        "icon_candidates": [
+          "inv_glaive_1h_demonhunter_a_01"
+        ]
       },
       "pve_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
       "pvp_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 30% for 6 sec.",
@@ -1212,8 +1260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1247,7 +1295,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Champion of the Glaive",
         "spell_id": 429211,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_battledungeon_c_01"
+        "icon": "inv_glaive_1h_battledungeon_c_01",
+        "icon_candidates": [
+          "inv_glaive_1h_battledungeon_c_01"
+        ]
       },
       "pve_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
       "pvp_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
@@ -1271,8 +1322,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1304,7 +1355,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Disrupting Fury",
         "spell_id": 183782,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_consumemagic"
+        "icon": "ability_demonhunter_consumemagic",
+        "icon_candidates": [
+          "ability_demonhunter_consumemagic"
+        ]
       },
       "pve_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
       "pvp_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
@@ -1328,8 +1382,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1364,7 +1418,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blazing Path",
         "spell_id": 320416,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_felrush"
+        "icon": "ability_demonhunter_felrush",
+        "icon_candidates": [
+          "ability_demonhunter_felrush"
+        ]
       },
       "pve_tooltip": "Shift gains an additional charge.",
       "pvp_tooltip": "Shift gains an additional charge.",
@@ -1388,8 +1445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1419,7 +1476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swallowed Anger",
         "spell_id": 320313,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
       "pvp_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
@@ -1443,8 +1503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1479,7 +1539,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aura of Pain",
         "spell_id": 207347,
         "visible_spell_id": null,
-        "icon": "spell_fire_felimmolation"
+        "icon": "spell_fire_felimmolation",
+        "icon_candidates": [
+          "spell_fire_felimmolation"
+        ]
       },
       "pve_tooltip": "Soul Immolation grants 5 additional Fury over its duration.",
       "pvp_tooltip": "Soul Immolation grants 5 additional Fury over its duration.",
@@ -1503,8 +1566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1536,7 +1599,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Live by the Glaive",
         "spell_id": 428607,
         "visible_spell_id": null,
-        "icon": "inv_sword_108"
+        "icon": "inv_sword_108",
+        "icon_candidates": [
+          "inv_sword_108"
+        ]
       },
       "pve_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "pvp_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -1560,8 +1626,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1594,7 +1660,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pursuit",
         "spell_id": 320654,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_infernalstrike2"
+        "icon": "ability_demonhunter_infernalstrike2",
+        "icon_candidates": [
+          "ability_demonhunter_infernalstrike2"
+        ]
       },
       "pve_tooltip": "Mastery increases your movement speed.",
       "pvp_tooltip": "Mastery increases your movement speed.",
@@ -1618,8 +1687,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1654,7 +1723,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Rending",
         "spell_id": 204909,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
       "pvp_tooltip": "Leech increased by 8.3333%.\nGain an additional 8.3333% leech while Metamorphosis is active.",
@@ -1838,8 +1910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1871,7 +1943,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Felfire Haste",
         "spell_id": 389846,
         "visible_spell_id": null,
-        "icon": "inv_boots_cloth_35v4"
+        "icon": "inv_boots_cloth_35v4",
+        "icon_candidates": [
+          "inv_boots_cloth_35v4"
+        ]
       },
       "pve_tooltip": "Shift increases your movement speed by 10% for 8 sec.",
       "pvp_tooltip": "Shift increases your movement speed by 10% for 8 sec.",
@@ -1895,8 +1970,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1930,10 +2005,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Armor",
         "spell_id": 320331,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_immolation"
+        "icon": "ability_demonhunter_immolation",
+        "icon_candidates": [
+          "ability_demonhunter_immolation"
+        ]
       },
-      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
-      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
+      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
+      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1944,8 +2022,8 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
-          "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
+          "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer (6% of Attack Power) Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer (6% of Attack Power) Fire damage.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -1953,8 +2031,8 @@ window.WOW_PVP_DATA = {
         },
         {
           "rank": 2,
-          "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
-          "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
+          "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer (12% of Attack Power) Fire damage.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -1973,8 +2051,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2006,7 +2084,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burn It Out",
         "spell_id": 1266316,
         "visible_spell_id": null,
-        "icon": "spell_fel_elementaldevastation"
+        "icon": "spell_fel_elementaldevastation",
+        "icon_candidates": [
+          "spell_fel_elementaldevastation"
+        ]
       },
       "pve_tooltip": "Soul Immolation removes 1 Disease effect.",
       "pvp_tooltip": "Soul Immolation removes 1 Disease effect.",
@@ -2030,8 +2111,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2063,7 +2144,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Cleanse",
         "spell_id": 1266496,
         "visible_spell_id": null,
-        "icon": "spell_nature_removecurse"
+        "icon": "spell_nature_removecurse",
+        "icon_candidates": [
+          "spell_nature_removecurse"
+        ]
       },
       "pve_tooltip": "Soul Immolation removes 1 Curse effect.",
       "pvp_tooltip": "Soul Immolation removes 1 Curse effect.",
@@ -2087,8 +2171,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2121,7 +2205,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Lost in Darkness",
         "spell_id": 389849,
         "visible_spell_id": null,
-        "icon": "inv_pet_inquisitoreye"
+        "icon": "inv_pet_inquisitoreye",
+        "icon_candidates": [
+          "inv_pet_inquisitoreye"
+        ]
       },
       "pve_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
       "pvp_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
@@ -2145,8 +2232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2180,7 +2267,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Illidari Knowledge",
         "spell_id": 389696,
         "visible_spell_id": null,
-        "icon": "spell_mage_overpowered"
+        "icon": "spell_mage_overpowered",
+        "icon_candidates": [
+          "spell_mage_overpowered"
+        ]
       },
       "pve_tooltip": "Reduces magic damage taken by 6%.",
       "pvp_tooltip": "Reduces magic damage taken by 8%.",
@@ -2302,8 +2392,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2338,7 +2428,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Guile",
         "spell_id": 1223171,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demonform"
+        "icon": "spell_shadow_demonform",
+        "icon_candidates": [
+          "spell_shadow_demonform"
+        ]
       },
       "pve_tooltip": "The cast range of Voidblade, Consume Magic, and Disrupt are increased by 20 yds.",
       "pvp_tooltip": "The cast range of Voidblade, Consume Magic, and Disrupt are increased by 20 yds.",
@@ -2362,8 +2455,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2398,7 +2491,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Will of the Illidari",
         "spell_id": 389695,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_spectank"
+        "icon": "ability_demonhunter_spectank",
+        "icon_candidates": [
+          "ability_demonhunter_spectank"
+        ]
       },
       "pve_tooltip": "Increases maximum health by 6%.",
       "pvp_tooltip": "Increases maximum health by 3.6%.",
@@ -2510,8 +2606,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2543,7 +2639,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Internal Struggle",
         "spell_id": 393822,
         "visible_spell_id": null,
-        "icon": "ability_warlock_demonicpower"
+        "icon": "ability_warlock_demonicpower",
+        "icon_candidates": [
+          "ability_warlock_demonicpower"
+        ]
       },
       "pve_tooltip": "Increases your mastery by (2 * $mas)%.",
       "pvp_tooltip": "Increases your mastery by (2 * $mas)%.",
@@ -2567,8 +2666,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2602,7 +2701,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Furious",
         "spell_id": 1266326,
         "visible_spell_id": null,
-        "icon": "ability_warlock_shadowfurytga"
+        "icon": "ability_warlock_shadowfurytga",
+        "icon_candidates": [
+          "ability_warlock_shadowfurytga"
+        ]
       },
       "pve_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
       "pvp_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
@@ -2626,8 +2728,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2661,7 +2763,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Remorseless",
         "spell_id": 1266328,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_npc_d_02"
+        "icon": "inv_glaive_1h_npc_d_02",
+        "icon_candidates": [
+          "inv_glaive_1h_npc_d_02"
+        ]
       },
       "pve_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
       "pvp_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
@@ -2685,8 +2790,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2718,7 +2823,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "First In, Last Out",
         "spell_id": 1266497,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_demonictrample"
+        "icon": "ability_demonhunter_demonictrample",
+        "icon_candidates": [
+          "ability_demonhunter_demonictrample"
+        ]
       },
       "pve_tooltip": "Shift grants you a rapidly decaying shield equal to 6% of your maximum health.",
       "pvp_tooltip": "Shift grants you a rapidly decaying shield equal to 6% of your maximum health.",
@@ -2742,8 +2850,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2775,7 +2883,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Erratic Felheart",
         "spell_id": 391397,
         "visible_spell_id": null,
-        "icon": "inv_archaeology_70_crystallineeyeofundravius"
+        "icon": "inv_archaeology_70_crystallineeyeofundravius",
+        "icon_candidates": [
+          "inv_archaeology_70_crystallineeyeofundravius"
+        ]
       },
       "pve_tooltip": "The cooldown of Shift is reduced by 2 sec.",
       "pvp_tooltip": "The cooldown of Shift is reduced by 2 sec.",
@@ -2818,8 +2929,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2849,7 +2960,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Final Breath",
         "spell_id": 1266500,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamebreath"
+        "icon": "spell_fire_felflamebreath",
+        "icon_candidates": [
+          "spell_fire_felflamebreath"
+        ]
       },
       "pve_tooltip": "Fully channeling Void Ray increases the damage of its final tick by 300%.",
       "pvp_tooltip": "Fully channeling Void Ray increases the damage of its final tick by 300%.",
@@ -2873,8 +2987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2907,7 +3021,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Darkness",
         "spell_id": 196718,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_darkness"
+        "icon": "ability_demonhunter_darkness",
+        "icon_candidates": [
+          "ability_demonhunter_darkness"
+        ]
       },
       "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
       "pvp_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
@@ -2983,8 +3100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3014,7 +3131,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demon Muzzle",
         "spell_id": 1266329,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonicservitude"
+        "icon": "spell_warlock_demonicservitude",
+        "icon_candidates": [
+          "spell_warlock_demonicservitude"
+        ]
       },
       "pve_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
       "pvp_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 5% for 12 sec.",
@@ -3090,8 +3210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3123,7 +3243,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Splitter",
         "spell_id": 1266330,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soulswap"
+        "icon": "ability_warlock_soulswap",
+        "icon_candidates": [
+          "ability_warlock_soulswap"
+        ]
       },
       "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
       "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
@@ -3166,8 +3289,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3197,7 +3320,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wings of Wrath",
         "spell_id": 1266493,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_glide"
+        "icon": "ability_demonhunter_glide",
+        "icon_candidates": [
+          "ability_demonhunter_glide"
+        ]
       },
       "pve_tooltip": "Glide speed increased by 10%.",
       "pvp_tooltip": "Glide speed increased by 10%.",
@@ -3221,8 +3347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3252,7 +3378,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Long Night",
         "spell_id": 389781,
         "visible_spell_id": null,
-        "icon": "spell_fire_twilightimmolation"
+        "icon": "spell_fire_twilightimmolation",
+        "icon_candidates": [
+          "spell_fire_twilightimmolation"
+        ]
       },
       "pve_tooltip": "Increases the duration of Darkness by 3 sec.",
       "pvp_tooltip": "Increases the duration of Darkness by 3 sec.",
@@ -3276,8 +3405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3307,7 +3436,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pitch Black",
         "spell_id": 389783,
         "visible_spell_id": null,
-        "icon": "sha_spell_warlock_demonsoul"
+        "icon": "sha_spell_warlock_demonsoul",
+        "icon_candidates": [
+          "sha_spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
       "pvp_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
@@ -3331,8 +3463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3362,7 +3494,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Resilience",
         "spell_id": 1266307,
         "visible_spell_id": null,
-        "icon": "inv_summondemonictyrant"
+        "icon": "inv_summondemonictyrant",
+        "icon_candidates": [
+          "inv_summondemonictyrant"
+        ]
       },
       "pve_tooltip": "Blur gains 1 additional charge.",
       "pvp_tooltip": "Blur gains 1 additional charge.",
@@ -3386,8 +3521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3418,7 +3553,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Void Ray",
         "spell_id": 473728,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidray"
+        "icon": "inv_12_dh_void_ability_voidray",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidray"
+        ]
       },
       "pve_tooltip": "100 Fury\n25 yd range\nChanneled (3 sec cast)\nUnleash a beam of concentrated void energy, dealing (20.25% of Spell Power) Cosmic damage and consuming 5 Fury every 0.2 sec.\nEffect ends after 3 sec or upon reaching 0 Fury.",
       "pvp_tooltip": "100 Fury\n25 yd range\nChanneled (3 sec cast)\nUnleash a beam of concentrated void energy, dealing (43.335% of Spell Power) Cosmic damage and consuming 5 Fury every 0.2 sec.\nEffect ends after 3 sec or upon reaching 0 Fury.",
@@ -3504,8 +3642,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3538,7 +3676,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Immolation",
         "spell_id": 1241937,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidpurge"
+        "icon": "inv_12_dh_void_ability_voidpurge",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidpurge"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\n1 Charge\nLight your soul aflame, healing yourself for (4 * 6)% of your maximum health, generating 30 Fury and shattering 3 Soul Fragments over 5 sec.\n(500ms cooldown)",
       "pvp_tooltip": "Instant\n1 min cooldown\n1 Charge\nLight your soul aflame, healing yourself for (4 * 6)% of your maximum health, generating 30 Fury and shattering 3 Soul Fragments over 5 sec.\n(500ms cooldown)",
@@ -3562,8 +3703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3596,7 +3737,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Predator's Thirst",
         "spell_id": 1215617,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_consume"
+        "icon": "inv_12_dh_void_ability_consume",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_consume"
+        ]
       },
       "pve_tooltip": "Consume damage increased by 15%.\nConsume generates a Soul Fragment.",
       "pvp_tooltip": "Consume damage increased by 15%.\nConsume generates a Soul Fragment.",
@@ -3620,8 +3764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3653,7 +3797,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tempered Soul",
         "spell_id": 1246555,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidpurge"
+        "icon": "inv_12_dh_void_ability_voidpurge",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidpurge"
+        ]
       },
       "pve_tooltip": "The cooldown of Soul Immolation is reduced by 30 sec and it gains 1 additional charge.",
       "pvp_tooltip": "The cooldown of Soul Immolation is reduced by 30 sec and it gains 1 additional charge.",
@@ -3677,8 +3824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3710,7 +3857,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spontaneous Immolation",
         "spell_id": 1246556,
         "visible_spell_id": null,
-        "icon": "spell_fire_twilightimmolation"
+        "icon": "spell_fire_twilightimmolation",
+        "icon_candidates": [
+          "spell_fire_twilightimmolation"
+        ]
       },
       "pve_tooltip": "Soul Immolation heals for an additional 6% of your health over its duration and its cooldown is reset upon killing an enemy that yields experience or honor.",
       "pvp_tooltip": "Soul Immolation heals for an additional 6% of your health over its duration and its cooldown is reset upon killing an enemy that yields experience or honor.",
@@ -3734,8 +3884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3768,7 +3918,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Void Metamorphosis",
         "spell_id": 471306,
         "visible_spell_id": null,
-        "icon": "inv_112_ability_demonhunter_metamorphasisvoid"
+        "icon": "inv_112_ability_demonhunter_metamorphasisvoid",
+        "icon_candidates": [
+          "inv_112_ability_demonhunter_metamorphasisvoid"
+        ]
       },
       "pve_tooltip": "Collecting 50 Soul Fragments grants access to Void Metamorphosis.\nVoid Metamorphosis\nYou ascend to a higher state of being, substantially empowering your abilities.\nWhile in Void Metamorphosis, your Consume and Reap are enhanced and your Fury will slowly drain. Additionally, Void Ray reduces your Fury drain, deals increased damage, and no longer consumes Fury.",
       "pvp_tooltip": "Collecting 50 Soul Fragments grants access to Void Metamorphosis.\nVoid Metamorphosis\nYou ascend to a higher state of being, substantially empowering your abilities.\nWhile in Void Metamorphosis, your Consume and Reap are enhanced and your Fury will slowly drain. Additionally, Void Ray reduces your Fury drain, deals increased damage, and no longer consumes Fury.",
@@ -3792,8 +3945,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3825,7 +3978,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Feast of Souls",
         "spell_id": 1237270,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_firstofsouls"
+        "icon": "inv_12_dh_void_ability_firstofsouls",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_firstofsouls"
+        ]
       },
       "pve_tooltip": "Soul Fragments grant 1% increased damage for 6 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Soul Fragments grant 1% increased damage for 6 sec. Multiple applications may overlap.",
@@ -3849,8 +4005,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3883,7 +4039,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Scythe's Embrace",
         "spell_id": 1246558,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidreaper"
+        "icon": "inv_12_dh_void_ability_voidreaper",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidreaper"
+        ]
       },
       "pve_tooltip": "Reap now generates 10 Fury.",
       "pvp_tooltip": "Reap now generates 10 Fury.",
@@ -3907,8 +4066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3941,7 +4100,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Duty Eternal",
         "spell_id": 1246562,
         "visible_spell_id": null,
-        "icon": "inv_12_voiddh_ability_voidblade"
+        "icon": "inv_12_voiddh_ability_voidblade",
+        "icon_candidates": [
+          "inv_12_voiddh_ability_voidblade"
+        ]
       },
       "pve_tooltip": "Voidblade damage increased by 100% and Voidblade now generates 20 Fury.",
       "pvp_tooltip": "Voidblade damage increased by 100% and Voidblade now generates 20 Fury.",
@@ -3965,8 +4127,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3999,10 +4161,13 @@ window.WOW_PVP_DATA = {
         "talent_name": "Collapsing Star",
         "spell_id": 1221167,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_collapsingstar"
+        "icon": "inv_12_dh_void_ability_collapsingstar",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_collapsingstar"
+        ]
       },
-      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (630% of Spell Power) Cosmic damage to your target and [(630% of Spell Power) * 0.75] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
-      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (630% of Spell Power) Cosmic damage to your target and [(630% of Spell Power) * 0.75] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4015,12 +4180,12 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1221167,
           "source_spell_id": 1221162,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 6.3)",
+          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 11.81)",
           "base_value": null,
-          "spell_pvp_multiplier": 1.0,
+          "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 1.07,
-          "final_pvp_multiplier": 1.07,
+          "final_pvp_multiplier": 0.8560000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4044,10 +4209,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -4064,8 +4230,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4098,7 +4264,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Moment of Craving",
         "spell_id": 1238488,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_momentofcraving"
+        "icon": "inv_12_dh_void_ability_momentofcraving",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_momentofcraving"
+        ]
       },
       "pve_tooltip": "After fully channeling Void Ray, the cooldown of Reap is reset and your next Reap will collect up to 6 additional Soul Fragments.",
       "pvp_tooltip": "After fully channeling Void Ray, the cooldown of Reap is reset and your next Reap will collect up to 6 additional Soul Fragments.",
@@ -4122,8 +4291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4156,7 +4325,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gift of the Void",
         "spell_id": 1272847,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_reversemagic"
+        "icon": "ability_demonhunter_reversemagic",
+        "icon_candidates": [
+          "ability_demonhunter_reversemagic"
+        ]
       },
       "pve_tooltip": "Your critical strike chance is increased by 2%.",
       "pvp_tooltip": "Your critical strike chance is increased by 2%.",
@@ -4180,8 +4352,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4216,7 +4388,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Entropy",
         "spell_id": 1261684,
         "visible_spell_id": null,
-        "icon": "inv_112_raidtrinkets_voidprism"
+        "icon": "inv_112_raidtrinkets_voidprism",
+        "icon_candidates": [
+          "inv_112_raidtrinkets_voidprism"
+        ]
       },
       "pve_tooltip": "While in combat, generate 1 Soul Fragment every 12 sec.\nWhile out of combat, you will slowly build towards your Void Metamorphosis, up to 25 Soul Fragments.",
       "pvp_tooltip": "While in combat, generate 1 Soul Fragment every 12 sec.\nWhile out of combat, you will slowly build towards your Void Metamorphosis, up to 25 Soul Fragments.",
@@ -4240,8 +4415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4276,7 +4451,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Waste Not",
         "spell_id": 1223918,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_wastenot"
+        "icon": "inv_12_dh_void_ability_wastenot",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_wastenot"
+        ]
       },
       "pve_tooltip": "Damage from Void Ray has a 200% increased chance to generate a Soul Fragment.",
       "pvp_tooltip": "Damage from Void Ray has a 200% increased chance to generate a Soul Fragment.",
@@ -4300,8 +4478,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4334,7 +4512,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soulshaper",
         "spell_id": 1238739,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_sunder"
+        "icon": "inv_12_dh_void_ability_sunder",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_sunder"
+        ]
       },
       "pve_tooltip": "Each Soul Fragment gathered by Reap increases its damage by 8%.",
       "pvp_tooltip": "Each Soul Fragment gathered by Reap increases its damage by 8%.",
@@ -4358,8 +4539,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4391,7 +4572,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Singed Spirit",
         "spell_id": 1272832,
         "visible_spell_id": null,
-        "icon": "inv_11_0_misc_candlekobold_color3"
+        "icon": "inv_11_0_misc_candlekobold_color3",
+        "icon_candidates": [
+          "inv_11_0_misc_candlekobold_color3"
+        ]
       },
       "pve_tooltip": "Soul Immolation generates an additional 12 Fury over its duration.",
       "pvp_tooltip": "Soul Immolation generates an additional 12 Fury over its duration.",
@@ -4415,8 +4599,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4449,7 +4633,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sweet Suffering",
         "spell_id": 1244295,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_shatteredsouls"
+        "icon": "ability_demonhunter_shatteredsouls",
+        "icon_candidates": [
+          "ability_demonhunter_shatteredsouls"
+        ]
       },
       "pve_tooltip": "The duration of Feast of Souls is increased by 2 sec.\nFeast of Souls\nSoul Fragments grant 1% increased damage for 6 sec. Multiple applications may overlap.",
       "pvp_tooltip": "The duration of Feast of Souls is increased by 2 sec.\nFeast of Souls\nSoul Fragments grant 1% increased damage for 6 sec. Multiple applications may overlap.",
@@ -4492,8 +4679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4526,7 +4713,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Second Helping",
         "spell_id": 1239537,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_voidscythe_d_01"
+        "icon": "inv_polearm_2h_voidscythe_d_01",
+        "icon_candidates": [
+          "inv_polearm_2h_voidscythe_d_01"
+        ]
       },
       "pve_tooltip": "Reap gains an additional charge.",
       "pvp_tooltip": "Reap gains an additional charge.",
@@ -4550,8 +4740,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4584,7 +4774,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Umbral Blade",
         "spell_id": 1272842,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_reap"
+        "icon": "inv_12_dh_void_ability_reap",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_reap"
+        ]
       },
       "pve_tooltip": "Reap's cooldown is reduced by your Haste.",
       "pvp_tooltip": "Reap's cooldown is reduced by your Haste.",
@@ -4608,8 +4801,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4642,7 +4835,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Consume",
         "spell_id": 1272817,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_feast"
+        "icon": "inv_12_dh_void_ability_feast",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_feast"
+        ]
       },
       "pve_tooltip": "Consume deals 10% increased damage and its cast time is reduced by 0.25 sec.",
       "pvp_tooltip": "Consume deals 10% increased damage and its cast time is reduced by 0.25 sec.",
@@ -4666,8 +4862,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4700,7 +4896,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sweet Release",
         "spell_id": 1242768,
         "visible_spell_id": null,
-        "icon": "spell_misc_zandalari_council_soulswap"
+        "icon": "spell_misc_zandalari_council_soulswap",
+        "icon_candidates": [
+          "spell_misc_zandalari_council_soulswap"
+        ]
       },
       "pve_tooltip": "Your chance to shatter a Soul Fragment from enemies you damage is increased by 4%.",
       "pvp_tooltip": "Your chance to shatter a Soul Fragment from enemies you damage is increased by 4%.",
@@ -4743,8 +4942,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4776,7 +4975,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidpurge",
         "spell_id": 1244220,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidray"
+        "icon": "inv_12_dh_void_ability_voidray",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidray"
+        ]
       },
       "pve_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
       "pvp_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
@@ -4800,8 +5002,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4837,7 +5039,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hungering Slash",
         "spell_id": 1239519,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_reapersslice"
+        "icon": "inv_12_dh_void_ability_reapersslice",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_reapersslice"
+        ]
       },
       "pve_tooltip": "After dealing damage with The Hunt or Voidblade, Voidblade is replaced with Hungering Slash for 6 sec.\nHungering Slash\nViolently slash your scythe around you, dealing (247.5% of Spell Power) Cosmic damage to nearby enemies and generating 10 Fury. Shatters up to 2 Soul Fragments from nearby enemies. Damage reduced beyond 8 targets.\nHungering Slash grants a temporary charge of Vengeful Retreat and causes your next Vengeful Retreat within 6 sec to deal an additional (150% of Spell Power) Cosmic damage.",
       "pvp_tooltip": "After dealing damage with The Hunt or Voidblade, Voidblade is replaced with Hungering Slash for 6 sec.\nHungering Slash\nViolently slash your scythe around you, dealing (247.5% of Spell Power) Cosmic damage to nearby enemies and generating 10 Fury. Shatters up to 2 Soul Fragments from nearby enemies. Damage reduced beyond 8 targets.\nHungering Slash grants a temporary charge of Vengeful Retreat and causes your next Vengeful Retreat within 6 sec to deal an additional (150% of Spell Power) Cosmic damage.",
@@ -4904,8 +5109,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4940,7 +5145,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidrage",
         "spell_id": 1242956,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_soulimmolation"
+        "icon": "inv_12_dh_void_ability_soulimmolation",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_soulimmolation"
+        ]
       },
       "pve_tooltip": "Your Mastery is increased by 4%.",
       "pvp_tooltip": "Your Mastery is increased by 4%.",
@@ -4983,8 +5191,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5020,7 +5228,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Ray",
         "spell_id": 1240203,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_beam"
+        "icon": "inv_cosmicvoid_beam",
+        "icon_candidates": [
+          "inv_cosmicvoid_beam"
+        ]
       },
       "pve_tooltip": "Void Ray deals 80% more damage when damaging 3 targets.",
       "pvp_tooltip": "Void Ray deals 24% more damage when damaging 3 targets.",
@@ -5091,8 +5302,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5124,7 +5335,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soulforged Blades",
         "spell_id": 1272432,
         "visible_spell_id": null,
-        "icon": "inv12_ability_deathknight_frostscythe"
+        "icon": "inv12_ability_deathknight_frostscythe",
+        "icon_candidates": [
+          "inv12_ability_deathknight_frostscythe"
+        ]
       },
       "pve_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 15%.",
       "pvp_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 15%.",
@@ -5148,8 +5362,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5181,7 +5395,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Singular Strikes",
         "spell_id": 1272770,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_scythethrow"
+        "icon": "inv_12_dh_void_ability_scythethrow",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_scythethrow"
+        ]
       },
       "pve_tooltip": "Voidblade damage increased by 25%.\nHungering Slash deals 50% increased damage to its primary target.",
       "pvp_tooltip": "Voidblade damage increased by 25%.\nHungering Slash deals 50% increased damage to its primary target.",
@@ -5205,8 +5422,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5240,7 +5457,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Instinct",
         "spell_id": 1247538,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_predatorsthirst"
+        "icon": "inv_12_dh_void_ability_predatorsthirst",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_predatorsthirst"
+        ]
       },
       "pve_tooltip": "Void Ray and Hungering Slash damage increased by 20%.",
       "pvp_tooltip": "Void Ray and Hungering Slash damage increased by 20%.",
@@ -5283,8 +5503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5318,7 +5538,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devourer's Edge",
         "spell_id": 1244222,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_empoweredreap"
+        "icon": "inv_12_dh_void_ability_empoweredreap",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_empoweredreap"
+        ]
       },
       "pve_tooltip": "Reap and Consume damage increased by 20%.",
       "pvp_tooltip": "Reap and Consume damage increased by 20%.",
@@ -5361,8 +5584,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5394,7 +5617,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidglare Boon",
         "spell_id": 1240202,
         "visible_spell_id": null,
-        "icon": "inv_nulllotus_cosmicvoid"
+        "icon": "inv_nulllotus_cosmicvoid",
+        "icon_candidates": [
+          "inv_nulllotus_cosmicvoid"
+        ]
       },
       "pve_tooltip": "After fully channeling Void Ray, gain 10 Fury.",
       "pvp_tooltip": "After fully channeling Void Ray, gain 10 Fury.",
@@ -5418,8 +5644,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5451,7 +5677,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rolling Torment",
         "spell_id": 1244237,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_debuff"
+        "icon": "inv_cosmicvoid_debuff",
+        "icon_candidates": [
+          "inv_cosmicvoid_debuff"
+        ]
       },
       "pve_tooltip": "When Void Metamorphosis expires, for each unused Soul you harvested, gain 5 Fury and increase your damage by 0.50% for 12 sec.",
       "pvp_tooltip": "When Void Metamorphosis expires, for each unused Soul you harvested, gain 5 Fury and increase your damage by 0.50% for 12 sec.",
@@ -5475,8 +5704,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5509,7 +5738,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidrush",
         "spell_id": 1272422,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidstep"
+        "icon": "inv_12_dh_void_ability_voidstep",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidstep"
+        ]
       },
       "pve_tooltip": "Collapsing Star reduces the cooldown of Voidblade by 10 sec.\nVoidblade and The Hunt briefly reduce your Fury drain while in Void Metamorphosis.\n(2s cooldown)",
       "pvp_tooltip": "Collapsing Star reduces the cooldown of Voidblade by 10 sec.\nVoidblade and The Hunt briefly reduce your Fury drain while in Void Metamorphosis.\n(2s cooldown)",
@@ -5533,8 +5765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5564,7 +5796,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Devourer's Bite",
         "spell_id": 1240201,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_devourerbite"
+        "icon": "inv_12_dh_void_ability_devourerbite",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_devourerbite"
+        ]
       },
       "pve_tooltip": "Damage from Voidblade and the Hunt increases the damage your target takes from you by 12% for 10 sec. Multiple applications may overlap.",
       "pvp_tooltip": "Damage from Voidblade and the Hunt increases the damage your target takes from you by 5% for 10 sec. Multiple applications may overlap.",
@@ -5640,8 +5875,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5674,7 +5909,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Impending Apocalypse",
         "spell_id": 1227707,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_impendingapocalypse"
+        "icon": "inv_12_dh_void_ability_impendingapocalypse",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_impendingapocalypse"
+        ]
       },
       "pve_tooltip": "Each Collapsing Star you cast increases the damage of your next Collapsing Star by 20%.",
       "pvp_tooltip": "Each Collapsing Star you cast increases the damage of your next Collapsing Star by 10%.",
@@ -5750,8 +5988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5781,7 +6019,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Calamitous",
         "spell_id": 1242495,
         "visible_spell_id": null,
-        "icon": "ability_argus_soulbombdebuffsmall"
+        "icon": "ability_argus_soulbombdebuffsmall",
+        "icon_candidates": [
+          "ability_argus_soulbombdebuffsmall"
+        ]
       },
       "pve_tooltip": "Your damaging critical strikes deal 240% damage instead of the usual 200%.",
       "pvp_tooltip": "Your damaging critical strikes deal 240% damage instead of the usual 200%.",
@@ -5805,8 +6046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5839,7 +6080,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Star Fragments",
         "spell_id": 1240204,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_starfragments"
+        "icon": "inv_12_dh_void_ability_starfragments",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_starfragments"
+        ]
       },
       "pve_tooltip": "Collapsing Star now generates 3 Soul Fragments.",
       "pvp_tooltip": "Collapsing Star now generates 3 Soul Fragments.",
@@ -5863,8 +6107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5894,7 +6138,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "The Hunt",
         "spell_id": 1246167,
         "visible_spell_id": null,
-        "icon": "inv_12_voiddh_ability_thehunt"
+        "icon": "inv_12_voiddh_ability_thehunt",
+        "icon_candidates": [
+          "inv_12_voiddh_ability_thehunt"
+        ]
       },
       "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (600% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
       "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (545.7% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
@@ -6062,8 +6309,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6093,7 +6340,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Emptiness",
         "spell_id": 1242492,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_buff"
+        "icon": "inv_cosmicvoid_buff",
+        "icon_candidates": [
+          "inv_cosmicvoid_buff"
+        ]
       },
       "pve_tooltip": "Every soul consumed in Void Metamorphosis grants 0.25% haste, up to 25%.",
       "pvp_tooltip": "Every soul consumed in Void Metamorphosis grants 0.25% haste, up to 25%.",
@@ -6117,8 +6367,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6148,7 +6398,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Glutton",
         "spell_id": 1247534,
         "visible_spell_id": null,
-        "icon": "ability_bossgorefiend_gorefiendscorruption"
+        "icon": "ability_bossgorefiend_gorefiendscorruption",
+        "icon_candidates": [
+          "ability_bossgorefiend_gorefiendscorruption"
+        ]
       },
       "pve_tooltip": "Void Metamorphosis requires 15 less souls.\nYour Fury drains 25% faster while in Void Metamorphosis.",
       "pvp_tooltip": "Void Metamorphosis requires 15 less souls.\nYour Fury drains 25% faster while in Void Metamorphosis.",
@@ -6172,8 +6425,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6203,7 +6456,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eradicate",
         "spell_id": 1226033,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_eradicate"
+        "icon": "inv_12_dh_void_ability_eradicate",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_eradicate"
+        ]
       },
       "pve_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
       "pvp_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
@@ -6347,8 +6603,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6376,7 +6632,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Midnight",
         "spell_id": 1242486,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_demonhunter_midnight"
+        "icon": "inv12_apextalent_demonhunter_midnight",
+        "icon_candidates": [
+          "inv12_apextalent_demonhunter_midnight"
+        ]
       },
       "pve_tooltip": "Collapsing Star always critically strikes.",
       "pvp_tooltip": "Collapsing Star always critically strikes.",
@@ -6400,8 +6659,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6429,7 +6688,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Midnight",
         "spell_id": 1250088,
         "visible_spell_id": null,
-        "icon": "inv_ability_voidweaverpriest_entropicrift"
+        "icon": "inv_ability_voidweaverpriest_entropicrift",
+        "icon_candidates": [
+          "inv_ability_voidweaverpriest_entropicrift"
+        ]
       },
       "pve_tooltip": "All Cosmic damage dealt increased by 6%.\nCollapsing Star's critical strike damage is increased by 50% of your critical strike chance.",
       "pvp_tooltip": "All Cosmic damage dealt increased by 6%.\nCollapsing Star's critical strike damage is increased by 50% of your critical strike chance.",
@@ -6472,8 +6734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6501,7 +6763,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Midnight",
         "spell_id": 1250094,
         "visible_spell_id": null,
-        "icon": "ability_argus_edgeofobliteration"
+        "icon": "ability_argus_edgeofobliteration",
+        "icon_candidates": [
+          "ability_argus_edgeofobliteration"
+        ]
       },
       "pve_tooltip": "Entering Void Metamorphosis causes your soul to erupt, generating 5 Soul Fragments and granting immediate access to Collapsing Star.",
       "pvp_tooltip": "Entering Void Metamorphosis causes your soul to erupt, generating 5 Soul Fragments and granting immediate access to Collapsing Star.",
@@ -6525,8 +6790,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6559,7 +6824,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidsurge",
         "spell_id": 452402,
         "visible_spell_id": null,
-        "icon": "inv_ability_felscarreddemonhunter_demonsurge"
+        "icon": "inv_ability_felscarreddemonhunter_demonsurge",
+        "icon_candidates": [
+          "inv_ability_felscarreddemonhunter_demonsurge"
+        ]
       },
       "pve_tooltip": "Void Metamorphosis now also greatly empowers Voidblade and Hungering Slash.\nWhile demon form is active, the first cast of each empowered ability induces a Voidsurge, causing you to explode with Void energy, dealing (625% of Spell Power) Cosmic damage to nearby enemies. Deals reduced damage beyond 8 targets.",
       "pvp_tooltip": "Void Metamorphosis now also greatly empowers Voidblade and Hungering Slash.\nWhile demon form is active, the first cast of each empowered ability induces a Voidsurge, causing you to explode with Void energy, dealing (428% of Spell Power) Cosmic damage to nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -6578,16 +6846,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 280.0,
-          "new": 224.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -6669,43 +6927,9 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 452402,
-          "source_spell_id": 247121,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -70.0,
-          "spell_pvp_multiplier": 0.714286,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            452402,
-            162264,
-            191427,
-            247121
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref",
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -6719,8 +6943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6752,7 +6976,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wave of Debilitation",
         "spell_id": 452403,
         "visible_spell_id": null,
-        "icon": "spell_fire_felfirenova"
+        "icon": "spell_fire_felfirenova",
+        "icon_candidates": [
+          "spell_fire_felfirenova"
+        ]
       },
       "pve_tooltip": "Void Nova slows enemies by 60% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
       "pvp_tooltip": "Void Nova slows enemies by 40% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
@@ -6858,8 +7085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6891,7 +7118,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pursuit of Angriness",
         "spell_id": 452404,
         "visible_spell_id": null,
-        "icon": "ability_felarakkoa_focusedblast"
+        "icon": "ability_felarakkoa_focusedblast",
+        "icon_candidates": [
+          "ability_felarakkoa_focusedblast"
+        ]
       },
       "pve_tooltip": "Movement speed increased by 1% per 10 Fury.",
       "pvp_tooltip": "Movement speed increased by 1% per 10 Fury.",
@@ -6915,8 +7145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6948,7 +7178,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Focused Hatred",
         "spell_id": 452405,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_illidansgrasp"
+        "icon": "ability_demonhunter_illidansgrasp",
+        "icon_candidates": [
+          "ability_demonhunter_illidansgrasp"
+        ]
       },
       "pve_tooltip": "Voidsurge deals 50% increased damage when it strikes a single target.\nEach additional target reduces this bonus by 10%.",
       "pvp_tooltip": "Voidsurge deals 10% increased damage when it strikes a single target.\nEach additional target reduces this bonus by 2%.",
@@ -7061,8 +7294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7094,7 +7327,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Set Fire to the Pain",
         "spell_id": 452406,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_empowerwards"
+        "icon": "ability_demonhunter_empowerwards",
+        "icon_candidates": [
+          "ability_demonhunter_empowerwards"
+        ]
       },
       "pve_tooltip": "5% of all non-Fire damage taken is instead taken as Fire damage over 6 sec.\nFire damage taken reduced by 10%.",
       "pvp_tooltip": "5% of all non-Fire damage taken is instead taken as Fire damage over 6 sec.\nFire damage taken reduced by 10%.",
@@ -7118,8 +7354,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7151,7 +7387,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Soul Rending",
         "spell_id": 452407,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_soulcleave2"
+        "icon": "ability_demonhunter_soulcleave2",
+        "icon_candidates": [
+          "ability_demonhunter_soulcleave2"
+        ]
       },
       "pve_tooltip": "Leech granted by Soul Rending increased by 2% and an additional 2% while Void Metamorphosis is active.",
       "pvp_tooltip": "Leech granted by Soul Rending increased by 2% and an additional 2% while Void Metamorphosis is active.",
@@ -7175,8 +7414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7208,7 +7447,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blind Focus",
         "spell_id": 1272364,
         "visible_spell_id": null,
-        "icon": "inv_belt_leather_raiddemonhunter_r_01"
+        "icon": "inv_belt_leather_raiddemonhunter_r_01",
+        "icon_candidates": [
+          "inv_belt_leather_raiddemonhunter_r_01"
+        ]
       },
       "pve_tooltip": "Cosmic damage increased by 2%.\nEffect is doubled while in demon form.",
       "pvp_tooltip": "Cosmic damage increased by 2%.\nEffect is doubled while in demon form.",
@@ -7232,8 +7474,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7265,7 +7507,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burning Blades",
         "spell_id": 452408,
         "visible_spell_id": null,
-        "icon": "inv_glaive_1h_artifactazgalor_d_02dual"
+        "icon": "inv_glaive_1h_artifactazgalor_d_02dual",
+        "icon_candidates": [
+          "inv_glaive_1h_artifactazgalor_d_02dual"
+        ]
       },
       "pve_tooltip": "Your blades burn with Cosmic energy, causing your Voidblade, Hungering Slash, and Throw Glaive to deal an additional 35% damage as Cosmic damage.\nReap damage increased by 20%.",
       "pvp_tooltip": "Your blades burn with Cosmic energy, causing your Voidblade, Hungering Slash, and Throw Glaive to deal an additional 35% damage as Cosmic damage.\nReap damage increased by 20%.",
@@ -7289,8 +7534,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7322,7 +7567,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Violent Transformation",
         "spell_id": 452409,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demoniccirclesummon"
+        "icon": "spell_shadow_demoniccirclesummon",
+        "icon_candidates": [
+          "spell_shadow_demoniccirclesummon"
+        ]
       },
       "pve_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and The Hunt.\nThe Hunt deals 25% increased damage and resets the cooldown of Soul Immolation.",
       "pvp_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and The Hunt.\nThe Hunt deals 25% increased damage and resets the cooldown of Soul Immolation.",
@@ -7346,8 +7594,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7379,7 +7627,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Enduring Torment",
         "spell_id": 452410,
         "visible_spell_id": null,
-        "icon": "spell_fire_felimmolation"
+        "icon": "spell_fire_felimmolation",
+        "icon_candidates": [
+          "spell_fire_felimmolation"
+        ]
       },
       "pve_tooltip": "The effects of your demon form persist outside of it in a weakened state, increasing Mastery: Monster Within's effectiveness by 20%.",
       "pvp_tooltip": "The effects of your demon form persist outside of it in a weakened state, increasing Mastery: Monster Within's effectiveness by 20%.",
@@ -7403,8 +7654,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7436,7 +7687,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Undying Embers",
         "spell_id": 1272405,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembersgreen"
+        "icon": "ability_warlock_burningembersgreen",
+        "icon_candidates": [
+          "ability_warlock_burningembersgreen"
+        ]
       },
       "pve_tooltip": "Soul Immolation has a 25% chance to reignite after it expires, reapplying its effect.",
       "pvp_tooltip": "Soul Immolation has a 25% chance to reignite after it expires, reapplying its effect.",
@@ -7460,8 +7714,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7493,7 +7747,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Untethered Fury",
         "spell_id": 452411,
         "visible_spell_id": null,
-        "icon": "inv__felbarrage"
+        "icon": "inv__felbarrage",
+        "icon_candidates": [
+          "inv__felbarrage"
+        ]
       },
       "pve_tooltip": "Maximum Fury increased by 20.\nVoid Ray damage increased by 15%.",
       "pvp_tooltip": "Maximum Fury increased by 20.\nVoid Ray damage increased by 15%.",
@@ -7517,8 +7774,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7550,7 +7807,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Student of Suffering",
         "spell_id": 452412,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_theatreofpain_kultharok"
+        "icon": "achievement_dungeon_theatreofpain_kultharok",
+        "icon_candidates": [
+          "achievement_dungeon_theatreofpain_kultharok"
+        ]
       },
       "pve_tooltip": "Void Ray applies Student of Suffering to you, increasing Mastery by (4 * $mas)% and granting 1 Fury every 2 sec, for 6 sec.",
       "pvp_tooltip": "Void Ray applies Student of Suffering to you, increasing Mastery by (4 * $mas)% and granting 1 Fury every 2 sec, for 6 sec.",
@@ -7574,8 +7834,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7607,7 +7867,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flamebound",
         "spell_id": 452413,
         "visible_spell_id": null,
-        "icon": "spell_fire_felflamering"
+        "icon": "spell_fire_felflamering",
+        "icon_candidates": [
+          "spell_fire_felflamering"
+        ]
       },
       "pve_tooltip": "Hungering Slash has 2 yd increased radius and 125% increased critical strike damage bonus.",
       "pvp_tooltip": "Hungering Slash has 2 yd increased radius and 125% increased critical strike damage bonus.",
@@ -7657,8 +7920,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7690,7 +7953,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Monster Rising",
         "spell_id": 452414,
         "visible_spell_id": null,
-        "icon": "ability_warlock_demonicpower"
+        "icon": "ability_warlock_demonicpower",
+        "icon_candidates": [
+          "ability_warlock_demonicpower"
+        ]
       },
       "pve_tooltip": "Intellect increased by 15% while not in demon form.\nCollapsing Star damage increased by 15%.",
       "pvp_tooltip": "Intellect increased by 15% while not in demon form.\nCollapsing Star damage increased by 15%.",
@@ -7714,8 +7980,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7747,7 +8013,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Volatile Instinct",
         "spell_id": 1272453,
         "visible_spell_id": null,
-        "icon": "inv_nature_nova"
+        "icon": "inv_nature_nova",
+        "icon_candidates": [
+          "inv_nature_nova"
+        ]
       },
       "pve_tooltip": "Entering demon form causes your next Voidsurge to repeat after a short delay.",
       "pvp_tooltip": "Entering demon form causes your next Voidsurge to repeat after a short delay.",
@@ -7771,8 +8040,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7805,7 +8074,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Intensity",
         "spell_id": 452415,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonicempowerment"
+        "icon": "spell_warlock_demonicempowerment",
+        "icon_candidates": [
+          "spell_warlock_demonicempowerment"
+        ]
       },
       "pve_tooltip": "Activating Void Metamorphosis greatly empowers The Hunt.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
       "pvp_tooltip": "Activating Void Metamorphosis greatly empowers The Hunt.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
@@ -7815,36 +8087,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 452415,
-          "source_spell_id": 452416,
-          "effect_index": 1,
-          "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.8,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.8,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            452415,
-            452416
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
@@ -7884,6 +8126,40 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 452415,
+          "source_spell_id": 452416,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            452415,
+            1246160,
+            452402,
+            452416
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -7900,8 +8176,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7934,7 +8210,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Voidfall",
         "spell_id": 1253304,
         "visible_spell_id": null,
-        "icon": "inv_12_dh_void_ability_voidfall"
+        "icon": "inv_12_dh_void_ability_voidfall",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_voidfall"
+        ]
       },
       "pve_tooltip": "Consume has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Reap consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (176% of Spell Power) Cosmic damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "Consume has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Reap consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (169.488% of Spell Power) Cosmic damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
@@ -8019,8 +8298,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8052,7 +8331,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Erasure",
         "spell_id": 1253668,
         "visible_spell_id": null,
-        "icon": "ability_priest_darkarchangel"
+        "icon": "ability_priest_darkarchangel",
+        "icon_candidates": [
+          "ability_priest_darkarchangel"
+        ]
       },
       "pve_tooltip": "Each stack of Voidfall grants 1% Haste.",
       "pvp_tooltip": "Each stack of Voidfall grants 1% Haste.",
@@ -8076,8 +8358,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8109,7 +8391,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Meteoric Rise",
         "spell_id": 1253377,
         "visible_spell_id": null,
-        "icon": "ability_socererking_arcanefortification"
+        "icon": "ability_socererking_arcanefortification",
+        "icon_candidates": [
+          "ability_socererking_arcanefortification"
+        ]
       },
       "pve_tooltip": "Void Ray damage increased by 10%.\nFully channeling Void Ray generates 1 stack of Voidfall.",
       "pvp_tooltip": "Void Ray damage increased by 10%.\nFully channeling Void Ray generates 1 stack of Voidfall.",
@@ -8133,8 +8418,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8166,7 +8451,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Catastrophe",
         "spell_id": 1253769,
         "visible_spell_id": null,
-        "icon": "inv_netherportal"
+        "icon": "inv_netherportal",
+        "icon_candidates": [
+          "inv_netherportal"
+        ]
       },
       "pve_tooltip": "Enemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
       "pvp_tooltip": "Enemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
@@ -8190,8 +8478,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8223,7 +8511,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Phase Shift",
         "spell_id": 1256245,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_blur"
+        "icon": "ability_demonhunter_blur",
+        "icon_candidates": [
+          "ability_demonhunter_blur"
+        ]
       },
       "pve_tooltip": "Each stack of Voidfall grants 2% reduced damage taken.",
       "pvp_tooltip": "Each stack of Voidfall grants 2% reduced damage taken.",
@@ -8247,8 +8538,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8280,7 +8571,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Path to Oblivion",
         "spell_id": 1253399,
         "visible_spell_id": null,
-        "icon": "ability_socererking_arcaneacceleration"
+        "icon": "ability_socererking_arcaneacceleration",
+        "icon_candidates": [
+          "ability_socererking_arcaneacceleration"
+        ]
       },
       "pve_tooltip": "Each stack of Voidfall grants 3% increased movement speed.",
       "pvp_tooltip": "Each stack of Voidfall grants 3% increased movement speed.",
@@ -8304,8 +8598,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8337,7 +8631,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "State of Matter",
         "spell_id": 1253402,
         "visible_spell_id": null,
-        "icon": "inv_112_arcane_buff"
+        "icon": "inv_112_arcane_buff",
+        "icon_candidates": [
+          "inv_112_arcane_buff"
+        ]
       },
       "pve_tooltip": "Shift has 1 additional charge.",
       "pvp_tooltip": "Shift has 1 additional charge.",
@@ -8361,8 +8658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8394,7 +8691,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mass Acceleration",
         "spell_id": 1256295,
         "visible_spell_id": null,
-        "icon": "inv_nullstone_cosmicvoid"
+        "icon": "inv_nullstone_cosmicvoid",
+        "icon_candidates": [
+          "inv_nullstone_cosmicvoid"
+        ]
       },
       "pve_tooltip": "Gain 3 stacks of Voidfall and reset the cooldown of Reap upon activating Void Metamorphosis.",
       "pvp_tooltip": "Gain 3 stacks of Voidfall and reset the cooldown of Reap upon activating Void Metamorphosis.",
@@ -8418,8 +8718,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8451,7 +8751,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Doomsayer",
         "spell_id": 1253676,
         "visible_spell_id": null,
-        "icon": "inv_shadowflame_buff"
+        "icon": "inv_shadowflame_buff",
+        "icon_candidates": [
+          "inv_shadowflame_buff"
+        ]
       },
       "pve_tooltip": "Activating Void Ray out of combat or within 10 sec of entering combat calls down 3 Voidfall Meteors over its duration.",
       "pvp_tooltip": "Activating Void Ray out of combat or within 10 sec of entering combat calls down 3 Voidfall Meteors over its duration.",
@@ -8475,8 +8778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8508,7 +8811,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Harness the Cosmos",
         "spell_id": 1279247,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_orb"
+        "icon": "inv_cosmicvoid_orb",
+        "icon_candidates": [
+          "inv_cosmicvoid_orb"
+        ]
       },
       "pve_tooltip": "Voidfall Meteor damage increased by 15%.",
       "pvp_tooltip": "Voidfall Meteor damage increased by 15%.",
@@ -8532,8 +8838,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8565,7 +8871,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Celestial Echoes",
         "spell_id": 1253415,
         "visible_spell_id": null,
-        "icon": "inv_polearm_2h_voidscythe_d_01"
+        "icon": "inv_polearm_2h_voidscythe_d_01",
+        "icon_candidates": [
+          "inv_polearm_2h_voidscythe_d_01"
+        ]
       },
       "pve_tooltip": "Consume generates 2 additional Fury and deals 15% increased damage.",
       "pvp_tooltip": "Consume generates 2 additional Fury and deals 15% increased damage.",
@@ -8589,8 +8898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8622,7 +8931,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Final Hour",
         "spell_id": 1253805,
         "visible_spell_id": null,
-        "icon": "inv_10_worlddroplevelingoptionalreagent_relics_hourglass_color1"
+        "icon": "inv_10_worlddroplevelingoptionalreagent_relics_hourglass_color1",
+        "icon_candidates": [
+          "inv_10_worlddroplevelingoptionalreagent_relics_hourglass_color1"
+        ]
       },
       "pve_tooltip": "Passive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
       "pvp_tooltip": "Passive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
@@ -8701,8 +9013,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8734,7 +9046,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Meteoric Fall",
         "spell_id": 1253391,
         "visible_spell_id": null,
-        "icon": "ability_socererking_arcanereplication"
+        "icon": "ability_socererking_arcanereplication",
+        "icon_candidates": [
+          "ability_socererking_arcanereplication"
+        ]
       },
       "pve_tooltip": "While at 3 stacks of Voidfall, Reap consumes all 3 to rapidly call down that many meteor strikes.",
       "pvp_tooltip": "While at 3 stacks of Voidfall, Reap consumes all 3 to rapidly call down that many meteor strikes.",
@@ -8758,8 +9073,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8791,7 +9106,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dark Matter",
         "spell_id": 1256307,
         "visible_spell_id": null,
-        "icon": "inv_cosmicvoid_nova"
+        "icon": "inv_cosmicvoid_nova",
+        "icon_candidates": [
+          "inv_cosmicvoid_nova"
+        ]
       },
       "pve_tooltip": "Your first Collapsing Star after casting Void Metamorphosis causes a Cosmic meteor shower to assault the area, dealing [(50% of Spell Power) * 12] Cosmic damage over 6 sec.",
       "pvp_tooltip": "Your first Collapsing Star after casting Void Metamorphosis causes a Cosmic meteor shower to assault the area, dealing [(53.5% of Spell Power) * 12] Cosmic damage over 6 sec.",
@@ -8875,8 +9193,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8908,7 +9226,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Otherworldly Focus",
         "spell_id": 1253817,
         "visible_spell_id": null,
-        "icon": "inv_babyvoidwalker_blue"
+        "icon": "inv_babyvoidwalker_blue",
+        "icon_candidates": [
+          "inv_babyvoidwalker_blue"
+        ]
       },
       "pve_tooltip": "Collapsing Star and Voidfall meteors deal 30% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
       "pvp_tooltip": "Collapsing Star and Voidfall meteors deal 30% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
@@ -8932,8 +9253,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8966,7 +9287,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "World Killer",
         "spell_id": 1256353,
         "visible_spell_id": null,
-        "icon": "inv_112_raiddimensius_brokenworld"
+        "icon": "inv_112_raiddimensius_brokenworld",
+        "icon_candidates": [
+          "inv_112_raiddimensius_brokenworld"
+        ]
       },
       "pve_tooltip": "The third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and generates 1 Soul Fragment.",
       "pvp_tooltip": "The third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and generates 1 Soul Fragment.",
@@ -9278,7 +9602,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-22T19:24:34.129024+00:00",
+  "generated_at": "2026-09-24T11:39:00.888425+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 20,

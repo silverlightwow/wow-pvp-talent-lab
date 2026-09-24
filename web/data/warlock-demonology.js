@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -50,7 +50,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Domination",
         "spell_id": 333889,
         "visible_spell_id": null,
-        "icon": "spell_shadow_felmending"
+        "icon": "spell_shadow_felmending",
+        "icon_candidates": [
+          "spell_shadow_felmending"
+        ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nYour next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by 90%.",
       "pvp_tooltip": "Instant\n3 min cooldown\nYour next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by 90%.",
@@ -74,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -106,7 +109,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Leech",
         "spell_id": 1311653,
         "visible_spell_id": null,
-        "icon": "warlock_siphonlife"
+        "icon": "warlock_siphonlife",
+        "icon_candidates": [
+          "warlock_siphonlife"
+        ]
       },
       "pve_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 / Demon Skin: 10 / Illhoof's Design: 20 / Fortified Soul: 10% of maximum health.",
       "pvp_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 / Demon Skin: 10 / Illhoof's Design: 20 / Fortified Soul: 10% of maximum health.",
@@ -130,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -162,7 +168,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Burning Rush",
         "spell_id": 111400,
         "visible_spell_id": null,
-        "icon": "ability_deathwing_sealarmorbreachtga"
+        "icon": "ability_deathwing_sealarmorbreachtga",
+        "icon_candidates": [
+          "ability_deathwing_sealarmorbreachtga"
+        ]
       },
       "pve_tooltip": "Instant\nIncreases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
       "pvp_tooltip": "Instant\nIncreases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
@@ -186,8 +195,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -219,7 +228,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Pact",
         "spell_id": 386113,
         "visible_spell_id": null,
-        "icon": "spell_shadow_impphaseshift"
+        "icon": "spell_shadow_impphaseshift",
+        "icon_candidates": [
+          "spell_shadow_impphaseshift"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Fel Domination by 60 sec.",
       "pvp_tooltip": "Reduces the cooldown of Fel Domination by 60 sec.",
@@ -243,8 +255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -278,7 +290,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demon Skin",
         "spell_id": 219272,
         "visible_spell_id": null,
-        "icon": "spell_shadow_ragingscream"
+        "icon": "spell_shadow_ragingscream",
+        "icon_candidates": [
+          "spell_shadow_ragingscream"
+        ]
       },
       "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 90%.",
       "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 117%.",
@@ -390,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -425,7 +440,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Armor",
         "spell_id": 386124,
         "visible_spell_id": null,
-        "icon": "spell_shadow_felarmour"
+        "icon": "spell_shadow_felarmour",
+        "icon_candidates": [
+          "spell_shadow_felarmour"
+        ]
       },
       "pve_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
       "pvp_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
@@ -468,8 +486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -501,7 +519,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fiendish Stride",
         "spell_id": 386110,
         "visible_spell_id": null,
-        "icon": "inv_misc_moosehoof_fel"
+        "icon": "inv_misc_moosehoof_fel",
+        "icon_candidates": [
+          "inv_misc_moosehoof_fel"
+        ]
       },
       "pve_tooltip": "Reduces the damage dealt by Burning Rush by 10%. Burning Rush increases your movement speed by an additional 20%.",
       "pvp_tooltip": "Reduces the damage dealt by Burning Rush by 10%. Burning Rush increases your movement speed by an additional 20%.",
@@ -525,8 +546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -560,7 +581,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Embrace",
         "spell_id": 288843,
         "visible_spell_id": null,
-        "icon": "spell_shadow_metamorphosis"
+        "icon": "spell_shadow_metamorphosis",
+        "icon_candidates": [
+          "spell_shadow_metamorphosis"
+        ]
       },
       "pve_tooltip": "Stamina increased by 10%.",
       "pvp_tooltip": "Stamina increased by 10%.",
@@ -584,8 +608,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -619,7 +643,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Nightmare",
         "spell_id": 386648,
         "visible_spell_id": null,
-        "icon": "spell_shadow_possession"
+        "icon": "spell_shadow_possession",
+        "icon_candidates": [
+          "spell_shadow_possession"
+        ]
       },
       "pve_tooltip": "Increases the amount of damage required to break your fear effects by 60%.",
       "pvp_tooltip": "Increases the amount of damage required to break your fear effects by 30%.",
@@ -690,8 +717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -725,7 +752,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Horrify",
         "spell_id": 56244,
         "visible_spell_id": null,
-        "icon": "spell_nzinsanity_bloodthirst"
+        "icon": "spell_nzinsanity_bloodthirst",
+        "icon_candidates": [
+          "spell_nzinsanity_bloodthirst"
+        ]
       },
       "pve_tooltip": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
       "pvp_tooltip": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
@@ -749,8 +779,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -785,7 +815,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Fortitude",
         "spell_id": 386617,
         "visible_spell_id": null,
-        "icon": "spell_warlock_summonimpoutland"
+        "icon": "spell_warlock_summonimpoutland",
+        "icon_candidates": [
+          "spell_warlock_summonimpoutland"
+        ]
       },
       "pve_tooltip": "100 yd range\nIncreases you and your pets' maximum health by 5%.",
       "pvp_tooltip": "100 yd range\nIncreases you and your pets' maximum health by 5%.",
@@ -809,8 +842,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -842,7 +875,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Banish",
         "spell_id": 710,
         "visible_spell_id": null,
-        "icon": "spell_shadow_cripple"
+        "icon": "spell_shadow_cripple",
+        "icon_candidates": [
+          "spell_shadow_cripple"
+        ]
       },
       "pve_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [Greater Banish: Undead], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
       "pvp_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [Greater Banish: Undead], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
@@ -866,8 +902,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -901,7 +937,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Curse of Exhaustion",
         "spell_id": 334275,
         "visible_spell_id": null,
-        "icon": "spell_shadow_grimward"
+        "icon": "spell_shadow_grimward",
+        "icon_candidates": [
+          "spell_shadow_grimward"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
@@ -962,8 +1001,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -997,7 +1036,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Curse of Tongues",
         "spell_id": 1714,
         "visible_spell_id": null,
-        "icon": "spell_shadow_curseoftounges"
+        "icon": "spell_shadow_curseoftounges",
+        "icon_candidates": [
+          "spell_shadow_curseoftounges"
+        ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nForces the target to speak in Demonic, increasing the casting time of all spells by 30% for 1 min.\nCurses: A warlock can only have one Curse active per target.",
       "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nForces the target to speak in Demonic, increasing the casting time of all spells by 10% for 1 min.\nCurses: A warlock can only have one Curse active per target.",
@@ -1068,8 +1110,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1101,7 +1143,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Beneficiary",
         "spell_id": 1265810,
         "visible_spell_id": null,
-        "icon": "achievement_general_raidrepresentation"
+        "icon": "achievement_general_raidrepresentation",
+        "icon_candidates": [
+          "achievement_general_raidrepresentation"
+        ]
       },
       "pve_tooltip": "Healing done by Drain Life also heals your primary demon at 400% effectiveness.",
       "pvp_tooltip": "Healing done by Drain Life also heals your primary demon at 400% effectiveness.",
@@ -1125,8 +1170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1159,7 +1204,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mortal Coil",
         "spell_id": 6789,
         "visible_spell_id": null,
-        "icon": "ability_warlock_mortalcoil"
+        "icon": "ability_warlock_mortalcoil",
+        "icon_candidates": [
+          "ability_warlock_mortalcoil"
+        ]
       },
       "pve_tooltip": "2% of base mana\n20 yd range\nInstant\n45 sec cooldown\nHorrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.",
       "pvp_tooltip": "2% of base mana\n20 yd range\nInstant\n45 sec cooldown\nHorrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.",
@@ -1214,8 +1262,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1250,7 +1298,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of the Annihilan",
         "spell_id": 1270693,
         "visible_spell_id": null,
-        "icon": "inv_misc_magtheridonshead"
+        "icon": "inv_misc_magtheridonshead",
+        "icon_candidates": [
+          "inv_misc_magtheridonshead"
+        ]
       },
       "pve_tooltip": "Increases your critical strike chance by 2%.",
       "pvp_tooltip": "Increases your critical strike chance by 2%.",
@@ -1274,8 +1325,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1310,7 +1361,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Circle",
         "spell_id": 268358,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demoniccirclesummon"
+        "icon": "spell_shadow_demoniccirclesummon",
+        "icon_candidates": [
+          "spell_shadow_demoniccirclesummon"
+        ]
       },
       "pve_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [Kilrogg's Cunning: If you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
       "pvp_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [Kilrogg's Cunning: If you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
@@ -1334,8 +1388,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1371,7 +1425,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of the Satyr",
         "spell_id": 1270691,
         "visible_spell_id": null,
-        "icon": "spell_shadow_mindshear"
+        "icon": "spell_shadow_mindshear",
+        "icon_candidates": [
+          "spell_shadow_mindshear"
+        ]
       },
       "pve_tooltip": "Increases your haste by 2%.",
       "pvp_tooltip": "Increases your haste by 2%.",
@@ -1395,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1428,7 +1485,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Mortal Coil",
         "spell_id": 1265816,
         "visible_spell_id": null,
-        "icon": "spell_warlock_harvestoflife"
+        "icon": "spell_warlock_harvestoflife",
+        "icon_candidates": [
+          "spell_warlock_harvestoflife"
+        ]
       },
       "pve_tooltip": "Increases the range of Mortal Coil by 10 yds and Mortal Coil now heals for an additional 5% of maximum health.",
       "pvp_tooltip": "Increases the range of Mortal Coil by 10 yds and Mortal Coil now heals for an additional 5% of maximum health.",
@@ -1452,8 +1512,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1485,7 +1545,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dark Pact",
         "spell_id": 108416,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathpact"
+        "icon": "spell_shadow_deathpact",
+        "icon_candidates": [
+          "spell_shadow_deathpact"
+        ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nSacrifices 20% of your current health to shield you for 200% of the sacrificed health plus an additional (Spell Power * 2.5) for 20 sec. Usable while suffering from control impairing effects.",
       "pvp_tooltip": "Instant\n1 min cooldown\nSacrifices 20% of your current health to shield you for 200% of the sacrificed health plus an additional (Spell Power * 2.5) for 20 sec. Usable while suffering from control impairing effects.",
@@ -1546,8 +1609,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1579,7 +1642,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Foul Mouth",
         "spell_id": 1265813,
         "visible_spell_id": null,
-        "icon": "ability_creature_cursed_02"
+        "icon": "ability_creature_cursed_02",
+        "icon_candidates": [
+          "ability_creature_cursed_02"
+        ]
       },
       "pve_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or Curse of Weakness now curses all enemies within 10 yds of the target.",
       "pvp_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or Curse of Weakness now curses all enemies within 10 yds of the target.",
@@ -1603,8 +1669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1637,7 +1703,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empowered Healthstone",
         "spell_id": 1271699,
         "visible_spell_id": null,
-        "icon": "inv_raid_creepingcoagulum_blue"
+        "icon": "inv_raid_creepingcoagulum_blue",
+        "icon_candidates": [
+          "inv_raid_creepingcoagulum_blue"
+        ]
       },
       "pve_tooltip": "Healthstones heal you for an additional 5% additional health.",
       "pvp_tooltip": "Healthstones heal you for an additional 5% additional health.",
@@ -1661,8 +1730,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1695,7 +1764,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Abyss Walker",
         "spell_id": 389609,
         "visible_spell_id": null,
-        "icon": "achievement_explore_argus"
+        "icon": "achievement_explore_argus",
+        "icon_candidates": [
+          "achievement_explore_argus"
+        ]
       },
       "pve_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 4% for 10 sec.",
       "pvp_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 8% for 10 sec.",
@@ -1771,8 +1843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1806,7 +1878,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fortified Soul",
         "spell_id": 1271694,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonsoul"
+        "icon": "spell_warlock_demonsoul",
+        "icon_candidates": [
+          "spell_warlock_demonsoul"
+        ]
       },
       "pve_tooltip": "Soul Leech may now absorb an additional 5% of your maximum health.",
       "pvp_tooltip": "Soul Leech may now absorb an additional 5% of your maximum health.",
@@ -1830,8 +1905,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1863,7 +1938,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Teachings of the Black Harvest",
         "spell_id": 385881,
         "visible_spell_id": null,
-        "icon": "inv_misc_codexofxerrath_nochains"
+        "icon": "inv_misc_codexofxerrath_nochains",
+        "icon_candidates": [
+          "inv_misc_codexofxerrath_nochains"
+        ]
       },
       "pve_tooltip": "Your primary pets gain a bonus effect.\nImp: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.\nFelguard: Reduces the cooldown of Pursuit by 5 sec and increases its maximum range by 5 yards.",
       "pvp_tooltip": "Your primary pets gain a bonus effect.\nImp: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.\nFelguard: Reduces the cooldown of Pursuit by 5 sec and increases its maximum range by 5 yards.",
@@ -1887,8 +1965,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1922,7 +2000,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gorefiend's Avarice",
         "spell_id": 1270701,
         "visible_spell_id": null,
-        "icon": "inv_helmet_90"
+        "icon": "inv_helmet_90",
+        "icon_candidates": [
+          "inv_helmet_90"
+        ]
       },
       "pve_tooltip": "Drain Life now channels 100% faster and restores health 100% faster.",
       "pvp_tooltip": "Drain Life now channels 100% faster and restores health 100% faster.",
@@ -1946,8 +2027,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -1979,7 +2060,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ichor of Devils",
         "spell_id": 386664,
         "visible_spell_id": null,
-        "icon": "spell_yorsahj_bloodboil_greenoil"
+        "icon": "spell_yorsahj_bloodboil_greenoil",
+        "icon_candidates": [
+          "spell_yorsahj_bloodboil_greenoil"
+        ]
       },
       "pve_tooltip": "Dark Pact sacrifices only 5% of your current health for the same shield value.",
       "pvp_tooltip": "Dark Pact sacrifices only 5% of your current health for the same shield value.",
@@ -2003,8 +2087,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2036,7 +2120,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frequent Donor",
         "spell_id": 386686,
         "visible_spell_id": null,
-        "icon": "ability_ironmaidens_bloodritual"
+        "icon": "ability_ironmaidens_bloodritual",
+        "icon_candidates": [
+          "ability_ironmaidens_bloodritual"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Dark Pact by 15 sec.",
       "pvp_tooltip": "Reduces the cooldown of Dark Pact by 15 sec.",
@@ -2060,8 +2147,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2096,7 +2183,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of the Eredar",
         "spell_id": 1270695,
         "visible_spell_id": null,
-        "icon": "achievement_boss_argus_femaleeredar"
+        "icon": "achievement_boss_argus_femaleeredar",
+        "icon_candidates": [
+          "achievement_boss_argus_femaleeredar"
+        ]
       },
       "pve_tooltip": "Increases your Intellect by 3%.",
       "pvp_tooltip": "Increases your Intellect by 3%.",
@@ -2120,8 +2210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2155,7 +2245,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of the Nathrezim",
         "spell_id": 1270690,
         "visible_spell_id": null,
-        "icon": "ability_physical_taunt_purple"
+        "icon": "ability_physical_taunt_purple",
+        "icon_candidates": [
+          "ability_physical_taunt_purple"
+        ]
       },
       "pve_tooltip": "Increases your Leech by 2%.",
       "pvp_tooltip": "Increases your Leech by 2%.",
@@ -2179,8 +2272,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2214,7 +2307,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Resilience",
         "spell_id": 389590,
         "visible_spell_id": null,
-        "icon": "ability_warlock_avoidance"
+        "icon": "ability_warlock_avoidance",
+        "icon_candidates": [
+          "ability_warlock_avoidance"
+        ]
       },
       "pve_tooltip": "100 yd range\nReduces the chance you will be critically struck by 2%. All damage your primary demon takes is reduced by 8%.",
       "pvp_tooltip": "100 yd range\nReduces the chance you will be critically struck by 2%. All damage your primary demon takes is reduced by 13.336%.",
@@ -2285,8 +2381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2318,7 +2414,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empowered Drain Life",
         "spell_id": 1271689,
         "visible_spell_id": null,
-        "icon": "spell_shadow_lifedrain02_purple"
+        "icon": "spell_shadow_lifedrain02_purple",
+        "icon_candidates": [
+          "spell_shadow_lifedrain02_purple"
+        ]
       },
       "pve_tooltip": "Drain Life heals for an additional 200% of damage dealt and grants Soul Leech equal to 10% of damage dealt.",
       "pvp_tooltip": "Drain Life heals for an additional 200% of damage dealt and grants Soul Leech equal to 10% of damage dealt.",
@@ -2342,8 +2441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2377,7 +2476,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Strength of Will",
         "spell_id": 317138,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demonictactics"
+        "icon": "spell_shadow_demonictactics",
+        "icon_candidates": [
+          "spell_shadow_demonictactics"
+        ]
       },
       "pve_tooltip": "Unending Resolve reduces damage taken by an additional 15%.",
       "pvp_tooltip": "Unending Resolve reduces damage taken by an additional 15%.",
@@ -2401,8 +2503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2436,7 +2538,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dark Accord",
         "spell_id": 386659,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improveddemonictactics"
+        "icon": "ability_warlock_improveddemonictactics",
+        "icon_candidates": [
+          "ability_warlock_improveddemonictactics"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Unending Resolve by 45 sec.",
       "pvp_tooltip": "Reduces the cooldown of Unending Resolve by 45 sec.",
@@ -2460,8 +2565,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2496,7 +2601,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Gateway",
         "spell_id": 111771,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonicportal_green"
+        "icon": "spell_warlock_demonicportal_green",
+        "icon_candidates": [
+          "spell_warlock_demonicportal_green"
+        ]
       },
       "pve_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 90 sec.",
       "pvp_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 90 sec.",
@@ -2520,8 +2628,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2556,7 +2664,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Howl of Terror",
         "spell_id": 5484,
         "visible_spell_id": null,
-        "icon": "ability_warlock_howlofterror"
+        "icon": "ability_warlock_howlofterror",
+        "icon_candidates": [
+          "ability_warlock_howlofterror"
+        ]
       },
       "pve_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
       "pvp_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
@@ -2580,8 +2691,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2616,7 +2727,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadowfury",
         "spell_id": 30283,
         "visible_spell_id": null,
-        "icon": "ability_warlock_shadowfurytga"
+        "icon": "ability_warlock_shadowfurytga",
+        "icon_candidates": [
+          "ability_warlock_shadowfurytga"
+        ]
       },
       "pve_tooltip": "1% of base mana\n35 yd range\n1.5 sec cast\n1 min cooldown\nStuns all enemies within 8 yds for 3 sec.",
       "pvp_tooltip": "1% of base mana\n35 yd range\n1.5 sec cast\n1 min cooldown\nStuns all enemies within 8 yds for 3 sec.",
@@ -2640,8 +2754,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2673,7 +2787,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Swift Artifice",
         "spell_id": 452902,
         "visible_spell_id": null,
-        "icon": "spell_shadow_destructivesoul"
+        "icon": "spell_shadow_destructivesoul",
+        "icon_candidates": [
+          "spell_shadow_destructivesoul"
+        ]
       },
       "pve_tooltip": "Reduces the cast time of Soulstone and Create Healthstone by 50%.",
       "pvp_tooltip": "Reduces the cast time of Soulstone and Create Healthstone by 50%.",
@@ -2697,8 +2814,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2732,7 +2849,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Link",
         "spell_id": 108415,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soullink"
+        "icon": "ability_warlock_soullink",
+        "icon_candidates": [
+          "ability_warlock_soullink"
+        ]
       },
       "pve_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.",
       "pvp_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.",
@@ -2775,8 +2895,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2808,7 +2928,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Frequent Traveler",
         "spell_id": 1265801,
         "visible_spell_id": null,
-        "icon": "achievement_dungeon_outland_dungeonmaster"
+        "icon": "achievement_dungeon_outland_dungeonmaster",
+        "icon_candidates": [
+          "achievement_dungeon_outland_dungeonmaster"
+        ]
       },
       "pve_tooltip": "Reduces the cast time of Demonic Gateway by 0.5 sec and you can now use Demonic Gateways twice before triggering a cooldown.",
       "pvp_tooltip": "Reduces the cast time of Demonic Gateway by 0.5 sec and you can now use Demonic Gateways twice before triggering a cooldown.",
@@ -2832,8 +2955,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2867,7 +2990,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Synergy",
         "spell_id": 389367,
         "visible_spell_id": null,
-        "icon": "inv_sword_1h_felfireraid_d_01"
+        "icon": "inv_sword_1h_felfireraid_d_01",
+        "icon_candidates": [
+          "inv_sword_1h_felfireraid_d_01"
+        ]
       },
       "pve_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
       "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
@@ -2910,8 +3036,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2943,7 +3069,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Oppressive Darkness",
         "spell_id": 1270255,
         "visible_spell_id": null,
-        "icon": "spell_shadow_shadowfury"
+        "icon": "spell_shadow_shadowfury",
+        "icon_candidates": [
+          "spell_shadow_shadowfury"
+        ]
       },
       "pve_tooltip": "Reduces the cooldown of Shadowfury by 15 sec and increases its radius by 2 yds.\nReduces the cooldown of Howl of Terror by 5 sec and it now fears 5 additional enemies.",
       "pvp_tooltip": "Reduces the cooldown of Shadowfury by 15 sec and increases its radius by 2 yds.\nReduces the cooldown of Howl of Terror by 5 sec and it now fears 5 additional enemies.",
@@ -2967,8 +3096,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -2999,7 +3128,11 @@ window.WOW_PVP_DATA = {
         "talent_name": "Pact of Gluttony",
         "spell_id": 386689,
         "visible_spell_id": null,
-        "icon": "warlock_-bloodstone"
+        "icon": "warlock__bloodstone",
+        "icon_candidates": [
+          "warlock__bloodstone",
+          "warlock_-bloodstone"
+        ]
       },
       "pve_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
       "pvp_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
@@ -3054,8 +3187,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3087,7 +3220,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soulburn",
         "spell_id": 385899,
         "visible_spell_id": null,
-        "icon": "spell_warlock_soulburn"
+        "icon": "spell_warlock_soulburn",
+        "icon_candidates": [
+          "spell_warlock_soulburn"
+        ]
       },
       "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
       "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 20% and increases your maximum health by 15% for 12 sec.",
@@ -3261,8 +3397,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3293,7 +3429,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blight of Weakness",
         "spell_id": 1265799,
         "visible_spell_id": 1271748,
-        "icon": "warlock_curse_weakness_amplified"
+        "icon": "warlock_curse_weakness_amplified",
+        "icon_candidates": [
+          "warlock_curse_weakness_amplified"
+        ]
       },
       "pve_tooltip": "Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing the time between their attacks by 100% and reducing their critical strike chance by 10% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
       "pvp_tooltip": "Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing the time between their attacks by 100% and reducing their critical strike chance by 10% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
@@ -3350,8 +3489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3382,7 +3521,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blight of Tongues",
         "spell_id": 1271802,
         "visible_spell_id": null,
-        "icon": "spell_shadow_curseoftongues_amplified"
+        "icon": "spell_shadow_curseoftongues_amplified",
+        "icon_candidates": [
+          "spell_shadow_curseoftongues_amplified"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 100% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 30% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
@@ -3458,8 +3600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3490,7 +3632,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hand of Gul'dan",
         "spell_id": 1250273,
         "visible_spell_id": 105174,
-        "icon": "ability_warlock_handofguldan"
+        "icon": "ability_warlock_handofguldan",
+        "icon_candidates": [
+          "ability_warlock_handofguldan"
+        ]
       },
       "pve_tooltip": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\nDeals up to [3 * (50.1188% of Spell Power)] Shadowflame damage on impact to all enemies within 8 yds of the target [Hand of Doom: applies Doom to each target] and summons 3 Wild Imps.",
       "pvp_tooltip": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\nDeals up to [3 * (50.1188% of Spell Power)] Shadowflame damage on impact to all enemies within 8 yds of the target [Hand of Doom: applies Doom to each target] and summons 3 Wild Imps.",
@@ -3514,8 +3659,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3548,7 +3693,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demoniac",
         "spell_id": 426115,
         "visible_spell_id": 426115,
-        "icon": "inv_demonbolt"
+        "icon": "inv_demonbolt",
+        "icon_candidates": [
+          "inv_demonbolt"
+        ]
       },
       "pve_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (799.508% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
       "pvp_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (799.508% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
@@ -3637,8 +3785,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3671,7 +3819,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Call Dreadstalkers",
         "spell_id": 104316,
         "visible_spell_id": null,
-        "icon": "spell_warlock_calldreadstalkers"
+        "icon": "spell_warlock_calldreadstalkers",
+        "icon_candidates": [
+          "spell_warlock_calldreadstalkers"
+        ]
       },
       "pve_tooltip": "2 Soul Shards\n40 yd range\n2 sec cast\n20 sec cooldown\nSummons 2 ferocious Dreadstalkers to attack the target for 12 sec.",
       "pvp_tooltip": "2 Soul Shards\n40 yd range\n2 sec cast\n20 sec cooldown\nSummons 2 ferocious Dreadstalkers to attack the target for 12 sec.",
@@ -3695,8 +3846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3728,7 +3879,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominant Hand",
         "spell_id": 1276433,
         "visible_spell_id": null,
-        "icon": "warlock_curse_shadow"
+        "icon": "warlock_curse_shadow",
+        "icon_candidates": [
+          "warlock_curse_shadow"
+        ]
       },
       "pve_tooltip": "Increases damage dealt by Hand of Gul'dan to its main target by 20%.",
       "pvp_tooltip": "Increases damage dealt by Hand of Gul'dan to its main target by 20%.",
@@ -3752,8 +3906,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3786,7 +3940,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Intellect",
         "spell_id": 1250372,
         "visible_spell_id": null,
-        "icon": "ability_kaztik_dominatemind"
+        "icon": "ability_kaztik_dominatemind",
+        "icon_candidates": [
+          "ability_kaztik_dominatemind"
+        ]
       },
       "pve_tooltip": "Increases your Intellect by 2%.",
       "pvp_tooltip": "Increases your Intellect by 2%.",
@@ -3810,8 +3967,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3844,7 +4001,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Practiced Rituals",
         "spell_id": 1250375,
         "visible_spell_id": null,
-        "icon": "inv_10_inscription_illusoryspellscrolls_color4"
+        "icon": "inv_10_inscription_illusoryspellscrolls_color4",
+        "icon_candidates": [
+          "inv_10_inscription_illusoryspellscrolls_color4"
+        ]
       },
       "pve_tooltip": "Increases your Mastery by 2%.",
       "pvp_tooltip": "Increases your Mastery by 2%.",
@@ -3868,8 +4028,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3901,7 +4061,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dreadlash",
         "spell_id": 264078,
         "visible_spell_id": null,
-        "icon": "spell_shadow_summonvoidwalker"
+        "icon": "spell_shadow_summonvoidwalker",
+        "icon_candidates": [
+          "spell_shadow_summonvoidwalker"
+        ]
       },
       "pve_tooltip": "40 yd range\nWhen your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within 8 yards and deals 10% more damage.",
       "pvp_tooltip": "40 yd range\nWhen your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within 8 yards and deals 10% more damage.",
@@ -3925,8 +4088,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -3960,7 +4123,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imp-erator",
         "spell_id": 416230,
         "visible_spell_id": null,
-        "icon": "spell_warlock_summonimpoutland"
+        "icon": "spell_warlock_summonimpoutland",
+        "icon_candidates": [
+          "spell_warlock_summonimpoutland"
+        ]
       },
       "pve_tooltip": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by 15%.",
       "pvp_tooltip": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by 15%.",
@@ -3984,8 +4150,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4019,7 +4185,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Implosion",
         "spell_id": 196277,
         "visible_spell_id": null,
-        "icon": "inv_implosion"
+        "icon": "inv_implosion",
+        "icon_candidates": [
+          "inv_implosion"
+        ]
       },
       "pve_tooltip": "40 yd range\nInstant\n15 sec cooldown\nDemonic forces suck 6 of your Wild Imps toward the target, and then cause them to violently explode, dealing (136.382% of Spell Power) Shadowflame damage to all enemies within 8 yards.",
       "pvp_tooltip": "40 yd range\nInstant\n15 sec cooldown\nDemonic forces suck 6 of your Wild Imps toward the target, and then cause them to violently explode, dealing (136.382% of Spell Power) Shadowflame damage to all enemies within 8 yards.",
@@ -4043,8 +4212,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4078,7 +4247,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Power Siphon",
         "spell_id": 264130,
         "visible_spell_id": null,
-        "icon": "ability_warlock_backdraft"
+        "icon": "ability_warlock_backdraft",
+        "icon_candidates": [
+          "ability_warlock_backdraft"
+        ]
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nInstantly sacrifice up to 2 Wild Imps, generating 2 charges of Demonic Core that cause Demonbolt to deal 30% additional damage.",
       "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\nInstantly sacrifice up to 2 Wild Imps, generating 2 charges of Demonic Core that cause Demonbolt to deal 30% additional damage.",
@@ -4102,8 +4274,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4137,7 +4309,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summon Felguard",
         "spell_id": 30146,
         "visible_spell_id": null,
-        "icon": "spell_shadow_summonfelguard"
+        "icon": "spell_shadow_summonfelguard",
+        "icon_candidates": [
+          "spell_shadow_summonfelguard"
+        ]
       },
       "pve_tooltip": "1 Soul Shard\n6 sec cast\nSummons a Felguard under your command as a powerful melee combatant.",
       "pvp_tooltip": "1 Soul Shard\n6 sec cast\nSummons a Felguard under your command as a powerful melee combatant.",
@@ -4161,8 +4336,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4195,7 +4370,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Rapidity",
         "spell_id": 1263941,
         "visible_spell_id": null,
-        "icon": "spell_argus_withering_fire"
+        "icon": "spell_argus_withering_fire",
+        "icon_candidates": [
+          "spell_argus_withering_fire"
+        ]
       },
       "pve_tooltip": "When your Wild Imps cast Fel Firebolt, they have 10% chance to instantly cast another Fel Firebolt at 200% effectiveness.",
       "pvp_tooltip": "When your Wild Imps cast Fel Firebolt, they have 10% chance to instantly cast another Fel Firebolt at 200% effectiveness.",
@@ -4219,8 +4397,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4255,7 +4433,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Rune of Shadows",
         "spell_id": 453744,
         "visible_spell_id": null,
-        "icon": "spell_shadow_rune"
+        "icon": "spell_shadow_rune",
+        "icon_candidates": [
+          "spell_shadow_rune"
+        ]
       },
       "pve_tooltip": "Reduces the cast time of Shadow Bolt by 20% and increases its damage by 30%.",
       "pvp_tooltip": "Reduces the cast time of Shadow Bolt by 20% and increases its damage by 30%.",
@@ -4298,8 +4479,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4334,7 +4515,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Carnivorous Stalkers",
         "spell_id": 386194,
         "visible_spell_id": null,
-        "icon": "warlock_pvp_callfelhunter"
+        "icon": "warlock_pvp_callfelhunter",
+        "icon_candidates": [
+          "warlock_pvp_callfelhunter"
+        ]
       },
       "pve_tooltip": "Your Dreadstalkers' attacks have a 20% chance to trigger an additional Dreadbite.",
       "pvp_tooltip": "Your Dreadstalkers' attacks have a 20% chance to trigger an additional Dreadbite.",
@@ -4377,8 +4561,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4411,7 +4595,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Fel Armaments",
         "spell_id": 1263935,
         "visible_spell_id": null,
-        "icon": "inv_misc_desecrated_plategloves"
+        "icon": "inv_misc_desecrated_plategloves",
+        "icon_candidates": [
+          "inv_misc_desecrated_plategloves"
+        ]
       },
       "pve_tooltip": "The cooldown of your Felguard's Felstorm is reduced by 10 sec and damage dealt to your primary demon is reduced by 10%.",
       "pvp_tooltip": "The cooldown of your Felguard's Felstorm is reduced by 10 sec and damage dealt to your primary demon is reduced by 10%.",
@@ -4435,8 +4622,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4468,7 +4655,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Imp Gang Boss",
         "spell_id": 1250768,
         "visible_spell_id": null,
-        "icon": "ability_warlock_empoweredimp"
+        "icon": "ability_warlock_empoweredimp",
+        "icon_candidates": [
+          "ability_warlock_empoweredimp"
+        ]
       },
       "pve_tooltip": "Hand of Gul'dan now empowers 1 of the Wild Imps it summons, increasing its damage dealt by 100%.",
       "pvp_tooltip": "Hand of Gul'dan now empowers 1 of the Wild Imps it summons, increasing its damage dealt by 100%.",
@@ -4492,8 +4682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4526,7 +4716,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Brutality",
         "spell_id": 453908,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_bladedance"
+        "icon": "ability_demonhunter_bladedance",
+        "icon_candidates": [
+          "ability_demonhunter_bladedance"
+        ]
       },
       "pve_tooltip": "Damaging critical strikes dealt by you and your demons deal 230% damage instead of the usual 200%.",
       "pvp_tooltip": "Damaging critical strikes dealt by you and your demons deal 230% damage instead of the usual 200%.",
@@ -4550,8 +4743,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4583,7 +4776,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Inner Demons",
         "spell_id": 267216,
         "visible_spell_id": null,
-        "icon": "ability_warlock_eradication"
+        "icon": "ability_warlock_eradication",
+        "icon_candidates": [
+          "ability_warlock_eradication"
+        ]
       },
       "pve_tooltip": "100 yd range\nYou passively summon a Wild Imp to fight for you every 12 sec.",
       "pvp_tooltip": "100 yd range\nYou passively summon a Wild Imp to fight for you every 12 sec.",
@@ -4607,8 +4803,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4642,7 +4838,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summon Demonic Tyrant",
         "spell_id": 265187,
         "visible_spell_id": null,
-        "icon": "inv_summondemonictyrant"
+        "icon": "inv_summondemonictyrant",
+        "icon_candidates": [
+          "inv_summondemonictyrant"
+        ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n2 sec cast\n1 min cooldown\nSummon a Demonic Tyrant that damages your target for 15 sec.\nDamage dealt by Demonic Tyrant is increased by 10% for each Wild Imp and Dreadstalker active. [Soulbound Tyrant: Generates 0 Soul Shards.]",
       "pvp_tooltip": "2% of base mana\n40 yd range\n2 sec cast\n1 min cooldown\nSummon a Demonic Tyrant that damages your target for 15 sec.\nDamage dealt by Demonic Tyrant is increased by 10% for each Wild Imp and Dreadstalker active. [Soulbound Tyrant: Generates 0 Soul Shards.]",
@@ -4666,8 +4865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4699,7 +4898,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Blighted Maw",
         "spell_id": 1276956,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_01"
+        "icon": "ability_creature_poison_01",
+        "icon_candidates": [
+          "ability_creature_poison_01"
+        ]
       },
       "pve_tooltip": "The fangs of your Dreadstalkers are coated in corrosive bile, causing Dreadbite to deal additional damage equal to 50% of damage dealt as Plague damage.",
       "pvp_tooltip": "The fangs of your Dreadstalkers are coated in corrosive bile, causing Dreadbite to deal additional damage equal to 50% of damage dealt as Plague damage.",
@@ -4723,8 +4925,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4757,7 +4959,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Improved Demonic Tactics",
         "spell_id": 453800,
         "visible_spell_id": null,
-        "icon": "ability_warlock_ancientgrimoire"
+        "icon": "ability_warlock_ancientgrimoire",
+        "icon_candidates": [
+          "ability_warlock_ancientgrimoire"
+        ]
       },
       "pve_tooltip": "100 yd range\nIncreases the critical strike chance of your primary demon by 50% of your critical strike chance.",
       "pvp_tooltip": "100 yd range\nIncreases the critical strike chance of your primary demon by 50% of your critical strike chance.",
@@ -4781,8 +4986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4814,7 +5019,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Empowered Felstorm",
         "spell_id": 1279575,
         "visible_spell_id": null,
-        "icon": "inv_axe_2h_demonweapon_c_01"
+        "icon": "inv_axe_2h_demonweapon_c_01",
+        "icon_candidates": [
+          "inv_axe_2h_demonweapon_c_01"
+        ]
       },
       "pve_tooltip": "Increases the damage of your Felguard's Felstorm by 20% and its duration by 4.0 sec.",
       "pvp_tooltip": "Increases the damage of your Felguard's Felstorm by 20% and its duration by 4.0 sec.",
@@ -4838,8 +5046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4874,7 +5082,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Spiteful Reconstitution",
         "spell_id": 428394,
         "visible_spell_id": null,
-        "icon": "spell_shadow_impphaseshift"
+        "icon": "spell_shadow_impphaseshift",
+        "icon_candidates": [
+          "spell_shadow_impphaseshift"
+        ]
       },
       "pve_tooltip": "Increases Demonbolt damage by 10% and consuming a Demonic Core has a chance to summon a Wild Imp.",
       "pvp_tooltip": "Increases Demonbolt damage by 10% and consuming a Demonic Core has a chance to summon a Wild Imp.",
@@ -4898,8 +5109,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4932,7 +5143,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Tyrant's Oblation",
         "spell_id": 1276746,
         "visible_spell_id": null,
-        "icon": "spell_warlock_demonwrath"
+        "icon": "spell_warlock_demonwrath",
+        "icon_candidates": [
+          "spell_warlock_demonwrath"
+        ]
       },
       "pve_tooltip": "Your Demonic Tyrant also empowers you while active, increasing your haste by 8%.",
       "pvp_tooltip": "Your Demonic Tyrant also empowers you while active, increasing your haste by 8%.",
@@ -4956,8 +5170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -4990,7 +5204,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Antoran Armaments",
         "spell_id": 1250921,
         "visible_spell_id": null,
-        "icon": "inv_plate_helmet_eredarargus_d_01"
+        "icon": "inv_plate_helmet_eredarargus_d_01",
+        "icon_candidates": [
+          "inv_plate_helmet_eredarargus_d_01"
+        ]
       },
       "pve_tooltip": "Your Demonic Tyrant is equipped with armor forged within Antorus, increasing their armor by 10%. While summoned, your Demonic Tyrant now assaults enemies with powerful melee attacks.\nBurning Cleave\nCleaves the area in front of the caster, inflicting (96% of Spell Power) Shadowflame damage. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "Your Demonic Tyrant is equipped with armor forged within Antorus, increasing their armor by 10%. While summoned, your Demonic Tyrant now assaults enemies with powerful melee attacks.\nBurning Cleave\nCleaves the area in front of the caster, inflicting (96% of Spell Power) Shadowflame damage. Damage reduced beyond 8 targets.",
@@ -5014,8 +5231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5050,7 +5267,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flametouched",
         "spell_id": 453699,
         "visible_spell_id": null,
-        "icon": "spell_shaman_firenova"
+        "icon": "spell_shaman_firenova",
+        "icon_candidates": [
+          "spell_shaman_firenova"
+        ]
       },
       "pve_tooltip": "Increases the attack speed of your Dreadstalkers by 10% and their critical strike chance by 15%.",
       "pvp_tooltip": "Increases the attack speed of your Dreadstalkers by 10% and their critical strike chance by 15%.",
@@ -5074,8 +5294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5108,7 +5328,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Knowledge",
         "spell_id": 386185,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improveddemonictactics"
+        "icon": "ability_warlock_improveddemonictactics",
+        "icon_candidates": [
+          "ability_warlock_improveddemonictactics"
+        ]
       },
       "pve_tooltip": "Hand of Gul'dan has a 15% chance to generate a charge of Demonic Core.",
       "pvp_tooltip": "Hand of Gul'dan has a 15% chance to generate a charge of Demonic Core.",
@@ -5151,8 +5374,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5185,7 +5408,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sacrificed Souls",
         "spell_id": 267214,
         "visible_spell_id": null,
-        "icon": "ability_creature_disease_05"
+        "icon": "ability_creature_disease_05",
+        "icon_candidates": [
+          "ability_creature_disease_05"
+        ]
       },
       "pve_tooltip": "100 yd range\nShadow Bolt and Demonbolt deal 2% additional damage per demon you have summoned.",
       "pvp_tooltip": "100 yd range\nShadow Bolt and Demonbolt deal 2% additional damage per demon you have summoned.",
@@ -5209,8 +5435,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5244,7 +5470,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Reign of Tyranny",
         "spell_id": 1276748,
         "visible_spell_id": null,
-        "icon": "ability_warlock_demonicpower"
+        "icon": "ability_warlock_demonicpower",
+        "icon_candidates": [
+          "ability_warlock_demonicpower"
+        ]
       },
       "pve_tooltip": "Your Demonic Tyrant lasts an additional 5 sec and extends the duration of your Dreadstalkers by 15 sec when summoned.",
       "pvp_tooltip": "Your Demonic Tyrant lasts an additional 5 sec and extends the duration of your Dreadstalkers by 15 sec when summoned.",
@@ -5268,8 +5497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5302,7 +5531,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Master Summoner",
         "spell_id": 1240189,
         "visible_spell_id": null,
-        "icon": "spell_nature_removecurse"
+        "icon": "spell_nature_removecurse",
+        "icon_candidates": [
+          "spell_nature_removecurse"
+        ]
       },
       "pve_tooltip": "Increases Mastery by 3% and reduces the cast time of your Summon Demonic Tyrant and Summon Felguard by 0.5 sec.",
       "pvp_tooltip": "Increases Mastery by 3% and reduces the cast time of your Summon Demonic Tyrant and Summon Felguard by 0.5 sec.",
@@ -5326,8 +5558,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5360,7 +5592,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Calling",
         "spell_id": 1276947,
         "visible_spell_id": null,
-        "icon": "inv_felstalker_pet"
+        "icon": "inv_felstalker_pet",
+        "icon_candidates": [
+          "inv_felstalker_pet"
+        ]
       },
       "pve_tooltip": "Call Dreadstalkers costs 2 less Soul Shard and its cast time is reduced by 100%.",
       "pvp_tooltip": "Call Dreadstalkers costs 2 less Soul Shard and its cast time is reduced by 100%.",
@@ -5403,8 +5638,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5436,7 +5671,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Doom",
         "spell_id": 460551,
         "visible_spell_id": null,
-        "icon": "spell_shadow_auraofdarkness"
+        "icon": "spell_shadow_auraofdarkness",
+        "icon_candidates": [
+          "spell_shadow_auraofdarkness"
+        ]
       },
       "pve_tooltip": "When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing (403.121% of Spell Power) Shadow damage to enemies within 10 yds of its target after 20 sec or when removed. Damage is reduced beyond 8 targets.\nHand of Gul'dan reduces the duration of Doom by 3 sec.",
       "pvp_tooltip": "When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing (107.4991% of Spell Power) Shadow damage to enemies within 10 yds of its target after 20 sec or when removed. Damage is reduced beyond 8 targets.\nHand of Gul'dan reduces the duration of Doom by 3 sec.",
@@ -5512,8 +5750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5547,7 +5785,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Hellbent Commander",
         "spell_id": 1250897,
         "visible_spell_id": null,
-        "icon": "inv_helm_cloth_pvpwarlock_o_01"
+        "icon": "inv_helm_cloth_pvpwarlock_o_01",
+        "icon_candidates": [
+          "inv_helm_cloth_pvpwarlock_o_01"
+        ]
       },
       "pve_tooltip": "Your demons deal 1.0% increased damage for each demon you control.",
       "pvp_tooltip": "Your demons deal 1.0% increased damage for each demon you control.",
@@ -5571,8 +5812,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5606,7 +5847,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Grimoire: Imp Lord",
         "spell_id": 1276452,
         "visible_spell_id": null,
-        "icon": "inv_imp3_purple"
+        "icon": "inv_imp3_purple",
+        "icon_candidates": [
+          "inv_imp3_purple"
+        ]
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons an Imp Lord to assist you in combat for 20 sec and will remove 1 harmful effect from you when summoned.\nTransforms into Singe Magic while on cooldown.",
       "pvp_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons an Imp Lord to assist you in combat for 20 sec and will remove 1 harmful effect from you when summoned.\nTransforms into Singe Magic while on cooldown.",
@@ -5630,8 +5874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5665,7 +5909,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Grimoire: Fel Ravager",
         "spell_id": 1276467,
         "visible_spell_id": null,
-        "icon": "spell_shadow_summonfelhunter"
+        "icon": "spell_shadow_summonfelhunter",
+        "icon_candidates": [
+          "spell_shadow_summonfelhunter"
+        ]
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Fel Ravager to assist you in combat for 20 sec and will purge 1 beneficial magic effect from an enemy.\nTurns into Devour Magic while on cooldown.",
       "pvp_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Fel Ravager to assist you in combat for 20 sec and will purge 1 beneficial magic effect from an enemy.\nTurns into Devour Magic while on cooldown.",
@@ -5689,8 +5936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5722,7 +5969,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summon Vilefiend",
         "spell_id": 1251778,
         "visible_spell_id": null,
-        "icon": "inv_argusfelstalkermount"
+        "icon": "inv_argusfelstalkermount",
+        "icon_candidates": [
+          "inv_argusfelstalkermount"
+        ]
       },
       "pve_tooltip": "Call Dreadstalkers also summons a Vilefiend that assists you in combat for 15 sec.",
       "pvp_tooltip": "Call Dreadstalkers also summons a Vilefiend that assists you in combat for 15 sec.",
@@ -5746,8 +5996,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5777,7 +6027,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Summon Doomguard",
         "spell_id": 1276672,
         "visible_spell_id": null,
-        "icon": "warlock_summon_doomguard"
+        "icon": "warlock_summon_doomguard",
+        "icon_candidates": [
+          "warlock_summon_doomguard"
+        ]
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Doomguard to assist you in combat for 12 sec. Consuming a Demonic Core reduces the cooldown of Summon Doomguard by 3 sec.\nDoom Bolt Volley\nSends a volley of malefic bolts at 5 enemies within 40 yds, inflicting (413.929% of Spell Power) Shadow damage to each target.",
       "pvp_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Doomguard to assist you in combat for 12 sec. Consuming a Demonic Core reduces the cooldown of Summon Doomguard by 3 sec.\nDoom Bolt Volley\nSends a volley of malefic bolts at 5 enemies within 40 yds, inflicting (413.929% of Spell Power) Shadow damage to each target.",
@@ -5801,8 +6054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5832,7 +6085,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "To Hell and Back",
         "spell_id": 1281511,
         "visible_spell_id": null,
-        "icon": "ability_warlock_impoweredimp"
+        "icon": "ability_warlock_impoweredimp",
+        "icon_candidates": [
+          "ability_warlock_impoweredimp"
+        ]
       },
       "pve_tooltip": "Power Siphon and Implosion summon 1 Imp Gang Boss for every 2 Wild Imps sacrificed. Wild Imps summoned this way gain Unstable Soul.\nUnstable Soul\nIncreases damage done by 50% and Fel Firebolt now jumps to 4 additional targets.",
       "pvp_tooltip": "Power Siphon and Implosion summon 1 Imp Gang Boss for every 2 Wild Imps sacrificed. Wild Imps summoned this way gain Unstable Soul.\nUnstable Soul\nIncreases damage done by 50% and Fel Firebolt now jumps to 4 additional targets.",
@@ -5856,8 +6112,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5887,7 +6143,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Stabilized Portals",
         "spell_id": 1276661,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_netherbond"
+        "icon": "ability_demonhunter_netherbond",
+        "icon_candidates": [
+          "ability_demonhunter_netherbond"
+        ]
       },
       "pve_tooltip": "Increases the duration of your Summon Vilefiend, Grimoire: Imp Lord, and Grimoire: Fel Ravager by 3 sec.",
       "pvp_tooltip": "Increases the duration of your Summon Vilefiend, Grimoire: Imp Lord, and Grimoire: Fel Ravager by 3 sec.",
@@ -5911,8 +6170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5942,7 +6201,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mark of Shatug",
         "spell_id": 455449,
         "visible_spell_id": null,
-        "icon": "inv_felhound3_shadow_mount"
+        "icon": "inv_felhound3_shadow_mount",
+        "icon_candidates": [
+          "inv_felhound3_shadow_mount"
+        ]
       },
       "pve_tooltip": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\nGloom Slash\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional (31.7766% of Spell Power) Shadow damage.",
       "pvp_tooltip": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\nGloom Slash\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional (31.7766% of Spell Power) Shadow damage.",
@@ -5966,8 +6228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -5997,7 +6259,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mark of F'harg",
         "spell_id": 455450,
         "visible_spell_id": null,
-        "icon": "inv_felhound3_shadow_fire"
+        "icon": "inv_felhound3_shadow_fire",
+        "icon_candidates": [
+          "inv_felhound3_shadow_fire"
+        ]
       },
       "pve_tooltip": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\nInfernal Presence\nCloaked in the ever-burning flames of the abyss, dealing (15.9865% of Spell Power) Fire damage to enemies within 10 yards every 1 sec.",
       "pvp_tooltip": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\nInfernal Presence\nCloaked in the ever-burning flames of the abyss, dealing (15.9865% of Spell Power) Fire damage to enemies within 10 yards every 1 sec.",
@@ -6021,8 +6286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6050,7 +6315,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominion of Argus",
         "spell_id": 1276163,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warlock_dominionofargus"
+        "icon": "inv12_apextalent_warlock_dominionofargus",
+        "icon_candidates": [
+          "inv12_apextalent_warlock_dominionofargus"
+        ]
       },
       "pve_tooltip": "Summoning your Demonic Tyrant leaves open a portal to Argus for 15 sec, causing every 2 casts of Hand of Gul'dan to summon a subjugated demon that serves you for 10 sec.",
       "pvp_tooltip": "Summoning your Demonic Tyrant leaves open a portal to Argus for 15 sec, causing every 2 casts of Hand of Gul'dan to summon a subjugated demon that serves you for 10 sec.",
@@ -6074,8 +6342,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6103,7 +6371,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominion of Argus",
         "spell_id": 1276190,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warlock_dominionofargus"
+        "icon": "inv12_apextalent_warlock_dominionofargus",
+        "icon_candidates": [
+          "inv12_apextalent_warlock_dominionofargus"
+        ]
       },
       "pve_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
       "pvp_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
@@ -6146,8 +6417,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6175,7 +6446,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Dominion of Argus",
         "spell_id": 1276222,
         "visible_spell_id": null,
-        "icon": "inv12_apextalent_warlock_dominionofargus"
+        "icon": "inv12_apextalent_warlock_dominionofargus",
+        "icon_candidates": [
+          "inv12_apextalent_warlock_dominionofargus"
+        ]
       },
       "pve_tooltip": "While Dominion of Argus is active, Hand of Gul'dan refunds 1 Soul Shard.\nDemons summoned by Dominion of Argus last an additional 4 sec.",
       "pvp_tooltip": "While Dominion of Argus is active, Hand of Gul'dan refunds 1 Soul Shard.\nDemons summoned by Dominion of Argus last an additional 4 sec.",
@@ -6199,8 +6473,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6233,7 +6507,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demonic Soul",
         "spell_id": 449614,
         "visible_spell_id": null,
-        "icon": "inv_ability_soulharvesterwarlock_demonicsoul"
+        "icon": "inv_ability_soulharvesterwarlock_demonicsoul",
+        "icon_candidates": [
+          "inv_ability_soulharvesterwarlock_demonicsoul"
+        ]
       },
       "pve_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (353.236% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (353.236% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
@@ -6257,8 +6534,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6290,7 +6567,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Necrolyte Teachings",
         "spell_id": 449620,
         "visible_spell_id": null,
-        "icon": "spell_necro_deathall"
+        "icon": "spell_necro_deathall",
+        "icon_candidates": [
+          "spell_necro_deathall"
+        ]
       },
       "pve_tooltip": "Shadow Bolt damage increased by 20%. Power Siphon increases the damage of Demonbolt by an additional 20%.",
       "pvp_tooltip": "Shadow Bolt damage increased by 10%. Power Siphon increases the damage of Demonbolt by an additional 10%.",
@@ -6469,8 +6749,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6502,7 +6782,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul Anathema",
         "spell_id": 449624,
         "visible_spell_id": null,
-        "icon": "spell_necro_inevitableend"
+        "icon": "spell_necro_inevitableend",
+        "icon_candidates": [
+          "spell_necro_inevitableend"
+        ]
       },
       "pve_tooltip": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing (114.712% of Spell Power) Shadow damage over 10 sec.\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
       "pvp_tooltip": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing (114.712% of Spell Power) Shadow damage over 10 sec.\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
@@ -6526,8 +6809,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6559,7 +6842,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Demoniac's Fervor",
         "spell_id": 449629,
         "visible_spell_id": null,
-        "icon": "inv_helm_mask_zulgurub_d_01"
+        "icon": "inv_helm_mask_zulgurub_d_01",
+        "icon_candidates": [
+          "inv_helm_mask_zulgurub_d_01"
+        ]
       },
       "pve_tooltip": "Your demonic soul deals 200% increased damage to the main target of Hand of Gul'dan.",
       "pvp_tooltip": "Your demonic soul deals 200% increased damage to the main target of Hand of Gul'dan.",
@@ -6620,8 +6906,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6653,7 +6939,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Manifested Avarice",
         "spell_id": 1268884,
         "visible_spell_id": null,
-        "icon": "ability_priest_shadowyapparition"
+        "icon": "ability_priest_shadowyapparition",
+        "icon_candidates": [
+          "ability_priest_shadowyapparition"
+        ]
       },
       "pve_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
       "pvp_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
@@ -6766,8 +7055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6799,7 +7088,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gorebound Fortitude",
         "spell_id": 449701,
         "visible_spell_id": null,
-        "icon": "spell_holy_consumemagic"
+        "icon": "spell_holy_consumemagic",
+        "icon_candidates": [
+          "spell_holy_consumemagic"
+        ]
       },
       "pve_tooltip": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by 30% and increasing your maximum health by 20% for 12 sec.",
       "pvp_tooltip": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by 30% and increasing your maximum health by 20% for 12 sec.",
@@ -6922,8 +7214,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -6955,7 +7247,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Friends In Dark Places",
         "spell_id": 449703,
         "visible_spell_id": null,
-        "icon": "spell_shadow_deathpact"
+        "icon": "spell_shadow_deathpact",
+        "icon_candidates": [
+          "spell_shadow_deathpact"
+        ]
       },
       "pve_tooltip": "Dark Pact now shields you for an additional 50% of the sacrificed health.",
       "pvp_tooltip": "Dark Pact now shields you for an additional 30% of the sacrificed health.",
@@ -7026,8 +7321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7059,7 +7354,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shared Fate",
         "spell_id": 449704,
         "visible_spell_id": null,
-        "icon": "ability_warlock_soullink"
+        "icon": "ability_warlock_soullink",
+        "icon_candidates": [
+          "ability_warlock_soullink"
+        ]
       },
       "pve_tooltip": "When you kill a target, its tortured soul is flung into a nearby enemy for 3 sec. This effect inflicts (50.6531% of Spell Power) Shadow damage to enemies within 10 yds every 1 sec.\nDeals reduced damage beyond 8 targets.",
       "pvp_tooltip": "When you kill a target, its tortured soul is flung into a nearby enemy for 3 sec. This effect inflicts (50.6531% of Spell Power) Shadow damage to enemies within 10 yds every 1 sec.\nDeals reduced damage beyond 8 targets.",
@@ -7083,8 +7381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7116,7 +7414,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Feast of Souls",
         "spell_id": 449706,
         "visible_spell_id": null,
-        "icon": "ability_warlock_improvedsoulleech"
+        "icon": "ability_warlock_improvedsoulleech",
+        "icon_candidates": [
+          "ability_warlock_improvedsoulleech"
+        ]
       },
       "pve_tooltip": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
       "pvp_tooltip": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
@@ -7140,8 +7441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7173,7 +7474,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eternal Servitude",
         "spell_id": 449707,
         "visible_spell_id": null,
-        "icon": "ability_demonhunter_infernalchains"
+        "icon": "ability_demonhunter_infernalchains",
+        "icon_candidates": [
+          "ability_demonhunter_infernalchains"
+        ]
       },
       "pve_tooltip": "Fel Domination cooldown is reduced by 90 sec.",
       "pvp_tooltip": "Fel Domination cooldown is reduced by 90 sec.",
@@ -7234,8 +7538,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7267,7 +7571,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gorefiend's Resolve",
         "spell_id": 389623,
         "visible_spell_id": null,
-        "icon": "ability_rogue_masterofsubtlety"
+        "icon": "ability_rogue_masterofsubtlety",
+        "icon_candidates": [
+          "ability_rogue_masterofsubtlety"
+        ]
       },
       "pve_tooltip": "Targets resurrected with Soulstone resurrect with 40% additional health and 80% additional mana.",
       "pvp_tooltip": "Targets resurrected with Soulstone resurrect with 40% additional health and 80% additional mana.",
@@ -7291,8 +7598,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7324,7 +7631,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shared Vessel",
         "spell_id": 1268889,
         "visible_spell_id": null,
-        "icon": "inv_ability_priest_mindgames"
+        "icon": "inv_ability_priest_mindgames",
+        "icon_candidates": [
+          "inv_ability_priest_mindgames"
+        ]
       },
       "pve_tooltip": "Increases your Mastery by 2%.\nThis effect is doubled while the demonic entity is aiding you in combat.",
       "pvp_tooltip": "Increases your Mastery by 2%.\nThis effect is doubled while the demonic entity is aiding you in combat.",
@@ -7348,8 +7658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7381,7 +7691,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Wicked Reaping",
         "spell_id": 449631,
         "visible_spell_id": null,
-        "icon": "inv_staff_2h_artifactdeadwind_d_05"
+        "icon": "inv_staff_2h_artifactdeadwind_d_05",
+        "icon_candidates": [
+          "inv_staff_2h_artifactdeadwind_d_05"
+        ]
       },
       "pve_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
       "pvp_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(300.5025% of Spell Power) * 0.4] Shadow damage to your target.",
@@ -7465,8 +7778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7498,7 +7811,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Quietus",
         "spell_id": 449634,
         "visible_spell_id": null,
-        "icon": "spell_necro_conclave"
+        "icon": "spell_necro_conclave",
+        "icon_candidates": [
+          "spell_necro_conclave"
+        ]
       },
       "pve_tooltip": "Soul Anathema damage increased by 25% and is dealt 20% faster.\nConsuming Demonic Core activates Shared Fate or Feast of Souls.",
       "pvp_tooltip": "Soul Anathema damage increased by 25% and is dealt 20% faster.\nConsuming Demonic Core activates Shared Fate or Feast of Souls.",
@@ -7522,8 +7838,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7555,7 +7871,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Sataiel's Volition",
         "spell_id": 449637,
         "visible_spell_id": null,
-        "icon": "spell_necro_deathlyecho"
+        "icon": "spell_necro_deathlyecho",
+        "icon_candidates": [
+          "spell_necro_deathlyecho"
+        ]
       },
       "pve_tooltip": "Wild Imp damage increased by 35% and Wild Imps that are imploded have an additional 5% chance to grant a Demonic Core.",
       "pvp_tooltip": "Wild Imp damage increased by 35% and Wild Imps that are imploded have an additional 5% chance to grant a Demonic Core.",
@@ -7579,8 +7898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7612,7 +7931,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Eternal Hunger",
         "spell_id": 1268903,
         "visible_spell_id": null,
-        "icon": "ability_creature_poison_01_purple"
+        "icon": "ability_creature_poison_01_purple",
+        "icon_candidates": [
+          "ability_creature_poison_01_purple"
+        ]
       },
       "pve_tooltip": "Increases the duration of Manifested Avarice by 5 sec and increases the damage of Soul Swipe by 10%.",
       "pvp_tooltip": "Increases the duration of Manifested Avarice by 5 sec and increases the damage of Soul Swipe by 10%.",
@@ -7636,8 +7958,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7670,7 +7992,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Shadow of Death",
         "spell_id": 449638,
         "visible_spell_id": null,
-        "icon": "spell_arcane_prismaticcloak"
+        "icon": "spell_arcane_prismaticcloak",
+        "icon_candidates": [
+          "spell_arcane_prismaticcloak"
+        ]
       },
       "pve_tooltip": "Your Summon Demonic Tyrant spell is empowered by the demonic entity within you, causing it to grant 3 Soul Shards that each contain a Succulent Soul.",
       "pvp_tooltip": "Your Summon Demonic Tyrant spell is empowered by the demonic entity within you, causing it to grant 3 Soul Shards that each contain a Succulent Soul.",
@@ -7694,8 +8019,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7728,7 +8053,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Diabolic Ritual",
         "spell_id": 428514,
         "visible_spell_id": null,
-        "icon": "ability_bossfelorcs_necromancer_purple"
+        "icon": "ability_bossfelorcs_necromancer_purple",
+        "icon_candidates": [
+          "ability_bossfelorcs_necromancer_purple"
+        ]
       },
       "pve_tooltip": "Spending a Soul Shard on a damaging spell grants Diabolic Ritual for 20 sec. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by 1 sec.\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Hand of Gul'dan to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.",
       "pvp_tooltip": "Spending a Soul Shard on a damaging spell grants Diabolic Ritual for 20 sec. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by 1 sec.\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Hand of Gul'dan to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.",
@@ -7752,8 +8080,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7785,7 +8113,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cloven Souls",
         "spell_id": 428517,
         "visible_spell_id": null,
-        "icon": "ability_creature_felfrenzy"
+        "icon": "ability_creature_felfrenzy",
+        "icon_candidates": [
+          "ability_creature_felfrenzy"
+        ]
       },
       "pve_tooltip": "Enemies damaged by your Overlord have their souls cloven, increasing damage taken by you and your pets by 5% for 15 sec.",
       "pvp_tooltip": "Enemies damaged by your Overlord have their souls cloven, increasing damage taken by you and your pets by 5% for 15 sec.",
@@ -7809,8 +8140,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7842,7 +8173,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Touch of Rancora",
         "spell_id": 429893,
         "visible_spell_id": null,
-        "icon": "ability_bossfellord_felspike"
+        "icon": "ability_bossfellord_felspike",
+        "icon_candidates": [
+          "ability_bossfellord_felspike"
+        ]
       },
       "pve_tooltip": "Demonic Art increases the damage of your next Hand of Gul'dan by 20% and reduces its cast time by 50%.",
       "pvp_tooltip": "Demonic Art increases the damage of your next Hand of Gul'dan by 20% and reduces its cast time by 20%.",
@@ -7913,8 +8247,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -7946,7 +8280,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Secrets of the Coven",
         "spell_id": 428518,
         "visible_spell_id": null,
-        "icon": "achievement_boss_argus_shivan"
+        "icon": "achievement_boss_argus_shivan",
+        "icon_candidates": [
+          "achievement_boss_argus_shivan"
+        ]
       },
       "pve_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
       "pvp_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
@@ -8018,8 +8355,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8051,7 +8388,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Diabolic Oculi",
         "spell_id": 1268709,
         "visible_spell_id": null,
-        "icon": "inv_pet_inquisitoreye"
+        "icon": "inv_pet_inquisitoreye",
+        "icon_candidates": [
+          "inv_pet_inquisitoreye"
+        ]
       },
       "pve_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
       "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (100.5513% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
@@ -8127,8 +8467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8160,7 +8500,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Soul-Etched Circles",
         "spell_id": 428911,
         "visible_spell_id": null,
-        "icon": "spell_shadow_demoniccircleteleport"
+        "icon": "spell_shadow_demoniccircleteleport",
+        "icon_candidates": [
+          "spell_shadow_demoniccircleteleport"
+        ]
       },
       "pve_tooltip": "You always gain the benefit of Soulburn when casting Demonic Circle: Teleport, increasing your movement speed by 50% and making you immune to snares and roots for 6 sec.",
       "pvp_tooltip": "You always gain the benefit of Soulburn when casting Demonic Circle: Teleport, increasing your movement speed by 50% and making you immune to snares and roots for 6 sec.",
@@ -8184,8 +8527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8217,7 +8560,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Annihilan's Bellow",
         "spell_id": 429072,
         "visible_spell_id": null,
-        "icon": "ability_physical_taunt"
+        "icon": "ability_physical_taunt",
+        "icon_candidates": [
+          "ability_physical_taunt"
+        ]
       },
       "pve_tooltip": "Howl of Terror cooldown is reduced by 10 sec and range is increased by 5 yds.",
       "pvp_tooltip": "Howl of Terror cooldown is reduced by 10 sec and range is increased by 2 yds.",
@@ -8288,8 +8634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8321,7 +8667,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Cruelty of Kerxan",
         "spell_id": 429902,
         "visible_spell_id": null,
-        "icon": "creatureportrait_fomorhand"
+        "icon": "creatureportrait_fomorhand",
+        "icon_candidates": [
+          "creatureportrait_fomorhand"
+        ]
       },
       "pve_tooltip": "Summon Demonic Tyrant grants Diabolic Ritual and reduces its duration by 3 sec.",
       "pvp_tooltip": "Summon Demonic Tyrant grants Diabolic Ritual and reduces its duration by 3 sec.",
@@ -8345,8 +8694,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8378,7 +8727,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Machine",
         "spell_id": 429917,
         "visible_spell_id": null,
-        "icon": "inv_misc_supersoulash"
+        "icon": "inv_misc_supersoulash",
+        "icon_candidates": [
+          "inv_misc_supersoulash"
+        ]
       },
       "pve_tooltip": "Spending Soul Shards on damaging spells while your Demonic Tyrant is active decreases the duration of Diabolic Ritual by 1 additional sec.",
       "pvp_tooltip": "Spending Soul Shards on damaging spells while your Demonic Tyrant is active decreases the duration of Diabolic Ritual by 1 additional sec.",
@@ -8402,8 +8754,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8435,7 +8787,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Vitality",
         "spell_id": 429115,
         "visible_spell_id": null,
-        "icon": "inv_fabric_felcloth_ebon"
+        "icon": "inv_fabric_felcloth_ebon",
+        "icon_candidates": [
+          "inv_fabric_felcloth_ebon"
+        ]
       },
       "pve_tooltip": "Unending Resolve heals you for 30% of your maximum health over 10 sec.",
       "pvp_tooltip": "Unending Resolve heals you for 30% of your maximum health over 10 sec.",
@@ -8459,8 +8814,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8492,7 +8847,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Infernal Bulwark",
         "spell_id": 429130,
         "visible_spell_id": null,
-        "icon": "spell_fire_felfireward"
+        "icon": "spell_fire_felfireward",
+        "icon_candidates": [
+          "spell_fire_felfireward"
+        ]
       },
       "pve_tooltip": "Unending Resolve grants Soul Leech equal to 10% of your maximum health and increases the maximum amount Soul Leech can absorb by 10% for 8 sec.",
       "pvp_tooltip": "Unending Resolve grants Soul Leech equal to 10% of your maximum health and increases the maximum amount Soul Leech can absorb by 10% for 8 sec.",
@@ -8516,8 +8874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8549,7 +8907,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Looks That Kill",
         "spell_id": 1268713,
         "visible_spell_id": null,
-        "icon": "ability_bosskilrogg_deadeye"
+        "icon": "ability_bosskilrogg_deadeye",
+        "icon_candidates": [
+          "ability_bosskilrogg_deadeye"
+        ]
       },
       "pve_tooltip": "Your Diabolic Oculi now cast Diabolic Gaze at your primary demon's target every 1 sec while active.\nDiabolic Gaze\nFire a beam of destructive chaos magic at the target, dealing (80% of Spell Power) Chaos damage.\nDamage is increased by 100% per Demonic Oculus active.",
       "pvp_tooltip": "Your Diabolic Oculi now cast Diabolic Gaze at your primary demon's target every 1 sec while active.\nDiabolic Gaze\nFire a beam of destructive chaos magic at the target, dealing (80% of Spell Power) Chaos damage.\nDamage is increased by 100% per Demonic Oculus active.",
@@ -8573,8 +8934,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8606,7 +8967,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Flames of Xoroth",
         "spell_id": 429657,
         "visible_spell_id": null,
-        "icon": "ability_warlock_burningembers"
+        "icon": "ability_warlock_burningembers",
+        "icon_candidates": [
+          "ability_warlock_burningembers"
+        ]
       },
       "pve_tooltip": "Fire damage increased by 4% and damage dealt by your demons is increased by 4%.",
       "pvp_tooltip": "Fire damage increased by 4% and damage dealt by your demons is increased by 4%.",
@@ -8630,8 +8994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8663,7 +9027,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Abyssal Dominion",
         "spell_id": 429581,
         "visible_spell_id": null,
-        "icon": "70_inscription_vantus_rune_tomb"
+        "icon": "70_inscription_vantus_rune_tomb",
+        "icon_candidates": [
+          "70_inscription_vantus_rune_tomb"
+        ]
       },
       "pve_tooltip": "Summon Demonic Tyrant is empowered, dealing 70% increased damage and increasing the damage of your demons by 20% while active.",
       "pvp_tooltip": "Summon Demonic Tyrant is empowered, dealing 70% increased damage and increasing the damage of your demons by 20% while active.",
@@ -8687,8 +9054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8720,7 +9087,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gloom of Nathreza",
         "spell_id": 429899,
         "visible_spell_id": null,
-        "icon": "ability_rogue_envelopingshadows"
+        "icon": "ability_rogue_envelopingshadows",
+        "icon_candidates": [
+          "ability_rogue_envelopingshadows"
+        ]
       },
       "pve_tooltip": "Hand of Gul'dan deals 15% increased damage for each Soul Shard spent.",
       "pvp_tooltip": "Hand of Gul'dan deals 15% increased damage for each Soul Shard spent.",
@@ -8744,8 +9114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8777,7 +9147,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Mind's Eyes",
         "spell_id": 1268716,
         "visible_spell_id": null,
-        "icon": "spell_holy_healingfocus"
+        "icon": "spell_holy_healingfocus",
+        "icon_candidates": [
+          "spell_holy_healingfocus"
+        ]
       },
       "pve_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 2% for 10 sec.",
       "pvp_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 1% for 10 sec.",
@@ -8853,8 +9226,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-22T17:30:38.857Z",
-        "content_hash": "1b512235bfbfe28736cde1939b03af84",
+        "generated_at": "2026-09-23T18:23:18.048Z",
+        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Demonology",
@@ -8887,7 +9260,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Ruination",
         "spell_id": 428522,
         "visible_spell_id": null,
-        "icon": "ability_bossmannoroth_empoweredmannorothsgaze"
+        "icon": "ability_bossmannoroth_empoweredmannorothsgaze",
+        "icon_candidates": [
+          "ability_bossmannoroth_empoweredmannorothsgaze"
+        ]
       },
       "pve_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
       "pvp_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
@@ -9207,7 +9583,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-22T19:29:55.004068+00:00",
+  "generated_at": "2026-09-24T11:53:09.363587+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 15,
