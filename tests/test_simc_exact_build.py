@@ -432,3 +432,99 @@ static constexpr std::array<spelltext_data_t, 1> __spelltext_data { {
         )
         == "percent"
     )
+
+
+def test_pvp_dependencies_resolve_proven_specialization_branches():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.69933 Live\n"
+        "Name             : Holy Priest (id=137031)\n"
+        "Class            : Holy Priest\n"
+        "\n"
+        "Name             : Shadow Priest (id=137033)\n"
+        "Class            : Shadow Priest\n"
+        "\n"
+        "Name             : Manifested Power (id=453783)\n"
+        "Description      : Creating a Halo "
+        "$?a137033[upgrades Mind Flay. $@spelldesc391403]"
+        "[grants Surge of Light. $@spelldesc109186]\n"
+        "\n"
+        "Name             : Surge of Light (id=109186)\n"
+        "Description      : Holy child.\n"
+        "\n"
+        "Name             : Mind Flay: Insanity (id=391403)\n"
+        "Description      : Shadow child.\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="priest",
+    )
+
+    kwargs = {
+        "dump": dump,
+        "talent_spell_ids": {453783},
+        "pvp_spell_ids":
+            {109186, 391403},
+        "class_name": "Priest",
+        "spec_names":
+            [
+                "Discipline",
+                "Holy",
+                "Shadow",
+            ],
+    }
+
+    holy = simc.pvp_dependencies(
+        spec_name="Holy",
+        **kwargs,
+    )
+    shadow = simc.pvp_dependencies(
+        spec_name="Shadow",
+        **kwargs,
+    )
+
+    assert {
+        row.target_spell_id
+        for row in holy
+    } == {109186}
+
+    assert {
+        row.target_spell_id
+        for row in shadow
+    } == {391403}
+
+
+def test_unknown_specialization_conditions_are_not_pruned():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.69933 Live\n"
+        "Name             : Holy Priest (id=137031)\n"
+        "Class            : Holy Priest\n"
+        "\n"
+        "Name             : Parent (id=100)\n"
+        "Description      : $?a999999[$@spelldesc200][$@spelldesc300]\n"
+        "\n"
+        "Name             : First Child (id=200)\n"
+        "Description      : First.\n"
+        "\n"
+        "Name             : Second Child (id=300)\n"
+        "Description      : Second.\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="priest",
+    )
+
+    rows = simc.pvp_dependencies(
+        dump,
+        talent_spell_ids={100},
+        pvp_spell_ids={200, 300},
+        class_name="Priest",
+        spec_name="Holy",
+        spec_names=["Holy", "Shadow"],
+    )
+
+    assert {
+        row.target_spell_id
+        for row in rows
+    } == {200, 300}
