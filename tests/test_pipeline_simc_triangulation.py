@@ -826,3 +826,107 @@ def test_generated_exact_enrichment_never_overrides_unproven_conflict():
 
     assert rows[0]["pvp_multiplier"] == 0.5
     assert rows[0]["pvp_value"] == 10
+
+
+def test_generated_exact_build_uses_human_dump_semantics_for_generic_db2_labels():
+    """Generic DB2 labels can borrow exact-build dump semantics for identity."""
+    raw = (
+        "Name             : Mind Flay: Insanity (id=391403)\n"
+        "Effects          :\n"
+        "#1 (id=1028897)  : Apply Aura (6) | Periodic Damage (3): "
+        "shadow every 0.375 seconds\n"
+        "                   Base Value: 0 | SP Coefficient: 1.55929 | "
+        "PvP Coefficient: 0.76\n"
+        "Hotfixed         : PvP Coefficient (0.875 -> 0.76)\n"
+    )
+
+    dump = SimcDump(
+        class_slug="priest",
+        build="12.1.0.69933",
+        header="test",
+        spells={
+            391403: SimcSpell(
+                spell_id=391403,
+                name="Mind Flay: Insanity",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    generated = {
+        391403: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text="Apply Aura (6) | Aura Type (3)",
+                base_value=0,
+                sp_coefficient=1.55929,
+                pvp_coefficient=0.76,
+                ap_coefficient=None,
+                game_effect_id=1028897,
+            )
+        }
+    }
+
+    stale = EffectObservation(
+        source="drustvar",
+        spell_id=391403,
+        spell_name="Mind Flay: Insanity",
+        effect_index=1028897,
+        base_value=None,
+        pvp_multiplier=0.87,
+        effect_text=(
+            "Apply Aura (6) | Periodic Damage (3): "
+            "shadow every 0.75 seconds"
+        ),
+        patch="12.1.0.69587",
+        url="",
+        raw="",
+    )
+
+    rows, resolved = (
+        pipeline
+        ._build_generated_simc_fallback_rows(
+            spell_ids={391403},
+            talent_by_spell={
+                391403: {
+                    "talent_name":
+                        "Manifested Power",
+                    "class_name":
+                        "Priest",
+                    "spec_name":
+                        "Holy",
+                }
+            },
+            drustvar_by_spell={
+                391403: [stale]
+            },
+            generated_effects_by_spell=
+                generated,
+            simc_dump=dump,
+        )
+    )
+
+    assert resolved == {391403}
+    assert len(rows) == 1
+
+    row = rows[0]
+
+    assert row["effect_index"] == 1
+    assert row["pvp_multiplier"] == 0.76
+    assert row["simc_sp_coefficient"] == 1.55929
+    assert row["drustvar_multiplier"] == 0.87
+    assert (
+        row["match_reason"]
+        == "simc_generated_exact_build_stale_drustvar"
+    )
+    assert (
+        "Periodic Damage (3)"
+        in row["drustvar_effect_text"]
+    )
+    assert (
+        row["source_notes"][0][
+            "game_effect_id"
+        ]
+        == 1028897
+    )
