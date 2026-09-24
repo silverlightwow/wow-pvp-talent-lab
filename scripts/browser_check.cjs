@@ -39,6 +39,23 @@ function assertDescription(shown, original) {
     await page.waitForFunction(({name,cls}) => !document.querySelector('#specSelect').disabled && document.querySelector('#treeTitle').textContent === `${name} ${cls}`, {name:spec.name,cls:spec.className});
     const data = JSON.parse(fs.readFileSync(path.join(root,`web/data/${spec.slug}.json`)));
     assert.equal(Number(await page.locator('#changedBadge').textContent()),data.talents.filter(t=>t.tooltip_changed).length);
+
+    // A talent must never silently inherit the site's brand icon. This is
+    // checked for every shipped specialization, not only the Aimed Shot
+    // regression case below.
+    assert.equal(
+     await page.locator('.talent-node img[src$="app-icon.svg"], #talentTooltip img[src$="app-icon.svg"]').count(),
+     0,
+     `${spec.slug}: site icon leaked into a talent visual`
+    );
+    const invalidTalentIconFallbacks = await page.locator('.talent-node img[data-icon-candidates]').evaluateAll(images =>
+     images.filter(image => {
+      const candidates=String(image.dataset.iconCandidates||'').split('|').filter(Boolean);
+      return !candidates.length || candidates.some(candidate => candidate.includes('app-icon'));
+     }).length
+    );
+    assert.equal(invalidTalentIconFallbacks,0,`${spec.slug}: invalid talent icon fallback candidates`);
+
     const heroTrees = await page.locator('#heroSelect option').evaluateAll(xs=>xs.map(x=>x.value));
     for (const hero of heroTrees) {
      await page.locator('#heroSelect').selectOption(hero);
