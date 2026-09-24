@@ -4290,6 +4290,18 @@ async def audit_spec(
                     pvp_output_universe,
 
                 max_depth=4,
+
+                class_name=
+                    class_name,
+
+                spec_name=
+                    spec_name,
+
+                spec_names=
+                    result.metadata.get(
+                        "classSpecNames",
+                        [spec_name],
+                    ),
             )
         )
 
