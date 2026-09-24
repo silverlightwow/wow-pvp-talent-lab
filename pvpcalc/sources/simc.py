@@ -358,6 +358,215 @@ def _without_inactive_specialization_branches(
     return text
 
 
+
+def _without_inactive_specialization_index_branches(
+    text: str,
+    *,
+    spec_name: str,
+    spec_names,
+) -> str:
+    """Resolve Blizzard $?cN[true][false] specialization branches.
+
+    In spell text, c1/c2/c3/... refer to the class specialization
+    ordinal.  We only evaluate them when the current spec is present
+    in an explicitly supplied ordered specialization list.
+    """
+
+    ordered_names = [
+        str(name)
+        for name in (
+            spec_names
+            or ()
+        )
+    ]
+
+    try:
+        active_index = (
+            ordered_names.index(
+                str(spec_name)
+            )
+            + 1
+        )
+    except ValueError:
+        return text
+
+    pattern = re.compile(
+        r"\$\?c(\d+)\["
+    )
+
+    while True:
+
+        changed = False
+
+        for match in reversed(
+            list(
+                pattern.finditer(
+                    text
+                )
+            )
+        ):
+
+            branch_index = int(
+                match.group(1)
+            )
+
+            true_start = (
+                match.end() - 1
+            )
+
+            true_end = (
+                _matching_bracket_end(
+                    text,
+                    true_start,
+                )
+            )
+
+            if true_end is None:
+                continue
+
+            false_start = (
+                true_end + 1
+                if (
+                    true_end + 1
+                    < len(text)
+                    and text[
+                        true_end + 1
+                    ] == "["
+                )
+                else None
+            )
+
+            false_end = (
+                _matching_bracket_end(
+                    text,
+                    false_start,
+                )
+                if false_start
+                is not None
+                else None
+            )
+
+            if (
+                false_start is not None
+                and false_end is None
+            ):
+                continue
+
+            true_branch = text[
+                true_start + 1:
+                true_end
+            ]
+
+            false_branch = (
+                text[
+                    false_start + 1:
+                    false_end
+                ]
+                if (
+                    false_start
+                    is not None
+                    and false_end
+                    is not None
+                )
+                else ""
+            )
+
+            replacement = (
+                true_branch
+                if (
+                    branch_index
+                    == active_index
+                )
+                else false_branch
+            )
+
+            end = (
+                false_end + 1
+                if false_end
+                is not None
+                else true_end + 1
+            )
+
+            text = (
+                text[:match.start()]
+                + replacement
+                + text[end:]
+            )
+
+            changed = True
+
+        if not changed:
+            break
+
+    return text
+
+
+def scope_dump_to_specialization(
+    dump: SimcDump,
+    *,
+    class_name: str,
+    spec_name: str,
+    spec_names,
+) -> SimcDump:
+    """Return an exact-build dump with proven inactive spec text removed.
+
+    Numeric SpellEffect data is untouched.  Only player-text conditionals
+    proven from exact specialization identity are resolved, then dependency
+    edges are rebuilt from that scoped text.
+    """
+
+    if (
+        not class_name
+        or not spec_name
+        or not spec_names
+    ):
+        return dump
+
+    filtered_spells = {}
+
+    for spell_id, spell in (
+        dump.spells.items()
+    ):
+
+        raw = (
+            _without_inactive_specialization_branches(
+                spell.raw,
+                dump.spells,
+                class_name=
+                    class_name,
+                spec_name=
+                    spec_name,
+                spec_names=
+                    spec_names,
+            )
+        )
+
+        raw = (
+            _without_inactive_specialization_index_branches(
+                raw,
+                spec_name=
+                    spec_name,
+                spec_names=
+                    spec_names,
+            )
+        )
+
+        filtered_spells[
+            spell_id
+        ] = replace(
+            spell,
+            raw=raw,
+        )
+
+    return replace(
+        dump,
+        spells=filtered_spells,
+        edges=_build_edges(
+            filtered_spells
+        ),
+    )
+
+
 def _without_inactive_equipment_branches(text, spells):
     """A talent calculator has no equipped set bonuses. Keep the false branch.
 
@@ -1641,32 +1850,16 @@ def pvp_dependencies(
         and spec_name
         and spec_names
     ):
-        filtered_spells = {
-            spell_id: replace(
-                spell,
-                raw=(
-                    _without_inactive_specialization_branches(
-                        spell.raw,
-                        dump.spells,
-                        class_name=
-                            class_name,
-                        spec_name=
-                            spec_name,
-                        spec_names=
-                            spec_names,
-                    )
-                ),
+        dependency_dump = (
+            scope_dump_to_specialization(
+                dump,
+                class_name=
+                    class_name,
+                spec_name=
+                    spec_name,
+                spec_names=
+                    spec_names,
             )
-            for spell_id, spell
-            in dump.spells.items()
-        }
-
-        dependency_dump = replace(
-            dump,
-            spells=filtered_spells,
-            edges=_build_edges(
-                filtered_spells
-            ),
         )
 
     rows = []
