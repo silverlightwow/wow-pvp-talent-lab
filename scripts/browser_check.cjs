@@ -11,10 +11,13 @@ const errors = [];
 const report = [];
 const launch = {headless:true};
 if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
+const displayed = text => String(text || '').replaceAll('[','').replaceAll(']','');
 function assertDescription(shown, original) {
  const text=shown.trim(); assert.ok(text.length>0);
  assert.ok(!/base mana|^.*(?:yd range|sec cast|sec cooldown|sec recharge|\d+ Charges?)$/mi.test(text), 'Spell header leaked into tree');
- for(const line of text.split('\n'))assert.ok(original.includes(line),`Description changed: ${line}`);
+ assert.ok(!/[\[\]]/.test(text),'Conditional source brackets leaked into player tooltip');
+ const cleanOriginal=displayed(original);
+ for(const line of text.split('\n'))assert.ok(cleanOriginal.includes(line),`Description changed: ${line}`);
 }
 (async () => {
  const browser = await chromium.launch(launch);
@@ -126,6 +129,15 @@ function assertDescription(shown, original) {
       assert.equal((await page.locator('#specPoints').textContent()).trim(), '0/34');
      }
     }
+    if(spec.slug==='death-knight-blood' && width===1440) {
+     const march=data.talents.find(t=>t.spell_id===391546);
+     assert.ok(march,'March of Darkness must exist');
+     const marchNode=page.locator(`[data-node-id="${march.node_id}"]`).first();
+     await marchNode.hover();
+     const marchText=(await page.locator('#talentTooltip .tooltip-text').first().textContent()).trim();
+     assert.ok(marchText.includes('Price of Progress: Movement speed'),'March of Darkness conditional detail must remain readable');
+     assert.ok(!/[\[\]]/.test(marchText),'March of Darkness must not expose conditional brackets');
+    }
     if(spec.slug==='priest-discipline' && width===1440) {
      const mindBlast=data.talents.find(t=>t.spell_id===8092);
      assert.ok(mindBlast,'Discipline Mind Blast must exist');
@@ -151,7 +163,12 @@ function assertDescription(shown, original) {
     await page.locator('[data-tab="compare"]').click();
     assert.equal(await page.locator('#compareBody tr').count(),data.talents.filter(t=>t.tooltip_changed).length);
     const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({id:Number(row.dataset.spellId),pve:row.querySelector('.comparison-pve').textContent,pvp:row.querySelector('.comparison-pvp').textContent})));
-    for(const row of comparisonRows){const talent=data.talents.find(t=>t.spell_id===row.id&&t.pve_tooltip===row.pve);assert.ok(talent,`Full PvE text missing for ${row.id}`);assert.equal(row.pvp,talent.pvp_tooltip,`Full PvP text missing for ${row.id}`);}
+    for(const row of comparisonRows){
+     assert.ok(!/[\[\]]/.test(row.pve+row.pvp),`Conditional source brackets leaked into comparison for ${row.id}`);
+     const talent=data.talents.find(t=>t.spell_id===row.id&&displayed(t.pve_tooltip)===row.pve);
+     assert.ok(talent,`Full PvE text missing for ${row.id}`);
+     assert.equal(row.pvp,displayed(talent.pvp_tooltip),`Full PvP text missing for ${row.id}`);
+    }
     assert.equal(await page.locator('.change-context').count(),0);
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`comparison overflow ${spec.slug} ${width}`);
     await page.locator('[data-tab="compendium"]').click();
@@ -159,6 +176,8 @@ function assertDescription(shown, original) {
     if(await items.count()) {
      await items.last().click();
      assert.ok(await page.locator('#compendiumDetail .mechanic-description-text').count()>0);
+     const compendiumText=await page.locator('#compendiumDetail .mechanic-description-text').allTextContents();
+     assert.ok(compendiumText.every(text=>!/[\[\]]/.test(text)),`Conditional source brackets leaked into compendium for ${spec.slug}`);
      assert.ok(await page.locator('#compendiumDetail .mechanic-card').count()>0);
      if(width<=900) assert.equal(await page.locator('.compendium-item.active + .mobile-compendium-inline').count(),1);
     }
