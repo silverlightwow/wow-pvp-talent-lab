@@ -81,6 +81,31 @@ function assertDescription(shown, original) {
      }return true;
     }),data.talents);
     assert.ok(rowAlignment,`${spec.slug}: source row split by minor coordinate offsets`);
+
+    // Every tiered/Apex node must preserve its source stages and total rank
+    // count. This guards against treating Midnight Apex entries as choices or
+    // flattening one of their progression stages.
+    if(width===1440) {
+     const tieredGroups=new Map();
+     for(const talent of data.talents.filter(t=>t.tree_data?.node_type==='tiered'||t.tree_data?.entry_type==='tierrank')){
+      const id=talent.node_id;
+      if(!tieredGroups.has(id))tieredGroups.set(id,[]);
+      tieredGroups.get(id).push(talent);
+     }
+     for(const [nodeId,entries] of tieredGroups) {
+      const expectedMax=Math.max(...entries.map(e=>Number(e.tree_data?.max_ranks||0)));
+      const sourceRanks=entries.reduce((sum,e)=>sum+Number(e.tree_data?.entry_max_ranks||0),0);
+      assert.equal(sourceRanks,expectedMax,`${spec.slug}: Apex source ranks do not add up for node ${nodeId}`);
+      const node=page.locator(`[data-node-id="${nodeId}"].tiered-node`).first();
+      assert.ok(await node.count(),`${spec.slug}: Apex node ${nodeId} is not rendered as tiered`);
+      const shownMax=Number((await node.locator('.rank-badge').textContent()).trim().split('/')[1]);
+      assert.equal(shownMax,expectedMax,`${spec.slug}: wrong Apex max rank for node ${nodeId}`);
+      await node.hover();
+      assert.equal(await page.locator('#talentTooltip .apex-stage').count(),entries.length,
+       `${spec.slug}: wrong Apex stage count for node ${nodeId}`);
+      await page.mouse.move(0,0);
+     }
+    }
     // Tooltip contents, touch rank controls, and pointer editing use real DOM events.
     const ordinary = page.locator('#classTree .talent-node:not(.blocked):not(.choice-node):not(.free)').first();
     if (await ordinary.count()) {
