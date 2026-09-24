@@ -158,7 +158,9 @@ function assertDescription(shown, original) {
      const march=data.talents.find(t=>t.spell_id===391546);
      assert.ok(march,'March of Darkness must exist');
      const marchNode=page.locator(`[data-node-id="${march.node_id}"]`).first();
-     await marchNode.hover();
+     const marchBox=await marchNode.boundingBox();
+     assert.ok(marchBox,'March of Darkness choice node must have layout');
+     await page.mouse.move(marchBox.x+marchBox.width*.25,marchBox.y+marchBox.height*.5);
      const marchText=(await page.locator('#talentTooltip .tooltip-text').first().textContent()).trim();
      assert.ok(marchText.includes('Price of Progress: Movement speed'),'March of Darkness conditional detail must remain readable');
      assert.ok(!/[\[\]]/.test(marchText),'March of Darkness must not expose conditional brackets');
