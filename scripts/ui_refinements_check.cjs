@@ -5,6 +5,8 @@ const brandSrc=indexHtml.match(/class="brand-mark"[\s\S]*?src="([^"]+)"/)?.[1]?.
 const faviconSrc=indexHtml.match(/<link rel="icon"[^>]*href="([^"]+)"/)?.[1]?.split('?')[0];
 assert.ok(brandSrc&&fs.existsSync(path.resolve(__dirname,'../web',brandSrc)),'Brand icon file referenced by index.html must exist');
 assert.ok(faviconSrc&&fs.existsSync(path.resolve(__dirname,'../web',faviconSrc)),'Favicon file referenced by index.html must exist');
+assert.equal(brandSrc,'site-icon-v20-64.png','Header must use the selected monochrome icon');
+assert.equal(faviconSrc,'favicon-v20-32.png','Browser favicon must use the selected monochrome icon');
 const {pathToFileURL}=require('node:url');const {chromium}=require('playwright');
 (async()=>{
  const launch={headless:true};if(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE)launch.executablePath=process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
