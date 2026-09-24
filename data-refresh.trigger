@@ -1,1 +1,1 @@
-2026-09-22T00:00Z
+2026-09-24 fragile-spec regression refresh
