@@ -138,6 +138,226 @@ def _parse_spells(
     return result
 
 
+def _matching_bracket_end(
+    text: str,
+    start: int,
+) -> int | None:
+    """Return the closing bracket for text[start] == '['."""
+    if (
+        start < 0
+        or start >= len(text)
+        or text[start] != "["
+    ):
+        return None
+
+    depth = 0
+
+    for index in range(
+        start,
+        len(text),
+    ):
+        depth += (
+            1
+            if text[index] == "["
+            else -1
+            if text[index] == "]"
+            else 0
+        )
+
+        if depth == 0:
+            return index
+
+    return None
+
+
+def _specialization_aura_names(
+    spells: dict[int, SimcSpell],
+    *,
+    class_name: str,
+    spec_names,
+) -> dict[int, str]:
+    """Map exact specialization aura spell IDs to specialization names."""
+    result = {}
+
+    for spell in spells.values():
+
+        for name in spec_names or ():
+
+            expected = (
+                f"{name} {class_name}"
+            )
+
+            if spell.name != expected:
+                continue
+
+            if not re.search(
+                r"^Class\s*:\s*"
+                + re.escape(expected)
+                + r"\s*$",
+                spell.raw,
+                re.M,
+            ):
+                continue
+
+            result[
+                int(spell.spell_id)
+            ] = str(name)
+
+    return result
+
+
+def _without_inactive_specialization_branches(
+    text: str,
+    spells: dict[int, SimcSpell],
+    *,
+    class_name: str,
+    spec_name: str,
+    spec_names,
+) -> str:
+    """Resolve proven $?a<spec-aura>[true][false] branches for one spec.
+
+    Only conditions whose aura is independently identified as an exact
+    specialization aura are touched. Compound/unknown conditions are left
+    unchanged, so dependency discovery fails open rather than guessing.
+
+    This matters for shared hero talents such as Priest Manifested Power:
+    the Shadow branch embeds Mind Flay: Insanity while the Holy branch
+    embeds Surge of Light. Both references exist in the class dump, but
+    only one is active for a given specialization.
+    """
+
+    aura_names = (
+        _specialization_aura_names(
+            spells,
+            class_name=class_name,
+            spec_names=spec_names,
+        )
+    )
+
+    if (
+        not aura_names
+        or spec_name
+        not in set(
+            aura_names.values()
+        )
+    ):
+        return text
+
+    pattern = re.compile(
+        r"\$\?a(\d+)\["
+    )
+
+    while True:
+
+        changed = False
+
+        for match in reversed(
+            list(
+                pattern.finditer(
+                    text
+                )
+            )
+        ):
+
+            aura_id = int(
+                match.group(1)
+            )
+
+            if aura_id not in aura_names:
+                continue
+
+            true_start = (
+                match.end() - 1
+            )
+            true_end = (
+                _matching_bracket_end(
+                    text,
+                    true_start,
+                )
+            )
+
+            if true_end is None:
+                continue
+
+            false_start = (
+                true_end + 1
+                if (
+                    true_end + 1
+                    < len(text)
+                    and text[
+                        true_end + 1
+                    ] == "["
+                )
+                else None
+            )
+
+            false_end = (
+                _matching_bracket_end(
+                    text,
+                    false_start,
+                )
+                if false_start
+                is not None
+                else None
+            )
+
+            if (
+                false_start is not None
+                and false_end is None
+            ):
+                continue
+
+            true_branch = text[
+                true_start + 1:
+                true_end
+            ]
+
+            false_branch = (
+                text[
+                    false_start + 1:
+                    false_end
+                ]
+                if (
+                    false_start
+                    is not None
+                    and false_end
+                    is not None
+                )
+                else ""
+            )
+
+            replacement = (
+                true_branch
+                if (
+                    aura_names[
+                        aura_id
+                    ]
+                    == spec_name
+                )
+                else false_branch
+            )
+
+            end = (
+                false_end + 1
+                if false_end
+                is not None
+                else true_end + 1
+            )
+
+            text = (
+                text[:match.start()]
+                + replacement
+                + text[end:]
+            )
+
+            changed = True
+
+        if not changed:
+            break
+
+    return text
+
+
 def _without_inactive_equipment_branches(text, spells):
     """A talent calculator has no equipped set bonuses. Keep the false branch.
 
@@ -1400,6 +1620,9 @@ def pvp_dependencies(
     pvp_spell_ids,
     *,
     max_depth: int = 4,
+    class_name: str | None = None,
+    spec_name: str | None = None,
+    spec_names=None,
 ) -> list[SimcDependency]:
     """
     Discover structural dependencies from current talent
@@ -1410,6 +1633,41 @@ def pvp_dependencies(
         int(x)
         for x in pvp_spell_ids
     }
+
+    dependency_dump = dump
+
+    if (
+        class_name
+        and spec_name
+        and spec_names
+    ):
+        filtered_spells = {
+            spell_id: replace(
+                spell,
+                raw=(
+                    _without_inactive_specialization_branches(
+                        spell.raw,
+                        dump.spells,
+                        class_name=
+                            class_name,
+                        spec_name=
+                            spec_name,
+                        spec_names=
+                            spec_names,
+                    )
+                ),
+            )
+            for spell_id, spell
+            in dump.spells.items()
+        }
+
+        dependency_dump = replace(
+            dump,
+            spells=filtered_spells,
+            edges=_build_edges(
+                filtered_spells
+            ),
+        )
 
     rows = []
 
@@ -1423,7 +1681,7 @@ def pvp_dependencies(
 
         rows.extend(
             dependency_closure(
-                dump,
+                dependency_dump,
                 talent_spell_id,
                 target_spell_ids=pvp_ids,
                 max_depth=max_depth,
