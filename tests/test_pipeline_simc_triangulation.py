@@ -1,4 +1,4 @@
-from pvpcalc import pipeline
+from pvpcalc import pipeline, tooltip_renderer
 from pvpcalc.models import EffectObservation
 from pvpcalc.sources.simc import SimcDump, SimcEffect, SimcSpell
 
@@ -791,6 +791,78 @@ def test_generated_exact_enrichment_replaces_only_proven_stale_multiplier():
     assert rows[1]["pvp_multiplier"] == 0.6
     assert rows[1]["pvp_value"] == 15
     assert rows[1]["reference_context_strict"] is True
+
+
+def test_practiced_strikes_exact_build_enrichment_renders_without_review():
+    row = {
+        "spell_id": 429647,
+        "source_spell_id": 429647,
+        "effect_index": 1,
+        "effect_text": (
+            "Apply Aura (6) | Add Percent Modifier (108): "
+            "Spell Direct Amount (0)"
+        ),
+        "base_value": 25,
+        "pvp_multiplier": 0.6,
+        "pvp_value": 15,
+        "sources": ["wowhead"],
+    }
+
+    generated = {
+        429647: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text=row["effect_text"],
+                base_value=25,
+                sp_coefficient=None,
+                pvp_coefficient=1.2,
+                game_effect_id=1114022,
+                reference_contexts=(
+                    "Mortal Strike and Slam damage increased by $s1%.",
+                ),
+                unit_hint="percent",
+            )
+        }
+    }
+
+    note = {
+        "spell_id": 429647,
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "effect_index": 1,
+        "multiplier": 0.6,
+        "previous_multiplier": 0.6,
+        "current_multiplier": 1.2,
+        "resolved_by": ["simc_exact_build_hotfix"],
+    }
+
+    rows = [row]
+    pipeline._enrich_rows_from_generated_exact(
+        rows,
+        generated_effects_by_spell=generated,
+        source_notes=[note],
+    )
+    pipeline._annotate_final_pvp_layers(
+        rows,
+        [],
+    )
+
+    rendered = tooltip_renderer.render_pvp_tooltip(
+        tooltip=(
+            "Mortal Strike and Slam damage increased by 25%.\n\n"
+            "Cleave and Whirlwind damage increased by 25%."
+        ),
+        spec_name="Arms",
+        spec_names=["Arms", "Fury", "Protection"],
+        effect_rows=rows,
+    )
+
+    assert rendered["render_status"] == "COMPLETE"
+    assert "Mortal Strike and Slam damage increased by 30%." in rendered["pvp_tooltip"]
+    assert "Cleave and Whirlwind damage increased by 25%." in rendered["pvp_tooltip"]
+    assert not any(
+        item.get("status") == "REVIEW_REQUIRED"
+        for item in rendered["diagnostics"]
+    )
 
 
 def test_generated_exact_enrichment_never_overrides_unproven_conflict():
