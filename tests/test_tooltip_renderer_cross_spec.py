@@ -1027,6 +1027,17 @@ def test_inline_spec_branch_returns_to_shared_text_and_preserves_arithmetic():
     assert 'Generates 6 Insanity.' in tooltip_renderer.tooltip_for_spec(text, 'Shadow')
 
 
+def test_single_coefficient_wrapper_is_presentation_only():
+    text = (
+        "They are healed for [(1080% of Spell Power)].\n"
+        "Deals [(100% of Spell Power) * 2] damage."
+    )
+    cleaned = tooltip_renderer.tooltip_for_spec(text, "Holy")
+    assert "healed for (1080% of Spell Power)." in cleaned
+    assert "[(1080% of Spell Power)]" not in cleaned
+    assert "[(100% of Spell Power) * 2]" in cleaned
+
+
 
 def _practiced_strikes_exact_rows():
     return [
