@@ -178,6 +178,7 @@ function assertDescription(shown, original) {
      assert.ok(await page.locator('#compendiumDetail .mechanic-description-text').count()>0);
      const compendiumText=await page.locator('#compendiumDetail .mechanic-description-text').allTextContents();
      assert.ok(compendiumText.every(text=>!/[\[\]]/.test(text)),`Conditional source brackets leaked into compendium for ${spec.slug}`);
+     assert.ok(compendiumText.every(text=>text.split('\n').every(line=>!/^\s*[:;,.-]+\s*$/.test(line))),`Orphan punctuation leaked into compendium for ${spec.slug}`);
      assert.ok(await page.locator('#compendiumDetail .mechanic-card').count()>0);
      if(width<=900) assert.equal(await page.locator('.compendium-item.active + .mobile-compendium-inline').count(),1);
     }
