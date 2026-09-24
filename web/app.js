@@ -2726,19 +2726,12 @@
         const activeTalent = rankData || talent;
         const text = descriptionText(state.pvpMode ? activeTalent.pvp_tooltip : activeTalent.pve_tooltip);
 
-        // Match the in-game multi-rank reading flow:
-        //   0/N -> show the first purchasable rank only ("Next Rank")
-        //   R/N -> show the current rank and, when available, the next rank
-        //   N/N -> show the current/max rank only.
-        // Never default an unselected node to its maximum rank.
+        // Multi-rank talents always show every rank. This makes it possible
+        // to compare the full progression at a glance instead of hiding
+        // ranks based on the current selection. Current/next are annotations
+        // only; they never change which rank sections are visible.
         const visibleRanks = talent.rank_tooltips?.length && !group.isTiered
-            ? (
-                selectedRank <= 0
-                ? talent.rank_tooltips.filter(rank => rank.rank === 1)
-                : talent.rank_tooltips.filter(
-                    rank => rank.rank === selectedRank || rank.rank === selectedRank + 1
-                )
-            )
+            ? talent.rank_tooltips
             : [];
 
         const allRanksHtml = visibleRanks.length
