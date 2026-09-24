@@ -1,0 +1,135 @@
+name: Recover verified snapshot from completed spec artifacts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/recover-built-snapshot.yml'
+
+permissions:
+  contents: write
+  actions: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: recover-built-snapshot
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m pip install -e '.[dev]'
+      - name: Download all 40 verified specialization artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: spec-data-*
+          path: staged-spec-data
+          run-id: 35993909265
+          github-token: ${{ github.token }}
+      - name: Build expected specialization catalog
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path('web/data/manifest.json').read_text())
+          rows=[]
+          for cls in manifest['classes']:
+              for spec in cls['specs']:
+                  rows.append({
+                      'class_name': cls['name'],
+                      'spec_name': spec['name'],
+                      'class_id': cls['class_id'],
+                      'spec_id': spec['spec_id'],
+                  })
+          Path('expected-specs.json').write_text(json.dumps(rows))
+          assert len(rows) == 40, len(rows)
+          PY
+      - name: Assemble fresh site data from verified artifacts
+        run: python scripts/merge_class_datasets.py --artifacts-root staged-spec-data --output-dir web/data --expected-specs-json "$(cat expected-specs.json)"
+      - run: python scripts/validate_site_data.py --data-dir web/data
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Fast regression suite on fresh merged snapshot
+        run: |
+          node --check web/app.js
+          node scripts/loadout_check.cjs
+          node scripts/build_browser_check.cjs
+          node scripts/ui_refinements_check.cjs
+          node scripts/change_direction_check.cjs
+          node scripts/presentation_browser_check.cjs
+          node --check web/service-worker.js
+      - name: Target the Discipline Mind Blast tree-type regression
+        run: |
+          node - <<'NODE'
+          const assert=require('node:assert/strict');
+          const fs=require('node:fs');
+          const path=require('node:path');
+          const {pathToFileURL}=require('node:url');
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            try {
+              const page=await browser.newPage({viewport:{width:1440,height:1000}});
+              await page.route('https://**/*',r=>r.abort());
+              await page.goto(pathToFileURL(path.resolve('web/index.html')).href+'#spec=priest-discipline');
+              await page.waitForFunction(()=>document.querySelector('#treeTitle')?.textContent==='Discipline Priest');
+              const data=JSON.parse(fs.readFileSync('web/data/priest-discipline.json'));
+              const talent=data.talents.find(t=>t.spell_id===8092);
+              assert.ok(talent,'Mind Blast missing');
+              assert.equal(talent.tree_type,'class');
+              const node=page.locator(`#${talent.tree_type}Tree [data-node-id="${talent.node_id}"]`);
+              await node.hover();
+              const shown=(await page.locator('#talentTooltip .tooltip-text').first().textContent()).trim();
+              assert.ok(shown.includes('117.504% of Spell Power'),shown);
+              assert.ok(!/base mana|yd range|sec cast|sec cooldown|Charge/i.test(shown),shown);
+              console.log('Discipline Mind Blast tree-type regression passed.');
+            } finally {
+              await browser.close();
+            }
+          })().catch(e=>{console.error(e);process.exit(1);});
+          NODE
+      - name: Commit the recovered verified snapshot
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$SOURCE_COMMIT" ]; then
+            echo 'Source changed during recovery; refusing to mix revisions.'
+            exit 1
+          fi
+          if ! git diff --quiet -- web/data; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add web/data
+            git commit -m 'chore: publish recovered verified PvP datasets [skip ci]'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: recover
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish recovered verified snapshot
+        id: deployment
+        uses: actions/deploy-pages@v4
