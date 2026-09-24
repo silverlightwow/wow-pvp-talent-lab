@@ -57,6 +57,8 @@ const fixtures = [
  ['death-knight-blood','Pact of the Deathbringer','buff'],
  ['monk-mistweaver','Heart of the Jade Serpent','nerf'],
  ['warrior-fury','Burst of Power','nerf'],
+ ['demon-hunter-havoc','Demon Muzzle','nerf'],
+ ['demon-hunter-havoc','Chaotic Disposition','mixed'],
 ];
 for(const [slug,key,want] of fixtures) {
  const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
