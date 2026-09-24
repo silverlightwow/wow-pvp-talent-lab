@@ -1,4 +1,10 @@
 const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
+const indexHtml=fs.readFileSync(path.resolve(__dirname,'../web/index.html'),'utf8');
+assert.equal(indexHtml.includes('\\n'),false,'index.html must not contain literal \\n text');
+const brandSrc=indexHtml.match(/class="brand-mark"[\s\S]*?src="([^"]+)"/)?.[1]?.split('?')[0];
+const faviconSrc=indexHtml.match(/<link rel="icon"[^>]*href="([^"]+)"/)?.[1]?.split('?')[0];
+assert.ok(brandSrc&&fs.existsSync(path.resolve(__dirname,'../web',brandSrc)),'Brand icon file referenced by index.html must exist');
+assert.ok(faviconSrc&&fs.existsSync(path.resolve(__dirname,'../web',faviconSrc)),'Favicon file referenced by index.html must exist');
 const {pathToFileURL}=require('node:url');const {chromium}=require('playwright');
 (async()=>{
  const launch={headless:true};if(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE)launch.executablePath=process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
@@ -13,6 +19,9 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    return file&&fs.existsSync(file)?r.fulfill({path:file,contentType:'image/jpeg'}):r.abort();
   });
   await page.goto(base,{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>{const img=document.querySelector('.brand-mark');return !!img&&img.complete&&img.naturalWidth>0&&img.naturalHeight>0;});
+  assert.ok(await page.locator('.brand-mark').evaluate(img=>img.naturalWidth>0&&img.naturalHeight>0),'Brand icon must decode successfully');
+  assert.equal(await page.evaluate(()=>document.body.textContent.trimStart().startsWith('\\n')),false,'Literal \\n must never render in the page');
   assert.equal(await page.locator('.welcome-class h2 img').count(),13);
   assert.equal(await page.locator('.welcome-spec img').count(),40);
   assert.ok((await page.locator('#welcomePanel h1').textContent()).includes('PvP modifiers'));
