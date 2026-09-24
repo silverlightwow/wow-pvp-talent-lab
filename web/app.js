@@ -2702,20 +2702,40 @@
 
 
         const selectedRank = state.selected.get(group.nodeId)?.rank || 0;
-        const shownRank = selectedRank || group.maxRanks;
-        const rankData = talent.rank_tooltips?.find(item => item.rank === shownRank);
-        const nextRankData = selectedRank > 0 && selectedRank < group.maxRanks
-            ? talent.rank_tooltips?.find(item => item.rank === selectedRank + 1) : null;
+        const firstRank = talent.rank_tooltips?.[0] || null;
+        const rankData = selectedRank > 0
+            ? talent.rank_tooltips?.find(item => item.rank === selectedRank) || null
+            : firstRank;
         const activeTalent = rankData || talent;
         const text = descriptionText(state.pvpMode ? activeTalent.pvp_tooltip : activeTalent.pve_tooltip);
-        const rankLabel = "";
-        const nextRankHtml = "";
-        const allRanksHtml = talent.rank_tooltips?.length && !group.isTiered
-            ? talent.rank_tooltips.map(rank => `<section class="tooltip-rank-section ${selectedRank === rank.rank ? "current" : ""}">
-                <div class="tooltip-rank-label">Rank ${rank.rank}/${group.maxRanks}${selectedRank === rank.rank ? " · Current" : ""}</div>
-                <pre class="tooltip-text">${escapeHtml(descriptionText(state.pvpMode ? rank.pvp_tooltip : rank.pve_tooltip))}</pre>
-                ${state.pvpMode && rank.tooltip_changed ? changeHtml({...talent, ...rank}) : ""}
-              </section>`).join("") : "";
+
+        // Match the in-game multi-rank reading flow:
+        //   0/N -> show the first purchasable rank only ("Next Rank")
+        //   R/N -> show the current rank and, when available, the next rank
+        //   N/N -> show the current/max rank only.
+        // Never default an unselected node to its maximum rank.
+        const visibleRanks = talent.rank_tooltips?.length && !group.isTiered
+            ? (
+                selectedRank <= 0
+                ? talent.rank_tooltips.filter(rank => rank.rank === 1)
+                : talent.rank_tooltips.filter(
+                    rank => rank.rank === selectedRank || rank.rank === selectedRank + 1
+                )
+            )
+            : [];
+
+        const allRanksHtml = visibleRanks.length
+            ? visibleRanks.map(rank => {
+                const isCurrent = selectedRank > 0 && selectedRank === rank.rank;
+                const isNext = selectedRank < group.maxRanks && rank.rank === selectedRank + 1;
+                const suffix = isCurrent ? " · Current" : isNext ? " · Next Rank" : "";
+                return `<section class="tooltip-rank-section ${isCurrent ? "current" : ""} ${isNext ? "next" : ""}">
+                    <div class="tooltip-rank-label">Rank ${rank.rank}/${group.maxRanks}${suffix}</div>
+                    <pre class="tooltip-text">${escapeHtml(descriptionText(state.pvpMode ? rank.pvp_tooltip : rank.pve_tooltip))}</pre>
+                    ${state.pvpMode && rank.tooltip_changed ? changeHtml({...talent, ...rank}) : ""}
+                  </section>`;
+              }).join("")
+            : "";
 
 
         const modeBadge =
