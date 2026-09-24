@@ -2871,3 +2871,11 @@ img.icon-fallback-local {
     object-fit: cover;
 }
 
+
+/* v17: the brand art is a complete square icon; never crop it or paint the old purple tile behind it. */
+.brand-mark {
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    background: transparent;
+}
