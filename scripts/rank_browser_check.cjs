@@ -7,16 +7,25 @@ module.exports = async function checkRanks(page, data, touch) {
   if(touch) {await node(id).tap();await page.locator('[data-touch-add]').tap();await page.locator('[data-touch-close]').tap();}
   else {await node(id).click();if(await page.locator('.choice-option').count())await page.locator('.choice-option').first().click();}
  }
- async function inspect(talent, rank, expected, next) {
+ async function inspect(talent, rank) {
   const n=node(talent.node_id);if(touch)await n.tap();else await n.hover();
   const tip=page.locator('#talentTooltip');
   const sections=tip.locator('.tooltip-rank-section');
-  assert.equal(await sections.count(),2);
   const mode=await page.locator('#pvpToggle').isChecked()?'pvp':'pve';
-  for(let i=0;i<2;i++) {
-   assert.equal((await sections.nth(i).locator('.tooltip-text').textContent()).trim(),talent.rank_tooltips[i][`${mode}_tooltip`].trim());
-   assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),rank===i+1);
-   if(mode==='pvp'&&talent.rank_tooltips[i].tooltip_changed)assert.ok(await sections.nth(i).locator('.change-chip').count());
+  const expectedRanks=rank===0?[1]:rank<talent.rank_tooltips.length?[rank,rank+1]:[rank];
+  assert.equal(await sections.count(),expectedRanks.length);
+  for(let i=0;i<expectedRanks.length;i++) {
+   const expectedRank=expectedRanks[i];
+   const source=talent.rank_tooltips.find(item=>item.rank===expectedRank);
+   assert.equal((await sections.nth(i).locator('.tooltip-text').textContent()).trim(),source[`${mode}_tooltip`].trim());
+   assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),rank>0&&rank===expectedRank);
+   assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('next')),expectedRank===rank+1);
+   const label=(await sections.nth(i).locator('.tooltip-rank-label').textContent()).trim();
+   if(rank===0)assert.match(label,/Rank 1\/2 · Next Rank$/);
+   if(rank===1&&expectedRank===1)assert.match(label,/Rank 1\/2 · Current$/);
+   if(rank===1&&expectedRank===2)assert.match(label,/Rank 2\/2 · Next Rank$/);
+   if(rank===2)assert.match(label,/Rank 2\/2 · Current$/);
+   if(mode==='pvp'&&source.tooltip_changed)assert.ok(await sections.nth(i).locator('.change-chip').count());
   }
   if(touch)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
  }
@@ -26,7 +35,7 @@ module.exports = async function checkRanks(page, data, touch) {
   for(const mode of ['pve','pvp']) {
    const enabled=await page.locator('#pvpToggle').isChecked();
    if(enabled!==(mode==='pvp'))await page.locator('label:has(#pvpToggle)').click();
-   await inspect(talent,0,second[`${mode}_tooltip`]);
+   await inspect(talent,0);
   }
   // Unlock the target through normal UI allocation, respecting prerequisites.
   for(let n=0;(await node(talent.node_id).getAttribute('class')).includes('blocked');n++) {
@@ -37,9 +46,9 @@ module.exports = async function checkRanks(page, data, touch) {
    assert.ok(id);await add(id);
   }
   await add(talent.node_id);
-  await inspect(talent,1,first.pvp_tooltip,second.pvp_tooltip);
+  await inspect(talent,1);
   await add(talent.node_id);
-  await inspect(talent,2,second.pvp_tooltip);
+  await inspect(talent,2);
  }
  await page.locator('#resetTree').click();
 };
