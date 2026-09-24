@@ -2289,49 +2289,95 @@ def _build_generated_simc_fallback_rows(
         ):
             continue
 
-        exact_observations = [
-            EffectObservation(
-                source="simc_generated",
-                spell_id=spell_id,
-                spell_name=(
-                    talent_by_spell
-                    .get(
-                        spell_id,
-                        {},
-                    )
-                    .get(
-                        "talent_name"
-                    )
-                    or f"Spell {spell_id}"
-                ),
-                effect_index=int(
-                    effect.effect_index
-                ),
-                base_value=(
-                    None
-                    if (
-                        effect.sp_coefficient
-                        is not None
-                        or effect.ap_coefficient
-                        is not None
-                    )
-                    else effect.base_value
-                ),
-                pvp_multiplier=float(
-                    effect.pvp_coefficient
-                ),
-                effect_text=str(
-                    effect.effect_text
-                    or ""
-                ),
-                patch=simc_dump.build,
-                url="",
-                raw="",
+        exact_observations = []
+
+        for effect in exact_effects:
+
+            if effect.pvp_coefficient is None:
+                continue
+
+            # Generated DB2 rows are authoritative for exact-build
+            # identity/coefficient, but their effect labels can be
+            # intentionally generic (for example
+            # "Apply Aura (6) | Aura Type (3)").  When the same concrete
+            # game_effect_id is also present in the exact-build
+            # human-readable SpellDataDump, borrow its richer semantic
+            # label for matching only.  Numeric provenance remains the
+            # generated row.
+            semantic_effect = effect
+
+            human_effect = (
+                simc.effect_for_spell(
+                    simc_dump,
+                    spell_id,
+                    int(
+                        effect.effect_index
+                    ),
+                )
             )
-            for effect in exact_effects
-            if effect.pvp_coefficient
-            is not None
-        ]
+
+            if (
+                human_effect is not None
+                and human_effect.game_effect_id
+                == effect.game_effect_id
+                and human_effect.pvp_coefficient
+                is not None
+                and multipliers_close(
+                    float(
+                        human_effect.pvp_coefficient
+                    ),
+                    float(
+                        effect.pvp_coefficient
+                    ),
+                )
+            ):
+                semantic_effect = (
+                    human_effect
+                )
+
+            coefficient_based = (
+                effect.sp_coefficient
+                is not None
+                or effect.ap_coefficient
+                is not None
+            )
+
+            exact_observations.append(
+                EffectObservation(
+                    source="simc_generated",
+                    spell_id=spell_id,
+                    spell_name=(
+                        talent_by_spell
+                        .get(
+                            spell_id,
+                            {},
+                        )
+                        .get(
+                            "talent_name"
+                        )
+                        or f"Spell {spell_id}"
+                    ),
+                    effect_index=int(
+                        effect.effect_index
+                    ),
+                    base_value=(
+                        None
+                        if coefficient_based
+                        else effect.base_value
+                    ),
+                    pvp_multiplier=float(
+                        effect.pvp_coefficient
+                    ),
+                    effect_text=(
+                        _simc_effect_text_for_renderer(
+                            semantic_effect
+                        )
+                    ),
+                    patch=simc_dump.build,
+                    url="",
+                    raw="",
+                )
+            )
 
         if not exact_observations:
             continue
