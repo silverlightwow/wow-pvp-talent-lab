@@ -58,6 +58,7 @@ const {chromium} = require('playwright');
    const docs=page.frameLocator('#docsFrame');
    await docs.locator('#spec-aura').waitFor();
    assert.ok(await docs.locator('#examples').count());
+   assert.equal(await docs.locator('a[href^="https://warcraft.wiki.gg/"]').count(),1,'Warcraft Wiki must be documented as a source');
    assert.equal(await docs.locator('body').evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,'Docs horizontal overflow');
    await shot(page,`docs-${width}`);
    await docs.locator('.docs-nav a[href="#spec-aura"]').click();
