@@ -682,9 +682,19 @@
 
 
 
+    function displayTextFragment(text) {
+        // Wowhead/SimC use square brackets as conditional/formula markup.
+        // Keep the underlying source untouched for matching and auditing,
+        // but never expose those implementation delimiters to the player.
+        // Parentheses and the actual alternatives remain readable.
+        return String(text || "")
+            .replaceAll("[", "")
+            .replaceAll("]", "");
+    }
+
     function descriptionText(text) {
         const metadata = /^(?:[\d.,]+%? (?:of base mana|Mana|Energy|Focus|Rage|Runic Power|Insanity|Fury|Pain|Essence|Chi|Holy Power|Soul Shards?|Runes?|Maelstrom|Astral Power)(?:\s*(?:\/|,|per) .*)?|[\d.,]+(?: - [\d.,]+)? (?:yd|yard|yards) range|(?:[\d.,]+ (?:sec|min) (?:cast|cooldown|recharge))|\d+ Charges?|Instant(?: cast)?|Channeled(?: \(.*\))?|Melee Range|Unlimited Range|Passive|Talent|Requires .*)$/i;
-        return String(text || "").split("\n").map(line => line.trim())
+        return displayTextFragment(text).split("\n").map(line => line.trim())
             .filter(line => line && !metadata.test(line)
                 && !/^\(?[\d.,]+\s*(?:ms|s|sec|min)\s*(?:cooldown|recharge|cast)\)?$/i.test(line)).join("\n");
     }
@@ -697,11 +707,11 @@
         let html = "";
         for (const change of changes) {
             if (change.start < cursor || original.slice(change.start, change.end) !== change.old_token) continue;
-            html += escapeHtml(original.slice(cursor, change.start));
+            html += escapeHtml(displayTextFragment(original.slice(cursor, change.start)));
             html += `<mark class="value-${mode} ${mode === "pvp" ? "direction-" + PvpDirection.direction(talent, change) : ""}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
             cursor = change.end;
         }
-        return html + escapeHtml(original.slice(cursor));
+        return html + escapeHtml(displayTextFragment(original.slice(cursor)));
     }
 
 
