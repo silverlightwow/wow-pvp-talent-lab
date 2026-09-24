@@ -2530,6 +2530,102 @@ def _select_contextual_match(
     return scored[0][1]
 
 
+_STRICT_REFERENCE_GENERIC_WORDS = {
+    "additional",
+    "damage",
+    "decreased",
+    "decrease",
+    "decreases",
+    "healing",
+    "increased",
+    "increase",
+    "increases",
+    "reduced",
+    "reduce",
+    "reduces",
+}
+
+
+def _strict_reference_context_match(
+    text: str,
+    matches,
+    *,
+    reference_contexts,
+    effect_index,
+    source_spell_id=None,
+    effect_origin=None,
+):
+    """Match exact generated spell text using branch-distinctive words.
+
+    Generated spell text can contain sibling spec branches with the same
+    numeric base value. Generic words such as "damage increased" are not
+    enough to prove branch identity; require the distinctive local nouns
+    as well (e.g. Mortal Strike vs Shield Slam).
+    """
+
+    if len(matches) != 1:
+        return _select_reference_context_match(
+            text,
+            matches,
+            reference_contexts=
+                reference_contexts,
+            effect_index=
+                effect_index,
+            source_spell_id=
+                source_spell_id,
+            effect_origin=
+                effect_origin,
+        )
+
+    context_words = (
+        _reference_context_words_for_effect(
+            reference_contexts,
+            effect_index,
+            source_spell_id=
+                source_spell_id,
+            effect_origin=
+                effect_origin,
+        )
+        - _STRICT_REFERENCE_GENERIC_WORDS
+    )
+
+    if not context_words:
+        return None
+
+    match = matches[0]
+
+    local = text[
+        max(
+            0,
+            match.start(1) - 90,
+        ):
+        min(
+            len(text),
+            match.end(1) + 90,
+        )
+    ]
+
+    visible_words = (
+        _context_words(local)
+        - _STRICT_REFERENCE_GENERIC_WORDS
+    )
+
+    overlap = (
+        context_words
+        & visible_words
+    )
+
+    required = min(
+        2,
+        len(context_words),
+    )
+
+    if len(overlap) < required:
+        return None
+
+    return match
+
+
 def _conflicting_transforms_have_disjoint_targets(
     text: str,
     candidates,
@@ -2568,7 +2664,7 @@ def _conflicting_transforms_have_disjoint_targets(
                 )
             ):
                 selected = (
-                    _select_reference_context_match(
+                    _strict_reference_context_match(
                         text,
                         matches,
                         reference_contexts=
@@ -3414,7 +3510,7 @@ def render_pvp_tooltip(
         ):
 
             strict_match = (
-                _select_reference_context_match(
+                _strict_reference_context_match(
                     pve_text,
                     matches,
                     reference_contexts=
