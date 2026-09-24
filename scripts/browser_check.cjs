@@ -101,7 +101,7 @@ function assertDescription(shown, original) {
       const shownMax=Number((await node.locator('.rank-badge').textContent()).trim().split('/')[1]);
       assert.equal(shownMax,expectedMax,`${spec.slug}: wrong Apex max rank for node ${nodeId}`);
       await node.hover();
-      assert.equal(await page.locator('#talentTooltip .apex-stage').count(),entries.length,
+      assert.equal(await page.locator('#talentTooltip .apex-stage').count(),expectedMax,
        `${spec.slug}: wrong Apex stage count for node ${nodeId}`);
       await page.mouse.move(0,0);
      }
