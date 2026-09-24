@@ -528,3 +528,133 @@ def test_unknown_specialization_conditions_are_not_pruned():
         row.target_spell_id
         for row in rows
     } == {200, 300}
+
+
+
+def test_scope_dump_resolves_spec_index_player_text():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.69933 Live\n"
+        "Name             : Practiced Strikes (id=429647)\n"
+        "Effects          :\n"
+        "#1 (id=1114022)  : Apply Aura (6) | Add Percent Modifier (108): "
+        "Spell Direct Amount (0)\n"
+        "                   Base Value: 25 | PvP Coefficient: 1.2\n"
+        "#3 (id=1210713)  : Apply Aura (6) | Add Percent Modifier (108): "
+        "Spell Direct Amount (0)\n"
+        "                   Base Value: 25 | PvP Coefficient: 0.6\n"
+        "Description      : $?c1[Mortal Strike and Slam damage increased "
+        "by $s1%.][Shield Slam damage increased by $s3%.]"
+        "$?c3[ Shield Slam generates Rage.][]\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="warrior",
+    )
+
+    arms = (
+        simc.scope_dump_to_specialization(
+            dump,
+            class_name="Warrior",
+            spec_name="Arms",
+            spec_names=[
+                "Arms",
+                "Fury",
+                "Protection",
+            ],
+        )
+    )
+
+    protection = (
+        simc.scope_dump_to_specialization(
+            dump,
+            class_name="Warrior",
+            spec_name="Protection",
+            spec_names=[
+                "Arms",
+                "Fury",
+                "Protection",
+            ],
+        )
+    )
+
+    arms_effect_1 = (
+        simc.effect_reference_contexts(
+            arms,
+            429647,
+            1,
+        )
+    )
+
+    arms_effect_3 = (
+        simc.effect_reference_contexts(
+            arms,
+            429647,
+            3,
+        )
+    )
+
+    protection_effect_1 = (
+        simc.effect_reference_contexts(
+            protection,
+            429647,
+            1,
+        )
+    )
+
+    protection_effect_3 = (
+        simc.effect_reference_contexts(
+            protection,
+            429647,
+            3,
+        )
+    )
+
+    assert any(
+        "Mortal Strike" in context
+        for context in arms_effect_1
+    )
+    assert arms_effect_3 == tuple()
+
+    assert protection_effect_1 == tuple()
+    assert any(
+        "Shield Slam" in context
+        for context
+        in protection_effect_3
+    )
+
+
+def test_spec_index_scope_leaves_unknown_current_spec_unmodified():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.69933 Live\n"
+        "Name             : Parent (id=100)\n"
+        "Description      : $?c1[$@spelldesc200][$@spelldesc300]\n"
+        "\n"
+        "Name             : First Child (id=200)\n"
+        "Description      : First.\n"
+        "\n"
+        "Name             : Second Child (id=300)\n"
+        "Description      : Second.\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="test",
+    )
+
+    scoped = (
+        simc.scope_dump_to_specialization(
+            dump,
+            class_name="Test",
+            spec_name="Unknown",
+            spec_names=[
+                "First",
+                "Second",
+            ],
+        )
+    )
+
+    assert (
+        scoped.spells[100].raw
+        == dump.spells[100].raw
+    )
