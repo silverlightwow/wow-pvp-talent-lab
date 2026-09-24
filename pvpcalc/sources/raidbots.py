@@ -376,11 +376,37 @@ async def fetch_spec_tree(
     )
 
     metadata = dict(metadata)
+
+    # Blizzard $?cN[...] tooltip conditions use the class specialization
+    # ordinal, not alphabetical order.  Current specialization IDs are
+    # monotonic in that ordinal, so preserve spec-ID order here.
+    class_specs = [
+        item
+        for item in discover_specs(
+            talents
+        )
+        if (
+            item["class_name"]
+            .casefold()
+            == class_name
+            .casefold()
+        )
+    ]
+
+    class_specs.sort(
+        key=lambda item: (
+            item.get("spec_id")
+            is None,
+            int(
+                item.get("spec_id")
+                or 0
+            ),
+        )
+    )
+
     metadata["classSpecNames"] = [
         item["spec_name"]
-        for item in discover_specs(talents)
-        if item["class_name"].casefold()
-        == class_name.casefold()
+        for item in class_specs
     ]
 
     rows = normalize_spec_tree(
