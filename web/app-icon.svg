@@ -1,34 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WoW PvP Talent Lab">
   <defs>
-    <linearGradient id="bg" x1="72" y1="54" x2="438" y2="456" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#cbbcff"/>
-      <stop offset=".48" stop-color="#8f73ff"/>
-      <stop offset="1" stop-color="#5b46c8"/>
+    <linearGradient id="panel" x1="76" y1="54" x2="438" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17152b"/>
+      <stop offset=".5" stop-color="#101526"/>
+      <stop offset="1" stop-color="#0a101d"/>
     </linearGradient>
-    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(256 248) rotate(90) scale(90)">
-      <stop stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#d7cbff"/>
+    <linearGradient id="rim" x1="92" y1="88" x2="424" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset=".46" stop-color="#9b87ff"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="core" x1="203" y1="184" x2="314" y2="326" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eefcff"/>
+      <stop offset=".42" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(256 252) rotate(90) scale(151)">
+      <stop stop-color="#8b5cf6" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="13" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="512" height="512" rx="116" fill="#0f131d"/>
-  <rect x="38" y="38" width="436" height="436" rx="102" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="116" fill="#070a12"/>
+  <rect x="31" y="31" width="450" height="450" rx="99" fill="url(#panel)" stroke="url(#rim)" stroke-width="7"/>
+  <circle cx="256" cy="252" r="151" fill="url(#halo)"/>
+  <circle cx="256" cy="252" r="154" fill="none" stroke="#c4b5fd" stroke-opacity=".13" stroke-width="2"/>
 
-  <g fill="none" stroke="#171321" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" opacity=".28">
-    <path d="M256 251 152 151M256 251 360 151M256 251 256 372"/>
+  <!-- talent-tree links -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="11" stroke-linecap="round" opacity=".54">
+    <path d="M256 245 168 156"/>
+    <path d="M256 245 344 156"/>
+    <path d="M256 262 256 374"/>
   </g>
-  <g fill="none" stroke="#f5f1ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".92">
-    <path d="M256 251 152 151M256 251 360 151M256 251 256 372"/>
+
+  <!-- opposing PvP blades -->
+  <path d="M205 196 132 256l73 60 14-35-31-25 31-25Z" fill="#67e8f9" opacity=".96"/>
+  <path d="m307 196 73 60-73 60-14-35 31-25-31-25Z" fill="#f472b6" opacity=".96"/>
+
+  <!-- central rune -->
+  <g filter="url(#glow)">
+    <path d="m256 178 68 74-68 82-68-82Z" fill="#11162a" stroke="url(#rim)" stroke-width="9"/>
+    <path d="m256 205 41 47-41 52-41-52Z" fill="url(#core)"/>
+    <circle cx="168" cy="156" r="24" fill="#67e8f9" stroke="#d9fbff" stroke-width="6"/>
+    <circle cx="344" cy="156" r="24" fill="#f472b6" stroke="#ffe1f1" stroke-width="6"/>
+    <circle cx="256" cy="374" r="24" fill="#a78bfa" stroke="#ede9fe" stroke-width="6"/>
   </g>
 
-  <circle cx="152" cy="151" r="44" fill="#51d69a" stroke="#10261e" stroke-width="13" filter="url(#glow)"/>
-  <circle cx="360" cy="151" r="44" fill="#ed6d82" stroke="#30151d" stroke-width="13" filter="url(#glow)"/>
-  <circle cx="256" cy="372" r="44" fill="#c4aaff" stroke="#241a42" stroke-width="13" filter="url(#glow)"/>
-
-  <path d="M256 182 325 251 256 320 187 251Z" fill="url(#core)" stroke="#20172f" stroke-width="16"/>
-  <path d="m230 252 17 17 37-42" fill="none" stroke="#6249c6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="252" r="11" fill="#ffffff"/>
 </svg>

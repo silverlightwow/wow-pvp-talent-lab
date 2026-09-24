@@ -128,6 +128,11 @@
         // Used by Dominate Mind (spell 205364).
         "spell_priest_void_flay":
             "spell_priest_void-flay",
+
+        // Midnight 12.1 currently exposes Aimed Shot with an inv121 alias,
+        // while the actual icon asset uses the canonical legacy name.
+        "inv121_ability_hunter_aimedshot":
+            "ability_hunter_aimedshot",
     };
 
 
@@ -196,10 +201,7 @@
 
         const icon = iconName(talent);
 
-        return (
-            iconCdnUrl(icon)
-            || "app-icon.svg"
-        );
+        return iconCdnUrl(icon);
     }
 
 
@@ -214,7 +216,6 @@
             `data-icon-candidates="${escapeHtml(candidates.join("|"))}"`,
             'data-icon-candidate-index="0"',
             'data-icon-size-index="0"',
-            'data-icon-fallback-kind="dataset"',
             'onerror="window.WowTalentIconError(this)"',
         ].join(" ");
     }
@@ -252,53 +253,6 @@
 
     function recoverTalentIcon(image) {
 
-        const current =
-            image.currentSrc
-            || image.src
-            || "";
-
-        const kind =
-            image.dataset.iconFallbackKind
-            || "dataset";
-
-
-        // The local application icon is the last visual fallback.
-        if (
-            kind === "local"
-            || current.endsWith(
-                "/app-icon.svg"
-            )
-            || current.endsWith(
-                "app-icon.svg"
-            )
-        ) {
-            showIconTextFallback(
-                image
-            );
-
-            return;
-        }
-
-
-        // A specialization icon is already outside the talent's own
-        // candidate list. If it fails too, move straight to the local
-        // asset instead of retrying the same remote URL.
-        if (kind === "spec") {
-
-            image.dataset.iconFallbackKind =
-                "local";
-
-            image.src =
-                "app-icon.svg";
-
-            image.classList.add(
-                "icon-fallback-local"
-            );
-
-            return;
-        }
-
-
         const candidates =
             String(
                 image.dataset.iconCandidates
@@ -327,7 +281,7 @@
         ];
 
 
-        // Retry the same talent icon at smaller CDN sizes first.
+        // Retry the same real talent icon at smaller CDN sizes first.
         if (
             candidates[candidateIndex]
             && sizeIndex
@@ -351,15 +305,13 @@
         }
 
 
-        // Then try the next icon candidate supplied by the data
-        // pipeline (Raidbots/Wowhead), starting again at large.
+        // Then try the next icon candidate supplied by the data pipeline.
         if (
             candidateIndex + 1
             < candidates.length
         ) {
 
             candidateIndex += 1;
-            sizeIndex = 0;
 
             image.dataset.iconCandidateIndex =
                 String(candidateIndex);
@@ -379,61 +331,11 @@
         }
 
 
-        // Finally use the current specialization icon. This preserves a
-        // meaningful WoW visual even during a CDN/name mismatch.
-        const visuals =
-            window.ClassVisuals;
-
-        const currentSpecId =
-            Number(
-                data.spec_id
-                || data.serialization?.spec_id
-                || talents.find(
-                    talent =>
-                        talent?.tree_data
-                        ?.spec_id
-                )?.tree_data?.spec_id
-                || 0
-            );
-
-        const specIcon =
-            visuals?.specs?.[
-                currentSpecId
-            ];
-
-        const specUrl =
-            (
-                specIcon
-                && typeof visuals?.url
-                    === "function"
-            )
-            ? visuals.url(specIcon)
-            : "";
-
-
-        if (
-            specUrl
-            && specUrl !== current
-        ) {
-
-            image.dataset.iconFallbackKind =
-                "spec";
-
-            image.src =
-                specUrl;
-
-            return;
-        }
-
-
-        image.dataset.iconFallbackKind =
-            "local";
-
-        image.src =
-            "app-icon.svg";
-
-        image.classList.add(
-            "icon-fallback-local"
+        // Do not replace a missing talent icon with the app or spec icon:
+        // both are visually plausible but factually wrong. The text fallback
+        // makes the failure obvious without misidentifying the talent.
+        showIconTextFallback(
+            image
         );
     }
 
@@ -1016,7 +918,11 @@
         className,
         specName
     ) {
-        document.body.classList.remove("welcome-active");
+        const leavingHome =
+            document.body.classList.contains(
+                "welcome-active"
+            );
+
         const spec =
             manifestSpec(
                 className,
@@ -1026,6 +932,18 @@
 
         if (!spec) {
             return;
+        }
+
+
+        document.body.classList.remove(
+            "welcome-active"
+        );
+
+        if (leavingHome) {
+            window.scrollTo(
+                0,
+                0
+            );
         }
 
 
@@ -4636,7 +4554,7 @@
                     "controllerchange",
                     () => {
                         const key =
-                            "wow-pvp-sw-v13-reloaded";
+                            "wow-pvp-sw-v14-reloaded";
 
                         if (
                             sessionStorage

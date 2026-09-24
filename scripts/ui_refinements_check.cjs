@@ -39,24 +39,30 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    assert.equal(await page.evaluate(()=>document.body.classList.contains('welcome-active')),true);
    assert.equal(await page.title(),'WoW PvP Talent Lab');
    assert.equal(new URL(page.url()).hash,'');
+   await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
+   assert.ok(await page.evaluate(()=>window.scrollY>0),'Home page must be scrollable for the navigation regression check');
    await page.locator('.welcome-spec[data-class="Paladin"][data-spec="Holy"]').click();
    await page.waitForFunction(()=>document.querySelector('#treeTitle').textContent==='Holy Paladin');
+   assert.equal(await page.evaluate(()=>window.scrollY),0,'Opening a specialization from Home must start at the top');
 
-   // Aimed Shot received a new icon in 12.1. The application must never
-   // expose a broken image even if the external icon CDN is unavailable.
+   // Aimed Shot currently arrives from the source dataset with an inv121
+   // alias. Normalize it to the real icon and never use the app/spec icon as
+   // a visually misleading talent fallback.
    await page.locator('#classSelect').selectOption('Hunter');
    await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled);
    await page.locator('#specSelect').selectOption('Marksmanship');
    await page.waitForFunction(()=>document.querySelector('#treeTitle').textContent==='Marksmanship Hunter');
    const aimedNodeId=await page.evaluate(()=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===19434)?.node_id);
    assert.ok(aimedNodeId,'Aimed Shot must exist in the current Marksmanship tree');
-   await page.locator(`[data-node-id="${aimedNodeId}"]`).hover();
-   await page.locator('#talentTooltip .tooltip-icon').waitFor({state:'visible'});
-   await page.waitForFunction(()=>{
-    const img=document.querySelector('#talentTooltip .tooltip-icon');
-    return img&&img.complete&&img.naturalWidth>0;
-   });
-   assert.ok(await page.locator('#talentTooltip .tooltip-icon').evaluate(img=>img.naturalWidth>0),'Aimed Shot tooltip icon must recover from CDN failure');
+   const aimedIcon=page.locator(`[data-node-id="${aimedNodeId}"] .node-main-icon`).first();
+   assert.equal(await aimedIcon.getAttribute('data-icon-candidates'),'ability_hunter_aimedshot');
+   assert.match(await aimedIcon.getAttribute('src'),/\/ability_hunter_aimedshot\.jpg$/);
+   await page.waitForFunction(nodeId=>{
+    const node=document.querySelector(`[data-node-id="${nodeId}"]`);
+    const fallback=node?.querySelector('.node-fallback');
+    return fallback&&getComputedStyle(fallback).display==='grid';
+   },aimedNodeId);
+   assert.equal(await page.locator('.talent-node img[src$="app-icon.svg"], #talentTooltip img[src$="app-icon.svg"]').count(),0,'The site icon must never be used as a talent icon fallback');
   }
   if([1920,1440,390].includes(width))await shot(page,`lightsmith-${width}`);
   await page.locator('[data-tab="compendium"]').click();
