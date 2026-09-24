@@ -105,7 +105,11 @@ jobs:
               const survival=JSON.parse(fs.readFileSync('web/data/hunter-survival.json'));
               const iconTalent=survival.talents.find(t=>t.spell_id===1253846);
               assert.ok(iconTalent,'Survival icon fixture missing');
-              const iconNode=page.locator(`[data-node-id="${iconTalent.node_id}"] .node-main-icon`).first();
+              if (iconTalent.hero_tree) {
+                await page.locator('#heroSelect').selectOption(iconTalent.hero_tree);
+                await page.waitForFunction(hero=>document.querySelector('#heroSelect')?.value===hero,iconTalent.hero_tree);
+              }
+              const iconNode=page.locator(`#${iconTalent.tree_type}Tree [data-node-id="${iconTalent.node_id}"] .node-main-icon`).first();
               const candidates=await iconNode.getAttribute('data-icon-candidates');
               assert.ok(candidates?.includes('inv_10_specialreagentfoozles_tuskclaw-ice'),candidates);
               console.log('Survival icon normalization regression passed.');
