@@ -687,9 +687,16 @@
         // Keep the underlying source untouched for matching and auditing,
         // but never expose those implementation delimiters to the player.
         // Parentheses and the actual alternatives remain readable.
+        //
+        // Some generated conditional branches can also leave behind a
+        // punctuation-only line (for example a lone ":"). Those are source
+        // formatting artefacts rather than player-facing tooltip content.
         return String(text || "")
             .replaceAll("[", "")
-            .replaceAll("]", "");
+            .replaceAll("]", "")
+            .split("\n")
+            .filter(line => !/^\s*[:;,.-]+\s*$/.test(line))
+            .join("\n");
     }
 
     function descriptionText(text) {
