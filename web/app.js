@@ -4554,7 +4554,7 @@
                     "controllerchange",
                     () => {
                         const key =
-                            "wow-pvp-sw-v18-reloaded";
+                            "wow-pvp-sw-v19-reloaded";
 
                         if (
                             sessionStorage
