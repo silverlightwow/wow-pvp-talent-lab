@@ -146,3 +146,71 @@ def test_required_point_gates_are_preserved():
         generated_at='test', content_hash='test',
     )
     assert rows[0]['required_points'] == 20
+
+
+
+def test_class_spec_names_follow_spec_id_order():
+    class FakeClient:
+        async def get_json(self, url, params=None):
+            if url.endswith("/live/metadata.json"):
+                return {
+                    "contentHash": "hash",
+                    "wowBuild": "12.1.0.69933",
+                    "generatedAt": "test",
+                }
+
+            if url.endswith("/hash/talents.json"):
+                return [
+                    {
+                        "traitTreeId": 1,
+                        "className": "Evoker",
+                        "classId": 13,
+                        "specName": "Augmentation",
+                        "specId": 1473,
+                        "classNodes": [],
+                        "specNodes": [],
+                        "heroNodes": [],
+                        "subTreeNodes": [],
+                        "fullNodeOrder": [],
+                    },
+                    {
+                        "traitTreeId": 2,
+                        "className": "Evoker",
+                        "classId": 13,
+                        "specName": "Devastation",
+                        "specId": 1467,
+                        "classNodes": [],
+                        "specNodes": [],
+                        "heroNodes": [],
+                        "subTreeNodes": [],
+                        "fullNodeOrder": [],
+                    },
+                    {
+                        "traitTreeId": 3,
+                        "className": "Evoker",
+                        "classId": 13,
+                        "specName": "Preservation",
+                        "specId": 1468,
+                        "classNodes": [],
+                        "specNodes": [],
+                        "heroNodes": [],
+                        "subTreeNodes": [],
+                        "fullNodeOrder": [],
+                    },
+                ]
+
+            raise AssertionError(url)
+
+    metadata, _ = asyncio.run(
+        fetch_spec_tree(
+            FakeClient(),
+            class_name="Evoker",
+            spec_name="Devastation",
+        )
+    )
+
+    assert metadata["classSpecNames"] == [
+        "Devastation",
+        "Preservation",
+        "Augmentation",
+    ]
