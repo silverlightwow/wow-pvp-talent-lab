@@ -43,7 +43,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   else assert.equal(new Set(rects.map(r=>Math.round(r.y))).size,1,`Trees must stay on one row at ${width}px`);
   assert.equal(await page.title(),'Holy Paladin · WoW PvP Talent Lab');
   assert.match(await page.locator('#buildInfo').innerText(), /(?:Verified|Built) \d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}/);
-  assert.equal(await page.locator('#homeBrand img[src="app-icon.svg"]').count(),1);
+  assert.equal(await page.locator('#homeBrand img.brand-mark[src^="site-icon-v20-64.png"]').count(),1,'Header must render the selected monochrome emblem');
   if(width>=701)assert.ok(await page.locator('.talent-node').evaluateAll(ns=>ns.every(n=>n.getBoundingClientRect().width>=36)));
   if(width===1366){
    await page.locator('#homeBrand').click();
