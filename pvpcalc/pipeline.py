@@ -4219,6 +4219,26 @@ async def audit_spec(
                 )
 
 
+        # Scope exact-build player text to the active specialization
+        # before extracting reference contexts or dependency edges.
+        # This prevents an inactive sibling branch from competing with
+        # the visible tooltip merely because it contains the same number.
+        simc_dump = (
+            simc.scope_dump_to_specialization(
+                simc_dump,
+                class_name=
+                    class_name,
+                spec_name=
+                    spec_name,
+                spec_names=
+                    result.metadata.get(
+                        "classSpecNames",
+                        [spec_name],
+                    ),
+            )
+        )
+
+
         aura_rules = (
             pvp_aura
             .normalize_current_spec_aura(
