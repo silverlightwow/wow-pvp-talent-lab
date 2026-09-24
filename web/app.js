@@ -4643,7 +4643,7 @@
                     "controllerchange",
                     () => {
                         const key =
-                            "wow-pvp-sw-v12-reloaded";
+                            "wow-pvp-sw-v13-reloaded";
 
                         if (
                             sessionStorage
