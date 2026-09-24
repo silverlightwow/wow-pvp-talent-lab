@@ -75,11 +75,16 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
     assert.ok(await page.locator('#talentTooltip.touch-tooltip').isVisible());
    }else await node.hover();
    const sections=page.locator('#talentTooltip .tooltip-rank-section');
-   // An unselected multi-rank node now mirrors the in-game flow:
-   // show only Rank 1 as the next purchasable rank, not every rank.
-   assert.equal(await sections.count(),1);
+   const expectedRanks=await page.evaluate(id=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===id).rank_tooltips.length,spell);
+   // Multi-rank talents always show every rank. Selection state only marks
+   // current/next; it must never hide the remaining rank descriptions.
+   assert.equal(await sections.count(),expectedRanks);
    assert.ok(await sections.first().evaluate(el=>el.classList.contains('next')));
    assert.match((await sections.first().locator('.tooltip-rank-label').textContent()).trim(),/Next Rank$/);
+   for(let i=1;i<expectedRanks;i++){
+    assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('next')),false);
+    assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),false);
+   }
    assert.ok(await sections.first().locator('.change-chip').count());
    if(spell===428492)assert.equal(await page.locator('#talentTooltip .tooltip-badge.direction-mixed').count(),1);
    await shot(page,`rank-${spell}-${width}`);
