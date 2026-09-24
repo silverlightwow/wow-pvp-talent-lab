@@ -12,7 +12,7 @@ module.exports = async function checkRanks(page, data, touch) {
   const tip=page.locator('#talentTooltip');
   const sections=tip.locator('.tooltip-rank-section');
   const mode=await page.locator('#pvpToggle').isChecked()?'pvp':'pve';
-  const expectedRanks=rank===0?[1]:rank<talent.rank_tooltips.length?[rank,rank+1]:[rank];
+  const expectedRanks=talent.rank_tooltips.map(item=>item.rank);
   assert.equal(await sections.count(),expectedRanks.length);
   for(let i=0;i<expectedRanks.length;i++) {
    const expectedRank=expectedRanks[i];
