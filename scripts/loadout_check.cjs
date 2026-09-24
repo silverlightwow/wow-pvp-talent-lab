@@ -50,7 +50,10 @@ for(const t of data('monk-brewmaster').talents.filter(t=>t.talent_name==='Knowle
 assert.equal(data('hunter-survival').talents.find(t=>t.spell_id===1253846).tree_data.icon,'inv_10_specialreagentfoozles_tuskclaw-ice');
 for(const filename of fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='manifest.json'))for(const t of JSON.parse(fs.readFileSync(path.join(dir,filename))).talents){
  for(const text of [t.pve_tooltip,t.pvp_tooltip,...t.rank_tooltips.flatMap(r=>[r.pve_tooltip,r.pvp_tooltip])]){
-  assert.ok(!/Modifies Effect #|\(\d+(?:\.\d+)?\)\)/.test(text),`${t.talent_name}: technical or malformed tooltip`);
+  assert.ok(
+   !/Modifies Effect #|\(\d+(?:\.\d+)?\)\)|\$\?|\$@|\$\{|\$[sc]\d+|\]\[|^\s*[\[\]]|[\[\]]\s*$/m.test(text),
+   `${t.talent_name}: technical or malformed tooltip`
+  );
  }
 }
 console.log('Source regressions: Fury, Bladecraft, Demon Muzzle, Chaotic Disposition, Knowledge, Apex, icons and tooltip prose passed.');
