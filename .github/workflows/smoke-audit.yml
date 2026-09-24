@@ -56,6 +56,8 @@ jobs:
             spec_name: Windwalker
           - class_name: Paladin
             spec_name: Retribution
+          - class_name: Priest
+            spec_name: Shadow
           - class_name: Shaman
             spec_name: Elemental
           - class_name: Shaman
@@ -64,6 +66,8 @@ jobs:
             spec_name: Restoration
           - class_name: Warrior
             spec_name: Arms
+          - class_name: Warrior
+            spec_name: Protection
 
     steps:
       - name: Checkout
