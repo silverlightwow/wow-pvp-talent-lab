@@ -1,6 +1,7 @@
 import asyncio
 
 from pvpcalc.sources.raidbots import (
+    fetch_spec_tree,
     normalize_spec_tree,
 )
 
