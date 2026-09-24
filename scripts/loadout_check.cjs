@@ -47,7 +47,9 @@ for(const r of chaos.rank_tooltips){assert.ok(r.pvp_tooltip.includes('33.33%'));
 assert.equal(require('../web/change-direction.js').talentDirection(chaos),'mixed');
 const middle=talent(1270900);assert.equal(middle.rank_tooltips.length,2);assert.notEqual(middle.rank_tooltips[0].pve_tooltip,middle.rank_tooltips[1].pve_tooltip);
 for(const t of data('monk-brewmaster').talents.filter(t=>t.talent_name==='Knowledge of the Broken Temple'))for(const c of t.changes)assert.equal(require('../web/change-direction.js').direction(t,c),'nerf');
-assert.equal(data('hunter-survival').talents.find(t=>t.spell_id===1253846).tree_data.icon,'inv_10_specialreagentfoozles_tuskclaw-ice');
+// Raidbots now emits the normalized underscore form. app.js maps it to
+// the legacy CDN asset name with a hyphen before rendering.
+assert.equal(data('hunter-survival').talents.find(t=>t.spell_id===1253846).tree_data.icon,'inv_10_specialreagentfoozles_tuskclaw_ice');
 for(const filename of fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='manifest.json'))for(const t of JSON.parse(fs.readFileSync(path.join(dir,filename))).talents){
  for(const text of [t.pve_tooltip,t.pvp_tooltip,...t.rank_tooltips.flatMap(r=>[r.pve_tooltip,r.pvp_tooltip])]){
   assert.ok(
