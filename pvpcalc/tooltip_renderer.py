@@ -227,6 +227,17 @@ def tooltip_for_spec(
         return default
     tooltip = re.sub(r"\[([^\[\]]*)\]", inline_branch, str(tooltip or ""))
 
+    # Wowhead sometimes exposes a purely presentational wrapper around
+    # a single already-parenthesized coefficient, e.g.
+    # "[(1080% of Spell Power)]". The game-facing tooltip does not need
+    # those square brackets. Preserve real arithmetic such as
+    # "[(100% of Spell Power) * 2]" and specialization branches.
+    tooltip = re.sub(
+        r"\[\(([^\[\]\n]+)\)\]",
+        r"(\1)",
+        tooltip,
+    )
+
     segments = (
         parse_tooltip_segments(
             tooltip,
