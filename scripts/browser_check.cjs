@@ -169,7 +169,7 @@ function assertDescription(shown, original) {
      const mindBlast=data.talents.find(t=>t.spell_id===8092);
      assert.ok(mindBlast,'Discipline Mind Blast must exist');
      assert.ok(mindBlast.pve_tooltip.includes('28 sec cooldown'),'Discipline Mind Blast source must use the spec-correct 28 sec cooldown');
-     const mindBlastNode=page.locator(`#specTree [data-node-id="${mindBlast.node_id}"]`);
+     const mindBlastNode=page.locator(`#${mindBlast.tree_type}Tree [data-node-id="${mindBlast.node_id}"]`);
      await mindBlastNode.hover();
      let shown=(await page.locator('#talentTooltip .tooltip-text').first().textContent()).trim();
      assert.ok(shown.includes('117.504% of Spell Power'),'Mind Blast PvP tooltip must expose the current PvP coefficient');
