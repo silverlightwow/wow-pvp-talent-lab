@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v17";
+const CACHE = "wow-pvp-talent-lab-v18";
 const CORE = [
   "./",
   "./index.html",
@@ -9,7 +9,7 @@ const CORE = [
   "./class-icons.js",
   "./docs.html",
   "./manifest.json",
-  "./app-icon-v17.svg",
+  "./app-icon-v18.png",
   "./data/manifest.js",
   "./data/manifest.json",
   "./data/priest-discipline.js",
