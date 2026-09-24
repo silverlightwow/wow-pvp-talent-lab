@@ -75,8 +75,12 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
     assert.ok(await page.locator('#talentTooltip.touch-tooltip').isVisible());
    }else await node.hover();
    const sections=page.locator('#talentTooltip .tooltip-rank-section');
-   assert.equal(await sections.count(),2);
-   for(let i=0;i<2;i++)assert.ok(await sections.nth(i).locator('.change-chip').count());
+   // An unselected multi-rank node now mirrors the in-game flow:
+   // show only Rank 1 as the next purchasable rank, not every rank.
+   assert.equal(await sections.count(),1);
+   assert.ok(await sections.first().evaluate(el=>el.classList.contains('next')));
+   assert.match((await sections.first().locator('.tooltip-rank-label').textContent()).trim(),/Next Rank$/);
+   assert.ok(await sections.first().locator('.change-chip').count());
    if(spell===428492)assert.equal(await page.locator('#talentTooltip .tooltip-badge.direction-mixed').count(),1);
    await shot(page,`rank-${spell}-${width}`);
    if(width<600)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
