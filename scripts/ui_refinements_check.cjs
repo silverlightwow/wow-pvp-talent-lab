@@ -5,8 +5,8 @@ const brandSrc=indexHtml.match(/class="brand-mark"[\s\S]*?src="([^"]+)"/)?.[1]?.
 const faviconSrc=indexHtml.match(/<link rel="icon"[^>]*href="([^"]+)"/)?.[1]?.split('?')[0];
 assert.ok(brandSrc&&fs.existsSync(path.resolve(__dirname,'../web',brandSrc)),'Brand icon file referenced by index.html must exist');
 assert.ok(faviconSrc&&fs.existsSync(path.resolve(__dirname,'../web',faviconSrc)),'Favicon file referenced by index.html must exist');
-assert.equal(brandSrc,'site-icon-v21-64.png','Header must use the selected monochrome icon');
-assert.equal(faviconSrc,'favicon-v21-32.png','Browser favicon must use the selected monochrome icon');
+assert.equal(brandSrc,'site-icon-v22-64.png','Header must use the selected monochrome icon');
+assert.equal(faviconSrc,'favicon-v22-32.png','Browser favicon must use the selected monochrome icon');
 const {pathToFileURL}=require('node:url');const {chromium}=require('playwright');
 (async()=>{
  const launch={headless:true};if(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE)launch.executablePath=process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
@@ -43,7 +43,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   else assert.equal(new Set(rects.map(r=>Math.round(r.y))).size,1,`Trees must stay on one row at ${width}px`);
   assert.equal(await page.title(),'Holy Paladin · WoW PvP Talent Lab');
   assert.match(await page.locator('#buildInfo').innerText(), /(?:Verified|Built) \d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}/);
-  assert.equal(await page.locator('#homeBrand img.brand-mark[src^="site-icon-v21-64.png"]').count(),1,'Header must render the selected monochrome emblem');
+  assert.equal(await page.locator('#homeBrand img.brand-mark[src^="site-icon-v22-64.png"]').count(),1,'Header must render the selected monochrome emblem');
   if(width>=701)assert.ok(await page.locator('.talent-node').evaluateAll(ns=>ns.every(n=>n.getBoundingClientRect().width>=36)));
   if(width===1366){
    await page.locator('#homeBrand').click();
