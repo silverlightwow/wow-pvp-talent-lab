@@ -286,3 +286,84 @@ def test_seconds_hotfix_inside_pvp_section():
     assert "60 sec" in talent.pvp_tooltip
     assert talent.changes[0]["old_token"] == "30 sec"
     assert talent.changes[0]["new_token"] == "60 sec"
+
+
+
+def test_hotfix_scope_prevents_cross_spec_name_collision():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Focused Outburst",
+        current_percent=40,
+        previous_percent=15,
+        target_hint="Prayer of Healing",
+        text=(
+            "Focused Outburst now reduces the cast time of Prayer of Healing "
+            "by 40% in PvP combat (was 15%)."
+        ),
+        hotfix_date=None,
+        context_path=("Priest", "Holy", "Archon"),
+    )
+
+    shadow = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Focused Outburst",
+                spell_id=1272320,
+                pve_tooltip=(
+                    "Void Volley deals 5% increased damage and Shadow Word: "
+                    "Madness casts during Voidform unleash a Void Volley at "
+                    "your target at 25% effectiveness."
+                ),
+                pvp_tooltip=(
+                    "Void Volley deals 5% increased damage and Shadow Word: "
+                    "Madness casts during Voidform unleash a Void Volley at "
+                    "your target at 25% effectiveness."
+                ),
+            )
+        ]
+    )
+    shadow.class_name = "Priest"
+    shadow.spec_name = "Shadow"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        shadow,
+        [hotfix],
+    )
+
+    assert report["unresolved"] == []
+    assert report["ignored_non_talent"][0]["reason"] == "SPEC_SCOPE_MISMATCH"
+
+
+def test_current_additive_percent_expression_is_recognized():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Ebon Might",
+        current_percent=12,
+        previous_percent=10,
+        target_hint=None,
+        text="Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        hotfix_date=None,
+        context_path=("Evoker", "Augmentation"),
+    )
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Ebon Might",
+                spell_id=395152,
+                pve_tooltip=(
+                    "Increase allies' primary stat by (8 + 0)% of your own."
+                ),
+                pvp_tooltip=(
+                    "Increase allies' primary stat by (12 + 0)% of your own."
+                ),
+            )
+        ]
+    )
+    catalog.class_name = "Evoker"
+    catalog.spec_name = "Augmentation"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+
+    assert report["unresolved"] == []
+    assert len(report["already_current"]) == 1

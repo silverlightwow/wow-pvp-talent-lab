@@ -67,6 +67,7 @@ class OfficialPvpHotfix:
     text: str
     hotfix_date: date | None
     unit: str = "percent"
+    context_path: tuple[str, ...] = ()
     source_url: str = OFFICIAL_HOTFIX_URL
 
 
@@ -158,6 +159,68 @@ def _inside_pvp_section(node) -> bool:
     return False
 
 
+
+_CLASS_NAMES = {
+    "death knight", "demon hunter", "druid", "evoker", "hunter", "mage",
+    "monk", "paladin", "priest", "rogue", "shaman", "warlock", "warrior",
+}
+
+_SPEC_NAMES = {
+    "blood", "frost", "unholy", "devourer", "havoc", "vengeance",
+    "balance", "feral", "guardian", "restoration", "augmentation",
+    "devastation", "preservation", "beast mastery", "marksmanship",
+    "survival", "arcane", "fire", "brewmaster", "mistweaver",
+    "windwalker", "holy", "protection", "retribution", "discipline",
+    "shadow", "assassination", "outlaw", "subtlety", "elemental",
+    "enhancement", "affliction", "demonology", "destruction", "arms",
+    "fury",
+}
+
+
+def _list_context_path(node) -> tuple[str, ...]:
+    """Return stable outer->inner list labels surrounding one hotfix leaf."""
+    labels = []
+    parents = [
+        parent
+        for parent in getattr(node, "parents", ())
+        if getattr(parent, "name", None) == "li"
+    ]
+    for parent in reversed(parents):
+        label = _clean_text(_direct_list_label(parent))
+        if not label:
+            continue
+        if _normalize_name(label) == "player versus player":
+            continue
+        labels.append(label)
+    return tuple(labels)
+
+
+def _hotfix_applies_to_catalog(
+    hotfix: OfficialPvpHotfix,
+    spec_catalog,
+) -> bool:
+    path = {
+        _normalize_name(item)
+        for item in hotfix.context_path
+        if _clean_text(item)
+    }
+    classes = path & _CLASS_NAMES
+    specs = path & _SPEC_NAMES
+
+    class_name = _normalize_name(
+        getattr(spec_catalog, "class_name", "")
+    )
+    spec_name = _normalize_name(
+        getattr(spec_catalog, "spec_name", "")
+    )
+
+    if classes and class_name not in classes:
+        return False
+    if specs and spec_name not in specs:
+        return False
+    return True
+
+
 def _extract_target_hint(
     text_before_was: str,
     *,
@@ -238,6 +301,7 @@ def _parse_candidate(
     *,
     hotfix_date: date | None,
     in_pvp_section: bool = False,
+    context_path: tuple[str, ...] = (),
 ) -> OfficialPvpHotfix | None:
     text = _clean_text(text)
 
@@ -365,6 +429,7 @@ def _parse_candidate(
         text=text,
         hotfix_date=hotfix_date,
         unit=unit,
+        context_path=context_path,
     )
 
 
@@ -473,6 +538,9 @@ def parse_official_pvp_hotfixes(
                     node
                 )
             ),
+            context_path=_list_context_path(
+                node
+            ),
         )
         if item is not None:
             parsed.append(item)
@@ -548,6 +616,8 @@ def _hotfix_dict(
         ),
         "unit":
             item.unit,
+        "context_path":
+            list(item.context_path),
         "source_url":
             item.source_url,
     }
@@ -652,6 +722,13 @@ def hotfixes_from_snapshot(
                     raw.get("unit")
                     or "percent"
                 ),
+                context_path=tuple(
+                    str(item)
+                    for item in (
+                        raw.get("context_path")
+                        or []
+                    )
+                ),
                 source_url=str(
                     raw.get(
                         "source_url"
@@ -732,6 +809,78 @@ def _format_number(
     return f"{value:g}"
 
 
+
+_COMPOSITE_PERCENT_RE = re.compile(
+    r"\(\s*(?P<value>\d+(?:\.\d+)?)"
+    r"(?P<tail>\s*\+\s*\d+(?:\.\d+)?\s*\)\s*%)"
+)
+
+
+@dataclass(frozen=True)
+class _ValueMatch:
+    token: str
+    value: float
+    start_pos: int
+    end_pos: int
+
+    def group(self, key=0):
+        if key == 0:
+            return self.token
+        if key == "value":
+            return _format_number(self.value)
+        raise IndexError(key)
+
+    def start(self, *_):
+        return self.start_pos
+
+    def end(self, *_):
+        return self.end_pos
+
+
+def _value_matches(
+    segment: str,
+    *,
+    unit: str,
+):
+    if unit != "percent":
+        return list(_SECONDS_RE.finditer(segment))
+
+    composite = list(
+        _COMPOSITE_PERCENT_RE.finditer(
+            segment
+        )
+    )
+    occupied = [
+        (match.start(), match.end())
+        for match in composite
+    ]
+
+    result = [
+        _ValueMatch(
+            token=match.group(0),
+            value=float(match.group("value")),
+            start_pos=match.start(),
+            end_pos=match.end(),
+        )
+        for match in composite
+    ]
+
+    for match in _PERCENT_RE.finditer(
+        segment
+    ):
+        if any(
+            start <= match.start() < end
+            for start, end in occupied
+        ):
+            continue
+        result.append(match)
+
+    return sorted(
+        result,
+        key=lambda match: match.start(),
+    )
+
+
 def _value_pattern(
     unit: str,
 ):
@@ -777,6 +926,17 @@ def _replacement_token(
             suffix = "sec"
 
         return f"{number} {suffix}"
+
+    if unit == "percent" and template:
+        composite = _COMPOSITE_PERCENT_RE.fullmatch(
+            str(template)
+        )
+        if composite is not None:
+            return (
+                str(template)[:composite.start("value")]
+                + number
+                + str(template)[composite.end("value"):]
+            )
 
     return f"{number}%"
 
@@ -902,13 +1062,9 @@ def _select_value_match(
     hotfix: OfficialPvpHotfix,
     prefer_previous: bool,
 ):
-    pattern = _value_pattern(
-        hotfix.unit
-    )
-    matches = list(
-        pattern.finditer(
-            segment
-        )
+    matches = _value_matches(
+        segment,
+        unit=hotfix.unit,
     )
 
     if not matches:
@@ -956,13 +1112,9 @@ def _region_has_current_value(
     segment: str,
     hotfix: OfficialPvpHotfix,
 ) -> bool:
-    pattern = _value_pattern(
-        hotfix.unit
-    )
-    matches = list(
-        pattern.finditer(
-            segment
-        )
+    matches = _value_matches(
+        segment,
+        unit=hotfix.unit,
     )
 
     candidates = matches
@@ -1207,6 +1359,27 @@ def apply_official_pvp_hotfixes(
     ignored = []
 
     for hotfix in hotfixes:
+        if not _hotfix_applies_to_catalog(
+            hotfix,
+            spec_catalog,
+        ):
+            ignored.append(
+                {
+                    "talent_name": hotfix.talent_name,
+                    "text": hotfix.text,
+                    "date": (
+                        hotfix.hotfix_date.isoformat()
+                        if hotfix.hotfix_date
+                        else None
+                    ),
+                    "reason": "SPEC_SCOPE_MISMATCH",
+                    "context_path": list(
+                        hotfix.context_path
+                    ),
+                }
+            )
+            continue
+
         matches = by_name.get(
             _normalize_name(
                 hotfix.talent_name

@@ -36,6 +36,7 @@ def test_snapshot_round_trip(tmp_path):
         == written["snapshot_hash"]
     )
     assert canonical["latest_date"] == "2026-09-24"
+    assert tuple(loaded[0].context_path) == tuple(written["items"][0].get("context_path", []))
 
 
 def test_snapshot_detects_tampering(tmp_path):
