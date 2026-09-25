@@ -3943,7 +3943,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 376079,
           "source_spell_id": 1271985,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.47)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.47 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3970,11 +3970,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -11336,7 +11335,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1270710,
           "source_spell_id": 1270846,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Critical Chance (7)",
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.15,
           "amount_kind": null,
@@ -11353,9 +11352,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11799,7 +11798,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
     "applied": [
       {
         "talent_name": "Cut to the Bone",
@@ -11880,6 +11879,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -11888,6 +11898,17 @@ window.WOW_PVP_DATA = {
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -11923,6 +11944,27 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -11931,6 +11973,17 @@ window.WOW_PVP_DATA = {
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -12001,6 +12054,17 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -12092,6 +12156,28 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -12099,6 +12185,17 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -12129,6 +12226,27 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -12202,7 +12320,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-09-25T14:01:05.821611+00:00",
+  "generated_at": "2026-09-25T20:56:26.576562+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 41,
@@ -12215,22 +12333,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 2,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1270846,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1270846'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1271985,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271985'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

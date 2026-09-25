@@ -539,7 +539,7 @@
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -556,9 +556,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2415,7 +2415,7 @@
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2432,9 +2432,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3250,7 +3250,7 @@
           "talent_spell_id": 1242910,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -3277,9 +3277,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3353,7 +3353,7 @@
           "talent_spell_id": 115313,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -3380,9 +3380,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4635,7 +4635,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 7.488)",
+          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4662,10 +4662,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4673,7 +4674,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 3,
-          "effect_text": "Heal (SP mod: 7.488)",
+          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4700,10 +4701,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4711,7 +4713,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 407058,
           "effect_index": 1,
-          "effect_text": "Heal (AP mod: 2.4 )",
+          "effect_text": "Direct Heal (10) (AP mod: 2.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4738,10 +4740,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -5072,7 +5075,7 @@
           "talent_spell_id": 274586,
           "source_spell_id": 425804,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 3.2318)",
+          "effect_text": "Direct Heal (10) (SP mod: 3.2318)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5099,10 +5102,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -5565,7 +5569,7 @@
           "talent_spell_id": 122280,
           "source_spell_id": 428439,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136) | Attributes: Suppress Points Stacking (6)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -5582,9 +5586,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6145,7 +6149,7 @@
           "talent_spell_id": 446326,
           "source_spell_id": 198487,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 1.6)",
+          "effect_text": "Direct Heal (10) (SP mod: 1.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6172,10 +6176,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6329,7 +6334,7 @@
           "talent_spell_id": 388511,
           "source_spell_id": 388514,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 3)",
+          "effect_text": "Direct Heal (10) (SP mod: 3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6356,10 +6361,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6430,7 +6436,7 @@
           "talent_spell_id": 322118,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6457,10 +6463,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -6552,7 +6559,7 @@
           "talent_spell_id": 325197,
           "source_spell_id": 343819,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.001)",
+          "effect_text": "Direct Heal (10) (SP mod: 0.001)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6579,10 +6586,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6921,7 +6929,7 @@
           "talent_spell_id": 399226,
           "source_spell_id": 399230,
           "effect_index": 2,
-          "effect_text": "Heal (SP mod: 8.06)",
+          "effect_text": "Direct Heal (10) (SP mod: 8.06)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6948,10 +6956,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7044,7 +7053,7 @@
           "talent_spell_id": 388038,
           "source_spell_id": 388044,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.91)",
+          "effect_text": "Direct Heal (10) (SP mod: 0.91)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7071,10 +7080,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7206,7 +7216,7 @@
           "talent_spell_id": 343655,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7235,10 +7245,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9215,7 +9226,7 @@
           "talent_spell_id": 387991,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -9244,10 +9255,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9720,7 +9732,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
+          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9747,10 +9759,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9758,7 +9771,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 11)",
+          "effect_text": "Direct Heal (10) (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -9794,9 +9807,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10250,7 +10263,7 @@
           "talent_spell_id": 443294,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Allow Dot to Crit",
+          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -10277,10 +10290,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10420,7 +10434,7 @@
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10447,10 +10461,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10926,7 +10941,7 @@
           "talent_spell_id": 1262672,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Allow Dot to Crit",
+          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -10953,10 +10968,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -12911,7 +12927,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12983,6 +12999,17 @@
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -12991,6 +13018,17 @@
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -13037,6 +13075,27 @@
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -13045,6 +13104,17 @@
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -13115,6 +13185,17 @@
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -13217,6 +13298,28 @@
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -13224,6 +13327,17 @@
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -13254,6 +13368,27 @@
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -13327,7 +13462,7 @@
     ]
   },
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-25T13:52:13.778613+00:00",
+  "generated_at": "2026-09-25T20:48:18.655034+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 36,
@@ -13340,35 +13475,35 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 25,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 451452,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451452'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 198487,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198487'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 457917,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457917'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 198533,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198533'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 468179,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468179'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 274062,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=274062'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1248815,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 274912,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=274912'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1266720,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266720'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 343737,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=343737'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -5401,7 +5401,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 468936,
           "source_spell_id": 1280212,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (SP mod: 2.6585)",
+          "effect_text": "School Damage (Nature) (SP mod: 2.6585)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5428,41 +5428,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 468936,
-          "source_spell_id": 1280213,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            468936,
-            1280213
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5470,7 +5439,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 468936,
           "source_spell_id": 1280213,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 2 seconds (SP mod: 0.3)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5497,9 +5466,37 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280213,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280213
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6406,7 +6403,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1240907,
           "source_spell_id": 1240913,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.2195)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.2195)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -6433,9 +6430,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8384,7 +8381,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261566,
           "source_spell_id": 1261573,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 6.325)",
+          "effect_text": "School Damage (Nature) (SP mod: 6.325)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8411,11 +8408,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8423,7 +8419,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261566,
           "source_spell_id": 1263137,
           "effect_index": 1,
-          "effect_text": "School Damage (2): arcane (SP mod: 1)",
+          "effect_text": "School Damage (Arcane)",
           "base_value": null,
           "spell_pvp_multiplier": 0.91,
           "amount_kind": "direct",
@@ -8450,9 +8446,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8605,7 +8601,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8632,9 +8628,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9795,7 +9791,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -9822,9 +9818,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9962,7 +9958,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 433831,
           "source_spell_id": 433850,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5), Suppress Points Stacking (6) (AP mod: 3.93)",
+          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -9989,9 +9985,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10950,7 +10946,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -10967,9 +10963,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11122,8 +11118,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -11140,9 +11136,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11152,8 +11148,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -11170,9 +11166,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11538,7 +11534,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -11610,6 +11606,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -11618,6 +11625,17 @@ window.WOW_PVP_DATA = {
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -11664,6 +11682,27 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -11672,6 +11711,17 @@ window.WOW_PVP_DATA = {
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -11742,6 +11792,17 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -11844,6 +11905,28 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -11851,6 +11934,17 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -11881,6 +11975,27 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -11954,7 +12069,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "druid-balance",
-  "generated_at": "2026-09-25T13:46:39.245396+00:00",
+  "generated_at": "2026-09-25T20:41:53.566476+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 24,
@@ -11967,37 +12082,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 9,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 428682,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428735,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428735'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 429474,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=429474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 433850,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=433850'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1240913,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1240913'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

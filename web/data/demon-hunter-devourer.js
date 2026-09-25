@@ -9717,7 +9717,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -9789,6 +9789,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -9797,6 +9808,17 @@ window.WOW_PVP_DATA = {
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -9843,6 +9865,27 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -9851,6 +9894,17 @@ window.WOW_PVP_DATA = {
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -9921,6 +9975,17 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -10023,6 +10088,28 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -10030,6 +10117,17 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -10060,6 +10158,27 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -10133,7 +10252,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-25T13:44:12.278537+00:00",
+  "generated_at": "2026-09-25T20:39:33.537002+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 23,

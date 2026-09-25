@@ -3100,27 +3100,70 @@ window.WOW_PVP_DATA = {
       "changes": [
         {
           "start": 60,
-          "end": 63,
-          "old_token": "50%",
-          "new_token": "20%",
-          "kind": "official_hotfix_percent",
-          "effect_indexes": [],
-          "source": "blizzard_hotfix"
+          "end": 62,
+          "old_token": "50",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
         }
       ],
       "diagnostics": [
         {
-          "status": "OFFICIAL_HOTFIX_APPLIED",
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "20"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
           "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
-          "reason": "APPLIED"
+          "reason": "ALREADY_CURRENT"
         }
       ],
       "has_pvp_mechanics": true,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 204054,
+          "source_spell_id": 204054,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Effect #2's Value (12)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.4,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": -20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [
+            {
+              "reason": "SIMC_EXACT_BUILD_HOTFIX",
+              "previous_multiplier": 1.0,
+              "current_multiplier": 0.4,
+              "build": "12.1.0.69933",
+              "effect_index": 2
+            }
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7895,7 +7938,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 255937,
           "source_spell_id": 405345,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
+          "effect_text": "School Damage (2): holyfire | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 2.27174)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7922,10 +7965,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8445,7 +8489,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 405355,
           "source_spell_id": 405345,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
+          "effect_text": "School Damage (2): holyfire | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 2.27174)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8472,10 +8516,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -12417,15 +12462,8 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
-    "applied": [
-      {
-        "talent_name": "Consecrated Ground",
-        "spell_id": 204054,
-        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
-        "date": "2026-09-24"
-      }
-    ],
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "applied": [],
     "already_current": [
       {
         "talent_name": "Light's Guidance",
@@ -12442,6 +12480,12 @@ window.WOW_PVP_DATA = {
           "ratio": 1.1999988518515328,
           "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
         }
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "spell_id": 204054,
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24"
       }
     ],
     "unresolved": [],
@@ -12513,6 +12557,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -12521,6 +12576,17 @@ window.WOW_PVP_DATA = {
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -12567,6 +12633,27 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -12575,6 +12662,17 @@ window.WOW_PVP_DATA = {
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -12634,6 +12732,17 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -12736,6 +12845,28 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -12743,6 +12874,17 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -12773,6 +12915,27 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -12837,7 +13000,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-25T13:54:40.141917+00:00",
+  "generated_at": "2026-09-25T20:50:00.674092+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 31,
@@ -12850,11 +13013,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 16,
+    "source_warning_count": 17,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 405345,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=405345'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 405350,
@@ -12874,11 +13042,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 408383,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408383'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 408385,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408385'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

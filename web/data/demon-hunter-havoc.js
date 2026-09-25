@@ -8251,7 +8251,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442290,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8287,10 +8287,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8407,7 +8408,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442718,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8447,10 +8448,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -8625,12 +8627,21 @@ window.WOW_PVP_DATA = {
           "ability_hunter_harass"
         ]
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 8% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 8% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "status": "OFFICIAL_CLASS_HOTFIX_APPLIED",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+          "reason": "CLASS_ABSOLUTE_OVERLAY"
+        }
+      ],
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
@@ -9406,7 +9417,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272153,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9448,10 +9459,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9541,7 +9553,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442502,
           "source_spell_id": 442507,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.62 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.62)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9577,10 +9589,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11397,8 +11410,20 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
-    "applied": [],
+    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "applied": [
+      {
+        "talent_name": "Reaver's Mark",
+        "spell_id": 442679,
+        "text": "Reaver’s Mark now increases your damage to the target by 7% (was 6%).",
+        "date": "2026-09-22",
+        "evidence": {
+          "source": "blizzard_class_hotfix_overlay",
+          "old_rendered_token": "8%",
+          "new_rendered_token": "7%"
+        }
+      }
+    ],
     "already_current": [],
     "unresolved": [],
     "ignored_non_talent": [
@@ -11469,6 +11494,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Bind in Darkness",
+        "text": "Bind in Darkness now increases Blood Boil damage by 50% (was 30%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Black Arrow",
         "text": "Black Arrow damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -11477,6 +11513,17 @@ window.WOW_PVP_DATA = {
           "Hunter",
           "Beast Mastery",
           "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Burden of Power",
+        "text": "Burden of Power now increases Flamestrike damage by 6% (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Sunfury"
         ]
       },
       {
@@ -11523,6 +11570,27 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Deadly Reach",
+        "text": "Deadly Reach now causes Death Strike now to deal 60% of its damage to 2 nearby enemies (was 75%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Deathly Blows",
+        "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
+        ]
+      },
+      {
         "talent_name": "Dreadful Wound",
         "text": "Dreadful Wound damage increased by 25% in PvP combat.",
         "date": "2026-09-22",
@@ -11531,6 +11599,17 @@ window.WOW_PVP_DATA = {
           "Druid",
           "Feral",
           "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Dualcasting Adept",
+        "text": "Dualcasting Adept now increases Flamestrike damage by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire",
+          "Frostfire"
         ]
       },
       {
@@ -11601,6 +11680,17 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Inevitable",
         "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Infliction of Sorrow",
+        "text": "Infliction of Sorrow causes Vampiric Strike to erupt plagues with 75% increased effectiveness (was 30%).",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -11703,6 +11793,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Reaver’s Mark",
+        "text": "Reaver’s Mark now increases your damage to the target by 8% (was 7%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance",
+          "Aldrachi Reaver"
+        ]
+      },
+      {
         "talent_name": "Shadow Word: Death",
         "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
         "date": "2026-09-22",
@@ -11710,6 +11811,17 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Priest",
           "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swift and Painful",
+        "text": "Swift and Painful now increases Strength by 15% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood",
+          "Deathbringer"
         ]
       },
       {
@@ -11740,6 +11852,27 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter",
           "Survival"
+        ]
+      },
+      {
+        "talent_name": "Thrill of Blood",
+        "text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now causes Aimed Shot or Rapid Fire ricochets to hit for 75% of damage (was 60%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
         ]
       },
       {
@@ -11813,7 +11946,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-25T13:46:19.253683+00:00",
+  "generated_at": "2026-09-25T20:41:50.986674+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -11826,35 +11959,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 12,
+    "source_warning_count": 17,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 442695,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442695'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 442294,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442294'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 442715,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442715'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 442503,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442503'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444661,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444661'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 442507,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442507'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444806,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444806'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 442624,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442624'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444929,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444929'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 442688,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442688'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
