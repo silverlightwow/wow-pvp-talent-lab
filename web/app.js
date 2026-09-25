@@ -626,9 +626,30 @@
     }
 
     function comparisonTextHtml(talent, mode) {
+        // A removed official PvP modifier can delete an entire player-facing
+        // line. That cannot be reconstructed by substituting one numeric
+        // token inside the PvE source, so render the authoritative PvP text
+        // directly for that case.
+        const rawChanges = talent.changes || [];
+        if (
+            mode === "pvp"
+            && rawChanges.some(
+                change =>
+                    change.kind
+                    === "official_hotfix_removed"
+            )
+        ) {
+            return escapeHtml(
+                displayTextFragment(
+                    talent.pvp_tooltip
+                    || ""
+                )
+            );
+        }
+
         // Renderer offsets identify exact changes, including repeated numbers.
         const original = String(talent.pve_tooltip || "");
-        const changes = [...(talent.changes || [])].sort((a, b) => a.start - b.start);
+        const changes = [...rawChanges].sort((a, b) => a.start - b.start);
         let cursor = 0;
         let html = "";
         for (const change of changes) {

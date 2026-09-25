@@ -2658,6 +2658,11 @@ def _apply_removed_relative_tooltip(
     talent.tooltip_changed = (
         updated != pve
     )
+    talent.render_status = (
+        "CHANGED"
+        if talent.tooltip_changed
+        else talent.render_status
+    )
     talent.has_pvp_mechanics = True
     talent.changes = (
         _with_authoritative_change(

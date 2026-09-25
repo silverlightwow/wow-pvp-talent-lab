@@ -831,6 +831,7 @@ def test_removed_pvp_increase_is_tracked_and_removed_from_tooltip():
     assert "40%" in talent.pve_tooltip
     assert "40%" not in talent.pvp_tooltip
     assert talent.tooltip_changed
+    assert talent.render_status == "CHANGED"
     assert talent.has_pvp_mechanics
     assert talent.changes[-1]["old_token"] == "40%"
     assert talent.changes[-1]["new_token"] == "0%"

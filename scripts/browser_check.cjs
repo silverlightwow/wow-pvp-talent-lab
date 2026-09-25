@@ -11,7 +11,11 @@ const errors = [];
 const report = [];
 const launch = {headless:true};
 if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
-const displayed = text => String(text || '').replaceAll('[','').replaceAll(']','');
+const displayed = text => String(text || '')
+ .replaceAll('[','')
+ .replaceAll(']','')
+ .replace(/\r/g,'')
+ .trim();
 function assertDescription(shown, original) {
  const text=shown.trim(); assert.ok(text.length>0);
  assert.ok(!/base mana|^.*(?:yd range|sec cast|sec cooldown|sec recharge|\d+ Charges?)$/mi.test(text), 'Spell header leaked into tree');
@@ -211,7 +215,11 @@ function assertDescription(shown, original) {
     if(spec.slug==='priest-discipline' && [1440,390].includes(width))await require('./rank_browser_check.cjs')(page,data,width<600);
     await page.locator('[data-tab="compare"]').click();
     assert.equal(await page.locator('#compareBody tr').count(),data.talents.filter(t=>t.tooltip_changed).length);
-    const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({id:Number(row.dataset.spellId),pve:row.querySelector('.comparison-pve').textContent,pvp:row.querySelector('.comparison-pvp').textContent})));
+    const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({
+     id:Number(row.dataset.spellId),
+     pve:row.querySelector('.comparison-pve').textContent.trim(),
+     pvp:row.querySelector('.comparison-pvp').textContent.trim()
+    })));
     for(const row of comparisonRows){
      assert.ok(!/[\[\]]/.test(row.pve+row.pvp),`Conditional source brackets leaked into comparison for ${row.id}`);
      const talent=data.talents.find(t=>t.spell_id===row.id&&displayed(t.pve_tooltip)===row.pve);
