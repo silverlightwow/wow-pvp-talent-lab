@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date, datetime, timedelta
 import hashlib
 import json
@@ -587,12 +587,15 @@ def parse_official_pvp_hotfixes(
         )
 
         if section_marker is not None:
-            active_section = (
-                "pvp"
-                if section_marker
+            if (
+                section_marker
                 == "player versus player"
-                else None
-            )
+            ):
+                active_section = "pvp"
+            elif section_marker == "classes":
+                active_section = "classes"
+            else:
+                active_section = None
 
         if node.name != "li":
             continue
@@ -602,19 +605,72 @@ def parse_official_pvp_hotfixes(
         if node.find("li") is not None:
             continue
 
-        item = _parse_candidate(
-            text,
-            hotfix_date=current_date,
-            in_pvp_section=(
-                active_section == "pvp"
-                or _inside_pvp_section(
-                    node
-                )
-            ),
-            context_path=_list_context_path(
+        context_path = (
+            _list_context_path(
                 node
-            ),
+            )
         )
+        inside_pvp = (
+            active_section == "pvp"
+            or _inside_pvp_section(
+                node
+            )
+        )
+
+        if inside_pvp:
+            item = _parse_candidate(
+                text,
+                hotfix_date=current_date,
+                in_pvp_section=True,
+                context_path=context_path,
+            )
+        elif (
+            active_section == "classes"
+            and "does not apply to pvp combat"
+            not in text.casefold()
+        ):
+            candidate = _parse_candidate(
+                text,
+                hotfix_date=current_date,
+                in_pvp_section=True,
+                context_path=context_path,
+            )
+            old_pattern = (
+                _OLD_SECONDS_RE
+                if (
+                    candidate is not None
+                    and candidate.unit
+                    == "seconds"
+                )
+                else _OLD_PERCENT_RE
+            )
+            old_values = (
+                list(
+                    old_pattern.finditer(
+                        text
+                    )
+                )
+                if candidate is not None
+                else []
+            )
+            item = (
+                replace(
+                    candidate,
+                    mode="class_absolute",
+                )
+                if (
+                    candidate is not None
+                    and candidate.mode
+                    == "absolute"
+                    and candidate.previous_percent
+                    is not None
+                    and len(old_values) == 1
+                )
+                else None
+            )
+        else:
+            item = None
+
         if item is not None:
             parsed.append(item)
 
@@ -2415,6 +2471,205 @@ def _spec_historical_relative_evidence(
     return None
 
 
+def _apply_class_absolute_hotfix(
+    talent,
+    hotfix: OfficialPvpHotfix,
+) -> tuple[str, dict | None]:
+    """Apply one simple class hotfix to the shared PvE/PvP baseline.
+
+    Class-section hotfixes can land server-side without a client build bump.
+    They are not PvP modifiers: when they also apply in PvP, the authoritative
+    current value belongs in both tooltips. We only auto-repair a stale value
+    when the talent has no separate rendered PvP variant; otherwise we fail
+    closed instead of overwriting a real PvP-specific difference.
+    """
+    pve = str(
+        talent.pve_tooltip
+        or ""
+    )
+    pvp = str(
+        talent.pvp_tooltip
+        or pve
+    )
+
+    updated, change, status = (
+        _replace_one_percent(
+            pve_tooltip=pve,
+            pvp_tooltip=pve,
+            hotfix=hotfix,
+        )
+    )
+
+    if status == "ALREADY_CURRENT":
+        return (
+            status,
+            {
+                "source":
+                    "official_class_hotfix_current",
+            },
+        )
+
+    if status != "APPLIED":
+        return status, None
+
+    if pvp != pve:
+        return (
+            "CLASS_HOTFIX_OVERLAPS_PVP_VARIANT",
+            None,
+        )
+
+    talent.pve_tooltip = updated
+    talent.pvp_tooltip = updated
+    talent.tooltip_changed = False
+
+    diagnostic = {
+        "status":
+            "OFFICIAL_CLASS_HOTFIX_APPLIED",
+        "source":
+            "blizzard_hotfix",
+        "source_url":
+            hotfix.source_url,
+        "hotfix_date": (
+            hotfix.hotfix_date.isoformat()
+            if hotfix.hotfix_date
+            else None
+        ),
+        "hotfix_text":
+            hotfix.text,
+        "reason":
+            "CLASS_ABSOLUTE_OVERLAY",
+    }
+    talent.diagnostics.append(
+        diagnostic
+    )
+
+    return (
+        "APPLIED",
+        {
+            "source":
+                "blizzard_class_hotfix_overlay",
+            "old_rendered_token": (
+                change.get("old_token")
+                if change
+                else None
+            ),
+            "new_rendered_token": (
+                change.get("new_token")
+                if change
+                else None
+            ),
+        },
+    )
+
+
+def _apply_removed_relative_tooltip(
+    talent,
+    hotfix: OfficialPvpHotfix,
+) -> dict | None:
+    """Remove a stale player-facing line for a removed PvP modifier."""
+    if hotfix.unit != "percent":
+        return None
+
+    pve = str(
+        talent.pve_tooltip
+        or ""
+    )
+    pvp = str(
+        talent.pvp_tooltip
+        or pve
+    )
+    token = _replacement_token(
+        hotfix.current_percent,
+        unit="percent",
+    )
+    keyword = (
+        "increase"
+        if hotfix.mode
+        == "remove_relative_increase"
+        else "reduc"
+    )
+
+    matching = [
+        line
+        for line in pvp.splitlines()
+        if (
+            token in line
+            and keyword
+            in line.casefold()
+        )
+    ]
+
+    if len(matching) != 1:
+        return None
+
+    line = matching[0]
+    if pve.count(line) != 1:
+        return None
+
+    lines = pvp.splitlines()
+    removed = False
+    kept = []
+    for current in lines:
+        if (
+            not removed
+            and current == line
+        ):
+            removed = True
+            continue
+        kept.append(current)
+
+    if not removed:
+        return None
+
+    updated = "\n".join(
+        kept
+    ).strip()
+    token_start = (
+        pve.index(line)
+        + line.index(token)
+    )
+    authoritative_change = {
+        "start":
+            token_start,
+        "end":
+            token_start
+            + len(token),
+        "old_token":
+            token,
+        "new_token":
+            "0%",
+        "kind":
+            "official_hotfix_removed",
+        "effect_indexes":
+            [],
+        "source":
+            "blizzard_hotfix",
+    }
+
+    talent.pvp_tooltip = updated
+    talent.tooltip_changed = (
+        updated != pve
+    )
+    talent.has_pvp_mechanics = True
+    talent.changes = (
+        _with_authoritative_change(
+            talent.changes,
+            authoritative_change,
+        )
+    )
+
+    return {
+        "source":
+            "blizzard_removed_modifier_overlay",
+        "removed_line":
+            line,
+        "old_rendered_token":
+            token,
+        "new_rendered_token":
+            "0%",
+    }
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -2572,6 +2827,95 @@ def apply_official_pvp_hotfixes(
                 or pve
             )
 
+            if hotfix.mode == "class_absolute":
+                status, evidence = (
+                    _apply_class_absolute_hotfix(
+                        talent,
+                        hotfix,
+                    )
+                )
+                diagnostic = {
+                    "status": (
+                        "OFFICIAL_CLASS_HOTFIX_APPLIED"
+                        if status == "APPLIED"
+                        else
+                        "OFFICIAL_CLASS_HOTFIX_CURRENT"
+                        if status
+                        == "ALREADY_CURRENT"
+                        else
+                        "OFFICIAL_CLASS_HOTFIX_UNRESOLVED"
+                    ),
+                    "source":
+                        "blizzard_hotfix",
+                    "source_url":
+                        hotfix.source_url,
+                    "hotfix_date": (
+                        hotfix.hotfix_date
+                        .isoformat()
+                        if hotfix.hotfix_date
+                        else None
+                    ),
+                    "hotfix_text":
+                        hotfix.text,
+                    "reason":
+                        status,
+                }
+
+                if status == "APPLIED":
+                    applied.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date":
+                                diagnostic[
+                                    "hotfix_date"
+                                ],
+                            "evidence":
+                                evidence,
+                        }
+                    )
+                elif status == "ALREADY_CURRENT":
+                    already_current.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date":
+                                diagnostic[
+                                    "hotfix_date"
+                                ],
+                            "evidence":
+                                evidence,
+                        }
+                    )
+                else:
+                    unresolved.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date":
+                                diagnostic[
+                                    "hotfix_date"
+                                ],
+                            "reason":
+                                status,
+                            "rank_statuses":
+                                [],
+                        }
+                    )
+                continue
+
             if hotfix.mode.startswith(
                 "remove_relative_"
             ):
@@ -2614,28 +2958,81 @@ def apply_official_pvp_hotfixes(
                         }
                     )
                 else:
-                    already_current.append(
-                        {
-                            "talent_name":
-                                talent.talent_name,
-                            "spell_id":
-                                talent.spell_id,
-                            "text":
-                                hotfix.text,
-                            "date": (
+                    rendered = (
+                        _apply_removed_relative_tooltip(
+                            talent,
+                            hotfix,
+                        )
+                    )
+                    evidence = (
+                        rendered
+                        or {
+                            "source":
+                                "removed_factor_absent",
+                            "removed_factor":
+                                removed_factor,
+                        }
+                    )
+
+                    if rendered is not None:
+                        diagnostic = {
+                            "status":
+                                "OFFICIAL_HOTFIX_APPLIED",
+                            "source":
+                                "blizzard_hotfix",
+                            "source_url":
+                                hotfix.source_url,
+                            "hotfix_date": (
                                 hotfix.hotfix_date
                                 .isoformat()
                                 if hotfix.hotfix_date
                                 else None
                             ),
-                            "evidence": {
-                                "source":
-                                    "removed_factor_absent",
-                                "removed_factor":
-                                    removed_factor,
-                            },
+                            "hotfix_text":
+                                hotfix.text,
+                            "reason":
+                                "REMOVED_RELATIVE_TOOLTIP",
+                            "evidence":
+                                evidence,
                         }
-                    )
+                        talent.diagnostics.append(
+                            diagnostic
+                        )
+                        applied.append(
+                            {
+                                "talent_name":
+                                    talent.talent_name,
+                                "spell_id":
+                                    talent.spell_id,
+                                "text":
+                                    hotfix.text,
+                                "date":
+                                    diagnostic[
+                                        "hotfix_date"
+                                    ],
+                                "evidence":
+                                    evidence,
+                            }
+                        )
+                    else:
+                        already_current.append(
+                            {
+                                "talent_name":
+                                    talent.talent_name,
+                                "spell_id":
+                                    talent.spell_id,
+                                "text":
+                                    hotfix.text,
+                                "date": (
+                                    hotfix.hotfix_date
+                                    .isoformat()
+                                    if hotfix.hotfix_date
+                                    else None
+                                ),
+                                "evidence":
+                                    evidence,
+                            }
+                        )
                 continue
 
             if hotfix.mode.startswith(

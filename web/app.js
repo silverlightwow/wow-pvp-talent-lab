@@ -542,6 +542,23 @@
             talent.changes || [];
 
         if (!changes.length) {
+            const officialHotfix =
+                [...(talent.diagnostics || [])]
+                .reverse()
+                .find(
+                    item =>
+                        item.source === "blizzard_hotfix"
+                        && item.hotfix_text
+                );
+
+            if (officialHotfix) {
+                return `
+                    <span class="tree-label official-hotfix-note">
+                        ${escapeHtml(officialHotfix.hotfix_text)}
+                    </span>
+                `;
+            }
+
             return `
                 <span class="tree-label">
                     Internal PvP mechanic
@@ -2668,7 +2685,10 @@
 
         const modeBadge =
             state.pvpMode
-            && activeTalent.tooltip_changed
+            && (
+                activeTalent.tooltip_changed
+                || talent.has_pvp_mechanics
+            )
             ? `
                 <span class="tooltip-badge direction-${PvpDirection.talentDirection(talent)}">
                     ${PvpDirection.labels[PvpDirection.talentDirection(talent)]}
@@ -2794,7 +2814,10 @@
 
             ${
                 state.pvpMode
-                && talent.tooltip_changed
+                && (
+                    talent.tooltip_changed
+                    || talent.has_pvp_mechanics
+                )
                 && !rankData
                 && !group.isTiered
                 ? `

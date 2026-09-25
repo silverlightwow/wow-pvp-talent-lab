@@ -101,6 +101,70 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert "Fake Profession Talent" not in by_name
 
 
+def test_simple_class_hotfix_is_scoped_and_repairs_shared_tooltip():
+    html = """
+    <html><body>
+    <h3>September 22, 2026</h3>
+    <h3>Classes</h3>
+    <ul><li>Demon Hunter<ul><li>Havoc<ul>
+      <li>Reaver's Mark now increases your damage to the target by 7% (was 6%).</li>
+      <li>Art of the Glaive now increases enhanced strikes by 15% (was 10%) and 30% (was 20%).</li>
+      <li>Example damage increased by 50%. Does not apply to PvP combat.</li>
+    </ul></li></ul></li></ul>
+    </body></html>
+    """
+
+    items = (
+        blizzard_hotfixes
+        .parse_official_pvp_hotfixes(
+            html
+        )
+    )
+    assert len(items) == 1
+    hotfix = items[0]
+    assert hotfix.talent_name == "Reaver's Mark"
+    assert hotfix.mode == "class_absolute"
+    assert hotfix.current_percent == 7
+    assert hotfix.previous_percent == 6
+    assert hotfix.context_path == (
+        "Demon Hunter",
+        "Havoc",
+    )
+
+    talent = FakeTalent(
+        talent_name="Reaver's Mark",
+        spell_id=442679,
+        pve_tooltip=(
+            "Reaver's Mark causes the target to take "
+            "8% increased damage for 20 sec."
+        ),
+        pvp_tooltip=(
+            "Reaver's Mark causes the target to take "
+            "8% increased damage for 20 sec."
+        ),
+    )
+    catalog = FakeCatalog(
+        talents=[talent]
+    )
+    catalog.class_name = "Demon Hunter"
+    catalog.spec_name = "Havoc"
+
+    report = (
+        blizzard_hotfixes
+        .apply_official_pvp_hotfixes(
+            catalog,
+            [hotfix],
+        )
+    )
+
+    assert report["unresolved"] == []
+    assert len(report["applied"]) == 1
+    assert "7% increased damage" in talent.pve_tooltip
+    assert talent.pvp_tooltip == talent.pve_tooltip
+    assert not talent.tooltip_changed
+    assert talent.changes == []
+
+
 def test_apply_official_hotfix_overlay_and_highlight():
     catalog = FakeCatalog(
         talents=[
@@ -728,7 +792,7 @@ def test_relative_hotfix_name_suffix_can_map_to_parent_talent():
 
 
 
-def test_removed_pvp_increase_is_tracked_as_absence():
+def test_removed_pvp_increase_is_tracked_and_removed_from_tooltip():
     html = """
     <html><body>
     <h3>September 22, 2026</h3>
@@ -740,25 +804,36 @@ def test_removed_pvp_increase_is_tracked_as_absence():
     """
     hotfix = blizzard_hotfixes.parse_official_pvp_hotfixes(html)[0]
     assert hotfix.mode == "remove_relative_increase"
+    pve = (
+        "Your spell damage heals Atonement targets.\n"
+        "Healing increased by 40% when not in a raid."
+    )
+    talent = FakeTalent(
+        talent_name="Atonement",
+        spell_id=81749,
+        pve_tooltip=pve,
+        pvp_tooltip=pve,
+        mechanics=[],
+    )
     catalog = FakeCatalog(
-        talents=[
-            FakeTalent(
-                talent_name="Atonement",
-                spell_id=81749,
-                pve_tooltip="Healing.",
-                pvp_tooltip="Healing.",
-                mechanics=[],
-            )
-        ]
+        talents=[talent]
     )
     catalog.class_name = "Priest"
     catalog.spec_name = "Discipline"
+
     report = blizzard_hotfixes.apply_official_pvp_hotfixes(
         catalog,
         [hotfix],
     )
+
     assert report["unresolved"] == []
-    assert report["already_current"][0]["evidence"]["removed_factor"] == 1.4
+    assert len(report["applied"]) == 1
+    assert "40%" in talent.pve_tooltip
+    assert "40%" not in talent.pvp_tooltip
+    assert talent.tooltip_changed
+    assert talent.has_pvp_mechanics
+    assert talent.changes[-1]["old_token"] == "40%"
+    assert talent.changes[-1]["new_token"] == "0%"
 
 
 def test_spec_wide_relative_hotfix_uses_multiple_historical_effects():
