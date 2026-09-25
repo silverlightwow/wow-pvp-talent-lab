@@ -152,6 +152,78 @@ def test_apply_official_hotfix_overlay_and_highlight():
     assert ground.changes[0]["new_token"] == "20%"
 
 
+def test_official_hotfix_supersedes_overlapping_derived_change():
+    pve = (
+        "Mortal Strike and Slam damage increased by 25%.\n"
+        "Cleave and Whirlwind damage increased by 15%."
+    )
+    old_start = pve.index("25")
+
+    talent = FakeTalent(
+        talent_name="Practiced Strikes",
+        spell_id=429647,
+        pve_tooltip=pve,
+        pvp_tooltip=(
+            "Mortal Strike and Slam damage increased by 30%.\n"
+            "Cleave and Whirlwind damage increased by 15%."
+        ),
+        tooltip_changed=True,
+        has_pvp_mechanics=True,
+        changes=[
+            {
+                "start": old_start,
+                "end": old_start + 2,
+                "old_token": "25",
+                "new_token": "30",
+                "kind": "percent_value",
+                "effect_indexes": [1],
+            }
+        ],
+    )
+    catalog = FakeCatalog(
+        talents=[talent]
+    )
+
+    hotfix = next(
+        item
+        for item in (
+            blizzard_hotfixes
+            .parse_official_pvp_hotfixes(
+                HTML
+            )
+        )
+        if item.talent_name
+        == "Practiced Strikes"
+    )
+
+    report = (
+        blizzard_hotfixes
+        .apply_official_pvp_hotfixes(
+            catalog,
+            [hotfix],
+        )
+    )
+
+    assert report["unresolved"] == []
+    assert (
+        "damage increased by 40%."
+        in talent.pvp_tooltip
+    )
+    assert len(talent.changes) == 1
+    assert (
+        talent.changes[0][
+            "old_token"
+        ]
+        == "25%"
+    )
+    assert (
+        talent.changes[0][
+            "new_token"
+        ]
+        == "40%"
+    )
+
+
 def test_same_hotfix_is_idempotent_when_source_catches_up():
     catalog = FakeCatalog(
         talents=[

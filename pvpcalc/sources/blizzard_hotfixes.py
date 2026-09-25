@@ -1380,6 +1380,87 @@ def _replace_one_percent(
     )
 
 
+def _with_authoritative_change(
+    existing_changes,
+    change: dict | None,
+) -> list[dict]:
+    """Store one official overlay while removing superseded overlaps.
+
+    The normal pipeline may already have rendered an older PvP value from a
+    lagging source. When an official Blizzard hotfix then replaces that same
+    tooltip token, keeping both changes would expose an obsolete intermediate
+    value in the UI (for example 25 -> 30 next to the authoritative 25 -> 40).
+    """
+    changes = list(
+        existing_changes
+        or []
+    )
+
+    if change is None:
+        return changes
+
+    try:
+        start = int(
+            change["start"]
+        )
+        end = int(
+            change["end"]
+        )
+    except (
+        KeyError,
+        TypeError,
+        ValueError,
+    ):
+        if change not in changes:
+            changes.append(
+                change
+            )
+        return changes
+
+    kept = []
+
+    for existing in changes:
+        try:
+            existing_start = int(
+                existing["start"]
+            )
+            existing_end = int(
+                existing["end"]
+            )
+        except (
+            KeyError,
+            TypeError,
+            ValueError,
+        ):
+            kept.append(
+                existing
+            )
+            continue
+
+        overlaps = (
+            max(
+                start,
+                existing_start,
+            )
+            < min(
+                end,
+                existing_end,
+            )
+        )
+
+        if not overlaps:
+            kept.append(
+                existing
+            )
+
+    if change not in kept:
+        kept.append(
+            change
+        )
+
+    return kept
+
+
 def _apply_to_rank_dict(
     rank: dict,
     hotfix: OfficialPvpHotfix,
@@ -1407,13 +1488,12 @@ def _apply_to_rank_dict(
             updated != pve
         )
         if change is not None:
-            changes = list(
-                rank.get("changes")
-                or []
+            rank["changes"] = (
+                _with_authoritative_change(
+                    rank.get("changes"),
+                    change,
+                )
             )
-            if change not in changes:
-                changes.append(change)
-            rank["changes"] = changes
 
     return status
 
@@ -2345,10 +2425,12 @@ def apply_official_pvp_hotfixes(
                 talent.has_pvp_mechanics = True
 
                 if change is not None:
-                    if change not in talent.changes:
-                        talent.changes.append(
-                            change
+                    talent.changes = (
+                        _with_authoritative_change(
+                            talent.changes,
+                            change,
                         )
+                    )
 
                 talent.diagnostics.append(
                     diagnostic
