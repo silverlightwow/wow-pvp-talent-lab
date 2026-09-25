@@ -669,7 +669,15 @@ def parse_official_pvp_hotfixes(
                 else None
             )
         else:
-            item = None
+            # Some Blizzard entries explicitly say "in PvP combat" without
+            # being nested below a Player versus Player heading. Preserve
+            # the original text-driven parser behavior for those leaves.
+            item = _parse_candidate(
+                text,
+                hotfix_date=current_date,
+                in_pvp_section=False,
+                context_path=context_path,
+            )
 
         if item is not None:
             parsed.append(item)
