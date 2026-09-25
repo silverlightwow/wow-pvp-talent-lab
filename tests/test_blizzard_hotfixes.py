@@ -491,6 +491,106 @@ def test_relative_hotfix_is_verified_against_exact_mechanic_factor():
     assert report["already_current"][0]["evidence"]["factor"] == 1.2
 
 
+def test_relative_hotfix_overlays_one_unambiguous_rendered_damage_effect():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Agony",
+        current_percent=40,
+        previous_percent=None,
+        target_hint=None,
+        text="Agony damage increased by 40% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="relative_increase",
+        context_path=("Warlock", "Affliction"),
+    )
+
+    pve = (
+        "Inflicts increasing agony, causing "
+        "(9.31297% of Spell Power) Shadow damage."
+    )
+    pvp = (
+        "Inflicts increasing agony, causing "
+        "(10.4045% of Spell Power) Shadow damage."
+    )
+    start = pve.index("9.31297")
+
+    talent = FakeTalent(
+        talent_name="Agony",
+        spell_id=980,
+        pve_tooltip=pve,
+        pvp_tooltip=pvp,
+        tooltip_changed=True,
+        has_pvp_mechanics=True,
+        changes=[
+            {
+                "start": start,
+                "end": start + len("9.31297"),
+                "old_token": "9.31297",
+                "new_token": "10.4045",
+                "kind": "spell_power_coefficient",
+                "effect_indexes": [1],
+            }
+        ],
+        mechanics=[
+            {
+                "source_spell_id": 980,
+                "effect_index": 1,
+                "effect_text": "Apply Aura: Periodic Damage",
+                "spell_pvp_multiplier": 0.7,
+                "aura_factor": 1.596,
+                "final_pvp_multiplier": 1.1172,
+                "final_pvp_value": None,
+                "aura_rules": [],
+                "sources": ["wowhead", "simc"],
+                "confidence": "high",
+            }
+        ],
+    )
+    catalog = FakeCatalog(
+        talents=[talent]
+    )
+    catalog.class_name = "Warlock"
+    catalog.spec_name = "Affliction"
+
+    report = (
+        blizzard_hotfixes
+        .apply_official_pvp_hotfixes(
+            catalog,
+            [hotfix],
+        )
+    )
+
+    assert report["unresolved"] == []
+    assert len(report["applied"]) == 1
+    assert "14.5663% of Spell Power" in talent.pvp_tooltip
+    assert len(talent.changes) == 1
+    assert talent.changes[0]["new_token"] == "14.5663"
+    assert talent.changes[0]["kind"] == "official_hotfix_relative"
+
+    mechanic = talent.mechanics[0]
+    assert mechanic["spell_pvp_multiplier"] == 0.7
+    assert mechanic["official_hotfix_factor"] == 1.4
+    assert abs(
+        mechanic["final_pvp_multiplier"]
+        - 1.56408
+    ) < 1e-9
+    assert "blizzard_hotfix" in mechanic["sources"]
+
+    second = (
+        blizzard_hotfixes
+        .apply_official_pvp_hotfixes(
+            catalog,
+            [hotfix],
+        )
+    )
+    assert second["unresolved"] == []
+    assert len(second["already_current"]) == 1
+    assert "14.5663% of Spell Power" in talent.pvp_tooltip
+    assert abs(
+        mechanic["final_pvp_multiplier"]
+        - 1.56408
+    ) < 1e-9
+
+
 def test_relative_hotfix_fails_closed_without_source_evidence():
     hotfix = blizzard_hotfixes.OfficialPvpHotfix(
         talent_name="Example Claw",

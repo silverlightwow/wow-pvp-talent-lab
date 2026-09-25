@@ -1509,6 +1509,354 @@ def _relative_hotfix_factor(
     return None
 
 
+_RELATIVE_RENDER_NUMBER_RE = re.compile(
+    r"^(?P<prefix>\\s*)"
+    r"(?P<value>[+-]?\\d+(?:\\.\\d+)?)"
+    r"(?P<suffix>%?)"
+    r"(?P<tail>\\s*)$"
+)
+
+
+def _relative_overlay_token(
+    token: str,
+    factor: float,
+) -> str | None:
+    match = _RELATIVE_RENDER_NUMBER_RE.fullmatch(
+        str(token)
+    )
+    if match is None:
+        return None
+
+    raw_value = match.group("value")
+    value = float(raw_value) * factor
+
+    decimals = (
+        len(raw_value.split(".", 1)[1])
+        if "." in raw_value
+        else 0
+    )
+
+    if decimals:
+        rendered = (
+            f"{value:.{decimals}f}"
+            .rstrip("0")
+            .rstrip(".")
+        )
+    else:
+        rendered = _format_number(
+            value
+        )
+
+    return (
+        match.group("prefix")
+        + rendered
+        + match.group("suffix")
+        + match.group("tail")
+    )
+
+
+def _apply_relative_hotfix_overlay(
+    talent,
+    hotfix: OfficialPvpHotfix,
+) -> dict | None:
+    """Apply a server-side official relative hotfix when sources lag.
+
+    This is deliberately conservative. We only synthesize a numeric overlay
+    when the already-rendered PvP tooltip exposes exactly one coefficient
+    change tied to exactly one mechanic whose semantic type matches the
+    Blizzard wording (damage or healing).
+    """
+    factor = _relative_hotfix_factor(
+        hotfix
+    )
+    if factor is None:
+        return None
+
+    text_cf = hotfix.text.casefold()
+    if "damage" in text_cf:
+        semantic_terms = (
+            "damage",
+        )
+    elif (
+        "healing" in text_cf
+        or " heal" in text_cf
+    ):
+        semantic_terms = (
+            "heal",
+            "healing",
+        )
+    else:
+        return None
+
+    candidates = []
+
+    for change in (
+        getattr(
+            talent,
+            "changes",
+            None,
+        )
+        or []
+    ):
+        kind = str(
+            change.get("kind")
+            or ""
+        ).casefold()
+
+        if "coefficient" not in kind:
+            continue
+
+        effect_indexes = {
+            int(index)
+            for index in (
+                change.get(
+                    "effect_indexes"
+                )
+                or []
+            )
+            if index is not None
+        }
+        if not effect_indexes:
+            continue
+
+        current_token = str(
+            change.get(
+                "new_token"
+            )
+            or ""
+        )
+        overlay_token = (
+            _relative_overlay_token(
+                current_token,
+                factor,
+            )
+        )
+        if overlay_token is None:
+            continue
+
+        matching_mechanics = []
+
+        for mechanic in (
+            getattr(
+                talent,
+                "mechanics",
+                None,
+            )
+            or []
+        ):
+            try:
+                effect_index = int(
+                    mechanic.get(
+                        "effect_index"
+                    )
+                )
+            except (
+                TypeError,
+                ValueError,
+            ):
+                continue
+
+            effect_text = str(
+                mechanic.get(
+                    "effect_text"
+                )
+                or ""
+            ).casefold()
+
+            if (
+                effect_index
+                in effect_indexes
+                and any(
+                    term in effect_text
+                    for term in semantic_terms
+                )
+            ):
+                matching_mechanics.append(
+                    mechanic
+                )
+
+        if len(
+            matching_mechanics
+        ) != 1:
+            continue
+
+        pvp_tooltip = str(
+            getattr(
+                talent,
+                "pvp_tooltip",
+                "",
+            )
+            or ""
+        )
+
+        if (
+            not current_token
+            or pvp_tooltip.count(
+                current_token
+            )
+            != 1
+        ):
+            continue
+
+        candidates.append(
+            (
+                change,
+                matching_mechanics[0],
+                current_token,
+                overlay_token,
+            )
+        )
+
+    if len(candidates) != 1:
+        return None
+
+    (
+        change,
+        mechanic,
+        current_token,
+        overlay_token,
+    ) = candidates[0]
+
+    old_final_multiplier = (
+        mechanic.get(
+            "final_pvp_multiplier"
+        )
+    )
+    old_final_value = (
+        mechanic.get(
+            "final_pvp_value"
+        )
+    )
+
+    try:
+        old_final_multiplier = float(
+            old_final_multiplier
+        )
+    except (
+        TypeError,
+        ValueError,
+    ):
+        return None
+
+    new_final_multiplier = (
+        old_final_multiplier
+        * factor
+    )
+
+    pvp_tooltip = str(
+        talent.pvp_tooltip
+        or ""
+    )
+    talent.pvp_tooltip = (
+        pvp_tooltip.replace(
+            current_token,
+            overlay_token,
+            1,
+        )
+    )
+    talent.tooltip_changed = (
+        talent.pvp_tooltip
+        != str(
+            talent.pve_tooltip
+            or ""
+        )
+    )
+    talent.has_pvp_mechanics = True
+
+    authoritative_change = {
+        **change,
+        "new_token":
+            overlay_token,
+        "kind":
+            "official_hotfix_relative",
+        "source":
+            "blizzard_hotfix",
+        "official_hotfix_factor":
+            factor,
+    }
+    talent.changes = (
+        _with_authoritative_change(
+            talent.changes,
+            authoritative_change,
+        )
+    )
+
+    mechanic[
+        "final_pvp_multiplier"
+    ] = new_final_multiplier
+    mechanic[
+        "official_hotfix_factor"
+    ] = factor
+    mechanic[
+        "official_hotfix_date"
+    ] = (
+        hotfix.hotfix_date.isoformat()
+        if hotfix.hotfix_date
+        else None
+    )
+    mechanic[
+        "official_hotfix_source_url"
+    ] = hotfix.source_url
+    mechanic[
+        "official_hotfix_text"
+    ] = hotfix.text
+    mechanic[
+        "is_final_pvp_modified"
+    ] = True
+
+    if old_final_value is not None:
+        try:
+            mechanic[
+                "final_pvp_value"
+            ] = (
+                float(
+                    old_final_value
+                )
+                * factor
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            pass
+
+    sources = list(
+        mechanic.get(
+            "sources"
+        )
+        or []
+    )
+    if "blizzard_hotfix" not in sources:
+        sources.append(
+            "blizzard_hotfix"
+        )
+    mechanic["sources"] = sources
+    mechanic["confidence"] = "high"
+
+    return {
+        "source":
+            "blizzard_official_overlay",
+        "factor":
+            factor,
+        "effect_index":
+            mechanic.get(
+                "effect_index"
+            ),
+        "source_spell_id":
+            mechanic.get(
+                "source_spell_id"
+            ),
+        "old_rendered_token":
+            current_token,
+        "new_rendered_token":
+            overlay_token,
+        "old_final_pvp_multiplier":
+            old_final_multiplier,
+        "new_final_pvp_multiplier":
+            new_final_multiplier,
+    }
+
+
 def _mechanic_proves_relative_hotfix(
     talent,
     hotfix: OfficialPvpHotfix,
@@ -1534,6 +1882,12 @@ def _mechanic_proves_relative_hotfix(
                 "aura_factor",
                 mechanic.get(
                     "aura_factor"
+                ),
+            ),
+            (
+                "official_hotfix_factor",
+                mechanic.get(
+                    "official_hotfix_factor"
                 ),
             ),
         ]
@@ -2344,26 +2698,74 @@ def apply_official_pvp_hotfixes(
                         }
                     )
                 else:
-                    unresolved.append(
-                        {
-                            "talent_name":
-                                talent.talent_name,
-                            "spell_id":
-                                talent.spell_id,
-                            "text":
-                                hotfix.text,
-                            "date": (
+                    overlay = (
+                        _apply_relative_hotfix_overlay(
+                            talent,
+                            hotfix,
+                        )
+                    )
+
+                    if overlay is not None:
+                        diagnostic = {
+                            "status":
+                                "OFFICIAL_HOTFIX_APPLIED",
+                            "source":
+                                "blizzard_hotfix",
+                            "source_url":
+                                hotfix.source_url,
+                            "hotfix_date": (
                                 hotfix.hotfix_date
                                 .isoformat()
                                 if hotfix.hotfix_date
                                 else None
                             ),
+                            "hotfix_text":
+                                hotfix.text,
                             "reason":
-                                "RELATIVE_HOTFIX_NOT_IN_MECHANICS",
-                            "rank_statuses":
-                                [],
+                                "RELATIVE_HOTFIX_OVERLAY",
+                            "evidence":
+                                overlay,
                         }
-                    )
+                        talent.diagnostics.append(
+                            diagnostic
+                        )
+                        applied.append(
+                            {
+                                "talent_name":
+                                    talent.talent_name,
+                                "spell_id":
+                                    talent.spell_id,
+                                "text":
+                                    hotfix.text,
+                                "date":
+                                    diagnostic[
+                                        "hotfix_date"
+                                    ],
+                                "evidence":
+                                    overlay,
+                            }
+                        )
+                    else:
+                        unresolved.append(
+                            {
+                                "talent_name":
+                                    talent.talent_name,
+                                "spell_id":
+                                    talent.spell_id,
+                                "text":
+                                    hotfix.text,
+                                "date": (
+                                    hotfix.hotfix_date
+                                    .isoformat()
+                                    if hotfix.hotfix_date
+                                    else None
+                                ),
+                                "reason":
+                                    "RELATIVE_HOTFIX_NOT_IN_MECHANICS",
+                                "rank_statuses":
+                                    [],
+                            }
+                        )
                 continue
 
             updated, change, status = (
