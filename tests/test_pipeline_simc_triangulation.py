@@ -1168,3 +1168,94 @@ def test_nested_embedded_spelldesc_value_reference_is_renderable():
     rows = audit.render_effect_rows
     assert nested_visible in rows
     assert nested_internal not in rows
+
+
+def test_current_drustvar_hotfix_overrides_same_build_stale_sources():
+    """Server-side hotfixes can land without a new client build."""
+    from pathlib import Path
+    from pvpcalc.sources.simc import parse_dump
+
+    dump = parse_dump(
+        Path("tests/fixtures/simc-1266151.txt").read_text(),
+        class_slug="evoker",
+    )
+    effect = next(
+        effect
+        for effect in pipeline.simc.parse_spell_effects(
+            dump.spells[1266151]
+        ).values()
+        if effect.game_effect_id == 1278387
+    )
+
+    row = {
+        "spell_id": 1266151,
+        "source_spell_id": 1266151,
+        "effect_index": effect.effect_index,
+        "base_value": 20.0,
+        "pvp_multiplier": effect.pvp_coefficient,
+        "pvp_value": 20.0 * float(effect.pvp_coefficient),
+        "is_pvp_modified": True,
+        "sources": ["wowhead", "simc"],
+        "confidence": "high",
+        "drustvar_matched": False,
+    }
+    unresolved = [{
+        "spell_id": 1266151,
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "source_build": dump.build,
+        "game_effect_id": 1278387,
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura | Add Percent Modifier",
+        "is_hotfixed": True,
+    }]
+
+    remaining = pipeline._apply_current_drustvar_hotfix_overrides(
+        [row],
+        unresolved,
+        simc_dump=dump,
+    )
+
+    assert remaining == []
+    assert row["pvp_multiplier"] == 0.0
+    assert row["pvp_value"] == 0.0
+    assert row["pvp_multiplier_source"] == "drustvar_current_hotfix"
+    assert row["drustvar_matched"] is True
+    assert row["source_notes"][-1]["reason"] == "CURRENT_DRUSTVAR_HOTFIX_OVERRIDE"
+
+
+def test_current_drustvar_hotfix_is_never_dismissed_as_stale():
+    from pathlib import Path
+    from pvpcalc.models import EffectObservation
+    from pvpcalc.sources.simc import parse_dump
+
+    dump = parse_dump(
+        Path("tests/fixtures/simc-1266151.txt").read_text(),
+        class_slug="evoker",
+    )
+    wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=1266151,
+        spell_name="Synthetic",
+        effect_index=1,
+        base_value=20,
+        pvp_multiplier=-1,
+        effect_text="Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+        patch=None,
+        url="",
+        raw="",
+    )
+    item = {
+        "spell_id": 1266151,
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "source_build": dump.build,
+        "game_effect_id": 1278387,
+        "multiplier": 0,
+        "effect_text": "Apply Aura | Add Percent Modifier",
+        "is_hotfixed": True,
+    }
+
+    assert pipeline._superseded_drustvar_effect(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={1266151: [wowhead]},
+    ) is None

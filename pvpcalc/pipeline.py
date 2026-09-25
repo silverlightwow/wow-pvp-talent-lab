@@ -799,6 +799,7 @@ def _build_effect_rows(
                     ),
                     "source_build": dr.patch,
                     "game_effect_id": _game_effect_id(dr),
+                    "is_hotfixed": _drustvar_is_hotfixed(dr),
                 }
             )
 
@@ -3754,6 +3755,156 @@ def _game_effect_id(observation) -> int | None:
         return None
 
 
+def _drustvar_is_hotfixed(observation) -> bool:
+    try:
+        return bool(json.loads(observation.raw).get("is_hotfixed"))
+    except (ValueError, TypeError, AttributeError):
+        return False
+
+
+def _build_tuple_or_none(value) -> tuple[int, ...] | None:
+    text = str(value or "")
+    if not re.fullmatch(r"\d+\.\d+\.\d+\.\d+", text):
+        return None
+    return tuple(map(int, text.split(".")))
+
+
+def _apply_current_drustvar_hotfix_overrides(
+    rows: list[dict],
+    unresolved_rows: list[dict],
+    *,
+    simc_dump,
+) -> list[dict]:
+    """Apply explicit current Drustvar hotfixes to the exact SpellEffect.
+
+    A WoW hotfix can change server-side PvP data without incrementing the
+    client build. In that window Wowhead and an exact-build SimC snapshot can
+    both still expose the pre-hotfix coefficient. Drustvar marks these rows
+    explicitly with is_hotfixed and also exposes the concrete game_effect_id.
+
+    We only override when that game_effect_id maps to exactly one SpellEffect
+    in SimC and Drustvar's version is the same as or newer than the SimC build.
+    Otherwise the row stays unresolved and publication remains blocked.
+    """
+    if not rows or not unresolved_rows:
+        return unresolved_rows
+
+    simc_build = _build_tuple_or_none(
+        getattr(simc_dump, "build", None)
+    )
+
+    row_by_key = {}
+    for row in rows:
+        effect_index = row.get("effect_index")
+        if effect_index is None:
+            continue
+        source_spell_id = int(
+            row.get("source_spell_id", row["spell_id"])
+        )
+        row_by_key[(source_spell_id, int(effect_index))] = row
+
+    remaining = []
+
+    for item in unresolved_rows:
+        if (
+            item.get("reason") != "UNMATCHED_DRUSTVAR_EFFECT"
+            or not item.get("is_hotfixed")
+        ):
+            remaining.append(item)
+            continue
+
+        source_build = _build_tuple_or_none(
+            item.get("source_build")
+        )
+        if (
+            simc_build is not None
+            and source_build is not None
+            and source_build < simc_build
+        ):
+            remaining.append(item)
+            continue
+
+        spell_id = int(
+            item.get("source_spell_id", item["spell_id"])
+        )
+        game_effect_id = item.get("game_effect_id")
+        multiplier = item.get("multiplier")
+
+        if game_effect_id is None or multiplier is None:
+            remaining.append(item)
+            continue
+
+        spell = simc_dump.spells.get(spell_id)
+        if spell is None:
+            remaining.append(item)
+            continue
+
+        exact_matches = [
+            effect
+            for effect in simc.parse_spell_effects(spell).values()
+            if effect.game_effect_id == int(game_effect_id)
+        ]
+
+        if len(exact_matches) != 1:
+            remaining.append(item)
+            continue
+
+        effect = exact_matches[0]
+        row = row_by_key.get(
+            (spell_id, int(effect.effect_index))
+        )
+        if row is None:
+            remaining.append(item)
+            continue
+
+        current_multiplier = float(multiplier)
+        previous_multiplier = row.get("pvp_multiplier")
+
+        row["pvp_multiplier"] = current_multiplier
+        row["is_pvp_modified"] = _is_modified(
+            current_multiplier
+        )
+
+        base_value = row.get("base_value")
+        row["pvp_value"] = (
+            float(base_value) * current_multiplier
+            if base_value is not None
+            else None
+        )
+
+        sources = list(row.get("sources", []) or [])
+        if "drustvar" not in sources:
+            sources.append("drustvar")
+        row["sources"] = sources
+
+        row["drustvar_matched"] = True
+        row["drustvar_multiplier"] = current_multiplier
+        row["pvp_multiplier_source"] = (
+            "drustvar_current_hotfix"
+        )
+        row["confidence"] = "medium"
+
+        notes = list(row.get("source_notes", []) or [])
+        notes.append(
+            {
+                "reason": "CURRENT_DRUSTVAR_HOTFIX_OVERRIDE",
+                "source_build": item.get("source_build"),
+                "game_effect_id": int(game_effect_id),
+                "effect_index": int(effect.effect_index),
+                "previous_multiplier": previous_multiplier,
+                "simc_multiplier": effect.pvp_coefficient,
+                "current_multiplier": current_multiplier,
+                "resolved_by": [
+                    "drustvar_is_hotfixed",
+                    "simc_game_effect_identity",
+                ],
+            }
+        )
+        row["source_notes"] = notes
+
+    return remaining
+
+
 def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
     """Resolve a stale or internally conflicting Drustvar effect safely.
 
@@ -3765,6 +3916,8 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
     A Drustvar row from a *newer* build is never overridden here.
     """
     if item.get("reason") != "UNMATCHED_DRUSTVAR_EFFECT":
+        return None
+    if item.get("is_hotfixed"):
         return None
     old_build = str(item.get("source_build") or "")
     new_build = str(simc_dump.build or "")
@@ -4626,6 +4779,14 @@ async def audit_spec(
     # Resolve source-representation differences with the exact-build
     # SimC dump before deciding whether a spec is incomplete.
     result.unresolved_rows = (
+        _apply_current_drustvar_hotfix_overrides(
+            result.effect_rows,
+            result.unresolved_rows,
+            simc_dump=simc_dump,
+        )
+    )
+
+    result.unresolved_rows = (
         _filter_simc_corroborated_unresolved(
             result.unresolved_rows,
             simc_dump=simc_dump,
@@ -4751,6 +4912,14 @@ async def audit_spec(
         ]
 
         simc_direct_structured_unresolved = (
+            _apply_current_drustvar_hotfix_overrides(
+                simc_direct_structured_rows,
+                simc_direct_structured_unresolved,
+                simc_dump=simc_dump,
+            )
+        )
+
+        simc_direct_structured_unresolved = (
             _filter_simc_corroborated_unresolved(
                 simc_direct_structured_unresolved,
                 simc_dump=simc_dump,
@@ -4853,6 +5022,14 @@ async def audit_spec(
 
         result.effect_rows.extend(
             extra_direct_rows
+        )
+
+        extra_unresolved = (
+            _apply_current_drustvar_hotfix_overrides(
+                extra_direct_rows,
+                extra_unresolved,
+                simc_dump=simc_dump,
+            )
         )
 
         result.unresolved_rows.extend(
@@ -5355,6 +5532,14 @@ async def audit_spec(
             simc_dump,
         )
 
+
+        child_unresolved = (
+            _apply_current_drustvar_hotfix_overrides(
+                child_rows,
+                child_unresolved,
+                simc_dump=simc_dump,
+            )
+        )
 
         filtered_child_unresolved = (
             _filter_simc_corroborated_unresolved(
