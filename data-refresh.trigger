@@ -1,1 +1,1 @@
-2026-09-24 publish-current-web-and-rebuild
+2026-09-25 verify-scheduled-refresh-after-source-fix
