@@ -11,7 +11,7 @@ import tempfile
 
 from pvpcalc import catalog, pipeline
 from pvpcalc.http import CachedClient
-from pvpcalc.sources import raidbots
+from pvpcalc.sources import raidbots, blizzard_hotfixes
 
 from build_site_data import _json_default
 
@@ -257,6 +257,40 @@ async def build_one(
         concurrency=concurrency,
     )
 
+    # Third-party DBC mirrors can legitimately lag server-side Blizzard
+    # hotfixes while keeping the same client build number. Reconcile the
+    # current official PvP hotfix feed before declaring this spec VERIFIED.
+    hotfix_client = CachedClient(
+        concurrency=2
+    )
+
+    try:
+        official_hotfixes = (
+            await blizzard_hotfixes
+            .fetch_official_pvp_hotfixes(
+                hotfix_client
+            )
+        )
+    finally:
+        await hotfix_client.aclose()
+
+    hotfix_report = (
+        blizzard_hotfixes
+        .apply_official_pvp_hotfixes(
+            spec_catalog,
+            official_hotfixes,
+        )
+    )
+
+    if hotfix_report["unresolved"]:
+        raise RuntimeError(
+            "Unresolved official PvP hotfixes: "
+            + json.dumps(
+                hotfix_report["unresolved"],
+                default=_json_default,
+            )
+        )
+
     summary = _validate_for_all(
         audit,
         spec_catalog,
@@ -271,6 +305,7 @@ async def build_one(
         item for item in audit.unresolved_rows
         if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}
     ]
+    payload["official_hotfixes"] = hotfix_report
 
     slug = slugify(
         class_name,
