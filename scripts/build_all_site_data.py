@@ -4,6 +4,7 @@ import argparse
 import asyncio
 from datetime import datetime, timezone
 import json
+import os
 from pathlib import Path
 import shutil
 import sys
@@ -260,19 +261,41 @@ async def build_one(
     # Third-party DBC mirrors can legitimately lag server-side Blizzard
     # hotfixes while keeping the same client build number. Reconcile the
     # current official PvP hotfix feed before declaring this spec VERIFIED.
-    hotfix_client = CachedClient(
-        concurrency=2
+    hotfix_snapshot_path = os.environ.get(
+        "WOW_PVP_HOTFIX_FILE"
     )
 
-    try:
-        official_hotfixes = (
-            await blizzard_hotfixes
-            .fetch_official_pvp_hotfixes(
-                hotfix_client
+    if hotfix_snapshot_path:
+        (
+            official_hotfixes,
+            hotfix_snapshot,
+        ) = (
+            blizzard_hotfixes
+            .read_hotfix_snapshot(
+                hotfix_snapshot_path
             )
         )
-    finally:
-        await hotfix_client.aclose()
+    else:
+        hotfix_client = CachedClient(
+            concurrency=2
+        )
+
+        try:
+            official_hotfixes = (
+                await blizzard_hotfixes
+                .fetch_official_pvp_hotfixes(
+                    hotfix_client
+                )
+            )
+        finally:
+            await hotfix_client.aclose()
+
+        hotfix_snapshot = (
+            blizzard_hotfixes
+            .snapshot_for_hotfixes(
+                official_hotfixes
+            )
+        )
 
     hotfix_report = (
         blizzard_hotfixes
@@ -281,6 +304,16 @@ async def build_one(
             official_hotfixes,
         )
     )
+
+    if (
+        hotfix_report["snapshot_hash"]
+        != hotfix_snapshot[
+            "snapshot_hash"
+        ]
+    ):
+        raise RuntimeError(
+            "Official hotfix snapshot changed during build"
+        )
 
     if hotfix_report["unresolved"]:
         raise RuntimeError(
@@ -347,6 +380,14 @@ async def build_one(
         "class_name": class_name,
         "spec_name": spec_name,
         "slug": slug,
+        "hotfix_snapshot_hash":
+            hotfix_report[
+                "snapshot_hash"
+            ],
+        "hotfix_latest_date":
+            hotfix_report[
+                "latest_date"
+            ],
         **summary,
     }
 
@@ -457,6 +498,29 @@ def build_manifest(
         else built[0]["slug"]
     )
 
+    hotfix_hashes = {
+        item.get(
+            "hotfix_snapshot_hash"
+        )
+        for item in built
+    }
+    hotfix_dates = {
+        item.get(
+            "hotfix_latest_date"
+        )
+        for item in built
+    }
+
+    if len(hotfix_hashes) != 1:
+        raise RuntimeError(
+            "Specs used different official hotfix snapshots"
+        )
+
+    if len(hotfix_dates) != 1:
+        raise RuntimeError(
+            "Specs used different official hotfix dates"
+        )
+
     return {
         "generated_at":
             datetime.now(timezone.utc)
@@ -465,6 +529,10 @@ def build_manifest(
             metadata.get("wowBuild"),
         "content_hash":
             metadata.get("contentHash"),
+        "hotfix_snapshot_hash":
+            hotfix_hashes.pop(),
+        "hotfix_latest_date":
+            hotfix_dates.pop(),
         "default_slug":
             default_slug,
         "spec_count":

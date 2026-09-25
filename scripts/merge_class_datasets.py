@@ -17,8 +17,14 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
         raise ValueError('No dataset manifests found')
     builds = {m.get('tree_build') for _, m in manifests}
     hashes = {m.get('content_hash') for _, m in manifests}
+    hotfix_hashes = {m.get('hotfix_snapshot_hash') for _, m in manifests}
+    hotfix_dates = {m.get('hotfix_latest_date') for _, m in manifests}
     if len(builds) != 1 or None in builds or len(hashes) != 1 or None in hashes:
         raise ValueError('Artifacts have inconsistent source builds/content hashes')
+    if len(hotfix_hashes) != 1 or None in hotfix_hashes:
+        raise ValueError('Artifacts used inconsistent official hotfix snapshots')
+    if len(hotfix_dates) != 1:
+        raise ValueError('Artifacts used inconsistent official hotfix dates')
     classes, slugs = {}, set()
     for directory, manifest in manifests:
         validate_snapshot(directory)
@@ -35,7 +41,9 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
     for cls in class_list:
         cls['specs'].sort(key=lambda s: s['name'])
     result = dict(generated_at=datetime.now(timezone.utc).isoformat(), tree_build=builds.pop(),
-                  content_hash=hashes.pop(), default_slug='priest-discipline' if 'priest-discipline' in slugs else min(slugs),
+                  content_hash=hashes.pop(), hotfix_snapshot_hash=hotfix_hashes.pop(),
+                  hotfix_latest_date=hotfix_dates.pop(),
+                  default_slug='priest-discipline' if 'priest-discipline' in slugs else min(slugs),
                   spec_count=len(slugs), verified_count=len(slugs), partial_count=0, classes=class_list)
     output_dir.parent.mkdir(parents=True, exist_ok=True)
     staging = Path(tempfile.mkdtemp(prefix='verified-data-', dir=output_dir.parent))

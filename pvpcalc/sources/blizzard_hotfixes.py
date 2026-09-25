@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
+import hashlib
+import json
+from pathlib import Path
 import re
 from typing import Any
 
@@ -265,6 +268,191 @@ async def fetch_official_pvp_hotfixes(
     return parse_official_pvp_hotfixes(
         html
     )
+
+
+def _hotfix_dict(
+    item: OfficialPvpHotfix,
+) -> dict:
+    return {
+        "talent_name":
+            item.talent_name,
+        "current_percent":
+            item.current_percent,
+        "previous_percent":
+            item.previous_percent,
+        "target_hint":
+            item.target_hint,
+        "text":
+            item.text,
+        "hotfix_date": (
+            item.hotfix_date.isoformat()
+            if item.hotfix_date
+            else None
+        ),
+        "source_url":
+            item.source_url,
+    }
+
+
+def snapshot_for_hotfixes(
+    hotfixes: list[OfficialPvpHotfix],
+) -> dict:
+    items = [
+        _hotfix_dict(item)
+        for item in hotfixes
+    ]
+    canonical = json.dumps(
+        items,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    dated = [
+        item.hotfix_date
+        for item in hotfixes
+        if item.hotfix_date is not None
+    ]
+
+    return {
+        "source":
+            "Blizzard official hotfixes",
+        "source_url":
+            OFFICIAL_HOTFIX_URL,
+        "latest_date": (
+            max(dated).isoformat()
+            if dated
+            else None
+        ),
+        "snapshot_hash":
+            hashlib.sha256(
+                canonical.encode("utf-8")
+            ).hexdigest(),
+        "items":
+            items,
+    }
+
+
+def hotfixes_from_snapshot(
+    snapshot: dict,
+) -> list[OfficialPvpHotfix]:
+    if (
+        not isinstance(snapshot, dict)
+        or not isinstance(
+            snapshot.get("items"),
+            list,
+        )
+    ):
+        raise ValueError(
+            "Invalid official hotfix snapshot"
+        )
+
+    result = []
+
+    for raw in snapshot["items"]:
+        raw_date = raw.get(
+            "hotfix_date"
+        )
+        result.append(
+            OfficialPvpHotfix(
+                talent_name=str(
+                    raw["talent_name"]
+                ),
+                current_percent=float(
+                    raw["current_percent"]
+                ),
+                previous_percent=(
+                    float(
+                        raw[
+                            "previous_percent"
+                        ]
+                    )
+                    if raw.get(
+                        "previous_percent"
+                    )
+                    is not None
+                    else None
+                ),
+                target_hint=(
+                    str(raw["target_hint"])
+                    if raw.get(
+                        "target_hint"
+                    )
+                    else None
+                ),
+                text=str(
+                    raw["text"]
+                ),
+                hotfix_date=(
+                    date.fromisoformat(
+                        str(raw_date)
+                    )
+                    if raw_date
+                    else None
+                ),
+                source_url=str(
+                    raw.get(
+                        "source_url"
+                    )
+                    or OFFICIAL_HOTFIX_URL
+                ),
+            )
+        )
+
+    calculated = snapshot_for_hotfixes(
+        result
+    )
+
+    expected_hash = snapshot.get(
+        "snapshot_hash"
+    )
+    if (
+        expected_hash
+        and expected_hash
+        != calculated[
+            "snapshot_hash"
+        ]
+    ):
+        raise ValueError(
+            "Official hotfix snapshot hash mismatch"
+        )
+
+    return result
+
+
+def write_hotfix_snapshot(
+    path: str | Path,
+    hotfixes: list[OfficialPvpHotfix],
+) -> dict:
+    snapshot = snapshot_for_hotfixes(
+        hotfixes
+    )
+    Path(path).write_text(
+        json.dumps(
+            snapshot,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    return snapshot
+
+
+def read_hotfix_snapshot(
+    path: str | Path,
+) -> tuple[list[OfficialPvpHotfix], dict]:
+    snapshot = json.loads(
+        Path(path).read_text(
+            encoding="utf-8"
+        )
+    )
+    hotfixes = hotfixes_from_snapshot(
+        snapshot
+    )
+    canonical = snapshot_for_hotfixes(
+        hotfixes
+    )
+    return hotfixes, canonical
 
 
 def _format_percent(value: float) -> str:
@@ -690,11 +878,19 @@ def apply_official_pvp_hotfixes(
                 }
             )
 
+    snapshot = snapshot_for_hotfixes(
+        hotfixes
+    )
+
     return {
         "source":
-            "Blizzard official hotfixes",
+            snapshot["source"],
         "source_url":
-            OFFICIAL_HOTFIX_URL,
+            snapshot["source_url"],
+        "latest_date":
+            snapshot["latest_date"],
+        "snapshot_hash":
+            snapshot["snapshot_hash"],
         "applied":
             applied,
         "already_current":
