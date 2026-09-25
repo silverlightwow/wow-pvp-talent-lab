@@ -88,7 +88,8 @@ def test_parse_current_absolute_pvp_hotfixes():
 
     assert by_name["Chrono Shift"].talent_name == "Chrono Shift"
     assert "Some PvE Talent" not in by_name
-    assert "Ravage" not in by_name
+    assert by_name["Ravage"].mode == "relative_increase"
+    assert by_name["Ravage"].current_percent == 20
     assert by_name["Ebon Might"].current_percent == 12
     assert by_name["Ebon Might"].previous_percent == 10
     assert by_name["Pyroclasm"].current_percent == 160
