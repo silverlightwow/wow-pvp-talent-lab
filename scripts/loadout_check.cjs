@@ -76,9 +76,19 @@ assert.ok(vengeance.rank_tooltips[0].pvp_tooltip.includes('10%'));
 assert.ok(vengeance.rank_tooltips[1].pvp_tooltip.includes('20%'));
 assert.ok(vengeance.rank_tooltips.every(r=>r.tooltip_changed));
 const tyr=data('paladin-protection').talents.find(t=>t.spell_id===378285);
-assert.ok(tyr.rank_tooltips[0].pvp_tooltip.includes('9.72%'));
-assert.ok(tyr.rank_tooltips[1].pvp_tooltip.includes('19.44%'));
-assert.ok(tyr.rank_tooltips.every(r=>r.tooltip_changed));
+// Tyr's Enforcer is rank-scaled and also inherits the current Protection
+// Paladin PvP aura. The aura coefficient legitimately changes between WoW
+// builds, so validate the transformation rather than pinning yesterday's
+// exact coefficient into a pre-refresh frontend regression.
+const tyrFactor=tyr.mechanics.find(m=>m.source_spell_id===378286)?.aura_factor;
+assert.ok(Number.isFinite(tyrFactor)&&tyrFactor>0&&tyrFactor<=1,'Tyr\'s Enforcer: missing current PvP aura factor');
+for(const rank of tyr.rank_tooltips){
+ const pve=Number(rank.pve_tooltip.match(/deal \(([0-9.]+)% of Attack Power\)/)?.[1]);
+ const pvp=Number(rank.pvp_tooltip.match(/deal \(([0-9.]+)% of Attack Power\)/)?.[1]);
+ assert.ok(Number.isFinite(pve)&&Number.isFinite(pvp),'Tyr\'s Enforcer: AP coefficient missing');
+ assert.ok(Math.abs(pvp-pve*tyrFactor)<1e-6,`Tyr's Enforcer rank ${rank.rank}: PvP coefficient must follow the current aura`);
+ assert.equal(rank.tooltip_changed,true);
+}
 const infernal=data('demon-hunter-havoc').talents.find(t=>t.spell_id===320331);
 assert.ok(infernal.rank_tooltips[0].pvp_tooltip.includes('5.76%'));
 assert.ok(infernal.rank_tooltips[1].pvp_tooltip.includes('11.52%'));
