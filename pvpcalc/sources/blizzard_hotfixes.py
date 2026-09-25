@@ -395,6 +395,14 @@ def _parse_candidate(
     # exact-build mechanics already contain the server-side coefficient/aura.
     # We still parse it so the refresh can prove that the corresponding
     # mechanic is present instead of silently publishing stale source data.
+    removal_tuning = re.search(
+        r"\bno\s+longer\s+"
+        r"(?P<direction>increased|reduced)\s+by\s+"
+        r"(?P<value>\d+(?:\.\d+)?)\s*%",
+        before_was,
+        re.I,
+    )
+
     relative_tuning = re.search(
         r"\b(?P<direction>increased|reduced)\s+by\s+"
         r"(?P<value>\d+(?:\.\d+)?)\s*%",
@@ -403,6 +411,30 @@ def _parse_candidate(
     )
 
     mode = "absolute"
+
+    if removal_tuning is not None:
+        direction = (
+            removal_tuning
+            .group("direction")
+            .casefold()
+        )
+        return OfficialPvpHotfix(
+            talent_name=raw_name,
+            current_percent=float(
+                removal_tuning.group("value")
+            ),
+            previous_percent=None,
+            target_hint=None,
+            text=text,
+            hotfix_date=hotfix_date,
+            unit="percent",
+            mode=(
+                "remove_relative_increase"
+                if direction == "increased"
+                else "remove_relative_reduction"
+            ),
+            context_path=context_path,
+        )
 
     if (
         unit == "percent"
@@ -415,8 +447,17 @@ def _parse_candidate(
             .group("direction")
             .casefold()
         )
+        spec_wide = (
+            _normalize_name(raw_name)
+            == "all"
+            and "damage" in text.casefold()
+        )
         return OfficialPvpHotfix(
-            talent_name=raw_name,
+            talent_name=(
+                "__SPEC_DAMAGE__"
+                if spec_wide
+                else raw_name
+            ),
             current_percent=float(
                 relative_tuning.group("value")
             ),
@@ -426,9 +467,17 @@ def _parse_candidate(
             hotfix_date=hotfix_date,
             unit="percent",
             mode=(
-                "relative_increase"
-                if direction == "increased"
-                else "relative_reduction"
+                (
+                    "spec_relative_increase"
+                    if direction == "increased"
+                    else "spec_relative_reduction"
+                )
+                if spec_wide
+                else (
+                    "relative_increase"
+                    if direction == "increased"
+                    else "relative_reduction"
+                )
             ),
             context_path=context_path,
         )
@@ -1590,6 +1639,170 @@ def _historical_relative_evidence(
     return None
 
 
+
+def _mechanic_contains_factor(
+    talent,
+    factor: float,
+) -> dict | None:
+    for mechanic in (
+        getattr(talent, "mechanics", None)
+        or []
+    ):
+        values = [
+            (
+                "spell_pvp_multiplier",
+                mechanic.get(
+                    "spell_pvp_multiplier"
+                ),
+            ),
+            (
+                "aura_factor",
+                mechanic.get(
+                    "aura_factor"
+                ),
+            ),
+        ]
+        values.extend(
+            (
+                "aura_rule",
+                rule.get("factor"),
+            )
+            for rule in (
+                mechanic.get("aura_rules")
+                or []
+            )
+        )
+        for source, raw in values:
+            try:
+                value = float(raw)
+            except (TypeError, ValueError):
+                continue
+            if abs(value - factor) <= 1e-4:
+                return {
+                    "source": source,
+                    "factor": value,
+                    "source_spell_id":
+                        mechanic.get(
+                            "source_spell_id"
+                        ),
+                    "effect_index":
+                        mechanic.get(
+                            "effect_index"
+                        ),
+                }
+    return None
+
+
+def _spec_historical_relative_evidence(
+    spec_catalog,
+    hotfix: OfficialPvpHotfix,
+    historical_talents_by_date,
+) -> dict | None:
+    if (
+        not historical_talents_by_date
+        or hotfix.hotfix_date is None
+    ):
+        return None
+
+    baseline = historical_talents_by_date.get(
+        hotfix.hotfix_date.isoformat()
+    )
+    if not baseline:
+        return None
+
+    increasing = (
+        hotfix.mode
+        == "spec_relative_increase"
+    )
+    old_by_spell = baseline.get(
+        "by_spell",
+        {},
+    )
+    changed = []
+
+    for talent in spec_catalog.talents:
+        spell_id = getattr(
+            talent,
+            "spell_id",
+            None,
+        )
+        if spell_id is None:
+            continue
+        old_talent = old_by_spell.get(
+            str(int(spell_id))
+        )
+        if old_talent is None:
+            continue
+
+        old_rows = {
+            (
+                int(row.get("source_spell_id") or 0),
+                int(row.get("effect_index") or 0),
+            ): row
+            for row in (
+                old_talent.get("mechanics")
+                or []
+            )
+        }
+
+        for row in (
+            getattr(talent, "mechanics", None)
+            or []
+        ):
+            key = (
+                int(row.get("source_spell_id") or 0),
+                int(row.get("effect_index") or 0),
+            )
+            old_row = old_rows.get(key)
+            if old_row is None:
+                continue
+            try:
+                old_value = float(
+                    old_row.get("aura_factor")
+                )
+                new_value = float(
+                    row.get("aura_factor")
+                )
+            except (TypeError, ValueError):
+                continue
+
+            delta = new_value - old_value
+            if abs(delta) <= 1e-6:
+                continue
+            if increasing != (delta > 0):
+                continue
+
+            changed.append(
+                {
+                    "talent_name":
+                        getattr(
+                            talent,
+                            "talent_name",
+                            "",
+                        ),
+                    "source_spell_id":
+                        key[0],
+                    "effect_index":
+                        key[1],
+                    "old_aura_factor":
+                        old_value,
+                    "new_aura_factor":
+                        new_value,
+                }
+            )
+            if len(changed) >= 3:
+                return {
+                    "source":
+                        "historical_verified_snapshot",
+                    "baseline_commit":
+                        baseline.get("commit"),
+                    "changed_effects":
+                        changed,
+                }
+
+    return None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -1631,6 +1844,58 @@ def apply_official_pvp_hotfixes(
                     ),
                 }
             )
+            continue
+
+        if hotfix.mode.startswith(
+            "spec_relative_"
+        ):
+            evidence = (
+                _spec_historical_relative_evidence(
+                    spec_catalog,
+                    hotfix,
+                    historical_talents_by_date,
+                )
+            )
+            if evidence is None:
+                unresolved.append(
+                    {
+                        "talent_name":
+                            hotfix.talent_name,
+                        "spell_id":
+                            None,
+                        "text":
+                            hotfix.text,
+                        "date": (
+                            hotfix.hotfix_date
+                            .isoformat()
+                            if hotfix.hotfix_date
+                            else None
+                        ),
+                        "reason":
+                            "SPEC_WIDE_HOTFIX_NOT_IN_MECHANICS",
+                        "rank_statuses":
+                            [],
+                    }
+                )
+            else:
+                already_current.append(
+                    {
+                        "talent_name":
+                            hotfix.talent_name,
+                        "spell_id":
+                            None,
+                        "text":
+                            hotfix.text,
+                        "date": (
+                            hotfix.hotfix_date
+                            .isoformat()
+                            if hotfix.hotfix_date
+                            else None
+                        ),
+                        "evidence":
+                            evidence,
+                    }
+                )
             continue
 
         lookup_names = (
@@ -1681,6 +1946,72 @@ def apply_official_pvp_hotfixes(
                 talent.pvp_tooltip
                 or pve
             )
+
+            if hotfix.mode.startswith(
+                "remove_relative_"
+            ):
+                removed_factor = (
+                    1.0
+                    + hotfix.current_percent / 100.0
+                    if hotfix.mode
+                    == "remove_relative_increase"
+                    else
+                    1.0
+                    - hotfix.current_percent / 100.0
+                )
+                stale = (
+                    _mechanic_contains_factor(
+                        talent,
+                        removed_factor,
+                    )
+                )
+                if stale is not None:
+                    unresolved.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date": (
+                                hotfix.hotfix_date
+                                .isoformat()
+                                if hotfix.hotfix_date
+                                else None
+                            ),
+                            "reason":
+                                "REMOVED_HOTFIX_FACTOR_STILL_PRESENT",
+                            "evidence":
+                                stale,
+                            "rank_statuses":
+                                [],
+                        }
+                    )
+                else:
+                    already_current.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date": (
+                                hotfix.hotfix_date
+                                .isoformat()
+                                if hotfix.hotfix_date
+                                else None
+                            ),
+                            "evidence": {
+                                "source":
+                                    "removed_factor_absent",
+                                "removed_factor":
+                                    removed_factor,
+                            },
+                        }
+                    )
+                continue
 
             if hotfix.mode.startswith(
                 "relative_"

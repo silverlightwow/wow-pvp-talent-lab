@@ -553,3 +553,117 @@ def test_relative_hotfix_name_suffix_can_map_to_parent_talent():
     )
     assert report["unresolved"] == []
     assert report["already_current"][0]["talent_name"] == "Takedown"
+
+
+
+def test_removed_pvp_increase_is_tracked_as_absence():
+    html = """
+    <html><body>
+    <h3>September 22, 2026</h3>
+    <h3>Player versus Player</h3>
+    <ul><li>Priest<ul><li>Discipline<ul>
+      <li>Atonement healing is no longer increased by 40% in PvP combat.</li>
+    </ul></li></ul></li></ul>
+    </body></html>
+    """
+    hotfix = blizzard_hotfixes.parse_official_pvp_hotfixes(html)[0]
+    assert hotfix.mode == "remove_relative_increase"
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Atonement",
+                spell_id=81749,
+                pve_tooltip="Healing.",
+                pvp_tooltip="Healing.",
+                mechanics=[],
+            )
+        ]
+    )
+    catalog.class_name = "Priest"
+    catalog.spec_name = "Discipline"
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+    assert report["unresolved"] == []
+    assert report["already_current"][0]["evidence"]["removed_factor"] == 1.4
+
+
+def test_spec_wide_relative_hotfix_uses_multiple_historical_effects():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="__SPEC_DAMAGE__",
+        current_percent=5,
+        previous_percent=None,
+        target_hint=None,
+        text="All damage increased by 5% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="spec_relative_increase",
+        context_path=("Rogue", "Outlaw"),
+    )
+    talents = []
+    old_by_spell = {}
+    for index in range(3):
+        spell_id = 100 + index
+        talents.append(
+            FakeTalent(
+                talent_name=f"Talent {index}",
+                spell_id=spell_id,
+                pve_tooltip="Deals damage.",
+                pvp_tooltip="Deals damage.",
+                mechanics=[
+                    {
+                        "source_spell_id": spell_id,
+                        "effect_index": 1,
+                        "spell_pvp_multiplier": 1.0,
+                        "aura_factor": 0.99,
+                        "final_pvp_multiplier": 0.99,
+                    }
+                ],
+            )
+        )
+        old_by_spell[str(spell_id)] = {
+            "spell_id": spell_id,
+            "talent_name": f"Talent {index}",
+            "mechanics": [
+                {
+                    "source_spell_id": spell_id,
+                    "effect_index": 1,
+                    "spell_pvp_multiplier": 1.0,
+                    "aura_factor": 0.94,
+                    "final_pvp_multiplier": 0.94,
+                }
+            ],
+        }
+    catalog = FakeCatalog(talents=talents)
+    catalog.class_name = "Rogue"
+    catalog.spec_name = "Outlaw"
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+        historical_talents_by_date={
+            "2026-09-22": {
+                "commit": "baseline",
+                "by_spell": old_by_spell,
+                "by_name": {},
+            }
+        },
+    )
+    assert report["unresolved"] == []
+    assert len(report["already_current"][0]["evidence"]["changed_effects"]) == 3
+
+
+
+def test_parse_spec_wide_relative_damage_hotfix():
+    html = """
+    <html><body>
+    <h3>September 22, 2026</h3>
+    <h3>Player versus Player</h3>
+    <ul><li>Rogue<ul><li>Outlaw<ul>
+      <li>All damage increased by 5% in PvP combat.</li>
+    </ul></li></ul></li></ul>
+    </body></html>
+    """
+    item = blizzard_hotfixes.parse_official_pvp_hotfixes(html)[0]
+    assert item.talent_name == "__SPEC_DAMAGE__"
+    assert item.mode == "spec_relative_increase"
+    assert item.context_path == ("Rogue", "Outlaw")
