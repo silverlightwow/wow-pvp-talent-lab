@@ -130,17 +130,39 @@ jobs:
         run: |
           git fetch origin main
           CURRENT_MAIN="$(git rev-parse origin/main)"
+
           if [ "$CURRENT_MAIN" != "$SOURCE_COMMIT" ]; then
             DATA_SOURCE_CHANGES="$(
-              git diff --name-only "$SOURCE_COMMIT" "$CURRENT_MAIN" --                 pvpcalc                 scripts                 tests                 pyproject.toml                 package.json                 package-lock.json                 data-refresh.trigger                 .github/workflows/all-data-pages.yml
+              git diff --name-only "$SOURCE_COMMIT" "$CURRENT_MAIN" -- \
+                pvpcalc \
+                scripts \
+                tests \
+                pyproject.toml \
+                package.json \
+                package-lock.json \
+                data-refresh.trigger \
+                .github/workflows/all-data-pages.yml
             )"
+
             if [ -n "$DATA_SOURCE_CHANGES" ]; then
               echo 'Data-producing source changed during the build; the newer run must publish instead.'
               printf '%s\n' "$DATA_SOURCE_CHANGES"
               exit 1
             fi
-            echo 'Only non-data files changed during the build; publishing this verified snapshot is safe.'
+
+            echo 'Only non-data files changed during the build; rebasing the verified snapshot onto current main.'
+
+            SNAPSHOT_DIR="$(mktemp -d)"
+            cp -a web/data/. "$SNAPSHOT_DIR/"
+
+            git reset --hard "$CURRENT_MAIN"
+
+            rm -rf web/data
+            mkdir -p web/data
+            cp -a "$SNAPSHOT_DIR/." web/data/
+            rm -rf "$SNAPSHOT_DIR"
           fi
+
           if ! git diff --quiet -- web/data; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
