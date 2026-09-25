@@ -625,6 +625,16 @@
                 && !/^\(?[\d.,]+\s*(?:ms|s|sec|min)\s*(?:cooldown|recharge|cast)\)?$/i.test(line)).join("\n");
     }
 
+    function comparisonTextFragment(text) {
+        // Comparison markup is assembled from slices of a tooltip. A slice can
+        // legitimately begin with punctuation (for example ".\n" immediately
+        // after a highlighted numeric token), so do not run the per-line
+        // orphan-punctuation filter on individual slices.
+        return String(text || "")
+            .replaceAll("[", "")
+            .replaceAll("]", "");
+    }
+
     function comparisonTextHtml(talent, mode) {
         // A removed official PvP modifier can delete an entire player-facing
         // line. That cannot be reconstructed by substituting one numeric
@@ -640,7 +650,7 @@
             )
         ) {
             return escapeHtml(
-                displayTextFragment(
+                comparisonTextFragment(
                     talent.pvp_tooltip
                     || ""
                 )
@@ -654,11 +664,11 @@
         let html = "";
         for (const change of changes) {
             if (change.start < cursor || original.slice(change.start, change.end) !== change.old_token) continue;
-            html += escapeHtml(displayTextFragment(original.slice(cursor, change.start)));
+            html += escapeHtml(comparisonTextFragment(original.slice(cursor, change.start)));
             html += `<mark class="value-${mode} ${mode === "pvp" ? "direction-" + PvpDirection.direction(talent, change) : ""}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
             cursor = change.end;
         }
-        return html + escapeHtml(displayTextFragment(original.slice(cursor)));
+        return html + escapeHtml(comparisonTextFragment(original.slice(cursor)));
     }
 
 
