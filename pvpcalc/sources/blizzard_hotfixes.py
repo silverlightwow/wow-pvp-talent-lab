@@ -214,9 +214,9 @@ def _hotfix_applies_to_catalog(
         getattr(spec_catalog, "spec_name", "")
     )
 
-    if classes and class_name not in classes:
+    if classes and class_name and class_name not in classes:
         return False
-    if specs and spec_name not in specs:
+    if specs and spec_name and spec_name not in specs:
         return False
     return True
 
