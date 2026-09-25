@@ -38,16 +38,17 @@ HTML = """
   <li>Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).</li>
   <li>Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).</li>
 </ul>
+<h3>Player versus Player</h3>
 <ul>
-  <li>Player versus Player
+  <li>Druid
     <ul>
-      <li>Druid
-        <ul>
-          <li>Call of Ohn'ahra increases the cooldown of Nature's Swiftness by 60 seconds (was 30 seconds).</li>
-        </ul>
-      </li>
+      <li>Call of Ohn'ahra increases the cooldown of Nature's Swiftness by 60 seconds (was 30 seconds).</li>
     </ul>
   </li>
+</ul>
+<h3>Professions</h3>
+<ul>
+  <li>Fake Profession Talent increases the cooldown of Crafting by 90 seconds (was 30 seconds).</li>
 </ul>
 </body></html>
 """
@@ -90,9 +91,11 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert by_name["Ebon Might"].previous_percent == 10
     assert by_name["Pyroclasm"].current_percent == 160
     assert by_name["Practiced Strikes"].target_hint == "Slam and Mortal Strike"
+    assert by_name["Focused Outburst"].target_hint == "Prayer of Healing"
     assert by_name["Call of Ohn'ahra"].unit == "seconds"
     assert by_name["Call of Ohn'ahra"].current_percent == 60
     assert by_name["Call of Ohn'ahra"].previous_percent == 30
+    assert "Fake Profession Talent" not in by_name
 
 
 def test_apply_official_hotfix_overlay_and_highlight():

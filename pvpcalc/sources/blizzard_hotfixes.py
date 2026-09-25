@@ -199,13 +199,38 @@ def _extract_target_hint(
     if not of_matches:
         return None
 
-    target = _clean_text(
-        prefix[
-            of_matches[-1].end():
-        ]
-    )
+    candidates = []
 
-    return target or None
+    for match in of_matches:
+        candidate = _clean_text(
+            prefix[
+                match.end():
+            ]
+        )
+
+        # The talent name itself may contain "of" (Call of Ohn'ahra).
+        # Reject suffixes that still contain the action clause, then prefer
+        # the longest remaining noun phrase. This also preserves names such
+        # as "Prayer of Healing" instead of collapsing them to "Healing".
+        if re.search(
+            r"\\b(?:now|increases|reduces|grants|causes|deals|heals)\\b",
+            candidate,
+            re.I,
+        ):
+            continue
+
+        if candidate:
+            candidates.append(
+                candidate
+            )
+
+    if not candidates:
+        return None
+
+    return max(
+        candidates,
+        key=len,
+    )
 
 
 def _parse_candidate(
@@ -343,6 +368,55 @@ def _parse_candidate(
     )
 
 
+def _top_level_section_marker(
+    node,
+    text: str,
+) -> str | None:
+    """Return a normalized article-section label for top-level headings.
+
+    Blizzard's rolling hotfix article has used both heading tags and
+    bold paragraphs for section names over time. Nested class/spec labels
+    live inside list items and must not change the active section.
+    """
+    if getattr(
+        node,
+        "find_parent",
+        None,
+    ) is None:
+        return None
+
+    if node.find_parent("li") is not None:
+        return None
+
+    name = getattr(
+        node,
+        "name",
+        None,
+    )
+
+    is_heading = name in {
+        "h2", "h3", "h4", "h5", "h6"
+    }
+
+    is_bold_paragraph = (
+        name == "p"
+        and node.find(
+            ["strong", "b"]
+        ) is not None
+        and len(text) <= 80
+    )
+
+    if not (
+        is_heading
+        or is_bold_paragraph
+    ):
+        return None
+
+    return _normalize_name(
+        text
+    )
+
+
 def parse_official_pvp_hotfixes(
     html: str,
     *,
@@ -351,6 +425,7 @@ def parse_official_pvp_hotfixes(
     soup = BeautifulSoup(html, "lxml")
 
     current_date = None
+    active_section = None
     parsed: list[OfficialPvpHotfix] = []
 
     for node in soup.find_all(
@@ -363,7 +438,23 @@ def parse_official_pvp_hotfixes(
         maybe_date = _parse_date(text)
         if maybe_date is not None:
             current_date = maybe_date
+            active_section = None
             continue
+
+        section_marker = (
+            _top_level_section_marker(
+                node,
+                text,
+            )
+        )
+
+        if section_marker is not None:
+            active_section = (
+                "pvp"
+                if section_marker
+                == "player versus player"
+                else None
+            )
 
         if node.name != "li":
             continue
@@ -377,7 +468,8 @@ def parse_official_pvp_hotfixes(
             text,
             hotfix_date=current_date,
             in_pvp_section=(
-                _inside_pvp_section(
+                active_section == "pvp"
+                or _inside_pvp_section(
                     node
                 )
             ),
