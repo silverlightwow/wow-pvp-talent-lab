@@ -147,9 +147,9 @@ def _parse_candidate(
     # percentages ("now reduces ... by 40%", "grants 12% ... (was 10%)",
     # etc.) where a deterministic text reconciliation is possible.
     relative_tuning = re.search(
-        r"\\b(?:damage|healing)\\s+"
-        r"(?:increased|reduced)\\s+by\\s+"
-        r"\\d+(?:\\.\\d+)?\\s*%",
+        r"\b(?:damage|healing)\s+"
+        r"(?:increased|reduced)\s+by\s+"
+        r"\d+(?:\.\d+)?\s*%",
         text,
         re.I,
     )
