@@ -2,10 +2,16 @@
 name: Recover verified snapshot from completed spec artifacts
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/recover-built-snapshot.yml'
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Failed/partial all-spec build run containing the verified spec-data-* artifacts'
+        required: true
+        type: string
+      source_sha:
+        description: 'Exact main commit SHA that produced those artifacts'
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -24,6 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ inputs.source_sha }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -39,7 +46,7 @@ jobs:
         with:
           pattern: spec-data-*
           path: staged-spec-data
-          run-id: 36186888978
+          run-id: ${{ inputs.run_id }}
           github-token: ${{ github.token }}
       - name: Build expected specialization catalog
         run: |
@@ -194,7 +201,7 @@ jobs:
           NODE
       - name: Commit the recovered verified snapshot
         env:
-          SOURCE_COMMIT: ${{ github.sha }}
+          SOURCE_COMMIT: ${{ inputs.source_sha }}
         run: |
           git fetch origin main
           if [ "$(git rev-parse origin/main)" != "$SOURCE_COMMIT" ]; then
