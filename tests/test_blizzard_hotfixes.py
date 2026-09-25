@@ -66,6 +66,7 @@ class FakeTalent:
     changes: list[dict] = field(default_factory=list)
     diagnostics: list[dict] = field(default_factory=list)
     has_pvp_mechanics: bool = False
+    mechanics: list[dict] = field(default_factory=list)
     rank_tooltips: list[dict] = field(default_factory=list)
 
 
@@ -367,3 +368,83 @@ def test_current_additive_percent_expression_is_recognized():
 
     assert report["unresolved"] == []
     assert len(report["already_current"]) == 1
+
+
+
+def test_relative_hotfix_is_verified_against_exact_mechanic_factor():
+    html = """
+    <html><body>
+    <h3>September 24, 2026</h3>
+    <h3>Player versus Player</h3>
+    <ul><li>Druid<ul><li>Feral<ul>
+      <li>Example Claw damage increased by 20% in PvP combat.</li>
+    </ul></li></ul></li></ul>
+    </body></html>
+    """
+    hotfix = blizzard_hotfixes.parse_official_pvp_hotfixes(html)[0]
+    assert hotfix.mode == "relative_increase"
+    assert hotfix.current_percent == 20
+    assert hotfix.context_path == ("Druid", "Feral")
+
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Example Claw",
+                spell_id=123,
+                pve_tooltip="Deals (100% of Attack Power) damage.",
+                pvp_tooltip="Deals (120% of Attack Power) damage.",
+                tooltip_changed=True,
+                mechanics=[
+                    {
+                        "source_spell_id": 123,
+                        "effect_index": 1,
+                        "spell_pvp_multiplier": 1.2,
+                        "aura_factor": 1.0,
+                        "aura_rules": [],
+                    }
+                ],
+            )
+        ]
+    )
+    catalog.class_name = "Druid"
+    catalog.spec_name = "Feral"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+    assert report["unresolved"] == []
+    assert len(report["already_current"]) == 1
+    assert report["already_current"][0]["evidence"]["factor"] == 1.2
+
+
+def test_relative_hotfix_fails_closed_without_source_evidence():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Example Claw",
+        current_percent=20,
+        previous_percent=None,
+        target_hint=None,
+        text="Example Claw damage increased by 20% in PvP combat.",
+        hotfix_date=None,
+        mode="relative_increase",
+        context_path=("Druid", "Feral"),
+    )
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Example Claw",
+                spell_id=123,
+                pve_tooltip="Deals damage.",
+                pvp_tooltip="Deals damage.",
+            )
+        ]
+    )
+    catalog.class_name = "Druid"
+    catalog.spec_name = "Feral"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+    assert len(report["unresolved"]) == 1
+    assert report["unresolved"][0]["reason"] == "RELATIVE_HOTFIX_NOT_IN_MECHANICS"

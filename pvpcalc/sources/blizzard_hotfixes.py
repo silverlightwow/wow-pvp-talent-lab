@@ -67,6 +67,7 @@ class OfficialPvpHotfix:
     text: str
     hotfix_date: date | None
     unit: str = "percent"
+    mode: str = "absolute"
     context_path: tuple[str, ...] = ()
     source_url: str = OFFICIAL_HOTFIX_URL
 
@@ -390,25 +391,47 @@ def _parse_candidate(
         else None
     )
 
-    # Relative tuning notes such as "Ravage damage increased by 20% in
-    # PvP combat" describe a multiplier on an effect, not an absolute
-    # tooltip percentage. The exact-build effect pipeline owns those.
-    # This overlay is intentionally limited to absolute player-facing
-    # percentages ("now reduces ... by 40%", "grants 12% ... (was 10%)",
-    # etc.) where a deterministic text reconciliation is possible.
+    # Relative PvP tuning is not applied as a second text multiplier:
+    # exact-build mechanics already contain the server-side coefficient/aura.
+    # We still parse it so the refresh can prove that the corresponding
+    # mechanic is present instead of silently publishing stale source data.
     relative_tuning = re.search(
-        r"\b(?:damage|healing)\s+"
-        r"(?:increased|reduced)\s+by\s+"
-        r"\d+(?:\.\d+)?\s*%",
-        text,
+        r"\b(?P<direction>increased|reduced)\s+by\s+"
+        r"(?P<value>\d+(?:\.\d+)?)\s*%",
+        before_was,
         re.I,
     )
+
+    mode = "absolute"
 
     if (
         unit == "percent"
         and relative_tuning is not None
+        and previous is None
+        and " now " not in text.casefold()
     ):
-        return None
+        direction = (
+            relative_tuning
+            .group("direction")
+            .casefold()
+        )
+        return OfficialPvpHotfix(
+            talent_name=raw_name,
+            current_percent=float(
+                relative_tuning.group("value")
+            ),
+            previous_percent=None,
+            target_hint=None,
+            text=text,
+            hotfix_date=hotfix_date,
+            unit="percent",
+            mode=(
+                "relative_increase"
+                if direction == "increased"
+                else "relative_reduction"
+            ),
+            context_path=context_path,
+        )
 
     if (
         previous is None
@@ -429,6 +452,7 @@ def _parse_candidate(
         text=text,
         hotfix_date=hotfix_date,
         unit=unit,
+        mode="absolute",
         context_path=context_path,
     )
 
@@ -616,6 +640,8 @@ def _hotfix_dict(
         ),
         "unit":
             item.unit,
+        "mode":
+            item.mode,
         "context_path":
             list(item.context_path),
         "source_url":
@@ -721,6 +747,10 @@ def hotfixes_from_snapshot(
                 unit=str(
                     raw.get("unit")
                     or "percent"
+                ),
+                mode=str(
+                    raw.get("mode")
+                    or "absolute"
                 ),
                 context_path=tuple(
                     str(item)
@@ -1339,6 +1369,81 @@ def _apply_to_rank_dict(
     return status
 
 
+
+def _relative_hotfix_factor(
+    hotfix: OfficialPvpHotfix,
+) -> float | None:
+    if hotfix.mode == "relative_increase":
+        return 1.0 + hotfix.current_percent / 100.0
+    if hotfix.mode == "relative_reduction":
+        return 1.0 - hotfix.current_percent / 100.0
+    return None
+
+
+def _mechanic_proves_relative_hotfix(
+    talent,
+    hotfix: OfficialPvpHotfix,
+) -> dict | None:
+    expected = _relative_hotfix_factor(
+        hotfix
+    )
+    if expected is None:
+        return None
+
+    for mechanic in (
+        getattr(talent, "mechanics", None)
+        or []
+    ):
+        candidates = [
+            (
+                "spell_pvp_multiplier",
+                mechanic.get(
+                    "spell_pvp_multiplier"
+                ),
+            ),
+            (
+                "aura_factor",
+                mechanic.get(
+                    "aura_factor"
+                ),
+            ),
+        ]
+
+        for rule in (
+            mechanic.get("aura_rules")
+            or []
+        ):
+            candidates.append(
+                (
+                    "aura_rule",
+                    rule.get("factor"),
+                )
+            )
+
+        for source, raw_value in candidates:
+            try:
+                value = float(raw_value)
+            except (TypeError, ValueError):
+                continue
+
+            if abs(value - expected) <= 1e-4:
+                return {
+                    "source": source,
+                    "factor": value,
+                    "expected_factor": expected,
+                    "effect_index":
+                        mechanic.get(
+                            "effect_index"
+                        ),
+                    "source_spell_id":
+                        mechanic.get(
+                            "source_spell_id"
+                        ),
+                }
+
+    return None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -1413,6 +1518,80 @@ def apply_official_pvp_hotfixes(
                 talent.pvp_tooltip
                 or pve
             )
+
+            if hotfix.mode.startswith(
+                "relative_"
+            ):
+                evidence = (
+                    _mechanic_proves_relative_hotfix(
+                        talent,
+                        hotfix,
+                    )
+                )
+
+                if evidence is not None:
+                    talent.has_pvp_mechanics = True
+                    diagnostic = {
+                        "status":
+                            "OFFICIAL_HOTFIX_CURRENT",
+                        "source":
+                            "blizzard_hotfix",
+                        "source_url":
+                            hotfix.source_url,
+                        "hotfix_date": (
+                            hotfix.hotfix_date
+                            .isoformat()
+                            if hotfix.hotfix_date
+                            else None
+                        ),
+                        "hotfix_text":
+                            hotfix.text,
+                        "reason":
+                            "RELATIVE_HOTFIX_EVIDENCE",
+                        "evidence":
+                            evidence,
+                    }
+                    talent.diagnostics.append(
+                        diagnostic
+                    )
+                    already_current.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date":
+                                diagnostic[
+                                    "hotfix_date"
+                                ],
+                            "evidence":
+                                evidence,
+                        }
+                    )
+                else:
+                    unresolved.append(
+                        {
+                            "talent_name":
+                                talent.talent_name,
+                            "spell_id":
+                                talent.spell_id,
+                            "text":
+                                hotfix.text,
+                            "date": (
+                                hotfix.hotfix_date
+                                .isoformat()
+                                if hotfix.hotfix_date
+                                else None
+                            ),
+                            "reason":
+                                "RELATIVE_HOTFIX_NOT_IN_MECHANICS",
+                            "rank_statuses":
+                                [],
+                        }
+                    )
+                continue
 
             updated, change, status = (
                 _replace_one_percent(
