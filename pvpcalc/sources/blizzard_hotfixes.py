@@ -158,6 +158,56 @@ def _inside_pvp_section(node) -> bool:
     return False
 
 
+def _extract_target_hint(
+    text_before_was: str,
+    *,
+    unit: str,
+) -> str | None:
+    """Take the final 'of …' phrase immediately before the changed value.
+
+    Talent names themselves can contain 'of' (Call of Ohn'ahra), so a regex
+    beginning at the first 'of' is not safe.
+    """
+    unit_pattern = (
+        r"(?:seconds?|sec)\b"
+        if unit == "seconds"
+        else r"%"
+    )
+
+    value_match = re.search(
+        r"\s+by\s+"
+        r"\d+(?:\.\d+)?\s*"
+        + unit_pattern,
+        text_before_was,
+        re.I,
+    )
+
+    if value_match is None:
+        return None
+
+    prefix = text_before_was[
+        :value_match.start()
+    ]
+    of_matches = list(
+        re.finditer(
+            r"\bof\b",
+            prefix,
+            re.I,
+        )
+    )
+
+    if not of_matches:
+        return None
+
+    target = _clean_text(
+        prefix[
+            of_matches[-1].end():
+        ]
+    )
+
+    return target or None
+
+
 def _parse_candidate(
     text: str,
     *,
@@ -277,11 +327,9 @@ def _parse_candidate(
     ):
         return None
 
-    target_match = _TARGET_OF_RE.search(before_was)
-    target_hint = (
-        _clean_text(target_match.group("target"))
-        if target_match
-        else None
+    target_hint = _extract_target_hint(
+        before_was,
+        unit=unit,
     )
 
     return OfficialPvpHotfix(
