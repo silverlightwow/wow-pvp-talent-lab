@@ -1118,3 +1118,53 @@ def test_one_hop_embedded_spelldesc_coefficients_are_renderable():
     rows = audit.render_effect_rows
     assert direct_child in rows
     assert nested_internal not in rows
+
+
+
+def test_nested_embedded_spelldesc_value_reference_is_renderable():
+    from pvpcalc.pipeline import SpecAuditResult
+
+    nested_visible = {
+        "spell_id": 443038,
+        "talent_spell_id": 1248989,
+        "source_spell_id": 443038,
+        "effect_index": 1,
+        "effect_origin": "DEPENDENCY",
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [1248989, 443028, 443038],
+        "dependency_relations": ["spelldesc_ref", "tooltip_value_ref"],
+        "dependency_effect_referenced": True,
+        "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
+        "base_value": None,
+        "final_pvp_value": None,
+        "final_pvp_multiplier": 1.395,
+        "is_final_pvp_modified": True,
+        "sources": ["wowhead", "simc"],
+    }
+    nested_internal = {
+        **nested_visible,
+        "source_spell_id": 999999,
+        "effect_index": 2,
+        "dependency_path": [1248989, 443028, 999999],
+        "dependency_relations": ["spelldesc_ref", "runtime_ref"],
+    }
+
+    audit = SpecAuditResult(
+        class_name="Monk",
+        spec_name="Windwalker",
+        metadata={},
+        drustvar_builds=[],
+        talents=[],
+        spell_ids=[],
+        wowhead_by_spell={},
+        drustvar_by_spell={},
+        wowhead_candidate_ids=set(),
+        drustvar_candidate_ids=set(),
+        candidate_ids=set(),
+        effect_rows=[],
+        dependency_effect_rows=[nested_visible, nested_internal],
+    )
+
+    rows = audit.render_effect_rows
+    assert nested_visible in rows
+    assert nested_internal not in rows

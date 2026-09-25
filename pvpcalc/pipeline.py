@@ -327,9 +327,16 @@ class SpecAuditResult:
             ).casefold()
 
             return (
-                len(path) == 2
+                len(path) >= 2
                 and relations
-                == ["spelldesc_ref"]
+                and relations[0]
+                == "spelldesc_ref"
+                and all(
+                    relation
+                    == "tooltip_value_ref"
+                    for relation
+                    in relations[1:]
+                )
                 and (
                     "ap mod:" in effect_text
                     or "sp mod:" in effect_text

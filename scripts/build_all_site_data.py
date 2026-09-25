@@ -243,8 +243,13 @@ def _load_historical_hotfix_baselines(
             for item in hotfixes
             if (
                 item.hotfix_date is not None
-                and item.mode.startswith(
-                    "relative_"
+                and (
+                    item.mode.startswith(
+                        "relative_"
+                    )
+                    or item.mode.startswith(
+                        "spec_relative_"
+                    )
                 )
             )
         }
