@@ -62,7 +62,7 @@ jobs:
                       print(
                           "AGONY_EFFECT",
                           index,
-                          "pvp=", effect.pvp_multiplier,
+                          "pvp=", effect.pvp_coefficient,
                           "hotfix_previous=", effect.pvp_hotfix_previous,
                           "base=", effect.base_value,
                           "sp=", effect.sp_coefficient,
