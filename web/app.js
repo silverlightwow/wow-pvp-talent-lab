@@ -3783,6 +3783,29 @@
                     </div>
 
 
+                    ${
+                        mechanic.official_hotfix_factor !== null
+                        && mechanic.official_hotfix_factor !== undefined
+                        ? `
+                            <div class="factor">
+                                <span
+                                    class="factor-label"
+                                >
+                                    Official hotfix
+                                </span>
+
+                                <span
+                                    class="factor-value"
+                                >
+                                    ×${formatNumber(
+                                        mechanic.official_hotfix_factor
+                                    )}
+                                </span>
+                            </div>
+                        `
+                        : ""
+                    }
+
                     <div class="factor">
                         <span
                             class="factor-label"
