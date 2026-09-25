@@ -14,7 +14,11 @@
     ]);
 
     function numericValue(token) {
-        const value = Number(String(token).replaceAll(',', ''));
+        const normalized = String(token)
+            .replaceAll(',', '')
+            .trim()
+            .replace(/%$/, '');
+        const value = Number(normalized);
         return Number.isFinite(value) ? value : null;
     }
 
