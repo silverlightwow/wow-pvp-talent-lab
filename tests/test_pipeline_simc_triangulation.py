@@ -432,7 +432,6 @@ def test_superseded_drustvar_requires_exact_effect_identity_and_current_agreemen
     assert same_build["resolved_by"] == [
         "wowhead",
         "simc_exact_build",
-        "game_effect_id",
     ]
 
     assert resolve(dict(item, source_build='12.1.0.99999')) is None

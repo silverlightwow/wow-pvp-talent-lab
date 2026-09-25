@@ -3768,7 +3768,6 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
                 "resolved_by": [
                     "wowhead",
                     "simc_exact_build",
-                    "game_effect_id",
                 ],
             }
 
