@@ -4,7 +4,7 @@ window.WOW_PVP_DATA = {
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -149,8 +149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -255,8 +255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -316,8 +316,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -378,8 +378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -471,7 +471,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -495,8 +495,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -556,8 +556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -669,7 +669,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -723,8 +723,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -822,7 +822,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -846,8 +846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -904,8 +904,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -997,7 +997,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1021,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1114,7 +1114,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -1123,7 +1123,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 15.0,
               "factor": 1.15,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1163,7 +1163,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1189,8 +1189,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1247,8 +1247,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1311,8 +1311,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1490,8 +1490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1553,8 +1553,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1615,8 +1615,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1677,8 +1677,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1771,7 +1771,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1795,8 +1795,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1853,8 +1853,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -1962,8 +1962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2020,8 +2020,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2082,8 +2082,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2198,7 +2198,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2236,7 +2236,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2290,8 +2290,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2406,7 +2406,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2444,7 +2444,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2498,8 +2498,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2556,8 +2556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2618,8 +2618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2680,8 +2680,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2742,8 +2742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2851,8 +2851,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2912,8 +2912,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -2993,8 +2993,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3102,8 +3102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3183,8 +3183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3243,8 +3243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3306,8 +3306,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3368,8 +3368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3428,8 +3428,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3509,8 +3509,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3590,8 +3590,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3671,8 +3671,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3776,8 +3776,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -3890,7 +3890,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3928,7 +3928,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3966,7 +3966,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3990,8 +3990,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4049,8 +4049,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4107,8 +4107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4216,7 +4216,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4271,8 +4271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4400,7 +4400,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4426,8 +4426,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4486,8 +4486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4547,8 +4547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4645,8 +4645,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4706,8 +4706,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4766,8 +4766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4827,8 +4827,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -4916,7 +4916,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -4925,7 +4925,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 23.0,
               "factor": 1.23,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4951,8 +4951,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5011,8 +5011,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5074,8 +5074,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5187,7 +5187,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5271,8 +5271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5334,8 +5334,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5394,8 +5394,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5454,8 +5454,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5515,8 +5515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5576,8 +5576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5657,8 +5657,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5717,8 +5717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5777,8 +5777,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -5956,8 +5956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6047,7 +6047,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6071,8 +6071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6131,8 +6131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6192,8 +6192,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6289,7 +6289,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6313,8 +6313,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6389,7 +6389,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6415,8 +6415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6475,8 +6475,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6535,8 +6535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6596,8 +6596,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6658,8 +6658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6740,8 +6740,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6818,7 +6818,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -6827,7 +6827,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6867,7 +6867,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -6876,7 +6876,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6900,8 +6900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -6999,7 +6999,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7025,8 +7025,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7106,8 +7106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7166,8 +7166,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7228,8 +7228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7366,8 +7366,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7462,7 +7462,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7488,8 +7488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7547,8 +7547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7621,7 +7621,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7647,8 +7647,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7805,8 +7805,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7861,8 +7861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7936,8 +7936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -7992,8 +7992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8108,7 +8108,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -8117,7 +8117,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 5.0,
               "factor": 1.05,
               "label_id": 3450,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8231,8 +8231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8291,8 +8291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8351,8 +8351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8463,8 +8463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8523,8 +8523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8583,8 +8583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8643,8 +8643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8703,8 +8703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8843,8 +8843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8903,8 +8903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -8963,8 +8963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9023,8 +9023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9223,7 +9223,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -9232,7 +9232,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 5.0,
               "factor": 1.05,
               "label_id": 3450,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9256,8 +9256,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9352,7 +9352,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9378,8 +9378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9438,8 +9438,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9545,8 +9545,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9606,8 +9606,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9764,7 +9764,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -9773,7 +9773,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 0.0,
               "factor": 1.0,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9811,7 +9811,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -9820,7 +9820,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 0.0,
               "factor": 1.0,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9858,7 +9858,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -9867,7 +9867,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": 4825,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256919,
@@ -9876,7 +9876,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 0.0,
               "factor": 1.0,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9900,8 +9900,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -9960,8 +9960,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10056,6 +10056,44 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429634,
+          "source_spell_id": 440989,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.67,
+          "final_pvp_multiplier": 1.67,
+          "final_pvp_value": 5.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429634,
+            440989
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1357277,
+              "amount_kind": "effect:2",
+              "value_pct": 67.0,
+              "factor": 1.67,
+              "label_id": 3306,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -10072,8 +10110,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10184,8 +10222,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10244,8 +10282,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10304,8 +10342,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10364,8 +10402,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10403,11 +10441,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 3% per stack.",
-      "pvp_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 3% per stack.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 5% per stack.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 68,
+          "end": 69,
+          "old_token": "3",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "3",
+          "new": "5"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10439,9 +10498,47 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 440995,
+          "source_spell_id": 440989,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.67,
+          "final_pvp_multiplier": 1.67,
+          "final_pvp_value": 5.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            440995,
+            440989
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1357277,
+              "amount_kind": "effect:2",
+              "value_pct": 67.0,
+              "factor": 1.67,
+              "label_id": 3306,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -10455,8 +10552,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10530,6 +10627,44 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429641,
+          "source_spell_id": 440989,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.67,
+          "final_pvp_multiplier": 1.67,
+          "final_pvp_value": 5.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429641,
+            440989
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1357277,
+              "amount_kind": "effect:2",
+              "value_pct": 67.0,
+              "factor": 1.67,
+              "label_id": 3306,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10546,8 +10681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10606,8 +10741,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10666,8 +10801,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10726,8 +10861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10783,16 +10918,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 25.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -10822,29 +10947,10 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "simc_generated",
+            "drustvar",
             "simc"
           ],
-          "source_notes": [
-            {
-              "spell_id": 429647,
-              "talent_name": "Practiced Strikes",
-              "side": "drustvar",
-              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-              "multiplier": 0.6,
-              "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-              "source_build": "12.1.0.69587",
-              "game_effect_id": 1114022,
-              "current_build": "12.1.0.69933",
-              "effect_index": 1,
-              "previous_multiplier": 0.6,
-              "current_multiplier": 1.2,
-              "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-              "resolved_by": [
-                "simc_exact_build_hotfix"
-              ]
-            }
-          ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -10866,14 +10972,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "simc_generated",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -10887,8 +10992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -10962,6 +11067,44 @@ window.WOW_PVP_DATA = {
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 431548,
+          "source_spell_id": 440989,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.67,
+          "final_pvp_multiplier": 1.67,
+          "final_pvp_value": 5.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431548,
+            440989
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1357277,
+              "amount_kind": "effect:2",
+              "value_pct": 67.0,
+              "factor": 1.67,
+              "label_id": 3306,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10978,8 +11121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -11085,8 +11228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -11197,8 +11340,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Arms",
@@ -11294,7 +11437,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -50.0,
               "factor": 0.5,
               "label_id": 4007,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -11616,64 +11759,26 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [
-    {
-      "spell_id": 429647,
-      "talent_name": "Practiced Strikes",
-      "side": "drustvar",
-      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-      "multiplier": 0.6,
-      "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-      "source_build": "12.1.0.69587",
-      "game_effect_id": 1114022,
-      "current_build": "12.1.0.69933",
-      "effect_index": 1,
-      "previous_multiplier": 0.6,
-      "current_multiplier": 1.2,
-      "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-      "resolved_by": [
-        "simc_exact_build_hotfix"
-      ]
-    }
-  ],
+  "source_warnings": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-24T11:53:29.748722+00:00",
+  "generated_at": "2026-09-25T10:08:52.017026+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 39,
+    "changed_tooltips": 40,
     "talents_with_pvp_mechanics": 47,
     "unique_nodes": 104,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "spell_id": 429647,
-        "talent_name": "Practiced Strikes",
-        "side": "drustvar",
-        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "source_build": "12.1.0.69587",
-        "game_effect_id": 1114022,
-        "current_build": "12.1.0.69933",
-        "effect_index": 1,
-        "previous_multiplier": 0.6,
-        "current_multiplier": 1.2,
-        "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "resolved_by": [
-          "simc_exact_build_hotfix"
-        ]
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

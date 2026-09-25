@@ -4,7 +4,7 @@ window.WOW_PVP_DATA = {
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -56,7 +56,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (135.432% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (130.416% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -64,7 +64,7 @@ window.WOW_PVP_DATA = {
           "start": 126,
           "end": 131,
           "old_token": "125.4",
-          "new_token": "135.432",
+          "new_token": "130.416",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -109,7 +109,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "125.4",
-          "new": "135.432"
+          "new": "130.416"
         }
       ],
       "has_pvp_mechanics": true,
@@ -124,8 +124,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -135,10 +135,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -247,8 +247,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -265,10 +265,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -326,8 +326,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -386,8 +386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -445,8 +445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -505,8 +505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -567,8 +567,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -627,8 +627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -734,8 +734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -796,8 +796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -856,8 +856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -914,8 +914,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -932,10 +932,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -959,8 +959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1021,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1083,8 +1083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1145,8 +1145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1207,8 +1207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1268,8 +1268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1330,8 +1330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1390,8 +1390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1452,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1513,8 +1513,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1620,8 +1620,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1682,8 +1682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1742,8 +1742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1806,8 +1806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1866,8 +1866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1928,8 +1928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1988,8 +1988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2121,8 +2121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2182,8 +2182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2245,8 +2245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2305,8 +2305,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2368,8 +2368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2429,8 +2429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2491,8 +2491,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2555,8 +2555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2617,8 +2617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2679,8 +2679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2775,7 +2775,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -50.0,
               "factor": 0.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2799,8 +2799,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2879,8 +2879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2939,8 +2939,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3019,8 +3019,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3121,8 +3121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3200,8 +3200,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3279,8 +3279,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3358,8 +3358,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3416,8 +3416,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3474,8 +3474,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3532,8 +3532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3569,7 +3569,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "pvp_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (127.44% of Attack Power) Physical damage.",
+      "pvp_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (122.72% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3577,7 +3577,7 @@ window.WOW_PVP_DATA = {
           "start": 122,
           "end": 125,
           "old_token": "118",
-          "new_token": "127.44",
+          "new_token": "122.72",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3592,7 +3592,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118",
-          "new": "127.44"
+          "new": "122.72"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3607,8 +3607,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3623,10 +3623,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3650,8 +3650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3708,8 +3708,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3766,8 +3766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3824,8 +3824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3863,7 +3863,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.14% of Attack Power) Nature damage.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.7912% of Attack Power) Nature damage.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.4656% of Attack Power) Nature damage.\n(Proc chance: 30%)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3871,7 +3871,7 @@ window.WOW_PVP_DATA = {
           "start": 245,
           "end": 249,
           "old_token": "8.14",
-          "new_token": "8.7912",
+          "new_token": "8.4656",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3886,7 +3886,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "8.14",
-          "new": "8.7912"
+          "new": "8.4656"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3901,8 +3901,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3917,10 +3917,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1266722,
               "amount_kind": "periodic",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3939,8 +3939,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3955,10 +3955,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3982,8 +3982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4043,8 +4043,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4101,8 +4101,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4162,8 +4162,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4203,7 +4203,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (110% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
-      "pvp_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (118.8% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
+      "pvp_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (114.4% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4211,7 +4211,7 @@ window.WOW_PVP_DATA = {
           "start": 59,
           "end": 62,
           "old_token": "110",
-          "new_token": "118.8",
+          "new_token": "114.4",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4226,7 +4226,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "110",
-          "new": "118.8"
+          "new": "114.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4241,8 +4241,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4252,10 +4252,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4279,8 +4279,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4341,8 +4341,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4399,8 +4399,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4415,10 +4415,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1266722,
               "amount_kind": "periodic",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4442,8 +4442,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4581,8 +4581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4641,8 +4641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4703,8 +4703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4765,8 +4765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4825,8 +4825,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4889,8 +4889,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4931,7 +4931,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (320% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
-      "pvp_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (345.6% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
+      "pvp_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (332.8% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4939,7 +4939,7 @@ window.WOW_PVP_DATA = {
           "start": 77,
           "end": 80,
           "old_token": "320",
-          "new_token": "345.6",
+          "new_token": "332.8",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4954,7 +4954,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "320",
-          "new": "345.6"
+          "new": "332.8"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4969,8 +4969,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4980,10 +4980,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1266722,
               "amount_kind": "periodic",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5007,8 +5007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5071,8 +5071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5131,8 +5131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5191,8 +5191,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5298,8 +5298,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5379,8 +5379,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5439,8 +5439,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5499,8 +5499,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5580,8 +5580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5640,8 +5640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5679,7 +5679,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
-      "pvp_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (16.2% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
+      "pvp_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15.6% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5687,7 +5687,7 @@ window.WOW_PVP_DATA = {
           "start": 112,
           "end": 114,
           "old_token": "15",
-          "new_token": "16.2",
+          "new_token": "15.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5702,7 +5702,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "15",
-          "new": "16.2"
+          "new": "15.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5717,8 +5717,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5733,10 +5733,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5760,8 +5760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5799,7 +5799,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(38.3328% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
-      "pvp_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(41.3994% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
+      "pvp_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(39.8661% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5807,7 +5807,7 @@ window.WOW_PVP_DATA = {
           "start": 143,
           "end": 150,
           "old_token": "38.3328",
-          "new_token": "41.3994",
+          "new_token": "39.8661",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5822,7 +5822,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "38.3328",
-          "new": "41.3994"
+          "new": "39.8661"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5837,8 +5837,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5853,10 +5853,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5880,8 +5880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5922,7 +5922,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.14% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.7912% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.4656% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5930,7 +5930,7 @@ window.WOW_PVP_DATA = {
           "start": 135,
           "end": 139,
           "old_token": "8.14",
-          "new_token": "8.7912",
+          "new_token": "8.4656",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5945,7 +5945,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "8.14",
-          "new": "8.7912"
+          "new": "8.4656"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5960,8 +5960,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5976,10 +5976,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6003,8 +6003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6067,8 +6067,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6130,8 +6130,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6190,8 +6190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6231,7 +6231,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (146.9% of Attack Power) Nature damage instantly and an additional (203% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (111.0564% of Attack Power) Nature damage instantly and an additional (219.24% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (106.9432% of Attack Power) Nature damage instantly and an additional (211.12% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6239,7 +6239,7 @@ window.WOW_PVP_DATA = {
           "start": 130,
           "end": 135,
           "old_token": "146.9",
-          "new_token": "111.0564",
+          "new_token": "106.9432",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             2
@@ -6249,7 +6249,7 @@ window.WOW_PVP_DATA = {
           "start": 197,
           "end": 200,
           "old_token": "203",
-          "new_token": "219.24",
+          "new_token": "211.12",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             4
@@ -6264,7 +6264,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "146.9",
-          "new": "111.0564"
+          "new": "106.9432"
         },
         {
           "effect_indexes": [
@@ -6273,7 +6273,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "203",
-          "new": "219.24"
+          "new": "211.12"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6288,8 +6288,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 0.756,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.728,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -6299,10 +6299,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6323,8 +6323,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -6334,10 +6334,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1266722,
               "amount_kind": "periodic",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6361,8 +6361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6441,8 +6441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6503,8 +6503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6563,8 +6563,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6643,8 +6643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6701,8 +6701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6761,8 +6761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6821,8 +6821,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6880,8 +6880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6960,8 +6960,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7018,8 +7018,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7076,8 +7076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7225,8 +7225,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7281,8 +7281,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7356,8 +7356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7391,7 +7391,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (300% of Attack Power) Physical and (207% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
-      "pvp_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (178.2% of Attack Power) Physical and (122.958% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
+      "pvp_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (171.6% of Attack Power) Physical and (118.404% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7399,7 +7399,7 @@ window.WOW_PVP_DATA = {
           "start": 118,
           "end": 121,
           "old_token": "207",
-          "new_token": "122.958",
+          "new_token": "118.404",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7409,7 +7409,7 @@ window.WOW_PVP_DATA = {
           "start": 82,
           "end": 85,
           "old_token": "300",
-          "new_token": "178.2",
+          "new_token": "171.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7424,7 +7424,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "300",
-          "new": "178.2"
+          "new": "171.6"
         },
         {
           "effect_indexes": [
@@ -7433,7 +7433,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "207",
-          "new": "122.958"
+          "new": "118.404"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7448,8 +7448,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.55,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 0.5940000000000001,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.5720000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7464,10 +7464,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7488,8 +7488,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.55,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 0.5940000000000001,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.5720000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7504,10 +7504,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7533,8 +7533,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7573,7 +7573,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
-      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (109.4083% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
+      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (105.3562% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7581,7 +7581,7 @@ window.WOW_PVP_DATA = {
           "start": 186,
           "end": 189,
           "old_token": "168",
-          "new_token": "109.4083",
+          "new_token": "105.3562",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7596,7 +7596,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "168",
-          "new": "109.4083"
+          "new": "105.3562"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7611,8 +7611,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": "direct",
-          "aura_factor": 0.9720000000000001,
-          "final_pvp_multiplier": 0.65124,
+          "aura_factor": 0.936,
+          "final_pvp_multiplier": 0.6271200000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7627,10 +7627,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256950,
@@ -7639,7 +7639,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7665,8 +7665,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7705,7 +7705,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (168.48% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
+      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (162.24% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7713,7 +7713,7 @@ window.WOW_PVP_DATA = {
           "start": 269,
           "end": 272,
           "old_token": "156",
-          "new_token": "168.48",
+          "new_token": "162.24",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7728,7 +7728,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "156",
-          "new": "168.48"
+          "new": "162.24"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7743,8 +7743,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7759,10 +7759,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7786,8 +7786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7846,8 +7846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7906,8 +7906,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7966,8 +7966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8026,8 +8026,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8161,8 +8161,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8221,8 +8221,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8281,8 +8281,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8320,7 +8320,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
-      "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10.8% of Attack Power) Plague damage.",
+      "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10.4% of Attack Power) Plague damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8328,7 +8328,7 @@ window.WOW_PVP_DATA = {
           "start": 56,
           "end": 58,
           "old_token": "10",
-          "new_token": "10.8",
+          "new_token": "10.4",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -8343,7 +8343,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "10",
-          "new": "10.8"
+          "new": "10.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8358,8 +8358,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8374,10 +8374,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256950,
               "game_effect_id": 1264714,
               "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8401,8 +8401,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8461,8 +8461,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8521,8 +8521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8581,8 +8581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8641,8 +8641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8701,8 +8701,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8761,8 +8761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8901,8 +8901,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8961,8 +8961,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9021,8 +9021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9163,8 +9163,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9223,8 +9223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9283,8 +9283,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9343,8 +9343,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9403,8 +9403,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9463,8 +9463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9523,8 +9523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9583,8 +9583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9643,8 +9643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9703,8 +9703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9763,8 +9763,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9823,8 +9823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9883,8 +9883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9943,8 +9943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10004,8 +10004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10384,7 +10384,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-24T11:49:38.543012+00:00",
+  "generated_at": "2026-09-25T10:05:02.034598+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,
@@ -10393,7 +10393,7 @@ window.WOW_PVP_DATA = {
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,

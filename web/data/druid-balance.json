@@ -4,7 +4,7 @@
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -125,8 +125,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -206,7 +206,7 @@
               "value_pct": 60.0,
               "factor": 1.6,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -232,8 +232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -339,8 +339,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -448,7 +448,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -474,8 +474,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -532,8 +532,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -594,8 +594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -657,8 +657,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -717,8 +717,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -806,7 +806,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -830,8 +830,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1014,8 +1014,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1078,8 +1078,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1141,8 +1141,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1221,7 +1221,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1247,8 +1247,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1305,8 +1305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1388,8 +1388,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1446,8 +1446,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1510,8 +1510,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1570,8 +1570,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1653,8 +1653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1749,7 +1749,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1789,7 +1789,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1815,8 +1815,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1873,8 +1873,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1936,8 +1936,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1994,8 +1994,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2058,8 +2058,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2118,8 +2118,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2181,8 +2181,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2244,8 +2244,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2305,8 +2305,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2366,8 +2366,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2429,8 +2429,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2488,8 +2488,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2548,8 +2548,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2609,8 +2609,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2687,8 +2687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2749,8 +2749,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2808,8 +2808,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2921,8 +2921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2981,8 +2981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3041,8 +3041,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3104,8 +3104,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3162,8 +3162,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3220,8 +3220,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3301,8 +3301,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3359,8 +3359,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3417,8 +3417,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3475,8 +3475,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3538,8 +3538,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3596,8 +3596,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3654,8 +3654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3712,8 +3712,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3772,8 +3772,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3832,8 +3832,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3892,8 +3892,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3952,8 +3952,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4010,8 +4010,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4087,8 +4087,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4145,8 +4145,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4232,7 +4232,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4258,8 +4258,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4353,8 +4353,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4443,8 +4443,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4540,7 +4540,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4564,8 +4564,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4625,8 +4625,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4686,8 +4686,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4749,8 +4749,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4810,8 +4810,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4871,8 +4871,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4933,8 +4933,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4995,8 +4995,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5056,8 +5056,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5117,8 +5117,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5180,8 +5180,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5244,8 +5244,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5307,8 +5307,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5424,7 +5424,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5493,7 +5493,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5519,8 +5519,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5636,7 +5636,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5704,7 +5704,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5728,8 +5728,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5788,8 +5788,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5848,8 +5848,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5909,8 +5909,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5996,8 +5996,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6131,7 +6131,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6169,7 +6169,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6207,7 +6207,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6245,7 +6245,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6269,8 +6269,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6331,8 +6331,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6429,7 +6429,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6455,8 +6455,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6537,8 +6537,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6595,8 +6595,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6656,8 +6656,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6714,8 +6714,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6797,8 +6797,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6858,8 +6858,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6939,8 +6939,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7020,8 +7020,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7080,8 +7080,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7140,8 +7140,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7262,7 +7262,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7288,8 +7288,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7350,8 +7350,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7459,8 +7459,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7522,8 +7522,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7585,8 +7585,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7684,7 +7684,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7708,8 +7708,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7802,7 +7802,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7826,8 +7826,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7931,8 +7931,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7990,8 +7990,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8048,8 +8048,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8107,8 +8107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8165,8 +8165,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8221,8 +8221,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8296,8 +8296,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8407,7 +8407,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8446,7 +8446,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8472,8 +8472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8569,7 +8569,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8586,7 +8586,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8609,13 +8609,13 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8635,8 +8635,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8695,8 +8695,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8755,8 +8755,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8815,8 +8815,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8875,8 +8875,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8935,8 +8935,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8995,8 +8995,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9070,7 +9070,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9110,7 +9110,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9136,8 +9136,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9196,8 +9196,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9256,8 +9256,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9363,8 +9363,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9459,7 +9459,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9483,8 +9483,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9543,8 +9543,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9603,8 +9603,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9663,8 +9663,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9723,8 +9723,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9776,7 +9776,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -9799,13 +9799,13 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9843,7 +9843,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9869,8 +9869,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9966,7 +9966,7 @@
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9992,8 +9992,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10052,8 +10052,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10112,8 +10112,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10172,8 +10172,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10232,8 +10232,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10292,8 +10292,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10352,8 +10352,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10412,8 +10412,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10472,8 +10472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10558,8 +10558,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10618,8 +10618,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10678,8 +10678,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10738,8 +10738,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10798,8 +10798,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10858,8 +10858,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10931,7 +10931,7 @@
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -10948,9 +10948,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10970,8 +10970,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11030,8 +11030,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11103,8 +11103,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -11121,9 +11121,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11133,8 +11133,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -11151,9 +11151,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11516,7 +11516,7 @@
   },
   "source_warnings": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-24T11:41:16.182922+00:00",
+  "generated_at": "2026-09-25T09:55:59.921652+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 24,
@@ -11525,30 +11525,15 @@
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 9,
+    "source_warning_count": 6,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 428682,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428735,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428735'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 429474,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=429474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 433850,
@@ -11558,6 +11543,21 @@
         "source": "wowhead",
         "spell_id": 1240913,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1240913'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1261573,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261573'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1263137,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263137'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1280212,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1280212'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

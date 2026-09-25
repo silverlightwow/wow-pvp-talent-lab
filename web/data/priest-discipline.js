@@ -4,7 +4,7 @@ window.WOW_PVP_DATA = {
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -77,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -136,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -226,7 +226,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -250,8 +250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -362,7 +362,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -400,7 +400,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -424,8 +424,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -487,8 +487,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -549,8 +549,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -611,8 +611,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -669,8 +669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -732,8 +732,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -792,8 +792,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -881,8 +881,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -943,8 +943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1003,8 +1003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1063,8 +1063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1141,7 +1141,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1181,7 +1181,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -1190,7 +1190,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -16.0,
               "factor": 0.84,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1230,7 +1230,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -1239,7 +1239,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -16.0,
               "factor": 0.84,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1263,8 +1263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1323,8 +1323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1386,8 +1386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1446,8 +1446,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1555,8 +1555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1618,8 +1618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1681,8 +1681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1741,8 +1741,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1801,8 +1801,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1861,8 +1861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -1922,8 +1922,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2079,8 +2079,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2142,8 +2142,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2204,8 +2204,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2264,8 +2264,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2325,8 +2325,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2386,8 +2386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2449,8 +2449,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2553,7 +2553,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2586,7 +2586,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -2610,8 +2610,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2672,8 +2672,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2734,8 +2734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2815,8 +2815,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2875,8 +2875,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2938,8 +2938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -2999,8 +2999,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3061,8 +3061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3123,8 +3123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3183,8 +3183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3263,8 +3263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3323,8 +3323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3404,8 +3404,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3554,8 +3554,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3616,8 +3616,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3675,8 +3675,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3734,8 +3734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3793,8 +3793,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3852,8 +3852,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3911,8 +3911,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -3971,8 +3971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4063,7 +4063,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4089,8 +4089,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4150,8 +4150,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4211,8 +4211,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4273,8 +4273,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4335,8 +4335,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4395,8 +4395,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4455,8 +4455,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4516,8 +4516,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4578,8 +4578,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4638,8 +4638,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4698,8 +4698,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4760,8 +4760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -4858,7 +4858,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4896,7 +4896,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4922,8 +4922,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5036,8 +5036,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5098,8 +5098,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5158,8 +5158,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5220,8 +5220,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5284,8 +5284,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5347,8 +5347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5407,8 +5407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5469,8 +5469,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5529,8 +5529,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5610,8 +5610,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5670,8 +5670,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5751,8 +5751,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5815,8 +5815,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -5896,8 +5896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6004,8 +6004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6066,8 +6066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6127,8 +6127,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6188,8 +6188,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6266,7 +6266,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -6275,7 +6275,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -16.0,
               "factor": 0.84,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6299,8 +6299,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6360,8 +6360,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6420,8 +6420,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6481,8 +6481,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6562,8 +6562,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6642,8 +6642,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6703,8 +6703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6764,8 +6764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6855,7 +6855,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -6864,7 +6864,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -25.0,
               "factor": 0.75,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6888,8 +6888,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -6948,8 +6948,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7006,8 +7006,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7065,8 +7065,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7213,8 +7213,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7284,7 +7284,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -7293,7 +7293,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7319,8 +7319,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7390,7 +7390,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7428,7 +7428,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7471,8 +7471,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7542,7 +7542,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7580,7 +7580,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7604,8 +7604,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7665,8 +7665,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7866,8 +7866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7926,8 +7926,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -7986,8 +7986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8047,8 +8047,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8124,7 +8124,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 3.0,
               "factor": 1.03,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8150,8 +8150,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8210,8 +8210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8270,8 +8270,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8330,8 +8330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8390,8 +8390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8497,8 +8497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8557,8 +8557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8617,8 +8617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8677,8 +8677,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8737,8 +8737,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8835,8 +8835,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -8932,7 +8932,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8956,8 +8956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9063,8 +9063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9123,8 +9123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9198,7 +9198,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -9207,7 +9207,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 30.0,
               "factor": 1.3,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9231,8 +9231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9338,8 +9338,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9445,8 +9445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9505,8 +9505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9565,8 +9565,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9625,8 +9625,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9702,7 +9702,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9726,8 +9726,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9786,8 +9786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -9897,8 +9897,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -10004,8 +10004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -10111,8 +10111,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -10171,8 +10171,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -10231,8 +10231,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Discipline",
@@ -10328,7 +10328,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 50.0,
               "factor": 1.5,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256903,
@@ -10337,7 +10337,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 30.0,
               "factor": 1.3,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -10648,28 +10648,9 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [
-    {
-      "spell_id": 81749,
-      "talent_name": "Atonement",
-      "side": "drustvar",
-      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-      "multiplier": 1.39,
-      "effect_text": "Apply Aura (6) | Dummy (4)",
-      "source_build": "12.1.0.69587",
-      "game_effect_id": 135203,
-      "current_build": "12.1.0.69933",
-      "effect_index": 1,
-      "current_multiplier": 1.0,
-      "current_effect_text": "Apply Aura (6) | Dummy (4)",
-      "resolved_by": [
-        "wowhead",
-        "simc_exact_build"
-      ]
-    }
-  ],
+  "source_warnings": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-24T11:48:40.648257+00:00",
+  "generated_at": "2026-09-25T10:03:46.433476+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 21,
@@ -10678,34 +10659,15 @@ window.WOW_PVP_DATA = {
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "spell_id": 81749,
-        "talent_name": "Atonement",
-        "side": "drustvar",
-        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-        "multiplier": 1.39,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "source_build": "12.1.0.69587",
-        "game_effect_id": 135203,
-        "current_build": "12.1.0.69933",
-        "effect_index": 1,
-        "current_multiplier": 1.0,
-        "current_effect_text": "Apply Aura (6) | Dummy (4)",
-        "resolved_by": [
-          "wowhead",
-          "simc_exact_build"
-        ]
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

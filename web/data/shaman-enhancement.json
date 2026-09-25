@@ -4,7 +4,7 @@
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -124,8 +124,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -163,7 +163,7 @@
         ]
       },
       "pve_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (238.717% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
-      "pvp_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (275.7181% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
+      "pvp_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (283.5958% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -171,7 +171,7 @@
           "start": 126,
           "end": 133,
           "old_token": "238.717",
-          "new_token": "275.7181",
+          "new_token": "283.5958",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -186,7 +186,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "238.717",
-          "new": "275.7181"
+          "new": "283.5958"
         }
       ],
       "has_pvp_mechanics": true,
@@ -201,8 +201,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.1550000000000002,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.1880000000000002,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -212,10 +212,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -241,8 +241,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -279,7 +279,7 @@
         ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
-      "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (80.6652% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
+      "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (82.9699% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -287,7 +287,7 @@
           "start": 87,
           "end": 92,
           "old_token": "116.4",
-          "new_token": "80.6652",
+          "new_token": "82.9699",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -302,7 +302,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "116.4",
-          "new": "80.6652"
+          "new": "82.9699"
         }
       ],
       "has_pvp_mechanics": true,
@@ -317,8 +317,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.693,
-          "final_pvp_multiplier": 0.693,
+          "aura_factor": 0.7128,
+          "final_pvp_multiplier": 0.7128,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -328,10 +328,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1214207,
@@ -340,7 +340,7 @@
               "value_pct": -34.0,
               "factor": 0.6599999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -364,8 +364,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -461,7 +461,7 @@
               "value_pct": -38.0,
               "factor": 0.62,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -487,8 +487,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -549,8 +549,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -610,8 +610,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -672,8 +672,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -734,8 +734,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -774,7 +774,7 @@
         ]
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
-      "pvp_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (106.5015% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
+      "pvp_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (109.5444% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -782,7 +782,7 @@
           "start": 77,
           "end": 82,
           "old_token": "72.45",
-          "new_token": "106.5015",
+          "new_token": "109.5444",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -797,7 +797,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "72.45",
-          "new": "106.5015"
+          "new": "109.5444"
         }
       ],
       "has_pvp_mechanics": true,
@@ -812,8 +812,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.47,
-          "final_pvp_multiplier": 1.47,
+          "aura_factor": 1.512,
+          "final_pvp_multiplier": 1.512,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -823,10 +823,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1214207,
@@ -835,7 +835,7 @@
               "value_pct": 40.0,
               "factor": 1.4,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -859,8 +859,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -919,8 +919,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -981,8 +981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1043,8 +1043,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1107,8 +1107,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1169,8 +1169,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1229,8 +1229,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1341,8 +1341,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1436,8 +1436,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1517,8 +1517,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1578,8 +1578,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1639,8 +1639,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1720,8 +1720,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1782,8 +1782,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1842,8 +1842,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -1956,8 +1956,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2019,8 +2019,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2081,8 +2081,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2142,8 +2142,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2202,8 +2202,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2264,8 +2264,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2326,8 +2326,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2405,8 +2405,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2467,8 +2467,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2529,8 +2529,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2591,8 +2591,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2653,8 +2653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2735,8 +2735,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2796,8 +2796,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2857,8 +2857,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2917,8 +2917,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -2979,8 +2979,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3040,8 +3040,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3101,8 +3101,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3164,8 +3164,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3227,8 +3227,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3287,8 +3287,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3347,8 +3347,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3409,8 +3409,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3469,8 +3469,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3529,8 +3529,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3591,8 +3591,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3653,8 +3653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3765,8 +3765,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3824,8 +3824,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3884,8 +3884,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -3944,8 +3944,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4003,8 +4003,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4064,8 +4064,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4104,7 +4104,7 @@
         ]
       },
       "pve_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (3.96% of Attack Power) additional Fire damage.",
-      "pvp_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (4.158% of Attack Power) additional Fire damage.",
+      "pvp_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (4.2768% of Attack Power) additional Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4112,7 +4112,7 @@
           "start": 101,
           "end": 105,
           "old_token": "3.96",
-          "new_token": "4.158",
+          "new_token": "4.2768",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4127,7 +4127,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "3.96",
-          "new": "4.158"
+          "new": "4.2768"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4142,8 +4142,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4158,10 +4158,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4185,8 +4185,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4245,8 +4245,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4285,7 +4285,7 @@
         ]
       },
       "pve_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (183.617% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (97.7592% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
-      "pvp_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (291.5103% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (93.4089% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
+      "pvp_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (299.8392% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (96.0777% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4293,7 +4293,7 @@
           "start": 114,
           "end": 121,
           "old_token": "183.617",
-          "new_token": "291.5103",
+          "new_token": "299.8392",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4303,7 +4303,7 @@
           "start": 237,
           "end": 244,
           "old_token": "97.7592",
-          "new_token": "93.4089",
+          "new_token": "96.0777",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4318,7 +4318,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "183.617",
-          "new": "291.5103"
+          "new": "299.8392"
         },
         {
           "effect_indexes": [
@@ -4327,7 +4327,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "97.7592",
-          "new": "93.4089"
+          "new": "96.0777"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4342,8 +4342,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.8,
           "amount_kind": "direct",
-          "aura_factor": 0.882,
-          "final_pvp_multiplier": 1.5876000000000001,
+          "aura_factor": 0.9072,
+          "final_pvp_multiplier": 1.63296,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4353,10 +4353,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1214207,
@@ -4365,7 +4365,7 @@
               "value_pct": -16.0,
               "factor": 0.84,
               "label_id": 1183,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4386,8 +4386,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.9555000000000001,
-          "final_pvp_multiplier": 0.9555000000000001,
+          "aura_factor": 0.9828000000000001,
+          "final_pvp_multiplier": 0.9828000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4402,10 +4402,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1214207,
@@ -4414,7 +4414,7 @@
               "value_pct": -9.0,
               "factor": 0.91,
               "label_id": 4620,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4438,8 +4438,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4498,8 +4498,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4560,8 +4560,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4622,8 +4622,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4684,8 +4684,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4745,8 +4745,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4807,8 +4807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4867,8 +4867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -4929,8 +4929,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5009,8 +5009,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5073,8 +5073,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5137,8 +5137,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5180,7 +5180,7 @@
         ]
       },
       "pve_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (400% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
-      "pvp_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (420% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
+      "pvp_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (432% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5188,7 +5188,7 @@
           "start": 166,
           "end": 169,
           "old_token": "400",
-          "new_token": "420",
+          "new_token": "432",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5203,7 +5203,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "400",
-          "new": "420"
+          "new": "432"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5218,8 +5218,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5234,10 +5234,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5261,8 +5261,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5322,8 +5322,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5434,8 +5434,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5496,8 +5496,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5556,8 +5556,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5618,8 +5618,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5674,8 +5674,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.47,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.512,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5692,10 +5692,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5721,8 +5721,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5782,8 +5782,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5845,8 +5845,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -5888,7 +5888,7 @@
         ]
       },
       "pve_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (120% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (126% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (129.6% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5896,7 +5896,7 @@
           "start": 77,
           "end": 80,
           "old_token": "120",
-          "new_token": "126",
+          "new_token": "129.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5911,7 +5911,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "120",
-          "new": "126"
+          "new": "129.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5926,8 +5926,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5942,10 +5942,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5969,8 +5969,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6011,7 +6011,7 @@
         ]
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (253.92% of Attack Power) Flamestrike damage to any enemy hit.",
-      "pvp_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (266.616% of Attack Power) Flamestrike damage to any enemy hit.",
+      "pvp_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (274.2336% of Attack Power) Flamestrike damage to any enemy hit.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6019,7 +6019,7 @@
           "start": 120,
           "end": 126,
           "old_token": "253.92",
-          "new_token": "266.616",
+          "new_token": "274.2336",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6034,7 +6034,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "253.92",
-          "new": "266.616"
+          "new": "274.2336"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6049,8 +6049,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -6060,10 +6060,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6087,8 +6087,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6147,8 +6147,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6206,8 +6206,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6286,8 +6286,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6345,8 +6345,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6436,8 +6436,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6494,8 +6494,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6543,7 +6543,7 @@
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 120.0,
-          "new": 126.0,
+          "new": 129.60000000000002,
           "full_tooltip_match_count": 0
         }
       ],
@@ -6588,8 +6588,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.525,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.54,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6606,10 +6606,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6630,8 +6630,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6650,10 +6650,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6677,8 +6677,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6731,8 +6731,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.525,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.54,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6747,10 +6747,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6771,8 +6771,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6789,10 +6789,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6816,8 +6816,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6921,8 +6921,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -6958,7 +6958,7 @@
         ]
       },
       "pve_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (118.8% of Attack Power) Flamestrike, (118.8% of Attack Power) Froststrike, (118.8% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 150% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
-      "pvp_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (89.8128% of Attack Power) Flamestrike, (89.8128% of Attack Power) Froststrike, (89.8128% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 100% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
+      "pvp_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (92.3789% of Attack Power) Flamestrike, (92.3789% of Attack Power) Froststrike, (92.3789% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 100% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6976,7 +6976,7 @@
           "start": 160,
           "end": 165,
           "old_token": "118.8",
-          "new_token": "89.8128",
+          "new_token": "92.3789",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1,
@@ -6988,7 +6988,7 @@
           "start": 198,
           "end": 203,
           "old_token": "118.8",
-          "new_token": "89.8128",
+          "new_token": "92.3789",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1,
@@ -7000,7 +7000,7 @@
           "start": 236,
           "end": 241,
           "old_token": "118.8",
-          "new_token": "89.8128",
+          "new_token": "92.3789",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1,
@@ -7019,7 +7019,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118.8",
-          "new": "89.8128"
+          "new": "92.3789"
         },
         {
           "effect_indexes": [
@@ -7030,7 +7030,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118.8",
-          "new": "89.8128"
+          "new": "92.3789"
         },
         {
           "effect_indexes": [
@@ -7041,7 +7041,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118.8",
-          "new": "89.8128"
+          "new": "92.3789"
         },
         {
           "effect_indexes": [
@@ -7090,8 +7090,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.756,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.7776000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7106,10 +7106,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7130,8 +7130,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.756,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.7776000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7146,10 +7146,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7170,8 +7170,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.756,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.7776000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7186,10 +7186,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7215,8 +7215,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7271,8 +7271,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7346,8 +7346,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7393,7 +7393,7 @@
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 97.7592,
-          "new": 93.40891560000001,
+          "new": 96.07774176000002,
           "full_tooltip_match_count": 0
         }
       ],
@@ -7409,8 +7409,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.9555000000000001,
-          "final_pvp_multiplier": 0.9555000000000001,
+          "aura_factor": 0.9828000000000001,
+          "final_pvp_multiplier": 0.9828000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7427,10 +7427,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1214207,
@@ -7439,7 +7439,7 @@
               "value_pct": -9.0,
               "factor": 0.91,
               "label_id": 4620,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7463,8 +7463,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7503,7 +7503,7 @@
         ]
       },
       "pve_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (122.382% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
-      "pvp_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (128.5011% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
+      "pvp_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (132.1726% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7511,7 +7511,7 @@
           "start": 148,
           "end": 155,
           "old_token": "122.382",
-          "new_token": "128.5011",
+          "new_token": "132.1726",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7536,7 +7536,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "122.382",
-          "new": "128.5011"
+          "new": "132.1726"
         },
         {
           "status": "EXPLICIT_DISPLAY_OVERRIDE",
@@ -7556,8 +7556,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7574,10 +7574,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7601,8 +7601,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7640,7 +7640,7 @@
         ]
       },
       "pve_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (161% of Attack Power) Nature damage. The damage bonus effect can stack.",
-      "pvp_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (143.6925% of Attack Power) Nature damage. The damage bonus effect can stack.",
+      "pvp_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (147.798% of Attack Power) Nature damage. The damage bonus effect can stack.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7648,7 +7648,7 @@
           "start": 236,
           "end": 239,
           "old_token": "161",
-          "new_token": "143.6925",
+          "new_token": "147.798",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7663,7 +7663,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "161",
-          "new": "143.6925"
+          "new": "147.798"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7678,8 +7678,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.8925,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.918,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7694,10 +7694,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7723,8 +7723,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7783,8 +7783,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7884,7 +7884,7 @@
               "value_pct": -60.0,
               "factor": 0.4,
               "label_id": 4046,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7933,8 +7933,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -7972,7 +7972,7 @@
         ]
       },
       "pve_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (65.205% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (92.736% of Spell Power) Fire damage.",
-      "pvp_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (68.4652% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (97.3728% of Spell Power) Fire damage.",
+      "pvp_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (70.4214% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (100.1549% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7980,7 +7980,7 @@
           "start": 82,
           "end": 88,
           "old_token": "65.205",
-          "new_token": "68.4652",
+          "new_token": "70.4214",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -7990,7 +7990,7 @@
           "start": 261,
           "end": 267,
           "old_token": "92.736",
-          "new_token": "97.3728",
+          "new_token": "100.1549",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8005,7 +8005,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "65.205",
-          "new": "68.4652"
+          "new": "70.4214"
         },
         {
           "effect_indexes": [
@@ -8014,7 +8014,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "92.736",
-          "new": "97.3728"
+          "new": "100.1549"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8029,8 +8029,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8045,10 +8045,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8067,8 +8067,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8083,10 +8083,10 @@
               "aura_spell_id": 1214207,
               "game_effect_id": 1196250,
               "amount_kind": "direct",
-              "value_pct": 5.0,
-              "factor": 1.05,
+              "value_pct": 8.0,
+              "factor": 1.08,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8110,8 +8110,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8170,8 +8170,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8230,8 +8230,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8290,8 +8290,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8350,8 +8350,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8447,8 +8447,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8507,8 +8507,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8567,8 +8567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8627,8 +8627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8687,8 +8687,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8747,8 +8747,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8833,8 +8833,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -8940,8 +8940,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9001,8 +9001,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9062,8 +9062,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9122,8 +9122,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9182,8 +9182,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9242,8 +9242,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9302,8 +9302,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9362,8 +9362,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9422,8 +9422,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9482,8 +9482,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9594,8 +9594,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9654,8 +9654,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9714,8 +9714,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9774,8 +9774,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9834,8 +9834,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9894,8 +9894,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -9954,8 +9954,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -10014,8 +10014,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Enhancement",
@@ -10350,7 +10350,7 @@
   },
   "source_warnings": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-24T11:51:37.651760+00:00",
+  "generated_at": "2026-09-25T10:06:33.171117+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 22,
@@ -10359,7 +10359,7 @@
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,

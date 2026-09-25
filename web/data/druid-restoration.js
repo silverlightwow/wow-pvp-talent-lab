@@ -4,7 +4,7 @@ window.WOW_PVP_DATA = {
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -109,7 +109,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -149,7 +149,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -173,8 +173,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -270,8 +270,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -309,7 +309,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (311.9054% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (299.0434% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -317,7 +317,7 @@ window.WOW_PVP_DATA = {
           "start": 58,
           "end": 63,
           "old_token": "369.6",
-          "new_token": "311.9054",
+          "new_token": "299.0434",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -332,7 +332,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "369.6",
-          "new": "311.9054"
+          "new": "299.0434"
         }
       ],
       "has_pvp_mechanics": true,
@@ -347,8 +347,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.87,
           "amount_kind": "periodic",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.8439,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.8090999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -358,10 +358,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1266737,
               "amount_kind": "periodic",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -387,8 +387,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -496,7 +496,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             },
             {
               "aura_spell_id": 1256995,
@@ -505,7 +505,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -32.0,
               "factor": 0.6799999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -529,8 +529,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -587,8 +587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -649,8 +649,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -712,8 +712,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -751,7 +751,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
-      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (326.599% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (313.131% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -759,7 +759,7 @@ window.WOW_PVP_DATA = {
           "start": 122,
           "end": 127,
           "old_token": "336.7",
-          "new_token": "326.599",
+          "new_token": "313.131",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -774,7 +774,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "336.7",
-          "new": "326.599"
+          "new": "313.131"
         }
       ],
       "has_pvp_mechanics": true,
@@ -789,8 +789,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -800,10 +800,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1266737,
               "amount_kind": "periodic",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -827,8 +827,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -916,7 +916,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -940,8 +940,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1108,7 +1108,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1134,8 +1134,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1198,8 +1198,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1261,8 +1261,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1357,8 +1357,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1415,8 +1415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1498,8 +1498,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1556,8 +1556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1619,8 +1619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1679,8 +1679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1762,8 +1762,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1858,7 +1858,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1898,7 +1898,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -1924,8 +1924,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -1982,8 +1982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2045,8 +2045,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2109,8 +2109,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2169,8 +2169,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2232,8 +2232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2295,8 +2295,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2356,8 +2356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2417,8 +2417,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2480,8 +2480,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2539,8 +2539,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2599,8 +2599,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2660,8 +2660,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2738,8 +2738,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2800,8 +2800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2859,8 +2859,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -2972,8 +2972,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3032,8 +3032,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3092,8 +3092,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3155,8 +3155,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3213,8 +3213,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3271,8 +3271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3352,8 +3352,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3410,8 +3410,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3468,8 +3468,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3526,8 +3526,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3589,8 +3589,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3647,8 +3647,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3705,8 +3705,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3763,8 +3763,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3823,8 +3823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3883,8 +3883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -3943,8 +3943,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4003,8 +4003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4061,8 +4061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4138,8 +4138,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4196,8 +4196,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4299,8 +4299,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4394,8 +4394,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4433,7 +4433,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.28% of base mana\n40 yd range\nInstant\nHeals the target for (402.6% of Spell Power) over 15 sec. When Lifebloom expires, is dispelled, or is refreshed near expiration the target is instantly healed for (218.868% of Spell Power).\nMay be active on one target at a time.",
-      "pvp_tooltip": "1.28% of base mana\n40 yd range\nInstant\nHeals the target for (390.522% of Spell Power) over 15 sec. When Lifebloom expires, is dispelled, or is refreshed near expiration the target is instantly healed for (244.1473% of Spell Power).\nMay be active on one target at a time.",
+      "pvp_tooltip": "1.28% of base mana\n40 yd range\nInstant\nHeals the target for (374.418% of Spell Power) over 15 sec. When Lifebloom expires, is dispelled, or is refreshed near expiration the target is instantly healed for (234.0793% of Spell Power).\nMay be active on one target at a time.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4441,7 +4441,7 @@ window.WOW_PVP_DATA = {
           "start": 61,
           "end": 66,
           "old_token": "402.6",
-          "new_token": "390.522",
+          "new_token": "374.418",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4451,7 +4451,7 @@ window.WOW_PVP_DATA = {
           "start": 203,
           "end": 210,
           "old_token": "218.868",
-          "new_token": "244.1473",
+          "new_token": "234.0793",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4466,7 +4466,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "402.6",
-          "new": "390.522"
+          "new": "374.418"
         },
         {
           "effect_indexes": [
@@ -4475,7 +4475,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "218.868",
-          "new": "244.1473"
+          "new": "234.0793"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4490,8 +4490,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4501,10 +4501,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1266737,
               "amount_kind": "periodic",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4523,8 +4523,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 1.1155,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 1.0695,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4539,10 +4539,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4568,8 +4568,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4607,7 +4607,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n15 sec cooldown\n1 Charge\n[Verdant Infusion: Utilize / Consume] a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for (1037% of Spell Power). Healing is increased by 40% of the [Verdant Infusion: utilized / consumed] heal over time effect.",
-      "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n15 sec cooldown\n1 Charge\n[Verdant Infusion: Utilize / Consume] a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for (1005.89% of Spell Power). Healing is increased by 40% of the [Verdant Infusion: utilized / consumed] heal over time effect.",
+      "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n15 sec cooldown\n1 Charge\n[Verdant Infusion: Utilize / Consume] a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for (771.528% of Spell Power). Healing is increased by 40% of the [Verdant Infusion: utilized / consumed] heal over time effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4615,7 +4615,7 @@ window.WOW_PVP_DATA = {
           "start": 179,
           "end": 183,
           "old_token": "1037",
-          "new_token": "1005.89",
+          "new_token": "771.528",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4630,7 +4630,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "1037",
-          "new": "1005.89"
+          "new": "771.528"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4645,8 +4645,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4656,10 +4656,19 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
+            },
+            {
+              "aura_spell_id": 1256995,
+              "game_effect_id": 1357187,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4683,8 +4692,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4743,8 +4752,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4803,8 +4812,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4901,8 +4910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -4962,8 +4971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5023,8 +5032,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5084,8 +5093,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5145,8 +5154,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5207,8 +5216,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5269,8 +5278,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5311,7 +5320,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3.4% of base mana\n40 yd range\nInstant\nGrows a healing blossom at the target location, restoring (58.56% of Spell Power) health to three injured allies within 10 yards every 2 sec for 30 sec. Limit 1.",
-      "pvp_tooltip": "3.4% of base mana\n40 yd range\nInstant\nGrows a healing blossom at the target location, restoring (56.8032% of Spell Power) health to three injured allies within 10 yards every 2 sec for 30 sec. Limit 1.",
+      "pvp_tooltip": "3.4% of base mana\n40 yd range\nInstant\nGrows a healing blossom at the target location, restoring (54.4608% of Spell Power) health to three injured allies within 10 yards every 2 sec for 30 sec. Limit 1.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5319,7 +5328,7 @@ window.WOW_PVP_DATA = {
           "start": 97,
           "end": 102,
           "old_token": "58.56",
-          "new_token": "56.8032",
+          "new_token": "54.4608",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5334,7 +5343,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "58.56",
-          "new": "56.8032"
+          "new": "54.4608"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5349,8 +5358,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5365,10 +5374,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5392,8 +5401,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5432,7 +5441,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1019.92% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
-      "pvp_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1286.1191% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
+      "pvp_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1233.0833% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5440,7 +5449,7 @@ window.WOW_PVP_DATA = {
           "start": 100,
           "end": 107,
           "old_token": "1019.92",
-          "new_token": "1286.1191",
+          "new_token": "1233.0833",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5455,7 +5464,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "1019.92",
-          "new": "1286.1191"
+          "new": "1233.0833"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5470,8 +5479,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 1.261,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 1.2089999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5486,10 +5495,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5515,8 +5524,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5578,8 +5587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5640,8 +5649,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5696,8 +5705,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5714,10 +5723,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5741,8 +5750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5803,8 +5812,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5854,7 +5863,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 1019.92,
-          "new": 1286.1191199999998,
+          "new": 1233.0832799999998,
           "full_tooltip_match_count": 0
         }
       ],
@@ -5870,8 +5879,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 1.261,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 1.2089999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5888,10 +5897,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5917,8 +5926,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -5979,8 +5988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6040,8 +6049,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6101,8 +6110,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6162,8 +6171,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6223,8 +6232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6283,8 +6292,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6365,8 +6374,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6425,8 +6434,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6488,8 +6497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6527,7 +6536,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (30.5% of Spell Power).",
-      "pvp_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (29.585% of Spell Power).",
+      "pvp_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (28.365% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6535,7 +6544,7 @@ window.WOW_PVP_DATA = {
           "start": 82,
           "end": 86,
           "old_token": "30.5",
-          "new_token": "29.585",
+          "new_token": "28.365",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -6550,7 +6559,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "30.5",
-          "new": "29.585"
+          "new": "28.365"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6565,8 +6574,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6581,10 +6590,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6599,14 +6608,14 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "When Rejuvenation heals a target below 30% health, they are instantly healed for (30.5% of Spell Power).",
-          "pvp_tooltip": "When Rejuvenation heals a target below 30% health, they are instantly healed for (29.585% of Spell Power).",
+          "pvp_tooltip": "When Rejuvenation heals a target below 30% health, they are instantly healed for (28.365% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 82,
               "end": 86,
               "old_token": "30.5",
-              "new_token": "29.585",
+              "new_token": "28.365",
               "kind": "spell_power_coefficient",
               "effect_indexes": [
                 1
@@ -6619,14 +6628,14 @@ window.WOW_PVP_DATA = {
         {
           "rank": 2,
           "pve_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (30.5% of Spell Power).",
-          "pvp_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (29.585% of Spell Power).",
+          "pvp_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (28.365% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 82,
               "end": 86,
               "old_token": "30.5",
-              "new_token": "29.585",
+              "new_token": "28.365",
               "kind": "spell_power_coefficient",
               "effect_indexes": [
                 1
@@ -6649,8 +6658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6730,8 +6739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6791,8 +6800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6852,8 +6861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6916,8 +6925,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -6980,8 +6989,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7044,8 +7053,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7169,8 +7178,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7233,8 +7242,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7294,8 +7303,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7355,8 +7364,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7415,8 +7424,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7456,7 +7465,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Wild Growth momentarily shifts your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for (216% of Spell Power).",
-      "pvp_tooltip": "Wild Growth momentarily shifts your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for (209.52% of Spell Power).",
+      "pvp_tooltip": "Wild Growth momentarily shifts your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for (200.88% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7464,7 +7473,7 @@ window.WOW_PVP_DATA = {
           "start": 141,
           "end": 144,
           "old_token": "216",
-          "new_token": "209.52",
+          "new_token": "200.88",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -7479,7 +7488,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "216",
-          "new": "209.52"
+          "new": "200.88"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7494,8 +7503,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7510,10 +7519,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7537,8 +7546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7597,8 +7606,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7659,8 +7668,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7719,8 +7728,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7800,8 +7809,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7860,8 +7869,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7921,8 +7930,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -7981,8 +7990,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8041,8 +8050,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8148,8 +8157,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8187,7 +8196,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When Lifebloom blooms, up to 3 targets within your Efflorescence are healed for (133% of Spell Power).",
-      "pvp_tooltip": "When Lifebloom blooms, up to 3 targets within your Efflorescence are healed for (129.01% of Spell Power).",
+      "pvp_tooltip": "When Lifebloom blooms, up to 3 targets within your Efflorescence are healed for (123.69% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8195,7 +8204,7 @@ window.WOW_PVP_DATA = {
           "start": 81,
           "end": 84,
           "old_token": "133",
-          "new_token": "129.01",
+          "new_token": "123.69",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8210,7 +8219,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "133",
-          "new": "129.01"
+          "new": "123.69"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8225,8 +8234,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8241,10 +8250,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8268,8 +8277,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8324,8 +8333,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8468,8 +8477,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8524,8 +8533,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8581,8 +8590,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "periodic",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 1.2125,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 1.1624999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8597,10 +8606,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1266737,
               "amount_kind": "periodic",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8626,8 +8635,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8686,8 +8695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8746,8 +8755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8806,8 +8815,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8866,8 +8875,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8926,8 +8935,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -8986,8 +8995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9046,8 +9055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9106,8 +9115,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9166,8 +9175,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9205,7 +9214,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (100% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
-      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (87% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (40.8273% of Spell Power).",
+      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (87% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (39.1437% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9213,7 +9222,7 @@ window.WOW_PVP_DATA = {
           "start": 342,
           "end": 347,
           "old_token": "42.09",
-          "new_token": "40.8273",
+          "new_token": "39.1437",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -9247,7 +9256,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "42.09",
-          "new": "40.8273"
+          "new": "39.1437"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9262,8 +9271,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9278,10 +9287,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9314,6 +9323,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "drustvar",
             "simc"
           ],
           "source_notes": [],
@@ -9334,8 +9344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9394,8 +9404,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9454,8 +9464,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9519,6 +9529,7 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
+            "drustvar",
             "simc"
           ],
           "source_notes": [],
@@ -9563,8 +9574,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9623,8 +9634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9683,8 +9694,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9743,8 +9754,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9804,8 +9815,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9844,7 +9855,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When Grove Guardians are summoned, they grow Dream Petals on your target, healing up to 3 nearby allies for (146.4% of Spell Power).",
-      "pvp_tooltip": "When Grove Guardians are summoned, they grow Dream Petals on your target, healing up to 3 nearby allies for (142.008% of Spell Power).",
+      "pvp_tooltip": "When Grove Guardians are summoned, they grow Dream Petals on your target, healing up to 3 nearby allies for (136.152% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9852,7 +9863,7 @@ window.WOW_PVP_DATA = {
           "start": 109,
           "end": 114,
           "old_token": "146.4",
-          "new_token": "142.008",
+          "new_token": "136.152",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -9867,7 +9878,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "146.4",
-          "new": "142.008"
+          "new": "136.152"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9882,8 +9893,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9898,10 +9909,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -9925,8 +9936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -9985,8 +9996,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10045,8 +10056,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10105,8 +10116,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10144,7 +10155,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Approximately 1 procs per minute\nYour periodic heals have a chance to empower your next Swiftmend to summon a Dryad to assist you, casting Tranquility at 10% effectiveness and Regrowth to heal (658.507% of Spell Power) damage onto your lowest health ally.",
-      "pvp_tooltip": "Approximately 1 procs per minute\nYour periodic heals have a chance to empower your next Swiftmend to summon a Dryad to assist you, casting Tranquility at 10% effectiveness and Regrowth to heal (638.7518% of Spell Power) damage onto your lowest health ally.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nYour periodic heals have a chance to empower your next Swiftmend to summon a Dryad to assist you, casting Tranquility at 10% effectiveness and Regrowth to heal (612.4115% of Spell Power) damage onto your lowest health ally.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10152,7 +10163,7 @@ window.WOW_PVP_DATA = {
           "start": 194,
           "end": 201,
           "old_token": "658.507",
-          "new_token": "638.7518",
+          "new_token": "612.4115",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10167,7 +10178,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "658.507",
-          "new": "638.7518"
+          "new": "612.4115"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10182,8 +10193,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10198,10 +10209,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -10225,8 +10236,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10285,8 +10296,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10345,8 +10356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10405,8 +10416,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10465,8 +10476,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10572,8 +10583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10623,7 +10634,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 658.507,
-          "new": 638.7517899999999,
+          "new": 612.4115099999999,
           "full_tooltip_match_count": 0
         }
       ],
@@ -10639,8 +10650,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10659,10 +10670,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1264729,
               "amount_kind": "direct",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -10686,8 +10697,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10746,8 +10757,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10806,8 +10817,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10866,8 +10877,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -10926,8 +10937,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -11038,8 +11049,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -11094,8 +11105,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.97,
-          "final_pvp_multiplier": 0.97,
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11110,10 +11121,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256995,
               "game_effect_id": 1266737,
               "amount_kind": "periodic",
-              "value_pct": -3.0,
-              "factor": 0.97,
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -11137,8 +11148,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Restoration",
@@ -11541,7 +11552,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-24T11:41:47.619156+00:00",
+  "generated_at": "2026-09-25T09:56:28.130947+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 22,
@@ -11550,7 +11561,7 @@ window.WOW_PVP_DATA = {
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,

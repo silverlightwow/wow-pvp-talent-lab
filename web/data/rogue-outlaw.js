@@ -4,7 +4,7 @@ window.WOW_PVP_DATA = {
   "tree_build": "12.1.0.69933",
   "simc_build": "12.1.0.69933",
   "drustvar_builds": [
-    "12.1.0.69587"
+    "12.1.0.69933"
   ],
   "talents": [
     {
@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -56,7 +56,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (117.876% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (124.146% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -64,7 +64,7 @@ window.WOW_PVP_DATA = {
           "start": 126,
           "end": 131,
           "old_token": "125.4",
-          "new_token": "117.876",
+          "new_token": "124.146",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -109,7 +109,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "125.4",
-          "new": "117.876"
+          "new": "124.146"
         }
       ],
       "has_pvp_mechanics": true,
@@ -124,8 +124,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -135,10 +135,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -247,8 +247,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -265,10 +265,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -326,8 +326,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -386,8 +386,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -445,8 +445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -505,8 +505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -567,8 +567,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -627,8 +627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -734,8 +734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -796,8 +796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -856,8 +856,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -914,8 +914,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -932,10 +932,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -959,8 +959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1021,8 +1021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1083,8 +1083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1145,8 +1145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1207,8 +1207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1268,8 +1268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1330,8 +1330,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1390,8 +1390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1452,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1513,8 +1513,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1620,8 +1620,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1682,8 +1682,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1742,8 +1742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1806,8 +1806,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1866,8 +1866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1928,8 +1928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -1988,8 +1988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2121,8 +2121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2182,8 +2182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2245,8 +2245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2305,8 +2305,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2368,8 +2368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2429,8 +2429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2491,8 +2491,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2555,8 +2555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2617,8 +2617,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2679,8 +2679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2739,8 +2739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2819,8 +2819,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2879,8 +2879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -2959,8 +2959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3061,8 +3061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3140,8 +3140,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3219,8 +3219,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3298,8 +3298,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3356,8 +3356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3414,8 +3414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3472,8 +3472,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3509,7 +3509,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "pvp_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (110.92% of Attack Power) Physical damage.",
+      "pvp_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (116.82% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3517,7 +3517,7 @@ window.WOW_PVP_DATA = {
           "start": 129,
           "end": 132,
           "old_token": "118",
-          "new_token": "110.92",
+          "new_token": "116.82",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3532,7 +3532,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118",
-          "new": "110.92"
+          "new": "116.82"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3547,8 +3547,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3563,10 +3563,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3590,8 +3590,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3648,8 +3648,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3706,8 +3706,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3764,8 +3764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3820,8 +3820,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 1.128,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 1.188,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3838,10 +3838,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -3899,8 +3899,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -3959,8 +3959,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4066,8 +4066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4128,8 +4128,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4188,8 +4188,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4248,8 +4248,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4310,8 +4310,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4372,8 +4372,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4432,8 +4432,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4492,8 +4492,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4552,8 +4552,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4612,8 +4612,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4675,8 +4675,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4737,8 +4737,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4800,8 +4800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4862,8 +4862,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -4918,8 +4918,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4934,10 +4934,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -4961,8 +4961,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5022,8 +5022,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5083,8 +5083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5180,8 +5180,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5242,8 +5242,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5304,8 +5304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5360,8 +5360,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 1.128,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 1.188,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5380,10 +5380,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -5443,8 +5443,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5525,8 +5525,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5587,8 +5587,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5669,8 +5669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5729,8 +5729,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5791,8 +5791,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5853,8 +5853,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -5913,8 +5913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6045,8 +6045,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6107,8 +6107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6169,8 +6169,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6227,8 +6227,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.95,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.8929999999999999,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.9405,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6243,10 +6243,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6291,8 +6291,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6355,8 +6355,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6436,8 +6436,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6494,8 +6494,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6532,7 +6532,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
-      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((131.6% of Attack Power) + (131.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 8] over 3.50 sec]",
+      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((138.6% of Attack Power) + (138.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 8] over 3.50 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6540,7 +6540,7 @@ window.WOW_PVP_DATA = {
           "start": 354,
           "end": 357,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6550,7 +6550,7 @@ window.WOW_PVP_DATA = {
           "start": 379,
           "end": 382,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6560,7 +6560,7 @@ window.WOW_PVP_DATA = {
           "start": 434,
           "end": 437,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6570,7 +6570,7 @@ window.WOW_PVP_DATA = {
           "start": 459,
           "end": 462,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6580,7 +6580,7 @@ window.WOW_PVP_DATA = {
           "start": 514,
           "end": 517,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6590,7 +6590,7 @@ window.WOW_PVP_DATA = {
           "start": 539,
           "end": 542,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6600,7 +6600,7 @@ window.WOW_PVP_DATA = {
           "start": 594,
           "end": 597,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6610,7 +6610,7 @@ window.WOW_PVP_DATA = {
           "start": 619,
           "end": 622,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6620,7 +6620,7 @@ window.WOW_PVP_DATA = {
           "start": 674,
           "end": 677,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6630,7 +6630,7 @@ window.WOW_PVP_DATA = {
           "start": 699,
           "end": 702,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6640,7 +6640,7 @@ window.WOW_PVP_DATA = {
           "start": 756,
           "end": 759,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6650,7 +6650,7 @@ window.WOW_PVP_DATA = {
           "start": 781,
           "end": 784,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6660,7 +6660,7 @@ window.WOW_PVP_DATA = {
           "start": 839,
           "end": 842,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6670,7 +6670,7 @@ window.WOW_PVP_DATA = {
           "start": 864,
           "end": 867,
           "old_token": "225",
-          "new_token": "131.6",
+          "new_token": "138.6",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6695,7 +6695,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6704,7 +6704,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6713,7 +6713,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6722,7 +6722,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6731,7 +6731,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6740,7 +6740,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6749,7 +6749,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6758,7 +6758,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6767,7 +6767,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6776,7 +6776,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6785,7 +6785,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6794,7 +6794,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6803,7 +6803,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         },
         {
           "effect_indexes": [
@@ -6812,7 +6812,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "131.6"
+          "new": "138.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6852,8 +6852,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.622222,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.58488868,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.61599978,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6868,10 +6868,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6892,8 +6892,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.622222,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.58488868,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.61599978,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6908,10 +6908,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -6937,8 +6937,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -6995,8 +6995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7054,8 +7054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7112,8 +7112,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7168,8 +7168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7203,7 +7203,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-      "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
+      "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7211,7 +7211,7 @@ window.WOW_PVP_DATA = {
           "start": 124,
           "end": 127,
           "old_token": "160",
-          "new_token": "150.4",
+          "new_token": "158.4",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             3
@@ -7226,7 +7226,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "160",
-          "new": "150.4"
+          "new": "158.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7241,8 +7241,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -7252,10 +7252,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7270,14 +7270,14 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 124,
               "end": 127,
               "old_token": "160",
-              "new_token": "150.4",
+              "new_token": "158.4",
               "kind": "attack_power_coefficient",
               "effect_indexes": [
                 3
@@ -7290,14 +7290,14 @@ window.WOW_PVP_DATA = {
         {
           "rank": 2,
           "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 124,
               "end": 127,
               "old_token": "160",
-              "new_token": "150.4",
+              "new_token": "158.4",
               "kind": "attack_power_coefficient",
               "effect_indexes": [
                 3
@@ -7320,8 +7320,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7376,8 +7376,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7416,7 +7416,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
-      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (105.8064% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
+      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (111.4344% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7424,7 +7424,7 @@ window.WOW_PVP_DATA = {
           "start": 186,
           "end": 189,
           "old_token": "168",
-          "new_token": "105.8064",
+          "new_token": "111.4344",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7439,7 +7439,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "168",
-          "new": "105.8064"
+          "new": "111.4344"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7454,8 +7454,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.6298,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.6633,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7470,10 +7470,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -7499,8 +7499,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7559,8 +7559,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7619,8 +7619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7679,8 +7679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7739,8 +7739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7874,8 +7874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7934,8 +7934,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -7994,8 +7994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8054,8 +8054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8114,8 +8114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8174,8 +8174,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8234,8 +8234,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8294,8 +8294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8354,8 +8354,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8414,8 +8414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8474,8 +8474,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8535,8 +8535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8575,7 +8575,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
-      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (263.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
+      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (277.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8583,7 +8583,7 @@ window.WOW_PVP_DATA = {
           "start": 73,
           "end": 76,
           "old_token": "280",
-          "new_token": "263.2",
+          "new_token": "277.2",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -8598,7 +8598,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "280",
-          "new": "263.2"
+          "new": "277.2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8613,8 +8613,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.94,
-          "final_pvp_multiplier": 0.94,
+          "aura_factor": 0.99,
+          "final_pvp_multiplier": 0.99,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8629,10 +8629,10 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -6.0,
-              "factor": 0.94,
+              "value_pct": -1.0,
+              "factor": 0.99,
               "label_id": null,
-              "build": "12.1.0.69587"
+              "build": "12.1.0.69933"
             }
           ],
           "sources": [
@@ -8656,8 +8656,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8716,8 +8716,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8776,8 +8776,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8836,8 +8836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8896,8 +8896,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -8956,8 +8956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9016,8 +9016,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9123,8 +9123,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9183,8 +9183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9243,8 +9243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9303,8 +9303,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9363,8 +9363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9423,8 +9423,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9483,8 +9483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9543,8 +9543,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9603,8 +9603,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9663,8 +9663,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-23T18:23:18.048Z",
-        "content_hash": "53d169da3e3d36d67f81fa87ba9dbac9",
+        "generated_at": "2026-09-24T23:00:32.508Z",
+        "content_hash": "031bc0017082a9628929355494566340",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Outlaw",
@@ -9991,7 +9991,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-24T11:50:06.129098+00:00",
+  "generated_at": "2026-09-25T10:05:37.573038+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 12,
@@ -10000,7 +10000,7 @@ window.WOW_PVP_DATA = {
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
     "drustvar_builds": [
-      "12.1.0.69587"
+      "12.1.0.69933"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
