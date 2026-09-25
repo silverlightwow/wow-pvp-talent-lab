@@ -1065,3 +1065,56 @@ def test_same_build_drustvar_conflict_is_kept_only_when_two_current_sources_agre
         simc_dump=dump,
         wowhead_by_spell={1266151: [conflict]},
     ) is None
+
+
+
+def test_one_hop_embedded_spelldesc_coefficients_are_renderable():
+    from pvpcalc.pipeline import SpecAuditResult
+
+    direct_child = {
+        "spell_id": 441591,
+        "talent_spell_id": 441583,
+        "source_spell_id": 441591,
+        "effect_index": 1,
+        "effect_origin": "DEPENDENCY",
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [441583, 441591],
+        "dependency_relations": ["spelldesc_ref"],
+        "dependency_effect_referenced": False,
+        "effect_text": "School Damage (Physical) (AP mod: 2.0416 )",
+        "base_value": None,
+        "final_pvp_value": None,
+        "final_pvp_multiplier": 1.056,
+        "is_final_pvp_modified": True,
+        "sources": ["wowhead", "drustvar", "simc"],
+    }
+    nested_internal = {
+        **direct_child,
+        "source_spell_id": 106951,
+        "effect_index": 3,
+        "dependency_path": [441583, 441591, 106951],
+        "dependency_relations": ["spelldesc_ref", "tooltip_value_ref"],
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "base_value": 15,
+        "final_pvp_value": 5,
+    }
+
+    audit = SpecAuditResult(
+        class_name="Druid",
+        spec_name="Feral",
+        metadata={},
+        drustvar_builds=[],
+        talents=[],
+        spell_ids=[],
+        wowhead_by_spell={},
+        drustvar_by_spell={},
+        wowhead_candidate_ids=set(),
+        drustvar_candidate_ids=set(),
+        candidate_ids=set(),
+        effect_rows=[],
+        dependency_effect_rows=[direct_child, nested_internal],
+    )
+
+    rows = audit.render_effect_rows
+    assert direct_child in rows
+    assert nested_internal not in rows

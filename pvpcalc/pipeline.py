@@ -277,22 +277,71 @@ class SpecAuditResult:
             )
         ]
 
-        result.extend(
-            row
-            for row
-            in self.dependency_effect_rows
+        def dependency_row_is_renderable(
+            row: dict,
+        ) -> bool:
+            if not has_player_facing_change(
+                row
+            ):
+                return False
+
+            kind = row.get(
+                "dependency_kind"
+            )
+
             if (
-                has_player_facing_change(
-                    row
-                )
-                and row.get(
-                    "dependency_kind"
-                )
-                == "REFERENCED"
+                kind == "REFERENCED"
                 and row.get(
                     "dependency_effect_referenced",
                     False,
                 )
+            ):
+                return True
+
+            # A one-hop $@spelldesc child is literally expanded into the
+            # parent player-facing tooltip. Its AP/SP coefficient therefore
+            # belongs to the visible text even though the dependency is
+            # classified EMBEDDED rather than REFERENCED. Keep this narrow:
+            # nested children and non-coefficient metadata remain audit-only.
+            if kind != "EMBEDDED":
+                return False
+
+            path = list(
+                row.get(
+                    "dependency_path"
+                )
+                or []
+            )
+            relations = list(
+                row.get(
+                    "dependency_relations"
+                )
+                or []
+            )
+            effect_text = str(
+                row.get(
+                    "effect_text",
+                    "",
+                )
+                or ""
+            ).casefold()
+
+            return (
+                len(path) == 2
+                and relations
+                == ["spelldesc_ref"]
+                and (
+                    "ap mod:" in effect_text
+                    or "sp mod:" in effect_text
+                )
+            )
+
+        result.extend(
+            row
+            for row
+            in self.dependency_effect_rows
+            if dependency_row_is_renderable(
+                row
             )
         )
 
