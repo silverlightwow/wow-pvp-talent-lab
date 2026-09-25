@@ -35,6 +35,19 @@ HTML = """
   <li>Some PvE Talent damage increased by 20%. Does not apply to PvP combat.</li>
   <li>Ravage damage increased by 20% in PvP combat.</li>
   <li>Ebon Might grants 12% primary stat in PvP combat (was 10%).</li>
+  <li>Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).</li>
+  <li>Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).</li>
+</ul>
+<ul>
+  <li>Player versus Player
+    <ul>
+      <li>Druid
+        <ul>
+          <li>Call of Ohn'ahra increases the cooldown of Nature's Swiftness by 60 seconds (was 30 seconds).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 </body></html>
 """
@@ -75,6 +88,11 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert "Ravage" not in by_name
     assert by_name["Ebon Might"].current_percent == 12
     assert by_name["Ebon Might"].previous_percent == 10
+    assert by_name["Pyroclasm"].current_percent == 160
+    assert by_name["Practiced Strikes"].target_hint == "Slam and Mortal Strike"
+    assert by_name["Call of Ohn'ahra"].unit == "seconds"
+    assert by_name["Call of Ohn'ahra"].current_percent == 60
+    assert by_name["Call of Ohn'ahra"].previous_percent == 30
 
 
 def test_apply_official_hotfix_overlay_and_highlight():
@@ -176,3 +194,91 @@ def test_unresolvable_matching_hotfix_fails_closed():
 
     assert len(report["unresolved"]) == 1
     assert report["unresolved"][0]["reason"] == "OLD_VALUE_NOT_UNIQUE"
+
+
+
+def test_official_value_overrides_stale_third_party_value():
+    hotfixes = {
+        item.talent_name: item
+        for item in blizzard_hotfixes.parse_official_pvp_hotfixes(HTML)
+    }
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Pyroclasm",
+                spell_id=269650,
+                pve_tooltip=(
+                    "Consuming Hot Streak has a 15% chance to make your next "
+                    "non-instant Pyroblast or Flamestrike cast within 20 sec "
+                    "deal 230% additional damage."
+                ),
+                pvp_tooltip=(
+                    "Consuming Hot Streak has a 15% chance to make your next "
+                    "non-instant Pyroblast or Flamestrike cast within 20 sec "
+                    "deal 230% additional damage."
+                ),
+            ),
+            FakeTalent(
+                talent_name="Practiced Strikes",
+                spell_id=429647,
+                pve_tooltip=(
+                    "Mortal Strike and Slam damage increased by 25%.\n"
+                    "Cleave and Whirlwind damage increased by 15%."
+                ),
+                pvp_tooltip=(
+                    "Mortal Strike and Slam damage increased by 30%.\n"
+                    "Cleave and Whirlwind damage increased by 15%."
+                ),
+                tooltip_changed=True,
+            ),
+        ]
+    )
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfixes["Pyroclasm"], hotfixes["Practiced Strikes"]],
+    )
+
+    assert report["unresolved"] == []
+    pyro = catalog.talents[0]
+    assert "160% additional damage" in pyro.pvp_tooltip
+    assert pyro.changes[0]["old_token"] == "230%"
+    assert pyro.changes[0]["new_token"] == "160%"
+
+    practiced = catalog.talents[1]
+    assert "Mortal Strike and Slam damage increased by 40%." in practiced.pvp_tooltip
+    assert "Cleave and Whirlwind damage increased by 15%." in practiced.pvp_tooltip
+    assert practiced.changes[-1]["old_token"] == "25%"
+    assert practiced.changes[-1]["new_token"] == "40%"
+
+
+def test_seconds_hotfix_inside_pvp_section():
+    hotfixes = {
+        item.talent_name: item
+        for item in blizzard_hotfixes.parse_official_pvp_hotfixes(HTML)
+    }
+    catalog = FakeCatalog(
+        talents=[
+            FakeTalent(
+                talent_name="Call of Ohn'ahra",
+                spell_id=999001,
+                pve_tooltip=(
+                    "Nature's Swiftness cooldown is increased by 30 sec."
+                ),
+                pvp_tooltip=(
+                    "Nature's Swiftness cooldown is increased by 30 sec."
+                ),
+            ),
+        ]
+    )
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfixes["Call of Ohn'ahra"]],
+    )
+
+    assert report["unresolved"] == []
+    talent = catalog.talents[0]
+    assert "60 sec" in talent.pvp_tooltip
+    assert talent.changes[0]["old_token"] == "30 sec"
+    assert talent.changes[0]["new_token"] == "60 sec"

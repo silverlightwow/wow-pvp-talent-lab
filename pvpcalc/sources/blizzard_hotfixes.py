@@ -32,6 +32,18 @@ _OLD_PERCENT_RE = re.compile(
     re.I,
 )
 
+_SECONDS_RE = re.compile(
+    r"(?<![\d.])(?P<value>\d+(?:\.\d+)?)\s*"
+    r"(?P<suffix>seconds?|sec)\b",
+    re.I,
+)
+
+_OLD_SECONDS_RE = re.compile(
+    r"\(was\s+(?P<value>\d+(?:\.\d+)?)\s*"
+    r"(?:seconds?|sec)\)",
+    re.I,
+)
+
 _NAME_SPLIT_RE = re.compile(
     r"\s+(?:now\s+)?(?:increases|reduces|grants|causes|"
     r"deals|heals|damage|healing)\b",
@@ -40,7 +52,8 @@ _NAME_SPLIT_RE = re.compile(
 
 _TARGET_OF_RE = re.compile(
     r"\bof\s+(?P<target>.+?)\s+by\s+"
-    r"\d+(?:\.\d+)?\s*%",
+    r"\d+(?:\.\d+)?\s*"
+    r"(?:%|seconds?|sec)\b?",
     re.I,
 )
 
@@ -53,6 +66,7 @@ class OfficialPvpHotfix:
     target_hint: str | None
     text: str
     hotfix_date: date | None
+    unit: str = "percent"
     source_url: str = OFFICIAL_HOTFIX_URL
 
 
@@ -82,16 +96,82 @@ def _parse_date(value: str) -> date | None:
         return None
 
 
+def _direct_list_label(node) -> str:
+    """Text owned by one list item, excluding nested sub-lists."""
+    parts = []
+
+    for child in getattr(
+        node,
+        "children",
+        (),
+    ):
+        if getattr(
+            child,
+            "name",
+            None,
+        ) in {"ul", "ol"}:
+            continue
+
+        if hasattr(
+            child,
+            "get_text",
+        ):
+            value = child.get_text(
+                " ",
+                strip=True,
+            )
+        else:
+            value = str(child)
+
+        value = _clean_text(value)
+        if value:
+            parts.append(value)
+
+    return _clean_text(
+        " ".join(parts)
+    )
+
+
+def _inside_pvp_section(node) -> bool:
+    """Recognize a leaf bullet nested below a Player versus Player label."""
+    for parent in getattr(
+        node,
+        "parents",
+        (),
+    ):
+        if getattr(
+            parent,
+            "name",
+            None,
+        ) != "li":
+            continue
+
+        label = _normalize_name(
+            _direct_list_label(
+                parent
+            )
+        )
+
+        if label == "player versus player":
+            return True
+
+    return False
+
+
 def _parse_candidate(
     text: str,
     *,
     hotfix_date: date | None,
+    in_pvp_section: bool = False,
 ) -> OfficialPvpHotfix | None:
     text = _clean_text(text)
 
+    if "does not apply to pvp combat" in text.casefold():
+        return None
+
     if (
         "pvp combat" not in text.casefold()
-        or "does not apply to pvp combat" in text.casefold()
+        and not in_pvp_section
     ):
         return None
 
@@ -128,15 +208,43 @@ def _parse_candidate(
         flags=re.I,
     )[0]
 
-    values = [
+    percent_values = [
         float(match.group("value"))
-        for match in _PERCENT_RE.finditer(before_was)
+        for match in _PERCENT_RE.finditer(
+            before_was
+        )
+    ]
+    second_values = [
+        float(match.group("value"))
+        for match in _SECONDS_RE.finditer(
+            before_was
+        )
     ]
 
-    if not values:
+    # One directive must describe one unit family. Mixed-unit bullets stay
+    # with the exact-build pipeline rather than relying on positional guesses.
+    if percent_values and second_values:
         return None
 
-    previous_match = _OLD_PERCENT_RE.search(text)
+    if percent_values:
+        unit = "percent"
+        values = percent_values
+        previous_match = (
+            _OLD_PERCENT_RE.search(
+                text
+            )
+        )
+    elif second_values:
+        unit = "seconds"
+        values = second_values
+        previous_match = (
+            _OLD_SECONDS_RE.search(
+                text
+            )
+        )
+    else:
+        return None
+
     previous = (
         float(previous_match.group("value"))
         if previous_match
@@ -157,7 +265,10 @@ def _parse_candidate(
         re.I,
     )
 
-    if relative_tuning is not None:
+    if (
+        unit == "percent"
+        and relative_tuning is not None
+    ):
         return None
 
     if (
@@ -180,6 +291,7 @@ def _parse_candidate(
         target_hint=target_hint,
         text=text,
         hotfix_date=hotfix_date,
+        unit=unit,
     )
 
 
@@ -216,6 +328,11 @@ def parse_official_pvp_hotfixes(
         item = _parse_candidate(
             text,
             hotfix_date=current_date,
+            in_pvp_section=(
+                _inside_pvp_section(
+                    node
+                )
+            ),
         )
         if item is not None:
             parsed.append(item)
@@ -289,6 +406,8 @@ def _hotfix_dict(
             if item.hotfix_date
             else None
         ),
+        "unit":
+            item.unit,
         "source_url":
             item.source_url,
     }
@@ -389,6 +508,10 @@ def hotfixes_from_snapshot(
                     if raw_date
                     else None
                 ),
+                unit=str(
+                    raw.get("unit")
+                    or "percent"
+                ),
                 source_url=str(
                     raw.get(
                         "source_url"
@@ -455,10 +578,114 @@ def read_hotfix_snapshot(
     return hotfixes, canonical
 
 
-def _format_percent(value: float) -> str:
-    if abs(value - round(value)) <= 1e-9:
-        return f"{int(round(value))}%"
-    return f"{value:g}%"
+def _format_number(
+    value: float,
+) -> str:
+    if abs(
+        value - round(value)
+    ) <= 1e-9:
+        return str(
+            int(
+                round(value)
+            )
+        )
+    return f"{value:g}"
+
+
+def _value_pattern(
+    unit: str,
+):
+    return (
+        _SECONDS_RE
+        if unit == "seconds"
+        else _PERCENT_RE
+    )
+
+
+def _match_value(
+    match,
+) -> float:
+    return float(
+        match.group("value")
+    )
+
+
+def _replacement_token(
+    value: float,
+    *,
+    unit: str,
+    template: str | None = None,
+) -> str:
+    number = _format_number(
+        value
+    )
+
+    if unit == "seconds":
+        template_cf = str(
+            template
+            or ""
+        ).casefold()
+
+        if "second" in template_cf:
+            suffix = (
+                "second"
+                if abs(value - 1.0)
+                <= 1e-9
+                else "seconds"
+            )
+        else:
+            suffix = "sec"
+
+        return f"{number} {suffix}"
+
+    return f"{number}%"
+
+
+def _target_terms(
+    target_hint: str | None,
+) -> list[str]:
+    if not target_hint:
+        return []
+
+    # Blizzard often writes "Slam and Mortal Strike" while the client
+    # tooltip says "Mortal Strike and Slam". Match all named pieces without
+    # making word order part of correctness.
+    parts = re.split(
+        r"\s*(?:,|\band\b|\bor\b)\s*",
+        _normalize_name(
+            target_hint
+        ),
+        flags=re.I,
+    )
+
+    return [
+        part.strip(" .:")
+        for part in parts
+        if len(
+            part.strip(" .:")
+        ) >= 2
+    ]
+
+
+def _line_contains_target(
+    line: str,
+    target_hint: str | None,
+) -> bool:
+    terms = _target_terms(
+        target_hint
+    )
+
+    if not terms:
+        return True
+
+    line_cf = _normalize_name(
+        line
+    )
+
+    return all(
+        term in line_cf
+        for term in terms
+    )
 
 
 def _target_region(
@@ -468,23 +695,158 @@ def _target_region(
     if not target_hint:
         return (0, len(text))
 
-    target_cf = _normalize_name(target_hint)
-
     offset = 0
     matches = []
 
-    for line in str(text or "").splitlines(True):
-        line_end = offset + len(line)
-        if target_cf in _normalize_name(line):
+    for line in str(
+        text
+        or ""
+    ).splitlines(True):
+        line_end = (
+            offset
+            + len(line)
+        )
+
+        if _line_contains_target(
+            line,
+            target_hint,
+        ):
             matches.append(
                 (offset, line_end)
             )
+
         offset = line_end
 
     if len(matches) == 1:
         return matches[0]
 
     return None
+
+
+def _target_tail_offset(
+    segment: str,
+    target_hint: str | None,
+) -> int | None:
+    terms = _target_terms(
+        target_hint
+    )
+
+    if not terms:
+        return None
+
+    segment_cf = _normalize_name(
+        segment
+    )
+    ends = []
+
+    for term in terms:
+        position = segment_cf.find(
+            term
+        )
+        if position < 0:
+            return None
+        ends.append(
+            position
+            + len(term)
+        )
+
+    # _normalize_name only changes punctuation/case/whitespace. For the
+    # short one-line target regions used here, a normalized offset is a safe
+    # lower bound for choosing values that occur after every named target.
+    return max(ends)
+
+
+def _select_value_match(
+    segment: str,
+    *,
+    hotfix: OfficialPvpHotfix,
+    prefer_previous: bool,
+):
+    pattern = _value_pattern(
+        hotfix.unit
+    )
+    matches = list(
+        pattern.finditer(
+            segment
+        )
+    )
+
+    if not matches:
+        return None
+
+    if (
+        prefer_previous
+        and hotfix.previous_percent
+        is not None
+    ):
+        exact = [
+            match
+            for match in matches
+            if abs(
+                _match_value(match)
+                - hotfix.previous_percent
+            ) <= 1e-9
+        ]
+
+        if len(exact) == 1:
+            return exact[0]
+
+    tail = _target_tail_offset(
+        segment,
+        hotfix.target_hint,
+    )
+
+    if tail is not None:
+        after_target = [
+            match
+            for match in matches
+            if match.start() >= tail
+        ]
+
+        if len(after_target) == 1:
+            return after_target[0]
+
+    if len(matches) == 1:
+        return matches[0]
+
+    return None
+
+
+def _region_has_current_value(
+    segment: str,
+    hotfix: OfficialPvpHotfix,
+) -> bool:
+    pattern = _value_pattern(
+        hotfix.unit
+    )
+    matches = list(
+        pattern.finditer(
+            segment
+        )
+    )
+
+    candidates = matches
+    tail = _target_tail_offset(
+        segment,
+        hotfix.target_hint,
+    )
+
+    if tail is not None:
+        after_target = [
+            match
+            for match in matches
+            if match.start() >= tail
+        ]
+        if after_target:
+            candidates = after_target
+
+    return any(
+        abs(
+            _match_value(match)
+            - hotfix.current_percent
+        ) <= 1e-9
+        for match in candidates
+    )
 
 
 def _replace_one_percent(
@@ -506,29 +868,13 @@ def _replace_one_percent(
         )
 
     start, end = region
-    segment = pvp_tooltip[start:end]
-    new_token = _format_percent(
-        hotfix.current_percent
-    )
+    segment = pvp_tooltip[
+        start:end
+    ]
 
-    # If the selected target sentence already contains the official current
-    # value and the old value is absent, the normal source pipeline has
-    # caught up and no overlay is necessary.
-    old_token = (
-        _format_percent(
-            hotfix.previous_percent
-        )
-        if hotfix.previous_percent
-        is not None
-        else None
-    )
-
-    if (
-        new_token in segment
-        and (
-            old_token is None
-            or old_token not in segment
-        )
+    if _region_has_current_value(
+        segment,
+        hotfix,
     ):
         return (
             pvp_tooltip,
@@ -536,85 +882,69 @@ def _replace_one_percent(
             "ALREADY_CURRENT",
         )
 
-    if old_token is not None:
-        local_positions = [
-            match.start()
-            for match in re.finditer(
-                re.escape(old_token),
-                segment,
-            )
-        ]
-
-        if len(local_positions) != 1:
-            return (
-                pvp_tooltip,
-                None,
-                "OLD_VALUE_NOT_UNIQUE",
-            )
-
-        local_start = local_positions[0]
-        local_end = (
-            local_start
-            + len(old_token)
-        )
-    else:
-        # For a "now ... by N%" hotfix without a "(was X%)" clause, only
-        # infer the previous value when the named target sentence exposes
-        # exactly one percentage. This is what keeps the overlay generic
-        # without guessing among unrelated tooltip numbers.
-        local_matches = list(
-            _PERCENT_RE.finditer(
-                segment
-            )
-        )
-
-        if len(local_matches) != 1:
-            return (
-                pvp_tooltip,
-                None,
-                "PREVIOUS_VALUE_NOT_UNIQUE",
-            )
-
-        match = local_matches[0]
-        old_token = match.group(0)
-        local_start = match.start()
-        local_end = match.end()
-
-        try:
-            old_value = float(
-                match.group("value")
-            )
-        except ValueError:
-            return (
-                pvp_tooltip,
-                None,
-                "PREVIOUS_VALUE_INVALID",
-            )
-
-        if (
-            abs(
-                old_value
-                - hotfix.current_percent
-            )
-            <= 1e-9
-        ):
-            return (
-                pvp_tooltip,
-                None,
-                "ALREADY_CURRENT",
-            )
-
-    absolute_start = start + local_start
-    absolute_end = start + local_end
-
-    updated = (
-        pvp_tooltip[:absolute_start]
-        + new_token
-        + pvp_tooltip[absolute_end:]
+    match = _select_value_match(
+        segment,
+        hotfix=hotfix,
+        prefer_previous=True,
     )
 
-    # UI comparison highlights are indexed against the PvE tooltip, not the
-    # already-transformed PvP string. Prefer the exact old token there.
+    if match is None:
+        return (
+            pvp_tooltip,
+            None,
+            (
+                "OLD_VALUE_NOT_UNIQUE"
+                if hotfix.previous_percent
+                is not None
+                else
+                "PREVIOUS_VALUE_NOT_UNIQUE"
+            ),
+        )
+
+    actual_old = _match_value(
+        match
+    )
+    actual_old_token = (
+        match.group(0)
+    )
+    new_token = _replacement_token(
+        hotfix.current_percent,
+        unit=hotfix.unit,
+        template=actual_old_token,
+    )
+
+    if abs(
+        actual_old
+        - hotfix.current_percent
+    ) <= 1e-9:
+        return (
+            pvp_tooltip,
+            None,
+            "ALREADY_CURRENT",
+        )
+
+    absolute_start = (
+        start
+        + match.start()
+    )
+    absolute_end = (
+        start
+        + match.end()
+    )
+
+    updated = (
+        pvp_tooltip[
+            :absolute_start
+        ]
+        + new_token
+        + pvp_tooltip[
+            absolute_end:
+        ]
+    )
+
+    # UI comparison highlights are indexed against the PvE tooltip. Select
+    # the same semantic target there, rather than assuming Blizzard's
+    # historical "(was X)" value still equals today's PvE value.
     pve_region = _target_region(
         pve_tooltip,
         hotfix.target_hint,
@@ -622,34 +952,54 @@ def _replace_one_percent(
     change = None
 
     if pve_region is not None:
-        pve_start, pve_end = pve_region
+        pve_start, pve_end = (
+            pve_region
+        )
         pve_segment = pve_tooltip[
             pve_start:pve_end
         ]
-        pve_positions = [
-            match.start()
-            for match in re.finditer(
-                re.escape(old_token),
-                pve_segment,
-            )
-        ]
+        pve_match = _select_value_match(
+            pve_segment,
+            hotfix=hotfix,
+            prefer_previous=True,
+        )
 
-        if len(pve_positions) == 1:
+        if pve_match is not None:
+            pve_old_token = (
+                pve_match.group(0)
+            )
             highlight_start = (
                 pve_start
-                + pve_positions[0]
+                + pve_match.start()
             )
             change = {
-                "start": highlight_start,
-                "end": (
+                "start":
+                    highlight_start,
+                "end":
                     highlight_start
-                    + len(old_token)
-                ),
-                "old_token": old_token,
-                "new_token": new_token,
-                "kind": "official_hotfix_percent",
-                "effect_indexes": [],
-                "source": "blizzard_hotfix",
+                    + len(
+                        pve_old_token
+                    ),
+                "old_token":
+                    pve_old_token,
+                "new_token":
+                    _replacement_token(
+                        hotfix.current_percent,
+                        unit=hotfix.unit,
+                        template=pve_old_token,
+                    ),
+                "kind":
+                    (
+                        "official_hotfix_seconds"
+                        if hotfix.unit
+                        == "seconds"
+                        else
+                        "official_hotfix_percent"
+                    ),
+                "effect_indexes":
+                    [],
+                "source":
+                    "blizzard_hotfix",
             }
 
     return (
