@@ -37,6 +37,7 @@ HTML = """
   <li>Ebon Might grants 12% primary stat in PvP combat (was 10%).</li>
   <li>Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).</li>
   <li>Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).</li>
+  <li>Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).</li>
 </ul>
 <h3>Player versus Player</h3>
 <ul>

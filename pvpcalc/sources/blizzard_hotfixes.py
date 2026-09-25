@@ -213,7 +213,7 @@ def _extract_target_hint(
         # the longest remaining noun phrase. This also preserves names such
         # as "Prayer of Healing" instead of collapsing them to "Healing".
         if re.search(
-            r"\\b(?:now|increases|reduces|grants|causes|deals|heals)\\b",
+            r"\b(?:now|increases|reduces|grants|causes|deals|heals)\b",
             candidate,
             re.I,
         ):
