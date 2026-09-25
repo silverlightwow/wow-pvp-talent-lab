@@ -7482,12 +7482,31 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast or Flamestrike cast within 20 sec deal 230% additional damage.\nMaximum 2 stacks.",
-      "pvp_tooltip": "Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast or Flamestrike cast within 20 sec deal 230% additional damage.\nMaximum 2 stacks.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
+      "pvp_tooltip": "Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast or Flamestrike cast within 20 sec deal 160% additional damage.\nMaximum 2 stacks.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 117,
+          "end": 121,
+          "old_token": "230%",
+          "new_token": "160%",
+          "kind": "official_hotfix_percent",
+          "effect_indexes": [],
+          "source": "blizzard_hotfix"
+        }
+      ],
+      "diagnostics": [
+        {
+          "status": "OFFICIAL_HOTFIX_APPLIED",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+          "reason": "APPLIED"
+        }
+      ],
+      "has_pvp_mechanics": true,
       "mechanics": [],
       "render_effect_count": 0,
       "rank_tooltips": []
@@ -9840,6 +9859,7 @@ window.WOW_PVP_DATA = {
               "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
               "source_build": "12.1.0.69933",
               "game_effect_id": 1147193,
+              "is_hotfixed": false,
               "effect_origin": "DEPENDENCY",
               "talent_spell_id": 448601,
               "source_spell_id": 448604,
@@ -10098,11 +10118,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
-      "pvp_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (92.82% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 208,
+          "end": 211,
+          "old_token": "102",
+          "new_token": "92.82",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "102",
+          "new": "92.82"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10146,7 +10187,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -11329,6 +11370,7 @@ window.WOW_PVP_DATA = {
       "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
       "source_build": "12.1.0.69933",
       "game_effect_id": 1147193,
+      "is_hotfixed": false,
       "effect_origin": "DEPENDENCY",
       "talent_spell_id": 448601,
       "source_spell_id": 448604,
@@ -11351,12 +11393,428 @@ window.WOW_PVP_DATA = {
       ]
     }
   ],
+  "official_hotfixes": {
+    "source": "Blizzard official hotfixes",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "latest_date": "2026-09-24",
+    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "applied": [
+      {
+        "talent_name": "Pyroclasm",
+        "spell_id": 269650,
+        "text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+        "date": "2026-09-22"
+      }
+    ],
+    "already_current": [],
+    "unresolved": [],
+    "ignored_non_talent": [
+      {
+        "talent_name": "Font of Venomous Rage trinket",
+        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
+        "date": "2026-09-17"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 3% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Enhancement"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 4% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination"
+        ]
+      },
+      {
+        "talent_name": "Agony",
+        "text": "Agony damage increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Arterial Bleed",
+        "text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Atonement",
+        "text": "Atonement healing is no longer increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Discipline"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Black Arrow damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Call of Ohn’ahra",
+        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Celestial Conduit damage increased by 50% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Consume Flame",
+        "text": "Consume Flame healing reduced by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Flameshaper"
+        ]
+      },
+      {
+        "talent_name": "Cut to the Bone",
+        "text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Dreadful Wound",
+        "text": "Dreadful Wound damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Ebon Might",
+        "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Exacerbating Wounds",
+        "text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Flurry Strikes",
+        "text": "Flurry Strikes damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Shado-Pan"
+        ]
+      },
+      {
+        "talent_name": "Focused Outburst",
+        "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Halo",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Hammer of Light",
+        "text": "Hammer of Light damage increased by 20%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution",
+          "Templar"
+        ]
+      },
+      {
+        "talent_name": "Inevitable",
+        "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Lava Burst",
+        "text": "Lava Burst damage increased by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Lightning Bolt",
+        "text": "Lightning Bolt damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Mindgames direct",
+        "text": "Mindgames direct damage and reversal increased by 50%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Moonlight Chakram",
+        "text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival",
+          "Sentinel"
+        ]
+      },
+      {
+        "talent_name": "Practiced Strikes",
+        "text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Purging Flames",
+        "text": "Purging Flames now causes Lava Bursts to fire at 25% effectiveness in PvP combat (was 40%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Ravage",
+        "text": "Ravage damage increased by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Shadow Word: Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swiftmend",
+        "text": "Swiftmend healing reduced by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Takedown Hunter",
+        "text": "Takedown Hunter damage reduced by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Takedown Pet",
+        "text": "Takedown Pet damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Unstable Affliction",
+        "text": "Unstable Affliction damage increased by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "Vampiric Strike damage increased by 100% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Voltaic Blaze instant",
+        "text": "Voltaic Blaze instant damage reduced by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Chrono Shift",
+        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Arcane"
+        ]
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Improved Snaring",
+        "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Wing Clip",
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      }
+    ]
+  },
   "slug": "mage-fire",
-  "generated_at": "2026-09-25T09:59:57.258312+00:00",
+  "generated_at": "2026-09-25T13:51:26.871957+00:00",
   "validation": {
     "talents": 127,
-    "changed_tooltips": 32,
-    "talents_with_pvp_mechanics": 38,
+    "changed_tooltips": 34,
+    "talents_with_pvp_mechanics": 39,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -11379,6 +11837,7 @@ window.WOW_PVP_DATA = {
         "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
         "source_build": "12.1.0.69933",
         "game_effect_id": 1147193,
+        "is_hotfixed": false,
         "effect_origin": "DEPENDENCY",
         "talent_spell_id": 448601,
         "source_spell_id": 448604,

@@ -8627,11 +8627,51 @@
         ]
       },
       "pve_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (57.816% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (166.1% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 279,
+          "end": 283,
+          "old_token": "65.7",
+          "new_token": "57.816",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 514,
+          "end": 520,
+          "old_token": "188.75",
+          "new_token": "166.1",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "65.7",
+          "new": "57.816"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "188.75",
+          "new": "166.1"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8680,7 +8720,7 @@
           "talent_spell_id": 1263657,
           "source_spell_id": 1263890,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.657)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.657 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8709,11 +8749,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8721,7 +8760,7 @@
           "talent_spell_id": 1263657,
           "source_spell_id": 1263908,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.8875)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.8875 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8750,11 +8789,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8762,7 +8800,7 @@
           "talent_spell_id": 1263657,
           "source_spell_id": 1271863,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.46)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8791,11 +8829,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8803,7 +8840,7 @@
           "talent_spell_id": 1263657,
           "source_spell_id": 1271863,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds | Attributes: Compute Points Only At Cast Time (15) (AP mod: 0.46)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8832,11 +8869,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8941,7 +8977,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -10410,11 +10446,218 @@
         ]
       },
       "pve_tooltip": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\nRavage\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to 25 additional Energy to increase that damage by up to 100%. Hits all other enemies in front of you for reduced damage per combo point spent.\n1 point: [(204.16% of Attack Power) / 5] damage, [(84.46% of Attack Power) / 5] in an arc\n2 points: [(204.16% of Attack Power) * 2 / 5] damage, [(84.46% of Attack Power) * 2 / 5] in an arc\n3 points: [(204.16% of Attack Power) * 3 / 5] damage, [(84.46% of Attack Power) * 3 / 5] in an arc\n4 points: [(204.16% of Attack Power) * 4 / 5] damage, [(84.46% of Attack Power) * 4 / 5] in an arc\n5 points: [(204.16% of Attack Power) * 5 / 5] damage, [(84.46% of Attack Power) * 5 / 5] in an arc",
-      "pvp_tooltip": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\nRavage\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to 25 additional Energy to increase that damage by up to 100%. Hits all other enemies in front of you for reduced damage per combo point spent.\n1 point: [(204.16% of Attack Power) / 5] damage, [(84.46% of Attack Power) / 5] in an arc\n2 points: [(204.16% of Attack Power) * 2 / 5] damage, [(84.46% of Attack Power) * 2 / 5] in an arc\n3 points: [(204.16% of Attack Power) * 3 / 5] damage, [(84.46% of Attack Power) * 3 / 5] in an arc\n4 points: [(204.16% of Attack Power) * 4 / 5] damage, [(84.46% of Attack Power) * 4 / 5] in an arc\n5 points: [(204.16% of Attack Power) * 5 / 5] damage, [(84.46% of Attack Power) * 5 / 5] in an arc",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\nRavage\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to 25 additional Energy to increase that damage by up to 100%. Hits all other enemies in front of you for reduced damage per combo point spent.\n1 point: [(215.593% of Attack Power) / 5] damage, [(107.0277% of Attack Power) / 5] in an arc\n2 points: [(215.593% of Attack Power) * 2 / 5] damage, [(107.0277% of Attack Power) * 2 / 5] in an arc\n3 points: [(215.593% of Attack Power) * 3 / 5] damage, [(107.0277% of Attack Power) * 3 / 5] in an arc\n4 points: [(215.593% of Attack Power) * 4 / 5] damage, [(107.0277% of Attack Power) * 4 / 5] in an arc\n5 points: [(215.593% of Attack Power) * 5 / 5] damage, [(107.0277% of Attack Power) * 5 / 5] in an arc",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 377,
+          "end": 383,
+          "old_token": "204.16",
+          "new_token": "215.593",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 468,
+          "end": 474,
+          "old_token": "204.16",
+          "new_token": "215.593",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 567,
+          "end": 573,
+          "old_token": "204.16",
+          "new_token": "215.593",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 666,
+          "end": 672,
+          "old_token": "204.16",
+          "new_token": "215.593",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 765,
+          "end": 771,
+          "old_token": "204.16",
+          "new_token": "215.593",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 417,
+          "end": 422,
+          "old_token": "84.46",
+          "new_token": "107.0277",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
+          ]
+        },
+        {
+          "start": 512,
+          "end": 517,
+          "old_token": "84.46",
+          "new_token": "107.0277",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
+          ]
+        },
+        {
+          "start": 611,
+          "end": 616,
+          "old_token": "84.46",
+          "new_token": "107.0277",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
+          ]
+        },
+        {
+          "start": 710,
+          "end": 715,
+          "old_token": "84.46",
+          "new_token": "107.0277",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
+          ]
+        },
+        {
+          "start": 809,
+          "end": 814,
+          "old_token": "84.46",
+          "new_token": "107.0277",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "204.16",
+          "new": "215.593"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "84.46",
+          "new": "107.0277"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "204.16",
+          "new": "215.593"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "84.46",
+          "new": "107.0277"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "204.16",
+          "new": "215.593"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "84.46",
+          "new": "107.0277"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "204.16",
+          "new": "215.593"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "84.46",
+          "new": "107.0277"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "204.16",
+          "new": "215.593"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "84.46",
+          "new": "107.0277"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Ravage damage increased by 20% in PvP combat.",
+          "reason": "RELATIVE_HOTFIX_EVIDENCE",
+          "evidence": {
+            "source": "spell_pvp_multiplier",
+            "factor": 1.2,
+            "expected_factor": 1.2,
+            "effect_index": 1,
+            "source_spell_id": 441591
+          }
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10599,7 +10842,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -10736,6 +10979,21 @@
           "kind": "attack_power_coefficient",
           "old": "50.4",
           "new": "55.44"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Dreadful Wound damage increased by 25% in PvP combat.",
+          "reason": "RELATIVE_HOTFIX_EVIDENCE",
+          "evidence": {
+            "source": "spell_pvp_multiplier",
+            "factor": 1.25,
+            "expected_factor": 1.25,
+            "effect_index": 1,
+            "source_spell_id": 441812
+          }
         }
       ],
       "has_pvp_mechanics": true,
@@ -11067,6 +11325,14 @@
           "kind": "percent_value",
           "old": "8",
           "new": "10"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+          "reason": "ALREADY_CURRENT"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11664,7 +11930,7 @@
           "talent_spell_id": 1271635,
           "source_spell_id": 1271636,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3)",
+          "effect_text": "School Damage (Physical) (AP mod: 3 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -11691,11 +11957,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -12115,11 +12380,430 @@
     ]
   },
   "source_warnings": [],
+  "official_hotfixes": {
+    "source": "Blizzard official hotfixes",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "latest_date": "2026-09-24",
+    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "applied": [],
+    "already_current": [
+      {
+        "talent_name": "Dreadful Wound",
+        "spell_id": 441809,
+        "text": "Dreadful Wound damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "evidence": {
+          "source": "spell_pvp_multiplier",
+          "factor": 1.25,
+          "expected_factor": 1.25,
+          "effect_index": 1,
+          "source_spell_id": 441812
+        }
+      },
+      {
+        "talent_name": "Exacerbating Wounds",
+        "spell_id": 1271839,
+        "text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+        "date": "2026-09-22"
+      },
+      {
+        "talent_name": "Ravage",
+        "spell_id": 441583,
+        "text": "Ravage damage increased by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "evidence": {
+          "source": "spell_pvp_multiplier",
+          "factor": 1.2,
+          "expected_factor": 1.2,
+          "effect_index": 1,
+          "source_spell_id": 441591
+        }
+      }
+    ],
+    "unresolved": [],
+    "ignored_non_talent": [
+      {
+        "talent_name": "Font of Venomous Rage trinket",
+        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
+        "date": "2026-09-17"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 3% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Enhancement"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 4% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination"
+        ]
+      },
+      {
+        "talent_name": "Agony",
+        "text": "Agony damage increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Arterial Bleed",
+        "text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Atonement",
+        "text": "Atonement healing is no longer increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Discipline"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Black Arrow damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Call of Ohn’ahra",
+        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Celestial Conduit damage increased by 50% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Consume Flame",
+        "text": "Consume Flame healing reduced by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Flameshaper"
+        ]
+      },
+      {
+        "talent_name": "Cut to the Bone",
+        "text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Ebon Might",
+        "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Flurry Strikes",
+        "text": "Flurry Strikes damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Shado-Pan"
+        ]
+      },
+      {
+        "talent_name": "Focused Outburst",
+        "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Halo",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Hammer of Light",
+        "text": "Hammer of Light damage increased by 20%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution",
+          "Templar"
+        ]
+      },
+      {
+        "talent_name": "Inevitable",
+        "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Lava Burst",
+        "text": "Lava Burst damage increased by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Lightning Bolt",
+        "text": "Lightning Bolt damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Mindgames direct",
+        "text": "Mindgames direct damage and reversal increased by 50%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Moonlight Chakram",
+        "text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival",
+          "Sentinel"
+        ]
+      },
+      {
+        "talent_name": "Practiced Strikes",
+        "text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Purging Flames",
+        "text": "Purging Flames now causes Lava Bursts to fire at 25% effectiveness in PvP combat (was 40%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Pyroclasm",
+        "text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Shadow Word: Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swiftmend",
+        "text": "Swiftmend healing reduced by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Takedown Hunter",
+        "text": "Takedown Hunter damage reduced by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Takedown Pet",
+        "text": "Takedown Pet damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Unstable Affliction",
+        "text": "Unstable Affliction damage increased by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "Vampiric Strike damage increased by 100% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Voltaic Blaze instant",
+        "text": "Voltaic Blaze instant damage reduced by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Chrono Shift",
+        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Arcane"
+        ]
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Improved Snaring",
+        "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Wing Clip",
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      }
+    ]
+  },
   "slug": "druid-feral",
-  "generated_at": "2026-09-25T09:55:45.421452+00:00",
+  "generated_at": "2026-09-25T13:46:14.608814+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 20,
+    "changed_tooltips": 22,
     "talents_with_pvp_mechanics": 30,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69933",
@@ -12129,32 +12813,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 4,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1263890,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1263908,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263908'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1271636,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271636'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1271863,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271863'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

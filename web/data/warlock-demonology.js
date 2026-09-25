@@ -3699,11 +3699,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (799.508% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
-      "pvp_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (799.508% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (898.2153% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 113,
+          "end": 120,
+          "old_token": "799.508",
+          "new_token": "898.2153",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "799.508",
+          "new": "898.2153"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3771,7 +3792,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -6945,11 +6966,51 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
-      "pvp_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (92.171% of Spell Power) Shadow damage to its target and (61.4489% of Spell Power) Shadow damage to other enemies in 10 yds.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 208,
+          "end": 215,
+          "old_token": "195.514",
+          "new_token": "92.171",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 266,
+          "end": 273,
+          "old_token": "130.346",
+          "new_token": "61.4489",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "195.514",
+          "new": "92.171"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "130.346",
+          "new": "61.4489"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7041,7 +7102,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -8286,11 +8347,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
-      "pvp_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1102.6712% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 154,
+          "end": 161,
+          "old_token": "1347.35",
+          "new_token": "1102.6712",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1347.35",
+          "new": "1102.6712"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8341,7 +8423,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -9266,11 +9348,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
-      "pvp_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (1297.1258% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 168,
+          "end": 175,
+          "old_token": "2537.91",
+          "new_token": "1297.1258",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "2537.91",
+          "new": "1297.1258"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9306,7 +9409,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     }
   ],
@@ -9582,11 +9685,430 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [],
+  "official_hotfixes": {
+    "source": "Blizzard official hotfixes",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "latest_date": "2026-09-24",
+    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "applied": [],
+    "already_current": [],
+    "unresolved": [],
+    "ignored_non_talent": [
+      {
+        "talent_name": "Font of Venomous Rage trinket",
+        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
+        "date": "2026-09-17"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 3% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Enhancement"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 4% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination"
+        ]
+      },
+      {
+        "talent_name": "Agony",
+        "text": "Agony damage increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Arterial Bleed",
+        "text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Atonement",
+        "text": "Atonement healing is no longer increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Discipline"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Black Arrow damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Call of Ohn’ahra",
+        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Celestial Conduit damage increased by 50% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Consume Flame",
+        "text": "Consume Flame healing reduced by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Flameshaper"
+        ]
+      },
+      {
+        "talent_name": "Cut to the Bone",
+        "text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Dreadful Wound",
+        "text": "Dreadful Wound damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Ebon Might",
+        "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Exacerbating Wounds",
+        "text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Flurry Strikes",
+        "text": "Flurry Strikes damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Shado-Pan"
+        ]
+      },
+      {
+        "talent_name": "Focused Outburst",
+        "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Halo",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Hammer of Light",
+        "text": "Hammer of Light damage increased by 20%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution",
+          "Templar"
+        ]
+      },
+      {
+        "talent_name": "Inevitable",
+        "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Lava Burst",
+        "text": "Lava Burst damage increased by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Lightning Bolt",
+        "text": "Lightning Bolt damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Mindgames direct",
+        "text": "Mindgames direct damage and reversal increased by 50%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Moonlight Chakram",
+        "text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival",
+          "Sentinel"
+        ]
+      },
+      {
+        "talent_name": "Practiced Strikes",
+        "text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Purging Flames",
+        "text": "Purging Flames now causes Lava Bursts to fire at 25% effectiveness in PvP combat (was 40%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Pyroclasm",
+        "text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Ravage",
+        "text": "Ravage damage increased by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Shadow Word: Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swiftmend",
+        "text": "Swiftmend healing reduced by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Takedown Hunter",
+        "text": "Takedown Hunter damage reduced by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Takedown Pet",
+        "text": "Takedown Pet damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Unstable Affliction",
+        "text": "Unstable Affliction damage increased by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "Vampiric Strike damage increased by 100% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Voltaic Blaze instant",
+        "text": "Voltaic Blaze instant damage reduced by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Chrono Shift",
+        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Arcane"
+        ]
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Improved Snaring",
+        "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Wing Clip",
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      }
+    ]
+  },
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-25T10:07:14.736095+00:00",
+  "generated_at": "2026-09-25T14:00:00.929115+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 15,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",

@@ -6567,11 +6567,51 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Chaos Bolt and Shadowburn have a 10% chance to rip open a hole in space and time, opening a random portal that damages your target:\nShadowy Tear\nDeals [(105.487% of Spell Power) * 7] Shadow damage over 14 sec.\nUnstable Tear\nDeals [(26.3718% of Spell Power) * 24] Chaos damage over 6 sec.\nChaos Tear\nFires a Chaos Bolt, dealing (326.508% of Spell Power) Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\nGenerates 10 Soul Shard Fragments.",
-      "pvp_tooltip": "Chaos Bolt and Shadowburn have a 10% chance to rip open a hole in space and time, opening a random portal that damages your target:\nShadowy Tear\nDeals [(105.487% of Spell Power) * 7] Shadow damage over 14 sec.\nUnstable Tear\nDeals [(26.3718% of Spell Power) * 24] Chaos damage over 6 sec.\nChaos Tear\nFires a Chaos Bolt, dealing (326.508% of Spell Power) Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\nGenerates 10 Soul Shard Fragments.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Chaos Bolt and Shadowburn have a 10% chance to rip open a hole in space and time, opening a random portal that damages your target:\nShadowy Tear\nDeals [(110.7613% of Spell Power) * 7] Shadow damage over 14 sec.\nUnstable Tear\nDeals [(27.6904% of Spell Power) * 24] Chaos damage over 6 sec.\nChaos Tear\nFires a Chaos Bolt, dealing (326.508% of Spell Power) Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\nGenerates 10 Soul Shard Fragments.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 232,
+          "end": 239,
+          "old_token": "26.3718",
+          "new_token": "27.6904",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 153,
+          "end": 160,
+          "old_token": "105.487",
+          "new_token": "110.7613",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "105.487",
+          "new": "110.7613"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "26.3718",
+          "new": "27.6904"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6695,7 +6735,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -7511,11 +7551,51 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Casting Incinerate has a 10% chance to evoke an echo of the Dark Titan's power.\nEcho of Sargeras\nHurl an ember torn from Nihilam at the target, dealing (187.5% of Spell Power) Shadowflame damage and an additional (162.5% of Spell Power) Shadowflame damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
-      "pvp_tooltip": "Casting Incinerate has a 10% chance to evoke an echo of the Dark Titan's power.\nEcho of Sargeras\nHurl an ember torn from Nihilam at the target, dealing (187.5% of Spell Power) Shadowflame damage and an additional (162.5% of Spell Power) Shadowflame damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Casting Incinerate has a 10% chance to evoke an echo of the Dark Titan's power.\nEcho of Sargeras\nHurl an ember torn from Nihilam at the target, dealing (196.875% of Spell Power) Shadowflame damage and an additional (170.625% of Spell Power) Shadowflame damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 153,
+          "end": 158,
+          "old_token": "187.5",
+          "new_token": "196.875",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 214,
+          "end": 219,
+          "old_token": "162.5",
+          "new_token": "170.625",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "187.5",
+          "new": "196.875"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "162.5",
+          "new": "170.625"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7595,7 +7675,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -7780,11 +7860,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing (24.7969% of Spell Power) Shadowflame damage immediately and an additional (370.679% of Spell Power) Shadowflame damage over 18 sec.\nPeriodic damage generates 1 Soul Shard Fragment and has a 50% chance to generate an additional 1 on critical strikes.\nReplaces Immolate.",
-      "pvp_tooltip": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing (24.7969% of Spell Power) Shadowflame damage immediately and an additional (370.679% of Spell Power) Shadowflame damage over 18 sec.\nPeriodic damage generates 1 Soul Shard Fragment and has a 50% chance to generate an additional 1 on critical strikes.\nReplaces Immolate.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing (25.7764% of Spell Power) Shadowflame damage immediately and an additional (370.679% of Spell Power) Shadowflame damage over 18 sec.\nPeriodic damage generates 1 Soul Shard Fragment and has a 50% chance to generate an additional 1 on critical strikes.\nReplaces Immolate.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 95,
+          "end": 102,
+          "old_token": "24.7969",
+          "new_token": "25.7764",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "24.7969",
+          "new": "25.7764"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7888,7 +7989,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -9040,11 +9141,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Dark magic erupts from you and corrupts your soul for 20 sec, causing enemies suffering from your Wither to take (1265.51% of Spell Power) Shadowflame damage and increase its stack count by 6.\nWhile corrupted your Haste is increased by 8% and spending Soul Shards on damaging spells grants 1 additional stack of Wither.",
-      "pvp_tooltip": "Dark magic erupts from you and corrupts your soul for 20 sec, causing enemies suffering from your Wither to take (1265.51% of Spell Power) Shadowflame damage and increase its stack count by 6.\nWhile corrupted your Haste is increased by 8% and spending Soul Shards on damaging spells grants 1 additional stack of Wither.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Dark magic erupts from you and corrupts your soul for 20 sec, causing enemies suffering from your Wither to take (1328.7855% of Spell Power) Shadowflame damage and increase its stack count by 6.\nWhile corrupted your Haste is increased by 8% and spending Soul Shards on damaging spells grants 1 additional stack of Wither.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 114,
+          "end": 121,
+          "old_token": "1265.51",
+          "new_token": "1328.7855",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1265.51",
+          "new": "1328.7855"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9088,7 +9210,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -9369,11 +9491,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 2 Soul Shards.",
-      "pvp_tooltip": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 2 Soul Shards.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1414.7175% of Spell Power) Fire damage to your enemy target and generating 2 Soul Shards.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 153,
+          "end": 160,
+          "old_token": "1347.35",
+          "new_token": "1414.7175",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1347.35",
+          "new": "1414.7175"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9415,7 +9558,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -10350,11 +10493,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 1 Diabolic Imp.\nDamage is further increased by your critical strike chance and is reduced beyond 8 targets.",
-      "pvp_tooltip": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 1 Diabolic Imp.\nDamage is further increased by your critical strike chance and is reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (1361.9821% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 1 Diabolic Imp.\nDamage is further increased by your critical strike chance and is reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 163,
+          "end": 170,
+          "old_token": "2537.91",
+          "new_token": "1361.9821",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "2537.91",
+          "new": "1361.9821"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10400,7 +10564,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     }
   ],
@@ -10676,11 +10840,430 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [],
+  "official_hotfixes": {
+    "source": "Blizzard official hotfixes",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "latest_date": "2026-09-24",
+    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "applied": [],
+    "already_current": [],
+    "unresolved": [],
+    "ignored_non_talent": [
+      {
+        "talent_name": "Font of Venomous Rage trinket",
+        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
+        "date": "2026-09-17"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 3% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Enhancement"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 4% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination"
+        ]
+      },
+      {
+        "talent_name": "Agony",
+        "text": "Agony damage increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Arterial Bleed",
+        "text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Atonement",
+        "text": "Atonement healing is no longer increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Discipline"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Black Arrow damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Call of Ohn’ahra",
+        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Celestial Conduit damage increased by 50% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Consume Flame",
+        "text": "Consume Flame healing reduced by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Flameshaper"
+        ]
+      },
+      {
+        "talent_name": "Cut to the Bone",
+        "text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Dreadful Wound",
+        "text": "Dreadful Wound damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Ebon Might",
+        "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Exacerbating Wounds",
+        "text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Flurry Strikes",
+        "text": "Flurry Strikes damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Shado-Pan"
+        ]
+      },
+      {
+        "talent_name": "Focused Outburst",
+        "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Halo",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Hammer of Light",
+        "text": "Hammer of Light damage increased by 20%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution",
+          "Templar"
+        ]
+      },
+      {
+        "talent_name": "Inevitable",
+        "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Lava Burst",
+        "text": "Lava Burst damage increased by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Lightning Bolt",
+        "text": "Lightning Bolt damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Mindgames direct",
+        "text": "Mindgames direct damage and reversal increased by 50%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Moonlight Chakram",
+        "text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival",
+          "Sentinel"
+        ]
+      },
+      {
+        "talent_name": "Practiced Strikes",
+        "text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Purging Flames",
+        "text": "Purging Flames now causes Lava Bursts to fire at 25% effectiveness in PvP combat (was 40%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Pyroclasm",
+        "text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Ravage",
+        "text": "Ravage damage increased by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Shadow Word: Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow"
+        ]
+      },
+      {
+        "talent_name": "Swiftmend",
+        "text": "Swiftmend healing reduced by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Takedown Hunter",
+        "text": "Takedown Hunter damage reduced by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Takedown Pet",
+        "text": "Takedown Pet damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Unstable Affliction",
+        "text": "Unstable Affliction damage increased by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "Vampiric Strike damage increased by 100% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Voltaic Blaze instant",
+        "text": "Voltaic Blaze instant damage reduced by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Chrono Shift",
+        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Arcane"
+        ]
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Improved Snaring",
+        "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Wing Clip",
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      }
+    ]
+  },
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-25T10:08:30.147707+00:00",
+  "generated_at": "2026-09-25T14:00:55.313806+00:00",
   "validation": {
     "talents": 129,
-    "changed_tooltips": 26,
+    "changed_tooltips": 32,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",

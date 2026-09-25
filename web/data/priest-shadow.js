@@ -2338,6 +2338,24 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "85",
           "new": "70.312"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-22",
+          "hotfix_text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+          "reason": "RELATIVE_HOTFIX_EVIDENCE",
+          "evidence": {
+            "source": "historical_verified_snapshot",
+            "field": "effective_player_value",
+            "source_spell_id": 32379,
+            "effect_index": 1,
+            "old_value": 1.6299599999999996,
+            "new_value": 2.1093599999999997,
+            "ratio": 1.2941176470588236,
+            "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
+          }
         }
       ],
       "has_pvp_mechanics": true,
@@ -4873,11 +4891,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
-      "pvp_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (72.2194% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 396,
+          "end": 401,
+          "old_token": "95.44",
+          "new_token": "72.2194",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "95.44",
+          "new": "72.2194"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4923,7 +4962,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7330,11 +7369,51 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At 20 stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for 20 sec.\nVoid Spike\nHurls a bolt of dark magic, dealing (93.8961% of Spell Power) Shadow damage and [(93.8961% of Spell Power) * 53 / 100] Shadow damage to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At 20 stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for 20 sec.\nVoid Spike\nHurls a bolt of dark magic, dealing (93.8961% of Spell Power) Shadow damage and [(93.8961% of Spell Power) * 53 / 100] Shadow damage to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At 20 stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for 20 sec.\nVoid Spike\nHurls a bolt of dark magic, dealing (88.2623% of Spell Power) Shadow damage and [(88.2623% of Spell Power) * 53 / 100] Shadow damage to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 218,
+          "end": 225,
+          "old_token": "93.8961",
+          "new_token": "88.2623",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 263,
+          "end": 270,
+          "old_token": "93.8961",
+          "new_token": "88.2623",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "93.8961",
+          "new": "88.2623"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "93.8961",
+          "new": "88.2623"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7376,7 +7455,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7428,11 +7507,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
-      "pvp_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(40.3495% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 439,
+          "end": 445,
+          "old_token": "42.925",
+          "new_token": "40.3495",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "42.925",
+          "new": "40.3495"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7544,7 +7644,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7649,11 +7749,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-      "pvp_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (141% of Spell Power) Shadow damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 207,
+          "end": 210,
+          "old_token": "150",
+          "new_token": "141",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "150",
+          "new": "141"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7695,23 +7816,45 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": [
         {
           "rank": 1,
           "pve_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-          "pvp_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-          "tooltip_changed": false,
-          "changes": [],
+          "pvp_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (141% of Spell Power) Shadow damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 207,
+              "end": 210,
+              "old_token": "150",
+              "new_token": "141",
+              "kind": "spell_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69933"
         },
         {
           "rank": 2,
           "pve_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-          "pvp_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-          "tooltip_changed": false,
-          "changes": [],
+          "pvp_tooltip": "Shadowy Apparitions have a 30% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (141% of Spell Power) Shadow damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 207,
+              "end": 210,
+              "old_token": "150",
+              "new_token": "141",
+              "kind": "spell_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69933"
         }
@@ -9186,7 +9329,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (713.055% of Spell Power) Shadow damage over 3 sec and tearing open an Entropic Rift.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
-      "pvp_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (469.1902% of Spell Power) Shadow damage over 3 sec and tearing open an Entropic Rift.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
+      "pvp_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (469.1902% of Spell Power) Shadow damage over 3 sec and tearing open an Entropic Rift.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (56.4% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9195,6 +9338,16 @@ window.WOW_PVP_DATA = {
           "end": 117,
           "old_token": "713.055",
           "new_token": "469.1902",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 317,
+          "end": 319,
+          "old_token": "60",
+          "new_token": "56.4",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -9210,6 +9363,15 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "713.055",
           "new": "469.1902"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "60",
+          "new": "56.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9290,7 +9452,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -9510,11 +9672,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (210% of Spell Power) Shadow damage. Generates 0 Insanity.",
-      "pvp_tooltip": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (210% of Spell Power) Shadow damage. Generates 0 Insanity.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (122.388% of Spell Power) Shadow damage. Generates 0 Insanity.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 141,
+          "end": 144,
+          "old_token": "210",
+          "new_token": "122.388",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "210",
+          "new": "122.388"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9565,7 +9748,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -10948,11 +11131,433 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [],
+  "official_hotfixes": {
+    "source": "Blizzard official hotfixes",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "latest_date": "2026-09-24",
+    "snapshot_hash": "ae8eb24d25a2b59f9a16d1520f99e12a2dbac4cc2e602690934452f20ce02ab6",
+    "applied": [],
+    "already_current": [
+      {
+        "talent_name": "Shadow Word: Death",
+        "spell_id": 32379,
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "field": "effective_player_value",
+          "source_spell_id": 32379,
+          "effect_index": 1,
+          "old_value": 1.6299599999999996,
+          "new_value": 2.1093599999999997,
+          "ratio": 1.2941176470588236,
+          "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
+        }
+      }
+    ],
+    "unresolved": [],
+    "ignored_non_talent": [
+      {
+        "talent_name": "Font of Venomous Rage trinket",
+        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
+        "date": "2026-09-17"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 3% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Enhancement"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 4% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination"
+        ]
+      },
+      {
+        "talent_name": "Agony",
+        "text": "Agony damage increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Arterial Bleed",
+        "text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Atonement",
+        "text": "Atonement healing is no longer increased by 40% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Discipline"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Black Arrow damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Call of Ohn’ahra",
+        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Celestial Conduit damage increased by 50% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Consume Flame",
+        "text": "Consume Flame healing reduced by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Flameshaper"
+        ]
+      },
+      {
+        "talent_name": "Cut to the Bone",
+        "text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Dreadful Wound",
+        "text": "Dreadful Wound damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Ebon Might",
+        "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Exacerbating Wounds",
+        "text": "Exacerbating Wounds increases damage taken from your bleed effects by 10% in PvP combat (was 8%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Flurry Strikes",
+        "text": "Flurry Strikes damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker",
+          "Shado-Pan"
+        ]
+      },
+      {
+        "talent_name": "Focused Outburst",
+        "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Halo",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Hammer of Light",
+        "text": "Hammer of Light damage increased by 20%.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution",
+          "Templar"
+        ]
+      },
+      {
+        "talent_name": "Inevitable",
+        "text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Lava Burst",
+        "text": "Lava Burst damage increased by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Lightning Bolt",
+        "text": "Lightning Bolt damage increased by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Mindgames direct",
+        "text": "Mindgames direct damage and reversal increased by 50%.",
+        "date": "2026-09-22"
+      },
+      {
+        "talent_name": "Moonlight Chakram",
+        "text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival",
+          "Sentinel"
+        ]
+      },
+      {
+        "talent_name": "Practiced Strikes",
+        "text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior",
+          "Arms",
+          "Colossus"
+        ]
+      },
+      {
+        "talent_name": "Purging Flames",
+        "text": "Purging Flames now causes Lava Bursts to fire at 25% effectiveness in PvP combat (was 40%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Pyroclasm",
+        "text": "Pyroclasm now increases the damage of Pyroblast or Flamestrike by 160% in PvP combat (was 180%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Ravage",
+        "text": "Ravage damage increased by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral",
+          "Druid of the Claw"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Swiftmend",
+        "text": "Swiftmend healing reduced by 20% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Takedown Hunter",
+        "text": "Takedown Hunter damage reduced by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Takedown Pet",
+        "text": "Takedown Pet damage reduced by 15% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Survival"
+        ]
+      },
+      {
+        "talent_name": "Unstable Affliction",
+        "text": "Unstable Affliction damage increased by 10% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Affliction"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "Vampiric Strike damage increased by 100% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
+      },
+      {
+        "talent_name": "Voltaic Blaze instant",
+        "text": "Voltaic Blaze instant damage reduced by 25% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Elemental"
+        ]
+      },
+      {
+        "talent_name": "Chrono Shift",
+        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Arcane"
+        ]
+      },
+      {
+        "talent_name": "Consecrated Ground",
+        "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Improved Snaring",
+        "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Wing Clip",
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+        "date": "2026-09-24",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      }
+    ]
+  },
   "slug": "priest-shadow",
-  "generated_at": "2026-09-25T10:04:07.688250+00:00",
+  "generated_at": "2026-09-25T13:55:56.697605+00:00",
   "validation": {
     "talents": 138,
-    "changed_tooltips": 18,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69933",
