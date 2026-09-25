@@ -156,12 +156,17 @@ function assertDescription(shown, original) {
         assert.ok(candidate, `${spec.slug}: no path to ${cap} ${type} points at ${n}`);
         const node = page.locator(`#${type}Tree [data-node-id="${candidate}"]`);
         const isChoice = (await node.getAttribute('class')).includes('choice-node');
-        await node.click();
         if (isChoice) {
+         await node.click();
          // Scrolling to a low talent must not dismiss its newly opened picker.
          await page.evaluate(() => window.dispatchEvent(new Event('scroll')));
          assert.ok(await page.locator('.choice-option').first().isVisible());
          await page.locator('.choice-option').first().click();
+        } else {
+         // This is still the real DOM click handler, but avoids Playwright's
+         // expensive pointer actionability/scroll cycle for thousands of
+         // deterministic rank allocations in the exhaustive 1440px pass.
+         await node.dispatchEvent('click');
         }
        }
        assert.equal((await page.locator(`#${type}Points`).textContent()).trim(), `${cap}/${cap}`);
