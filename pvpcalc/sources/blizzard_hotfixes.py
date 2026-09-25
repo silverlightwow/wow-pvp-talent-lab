@@ -53,7 +53,7 @@ _NAME_SPLIT_RE = re.compile(
 _TARGET_OF_RE = re.compile(
     r"\bof\s+(?P<target>.+?)\s+by\s+"
     r"\d+(?:\.\d+)?\s*"
-    r"(?:%|seconds?|sec)\b?",
+    r"(?:%|seconds?\b|sec\b)",
     re.I,
 )
 
