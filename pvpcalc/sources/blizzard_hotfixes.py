@@ -872,16 +872,6 @@ def _replace_one_percent(
         start:end
     ]
 
-    if _region_has_current_value(
-        segment,
-        hotfix,
-    ):
-        return (
-            pvp_tooltip,
-            None,
-            "ALREADY_CURRENT",
-        )
-
     match = _select_value_match(
         segment,
         hotfix=hotfix,
@@ -889,6 +879,16 @@ def _replace_one_percent(
     )
 
     if match is None:
+        if _region_has_current_value(
+            segment,
+            hotfix,
+        ):
+            return (
+                pvp_tooltip,
+                None,
+                "ALREADY_CURRENT",
+            )
+
         return (
             pvp_tooltip,
             None,
