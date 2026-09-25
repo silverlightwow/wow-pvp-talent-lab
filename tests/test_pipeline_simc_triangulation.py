@@ -1259,3 +1259,101 @@ def test_current_drustvar_hotfix_is_never_dismissed_as_stale():
         simc_dump=dump,
         wowhead_by_spell={1266151: [wowhead]},
     ) is None
+
+
+def test_exact_build_simc_hotfix_supersedes_stale_wowhead_multiplier():
+    raw = (
+        "Name             : Hotfix Test (id=100)\n"
+        "#1 (id=1001) : Apply Aura: Dummy\n"
+        "Base Value: 20\n"
+        "PvP Coefficient: 0.5\n"
+        "#2 (id=1002) : Apply Aura: Modifies Damage/Healing Done\n"
+        "Base Value: 30\n"
+        "Hotfixed         : PvP Coefficient (0.75 -> 0.9)\n"
+    )
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.69933",
+        header="test",
+        spells={
+            100: SimcSpell(
+                spell_id=100,
+                name="Hotfix Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+    rows = [{
+        "spell_id": 100,
+        "effect_index": 2,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "base_value": 30,
+        "pvp_multiplier": 0.75,
+        "pvp_value": 22.5,
+        "is_pvp_modified": True,
+        "sources": ["wowhead", "drustvar"],
+        "confidence": "high",
+        "conflicts": [],
+    }]
+
+    pipeline._fill_missing_base_values_from_simc(
+        rows,
+        dump,
+    )
+
+    row = rows[0]
+    assert row["pvp_multiplier"] == 0.9
+    assert row["pvp_value"] == 27.0
+    assert row["pvp_multiplier_source"] == "simc_exact_build_hotfix"
+    assert row["simc_hotfix_previous"] == 0.75
+    assert row["simc_hotfix_current"] == 0.9
+    assert "simc" in row["sources"]
+    assert any(
+        note.get("reason") == "SIMC_EXACT_BUILD_HOTFIX"
+        for note in row["source_notes"]
+    )
+
+
+def test_exact_build_simc_hotfix_does_not_override_unrelated_disagreement():
+    raw = (
+        "Name             : Hotfix Test (id=100)\n"
+        "#2 (id=1002) : Apply Aura: Modifies Damage/Healing Done\n"
+        "Base Value: 30\n"
+        "Hotfixed         : PvP Coefficient (0.75 -> 0.9)\n"
+    )
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.69933",
+        header="test",
+        spells={
+            100: SimcSpell(
+                spell_id=100,
+                name="Hotfix Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+    rows = [{
+        "spell_id": 100,
+        "effect_index": 2,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "base_value": 30,
+        "pvp_multiplier": 0.7,
+        "pvp_value": 21.0,
+        "is_pvp_modified": True,
+        "sources": ["wowhead"],
+        "confidence": "medium",
+        "conflicts": [],
+    }]
+
+    pipeline._fill_missing_base_values_from_simc(
+        rows,
+        dump,
+    )
+
+    row = rows[0]
+    assert row["pvp_multiplier"] == 0.7
+    assert row["pvp_value"] == 21.0
+    assert row.get("pvp_multiplier_source") != "simc_exact_build_hotfix"

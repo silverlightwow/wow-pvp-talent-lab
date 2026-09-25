@@ -1520,6 +1520,117 @@ def _fill_missing_base_values_from_simc(
             simc_effect.pvp_coefficient
         )
 
+        # Server-side PvP hotfixes can land in the exact-build SimC dump
+        # before Wowhead/Drustvar refresh their displayed multiplier.
+        #
+        # SimC preserves an explicit transition:
+        #
+        #   Hotfixed : PvP Coefficient (old -> current)
+        #
+        # We may therefore replace a stale canonical multiplier ONLY when
+        # the row still equals that exact old value. This is deliberately
+        # generic (no spell-specific exceptions) and fails closed for any
+        # unrelated source disagreement.
+        simc_hotfix_previous = (
+            simc_effect.pvp_hotfix_previous
+        )
+
+        if (
+            row_multiplier is not None
+            and simc_multiplier is not None
+            and simc_hotfix_previous
+            is not None
+            and not multipliers_close(
+                float(row_multiplier),
+                float(simc_multiplier),
+            )
+            and multipliers_close(
+                float(row_multiplier),
+                float(simc_hotfix_previous),
+            )
+        ):
+            previous_multiplier = float(
+                row_multiplier
+            )
+            row_multiplier = float(
+                simc_multiplier
+            )
+
+            row[
+                "pvp_multiplier"
+            ] = row_multiplier
+            row[
+                "is_pvp_modified"
+            ] = _is_modified(
+                row_multiplier
+            )
+
+            existing_base = row.get(
+                "base_value"
+            )
+            if existing_base is not None:
+                row[
+                    "pvp_value"
+                ] = (
+                    float(existing_base)
+                    * row_multiplier
+                )
+
+            sources = list(
+                row.get(
+                    "sources",
+                    [],
+                )
+            )
+            if "simc" not in sources:
+                sources.append(
+                    "simc"
+                )
+            row["sources"] = sources
+
+            row[
+                "pvp_multiplier_source"
+            ] = (
+                "simc_exact_build_hotfix"
+            )
+            row[
+                "simc_hotfix_previous"
+            ] = previous_multiplier
+            row[
+                "simc_hotfix_current"
+            ] = row_multiplier
+
+            source_notes = list(
+                row.get(
+                    "source_notes",
+                    [],
+                )
+                or []
+            )
+            hotfix_note = {
+                "reason":
+                    "SIMC_EXACT_BUILD_HOTFIX",
+                "previous_multiplier":
+                    previous_multiplier,
+                "current_multiplier":
+                    row_multiplier,
+                "build":
+                    simc_dump.build,
+                "effect_index":
+                    int(effect_index),
+            }
+            if hotfix_note not in source_notes:
+                source_notes.append(
+                    hotfix_note
+                )
+            row[
+                "source_notes"
+            ] = source_notes
+
+            # The current value is exact-build data and the stale source
+            # independently identifies its exact pre-hotfix value.
+            row["confidence"] = "high"
+
         # Wowhead can expose the concrete SpellEffect while omitting
         # its PvP Coefficient line. Exact-build SimC can safely fill
         # that missing numeric field without changing effect identity.
