@@ -1,4 +1,4 @@
-# rerun-after-percentage-direction-fix
+# recover-latest-complete-spec-snapshot
 name: Recover verified snapshot from completed spec artifacts
 
 on:
@@ -34,20 +34,12 @@ jobs:
           node-version: '22'
           cache: npm
       - run: python -m pip install -e '.[dev]'
-      - name: Download the 39 successful all-spec artifacts
+      - name: Download all 40 successful spec artifacts from the latest complete build
         uses: actions/download-artifact@v4
         with:
           pattern: spec-data-*
           path: staged-spec-data
-          run-id: 36142510264
-          github-token: ${{ github.token }}
-
-      - name: Add the separately verified Affliction artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: affliction-hotfix-smoke
-          path: staged-spec-data/spec-data-265
-          run-id: 36148851665
+          run-id: 36186888978
           github-token: ${{ github.token }}
       - name: Build expected specialization catalog
         run: |

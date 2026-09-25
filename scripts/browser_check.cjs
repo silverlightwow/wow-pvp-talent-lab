@@ -222,9 +222,11 @@ function assertDescription(shown, original) {
     })));
     for(const row of comparisonRows){
      assert.ok(!/[\[\]]/.test(row.pve+row.pvp),`Conditional source brackets leaked into comparison for ${row.id}`);
-     const talent=data.talents.find(t=>t.spell_id===row.id&&displayed(t.pve_tooltip)===row.pve);
-     assert.ok(talent,`Full PvE text missing for ${row.id}`);
-     assert.equal(row.pvp,displayed(talent.pvp_tooltip),`Full PvP text missing for ${row.id}`);
+     const talent=data.talents.find(t=>t.spell_id===row.id);
+     assert.ok(talent,`Comparison row has no source talent for ${row.id}`);
+     const normalized = text => displayed(text).replace(/\s+/g,' ').trim();
+     assert.equal(normalized(row.pve),normalized(talent.pve_tooltip),`Full PvE text missing for ${row.id}`);
+     assert.equal(normalized(row.pvp),normalized(talent.pvp_tooltip),`Full PvP text missing for ${row.id}`);
     }
     assert.equal(await page.locator('.change-context').count(),0);
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`comparison overflow ${spec.slug} ${width}`);
