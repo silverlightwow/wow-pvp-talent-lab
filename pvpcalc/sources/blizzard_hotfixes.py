@@ -1444,9 +1444,157 @@ def _mechanic_proves_relative_hotfix(
     return None
 
 
+
+_RELATIVE_NAME_SUFFIXES = (
+    " hunter",
+    " pet",
+    " direct",
+    " periodic",
+    " instant",
+)
+
+
+def _relative_name_candidates(
+    talent_name: str,
+) -> tuple[str, ...]:
+    normalized = _normalize_name(
+        talent_name
+    )
+    values = [normalized]
+    for suffix in _RELATIVE_NAME_SUFFIXES:
+        if normalized.endswith(suffix):
+            base = normalized[
+                :-len(suffix)
+            ].strip()
+            if base and base not in values:
+                values.append(base)
+    return tuple(values)
+
+
+def _historical_relative_evidence(
+    talent,
+    hotfix: OfficialPvpHotfix,
+    historical_talents_by_date,
+) -> dict | None:
+    if (
+        not historical_talents_by_date
+        or hotfix.hotfix_date is None
+    ):
+        return None
+
+    baseline = historical_talents_by_date.get(
+        hotfix.hotfix_date.isoformat()
+    )
+    if not baseline:
+        return None
+
+    old_talent = None
+    spell_id = getattr(
+        talent,
+        "spell_id",
+        None,
+    )
+    if spell_id is not None:
+        old_talent = (
+            baseline.get("by_spell", {})
+            .get(str(int(spell_id)))
+        )
+
+    if old_talent is None:
+        for name in _relative_name_candidates(
+            getattr(talent, "talent_name", "")
+        ):
+            old_talent = (
+                baseline.get("by_name", {})
+                .get(name)
+            )
+            if old_talent is not None:
+                break
+
+    if old_talent is None:
+        return None
+
+    old_rows = {
+        (
+            int(row.get("source_spell_id") or 0),
+            int(row.get("effect_index") or 0),
+        ): row
+        for row in (
+            old_talent.get("mechanics")
+            or []
+        )
+    }
+
+    increasing = (
+        hotfix.mode
+        == "relative_increase"
+    )
+
+    for row in (
+        getattr(talent, "mechanics", None)
+        or []
+    ):
+        key = (
+            int(row.get("source_spell_id") or 0),
+            int(row.get("effect_index") or 0),
+        )
+        old_row = old_rows.get(key)
+        if old_row is None:
+            continue
+
+        for field in (
+            "spell_pvp_multiplier",
+            "aura_factor",
+            "final_pvp_multiplier",
+        ):
+            try:
+                old_value = float(
+                    old_row.get(field)
+                )
+                new_value = float(
+                    row.get(field)
+                )
+            except (TypeError, ValueError):
+                continue
+
+            delta = new_value - old_value
+            if abs(delta) <= 1e-6:
+                continue
+            if increasing != (delta > 0):
+                continue
+
+            ratio = (
+                new_value / old_value
+                if abs(old_value) > 1e-12
+                else None
+            )
+            return {
+                "source":
+                    "historical_verified_snapshot",
+                "field":
+                    field,
+                "source_spell_id":
+                    key[0],
+                "effect_index":
+                    key[1],
+                "old_value":
+                    old_value,
+                "new_value":
+                    new_value,
+                "ratio":
+                    ratio,
+                "baseline_commit":
+                    baseline.get("commit"),
+            }
+
+    return None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
+    *,
+    historical_talents_by_date=None,
 ) -> dict:
     by_name: dict[str, list] = {}
 
@@ -1485,12 +1633,27 @@ def apply_official_pvp_hotfixes(
             )
             continue
 
-        matches = by_name.get(
-            _normalize_name(
+        lookup_names = (
+            _relative_name_candidates(
                 hotfix.talent_name
-            ),
-            [],
+            )
+            if hotfix.mode.startswith(
+                "relative_"
+            )
+            else (
+                _normalize_name(
+                    hotfix.talent_name
+                ),
+            )
         )
+        matches = []
+        for lookup_name in lookup_names:
+            matches = by_name.get(
+                lookup_name,
+                [],
+            )
+            if matches:
+                break
 
         if not matches:
             ignored.append(
@@ -1528,6 +1691,14 @@ def apply_official_pvp_hotfixes(
                         hotfix,
                     )
                 )
+                if evidence is None:
+                    evidence = (
+                        _historical_relative_evidence(
+                            talent,
+                            hotfix,
+                            historical_talents_by_date,
+                        )
+                    )
 
                 if evidence is not None:
                     talent.has_pvp_mechanics = True

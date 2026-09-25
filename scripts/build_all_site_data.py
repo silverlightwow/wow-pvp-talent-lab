@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import tempfile
 
@@ -223,6 +224,118 @@ def _validate_for_all(audit, spec_catalog) -> dict:
     }
 
 
+
+def _load_historical_hotfix_baselines(
+    *,
+    slug: str,
+    hotfixes,
+) -> dict:
+    """Load the last verified dataset from before each official hotfix day.
+
+    CI checks out full git history. This lets relative Blizzard notes be
+    validated against a real pre-hotfix snapshot even when the current DBC
+    stores a compounded PvP coefficient rather than a standalone x1.20 rule.
+    Outside a git checkout this safely returns an empty mapping.
+    """
+    dates = sorted(
+        {
+            item.hotfix_date
+            for item in hotfixes
+            if (
+                item.hotfix_date is not None
+                and item.mode.startswith(
+                    "relative_"
+                )
+            )
+        }
+    )
+    if not dates:
+        return {}
+
+    path = f"web/data/{slug}.json"
+    result = {}
+
+    for hotfix_date in dates:
+        before = (
+            hotfix_date.isoformat()
+            + "T00:00:00Z"
+        )
+        try:
+            proc = subprocess.run(
+                [
+                    "git",
+                    "rev-list",
+                    "-1",
+                    f"--before={before}",
+                    "HEAD",
+                    "--",
+                    path,
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            commit = proc.stdout.strip()
+            if not commit:
+                continue
+
+            payload_proc = subprocess.run(
+                [
+                    "git",
+                    "show",
+                    f"{commit}:{path}",
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            payload = json.loads(
+                payload_proc.stdout
+            )
+        except (
+            OSError,
+            subprocess.CalledProcessError,
+            json.JSONDecodeError,
+        ):
+            continue
+
+        by_spell = {}
+        by_name = {}
+        for talent in payload.get(
+            "talents",
+            []
+        ):
+            spell_id = talent.get(
+                "spell_id"
+            )
+            if spell_id is not None:
+                by_spell[
+                    str(int(spell_id))
+                ] = talent
+            name = (
+                str(
+                    talent.get(
+                        "talent_name",
+                        "",
+                    )
+                )
+                .strip()
+                .casefold()
+            )
+            if name:
+                by_name[name] = talent
+
+        result[
+            hotfix_date.isoformat()
+        ] = {
+            "commit": commit,
+            "by_spell": by_spell,
+            "by_name": by_name,
+        }
+
+    return result
+
+
 async def discover_specs() -> tuple[dict, list[dict]]:
     client = CachedClient(concurrency=4)
 
@@ -297,11 +410,24 @@ async def build_one(
             )
         )
 
+    slug = slugify(
+        class_name,
+        spec_name,
+    )
+    hotfix_baselines = (
+        _load_historical_hotfix_baselines(
+            slug=slug,
+            hotfixes=official_hotfixes,
+        )
+    )
+
     hotfix_report = (
         blizzard_hotfixes
         .apply_official_pvp_hotfixes(
             spec_catalog,
             official_hotfixes,
+            historical_talents_by_date=
+                hotfix_baselines,
         )
     )
 
@@ -339,11 +465,6 @@ async def build_one(
         if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}
     ]
     payload["official_hotfixes"] = hotfix_report
-
-    slug = slugify(
-        class_name,
-        spec_name,
-    )
 
     payload["slug"] = slug
     payload["generated_at"] = (

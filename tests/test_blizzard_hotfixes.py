@@ -449,3 +449,107 @@ def test_relative_hotfix_fails_closed_without_source_evidence():
     )
     assert len(report["unresolved"]) == 1
     assert report["unresolved"][0]["reason"] == "RELATIVE_HOTFIX_NOT_IN_MECHANICS"
+
+
+
+def test_relative_hotfix_can_use_pre_hotfix_verified_snapshot():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Example Strike",
+        current_percent=100,
+        previous_percent=None,
+        target_hint=None,
+        text="Example Strike damage increased by 100% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="relative_increase",
+        context_path=("Death Knight", "Unholy"),
+    )
+    talent = FakeTalent(
+        talent_name="Example Strike",
+        spell_id=123,
+        pve_tooltip="Deals damage.",
+        pvp_tooltip="Deals damage.",
+        mechanics=[
+            {
+                "source_spell_id": 456,
+                "effect_index": 1,
+                "spell_pvp_multiplier": 2.704,
+                "aura_factor": 1.02,
+                "final_pvp_multiplier": 2.75808,
+                "aura_rules": [],
+            }
+        ],
+    )
+    catalog = FakeCatalog(talents=[talent])
+    catalog.class_name = "Death Knight"
+    catalog.spec_name = "Unholy"
+    baseline = {
+        "2026-09-22": {
+            "commit": "oldverified",
+            "by_spell": {
+                "123": {
+                    "spell_id": 123,
+                    "talent_name": "Example Strike",
+                    "mechanics": [
+                        {
+                            "source_spell_id": 456,
+                            "effect_index": 1,
+                            "spell_pvp_multiplier": 1.352,
+                            "aura_factor": 1.02,
+                            "final_pvp_multiplier": 1.37904,
+                        }
+                    ],
+                }
+            },
+            "by_name": {},
+        }
+    }
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+        historical_talents_by_date=baseline,
+    )
+    assert report["unresolved"] == []
+    evidence = report["already_current"][0]["evidence"]
+    assert evidence["source"] == "historical_verified_snapshot"
+    assert evidence["old_value"] == 1.352
+    assert evidence["new_value"] == 2.704
+
+
+def test_relative_hotfix_name_suffix_can_map_to_parent_talent():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Takedown Pet",
+        current_percent=15,
+        previous_percent=None,
+        target_hint=None,
+        text="Takedown Pet damage reduced by 15% in PvP combat.",
+        hotfix_date=None,
+        mode="relative_reduction",
+        context_path=("Hunter", "Survival"),
+    )
+    talent = FakeTalent(
+        talent_name="Takedown",
+        spell_id=123,
+        pve_tooltip="Deals damage.",
+        pvp_tooltip="Deals damage.",
+        mechanics=[
+            {
+                "source_spell_id": 456,
+                "effect_index": 1,
+                "spell_pvp_multiplier": 0.85,
+                "aura_factor": 1.0,
+                "final_pvp_multiplier": 0.85,
+                "aura_rules": [],
+            }
+        ],
+    )
+    catalog = FakeCatalog(talents=[talent])
+    catalog.class_name = "Hunter"
+    catalog.spec_name = "Survival"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+    assert report["unresolved"] == []
+    assert report["already_current"][0]["talent_name"] == "Takedown"
