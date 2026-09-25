@@ -34,45 +34,6 @@ jobs:
       - name: Snapshot official Blizzard PvP hotfixes
         run: python scripts/fetch_official_hotfixes.py --output official-hotfixes.json
 
-      - name: Inspect exact-build SimC Agony state
-        run: |
-          python - <<'PY'
-          import asyncio
-          from pvpcalc.http import CachedClient
-          from pvpcalc.sources import simc
-
-          async def main():
-              client = CachedClient(concurrency=2)
-              try:
-                  dump = await simc.fetch_dump(
-                      client,
-                      "Warlock",
-                      target_build="12.1.0.69933",
-                  )
-              finally:
-                  await client.aclose()
-
-              spell = dump.spells.get(980)
-              print("SIMC_BUILD", dump.build)
-              print("AGONY_RAW_START")
-              print(spell.raw if spell else "MISSING SPELL 980")
-              print("AGONY_RAW_END")
-
-              if spell:
-                  for index, effect in simc.parse_spell_effects(spell).items():
-                      print(
-                          "AGONY_EFFECT",
-                          index,
-                          "pvp=", effect.pvp_coefficient,
-                          "hotfix_previous=", effect.pvp_hotfix_previous,
-                          "base=", effect.base_value,
-                          "sp=", effect.sp_coefficient,
-                          "text=", effect.text,
-                      )
-
-          asyncio.run(main())
-          PY
-
       - name: Build Affliction with current hotfix snapshot
         env:
           WOW_PVP_HOTFIX_FILE: official-hotfixes.json
