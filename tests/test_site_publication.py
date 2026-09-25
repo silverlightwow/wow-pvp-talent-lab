@@ -19,7 +19,9 @@ def artifact(tmp_path):
                 verification_status='VERIFIED', fetch_error_count=0, unresolved_count=0, review_required_count=0)
     m = dict(classes=[dict(name='Priest', class_id=5, specs=[spec])],
              spec_count=1, verified_count=1, partial_count=0, default_slug=spec['slug'],
-             tree_build=build, content_hash='controlled-test-topology')
+             tree_build=build, content_hash='controlled-test-topology',
+             hotfix_snapshot_hash='controlled-test-hotfixes',
+             hotfix_latest_date='2026-09-24')
     talents = [dict(spell_id=1000+i, entry_id=2000+i, node_id=3000+i,
                     tree_data={'required_points': 0}, pve_tooltip='Heals for 10.',
                     pvp_tooltip='Heals for 15.', tooltip_changed=True,
