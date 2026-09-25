@@ -123,6 +123,33 @@ jobs:
           node scripts/loadout_check.cjs
           node scripts/build_browser_check.cjs
           node scripts/ui_refinements_check.cjs
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const path=require('node:path');
+          const D=require('./web/change-direction.js');
+          const root='web/data';
+          const neutral=[];
+          for(const name of fs.readdirSync(root).filter(n=>n.endsWith('.json')&&n!=='manifest.json')){
+            const data=JSON.parse(fs.readFileSync(path.join(root,name)));
+            for(const talent of data.talents||[]){
+              if((talent.changes||[]).length && D.talentDirection(talent)==='neutral'){
+                neutral.push({
+                  spec:name.replace(/\.json$/,''),
+                  talent:talent.talent_name,
+                  spell_id:talent.spell_id,
+                  changes:talent.changes.map(x=>({
+                    kind:x.kind,
+                    old:x.old_token,
+                    new:x.new_token,
+                    source:x.source||null
+                  })),
+                  pve:talent.pve_tooltip
+                });
+              }
+            }
+          }
+          console.log('NEUTRAL_DIRECTION_DIAGNOSTIC='+JSON.stringify(neutral));
+          NODE
           node scripts/change_direction_check.cjs
           node scripts/presentation_browser_check.cjs
           node --check web/service-worker.js
