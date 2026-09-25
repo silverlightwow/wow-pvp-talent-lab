@@ -33,6 +33,8 @@ HTML = """
     </ul>
   </li>
   <li>Some PvE Talent damage increased by 20%. Does not apply to PvP combat.</li>
+  <li>Ravage damage increased by 20% in PvP combat.</li>
+  <li>Ebon Might grants 12% primary stat in PvP combat (was 10%).</li>
 </ul>
 </body></html>
 """
@@ -70,6 +72,9 @@ def test_parse_current_absolute_pvp_hotfixes():
 
     assert by_name["Chrono Shift"].talent_name == "Chrono Shift"
     assert "Some PvE Talent" not in by_name
+    assert "Ravage" not in by_name
+    assert by_name["Ebon Might"].current_percent == 12
+    assert by_name["Ebon Might"].previous_percent == 10
 
 
 def test_apply_official_hotfix_overlay_and_highlight():

@@ -140,6 +140,29 @@ def _parse_candidate(
         else None
     )
 
+    # Relative tuning notes such as "Ravage damage increased by 20% in
+    # PvP combat" describe a multiplier on an effect, not an absolute
+    # tooltip percentage. The exact-build effect pipeline owns those.
+    # This overlay is intentionally limited to absolute player-facing
+    # percentages ("now reduces ... by 40%", "grants 12% ... (was 10%)",
+    # etc.) where a deterministic text reconciliation is possible.
+    relative_tuning = re.search(
+        r"\\b(?:damage|healing)\\s+"
+        r"(?:increased|reduced)\\s+by\\s+"
+        r"\\d+(?:\\.\\d+)?\\s*%",
+        text,
+        re.I,
+    )
+
+    if relative_tuning is not None:
+        return None
+
+    if (
+        previous is None
+        and " now " not in text.casefold()
+    ):
+        return None
+
     target_match = _TARGET_OF_RE.search(before_was)
     target_hint = (
         _clean_text(target_match.group("target"))
