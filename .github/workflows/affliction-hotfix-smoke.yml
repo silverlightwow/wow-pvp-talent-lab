@@ -1,0 +1,49 @@
+name: Affliction hotfix smoke
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/affliction-hotfix-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  affliction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: python -m pip install -e '.[dev]'
+
+      - name: Focused hotfix regression tests
+        run: |
+          pytest -q             tests/test_blizzard_hotfixes.py             tests/test_pipeline_simc_triangulation.py
+
+      - name: Snapshot official Blizzard PvP hotfixes
+        run: python scripts/fetch_official_hotfixes.py --output official-hotfixes.json
+
+      - name: Build Affliction with current hotfix snapshot
+        env:
+          WOW_PVP_HOTFIX_FILE: official-hotfixes.json
+        run: |
+          python scripts/build_all_site_data.py             --class-name Warlock             --spec-name Affliction             --output-dir spec-data             --concurrency 4
+
+      - run: python scripts/validate_site_data.py --data-dir spec-data
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: affliction-hotfix-smoke
+          path: spec-data
+          retention-days: 2
+          if-no-files-found: error
