@@ -1510,10 +1510,10 @@ def _relative_hotfix_factor(
 
 
 _RELATIVE_RENDER_NUMBER_RE = re.compile(
-    r"^(?P<prefix>\\s*)"
-    r"(?P<value>[+-]?\\d+(?:\\.\\d+)?)"
+    r"^(?P<prefix>\s*)"
+    r"(?P<value>[+-]?\d+(?:\.\d+)?)"
     r"(?P<suffix>%?)"
-    r"(?P<tail>\\s*)$"
+    r"(?P<tail>\s*)$"
 )
 
 
