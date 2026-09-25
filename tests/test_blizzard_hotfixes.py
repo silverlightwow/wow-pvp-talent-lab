@@ -667,3 +667,198 @@ def test_parse_spec_wide_relative_damage_hotfix():
     assert item.talent_name == "__SPEC_DAMAGE__"
     assert item.mode == "spec_relative_increase"
     assert item.context_path == ("Rogue", "Outlaw")
+
+
+def test_historical_relative_evidence_requires_announced_ratio():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Example Strike",
+        current_percent=20,
+        previous_percent=None,
+        target_hint=None,
+        text="Example Strike damage increased by 20% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="relative_increase",
+        context_path=("Warrior", "Arms"),
+    )
+    talent = FakeTalent(
+        talent_name="Example Strike",
+        spell_id=123,
+        pve_tooltip="Deals damage.",
+        pvp_tooltip="Deals damage.",
+        mechanics=[{
+            "source_spell_id": 456,
+            "effect_index": 1,
+            "spell_pvp_multiplier": 1.10,
+            "aura_factor": 1.0,
+            "final_pvp_multiplier": 1.10,
+        }],
+    )
+    catalog = FakeCatalog(talents=[talent])
+    catalog.class_name = "Warrior"
+    catalog.spec_name = "Arms"
+    baseline = {
+        "2026-09-22": {
+            "commit": "oldverified",
+            "by_spell": {
+                "123": {
+                    "mechanics": [{
+                        "source_spell_id": 456,
+                        "effect_index": 1,
+                        "spell_pvp_multiplier": 1.0,
+                        "aura_factor": 1.0,
+                        "final_pvp_multiplier": 1.0,
+                    }],
+                }
+            },
+            "by_name": {},
+        }
+    }
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+        historical_talents_by_date=baseline,
+    )
+    assert len(report["unresolved"]) == 1
+    assert report["already_current"] == []
+
+
+def test_historical_relative_evidence_uses_composed_player_value():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Child Strike",
+        current_percent=20,
+        previous_percent=None,
+        target_hint=None,
+        text="Child Strike damage increased by 20%.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="relative_increase",
+        context_path=("Paladin", "Retribution"),
+    )
+    talent = FakeTalent(
+        talent_name="Parent Talent",
+        spell_id=123,
+        pve_tooltip="Parent.\nChild Strike:\nDeals damage.",
+        pvp_tooltip="Parent.\nChild Strike:\nDeals damage.",
+        mechanics=[{
+            "source_spell_id": 456,
+            "effect_index": 1,
+            "effect_text": "School Damage (Holy) (AP mod: 10.4516 )",
+            "spell_pvp_multiplier": 0.544,
+            "aura_factor": 1.173,
+            "final_pvp_multiplier": 0.638112,
+        }],
+    )
+    catalog = FakeCatalog(talents=[talent])
+    catalog.class_name = "Paladin"
+    catalog.spec_name = "Retribution"
+    baseline = {
+        "2026-09-22": {
+            "commit": "oldverified",
+            "by_spell": {
+                "123": {
+                    "mechanics": [{
+                        "source_spell_id": 456,
+                        "effect_index": 1,
+                        "effect_text": "School Damage (Holy) (AP mod: 6.96774 )",
+                        "spell_pvp_multiplier": 0.68,
+                        "aura_factor": 1.173,
+                        "final_pvp_multiplier": 0.79764,
+                    }],
+                }
+            },
+            "by_name": {},
+        }
+    }
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+        historical_talents_by_date=baseline,
+    )
+    assert report["unresolved"] == []
+    assert report["ignored_non_talent"] == []
+    assert len(report["already_current"]) == 1
+    assert report["already_current"][0]["talent_name"] == "Parent Talent"
+    evidence = report["already_current"][0]["evidence"]
+    assert evidence["field"] == "effective_player_value"
+    assert abs(evidence["ratio"] - 1.2) < 1e-4
+
+
+def test_embedded_hotfix_parent_requires_standalone_heading():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Baseline Slow",
+        current_percent=20,
+        previous_percent=None,
+        target_hint=None,
+        text="Baseline Slow damage increased by 20% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="relative_increase",
+        context_path=("Hunter",),
+    )
+    talent = FakeTalent(
+        talent_name="Related Talent",
+        spell_id=123,
+        pve_tooltip="Baseline Slow is improved by this talent.",
+        pvp_tooltip="Baseline Slow is improved by this talent.",
+    )
+    catalog = FakeCatalog(talents=[talent])
+    catalog.class_name = "Hunter"
+    catalog.spec_name = "Marksmanship"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+    assert report["already_current"] == []
+    assert report["unresolved"] == []
+    assert len(report["ignored_non_talent"]) == 1
+
+
+def test_spec_wide_relative_hotfix_rejects_wrong_aura_delta():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="__SPEC_DAMAGE__",
+        current_percent=5,
+        previous_percent=None,
+        target_hint=None,
+        text="All damage increased by 5% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 22),
+        mode="spec_relative_increase",
+        context_path=("Rogue", "Outlaw"),
+    )
+    talents = []
+    old_by_spell = {}
+    for index in range(3):
+        spell_id = 200 + index
+        talents.append(FakeTalent(
+            talent_name=f"Talent {index}",
+            spell_id=spell_id,
+            pve_tooltip="Deals damage.",
+            pvp_tooltip="Deals damage.",
+            mechanics=[{
+                "source_spell_id": spell_id,
+                "effect_index": 1,
+                "aura_factor": 0.96,
+            }],
+        ))
+        old_by_spell[str(spell_id)] = {
+            "mechanics": [{
+                "source_spell_id": spell_id,
+                "effect_index": 1,
+                "aura_factor": 0.94,
+            }],
+        }
+    catalog = FakeCatalog(talents=talents)
+    catalog.class_name = "Rogue"
+    catalog.spec_name = "Outlaw"
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+        historical_talents_by_date={
+            "2026-09-22": {
+                "commit": "baseline",
+                "by_spell": old_by_spell,
+                "by_name": {},
+            }
+        },
+    )
+    assert len(report["unresolved"]) == 1
+    assert report["already_current"] == []

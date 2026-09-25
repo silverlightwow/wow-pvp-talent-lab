@@ -1520,6 +1520,145 @@ def _relative_name_candidates(
     return tuple(values)
 
 
+_MECHANIC_COEFFICIENT_RE = re.compile(
+    r"\b(?:AP|SP)\s+mod:\s*"
+    r"(?P<value>[+-]?\d+(?:\.\d+)?)",
+    re.I,
+)
+
+
+def _embedded_hotfix_parent_candidates(
+    spec_catalog,
+    hotfix: OfficialPvpHotfix,
+) -> list:
+    """Find tree talents whose player text embeds a named child ability.
+
+    This intentionally requires a standalone "Ability Name:" heading.
+    Mere mentions such as "Wing Clip slows..." are not enough: baseline
+    abilities are outside this talent-tree calculator and must not be
+    mistaken for an embedded output spell.
+    """
+    target = _normalize_name(
+        hotfix.talent_name
+    )
+    if (
+        not target
+        or target.startswith("__")
+    ):
+        return []
+
+    result = []
+
+    for talent in spec_catalog.talents:
+        tooltip = str(
+            getattr(
+                talent,
+                "pve_tooltip",
+                "",
+            )
+            or getattr(
+                talent,
+                "pvp_tooltip",
+                "",
+            )
+            or ""
+        )
+
+        headings = {
+            _normalize_name(
+                line.strip()[:-1]
+            )
+            for line in tooltip.splitlines()
+            if (
+                line.strip().endswith(":")
+                and line.strip()[:-1]
+            )
+        }
+
+        if target in headings:
+            result.append(talent)
+
+    return result
+
+
+def _effective_mechanic_value(
+    row: dict,
+) -> float | None:
+    """Return a comparable player-facing value for one mechanic row."""
+    final_value = row.get(
+        "final_pvp_value"
+    )
+    if final_value is not None:
+        try:
+            return float(final_value)
+        except (TypeError, ValueError):
+            pass
+
+    try:
+        final_multiplier = float(
+            row.get(
+                "final_pvp_multiplier"
+            )
+        )
+    except (TypeError, ValueError):
+        return None
+
+    coefficient = (
+        _MECHANIC_COEFFICIENT_RE.search(
+            str(
+                row.get(
+                    "effect_text",
+                    "",
+                )
+                or ""
+            )
+        )
+    )
+
+    if coefficient is not None:
+        return (
+            float(
+                coefficient.group(
+                    "value"
+                )
+            )
+            * final_multiplier
+        )
+
+    try:
+        base_value = float(
+            row.get("base_value")
+        )
+    except (TypeError, ValueError):
+        return None
+
+    return (
+        base_value
+        * final_multiplier
+    )
+
+
+def _ratio_matches_relative_hotfix(
+    old_value: float,
+    new_value: float,
+    hotfix: OfficialPvpHotfix,
+) -> bool:
+    expected = _relative_hotfix_factor(
+        hotfix
+    )
+    if (
+        expected is None
+        or abs(old_value) <= 1e-12
+    ):
+        return False
+
+    actual = new_value / old_value
+
+    return abs(
+        actual - expected
+    ) <= 0.015
+
+
 def _historical_relative_evidence(
     talent,
     hotfix: OfficialPvpHotfix,
@@ -1574,11 +1713,6 @@ def _historical_relative_evidence(
         )
     }
 
-    increasing = (
-        hotfix.mode
-        == "relative_increase"
-    )
-
     for row in (
         getattr(talent, "mechanics", None)
         or []
@@ -1590,6 +1724,46 @@ def _historical_relative_evidence(
         old_row = old_rows.get(key)
         if old_row is None:
             continue
+
+        old_effective = (
+            _effective_mechanic_value(
+                old_row
+            )
+        )
+        new_effective = (
+            _effective_mechanic_value(
+                row
+            )
+        )
+
+        if (
+            old_effective is not None
+            and new_effective is not None
+            and _ratio_matches_relative_hotfix(
+                old_effective,
+                new_effective,
+                hotfix,
+            )
+        ):
+            return {
+                "source":
+                    "historical_verified_snapshot",
+                "field":
+                    "effective_player_value",
+                "source_spell_id":
+                    key[0],
+                "effect_index":
+                    key[1],
+                "old_value":
+                    old_effective,
+                "new_value":
+                    new_effective,
+                "ratio":
+                    new_effective
+                    / old_effective,
+                "baseline_commit":
+                    baseline.get("commit"),
+            }
 
         for field in (
             "spell_pvp_multiplier",
@@ -1606,17 +1780,13 @@ def _historical_relative_evidence(
             except (TypeError, ValueError):
                 continue
 
-            delta = new_value - old_value
-            if abs(delta) <= 1e-6:
-                continue
-            if increasing != (delta > 0):
+            if not _ratio_matches_relative_hotfix(
+                old_value,
+                new_value,
+                hotfix,
+            ):
                 continue
 
-            ratio = (
-                new_value / old_value
-                if abs(old_value) > 1e-12
-                else None
-            )
             return {
                 "source":
                     "historical_verified_snapshot",
@@ -1631,13 +1801,12 @@ def _historical_relative_evidence(
                 "new_value":
                     new_value,
                 "ratio":
-                    ratio,
+                    new_value / old_value,
                 "baseline_commit":
                     baseline.get("commit"),
             }
 
     return None
-
 
 
 def _mechanic_contains_factor(
@@ -1710,9 +1879,14 @@ def _spec_historical_relative_evidence(
     if not baseline:
         return None
 
-    increasing = (
-        hotfix.mode
-        == "spec_relative_increase"
+    expected_delta = (
+        hotfix.current_percent / 100.0
+        * (
+            1.0
+            if hotfix.mode
+            == "spec_relative_increase"
+            else -1.0
+        )
     )
     old_by_spell = baseline.get(
         "by_spell",
@@ -1767,9 +1941,9 @@ def _spec_historical_relative_evidence(
                 continue
 
             delta = new_value - old_value
-            if abs(delta) <= 1e-6:
-                continue
-            if increasing != (delta > 0):
+            if abs(
+                delta - expected_delta
+            ) > 0.011:
                 continue
 
             changed.append(
@@ -1788,6 +1962,10 @@ def _spec_historical_relative_evidence(
                         old_value,
                     "new_aura_factor":
                         new_value,
+                    "delta":
+                        delta,
+                    "expected_delta":
+                        expected_delta,
                 }
             )
             if len(changed) >= 3:
@@ -1919,6 +2097,19 @@ def apply_official_pvp_hotfixes(
             )
             if matches:
                 break
+
+        if (
+            not matches
+            and hotfix.mode.startswith(
+                "relative_"
+            )
+        ):
+            matches = (
+                _embedded_hotfix_parent_candidates(
+                    spec_catalog,
+                    hotfix,
+                )
+            )
 
         if not matches:
             ignored.append(
