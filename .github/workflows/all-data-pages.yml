@@ -7,9 +7,8 @@ on:
     branches: [main]
     paths:
       - 'pvpcalc/**'
-      - 'scripts/**'
+      - 'scripts/**/*.py'
       - 'tests/**'
-      - 'web/**'
       - 'package*.json'
       - 'pyproject.toml'
       - '.github/workflows/all-data-pages.yml'
@@ -19,6 +18,9 @@ permissions:
   pages: write
   id-token: write
 concurrency:
+  # UI-only pushes are published by publish-web.yml and no longer restart
+  # the expensive 40-spec data refresh. Data/code pushes may supersede an
+  # older data run, while the 6-hour schedule remains the freshness source.
   group: all-data-pages
   cancel-in-progress: true
 jobs:

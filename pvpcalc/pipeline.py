@@ -3699,10 +3699,14 @@ def _game_effect_id(observation) -> int | None:
 
 
 def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
-    """Recognize a demonstrably older row; never equate different effects.
+    """Resolve a stale or internally conflicting Drustvar effect safely.
 
-    Two current sources must agree on the concrete replacement effect,
-    including its multiplier. Retain the old observation as provenance.
+    The concrete game_effect_id must exist in exact-build SimC, and
+    current Wowhead + SimC must agree on the replacement effect index
+    and multiplier. This also covers a Drustvar row stamped with the
+    current build but carrying stale description/value data.
+
+    A Drustvar row from a *newer* build is never overridden here.
     """
     if item.get("reason") != "UNMATCHED_DRUSTVAR_EFFECT":
         return None
@@ -3710,8 +3714,14 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
     new_build = str(simc_dump.build or "")
     if not all(re.fullmatch(r"\d+\.\d+\.\d+\.\d+", b) for b in (old_build, new_build)):
         return None
-    if tuple(map(int, old_build.split('.'))) >= tuple(map(int, new_build.split('.'))):
+
+    old_build_tuple = tuple(map(int, old_build.split(".")))
+    new_build_tuple = tuple(map(int, new_build.split(".")))
+
+    if old_build_tuple > new_build_tuple:
         return None
+
+    same_build_conflict = old_build_tuple == new_build_tuple
     game_id = item.get("game_effect_id")
     spell_id = int(item.get("source_spell_id", item["spell_id"]))
     spell = simc_dump.spells.get(spell_id)
@@ -3750,7 +3760,16 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
                 "effect_index": effect.effect_index,
                 "current_multiplier": effect.pvp_coefficient,
                 "current_effect_text": effect.effect_text,
-                "resolved_by": ["wowhead", "simc_exact_build"],
+                "source_build_relation": (
+                    "same_build_conflict"
+                    if same_build_conflict
+                    else "older_source"
+                ),
+                "resolved_by": [
+                    "wowhead",
+                    "simc_exact_build",
+                    "game_effect_id",
+                ],
             }
 
         # Strong exact-build fallback for a stale source whose concrete
@@ -3766,7 +3785,8 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
         hotfix_previous = effect.pvp_hotfix_previous
 
         if (
-            old_multiplier is not None
+            old_build_tuple < new_build_tuple
+            and old_multiplier is not None
             and hotfix_previous is not None
             and multipliers_close(
                 float(old_multiplier),

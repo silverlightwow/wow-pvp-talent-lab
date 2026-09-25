@@ -423,7 +423,18 @@ def test_superseded_drustvar_requires_exact_effect_identity_and_current_agreemen
     assert result['multiplier'] == 0  # Old source evidence is retained.
     assert result['current_multiplier'] == -1
     assert resolve(dict(item, game_effect_id=9999)) is None
-    assert resolve(dict(item, source_build=dump.build)) is None
+
+    same_build = resolve(dict(item, source_build=dump.build))
+    assert same_build is not None
+    assert same_build["reason"] == "SUPERSEDED_DRUSTVAR_EFFECT"
+    assert same_build["current_multiplier"] == -1
+    assert same_build["source_build_relation"] == "same_build_conflict"
+    assert same_build["resolved_by"] == [
+        "wowhead",
+        "simc_exact_build",
+        "game_effect_id",
+    ]
+
     assert resolve(dict(item, source_build='12.1.0.99999')) is None
     assert resolve(dict(item, source_build=None)) is None
     from dataclasses import replace
@@ -1002,3 +1013,56 @@ def test_generated_exact_build_uses_human_dump_semantics_for_generic_db2_labels(
         ]
         == 1028897
     )
+
+
+def test_same_build_drustvar_conflict_is_kept_only_when_two_current_sources_agree():
+    """Regression: Drustvar may stamp a stale row with the current build."""
+    from pathlib import Path
+    from dataclasses import replace
+    from pvpcalc.sources.simc import parse_dump
+
+    dump = parse_dump(
+        Path("tests/fixtures/simc-1266151.txt").read_text(),
+        class_slug="evoker",
+    )
+    wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=1266151,
+        spell_name="Strafing Run",
+        effect_index=1,
+        base_value=20,
+        pvp_multiplier=-1,
+        effect_text="Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+        patch=None,
+        url="",
+        raw="",
+    )
+    item = {
+        "spell_id": 1266151,
+        "talent_name": "Strafing Run",
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "source_build": dump.build,
+        "game_effect_id": 1278387,
+        "multiplier": 0,
+        "effect_text": (
+            "Apply Aura (6) | Add Percent Modifier (108): "
+            "Spell Direct Amount (0)"
+        ),
+    }
+
+    resolved = pipeline._superseded_drustvar_effect(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={1266151: [wowhead]},
+    )
+    assert resolved is not None
+    assert resolved["current_multiplier"] == -1
+
+    # Never hide a real two-source disagreement.
+    conflict = replace(wowhead, pvp_multiplier=0)
+    assert pipeline._superseded_drustvar_effect(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={1266151: [conflict]},
+    ) is None
