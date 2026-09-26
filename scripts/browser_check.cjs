@@ -43,6 +43,13 @@ function assertDescription(shown, original) {
     await page.waitForFunction(({name,cls}) => !document.querySelector('#specSelect').disabled && document.querySelector('#treeTitle').textContent === `${name} ${cls}`, {name:spec.name,cls:spec.className});
     const data = JSON.parse(fs.readFileSync(path.join(root,`web/data/${spec.slug}.json`)));
     const pvpRecords=[...(data.talents||[]),...(data.abilities||[])];
+
+    if (spec.className === 'Hunter') {
+     const wingClip=(data.abilities||[]).find(record=>record.talent_name==='Wing Clip');
+     assert.ok(wingClip,`${spec.slug}: Wing Clip must be exposed as a non-tree PvP ability`);
+     assert.ok(wingClip.tooltip_changed,`${spec.slug}: Wing Clip must have a PvP tooltip difference`);
+     assert.match(wingClip.pvp_tooltip,/40%/,`${spec.slug}: Wing Clip PvP tooltip must show the current 40% slow`);
+    }
     assert.equal(Number(await page.locator('#changedBadge').textContent()),pvpRecords.filter(t=>t.tooltip_changed).length);
 
     // A talent must never silently inherit the site's brand icon. This is
@@ -232,6 +239,15 @@ function assertDescription(shown, original) {
     assert.equal(await page.locator('.change-context').count(),0);
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`comparison overflow ${spec.slug} ${width}`);
     await page.locator('[data-tab="compendium"]').click();
+
+    if (spec.className === 'Hunter') {
+     const wingClipItem=page.locator('#compendiumList .compendium-item').filter({hasText:'Wing Clip'});
+     assert.equal(await wingClipItem.count(),1,`${spec.slug}: Wing Clip must appear once in PvP mechanics`);
+     await wingClipItem.click();
+     assert.ok(await page.locator('#compendiumDetail .mechanic-card').count()>0,`${spec.slug}: Wing Clip must have a visible official-hotfix mechanic card`);
+     assert.match(await page.locator('#compendiumDetail').textContent(),/40%/,`${spec.slug}: Wing Clip mechanics must expose the current 40% PvP value`);
+    }
+
     const items=page.locator('#compendiumList .compendium-item');
     if(await items.count()) {
      await items.last().click();
