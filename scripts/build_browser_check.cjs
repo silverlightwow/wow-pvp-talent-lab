@@ -65,7 +65,7 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
     naturalWidth:img.naturalWidth,
     display:getComputedStyle(img).display
    }));
-   assert.match(iconState.src,/\.\/icons\/ability_rogue_trip\.jpg$/,'Wing Clip must use bundled legacy icon');
+   assert.match(iconState.src,/\.\/icons\/spells\/195645\.jpg$/,'Wing Clip must use the generic bundled spell-id icon fallback');
    assert.equal(iconState.complete,true,'Wing Clip icon did not finish loading');
    assert.ok(iconState.naturalWidth>0,'Wing Clip bundled icon failed to load');
    assert.notEqual(iconState.display,'none','Wing Clip icon must remain visible');
