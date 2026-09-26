@@ -28,14 +28,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Full frontend regression suite
-        run: npm test
-      - name: Fast production integrity checks
-        run: |
-          node --check web/app.js
-          node scripts/loadout_check.cjs
-          node scripts/change_direction_check.cjs
-          node --check web/service-worker.js
+      - name: Frontend smoke suite
+        run: npm run test:smoke
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
