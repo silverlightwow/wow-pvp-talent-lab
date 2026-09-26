@@ -13,7 +13,7 @@ import tempfile
 
 from pvpcalc import catalog, pipeline
 from pvpcalc.http import CachedClient
-from pvpcalc.sources import raidbots, blizzard_hotfixes
+from pvpcalc.sources import raidbots, blizzard_hotfixes, wowhead
 
 from build_site_data import _json_default
 
@@ -458,6 +458,16 @@ async def build_one(
             int(spell_id)
         )
 
+    class_id = next(
+        (
+            int(row["class_id"])
+            for row in audit.talents
+            if row.get("class_id") is not None
+        ),
+        None,
+    )
+    wowhead_class_index = None
+
     for hotfix in official_hotfixes:
         if not (
             blizzard_hotfixes
@@ -516,14 +526,71 @@ async def build_one(
             audit.standalone_spell_ids.add(
                 candidate_ids.pop()
             )
-        # Multiple same-name SimC records are common for triggered/rank/
-        # implementation variants (for example Hammer of Light). Do not guess
-        # which one is player-facing here. Existing parent/dependency matching
-        # gets the first opportunity to prove the hotfix; if it cannot, the
-        # scoped-hotfix invariant below fails publication closed.
-        #
-        # Zero candidates follow the same path: never invent an identity, but
-        # also never silently drop a class/spec-scoped official change.
+            continue
+
+        # Relative notes often describe a triggered child of an existing
+        # selectable talent. Let the established dependency/embedded-parent
+        # resolver prove those rather than promoting an implementation spell.
+        if hotfix.mode.startswith(
+            "relative_"
+        ):
+            continue
+
+        # Some real player-facing records (especially PvP talents) are absent
+        # from SimC's class SpellDataDump. Fall back to Wowhead's *class*
+        # catalog, which lists ordinary abilities and PvP talents with stable
+        # spell links. This is exact-name identity resolution, never fuzzy.
+        if class_id is not None:
+            if wowhead_class_index is None:
+                identity_client = CachedClient(
+                    concurrency=1
+                )
+                try:
+                    raw_index = (
+                        await wowhead
+                        .fetch_class_spell_index(
+                            identity_client,
+                            class_id=class_id,
+                            class_name=class_name,
+                        )
+                    )
+                finally:
+                    await identity_client.aclose()
+
+                wowhead_class_index = {}
+                for raw_name, spell_ids in (
+                    raw_index.items()
+                ):
+                    wowhead_class_index.setdefault(
+                        blizzard_hotfixes
+                        ._normalize_name(
+                            raw_name
+                        ),
+                        set(),
+                    ).update(
+                        int(value)
+                        for value in spell_ids
+                    )
+
+            class_candidate_ids = set()
+            for name in lookup_names:
+                class_candidate_ids.update(
+                    wowhead_class_index.get(
+                        name,
+                        set(),
+                    )
+                )
+
+            if len(class_candidate_ids) == 1:
+                audit.standalone_spell_ids.add(
+                    class_candidate_ids.pop()
+                )
+                continue
+
+        # Multiple/zero candidates intentionally fall through. Never guess
+        # among implementation variants; the official-hotfix application
+        # below must either prove a parent mapping or fail VERIFIED publication
+        # closed.
 
     spec_catalog = await catalog.build_spec_catalog(
         audit,
