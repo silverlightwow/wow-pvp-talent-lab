@@ -2859,8 +2859,27 @@ def apply_official_pvp_hotfixes(
             # it has no talent-tree node.  The catalog builder materializes
             # baseline spellbook abilities; if it cannot, VERIFIED publication
             # must fail instead of silently dropping the hotfix.
-            if _hotfix_has_explicit_class_or_spec_scope(
-                hotfix
+            catalog_has_identity = bool(
+                _normalize_name(
+                    getattr(
+                        spec_catalog,
+                        "class_name",
+                        "",
+                    )
+                )
+                or _normalize_name(
+                    getattr(
+                        spec_catalog,
+                        "spec_name",
+                        "",
+                    )
+                )
+            )
+            if (
+                catalog_has_identity
+                and _hotfix_has_explicit_class_or_spec_scope(
+                    hotfix
+                )
             ):
                 item["reason"] = (
                     "SCOPED_ABILITY_NOT_IN_CATALOG"
