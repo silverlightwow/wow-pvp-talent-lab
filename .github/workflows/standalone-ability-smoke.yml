@@ -1,0 +1,84 @@
+name: Standalone PvP ability smoke
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "pvpcalc/**"
+      - "scripts/**/*.py"
+      - "tests/**"
+      - ".github/workflows/standalone-ability-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: standalone-pvp-ability-smoke-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hotfixes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - name: Snapshot current official PvP hotfixes
+        run: python scripts/fetch_official_hotfixes.py --output official-hotfixes.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: standalone-hotfix-snapshot
+          path: official-hotfixes.json
+          retention-days: 1
+          if-no-files-found: error
+
+  build:
+    needs: hotfixes
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - class_name: Hunter
+            spec_name: Survival
+          - class_name: Mage
+            spec_name: Arcane
+          - class_name: Paladin
+            spec_name: Retribution
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - uses: actions/download-artifact@v4
+        with:
+          name: standalone-hotfix-snapshot
+          path: .hotfixes
+      - name: Build and verify current specialization
+        env:
+          CLASS_NAME: ${{ matrix.class_name }}
+          SPEC_NAME: ${{ matrix.spec_name }}
+          WOW_PVP_HOTFIX_FILE: .hotfixes/official-hotfixes.json
+        run: |
+          python scripts/build_all_site_data.py \
+            --class-name "$CLASS_NAME" \
+            --spec-name "$SPEC_NAME" \
+            --output-dir spec-data \
+            --concurrency 4
+          python scripts/validate_site_data.py --data-dir spec-data
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: "standalone-smoke-${{ matrix.class_name }}-${{ matrix.spec_name }}"
+          path: spec-data
+          retention-days: 1
+          if-no-files-found: ignore
