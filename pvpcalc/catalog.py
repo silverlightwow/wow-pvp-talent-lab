@@ -370,6 +370,7 @@ async def attach_official_hotfix_abilities(
         return {
             "resolved": [],
             "unresolved": [],
+            "ignored": [],
         }
 
     dump = getattr(
@@ -391,6 +392,7 @@ async def attach_official_hotfix_abilities(
                 }
                 for hotfix in pending
             ],
+            "ignored": [],
         }
 
     by_name = {}
@@ -461,6 +463,7 @@ async def attach_official_hotfix_abilities(
 
     resolved = []
     unresolved = []
+    ignored = []
 
     for hotfix in pending:
         normalized = (
@@ -559,7 +562,27 @@ async def attach_official_hotfix_abilities(
                     )
                 )
 
+        if not spells:
+            # A class-scoped Blizzard bullet may name a talent/ability that
+            # this specialization simply does not own. Exact-build SimC is
+            # our spellbook boundary: no exact-name spell means "not part of
+            # this spec", not a broken base-ability resolution.
+            ignored.append(
+                {
+                    "talent_name":
+                        hotfix.talent_name,
+                    "text":
+                        hotfix.text,
+                    "reason":
+                        "NOT_IN_EXACT_BUILD_SPELLBOOK",
+                }
+            )
+            continue
+
         if len(usable) != 1:
+            # Once exact-build SimC proves the spell exists for this spec,
+            # resolution must fail closed rather than silently hiding a real
+            # player ability. Ambiguous/empty tooltips require investigation.
             unresolved.append(
                 {
                     "talent_name":
@@ -567,9 +590,6 @@ async def attach_official_hotfix_abilities(
                     "text":
                         hotfix.text,
                     "reason": (
-                        "BASE_ABILITY_NOT_FOUND"
-                        if not spells
-                        else
                         "BASE_ABILITY_AMBIGUOUS"
                         if len(usable) > 1
                         else
@@ -678,6 +698,7 @@ async def attach_official_hotfix_abilities(
     return {
         "resolved": resolved,
         "unresolved": unresolved,
+        "ignored": ignored,
     }
 
 
