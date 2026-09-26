@@ -9320,7 +9320,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440120,
           "source_spell_id": 440122,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical)",
+          "effect_text": "School Damage (2): physical (AP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 0.87,
           "amount_kind": "direct",
@@ -9337,9 +9337,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10204,7 +10204,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264614,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 6.58507)",
+          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10231,10 +10231,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10661,7 +10662,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264776,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 6.58507)",
+          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10692,10 +10693,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11116,7 +11118,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264899,
           "source_spell_id": 1264905,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 7.32)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11143,10 +11145,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -12123,7 +12126,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-09-26T17:41:41.700704+00:00",
+  "generated_at": "2026-09-26T18:54:14.158396+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 22,
@@ -12136,11 +12139,27 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 440122,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264664,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264664'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264905,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264905'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -8241,16 +8241,6 @@ window.WOW_PVP_DATA = {
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 225,
-          "end": 230,
-          "old_token": "31.08",
-          "new_token": "29.7299",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            3
-          ]
-        },
-        {
           "start": 166,
           "end": 170,
           "old_token": "15.5",
@@ -8258,6 +8248,16 @@ window.WOW_PVP_DATA = {
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
+          ]
+        },
+        {
+          "start": 225,
+          "end": 230,
+          "old_token": "31.08",
+          "new_token": "29.7299",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3
           ]
         }
       ],
@@ -8288,88 +8288,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 1243807,
           "source_spell_id": 1244079,
-          "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds | Attributes: Compute Points Only At Cast Time (15) (AP mod: 0.3108)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.087,
-          "amount_kind": "periodic",
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.95656,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1243807,
-            1244079
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256992,
-              "game_effect_id": 1266733,
-              "amount_kind": "periodic",
-              "value_pct": -12.0,
-              "factor": 0.88,
-              "label_id": null,
-              "build": "12.1.0.69933"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1243807,
-          "source_spell_id": 1244079,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.3108)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.087,
-          "amount_kind": "periodic",
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.95656,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1243807,
-            1244079
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256992,
-              "game_effect_id": 1266733,
-              "amount_kind": "periodic",
-              "value_pct": -12.0,
-              "factor": 0.88,
-              "label_id": null,
-              "build": "12.1.0.69933"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1243807,
-          "source_spell_id": 1244079,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.155)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.155 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.087,
           "amount_kind": "direct",
@@ -8396,12 +8316,90 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1243807,
+          "source_spell_id": 1244079,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.087,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.95656,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1243807,
+            1244079
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1243807,
+          "source_spell_id": 1244079,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.087,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.95656,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1243807,
+            1244079
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "ambiguous"
         }
       ],
       "render_effect_count": 2,
@@ -8629,7 +8627,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (57.816% of Attack Power) Physical damage and an additional [(40.48% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (166.1% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
+      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (57.816% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (166.1% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8652,17 +8650,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 338,
-          "end": 340,
-          "old_token": "46",
-          "new_token": "40.48",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -8674,16 +8661,6 @@ window.WOW_PVP_DATA = {
           "kind": "attack_power_coefficient",
           "old": "65.7",
           "new": "57.816"
-        },
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "46",
-          "new": "40.48"
         },
         {
           "effect_indexes": [
@@ -8743,7 +8720,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1263890,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.657)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.657 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8772,11 +8749,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8784,7 +8760,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1263908,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.8875)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.8875 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8813,11 +8789,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8825,7 +8800,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1271863,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.46)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8854,11 +8829,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8866,7 +8840,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1271863,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds | Attributes: Compute Points Only At Cast Time (15) (AP mod: 0.46)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8895,11 +8869,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9004,7 +8977,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -11031,7 +11004,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.504)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "periodic",
@@ -11058,9 +11031,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11071,7 +11044,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Damage Taken% from Caster's Spells (271)",
+          "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
           "base_value": 8.0,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": null,
@@ -11088,11 +11061,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "simc_generated"
+            "wowhead",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11957,7 +11930,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271635,
           "source_spell_id": 1271636,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3)",
+          "effect_text": "School Damage (Physical) (AP mod: 3 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -11984,11 +11957,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -12954,7 +12926,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "druid-feral",
-  "generated_at": "2026-09-26T17:41:39.076786+00:00",
+  "generated_at": "2026-09-26T18:52:38.369003+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 22,
@@ -12967,37 +12939,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 441812,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1244079,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244079'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1263890,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1263908,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263908'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1271636,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271636'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

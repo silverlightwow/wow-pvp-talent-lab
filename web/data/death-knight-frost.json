@@ -6848,7 +6848,7 @@
           "talent_spell_id": 435010,
           "source_spell_id": 439539,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.40026 )",
+          "effect_text": "School Damage (2): frost | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.40026)",
           "base_value": null,
           "spell_pvp_multiplier": 0.875,
           "amount_kind": "direct",
@@ -6865,9 +6865,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7822,7 +7822,7 @@
           "talent_spell_id": 439843,
           "source_spell_id": 436304,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.544176 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 0.544176)",
           "base_value": null,
           "spell_pvp_multiplier": 0.555,
           "amount_kind": "direct",
@@ -7849,11 +7849,11 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7861,7 +7861,7 @@
           "talent_spell_id": 439843,
           "source_spell_id": 436304,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.30364 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 0.30364)",
           "base_value": null,
           "spell_pvp_multiplier": 0.554667,
           "amount_kind": "direct",
@@ -7888,11 +7888,11 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 3,
@@ -8664,7 +8664,7 @@
           "talent_spell_id": 440282,
           "source_spell_id": 440289,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (Physical)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8681,9 +8681,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8694,7 +8694,7 @@
           "talent_spell_id": 440282,
           "source_spell_id": 440290,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8711,9 +8711,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9106,7 +9106,7 @@
           "talent_spell_id": 439948,
           "source_spell_id": 440739,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
           "base_value": -10.0,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": null,
@@ -9123,9 +9123,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9298,7 +9298,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441424,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 12.8781 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 12.8781)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -9325,9 +9325,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9338,7 +9338,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441424,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 4.40205 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 4.40205)",
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
@@ -9365,9 +9365,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9378,7 +9378,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441426,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 5.72424 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 5.72424)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -9405,9 +9405,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9418,7 +9418,7 @@
           "talent_spell_id": 441378,
           "source_spell_id": 441426,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.78008 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.78008)",
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
@@ -9445,9 +9445,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9560,7 +9560,7 @@
           "talent_spell_id": 444005,
           "source_spell_id": 444633,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadowfrost every 3 seconds (AP mod: 0.068653)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -9587,10 +9587,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9598,7 +9599,7 @@
           "talent_spell_id": 444005,
           "source_spell_id": 444834,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -9615,9 +9616,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9628,7 +9629,7 @@
           "talent_spell_id": 444005,
           "source_spell_id": 444834,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.053 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.053)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9655,10 +9656,12 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -9808,7 +9811,7 @@
           "talent_spell_id": 444010,
           "source_spell_id": 444347,
           "effect_index": 5,
-          "effect_text": "Apply Aura: Increase Run Speed %",
+          "effect_text": "Apply Aura (6) | Increase Speed% (31)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": null,
@@ -9825,9 +9828,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9959,7 +9962,7 @@
           "talent_spell_id": 444074,
           "source_spell_id": 451777,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.0,
           "amount_kind": null,
@@ -9976,11 +9979,10 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10401,7 +10403,7 @@
           "talent_spell_id": 444097,
           "source_spell_id": 444834,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10418,9 +10420,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10431,7 +10433,7 @@
           "talent_spell_id": 444097,
           "source_spell_id": 444834,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.053 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.053)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10458,10 +10460,12 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -11791,7 +11795,7 @@
     "external": []
   },
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-26T17:39:17.499280+00:00",
+  "generated_at": "2026-09-26T18:50:22.317088+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 34,
@@ -11804,35 +11808,35 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 9,
+    "source_warning_count": 20,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 454863,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=454863'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 436304,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=436304'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1228433,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228433'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 439539,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=439539'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1228436,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228436'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 440289,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440289'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1228443,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 440290,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440290'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1231083,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1231083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 440739,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440739'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

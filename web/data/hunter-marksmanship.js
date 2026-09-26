@@ -2729,7 +2729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9811,10 +9811,8 @@ window.WOW_PVP_DATA = {
         "entry_type": "ability",
         "talent_name": "Wing Clip",
         "spell_id": 195645,
-        "icon": "ability_rogue_trip",
-        "icon_candidates": [
-          "ability_rogue_trip"
-        ]
+        "icon": "",
+        "icon_candidates": []
       },
       "pve_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 50% for 15 sec.",
       "pvp_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 40% for 15 sec.",
@@ -10691,7 +10689,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-26T17:45:17.986087+00:00",
+  "generated_at": "2026-09-26T18:55:47.546304+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 27,
@@ -10704,16 +10702,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 2,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1268673,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "spell_id": 19434,
         "talent_name": "Aimed Shot",

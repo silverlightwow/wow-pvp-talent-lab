@@ -10120,8 +10120,10 @@
         "entry_type": "ability",
         "talent_name": "Wing Clip",
         "spell_id": 195645,
-        "icon": "",
-        "icon_candidates": []
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 50% for 15 sec.",
       "pvp_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 40% for 15 sec.",
@@ -10991,7 +10993,7 @@
     "external": []
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-26T17:43:23.686091+00:00",
+  "generated_at": "2026-09-26T18:55:59.965128+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 20,
