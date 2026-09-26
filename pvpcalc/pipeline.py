@@ -65,6 +65,10 @@ class SpecAuditResult:
     # --------------------------------------------------------
 
     simc_build: str | None = None
+    # Exact-build, specialization-scoped SimC dump retained for downstream
+    # non-tree ability resolution (for example official PvP hotfixes to
+    # baseline class abilities that do not have talent nodes).
+    simc_dump: Any | None = None
     simc_tooltip_fallbacks: dict[int, dict] = field(default_factory=dict)
     rank_sources: dict[int, dict] = field(default_factory=dict)
 
@@ -4576,6 +4580,11 @@ async def audit_spec(
                     ),
             )
         )
+
+        # Keep the exact same scoped dump used by the mechanics pipeline.
+        # The catalog layer reuses it to resolve official hotfix targets that
+        # are real class/spec abilities but are absent from the talent tree.
+        result.simc_dump = simc_dump
 
 
         aura_rules = (
