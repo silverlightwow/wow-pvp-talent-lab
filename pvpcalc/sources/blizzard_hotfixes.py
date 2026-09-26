@@ -2691,7 +2691,20 @@ def apply_official_pvp_hotfixes(
 ) -> dict:
     by_name: dict[str, list] = {}
 
-    for talent in spec_catalog.talents:
+    # Official PvP notes can target both selectable talents and ordinary
+    # class/spec abilities. The latter live in spec_catalog.abilities so the
+    # Talent Tree stays faithful to Raidbots topology while comparison and
+    # mechanics views remain complete.
+    records = [
+        *spec_catalog.talents,
+        *getattr(
+            spec_catalog,
+            "abilities",
+            [],
+        ),
+    ]
+
+    for talent in records:
         by_name.setdefault(
             _normalize_name(
                 talent.talent_name
