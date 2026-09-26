@@ -31,6 +31,9 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if serialization.get('version') != 2 or serialization.get('spec_id') != spec['spec_id'] or not order or order != sorted(set(order)):
         raise ValueError(f'{slug}: missing or invalid talent serialization metadata')
     talents = data.get('talents', [])
+    abilities = data.get('abilities', [])
+    if not isinstance(abilities, list):
+        raise ValueError(f'{slug}: invalid standalone ability catalog')
     if not {t['node_id'] for t in talents}.issubset(set(order)):
         raise ValueError(f'{slug}: talent node missing from serialization order')
     if len(talents) < 50:
@@ -63,11 +66,28 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
                 raise ValueError(f'{slug}: missing per-rank PvP change annotations for {t["spell_id"]}')
             if any(ranks[-1][mode] != t[mode] for mode in ('pve_tooltip', 'pvp_tooltip')):
                 raise ValueError(f'{slug}: default tooltip is not maximum rank for {t["spell_id"]}')
+    for ability in abilities:
+        if ability.get('tree_type') != 'ability' or ability.get('node_id') is not None or ability.get('entry_id') is not None:
+            raise ValueError(f'{slug}: standalone ability leaked into talent topology: {ability.get("spell_id")}')
+        if not ability.get('pve_tooltip', '').strip() or not ability.get('pvp_tooltip', '').strip():
+            raise ValueError(f'{slug}: missing standalone ability tooltip for {ability.get("spell_id")}')
+        for mode in ('pve_tooltip', 'pvp_tooltip'):
+            text = ability[mode]
+            if text.count('[') != text.count(']') or any(line.strip() in {'[', ']', ':'} for line in text.splitlines()):
+                raise ValueError(f'{slug}: broken standalone conditional text for {ability["spell_id"]}')
+        if ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}:
+            raise ValueError(f'{slug}: unsafe standalone tooltip for {ability["spell_id"]}')
+        changed = ability['pve_tooltip'] != ability['pvp_tooltip']
+        if ability.get('tooltip_changed') != changed or (ability['render_status'] == 'CHANGED') != changed:
+            raise ValueError(f'{slug}: inconsistent standalone change flag for {ability["spell_id"]}')
+
+    player_records = [*talents, *abilities]
     actual = {
         'talents': len(talents),
+        'abilities': len(abilities),
         'unique_nodes': len({t['node_id'] for t in talents}),
-        'changed_tooltips': sum(t['tooltip_changed'] for t in talents),
-        'talents_with_pvp_mechanics': sum(t['has_pvp_mechanics'] for t in talents),
+        'changed_tooltips': sum(t['tooltip_changed'] for t in player_records),
+        'talents_with_pvp_mechanics': sum(t['has_pvp_mechanics'] for t in player_records),
     }
     for key, value in actual.items():
         if validation.get(key) != value or (key in spec and spec[key] != value):
