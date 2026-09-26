@@ -45,3 +45,36 @@ jobs:
 
       - name: Run tests
         run: pytest -q
+
+      - name: Build Hunter Marksmanship hotfix smoke
+        run: |
+          python scripts/build_all_site_data.py \
+            --class-name Hunter \
+            --spec-name Marksmanship \
+            --output-dir /tmp/hunter-hotfix-smoke \
+            --concurrency 4
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(
+              Path("/tmp/hunter-hotfix-smoke/hunter-marksmanship.json")
+              .read_text(encoding="utf-8")
+          )
+          abilities = {
+              item["talent_name"]: item
+              for item in data.get("abilities", [])
+          }
+          wing_clip = abilities.get("Wing Clip")
+          assert wing_clip is not None, "Wing Clip base ability was not resolved"
+          assert wing_clip["tooltip_changed"], "Wing Clip PvP tooltip was not changed"
+          assert "40%" in wing_clip["pvp_tooltip"], wing_clip["pvp_tooltip"]
+          assert any(
+              change.get("new_token") == "40%"
+              for change in wing_clip.get("changes", [])
+          ), wing_clip.get("changes")
+          assert not any(
+              item.get("talent_name") == "Wing Clip"
+              for item in data["official_hotfixes"]["ignored_non_talent"]
+          )
+          PY
