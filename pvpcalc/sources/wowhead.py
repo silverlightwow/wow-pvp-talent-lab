@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 from bs4 import BeautifulSoup
 
@@ -876,10 +876,36 @@ async def fetch_spell_page(
             url
         )
 
-        return parse_spell_page(
+        page = parse_spell_page(
             html,
             spell_id=spell_id,
             url=url,
+        )
+
+        if page.icon:
+            return page
+
+        # Some specialization-scoped Wowhead pages expose the full player
+        # tooltip but omit og:image.  The lightweight Nether payload still
+        # carries the canonical icon name, so supplement only the missing
+        # metadata while preserving the richer full-page effects.
+        try:
+            fallback = (
+                await fetch_nether_spell_page(
+                    client,
+                    spell_id,
+                )
+            )
+        except Exception:
+            return page
+
+        return (
+            replace(
+                page,
+                icon=fallback.icon,
+            )
+            if fallback.icon
+            else page
         )
 
     except Exception:
