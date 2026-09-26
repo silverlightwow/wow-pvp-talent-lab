@@ -8449,6 +8449,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -9281,10 +9282,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-26T06:53:02.209887+00:00",
+  "generated_at": "2026-09-26T17:40:08.395489+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 10,

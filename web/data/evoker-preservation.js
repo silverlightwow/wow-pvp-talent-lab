@@ -9509,6 +9509,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -10337,10 +10338,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-26T06:56:54.338664+00:00",
+  "generated_at": "2026-09-26T17:43:20.418288+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 7,

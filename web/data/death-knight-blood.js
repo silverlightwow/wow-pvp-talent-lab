@@ -9328,6 +9328,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -10134,10 +10135,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-26T06:51:24.666401+00:00",
+  "generated_at": "2026-09-26T17:38:54.100658+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 17,

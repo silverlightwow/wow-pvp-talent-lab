@@ -10520,6 +10520,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -11340,10 +11341,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-26T07:06:36.477648+00:00",
+  "generated_at": "2026-09-26T17:53:19.029434+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 27,

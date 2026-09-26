@@ -10488,6 +10488,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -11321,10 +11322,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-09-26T07:02:58.172224+00:00",
+  "generated_at": "2026-09-26T17:49:26.728406+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 25,

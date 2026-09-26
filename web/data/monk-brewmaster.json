@@ -7477,7 +7477,7 @@
           "talent_spell_id": 383785,
           "source_spell_id": 100780,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.9)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.9 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -7506,9 +7506,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11294,6 +11294,7 @@
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -12153,10 +12154,16 @@
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-26T07:00:02.853335+00:00",
+  "generated_at": "2026-09-26T17:47:38.262924+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 22,
@@ -12169,16 +12176,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 20,
+    "source_warning_count": 19,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 100780,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=100780'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 107270,
@@ -12198,6 +12200,11 @@
         "source": "wowhead",
         "spell_id": 132467,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 148135,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

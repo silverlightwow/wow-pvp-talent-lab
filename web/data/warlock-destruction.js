@@ -10568,6 +10568,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -11376,10 +11377,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-26T07:08:45.614772+00:00",
+  "generated_at": "2026-09-26T17:54:43.226574+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 32,

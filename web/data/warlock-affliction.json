@@ -10245,6 +10245,7 @@
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -11064,10 +11065,16 @@
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-26T07:08:29.550558+00:00",
+  "generated_at": "2026-09-26T17:54:44.868923+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 27,

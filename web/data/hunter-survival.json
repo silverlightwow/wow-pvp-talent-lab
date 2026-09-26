@@ -9719,6 +9719,62 @@
       "rank_tooltips": []
     }
   ],
+  "abilities": [
+    {
+      "talent_name": "Wing Clip",
+      "spell_id": 195645,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "simc_exact_build",
+        "wow_build": "12.1.0.69933",
+        "entry_type": "ability",
+        "talent_name": "Wing Clip",
+        "spell_id": 195645,
+        "icon": "",
+        "icon_candidates": []
+      },
+      "pve_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 50% for 15 sec.",
+      "pvp_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 40% for 15 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 77,
+          "old_token": "50%",
+          "new_token": "40%",
+          "kind": "official_hotfix_percent",
+          "effect_indexes": [],
+          "source": "blizzard_hotfix"
+        }
+      ],
+      "diagnostics": [
+        {
+          "status": "NON_TREE_ABILITY_RESOLVED",
+          "source": "simc_exact_build",
+          "source_spell_id": 195645,
+          "source_build": "12.1.0.69933",
+          "hotfix_text": "Wing Clip now reduces movement speed by 40% in PvP combat."
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_APPLIED",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "hotfix_date": "2026-09-24",
+          "hotfix_text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
+          "reason": "APPLIED"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [],
+      "render_effect_count": 0,
+      "rank_tooltips": []
+    }
+  ],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -10009,6 +10065,12 @@
         "talent_name": "Improved Snaring",
         "spell_id": 1268868,
         "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
+        "date": "2026-09-24"
+      },
+      {
+        "talent_name": "Wing Clip",
+        "spell_id": 195645,
+        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
         "date": "2026-09-24"
       }
     ],
@@ -10541,16 +10603,23 @@
         "context_path": [
           "Paladin"
         ]
-      },
+      }
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [
       {
         "talent_name": "Wing Clip",
-        "text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
-        "date": "2026-09-24"
+        "spell_id": 195645,
+        "source": "simc_exact_build"
       }
-    ]
+    ],
+    "unresolved": [],
+    "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-09-26T06:57:31.492431+00:00",
+  "generated_at": "2026-09-26T17:45:16.801654+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,

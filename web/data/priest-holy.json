@@ -10283,6 +10283,7 @@
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -11109,10 +11110,16 @@
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-26T07:04:39.214943+00:00",
+  "generated_at": "2026-09-26T17:50:51.512669+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 20,

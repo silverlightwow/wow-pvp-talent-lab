@@ -9443,6 +9443,7 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": []
     }
   ],
+  "abilities": [],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -10290,10 +10291,16 @@ window.WOW_PVP_DATA = {
           "Hunter"
         ]
       }
-    ]
+    ],
+    "external_non_tree": []
+  },
+  "non_tree_hotfix_resolution": {
+    "resolved": [],
+    "unresolved": [],
+    "external": []
   },
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-26T06:55:43.026754+00:00",
+  "generated_at": "2026-09-26T17:43:29.968518+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 15,
