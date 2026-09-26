@@ -129,6 +129,15 @@
     // A small number of legacy icon names use punctuation that differs
     // from the normalized manifest value. Keep those corrections here
     // instead of hard-coding individual talents.
+    // A tiny local bundle for legacy icons that are valid game assets but
+    // are unreliable on modern external CDNs.  The mapping is keyed by
+    // canonical icon name, so every spell using the same icon benefits.
+    const LOCAL_ICON_ASSETS = {
+        "ability_rogue_trip":
+            "./icons/ability_rogue_trip.jpg",
+    };
+
+
     const ICON_NAME_OVERRIDES = {
         "spell_priest_power_word":
             "spell_priest_power-word",
@@ -261,7 +270,10 @@
 
         const icon = iconName(talent);
 
-        return iconCdnUrl(icon);
+        return (
+            LOCAL_ICON_ASSETS[icon]
+            || iconCdnUrl(icon)
+        );
     }
 
 
