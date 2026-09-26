@@ -34,6 +34,16 @@
 
     let talents = data.talents || [];
 
+    // PvP comparison/mechanics also include verified player abilities that
+    // are not talent nodes. Keep them out of tree rendering by combining
+    // records only in the data views that need full PvP coverage.
+    function pvpRecords() {
+        return [
+            ...talents,
+            ...(data.abilities || []),
+        ];
+    }
+
 
     const state = {
 
@@ -510,6 +520,13 @@
 
 
     function treeDisplayName(talent) {
+
+        if (
+            talent.tree_type
+            === "ability"
+        ) {
+            return "Base ability";
+        }
 
         if (
             talent.tree_type
@@ -1304,7 +1321,7 @@
 
 
         const changedCount =
-            talents.filter(
+            pvpRecords().filter(
                 talent =>
                     talent.tooltip_changed
             ).length;
@@ -1312,7 +1329,7 @@
 
         const mechanicCount =
             compendiumGroups(
-                talents.filter(
+                pvpRecords().filter(
                     talent =>
                         talent.has_pvp_mechanics
                 )
@@ -3600,7 +3617,7 @@
 
 
         const rows =
-            talents.filter(
+            pvpRecords().filter(
                 talent => {
 
                     if (
@@ -3676,7 +3693,7 @@
 
         $("#compareCount")
             .textContent =
-            `${rows.length} modified talents`;
+            `${rows.length} modified talents / abilities`;
 
 
         $("#compareBody").innerHTML = rows.map(talent => `
@@ -4071,7 +4088,7 @@
             || "";
 
         return compendiumGroups(
-            talents
+            pvpRecords()
         )
         .filter(
             group => {

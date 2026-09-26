@@ -426,6 +426,32 @@ async def build_one(
         )
     )
 
+    # Resolve official PvP hotfix targets that are real player abilities
+    # but have no selectable talent node. This is generic exact-name +
+    # exact-build resolution; no spell-specific exceptions are maintained.
+    non_tree_hotfix_report = (
+        await catalog
+        .attach_official_hotfix_abilities(
+            audit,
+            spec_catalog,
+            official_hotfixes,
+            concurrency=concurrency,
+        )
+    )
+
+    if non_tree_hotfix_report[
+        "unresolved"
+    ]:
+        raise RuntimeError(
+            "Unresolved official non-tree PvP hotfixes: "
+            + json.dumps(
+                non_tree_hotfix_report[
+                    "unresolved"
+                ],
+                default=_json_default,
+            )
+        )
+
     hotfix_report = (
         blizzard_hotfixes
         .apply_official_pvp_hotfixes(
@@ -470,6 +496,9 @@ async def build_one(
         if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}
     ]
     payload["official_hotfixes"] = hotfix_report
+    payload["non_tree_hotfix_resolution"] = (
+        non_tree_hotfix_report
+    )
 
     payload["slug"] = slug
     payload["generated_at"] = (
