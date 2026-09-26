@@ -8,6 +8,7 @@ on:
     paths:
       - 'pvpcalc/**'
       - 'scripts/**/*.py'
+      - 'scripts/**/*.cjs'
       - 'tests/**'
       - 'package*.json'
       - 'pyproject.toml'
