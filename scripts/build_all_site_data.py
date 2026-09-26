@@ -35,6 +35,18 @@ def _validate_for_all(audit, spec_catalog) -> dict:
     """
 
     talents = spec_catalog.talents
+    abilities = list(
+        getattr(
+            spec_catalog,
+            "abilities",
+            [],
+        )
+        or []
+    )
+    player_records = [
+        *talents,
+        *abilities,
+    ]
 
     if len(talents) < 50:
         raise RuntimeError(
@@ -74,7 +86,7 @@ def _validate_for_all(audit, spec_catalog) -> dict:
             talent.spell_id,
             talent.render_status,
         )
-        for talent in talents
+        for talent in player_records
         if talent.render_status
         in {
             "REVIEW_REQUIRED",
@@ -154,16 +166,19 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         "talents":
             len(talents),
 
+        "abilities":
+            len(abilities),
+
         "changed_tooltips":
             sum(
-                talent.tooltip_changed
-                for talent in talents
+                record.tooltip_changed
+                for record in player_records
             ),
 
         "talents_with_pvp_mechanics":
             sum(
-                talent.has_pvp_mechanics
-                for talent in talents
+                record.has_pvp_mechanics
+                for record in player_records
             ),
 
         "unique_nodes":
@@ -371,11 +386,6 @@ async def build_one(
         include_wiki=False,
     )
 
-    spec_catalog = await catalog.build_spec_catalog(
-        audit,
-        concurrency=concurrency,
-    )
-
     # Third-party DBC mirrors can legitimately lag server-side Blizzard
     # hotfixes while keeping the same client build number. Reconcile the
     # current official PvP hotfix feed before declaring this spec VERIFIED.
@@ -414,6 +424,112 @@ async def build_one(
                 official_hotfixes
             )
         )
+
+    # A class/spec-scoped hotfix can target a baseline spellbook ability
+    # with no talent node. Resolve those names against the same exact-build
+    # SimC class dump used by the audit and promote the spell ID into the
+    # standalone catalog. Global unscoped notes (items/trinkets/systems) are
+    # deliberately not treated as abilities.
+    tree_names = {
+        blizzard_hotfixes._normalize_name(
+            row.get(
+                "talent_name",
+                "",
+            )
+        )
+        for row in audit.talents
+    }
+    simc_ids_by_name = {}
+    for spell_id, spell_name in (
+        getattr(
+            audit,
+            "simc_spell_names",
+            {},
+        )
+        or {}
+    ).items():
+        simc_ids_by_name.setdefault(
+            blizzard_hotfixes
+            ._normalize_name(
+                spell_name
+            ),
+            set(),
+        ).add(
+            int(spell_id)
+        )
+
+    for hotfix in official_hotfixes:
+        if not (
+            blizzard_hotfixes
+            ._hotfix_applies_to_catalog(
+                hotfix,
+                audit,
+            )
+        ):
+            continue
+        if not (
+            blizzard_hotfixes
+            ._hotfix_has_explicit_class_or_spec_scope(
+                hotfix
+            )
+        ):
+            continue
+        if hotfix.mode.startswith(
+            "spec_relative_"
+        ):
+            continue
+
+        lookup_names = (
+            blizzard_hotfixes
+            ._relative_name_candidates(
+                hotfix.talent_name
+            )
+            if hotfix.mode.startswith(
+                "relative_"
+            )
+            else (
+                blizzard_hotfixes
+                ._normalize_name(
+                    hotfix.talent_name
+                ),
+            )
+        )
+
+        if any(
+            name in tree_names
+            for name in lookup_names
+        ):
+            continue
+
+        candidate_ids = {
+            spell_id
+            for name in lookup_names
+            for spell_id in (
+                simc_ids_by_name.get(
+                    name,
+                    set(),
+                )
+            )
+        }
+
+        if len(candidate_ids) == 1:
+            audit.standalone_spell_ids.add(
+                candidate_ids.pop()
+            )
+        elif len(candidate_ids) > 1:
+            raise RuntimeError(
+                "Ambiguous standalone hotfix spell identity: "
+                f"{hotfix.talent_name} -> "
+                f"{sorted(candidate_ids)}"
+            )
+        # Zero candidates intentionally fall through. The official-hotfix
+        # application below will classify the scoped note as unresolved and
+        # block VERIFIED publication rather than silently omitting it.
+
+    spec_catalog = await catalog.build_spec_catalog(
+        audit,
+        concurrency=concurrency,
+    )
 
     slug = slugify(
         class_name,
