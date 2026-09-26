@@ -217,6 +217,35 @@
             );
         }
 
+        if (provider === "warcraftwiki") {
+            const fileName =
+                icon
+                .replaceAll("_", " ")
+                .replace(
+                    /^./,
+                    character =>
+                        character.toUpperCase()
+                )
+                + ".png";
+
+            return (
+                "https://warcraft.wiki.gg/wiki/"
+                + "Special:Redirect/file/"
+                + encodeURIComponent(fileName)
+            );
+        }
+
+        if (provider === "legacy-wowdb") {
+            return (
+                "https://git.assemblee-defias.fr/"
+                + "Ravenholdt/Wowdb-web/raw/commit/"
+                + "bfa17baf3f786a785435aba23e7b35ac741ce307/"
+                + "images/icons/large/"
+                + encoded
+                + ".png"
+            );
+        }
+
         return (
             "https://wow.zamimg.com/"
             + "images/wow/icons/"
@@ -342,6 +371,8 @@
         const providers = [
             "wowhead",
             "blizzard",
+            "warcraftwiki",
+            "legacy-wowdb",
         ];
 
 
