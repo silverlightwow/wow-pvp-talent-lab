@@ -60,8 +60,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Frontend regression suite on last verified snapshot
-        run: npm test
+      - name: Frontend smoke suite on last verified snapshot
+        run: npm run test:smoke
 
   build_spec:
     needs: discover
@@ -124,6 +124,8 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - name: Browser checks for every specialization and hero tree
+        env:
+          REQUIRE_CURRENT_HOTFIX_ABILITIES: '1'
         run: npm test
       - name: Commit the verified snapshot without mixing source revisions
         env:
