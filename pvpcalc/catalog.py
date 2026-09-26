@@ -321,7 +321,7 @@ async def attach_official_hotfix_abilities(
     are absent from Raidbots' talent-node catalog, so treating a missing
     talent-name match as "irrelevant" silently drops real PvP changes.
 
-    Resolution is deliberately data-driven and fail-closed:
+    Resolution is deliberately data-driven:
       1. keep only in-scope *absolute* PvP hotfixes not already represented
          by a selectable talent;
       2. resolve the exact hotfix name against the same exact-build,
@@ -330,6 +330,13 @@ async def attach_official_hotfix_abilities(
          Wowhead/SimC tooltip;
       4. expose it as a non-tree record, then let the normal official-hotfix
          overlay code apply the PvE -> PvP change.
+
+    If the exact-build class/spec dump has *no* spell with that name, the
+    directive is classified as external rather than fatal. This covers things
+    such as dedicated PvP talents, which Blizzard includes in the same hotfix
+    section but SimC intentionally does not expose in the ordinary class/spec
+    spell dump. By contrast, once an exact-build candidate exists we still fail
+    closed on ambiguity or missing player-facing text.
 
     There are no spell-name or spell-id exceptions here.
     """
@@ -370,6 +377,7 @@ async def attach_official_hotfix_abilities(
         return {
             "resolved": [],
             "unresolved": [],
+            "external": [],
         }
 
     dump = getattr(
@@ -391,6 +399,7 @@ async def attach_official_hotfix_abilities(
                 }
                 for hotfix in pending
             ],
+            "external": [],
         }
 
     by_name = {}
@@ -461,6 +470,7 @@ async def attach_official_hotfix_abilities(
 
     resolved = []
     unresolved = []
+    external = []
 
     for hotfix in pending:
         normalized = (
@@ -559,6 +569,25 @@ async def attach_official_hotfix_abilities(
                     )
                 )
 
+        if not spells:
+            # Not every bullet under Blizzard's PvP section is a normal
+            # class/spec spell. Dedicated PvP talents are a common example.
+            # They are outside the exact-build spell dump used by this
+            # calculator, so absence here is not evidence that a base ability
+            # was missed. Keep the directive for diagnostics, but do not block
+            # unrelated verified abilities (such as Wing Clip) from publishing.
+            external.append(
+                {
+                    "talent_name":
+                        hotfix.talent_name,
+                    "text":
+                        hotfix.text,
+                    "reason":
+                        "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP",
+                }
+            )
+            continue
+
         if len(usable) != 1:
             unresolved.append(
                 {
@@ -567,9 +596,6 @@ async def attach_official_hotfix_abilities(
                     "text":
                         hotfix.text,
                     "reason": (
-                        "BASE_ABILITY_NOT_FOUND"
-                        if not spells
-                        else
                         "BASE_ABILITY_AMBIGUOUS"
                         if len(usable) > 1
                         else
@@ -678,6 +704,7 @@ async def attach_official_hotfix_abilities(
     return {
         "resolved": resolved,
         "unresolved": unresolved,
+        "external": external,
     }
 
 
