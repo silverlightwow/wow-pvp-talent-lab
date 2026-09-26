@@ -8,6 +8,14 @@ on:
       - "tests/**"
       - "pyproject.toml"
       - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "pvpcalc/**"
+      - "scripts/**"
+      - "web/**"
+      - "tests/**"
+      - "pyproject.toml"
+      - ".github/workflows/ci.yml"
   workflow_dispatch:
 
 permissions:
