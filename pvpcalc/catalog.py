@@ -8,7 +8,7 @@ from dataclasses import (
 from typing import Any
 
 from .http import CachedClient
-from .sources import wowhead
+from .sources import wowhead, simc, blizzard_hotfixes
 from . import tooltip_renderer
 from . import ranks
 
@@ -89,6 +89,12 @@ class SpecCatalog:
 
     talents: list[TalentRecord]
 
+    # Player-facing class/spec abilities that are not selectable talent
+    # nodes, but still carry verified PvP differences (official hotfixes,
+    # spell coefficients, etc.). Kept separate so the Talent Tree remains
+    # a literal tree while comparison/mechanics views can be complete.
+    abilities: list[TalentRecord]
+
     fetch_errors: list[dict]
 
     def to_dict(self):
@@ -111,6 +117,11 @@ class SpecCatalog:
             "talents": [
                 asdict(talent)
                 for talent in self.talents
+            ],
+
+            "abilities": [
+                asdict(ability)
+                for ability in self.abilities
             ],
 
             "fetch_errors":
@@ -291,6 +302,383 @@ def _render_status(
 
 
     return "UNCHANGED"
+
+
+# ============================================================
+# Non-tree abilities referenced by official PvP hotfixes
+# ============================================================
+
+async def attach_official_hotfix_abilities(
+    audit,
+    spec_catalog: SpecCatalog,
+    hotfixes,
+    *,
+    concurrency: int = 6,
+) -> dict:
+    """Resolve player-facing PvP hotfix targets outside the talent tree.
+
+    Blizzard often tunes baseline class/spec abilities directly. Those spells
+    are absent from Raidbots' talent-node catalog, so treating a missing
+    talent-name match as "irrelevant" silently drops real PvP changes.
+
+    Resolution is deliberately data-driven and fail-closed:
+      1. keep only in-scope *absolute* PvP hotfixes not already represented
+         by a selectable talent;
+      2. resolve the exact hotfix name against the same exact-build,
+         specialization-scoped SimC spell dump used by the mechanics pipeline;
+      3. require exactly one player-facing spell candidate with a usable
+         Wowhead/SimC tooltip;
+      4. expose it as a non-tree record, then let the normal official-hotfix
+         overlay code apply the PvE -> PvP change.
+
+    There are no spell-name or spell-id exceptions here.
+    """
+
+    existing_names = {
+        blizzard_hotfixes._normalize_name(
+            talent.talent_name
+        )
+        for talent in spec_catalog.talents
+    }
+    existing_spell_ids = {
+        int(talent.spell_id)
+        for talent in spec_catalog.talents
+    }
+
+    pending = [
+        hotfix
+        for hotfix in hotfixes
+        if (
+            hotfix.mode == "absolute"
+            and not str(
+                hotfix.talent_name
+            ).startswith("__")
+            and blizzard_hotfixes
+                ._hotfix_applies_to_catalog(
+                    hotfix,
+                    spec_catalog,
+                )
+            and blizzard_hotfixes
+                ._normalize_name(
+                    hotfix.talent_name
+                )
+                not in existing_names
+        )
+    ]
+
+    if not pending:
+        return {
+            "resolved": [],
+            "unresolved": [],
+        }
+
+    dump = getattr(
+        audit,
+        "simc_dump",
+        None,
+    )
+    if dump is None:
+        return {
+            "resolved": [],
+            "unresolved": [
+                {
+                    "talent_name":
+                        hotfix.talent_name,
+                    "text":
+                        hotfix.text,
+                    "reason":
+                        "EXACT_BUILD_SPELL_DUMP_UNAVAILABLE",
+                }
+                for hotfix in pending
+            ],
+        }
+
+    by_name = {}
+    for spell in dump.spells.values():
+        normalized = (
+            blizzard_hotfixes
+            ._normalize_name(
+                spell.name
+            )
+        )
+        by_name.setdefault(
+            normalized,
+            [],
+        ).append(spell)
+
+    candidate_ids = sorted({
+        int(spell.spell_id)
+        for hotfix in pending
+        for spell in by_name.get(
+            blizzard_hotfixes
+            ._normalize_name(
+                hotfix.talent_name
+            ),
+            [],
+        )
+        if int(spell.spell_id)
+        not in existing_spell_ids
+    })
+
+    client = CachedClient(
+        concurrency=concurrency
+    )
+
+    async def fetch_page(
+        spell_id: int,
+    ):
+        try:
+            page = await wowhead.fetch_spell_page(
+                client,
+                spell_id,
+            )
+            return spell_id, page, None
+        except Exception as exc:
+            return (
+                spell_id,
+                None,
+                f"{type(exc).__name__}: {exc}",
+            )
+
+    try:
+        fetched = await asyncio.gather(*[
+            fetch_page(spell_id)
+            for spell_id in candidate_ids
+        ])
+    finally:
+        await client.aclose()
+
+    pages = {
+        spell_id: page
+        for spell_id, page, error in fetched
+        if page is not None
+    }
+    fetch_errors = {
+        spell_id: error
+        for spell_id, page, error in fetched
+        if error is not None
+    }
+
+    resolved = []
+    unresolved = []
+
+    for hotfix in pending:
+        normalized = (
+            blizzard_hotfixes
+            ._normalize_name(
+                hotfix.talent_name
+            )
+        )
+        spells = [
+            spell
+            for spell in by_name.get(
+                normalized,
+                [],
+            )
+            if int(spell.spell_id)
+            not in existing_spell_ids
+        ]
+
+        usable = []
+
+        for spell in spells:
+            spell_id = int(
+                spell.spell_id
+            )
+            page = pages.get(
+                spell_id
+            )
+
+            tooltip = ""
+            icon = ""
+
+            if page is not None:
+                if (
+                    blizzard_hotfixes
+                    ._normalize_name(
+                        page.spell_name
+                    )
+                    == normalized
+                ):
+                    tooltip = (
+                        wowhead
+                        .tooltip_for_specialization(
+                            page,
+                            audit.metadata.get(
+                                "specAuraSpellIds",
+                                [],
+                            ),
+                        )
+                    )
+                    tooltip = (
+                        tooltip_renderer
+                        .tooltip_for_spec(
+                            tooltip,
+                            audit.spec_name,
+                            audit.metadata.get(
+                                "classSpecNames",
+                            ),
+                        )
+                    )
+                    icon = page.icon or ""
+
+            if not str(
+                tooltip
+            ).strip():
+                fallback = (
+                    simc.simple_player_description(
+                        dump,
+                        spell_id,
+                        class_name=
+                            audit.class_name,
+                        spec_name=
+                            audit.spec_name,
+                        spec_names=
+                            audit.metadata.get(
+                                "classSpecNames",
+                                [audit.spec_name],
+                            ),
+                    )
+                )
+                if fallback:
+                    tooltip = (
+                        fallback.get(
+                            "text",
+                            "",
+                        )
+                    )
+
+            if str(
+                tooltip
+            ).strip():
+                usable.append(
+                    (
+                        spell,
+                        str(tooltip).strip(),
+                        icon,
+                    )
+                )
+
+        if len(usable) != 1:
+            unresolved.append(
+                {
+                    "talent_name":
+                        hotfix.talent_name,
+                    "text":
+                        hotfix.text,
+                    "reason": (
+                        "BASE_ABILITY_NOT_FOUND"
+                        if not spells
+                        else
+                        "BASE_ABILITY_AMBIGUOUS"
+                        if len(usable) > 1
+                        else
+                        "BASE_ABILITY_TOOLTIP_UNAVAILABLE"
+                    ),
+                    "candidate_spell_ids": [
+                        int(spell.spell_id)
+                        for spell in spells
+                    ],
+                    "fetch_errors": {
+                        str(spell.spell_id):
+                            fetch_errors.get(
+                                int(spell.spell_id)
+                            )
+                        for spell in spells
+                        if int(spell.spell_id)
+                        in fetch_errors
+                    },
+                }
+            )
+            continue
+
+        spell, tooltip, icon = usable[0]
+        spell_id = int(
+            spell.spell_id
+        )
+
+        record = TalentRecord(
+            talent_name=
+                hotfix.talent_name,
+            spell_id=
+                spell_id,
+            node_id=None,
+            entry_id=None,
+            definition_id=None,
+            tree_type=
+                "ability",
+            hero_tree=None,
+            tree_data={
+                "source":
+                    "simc_exact_build",
+                "wow_build":
+                    audit.tree_build,
+                "entry_type":
+                    "ability",
+                "talent_name":
+                    hotfix.talent_name,
+                "spell_id":
+                    spell_id,
+                "icon":
+                    icon,
+                "icon_candidates": (
+                    [icon]
+                    if icon
+                    else []
+                ),
+            },
+            pve_tooltip=
+                tooltip,
+            pvp_tooltip=
+                tooltip,
+            tooltip_changed=False,
+            render_status=
+                "UNCHANGED",
+            changes=[],
+            diagnostics=[
+                {
+                    "status":
+                        "NON_TREE_ABILITY_RESOLVED",
+                    "source":
+                        "simc_exact_build",
+                    "source_spell_id":
+                        spell_id,
+                    "source_build":
+                        dump.build,
+                    "hotfix_text":
+                        hotfix.text,
+                }
+            ],
+            has_pvp_mechanics=False,
+            mechanics=[],
+            render_effect_count=0,
+            rank_tooltips=[],
+        )
+
+        spec_catalog.abilities.append(
+            record
+        )
+        existing_names.add(
+            normalized
+        )
+        existing_spell_ids.add(
+            spell_id
+        )
+        resolved.append(
+            {
+                "talent_name":
+                    hotfix.talent_name,
+                "spell_id":
+                    spell_id,
+                "source":
+                    "simc_exact_build",
+            }
+        )
+
+    return {
+        "resolved": resolved,
+        "unresolved": unresolved,
+    }
 
 
 # ============================================================
@@ -791,6 +1179,9 @@ async def build_spec_catalog(
 
         talents=
             records,
+
+        abilities=
+            [],
 
         fetch_errors=
             fetch_errors,
