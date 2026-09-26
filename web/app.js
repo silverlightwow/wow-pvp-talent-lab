@@ -189,11 +189,32 @@
 
     function iconCdnUrl(
         icon,
-        size = "large"
+        size = "large",
+        provider = "wowhead"
     ) {
 
         if (!icon) {
             return "";
+        }
+
+        const encoded =
+            encodeURIComponent(icon);
+
+        if (provider === "blizzard") {
+            const pixels = {
+                large: 56,
+                medium: 36,
+                small: 18,
+            }[size] || 56;
+
+            return (
+                "https://render.worldofwarcraft.com/"
+                + "us/icons/"
+                + pixels
+                + "/"
+                + encoded
+                + ".jpg"
+            );
         }
 
         return (
@@ -201,7 +222,7 @@
             + "images/wow/icons/"
             + size
             + "/"
-            + encodeURIComponent(icon)
+            + encoded
             + ".jpg"
         );
     }
@@ -226,8 +247,27 @@
             `data-icon-candidates="${escapeHtml(candidates.join("|"))}"`,
             'data-icon-candidate-index="0"',
             'data-icon-size-index="0"',
+            'data-icon-provider-index="0"',
             'onerror="window.WowTalentIconError(this)"',
         ].join(" ");
+    }
+
+
+    function smallIconVisual(
+        talent
+    ) {
+
+        return `
+            <img
+                class="small-icon"
+                src="${iconUrl(talent)}"
+                alt="${escapeHtml(talent.talent_name)}"
+                ${iconFallbackAttributes(talent)}
+            >
+            <span class="small-icon-fallback">
+                ${escapeHtml(initials(talent.talent_name))}
+            </span>
+        `;
     }
 
 
@@ -284,14 +324,25 @@
                 || 0
             );
 
+        let providerIndex =
+            Number(
+                image.dataset.iconProviderIndex
+                || 0
+            );
+
         const sizes = [
             "large",
             "medium",
             "small",
         ];
 
+        const providers = [
+            "wowhead",
+            "blizzard",
+        ];
 
-        // Retry the same real talent icon at smaller CDN sizes first.
+
+        // Retry the same real icon at smaller sizes first.
         if (
             candidates[candidateIndex]
             && sizeIndex
@@ -308,7 +359,39 @@
                     candidates[
                         candidateIndex
                     ],
-                    sizes[sizeIndex]
+                    sizes[sizeIndex],
+                    providers[providerIndex]
+                );
+
+            return;
+        }
+
+
+        // If Wowhead's icon CDN misses or blocks a valid legacy icon,
+        // retry the exact same icon name through Blizzard's official
+        // render CDN before abandoning it.
+        if (
+            candidates[candidateIndex]
+            && providerIndex
+                < providers.length - 1
+        ) {
+
+            providerIndex += 1;
+            sizeIndex = 0;
+
+            image.dataset.iconProviderIndex =
+                String(providerIndex);
+
+            image.dataset.iconSizeIndex =
+                "0";
+
+            image.src =
+                iconCdnUrl(
+                    candidates[
+                        candidateIndex
+                    ],
+                    sizes[0],
+                    providers[providerIndex]
                 );
 
             return;
@@ -322,9 +405,14 @@
         ) {
 
             candidateIndex += 1;
+            providerIndex = 0;
+            sizeIndex = 0;
 
             image.dataset.iconCandidateIndex =
                 String(candidateIndex);
+
+            image.dataset.iconProviderIndex =
+                "0";
 
             image.dataset.iconSizeIndex =
                 "0";
@@ -334,7 +422,8 @@
                     candidates[
                         candidateIndex
                     ],
-                    sizes[0]
+                    sizes[0],
+                    providers[0]
                 );
 
             return;
@@ -3700,7 +3789,7 @@
             <tr data-spell-id="${talent.spell_id}">
                 <td>
                     <div class="talent-cell">
-                        <img class="small-icon" src="${iconUrl(talent)}" alt="" ${iconFallbackAttributes(talent)}>
+                        ${smallIconVisual(talent)}
                         <div><strong>${escapeHtml(talent.talent_name)}</strong>
                             <div class="spell-id">${escapeHtml(treeDisplayName(talent))}</div>
                         </div>
@@ -4290,11 +4379,7 @@
                             }"
                         >
 
-                            <img
-                                src="${iconUrl(talent)}"
-                                alt=""
-                                ${iconFallbackAttributes(talent)}
-                            >
+                            ${smallIconVisual(talent)}
 
                             <div>
                                 <div class="compendium-item-title">
@@ -4385,11 +4470,7 @@
         container.innerHTML = `
 
             <div class="detail-title-row">
-                <img
-                    src="${iconUrl(talent)}"
-                    alt=""
-                    ${iconFallbackAttributes(talent)}
-                >
+                ${smallIconVisual(talent)}
 
                 <div>
                     <h2>
