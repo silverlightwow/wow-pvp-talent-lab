@@ -270,10 +270,28 @@
 
         const icon = iconName(talent);
 
-        return (
-            LOCAL_ICON_ASSETS[icon]
-            || iconCdnUrl(icon)
-        );
+        if (icon) {
+            return (
+                LOCAL_ICON_ASSETS[icon]
+                || iconCdnUrl(icon)
+            );
+        }
+
+        const spellId =
+            Number(talent?.spell_id);
+
+        if (
+            Number.isInteger(spellId)
+            && spellId > 0
+        ) {
+            return (
+                "./icons/spells/"
+                + spellId
+                + ".jpg"
+            );
+        }
+
+        return "";
     }
 
 
