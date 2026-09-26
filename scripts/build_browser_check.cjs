@@ -48,6 +48,29 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   await page.waitForFunction(()=>document.querySelector('#buildDialogError').textContent.length>0);
   assert.equal(page.url(),before,'Failed import must preserve build');
   await page.locator('#buildDialog [data-close-dialog]').click();
+  if(width===1440){
+   await page.locator('#classSelect').selectOption('Hunter');
+   await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled);
+   await page.locator('#specSelect').selectOption('Survival');
+   await page.waitForFunction(()=>document.querySelector('#treeTitle').textContent==='Survival Hunter');
+   await page.locator('[data-tab="compare"]').click();
+   await page.locator('#compareSearch').fill('wing');
+   const wingRow=page.locator('#compareBody tr').filter({hasText:'Wing Clip'});
+   assert.equal(await wingRow.count(),1,'Wing Clip comparison row missing');
+   const wingIcon=wingRow.locator('img.small-icon');
+   assert.equal(await wingIcon.count(),1,'Wing Clip icon element missing');
+   const iconState=await wingIcon.evaluate(img=>({
+    src:img.getAttribute('src'),
+    complete:img.complete,
+    naturalWidth:img.naturalWidth,
+    display:getComputedStyle(img).display
+   }));
+   assert.match(iconState.src,/\.\/icons\/ability_rogue_trip\.jpg$/,'Wing Clip must use bundled legacy icon');
+   assert.equal(iconState.complete,true,'Wing Clip icon did not finish loading');
+   assert.ok(iconState.naturalWidth>0,'Wing Clip bundled icon failed to load');
+   assert.notEqual(iconState.display,'none','Wing Clip icon must remain visible');
+   assert.equal(await wingRow.locator('.small-icon-fallback:visible').count(),0,'Wing Clip must not fall back to initials');
+  }
   await page.locator('[data-tab="compendium"]').click();
   await page.locator('#classSelect').selectOption('Druid');
   await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled&&document.querySelector('#treeTitle').textContent.includes('Druid'));
