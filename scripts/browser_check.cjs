@@ -42,7 +42,8 @@ function assertDescription(shown, original) {
     await page.locator('#specSelect').selectOption(spec.name);
     await page.waitForFunction(({name,cls}) => !document.querySelector('#specSelect').disabled && document.querySelector('#treeTitle').textContent === `${name} ${cls}`, {name:spec.name,cls:spec.className});
     const data = JSON.parse(fs.readFileSync(path.join(root,`web/data/${spec.slug}.json`)));
-    assert.equal(Number(await page.locator('#changedBadge').textContent()),data.talents.filter(t=>t.tooltip_changed).length);
+    const pvpRecords=[...(data.talents||[]),...(data.abilities||[])];
+    assert.equal(Number(await page.locator('#changedBadge').textContent()),pvpRecords.filter(t=>t.tooltip_changed).length);
 
     // A talent must never silently inherit the site's brand icon. This is
     // checked for every shipped specialization, not only the Aimed Shot
@@ -214,7 +215,7 @@ function assertDescription(shown, original) {
     }
     if(spec.slug==='priest-discipline' && [1440,390].includes(width))await require('./rank_browser_check.cjs')(page,data,width<600);
     await page.locator('[data-tab="compare"]').click();
-    assert.equal(await page.locator('#compareBody tr').count(),data.talents.filter(t=>t.tooltip_changed).length);
+    assert.equal(await page.locator('#compareBody tr').count(),pvpRecords.filter(t=>t.tooltip_changed).length);
     const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({
      id:Number(row.dataset.spellId),
      pve:row.querySelector('.comparison-pve').textContent.trim(),
@@ -222,8 +223,8 @@ function assertDescription(shown, original) {
     })));
     for(const row of comparisonRows){
      assert.ok(!/[\[\]]/.test(row.pve+row.pvp),`Conditional source brackets leaked into comparison for ${row.id}`);
-     const talent=data.talents.find(t=>t.spell_id===row.id);
-     assert.ok(talent,`Comparison row has no source talent for ${row.id}`);
+     const talent=pvpRecords.find(t=>t.spell_id===row.id);
+     assert.ok(talent,`Comparison row has no source PvP record for ${row.id}`);
      const normalized = text => displayed(text).replace(/\s+/g,' ').trim();
      assert.equal(normalized(row.pve),normalized(talent.pve_tooltip),`Full PvE text missing for ${row.id}`);
      assert.equal(normalized(row.pvp),normalized(talent.pvp_tooltip),`Full PvP text missing for ${row.id}`);
