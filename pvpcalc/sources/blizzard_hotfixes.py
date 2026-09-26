@@ -222,6 +222,20 @@ def _hotfix_applies_to_catalog(
     return True
 
 
+def _hotfix_has_explicit_class_or_spec_scope(
+    hotfix: OfficialPvpHotfix,
+) -> bool:
+    """Whether Blizzard scoped this note to a concrete class/spec."""
+    path = {
+        _normalize_name(item)
+        for item in hotfix.context_path
+        if _clean_text(item)
+    }
+    return bool(
+        path & (_CLASS_NAMES | _SPEC_NAMES)
+    )
+
+
 def _extract_target_hint(
     text_before_was: str,
     *,
@@ -2691,7 +2705,19 @@ def apply_official_pvp_hotfixes(
 ) -> dict:
     by_name: dict[str, list] = {}
 
-    for talent in spec_catalog.talents:
+    records = [
+        *list(spec_catalog.talents),
+        *list(
+            getattr(
+                spec_catalog,
+                "abilities",
+                [],
+            )
+            or []
+        ),
+    ]
+
+    for talent in records:
         by_name.setdefault(
             _normalize_name(
                 talent.talent_name
@@ -2814,20 +2840,37 @@ def apply_official_pvp_hotfixes(
             )
 
         if not matches:
-            ignored.append(
-                {
-                    "talent_name":
-                        hotfix.talent_name,
-                    "text":
-                        hotfix.text,
-                    "date": (
-                        hotfix.hotfix_date
-                        .isoformat()
-                        if hotfix.hotfix_date
-                        else None
-                    ),
-                }
-            )
+            item = {
+                "talent_name":
+                    hotfix.talent_name,
+                "text":
+                    hotfix.text,
+                "date": (
+                    hotfix.hotfix_date
+                    .isoformat()
+                    if hotfix.hotfix_date
+                    else None
+                ),
+                "context_path":
+                    list(hotfix.context_path),
+            }
+
+            # A class/spec-scoped spell is a correctness obligation even if
+            # it has no talent-tree node.  The catalog builder materializes
+            # baseline spellbook abilities; if it cannot, VERIFIED publication
+            # must fail instead of silently dropping the hotfix.
+            if _hotfix_has_explicit_class_or_spec_scope(
+                hotfix
+            ):
+                item["reason"] = (
+                    "SCOPED_ABILITY_NOT_IN_CATALOG"
+                )
+                unresolved.append(item)
+            else:
+                item["reason"] = (
+                    "GLOBAL_NON_TALENT_OR_UNSCOPED"
+                )
+                ignored.append(item)
             continue
 
         for talent in matches:
