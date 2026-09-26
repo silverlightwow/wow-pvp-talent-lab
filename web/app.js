@@ -33,6 +33,15 @@
 
 
     let talents = data.talents || [];
+    let abilities = data.abilities || [];
+
+
+    function pvpEntries() {
+        return [
+            ...talents,
+            ...abilities,
+        ];
+    }
 
 
     const state = {
@@ -513,6 +522,13 @@
 
         if (
             talent.tree_type
+            === "ability"
+        ) {
+            return "Spellbook ability";
+        }
+
+        if (
+            talent.tree_type
             === "class"
         ) {
             return (
@@ -902,6 +918,10 @@
 
         talents =
             data.talents
+            || [];
+
+        abilities =
+            data.abilities
             || [];
 
 
@@ -1304,17 +1324,17 @@
 
 
         const changedCount =
-            talents.filter(
-                talent =>
-                    talent.tooltip_changed
+            pvpEntries().filter(
+                entry =>
+                    entry.tooltip_changed
             ).length;
 
 
         const mechanicCount =
             compendiumGroups(
-                talents.filter(
-                    talent =>
-                        talent.has_pvp_mechanics
+                pvpEntries().filter(
+                    entry =>
+                        entry.has_pvp_mechanics
                 )
             ).length;
 
@@ -3600,7 +3620,7 @@
 
 
         const rows =
-            talents.filter(
+            pvpEntries().filter(
                 talent => {
 
                     if (
@@ -3676,7 +3696,7 @@
 
         $("#compareCount")
             .textContent =
-            `${rows.length} modified talents`;
+            `${rows.length} modified spells / talents`;
 
 
         $("#compareBody").innerHTML = rows.map(talent => `
@@ -4071,7 +4091,7 @@
             || "";
 
         return compendiumGroups(
-            talents
+            pvpEntries()
         )
         .filter(
             group => {
@@ -4232,7 +4252,7 @@
         if (!group) {
             container.innerHTML = `
                 <div class="empty-state">
-                    Select a talent.
+                    Select a spell or talent.
                 </div>
             `;
             return;
@@ -4274,15 +4294,15 @@
                 </div>
             </div>
 
-            <section class="mechanic-description" aria-label="Talent description in PvP">
-                <h3>Talent description <span>In PvP</span></h3>
+            <section class="mechanic-description" aria-label="Player-facing description in PvP">
+                <h3>${talent.tree_type === "ability" ? "Ability" : "Talent"} description <span>In PvP</span></h3>
                 ${group.entries.flatMap(entry => entry.rank_tooltips?.length ? entry.rank_tooltips : [entry]).map((rank, index, all) => `
                     <div class="mechanic-description-rank">
                         ${all.length > 1 ? `<h4>Rank ${index + 1}/${all.length}</h4>` : ""}
                         <p class="mechanic-description-text">${escapeHtml(descriptionText(rank.pvp_tooltip))}</p>
                     </div>`).join("")}
             </section>
-            <p class="mechanics-explanation">Modifiers below apply to the listed effects, including spells triggered by this talent. Open a source panel to see the calculation.</p>
+            <p class="mechanics-explanation">Modifiers below apply to the listed effects, including triggered spell effects where applicable. Open a source panel to see the calculation.</p>
             <div class="mechanics-grid">
                 ${group.mechanics.map(mechanic => mechanicCard(mechanic)).join("")}
             </div>
