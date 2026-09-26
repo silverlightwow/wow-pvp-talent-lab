@@ -73,6 +73,7 @@ class FakeTalent:
 @dataclass
 class FakeCatalog:
     talents: list[FakeTalent]
+    abilities: list[FakeTalent] = field(default_factory=list)
 
 
 def test_parse_current_absolute_pvp_hotfixes():
@@ -163,6 +164,47 @@ def test_simple_class_hotfix_is_scoped_and_repairs_shared_tooltip():
     assert talent.pvp_tooltip == talent.pve_tooltip
     assert not talent.tooltip_changed
     assert talent.changes == []
+
+
+def test_official_hotfix_applies_to_non_tree_base_ability():
+    """Base abilities must use the same authoritative overlay as talents."""
+    html = """
+    <html><body>
+    <h3>September 24, 2026</h3>
+    <h3>Player versus Player</h3>
+    <ul><li>Hunter<ul>
+      <li>Baseline Slow now reduces movement speed by 40% in PvP combat.</li>
+    </ul></li></ul>
+    </body></html>
+    """
+    hotfix = blizzard_hotfixes.parse_official_pvp_hotfixes(html)[0]
+
+    ability = FakeTalent(
+        talent_name="Baseline Slow",
+        spell_id=999001,
+        pve_tooltip="Slows the target's movement speed by 50% for 15 sec.",
+        pvp_tooltip="Slows the target's movement speed by 50% for 15 sec.",
+    )
+    catalog = FakeCatalog(
+        talents=[],
+        abilities=[ability],
+    )
+    catalog.class_name = "Hunter"
+    catalog.spec_name = "Marksmanship"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+
+    assert report["unresolved"] == []
+    assert report["ignored_non_talent"] == []
+    assert len(report["applied"]) == 1
+    assert ability.tooltip_changed
+    assert "40%" in ability.pvp_tooltip
+    assert "50%" in ability.pve_tooltip
+    assert ability.changes[0]["old_token"] == "50%"
+    assert ability.changes[0]["new_token"] == "40%"
 
 
 def test_apply_official_hotfix_overlay_and_highlight():
