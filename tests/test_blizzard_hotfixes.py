@@ -1057,8 +1057,9 @@ def test_embedded_hotfix_parent_requires_standalone_heading():
         [hotfix],
     )
     assert report["already_current"] == []
-    assert report["unresolved"] == []
-    assert len(report["ignored_non_talent"]) == 1
+    assert report["ignored_non_talent"] == []
+    assert len(report["unresolved"]) == 1
+    assert report["unresolved"][0]["reason"] == "SCOPED_ABILITY_NOT_IN_CATALOG"
 
 
 def test_spec_wide_relative_hotfix_rejects_wrong_aura_delta():
