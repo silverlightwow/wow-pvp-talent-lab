@@ -1110,3 +1110,64 @@ def test_spec_wide_relative_hotfix_rejects_wrong_aura_delta():
     )
     assert len(report["unresolved"]) == 1
     assert report["already_current"] == []
+
+
+def test_scoped_spellbook_ability_hotfix_is_applied_without_tree_node():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Wing Clip",
+        current_percent=40,
+        previous_percent=None,
+        target_hint=None,
+        text="Wing Clip now reduces movement speed by 40% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 24),
+        context_path=("Hunter",),
+    )
+    ability = FakeTalent(
+        talent_name="Wing Clip",
+        spell_id=195645,
+        pve_tooltip="Maims the target, reducing movement speed by 50% for 15 sec.",
+        pvp_tooltip="Maims the target, reducing movement speed by 50% for 15 sec.",
+    )
+    catalog = FakeCatalog(talents=[])
+    catalog.abilities = [ability]
+    catalog.class_name = "Hunter"
+    catalog.spec_name = "Survival"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+
+    assert report["unresolved"] == []
+    assert report["ignored_non_talent"] == []
+    assert "movement speed by 40%" in ability.pvp_tooltip
+    assert "movement speed by 50%" in ability.pve_tooltip
+    assert ability.tooltip_changed
+    assert ability.has_pvp_mechanics
+    assert ability.changes[-1]["old_token"] == "50%"
+    assert ability.changes[-1]["new_token"] == "40%"
+
+
+def test_scoped_spellbook_hotfix_cannot_be_silently_ignored():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Missing Base Ability",
+        current_percent=40,
+        previous_percent=None,
+        target_hint=None,
+        text="Missing Base Ability now reduces movement speed by 40% in PvP combat.",
+        hotfix_date=__import__("datetime").date(2026, 9, 24),
+        context_path=("Hunter",),
+    )
+    catalog = FakeCatalog(talents=[])
+    catalog.abilities = []
+    catalog.class_name = "Hunter"
+    catalog.spec_name = "Survival"
+
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        catalog,
+        [hotfix],
+    )
+
+    assert report["ignored_non_talent"] == []
+    assert len(report["unresolved"]) == 1
+    assert report["unresolved"][0]["reason"] == "SCOPED_ABILITY_NOT_IN_CATALOG"
