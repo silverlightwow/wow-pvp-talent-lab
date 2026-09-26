@@ -3943,7 +3943,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 376079,
           "source_spell_id": 1271985,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.47 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.47)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3970,10 +3970,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -12320,7 +12321,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-09-25T20:56:26.576562+00:00",
+  "generated_at": "2026-09-26T07:10:04.494813+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 41,
@@ -12333,11 +12334,17 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1271985,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271985'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

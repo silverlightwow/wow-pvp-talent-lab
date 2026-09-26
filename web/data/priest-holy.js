@@ -11112,7 +11112,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-25T20:51:04.335571+00:00",
+  "generated_at": "2026-09-26T07:04:39.214943+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 20,

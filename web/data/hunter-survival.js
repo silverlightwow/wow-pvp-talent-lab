@@ -10550,7 +10550,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-09-25T20:45:27.531809+00:00",
+  "generated_at": "2026-09-26T06:57:31.492431+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,

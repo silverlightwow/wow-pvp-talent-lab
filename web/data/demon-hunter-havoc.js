@@ -8251,7 +8251,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442290,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8287,11 +8287,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8408,7 +8407,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442718,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8448,11 +8447,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -9417,7 +9415,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272153,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
+          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9459,11 +9457,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -11946,7 +11943,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-25T20:41:50.986674+00:00",
+  "generated_at": "2026-09-26T06:53:38.864227+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -11959,16 +11956,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 17,
+    "source_warning_count": 16,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 442294,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442294'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 442503,
@@ -11988,6 +11980,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 442688,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442688'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 442695,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442695'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -8362,7 +8362,7 @@
           "talent_spell_id": 444776,
           "source_spell_id": 446044,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Increase Speed% (31)",
+          "effect_text": "Apply Aura: Increase Run Speed %",
           "base_value": 70.0,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": null,
@@ -8379,9 +8379,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9126,7 +9126,7 @@
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -9143,11 +9143,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "simc_generated"
+            "wowhead",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9155,7 +9155,7 @@
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -9172,11 +9172,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "simc_generated"
+            "wowhead",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         }
       ],
       "render_effect_count": 1,
@@ -10754,7 +10754,7 @@
     ]
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-09-25T20:56:36.567699+00:00",
+  "generated_at": "2026-09-26T07:10:46.026085+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 25,
@@ -10767,21 +10767,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 5,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 446044,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446044'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 446918,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 460670,

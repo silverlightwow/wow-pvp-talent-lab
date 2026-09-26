@@ -4863,7 +4863,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 377128,
           "source_spell_id": 81297,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (AP mod: 0.05)",
+          "effect_text": "School Damage (Holy) (AP mod: 0.05 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": "direct",
@@ -4882,9 +4882,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5216,7 +5216,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 20473,
           "source_spell_id": 25914,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 11.17)",
+          "effect_text": "Heal (SP mod: 11.17)",
           "base_value": null,
           "spell_pvp_multiplier": 0.909,
           "amount_kind": "direct",
@@ -5243,9 +5243,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7085,7 +7085,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1241805,
           "source_spell_id": 53563,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 3 seconds (SP mod: 0.33)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7112,11 +7112,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -7498,7 +7497,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 156910,
           "source_spell_id": 53563,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 3 seconds (SP mod: 0.33)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7527,11 +7526,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -7604,7 +7602,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 200025,
           "source_spell_id": 53563,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 3 seconds (SP mod: 0.33)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7633,11 +7631,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -8027,7 +8024,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 394088,
           "source_spell_id": 35395,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical | Attributes: Chain from Initial Target (7) (AP mod: 1.4)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.4 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8056,11 +8053,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8229,7 +8225,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232616,
           "source_spell_id": 53563,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 3 seconds (SP mod: 0.33)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8256,11 +8252,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -11222,7 +11217,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 433106,
           "source_spell_id": 137028,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Modify Auto Attack Damage Done% (344)",
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
           "base_value": 350.0,
           "spell_pvp_multiplier": 0.57,
           "amount_kind": null,
@@ -11239,10 +11234,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -12994,7 +12990,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "paladin-holy",
-  "generated_at": "2026-09-25T20:49:45.622223+00:00",
+  "generated_at": "2026-09-26T07:02:37.038432+00:00",
   "validation": {
     "talents": 150,
     "changed_tooltips": 26,
@@ -13007,35 +13003,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 30,
+    "source_warning_count": 20,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 1271466,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271466'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 157128,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157128'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1271553,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271553'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 199423,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199423'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1277443,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 204074,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204074'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1277651,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277651'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 216331,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=216331'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1289728,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1289728'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 223819,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=223819'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

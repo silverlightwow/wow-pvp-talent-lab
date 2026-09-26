@@ -5214,7 +5214,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 470057,
           "source_spell_id": 1259101,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (SP mod: 4)",
+          "effect_text": "School Damage (2): nature (SP mod: 4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5241,10 +5241,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7107,7 +7108,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1218047,
           "source_spell_id": 1218113,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical, Fire) (AP mod: 1.188 )",
+          "effect_text": "School Damage (2): flamestrike (AP mod: 1.188)",
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
@@ -7134,9 +7135,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7147,7 +7148,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1218047,
           "source_spell_id": 1218116,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical, Frost) (AP mod: 1.188 )",
+          "effect_text": "School Damage (2): froststrike (AP mod: 1.188)",
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
@@ -7174,9 +7175,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7187,7 +7188,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1218047,
           "source_spell_id": 1218118,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical, Nature) (AP mod: 1.188 )",
+          "effect_text": "School Damage (2): stormstrike (AP mod: 1.188)",
           "base_value": null,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": "direct",
@@ -7214,9 +7215,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10939,7 +10940,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-25T20:54:02.629108+00:00",
+  "generated_at": "2026-09-26T07:07:27.832269+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,
@@ -10952,11 +10953,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 5,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1218113,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1218113'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1218116,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1218116'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1218118,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1218118'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1252433,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1252433'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1259101,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259101'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

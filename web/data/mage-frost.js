@@ -12517,7 +12517,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-09-25T20:46:58.389684+00:00",
+  "generated_at": "2026-09-26T06:59:39.647593+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 33,
