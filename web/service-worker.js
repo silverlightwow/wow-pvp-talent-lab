@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v24";
+const CACHE = "wow-pvp-talent-lab-v25";
 const CORE = [
   "./",
   "./index.html",
@@ -15,7 +15,8 @@ const CORE = [
   "./data/manifest.js",
   "./data/manifest.json",
   "./data/priest-discipline.js",
-  "./data/priest-discipline.json"
+  "./data/priest-discipline.json",
+  "./icons/ability_rogue_trip.jpg"
 ];
 
 self.addEventListener("install", event => {
