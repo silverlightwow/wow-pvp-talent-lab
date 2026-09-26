@@ -5326,11 +5326,13 @@ async def audit_spec(
             standalone_rows
         )
 
-        result.standalone_spell_ids = {
-            int(row["spell_id"])
-            for row in standalone_rows
-            if row.get("spell_id") is not None
-        }
+        # Keep non-tree direct mechanics in the audit universe, but do not
+        # automatically publish every modified implementation spell as a
+        # player-facing ability.  SimC contains many triggered/runtime records
+        # with perfectly valid PvP coefficients that are not spellbook entries.
+        # Publication requires an independent identity proof (currently an
+        # applicable class/spec-scoped official hotfix in build_all_site_data).
+        # Proven IDs are added to result.standalone_spell_ids later.
 
 
     _enrich_rows_from_generated_exact(
