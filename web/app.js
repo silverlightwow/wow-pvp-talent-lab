@@ -3750,6 +3750,56 @@
         mechanic
     ) {
 
+        if (
+            mechanic.official_hotfix_only
+        ) {
+            const changes =
+                mechanic.changes || [];
+
+            const changeRows =
+                changes.length
+                ? changes.map(
+                    change => `
+                        <div class="factor-row">
+                            <div class="factor">
+                                <span class="factor-label">PvE</span>
+                                <span class="factor-value">${escapeHtml(change.old_token ?? "—")}</span>
+                            </div>
+                            <div class="factor">
+                                <span class="factor-label">PvP</span>
+                                <span class="factor-value">${escapeHtml(change.new_token ?? "—")}</span>
+                            </div>
+                        </div>
+                    `
+                ).join("")
+                : "";
+
+            const sourceLink =
+                mechanic.source_url
+                ? `<a href="${escapeHtml(mechanic.source_url)}" target="_blank" rel="noopener noreferrer">Official Blizzard hotfix ↗</a>`
+                : "Official Blizzard hotfix";
+
+            return `
+                <div class="mechanic-card">
+                    <div class="mechanic-top">
+                        <span class="mechanic-origin">OFFICIAL</span>
+                        <span class="mechanic-kind">hotfix</span>
+                    </div>
+                    <div class="mechanic-effect">
+                        ${escapeHtml(mechanic.effect_text || "Official PvP hotfix")}
+                    </div>
+                    ${changeRows}
+                    <div class="path-row">
+                        Source spell: ${mechanic.source_spell_id ?? "—"}
+                        ${mechanic.hotfix_date ? ` · Hotfix: ${escapeHtml(mechanic.hotfix_date)}` : ""}
+                    </div>
+                    <div class="mechanic-evidence">
+                        ${sourceLink}
+                    </div>
+                </div>
+            `;
+        }
+
         const path =
             mechanic.dependency_path
             || [];
@@ -4042,7 +4092,10 @@
 
                 group.entries.forEach(
                     entry => {
-                        (entry.mechanics || [])
+                        const entryMechanics =
+                            entry.mechanics || [];
+
+                        entryMechanics
                             .forEach(
                                 mechanic => {
                                     const mechanicKey = [
@@ -4065,6 +4118,72 @@
                                     }
                                 }
                             );
+
+                        // Some verified PvP differences come directly from
+                        // Blizzard hotfix notes rather than a datamined
+                        // SpellEffect/PvP aura row.  Baseline abilities such
+                        // as Wing Clip are the canonical case.  Keep those
+                        // changes in the mechanics view too instead of
+                        // producing an empty detail panel.
+                        if (
+                            entryMechanics.length === 0
+                            && entry.tooltip_changed
+                        ) {
+                            (entry.diagnostics || [])
+                                .filter(
+                                    diagnostic =>
+                                        diagnostic.source
+                                        === "blizzard_hotfix"
+                                        && String(
+                                            diagnostic.status || ""
+                                        ).includes(
+                                            "HOTFIX_APPLIED"
+                                        )
+                                )
+                                .forEach(
+                                    diagnostic => {
+                                        const mechanicKey = [
+                                            "official-hotfix",
+                                            entry.spell_id,
+                                            diagnostic.hotfix_date,
+                                            diagnostic.hotfix_text,
+                                        ].join("|");
+
+                                        if (
+                                            !mechanicMap.has(
+                                                mechanicKey
+                                            )
+                                        ) {
+                                            mechanicMap.set(
+                                                mechanicKey,
+                                                {
+                                                    source:
+                                                        "blizzard_hotfix",
+                                                    official_hotfix_only:
+                                                        true,
+                                                    source_spell_id:
+                                                        entry.spell_id,
+                                                    effect_index:
+                                                        null,
+                                                    effect_origin:
+                                                        "OFFICIAL",
+                                                    dependency_kind:
+                                                        "hotfix",
+                                                    effect_text:
+                                                        diagnostic.hotfix_text
+                                                        || "Official PvP hotfix",
+                                                    source_url:
+                                                        diagnostic.source_url,
+                                                    hotfix_date:
+                                                        diagnostic.hotfix_date,
+                                                    changes:
+                                                        entry.changes || [],
+                                                }
+                                            );
+                                        }
+                                    }
+                                );
+                        }
                     }
                 );
 
