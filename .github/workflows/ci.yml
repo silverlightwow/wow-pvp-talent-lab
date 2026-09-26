@@ -46,24 +46,29 @@ jobs:
       - name: Run tests
         run: pytest -q
 
-      - name: Build Hunter Marksmanship hotfix smoke
+      - name: Build official-hotfix scope smoke
         run: |
           python scripts/build_all_site_data.py \
             --class-name Hunter \
             --spec-name Marksmanship \
             --output-dir /tmp/hunter-hotfix-smoke \
             --concurrency 4
+          python scripts/build_all_site_data.py \
+            --class-name Druid \
+            --spec-name Restoration \
+            --output-dir /tmp/druid-hotfix-smoke \
+            --concurrency 4
           python - <<'PY'
           import json
           from pathlib import Path
 
-          data = json.loads(
+          hunter = json.loads(
               Path("/tmp/hunter-hotfix-smoke/hunter-marksmanship.json")
               .read_text(encoding="utf-8")
           )
           abilities = {
               item["talent_name"]: item
-              for item in data.get("abilities", [])
+              for item in hunter.get("abilities", [])
           }
           wing_clip = abilities.get("Wing Clip")
           assert wing_clip is not None, "Wing Clip base ability was not resolved"
@@ -75,6 +80,18 @@ jobs:
           ), wing_clip.get("changes")
           assert not any(
               item.get("talent_name") == "Wing Clip"
-              for item in data["official_hotfixes"]["ignored_non_talent"]
+              for item in hunter["official_hotfixes"]["ignored_non_talent"]
           )
+
+          druid = json.loads(
+              Path("/tmp/druid-hotfix-smoke/druid-restoration.json")
+              .read_text(encoding="utf-8")
+          )
+          resolution = druid["non_tree_hotfix_resolution"]
+          assert resolution["unresolved"] == [], resolution["unresolved"]
+          assert any(
+              item.get("talent_name") in {"Call of Ohn'ahra", "Call of Ohn’ahra"}
+              and item.get("reason") == "NOT_IN_EXACT_BUILD_SPELLBOOK"
+              for item in resolution["ignored"]
+          ), resolution["ignored"]
           PY
