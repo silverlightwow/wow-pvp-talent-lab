@@ -96,6 +96,20 @@ class SpecAuditResult:
         default_factory=set
     )
 
+    # Player-facing class/spec abilities that are not selectable talent
+    # entries but still carry direct PvP mechanics.  Keep them separate
+    # from tree talents so topology/import-export remains talent-only.
+    standalone_spell_ids: set[int] = field(
+        default_factory=set
+    )
+
+    # Exact-build SimC class spell names are also the identity bridge for
+    # official hotfixes that target baseline spellbook abilities (for
+    # example Wing Clip) rather than talent-tree entries.
+    simc_spell_names: dict[int, str] = field(
+        default_factory=dict
+    )
+
     @property
     def tree_build(self) -> str | None:
         return self.metadata.get(
@@ -4577,6 +4591,14 @@ async def audit_spec(
             )
         )
 
+        result.simc_spell_names = {
+            int(spell_id):
+                str(spell.name)
+            for spell_id, spell
+            in simc_dump.spells.items()
+            if str(getattr(spell, "name", "") or "").strip()
+        }
+
 
         aura_rules = (
             pvp_aura
@@ -5230,6 +5252,87 @@ async def audit_spec(
         result.effect_rows.extend(
             direct_simc_aura_rows
         )
+
+
+    # ========================================================
+    # 3b. Standalone spellbook abilities
+    #
+    # PvP state is not talent-tree state. Baseline class/spec abilities can
+    # have their own PvP coefficients or specialization-aura modifiers even
+    # when no selectable node represents them. Materialize those mechanics
+    # as first-class rows, while deliberately excluding implementation
+    # children already attributed to a talent dependency.
+    # ========================================================
+
+    standalone_simc_ids = (
+        set(simc_pvp_ids)
+        - talent_spell_ids
+        - dependency_spell_ids
+    )
+    standalone_aura_ids = (
+        set(aura_affected_ids)
+        - talent_spell_ids
+        - dependency_spell_ids
+    )
+
+    standalone_rows = (
+        _build_simc_modified_rows(
+            spell_ids=standalone_simc_ids,
+            talent_by_spell={},
+            simc_dump=simc_dump,
+            existing_keys=set(),
+        )
+    )
+
+    standalone_existing_keys = {
+        (
+            int(row["spell_id"]),
+            int(row["effect_index"]),
+        )
+        for row in standalone_rows
+        if row.get("effect_index") is not None
+    }
+
+    standalone_rows.extend(
+        _build_simc_aura_rows(
+            spell_ids=standalone_aura_ids,
+            talent_by_spell={},
+            aura_rules=aura_rules,
+            simc_dump=simc_dump,
+            existing_keys=standalone_existing_keys,
+        )
+    )
+
+    if standalone_rows:
+
+        for row in standalone_rows:
+            row["effect_origin"] = "STANDALONE"
+            row["talent_spell_id"] = int(
+                row.get("spell_id")
+            )
+            row["source_spell_id"] = int(
+                row.get("spell_id")
+            )
+            row["dependency_kind"] = None
+            row["dependency_path"] = None
+            row["dependency_relations"] = None
+            row["dependency_evidence"] = None
+
+        _init_history_schema(
+            standalone_rows
+        )
+
+        result.effect_rows.extend(
+            standalone_rows
+        )
+
+        # Keep non-tree direct mechanics in the audit universe, but do not
+        # automatically publish every modified implementation spell as a
+        # player-facing ability.  SimC contains many triggered/runtime records
+        # with perfectly valid PvP coefficients that are not spellbook entries.
+        # Publication requires an independent identity proof (currently an
+        # applicable class/spec-scoped official hotfix in build_all_site_data).
+        # Proven IDs are added to result.standalone_spell_ids later.
 
 
     _enrich_rows_from_generated_exact(

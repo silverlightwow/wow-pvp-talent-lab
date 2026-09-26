@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from urllib.parse import unquote
 
 from bs4 import BeautifulSoup
 
@@ -14,6 +15,69 @@ NETHER_BASE = (
     "https://nether.wowhead.com/tooltip/spell/{spell_id}"
     "?dataEnv=1&locale=0"
 )
+CLASS_BASE = (
+    "https://www.wowhead.com/class={class_id}/{class_slug}"
+)
+
+
+def parse_class_spell_index(html: str) -> dict[str, set[int]]:
+    """Return exact visible spell-name -> Wowhead spell IDs from a class page.
+
+    The class landing page includes ordinary abilities, tree talents and PvP
+    talents.  It is therefore a useful independent identity source for
+    official hotfix targets that are absent from SimulationCraft's class
+    SpellDataDump (notably honor/PvP talents).  We only accept exact anchor
+    labels and real spell links; no fuzzy name matching is performed.
+    """
+    soup = BeautifulSoup(html, "lxml")
+    result: dict[str, set[int]] = {}
+
+    for link in soup.find_all("a", href=True):
+        label = re.sub(
+            r"\s+",
+            " ",
+            link.get_text(" ", strip=True),
+        ).strip()
+        if not label:
+            continue
+
+        href = unquote(str(link.get("href") or ""))
+        match = re.search(
+            r"/spell(?:=|/)(\d+)(?:/|$|[?#])",
+            href,
+            re.I,
+        )
+        if not match:
+            continue
+
+        result.setdefault(
+            label.casefold(),
+            set(),
+        ).add(
+            int(match.group(1))
+        )
+
+    return result
+
+
+async def fetch_class_spell_index(
+    client: CachedClient,
+    *,
+    class_id: int,
+    class_name: str,
+) -> dict[str, set[int]]:
+    class_slug = re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        class_name.casefold(),
+    ).strip("-")
+    html = await client.get_text(
+        CLASS_BASE.format(
+            class_id=int(class_id),
+            class_slug=class_slug,
+        )
+    )
+    return parse_class_spell_index(html)
 
 
 class WowheadParseError(RuntimeError):

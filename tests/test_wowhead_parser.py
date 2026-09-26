@@ -1,6 +1,7 @@
 from pvpcalc.sources.wowhead import (
     parse_spell_html,
     parse_nether_tooltip_payload,
+    parse_class_spell_index,
 )
 
 
@@ -164,3 +165,17 @@ def test_mind_blast_source_metadata_selects_discipline_recharge_override():
         disc = tooltip_for_specialization(page, [137032])
         assert '28 sec cooldown' in disc and '9 sec cooldown' not in disc
         assert '9 sec cooldown' in tooltip_for_specialization(page, [137033])
+
+
+def test_class_spell_index_requires_exact_real_spell_links():
+    html = """
+    <a href="/spell=195645/wing-clip">Wing Clip</a>
+    <a href="/spell=235711/chrono-shift"><span>Chrono Shift</span></a>
+    <a href="/spell%3D235711/chrono-shift">Chrono Shift</a>
+    <a href="/item=123">Chrono Shift</a>
+    <a href="/spell=999999/not-it">Different Name</a>
+    """
+    index = parse_class_spell_index(html)
+    assert index["wing clip"] == {195645}
+    assert index["chrono shift"] == {235711}
+    assert index["different name"] == {999999}

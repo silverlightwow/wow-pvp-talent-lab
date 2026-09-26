@@ -89,6 +89,11 @@ class SpecCatalog:
 
     talents: list[TalentRecord]
 
+    # Player-facing spellbook abilities with PvP-specific state but no
+    # selectable talent-tree entry.  They share the rendering model while
+    # remaining outside tree topology/import-export.
+    abilities: list[TalentRecord]
+
     fetch_errors: list[dict]
 
     def to_dict(self):
@@ -111,6 +116,11 @@ class SpecCatalog:
             "talents": [
                 asdict(talent)
                 for talent in self.talents
+            ],
+
+            "abilities": [
+                asdict(ability)
+                for ability in self.abilities
             ],
 
             "fetch_errors":
@@ -320,9 +330,22 @@ async def build_spec_catalog(
     )
 
 
-    spell_ids = sorted(set(spell_ids) | {
-        int(row["visible_spell_id"]) for row in audit.talents if row.get("visible_spell_id")
-    })
+    spell_ids = sorted(
+        set(spell_ids)
+        | {
+            int(row["visible_spell_id"])
+            for row in audit.talents
+            if row.get("visible_spell_id")
+        }
+        | {
+            int(spell_id)
+            for spell_id in getattr(
+                audit,
+                "standalone_spell_ids",
+                set(),
+            )
+        }
+    )
     client = CachedClient(
         concurrency=concurrency
     )
@@ -771,6 +794,191 @@ async def build_spec_catalog(
         )
 
 
+    # --------------------------------------------------------
+    # Player-facing abilities outside the talent tree.
+    # --------------------------------------------------------
+
+    ability_records = []
+    tree_spell_ids = {
+        int(record.spell_id)
+        for record in records
+    }
+
+    for spell_id in sorted(
+        int(value)
+        for value in getattr(
+            audit,
+            "standalone_spell_ids",
+            set(),
+        )
+    ):
+        if spell_id in tree_spell_ids:
+            continue
+
+        page = pages.get(spell_id)
+        pve_tooltip = (
+            wowhead.tooltip_for_specialization(
+                page,
+                audit.metadata.get(
+                    "specAuraSpellIds",
+                    [],
+                ),
+            )
+            if page is not None
+            else ""
+        )
+
+        if not tooltip_renderer.tooltip_for_spec(
+            pve_tooltip,
+            audit.spec_name,
+            audit.metadata.get(
+                "classSpecNames"
+            ),
+        ).strip():
+            fallback = (
+                audit.simc_tooltip_fallbacks
+                .get(spell_id)
+            )
+            if fallback:
+                pve_tooltip = fallback["text"]
+
+        # Hidden implementation/output spells are intentionally retained as
+        # child mechanics of their parent talent, not promoted into fake
+        # player-facing abilities.
+        if not tooltip_renderer.tooltip_for_spec(
+            pve_tooltip,
+            audit.spec_name,
+            audit.metadata.get(
+                "classSpecNames"
+            ),
+        ).strip():
+            continue
+
+        render_rows = (
+            render_by_talent.get(
+                spell_id,
+                [],
+            )
+        )
+        context_rows = (
+            context_by_talent.get(
+                spell_id,
+                [],
+            )
+        )
+        mechanic_rows = (
+            mechanics_by_talent.get(
+                spell_id,
+                [],
+            )
+        )
+
+        rendered = (
+            tooltip_renderer
+            .render_pvp_tooltip(
+                tooltip=pve_tooltip,
+                spec_name=audit.spec_name,
+                effect_rows=render_rows,
+                spec_names=
+                    audit.metadata.get(
+                        "classSpecNames"
+                    ),
+                context_rows=context_rows,
+            )
+        )
+
+        render_status = _render_status(
+            tooltip=rendered[
+                "pve_tooltip"
+            ],
+            render_result=rendered,
+        )
+        if render_status == "REVIEW_REQUIRED":
+            raise ValueError(
+                "Unresolved standalone PvP ability values: "
+                f"{spell_id}: "
+                f"{rendered['diagnostics']}"
+            )
+
+        name = (
+            page.spell_name
+            if page is not None
+            and page.spell_name
+            else getattr(
+                audit,
+                "simc_spell_names",
+                {},
+            ).get(
+                spell_id,
+                f"Spell {spell_id}",
+            )
+        )
+
+        icon = (
+            page.icon
+            if page is not None
+            else ""
+        )
+
+        ability_records.append(
+            TalentRecord(
+                talent_name=str(name),
+                spell_id=spell_id,
+                node_id=None,
+                entry_id=None,
+                definition_id=None,
+                tree_type="ability",
+                hero_tree=None,
+                tree_data={
+                    "record_type":
+                        "ability",
+                    "icon":
+                        icon,
+                    "icon_candidates":
+                        [icon]
+                        if icon
+                        else [],
+                },
+                pve_tooltip=
+                    rendered[
+                        "pve_tooltip"
+                    ],
+                pvp_tooltip=
+                    rendered[
+                        "pvp_tooltip"
+                    ],
+                tooltip_changed=
+                    rendered[
+                        "changed"
+                    ],
+                render_status=
+                    render_status,
+                changes=[
+                    dict(item)
+                    for item in rendered[
+                        "replacements"
+                    ]
+                ],
+                diagnostics=[
+                    dict(item)
+                    for item in rendered[
+                        "diagnostics"
+                    ]
+                ],
+                has_pvp_mechanics=
+                    bool(mechanic_rows),
+                mechanics=[
+                    _mechanic_row(row)
+                    for row
+                    in mechanic_rows
+                ],
+                render_effect_count=
+                    len(render_rows),
+                rank_tooltips=[],
+            )
+        )
+
+
     return SpecCatalog(
         class_name=
             audit.class_name,
@@ -791,6 +999,9 @@ async def build_spec_catalog(
 
         talents=
             records,
+
+        abilities=
+            ability_records,
 
         fetch_errors=
             fetch_errors,

@@ -13,7 +13,7 @@ import tempfile
 
 from pvpcalc import catalog, pipeline
 from pvpcalc.http import CachedClient
-from pvpcalc.sources import raidbots, blizzard_hotfixes
+from pvpcalc.sources import raidbots, blizzard_hotfixes, wowhead
 
 from build_site_data import _json_default
 
@@ -35,6 +35,18 @@ def _validate_for_all(audit, spec_catalog) -> dict:
     """
 
     talents = spec_catalog.talents
+    abilities = list(
+        getattr(
+            spec_catalog,
+            "abilities",
+            [],
+        )
+        or []
+    )
+    player_records = [
+        *talents,
+        *abilities,
+    ]
 
     if len(talents) < 50:
         raise RuntimeError(
@@ -74,7 +86,7 @@ def _validate_for_all(audit, spec_catalog) -> dict:
             talent.spell_id,
             talent.render_status,
         )
-        for talent in talents
+        for talent in player_records
         if talent.render_status
         in {
             "REVIEW_REQUIRED",
@@ -154,16 +166,19 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         "talents":
             len(talents),
 
+        "abilities":
+            len(abilities),
+
         "changed_tooltips":
             sum(
-                talent.tooltip_changed
-                for talent in talents
+                record.tooltip_changed
+                for record in player_records
             ),
 
         "talents_with_pvp_mechanics":
             sum(
-                talent.has_pvp_mechanics
-                for talent in talents
+                record.has_pvp_mechanics
+                for record in player_records
             ),
 
         "unique_nodes":
@@ -371,11 +386,6 @@ async def build_one(
         include_wiki=False,
     )
 
-    spec_catalog = await catalog.build_spec_catalog(
-        audit,
-        concurrency=concurrency,
-    )
-
     # Third-party DBC mirrors can legitimately lag server-side Blizzard
     # hotfixes while keeping the same client build number. Reconcile the
     # current official PvP hotfix feed before declaring this spec VERIFIED.
@@ -414,6 +424,178 @@ async def build_one(
                 official_hotfixes
             )
         )
+
+    # A class/spec-scoped hotfix can target a baseline spellbook ability
+    # with no talent node. Resolve those names against the same exact-build
+    # SimC class dump used by the audit and promote the spell ID into the
+    # standalone catalog. Global unscoped notes (items/trinkets/systems) are
+    # deliberately not treated as abilities.
+    tree_names = {
+        blizzard_hotfixes._normalize_name(
+            row.get(
+                "talent_name",
+                "",
+            )
+        )
+        for row in audit.talents
+    }
+    simc_ids_by_name = {}
+    for spell_id, spell_name in (
+        getattr(
+            audit,
+            "simc_spell_names",
+            {},
+        )
+        or {}
+    ).items():
+        simc_ids_by_name.setdefault(
+            blizzard_hotfixes
+            ._normalize_name(
+                spell_name
+            ),
+            set(),
+        ).add(
+            int(spell_id)
+        )
+
+    class_id = next(
+        (
+            int(row["class_id"])
+            for row in audit.talents
+            if row.get("class_id") is not None
+        ),
+        None,
+    )
+    wowhead_class_index = None
+
+    for hotfix in official_hotfixes:
+        if not (
+            blizzard_hotfixes
+            ._hotfix_applies_to_catalog(
+                hotfix,
+                audit,
+            )
+        ):
+            continue
+        if not (
+            blizzard_hotfixes
+            ._hotfix_has_explicit_class_or_spec_scope(
+                hotfix
+            )
+        ):
+            continue
+        if hotfix.mode.startswith(
+            "spec_relative_"
+        ):
+            continue
+
+        lookup_names = (
+            blizzard_hotfixes
+            ._relative_name_candidates(
+                hotfix.talent_name
+            )
+            if hotfix.mode.startswith(
+                "relative_"
+            )
+            else (
+                blizzard_hotfixes
+                ._normalize_name(
+                    hotfix.talent_name
+                ),
+            )
+        )
+
+        if any(
+            name in tree_names
+            for name in lookup_names
+        ):
+            continue
+
+        candidate_ids = {
+            spell_id
+            for name in lookup_names
+            for spell_id in (
+                simc_ids_by_name.get(
+                    name,
+                    set(),
+                )
+            )
+        }
+
+        if len(candidate_ids) == 1:
+            audit.standalone_spell_ids.add(
+                candidate_ids.pop()
+            )
+            continue
+
+        # Relative notes often describe a triggered child of an existing
+        # selectable talent. Let the established dependency/embedded-parent
+        # resolver prove those rather than promoting an implementation spell.
+        if hotfix.mode.startswith(
+            "relative_"
+        ):
+            continue
+
+        # Some real player-facing records (especially PvP talents) are absent
+        # from SimC's class SpellDataDump. Fall back to Wowhead's *class*
+        # catalog, which lists ordinary abilities and PvP talents with stable
+        # spell links. This is exact-name identity resolution, never fuzzy.
+        if class_id is not None:
+            if wowhead_class_index is None:
+                identity_client = CachedClient(
+                    concurrency=1
+                )
+                try:
+                    raw_index = (
+                        await wowhead
+                        .fetch_class_spell_index(
+                            identity_client,
+                            class_id=class_id,
+                            class_name=class_name,
+                        )
+                    )
+                finally:
+                    await identity_client.aclose()
+
+                wowhead_class_index = {}
+                for raw_name, spell_ids in (
+                    raw_index.items()
+                ):
+                    wowhead_class_index.setdefault(
+                        blizzard_hotfixes
+                        ._normalize_name(
+                            raw_name
+                        ),
+                        set(),
+                    ).update(
+                        int(value)
+                        for value in spell_ids
+                    )
+
+            class_candidate_ids = set()
+            for name in lookup_names:
+                class_candidate_ids.update(
+                    wowhead_class_index.get(
+                        name,
+                        set(),
+                    )
+                )
+
+            if len(class_candidate_ids) == 1:
+                audit.standalone_spell_ids.add(
+                    class_candidate_ids.pop()
+                )
+                continue
+
+        # Multiple/zero candidates intentionally fall through. Never guess
+        # among implementation variants; the official-hotfix application
+        # below must either prove a parent mapping or fail VERIFIED publication
+        # closed.
+
+    spec_catalog = await catalog.build_spec_catalog(
+        audit,
+        concurrency=concurrency,
+    )
 
     slug = slugify(
         class_name,
