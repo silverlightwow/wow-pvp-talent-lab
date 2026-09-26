@@ -293,6 +293,9 @@
                 || sibling.classList.contains(
                     "choice-option-fallback"
                 )
+                || sibling.classList.contains(
+                    "small-icon-fallback"
+                )
             )
         ) {
             sibling.style.display =
