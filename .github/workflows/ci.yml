@@ -2,7 +2,7 @@ name: Python unit tests
 
 on:
   push:
-    branches: [main]
+    branches: [main, "fix/**"]
     paths:
       - "pvpcalc/**"
       - "tests/**"
