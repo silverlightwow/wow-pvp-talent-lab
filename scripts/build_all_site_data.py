@@ -516,15 +516,14 @@ async def build_one(
             audit.standalone_spell_ids.add(
                 candidate_ids.pop()
             )
-        elif len(candidate_ids) > 1:
-            raise RuntimeError(
-                "Ambiguous standalone hotfix spell identity: "
-                f"{hotfix.talent_name} -> "
-                f"{sorted(candidate_ids)}"
-            )
-        # Zero candidates intentionally fall through. The official-hotfix
-        # application below will classify the scoped note as unresolved and
-        # block VERIFIED publication rather than silently omitting it.
+        # Multiple same-name SimC records are common for triggered/rank/
+        # implementation variants (for example Hammer of Light). Do not guess
+        # which one is player-facing here. Existing parent/dependency matching
+        # gets the first opportunity to prove the hotfix; if it cannot, the
+        # scoped-hotfix invariant below fails publication closed.
+        #
+        # Zero candidates follow the same path: never invent an identity, but
+        # also never silently drop a class/spec-scoped official change.
 
     spec_catalog = await catalog.build_spec_catalog(
         audit,
