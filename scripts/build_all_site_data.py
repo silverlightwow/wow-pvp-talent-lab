@@ -461,6 +461,15 @@ async def build_one(
                 hotfix_baselines,
         )
     )
+    # Preserve official directives that are outside the ordinary exact-build
+    # class/spec spell dump (most notably dedicated PvP talents) for audit
+    # visibility without letting them block verified base-ability updates.
+    hotfix_report["external_non_tree"] = (
+        non_tree_hotfix_report.get(
+            "external",
+            [],
+        )
+    )
 
     if (
         hotfix_report["snapshot_hash"]
