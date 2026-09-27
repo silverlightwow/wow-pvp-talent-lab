@@ -59,6 +59,10 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
    assert.equal(await wingRow.count(),1,'Wing Clip comparison row missing');
    const wingIcon=wingRow.locator('img.small-icon');
    assert.equal(await wingIcon.count(),1,'Wing Clip icon element missing');
+   await page.waitForFunction(()=>{
+    const image=document.querySelector('#compareBody tr img.small-icon');
+    return image?.complete && image.naturalWidth>0;
+   },null,{timeout:10000});
    const iconState=await wingIcon.evaluate(img=>({
     src:img.getAttribute('src'),
     complete:img.complete,
