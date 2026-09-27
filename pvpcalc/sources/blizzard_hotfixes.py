@@ -13,9 +13,10 @@ from bs4 import BeautifulSoup
 from ..http import CachedClient
 
 
+# Blizzard updates the slug as new dates are added to this rolling article.
+# The article ID redirects to its current canonical title automatically.
 OFFICIAL_HOTFIX_URL = (
-    "https://news.blizzard.com/en-us/article/"
-    "24296142/hotfixes-september-24-2026"
+    "https://news.blizzard.com/en-us/article/24296142"
 )
 
 _DATE_RE = re.compile(

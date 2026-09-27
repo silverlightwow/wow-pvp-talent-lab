@@ -45,12 +45,20 @@ function assertDescription(shown, original) {
     await page.waitForFunction(({name,cls}) => !document.querySelector('#specSelect').disabled && document.querySelector('#treeTitle').textContent === `${name} ${cls}`, {name:spec.name,cls:spec.className});
     const data = JSON.parse(fs.readFileSync(path.join(root,`web/data/${spec.slug}.json`)));
     const pvpRecords=[...(data.talents||[]),...(data.abilities||[])];
+    let currentWingClipValue=null;
 
     if (requireCurrentHotfixAbilities && spec.className === 'Hunter') {
      const wingClip=(data.abilities||[]).find(record=>record.talent_name==='Wing Clip');
      assert.ok(wingClip,`${spec.slug}: Wing Clip must be exposed as a non-tree PvP ability`);
      assert.ok(wingClip.tooltip_changed,`${spec.slug}: Wing Clip must have a PvP tooltip difference`);
-     assert.match(wingClip.pvp_tooltip,/40%/,`${spec.slug}: Wing Clip PvP tooltip must show the current 40% slow`);
+     const official=[...(data.official_hotfixes.applied||[]),...(data.official_hotfixes.already_current||[])]
+      .find(change=>change.spell_id===wingClip.spell_id);
+     assert.ok(official,`${spec.slug}: Wing Clip must have traceable official PvP evidence`);
+     const currentValue=official.text.match(/\bby\s+(\d+(?:\.\d+)?)%\s+in PvP combat/i)?.[1];
+     assert.ok(currentValue,`${spec.slug}: official Wing Clip value must be explicit`);
+     currentWingClipValue=`${currentValue}%`;
+     assert.ok(wingClip.pvp_tooltip.includes(`${currentValue}%`),
+      `${spec.slug}: Wing Clip PvP tooltip must agree with the official source`);
     }
     assert.equal(Number(await page.locator('#changedBadge').textContent()),pvpRecords.filter(t=>t.tooltip_changed).length);
 
@@ -247,7 +255,8 @@ function assertDescription(shown, original) {
      assert.equal(await wingClipItem.count(),1,`${spec.slug}: Wing Clip must appear once in PvP mechanics`);
      await wingClipItem.click();
      assert.ok(await page.locator('#compendiumDetail .mechanic-card').count()>0,`${spec.slug}: Wing Clip must have a visible official-hotfix mechanic card`);
-     assert.match(await page.locator('#compendiumDetail').textContent(),/40%/,`${spec.slug}: Wing Clip mechanics must expose the current 40% PvP value`);
+     assert.ok((await page.locator('#compendiumDetail').textContent()).includes(currentWingClipValue),
+      `${spec.slug}: Wing Clip mechanics must expose the calculated PvP value`);
     }
 
     const items=page.locator('#compendiumList .compendium-item');

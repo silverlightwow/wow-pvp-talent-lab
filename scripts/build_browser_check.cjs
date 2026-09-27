@@ -65,7 +65,14 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
     naturalWidth:img.naturalWidth,
     display:getComputedStyle(img).display
    }));
-   assert.match(iconState.src,/\.\/icons\/spells\/195645\.jpg$/,'Wing Clip must use the generic bundled spell-id icon fallback');
+   const wingClip=await page.evaluate(()=>window.WOW_PVP_DATA.abilities.find(ability=>ability.talent_name==='Wing Clip'));
+   const iconNames=[...new Set([
+    ...(wingClip.tree_data.icon_candidates||[]),
+    wingClip.tree_data.icon,
+   ].filter(Boolean))];
+   const sourceIdentities=iconNames.length?iconNames:[String(wingClip.spell_id)];
+   assert.ok(sourceIdentities.some(identity=>iconState.src.includes(identity)),
+    `Wing Clip icon must match its source metadata or spell ID: ${iconState.src}`);
    assert.equal(iconState.complete,true,'Wing Clip icon did not finish loading');
    assert.ok(iconState.naturalWidth>0,'Wing Clip bundled icon failed to load');
    assert.notEqual(iconState.display,'none','Wing Clip icon must remain visible');

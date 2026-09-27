@@ -90,7 +90,21 @@ jobs:
           CLASS_NAME: ${{ matrix.item.class_name }}
           SPEC_NAME: ${{ matrix.item.spec_name }}
           WOW_PVP_HOTFIX_FILE: .hotfixes/official-hotfixes.json
-        run: python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4
+        run: |
+          # Wowhead occasionally rejects one spell request with a transient
+          # 403 after the HTTP client's bounded retries. Retry that entire
+          # specialization once using the same official hotfix snapshot;
+          # all normal source validation still runs on the second attempt.
+          if python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 > build-attempt.log 2>&1; then
+            cat build-attempt.log
+          else
+            cat build-attempt.log
+            if ! rg -q '403 Forbidden.*https://www\.wowhead\.com/' build-attempt.log; then
+              exit 1
+            fi
+            sleep 20
+            python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4
+          fi
       - run: python scripts/validate_site_data.py --data-dir spec-data
       - uses: actions/upload-artifact@v4
         with:

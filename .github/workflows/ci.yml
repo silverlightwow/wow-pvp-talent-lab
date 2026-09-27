@@ -68,9 +68,23 @@ jobs:
           wing_clip = abilities.get("Wing Clip")
           assert wing_clip is not None, "Wing Clip base ability was not resolved"
           assert wing_clip["tooltip_changed"], "Wing Clip PvP tooltip was not changed"
-          assert "40%" in wing_clip["pvp_tooltip"], wing_clip["pvp_tooltip"]
+          official = next(
+              (
+                  item
+                  for status in ("applied", "already_current")
+                  for item in data["official_hotfixes"].get(status, [])
+                  if item.get("spell_id") == wing_clip["spell_id"]
+              ),
+              None,
+          )
+          assert official is not None, "Wing Clip has no official source evidence"
+          import re
+          value = re.search(r"\bby\s+(\d+(?:\.\d+)?)%\s+in PvP combat", official["text"], re.I)
+          assert value is not None, official["text"]
+          expected = value.group(1) + "%"
+          assert expected in wing_clip["pvp_tooltip"], wing_clip["pvp_tooltip"]
           assert any(
-              change.get("new_token") == "40%"
+              change.get("new_token") == expected
               for change in wing_clip.get("changes", [])
           ), wing_clip.get("changes")
           assert not any(

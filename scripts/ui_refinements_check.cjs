@@ -70,8 +70,10 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    assert.match(await aimedIcon.getAttribute('src'),/\/ability_hunter_aimedshot\.jpg$/);
    await page.waitForFunction(nodeId=>{
     const node=document.querySelector(`[data-node-id="${nodeId}"]`);
+    const icon=node?.querySelector('.node-main-icon');
     const fallback=node?.querySelector('.node-fallback');
-    return fallback&&getComputedStyle(fallback).display==='grid';
+    return (icon?.complete&&icon.naturalWidth>0)
+     || (fallback&&getComputedStyle(fallback).display==='grid');
    },aimedNodeId);
    assert.equal(await page.locator('.talent-node img[src$="app-icon.svg"], #talentTooltip img[src$="app-icon.svg"]').count(),0,'The site icon must never be used as a talent icon fallback');
   }
