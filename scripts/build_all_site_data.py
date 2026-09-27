@@ -402,7 +402,10 @@ async def build_one(
             official_hotfixes = (
                 await blizzard_hotfixes
                 .fetch_official_pvp_hotfixes(
-                    hotfix_client
+                    hotfix_client,
+                    previous_keys=blizzard_hotfixes.published_hotfix_keys(
+                        "web/data"
+                    ),
                 )
             )
         finally:

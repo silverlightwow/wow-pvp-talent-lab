@@ -8,7 +8,7 @@ from pvpcalc.http import CachedClient
 from pvpcalc.sources import blizzard_hotfixes
 
 
-async def _run(output: Path) -> None:
+async def _run(output: Path, previous_data_dir: Path) -> None:
     client = CachedClient(
         concurrency=2
     )
@@ -16,7 +16,10 @@ async def _run(output: Path) -> None:
         hotfixes = (
             await blizzard_hotfixes
             .fetch_official_pvp_hotfixes(
-                client
+                client,
+                previous_keys=blizzard_hotfixes.published_hotfix_keys(
+                    previous_data_dir
+                ),
             )
         )
     finally:
@@ -45,9 +48,14 @@ def main() -> None:
         type=Path,
         required=True,
     )
+    parser.add_argument(
+        "--previous-data-dir",
+        type=Path,
+        default=Path("web/data"),
+    )
     args = parser.parse_args()
     asyncio.run(
-        _run(args.output)
+        _run(args.output, args.previous_data_dir)
     )
 
 

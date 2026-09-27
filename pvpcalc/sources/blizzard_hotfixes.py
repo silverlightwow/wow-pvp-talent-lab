@@ -559,7 +559,7 @@ def _top_level_section_marker(
 def parse_official_pvp_hotfixes(
     html: str,
     *,
-    recent_days: int = 14,
+    recent_days: int | None = 14,
 ) -> list[OfficialPvpHotfix]:
     soup = BeautifulSoup(html, "lxml")
 
@@ -695,7 +695,7 @@ def parse_official_pvp_hotfixes(
         if item.hotfix_date is not None
     ]
 
-    if dated:
+    if dated and recent_days is not None:
         cutoff = max(dated) - timedelta(
             days=max(0, int(recent_days) - 1)
         )
@@ -722,14 +722,81 @@ def parse_official_pvp_hotfixes(
     return parsed
 
 
+def published_hotfix_keys(
+    data_dir: str | Path,
+) -> set[tuple[str, str]]:
+    """Read official changes carried by the last verified site snapshot."""
+    keys = set()
+    for path in sorted(Path(data_dir).glob("*.json")):
+        if path.name == "manifest.json":
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        report = payload.get("official_hotfixes") or {}
+        for status in ("applied", "already_current"):
+            for item in report.get(status, []):
+                if item.get("date") and item.get("text"):
+                    keys.add((str(item["date"]), str(item["text"])))
+    return keys
+
+
+def select_official_pvp_hotfixes(
+    html: str,
+    *,
+    previous_keys: set[tuple[str, str]] | None = None,
+    recent_days: int = 14,
+) -> list[OfficialPvpHotfix]:
+    """Keep earlier verified directives while Blizzard still publishes them.
+
+    A server-side PvP hotfix can outlive the recent-news window while the
+    client-build spell dumps still contain its old value. The old verified
+    dataset supplies only the identity of the previously published directive;
+    its numbers are always re-read from Blizzard's current article. If an
+    announcement disappears, require review before dropping its correction.
+    """
+    recent = parse_official_pvp_hotfixes(html, recent_days=recent_days)
+    if not previous_keys:
+        return recent
+
+    all_items = parse_official_pvp_hotfixes(html, recent_days=None)
+    def key(item: OfficialPvpHotfix) -> tuple[str, str]:
+        return (
+            item.hotfix_date.isoformat() if item.hotfix_date else "",
+            item.text,
+        )
+
+    available = {key(item) for item in all_items}
+    missing = previous_keys - available
+    if missing:
+        example_date, example_text = sorted(missing)[0]
+        raise RuntimeError(
+            "Previously verified Blizzard PvP hotfix disappeared from "
+            f"the official article ({example_date}: {example_text}); "
+            "refusing to publish an unverified older spell value."
+        )
+
+    selected = {item for item in recent}
+    selected.update(item for item in all_items if key(item) in previous_keys)
+    return sorted(
+        selected,
+        key=lambda item: (
+            item.hotfix_date or date.min,
+            item.talent_name.casefold(),
+            item.text,
+        ),
+    )
+
+
 async def fetch_official_pvp_hotfixes(
     client: CachedClient,
+    *,
+    previous_keys: set[tuple[str, str]] | None = None,
 ) -> list[OfficialPvpHotfix]:
     html = await client.get_text(
         OFFICIAL_HOTFIX_URL
     )
-    return parse_official_pvp_hotfixes(
-        html
+    return select_official_pvp_hotfixes(
+        html,
+        previous_keys=previous_keys,
     )
 
 

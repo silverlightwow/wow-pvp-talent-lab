@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass, field
+
+import pytest
 
 from pvpcalc.sources import blizzard_hotfixes
 
@@ -100,6 +103,43 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert by_name["Call of Ohn'ahra"].current_percent == 60
     assert by_name["Call of Ohn'ahra"].previous_percent == 30
     assert "Fake Profession Talent" not in by_name
+
+
+def test_verified_older_hotfix_survives_recent_news_window(tmp_path):
+    html = """
+    <h3>September 1, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Older Spell now reduces movement speed by 35% in PvP combat.</li></ul>
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Newer Spell now reduces movement speed by 20% in PvP combat.</li></ul>
+    """
+    old_text = "Older Spell now reduces movement speed by 35% in PvP combat."
+    (tmp_path / "hunter.json").write_text(json.dumps({
+        "official_hotfixes": {
+            "applied": [{"date": "2026-09-01", "text": old_text}],
+            "ignored_non_talent": [{"date": "2026-08-30", "text": "Ignored"}],
+        }
+    }), encoding="utf-8")
+    keys = blizzard_hotfixes.published_hotfix_keys(tmp_path)
+    assert keys == {("2026-09-01", old_text)}
+
+    recent = blizzard_hotfixes.select_official_pvp_hotfixes(
+        html, recent_days=14
+    )
+    assert [item.talent_name for item in recent] == ["Newer Spell"]
+
+    carried = blizzard_hotfixes.select_official_pvp_hotfixes(
+        html, recent_days=14, previous_keys=keys
+    )
+    assert [item.talent_name for item in carried] == [
+        "Older Spell", "Newer Spell",
+    ]
+    assert carried[0].current_percent == 35
+
+    with pytest.raises(RuntimeError, match="disappeared"):
+        blizzard_hotfixes.select_official_pvp_hotfixes(
+            html.replace(old_text, ""),
+            previous_keys=keys,
+        )
 
 
 def test_simple_class_hotfix_is_scoped_and_repairs_shared_tooltip():
