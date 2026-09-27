@@ -23,7 +23,9 @@ concurrency:
   # the expensive 40-spec data refresh. Data/code pushes may supersede an
   # older data run, while the 6-hour schedule remains the freshness source.
   group: all-data-pages
-  cancel-in-progress: true
+  # A scheduled freshness check must wait for the running browser matrix.
+  # Source pushes still supersede obsolete runs.
+  cancel-in-progress: ${{ github.event_name != 'schedule' }}
 jobs:
   discover:
     runs-on: ubuntu-latest
