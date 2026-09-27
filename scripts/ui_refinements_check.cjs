@@ -66,7 +66,8 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    const aimedNodeId=await page.evaluate(()=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===19434)?.node_id);
    assert.ok(aimedNodeId,'Aimed Shot must exist in the current Marksmanship tree');
    const aimedIcon=page.locator(`[data-node-id="${aimedNodeId}"] .node-main-icon`).first();
-   assert.equal(await aimedIcon.getAttribute('data-icon-candidates'),'ability_hunter_aimedshot');
+   const aimedCandidates=(await aimedIcon.getAttribute('data-icon-candidates')).split('|');
+   assert.equal(aimedCandidates[0],'ability_hunter_aimedshot','Aimed Shot must prefer its correct spell icon');
    assert.match(await aimedIcon.getAttribute('src'),/\/ability_hunter_aimedshot\.jpg$/);
    await page.waitForFunction(nodeId=>{
     const node=document.querySelector(`[data-node-id="${nodeId}"]`);

@@ -8,7 +8,11 @@ on:
         required: true
         type: string
       source_sha:
-        description: 'Exact main commit SHA that produced those artifacts'
+        description: 'Current main commit SHA to validate and publish'
+        required: true
+        type: string
+      artifact_source_sha:
+        description: 'Source commit SHA of the artifact build run'
         required: true
         type: string
 
@@ -31,6 +35,23 @@ jobs:
         with:
           ref: ${{ inputs.source_sha }}
           fetch-depth: 0
+      - name: Verify artifact provenance and data-producing sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_RUN_ID: ${{ inputs.run_id }}
+          ARTIFACT_SOURCE_COMMIT: ${{ inputs.artifact_source_sha }}
+          SOURCE_COMMIT: ${{ inputs.source_sha }}
+        run: |
+          RUN_SOURCE_SHA="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}" --jq '.head_sha')"
+          if [ "$RUN_SOURCE_SHA" != "$ARTIFACT_SOURCE_COMMIT" ]; then
+            echo 'Artifact run source does not match the supplied SHA.'
+            exit 1
+          fi
+          if ! git diff --quiet "$ARTIFACT_SOURCE_COMMIT" "$SOURCE_COMMIT" -- \
+            pvpcalc ':(glob)scripts/**/*.py' pyproject.toml; then
+            echo 'Data-producing sources changed since the artifact build; a fresh build is required.'
+            exit 1
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
