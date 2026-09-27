@@ -1,11 +1,10 @@
-# recover-latest-complete-spec-snapshot
 name: Recover verified snapshot from completed spec artifacts
 
 on:
   workflow_dispatch:
     inputs:
       run_id:
-        description: 'Failed/partial all-spec build run containing the verified spec-data-* artifacts'
+        description: 'Build run containing all verified spec-data-* artifacts'
         required: true
         type: string
       source_sha:
@@ -26,7 +25,7 @@ concurrency:
 jobs:
   recover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,165 +40,43 @@ jobs:
           node-version: '22'
           cache: npm
       - run: python -m pip install -e '.[dev]'
-      - name: Download all 40 successful spec artifacts from the latest complete build
+      - name: Download verified spec artifacts
         uses: actions/download-artifact@v4
         with:
           pattern: spec-data-*
           path: staged-spec-data
           run-id: ${{ inputs.run_id }}
           github-token: ${{ github.token }}
-      - name: Build expected specialization catalog
+      - name: Read expected specializations from the committed catalog
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          manifest=json.loads(Path('web/data/manifest.json').read_text())
-          rows=[]
-          for cls in manifest['classes']:
-              for spec in cls['specs']:
-                  rows.append({
-                      'class_name': cls['name'],
-                      'spec_name': spec['name'],
-                      'class_id': cls['class_id'],
-                      'spec_id': spec['spec_id'],
-                  })
+
+          manifest = json.loads(Path('web/data/manifest.json').read_text())
+          rows = [
+              {
+                  'class_name': cls['name'],
+                  'spec_name': spec['name'],
+                  'class_id': cls['class_id'],
+                  'spec_id': spec['spec_id'],
+              }
+              for cls in manifest['classes']
+              for spec in cls['specs']
+          ]
+          assert rows and len(rows) == manifest['spec_count'], 'Catalog is incomplete'
           Path('expected-specs.json').write_text(json.dumps(rows))
-          assert len(rows) == 40, len(rows)
           PY
-      - name: Assemble fresh site data from verified artifacts
+      - name: Assemble one consistent source snapshot
         run: python scripts/merge_class_datasets.py --artifacts-root staged-spec-data --output-dir web/data --expected-specs-json "$(cat expected-specs.json)"
-
-      - name: Supersede stale overlapping modifier chips in recovered artifacts
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          def overlaps(a, b):
-              try:
-                  return max(int(a["start"]), int(b["start"])) < min(int(a["end"]), int(b["end"]))
-              except (KeyError, TypeError, ValueError):
-                  return False
-
-          def clean_changes(record):
-              changes = list(record.get("changes") or [])
-              official = [
-                  item for item in changes
-                  if item.get("source") == "blizzard_hotfix"
-              ]
-              if official:
-                  record["changes"] = [
-                      item for item in changes
-                      if (
-                          item.get("source") == "blizzard_hotfix"
-                          or not any(overlaps(item, auth) for auth in official)
-                      )
-                  ]
-
-              for rank in record.get("rank_tooltips") or []:
-                  clean_changes(rank)
-
-          for path in sorted(Path("web/data").glob("*.json")):
-              if path.name == "manifest.json":
-                  continue
-
-              payload = json.loads(path.read_text())
-              for talent in payload.get("talents") or []:
-                  clean_changes(talent)
-
-              text = json.dumps(payload, ensure_ascii=False, indent=2)
-              path.write_text(text + "\n")
-              path.with_suffix(".js").write_text(
-                  "window.WOW_PVP_DATA = " + text + ";\n"
-              )
-          PY
-
       - run: python scripts/validate_site_data.py --data-dir web/data
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Fast regression suite on fresh merged snapshot
-        run: |
-          node --check web/app.js
-          node scripts/loadout_check.cjs
-          node scripts/build_browser_check.cjs
-          node scripts/ui_refinements_check.cjs
-          node - <<'NODE'
-          const fs=require('node:fs');
-          const path=require('node:path');
-          const D=require('./web/change-direction.js');
-          const root='web/data';
-          const neutral=[];
-          for(const name of fs.readdirSync(root).filter(n=>n.endsWith('.json')&&n!=='manifest.json')){
-            const data=JSON.parse(fs.readFileSync(path.join(root,name)));
-            for(const talent of data.talents||[]){
-              if((talent.changes||[]).length && D.talentDirection(talent)==='neutral'){
-                neutral.push({
-                  spec:name.replace(/\.json$/,''),
-                  talent:talent.talent_name,
-                  spell_id:talent.spell_id,
-                  changes:talent.changes.map(x=>({
-                    kind:x.kind,
-                    old:x.old_token,
-                    new:x.new_token,
-                    source:x.source||null
-                  })),
-                  pve:talent.pve_tooltip
-                });
-              }
-            }
-          }
-          console.log('NEUTRAL_DIRECTION_DIAGNOSTIC='+JSON.stringify(neutral));
-          NODE
-          node scripts/change_direction_check.cjs
-          node scripts/presentation_browser_check.cjs
-          node --check web/service-worker.js
-      - name: Target the Discipline Mind Blast tree-type regression
-        run: |
-          node - <<'NODE'
-          const assert=require('node:assert/strict');
-          const fs=require('node:fs');
-          const path=require('node:path');
-          const {pathToFileURL}=require('node:url');
-          const {chromium}=require('playwright');
-          (async()=>{
-            const browser=await chromium.launch({headless:true});
-            try {
-              const page=await browser.newPage({viewport:{width:1440,height:1000}});
-              await page.route('https://**/*',r=>r.abort());
-              await page.goto(pathToFileURL(path.resolve('web/index.html')).href+'#spec=priest-discipline');
-              await page.waitForFunction(()=>document.querySelector('#treeTitle')?.textContent==='Discipline Priest');
-              const data=JSON.parse(fs.readFileSync('web/data/priest-discipline.json'));
-              const talent=data.talents.find(t=>t.spell_id===8092);
-              assert.ok(talent,'Mind Blast missing');
-              assert.equal(talent.tree_type,'class');
-              const node=page.locator(`#${talent.tree_type}Tree [data-node-id="${talent.node_id}"]`);
-              await node.hover();
-              const shown=(await page.locator('#talentTooltip .tooltip-text').first().textContent()).trim();
-              assert.ok(shown.includes('117.504% of Spell Power'),shown);
-              assert.ok(!/base mana|yd range|sec cast|sec cooldown|Charge/i.test(shown),shown);
-              console.log('Discipline Mind Blast tree-type regression passed.');
-
-              await page.locator('#classSelect').selectOption('Hunter');
-              await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled);
-              await page.locator('#specSelect').selectOption('Survival');
-              await page.waitForFunction(()=>document.querySelector('#treeTitle')?.textContent==='Survival Hunter');
-              const survival=JSON.parse(fs.readFileSync('web/data/hunter-survival.json'));
-              const iconTalent=survival.talents.find(t=>t.spell_id===1253846);
-              assert.ok(iconTalent,'Survival icon fixture missing');
-              if (iconTalent.hero_tree) {
-                await page.locator('#heroSelect').selectOption(iconTalent.hero_tree);
-                await page.waitForFunction(hero=>document.querySelector('#heroSelect')?.value===hero,iconTalent.hero_tree);
-              }
-              const iconNode=page.locator(`#${iconTalent.tree_type}Tree [data-node-id="${iconTalent.node_id}"] .node-main-icon`).first();
-              const candidates=await iconNode.getAttribute('data-icon-candidates');
-              assert.ok(candidates?.includes('inv_10_specialreagentfoozles_tuskclaw-ice'),candidates);
-              console.log('Survival icon normalization regression passed.');
-            } finally {
-              await browser.close();
-            }
-          })().catch(e=>{console.error(e);process.exit(1);});
-          NODE
-      - name: Commit the recovered verified snapshot
+      - name: Full browser and data regression suite
+        env:
+          REQUIRE_CURRENT_HOTFIX_ABILITIES: '1'
+        run: npm test
+      - name: Commit the untouched, verified dataset
         env:
           SOURCE_COMMIT: ${{ inputs.source_sha }}
         run: |
