@@ -45,6 +45,20 @@ _OLD_SECONDS_RE = re.compile(
     re.I,
 )
 
+# Blizzard uses both "in PvP combat" and shorter wording such as "in PvP".
+# The latter is safe to interpret as PvP-specific; other explicit wording
+# should at least block a new snapshot until it can be reviewed.
+_PVP_VALUE_CONTEXT_RE = re.compile(r"\bin\s+pvp\b", re.I)
+_PVP_NOTE_CONTEXT_RE = re.compile(
+    r"\b(?:in|during|for)\s+pvp\b|\bpvp[ -]only\b",
+    re.I,
+)
+_PVP_EXCLUSION_RE = re.compile(
+    r"\b(?:does\s+not|doesn['’]t|do\s+not|don['’]t)\s+"
+    r"(?:apply\s+(?:to|in)|affect)\s+pvp\b",
+    re.I,
+)
+
 _NAME_SPLIT_RE = re.compile(
     r"\s+(?:now\s+)?(?:increases|reduces|grants|causes|"
     r"deals|heals|damage|healing)\b",
@@ -294,11 +308,12 @@ def _parse_candidate(
 ) -> OfficialPvpHotfix | None:
     text = _clean_text(text)
 
-    if "does not apply to pvp combat" in text.casefold():
+    if _PVP_EXCLUSION_RE.search(text):
         return None
 
     if (
         "pvp combat" not in text.casefold()
+        and _PVP_VALUE_CONTEXT_RE.search(text) is None
         and not in_pvp_section
     ):
         return None
@@ -323,7 +338,7 @@ def _parse_candidate(
         return None
 
     before_pvp = re.split(
-        r"\bin PvP combat\b",
+        r"\bin PvP(?: combat)?\b",
         text,
         maxsplit=1,
         flags=re.I,
@@ -633,8 +648,7 @@ def parse_official_pvp_hotfixes(
             )
         elif (
             active_section == "classes"
-            and "does not apply to pvp combat"
-            not in text.casefold()
+            and _PVP_EXCLUSION_RE.search(text) is None
         ):
             candidate = _parse_candidate(
                 text,
@@ -676,9 +690,8 @@ def parse_official_pvp_hotfixes(
                 else None
             )
         else:
-            # Some Blizzard entries explicitly say "in PvP combat" without
-            # being nested below a Player versus Player heading. Preserve
-            # the original text-driven parser behavior for those leaves.
+            # Some Blizzard entries name the PvP context without being nested
+            # below a Player versus Player heading.
             item = _parse_candidate(
                 text,
                 hotfix_date=current_date,
@@ -695,9 +708,9 @@ def parse_official_pvp_hotfixes(
         # historical article and is not silently reinterpreted as current.
         if (
             current_date is not None
-            and (inside_pvp or "in pvp combat" in text.casefold())
+            and (inside_pvp or _PVP_NOTE_CONTEXT_RE.search(text))
             and re.search(r"\d", text)
-            and "does not apply to pvp combat" not in text.casefold()
+            and _PVP_EXCLUSION_RE.search(text) is None
             and not text.casefold().startswith(("developers' notes:", "developers’ notes:", "developer's notes:"))
         ):
             numeric_pvp_dates.add(current_date)

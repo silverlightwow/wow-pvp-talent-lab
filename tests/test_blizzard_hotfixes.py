@@ -142,6 +142,43 @@ def test_new_numeric_class_note_explicitly_about_pvp_blocks_publication():
         blizzard_hotfixes.parse_official_pvp_hotfixes(html)
 
 
+def test_short_in_pvp_wording_is_parsed_outside_pvp_section():
+    html = """
+    <h3>September 25, 2026</h3><h3>Classes</h3>
+    <ul><li>Hunter<ul>
+      <li>Wing Clip now reduces movement speed by 40% in PvP (was 50%).</li>
+    </ul></li></ul>
+    """
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    assert len(changes) == 1
+    assert changes[0].talent_name == "Wing Clip"
+    assert changes[0].current_percent == 40
+    assert changes[0].previous_percent == 50
+
+
+def test_short_in_pvp_exception_does_not_apply_pve_change():
+    html = """
+    <h3>September 25, 2026</h3><h3>Classes</h3>
+    <ul><li>Old Spell now reduces speed by 40% in PvP combat (was 50%).</li>
+      <li>Other Spell damage increased by 20%. This doesn't apply in PvP.</li>
+    </ul>
+    """
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    assert [change.talent_name for change in changes] == ["Old Spell"]
+
+
+@pytest.mark.parametrize("wording", ["during PvP", "for PvP", "PvP only"])
+def test_new_numeric_pvp_wording_outside_pvp_section_blocks_publication(wording):
+    html = f"""
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Known Spell now reduces speed by 40% in PvP combat.</li></ul>
+    <h3>September 25, 2026</h3><h3>Classes</h3>
+    <ul><li>New Ability gains 3 charges {wording}.</li></ul>
+    """
+    with pytest.raises(RuntimeError, match="Unparsed numeric PvP hotfix.*New Ability"):
+        blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+
+
 def test_unknown_official_date_format_does_not_claim_fresh_verification():
     html = """
     <h3>2026-09-25</h3><h3>Player versus Player</h3>
