@@ -105,6 +105,77 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert "Fake Profession Talent" not in by_name
 
 
+def test_new_numeric_pvp_wording_cannot_be_silently_skipped():
+    html = """
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Old Spell now reduces movement speed by 40% in PvP combat.</li></ul>
+    <h3>September 25, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Hunter<ul>
+      <li>New Ability now grants 3 charges in PvP combat.</li>
+      <li>Other Ability now reduces movement speed by 20% in PvP combat.</li>
+    </ul></li></ul>
+    """
+    with pytest.raises(RuntimeError, match="Unparsed numeric PvP hotfix.*New Ability"):
+        blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+
+
+def test_historical_unparsed_numeric_note_does_not_hide_current_changes():
+    html = """
+    <h3>September 23, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Old Ability now grants 3 charges in PvP combat.</li></ul>
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Current Ability now reduces movement speed by 40% in PvP combat.</li></ul>
+    """
+    assert [change.talent_name for change in blizzard_hotfixes.parse_official_pvp_hotfixes(html)] == ["Current Ability"]
+
+
+def test_new_numeric_class_note_explicitly_about_pvp_blocks_publication():
+    html = """
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Old Spell now reduces movement speed by 40% in PvP combat.</li></ul>
+    <h3>September 25, 2026</h3><h3>Classes</h3>
+    <ul><li>New Class<ul>
+      <li>New Ability now grants 3 charges in PvP combat.</li>
+    </ul></li></ul>
+    """
+    with pytest.raises(RuntimeError, match="Unparsed numeric PvP hotfix.*New Ability"):
+        blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+
+
+def test_unknown_official_date_format_does_not_claim_fresh_verification():
+    html = """
+    <h3>2026-09-25</h3><h3>Player versus Player</h3>
+    <ul><li>Example now reduces movement speed by 40% in PvP combat.</li></ul>
+    """
+    with pytest.raises(RuntimeError, match="Unrecognized Blizzard hotfix date"):
+        blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+
+    mixed = """
+    <h3>September 24, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Old Ability now reduces movement speed by 40% in PvP combat.</li></ul>
+    """ + html
+    with pytest.raises(RuntimeError, match="Unrecognized Blizzard hotfix date"):
+        blizzard_hotfixes.parse_official_pvp_hotfixes(mixed)
+
+
+def test_hotfix_scope_uses_source_specializations_for_new_classes():
+    change = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name="Example", current_percent=20, previous_percent=30,
+        target_hint=None, text="Example now reduces damage by 20% in PvP combat.",
+        hotfix_date=None,
+        context_path=("New Class", "Future Spec", "Shared Hero"),
+    )
+    catalog = FakeCatalog(talents=[])
+    catalog.class_name = "New Class"
+    catalog.class_spec_names = ["First Spec", "Future Spec"]
+    catalog.spec_name = "Future Spec"
+    assert blizzard_hotfixes._hotfix_applies_to_catalog(change, catalog)
+    catalog.spec_name = "First Spec"
+    assert not blizzard_hotfixes._hotfix_applies_to_catalog(change, catalog)
+    catalog.class_name = "Another Class"
+    assert not blizzard_hotfixes._hotfix_applies_to_catalog(change, catalog)
+
+
 def test_verified_older_hotfix_survives_recent_news_window(tmp_path):
     html = """
     <h3>September 1, 2026</h3><h3>Player versus Player</h3>
@@ -543,6 +614,7 @@ def test_hotfix_scope_prevents_cross_spec_name_collision():
     )
     shadow.class_name = "Priest"
     shadow.spec_name = "Shadow"
+    shadow.class_spec_names = ["Discipline", "Holy", "Shadow"]
 
     report = blizzard_hotfixes.apply_official_pvp_hotfixes(
         shadow,

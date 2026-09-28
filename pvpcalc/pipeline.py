@@ -5762,7 +5762,11 @@ async def audit_spec(
             entry = re.search(r"^Talent Entry.*max_rank=(\d+)", spell.raw, re.M) if spell else None
             rank_talent = {**talent, "node_type": "single", "max_ranks": int(entry[1]) if entry else 1}
         if int(rank_talent.get("max_ranks") or 1) > 1:
-            source = ranks.rank_source(simc_dump, rank_talent)
+            source = ranks.rank_source(
+                simc_dump,
+                rank_talent,
+                spec_names=result.metadata.get("classSpecNames"),
+            )
             if source:
                 result.rank_sources[int(talent["entry_id"])] = source
     for spell_id in result.spell_ids:

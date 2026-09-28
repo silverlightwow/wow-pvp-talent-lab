@@ -58,6 +58,24 @@ Description      : Increases damage by $s1%.
     assert len(source['rules'][0]['values'])==3
     assert len(source['expressions'][0]['values'])==2
 
+
+def test_rank_condition_uses_current_source_spec_order():
+    raw = '''World of Warcraft 12.1.0.69875 Live
+Name             : Dynamic spec rank fixture (id=100)
+Talent Entry     : New Spec [tree=spec, row=5, col=2, max_rank=2]
+                 : Effect#1 [op=set, values=(15, 30)]
+Effects          :
+#1 (id=1)        : Apply Aura (6) | Dummy (4)
+                   Base Value: 15 | Scaled Value: 15
+Description      : $?c2[Damage increases by $s1%.][Healing increases by $s1%.]
+'''
+    dump = simc.parse_dump(raw, class_slug='test')
+    talent = dict(spell_id=100, spec_name='New Spec', class_name='New Class',
+                  tree_type='spec', node_type='single', max_ranks=2)
+    source = ranks.rank_source(dump, talent, spec_names=['First Spec', 'New Spec'])
+    assert len(source['expressions']) == 1
+    assert 'Damage increases' in source['expressions'][0]['context']
+
 def test_missing_wrapper_description_uses_explicit_visible_spell(monkeypatch):
     import asyncio
     from pvpcalc import catalog, pipeline

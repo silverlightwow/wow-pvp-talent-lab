@@ -33,6 +33,10 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 
 If any stage fails, the previous GitHub Pages deployment remains available. Generated JSON and JavaScript snapshots are checked for equality. The app loads datasets on demand and refreshes their cache keys even for updates within the same game build.
 
+Official Blizzard PvP notes are an additional source. The parser can verify supported numeric percentages and durations against the current spell data; it retains previously published directives while they remain in the same rolling Blizzard article. If the latest numeric PvP notes contain an unfamiliar format, or the article's date headings change, the refresh stops before publishing. A failed refresh leaves the previous successful dataset online, so the site's build date must be checked separately from the Actions schedule.
+
+This is not an unconditional parser for future patches. Qualitative fixes, new kinds of numerical changes, PvP talents absent from the exact-build class/spec dump, changes to Blizzard's article ID, and lag or outages in the other sources may require review. The current official article ID is configured in `pvpcalc/sources/blizzard_hotfixes.py`. Specialization discovery, hotfix scoping, and rank-condition ordering use Raidbots data; a few legacy icon aliases in `web/app.js` are explicit asset corrections, not PvP value overrides.
+
 ## Run locally
 
 Open `web/index.html` directly; a local server is optional.

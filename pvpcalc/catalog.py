@@ -4,6 +4,7 @@ import asyncio
 from dataclasses import (
     dataclass,
     asdict,
+    field,
 )
 from typing import Any
 
@@ -96,6 +97,9 @@ class SpecCatalog:
     abilities: list[TalentRecord]
 
     fetch_errors: list[dict]
+    # Current Raidbots sibling specialization names, used to scope official
+    # notes without keeping a separate class/spec registry in the parser.
+    class_spec_names: list[str] = field(default_factory=list)
 
     def to_dict(self):
         return {
@@ -1212,4 +1216,7 @@ async def build_spec_catalog(
 
         fetch_errors=
             fetch_errors,
+
+        class_spec_names=
+            list(audit.metadata.get("classSpecNames") or []),
     )

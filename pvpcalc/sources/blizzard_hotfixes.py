@@ -162,23 +162,6 @@ def _inside_pvp_section(node) -> bool:
 
 
 
-_CLASS_NAMES = {
-    "death knight", "demon hunter", "druid", "evoker", "hunter", "mage",
-    "monk", "paladin", "priest", "rogue", "shaman", "warlock", "warrior",
-}
-
-_SPEC_NAMES = {
-    "blood", "frost", "unholy", "devourer", "havoc", "vengeance",
-    "balance", "feral", "guardian", "restoration", "augmentation",
-    "devastation", "preservation", "beast mastery", "marksmanship",
-    "survival", "arcane", "fire", "brewmaster", "mistweaver",
-    "windwalker", "holy", "protection", "retribution", "discipline",
-    "shadow", "assassination", "outlaw", "subtlety", "elemental",
-    "enhancement", "affliction", "demonology", "destruction", "arms",
-    "fury",
-}
-
-
 def _list_context_path(node) -> tuple[str, ...]:
     """Return stable outer->inner list labels surrounding one hotfix leaf."""
     labels = []
@@ -201,14 +184,11 @@ def _hotfix_applies_to_catalog(
     hotfix: OfficialPvpHotfix,
     spec_catalog,
 ) -> bool:
-    path = {
+    path = [
         _normalize_name(item)
         for item in hotfix.context_path
         if _clean_text(item)
-    }
-    classes = path & _CLASS_NAMES
-    specs = path & _SPEC_NAMES
-
+    ]
     class_name = _normalize_name(
         getattr(spec_catalog, "class_name", "")
     )
@@ -216,9 +196,16 @@ def _hotfix_applies_to_catalog(
         getattr(spec_catalog, "spec_name", "")
     )
 
-    if classes and class_name and class_name not in classes:
+    # The official article nests spec and hero headings below a class.
+    # Current sibling spec names come from Raidbots; any other nested label
+    # (such as a hero tree) does not narrow the specialization by itself.
+    if path and class_name and path[0] != class_name:
         return False
-    if specs and spec_name and spec_name not in specs:
+    siblings = {
+        _normalize_name(name)
+        for name in getattr(spec_catalog, "class_spec_names", ())
+    }
+    if len(path) > 1 and path[1] in siblings and spec_name != path[1]:
         return False
     return True
 
@@ -566,6 +553,8 @@ def parse_official_pvp_hotfixes(
     current_date = None
     active_section = None
     parsed: list[OfficialPvpHotfix] = []
+    numeric_pvp_dates: set[date] = set()
+    unparsed_numeric_pvp: list[tuple[date, str]] = []
 
     for node in soup.find_all(
         ["h1", "h2", "h3", "h4", "p", "li"]
@@ -579,6 +568,23 @@ def parse_official_pvp_hotfixes(
             current_date = maybe_date
             active_section = None
             continue
+
+        # A changed date format must not make new directives inherit the
+        # preceding day's date and bypass the rolling-window coverage check.
+        if (
+            node.name in {"h2", "h3", "h4"}
+            and re.search(r"\b20\d{2}\b", text)
+            and re.search(
+                r"January|February|March|April|May|June|July|August|"
+                r"September|October|November|December|\b20\d{2}-\d{1,2}-\d{1,2}\b",
+                text,
+                re.I,
+            )
+            and not text.casefold().startswith("hotfixes")
+        ):
+            raise RuntimeError(
+                f"Unrecognized Blizzard hotfix date heading: {text}"
+            )
 
         section_marker = (
             _top_level_section_marker(
@@ -683,10 +689,44 @@ def parse_official_pvp_hotfixes(
         if item is not None:
             parsed.append(item)
 
+        # A new numeric PvP directive must not vanish while older, known
+        # directives keep the scheduled build green. Check the newest date
+        # with a numeric PvP leaf; earlier unsupported prose belongs to the
+        # historical article and is not silently reinterpreted as current.
+        if (
+            current_date is not None
+            and (inside_pvp or "in pvp combat" in text.casefold())
+            and re.search(r"\d", text)
+            and "does not apply to pvp combat" not in text.casefold()
+            and not text.casefold().startswith(("developers' notes:", "developers’ notes:", "developer's notes:"))
+        ):
+            numeric_pvp_dates.add(current_date)
+            if item is None:
+                unparsed_numeric_pvp.append((current_date, text))
+
+    if numeric_pvp_dates:
+        latest_numeric_date = max(numeric_pvp_dates)
+        new_unparsed = [
+            text for when, text in unparsed_numeric_pvp
+            if when == latest_numeric_date
+        ]
+        if new_unparsed:
+            raise RuntimeError(
+                "Unparsed numeric PvP hotfix on "
+                f"{latest_numeric_date.isoformat()}: "
+                + "; ".join(new_unparsed[:3])
+            )
+
     if not parsed:
         raise RuntimeError(
             "Official Blizzard hotfix page yielded no parseable PvP "
             "percentage changes; refusing to claim fresh verification."
+        )
+
+    if not any(item.hotfix_date is not None for item in parsed):
+        raise RuntimeError(
+            "Official Blizzard PvP hotfix dates were not recognized; "
+            "refusing to claim fresh verification."
         )
 
     dated = [

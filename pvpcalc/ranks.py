@@ -134,7 +134,7 @@ def _arithmetic(expression):
     return visit(ast.parse(expression, mode="eval").body)
 
 
-def rank_expressions(dump, talent, rules):
+def rank_expressions(dump, talent, rules, *, spec_names=None):
     """Compute only expressions that actually reference a ranked effect."""
     spell = dump.spells[talent["spell_id"]]
     text = "\n".join(simc._player_text_sections(spell.raw))
@@ -144,24 +144,17 @@ def rank_expressions(dump, talent, rules):
         if re.search(r"^Class\s*:\s*" + re.escape(s.name) + r"\s*$", s.raw, re.M)
         and s.name.endswith(" " + talent["class_name"])
     }
-    spec_order = {
-        "Warrior": ["Arms", "Fury", "Protection"],
-        "Paladin": ["Holy", "Protection", "Retribution"],
-        "Monk": ["Brewmaster", "Mistweaver", "Windwalker"],
-        "Druid": ["Balance", "Feral", "Guardian", "Restoration"],
-        "Priest": ["Discipline", "Holy", "Shadow"],
-        "Rogue": ["Assassination", "Outlaw", "Subtlety"],
-        "Demon Hunter": ["Havoc", "Vengeance", "Devourer"],
-    }
+    # Raidbots supplies the client specialization ordinal for every class.
+    # Keep that order instead of maintaining a partial list of class names.
+    spec_order = list(spec_names or ())
 
     def condition(m):
         if m[1].lower() == "a" and int(m[2]) in spec_auras:
             return m[3] if spec_auras[int(m[2])] else m[4]
-        if m[1].lower() == "c" and talent["class_name"] in spec_order:
+        if m[1].lower() == "c" and talent["spec_name"] in spec_order:
             return (
                 m[3]
-                if spec_order[talent["class_name"]].index(talent["spec_name"]) + 1
-                == int(m[2])
+                if spec_order.index(talent["spec_name"]) + 1 == int(m[2])
                 else m[4]
             )
         return m[4] if m[1].lower() == "a" else m[0]
@@ -410,7 +403,7 @@ def render_rank(text, source, rank, *, spec_name, spec_names):
     return text, diagnostics
 
 
-def rank_source(dump, talent):
+def rank_source(dump, talent, *, spec_names=None):
     rules = rank_effects(dump, talent)
     if not rules:
         return None
@@ -434,7 +427,7 @@ def rank_source(dump, talent):
     return dict(
         rank_count=int(talent["max_ranks"]),
         rules=rules,
-        expressions=rank_expressions(dump, talent, rules),
+        expressions=rank_expressions(dump, talent, rules, spec_names=spec_names),
         switches=switches,
         build=dump.build,
     )
