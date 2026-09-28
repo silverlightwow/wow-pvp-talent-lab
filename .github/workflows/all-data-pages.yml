@@ -93,20 +93,24 @@ jobs:
           SPEC_NAME: ${{ matrix.item.spec_name }}
           WOW_PVP_HOTFIX_FILE: .hotfixes/official-hotfixes.json
         run: |
-          # Wowhead occasionally rejects one spell request with a transient
-          # 403 after the HTTP client's bounded retries. Retry that entire
-          # specialization once using the same official hotfix snapshot;
-          # all normal source validation still runs on the second attempt.
-          if python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 > build-attempt.log 2>&1; then
+          # Wowhead can temporarily return 403 despite the HTTP client's
+          # retries. Repeat only this complete specialization on that error;
+          # preserve the same official snapshot and all validation gates.
+          for attempt in 1 2 3; do
+            if python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 > build-attempt.log 2>&1; then
+              cat build-attempt.log
+              break
+            fi
             cat build-attempt.log
-          else
-            cat build-attempt.log
-            if ! rg -q '403 Forbidden.*https://www\.wowhead\.com/' build-attempt.log; then
+            if [ "$attempt" -eq 3 ] || ! grep -Eq '403 Forbidden.*https://www\.wowhead\.com/' build-attempt.log; then
               exit 1
             fi
-            sleep 20
-            python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4
-          fi
+            # Stagger concurrent matrix jobs to give the upstream rate limit
+            # time to recover rather than retrying every class together.
+            wait_seconds=$(( 30 * attempt + RANDOM % 20 ))
+            echo "Wowhead returned 403; retrying $SPEC_NAME in ${wait_seconds}s (attempt $(( attempt + 1 ))/3)."
+            sleep "$wait_seconds"
+          done
       - run: python scripts/validate_site_data.py --data-dir spec-data
       - uses: actions/upload-artifact@v4
         with:
