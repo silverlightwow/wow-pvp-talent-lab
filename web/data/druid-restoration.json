@@ -1390,7 +1390,8 @@
         "visible_spell_id": null,
         "icon": "ability_druid_mangle.tga",
         "icon_candidates": [
-          "ability_druid_mangle.tga"
+          "ability_druid_mangle.tga",
+          "ability_druid_mangle-tga"
         ]
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
@@ -4635,7 +4636,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Swiftmend healing reduced by 20% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -9320,7 +9321,7 @@
           "talent_spell_id": 440120,
           "source_spell_id": 440122,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1)",
+          "effect_text": "School Damage (Physical)",
           "base_value": null,
           "spell_pvp_multiplier": 0.87,
           "amount_kind": "direct",
@@ -9337,9 +9338,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10204,7 +10205,7 @@
           "talent_spell_id": 1264614,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
+          "effect_text": "Heal (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10231,11 +10232,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -10662,7 +10662,7 @@
           "talent_spell_id": 1264776,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
+          "effect_text": "Heal (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10693,11 +10693,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -11118,7 +11117,7 @@
           "talent_spell_id": 1264899,
           "source_spell_id": 1264905,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 7.32)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11145,11 +11144,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -11572,9 +11570,9 @@
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -12126,7 +12124,7 @@
     ]
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-09-26T18:54:14.158396+00:00",
+  "generated_at": "2026-09-28T11:34:15.863668+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 22,
@@ -12139,27 +12137,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 440122,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264664,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264664'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264905,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264905'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

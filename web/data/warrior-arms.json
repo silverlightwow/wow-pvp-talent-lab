@@ -10469,7 +10469,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Arterial Bleed now increases Rend and Deep Wounds damage by 5% per stack in PvP combat (was 3%).",
           "reason": "ALREADY_CURRENT"
@@ -10866,7 +10866,7 @@
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Cut to the Bone now increases Rend and Deep Wounds damage by 30% in PvP combat (was 15%).",
           "reason": "APPLIED"
@@ -10954,7 +10954,7 @@
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Practiced Strikes increases the damage of Slam and Mortal Strike by 40% in PvP combat (was 25%).",
           "reason": "APPLIED"
@@ -11797,9 +11797,9 @@
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Cut to the Bone",
@@ -12327,7 +12327,7 @@
     "external": []
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-09-26T19:07:32.293088+00:00",
+  "generated_at": "2026-09-28T11:48:10.139065+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 41,

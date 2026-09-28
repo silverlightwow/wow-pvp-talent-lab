@@ -3668,7 +3668,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Agony damage increased by 40% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_OVERLAY",
@@ -3732,7 +3732,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high",
           "official_hotfix_factor": 1.4,
           "official_hotfix_date": "2026-09-22",
-          "official_hotfix_source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "official_hotfix_source_url": "https://news.blizzard.com/en-us/article/24296142",
           "official_hotfix_text": "Agony damage increased by 40% in PvP combat."
         }
       ],
@@ -3818,7 +3818,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Unstable Affliction damage increased by 10% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -10520,9 +10520,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Agony",
@@ -11074,7 +11074,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-26T19:05:50.145367+00:00",
+  "generated_at": "2026-09-28T11:46:29.965834+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 27,

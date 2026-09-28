@@ -3425,7 +3425,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_frost_ring_of_frost",
         "icon_candidates": [
-          "spell_frost_ring_of_frost"
+          "spell_frost_ring_of_frost",
+          "spell_frost_ring-of-frost"
         ]
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
@@ -6192,7 +6193,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_frost_ice_shards",
         "icon_candidates": [
-          "spell_frost_ice_shards"
+          "spell_frost_ice_shards",
+          "spell_frost_ice-shards"
         ]
       },
       "pve_tooltip": "Your Flurry and [Frostfire Bolt / Frostbolt] spells strike 1 additional target at 50% effectiveness.",
@@ -11981,9 +11983,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12524,7 +12526,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "mage-frost",
-  "generated_at": "2026-09-26T18:57:30.300766+00:00",
+  "generated_at": "2026-09-28T11:38:20.480482+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 33,

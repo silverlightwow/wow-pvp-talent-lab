@@ -1656,7 +1656,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_priest_void_flay",
         "icon_candidates": [
-          "spell_priest_void_flay"
+          "spell_priest_void_flay",
+          "spell_priest_void-flay"
         ]
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -3968,7 +3969,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Atonement healing is no longer increased by 40% in PvP combat.",
           "reason": "REMOVED_RELATIVE_TOOLTIP",
@@ -4032,7 +4033,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_priest_power_word",
         "icon_candidates": [
-          "spell_priest_power_word"
+          "spell_priest_power_word",
+          "spell_priest_power-word"
         ]
       },
       "pve_tooltip": "5.4% of base mana\n40 yd range\n2 sec cast\n18 sec cooldown\n1 Charge\nA burst of light heals the target and 4 injured allies within 40 yards for (575% of Spell Power), and applies Atonement for 60% of its normal duration.",
@@ -10789,9 +10791,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Atonement",
@@ -11331,7 +11333,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-09-26T19:02:23.590416+00:00",
+  "generated_at": "2026-09-28T11:42:10.351117+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 25,

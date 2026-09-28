@@ -2329,7 +2329,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
           "reason": "APPLIED"
@@ -2729,7 +2729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3542,7 +3542,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "inv121_ability_hunter_aimedshot",
         "icon_candidates": [
-          "inv121_ability_hunter_aimedshot"
+          "inv121_ability_hunter_aimedshot",
+          "8026692"
         ]
       },
       "pve_tooltip": "35 Focus\n40 yd range\n2.5 sec cast\n15 sec recharge\n2 Charges\nA powerful aimed shot that deals (972% of Attack Power) Physical damage.",
@@ -7832,7 +7833,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264902,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -7861,9 +7862,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8815,7 +8816,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264904,
           "source_spell_id": 1266096,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
+          "effect_text": "School Damage (2): arcane (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8842,10 +8843,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9526,7 +9528,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264903,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -9555,9 +9557,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9811,8 +9813,10 @@ window.WOW_PVP_DATA = {
         "entry_type": "ability",
         "talent_name": "Wing Clip",
         "spell_id": 195645,
-        "icon": "",
-        "icon_candidates": []
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 50% for 15 sec.",
       "pvp_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 40% for 15 sec.",
@@ -9840,7 +9844,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
           "reason": "APPLIED"
@@ -10145,9 +10149,9 @@ window.WOW_PVP_DATA = {
   ],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Improved Snaring",
@@ -10689,7 +10693,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-26T18:55:47.546304+00:00",
+  "generated_at": "2026-09-28T11:36:27.813665+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 27,
@@ -10702,11 +10706,31 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 5,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1264949,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266081,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266096,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1268673,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "spell_id": 19434,
         "talent_name": "Aimed Shot",

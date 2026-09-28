@@ -7068,7 +7068,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Vampiric Strike damage increased by 100% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -7591,7 +7591,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_CLASS_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Thrill of Blood increases Dread Plague damage by 20% (was 10%).",
           "reason": "CLASS_ABSOLUTE_OVERLAY"
@@ -7920,7 +7920,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Inevitable now causes plagues to deal up to 60% increased damage based on the target’s missing health (was 30%) in PvP combat.",
           "reason": "ALREADY_CURRENT"
@@ -10223,9 +10223,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Thrill of Blood",
@@ -10766,7 +10766,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-26T18:49:31.063594+00:00",
+  "generated_at": "2026-09-28T11:30:36.630146+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 22,

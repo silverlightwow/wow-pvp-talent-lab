@@ -2329,7 +2329,7 @@
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
           "reason": "APPLIED"
@@ -5780,7 +5780,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Takedown Hunter damage reduced by 10% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -5798,7 +5798,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Takedown Pet damage reduced by 15% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -7251,7 +7251,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Moonlight Chakram damage reduced by 15% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -9734,8 +9734,10 @@
         "entry_type": "ability",
         "talent_name": "Wing Clip",
         "spell_id": 195645,
-        "icon": "",
-        "icon_candidates": []
+        "icon": "ability_rogue_trip",
+        "icon_candidates": [
+          "ability_rogue_trip"
+        ]
       },
       "pve_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 50% for 15 sec.",
       "pvp_tooltip": "20 Focus\nMelee Range\nInstant\nMaims the target, reducing movement speed by 40% for 15 sec.",
@@ -9763,7 +9765,7 @@
         {
           "status": "OFFICIAL_HOTFIX_APPLIED",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Wing Clip now reduces movement speed by 40% in PvP combat.",
           "reason": "APPLIED"
@@ -10057,9 +10059,9 @@
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [
       {
         "talent_name": "Improved Snaring",
@@ -10619,7 +10621,7 @@
     "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-09-26T18:55:53.533967+00:00",
+  "generated_at": "2026-09-28T11:36:28.004518+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,

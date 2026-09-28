@@ -151,7 +151,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 633,
           "source_spell_id": 387792,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Armor% (101)",
+          "effect_text": "Apply Aura: Mod Resistance % (Physical)",
           "base_value": 30.0,
           "spell_pvp_multiplier": 1.66,
           "amount_kind": null,
@@ -168,9 +168,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -659,7 +659,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 387791,
           "source_spell_id": 387792,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Armor% (101)",
+          "effect_text": "Apply Aura: Mod Resistance % (Physical)",
           "base_value": 30.0,
           "spell_pvp_multiplier": 1.66,
           "amount_kind": null,
@@ -676,9 +676,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3122,7 +3122,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-24",
           "hotfix_text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
           "reason": "ALREADY_CURRENT"
@@ -5187,7 +5187,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 184575,
           "source_spell_id": 404358,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Area Effects Use Target Radius (17) (AP mod: 0.585195)",
+          "effect_text": "School Damage (Holy) (AP mod: 0.585195 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5214,11 +5214,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -5423,7 +5422,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 383344,
           "source_spell_id": 383346,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 3 seconds (AP mod: 0.2295)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "periodic",
@@ -5450,9 +5449,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6654,7 +6653,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 406545,
           "source_spell_id": 383346,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 3 seconds (AP mod: 0.2295)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "periodic",
@@ -6681,9 +6680,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7067,7 +7066,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 403826,
           "source_spell_id": 404358,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Area Effects Use Target Radius (17) (AP mod: 0.585195)",
+          "effect_text": "School Damage (Holy) (AP mod: 0.585195 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7094,11 +7093,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -7872,7 +7870,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 255937,
           "source_spell_id": 403695,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33) | Attributes: Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7889,9 +7887,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7902,7 +7900,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 255937,
           "source_spell_id": 403695,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 3 seconds (AP mod: 0.6528)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7929,12 +7927,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7942,7 +7938,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 255937,
           "source_spell_id": 405345,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holyfire | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 2.27174)",
+          "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7969,11 +7965,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8360,7 +8355,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 343527,
           "source_spell_id": 383921,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (AP mod: 3.9)",
+          "effect_text": "School Damage (Holy) (AP mod: 3.9 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8389,11 +8384,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -8494,7 +8488,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 405355,
           "source_spell_id": 405345,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holyfire | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 2.27174)",
+          "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8521,11 +8515,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8533,7 +8526,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 405355,
           "source_spell_id": 403695,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33) | Attributes: Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -8554,9 +8547,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8567,7 +8560,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 405355,
           "source_spell_id": 403695,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 3 seconds (AP mod: 0.6528)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8598,12 +8591,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9328,7 +9319,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Hammer of Light damage increased by 20%.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -12468,9 +12459,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -13014,7 +13005,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-26T19:00:45.128337+00:00",
+  "generated_at": "2026-09-28T11:41:40.151561+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 31,
@@ -13027,35 +13018,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 22,
+    "source_warning_count": 16,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 383346,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=383346'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 405350,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=405350'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 383921,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=383921'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 406647,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=406647'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 387792,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387792'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 407480,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=407480'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 403695,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=403695'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 408383,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408383'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 404358,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=404358'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 408385,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408385'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -1280,7 +1280,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "ability_druid_mangle.tga",
         "icon_candidates": [
-          "ability_druid_mangle.tga"
+          "ability_druid_mangle.tga",
+          "ability_druid_mangle-tga"
         ]
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
@@ -2882,7 +2883,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 132469,
           "source_spell_id": 61391,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2899,9 +2900,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5613,38 +5614,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 88747,
           "source_spell_id": 81281,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            88747,
-            81281
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 88747,
-          "source_spell_id": 81281,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 2 seconds (SP mod: 0.36)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5671,9 +5642,37 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 88747,
+          "source_spell_id": 81281,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            88747,
+            81281
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5684,7 +5683,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 88747,
           "source_spell_id": 88751,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (SP mod: 3.187)",
+          "effect_text": "School Damage (Nature) (SP mod: 3.187)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5711,11 +5710,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -11547,9 +11545,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12090,7 +12088,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "druid-balance",
-  "generated_at": "2026-09-26T18:52:39.823190+00:00",
+  "generated_at": "2026-09-28T11:32:55.165079+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 24,
@@ -12103,26 +12101,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 22,
+    "source_warning_count": 19,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 61391,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=61391'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 81281,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=81281'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 88751,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=88751'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 164812,
@@ -12132,6 +12115,21 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 164815,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=164815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 191037,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191037'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 202347,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202347'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 202497,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202497'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

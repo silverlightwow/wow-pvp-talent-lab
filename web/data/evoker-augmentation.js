@@ -3748,7 +3748,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
           "reason": "ALREADY_CURRENT"
@@ -10200,9 +10200,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -10740,7 +10740,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-26T18:54:20.214434+00:00",
+  "generated_at": "2026-09-28T11:34:27.886328+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,

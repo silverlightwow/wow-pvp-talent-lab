@@ -1469,7 +1469,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_priest_void_flay",
         "icon_candidates": [
-          "spell_priest_void_flay"
+          "spell_priest_void_flay",
+          "spell_priest_void-flay"
         ]
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -2342,7 +2343,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Shadow Word: Death damage increased by 30% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -4887,7 +4888,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_priest_void_blast",
         "icon_candidates": [
-          "spell_priest_void_blast"
+          "spell_priest_void_blast",
+          "spell_priest_void-blast"
         ]
       },
       "pve_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
@@ -11134,9 +11136,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -11680,7 +11682,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-shadow",
-  "generated_at": "2026-09-26T19:02:26.154837+00:00",
+  "generated_at": "2026-09-28T11:43:03.379586+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 23,

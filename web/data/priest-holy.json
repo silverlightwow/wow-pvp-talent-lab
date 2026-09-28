@@ -1600,7 +1600,8 @@
         "visible_spell_id": null,
         "icon": "spell_priest_void_flay",
         "icon_candidates": [
-          "spell_priest_void_flay"
+          "spell_priest_void_flay",
+          "spell_priest_void-flay"
         ]
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -7608,7 +7609,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Halo damage and healing increased by 30% in PvP combat.",
           "reason": "RELATIVE_HOTFIX_EVIDENCE",
@@ -8439,7 +8440,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
           "reason": "ALREADY_CURRENT"
@@ -9913,7 +9914,7 @@
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
           "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
           "reason": "ALREADY_CURRENT"
@@ -10584,9 +10585,9 @@
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -11119,7 +11120,7 @@
     "external": []
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-26T19:02:29.363248+00:00",
+  "generated_at": "2026-09-28T11:42:34.235337+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 20,

@@ -1139,7 +1139,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "ability_druid_mangle.tga",
         "icon_candidates": [
-          "ability_druid_mangle.tga"
+          "ability_druid_mangle.tga",
+          "ability_druid_mangle-tga"
         ]
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : (14.4% of Attack Power) damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
@@ -10390,9 +10391,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -10933,7 +10934,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "druid-guardian",
-  "generated_at": "2026-09-26T18:52:47.808755+00:00",
+  "generated_at": "2026-09-28T11:33:54.235448+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 11,

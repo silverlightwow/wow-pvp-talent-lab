@@ -10386,9 +10386,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -10959,7 +10959,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-26T19:02:51.927282+00:00",
+  "generated_at": "2026-09-28T11:43:32.815386+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,

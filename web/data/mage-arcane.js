@@ -3513,7 +3513,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "spell_frost_ring_of_frost",
         "icon_candidates": [
-          "spell_frost_ring_of_frost"
+          "spell_frost_ring_of_frost",
+          "spell_frost_ring-of-frost"
         ]
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
@@ -7429,7 +7430,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1295923,
           "source_spell_id": 1295939,
           "effect_index": 2,
-          "effect_text": "School Damage (Arcane) (SP mod: 25)",
+          "effect_text": "School Damage (2): arcane | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11) (SP mod: 25)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7458,10 +7459,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -10552,9 +10554,9 @@ window.WOW_PVP_DATA = {
   ],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -11102,7 +11104,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-arcane",
-  "generated_at": "2026-09-26T18:56:36.434836+00:00",
+  "generated_at": "2026-09-28T11:37:35.068061+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 25,
@@ -11115,11 +11117,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1295939,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1295939'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "spell_id": 448604,
         "talent_name": "Spellfire Spheres",

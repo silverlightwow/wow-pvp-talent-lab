@@ -6731,7 +6731,8 @@ window.WOW_PVP_DATA = {
         "visible_spell_id": null,
         "icon": "inv121_ability_shaman_ascendance_air",
         "icon_candidates": [
-          "inv121_ability_shaman_ascendance_air"
+          "inv121_ability_shaman_ascendance_air",
+          "8026696"
         ]
       },
       "pve_tooltip": "Instant\n3 min cooldown\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.\nMaelstrom Weapon spenders have a 0.5% chance to unleash Doom Winds per Maelstrom Weapon spent while Ascendance is not active.",
@@ -10373,9 +10374,9 @@ window.WOW_PVP_DATA = {
   "source_warnings": [],
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142/hotfixes-september-24-2026",
+    "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-09-24",
-    "snapshot_hash": "685cef0a83951138d1e3e7142bed99b65a1bb489501bd625115b65b389b9ab9d",
+    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
     "applied": [],
     "already_current": [
       {
@@ -10946,7 +10947,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-26T19:05:00.109487+00:00",
+  "generated_at": "2026-09-28T11:45:44.212080+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,
