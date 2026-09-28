@@ -117,7 +117,9 @@ jobs:
   aggregate:
     needs: [discover, build_spec, frontend]
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    # The exhaustive browser matrix can exceed 50 minutes on a busy runner.
+    # Leave room for verification before committing and deploying the snapshot.
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
