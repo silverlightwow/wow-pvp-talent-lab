@@ -8,11 +8,23 @@ const root = path.resolve(__dirname, '..');
 const requireCurrentHotfixAbilities =
  process.env.REQUIRE_CURRENT_HOTFIX_ABILITIES === '1';
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'web/data/manifest.json')));
-const specs = manifest.classes.flatMap(c => c.specs.map(s => ({...s, className:c.name})));
+const allSpecs = manifest.classes.flatMap(c => c.specs.map(s => ({...s, className:c.name})));
+const specs = process.env.BROWSER_CHECK_SPEC
+ ? allSpecs.filter(spec => spec.slug === process.env.BROWSER_CHECK_SPEC)
+ : allSpecs;
+assert.ok(specs.length, `Unknown browser check specialization: ${process.env.BROWSER_CHECK_SPEC}`);
+const widths = process.env.BROWSER_CHECK_WIDTH
+ ? [Number(process.env.BROWSER_CHECK_WIDTH)]
+ : [2560, 1920, 1536, 1440, 1366, 1280, 1040, 1024, 390, 320];
+assert.ok(widths.every(width => Number.isInteger(width) && width > 0), 'Invalid browser check width');
 const errors = [];
 const report = [];
 const launch = {headless:true};
 if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
+// This suite checks tree behavior and layout. Decode of real spell icons is
+// covered by build_browser_check; failed CDN requests here used to trigger
+// repeated fallback loads during every point allocation.
+const iconStub = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/lZcAAAAASUVORK5CYII=', 'base64');
 const displayed = text => String(text || '')
  .replaceAll('[','')
  .replaceAll(']','')
@@ -28,11 +40,11 @@ function assertDescription(shown, original) {
 (async () => {
  const browser = await chromium.launch(launch);
  try {
-  for (const width of [2560, 1920, 1536, 1440, 1366, 1280, 1040, 1024, 390, 320]) {
+  for (const width of widths) {
    const page = await browser.newPage({viewport:{width,height:1000}, hasTouch:width<600, isMobile:width<600});
    page.on('pageerror', e => errors.push(e.message));
    // Network availability of an icon CDN must not govern app logic checks.
-   await page.route('https://**/*', r => r.abort());
+   await page.route('https://**/*', r => r.fulfill({body:iconStub, contentType:'image/png'}));
    await page.goto(pathToFileURL(path.join(root, 'web/index.html')).href+'#spec=priest-discipline');
    for (const spec of specs) {
     console.log(`Checking ${spec.slug} at ${width}px`);
@@ -179,11 +191,16 @@ function assertDescription(shown, original) {
         const node = page.locator(`#${type}Tree [data-node-id="${candidate}"]`);
         const isChoice = (await node.getAttribute('class')).includes('choice-node');
         if (isChoice) {
-         await node.click();
+         // The exhaustive path finder makes thousands of selections. A
+         // Playwright pointer click waits for each replacement tree to settle
+         // while icon fallbacks are loading, and can time out even though the
+         // choice button and its click handler work. Dispatch the DOM click
+         // here; rank_browser_check covers pointer interaction separately.
+         await node.dispatchEvent('click');
          // Scrolling to a low talent must not dismiss its newly opened picker.
          await page.evaluate(() => window.dispatchEvent(new Event('scroll')));
          assert.ok(await page.locator('.choice-option').first().isVisible());
-         await page.locator('.choice-option').first().click();
+         await page.locator('.choice-option').first().dispatchEvent('click');
         } else {
          // This is still the real DOM click handler, but avoids Playwright's
          // expensive pointer actionability/scroll cycle for thousands of
