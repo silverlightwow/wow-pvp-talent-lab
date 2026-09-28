@@ -6069,7 +6069,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271171,
           "source_spell_id": 1271173,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 0.4)",
+          "effect_text": "School Damage (2): fire (SP mod: 0.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6096,10 +6096,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7594,7 +7595,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1254865,
           "source_spell_id": 1254024,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 2)",
+          "effect_text": "School Damage (2): fire (SP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7621,10 +7622,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7710,7 +7712,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1257343,
           "source_spell_id": 1257350,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Damage Done % (Fire)",
+          "effect_text": "Apply Aura (6) | Modify Damage Done% (79)",
           "base_value": 2.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7727,9 +7729,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8062,7 +8064,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8091,10 +8093,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8102,7 +8105,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8131,10 +8134,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -8753,7 +8757,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262843,
           "source_spell_id": 1262862,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 3.6624)",
+          "effect_text": "School Damage (2): frost (SP mod: 3.6624)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -8780,9 +8784,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9571,7 +9575,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9600,10 +9604,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9611,7 +9616,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9640,10 +9645,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -10643,7 +10649,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246030,
           "source_spell_id": 1246032,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy (127)",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.0,
           "amount_kind": null,
@@ -10660,8 +10666,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11945,7 +11952,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "mage-fire",
-  "generated_at": "2026-09-28T12:27:06.792763+00:00",
+  "generated_at": "2026-09-28T13:35:24.348760+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 34,
@@ -11958,41 +11965,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 7,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
-        "spell_id": 448604,
-        "talent_name": "Spellfire Spheres",
-        "side": "drustvar",
-        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "source_build": "12.1.0.69933",
-        "game_effect_id": 1147193,
-        "is_hotfixed": false,
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 448601,
-        "source_spell_id": 448604,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          448601,
-          448604
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ],
-        "current_build": "12.1.0.69933",
-        "effect_index": 2,
-        "current_multiplier": 2.0,
-        "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
-        "source_build_relation": "same_build_conflict",
-        "resolved_by": [
-          "wowhead",
-          "simc_exact_build"
-        ]
+        "source": "wowhead",
+        "spell_id": 1246032,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246032'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1246949,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1254024,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1254024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1257350,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1257350'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1262862,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262862'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

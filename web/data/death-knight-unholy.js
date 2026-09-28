@@ -3632,7 +3632,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 77575,
           "source_spell_id": 1242564,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.845)",
+          "effect_text": "School Damage (Shadow) (AP mod: 1.845 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
@@ -3661,9 +3661,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4053,7 +4053,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247378,
           "source_spell_id": 1277016,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (AP mod: 1.99665)",
+          "effect_text": "School Damage (Shadow) (AP mod: 1.99665 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4080,11 +4080,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -4925,7 +4924,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 207272,
           "source_spell_id": 1241786,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds (AP mod: 0.025988)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -4952,11 +4951,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -5174,7 +5172,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 42650,
           "source_spell_id": 1294264,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (AP mod: 1)",
+          "effect_text": "School Damage (Shadow)",
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
@@ -5191,9 +5189,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6802,7 +6800,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1242158,
           "source_spell_id": 1242172,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowstrike (AP mod: 2.05335)",
+          "effect_text": "School Damage (Physical, Shadow) (AP mod: 2.05335 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6831,11 +6829,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6843,7 +6840,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1242158,
           "source_spell_id": 1242178,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (AP mod: 0.64584)",
+          "effect_text": "School Damage (Shadow) (AP mod: 0.64584 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6872,11 +6869,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 4,
@@ -10770,7 +10766,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-28T12:18:15.064591+00:00",
+  "generated_at": "2026-09-28T13:27:29.112851+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 22,
@@ -10783,37 +10779,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1241786,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241786'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1242172,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242172'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1242174,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242174'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1242178,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242178'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1242564,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242564'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

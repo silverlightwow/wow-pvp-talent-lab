@@ -10231,7 +10231,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-28T12:35:20.548594+00:00",
+  "generated_at": "2026-09-28T13:43:57.807971+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 19,

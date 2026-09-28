@@ -3146,7 +3146,7 @@
           "talent_spell_id": 1272694,
           "source_spell_id": 1272696,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 7)",
+          "effect_text": "School Damage (Nature) (AP mod: 7 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5357,
           "amount_kind": "direct",
@@ -3173,9 +3173,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9094,7 +9094,7 @@
           "talent_spell_id": 1261849,
           "source_spell_id": 1272696,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 7)",
+          "effect_text": "School Damage (Nature) (AP mod: 7 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5357,
           "amount_kind": "direct",
@@ -9121,9 +9121,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12511,7 +12511,7 @@
     "external": []
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-28T12:28:42.449375+00:00",
+  "generated_at": "2026-09-28T13:36:52.284277+00:00",
   "validation": {
     "talents": 148,
     "changed_tooltips": 30,
@@ -12524,17 +12524,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1272696,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1272696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

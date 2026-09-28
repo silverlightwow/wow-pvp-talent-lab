@@ -10947,7 +10947,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-28T12:34:40.402283+00:00",
+  "generated_at": "2026-09-28T13:42:19.408930+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,
