@@ -11791,7 +11791,7 @@
     "external": []
   },
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-28T11:30:48.045539+00:00",
+  "generated_at": "2026-09-28T12:18:14.535028+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 34,
@@ -11804,11 +11804,16 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
+    "source_warning_count": 7,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1228436,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228436'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 1228443,
@@ -11828,11 +11833,6 @@
         "source": "wowhead",
         "spell_id": 1264082,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264082'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264083,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

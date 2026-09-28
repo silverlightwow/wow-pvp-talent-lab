@@ -7786,7 +7786,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -7803,9 +7803,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8865,7 +8865,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8882,9 +8882,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9111,7 +9111,7 @@
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.504)",
           "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "periodic",
@@ -9128,9 +9128,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9141,7 +9141,7 @@
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% from Caster's Spells (271)",
           "base_value": 8.0,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": null,
@@ -9158,11 +9158,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10934,7 +10934,7 @@
     "external": []
   },
   "slug": "druid-guardian",
-  "generated_at": "2026-09-28T11:33:54.235448+00:00",
+  "generated_at": "2026-09-28T12:21:29.104456+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 11,
@@ -10947,11 +10947,22 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 428682,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 441812,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

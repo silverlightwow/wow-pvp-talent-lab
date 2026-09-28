@@ -2248,7 +2248,7 @@
           "talent_spell_id": 1264378,
           "source_spell_id": 1264379,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Arcane) (SP mod: 12)",
+          "effect_text": "School Damage (2): spellfrost | Attributes: Area Effects Use Target Radius (17), Damage Only Affects Absorbs (26) (SP mod: 12)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -2275,9 +2275,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7619,7 +7619,7 @@
           "talent_spell_id": 1260745,
           "source_spell_id": 1236970,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 2.52)",
+          "effect_text": "School Damage (2): fire | Attributes: Always AOE Line of Sight (5) (SP mod: 2.52)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -7646,9 +7646,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7764,7 +7764,7 @@
           "talent_spell_id": 441176,
           "source_spell_id": 441172,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): firestorm every 2 seconds (SP mod: 1.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -7791,10 +7791,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -8464,7 +8465,7 @@
           "talent_spell_id": 433871,
           "source_spell_id": 441172,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): firestorm every 2 seconds (SP mod: 1.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8491,10 +8492,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -10740,7 +10742,7 @@
     "external": []
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-28T11:34:27.886328+00:00",
+  "generated_at": "2026-09-28T12:22:47.275973+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,
@@ -10753,11 +10755,27 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 441172,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441172'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1236970,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1236970'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264379,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264379'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

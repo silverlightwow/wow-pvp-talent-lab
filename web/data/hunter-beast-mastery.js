@@ -10993,7 +10993,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-28T11:36:05.271315+00:00",
+  "generated_at": "2026-09-28T12:24:31.867133+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 20,

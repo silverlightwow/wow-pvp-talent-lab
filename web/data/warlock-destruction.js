@@ -11386,7 +11386,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-28T11:47:32.188690+00:00",
+  "generated_at": "2026-09-28T12:36:52.783093+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 32,

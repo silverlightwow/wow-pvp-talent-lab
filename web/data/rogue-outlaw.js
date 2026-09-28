@@ -10566,7 +10566,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-28T11:44:02.932759+00:00",
+  "generated_at": "2026-09-28T12:32:33.153128+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 12,

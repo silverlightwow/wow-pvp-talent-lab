@@ -11333,7 +11333,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-09-28T11:42:10.351117+00:00",
+  "generated_at": "2026-09-28T12:30:51.863055+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 25,
