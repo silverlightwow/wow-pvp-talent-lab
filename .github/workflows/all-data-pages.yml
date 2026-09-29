@@ -71,7 +71,9 @@ jobs:
     timeout-minutes: 25
     strategy:
       fail-fast: false
-      max-parallel: 4
+      # Wowhead rate-limits the combined traffic from matrix runners.
+      # Keep the source load below the burst that caused scheduled 403s.
+      max-parallel: 3
       matrix:
         item: ${{ fromJSON(needs.discover.outputs.specs) }}
     steps:
