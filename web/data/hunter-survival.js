@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -76,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -206,8 +206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -264,8 +264,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -344,8 +344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -405,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -466,8 +466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -557,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -619,8 +619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -681,8 +681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -788,8 +788,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -850,8 +850,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -913,8 +913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -994,8 +994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1055,8 +1055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1117,8 +1117,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1179,8 +1179,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1260,8 +1260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1321,8 +1321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1381,8 +1381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1441,8 +1441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1502,8 +1502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1583,8 +1583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1695,8 +1695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1755,8 +1755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1836,8 +1836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1897,8 +1897,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -1957,8 +1957,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2021,8 +2021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2085,8 +2085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2149,8 +2149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2209,8 +2209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2271,8 +2271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2351,8 +2351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2412,8 +2412,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2473,8 +2473,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2535,8 +2535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2595,8 +2595,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2655,8 +2655,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2729,7 +2729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2768,8 +2768,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2826,8 +2826,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2884,8 +2884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -2966,8 +2966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3048,8 +3048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3106,8 +3106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3164,8 +3164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3225,8 +3225,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3284,8 +3284,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3390,8 +3390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3449,8 +3449,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3508,8 +3508,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3619,8 +3619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3777,8 +3777,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3894,8 +3894,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -3955,8 +3955,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4016,8 +4016,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4077,8 +4077,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4153,7 +4153,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261193,
           "source_spell_id": 1261215,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 6.075 )",
+          "effect_text": "School Damage (2): physical | Attributes: Area Effects Use Target Radius (17) (AP mod: 6.075)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4180,10 +4180,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4200,8 +4201,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4262,8 +4263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4322,8 +4323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4382,8 +4383,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4443,8 +4444,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4504,8 +4505,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4565,8 +4566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4664,8 +4665,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4724,8 +4725,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4787,8 +4788,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4848,8 +4849,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4909,8 +4910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -4970,8 +4971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5033,8 +5034,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5093,8 +5094,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5205,8 +5206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5284,8 +5285,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5346,8 +5347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5426,8 +5427,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5488,8 +5489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5550,8 +5551,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5610,8 +5611,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5691,8 +5692,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5911,8 +5912,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -5991,8 +5992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6052,8 +6053,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6112,8 +6113,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6191,8 +6192,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6252,8 +6253,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6310,8 +6311,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6428,8 +6429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6487,8 +6488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6545,8 +6546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6622,8 +6623,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6691,7 +6692,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1259003,
           "source_spell_id": 1262293,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): physical | Attributes: Area Effects Use Target Radius (17) (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -6718,9 +6719,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6740,8 +6741,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6815,8 +6816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6871,8 +6872,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -6932,8 +6933,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7064,8 +7065,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7124,8 +7125,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7184,8 +7185,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7275,7 +7276,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264902,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -7304,9 +7305,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7360,8 +7361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7420,8 +7421,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7480,8 +7481,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7540,8 +7541,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7600,8 +7601,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7673,7 +7674,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264904,
           "source_spell_id": 1266096,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
+          "effect_text": "School Damage (2): arcane (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7700,10 +7701,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7720,8 +7722,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7780,8 +7782,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7841,8 +7843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7901,8 +7903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -7961,8 +7963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8021,8 +8023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8084,7 +8086,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264903,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -8113,9 +8115,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8135,8 +8137,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8256,8 +8258,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8476,8 +8478,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8536,8 +8538,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8596,8 +8598,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8656,8 +8658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8716,8 +8718,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8776,8 +8778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8836,8 +8838,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -8896,8 +8898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9108,8 +9110,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9248,8 +9250,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9308,8 +9310,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9368,8 +9370,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9428,8 +9430,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9488,8 +9490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9548,8 +9550,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -9608,8 +9610,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Survival",
@@ -10056,7 +10058,39 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 1261215,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261215'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1262293,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262293'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1264949,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1266081,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1266096,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1268673,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
@@ -10621,7 +10655,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-09-29T13:03:03.121074+00:00",
+  "generated_at": "2026-09-29T14:44:50.520972+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,
@@ -10634,11 +10668,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 6,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1261215,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261215'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1262293,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262293'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264949,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266081,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266096,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

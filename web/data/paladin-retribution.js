@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -190,8 +190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -339,8 +339,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -525,8 +525,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -586,8 +586,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -698,8 +698,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -761,8 +761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -824,8 +824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -884,8 +884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -957,7 +957,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 469411,
           "source_spell_id": 469413,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 5.4)",
+          "effect_text": "Direct Heal (10) (SP mod: 5.4)",
           "base_value": null,
           "spell_pvp_multiplier": 0.27778,
           "amount_kind": "direct",
@@ -974,9 +974,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1037,8 +1037,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1100,8 +1100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1252,8 +1252,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1312,8 +1312,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1376,8 +1376,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1434,8 +1434,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1496,8 +1496,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1556,8 +1556,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1616,8 +1616,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1678,8 +1678,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1770,8 +1770,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1832,8 +1832,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1890,8 +1890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -1952,8 +1952,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2014,8 +2014,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2076,8 +2076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2159,8 +2159,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2222,8 +2222,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2282,8 +2282,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2451,8 +2451,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2511,8 +2511,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2573,8 +2573,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2633,8 +2633,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2697,8 +2697,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2755,8 +2755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2813,8 +2813,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -2877,8 +2877,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3053,8 +3053,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3177,8 +3177,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3240,8 +3240,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3302,8 +3302,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3364,8 +3364,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3426,8 +3426,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3570,8 +3570,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3631,8 +3631,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3694,8 +3694,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3755,8 +3755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3818,8 +3818,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3878,8 +3878,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -3938,8 +3938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4000,8 +4000,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4061,8 +4061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4124,8 +4124,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4185,8 +4185,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4246,8 +4246,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4353,8 +4353,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4435,8 +4435,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4586,8 +4586,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4659,7 +4659,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 469309,
           "source_spell_id": 469311,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 0.35)",
+          "effect_text": "School Damage (2): holy (SP mod: 0.35)",
           "base_value": null,
           "spell_pvp_multiplier": 3.75,
           "amount_kind": "direct",
@@ -4686,9 +4686,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4708,8 +4708,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4823,8 +4823,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4884,8 +4884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -4944,8 +4944,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5003,8 +5003,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5063,8 +5063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5234,8 +5234,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5369,8 +5369,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5471,8 +5471,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5532,8 +5532,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5593,8 +5593,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5784,8 +5784,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -5983,8 +5983,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6102,8 +6102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6166,8 +6166,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6230,8 +6230,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6292,8 +6292,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6354,8 +6354,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6415,8 +6415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6477,8 +6477,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6538,8 +6538,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6600,8 +6600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6702,8 +6702,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6765,8 +6765,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6828,8 +6828,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6909,8 +6909,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -6990,8 +6990,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7113,8 +7113,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7174,8 +7174,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7236,8 +7236,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7414,8 +7414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7535,8 +7535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7597,8 +7597,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7658,8 +7658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -7738,8 +7738,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8020,8 +8020,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8100,8 +8100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8311,7 +8311,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 343527,
           "source_spell_id": 1260251,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 5.05312 )",
+          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 5.05312)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -8338,9 +8338,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8400,8 +8400,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8649,8 +8649,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8709,8 +8709,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8767,8 +8767,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8825,8 +8825,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8883,8 +8883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8941,8 +8941,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -8997,8 +8997,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9072,8 +9072,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9160,7 +9160,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261159,
           "source_spell_id": 1261160,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 3.31918 )",
+          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 3.31918)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9187,10 +9187,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9207,8 +9208,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9437,7 +9438,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 427445,
           "source_spell_id": 431398,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 0.52136 )",
+          "effect_text": "School Damage (2): holy (AP mod: 0.52136)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9466,10 +9467,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 3,
@@ -9486,8 +9488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9538,8 +9540,38 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 431377,
           "source_spell_id": 431380,
+          "effect_index": 3,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431377,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431377,
+          "source_spell_id": 431380,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 2 seconds (SP mod: 0.6375)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -9575,37 +9607,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 431377,
-          "source_spell_id": 431380,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            431377,
-            431380
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9625,8 +9629,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9685,8 +9689,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9745,8 +9749,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9805,8 +9809,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9906,8 +9910,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -9966,8 +9970,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10027,8 +10031,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10271,8 +10275,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10331,8 +10335,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10391,8 +10395,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10451,8 +10455,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10511,8 +10515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10571,8 +10575,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10631,8 +10635,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10738,8 +10742,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10810,8 +10814,38 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 431423,
           "source_spell_id": 431380,
+          "effect_index": 3,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431423,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431423,
+          "source_spell_id": 431380,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 2 seconds (SP mod: 0.6375)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -10847,37 +10881,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "source_notes": [],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 431423,
-          "source_spell_id": 431380,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            431423,
-            431380
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10897,8 +10903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -10957,8 +10963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11017,8 +11023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11077,8 +11083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11129,7 +11135,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431413,
           "source_spell_id": 431414,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): holyfire every 1 seconds (SP mod: 0.12)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11156,10 +11162,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -11176,8 +11183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11236,8 +11243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11296,8 +11303,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11356,8 +11363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11416,8 +11423,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11476,8 +11483,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11621,8 +11628,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11728,8 +11735,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11788,8 +11795,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11848,8 +11855,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11908,8 +11915,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -11968,8 +11975,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -12029,8 +12036,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Retribution",
@@ -12103,7 +12110,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431425,
           "source_spell_id": 431911,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Fire) (SP mod: 0.216)",
+          "effect_text": "School Damage (2): holyfire | Attributes: Area Effects Use Target Radius (17) (SP mod: 0.216)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -12130,10 +12137,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -12443,7 +12451,49 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 431380,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431380'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 431398,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431398'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 431414,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431414'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 431911,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431911'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 469311,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=469311'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 469413,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=469413'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1260251,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1260251'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1261160,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261160'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
@@ -12992,7 +13042,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-29T13:08:32.917245+00:00",
+  "generated_at": "2026-09-29T14:49:15.614683+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 31,
@@ -13005,11 +13055,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 8,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 431380,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431380'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 431398,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431398'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 431414,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431414'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 431911,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431911'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 469311,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=469311'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

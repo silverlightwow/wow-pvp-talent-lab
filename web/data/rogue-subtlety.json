@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -182,8 +182,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 5938,
           "source_spell_id": 359078,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Modify Ranged and Melee Auto Attack Speed% (342)",
           "base_value": -25.0,
           "spell_pvp_multiplier": 0.48,
           "amount_kind": null,
@@ -200,9 +200,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -212,8 +212,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 5938,
           "source_spell_id": 359078,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Mod Attack Speed %",
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
           "base_value": -25.0,
           "spell_pvp_multiplier": 0.48,
           "amount_kind": null,
@@ -230,9 +230,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -326,8 +326,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -386,8 +386,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -445,8 +445,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -505,8 +505,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -567,8 +567,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -627,8 +627,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -734,8 +734,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -796,8 +796,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -856,8 +856,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -910,7 +910,7 @@
           "talent_spell_id": 378436,
           "source_spell_id": 383414,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.0814 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.0814)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -939,10 +939,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -959,8 +960,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1021,8 +1022,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1083,8 +1084,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1145,8 +1146,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1207,8 +1208,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1268,8 +1269,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1330,8 +1331,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1390,8 +1391,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1452,8 +1453,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1513,8 +1514,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1620,8 +1621,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1682,8 +1683,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1742,8 +1743,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1806,8 +1807,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1866,8 +1867,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1928,8 +1929,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1988,8 +1989,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2121,8 +2122,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2182,8 +2183,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2245,8 +2246,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2305,8 +2306,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2368,8 +2369,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2429,8 +2430,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2491,8 +2492,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2555,8 +2556,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2617,8 +2618,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2679,8 +2680,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2739,8 +2740,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2819,8 +2820,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2879,8 +2880,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2959,8 +2960,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3022,10 +3023,10 @@
           "talent_spell_id": 393970,
           "source_spell_id": 393971,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Total Health Regen %",
+          "effect_text": "Apply Aura (6) | Periodic Heal% (20): every 2 seconds",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 5.0,
@@ -3039,9 +3040,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3061,8 +3062,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3140,8 +3141,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3219,8 +3220,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3298,8 +3299,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3356,8 +3357,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3414,8 +3415,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3472,8 +3473,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3543,7 +3544,7 @@
           "talent_spell_id": 470669,
           "source_spell_id": 470672,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.18 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.18)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3570,10 +3571,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -3590,8 +3592,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3648,8 +3650,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3706,8 +3708,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3764,8 +3766,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3824,8 +3826,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3884,8 +3886,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3991,8 +3993,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4052,8 +4054,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4113,8 +4115,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4174,8 +4176,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4235,8 +4237,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4297,8 +4299,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4357,8 +4359,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4420,8 +4422,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4483,8 +4485,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4579,8 +4581,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4642,8 +4644,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4702,8 +4704,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4762,8 +4764,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4825,8 +4827,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4942,8 +4944,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5004,8 +5006,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5064,8 +5066,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5127,8 +5129,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5187,8 +5189,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5248,8 +5250,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5309,8 +5311,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5372,8 +5374,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5435,8 +5437,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5496,8 +5498,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5556,8 +5558,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5617,8 +5619,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5679,8 +5681,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5755,7 +5757,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 426592,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 6.3 )",
+          "effect_text": "School Damage (2): shadow (AP mod: 6.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5782,10 +5784,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5793,7 +5796,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 426593,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 1.58)",
           "base_value": null,
           "spell_pvp_multiplier": 1.33,
           "amount_kind": "periodic",
@@ -5820,9 +5823,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5833,7 +5836,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 1309274,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5850,9 +5853,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5872,8 +5875,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5934,8 +5937,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6042,8 +6045,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6103,8 +6106,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6165,8 +6168,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6225,8 +6228,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6287,8 +6290,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6348,8 +6351,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6556,8 +6559,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6737,8 +6740,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6921,8 +6924,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6992,7 +6995,7 @@
           "talent_spell_id": 382015,
           "source_spell_id": 394203,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 35.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7009,9 +7012,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7031,8 +7034,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7090,8 +7093,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7161,7 +7164,7 @@
           "talent_spell_id": 382528,
           "source_spell_id": 1264397,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 4.2 )",
+          "effect_text": "School Damage (2): shadow | Attributes: Suppress Points Stacking (6) (AP mod: 4.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7188,10 +7191,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7208,8 +7212,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7246,20 +7250,30 @@
         ]
       },
       "pve_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
-      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 2.6667 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 87,
+          "old_token": "4",
+          "new_token": "2.6667",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 0.004,
-          "new": 0.0027,
-          "full_tooltip_match_count": 0
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "4",
+          "new": "2.6667"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7270,13 +7284,13 @@
           "talent_spell_id": 382505,
           "source_spell_id": 470678,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
-          "base_value": 4.0,
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Duration (1)",
+          "base_value": 4000.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.666667,
-          "final_pvp_value": 2.666668,
+          "final_pvp_value": 2666.668,
           "is_final_pvp_modified": true,
           "dependency_path": [
             382505,
@@ -7287,9 +7301,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7309,8 +7323,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7367,8 +7381,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7423,8 +7437,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7498,8 +7512,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7554,8 +7568,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7628,7 +7642,7 @@
           "talent_spell_id": 457052,
           "source_spell_id": 457157,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 1.56 )",
+          "effect_text": "School Damage (2): shadowstorm (AP mod: 1.56)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7655,10 +7669,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7675,8 +7690,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7735,8 +7750,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7808,7 +7823,7 @@
           "talent_spell_id": 457054,
           "source_spell_id": 457193,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 0.1 )",
+          "effect_text": "School Damage (2): shadowstorm (AP mod: 0.1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7835,10 +7850,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7855,8 +7871,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7915,8 +7931,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7975,8 +7991,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8067,7 +8083,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -8084,11 +8100,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8096,7 +8112,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -8113,11 +8129,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -8134,8 +8150,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8194,8 +8210,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8254,8 +8270,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8327,7 +8343,7 @@
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 18.0,
           "spell_pvp_multiplier": 0.56,
           "amount_kind": null,
@@ -8344,9 +8360,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8357,7 +8373,7 @@
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.6667,
           "amount_kind": null,
@@ -8374,9 +8390,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8396,8 +8412,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8456,8 +8472,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8516,8 +8532,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8576,8 +8592,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8636,8 +8652,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8696,8 +8712,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8756,8 +8772,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8816,8 +8832,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8876,8 +8892,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8940,7 +8956,7 @@
           "talent_spell_id": 457058,
           "source_spell_id": 457280,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 35.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -8957,9 +8973,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8979,8 +8995,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9053,7 +9069,7 @@
           "talent_spell_id": 441146,
           "source_spell_id": 441144,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9089,10 +9105,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9109,8 +9126,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9169,8 +9186,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9229,8 +9246,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9289,8 +9306,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9349,8 +9366,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9409,8 +9426,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9469,8 +9486,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9576,8 +9593,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9636,8 +9653,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9696,8 +9713,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9756,8 +9773,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9816,8 +9833,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9876,8 +9893,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9936,8 +9953,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9996,8 +10013,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10056,8 +10073,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10116,8 +10133,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-24T23:00:32.508Z",
-        "content_hash": "031bc0017082a9628929355494566340",
+        "generated_at": "2026-09-28T21:03:35.071Z",
+        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10443,7 +10460,89 @@
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 359078,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=359078'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 383414,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=383414'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 393971,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393971'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 394203,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=394203'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 426592,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=426592'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 426593,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=426593'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 441144,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441144'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 457157,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 457167,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 457193,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457193'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 457280,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 470672,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=470672'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 470678,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=470678'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1248775,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248775'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1264397,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264397'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1309274,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1309274'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
@@ -10989,10 +11088,10 @@
     "external": []
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-29T13:10:59.473240+00:00",
+  "generated_at": "2026-09-29T14:53:18.315608+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 19,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69933",
@@ -11002,11 +11101,37 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 16,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 359078,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=359078'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 383414,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=383414'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 393971,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393971'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 394203,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=394203'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 426592,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=426592'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
