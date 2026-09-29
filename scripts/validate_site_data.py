@@ -23,6 +23,12 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if data.get('tree_build') != build or data.get('simc_build') != build:
         raise ValueError(f'{slug}: mixed source builds')
     validation = data.get('validation', {})
+    if data.get('source_warnings_complete'):
+        warnings = data.get('source_warnings')
+        if (not isinstance(warnings, list) or
+                len(warnings) != validation.get('source_warning_count') or
+                warnings[:5] != validation.get('source_warning_examples')):
+            raise ValueError(f'{slug}: source warning inventory is incomplete')
     for metadata in (spec, validation):
         if metadata.get('verification_status') != 'VERIFIED' or any(metadata.get(k, -1) != 0 for k in COUNTS):
             raise ValueError(f'{slug}: incomplete verification: {metadata}')

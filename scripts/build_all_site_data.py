@@ -208,6 +208,12 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         "source_warning_examples":
             source_warnings[:5],
 
+        # Keep the complete list until it has been written to the
+        # dataset. A count plus five examples hides most failed pages
+        # when Wowhead throttles a full matrix build.
+        "source_warnings":
+            source_warnings,
+
         "unresolved_examples":
             unresolved[:5],
 
@@ -503,10 +509,8 @@ async def build_one(
 
     payload = spec_catalog.to_dict()
     payload["serialization"] = audit.metadata.get("serialization")
-    payload["source_warnings"] = [
-        item for item in audit.unresolved_rows
-        if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}
-    ]
+    payload["source_warnings"] = summary.pop("source_warnings")
+    payload["source_warnings_complete"] = True
     payload["official_hotfixes"] = hotfix_report
     payload["non_tree_hotfix_resolution"] = (
         non_tree_hotfix_report

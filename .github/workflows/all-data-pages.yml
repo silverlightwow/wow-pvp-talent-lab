@@ -143,6 +143,8 @@ jobs:
         env:
           EXPECTED_SPECS: ${{ needs.discover.outputs.specs }}
         run: python scripts/merge_class_datasets.py --artifacts-root staged-spec-data --output-dir web/data --expected-specs-json "$EXPECTED_SPECS"
+      - name: Report source health
+        run: python scripts/report_source_health.py web/data
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - name: Browser checks for every specialization and hero tree

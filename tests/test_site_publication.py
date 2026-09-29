@@ -51,6 +51,28 @@ def test_verified_artifacts_merge_and_preserve_unrelated_files(artifact, tmp_pat
     assert (output / 'keep.txt').read_text() == 'unchanged'
 
 
+def test_complete_source_warning_inventory_is_checked_before_publication(artifact, tmp_path):
+    source, expected = artifact
+    path = source / 'priest-discipline.json'
+    data = json.loads(path.read_text())
+    warning = {'source': 'wowhead', 'spell_id': 1000, 'error': '403 Forbidden'}
+    data['source_warnings_complete'] = True
+    data['source_warnings'] = [warning]
+    data['validation']['source_warning_count'] = 1
+    data['validation']['source_warning_examples'] = [warning]
+    data['source_warnings'].clear()
+    path.write_text(json.dumps(data))
+    (source / 'priest-discipline.js').write_text('window.WOW_PVP_DATA = ' + json.dumps(data) + ';')
+
+    with pytest.raises(ValueError, match='source warning inventory is incomplete'):
+        merge(artifacts_root=source.parent, output_dir=tmp_path / 'published', expected_specs=expected)
+
+    data['source_warnings'] = [warning]
+    path.write_text(json.dumps(data))
+    (source / 'priest-discipline.js').write_text('window.WOW_PVP_DATA = ' + json.dumps(data) + ';')
+    merge(artifacts_root=source.parent, output_dir=tmp_path / 'published', expected_specs=expected)
+
+
 @pytest.mark.parametrize('fault', ['missing_js', 'mismatched_js', 'incomplete_matrix', 'partial', 'broken_description'])
 def test_failed_merge_keeps_previous_snapshot(artifact, tmp_path, fault):
     source, expected = artifact
