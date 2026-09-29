@@ -12327,7 +12327,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-09-29T07:13:27.423935+00:00",
+  "generated_at": "2026-09-29T09:45:25.117602+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 41,

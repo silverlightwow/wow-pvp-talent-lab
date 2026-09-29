@@ -11944,7 +11944,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-29T06:56:36.234181+00:00",
+  "generated_at": "2026-09-29T09:30:02.011876+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,

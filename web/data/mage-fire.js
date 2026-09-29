@@ -11945,7 +11945,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "mage-fire",
-  "generated_at": "2026-09-29T07:03:43.150228+00:00",
+  "generated_at": "2026-09-29T09:36:27.436940+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 34,
