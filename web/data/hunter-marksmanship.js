@@ -2729,7 +2729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8816,7 +8816,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264904,
           "source_spell_id": 1266096,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
+          "effect_text": "School Damage (2): arcane (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8843,10 +8843,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10692,7 +10693,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-29T09:34:30.063835+00:00",
+  "generated_at": "2026-09-29T13:03:48.913145+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 27,
@@ -10705,11 +10706,21 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1266096,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1268673,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "spell_id": 19434,
         "talent_name": "Aimed Shot",

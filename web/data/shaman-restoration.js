@@ -446,7 +446,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 974,
           "source_spell_id": 462477,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.7333)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.7333)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -475,10 +475,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -1246,7 +1247,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462764,
           "source_spell_id": 462765,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -1263,9 +1264,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3620,7 +3621,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462454,
           "source_spell_id": 462477,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.7333)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.7333)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3647,10 +3648,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -3740,7 +3742,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204268,
           "source_spell_id": 378080,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": 70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -3757,9 +3759,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4429,7 +4431,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 378443,
           "source_spell_id": 378597,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature)",
+          "effect_text": "School Damage (2): nature (SP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -4446,9 +4448,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4545,7 +4547,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 114052,
           "source_spell_id": 294020,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 12.8772)",
+          "effect_text": "Direct Heal (10) (SP mod: 12.8772)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4572,10 +4574,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4851,7 +4854,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 383222,
           "source_spell_id": 383223,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.756756)",
+          "effect_text": "Direct Heal (10) (SP mod: 0.756756)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4878,10 +4881,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -5847,7 +5851,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 382021,
           "source_spell_id": 382024,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.46305)",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "periodic",
@@ -5874,9 +5878,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6902,7 +6906,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462424,
           "source_spell_id": 462425,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.646)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.646)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6929,10 +6933,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7227,7 +7232,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462383,
           "source_spell_id": 462384,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 11.466)",
+          "effect_text": "Direct Heal (10) (SP mod: 11.466)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7254,10 +7259,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7615,7 +7621,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 378270,
           "source_spell_id": 294020,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 12.8772)",
+          "effect_text": "Direct Heal (10) (SP mod: 12.8772)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7644,10 +7650,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7655,7 +7662,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 378270,
           "source_spell_id": 344548,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.15625 )",
+          "effect_text": "School Damage (2): nature (AP mod: 2.15625)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -7674,9 +7681,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7765,7 +7772,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1267016,
           "source_spell_id": 1268684,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 13.23)",
+          "effect_text": "Direct Heal (10) (SP mod: 13.23)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7792,10 +7799,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8576,7 +8584,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 445025,
           "source_spell_id": 458357,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.205)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.205)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8603,10 +8611,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8842,7 +8851,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 445034,
           "source_spell_id": 458221,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": null,
@@ -8859,9 +8868,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9865,7 +9874,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443446,
           "source_spell_id": 444490,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.725)",
+          "effect_text": "Apply Aura (6) | Absorb Damage (69) (SP mod: 4.725)",
           "base_value": null,
           "spell_pvp_multiplier": 1.35,
           "amount_kind": "absorb",
@@ -9882,9 +9891,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11350,7 +11359,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-29T09:43:20.167591+00:00",
+  "generated_at": "2026-09-29T13:13:05.466573+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 27,
@@ -11363,11 +11372,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 14,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 294020,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=294020'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 344548,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=344548'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 378080,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=378080'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 378597,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=378597'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 382024,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=382024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

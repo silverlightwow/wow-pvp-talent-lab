@@ -4697,7 +4697,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 184367,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4714,9 +4714,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4911,7 +4911,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265357,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4928,9 +4928,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5771,7 +5771,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265356,
           "source_spell_id": 1283442,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -5788,9 +5788,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7477,7 +7477,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 436148,
           "source_spell_id": 460670,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.67681 )",
+          "effect_text": "School Damage (2): nature (AP mod: 1.67681)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -7494,9 +7494,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9126,7 +9126,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -9143,11 +9143,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9155,7 +9155,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -9172,11 +9172,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -10761,7 +10761,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-09-29T09:46:11.903975+00:00",
+  "generated_at": "2026-09-29T13:15:37.972500+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 25,
@@ -10774,11 +10774,32 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 446918,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 460670,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=460670'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1283442,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1283442'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1299944,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1299944'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
