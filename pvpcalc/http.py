@@ -33,7 +33,7 @@ class CachedClient:
         concurrency: int = 4,
         timeout: float = 20.0,
         *,
-        wowhead_interval: float = 0.35,
+        wowhead_interval: float = 0.15,
         max_attempts: int = 5,
     ):
         self._client = httpx.AsyncClient(
