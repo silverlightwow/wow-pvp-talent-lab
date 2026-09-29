@@ -10934,7 +10934,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "druid-guardian",
-  "generated_at": "2026-09-28T13:31:25.214420+00:00",
+  "generated_at": "2026-09-29T06:58:22.975228+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 11,

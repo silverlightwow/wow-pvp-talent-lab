@@ -10959,7 +10959,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-28T13:40:17.470278+00:00",
+  "generated_at": "2026-09-29T07:08:21.097250+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,

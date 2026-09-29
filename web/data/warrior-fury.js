@@ -10761,7 +10761,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-09-28T13:45:17.712285+00:00",
+  "generated_at": "2026-09-29T07:14:12.754057+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 25,

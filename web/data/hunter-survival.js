@@ -10621,7 +10621,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-09-28T13:33:27.379873+00:00",
+  "generated_at": "2026-09-29T07:01:18.655335+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,

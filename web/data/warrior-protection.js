@@ -11445,7 +11445,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-protection",
-  "generated_at": "2026-09-28T13:45:36.583609+00:00",
+  "generated_at": "2026-09-29T07:14:35.971539+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,

@@ -4375,7 +4375,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1227280,
           "source_spell_id": 1227621,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow | Attributes: Always AOE Line of Sight (5) (SP mod: 0.687926)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.687926)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4402,11 +4402,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -4928,7 +4927,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 228260,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -4957,9 +4956,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5412,7 +5411,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1231346,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -5445,9 +5444,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5543,7 +5542,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 73510,
           "source_spell_id": 1231479,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.33)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.33)",
           "base_value": null,
           "spell_pvp_multiplier": 1.05,
           "amount_kind": "direct",
@@ -5570,9 +5569,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7040,7 +7039,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1279354,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -7071,9 +7070,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7244,7 +7243,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 373280,
           "source_spell_id": 1243105,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.82)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.82)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -7271,9 +7270,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7284,7 +7283,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 373280,
           "source_spell_id": 1243106,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 6.89)",
+          "effect_text": "School Damage (Shadow) (SP mod: 6.89)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -7311,9 +7310,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7786,7 +7785,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264104,
           "source_spell_id": 1264177,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7813,11 +7812,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -10181,7 +10179,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 451234,
           "source_spell_id": 451435,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1)",
+          "effect_text": "School Damage (Shadow)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10210,11 +10208,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -11685,7 +11682,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-shadow",
-  "generated_at": "2026-09-28T13:40:17.041852+00:00",
+  "generated_at": "2026-09-29T07:08:38.860493+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 23,
@@ -11698,37 +11695,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 451435,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451435'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1227621,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1227621'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1231479,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1231479'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1242189,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242189'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1243105,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1243105'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }
