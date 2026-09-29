@@ -1,9 +1,33 @@
 import asyncio
+import json
 
 from pvpcalc.sources.raidbots import (
     fetch_spec_tree,
     normalize_spec_tree,
 )
+
+
+def test_pinned_matrix_snapshot_never_refetches_live_metadata(tmp_path, monkeypatch):
+    from pvpcalc.sources import raidbots
+
+    metadata = {'contentHash': 'one-build', 'wowBuild': '12.1.0.69933',
+                'generatedAt': '2026-09-29'}
+    tree = {'className': 'Priest', 'classId': 5, 'specName': 'Discipline',
+            'specId': 256, 'traitTreeId': 795, 'fullNodeOrder': [1],
+            'classNodes': [], 'specNodes': [], 'heroNodes': [], 'subTreeNodes': []}
+    snapshot = tmp_path / 'raidbots-snapshot.json'
+    snapshot.write_text(json.dumps({'metadata': metadata, 'talents': [tree]}))
+    monkeypatch.setenv('WOW_PVP_RAIDBOTS_FILE', str(snapshot))
+
+    class NoNetwork:
+        async def get_json(self, url):
+            raise AssertionError(f'LIVE metadata changed: {url}')
+
+    pinned_metadata, rows = asyncio.run(raidbots.fetch_spec_tree(
+        NoNetwork(), class_name='Priest', spec_name='Discipline'))
+    assert pinned_metadata['contentHash'] == 'one-build'
+    assert pinned_metadata['serialization']['node_order'] == [1]
+    assert rows == []
 
 
 def test_raidbots_hero_tree_and_choice():

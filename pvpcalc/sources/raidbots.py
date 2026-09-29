@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import json
+import os
+from pathlib import Path
 from typing import Any
 
 from ..http import CachedClient
@@ -314,6 +317,15 @@ async def fetch_live_snapshot(
     This prevents metadata and talent data from belonging to
     different snapshots if LIVE updates midway through a run.
     """
+
+    snapshot_file = os.environ.get('WOW_PVP_RAIDBOTS_FILE')
+    if snapshot_file:
+        snapshot = json.loads(Path(snapshot_file).read_text(encoding='utf-8'))
+        metadata, talents = snapshot['metadata'], snapshot['talents']
+        if (not metadata.get('contentHash') or not metadata.get('wowBuild')
+                or not isinstance(talents, list) or not talents):
+            raise ValueError('Invalid pinned Raidbots snapshot')
+        return metadata, talents
 
     metadata = await client.get_json(
         f"{BASE}/live/metadata.json"

@@ -3,24 +3,31 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+from pathlib import Path
 
 from pvpcalc.http import CachedClient
 from pvpcalc.sources import raidbots
 
 
-async def discover_spec_matrix() -> list[dict]:
+async def discover_spec_matrix(snapshot_output: Path | None = None) -> list[dict]:
     client = CachedClient(
         concurrency=2
     )
 
     try:
-        _, talents = (
+        metadata, talents = (
             await raidbots.fetch_live_snapshot(
                 client
             )
         )
     finally:
         await client.aclose()
+
+    if snapshot_output is not None:
+        snapshot_output.write_text(
+            json.dumps({'metadata': metadata, 'talents': talents}),
+            encoding='utf-8',
+        )
 
     specs = raidbots.discover_specs(
         talents
@@ -48,11 +55,12 @@ def main() -> None:
         "--github-output",
         default=None,
     )
+    parser.add_argument('--snapshot-output', type=Path)
 
     args = parser.parse_args()
 
     specs = asyncio.run(
-        discover_spec_matrix()
+        discover_spec_matrix(args.snapshot_output)
     )
 
     payload = json.dumps(
