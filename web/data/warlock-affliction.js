@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -77,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -136,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -195,8 +195,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -255,8 +255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -405,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -486,8 +486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -546,8 +546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -608,8 +608,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -717,8 +717,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -779,8 +779,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -842,8 +842,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -902,8 +902,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1001,8 +1001,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1110,8 +1110,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1170,8 +1170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1262,8 +1262,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1325,8 +1325,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1388,8 +1388,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1452,8 +1452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1512,8 +1512,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1609,8 +1609,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1669,8 +1669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1730,8 +1730,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1843,8 +1843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1905,8 +1905,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -1965,8 +1965,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2027,8 +2027,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2087,8 +2087,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2147,8 +2147,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2210,8 +2210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2272,8 +2272,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2381,8 +2381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2441,8 +2441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2503,8 +2503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2565,8 +2565,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2628,8 +2628,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2691,8 +2691,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2754,8 +2754,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2814,8 +2814,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2895,8 +2895,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -2955,8 +2955,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3036,8 +3036,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3096,8 +3096,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3148,7 +3148,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 386689,
           "source_spell_id": 452930,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -3165,9 +3165,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3187,8 +3187,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3397,8 +3397,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3448,7 +3448,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265799,
           "source_spell_id": 1271798,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Attack Speed % (1)",
+          "effect_text": "Apply Aura (6) | Modify Ranged and Melee Auto Attack Speed% (342)",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -3467,9 +3467,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3489,8 +3489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3561,7 +3561,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271802,
           "source_spell_id": 1272122,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.3,
           "amount_kind": null,
@@ -3578,9 +3578,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3600,8 +3600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3750,8 +3750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -3883,8 +3883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4037,8 +4037,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4097,8 +4097,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4216,7 +4216,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 48181,
           "source_spell_id": 1262710,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.452262)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.452262)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -4233,9 +4233,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4255,8 +4255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4315,8 +4315,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4376,8 +4376,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4508,8 +4508,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4569,8 +4569,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4630,8 +4630,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4691,8 +4691,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4743,7 +4743,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 453172,
           "source_spell_id": 453176,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.2474)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.2474)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4770,10 +4770,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -4790,8 +4791,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4871,8 +4872,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4952,8 +4953,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -4992,7 +4993,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(839.552% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
-      "pvp_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(587.6864% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
+      "pvp_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(781.6229% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5000,7 +5001,7 @@ window.WOW_PVP_DATA = {
           "start": 147,
           "end": 154,
           "old_token": "839.552",
-          "new_token": "587.6864",
+          "new_token": "781.6229",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5015,7 +5016,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "839.552",
-          "new": "587.6864"
+          "new": "781.6229"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5026,12 +5027,12 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1257052,
           "source_spell_id": 1257065,
           "effect_index": 1,
-          "effect_text": "Drain Health (SP mod: 8.39552)",
+          "effect_text": "Health Leech (9) (SP mod: 8.39552)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.7,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 0.9309999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5041,11 +5042,21 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref"
           ],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5065,8 +5076,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5127,8 +5138,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5242,8 +5253,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5304,8 +5315,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5426,8 +5437,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5486,8 +5497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5546,8 +5557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5607,8 +5618,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5667,8 +5678,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5707,11 +5718,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
-      "pvp_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1400.49% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 120,
+          "end": 124,
+          "old_token": "1053",
+          "new_token": "1400.49",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1053",
+          "new": "1400.49"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5720,7 +5752,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261149,
           "source_spell_id": 1261153,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 1 seconds (SP mod: 2.6325)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5747,13 +5779,14 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5767,8 +5800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5827,8 +5860,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5888,8 +5921,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -5949,8 +5982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6010,8 +6043,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6073,8 +6106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6136,8 +6169,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6197,8 +6230,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6278,8 +6311,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6339,8 +6372,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6420,8 +6453,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6478,8 +6511,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6536,8 +6569,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6594,8 +6627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6652,8 +6685,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6710,8 +6743,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6779,7 +6812,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261984,
           "source_spell_id": 1262710,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.452262)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.452262)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -6796,9 +6829,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6818,8 +6851,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6893,8 +6926,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -6962,7 +6995,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261992,
           "source_spell_id": 1278047,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 22.7409)",
+          "effect_text": "School Damage (2): shadow (SP mod: 22.7409)",
           "base_value": null,
           "spell_pvp_multiplier": 0.74074,
           "amount_kind": "direct",
@@ -6981,9 +7014,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7003,8 +7036,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7204,8 +7237,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7264,8 +7297,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7393,8 +7426,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7453,8 +7486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7539,8 +7572,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7669,8 +7702,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7872,8 +7905,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -7971,8 +8004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8078,8 +8111,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8170,7 +8203,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268884,
           "source_spell_id": 1269042,
           "effect_index": 1,
-          "effect_text": "Summon ( Demonic Soul )",
+          "effect_text": "Summon Guardian (28)",
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8187,9 +8220,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8200,7 +8233,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268884,
           "source_spell_id": 1269049,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.95514)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.95514)",
           "base_value": null,
           "spell_pvp_multiplier": 0.471429,
           "amount_kind": "direct",
@@ -8227,11 +8260,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8239,7 +8272,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268884,
           "source_spell_id": 1269049,
           "effect_index": 2,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.30346)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.30346)",
           "base_value": null,
           "spell_pvp_multiplier": 0.471429,
           "amount_kind": "direct",
@@ -8266,11 +8299,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -8287,8 +8320,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8378,8 +8411,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8438,8 +8471,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8498,8 +8531,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8558,8 +8591,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8618,8 +8651,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8678,8 +8711,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8738,8 +8771,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -8897,8 +8930,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9004,8 +9037,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9124,8 +9157,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9227,8 +9260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9324,8 +9357,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9384,8 +9417,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9444,8 +9477,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9504,8 +9537,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9633,8 +9666,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9693,8 +9726,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9753,8 +9786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9891,8 +9924,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -9951,8 +9984,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -10011,8 +10044,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -10071,8 +10104,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -10194,8 +10227,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Warlock",
         "class_id": 9,
         "spec_name": "Affliction",
@@ -10517,7 +10550,58 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 452930,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452930'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 453176,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=453176'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1257065,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1257065'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1261153,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261153'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1262710,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262710'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1269042,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269042'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1269049,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269049'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1271798,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271798'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1272122,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1272122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1278047,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1278047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
@@ -11075,10 +11159,10 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-29T14:55:18.980222+00:00",
+  "generated_at": "2026-09-30T01:16:58.894806+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 27,
+    "changed_tooltips": 28,
     "talents_with_pvp_mechanics": 41,
     "unique_nodes": 107,
     "tree_build": "12.1.0.69933",
@@ -11088,11 +11172,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 10,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 452930,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452930'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 453176,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=453176'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1257065,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1257065'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1261153,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261153'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1262710,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262710'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

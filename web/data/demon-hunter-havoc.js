@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -186,8 +186,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -286,8 +286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -345,8 +345,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -495,8 +495,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -557,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -619,8 +619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -679,8 +679,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -741,8 +741,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -803,8 +803,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -865,8 +865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -981,8 +981,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1044,8 +1044,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1107,8 +1107,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1168,8 +1168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1275,8 +1275,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1389,8 +1389,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1451,8 +1451,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1511,8 +1511,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1574,8 +1574,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1632,8 +1632,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1695,8 +1695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1755,8 +1755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -1816,8 +1816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2039,8 +2039,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2099,8 +2099,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2174,7 +2174,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 320331,
           "source_spell_id": 320334,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.12 )",
+          "effect_text": "School Damage (2): fire (AP mod: 0.12)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -2201,10 +2201,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -2262,8 +2263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2322,8 +2323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2382,8 +2383,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2443,8 +2444,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2593,8 +2594,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2656,8 +2657,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2807,8 +2808,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2867,8 +2868,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2929,8 +2930,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -2991,8 +2992,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3051,8 +3052,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3130,8 +3131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3188,8 +3189,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3301,8 +3302,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3411,8 +3412,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3490,8 +3491,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3548,8 +3549,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3606,8 +3607,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3664,8 +3665,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3722,8 +3723,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -3860,8 +3861,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4032,8 +4033,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4202,8 +4203,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4262,8 +4263,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4322,8 +4323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4384,8 +4385,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4444,8 +4445,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4551,8 +4552,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4662,8 +4663,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4726,8 +4727,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4803,7 +4804,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 328725,
           "source_spell_id": 356608,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4820,9 +4821,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4873,8 +4874,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -4934,8 +4935,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5041,8 +5042,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5104,8 +5105,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5164,8 +5165,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5285,8 +5286,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5346,8 +5347,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5428,8 +5429,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5488,8 +5489,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5570,8 +5571,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5631,8 +5632,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5692,8 +5693,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5765,38 +5766,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 427640,
           "source_spell_id": 427641,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 12.0,
-          "spell_pvp_multiplier": 0.67,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.67,
-          "final_pvp_value": 8.040000000000001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            427640,
-            427641
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 427640,
-          "source_spell_id": 427641,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
           "base_value": 12.0,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": null,
@@ -5813,9 +5784,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5826,7 +5797,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 427640,
           "source_spell_id": 427641,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+          "effect_text": "Apply Aura (6) | Modify Auto Attack Damage Done% (344)",
           "base_value": 12.0,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": null,
@@ -5843,9 +5814,39 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 427640,
+          "source_spell_id": 427641,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "base_value": 12.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": 8.040000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427640,
+            427641
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5865,8 +5866,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -5973,8 +5974,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6060,7 +6061,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 370965,
           "source_spell_id": 370966,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 7.4424 )",
+          "effect_text": "School Damage (2): chromatic (AP mod: 7.4424)",
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
@@ -6087,9 +6088,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6100,7 +6101,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 370965,
           "source_spell_id": 370969,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): chromatic every 2 seconds (AP mod: 1.602)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6127,10 +6128,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6181,8 +6183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6242,8 +6244,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6295,7 +6297,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 391189,
           "source_spell_id": 391191,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): chromatic every 3 seconds (AP mod: 0.1469)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6322,10 +6324,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -6342,8 +6345,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6402,8 +6405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6578,8 +6581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6653,7 +6656,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 389693,
           "source_spell_id": 390137,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.13 )",
+          "effect_text": "School Damage (2): chaos (AP mod: 2.13)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6680,10 +6683,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6700,8 +6704,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6762,8 +6766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6824,8 +6828,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6886,8 +6890,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -6946,8 +6950,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7028,8 +7032,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7090,8 +7094,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7305,8 +7309,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7476,8 +7480,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7548,7 +7552,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1244557,
           "source_spell_id": 342857,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.132 )",
+          "effect_text": "School Damage (2): chaos (AP mod: 0.132)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7575,10 +7579,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7595,8 +7600,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7653,8 +7658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7744,7 +7749,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 390152,
           "source_spell_id": 393834,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.262 )",
+          "effect_text": "School Damage (2): fire (AP mod: 0.262)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7771,10 +7776,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7873,8 +7879,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7932,8 +7938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -7990,8 +7996,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8046,8 +8052,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8121,8 +8127,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8177,8 +8183,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8251,7 +8257,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442290,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8287,10 +8293,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8307,8 +8314,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8407,7 +8414,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442718,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8447,10 +8454,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -8467,8 +8475,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8527,8 +8535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8587,8 +8595,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8656,8 +8664,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8716,8 +8724,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8776,8 +8784,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8836,8 +8844,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8896,8 +8904,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -8956,8 +8964,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9063,8 +9071,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9123,8 +9131,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9183,8 +9191,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9313,8 +9321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9415,7 +9423,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272153,
           "source_spell_id": 442294,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.81 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.81)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9457,10 +9465,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9477,8 +9486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9550,7 +9559,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442502,
           "source_spell_id": 442507,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.62 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.62)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9586,10 +9595,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9606,8 +9616,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9667,8 +9677,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -9876,8 +9886,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10018,8 +10028,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10078,8 +10088,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10227,8 +10237,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10287,8 +10297,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10347,8 +10357,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10407,8 +10417,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10507,8 +10517,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10567,8 +10577,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10627,8 +10637,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10687,8 +10697,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10747,8 +10757,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10807,8 +10817,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10893,8 +10903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -10953,8 +10963,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -11013,8 +11023,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Havoc",
@@ -11403,6 +11413,86 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 320334,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=320334'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 342857,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=342857'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 356608,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=356608'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 370966,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=370966'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 370969,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=370969'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 390137,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=390137'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 391191,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=391191'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 393834,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393834'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 427641,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=427641'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442294,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442294'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442503,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442503'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442507,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442507'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442624,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442624'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442688,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442688'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442695,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442695'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 442715,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=442715'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "source": "wowhead",
       "spell_id": 444661,
@@ -12001,7 +12091,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-29T14:40:15.097441+00:00",
+  "generated_at": "2026-09-30T01:00:07.645131+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -12014,35 +12104,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 10,
+    "source_warning_count": 26,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 444661,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444661'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 320334,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=320334'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444806,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444806'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 342857,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=342857'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444929,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444929'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 356608,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=356608'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 444979,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444979'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 370966,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=370966'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 452416,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452416'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 370969,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=370969'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

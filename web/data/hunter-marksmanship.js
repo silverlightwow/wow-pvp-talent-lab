@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -76,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -206,8 +206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -264,8 +264,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -344,8 +344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -405,8 +405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -466,8 +466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -557,8 +557,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -619,8 +619,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -681,8 +681,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -788,8 +788,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -850,8 +850,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -913,8 +913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -994,8 +994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1055,8 +1055,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1117,8 +1117,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1179,8 +1179,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1260,8 +1260,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1321,8 +1321,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1381,8 +1381,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1441,8 +1441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1502,8 +1502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1583,8 +1583,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1695,8 +1695,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1755,8 +1755,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1836,8 +1836,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1897,8 +1897,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1957,8 +1957,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2021,8 +2021,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2085,8 +2085,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2149,8 +2149,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2209,8 +2209,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2271,8 +2271,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2351,8 +2351,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2412,8 +2412,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2473,8 +2473,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2535,8 +2535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2595,8 +2595,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2655,8 +2655,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2729,7 +2729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2768,8 +2768,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2826,8 +2826,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2884,8 +2884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2966,8 +2966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3048,8 +3048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3106,8 +3106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3164,8 +3164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3225,8 +3225,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3284,8 +3284,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3390,8 +3390,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3449,8 +3449,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3508,8 +3508,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3623,8 +3623,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3684,8 +3684,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3792,8 +3792,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3852,8 +3852,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3966,8 +3966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4028,8 +4028,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4089,8 +4089,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4150,8 +4150,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4210,8 +4210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4270,8 +4270,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4333,8 +4333,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4466,8 +4466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4574,8 +4574,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4634,8 +4634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4694,8 +4694,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4758,8 +4758,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4876,8 +4876,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4936,8 +4936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5063,8 +5063,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5174,8 +5174,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5234,8 +5234,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5294,8 +5294,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5356,8 +5356,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5416,8 +5416,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5476,8 +5476,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5536,8 +5536,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5598,8 +5598,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5658,8 +5658,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5720,8 +5720,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5781,8 +5781,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5863,8 +5863,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5925,8 +5925,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6078,8 +6078,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6160,8 +6160,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6220,8 +6220,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6281,8 +6281,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6339,8 +6339,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6460,8 +6460,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6520,8 +6520,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6578,8 +6578,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6636,8 +6636,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6694,8 +6694,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6799,8 +6799,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6855,8 +6855,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6930,8 +6930,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7017,8 +7017,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7147,8 +7147,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7208,8 +7208,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7268,8 +7268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7328,8 +7328,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7448,8 +7448,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7508,8 +7508,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7640,8 +7640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7700,8 +7700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7760,8 +7760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7833,7 +7833,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264902,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -7862,9 +7862,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7918,8 +7918,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7978,8 +7978,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8038,8 +8038,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8098,8 +8098,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8210,8 +8210,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8322,8 +8322,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8503,8 +8503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8563,8 +8563,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8623,8 +8623,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8683,8 +8683,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8743,8 +8743,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8816,7 +8816,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264904,
           "source_spell_id": 1266096,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
+          "effect_text": "School Damage (2): arcane (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8843,10 +8843,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8863,8 +8864,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8923,8 +8924,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8983,8 +8984,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9043,8 +9044,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9103,8 +9104,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9163,8 +9164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9223,8 +9224,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9284,8 +9285,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9344,8 +9345,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9404,8 +9405,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9464,8 +9465,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9527,7 +9528,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264903,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -9556,9 +9557,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9578,8 +9579,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9686,8 +9687,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-28T21:03:35.071Z",
-        "content_hash": "09d7a65f21b004b48d1852345fc6bd04",
+        "generated_at": "2026-09-29T18:16:11.231Z",
+        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9760,7 +9761,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1253732,
           "source_spell_id": 1253733,
           "effect_index": 1,
-          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
+          "effect_text": "School Damage (2): arcane (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9787,10 +9788,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10136,6 +10138,31 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 1253733,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1253733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1264949,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1266081,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1266096,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1268673,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "spell_id": 19434,
       "talent_name": "Aimed Shot",
@@ -10693,7 +10720,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-29T14:44:04.361861+00:00",
+  "generated_at": "2026-09-30T01:05:28.484911+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 27,
@@ -10706,19 +10733,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 6,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
-        "spell_id": 19434,
-        "talent_name": "Aimed Shot",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 1,
-        "multiplier": 1.34,
-        "effect_text": "School Damage (Physical) (AP mod: 9.72 )"
+        "source": "wowhead",
+        "spell_id": 1253733,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1253733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264949,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266081,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1266096,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1268673,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
