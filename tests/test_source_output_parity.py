@@ -21,6 +21,9 @@ from pvpcalc.sources.simc import SimcDump, SimcSpell, effect_for_spell
          "Apply Aura: Periodically Leech Health", 2.61625, 0.87,
          "periodic", "REFERENCED",
          "Deals (261.625% of Spell Power) damage.", "302.7263%"),
+        (100001, "Health Leech (9)", "Health drained from target",
+         8.39552, 0.7, "direct", "REFERENCED",
+         "Deals (839.552% of Spell Power) damage.", "781.6229%"),
     ],
 )
 def test_output_and_aura_are_independent_of_wowhead_availability(

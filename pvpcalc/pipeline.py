@@ -1484,6 +1484,11 @@ def _fill_missing_base_values_from_simc(
             simc_effect.pvp_coefficient
         )
 
+        # Keep the output type of this exact SpellEffect as well as its
+        # numbers. A shortened/unfamiliar Wowhead label must not drop an
+        # otherwise proven direct, periodic or absorb PvP Aura bucket.
+        row["simc_amount_kind"] = _infer_amount_kind(simc_effect.effect_text)
+
         own_reference_contexts = list(
             simc.effect_reference_contexts(
                 simc_dump,
@@ -4208,6 +4213,7 @@ def _annotate_final_pvp_layers(
                     "effect_text"
                 )
             )
+            or row.get("simc_amount_kind")
         )
 
 
