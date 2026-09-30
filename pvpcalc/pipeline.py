@@ -344,6 +344,19 @@ class SpecAuditResult:
                 and (
                     "ap mod:" in effect_text
                     or "sp mod:" in effect_text
+                    # Wowhead may put the coefficient outside its short
+                    # effect label. Exact-build SimC metadata is already
+                    # retained on this same SpellEffect and understood by
+                    # the renderer, so source availability must not decide
+                    # whether an embedded output reaches that renderer.
+                    or any(
+                        row.get(key) is not None
+                        and abs(float(row[key])) > 1e-12
+                        for key in (
+                            "simc_sp_coefficient",
+                            "simc_ap_coefficient",
+                        )
+                    )
                 )
             )
 
@@ -1351,6 +1364,7 @@ def _infer_amount_kind(
         "periodic damage" in text
         or "periodic heal" in text
         or "periodic healing" in text
+        or "periodic leech" in text
     ):
         return "periodic"
 
@@ -1360,6 +1374,8 @@ def _infer_amount_kind(
         or "direct heal" in text
         or "school damage" in text
         or "direct damage" in text
+        # Wowhead calls the same direct Health Leech output "Drain Health".
+        or text.startswith("drain health")
     ):
         return "direct"
 
