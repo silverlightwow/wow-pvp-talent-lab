@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-09-30T11:51:22.441636+00:00",
+  "generated_at": "2026-09-30T15:51:52.912015+00:00",
   "tree_build": "12.1.0.69933",
   "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
   "hotfix_snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
   "hotfix_latest_date": "2026-09-24",
+  "source_snapshot_hash": "803ac68a09d5359c5277b8f1b2b916b000c91275f30117db85096c391c8c2183",
+  "replay_verified_count": 40,
   "default_slug": "priest-discipline",
   "spec_count": 40,
   "verified_count": 40,
@@ -17,13 +19,14 @@
           "name": "Blood",
           "spec_id": 250,
           "slug": "death-knight-blood",
-          "changed_tooltips": 17,
+          "changed_tooltips": 16,
           "talents_with_pvp_mechanics": 19,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 114,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Frost",
@@ -33,9 +36,10 @@
           "talents_with_pvp_mechanics": 41,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 129,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Unholy",
@@ -45,9 +49,10 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 124,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -63,9 +68,10 @@
           "talents_with_pvp_mechanics": 26,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 137,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Havoc",
@@ -75,21 +81,23 @@
           "talents_with_pvp_mechanics": 42,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 150,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Vengeance",
           "spec_id": 581,
           "slug": "demon-hunter-vengeance",
-          "changed_tooltips": 10,
+          "changed_tooltips": 11,
           "talents_with_pvp_mechanics": 14,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 117,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -105,9 +113,10 @@
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 119,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Feral",
@@ -117,9 +126,10 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 8,
+          "source_warning_count": 113,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Guardian",
@@ -129,9 +139,10 @@
           "talents_with_pvp_mechanics": 20,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 106,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Restoration",
@@ -141,9 +152,10 @@
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 13,
+          "source_warning_count": 111,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -159,9 +171,10 @@
           "talents_with_pvp_mechanics": 15,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 145,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Devastation",
@@ -171,9 +184,10 @@
           "talents_with_pvp_mechanics": 20,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 138,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Preservation",
@@ -183,9 +197,10 @@
           "talents_with_pvp_mechanics": 9,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 137,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -201,9 +216,10 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 125,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Marksmanship",
@@ -213,9 +229,10 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 133,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Survival",
@@ -225,9 +242,10 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 134,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -243,9 +261,10 @@
           "talents_with_pvp_mechanics": 31,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 128,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Fire",
@@ -255,9 +274,10 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 132,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Frost",
@@ -267,9 +287,10 @@
           "talents_with_pvp_mechanics": 40,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 6,
+          "source_warning_count": 127,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -285,9 +306,10 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 139,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Mistweaver",
@@ -297,9 +319,10 @@
           "talents_with_pvp_mechanics": 48,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 13,
+          "source_warning_count": 152,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Windwalker",
@@ -309,9 +332,10 @@
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 14,
+          "source_warning_count": 152,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -327,9 +351,10 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 22,
+          "source_warning_count": 142,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Protection",
@@ -339,21 +364,23 @@
           "talents_with_pvp_mechanics": 36,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 140,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Retribution",
           "spec_id": 70,
           "slug": "paladin-retribution",
-          "changed_tooltips": 31,
+          "changed_tooltips": 30,
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 11,
+          "source_warning_count": 146,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -369,9 +396,10 @@
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 111,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Holy",
@@ -381,9 +409,10 @@
           "talents_with_pvp_mechanics": 29,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 105,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Shadow",
@@ -393,9 +422,10 @@
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 128,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -411,9 +441,10 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 130,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Outlaw",
@@ -423,21 +454,23 @@
           "talents_with_pvp_mechanics": 20,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 118,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Subtlety",
           "spec_id": 261,
           "slug": "rogue-subtlety",
-          "changed_tooltips": 19,
+          "changed_tooltips": 20,
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 131,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -449,13 +482,14 @@
           "name": "Elemental",
           "spec_id": 262,
           "slug": "shaman-elemental",
-          "changed_tooltips": 20,
+          "changed_tooltips": 21,
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 10,
+          "source_warning_count": 114,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Enhancement",
@@ -465,9 +499,10 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 118,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Restoration",
@@ -477,9 +512,10 @@
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 120,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -491,13 +527,14 @@
           "name": "Affliction",
           "spec_id": 265,
           "slug": "warlock-affliction",
-          "changed_tooltips": 29,
+          "changed_tooltips": 30,
           "talents_with_pvp_mechanics": 41,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 128,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Demonology",
@@ -507,9 +544,10 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 128,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Destruction",
@@ -519,9 +557,10 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 129,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     },
@@ -537,9 +576,10 @@
           "talents_with_pvp_mechanics": 48,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 121,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Fury",
@@ -549,9 +589,10 @@
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 115,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         },
         {
           "name": "Protection",
@@ -561,9 +602,10 @@
           "talents_with_pvp_mechanics": 43,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 125,
           "unresolved_count": 0,
-          "review_required_count": 0
+          "review_required_count": 0,
+          "replay_verified": true
         }
       ]
     }
