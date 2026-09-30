@@ -7067,7 +7067,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246517,
           "source_spell_id": 1250581,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3.2174)",
+          "effect_text": "Heal (SP mod: 3.2174)",
           "base_value": null,
           "spell_pvp_multiplier": 1.28,
           "amount_kind": "direct",
@@ -7094,9 +7094,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10582,13 +10582,7 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 1250581,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1250581'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    }
-  ],
+  "source_warnings": [],
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
@@ -11127,7 +11121,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-30T01:12:07.906145+00:00",
+  "generated_at": "2026-09-30T07:08:50.055479+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 20,
@@ -11140,17 +11134,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1250581,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1250581'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

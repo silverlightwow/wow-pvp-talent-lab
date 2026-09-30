@@ -2729,7 +2729,7 @@
           "talent_spell_id": 1268671,
           "source_spell_id": 1268673,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2746,9 +2746,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7833,7 +7833,7 @@
           "talent_spell_id": 1264902,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
+          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -7862,9 +7862,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8816,7 +8816,7 @@
           "talent_spell_id": 1264904,
           "source_spell_id": 1266096,
           "effect_index": 1,
-          "effect_text": "School Damage (2): arcane (AP mod: 2)",
+          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8843,11 +8843,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -9528,7 +9527,7 @@
           "talent_spell_id": 1264903,
           "source_spell_id": 1266081,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 2.844)",
+          "effect_text": "School Damage (Physical) (AP mod: 2.844 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.595,
           "amount_kind": "direct",
@@ -9557,9 +9556,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9761,7 +9760,7 @@
           "talent_spell_id": 1253732,
           "source_spell_id": 1253733,
           "effect_index": 1,
-          "effect_text": "School Damage (2): arcane (AP mod: 2)",
+          "effect_text": "School Damage (Arcane) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9788,11 +9787,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -10138,31 +10136,6 @@
     ]
   },
   "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 1253733,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1253733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1264949,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1266081,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1266096,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1268673,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "spell_id": 19434,
       "talent_name": "Aimed Shot",
@@ -10720,7 +10693,7 @@
     "external": []
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-30T01:05:28.484911+00:00",
+  "generated_at": "2026-09-30T07:01:52.462597+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 27,
@@ -10733,35 +10706,19 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
-        "source": "wowhead",
-        "spell_id": 1253733,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1253733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264949,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1266081,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1266096,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266096'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1268673,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1268673'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 19434,
+        "talent_name": "Aimed Shot",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
+        "multiplier": 1.34,
+        "effect_text": "School Damage (Physical) (AP mod: 9.72 )"
       }
     ],
     "unresolved_examples": [],

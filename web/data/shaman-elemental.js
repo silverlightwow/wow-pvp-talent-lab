@@ -10942,7 +10942,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-30T01:15:06.505862+00:00",
+  "generated_at": "2026-09-30T07:11:24.783003+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 20,

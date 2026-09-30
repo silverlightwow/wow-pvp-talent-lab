@@ -12638,7 +12638,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-30T01:09:14.985204+00:00",
+  "generated_at": "2026-09-30T07:05:32.996169+00:00",
   "validation": {
     "talents": 148,
     "changed_tooltips": 30,
