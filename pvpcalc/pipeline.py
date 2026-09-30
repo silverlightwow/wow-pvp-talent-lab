@@ -2454,7 +2454,8 @@ def _nether_pvp_branch_observations(payload: dict, spell_id: int, simc_dump) -> 
                 or effect.sp_coefficient or effect.ap_coefficient
                 or effect.pvp_coefficient is None
                 or pve[2] != pve_direction or pvp[2] != pvp_direction
-                or not multipliers_close(float(pve[1]), abs(effect.base_value))):
+                or not multipliers_close(float(pve[1]) * (-1 if pve[2] == "reduced" else 1),
+                                         effect.base_value)):
             continue
         signed = float(pvp[1]) * (-1 if pvp[2] == "reduced" else 1)
         multiplier = signed / effect.base_value
@@ -2838,6 +2839,7 @@ def _build_generated_simc_fallback_rows(
                 not agrees
                 and dr_build == current_build
                 and not _drustvar_is_hotfixed(dr)
+                and exact_effect.game_effect_id is not None
                 and _game_effect_id(dr) == exact_effect.game_effect_id
                 and any(
                     wh.effect_index == observation.effect_index
@@ -4771,6 +4773,19 @@ async def audit_spec(
             else {}
         )
 
+        nether_by_spell = {}
+        for spell_id in sorted(generated_needed_ids):
+            human = simc_dump.spells.get(spell_id)
+            if human is None or "$?a134735[" not in human.raw:
+                continue
+            try:
+                payload = await client.get_json(wowhead.NETHER_BASE.format(spell_id=spell_id))
+            except Exception:
+                continue
+            nether_by_spell[spell_id] = _nether_pvp_branch_observations(
+                payload, spell_id, simc_dump,
+            )
+
 
     finally:
 
@@ -4840,6 +4855,7 @@ async def audit_spec(
             generated_effects_by_spell,
         simc_dump=
             simc_dump,
+        nether_by_spell=nether_by_spell,
     )
 
     if direct_generated_rows:
@@ -5411,6 +5427,7 @@ async def audit_spec(
                 generated_effects_by_spell,
             simc_dump=
                 simc_dump,
+            nether_by_spell=nether_by_spell,
         )
 
         child_rows.extend(

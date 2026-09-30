@@ -28,6 +28,7 @@ async def collect(args):
         os.environ['WOW_PVP_SIMC_REF'] = revision['sha']
         classes = {}
         ids: set[int] = set()
+        nether_ids: set[int] = set()
         for class_name in sorted({s['class_name'] for s in specs}):
             slug = class_name.casefold().replace(' ', '-')
             dump, spells, auras = await asyncio.gather(
@@ -39,6 +40,8 @@ async def collect(args):
                 raise ValueError(f'{class_name}: no exact-build SimC dump')
             if not dump.spells:
                 raise ValueError(f'{class_name}: SimC spell schema is unrecognized')
+            nether_ids.update(spell.spell_id for spell in dump.spells.values()
+                              if '$?a134735[' in spell.raw)
             drustvar.validate_payload(auras, 'auras')
             effects = drustvar.parse_spell_payload(spells, slug)
             class_specs = [s for s in specs if s['class_name'] == class_name]
@@ -80,9 +83,10 @@ async def collect(args):
                 drustvar=info['drustvar_hash'], generated=generated_hashes[info['simc_ref']]))
         context = dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
             hotfix_snapshot_hash=hotfix_context['snapshot_hash'], simc_ref=revision['sha'],
-            parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids))
+            parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids),
+            nether_spell_ids=sorted(ids & nether_ids))
         if args.phase == 'full':
-            await capture_pages(client, context['spell_ids'])
+            await capture_pages(client, context['spell_ids'], context['nether_spell_ids'])
         result = snapshot.seal(context)
         if args.github_output:
             with open(args.github_output, 'a') as handle:
@@ -96,12 +100,20 @@ async def collect(args):
 
 
 
-async def capture_pages(client, spell_ids):
+async def capture_pages(client, spell_ids, nether_spell_ids=()):
+    nether_spell_ids = set(nether_spell_ids)
     async def fetch_spell(spell_id):
         try:
             await wowhead.fetch_spell_page(client, spell_id)
         except Exception as exc:
             print(f'Source gap for {spell_id}: {type(exc).__name__}', flush=True)
+        # Preserve independent PvP branch evidence even when the full page
+        # succeeds and fetch_spell_page does not need its tooltip fallback.
+        if spell_id in nether_spell_ids:
+            try:
+                await client.get_json(wowhead.NETHER_BASE.format(spell_id=spell_id))
+            except Exception as exc:
+                print(f'PvP branch source gap for {spell_id}: {type(exc).__name__}', flush=True)
     for offset in range(0, len(spell_ids), 100):
         await asyncio.gather(*(fetch_spell(i) for i in spell_ids[offset:offset + 100]))
         print(f'Captured spell pages: {min(offset + 100, len(spell_ids))}/{len(spell_ids)}', flush=True)
@@ -116,7 +128,7 @@ async def capture_partition(args):
     client = CachedClient(concurrency=4, snapshot=snapshot)
     try:
         ids = plan.manifest['context']['spell_ids'][args.partition_index::args.partitions]
-        await capture_pages(client, ids)
+        await capture_pages(client, ids, plan.manifest['context'].get('nether_spell_ids', []))
         result = snapshot.seal(dict(plan.manifest['context'],
             plan_hash=plan.manifest['snapshot_hash'], partition_index=args.partition_index,
             partition_count=args.partitions))
