@@ -4586,117 +4586,17 @@ async def audit_spec(
                 )
 
 
-        # Scope exact-build player text to the active specialization
-        # before extracting reference contexts or dependency edges.
-        # This prevents an inactive sibling branch from competing with
-        # the visible tooltip merely because it contains the same number.
-        simc_dump = (
-            simc.scope_dump_to_specialization(
-                simc_dump,
-                class_name=
-                    class_name,
-                spec_name=
-                    spec_name,
-                spec_names=
-                    result.metadata.get(
-                        "classSpecNames",
-                        [spec_name],
-                    ),
-            )
-        )
+        from .source_plan import plan_spec_sources
 
-        # Keep the exact same scoped dump used by the mechanics pipeline.
-        # The catalog layer reuses it to resolve official hotfix targets that
-        # are real class/spec abilities but are absent from the talent tree.
+        (simc_dump, aura_rules, dr_all_ids, aura_affected_ids,
+         simc_pvp_ids, all_dependencies) = plan_spec_sources(
+            dump=simc_dump, class_name=class_name, spec_name=spec_name,
+            spec_names=result.metadata.get("classSpecNames", [spec_name]),
+            talent_spell_ids=talent_spell_ids, drustvar_effects=dr_all,
+            aura_payload=aura_payload,
+        )
+        # Official off-tree hotfix resolution uses this same scoped dump.
         result.simc_dump = simc_dump
-
-
-        aura_rules = (
-            pvp_aura
-            .normalize_current_spec_aura(
-                aura_payload,
-                spec_name=spec_name,
-                class_name=class_name,
-            )
-        )
-
-
-        aura_affected_ids = {
-            int(spell_id)
-            for rule in aura_rules
-            for spell_id, _
-            in rule.affected_spells
-        }
-
-        # SpellLabel-targeted PvP Aura rows do not enumerate
-        # affected_spells in Drustvar. Resolve their concrete
-        # spell membership from the SAME exact-build SimC dump
-        # used for dependency discovery.
-        for rule in aura_rules:
-
-            if rule.label_id is None:
-                continue
-
-            aura_affected_ids.update(
-                simc.spell_ids_for_label(
-                    simc_dump,
-                    rule.label_id,
-                )
-            )
-
-
-        dr_all_ids = {
-            int(effect.spell_id)
-            for effect in dr_all
-        }
-
-        simc_pvp_ids = (
-            simc.pvp_modified_spell_ids(
-                simc_dump
-            )
-        )
-
-
-        # A dependency is PvP-relevant if it has either:
-        #
-        # 1. a spell-specific PvP coefficient
-        # 2. a specialization PvP Aura modifier
-        #
-        # This is why Ultimate Penitence DAMAGE 421543 is
-        # discovered even though it has no own PvP multiplier.
-        pvp_output_universe = (
-            dr_all_ids
-            | aura_affected_ids
-            | simc_pvp_ids
-        )
-
-
-        all_dependencies = (
-            simc.pvp_dependencies(
-                simc_dump,
-
-                talent_spell_ids=
-                    talent_spell_ids,
-
-                pvp_spell_ids=
-                    pvp_output_universe,
-
-                max_depth=4,
-
-                class_name=
-                    class_name,
-
-                spec_name=
-                    spec_name,
-
-                spec_names=
-                    result.metadata.get(
-                        "classSpecNames",
-                        [spec_name],
-                    ),
-            )
-        )
-
 
         # We keep off-tree implementation/output dependencies.
         dependencies = [

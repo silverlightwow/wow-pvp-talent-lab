@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ast
+import os
 import re
 from collections import defaultdict, deque
 from dataclasses import dataclass, replace
@@ -823,7 +824,7 @@ async def _find_build_commit(
         commits = await client.get_json(
             SIMC_COMMITS_URL,
             params={
-                "sha": SIMC_BRANCH,
+                "sha": os.environ.get('WOW_PVP_SIMC_REF', SIMC_BRANCH),
                 "path": path,
                 "per_page": 100,
                 "page": page,
@@ -904,10 +905,8 @@ async def fetch_dump(
         f"SpellDataDump/{slug}.txt"
     )
 
-    url = (
-        f"{SIMC_BASE_URL}/"
-        f"{slug}.txt"
-    )
+    ref = os.environ.get('WOW_PVP_SIMC_REF', SIMC_BRANCH)
+    url = f"https://raw.githubusercontent.com/{SIMC_REPO}/{ref}/{path}"
 
     text = await client.get_text(
         url
@@ -916,7 +915,7 @@ async def fetch_dump(
     dump = parse_dump(
         text,
         class_slug=slug,
-        source_ref=SIMC_BRANCH,
+        source_ref=ref,
     )
 
     if (

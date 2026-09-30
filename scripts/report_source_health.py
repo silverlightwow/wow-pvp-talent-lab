@@ -30,6 +30,9 @@ def report(data_dir: Path) -> str:
         f"Verified specializations: {manifest['verified_count']}/{manifest['spec_count']}.",
         f'Source warnings: {total} across {len(affected)} specializations.',
     ]
+    if manifest.get('source_snapshot_hash'):
+        lines += ['', f"Common HTTP snapshot: `{manifest['source_snapshot_hash']}`.",
+                  'Each specialization was rebuilt offline and compared for tooltip, rank and numeric parity.']
     if sources:
         lines += ['', '| Source | Warnings |', '| --- | ---: |']
         lines += [f'| {source} | {count} |' for source, count in sources.most_common()]

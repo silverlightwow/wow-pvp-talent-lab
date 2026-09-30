@@ -24,6 +24,11 @@ from pvpcalc.sources.simc import SimcDump, SimcSpell, effect_for_spell
         (100001, "Health Leech (9)", "Health drained from target",
          8.39552, 0.7, "direct", "REFERENCED",
          "Deals (839.552% of Spell Power) damage.", "781.6229%"),
+        (100002, "Heal (10)", "Restores health", 2.0, 0.7, "direct", "REFERENCED",
+         "Heals for (200% of Spell Power).", "186.2%"),
+        (100003, "Apply Aura (6) | Absorb Damage (69)", "Absorb Amount",
+         2.0, 0.7, "absorb", "REFERENCED",
+         "Absorbs (200% of Spell Power) damage.", "186.2%"),
     ],
 )
 def test_output_and_aura_are_independent_of_wowhead_availability(

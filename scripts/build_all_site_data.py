@@ -13,6 +13,8 @@ import tempfile
 
 from pvpcalc import catalog, pipeline
 from pvpcalc.http import CachedClient
+from pvpcalc.coverage import coverage_report, replay_projection, validate_audit_coverage, validate_coverage
+from pvpcalc.snapshot import active_snapshot, source_provenance
 from pvpcalc.sources import raidbots, blizzard_hotfixes
 
 from build_site_data import _json_default
@@ -499,6 +501,7 @@ async def build_one(
             )
         )
 
+    validate_audit_coverage(audit, spec_catalog)
     summary = _validate_for_all(
         audit,
         spec_catalog,
@@ -522,6 +525,18 @@ async def build_one(
         .isoformat()
     )
     payload["validation"] = summary
+    provenance = source_provenance(class_name)
+    if provenance is not None:
+        context = active_snapshot().manifest['context']
+        if (context['tree_build'] != audit.tree_build
+                or context['content_hash'] != audit.metadata['contentHash']
+                or context['hotfix_snapshot_hash'] != hotfix_report['snapshot_hash']):
+            raise ValueError('Source snapshot does not match tree/hotfix inputs')
+        payload['source_snapshot'] = provenance
+    payload['coverage'] = coverage_report(payload)
+    previous_path = Path('web/data') / f'{slug}.json'
+    previous = json.loads(previous_path.read_text()) if previous_path.exists() else None
+    validate_coverage(payload, previous)
 
     json_text = json.dumps(
         payload,
@@ -551,6 +566,7 @@ async def build_one(
         "class_name": class_name,
         "spec_name": spec_name,
         "slug": slug,
+        "source_snapshot": provenance,
         "hotfix_snapshot_hash":
             hotfix_report[
                 "snapshot_hash"
@@ -645,6 +661,7 @@ def build_manifest(
                         built_item[
                             "review_required_count"
                         ],
+                    "replay_verified": built_item.get('replay_verified', False),
                 }
             )
 
@@ -691,6 +708,9 @@ def build_manifest(
         raise RuntimeError(
             "Specs used different official hotfix dates"
         )
+    source_hashes = {(item.get('source_snapshot') or {}).get('snapshot_hash') for item in built}
+    if len(source_hashes) != 1:
+        raise RuntimeError('Specs used different HTTP source snapshots')
 
     return {
         "generated_at":
@@ -704,10 +724,12 @@ def build_manifest(
             hotfix_hashes.pop(),
         "hotfix_latest_date":
             hotfix_dates.pop(),
+        "source_snapshot_hash": source_hashes.pop(),
         "default_slug":
             default_slug,
         "spec_count":
             len(built),
+        "replay_verified_count": sum(item.get('replay_verified', False) for item in built),
         "classes":
             classes,
     }
@@ -791,6 +813,22 @@ async def build_all(args) -> dict:
                         args.concurrency,
                 )
             )
+            if args.verify_replay:
+                if active_snapshot() is None:
+                    raise ValueError('Deterministic replay requires a pinned HTTP snapshot')
+                data_path = temp_root / (built[-1]['slug'] + '.json')
+                first = replay_projection(json.loads(data_path.read_text()))
+                await build_one(class_name=item['class_name'], spec_name=item['spec_name'],
+                                output_dir=temp_root, concurrency=args.concurrency)
+                if first != replay_projection(json.loads(data_path.read_text())):
+                    raise ValueError(f"Non-deterministic specialization: {built[-1]['slug']}")
+                replayed = json.loads(data_path.read_text())
+                replayed['validation']['replay_verified'] = True
+                built[-1]['replay_verified'] = True
+                text = json.dumps(replayed, ensure_ascii=False, indent=2)
+                data_path.write_text(text + '\n')
+                data_path.with_suffix('.js').write_text('window.WOW_PVP_DATA = ' + text + ';\n')
+                print('Offline replay matched all tooltips, ranks and mechanics.', flush=True)
 
         manifest = build_manifest(
             metadata=metadata,
@@ -895,6 +933,7 @@ def main() -> None:
             "for every current WoW specialization"
         )
     )
+    parser.add_argument('--verify-replay', action='store_true')
 
     parser.add_argument(
         "--class-name",

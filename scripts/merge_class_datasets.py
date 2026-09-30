@@ -19,6 +19,9 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
     hashes = {m.get('content_hash') for _, m in manifests}
     hotfix_hashes = {m.get('hotfix_snapshot_hash') for _, m in manifests}
     hotfix_dates = {m.get('hotfix_latest_date') for _, m in manifests}
+    source_snapshots = {m.get('source_snapshot_hash') for _, m in manifests}
+    if len(source_snapshots) != 1:
+        raise ValueError('Artifacts used inconsistent HTTP source snapshots')
     if len(builds) != 1 or None in builds or len(hashes) != 1 or None in hashes:
         raise ValueError('Artifacts have inconsistent source builds/content hashes')
     if len(hotfix_hashes) != 1 or None in hotfix_hashes:
@@ -43,6 +46,8 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
     result = dict(generated_at=datetime.now(timezone.utc).isoformat(), tree_build=builds.pop(),
                   content_hash=hashes.pop(), hotfix_snapshot_hash=hotfix_hashes.pop(),
                   hotfix_latest_date=hotfix_dates.pop(),
+                  source_snapshot_hash=source_snapshots.pop(),
+                  replay_verified_count=sum(s.get('replay_verified', False) for c in class_list for s in c['specs']),
                   default_slug='priest-discipline' if 'priest-discipline' in slugs else min(slugs),
                   spec_count=len(slugs), verified_count=len(slugs), partial_count=0, classes=class_list)
     output_dir.parent.mkdir(parents=True, exist_ok=True)

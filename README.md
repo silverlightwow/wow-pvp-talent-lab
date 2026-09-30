@@ -25,11 +25,18 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 `.github/workflows/all-data-pages.yml` runs on relevant pushes, manual dispatch, and every six hours. It:
 
 1. runs the Python regression tests and discovers the complete specialization list;
-2. builds and validates each specialization independently;
-3. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
-4. merges exactly the discovered list without damaging the previous snapshot on failure;
-5. runs Chromium checks for every specialization and hero tree at 2560, 1440, 1024, 390, and 320 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics;
-6. commits the verified data and publishes the site only after all checks pass.
+2. collects fresh HTTP inputs once, pins SimulationCraft to a commit, and shares the integrity-checked snapshot across the specialization matrix;
+3. builds each specialization twice without network access and compares tooltips, all ranks, and numeric mechanics;
+4. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
+5. merges exactly the discovered list without damaging the previous snapshot on failure;
+6. runs Chromium checks for every specialization and hero tree at 2560, 1440, 1024, 390, and 320 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics;
+7. commits the verified data and publishes the site only after all checks pass.
+
+After every deployment (including UI-only and recovered snapshots), an additional job checks every published file against the exact artifact's SHA-256 inventory. It retries only files that have not propagated yet. `site-health.yml` checks the frontend and manifest hourly and after successful publication, and fails if data is older than 12 hours. This detects stale data even when the previous good site is still available. A separately scheduled ChatGPT check watches GitHub run activity so a missing GitHub schedule is also detectable.
+
+Known audit effects must all survive catalog generation. Published datasets include a complete numeric coverage inventory. With the same parser, tree, official notes, Drustvar, and exact SimulationCraft evidence, disappearance or numeric drift of independently known effects blocks publication. Changed authoritative evidence permits real hotfixes within the same client build. Source failures remain visible; they are not erased to make logs appear clean.
+
+Raw source snapshots and specialization diagnostics are retained as Actions artifacts for 14 days. A snapshot older than six hours cannot be used for a new verified publication. The next scheduled cycle collects fresh responses, including new server hotfixes; it never falls back to a persistent cache keyed only by client build. Actions are pinned to audited release commits; Dependabot proposes action updates weekly and Python/npm updates monthly for review and CI.
 
 If any stage fails, the previous GitHub Pages deployment remains available. Generated JSON and JavaScript snapshots are checked for equality. The app loads datasets on demand and refreshes their cache keys even for updates within the same game build.
 

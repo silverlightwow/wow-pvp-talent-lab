@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 from typing import Any
 
 from ..http import CachedClient
@@ -63,6 +64,30 @@ def _value_for_version(
     return None
 
 
+def validate_payload(payload: dict, collection: str) -> None:
+    """Reject changed schemas/current numeric rows instead of dropping effects."""
+    version = current_version(payload)
+    records = payload.get(collection)
+    if not isinstance(records, list):
+        raise ValueError(f'Drustvar {collection} must be a list')
+    for record in records:
+        effects = record.get('effects')
+        if not isinstance(effects, list):
+            raise ValueError('Drustvar effects must be a list')
+        for effect in effects:
+            if not isinstance(effect.get('values'), list):
+                raise ValueError('Drustvar effect values must be a list')
+            current = _value_for_version(effect, version)
+            if current is None:
+                continue
+            try:
+                value = float(current['value'])
+            except (TypeError, ValueError, KeyError) as exc:
+                raise ValueError('Invalid current Drustvar effect value') from exc
+            if not math.isfinite(value):
+                raise ValueError('Nonfinite current Drustvar effect value')
+
+
 def parse_spell_payload(
     payload: dict,
     wow_class: str,
@@ -80,6 +105,7 @@ def parse_spell_payload(
     pvp_multiplier field.
     """
 
+    validate_payload(payload, 'spells')
     version = current_version(payload)
 
     observations: list[EffectObservation] = []
@@ -167,6 +193,7 @@ def normalize_current_auras(
     how this aura composes with the underlying spell/talent calculation.
     """
 
+    validate_payload(payload, 'auras')
     version = current_version(payload)
 
     rows: list[dict] = []

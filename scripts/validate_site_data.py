@@ -5,6 +5,8 @@ import argparse
 import json
 from pathlib import Path
 
+from pvpcalc.coverage import validate_coverage
+
 
 COUNTS = ('fetch_error_count', 'unresolved_count', 'review_required_count')
 
@@ -14,6 +16,8 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if not slug or Path(slug).name != slug:
         raise ValueError(f'Invalid dataset slug: {slug}')
     data = json.loads((directory / f'{slug}.json').read_text())
+    if 'coverage' in data:
+        validate_coverage(data)
     js = (directory / f'{slug}.js').read_text().strip()
     prefix = 'window.WOW_PVP_DATA = '
     if not js.startswith(prefix) or not js.endswith(';') or json.loads(js[len(prefix):-1]) != data:
@@ -23,6 +27,9 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if data.get('tree_build') != build or data.get('simc_build') != build:
         raise ValueError(f'{slug}: mixed source builds')
     validation = data.get('validation', {})
+    if data.get('source_snapshot') and ('coverage' not in data or
+            not validation.get('replay_verified') or not spec.get('replay_verified')):
+        raise ValueError(f'{slug}: pinned snapshot has no complete offline replay verification')
     if data.get('source_warnings_complete'):
         warnings = data.get('source_warnings')
         if (not isinstance(warnings, list) or
@@ -99,6 +106,14 @@ def validate_snapshot(directory: Path, expected_specs: list[dict] | None = None)
         if actual != expected:
             raise ValueError(f'Specialization discovery mismatch: missing={expected-actual}, extra={actual-expected}')
     datasets = [validate_spec(directory, c, s, manifest['tree_build']) for c, s in pairs]
+    snapshot_hashes = {(d.get('source_snapshot') or {}).get('snapshot_hash') for d in datasets}
+    if len(snapshot_hashes) != 1 or snapshot_hashes != {manifest.get('source_snapshot_hash')}:
+        raise ValueError('Specs used inconsistent HTTP source snapshots')
+    if manifest.get('source_snapshot_hash') and manifest.get('replay_verified_count') != len(pairs):
+        raise ValueError('Snapshot replay verification is incomplete')
+    for data in datasets:
+        if 'official_hotfixes' in data and data['official_hotfixes']['snapshot_hash'] != manifest.get('hotfix_snapshot_hash'):
+            raise ValueError('Dataset official hotfix snapshot differs from manifest')
     for key, value in [('verified_count', len(pairs)), ('partial_count', 0)]:
         if key in manifest and manifest[key] != value:
             raise ValueError(f'Stale manifest {key}')

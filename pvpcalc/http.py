@@ -6,6 +6,8 @@ from urllib.parse import urlparse
 
 import httpx
 
+from .snapshot import active_snapshot
+
 
 UA = "WoWPvPTalentLab/0.1 (+research; public GitHub project)"
 
@@ -35,16 +37,10 @@ class CachedClient:
         *,
         wowhead_interval: float = 0.15,
         max_attempts: int = 5,
+        snapshot=None,
     ):
-        self._client = httpx.AsyncClient(
-            timeout=timeout,
-            follow_redirects=True,
-            headers={
-                "User-Agent": UA,
-                "Accept-Language": "en-US,en;q=0.9",
-            },
-            http2=True,
-        )
+        self._client = None
+        self._timeout = timeout
 
         self._sem = asyncio.Semaphore(
             max(1, concurrency)
@@ -65,6 +61,10 @@ class CachedClient:
         )
 
         self._cache = _PROCESS_CACHE
+        self._snapshot = snapshot or active_snapshot()
+        # Recorded failures must also be shared: every specialization sees
+        # the same source availability rather than retrying different inputs.
+        self._locks: dict[str, asyncio.Lock] = {}
 
 
     @staticmethod
@@ -116,6 +116,9 @@ class CachedClient:
         *,
         params=None,
     ) -> httpx.Response:
+        if self._client is None:
+            self._client = httpx.AsyncClient(timeout=self._timeout, follow_redirects=True,
+                headers={'User-Agent': UA, 'Accept-Language': 'en-US,en;q=0.9'}, http2=True)
 
         is_wowhead = self._is_wowhead(
             url
@@ -212,18 +215,27 @@ class CachedClient:
         url: str,
     ) -> str:
 
-        if url in self._cache:
-            return self._cache[url]
+        return await self._get_body(url)
 
-        response = await self._request(
-            url
-        )
-
-        self._cache[url] = (
-            response.text
-        )
-
-        return response.text
+    async def _get_body(self, url: str, params=None) -> str:
+        key = str(httpx.URL(url, params=sorted(params.items()))) if params else url
+        async with self._locks.setdefault(key, asyncio.Lock()):
+            if self._snapshot is not None:
+                if not self._snapshot.recording or key in self._snapshot.manifest['entries']:
+                    return self._snapshot.read(key)
+            elif key in self._cache:
+                return self._cache[key]
+            try:
+                response = await self._request(url, params=params)
+            except Exception as exc:
+                if self._snapshot is not None:
+                    self._snapshot.record_error(key, exc)
+                raise
+            if self._snapshot is not None:
+                self._snapshot.record(key, response.text)
+            else:
+                self._cache[key] = response.text
+            return response.text
 
 
     async def get_json(
@@ -231,32 +243,9 @@ class CachedClient:
         url: str,
         params=None,
     ):
-        key = (
-            url
-            + "?"
-            + repr(
-                sorted(
-                    (params or {}).items()
-                )
-            )
-        )
-
-        if key in self._cache:
-            return json.loads(
-                self._cache[key]
-            )
-
-        response = await self._request(
-            url,
-            params=params,
-        )
-
-        self._cache[key] = (
-            response.text
-        )
-
-        return response.json()
+        return json.loads(await self._get_body(url, params))
 
 
     async def aclose(self):
-        await self._client.aclose()
+        if self._client is not None:
+            await self._client.aclose()

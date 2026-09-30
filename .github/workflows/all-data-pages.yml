@@ -29,12 +29,13 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     outputs:
       specs: ${{ steps.matrix.outputs.specs }}
+      simc_ref: ${{ steps.sources.outputs.simc_ref }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
           cache: pip
@@ -42,7 +43,7 @@ jobs:
       - run: pytest -q
       - name: Snapshot official Blizzard PvP hotfixes
         run: python scripts/fetch_official_hotfixes.py --output official-hotfixes.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: official-pvp-hotfixes
           path: official-hotfixes.json
@@ -51,18 +52,29 @@ jobs:
       - name: Discover current specializations
         id: matrix
         run: python scripts/discover_specs_matrix.py --github-output "$GITHUB_OUTPUT" --snapshot-output raidbots-snapshot.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: raidbots-snapshot
           path: raidbots-snapshot.json
           retention-days: 2
           if-no-files-found: error
+      - name: Collect one fresh snapshot of all external inputs
+        id: sources
+        run: python scripts/collect_source_snapshot.py --raidbots raidbots-snapshot.json --hotfixes official-hotfixes.json --output source-snapshot --github-output "$GITHUB_OUTPUT"
+      - name: Preserve source inputs, including failed collections
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: source-snapshot
+          path: source-snapshot
+          retention-days: 14
+          if-no-files-found: warn
   frontend:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: '22'
           cache: npm
@@ -81,49 +93,45 @@ jobs:
       matrix:
         item: ${{ fromJSON(needs.discover.outputs.specs) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
           cache: pip
       - run: python -m pip install -e '.[dev]'
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: official-pvp-hotfixes
           path: .hotfixes
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: raidbots-snapshot
           path: .raidbots
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: source-snapshot
+          path: .sources
       - name: Build verified specialization
         env:
           CLASS_NAME: ${{ matrix.item.class_name }}
           SPEC_NAME: ${{ matrix.item.spec_name }}
           WOW_PVP_HOTFIX_FILE: .hotfixes/official-hotfixes.json
           WOW_PVP_RAIDBOTS_FILE: .raidbots/raidbots-snapshot.json
+          WOW_PVP_SOURCE_SNAPSHOT: .sources
+          WOW_PVP_SIMC_REF: ${{ needs.discover.outputs.simc_ref }}
         run: |
-          # Wowhead can temporarily return 403 despite the HTTP client's
-          # retries. Repeat only this complete specialization on that error;
-          # preserve the same official snapshot and all validation gates.
-          for attempt in 1 2 3; do
-            if python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 > build-attempt.log 2>&1; then
-              cat build-attempt.log
-              break
-            fi
-            cat build-attempt.log
-            if [ "$attempt" -eq 3 ] || ! grep -Eq '403 Forbidden.*https://www\.wowhead\.com/' build-attempt.log; then
-              exit 1
-            fi
-            # Stagger concurrent matrix jobs to give the upstream rate limit
-            # time to recover rather than retrying every class together.
-            wait_seconds=$(( 30 * attempt + RANDOM % 20 ))
-            echo "Wowhead returned 403; retrying $SPEC_NAME in ${wait_seconds}s (attempt $(( attempt + 1 ))/3)."
-            sleep "$wait_seconds"
-          done
+          python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 --verify-replay 2>&1 | tee build.log
+      - name: Preserve specialization diagnostics
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: spec-audit-${{ matrix.item.spec_id }}
+          path: build.log
+          retention-days: 14
       - run: python scripts/validate_site_data.py --data-dir spec-data
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: spec-data-${{ matrix.item.spec_id }}
           path: spec-data
@@ -136,17 +144,17 @@ jobs:
     # Leave room for verification before committing and deploying the snapshot.
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: '22'
           cache: npm
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           pattern: spec-data-*
           path: staged-spec-data
@@ -208,8 +216,16 @@ jobs:
             git commit -m 'chore: refresh verified PvP datasets [skip ci]'
             git push origin HEAD:main
           fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Record exact publication file hashes
+        run: python scripts/check_publication.py --write-inventory
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: publication-inventory
+          path: web/publication.json
+          retention-days: 14
+          if-no-files-found: error
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: web
   deploy:
@@ -221,4 +237,20 @@ jobs:
     steps:
       - name: Publish the verified snapshot
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+  verify_publication:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[dev]'
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: publication-inventory
+          path: .publication
+      - name: Verify every live file against the deployed artifact
+        run: python scripts/check_publication.py --base-url 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/' --expected-inventory .publication/publication.json
