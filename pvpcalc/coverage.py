@@ -54,8 +54,15 @@ def validate_coverage(data: dict, previous: dict | None = None):
     prior = (previous or {}).get('source_snapshot') or {}
     if (provenance and prior and provenance['parser_hash'] == prior['parser_hash']
             and provenance['evidence_hash'] == prior['evidence_hash']):
-        old = previous.get('coverage', {}).get('independent_hash')
-        if old != current['independent_hash']:
+        old = coverage_report(previous)
+        # A successful Wowhead response can replace a SimC/Drustvar fallback
+        # without changing the effect. Compare numbers for every identity
+        # independently known in either run, regardless of its selected source.
+        known_keys = {digest(effect['key']) for report in (old, current)
+                      for effect in report['independent_effects']}
+        old_effects = [e for e in old['effects'] if digest(e['key']) in known_keys]
+        current_effects = [e for e in current['effects'] if digest(e['key']) in known_keys]
+        if old_effects != current_effects:
             raise ValueError('Known PvP effects/numbers changed with identical authoritative inputs and parser')
     return current
 

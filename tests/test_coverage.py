@@ -50,3 +50,42 @@ def test_inventory_tampering_and_missing_audit_effect_are_blocking():
     catalog = SimpleNamespace(talents=[SimpleNamespace(spell_id=1, mechanics=[])])
     with pytest.raises(ValueError, match='missing from catalog'):
         validate_audit_coverage(audit, catalog)
+
+
+@pytest.mark.parametrize('before,after', [
+    (['simc', 'drustvar'], ['wowhead']),
+    (['wowhead'], ['simc', 'drustvar']),
+    (['simc'], ['drustvar']),
+])
+def test_identical_numbers_survive_primary_and_fallback_source_switches(before, after):
+    previous = dataset()
+    previous['talents'][0]['mechanics'][0]['sources'] = before
+    previous['coverage'] = coverage_report(previous)
+    current = deepcopy(previous)
+    current['talents'][0]['mechanics'][0].update(
+        sources=after, effect_text='Another representation of the same effect')
+    current['coverage'] = coverage_report(current)
+    validate_coverage(current, previous)
+
+
+@pytest.mark.parametrize('before,after', [
+    (['simc', 'drustvar'], ['wowhead']),
+    (['wowhead'], ['simc', 'drustvar']),
+])
+@pytest.mark.parametrize('fault', ['value', 'missing'])
+def test_source_switch_cannot_hide_known_numeric_drift_or_effect_loss(before, after, fault):
+    previous = dataset()
+    previous['talents'][0]['mechanics'][0]['sources'] = before
+    previous['coverage'] = coverage_report(previous)
+    current = deepcopy(previous)
+    current['talents'][0]['mechanics'][0]['sources'] = after
+    if fault == 'value':
+        current['talents'][0]['mechanics'][0]['final_pvp_multiplier'] = 1.2
+    elif before == ['wowhead']:
+        previous['talents'][0]['mechanics'].clear()
+        previous['coverage'] = coverage_report(previous)
+    else:
+        current['talents'][0]['mechanics'].clear()
+    current['coverage'] = coverage_report(current)
+    with pytest.raises(ValueError, match='identical authoritative inputs'):
+        validate_coverage(current, previous)
