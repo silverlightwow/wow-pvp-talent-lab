@@ -7724,7 +7724,7 @@
           "talent_spell_id": 202770,
           "source_spell_id": 211545,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.1834)",
+          "effect_text": "School Damage (2): astral (SP mod: 0.1834)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7751,10 +7751,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9539,7 +9540,7 @@
           "talent_spell_id": 428655,
           "source_spell_id": 211545,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.1834)",
+          "effect_text": "School Damage (2): astral (SP mod: 0.1834)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9566,10 +9567,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -12176,6 +12178,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 211545,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=211545'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 356474,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=356474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12786,7 +12793,7 @@
     "external": []
   },
   "slug": "druid-balance",
-  "generated_at": "2026-09-30T15:18:17.503545+00:00",
+  "generated_at": "2026-09-30T21:00:50.389255+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 24,
@@ -12799,7 +12806,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 119,
+    "source_warning_count": 120,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -12835,9 +12842,9 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "803ac68a09d5359c5277b8f1b2b916b000c91275f30117db85096c391c8c2183",
-    "captured_at": "2026-09-30T14:58:19.325692+00:00",
-    "parser_hash": "31676ed8e8e9d75b8d3523fd82a691ccd1f61eb12f547c70d802b1fbd08cbffc",
+    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
+    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "7c8d16b271e669a0129f5f725b6eda0141fc6736de80f49eee80c32535f1f8ed"
   },
   "coverage": {
@@ -14047,6 +14054,25 @@
       {
         "key": [
           "talents",
+          109859,
+          202770,
+          211545,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 0.1834,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           109860,
           274281,
           274281,
@@ -14174,6 +14200,25 @@
           "final_pvp_multiplier": 1.064,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.184,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117176,
+          428655,
+          211545,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 0.1834,
           "simc_ap_coefficient": null
         }
       },
@@ -14482,6 +14527,6 @@
         }
       }
     ],
-    "independent_hash": "15ba4de09bc0badcf897a02c8d63459ca9c0859d3754ad2b434b5bbcccd9e2ab"
+    "independent_hash": "bc880ffffdf140dd040665f2b0329b7ebedd41395f335b2f8fdf30ba99d7fc19"
   }
 }

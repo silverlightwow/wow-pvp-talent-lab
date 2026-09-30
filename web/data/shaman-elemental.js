@@ -11614,7 +11614,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-30T15:22:37.534958+00:00",
+  "generated_at": "2026-09-30T21:04:40.066838+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 21,
@@ -11663,9 +11663,9 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "803ac68a09d5359c5277b8f1b2b916b000c91275f30117db85096c391c8c2183",
-    "captured_at": "2026-09-30T14:58:19.325692+00:00",
-    "parser_hash": "31676ed8e8e9d75b8d3523fd82a691ccd1f61eb12f547c70d802b1fbd08cbffc",
+    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
+    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "c0b80d7981dc7fcf122bf38bd192bd36f6b56baa63ed87b72e1f6f225c246208"
   },
   "coverage": {

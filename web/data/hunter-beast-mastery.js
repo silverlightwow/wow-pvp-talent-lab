@@ -11719,7 +11719,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-30T15:19:37.637701+00:00",
+  "generated_at": "2026-09-30T21:01:49.565936+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 20,
@@ -11768,9 +11768,9 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "803ac68a09d5359c5277b8f1b2b916b000c91275f30117db85096c391c8c2183",
-    "captured_at": "2026-09-30T14:58:19.325692+00:00",
-    "parser_hash": "31676ed8e8e9d75b8d3523fd82a691ccd1f61eb12f547c70d802b1fbd08cbffc",
+    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
+    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "a15cf492cee5d434c6556d9854477c4b50f911a353edfd241591a9aeb10720fa"
   },
   "coverage": {
