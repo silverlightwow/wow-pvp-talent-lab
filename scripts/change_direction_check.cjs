@@ -15,6 +15,8 @@ check('Reduces all damage taken by 20%.','20','40','buff');
 check('Reduces the mana cost of healing spells by 50%.','50','25','nerf');
 check('30 sec cooldown','30','45','nerf');
 check('Reduces the cooldown of Flame Shock by 1.5 sec.','1.5','3.0','buff','duration_seconds');
+check('Reduces the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.','1.5','3','buff','ordinary_value');
+check('Increases the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.','1.5','3','nerf','ordinary_value');
 check('Enemies have 50% reduced movement speed.','50','30','nerf');
 check('Avenging Wrath has 40% reduced duration.','40','26.664','buff');
 check('Damage exceeds 150% of their remaining health.','150','250','nerf');

@@ -103,6 +103,12 @@
         ) {
             polarity = 1;
         }
+        // Coordinated ability names may contain "and". Preserve the cooldown
+        // metric before that conjunction when this scalar is its time change.
+        else if (/\b(?:reduces?|increases?) (?:the )?cooldown of [^.!?\n]* by\s*$/i.test(prefix)
+                 && /^\s*(?:sec|seconds?)\b/i.test(suffix)) {
+            polarity = /\breduces? (?:the )?cooldown of /i.test(prefix) ? 1 : -1;
+        }
         // Explicit costs and time-to-use values.
         else if (/\b(?:costs?|cooldown|recharges?|cast time|casting time)\b/.test(clause)) {
             if (/reduc|shorten/.test(clause)) polarity = 1;
