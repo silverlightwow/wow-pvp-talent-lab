@@ -29,7 +29,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 15
     outputs:
       specs: ${{ steps.matrix.outputs.specs }}
       simc_ref: ${{ steps.sources.outputs.simc_ref }}
@@ -47,7 +47,7 @@ jobs:
         with:
           name: official-pvp-hotfixes
           path: official-hotfixes.json
-          retention-days: 2
+          retention-days: 14
           if-no-files-found: error
       - name: Discover current specializations
         id: matrix
@@ -56,19 +56,75 @@ jobs:
         with:
           name: raidbots-snapshot
           path: raidbots-snapshot.json
-          retention-days: 2
+          retention-days: 14
           if-no-files-found: error
-      - name: Collect one fresh snapshot of all external inputs
+      - name: Plan one fresh snapshot of all external inputs
         id: sources
-        run: python scripts/collect_source_snapshot.py --raidbots raidbots-snapshot.json --hotfixes official-hotfixes.json --output source-snapshot --github-output "$GITHUB_OUTPUT"
-      - name: Preserve source inputs, including failed collections
+        run: python scripts/collect_source_snapshot.py --phase plan --raidbots raidbots-snapshot.json --hotfixes official-hotfixes.json --output source-plan --github-output "$GITHUB_OUTPUT"
+      - name: Preserve common source inputs, including failed plans
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: source-plan
+          path: source-plan
+          retention-days: 14
+          if-no-files-found: warn
+
+  capture_sources:
+    needs: discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        partition: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: source-plan
+          path: .source-plan
+      - name: Capture disjoint spell inputs
+        run: python scripts/collect_source_snapshot.py --phase capture --input-plan .source-plan --partition-index ${{ matrix.partition }} --partitions 4 --output source-part
+      - name: Preserve source responses and diagnostics
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: source-part-${{ matrix.partition }}
+          path: source-part
+          retention-days: 14
+          if-no-files-found: warn
+  merge_sources:
+    needs: [discover, capture_sources]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: source-plan
+          path: .source-plan
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          pattern: source-part-*
+          path: source-parts
+      - name: Assemble and verify one common source snapshot
+        run: python scripts/collect_source_snapshot.py --phase merge --input-plan .source-plan --parts-dir source-parts --partitions 4 --output source-snapshot
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: source-snapshot
           path: source-snapshot
           retention-days: 14
-          if-no-files-found: warn
+          if-no-files-found: error
   frontend:
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -84,7 +140,7 @@ jobs:
         run: npm run test:smoke
 
   build_spec:
-    needs: discover
+    needs: [discover, merge_sources]
     runs-on: ubuntu-latest
     timeout-minutes: 25
     strategy:
@@ -135,7 +191,7 @@ jobs:
         with:
           name: spec-data-${{ matrix.item.spec_id }}
           path: spec-data
-          retention-days: 2
+          retention-days: 14
           if-no-files-found: error
   aggregate:
     needs: [discover, build_spec, frontend]

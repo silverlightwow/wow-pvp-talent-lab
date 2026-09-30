@@ -5,6 +5,7 @@ import argparse
 import asyncio
 import json
 import os
+import shutil
 from pathlib import Path
 
 from pvpcalc.http import CachedClient
@@ -73,26 +74,16 @@ async def collect(args):
                     raise ValueError(f'Generated DBC build mismatch at {ref}')
             generated_hashes[ref] = digest(texts)
 
-        async def fetch_spell(spell_id):
-            try:
-                await wowhead.fetch_spell_page(client, spell_id)
-            except Exception as exc:
-                # Preserve recorded upstream failures; the normal exact-build
-                # audit determines whether evidence is sufficient to publish.
-                print(f'Source gap for {spell_id}: {type(exc).__name__}', flush=True)
-
-        # Batches bound task/response memory; HTTP pacing remains centralized.
-        ordered = sorted(ids)
-        for offset in range(0, len(ordered), 100):
-            await asyncio.gather(*(fetch_spell(i) for i in ordered[offset:offset + 100]))
-            print(f'Captured spell pages: {min(offset + 100, len(ordered))}/{len(ordered)}', flush=True)
         for name, info in classes.items():
             info['evidence_hash'] = digest(dict(tree=metadata['contentHash'],
                 hotfix=hotfix_context['snapshot_hash'], simc=info['simc_hash'],
                 drustvar=info['drustvar_hash'], generated=generated_hashes[info['simc_ref']]))
-        result = snapshot.seal(dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
+        context = dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
             hotfix_snapshot_hash=hotfix_context['snapshot_hash'], simc_ref=revision['sha'],
-            parser_hash=parser_hash(), classes=classes, spell_count=len(ids)))
+            parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids))
+        if args.phase == 'full':
+            await capture_pages(client, context['spell_ids'])
+        result = snapshot.seal(context)
         if args.github_output:
             with open(args.github_output, 'a') as handle:
                 handle.write(f"simc_ref={revision['sha']}\nsnapshot_hash={result['snapshot_hash']}\n")
@@ -104,10 +95,97 @@ async def collect(args):
         await client.aclose()
 
 
+
+async def capture_pages(client, spell_ids):
+    async def fetch_spell(spell_id):
+        try:
+            await wowhead.fetch_spell_page(client, spell_id)
+        except Exception as exc:
+            print(f'Source gap for {spell_id}: {type(exc).__name__}', flush=True)
+    for offset in range(0, len(spell_ids), 100):
+        await asyncio.gather(*(fetch_spell(i) for i in spell_ids[offset:offset + 100]))
+        print(f'Captured spell pages: {min(offset + 100, len(spell_ids))}/{len(spell_ids)}', flush=True)
+
+
+async def capture_partition(args):
+    plan = HttpSnapshot(args.input_plan)
+    if not 0 <= args.partition_index < args.partitions:
+        raise ValueError('Invalid source partition index')
+    snapshot = HttpSnapshot(args.output, recording=True)
+    snapshot.manifest['captured_at'] = plan.manifest['captured_at']
+    client = CachedClient(concurrency=4, snapshot=snapshot)
+    try:
+        ids = plan.manifest['context']['spell_ids'][args.partition_index::args.partitions]
+        await capture_pages(client, ids)
+        result = snapshot.seal(dict(plan.manifest['context'],
+            plan_hash=plan.manifest['snapshot_hash'], partition_index=args.partition_index,
+            partition_count=args.partitions))
+        print(json.dumps(dict(snapshot_hash=result['snapshot_hash'], spells=len(ids))))
+    finally:
+        if 'snapshot_hash' not in snapshot.manifest:
+            (snapshot.directory / 'partial-snapshot.json').write_text(json.dumps(snapshot.manifest, indent=2))
+        await client.aclose()
+
+
+def merge_partitions(args):
+    plan = HttpSnapshot(args.input_plan)
+    partitions = [HttpSnapshot(p.parent) for p in sorted(args.parts_dir.glob('**/snapshot.json'))]
+    indices = [p.manifest['context'].get('partition_index') for p in partitions]
+    if (len(indices) != args.partitions or any(type(i) is not int for i in indices)
+            or set(indices) != set(range(args.partitions))):
+        raise ValueError('Missing or duplicate source partitions')
+    output = HttpSnapshot(args.output, recording=True)
+    output.manifest['captured_at'] = plan.manifest['captured_at']
+    for partition in partitions:
+        context = partition.manifest['context']
+        if (context.get('plan_hash') != plan.manifest['snapshot_hash']
+                or context.get('partition_count') != args.partitions
+                or partition.manifest['captured_at'] != plan.manifest['captured_at']
+                or {k: v for k, v in context.items() if k not in
+                    {'plan_hash', 'partition_index', 'partition_count'}} != plan.manifest['context']):
+            raise ValueError('Source partition belongs to a different input plan')
+        actual = {key for key in partition.manifest['entries'] if key.startswith('https://www.wowhead.com/spell=')}
+        expected = {wowhead.BASE.format(spell_id=i) for i in
+                    plan.manifest['context']['spell_ids'][context['partition_index']::args.partitions]}
+        if actual != expected:
+            raise ValueError('Source partition has missing or unexpected spell requests')
+    for source in [plan, *partitions]:
+        for key, entry in source.manifest['entries'].items():
+            if key in output.manifest['entries'] and output.manifest['entries'][key] != entry:
+                raise ValueError(f'Conflicting captured source: {key}')
+            if 'sha256' in entry:
+                source.read(key)  # Validate bytes before copying them into the common snapshot.
+                shutil.copy2(source.directory / 'responses' / entry['sha256'],
+                             output.directory / 'responses' / entry['sha256'])
+            output.manifest['entries'][key] = entry
+    result = output.seal(plan.manifest['context'])
+    print(json.dumps(dict(snapshot_hash=result['snapshot_hash'], requests=len(result['entries']))))
+    return result
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--raidbots', type=Path, required=True)
-    parser.add_argument('--hotfixes', type=Path, required=True)
+    parser.add_argument('--phase', choices=['full', 'plan', 'capture', 'merge'], default='full')
+    parser.add_argument('--raidbots', type=Path)
+    parser.add_argument('--hotfixes', type=Path)
+    parser.add_argument('--input-plan', type=Path)
+    parser.add_argument('--parts-dir', type=Path)
+    parser.add_argument('--partition-index', type=int)
+    parser.add_argument('--partitions', type=int, default=4)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--github-output')
-    asyncio.run(collect(parser.parse_args()))
+    args = parser.parse_args()
+    if args.partitions < 1:
+        parser.error('--partitions must be positive')
+    if args.phase in {'full', 'plan'}:
+        if not args.raidbots or not args.hotfixes:
+            parser.error('--raidbots and --hotfixes are required')
+        asyncio.run(collect(args))
+    elif args.phase == 'capture':
+        if args.input_plan is None or args.partition_index is None:
+            parser.error('--input-plan and --partition-index are required')
+        asyncio.run(capture_partition(args))
+    else:
+        if args.input_plan is None or args.parts_dir is None:
+            parser.error('--input-plan and --parts-dir are required')
+        merge_partitions(args)

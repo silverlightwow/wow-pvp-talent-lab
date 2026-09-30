@@ -25,7 +25,7 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 `.github/workflows/all-data-pages.yml` runs on relevant pushes, manual dispatch, and every six hours. It:
 
 1. runs the Python regression tests and discovers the complete specialization list;
-2. collects fresh HTTP inputs once, pins SimulationCraft to a commit, and shares the integrity-checked snapshot across the specialization matrix;
+2. plans source requests once, pins SimulationCraft to a commit, and captures disjoint spell requests on four runners; it verifies partition completeness, matching input plans, and response hashes before sharing one common snapshot across the specialization matrix;
 3. builds each specialization twice without network access and compares tooltips, all ranks, and numeric mechanics;
 4. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
 5. merges exactly the discovered list without damaging the previous snapshot on failure;
