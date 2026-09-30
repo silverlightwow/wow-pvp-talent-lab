@@ -2,8 +2,6 @@ name: Check live site and publication freshness
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '19 * * * *'
   workflow_run:
     workflows: ['Build all PvP datasets and deploy', 'Publish current web snapshot', 'Recover verified snapshot from completed spec artifacts']
     types: [completed]
