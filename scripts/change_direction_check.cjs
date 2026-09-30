@@ -48,6 +48,16 @@ check('Howl of Terror cooldown is reduced by 10 sec and range is increased by 5 
 assert.equal(D.combine(['buff','nerf']),'mixed');
 assert.equal(D.combine(['buff','neutral']),'neutral');
 
+{
+ const text='Deals 60% increased damage and explodes for 60% of its damage.';
+ const first=text.indexOf('60'),second=text.lastIndexOf('60');
+ const change=(start,next)=>({start,end:start+2,old_token:'60',new_token:next,kind:'percent_value'});
+ const talent={pve_tooltip:text,changes:[change(first,'90'),change(second,'30'),change(first,'10')]};
+ assert.deepEqual(D.visibleChanges(talent).map(c=>[c.start,c.new_token]),[[first,'10'],[second,'30']],
+  'Comparison and badges must use the final published replacement for each text span');
+ assert.equal(D.talentDirection(talent),'nerf','Superseded highlights must not create a false mixed badge');
+}
+
 const dataset = slug=>JSON.parse(fs.readFileSync(path.join(__dirname,`../web/data/${slug}.json`)));
 const fixtures = [
  ['priest-discipline','Void Leech','nerf'],

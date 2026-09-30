@@ -709,7 +709,7 @@
     function changeHtml(talent) {
 
         const changes =
-            talent.changes || [];
+            PvpDirection.visibleChanges(talent);
 
         if (!changes.length) {
             const officialHotfix =
@@ -810,7 +810,7 @@
         // line. That cannot be reconstructed by substituting one numeric
         // token inside the PvE source, so render the authoritative PvP text
         // directly for that case.
-        const rawChanges = talent.changes || [];
+        const rawChanges = PvpDirection.visibleChanges(talent);
         if (
             mode === "pvp"
             && rawChanges.some(
@@ -830,6 +830,26 @@
         // Renderer offsets identify exact changes, including repeated numbers.
         const original = String(talent.pve_tooltip || "");
         const changes = [...rawChanges].sort((a, b) => a.start - b.start);
+        if (mode === "pvp") {
+            let expected = original;
+            let rightEdge = original.length;
+            let valid = true;
+            for (const change of [...changes].reverse()) {
+                if (!Number.isInteger(change.start) || !Number.isInteger(change.end)
+                    || change.start < 0 || change.end > rightEdge || change.end <= change.start
+                    || original.slice(change.start, change.end) !== change.old_token) {
+                    valid = false;
+                    break;
+                }
+                expected = expected.slice(0, change.start) + change.new_token + expected.slice(change.end);
+                rightEdge = change.start;
+            }
+            // Highlighting must never reconstruct a different value than the
+            // verified player-facing tooltip, including future source formats.
+            if (!valid || expected !== String(talent.pvp_tooltip || "")) {
+                return escapeHtml(comparisonTextFragment(talent.pvp_tooltip || ""));
+            }
+        }
         let cursor = 0;
         let html = "";
         for (const change of changes) {

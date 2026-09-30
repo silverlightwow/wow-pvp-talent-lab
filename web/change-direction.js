@@ -177,16 +177,26 @@
         return values.has('buff') ? 'buff' : values.has('nerf') ? 'nerf' : 'neutral';
     }
 
+    function visibleChanges(talent) {
+        // The renderer applies equal-position replacements in source order.
+        // The final replacement therefore describes the published token.
+        const spans = new Map();
+        for (const change of talent.changes || []) {
+            spans.set(`${change.start}:${change.end}`, change);
+        }
+        return [...spans.values()];
+    }
+
     function talentDirection(talent) {
         // A sign flip has a separate word replacement that carries its meaning.
         return combine(
-            (talent.changes || [])
+            visibleChanges(talent)
                 .filter(c => c.kind !== 'percent_direction_flip')
                 .map(c => direction(talent, c))
         );
     }
 
-    const api = {direction, combine, talentDirection, labels};
+    const api = {direction, combine, talentDirection, visibleChanges, labels};
     if (typeof module !== 'undefined') module.exports = api;
     else root.PvpDirection = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
