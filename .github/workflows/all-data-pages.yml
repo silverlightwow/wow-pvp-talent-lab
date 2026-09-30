@@ -215,6 +215,8 @@ jobs:
         with:
           pattern: spec-data-*
           path: staged-spec-data
+      - name: Install dataset validation dependencies
+        run: python -m pip install -e .
       - name: Assemble the exact discovered catalog
         env:
           EXPECTED_SPECS: ${{ needs.discover.outputs.specs }}
