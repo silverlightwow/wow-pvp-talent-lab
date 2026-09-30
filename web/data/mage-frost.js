@@ -4155,7 +4155,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 30455,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4184,10 +4184,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4195,7 +4196,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 30455,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4224,10 +4225,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -4462,7 +4464,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 112965,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4491,10 +4493,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4502,7 +4505,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 112965,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4531,10 +4534,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -4625,7 +4629,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248825,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4652,10 +4656,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4663,7 +4668,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248825,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4690,10 +4695,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4846,7 +4852,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246832,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4877,10 +4883,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4888,7 +4895,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246832,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4919,10 +4926,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 3,
@@ -5063,7 +5071,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 44614,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5092,10 +5100,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5103,7 +5112,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 44614,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5132,10 +5141,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -5565,7 +5575,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 190447,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5598,10 +5608,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5609,7 +5620,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 190447,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5642,10 +5653,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 3,
@@ -6014,7 +6026,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 460590,
           "source_spell_id": 453720,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 8.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6033,9 +6045,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6046,7 +6058,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 460590,
           "source_spell_id": 460623,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.3)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6077,10 +6089,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6364,7 +6377,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 379993,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6397,10 +6410,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6408,7 +6422,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 379993,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6441,10 +6455,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -8015,7 +8030,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247729,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8044,10 +8059,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8055,7 +8071,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247729,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8084,10 +8100,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8286,7 +8303,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247777,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8315,10 +8332,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8326,7 +8344,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247777,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8355,10 +8373,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -8444,7 +8463,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262935,
           "source_spell_id": 1262769,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 5)",
+          "effect_text": "School Damage (2): frost (SP mod: 5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8471,10 +8490,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8707,7 +8727,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 468655,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Frost) (SP mod: 2.594)",
+          "effect_text": "School Damage (2): frostfire (SP mod: 2.594)",
           "base_value": null,
           "spell_pvp_multiplier": 1.9,
           "amount_kind": "direct",
@@ -8734,9 +8754,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8747,7 +8767,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 468655,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): frostfire every 1 seconds (SP mod: 0.027)",
           "base_value": null,
           "spell_pvp_multiplier": 0.95,
           "amount_kind": "periodic",
@@ -8774,9 +8794,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8787,7 +8807,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8816,10 +8836,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8827,7 +8848,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431044,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8856,10 +8877,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -9599,7 +9621,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262843,
           "source_spell_id": 1262863,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 8.813)",
+          "effect_text": "School Damage (2): fire | Attributes: Enforce Line of Sight To Chain Targets (16) (SP mod: 8.813)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -9626,9 +9648,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11473,7 +11495,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 1246949,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.9154)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -11502,10 +11524,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -11513,7 +11536,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 1246949,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (SP mod: 0.273)",
+          "effect_text": "School Damage (2): frost (SP mod: 0.273)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -11542,10 +11565,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -11980,7 +12004,38 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [],
+  "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 453720,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=453720'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 460623,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=460623'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 468655,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468655'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1246949,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1262769,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262769'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1262863,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262863'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
@@ -12527,7 +12582,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "mage-frost",
-  "generated_at": "2026-09-30T07:03:29.926904+00:00",
+  "generated_at": "2026-09-30T11:40:48.432985+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 33,
@@ -12540,11 +12595,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 6,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 453720,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=453720'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 460623,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=460623'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 468655,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468655'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1246949,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1262769,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262769'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

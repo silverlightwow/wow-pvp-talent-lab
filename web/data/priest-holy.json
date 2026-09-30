@@ -5284,11 +5284,32 @@
         ]
       },
       "pve_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (304.64% of Spell Power) over 15 sec.",
-      "pvp_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (304.64% of Spell Power) over 15 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (400.297% of Spell Power) over 15 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 142,
+          "end": 148,
+          "old_token": "304.64",
+          "new_token": "400.297",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "304.64",
+          "new": "400.297"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5332,7 +5353,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -11121,10 +11142,10 @@
     "external": []
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-30T07:08:50.055479+00:00",
+  "generated_at": "2026-09-30T11:44:49.171930+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 20,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 29,
     "unique_nodes": 119,
     "tree_build": "12.1.0.69933",

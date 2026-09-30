@@ -6357,7 +6357,18 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 24.246599999999997,
+          "new": 58.19183999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6401,7 +6412,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7589,7 +7600,18 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 24.246599999999997,
+          "new": 58.19183999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7633,7 +7655,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -12328,7 +12350,7 @@
     "external": []
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-09-30T07:14:17.835786+00:00",
+  "generated_at": "2026-09-30T11:49:52.059871+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 41,

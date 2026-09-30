@@ -2807,14 +2807,74 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
-      "pvp_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "When you fall below 30% health you drain (135.6% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 45,
+          "old_token": "120",
+          "new_token": "135.6",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "120",
+          "new": "135.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 374598,
+          "source_spell_id": 374606,
+          "effect_index": 1,
+          "effect_text": "Drain Health (AP mod: 1.2 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.13,
+          "final_pvp_multiplier": 1.13,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            374598,
+            374606
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256915,
+              "game_effect_id": 1264668,
+              "amount_kind": "direct",
+              "value_pct": 13.0,
+              "factor": 1.13,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -3994,7 +4054,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264084,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 1.16304)",
+          "effect_text": "School Damage (Frost) (AP mod: 1.16304 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.71,
           "amount_kind": "direct",
@@ -4030,9 +4090,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4092,7 +4152,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(222.4744% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4101,6 +4161,16 @@ window.WOW_PVP_DATA = {
           "end": 99,
           "old_token": "50.6819",
           "new_token": "37.2259",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 446,
+          "end": 451,
+          "old_token": "342.4",
+          "new_token": "222.4744",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -4116,6 +4186,15 @@ window.WOW_PVP_DATA = {
           "kind": "attack_power_coefficient",
           "old": "50.6819",
           "new": "37.2259"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "342.4",
+          "new": "222.4744"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4196,7 +4275,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -11244,13 +11323,7 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 1264084,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264084'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    }
-  ],
+  "source_warnings": [],
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
@@ -11797,11 +11870,11 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-30T06:56:07.682913+00:00",
+  "generated_at": "2026-09-30T11:33:38.014363+00:00",
   "validation": {
     "talents": 121,
-    "changed_tooltips": 34,
-    "talents_with_pvp_mechanics": 40,
+    "changed_tooltips": 35,
+    "talents_with_pvp_mechanics": 41,
     "unique_nodes": 111,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",
@@ -11810,17 +11883,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1264084,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264084'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -4416,11 +4416,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Replaces Shadow Bolt.\nDrains the target's soul, causing (556.875% of Spell Power) Shadow damage over 5 sec.\nDamage is increased by 100% against enemies below 20% health.\nGenerates 1 Soul Shard if the target dies during this effect.",
-      "pvp_tooltip": "Replaces Shadow Bolt.\nDrains the target's soul, causing (556.875% of Spell Power) Shadow damage over 5 sec.\nDamage is increased by 100% against enemies below 20% health.\nGenerates 1 Soul Shard if the target dies during this effect.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Replaces Shadow Bolt.\nDrains the target's soul, causing (1259.0944% of Spell Power) Shadow damage over 5 sec.\nDamage is increased by 100% against enemies below 20% health.\nGenerates 1 Soul Shard if the target dies during this effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 57,
+          "end": 64,
+          "old_token": "556.875",
+          "new_token": "1259.0944",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "556.875",
+          "new": "1259.0944"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4494,7 +4515,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4992,7 +5013,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(839.552% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
-      "pvp_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(587.6864% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
+      "pvp_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(781.6229% of Spell Power) * 4] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5000,7 +5021,7 @@ window.WOW_PVP_DATA = {
           "start": 147,
           "end": 154,
           "old_token": "839.552",
-          "new_token": "587.6864",
+          "new_token": "781.6229",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5015,7 +5036,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "839.552",
-          "new": "587.6864"
+          "new": "781.6229"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5029,9 +5050,9 @@ window.WOW_PVP_DATA = {
           "effect_text": "Drain Health (SP mod: 8.39552)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.7,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 0.9309999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5041,7 +5062,17 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref"
           ],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar",
@@ -5707,11 +5738,32 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
-      "pvp_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1400.49% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 120,
+          "end": 124,
+          "old_token": "1053",
+          "new_token": "1400.49",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1053",
+          "new": "1400.49"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5753,7 +5805,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7063,6 +7115,16 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 41.1866,
+          "new": 44.370324180000004,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "24.7969",
@@ -7190,7 +7252,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -11075,10 +11137,10 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-30T07:13:10.602386+00:00",
+  "generated_at": "2026-09-30T11:49:06.760450+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 27,
+    "changed_tooltips": 29,
     "talents_with_pvp_mechanics": 41,
     "unique_nodes": 107,
     "tree_build": "12.1.0.69933",

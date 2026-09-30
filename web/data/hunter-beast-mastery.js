@@ -521,7 +521,7 @@ window.WOW_PVP_DATA = {
           "effect_text": "Apply Aura: Mod Total Health Regen %",
           "base_value": 10.0,
           "spell_pvp_multiplier": 2.0,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 2.0,
           "final_pvp_value": 20.0,
@@ -10994,7 +10994,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-30T07:01:40.645434+00:00",
+  "generated_at": "2026-09-30T11:38:53.728694+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 20,

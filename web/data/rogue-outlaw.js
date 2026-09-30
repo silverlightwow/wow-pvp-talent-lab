@@ -3025,7 +3025,7 @@ window.WOW_PVP_DATA = {
           "effect_text": "Apply Aura: Mod Total Health Regen %",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 5.0,
@@ -10567,7 +10567,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-30T07:10:00.033585+00:00",
+  "generated_at": "2026-09-30T11:46:41.890477+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 12,

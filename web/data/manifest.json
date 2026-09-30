@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:15:46.490740+00:00",
+  "generated_at": "2026-09-30T11:51:22.441636+00:00",
   "tree_build": "12.1.0.69933",
   "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
   "hotfix_snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
@@ -29,11 +29,11 @@
           "name": "Frost",
           "spec_id": 251,
           "slug": "death-knight-frost",
-          "changed_tooltips": 34,
-          "talents_with_pvp_mechanics": 40,
+          "changed_tooltips": 35,
+          "talents_with_pvp_mechanics": 41,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -41,8 +41,8 @@
           "name": "Unholy",
           "spec_id": 252,
           "slug": "death-knight-unholy",
-          "changed_tooltips": 22,
-          "talents_with_pvp_mechanics": 29,
+          "changed_tooltips": 23,
+          "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
           "source_warning_count": 0,
@@ -75,7 +75,7 @@
           "talents_with_pvp_mechanics": 42,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 4,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -105,7 +105,7 @@
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 11,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -117,7 +117,7 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 4,
+          "source_warning_count": 8,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -141,7 +141,7 @@
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 13,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -267,7 +267,7 @@
           "talents_with_pvp_mechanics": 40,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 6,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -285,7 +285,7 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 8,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -297,7 +297,7 @@
           "talents_with_pvp_mechanics": 48,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 18,
+          "source_warning_count": 13,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -309,7 +309,7 @@
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 22,
+          "source_warning_count": 14,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -327,7 +327,7 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 26,
+          "source_warning_count": 22,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -339,7 +339,7 @@
           "talents_with_pvp_mechanics": 36,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 8,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -351,7 +351,7 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 10,
+          "source_warning_count": 11,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -377,7 +377,7 @@
           "name": "Holy",
           "spec_id": 257,
           "slug": "priest-holy",
-          "changed_tooltips": 20,
+          "changed_tooltips": 21,
           "talents_with_pvp_mechanics": 29,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -389,7 +389,7 @@
           "name": "Shadow",
           "spec_id": 258,
           "slug": "priest-shadow",
-          "changed_tooltips": 23,
+          "changed_tooltips": 24,
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -411,7 +411,7 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 3,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -453,7 +453,7 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 10,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -477,7 +477,7 @@
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 3,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -491,7 +491,7 @@
           "name": "Affliction",
           "spec_id": 265,
           "slug": "warlock-affliction",
-          "changed_tooltips": 27,
+          "changed_tooltips": 29,
           "talents_with_pvp_mechanics": 41,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -549,7 +549,7 @@
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 1,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },

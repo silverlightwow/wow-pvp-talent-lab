@@ -3800,7 +3800,7 @@
         ]
       },
       "pve_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (261.625% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over 6 sec. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
-      "pvp_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.6138% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over 6 sec. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
+      "pvp_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (213.9569% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over 6 sec. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3808,7 +3808,7 @@
           "start": 85,
           "end": 92,
           "old_token": "261.625",
-          "new_token": "227.6138",
+          "new_token": "213.9569",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1,
@@ -3825,7 +3825,7 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "261.625",
-          "new": "227.6138"
+          "new": "213.9569"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3839,14 +3839,24 @@
           "effect_text": "Drain Health (SP mod: 2.61625)",
           "base_value": null,
           "spell_pvp_multiplier": 0.87,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.87,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.8178,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
           "sources": [
             "wowhead",
             "simc"
@@ -3863,14 +3873,24 @@
           "effect_text": "Apply Aura: Periodically Leech Health",
           "base_value": null,
           "spell_pvp_multiplier": 0.87,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.87,
+          "amount_kind": "periodic",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.8178,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264737,
+              "amount_kind": "periodic",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar",
@@ -7509,10 +7529,20 @@
         ]
       },
       "pve_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
-      "pvp_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(40.3495% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (302.492% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(40.3495% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 225,
+          "end": 230,
+          "old_token": "321.8",
+          "new_token": "302.492",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 439,
           "end": 445,
@@ -7525,6 +7555,15 @@
         }
       ],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "321.8",
+          "new": "302.492"
+        },
         {
           "effect_indexes": [
             2
@@ -7646,7 +7685,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -8307,11 +8346,32 @@
         ]
       },
       "pve_tooltip": "Creating a Halo upgrades your next Mind Flay to Mind Flay: Insanity.\nMind Flay: Insanity\nAssaults the target's mind with Shadow energy, causing (623.716% of Spell Power) Shadow damage over 1.5 sec and slowing their movement speed by 70%.\nGenerates 8 Insanity over the duration.",
-      "pvp_tooltip": "Creating a Halo upgrades your next Mind Flay to Mind Flay: Insanity.\nMind Flay: Insanity\nAssaults the target's mind with Shadow energy, causing (623.716% of Spell Power) Shadow damage over 1.5 sec and slowing their movement speed by 70%.\nGenerates 8 Insanity over the duration.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Creating a Halo upgrades your next Mind Flay to Mind Flay: Insanity.\nMind Flay: Insanity\nAssaults the target's mind with Shadow energy, causing (445.5827% of Spell Power) Shadow damage over 1.5 sec and slowing their movement speed by 70%.\nGenerates 8 Insanity over the duration.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 145,
+          "end": 152,
+          "old_token": "623.716",
+          "new_token": "445.5827",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "623.716",
+          "new": "445.5827"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8384,7 +8444,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -11683,10 +11743,10 @@
     "external": []
   },
   "slug": "priest-shadow",
-  "generated_at": "2026-09-30T07:08:40.435565+00:00",
+  "generated_at": "2026-09-30T11:44:57.878597+00:00",
   "validation": {
     "talents": 138,
-    "changed_tooltips": 23,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69933",

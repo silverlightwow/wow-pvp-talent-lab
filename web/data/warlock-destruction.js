@@ -7880,6 +7880,16 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 41.1866,
+          "new": 42.8134707,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "24.7969",
@@ -7989,7 +7999,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -11387,7 +11397,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-30T07:13:44.505636+00:00",
+  "generated_at": "2026-09-30T11:49:35.764819+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 32,

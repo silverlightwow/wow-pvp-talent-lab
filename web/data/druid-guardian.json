@@ -191,7 +191,7 @@
           "effect_text": "Apply Aura: Mod Total Health Regen %",
           "base_value": 8.0,
           "spell_pvp_multiplier": 0.626,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 0.5,
           "final_pvp_multiplier": 0.313,
           "final_pvp_value": 2.504,
@@ -10935,7 +10935,7 @@
     "external": []
   },
   "slug": "druid-guardian",
-  "generated_at": "2026-09-30T06:59:44.974353+00:00",
+  "generated_at": "2026-09-30T11:36:38.380542+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 11,

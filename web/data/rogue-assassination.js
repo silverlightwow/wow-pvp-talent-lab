@@ -3085,7 +3085,7 @@ window.WOW_PVP_DATA = {
           "effect_text": "Apply Aura: Mod Total Health Regen %",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 5.0,
@@ -5713,7 +5713,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1250141,
           "source_spell_id": 1250216,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.15)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.15 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5740,11 +5740,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -7445,7 +7444,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265387,
           "source_spell_id": 1265794,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 2.07)",
+          "effect_text": "School Damage (Nature) (AP mod: 2.07 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.55,
           "amount_kind": "direct",
@@ -7472,9 +7471,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7485,7 +7484,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265387,
           "source_spell_id": 1265795,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3)",
+          "effect_text": "School Damage (Physical) (AP mod: 3 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.55,
           "amount_kind": "direct",
@@ -7512,9 +7511,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10384,23 +10383,7 @@ window.WOW_PVP_DATA = {
       }
     ]
   },
-  "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 1250216,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1250216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1265794,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265794'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 1265795,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265795'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    }
-  ],
+  "source_warnings": [],
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
@@ -10977,7 +10960,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-30T07:10:06.699857+00:00",
+  "generated_at": "2026-09-30T11:45:37.770488+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,
@@ -10990,27 +10973,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1250216,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1250216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1265794,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265794'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1265795,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265795'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

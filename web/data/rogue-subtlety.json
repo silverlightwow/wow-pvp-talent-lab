@@ -3025,7 +3025,7 @@
           "effect_text": "Apply Aura: Mod Total Health Regen %",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
+          "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 5.0,
@@ -10990,7 +10990,7 @@
     "external": []
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-30T07:11:01.444345+00:00",
+  "generated_at": "2026-09-30T11:46:10.754166+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 19,

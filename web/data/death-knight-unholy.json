@@ -2798,14 +2798,74 @@
         ]
       },
       "pve_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
-      "pvp_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "When you fall below 30% health you drain (122.4% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 45,
+          "old_token": "120",
+          "new_token": "122.4",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "120",
+          "new": "122.4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 374598,
+          "source_spell_id": 374606,
+          "effect_index": 1,
+          "effect_text": "Drain Health (AP mod: 1.2 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.02,
+          "final_pvp_multiplier": 1.02,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            374598,
+            374606
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256918,
+              "game_effect_id": 1264672,
+              "amount_kind": "direct",
+              "value_pct": 2.0,
+              "factor": 1.02,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -3538,6 +3598,26 @@
           "effect_indexes": [
             1
           ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 25.3568,
+          "new": 24.622467072,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 54.8887,
+          "new": 42.885639084,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "184.5",
@@ -3669,7 +3749,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 3,
       "rank_tooltips": []
     },
     {
@@ -10767,11 +10847,11 @@
     "external": []
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-30T06:55:50.647772+00:00",
+  "generated_at": "2026-09-30T11:33:35.548100+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 22,
-    "talents_with_pvp_mechanics": 29,
+    "changed_tooltips": 23,
+    "talents_with_pvp_mechanics": 30,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",
     "simc_build": "12.1.0.69933",

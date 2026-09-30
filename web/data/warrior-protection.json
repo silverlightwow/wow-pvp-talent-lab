@@ -6009,7 +6009,18 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 24.246599999999997,
+          "new": 41.21921999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6053,7 +6064,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -11446,7 +11457,7 @@
     "external": []
   },
   "slug": "warrior-protection",
-  "generated_at": "2026-09-30T07:14:47.447627+00:00",
+  "generated_at": "2026-09-30T11:51:03.711729+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
