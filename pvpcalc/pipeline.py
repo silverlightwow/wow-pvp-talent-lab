@@ -1365,6 +1365,8 @@ def _infer_amount_kind(
         or "periodic heal" in text
         or "periodic healing" in text
         or "periodic leech" in text
+        or "periodic health leech" in text
+        or "periodically leech health" in text
     ):
         return "periodic"
 

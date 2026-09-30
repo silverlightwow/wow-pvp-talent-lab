@@ -17,13 +17,17 @@ from pvpcalc.sources.simc import SimcDump, SimcSpell, effect_for_spell
         (1261153, "Apply Aura (6) | Periodic Damage (3): shadow every 1 seconds",
          "Apply Aura: Periodic Damage", 2.6325, 1.0, "periodic", "EMBEDDED",
          "Deals (1053% of Spell Power) damage over 4 sec.", "1400.49%"),
+        (335467, "Apply Aura (6) | Periodic Health Leech (53): every 2 seconds",
+         "Apply Aura: Periodically Leech Health", 2.61625, 0.87,
+         "periodic", "REFERENCED",
+         "Deals (261.625% of Spell Power) damage.", "302.7263%"),
     ],
 )
 def test_output_and_aura_are_independent_of_wowhead_availability(
     spell_id, simc_label, wowhead_label, coefficient, multiplier,
     kind, dependency, tooltip, expected,
 ):
-    # Real source representations of Dark Harvest and Malefic Grasp. Their
+    # Real source representations of direct, periodic and leech outputs. Their
     # IDs exist only in this regression fixture; production has no exceptions.
     dump = SimcDump(
         class_slug="warlock", build="12.1.0.69933", header="test", edges={},
@@ -87,6 +91,8 @@ def test_output_and_aura_are_independent_of_wowhead_availability(
     ("Drain Health", "direct"),
     ("Health Leech (9)", "direct"),
     ("Apply Aura: Periodic Leech", "periodic"),
+    ("Apply Aura (6) | Periodic Health Leech (53)", "periodic"),
+    ("Apply Aura: Periodically Leech Health", "periodic"),
     ("Apply Aura: Modifies Periodic Damage/Healing Done", None),
 ])
 def test_output_aliases_do_not_turn_modifier_parameters_into_output(text, kind):
