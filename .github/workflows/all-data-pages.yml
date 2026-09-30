@@ -178,6 +178,7 @@ jobs:
           WOW_PVP_SOURCE_SNAPSHOT: .sources
           WOW_PVP_SIMC_REF: ${{ needs.discover.outputs.simc_ref }}
         run: |
+          set -o pipefail
           python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 --verify-replay 2>&1 | tee build.log
       - name: Preserve specialization diagnostics
         if: always()

@@ -2424,6 +2424,52 @@ def _build_tuple(
     )
 
 
+def _nether_pvp_branch_observations(payload: dict, spell_id: int, simc_dump) -> list:
+    """Corroborate scalar effects using the explicit PvP Rules Enabled branch.
+
+    Nether is not a SpellEffect table. Only an exact $sN reference in both
+    branches of the client description can link its rendered values to an
+    effect. Unrecognized expressions, other conditions and conflicts stay open.
+    134735 is the game's global PvP Rules Enabled condition.
+    """
+    spell = simc_dump.spells.get(spell_id)
+    if spell is None:
+        return []
+    conditions = re.findall(
+        r"\$\?a134735\[\$s(\d+)% (increased|reduced)\]"
+        r"\[\$s\1% (increased|reduced)\]", spell.raw,
+    )
+    variants = (payload.get("spells") or {}).get("134735", [])
+    if len(conditions) != len(variants):
+        return []
+    observations = []
+    effects = simc.parse_spell_effects(spell)
+    for (index, pvp_direction, pve_direction), values in zip(conditions, variants):
+        if not isinstance(values, list) or len(values) < 2:
+            continue
+        pve = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)% (increased|reduced)", str(values[0]))
+        pvp = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)% (increased|reduced)", str(values[1]))
+        effect = effects.get(int(index))
+        if (not pve or not pvp or effect is None or not effect.base_value
+                or effect.sp_coefficient or effect.ap_coefficient
+                or effect.pvp_coefficient is None
+                or pve[2] != pve_direction or pvp[2] != pvp_direction
+                or not multipliers_close(float(pve[1]), abs(effect.base_value))):
+            continue
+        signed = float(pvp[1]) * (-1 if pvp[2] == "reduced" else 1)
+        multiplier = signed / effect.base_value
+        if not multipliers_close(multiplier, effect.pvp_coefficient):
+            continue
+        observations.append(EffectObservation(
+            source="wowhead_nether", spell_id=spell_id, spell_name=spell.name,
+            effect_index=int(index), base_value=effect.base_value,
+            pvp_multiplier=multiplier, effect_text=effect.effect_text,
+            patch=None, url=wowhead.NETHER_BASE.format(spell_id=spell_id),
+            raw=json.dumps(payload),
+        ))
+    return observations
+
+
 def _build_generated_simc_fallback_rows(
     *,
     spell_ids: set[int],
@@ -2431,6 +2477,7 @@ def _build_generated_simc_fallback_rows(
     drustvar_by_spell: dict[int, list],
     generated_effects_by_spell: dict[int, dict],
     simc_dump,
+    nether_by_spell: dict[int, list] | None = None,
 ) -> tuple[list[dict], set[int]]:
     """
     Resolve Wowhead gaps from SimC's exact generated SpellEffect table.
@@ -2443,7 +2490,7 @@ def _build_generated_simc_fallback_rows(
 
     A conflicting Drustvar value is accepted as stale only when:
       * its build is explicitly older than the exact SimC build; and
-      * effect semantics form a unique mutual-best match.
+      * effect identity (when provided) or semantics form a unique mutual-best match.
 
     The stale observation is retained as source provenance.
     """
@@ -2587,10 +2634,16 @@ def _build_generated_simc_fallback_rows(
             for dr_index, dr in enumerate(
                 dr_effects
             ):
-                score = semantic_score(
-                    exact,
-                    dr,
-                )
+                game_id = _game_effect_id(dr)
+                exact_id = generated_effects_by_spell[spell_id][exact.effect_index].game_effect_id
+                # Concrete SpellEffect identity is stronger than display labels.
+                # Coefficient agreement/staleness is still checked below.
+                if game_id is not None:
+                    if game_id != exact_id:
+                        continue
+                    score = 1000.0
+                else:
+                    score = semantic_score(exact, dr)
 
                 if score > 0:
                     candidates.append(
@@ -2781,6 +2834,19 @@ def _build_generated_simc_fallback_rows(
                 < current_build
             )
 
+            nether_agrees = (
+                not agrees
+                and dr_build == current_build
+                and not _drustvar_is_hotfixed(dr)
+                and _game_effect_id(dr) == exact_effect.game_effect_id
+                and any(
+                    wh.effect_index == observation.effect_index
+                    and multipliers_close(wh.pvp_multiplier, exact_multiplier)
+                    for wh in (nether_by_spell or {}).get(spell_id, [])
+                )
+            )
+            stale = stale or nether_agrees
+
             if not (
                 agrees
                 or stale
@@ -2806,15 +2872,16 @@ def _build_generated_simc_fallback_rows(
                 else exact_effect.base_value
             )
 
-            effect_text = (
-                _simc_effect_text_for_renderer(
-                    exact_effect
-                )
-            )
+            # Preserve the proven human-readable label used for matching.
+            # A generic Aura Type label would lose hidden-modifier semantics.
+            effect_text = observation.effect_text
 
             sources = [
                 "simc_generated",
             ]
+
+            if nether_agrees:
+                sources.append("wowhead_nether")
 
             if agrees:
                 sources.append(
@@ -2842,7 +2909,7 @@ def _build_generated_simc_fallback_rows(
                             effect_text,
                         "resolved_by": [
                             "simc_generated_exact_build",
-                        ],
+                        ] + (["wowhead_nether_pvp_branch"] if nether_agrees else []),
                     }
                 )
 
@@ -2923,14 +2990,17 @@ def _build_generated_simc_fallback_rows(
                         [],
                     "match_reason":
                         (
-                            "simc_generated_exact_build"
+                            "simc_generated_exact_identity"
+                            if agrees and _game_effect_id(dr) == exact_effect.game_effect_id
+                            and exact_effect.game_effect_id is not None
+                            else "simc_generated_exact_build"
                             if agrees
                             else
                             "simc_generated_exact_build_"
                             "stale_drustvar"
                         ),
                     "semantic_score":
-                        pair["score"],
+                        semantic_score(observation, dr),
                     "wowhead_multiplier":
                         None,
                     "simc_multiplier":
@@ -4802,6 +4872,7 @@ async def audit_spec(
             direct_simc_fallback_rows
         )
 
+    if direct_simc_resolved_ids:
         result.unresolved_rows = [
             item
             for item
