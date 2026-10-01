@@ -10498,6 +10498,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 204268,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204268'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 210689,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=210689'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11614,7 +11619,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-10-01T07:20:15.711283+00:00",
+  "generated_at": "2026-10-01T19:16:33.878311+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 21,
@@ -11627,11 +11632,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 114,
+    "source_warning_count": 115,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 204268,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204268'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 210689,
@@ -11651,11 +11661,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 273221,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=273221'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 318038,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=318038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11663,8 +11668,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
-    "captured_at": "2026-10-01T06:55:32.624041+00:00",
+    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
+    "captured_at": "2026-10-01T18:52:23.789157+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "01f861fc6a6213dadd0bd2535ed32ddfae05e0f6d9d7fc0291e8876a25bef210"
   },

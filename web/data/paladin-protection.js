@@ -2848,7 +2848,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204054,
           "source_spell_id": 204054,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Effect #2's Value (12)",
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 2 (12)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": null,
@@ -2860,19 +2860,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
-          "source_notes": [
-            {
-              "reason": "SIMC_EXACT_BUILD_HOTFIX",
-              "previous_multiplier": 1.0,
-              "current_multiplier": 0.4,
-              "build": "12.1.0.69933",
-              "effect_index": 2
-            }
-          ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -5372,7 +5363,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204019,
           "source_spell_id": 204301,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (AP mod: 0.325)",
+          "effect_text": "School Damage (Holy) (AP mod: 0.325 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5399,11 +5390,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8483,16 +8473,6 @@ window.WOW_PVP_DATA = {
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 58,
-          "end": 60,
-          "old_token": "40",
-          "new_token": "26.664",
-          "kind": "percent_value",
-          "effect_indexes": [
-            2
-          ]
-        },
-        {
           "start": 33,
           "end": 35,
           "old_token": "50",
@@ -8500,6 +8480,16 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "effect_indexes": [
             1
+          ]
+        },
+        {
+          "start": 58,
+          "end": 60,
+          "old_token": "40",
+          "new_token": "26.664",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
           ]
         }
       ],
@@ -8532,35 +8522,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": null,
           "talent_spell_id": 204074,
           "source_spell_id": 204074,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Duration (1)",
-          "base_value": -40.0,
-          "spell_pvp_multiplier": 0.6666,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6666,
-          "final_pvp_value": -26.663999999999998,
-          "is_final_pvp_modified": true,
-          "dependency_path": [],
-          "dependency_relations": [],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null,
-          "effect_origin": "DIRECT",
-          "dependency_kind": null,
-          "talent_spell_id": 204074,
-          "source_spell_id": 204074,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Cooldown (11)",
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6666,
           "amount_kind": null,
@@ -8572,9 +8535,36 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 204074,
+          "source_spell_id": 204074,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
+          "base_value": -40.0,
+          "spell_pvp_multiplier": 0.6666,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6666,
+          "final_pvp_value": -26.663999999999998,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12003,23 +11993,13 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 204018,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204018'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 204019,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204019'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 204023,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204023'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 204074,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204074'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 204077,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204077'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 204054,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204054'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12620,11 +12600,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1301732,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1301732'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 204301,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204301'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13266,7 +13241,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "paladin-protection",
-  "generated_at": "2026-10-01T07:18:51.863323+00:00",
+  "generated_at": "2026-10-01T19:15:06.545378+00:00",
   "validation": {
     "talents": 144,
     "changed_tooltips": 26,
@@ -13279,35 +13254,35 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 144,
+    "source_warning_count": 141,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 204018,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204018'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 204019,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204019'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 204023,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204023'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 204074,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204074'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 204077,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204077'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 204054,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204054'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
         "spell_id": 209389,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=209389'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 213644,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=213644'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 223817,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=223817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -13315,8 +13290,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
-    "captured_at": "2026-10-01T06:55:32.624041+00:00",
+    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
+    "captured_at": "2026-10-01T18:52:23.789157+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "b06f5f2588c43e7eefb3ed5f4c1795fee1dfd77185fc8a21cdf05bf55bcc5d70"
   },
@@ -14356,25 +14331,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
-          102430,
-          204019,
-          204301,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.76,
-          "final_pvp_multiplier": 0.76,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.325
-        }
-      },
-      {
-        "key": [
-          "talents",
           102437,
           378285,
           378286,
@@ -15285,6 +15241,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "3f209959b637d5575f987cceebedbf7a8cbdb238041f7904d15be91ac61ed486"
+    "independent_hash": "b073c48b1aaa59f9b7281abfb8b7875931511cf17b1e5fa78448a7910cb8243f"
   }
 };

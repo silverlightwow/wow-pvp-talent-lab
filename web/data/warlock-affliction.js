@@ -5285,7 +5285,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 205180,
           "source_spell_id": 205231,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 4.87044)",
+          "effect_text": "School Damage (Shadow) (SP mod: 4.87044)",
           "base_value": null,
           "spell_pvp_multiplier": 0.370371,
           "amount_kind": "direct",
@@ -5302,9 +5302,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10713,11 +10713,6 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 205180,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205180'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 219272,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=219272'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11240,11 +11235,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1312998,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1312998'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 205231,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205231'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -11919,7 +11909,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-10-01T07:20:48.418888+00:00",
+  "generated_at": "2026-10-01T19:17:08.674023+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 30,
@@ -11932,16 +11922,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 130,
+    "source_warning_count": 128,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 205180,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205180'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 219272,
@@ -11961,6 +11946,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 268358,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=268358'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 288843,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=288843'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11968,8 +11958,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
-    "captured_at": "2026-10-01T06:55:32.624041+00:00",
+    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
+    "captured_at": "2026-10-01T18:52:23.789157+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "029391a1cf74cd02996964341bbef21227da7baffb29943f653cdae799ec559d"
   },

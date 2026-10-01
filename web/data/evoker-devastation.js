@@ -11062,7 +11062,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "evoker-devastation",
-  "generated_at": "2026-10-01T07:16:39.956105+00:00",
+  "generated_at": "2026-10-01T19:12:56.389579+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 15,
@@ -11111,8 +11111,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
-    "captured_at": "2026-10-01T06:55:32.624041+00:00",
+    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
+    "captured_at": "2026-10-01T18:52:23.789157+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "e75f3457156098c5ba53028a3ba45e4c4277337aba5cdfa811da5f9dfdb5b0ac"
   },
