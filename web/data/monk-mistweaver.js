@@ -14363,7 +14363,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "monk-mistweaver",
-  "generated_at": "2026-10-01T01:17:45.239822+00:00",
+  "generated_at": "2026-10-01T07:18:08.796518+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 36,
@@ -14412,8 +14412,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
-    "captured_at": "2026-10-01T00:55:23.845855+00:00",
+    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
+    "captured_at": "2026-10-01T06:55:32.624041+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "49683fcd5841d047b45c25727783a80c2f98207dce35a44b5d86cea848f02ccf"
   },

@@ -13668,7 +13668,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "druid-feral",
-  "generated_at": "2026-10-01T01:15:19.468085+00:00",
+  "generated_at": "2026-10-01T07:16:02.778598+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 22,
@@ -13717,8 +13717,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
-    "captured_at": "2026-10-01T00:55:23.845855+00:00",
+    "snapshot_hash": "771c518f4a16725eeb6989c86086a390a1087691df65f6d62aeaaf65168ab0c1",
+    "captured_at": "2026-10-01T06:55:32.624041+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "9d07238490320c975da23d6b16d4eecb84c81a13d0d8024d91ec86cea3b67989"
   },
