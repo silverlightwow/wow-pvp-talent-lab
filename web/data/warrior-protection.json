@@ -1454,7 +1454,7 @@
           "talent_spell_id": 202163,
           "source_spell_id": 202164,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Increase Speed% (31)",
+          "effect_text": "Apply Aura: Increase Run Speed %",
           "base_value": 70.0,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": null,
@@ -1471,9 +1471,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11110,16 +11110,6 @@
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 202743,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202743'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 203201,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=203201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 228920,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=228920'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11607,11 +11597,6 @@
       "source": "wowhead",
       "spell_id": 1280961,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1280961'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 202164,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202164'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12280,7 +12265,7 @@
     "external": []
   },
   "slug": "warrior-protection",
-  "generated_at": "2026-09-30T21:06:23.284514+00:00",
+  "generated_at": "2026-10-01T01:20:52.236894+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -12293,21 +12278,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 125,
+    "source_warning_count": 122,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 202743,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202743'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 203201,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=203201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 228920,
@@ -12322,6 +12297,16 @@
         "source": "wowhead",
         "spell_id": 262231,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=262231'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 275334,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=275334'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 275336,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=275336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -12329,10 +12314,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
-    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
+    "captured_at": "2026-10-01T00:55:23.845855+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "f228adead2ac933acce7c4cc62e406674778d466e83001e4729750672ac3b435"
+    "evidence_hash": "d7a357301acb640f692ced6df8d09a93849ecf4aba295d3a14f3a41d0f478f11"
   },
   "coverage": {
     "schema": 1,

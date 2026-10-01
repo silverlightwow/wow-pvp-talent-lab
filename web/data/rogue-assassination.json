@@ -715,7 +715,7 @@
           "talent_spell_id": 200733,
           "source_spell_id": 200733,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Duration (1)",
+          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -727,9 +727,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10483,11 +10483,6 @@
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 200733,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=200733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 231691,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=231691'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11713,7 +11708,7 @@
     "external": []
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-30T21:04:20.703303+00:00",
+  "generated_at": "2026-10-01T01:19:07.706555+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,
@@ -11726,16 +11721,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 131,
+    "source_warning_count": 130,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 200733,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=200733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 231691,
@@ -11755,6 +11745,11 @@
         "source": "wowhead",
         "spell_id": 280716,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=280716'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 319066,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=319066'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11762,10 +11757,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
-    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
+    "captured_at": "2026-10-01T00:55:23.845855+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "1e785601f276829225a7951c460543af56e9c2d1b2d5fd11b4f3531eedf880e9"
+    "evidence_hash": "c8bdb7ed3b268ee4a3f71d056e5d9dc1020deb14e453efe97a3b652d931412f9"
   },
   "coverage": {
     "schema": 1,

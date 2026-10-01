@@ -1798,7 +1798,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204909,
           "source_spell_id": 204909,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Leech %",
+          "effect_text": "Apply Aura (6) | Modify Leech% (443)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.833333,
           "amount_kind": null,
@@ -1810,9 +1810,9 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1825,7 +1825,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204909,
           "source_spell_id": 204909,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.833333,
           "amount_kind": null,
@@ -1837,9 +1837,9 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9787,6 +9787,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 204909,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204909'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 207684,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207684'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11012,7 +11017,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-30T20:59:50.829511+00:00",
+  "generated_at": "2026-10-01T01:14:18.307006+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 23,
@@ -11025,11 +11030,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 136,
+    "source_warning_count": 137,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 204909,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204909'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 207684,
@@ -11049,11 +11059,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 278326,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=278326'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 320313,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=320313'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11061,10 +11066,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
-    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
+    "captured_at": "2026-10-01T00:55:23.845855+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "67c5ed9fa3f8af46755c354d8977caa694617bcecccaaefb44fd9006ba11ab36"
+    "evidence_hash": "294d5c6c0ace78ca806617e8458735ee812f3124e13e930a6e71cb08c219333b"
   },
   "coverage": {
     "schema": 1,

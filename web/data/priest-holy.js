@@ -11790,7 +11790,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-holy",
-  "generated_at": "2026-09-30T21:03:51.526316+00:00",
+  "generated_at": "2026-10-01T01:18:44.472924+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 21,
@@ -11839,10 +11839,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
-    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
+    "captured_at": "2026-10-01T00:55:23.845855+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "2134358f35cef3f6e49443d5704fdf7cab4fcdc30dbc6535cb7dc43fb4c73d51"
+    "evidence_hash": "15d51ae378be79a3c31cac64823be8e921621eb42bb65690e1aeffc35bf966ea"
   },
   "coverage": {
     "schema": 1,

@@ -5285,7 +5285,7 @@
           "talent_spell_id": 205180,
           "source_spell_id": 205231,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 4.87044)",
+          "effect_text": "School Damage (2): shadow | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 4.87044)",
           "base_value": null,
           "spell_pvp_multiplier": 0.370371,
           "amount_kind": "direct",
@@ -5302,9 +5302,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11238,6 +11238,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 205231,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205231'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 387626,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387626'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11909,7 +11914,7 @@
     "external": []
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-30T21:05:23.600743+00:00",
+  "generated_at": "2026-10-01T01:20:03.990772+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 30,
@@ -11922,7 +11927,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 128,
+    "source_warning_count": 129,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -11958,10 +11963,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "08fe97f0221a2680b8ba754cac14d821c768a38a588c39e3fe18f8461757b820",
-    "captured_at": "2026-09-30T20:40:41.925131+00:00",
+    "snapshot_hash": "941a830724a040ae6fc4bd6ba1dc137895a9ff2611dc02ee54befb7b910ce261",
+    "captured_at": "2026-10-01T00:55:23.845855+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "aaf767577e9062c6621170cac6277567305f80f3de5d080bddf3e9448777eef2"
+    "evidence_hash": "029391a1cf74cd02996964341bbef21227da7baffb29943f653cdae799ec559d"
   },
   "coverage": {
     "schema": 1,
