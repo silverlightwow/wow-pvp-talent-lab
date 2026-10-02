@@ -11650,7 +11650,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-10-02T13:14:34.651283+00:00",
+  "generated_at": "2026-10-02T19:13:08.253751+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,
@@ -11699,8 +11699,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "17bd04cd8ff4f4ee7e664712396902fde4b24ad8154736e5539f86a09974e121",
-    "captured_at": "2026-10-02T12:54:26.775993+00:00",
+    "snapshot_hash": "dd218332fbf6017808abf4c82be205550ff867c264c266693238d43ad9166472",
+    "captured_at": "2026-10-02T18:52:07.519747+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "43ae5919b184e4a88ef3e9ca8772fb9b33c211dc375683e831b8e234f7b63491"
   },

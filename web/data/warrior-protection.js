@@ -12265,7 +12265,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-protection",
-  "generated_at": "2026-10-02T13:19:57.084905+00:00",
+  "generated_at": "2026-10-02T19:18:20.726014+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -12314,8 +12314,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "17bd04cd8ff4f4ee7e664712396902fde4b24ad8154736e5539f86a09974e121",
-    "captured_at": "2026-10-02T12:54:26.775993+00:00",
+    "snapshot_hash": "dd218332fbf6017808abf4c82be205550ff867c264c266693238d43ad9166472",
+    "captured_at": "2026-10-02T18:52:07.519747+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "1da2d7bd288220f852a68f0134c65507652fe66c7700c3daf8c4f3c1b53595db"
   },

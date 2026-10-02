@@ -13413,7 +13413,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-02T13:16:36.255948+00:00",
+  "generated_at": "2026-10-02T19:15:16.402376+00:00",
   "validation": {
     "talents": 148,
     "changed_tooltips": 30,
@@ -13462,8 +13462,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "17bd04cd8ff4f4ee7e664712396902fde4b24ad8154736e5539f86a09974e121",
-    "captured_at": "2026-10-02T12:54:26.775993+00:00",
+    "snapshot_hash": "dd218332fbf6017808abf4c82be205550ff867c264c266693238d43ad9166472",
+    "captured_at": "2026-10-02T18:52:07.519747+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "09604080f53ab64ab87d57e88b90706f117e668ea85f7b0d883fe20214b306d3"
   },
