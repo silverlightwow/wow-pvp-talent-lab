@@ -12784,7 +12784,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-10-02T08:57:25.254077+00:00",
+  "generated_at": "2026-10-02T09:59:08.734839+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 22,
@@ -12833,8 +12833,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "42b4f1f9b8ac35a2ff6d48416ad4d23472c5144e093545a3ee8b81cc76eef74e",
-    "captured_at": "2026-10-02T08:37:10.920251+00:00",
+    "snapshot_hash": "5e5a2e1d47dddb8c7f1fc6c72f7f3cab996e624e59ae6efc4668eceeec7b393d",
+    "captured_at": "2026-10-02T09:38:32.152056+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "713d47589317c0a6250f285e956e48eaa84c3736b929b6b975b7639830b0bd14"
   },
