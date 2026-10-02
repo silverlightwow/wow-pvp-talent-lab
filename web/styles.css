@@ -2900,10 +2900,12 @@ img.icon-fallback-local {
 
 
 
-/* v18: simplified icon artwork is already composed as a square. */
+/* Transparent arcane rune; no tile or rectangular shadow. */
 .brand-mark {
     display: block;
     object-fit: contain;
     object-position: center;
     background: transparent;
+    border-radius: 0;
+    box-shadow: none;
 }
