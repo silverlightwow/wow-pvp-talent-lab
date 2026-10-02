@@ -6,6 +6,6 @@
     "test:smoke": "node --check web/app.js && node scripts/loadout_check.cjs && node scripts/build_browser_check.cjs && node scripts/ui_refinements_check.cjs && node scripts/brand_icon_check.cjs && node scripts/change_direction_check.cjs && node scripts/presentation_browser_check.cjs && node --check web/service-worker.js"
   },
   "devDependencies": {
-    "playwright": "1.62.1"
+    "playwright": "1.63.0"
   }
 }
