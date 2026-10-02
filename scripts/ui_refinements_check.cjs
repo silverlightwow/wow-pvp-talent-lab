@@ -88,8 +88,14 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   const frame=page.frameLocator('#docsFrame');await frame.locator('#spec-aura').waitFor();
   assert.equal(await frame.locator('a[href^="https://"]:not([target="_blank"])').count(),0);
   const before=page.url();const iframeUrl=await page.locator('#docsFrame').getAttribute('src');
-  const popupEvent=page.waitForEvent('popup');await frame.locator('a[href^="https://github.com/"]').first().click();
-  const popup=await popupEvent;await popup.close();assert.equal(page.url(),before);assert.equal(await page.locator('#docsFrame').getAttribute('src'),iframeUrl);
+  const externalLink=frame.locator('a[href^="https://github.com/"]').first();
+  const externalHref=await externalLink.getAttribute('href');
+  // The UI must open the right tab even when the external server is slow.
+  // Context routing also handles the popup's initial navigation request.
+  await page.context().route(externalHref,r=>r.fulfill({status:200,contentType:'text/html',body:'<!doctype html><title>External link test</title>'}));
+  const [popup]=await Promise.all([page.waitForEvent('popup'),externalLink.click()]);
+  await popup.waitForURL(externalHref);assert.equal(popup.url(),externalHref);
+  await popup.close();assert.equal(page.url(),before);assert.equal(await page.locator('#docsFrame').getAttribute('src'),iframeUrl);
   await page.locator('#docsDialog [data-close-dialog]').click();assert.ok(await description.isVisible());
   await page.close();console.log(`UI refinements passed at ${width}px`);
  }assert.deepEqual(errors,[]);}finally{await browser.close();}
