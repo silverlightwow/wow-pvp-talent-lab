@@ -509,7 +509,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 202168,
           "source_spell_id": 202166,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 30.0,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": "direct",
@@ -526,9 +526,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10409,11 +10409,6 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 203201,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=203201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 208154,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=208154'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -10896,11 +10891,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1300463,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1300463'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 202166,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202166'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -11534,7 +11524,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-10-01T19:17:56.403880+00:00",
+  "generated_at": "2026-10-02T01:20:31.584578+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 25,
@@ -11547,16 +11537,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 116,
+    "source_warning_count": 114,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 203201,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=203201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 208154,
@@ -11576,6 +11561,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 262231,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=262231'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 275336,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=275336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11583,10 +11573,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
-    "captured_at": "2026-10-01T18:52:23.789157+00:00",
+    "snapshot_hash": "3843869d4b1984ec8bab9b248f6fc55799338131aaf8e5fdbc80e5190db0faf4",
+    "captured_at": "2026-10-02T00:53:42.048815+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "d7a357301acb640f692ced6df8d09a93849ecf4aba295d3a14f3a41d0f478f11"
+    "evidence_hash": "1da2d7bd288220f852a68f0134c65507652fe66c7700c3daf8c4f3c1b53595db"
   },
   "coverage": {
     "schema": 1,

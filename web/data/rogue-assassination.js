@@ -11708,7 +11708,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-10-01T19:15:59.976702+00:00",
+  "generated_at": "2026-10-02T01:18:41.262767+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 23,
@@ -11757,10 +11757,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
-    "captured_at": "2026-10-01T18:52:23.789157+00:00",
+    "snapshot_hash": "3843869d4b1984ec8bab9b248f6fc55799338131aaf8e5fdbc80e5190db0faf4",
+    "captured_at": "2026-10-02T00:53:42.048815+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "c8bdb7ed3b268ee4a3f71d056e5d9dc1020deb14e453efe97a3b652d931412f9"
+    "evidence_hash": "7b993cbd5834a01bd03d1998ff2a38d5d2b2ace8d092d4b88df4ca3f6550e09e"
   },
   "coverage": {
     "schema": 1,

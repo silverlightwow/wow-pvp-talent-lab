@@ -12092,7 +12092,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-10-01T19:16:56.978909+00:00",
+  "generated_at": "2026-10-02T01:19:51.741811+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 27,
@@ -12141,10 +12141,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
-    "captured_at": "2026-10-01T18:52:23.789157+00:00",
+    "snapshot_hash": "3843869d4b1984ec8bab9b248f6fc55799338131aaf8e5fdbc80e5190db0faf4",
+    "captured_at": "2026-10-02T00:53:42.048815+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "01f861fc6a6213dadd0bd2535ed32ddfae05e0f6d9d7fc0291e8876a25bef210"
+    "evidence_hash": "f61433df6fcfbd9eb426ea70c5bb9e0bae071c272f4c6154790cfdf2495e34b7"
   },
   "coverage": {
     "schema": 1,

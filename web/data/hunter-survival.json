@@ -3743,13 +3743,13 @@
         },
         {
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.20988,
+          "simc_ap_coefficient": 0.252,
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 259495,
           "source_spell_id": 269747,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds (AP mod: 0.20988)",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 1 seconds (AP mod: 0.252)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11372,7 +11372,7 @@
     "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-10-01T19:13:43.594864+00:00",
+  "generated_at": "2026-10-02T01:17:05.773851+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,
@@ -11421,10 +11421,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9d4c8deab80e6f91d596055a1dc893a7bbfa7429dce94ed4a0dba8d135c33bb8",
-    "captured_at": "2026-10-01T18:52:23.789157+00:00",
+    "snapshot_hash": "3843869d4b1984ec8bab9b248f6fc55799338131aaf8e5fdbc80e5190db0faf4",
+    "captured_at": "2026-10-02T00:53:42.048815+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "59a89f1ff933cd1adbf81d23ce5bfb06133a140911a554ecc2fd18b2b799b7ab"
+    "evidence_hash": "11e54b420bf909199b151f396f54dca160037334b378dde019c490bcc9eae7bf"
   },
   "coverage": {
     "schema": 1,
@@ -11731,7 +11731,7 @@
           "final_pvp_multiplier": 1.01,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.20988
+          "simc_ap_coefficient": 0.252
         }
       },
       {
@@ -12077,7 +12077,7 @@
         }
       }
     ],
-    "semantic_hash": "3511ba3bb7190d82fa5d9e8db24011423a01f96bb3a596dd4d7bbcf11cc3a5ad",
+    "semantic_hash": "d3a4d02bec5f47265771dc00139571085e400ed0e7c0e342cffa2772979c1a8a",
     "independent_effects": [
       {
         "key": [
@@ -12361,7 +12361,7 @@
           "final_pvp_multiplier": 1.01,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.20988
+          "simc_ap_coefficient": 0.252
         }
       },
       {
@@ -12707,6 +12707,6 @@
         }
       }
     ],
-    "independent_hash": "8f77c6067cc1e79383468a2ed35c8d4f8e695e0cf63a093c290862ce23382154"
+    "independent_hash": "1e5b6b5d0d800e915fe30db8ec7ad5d9128839dc2b8dcaef81875c743d48086c"
   }
 }
