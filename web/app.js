@@ -5068,7 +5068,10 @@
         document.addEventListener("click",event=>{
             const link=event.target.closest('a[href^="docs.html"]');if(!link)return;
             event.preventDefault();hideTooltip();
-            $("#docsFrame").src=link.getAttribute('href').replace('docs.html','docs.html?embedded=1');
+            const docsUrl=new URL(link.getAttribute('href'),location.href);
+            docsUrl.searchParams.set('v','25');
+            docsUrl.searchParams.set('embedded','1');
+            $("#docsFrame").src=docsUrl.href;
             $("#docsDialog").showModal();
         });
         window.addEventListener('message',event=>{

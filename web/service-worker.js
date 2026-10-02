@@ -1,19 +1,26 @@
-const CACHE = "wow-pvp-talent-lab-v30";
+const CACHE = "wow-pvp-talent-lab-v31";
+// A new drawing gets new paths; never reuse a browser's older icon entry.
+const BRAND_ICONS = [
+  "./favicon-v25-32.png",
+  "./favicon-v25-16.png",
+  "./site-icon-v25.svg",
+  "./site-icon-v25-192.png",
+  "./site-icon-v25-512.png"
+];
+const BRAND_URLS = new Set(BRAND_ICONS.map(path => new URL(path, self.location.href).href));
 const CORE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./app.js",
+  "./app.js?v=29",
   "./change-direction.js",
   "./loadout-codec.js",
   "./class-icons.js",
   "./docs.html",
-  "./manifest.json",
-  "./favicon-v23-32.png",
-  "./favicon-v23-16.png",
-  "./site-icon-v23.svg",
-  "./site-icon-v23-192.png",
-  "./site-icon-v23-512.png",
+  "./docs.html?v=25",
+  "./docs.html?v=25&embedded=1",
+  "./manifest.json?v=25",
+  ...BRAND_ICONS,
   "./data/manifest.js",
   "./data/manifest.json",
   "./data/priest-discipline.js",
@@ -44,14 +51,21 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET" || new URL(event.request.url).origin !== self.location.origin) return;
 
   event.respondWith(
-    fetch(event.request, { cache: "no-store" })
-      .then(response => {
-        if (response.ok) {
-          const copy = response.clone();
-          event.waitUntil(caches.open(CACHE).then(cache => cache.put(event.request, copy)));
-        }
+    (async () => {
+      const cache = await caches.open(CACHE);
+      // The versioned rune is immutable. Scrolls and frame focus must not
+      // trigger a network refresh or fall back to a different cache version.
+      if (BRAND_URLS.has(event.request.url)) {
+        const cached = await cache.match(event.request);
+        if (cached) return cached;
+      }
+      try {
+        const response = await fetch(event.request, { cache: "no-store" });
+        if (response.ok) event.waitUntil(cache.put(event.request, response.clone()));
         return response;
-      })
-      .catch(async () => (await caches.match(event.request)) || Response.error())
+      } catch {
+        return (await cache.match(event.request)) || Response.error();
+      }
+    })()
   );
 });
