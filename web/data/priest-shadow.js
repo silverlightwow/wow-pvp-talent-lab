@@ -11332,11 +11332,6 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 205364,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205364'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 213634,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=213634'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12520,7 +12515,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "priest-shadow",
-  "generated_at": "2026-10-02T07:18:31.004788+00:00",
+  "generated_at": "2026-10-02T09:00:38.029672+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 24,
@@ -12533,16 +12528,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 128,
+    "source_warning_count": 127,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 205364,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205364'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 213634,
@@ -12562,6 +12552,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 238558,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=238558'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 263165,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=263165'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -12569,8 +12564,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "ac902c34449b97a78ff43f73f08ffa807050e65062c012b6f757c5dbbbfd8ff8",
-    "captured_at": "2026-10-02T06:54:50.514727+00:00",
+    "snapshot_hash": "42b4f1f9b8ac35a2ff6d48416ad4d23472c5144e093545a3ee8b81cc76eef74e",
+    "captured_at": "2026-10-02T08:37:10.920251+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "a949d4170fcf3ae35a938907235881ec4b060ebaea9e6f5c85f3039b22e05819"
   },
