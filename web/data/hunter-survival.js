@@ -11372,7 +11372,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-10-02T10:00:07.414123+00:00",
+  "generated_at": "2026-10-02T13:15:33.521121+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 21,
@@ -11421,8 +11421,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "5e5a2e1d47dddb8c7f1fc6c72f7f3cab996e624e59ae6efc4668eceeec7b393d",
-    "captured_at": "2026-10-02T09:38:32.152056+00:00",
+    "snapshot_hash": "17bd04cd8ff4f4ee7e664712396902fde4b24ad8154736e5539f86a09974e121",
+    "captured_at": "2026-10-02T12:54:26.775993+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "11e54b420bf909199b151f396f54dca160037334b378dde019c490bcc9eae7bf"
   },

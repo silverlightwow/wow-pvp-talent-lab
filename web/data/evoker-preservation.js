@@ -11199,7 +11199,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-10-02T09:59:37.184813+00:00",
+  "generated_at": "2026-10-02T13:15:09.731365+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 7,
@@ -11248,8 +11248,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "5e5a2e1d47dddb8c7f1fc6c72f7f3cab996e624e59ae6efc4668eceeec7b393d",
-    "captured_at": "2026-10-02T09:38:32.152056+00:00",
+    "snapshot_hash": "17bd04cd8ff4f4ee7e664712396902fde4b24ad8154736e5539f86a09974e121",
+    "captured_at": "2026-10-02T12:54:26.775993+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "43ae5919b184e4a88ef3e9ca8772fb9b33c211dc375683e831b8e234f7b63491"
   },
