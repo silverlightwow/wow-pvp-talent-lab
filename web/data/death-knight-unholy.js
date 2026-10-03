@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -76,8 +76,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -241,8 +241,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -299,8 +299,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -361,8 +361,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -423,8 +423,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -485,8 +485,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -546,8 +546,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -697,8 +697,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -779,8 +779,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -839,8 +839,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -899,8 +899,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -981,8 +981,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1041,8 +1041,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1207,8 +1207,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1267,8 +1267,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1329,8 +1329,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1391,8 +1391,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1492,8 +1492,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1554,8 +1554,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1616,8 +1616,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1676,8 +1676,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1739,8 +1739,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1799,8 +1799,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1863,8 +1863,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1923,8 +1923,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -1986,8 +1986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2046,8 +2046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2109,8 +2109,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2172,8 +2172,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2232,8 +2232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2344,8 +2344,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2404,8 +2404,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2466,8 +2466,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2529,8 +2529,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2591,8 +2591,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2651,8 +2651,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2713,8 +2713,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2775,8 +2775,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2898,8 +2898,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -2979,8 +2979,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3041,8 +3041,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3118,7 +3118,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 206967,
           "source_spell_id": 206967,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -3130,9 +3130,9 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3193,8 +3193,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3337,8 +3337,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3396,8 +3396,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3455,8 +3455,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3567,8 +3567,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3796,8 +3796,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3916,8 +3916,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -3977,8 +3977,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4037,8 +4037,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4221,8 +4221,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4320,8 +4320,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4382,8 +4382,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4444,8 +4444,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4506,8 +4506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4568,8 +4568,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4629,8 +4629,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4754,8 +4754,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4816,8 +4816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4937,8 +4937,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -4999,8 +4999,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5101,8 +5101,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5164,8 +5164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5225,8 +5225,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5343,8 +5343,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5453,8 +5453,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5515,8 +5515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5576,8 +5576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5637,8 +5637,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5700,8 +5700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5760,8 +5760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5820,8 +5820,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5883,8 +5883,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -5944,8 +5944,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6007,8 +6007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6070,8 +6070,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6133,8 +6133,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6251,8 +6251,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6331,8 +6331,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6411,8 +6411,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6490,8 +6490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6527,15 +6527,15 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 200% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
-      "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 50% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
+      "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 25% of your plagues around you and deal 200% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 109,
-          "end": 112,
-          "old_token": "200",
-          "new_token": "50",
+          "start": 68,
+          "end": 71,
+          "old_token": "100",
+          "new_token": "25",
           "kind": "ordinary_value",
           "effect_indexes": [
             2
@@ -6549,8 +6549,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": "200",
-          "new": "50"
+          "old": "100",
+          "new": "25"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6564,12 +6564,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1271974,
           "effect_index": 2,
           "effect_text": "Apply Aura (6) | Dummy (4)",
-          "base_value": 200.0,
+          "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.25,
-          "final_pvp_value": 50.0,
+          "final_pvp_value": 25.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6597,8 +6597,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6656,8 +6656,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -6714,8 +6714,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7039,8 +7039,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7114,8 +7114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7170,8 +7170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7338,8 +7338,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7398,8 +7398,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7458,8 +7458,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7518,8 +7518,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7578,8 +7578,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7638,8 +7638,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7698,8 +7698,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7767,8 +7767,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7827,8 +7827,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7887,8 +7887,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -7947,8 +7947,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8007,8 +8007,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8124,8 +8124,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8184,8 +8184,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8244,8 +8244,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8304,8 +8304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8533,8 +8533,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8594,8 +8594,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8820,8 +8820,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8880,8 +8880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -8994,8 +8994,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9054,8 +9054,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9145,8 +9145,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9205,8 +9205,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9343,8 +9343,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9403,8 +9403,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9463,8 +9463,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9647,8 +9647,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9793,8 +9793,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9853,8 +9853,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9913,8 +9913,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -9973,8 +9973,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -10033,8 +10033,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -10093,8 +10093,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-09-29T18:16:11.231Z",
-        "content_hash": "36bfcad0e208cbeff6ad3a466184b3d2",
+        "generated_at": "2026-10-03T00:26:48.710Z",
+        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
         "class_name": "Death Knight",
         "class_id": 6,
         "spec_name": "Unholy",
@@ -10428,6 +10428,16 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 206967,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=206967'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 207104,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207104'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 207167,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -10438,18 +10448,8 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 207269,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207269'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 207272,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207272'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 212552,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=212552'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -11608,7 +11608,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-10-02T19:10:26.439735+00:00",
+  "generated_at": "2026-10-03T07:20:43.872420+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 23,
@@ -11633,6 +11633,16 @@ window.WOW_PVP_DATA = {
       },
       {
         "source": "wowhead",
+        "spell_id": 206967,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=206967'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 207104,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207104'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
         "spell_id": 207167,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
@@ -11640,16 +11650,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 207200,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207200'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 207269,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207269'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 207272,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207272'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11657,10 +11657,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "dd218332fbf6017808abf4c82be205550ff867c264c266693238d43ad9166472",
-    "captured_at": "2026-10-02T18:52:07.519747+00:00",
+    "snapshot_hash": "120c932d1556cbb7a4378cef05fa65894c8ef3234fb9b5f8cd4a524d321eebb4",
+    "captured_at": "2026-10-03T07:02:11.971125+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "3e9fe7fc87efbfd244cd45908ba37eef1c99a8ef92fdb797e37fe8bade6cdb9a"
+    "evidence_hash": "667ee11ea12875a005ad437a475a575b6418257d48818a441de816da61e11b6b"
   },
   "coverage": {
     "schema": 1,
@@ -11904,11 +11904,11 @@ window.WOW_PVP_DATA = {
         ],
         "amount_kind": null,
         "values": {
-          "base_value": 200.0,
+          "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.25,
-          "final_pvp_value": 50.0,
+          "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null
         }
@@ -12617,7 +12617,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "ff87472a3406b82cdcdef33e1917cd02cc67ced890195d58f329a00450353e25",
+    "semantic_hash": "a095ca58075d3ca1f794a15491b12db8a986a4c7f4b0cd9f9f37cf5f38e5240f",
     "independent_effects": [
       {
         "key": [
@@ -12857,11 +12857,11 @@ window.WOW_PVP_DATA = {
         ],
         "amount_kind": null,
         "values": {
-          "base_value": 200.0,
+          "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.25,
-          "final_pvp_value": 50.0,
+          "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null
         }
@@ -13532,6 +13532,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "7dcc87e715b5e42e2fc071e4c946a39a49d30031fe1e3859900d022d1eaee47a"
+    "independent_hash": "266f55936953f0321fbb0c5a82ba169176aa387ede7440f3edfb552722810854"
   }
 };
