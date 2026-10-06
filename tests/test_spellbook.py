@@ -57,6 +57,24 @@ def test_absent_spell_and_hidden_spec_auras_are_explicitly_distinguished():
     assert [r['spell_id'] for r in unavailable] == [101]
 
 
+def test_passive_class_spellbook_effects_are_roots_too():
+    text = TABLE + '''static constexpr std::array<passive_class_spell_t, 1> __passive_spells_data { {
+  { 9, 105, "Passive Ability" },
+} };
+'''
+    tables = spellbook.parse_table(text, expected_build='12.1.0.12345')
+    dump = dump_for([spell(i, str(i)) for i in range(100, 106)])
+    roots = spellbook.ability_roots(tables, dump, class_id=9, spec_id=99, talent_spell_ids=set())
+    assert [r['spell_id'] for r in roots] == [101, 105]
+    assert roots[1]['passive'] is True
+    assert not any(r['spell_id'] == 104 for r in roots)  # Pet table is separate.
+    with pytest.raises(ValueError, match='Incomplete'):
+        spellbook.parse_table(text.replace('passive_class_spell_t, 1', 'passive_class_spell_t, 2'), expected_build='12.1.0.12345')
+    with pytest.raises(ValueError, match='Unrecognized'):
+        spellbook.parse_table(text.replace('passive_class_spell_t', 'changed_schema_t'),
+                             expected_build='12.1.0.12345', require_passive=True)
+
+
 @pytest.mark.parametrize('referenced_by_talent', [False, True])
 def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypatch, referenced_by_talent):
     dump = dump_for([

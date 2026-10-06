@@ -10,24 +10,35 @@ from .sources import simc
 TABLES = ('class_spells.inc', 'specialization_spells.inc')
 
 
-def parse_table(text: str, *, expected_build: str) -> list[dict]:
+def parse_table(text: str, *, expected_build: str, require_passive: bool = False) -> list[dict]:
     build = re.search(r'\bwow build (\d+\.\d+\.\d+\.\d+)\b', text)
-    count = re.search(r'std::array<(?:active_class_spell_t|specialization_spell_entry_t), (\d+)>', text)
-    if not build or build[1] != expected_build or not count:
+    arrays = list(re.finditer(r'std::array<(active_class_spell_t|passive_class_spell_t|specialization_spell_entry_t), (\d+)>', text))
+    types = {array[1] for array in arrays}
+    if (not build or build[1] != expected_build
+            or not types.intersection({'active_class_spell_t', 'specialization_spell_entry_t'})
+            or (require_passive and 'passive_class_spell_t' not in types)):
         raise ValueError('Unrecognized or mismatched exact-build spellbook table')
     rows = []
-    for line in text[count.end():].splitlines()[1:]:
-        if line.lstrip().startswith('} };'):
-            break
-        if not re.match(r'\s*\{\s*\d+,', line):
-            continue
-        fields = simc._split_cpp_initializer(line)
-        if len(fields) not in (5, 6):
-            raise ValueError('Unexpected spellbook row schema')
-        rows.append(dict(class_id=int(fields[0]), spec_id=int(fields[1]),
-                         spell_id=int(fields[2]), replaced_spell_id=int(fields[3]),
-                         name=simc._decode_cpp_string_literal(fields[4])))
-    if len(rows) != int(count[1]) or not rows:
+    for array in arrays:
+        table_rows = []
+        passive = array[1] == 'passive_class_spell_t'
+        for line in text[array.end():].splitlines()[1:]:
+            if line.lstrip().startswith('} };'):
+                break
+            if not re.match(r'\s*\{\s*\d+,', line):
+                continue
+            fields = simc._split_cpp_initializer(line)
+            if len(fields) not in ((3,) if passive else (5, 6)):
+                raise ValueError('Unexpected spellbook row schema')
+            table_rows.append(dict(class_id=int(fields[0]), spec_id=0 if passive else int(fields[1]),
+                spell_id=int(fields[1] if passive else fields[2]),
+                replaced_spell_id=0 if passive else int(fields[3]),
+                name=simc._decode_cpp_string_literal(fields[2] if passive else fields[4]),
+                passive=passive))
+        if len(table_rows) != int(array[2]):
+            raise ValueError('Incomplete spellbook table')
+        rows.extend(table_rows)
+    if not rows:
         raise ValueError('Incomplete spellbook table')
     return rows
 
@@ -38,7 +49,8 @@ async def fetch_tables(client, dump) -> list[dict]:
     texts = await asyncio.gather(*[client.get_text(
         f'https://raw.githubusercontent.com/{simc.SIMC_REPO}/{dump.source_ref}/engine/dbc/generated/{name}'
     ) for name in TABLES])
-    return [row for text in texts for row in parse_table(text, expected_build=dump.build)]
+    return [row for name, text in zip(TABLES, texts)
+            for row in parse_table(text, expected_build=dump.build, require_passive=name == 'class_spells.inc')]
 
 
 def ability_roots(tables, dump, *, class_id, spec_id, talent_spell_ids, unavailable=None,
@@ -72,6 +84,6 @@ def ability_roots(tables, dump, *, class_id, spec_id, talent_spell_ids, unavaila
         if 'Hidden' in spell.raw.splitlines()[0] or not simc._player_text_sections(spell.raw):
             continue
         roots.append(dict(spell_id=sid, talent_name=row['name'], tree_type='ability',
-                          entry_type='ability', class_id=class_id, spec_id=spec_id,
+                          entry_type='ability', passive=row.get('passive', False), class_id=class_id, spec_id=spec_id,
                           source='simc_exact_build_spellbook', wow_build=dump.build))
     return roots
