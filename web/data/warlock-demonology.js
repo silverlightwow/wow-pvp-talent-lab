@@ -10951,7 +10951,7 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "slug": "warlock-demonology",
-  "generated_at": "2026-10-03T07:26:44.536694+00:00",
+  "generated_at": "2026-10-06T01:20:38.078468+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 19,
@@ -11000,8 +11000,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "120c932d1556cbb7a4378cef05fa65894c8ef3234fb9b5f8cd4a524d321eebb4",
-    "captured_at": "2026-10-03T07:02:11.971125+00:00",
+    "snapshot_hash": "25fb84b65909f140013c53113f3fa85add036e82eb3eb307d5061f14d884f091",
+    "captured_at": "2026-10-06T00:56:20.679653+00:00",
     "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
     "evidence_hash": "1a4de8c42817eba7a052f4851531504e148c7775846b0d4c556404d96c55df35"
   },
