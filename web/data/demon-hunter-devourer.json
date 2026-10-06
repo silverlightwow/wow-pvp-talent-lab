@@ -85,6 +85,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -92,7 +93,7 @@
           "talent_spell_id": 198793,
           "source_spell_id": 198813,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -109,9 +110,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -198,6 +199,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 2.25,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -381,6 +383,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -388,7 +391,7 @@
           "talent_spell_id": 320635,
           "source_spell_id": 198813,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -405,9 +408,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1113,6 +1116,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1224,6 +1228,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1791,6 +1796,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1818,6 +1824,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2316,6 +2323,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2542,6 +2550,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3074,6 +3083,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3081,7 +3091,7 @@
           "talent_spell_id": 196718,
           "source_spell_id": 209426,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy (127)",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 1.66667,
           "amount_kind": null,
@@ -3098,9 +3108,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3186,6 +3196,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3610,6 +3621,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 0.2025,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4239,6 +4251,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 11.81,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5141,6 +5154,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 2.475,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5353,6 +5367,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -5923,6 +5938,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6038,6 +6054,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6279,6 +6296,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 1.275,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6320,6 +6338,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 6.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6362,6 +6381,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 7.4424,
           "effect_origin": "DEPENDENCY",
@@ -6623,6 +6643,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 5.57,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6667,6 +6688,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 7.163,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6711,6 +6733,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -7017,6 +7040,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
           "effect_origin": "DEPENDENCY",
@@ -7049,6 +7073,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 6.25,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -7173,6 +7198,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -7205,6 +7231,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -7398,6 +7425,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7425,6 +7453,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -8053,6 +8082,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -8262,6 +8292,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 6.25,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8304,6 +8335,7 @@
           "confidence": "high"
         },
         {
+          "display_formulas": [],
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
           "effect_origin": "DEPENDENCY",
@@ -8423,6 +8455,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 1.76,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9135,6 +9168,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 1.76,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9321,6 +9355,7 @@
       "has_pvp_mechanics": true,
       "mechanics": [
         {
+          "display_formulas": [],
           "simc_sp_coefficient": 0.5,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9487,7 +9522,509 @@
       "rank_tooltips": []
     }
   ],
-  "abilities": [],
+  "abilities": [
+    {
+      "talent_name": "Consume",
+      "spell_id": 473662,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 473662,
+        "talent_name": "Consume",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "class_id": 12,
+        "spec_id": 1480,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.0.69933",
+        "icon": "inv_12_dh_void_ability_consume",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_consume"
+        ]
+      },
+      "pve_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (340% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "pvp_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (527.51% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 68,
+          "end": 71,
+          "old_token": "340",
+          "new_token": "527.51",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "percent_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "340",
+          "new": "527.51"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": 3.4,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 473662,
+          "source_spell_id": 473662,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): cosmic (SP mod: 3.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.45,
+          "amount_kind": "direct",
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 1.5515,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256964,
+              "game_effect_id": 1264720,
+              "amount_kind": "direct",
+              "value_pct": 7.0,
+              "factor": 1.07,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 473662,
+          "source_spell_id": 1266301,
+          "effect_index": 1,
+          "effect_text": "Direct Heal% (136)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            473662,
+            1227619,
+            1223412,
+            1266301
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2,
+      "rank_tooltips": []
+    },
+    {
+      "talent_name": "Reap",
+      "spell_id": 1226019,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 1226019,
+        "talent_name": "Reap",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "class_id": 12,
+        "spec_id": 1480,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.0.69933",
+        "icon": "inv_12_dh_void_ability_reap",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_reap"
+        ]
+      },
+      "pve_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (557% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "pvp_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (338.5223% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 156,
+          "end": 159,
+          "old_token": "557",
+          "new_token": "338.5223",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "percent_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 716.3000000000001,
+          "new": 435.33848800000004,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "557",
+          "new": "338.5223"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": 5.57,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1226019,
+          "source_spell_id": 1225827,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): cosmic | Attributes: Area Effects Use Target Radius (17) (SP mod: 5.57)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.568,
+          "amount_kind": "direct",
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1226019,
+            1225827
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256964,
+              "game_effect_id": 1264720,
+              "amount_kind": "direct",
+              "value_pct": 7.0,
+              "factor": 1.07,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1226019,
+          "source_spell_id": 1266301,
+          "effect_index": 1,
+          "effect_text": "Direct Heal% (136)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1226019,
+            1227619,
+            1223412,
+            1266301
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": 7.163,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1226019,
+          "source_spell_id": 1279200,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): cosmic | Attributes: Area Effects Use Target Radius (17) (SP mod: 7.163)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.568,
+          "amount_kind": "direct",
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1226019,
+            1225827,
+            1225826,
+            1279200
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256964,
+              "game_effect_id": 1264720,
+              "amount_kind": "direct",
+              "value_pct": 7.0,
+              "factor": 1.07,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3,
+      "rank_tooltips": []
+    },
+    {
+      "talent_name": "Shattered Souls",
+      "spell_id": 1227619,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 1227619,
+        "talent_name": "Shattered Souls",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "class_id": 12,
+        "spec_id": 1480,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.0.69933",
+        "icon": "inv_12_dh_void_ability_soulfragments",
+        "icon_candidates": [
+          "inv_12_dh_void_ability_soulfragments"
+        ]
+      },
+      "pve_tooltip": "Damaging an enemy has a 4% chance to shatter a lesser soul fragment from them.\nSoul Fragment:\nA fragment of your enemy's soul. Walking into the soul or casting Reap will collect it, granting you 4 Fury and healing you for 1% of your maximum health.",
+      "pvp_tooltip": "Damaging an enemy has a 4% chance to shatter a lesser soul fragment from them.\nSoul Fragment:\nA fragment of your enemy's soul. Walking into the soul or casting Reap will collect it, granting you 4 Fury and healing you for 1% of your maximum health.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1227619,
+          "source_spell_id": 1266301,
+          "effect_index": 1,
+          "effect_text": "Direct Heal% (136)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1227619,
+            1223412,
+            1266301
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 0,
+      "rank_tooltips": []
+    },
+    {
+      "talent_name": "Demonic Wards",
+      "spell_id": 1277736,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 1277736,
+        "talent_name": "Demonic Wards",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "class_id": 12,
+        "spec_id": 1480,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.0.69933",
+        "icon": "inv_belt_leather_demonhunter_a_01",
+        "icon_candidates": [
+          "inv_belt_leather_demonhunter_a_01"
+        ]
+      },
+      "pve_tooltip": "Your tattoos reduce magic damage taken by 10%.",
+      "pvp_tooltip": "Your tattoos reduce magic damage taken by 5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 44,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "10",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 10.0,
+              "new": 5.0,
+              "kind": "percent_value",
+              "expression": "$s1",
+              "source": "simc_exact_build",
+              "build": "12.1.0.69933"
+            }
+          ],
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1277736,
+          "source_spell_id": 1277736,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
+      "rank_tooltips": []
+    }
+  ],
   "fetch_errors": [],
   "serialization": {
     "version": 2,
@@ -9785,6 +10322,21 @@
     ]
   },
   "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 183782,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183782'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 196718,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196718'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 198793,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198793'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "source": "wowhead",
       "spell_id": 204909,
@@ -10377,8 +10929,63 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 183752,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183752'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 185123,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185123'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 185245,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185245'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 196055,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196055'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 198589,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198589'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 198813,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198813'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 203724,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=203724'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 209426,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=209426'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 213405,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=213405'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 255260,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=255260'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 258920,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=258920'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 320364,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=320364'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -10397,8 +11004,18 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 473662,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=473662'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 1213649,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1213649'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1217605,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1217605'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -10412,8 +11029,33 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 1226019,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1226019'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 1227338,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1227338'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1227619,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1227619'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1229376,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1229376'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1234796,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1234796'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1238855,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1238855'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -10447,8 +11089,18 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 1251417,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1251417'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 1256305,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1256305'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1260008,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1260008'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -10464,6 +11116,16 @@
       "source": "wowhead",
       "spell_id": 1266616,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266616'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1277734,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277734'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1277736,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277736'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -11016,9 +11678,51 @@
     "unresolved": [],
     "external": []
   },
+  "spellbook_inventory": {
+    "build": "12.1.0.69933",
+    "source_ref": "cafc27227ec08760cb391d6a798e104435c29a87",
+    "baseline_spell_ids": [
+      131347,
+      183752,
+      185123,
+      185245,
+      196055,
+      198589,
+      203724,
+      255260,
+      258920,
+      320364,
+      473662,
+      1217605,
+      1226019,
+      1227619,
+      1229376,
+      1234796,
+      1238855,
+      1251417,
+      1260008,
+      1277734,
+      1277736
+    ],
+    "pvp_spell_ids": [
+      473662,
+      1226019,
+      1227619,
+      1277736
+    ],
+    "unavailable": [
+      {
+        "spell_id": 162699,
+        "name": "Stat Negation Aura - Intellect DPS",
+        "reason": "NOT_IN_EXACT_BUILD_CLASS_DUMP"
+      }
+    ]
+  },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-10-06T01:15:05.500369+00:00",
+  "generated_at": "2026-10-06T13:48:05.488184+00:00",
   "validation": {
+    "abilities": 4,
+    "abilities_with_pvp_mechanics": 4,
     "talents": 121,
     "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 26,
@@ -11030,11 +11734,26 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 137,
+    "source_warning_count": 162,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 183782,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183782'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 196718,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196718'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 198793,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198793'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 204909,
@@ -11044,21 +11763,6 @@
         "source": "wowhead",
         "spell_id": 207347,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207347'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 207684,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=207684'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 213010,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=213010'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 217832,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=217832'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -11066,17 +11770,150 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "25fb84b65909f140013c53113f3fa85add036e82eb3eb307d5061f14d884f091",
-    "captured_at": "2026-10-06T00:56:20.679653+00:00",
-    "parser_hash": "6c3f1d56ab3c833c45b7eb15af461bff4958e02f1b05ecd071e2aa2dcc892f26",
-    "evidence_hash": "0e93e56b98e8d6e2e4ea9a9a6a8ce6295eb9c3be8ece139e7742655c9a47450f"
+    "snapshot_hash": "69858027d3f5c1e8347051f218ce331084b6e3f171aad49aeaad08324776f26c",
+    "captured_at": "2026-10-06T13:26:16.393895+00:00",
+    "parser_hash": "2b8fac5b7d4870afd471af2d4caa3cd55efbe736d7a39bb3ac6246a99e183af0",
+    "evidence_hash": "65529e7c05a78028ccd6b4c207dc791ca9b386eebb5b379cac52ddc9a57cc643"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 35,
+    "effect_count": 42,
     "effects": [
       {
         "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1225827,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 0.568,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 5.57,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1279200,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 0.568,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 7.163,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1227619,
+          1227619,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1277736,
+          1277736,
+          1277736,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          473662,
+          473662,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          473662,
+          473662,
+          473662,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.45,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 1.5515,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 3.4,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
           "talents",
           112838,
           1266329,
@@ -11741,10 +12578,143 @@
         }
       }
     ],
-    "semantic_hash": "eb9e7c85c52974159d87d502cbb2b2618a4fb59db53b1d235bdbfcb6ffbbe2ab",
+    "semantic_hash": "059f63304ae74fa49ee5a1dc2a44e8fc93db2e58445571f276fed252b7590e4d",
     "independent_effects": [
       {
         "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1225827,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 0.568,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 5.57,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1226019,
+          1226019,
+          1279200,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 0.568,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 0.60776,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 7.163,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1227619,
+          1227619,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          1277736,
+          1277736,
+          1277736,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          473662,
+          473662,
+          1266301,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          473662,
+          473662,
+          473662,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.45,
+          "aura_factor": 1.07,
+          "final_pvp_multiplier": 1.5515,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 3.4,
+          "simc_ap_coefficient": null
+        }
+      },
+      {
+        "key": [
           "talents",
           112838,
           1266329,
@@ -12409,6 +13379,6 @@
         }
       }
     ],
-    "independent_hash": "eb9e7c85c52974159d87d502cbb2b2618a4fb59db53b1d235bdbfcb6ffbbe2ab"
+    "independent_hash": "059f63304ae74fa49ee5a1dc2a44e8fc93db2e58445571f276fed252b7590e4d"
   }
 }
