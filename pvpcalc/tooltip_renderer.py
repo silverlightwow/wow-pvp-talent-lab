@@ -357,6 +357,15 @@ def semantic_transform(
     This deliberately does NOT perform text replacement.
     """
 
+    formulas = effect_row.get('display_formulas', [])
+    visible_formulas = {(item['old'], item['new'], item['kind']) for item in formulas
+                        if _numeric_matches(selected_tooltip, value=item['old'], kind=item['kind'])}
+    if len(visible_formulas) > 1:
+        return None
+    if visible_formulas:
+        old, new, kind = next(iter(visible_formulas))
+        return dict(old=old, new=new, kind=kind)
+
     display = effect_row.get("display_formula")
     if display:
         old_display = float(display["old"])

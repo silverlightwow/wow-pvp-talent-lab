@@ -5838,6 +5838,14 @@ async def audit_spec(
                                           "kind": "percent_value" if match[3] else "ordinary_value",
                                           "divisor": divisor, "precision": precision}
 
+    from .display_formulas import effect_formulas
+    for row in result.all_effect_rows:
+        if (not row.get('display_formula')
+                and int(row.get('talent_spell_id') or row['spell_id']) in ability_spell_ids):
+            formulas = effect_formulas(simc_dump, row)
+            if formulas:
+                row['display_formulas'] = formulas
+
     for talent in result.talents:
         rank_talent = talent
         if talent.get("node_type") == "tiered":

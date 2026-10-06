@@ -159,6 +159,7 @@ def _mechanic_row(
     """
 
     return {
+        "display_formulas": row.get("display_formulas", []),
         "simc_sp_coefficient": row.get("simc_sp_coefficient"),
         "simc_ap_coefficient": row.get("simc_ap_coefficient"),
         "effect_origin":
