@@ -1420,7 +1420,8 @@ def _fill_missing_base_values_from_simc(
     Therefore:
 
       - SimC numeric metadata is always preserved.
-      - Wowhead base_value is never overwritten.
+      - Wowhead seconds are converted to exact DBC milliseconds only when
+        the same flat time effect independently proves that conversion.
       - SimC Base Value is promoted into canonical base_value
         ONLY when there is no SP coefficient.
     """
@@ -1760,6 +1761,32 @@ def _fill_missing_base_values_from_simc(
             ):
                 row["confidence"] = "high"
 
+
+        # Wowhead displays some flat time modifiers in seconds, while DBC
+        # stores milliseconds. Preserve the exact DBC unit across primary
+        # and fallback source switches; never normalize ordinary numbers or
+        # percentage modifiers merely because their ratio happens to be 1000.
+        base = row.get('base_value')
+        exact_base = simc_effect.base_value
+        exact_text = simc_effect.effect_text.casefold()
+        display_text = str(row.get('effect_text') or '').casefold()
+        time_terms = ('cooldown', 'duration', 'recharge time', 'cast time', 'casting time')
+        if (base is not None and exact_base is not None and base != 0
+                and 'wowhead' in row.get('sources', [])
+                and not simc_effect.sp_coefficient and not simc_effect.ap_coefficient
+                and any(term in exact_text for term in time_terms)
+                and any(term in display_text for term in time_terms)
+                and not any(term in exact_text for term in ('percent', '%'))
+                and abs(float(base) * 1000 - float(exact_base)) < 1e-6):
+            row['base_value'] = exact_base
+            if row_multiplier is not None:
+                row['pvp_value'] = float(exact_base) * float(row_multiplier)
+            row.setdefault('source_notes', []).append({
+                'reason': 'TIME_UNIT_NORMALIZED', 'from_unit': 'seconds',
+                'to_unit': 'milliseconds', 'source_value': base,
+                'exact_value': exact_base, 'build': simc_dump.build,
+                'effect_index': int(effect_index),
+            })
 
         # Wowhead already has a canonical base.
         if row.get(
