@@ -746,7 +746,7 @@
                             >
                                 ${
                                     escapeHtml(
-                                        change.old_token
+                                        comparisonTextFragment(change.old_token)
                                     )
                                 }
 
@@ -758,7 +758,7 @@
 
                                 ${
                                     escapeHtml(
-                                        change.new_token
+                                        comparisonTextFragment(change.new_token)
                                     )
                                 }
                             </span>
@@ -855,7 +855,7 @@
         for (const change of changes) {
             if (change.start < cursor || original.slice(change.start, change.end) !== change.old_token) continue;
             html += escapeHtml(comparisonTextFragment(original.slice(cursor, change.start)));
-            html += `<mark class="value-${mode} ${mode === "pvp" ? "direction-" + PvpDirection.direction(talent, change) : ""}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
+            html += `<mark class="value-${mode} ${mode === "pvp" ? "direction-" + PvpDirection.direction(talent, change) : ""}">${escapeHtml(comparisonTextFragment(mode === "pvp" ? change.new_token : change.old_token))}</mark>`;
             cursor = change.end;
         }
         return html + escapeHtml(comparisonTextFragment(original.slice(cursor)));
@@ -3936,11 +3936,11 @@
                         <div class="factor-row">
                             <div class="factor">
                                 <span class="factor-label">PvE</span>
-                                <span class="factor-value">${escapeHtml(change.old_token ?? "—")}</span>
+                                <span class="factor-value">${escapeHtml(comparisonTextFragment(change.old_token ?? "—"))}</span>
                             </div>
                             <div class="factor">
                                 <span class="factor-label">PvP</span>
-                                <span class="factor-value">${escapeHtml(change.new_token ?? "—")}</span>
+                                <span class="factor-value">${escapeHtml(comparisonTextFragment(change.new_token ?? "—"))}</span>
                             </div>
                         </div>
                     `

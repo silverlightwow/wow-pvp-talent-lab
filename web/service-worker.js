@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v31";
+const CACHE = "wow-pvp-talent-lab-v32";
 // A new drawing gets new paths; never reuse a browser's older icon entry.
 const BRAND_ICONS = [
   "./favicon-v25-32.png",
@@ -12,7 +12,7 @@ const CORE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./app.js?v=29",
+  "./app.js?v=30",
   "./change-direction.js",
   "./loadout-codec.js",
   "./class-icons.js",
