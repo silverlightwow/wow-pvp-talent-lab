@@ -145,6 +145,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -171,6 +174,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -518,6 +524,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -757,6 +766,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1662,6 +1674,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1669,7 +1684,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 187698,
           "source_spell_id": 135299,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1686,9 +1701,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2738,6 +2753,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3368,6 +3386,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3595,6 +3616,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.472,
           "effect_origin": "DEPENDENCY",
@@ -3833,6 +3857,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.857,
           "effect_origin": "DIRECT",
@@ -4258,6 +4285,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4265,7 +4295,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4282,13 +4312,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4296,7 +4330,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4313,13 +4347,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4327,7 +4365,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4344,13 +4382,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4358,7 +4400,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4375,13 +4417,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 8.0,
           "effect_origin": "DEPENDENCY",
@@ -4498,6 +4544,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.904,
           "effect_origin": "DIRECT",
@@ -5330,6 +5379,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -5356,6 +5408,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -6119,6 +6174,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0,
           "effect_origin": "DEPENDENCY",
@@ -6272,6 +6330,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.2,
           "effect_origin": "DEPENDENCY",
@@ -6315,6 +6376,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6322,7 +6386,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6341,13 +6405,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6355,7 +6423,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6374,13 +6442,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6388,7 +6460,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6407,13 +6479,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6421,7 +6497,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6440,10 +6516,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -6697,6 +6774,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6704,7 +6784,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6725,13 +6805,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6739,7 +6823,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6760,13 +6844,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6774,7 +6862,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6795,13 +6883,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6809,7 +6901,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6830,13 +6922,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 8.0,
           "effect_origin": "DEPENDENCY",
@@ -7276,6 +7372,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.484,
           "effect_origin": "DIRECT",
@@ -7331,6 +7430,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.5,
           "effect_origin": "DEPENDENCY",
@@ -7575,6 +7677,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.5,
           "effect_origin": "DEPENDENCY",
@@ -7939,6 +8044,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8054,6 +8162,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8188,6 +8299,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 14.0,
           "effect_origin": "DEPENDENCY",
@@ -8232,6 +8346,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 7.0,
           "effect_origin": "DEPENDENCY",
@@ -8659,6 +8776,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -8687,6 +8807,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8822,6 +8945,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 12.0,
           "effect_origin": "DEPENDENCY",
@@ -8865,6 +8991,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 14.4,
           "effect_origin": "DEPENDENCY",
@@ -8908,6 +9037,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.4,
           "effect_origin": "DEPENDENCY",
@@ -9452,6 +9584,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 12.0,
           "effect_origin": "DEPENDENCY",
@@ -9499,6 +9634,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 14.4,
           "effect_origin": "DEPENDENCY",
@@ -9546,6 +9684,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.4,
           "effect_origin": "DEPENDENCY",
@@ -9674,6 +9815,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9707,6 +9851,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10183,6 +10330,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.5,
           "effect_origin": "DEPENDENCY",
@@ -10309,6 +10459,9 @@ window.WOW_PVP_DATA = {
               "build": "12.1.0.69933"
             }
           ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10393,6 +10546,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 4.8,
           "effect_origin": "DIRECT",
@@ -10487,6 +10643,9 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.758,
           "effect_origin": "DIRECT",
@@ -10865,6 +11024,11 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 147362,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=147362'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "source": "wowhead",
       "spell_id": 187698,
@@ -11447,8 +11611,8 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 137015,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137015'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 135299,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=135299'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12190,7 +12354,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-10-06T13:50:24.901641+00:00",
+  "generated_at": "2026-10-06T14:35:11.447047+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -12205,11 +12369,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 146,
+    "source_warning_count": 147,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 147362,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=147362'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 187698,
@@ -12229,11 +12398,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 193532,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193532'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 199483,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199483'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -12241,9 +12405,9 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "69858027d3f5c1e8347051f218ce331084b6e3f171aad49aeaad08324776f26c",
-    "captured_at": "2026-10-06T13:26:16.393895+00:00",
-    "parser_hash": "2b8fac5b7d4870afd471af2d4caa3cd55efbe736d7a39bb3ac6246a99e183af0",
+    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
+    "captured_at": "2026-10-06T14:12:25.331017+00:00",
+    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
     "evidence_hash": "f63c0a5e597050da08367827c9038142793c3a064f090515bea9c594010812cf"
   },
   "coverage": {
@@ -12266,7 +12430,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 2.0,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12285,7 +12451,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.6767,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.758
+          "simc_ap_coefficient": 3.758,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12304,7 +12472,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.26,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 4.8
+          "simc_ap_coefficient": 4.8,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12323,7 +12493,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.75,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12342,7 +12514,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.81,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.5
+          "simc_ap_coefficient": 1.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12361,7 +12535,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 2.5
+          "simc_ap_coefficient": 2.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12380,7 +12556,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 12.0
+          "simc_ap_coefficient": 12.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12399,7 +12577,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.4
+          "simc_ap_coefficient": 14.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12418,7 +12598,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.4
+          "simc_ap_coefficient": 0.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12437,7 +12619,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 50.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12456,7 +12640,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12475,7 +12661,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 12.0
+          "simc_ap_coefficient": 12.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12494,7 +12682,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.4
+          "simc_ap_coefficient": 14.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12513,7 +12703,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.4
+          "simc_ap_coefficient": 0.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12532,7 +12724,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12551,7 +12745,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12570,7 +12766,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12589,7 +12787,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12608,7 +12808,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12627,7 +12829,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12646,7 +12850,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 8.0
+          "simc_ap_coefficient": 8.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12665,7 +12871,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.15,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 2.472
+          "simc_ap_coefficient": 2.472,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12684,7 +12892,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": 20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12703,7 +12913,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": 20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12722,7 +12934,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5175,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.904
+          "simc_ap_coefficient": 3.904,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12741,7 +12955,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12760,7 +12976,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12779,7 +12997,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12798,7 +13018,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12817,7 +13039,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.675,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.2
+          "simc_ap_coefficient": 1.2,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12836,7 +13060,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.7992,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.857
+          "simc_ap_coefficient": 0.857,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12855,7 +13081,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 2.0,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12874,7 +13102,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12893,7 +13123,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12912,7 +13144,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.833333,
           "final_pvp_value": -24.99999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12931,7 +13165,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.833333,
           "final_pvp_value": -24.99999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12950,7 +13186,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": -20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12969,7 +13207,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -12988,7 +13228,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13007,7 +13249,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13026,7 +13270,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13045,7 +13291,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 8.0
+          "simc_ap_coefficient": 8.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13064,7 +13312,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.7,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.0
+          "simc_ap_coefficient": 1.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13083,7 +13333,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.0
+          "simc_ap_coefficient": 14.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13102,7 +13354,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 7.0
+          "simc_ap_coefficient": 7.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13121,7 +13375,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9243000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.484
+          "simc_ap_coefficient": 3.484,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13140,7 +13396,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.3,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.5
+          "simc_ap_coefficient": 0.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13159,7 +13417,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.714286,
           "final_pvp_value": -50.00002,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13178,11 +13438,13 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.66666,
           "final_pvp_value": -24.9999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       }
     ],
-    "semantic_hash": "1ea4105f4f82b1883ffb794446eba40062b3d434dc3e699036ae61ede38fa482",
+    "semantic_hash": "1360a9b34bc7b2e2da72e8f29f6b3e779c0f6017f93977fa9dcb41738e45eb56",
     "independent_effects": [
       {
         "key": [
@@ -13200,7 +13462,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 2.0,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13219,7 +13483,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.6767,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.758
+          "simc_ap_coefficient": 3.758,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13238,7 +13504,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.26,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 4.8
+          "simc_ap_coefficient": 4.8,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13257,7 +13525,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.75,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13276,7 +13546,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.81,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.5
+          "simc_ap_coefficient": 1.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13295,7 +13567,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 2.5
+          "simc_ap_coefficient": 2.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13314,7 +13588,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 12.0
+          "simc_ap_coefficient": 12.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13333,7 +13609,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.4
+          "simc_ap_coefficient": 14.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13352,7 +13630,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.4
+          "simc_ap_coefficient": 0.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13371,7 +13651,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 50.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13390,7 +13672,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13409,7 +13693,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 12.0
+          "simc_ap_coefficient": 12.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13428,7 +13714,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.45,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.4
+          "simc_ap_coefficient": 14.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13447,7 +13735,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.4
+          "simc_ap_coefficient": 0.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13466,7 +13756,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13485,7 +13777,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13504,7 +13798,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13523,7 +13819,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13542,7 +13840,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13561,7 +13861,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13580,7 +13882,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 8.0
+          "simc_ap_coefficient": 8.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13599,7 +13903,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.15,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 2.472
+          "simc_ap_coefficient": 2.472,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13618,7 +13924,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": 20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13637,7 +13945,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": 20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13656,7 +13966,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.5175,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.904
+          "simc_ap_coefficient": 3.904,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13675,7 +13987,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13694,7 +14008,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13713,7 +14029,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13732,7 +14050,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13751,7 +14071,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.675,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.2
+          "simc_ap_coefficient": 1.2,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13770,7 +14092,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.7992,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.857
+          "simc_ap_coefficient": 0.857,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13789,7 +14113,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 2.0,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13808,7 +14134,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13827,7 +14155,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": -30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13846,7 +14176,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.833333,
           "final_pvp_value": -24.99999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13865,7 +14197,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.833333,
           "final_pvp_value": -24.99999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13884,7 +14218,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": -20.00001,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13903,7 +14239,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13922,7 +14260,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -0.46,
           "final_pvp_value": -3.68,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13941,7 +14281,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13960,7 +14302,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": -1.12,
           "final_pvp_value": -8.96,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13979,7 +14323,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 8.0
+          "simc_ap_coefficient": 8.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -13998,7 +14344,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.7,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 1.0
+          "simc_ap_coefficient": 1.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14017,7 +14365,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 14.0
+          "simc_ap_coefficient": 14.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14036,7 +14386,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 7.0
+          "simc_ap_coefficient": 7.0,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14055,7 +14407,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.9243000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 3.484
+          "simc_ap_coefficient": 3.484,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14074,7 +14428,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.3,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.5
+          "simc_ap_coefficient": 0.5,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14093,7 +14449,9 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 0.714286,
           "final_pvp_value": -50.00002,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14112,10 +14470,12 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.66666,
           "final_pvp_value": -24.9999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       }
     ],
-    "independent_hash": "1ea4105f4f82b1883ffb794446eba40062b3d434dc3e699036ae61ede38fa482"
+    "independent_hash": "1360a9b34bc7b2e2da72e8f29f6b3e779c0f6017f93977fa9dcb41738e45eb56"
   }
 };

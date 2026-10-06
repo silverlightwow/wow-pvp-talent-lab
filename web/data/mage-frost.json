@@ -86,6 +86,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -114,6 +117,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -547,6 +553,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1097,6 +1106,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.6699,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1215,6 +1227,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.345,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1397,6 +1412,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1538,6 +1556,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.268,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1583,6 +1604,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1704,6 +1728,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1820,6 +1847,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2547,6 +2577,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2888,6 +2921,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2916,6 +2952,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3210,6 +3249,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3325,6 +3367,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.38,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3508,6 +3553,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3806,6 +3854,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4165,6 +4216,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4208,6 +4262,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4252,6 +4309,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4498,6 +4558,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4526,6 +4589,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4570,6 +4636,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4697,6 +4766,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4739,6 +4811,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4884,6 +4959,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 13.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4929,6 +5007,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4975,6 +5056,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5114,6 +5198,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5157,6 +5244,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5201,6 +5291,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5450,6 +5543,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.777,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5596,6 +5692,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5629,6 +5728,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5676,6 +5778,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5724,6 +5829,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5855,6 +5963,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -5967,6 +6078,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 4.5,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -6139,6 +6253,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6174,6 +6291,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.3,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6364,6 +6484,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -6455,6 +6578,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6502,6 +6628,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6550,6 +6679,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -6804,6 +6936,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7693,6 +7828,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 2.25,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8168,6 +8306,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8212,6 +8353,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8407,6 +8551,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8450,6 +8597,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8494,6 +8644,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8616,6 +8769,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 5.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8883,6 +9039,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 2.594,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8926,6 +9085,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.027,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8969,6 +9131,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9013,6 +9178,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9140,6 +9308,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.453,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9266,6 +9437,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9294,6 +9468,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9517,6 +9694,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9545,6 +9725,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9573,6 +9756,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9601,6 +9787,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9837,6 +10026,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 8.813,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10563,6 +10755,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10713,6 +10908,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.018803,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10838,6 +11036,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -11599,6 +11800,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -11627,6 +11831,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11670,6 +11877,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.928,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11713,6 +11923,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11757,6 +11970,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11801,6 +12017,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11848,6 +12067,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11855,7 +12077,7 @@
           "talent_spell_id": 431095,
           "source_spell_id": 155158,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds (SP mod: 1.04)",
           "base_value": null,
           "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
@@ -11886,9 +12108,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11961,6 +12183,88 @@
   ],
   "abilities": [
     {
+      "talent_name": "Invisibility",
+      "spell_id": 66,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 66,
+        "talent_name": "Invisibility",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "class_id": 8,
+        "spec_id": 64,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.0.69933",
+        "icon": "ability_mage_invisibility",
+        "icon_candidates": [
+          "ability_mage_invisibility"
+        ]
+      },
+      "pve_tooltip": "3% of base mana\nInstant\n5 min cooldown\nTurns you invisible over 3 sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts 20 sec. Taking any action cancels the effect.",
+      "pvp_tooltip": "3% of base mana\nInstant\n5 min cooldown\nTurns you invisible over 3 sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts 20 sec. Taking any action cancels the effect.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 20.0,
+          "new": 10.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 66,
+          "source_spell_id": 382293,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            66,
+            382293
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
+      "rank_tooltips": []
+    },
+    {
       "talent_name": "Frostbolt",
       "spell_id": 116,
       "node_id": null,
@@ -12024,6 +12328,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 2.448,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12067,6 +12374,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12111,6 +12421,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12221,6 +12534,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.43125,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -12257,6 +12573,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12350,6 +12669,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.05149,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -12442,6 +12764,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.6176,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -12524,6 +12849,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12611,6 +12939,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.828,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -12704,6 +13035,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12746,6 +13080,9 @@
         },
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -12844,6 +13181,9 @@
       "mechanics": [
         {
           "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
           "simc_sp_coefficient": 0.0625,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -13755,6 +14095,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 155158,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 190336,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13822,6 +14167,11 @@
       "source": "wowhead",
       "spell_id": 382289,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=382289'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 382293,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=382293'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14467,6 +14817,7 @@
       1247775
     ],
     "pvp_spell_ids": [
+      66,
       116,
       120,
       122,
@@ -14490,10 +14841,10 @@
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-06T13:51:02.427195+00:00",
+  "generated_at": "2026-10-06T14:35:57.417628+00:00",
   "validation": {
-    "abilities": 8,
-    "abilities_with_pvp_mechanics": 8,
+    "abilities": 9,
+    "abilities_with_pvp_mechanics": 9,
     "talents": 130,
     "changed_tooltips": 33,
     "talents_with_pvp_mechanics": 40,
@@ -14505,7 +14856,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 146,
+    "source_warning_count": 148,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -14541,14 +14892,14 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "69858027d3f5c1e8347051f218ce331084b6e3f171aad49aeaad08324776f26c",
-    "captured_at": "2026-10-06T13:26:16.393895+00:00",
-    "parser_hash": "2b8fac5b7d4870afd471af2d4caa3cd55efbe736d7a39bb3ac6246a99e183af0",
+    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
+    "captured_at": "2026-10-06T14:12:25.331017+00:00",
+    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
     "evidence_hash": "44617403a39109685d164903e5a72281817dba20f7e70f0a917c37b36751fb0c"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 86,
+    "effect_count": 87,
     "effects": [
       {
         "key": [
@@ -14566,7 +14917,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14585,7 +14938,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14604,7 +14959,9 @@
           "final_pvp_multiplier": 2.06,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.448,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14623,7 +14980,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.43125,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14642,7 +15001,9 @@
           "final_pvp_multiplier": 0.875,
           "final_pvp_value": 70.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14661,7 +15022,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.05149,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14680,7 +15043,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14699,7 +15064,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14718,7 +15085,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.0625,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14737,7 +15106,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.6176,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14756,7 +15127,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14775,7 +15148,30 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.828,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          66,
+          66,
+          382293,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14794,7 +15190,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14813,7 +15211,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14832,7 +15232,9 @@
           "final_pvp_multiplier": 0.9579000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14851,7 +15253,9 @@
           "final_pvp_multiplier": 0.6695000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14870,7 +15274,9 @@
           "final_pvp_multiplier": 0.8355360000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14889,7 +15295,9 @@
           "final_pvp_multiplier": 0.6667,
           "final_pvp_value": 200.01,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14908,7 +15316,9 @@
           "final_pvp_multiplier": 0.8240000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.928,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14927,7 +15337,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14946,7 +15358,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14965,7 +15379,9 @@
           "final_pvp_multiplier": 1.9569999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.594,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -14984,7 +15400,9 @@
           "final_pvp_multiplier": 0.9784999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.027,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15003,7 +15421,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 50.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15022,7 +15442,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15041,7 +15463,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15060,7 +15484,9 @@
           "final_pvp_multiplier": 0.1667,
           "final_pvp_value": 10.001999999999999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15079,7 +15505,9 @@
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15098,7 +15526,9 @@
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15117,7 +15547,9 @@
           "final_pvp_multiplier": 2.575,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.018803,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15136,7 +15568,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15155,7 +15589,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 12.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15174,7 +15610,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.453,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15193,7 +15631,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.345,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15212,7 +15652,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.6699,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15231,7 +15673,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -15000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15250,7 +15694,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15269,7 +15715,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.38,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15288,7 +15736,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.25,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15307,7 +15757,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15326,7 +15778,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15345,7 +15799,9 @@
           "final_pvp_multiplier": 1.2875,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15364,7 +15820,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15383,7 +15841,9 @@
           "final_pvp_multiplier": 0.33990000000000004,
           "final_pvp_value": null,
           "simc_sp_coefficient": 8.813,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15402,7 +15862,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15421,7 +15883,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15440,7 +15904,9 @@
           "final_pvp_multiplier": 0.86005,
           "final_pvp_value": null,
           "simc_sp_coefficient": 13.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15459,7 +15925,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15478,7 +15946,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.268,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15497,7 +15967,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15516,7 +15988,9 @@
           "final_pvp_multiplier": 0.875,
           "final_pvp_value": 70.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15535,7 +16009,9 @@
           "final_pvp_multiplier": 0.769231,
           "final_pvp_value": -50.000015,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15554,7 +16030,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15573,7 +16051,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15592,7 +16072,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15611,7 +16093,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15630,7 +16114,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15649,7 +16135,9 @@
           "final_pvp_multiplier": 0.75,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15668,7 +16156,9 @@
           "final_pvp_multiplier": 0.517,
           "final_pvp_value": 18.095,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15687,7 +16177,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -15000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15706,7 +16198,9 @@
           "final_pvp_multiplier": 0.5932799999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.5,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15725,7 +16219,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15744,7 +16240,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15763,7 +16261,9 @@
           "final_pvp_multiplier": 0.25,
           "final_pvp_value": 12.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15782,7 +16282,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15801,7 +16303,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15820,7 +16324,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15839,7 +16345,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 4.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15858,7 +16366,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.3,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15877,7 +16387,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15896,7 +16408,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15915,7 +16429,9 @@
           "final_pvp_multiplier": 1.2875,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15934,7 +16450,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.777,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15953,7 +16471,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15972,7 +16492,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -15991,7 +16513,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16010,7 +16534,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16029,7 +16555,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16048,7 +16576,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16067,7 +16597,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16086,7 +16618,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16105,7 +16639,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16124,7 +16660,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16143,7 +16681,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16162,7 +16702,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16181,11 +16723,13 @@
           "final_pvp_multiplier": 0.9579000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       }
     ],
-    "semantic_hash": "77666acdfb151e9421f62f17613d7e3797d0eebbcca2c0503b2584cd7b1d698c",
+    "semantic_hash": "35a6fe2c964d67d81b88b9da38e320fd7f44a6847179c6536f44b760d1c401c7",
     "independent_effects": [
       {
         "key": [
@@ -16203,7 +16747,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16222,7 +16768,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16241,7 +16789,9 @@
           "final_pvp_multiplier": 2.06,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.448,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16260,7 +16810,9 @@
           "final_pvp_multiplier": 0.875,
           "final_pvp_value": 70.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16279,7 +16831,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16298,7 +16852,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16317,7 +16873,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.0625,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16336,7 +16894,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16355,7 +16915,30 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.828,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          66,
+          66,
+          382293,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16374,7 +16957,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16393,7 +16978,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16412,7 +16999,9 @@
           "final_pvp_multiplier": 0.9579000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16431,7 +17020,9 @@
           "final_pvp_multiplier": 0.6695000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16450,7 +17041,9 @@
           "final_pvp_multiplier": 0.8355360000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16469,7 +17062,9 @@
           "final_pvp_multiplier": 0.6667,
           "final_pvp_value": 200.01,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16488,7 +17083,9 @@
           "final_pvp_multiplier": 0.8240000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.928,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16507,7 +17104,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16526,7 +17125,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16545,7 +17146,9 @@
           "final_pvp_multiplier": 1.9569999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.594,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16564,7 +17167,9 @@
           "final_pvp_multiplier": 0.9784999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.027,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16583,7 +17188,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 50.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16602,7 +17209,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16621,7 +17230,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 30.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16640,7 +17251,9 @@
           "final_pvp_multiplier": 0.1667,
           "final_pvp_value": 10.001999999999999,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16659,7 +17272,9 @@
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16678,7 +17293,9 @@
           "final_pvp_multiplier": 0.6,
           "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16697,7 +17314,9 @@
           "final_pvp_multiplier": 2.575,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.018803,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16716,7 +17335,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 20.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16735,7 +17356,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 12.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16754,7 +17377,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.453,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16773,7 +17398,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.345,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16792,7 +17419,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -15000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16811,7 +17440,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16830,7 +17461,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.38,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16849,7 +17482,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.25,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16868,7 +17503,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16887,7 +17524,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16906,7 +17545,9 @@
           "final_pvp_multiplier": 1.2875,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16925,7 +17566,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16944,7 +17587,9 @@
           "final_pvp_multiplier": 0.33990000000000004,
           "final_pvp_value": null,
           "simc_sp_coefficient": 8.813,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16963,7 +17608,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -16982,7 +17629,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17001,7 +17650,9 @@
           "final_pvp_multiplier": 0.86005,
           "final_pvp_value": null,
           "simc_sp_coefficient": 13.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17020,7 +17671,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17039,7 +17692,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.0,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17058,7 +17713,9 @@
           "final_pvp_multiplier": 0.875,
           "final_pvp_value": 70.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17077,7 +17734,9 @@
           "final_pvp_multiplier": 0.769231,
           "final_pvp_value": -50.000015,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17096,7 +17755,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17115,7 +17776,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17134,7 +17797,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -1500.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17153,7 +17818,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 1.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17172,7 +17839,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17191,7 +17860,9 @@
           "final_pvp_multiplier": 0.75,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17210,7 +17881,9 @@
           "final_pvp_multiplier": 0.517,
           "final_pvp_value": 18.095,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17229,7 +17902,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": -15000.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17248,7 +17923,9 @@
           "final_pvp_multiplier": 0.5932799999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.5,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17267,7 +17944,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17286,7 +17965,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17305,7 +17986,9 @@
           "final_pvp_multiplier": 0.25,
           "final_pvp_value": 12.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17324,7 +18007,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.5,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17343,7 +18028,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17362,7 +18049,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17381,7 +18070,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 4.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17400,7 +18091,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.3,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17419,7 +18112,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17438,7 +18133,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17457,7 +18154,9 @@
           "final_pvp_multiplier": 1.2875,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.8375,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17476,7 +18175,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.777,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17495,7 +18196,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17514,7 +18217,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17533,7 +18238,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17552,7 +18259,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17571,7 +18280,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17590,7 +18301,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17609,7 +18322,9 @@
           "final_pvp_multiplier": 1.8025,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.2852,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17628,7 +18343,9 @@
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17647,7 +18364,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17666,7 +18385,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17685,7 +18406,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17704,7 +18427,9 @@
           "final_pvp_multiplier": 1.03,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       },
       {
@@ -17723,10 +18448,12 @@
           "final_pvp_multiplier": 0.9579000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
-          "simc_ap_coefficient": null
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
         }
       }
     ],
-    "independent_hash": "d397a939d34ac6592a353e5f648616bbedc5eb837a33fbcfa57e5f6574275a74"
+    "independent_hash": "0b232ce0797e6ead2d0972bce0df2de12da36a9f0f41eeb278ecd27bcc3de72b"
   }
 }
