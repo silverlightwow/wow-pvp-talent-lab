@@ -4,7 +4,7 @@ from .sources import simc
 
 
 def plan_spec_sources(*, dump, class_name, spec_name, spec_names, talent_spell_ids,
-                      drustvar_effects, aura_payload):
+                      drustvar_effects, aura_payload, ability_spell_ids=()):
     dump = simc.scope_dump_to_specialization(dump, class_name=class_name,
                                             spec_name=spec_name, spec_names=spec_names)
     rules = pvp_aura.normalize_current_spec_aura(aura_payload, spec_name=spec_name,
@@ -16,7 +16,7 @@ def plan_spec_sources(*, dump, class_name, spec_name, spec_names, talent_spell_i
             aura_ids.update(simc.spell_ids_for_label(dump, rule.label_id))
     simc_ids = simc.pvp_modified_spell_ids(dump)
     dependencies = simc.pvp_dependencies(
-        dump, talent_spell_ids=talent_spell_ids,
+        dump, talent_spell_ids=set(talent_spell_ids) | set(ability_spell_ids),
         pvp_spell_ids=drustvar_ids | aura_ids | simc_ids, max_depth=4,
         class_name=class_name, spec_name=spec_name, spec_names=spec_names,
     )

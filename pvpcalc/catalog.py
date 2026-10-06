@@ -351,11 +351,11 @@ async def attach_official_hotfix_abilities(
         blizzard_hotfixes._normalize_name(
             talent.talent_name
         )
-        for talent in spec_catalog.talents
+        for talent in [*spec_catalog.talents, *spec_catalog.abilities]
     }
     existing_spell_ids = {
         int(talent.spell_id)
-        for talent in spec_catalog.talents
+        for talent in [*spec_catalog.talents, *spec_catalog.abilities]
     }
 
     pending = [
@@ -723,6 +723,7 @@ async def build_spec_catalog(
     *,
     concurrency: int = 6,
 ) -> SpecCatalog:
+    all_records = [*audit.talents, *getattr(audit, 'abilities', [])]
 
     # --------------------------------------------------------
     # Fetch ONE player-facing page per unique talent spell.
@@ -733,7 +734,7 @@ async def build_spec_catalog(
             int(
                 row["spell_id"]
             )
-            for row in audit.talents
+            for row in all_records
             if row.get(
                 "spell_id"
             ) is not None
@@ -928,7 +929,7 @@ async def build_spec_catalog(
     records = []
 
 
-    for talent in audit.talents:
+    for talent in all_records:
 
         raw_spell_id = (
             talent.get(
@@ -1211,10 +1212,10 @@ async def build_spec_catalog(
             ),
 
         talents=
-            records,
+            [record for record in records if record.tree_type != 'ability'],
 
         abilities=
-            [],
+            [record for record in records if record.tree_type == 'ability'],
 
         fetch_errors=
             fetch_errors,

@@ -71,6 +71,8 @@ class SpecAuditResult:
     simc_dump: Any | None = None
     simc_tooltip_fallbacks: dict[int, dict] = field(default_factory=dict)
     rank_sources: dict[int, dict] = field(default_factory=dict)
+    abilities: list[dict] = field(default_factory=list)
+    spellbook_inventory: dict = field(default_factory=dict)
 
     dependencies: list[Any] = field(
         default_factory=list
@@ -4686,6 +4688,18 @@ async def audit_spec(
 
 
         from .source_plan import plan_spec_sources
+        from . import spellbook
+
+        tree_spell_ids = set(talent_spell_ids)
+        identity = result.talents[0]
+        tables = await spellbook.fetch_tables(client, simc_dump)
+        unavailable_abilities = []
+        ability_records = spellbook.ability_roots(tables, simc_dump,
+            class_id=identity['class_id'], spec_id=identity['spec_id'],
+            talent_spell_ids=tree_spell_ids, unavailable=unavailable_abilities,
+            class_name=class_name, spec_name=spec_name)
+        ability_spell_ids = {row['spell_id'] for row in ability_records}
+        talent_by_spell.update({row['spell_id']: row for row in ability_records})
 
         (simc_dump, aura_rules, dr_all_ids, aura_affected_ids,
          simc_pvp_ids, all_dependencies) = plan_spec_sources(
@@ -4693,7 +4707,22 @@ async def audit_spec(
             spec_names=result.metadata.get("classSpecNames", [spec_name]),
             talent_spell_ids=talent_spell_ids, drustvar_effects=dr_all,
             aura_payload=aura_payload,
+            ability_spell_ids=ability_spell_ids,
         )
+        talent_spell_ids.update(ability_spell_ids)
+        unavailable_ids = {row['spell_id'] for row in unavailable_abilities}
+        if unavailable_ids & (dr_all_ids | aura_affected_ids):
+            raise ValueError('Known PvP spellbook abilities missing from exact class dump: '
+                             + str(sorted(unavailable_ids & (dr_all_ids | aura_affected_ids))))
+        if unavailable_ids:
+            missing_effects = await simc.fetch_generated_effects(client, unavailable_ids,
+                target_build=result.tree_build, source_ref=simc_dump.source_ref)
+            modified_missing = {sid for sid, effects in missing_effects.items()
+                if any(e.pvp_coefficient is not None and _is_modified(e.pvp_coefficient)
+                       for e in effects.values())}
+            if modified_missing:
+                raise ValueError('Generated PvP spellbook abilities missing from exact class dump: '
+                                 + str(sorted(modified_missing)))
         # Official off-tree hotfix resolution uses this same scoped dump.
         result.simc_dump = simc_dump
 
@@ -4704,7 +4733,7 @@ async def audit_spec(
             in all_dependencies
             if (
                 dependency.target_spell_id
-                not in talent_spell_ids
+                not in tree_spell_ids
             )
         ]
 
@@ -4722,9 +4751,24 @@ async def audit_spec(
         ) = await _fetch_wowhead_all(
             client,
             sorted(
-                dependency_spell_ids
+                dependency_spell_ids | ability_spell_ids
             ),
         )
+
+        result.wowhead_by_spell.update({sid: dependency_wowhead_by_spell.get(sid, [])
+                                       for sid in ability_spell_ids})
+        result.drustvar_by_spell.update(_group_drustvar(dr_all, ability_spell_ids))
+        ability_candidates = (ability_spell_ids & dr_all_ids) | {
+            sid for sid in ability_spell_ids for observation in result.wowhead_by_spell.get(sid, [])
+            if observation.pvp_multiplier is not None and _is_modified(observation.pvp_multiplier)
+        }
+        extra_rows, extra_unresolved = _build_effect_rows(
+            candidate_ids=ability_candidates, talent_by_spell=talent_by_spell,
+            wowhead_by_spell=result.wowhead_by_spell,
+            drustvar_by_spell=result.drustvar_by_spell)
+        result.effect_rows.extend(extra_rows)
+        result.unresolved_rows.extend(extra_unresolved)
+        result.candidate_ids.update(ability_candidates)
 
 
         # Wowhead occasionally WAF-blocks a hidden implementation spell.
@@ -5808,7 +5852,7 @@ async def audit_spec(
             )
             if source:
                 result.rank_sources[int(talent["entry_id"])] = source
-    for spell_id in result.spell_ids:
+    for spell_id in set(result.spell_ids) | ability_spell_ids:
         fallback = simc.simple_player_description(
             simc_dump, spell_id, class_name=class_name, spec_name=spec_name,
             spec_names=result.metadata.get("classSpecNames", [spec_name]),
@@ -5824,4 +5868,11 @@ async def audit_spec(
                     and row.get("effect_index") == note.get("effect_index")):
                 row.setdefault("source_notes", []).append(note)
 
+    modified_roots = {int(row.get('talent_spell_id') or row['spell_id'])
+                      for row in result.final_modified_effect_rows}
+    result.abilities = [row for row in ability_records if row['spell_id'] in modified_roots]
+    result.spellbook_inventory = dict(build=result.tree_build, source_ref=simc_dump.source_ref,
+        baseline_spell_ids=sorted(ability_spell_ids),
+        pvp_spell_ids=sorted(ability_spell_ids & modified_roots),
+        unavailable=unavailable_abilities)
     return result

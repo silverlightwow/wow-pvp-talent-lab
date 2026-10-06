@@ -11,6 +11,7 @@ from pathlib import Path
 from pvpcalc.http import CachedClient
 from pvpcalc.snapshot import HttpSnapshot, digest, parser_hash
 from pvpcalc.source_plan import plan_spec_sources
+from pvpcalc import spellbook
 from pvpcalc.sources import blizzard_hotfixes, drustvar, raidbots, simc, wowhead
 
 
@@ -44,6 +45,7 @@ async def collect(args):
                               if '$?a134735[' in spell.raw)
             drustvar.validate_payload(auras, 'auras')
             effects = drustvar.parse_spell_payload(spells, slug)
+            spellbook_tables = await spellbook.fetch_tables(client, dump)
             class_specs = [s for s in specs if s['class_name'] == class_name]
             spec_names = [s['spec_name'] for s in sorted(class_specs, key=lambda s: s['spec_id'])]
             for item in class_specs:
@@ -51,9 +53,15 @@ async def collect(args):
                 roots = {int(row['spell_id']) for row in rows if row.get('spell_id')}
                 ids.update(roots)
                 ids.update(int(row['visible_spell_id']) for row in rows if row.get('visible_spell_id'))
+                abilities = spellbook.ability_roots(spellbook_tables, dump,
+                    class_id=item['class_id'], spec_id=item['spec_id'], talent_spell_ids=roots,
+                    class_name=class_name, spec_name=item['spec_name'])
+                ability_ids = {row['spell_id'] for row in abilities}
+                ids.update(ability_ids)
                 scoped, _, _, _, _, dependencies = plan_spec_sources(
                     dump=dump, class_name=class_name, spec_name=item['spec_name'], spec_names=spec_names,
                     talent_spell_ids=roots, drustvar_effects=effects, aura_payload=auras,
+                    ability_spell_ids=ability_ids,
                 )
                 ids.update(d.target_spell_id for d in dependencies)
                 # A harmless superset of in-scope off-tree candidates allows
@@ -63,7 +71,8 @@ async def collect(args):
                 ids.update(s.spell_id for s in scoped.spells.values()
                            if blizzard_hotfixes._normalize_name(s.name) in names)
             classes[class_name] = dict(simc_ref=dump.source_ref, simc_hash=digest(
-                {str(k): v.raw for k, v in dump.spells.items()}), drustvar_hash=digest([spells, auras]))
+                {str(k): v.raw for k, v in dump.spells.items()}), drustvar_hash=digest([spells, auras]),
+                spellbook_hash=digest(spellbook_tables))
             print(f'Planned {class_name}: {len(class_specs)} specs; {len(ids)} unique spells so far.', flush=True)
 
         generated_hashes = {}
@@ -80,7 +89,8 @@ async def collect(args):
         for name, info in classes.items():
             info['evidence_hash'] = digest(dict(tree=metadata['contentHash'],
                 hotfix=hotfix_context['snapshot_hash'], simc=info['simc_hash'],
-                drustvar=info['drustvar_hash'], generated=generated_hashes[info['simc_ref']]))
+                drustvar=info['drustvar_hash'], spellbook=info['spellbook_hash'],
+                generated=generated_hashes[info['simc_ref']]))
         context = dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
             hotfix_snapshot_hash=hotfix_context['snapshot_hash'], simc_ref=revision['sha'],
             parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids),

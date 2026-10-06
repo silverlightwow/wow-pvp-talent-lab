@@ -85,6 +85,24 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     for key, value in actual.items():
         if validation.get(key) != value or (key in spec and spec[key] != value):
             raise ValueError(f'{slug}: stale {key} count')
+    abilities = data.get('abilities', [])
+    ids = [a['spell_id'] for a in abilities]
+    if len(ids) != len(set(ids)) or set(ids) & {t['spell_id'] for t in talents}:
+        raise ValueError(f'{slug}: duplicated baseline ability identities')
+    for ability in abilities:
+        if (ability.get('tree_type') != 'ability' or ability.get('node_id') is not None
+                or ability.get('entry_id') is not None
+                or ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}
+                or not all(ability.get(mode, '').strip() for mode in ('pve_tooltip', 'pvp_tooltip'))
+                or ability.get('tooltip_changed') != (ability['pve_tooltip'] != ability['pvp_tooltip'])):
+            raise ValueError(f'{slug}: unsafe or invalid baseline ability {ability["spell_id"]}')
+    inventory = data.get('spellbook_inventory')
+    if inventory is not None:
+        if (inventory.get('build') != build
+                or not set(inventory['pvp_spell_ids']).issubset(ids)
+                or not set(inventory['pvp_spell_ids']).issubset(inventory['baseline_spell_ids'])
+                or validation.get('abilities') != len(abilities)):
+            raise ValueError(f'{slug}: incomplete spellbook coverage inventory')
     return data
 
 

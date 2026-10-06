@@ -76,7 +76,7 @@ def _validate_for_all(audit, spec_catalog) -> dict:
             talent.spell_id,
             talent.render_status,
         )
-        for talent in talents
+        for talent in [*talents, *spec_catalog.abilities]
         if talent.render_status
         in {
             "REVIEW_REQUIRED",
@@ -153,6 +153,8 @@ def _validate_for_all(audit, spec_catalog) -> dict:
     )
 
     return {
+        'abilities': len(spec_catalog.abilities),
+        'abilities_with_pvp_mechanics': sum(t.has_pvp_mechanics for t in spec_catalog.abilities),
         "talents":
             len(talents),
 
@@ -518,6 +520,10 @@ async def build_one(
     payload["non_tree_hotfix_resolution"] = (
         non_tree_hotfix_report
     )
+    payload['spellbook_inventory'] = audit.spellbook_inventory
+    exposed_abilities = {t.spell_id for t in spec_catalog.abilities}
+    if not set(audit.spellbook_inventory.get('pvp_spell_ids', [])).issubset(exposed_abilities):
+        raise ValueError('Known baseline PvP abilities missing from the public catalog')
 
     payload["slug"] = slug
     payload["generated_at"] = (

@@ -14,6 +14,10 @@ A World of Warcraft talent calculator with player-facing PvE and PvP tooltips fo
 
 Raidbots supplies talent topology. SimulationCraft supplies exact-build spell descriptions and dependencies. Wowhead and Drustvar supply effect-level evidence and PvP coefficients. The engine reconciles concrete effects before rendering player-facing values; it does not apply a spell-wide multiplier to every number in a tooltip.
 
+Baseline class/spec abilities are also discovered from SimulationCraft's exact-build class and specialization spellbook tables, using current Raidbots class/spec identities and specialization replacement IDs. They enter the same dependency, effect, Aura, source-reconciliation and tooltip pipeline as talent roots. Verified PvP differences appear in comparison/mechanics views as non-tree abilities. Official non-tree hotfix resolution remains an additional discovery path; there are no maintained per-spell inclusion lists.
+
+Each dataset records the available baseline roots, exposed PvP roots and spellbook entries absent from the class dump. Missing utility spells and system auras are retained in that inventory; an absent ability with a known current Drustvar/Aura or exact generated PvP modifier blocks publication. This covers available class/spec ability evidence, not an exhaustive claim about dedicated PvP talents, every pet family, racial abilities or all spells in the game.
+
 `VERIFIED` means the pipeline's source and rendering checks passed. It is not a claim that every interaction has been tested inside the game. Each dataset records its build, verification counts, and source evidence.
 
 Rank values come from the exact-build TraitDefinition overrides, including set, multiply, and add operations. Only the expressions tied to those effects change; unrelated durations and percentages are preserved. PvP modifiers are then applied to the ranked effects. Missing or ambiguous rank descriptions block publication.

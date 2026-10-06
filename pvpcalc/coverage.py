@@ -1,6 +1,8 @@
 """Check published mechanics against audit evidence and prior identical inputs."""
 from __future__ import annotations
 
+import json
+
 from .snapshot import digest
 
 
@@ -17,7 +19,8 @@ def mechanic_key(parent_spell_id, row):
 def validate_audit_coverage(audit, catalog):
     expected = {mechanic_key(row.get('talent_spell_id') or row['spell_id'], row)
                 for row in audit.final_modified_effect_rows}
-    actual = {mechanic_key(t.spell_id, row) for t in catalog.talents for row in t.mechanics}
+    actual = {mechanic_key(t.spell_id, row)
+              for t in [*catalog.talents, *getattr(catalog, 'abilities', [])] for row in t.mechanics}
     if missing := expected - actual:
         raise ValueError(f'Known PvP effects missing from catalog: {sorted(missing, key=str)}')
 
@@ -63,7 +66,13 @@ def validate_coverage(data: dict, previous: dict | None = None):
         old_effects = [e for e in old['effects'] if digest(e['key']) in known_keys]
         current_effects = [e for e in current['effects'] if digest(e['key']) in known_keys]
         if old_effects != current_effects:
-            raise ValueError('Known PvP effects/numbers changed with identical authoritative inputs and parser')
+            before = {digest(e['key']): e for e in old_effects}
+            after = {digest(e['key']): e for e in current_effects}
+            changed = [dict(key=(after.get(k) or before[k])['key'],
+                            previous=before.get(k), current=after.get(k))
+                       for k in sorted(before.keys() | after.keys()) if before.get(k) != after.get(k)]
+            raise ValueError('Known PvP effects/numbers changed with identical authoritative inputs and parser; '
+                             f'{len(changed)} changed effects: ' + json.dumps(changed[:5], sort_keys=True))
     return current
 
 
