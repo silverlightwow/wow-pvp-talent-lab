@@ -68,6 +68,17 @@ def _number(value):
     return value
 
 
+def _rounded_periodic_total(text, pattern, value, per_tick, ticks):
+    """Accept only the precision actually printed by the tooltip source."""
+    for match in pattern.finditer(text):
+        if float(match[1]) == value:
+            decimals = len(match[1].partition('.')[2])
+            tolerance = 0.5 * 10 ** -decimals + 1e-8
+            if abs(value - per_tick * ticks) <= tolerance:
+                return True
+    return False
+
+
 def _spec_label(
     line: str,
     spec_names=None,
@@ -365,6 +376,13 @@ def semantic_transform(
     if visible_formulas:
         old, new, kind = next(iter(visible_formulas))
         return dict(old=old, new=new, kind=kind)
+
+    scaled = effect_row.get('scaled_base_value')
+    if scaled is not None and effect_row.get('scaled_final_pvp_value') is not None:
+        kind = 'percent_value' if effect_row.get('semantic_unit_hint') == 'percent' else 'ordinary_value'
+        old = scaled if _numeric_matches(selected_tooltip, value=scaled, kind=kind) else round(scaled)
+        if _numeric_matches(selected_tooltip, value=old, kind=kind):
+            return dict(old=old, new=round(effect_row['scaled_final_pvp_value'], 4), kind=kind)
 
     display = effect_row.get("display_formula")
     if display:
@@ -678,10 +696,7 @@ def semantic_transform(
                     if (
                         nearest >= 2
                         and nearest <= 120
-                        and abs(
-                            ratio
-                            - nearest
-                        ) <= 1e-6
+                        and _rounded_periodic_total(selected_tooltip, _VISIBLE_SP_RE, value, old_value, nearest)
                     ):
                         aggregate_candidates.append(
                             value
@@ -808,10 +823,7 @@ def semantic_transform(
                     if (
                         nearest >= 2
                         and nearest <= 120
-                        and abs(
-                            ratio
-                            - nearest
-                        ) <= 1e-6
+                        and _rounded_periodic_total(selected_tooltip, _VISIBLE_AP_RE, value, old_value, nearest)
                     ):
                         aggregate_candidates.append(
                             value

@@ -18,6 +18,8 @@ Active and passive baseline class/spec abilities are also discovered from Simula
 
 Each dataset records the available baseline roots, exposed PvP roots and spellbook entries absent from the class dump. Missing utility spells and system auras are retained in that inventory; an absent ability with a known current Drustvar/Aura or exact generated PvP modifier blocks publication. This covers available class/spec ability evidence, not an exhaustive claim about dedicated PvP talents, every pet family, racial abilities or all spells in the game.
 
+Baseline-to-talent references are audited in addition to talent-to-baseline references. When a statless tooltip service emits an unusable character amount, a fully resolved exact client description can display SP/AP coefficients instead. Level-scaled amounts remain separate from literal database base values, and exact scalar talent conditions preserve their PvP differences in both displayed alternatives. Periodic totals allow only the rounding precision actually printed by the tooltip source.
+
 `VERIFIED` means the pipeline's source and rendering checks passed. It is not a claim that every interaction has been tested inside the game. Each dataset records its build, verification counts, and source evidence.
 
 Rank values come from the exact-build TraitDefinition overrides, including set, multiply, and add operations. Only the expressions tied to those effects change; unrelated durations and percentages are preserved. PvP modifiers are then applied to the ranked effects. Missing or ambiguous rank descriptions block publication.

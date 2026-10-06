@@ -202,6 +202,11 @@ class SpecAuditResult:
             ):
                 return False
 
+            scaled = row.get('scaled_base_value')
+            scaled_final = row.get('scaled_final_pvp_value')
+            if scaled is not None and scaled_final is not None and abs(scaled - scaled_final) > 1e-12:
+                return True
+
 
             base = row.get(
                 "base_value"
@@ -4734,6 +4739,7 @@ async def audit_spec(
             if (
                 dependency.target_spell_id
                 not in tree_spell_ids
+                or dependency.root_spell_id in ability_spell_ids
             )
         ]
 
@@ -5842,9 +5848,20 @@ async def audit_spec(
     for row in result.all_effect_rows:
         if (not row.get('display_formula')
                 and int(row.get('talent_spell_id') or row['spell_id']) in ability_spell_ids):
+            exact = simc.effect_for_spell(simc_dump, int(row.get('source_spell_id') or row['spell_id']),
+                                          int(row.get('effect_index') or 0))
+            if (row.get('effect_origin', 'DIRECT') == 'DIRECT' and exact
+                    and exact.base_value == 0 and exact.scaled_value
+                    and not exact.sp_coefficient and not exact.ap_coefficient):
+                row['scaled_base_value'] = exact.scaled_value
+                row['scaled_final_pvp_value'] = exact.scaled_value * row.get('final_pvp_multiplier', 1)
             formulas = effect_formulas(simc_dump, row)
             if formulas:
                 row['display_formulas'] = formulas
+            from .baseline_tooltips import conditional_percent_formulas
+            conditional = conditional_percent_formulas(simc_dump, row)
+            if conditional:
+                row['conditional_display_formulas'] = conditional
 
     for talent in result.talents:
         rank_talent = talent
@@ -5865,6 +5882,9 @@ async def audit_spec(
             simc_dump, spell_id, class_name=class_name, spec_name=spec_name,
             spec_names=result.metadata.get("classSpecNames", [spec_name]),
         )
+        if fallback is None and spell_id in ability_spell_ids:
+            from .baseline_tooltips import coefficient_description
+            fallback = coefficient_description(simc_dump, spell_id)
         if fallback is not None:
             result.simc_tooltip_fallbacks[spell_id] = fallback
 

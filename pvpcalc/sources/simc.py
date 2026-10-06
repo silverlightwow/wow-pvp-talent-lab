@@ -1904,6 +1904,7 @@ class SimcEffect:
     # Exact generated player-text evidence for hidden/omitted spells.
     reference_contexts: tuple[str, ...] = ()
     unit_hint: str | None = None
+    scaled_value: float | None = None
 
 
 _SIMC_EFFECT_HEADER_RE = re.compile(
@@ -2104,6 +2105,7 @@ def parse_spell_effects(
 
             pvp_hotfix_previous=
                 pvp_hotfix_previous,
+            scaled_value=_float_match(re.compile(r'Scaled Value:\s*([+-]?\d+(?:\.\d+)?)'), effect_block),
         )
 
 

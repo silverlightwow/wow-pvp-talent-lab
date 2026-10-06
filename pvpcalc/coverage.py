@@ -8,7 +8,8 @@ from .snapshot import digest
 
 NUMERIC_FIELDS = ('base_value', 'spell_pvp_multiplier', 'aura_factor',
                   'final_pvp_multiplier', 'final_pvp_value',
-                  'simc_sp_coefficient', 'simc_ap_coefficient')
+                  'simc_sp_coefficient', 'simc_ap_coefficient',
+                  'scaled_base_value', 'scaled_final_pvp_value')
 
 
 def mechanic_key(parent_spell_id, row):

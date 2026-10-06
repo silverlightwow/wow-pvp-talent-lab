@@ -75,14 +75,17 @@ def test_passive_class_spellbook_effects_are_roots_too():
                              expected_build='12.1.0.12345', require_passive=True)
 
 
-@pytest.mark.parametrize('referenced_by_talent', [False, True])
-def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypatch, referenced_by_talent):
+@pytest.mark.parametrize('direction', ['none', 'talent_to_ability', 'ability_to_talent'])
+def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypatch, direction):
+    referenced_by_talent = direction == 'talent_to_ability'
+    reverse = direction == 'ability_to_talent'
+    modified = ('#1 (id=1001) : Apply Aura (6) | Decrease Movement Speed% (33)\n'
+                'Base Value: -50 | PvP Coefficient: 0.5\n'
+                'Description      : Slows the target by $s1%.')
     dump = dump_for([
-        spell(1, 'Tree Talent', 'Description      : ' +
+        spell(1, 'Tree Talent', modified if reverse else 'Description      : ' +
               ('The slow is $100s1%.' if referenced_by_talent else 'Does nothing.')),
-        spell(100, 'Baseline Slow', '#1 (id=1001) : Apply Aura (6) | Decrease Movement Speed% (33)\n'
-              'Base Value: -50 | PvP Coefficient: 0.5\n'
-              "Description      : Slows the target by $s1%."),
+        spell(100, 'Baseline Slow', 'Description      : The slow is $1s1%.' if reverse else modified),
     ])
     audit = pipeline.SpecAuditResult(class_name='Example', spec_name='Future',
         metadata={'wowBuild': dump.build, 'classSpecNames': ['Future']}, drustvar_builds=[],
@@ -98,7 +101,7 @@ def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypat
         return [dict(class_id=9, spec_id=0, spell_id=100, replaced_spell_id=0, name='Baseline Slow')]
     async def fetch_wowhead(*args, **kwargs): return {}, []
     async def fetch_page(client, sid):
-        text = 'Slows the target by 50%.' if sid == 100 else (
+        text = 'Slows the target by 50%.' if sid == 100 or reverse else (
             'The slow is 50%.' if referenced_by_talent else 'Does nothing.')
         return wowhead.parse_spell_page(
             f'<h1>{"Baseline Slow" if sid == 100 else "Tree Talent"}</h1>'
@@ -121,6 +124,8 @@ def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypat
     assert ability.mechanics[0]['final_pvp_multiplier'] == 0.5
     assert ability.pve_tooltip == 'Slows the target by 50%.'
     assert ability.pvp_tooltip == 'Slows the target by 25%.'
-    if referenced_by_talent:
-        assert public.talents[0].mechanics[0]['source_spell_id'] == 100
-        assert public.talents[0].pvp_tooltip == 'The slow is 25%.'
+    if referenced_by_talent or reverse:
+        assert public.talents[0].mechanics[0]['source_spell_id'] == (1 if reverse else 100)
+        assert public.talents[0].pvp_tooltip == ('Slows the target by 25%.' if reverse else 'The slow is 25%.')
+    if reverse:
+        assert ability.mechanics[0]['source_spell_id'] == 1

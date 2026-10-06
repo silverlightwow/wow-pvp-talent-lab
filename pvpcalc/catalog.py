@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import re
 from dataclasses import (
     dataclass,
     asdict,
@@ -160,6 +161,9 @@ def _mechanic_row(
 
     return {
         "display_formulas": row.get("display_formulas", []),
+        "conditional_display_formulas": row.get("conditional_display_formulas", []),
+        "scaled_base_value": row.get("scaled_base_value"),
+        "scaled_final_pvp_value": row.get("scaled_final_pvp_value"),
         "simc_sp_coefficient": row.get("simc_sp_coefficient"),
         "simc_ap_coefficient": row.get("simc_ap_coefficient"),
         "effect_origin":
@@ -968,8 +972,11 @@ async def build_spec_catalog(
                 pve_tooltip = wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []))
                 display_override = True
                 fallback_note = {"status": "EXPLICIT_DISPLAY_OVERRIDE", "source_spell_id": visible_id, "source": "raidbots_visible_spell_id"}
-        if not tooltip_renderer.tooltip_for_spec(pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames")).strip():
-            fallback = audit.simc_tooltip_fallbacks.get(spell_id)
+        fallback = audit.simc_tooltip_fallbacks.get(spell_id)
+        prefer_coefficients = (talent.get('tree_type') == 'ability' and fallback
+                               and fallback.get('coefficient_values')
+                               and not re.search(r'%\s*(?:of\s+)?(?:Spell Power|Attack Power|SP\b|AP\b)', pve_tooltip, re.I))
+        if (prefer_coefficients or not tooltip_renderer.tooltip_for_spec(pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames")).strip()):
             if fallback:
                 pve_tooltip = fallback["text"]
                 fallback_note = {"status": "EXACT_BUILD_DESCRIPTION", **fallback}
@@ -1015,6 +1022,16 @@ async def build_spec_catalog(
 
         if fallback_note:
             rendered["diagnostics"].append(fallback_note)
+
+        if talent.get('tree_type') == 'ability':
+            from .baseline_tooltips import render_conditional_percent
+            conditional = [formula for row in render_rows for formula in row.get('conditional_display_formulas', [])]
+            rendered['pvp_tooltip'], changes = render_conditional_percent(rendered['pvp_tooltip'], conditional,
+                                                                         original=rendered['pve_tooltip'])
+            if changes:
+                rendered['replacements'].extend(changes)
+                rendered['changed'] = True
+                rendered['diagnostics'].append(dict(status='EXACT_CLIENT_CONDITIONAL_VALUES',source='simc_exact_build'))
 
         rank_tooltips = []
         rank_source = getattr(audit, "rank_sources", {}).get(int(talent.get("entry_id") or 0))
