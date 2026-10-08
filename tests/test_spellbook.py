@@ -129,3 +129,62 @@ def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypat
         assert public.talents[0].pvp_tooltip == ('Slows the target by 25%.' if reverse else 'The slow is 25%.')
     if reverse:
         assert ability.mechanics[0]['source_spell_id'] == 1
+
+
+@pytest.mark.parametrize("mode", [
+    "relative_increase", "relative_reduction", "remove_relative_increase",
+    "property_absolute", "property_relative_increase",
+])
+def test_nonabsolute_off_tree_hotfixes_cannot_be_silently_skipped(mode):
+    """A targeted change to an exact-build, in-spec base ability must be audited."""
+    from types import SimpleNamespace
+    from pvpcalc.sources.blizzard_hotfixes import OfficialPvpHotfix
+
+    dump = dump_for([spell(100, "Baseline Slow")])
+    audit = SimpleNamespace(simc_dump=dump, spellbook_inventory={
+        "baseline_spell_ids": [100], "pvp_spell_ids": []})
+    base = dict(class_name="Example", spec_name="Future",
+                class_spec_names=["Future", "Other"], talents=[], abilities=[])
+    hotfix = OfficialPvpHotfix(
+        talent_name="Baseline Slow", current_percent=15.0, previous_percent=None,
+        target_hint=None, text="Baseline Slow changed in PvP combat.",
+        hotfix_date=None, mode=mode, context_path=("Example", "Future"))
+    scoped = SimpleNamespace(**base)
+
+    missed = catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix])
+    assert len(missed) == 1
+    assert missed[0]["spell_ids"] == [100]
+    assert missed[0]["mode"] == mode
+
+    # Once the correct ability is represented, no duplicate alert is needed.
+    scoped.abilities = [SimpleNamespace(talent_name="Baseline Slow")]
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix]) == []
+
+    scoped.abilities = []
+    outside = OfficialPvpHotfix(
+        talent_name=hotfix.talent_name, current_percent=15.0, previous_percent=None,
+        target_hint=None, text=hotfix.text, hotfix_date=None, mode=mode,
+        context_path=("Example", "Other"))
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [outside]) == []
+
+    # A class dump alone does not establish specialization ownership.
+    audit.spellbook_inventory["baseline_spell_ids"] = []
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix]) == []
+
+
+def test_absolute_base_hotfix_uses_existing_ability_resolver():
+    from types import SimpleNamespace
+    from pvpcalc.sources.blizzard_hotfixes import OfficialPvpHotfix
+
+    audit = SimpleNamespace(
+        simc_dump=dump_for([spell(100, "Baseline Slow")]),
+        spellbook_inventory={"baseline_spell_ids": [100]})
+    catalog_stub = SimpleNamespace(
+        class_name="Example", spec_name="Future", class_spec_names=["Future"],
+        talents=[], abilities=[])
+    absolute = OfficialPvpHotfix(
+        talent_name="Baseline Slow", current_percent=40.0,
+        previous_percent=50.0, target_hint=None, text="Now slows by 40% (was 50%).",
+        hotfix_date=None, mode="absolute", context_path=("Example", "Future"))
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(
+        audit, catalog_stub, [absolute]) == []
