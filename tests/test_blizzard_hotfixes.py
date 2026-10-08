@@ -170,6 +170,16 @@ def test_property_overlays_preserve_per_rank_change_annotations():
                for r in talent.rank_tooltips)
 
 
+def test_property_hotfix_does_not_clear_an_unrelated_rendering_error():
+    change=blizzard_hotfixes._parse_candidate('Example duration increased to 6 seconds (was 3 seconds).',
+        hotfix_date=None,in_pvp_section=True)
+    tooltip='Lasts for 3 sec. Another effect needs review.'
+    talent=FakeTalent('Example',123,tooltip,tooltip,render_status='REVIEW_REQUIRED')
+    report=blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),[change])
+    assert report['unresolved'][0]['reason']=='PROPERTY_SOURCE_REVIEW_REQUIRED'
+    assert talent.render_status=='REVIEW_REQUIRED' and talent.pvp_tooltip==tooltip
+
+
 def test_unknown_property_and_missing_inherited_subject_still_block():
     for note in ('Unknown now leaps 7 times (was 4).', 'Duration increased to 10 seconds (was 6 seconds).'):
         with pytest.raises(RuntimeError, match='Unparsed numeric PvP'):

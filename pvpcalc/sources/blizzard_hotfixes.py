@@ -2894,6 +2894,9 @@ def _apply_property_hotfix(talent, hotfix):
     if hotfix.mode != 'property_absolute':
         return 'PROPERTY_RELATIVE_NOT_VERIFIED'
     versions = [talent, *(talent.rank_tooltips or [])]
+    if any((version.get('render_status') if isinstance(version, dict) else version.render_status)
+           in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'} for version in versions):
+        return 'PROPERTY_SOURCE_REVIEW_REQUIRED'
     updates = []
     for version in versions:
         tooltip = str(version.get('pvp_tooltip') if isinstance(version, dict) else version.pvp_tooltip)
