@@ -67,6 +67,23 @@ def test_wrong_identity_or_conflicting_current_coefficient_remains_blocking(game
     assert not resolved
 
 
+@pytest.mark.parametrize('index,multiplier,reason',[
+    (1,1.34,None), (1,1.8,'CONFLICT_WITH_EXACT_GENERATED_EFFECT'),
+    (2,1.34,'WOWHEAD_ONLY_MODIFIER'),
+])
+def test_generated_table_cross_checks_wowhead_only_modifiers_by_exact_spell_and_effect(index,multiplier,reason):
+    dump=SimcDump(class_slug='test',build='12.1.0.69933',header='',edges={},spells={})
+    generated={100:{1:SimcEffect(effect_index=1,effect_text='School Damage (2)',base_value=0,
+        sp_coefficient=None,ap_coefficient=9.72,pvp_coefficient=1.34,game_effect_id=1001)}}
+    warning=dict(spell_id=100,effect_index=index,multiplier=multiplier,reason='WOWHEAD_ONLY_MODIFIER')
+    result=pipeline._filter_simc_corroborated_unresolved([warning],simc_dump=dump,
+        wowhead_by_spell={},generated_effects_by_spell=generated)
+    if reason is None:
+        assert not result
+    else:
+        assert result[0]['reason']==reason
+
+
 def test_generated_internal_modifier_does_not_rewrite_an_equal_visible_number():
     raw = ("Name : Stack Test (id=100)\n"
         "#1 (id=1001) : Apply Aura (6) | Dummy (4)\n"

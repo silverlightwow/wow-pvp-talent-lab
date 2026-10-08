@@ -41,7 +41,7 @@ def coverage_report(data: dict) -> dict:
                                    *mechanic_key(record['spell_id'], row)],
                               amount_kind=row.get('amount_kind'), values=values)
                 effects.append(effect)
-                if {'simc', 'drustvar'} & set(row.get('sources') or []):
+                if {'simc', 'simc_generated', 'drustvar'} & set(row.get('sources') or []):
                     independently_known.append(effect)
     effects.sort(key=lambda row: str(row['key']))
     independently_known.sort(key=lambda row: str(row['key']))
