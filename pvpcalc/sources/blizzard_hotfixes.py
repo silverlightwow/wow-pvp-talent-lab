@@ -61,7 +61,7 @@ _PVP_EXCLUSION_RE = re.compile(
 
 _NAME_SPLIT_RE = re.compile(
     r"\s+(?:now\s+)?(?:increases|reduces|grants|causes|"
-    r"deals|heals|damage|healing|absorption)\b",
+    r"deals|heals|empowers|(?:initial |direct )?damage|healing|absorption)\b",
     re.I,
 )
 
@@ -503,7 +503,7 @@ def _parse_candidate(
         unit == "percent"
         and relative_tuning is not None
         and previous is None
-        and " now " not in text.casefold()
+        and not re.search(r"\bnow\s+(?:increases|reduces|grants|causes)\b", before_was, re.I)
     ):
         direction = (
             relative_tuning
@@ -2897,6 +2897,7 @@ def _apply_property_hotfix(talent, hotfix):
     updates = []
     for version in versions:
         tooltip = str(version.get('pvp_tooltip') if isinstance(version, dict) else version.pvp_tooltip)
+        pve = str(version.get('pve_tooltip') if isinstance(version, dict) else version.pve_tooltip)
         candidates = _property_matches(tooltip, hotfix)
         # More than one candidate is ambiguous, even if one happens to match.
         if len(candidates) != 1:
@@ -2904,26 +2905,37 @@ def _apply_property_hotfix(talent, hotfix):
         match = candidates[0]
         value = float(match['value'])
         if abs(value - hotfix.current_percent) <= 1e-9:
-            updates.append((version, tooltip, False))
+            updates.append((version, tooltip, False, pve))
         elif hotfix.previous_percent is not None and abs(value - hotfix.previous_percent) <= 1e-9:
             start, end = match.span('value')
             updated = tooltip[:start] + _format_number(hotfix.current_percent) + tooltip[end:]
-            updates.append((version, updated, True))
+            updates.append((version, updated, True, pve))
         else:
             return 'PROPERTY_OLD_VALUE_MISMATCH'
-    for version, tooltip, changed in updates:
+    annotations = []
+    for version, tooltip, changed, pve in updates:
+        pve_matches = _property_matches(pve, hotfix)
+        if tooltip != pve and len(pve_matches) != 1:
+            return 'PROPERTY_PVE_VALUE_NOT_UNIQUE'
+        match = pve_matches[0] if pve_matches else None
+        change = (dict(start=match.start('value'), end=match.end('value'),
+            old_token=match['value'], new_token=_format_number(hotfix.current_percent),
+            kind='official_hotfix_property', property=hotfix.target_hint, unit=hotfix.unit,
+            effect_indexes=[], source='blizzard_hotfix') if match and tooltip != pve else None)
+        annotations.append((version, tooltip, changed, change))
+    for version, tooltip, changed, change in annotations:
         if isinstance(version, dict):
             version['pvp_tooltip'] = tooltip
             version['tooltip_changed'] = tooltip != version.get('pve_tooltip', '')
-            if changed:
-                version['render_status'] = 'CHANGED'
+            version['render_status'] = 'CHANGED' if version['tooltip_changed'] else 'UNCHANGED'
+            version['changes'] = _with_authoritative_change(version.get('changes'), change)
         else:
             version.pvp_tooltip = tooltip
             version.tooltip_changed = tooltip != version.pve_tooltip
-            if changed:
-                version.render_status = 'CHANGED'
+            version.render_status = 'CHANGED' if version.tooltip_changed else 'UNCHANGED'
+            version.changes = _with_authoritative_change(version.changes, change)
             version.has_pvp_mechanics = True
-    return 'APPLIED' if any(changed for _, _, changed in updates) else 'ALREADY_CURRENT'
+    return 'APPLIED' if any(changed for _, _, changed, _ in updates) else 'ALREADY_CURRENT'
 
 
 def apply_official_pvp_hotfixes(

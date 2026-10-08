@@ -149,11 +149,25 @@ def test_property_overlay_never_changes_same_number_in_another_property():
     assert not report['unresolved'] and len(report['applied']) == 1
     assert talent.pvp_tooltip == '15 sec cooldown\nLasts for 20 sec. Deals 20% more damage.'
     assert talent.pve_tooltip == tooltip
+    assert talent.changes[0]['old_token']=='20' and talent.changes[0]['new_token']=='15'
     report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
     assert not report['unresolved'] and len(report['already_current']) == 1
     talent.pvp_tooltip = 'Lasts for 20 sec.'
     report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
     assert report['unresolved'][0]['reason'] == 'PROPERTY_VALUE_NOT_UNIQUE'
+
+
+def test_property_overlays_preserve_per_rank_change_annotations():
+    change=blizzard_hotfixes._parse_candidate('Example duration increased to 6 seconds (was 3 seconds).',
+        hotfix_date=None,in_pvp_section=True)
+    tooltip='Movement speed persists for 3 sec.'
+    talent=FakeTalent('Example',123,tooltip,tooltip,
+        rank_tooltips=[dict(rank=1,pve_tooltip=tooltip,pvp_tooltip=tooltip),
+                       dict(rank=2,pve_tooltip=tooltip,pvp_tooltip=tooltip)])
+    report=blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),[change])
+    assert not report['unresolved']
+    assert all(r['changes'] and r['render_status']=='CHANGED' and '6 sec' in r['pvp_tooltip']
+               for r in talent.rank_tooltips)
 
 
 def test_unknown_property_and_missing_inherited_subject_still_block():
