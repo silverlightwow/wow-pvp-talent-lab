@@ -1494,6 +1494,28 @@ def _replace_one_percent(
         prefer_previous=True,
     )
 
+    # A source-rounded coefficient may render 200.1% for Blizzard's 200%.
+    # Canonicalize only one nearby current token when the corresponding
+    # PvE region still proves the unique, explicitly announced old value.
+    if match is None and hotfix.unit == 'percent' and hotfix.previous_percent is not None:
+        pve_region = _target_region(pve_tooltip, hotfix.target_hint)
+        pve_segment = pve_tooltip[slice(*pve_region)] if pve_region else ''
+        pve_matches = _value_matches(pve_segment, unit='percent')
+        pvp_matches = _value_matches(segment, unit='percent')
+        old_matches = ([m for m in pve_matches
+                       if abs(_match_value(m) - hotfix.previous_percent) <= 1e-9]
+                       if pve_region else [])
+        nearby = [m for m in pvp_matches
+                  if abs(_match_value(m) - hotfix.current_percent) <= max(0.011, abs(hotfix.current_percent) * 0.001)]
+        if len(old_matches) == 1 and len(nearby) == 1 and len(pve_matches) == len(pvp_matches):
+            def template(text, values):
+                for value in reversed(values):
+                    text = text[:value.start()] + '{value}' + text[value.end():]
+                return _normalize_name(text)
+            if (pve_matches.index(old_matches[0]) == pvp_matches.index(nearby[0]) and
+                    template(pve_segment, pve_matches) == template(segment, pvp_matches)):
+                match = nearby[0]
+
     if match is None:
         if _region_has_current_value(
             segment,
@@ -2572,6 +2594,7 @@ def _spec_historical_relative_evidence(
         {},
     )
     changed = []
+    seen_effects = set()
 
     for talent in spec_catalog.talents:
         spell_id = getattr(
@@ -2620,11 +2643,19 @@ def _spec_historical_relative_evidence(
                 continue
 
             delta = new_value - old_value
-            if abs(
-                delta - expected_delta
-            ) > 0.011:
+            relative_delta = new_value / old_value - 1 if old_value > 0 else None
+            # Blizzard rounds published relative changes to whole percent.
+            # A 1.30 -> 1.40 aura is a 7.69% increase, announced as 8%.
+            # Retain additive aura tuning supported by older notes as well.
+            additive_matches = abs(delta - expected_delta) <= 0.011
+            relative_matches = (relative_delta is not None and
+                                abs(relative_delta - expected_delta) <= 0.005)
+            if not (additive_matches or relative_matches):
                 continue
 
+            if key in seen_effects:
+                continue
+            seen_effects.add(key)
             changed.append(
                 {
                     "talent_name":
@@ -2643,6 +2674,8 @@ def _spec_historical_relative_evidence(
                         new_value,
                     "delta":
                         delta,
+                    "relative_delta": relative_delta,
+                    "comparison": "relative" if relative_matches else "additive",
                     "expected_delta":
                         expected_delta,
                 }
@@ -2657,6 +2690,27 @@ def _spec_historical_relative_evidence(
                         changed,
                 }
 
+    post = baseline.get('verified_post_by_spell')
+    if post:
+        from types import SimpleNamespace
+        endpoint = SimpleNamespace(talents=[SimpleNamespace(
+            spell_id=t.spell_id, talent_name=t.talent_name,
+            mechanics=post.get(str(t.spell_id), {}).get('mechanics', []))
+            for t in spec_catalog.talents])
+        historical = dict(baseline)
+        historical.pop('verified_post_by_spell')
+        evidence = _spec_historical_relative_evidence(endpoint, hotfix,
+            {hotfix.hotfix_date.isoformat(): historical})
+        current = {(int(r.get('source_spell_id') or 0), int(r.get('effect_index') or 0)): r
+                   for t in spec_catalog.talents for r in (getattr(t, 'mechanics', None) or [])}
+        if evidence and all((e['source_spell_id'], e['effect_index']) in current
+                            for e in evidence['changed_effects']):
+            return dict(evidence, source='historically_verified_tuning',
+                verified_post_commit=baseline.get('verified_post_commit'),
+                verified_post_content_hash=baseline.get('verified_post_content_hash'),
+                current_effects=[dict(source_spell_id=e['source_spell_id'], effect_index=e['effect_index'],
+                    aura_factor=current[(e['source_spell_id'], e['effect_index'])].get('aura_factor'))
+                    for e in evidence['changed_effects']])
     return None
 
 
@@ -2669,8 +2723,9 @@ def _apply_class_absolute_hotfix(
     Class-section hotfixes can land server-side without a client build bump.
     They are not PvP modifiers: when they also apply in PvP, the authoritative
     current value belongs in both tooltips. We only auto-repair a stale value
-    when the talent has no separate rendered PvP variant; otherwise we fail
-    closed instead of overwriting a real PvP-specific difference.
+    when the talent has no separate rendered PvP variant. With a separate
+    variant, both copies must retain the exact announced old value in the
+    same unambiguous target, outside every existing PvP replacement.
     """
     pve = str(
         talent.pve_tooltip
@@ -2701,15 +2756,53 @@ def _apply_class_absolute_hotfix(
     if status != "APPLIED":
         return status, None
 
-    if pvp != pve:
-        return (
-            "CLASS_HOTFIX_OVERLAPS_PVP_VARIANT",
-            None,
-        )
-
-    talent.pve_tooltip = updated
-    talent.pvp_tooltip = updated
-    talent.tooltip_changed = False
+    staged = []
+    for version in [talent, *(talent.rank_tooltips or [])]:
+        get = version.get if isinstance(version, dict) else lambda key, default=None: getattr(version, key, default)
+        old_pve = str(get('pve_tooltip') or '')
+        old_pvp = str(get('pvp_tooltip') or old_pve)
+        if get('render_status') in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'}:
+            return 'CLASS_HOTFIX_SOURCE_REVIEW_REQUIRED', None
+        new_pve, pve_change, pve_status = _replace_one_percent(
+            pve_tooltip=old_pve, pvp_tooltip=old_pve, hotfix=hotfix)
+        if pve_status == 'ALREADY_CURRENT':
+            continue
+        if pve_status != 'APPLIED' or pve_change is None:
+            return pve_status, None
+        changes = list(get('changes') or [])
+        if old_pvp != old_pve:
+            pvp_region = _target_region(old_pvp, hotfix.target_hint)
+            pvp_match = (_select_value_match(old_pvp[slice(*pvp_region)], hotfix=hotfix,
+                         prefer_previous=True) if pvp_region else None)
+            pve_old = float(pve_change['old_token'].rstrip('%'))
+            if (hotfix.previous_percent is None or pvp_match is None
+                    or abs(pve_old - hotfix.previous_percent) > 1e-9
+                    or abs(_match_value(pvp_match) - pve_old) > 1e-9
+                    or any(max(c.get('start', 0), pve_change['start']) <
+                           min(c.get('end', 0), pve_change['end']) for c in changes)):
+                return 'CLASS_HOTFIX_OVERLAPS_PVP_VARIANT', None
+            new_pvp, _, pvp_status = _replace_one_percent(
+                pve_tooltip=old_pve, pvp_tooltip=old_pvp, hotfix=hotfix)
+            if pvp_status != 'APPLIED':
+                return 'CLASS_HOTFIX_OVERLAPS_PVP_VARIANT', None
+        else:
+            new_pvp = new_pve
+        # Existing differences are indexed against PvE text. A shared
+        # baseline replacement can change the length of preceding text.
+        shift = len(pve_change['new_token']) - len(pve_change['old_token'])
+        changes = [dict(c, start=c['start'] + shift, end=c['end'] + shift)
+                   if c.get('start', -1) >= pve_change['end'] and 'end' in c else c
+                   for c in changes]
+        staged.append((version, new_pve, new_pvp, changes))
+    for version, new_pve, new_pvp, changes in staged:
+        values = dict(pve_tooltip=new_pve, pvp_tooltip=new_pvp, changes=changes,
+                      tooltip_changed=new_pvp != new_pve,
+                      render_status='CHANGED' if new_pvp != new_pve else 'UNCHANGED')
+        if isinstance(version, dict):
+            version.update(values)
+        else:
+            for key, value in values.items():
+                setattr(version, key, value)
 
     diagnostic = {
         "status":
