@@ -3894,6 +3894,7 @@
         const classSlug = String(data.class_name || "").toLowerCase().replaceAll(" ", "-");
         const spellId = Number(mechanic.source_spell_id);
         const rules = mechanic.aura_rules || [];
+        const officialFactor = Number(mechanic.official_hotfix_factor ?? 1);
         const link = (url, title) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)} ↗</a>`;
         const auraRows = rules.map(rule => `<li>
             ${link(`https://www.wowhead.com/spell=${Number(rule.aura_spell_id)}`, `Aura ${rule.aura_spell_id}`)}
@@ -3904,8 +3905,8 @@
             Aura source build: <strong>${escapeHtml(rule.build || "not supplied")}</strong>.
         </li>`).join("");
         return `<details class="mechanic-evidence"><summary>Why this modifier? · Sources &amp; calculation</summary>
-            <p><strong>×${formatNumber(mechanic.spell_pvp_multiplier)} × ${formatNumber(mechanic.aura_factor)} = ×${formatNumber(mechanic.final_pvp_multiplier)}</strong><br>
-            Spell PvP coefficient × applicable specialization PvP aura factors. This applies to effect #${Number(mechanic.effect_index)} of spell ${spellId}.</p>
+            <p><strong>×${formatNumber(mechanic.spell_pvp_multiplier)} × ${formatNumber(mechanic.aura_factor)}${officialFactor !== 1 ? ` × ${formatNumber(officialFactor)} (official hotfix)` : ''} = ×${formatNumber(mechanic.final_pvp_multiplier)}</strong><br>
+            Spell PvP coefficient × applicable specialization PvP aura factors${officialFactor !== 1 ? ' × official Blizzard hotfix correction' : ''}. This applies to effect #${Number(mechanic.effect_index)} of spell ${spellId}.</p>
             ${rules.length ? `<ul>${auraRows}</ul>` : '<p>No applicable specialization PvP aura rule: ×1.</p>'}
             <p>Spell data build: <strong>${escapeHtml(data.tree_build)}</strong>. Aura and spell sources can report different builds; their versions are shown separately.</p>
             <div class="evidence-links">
@@ -3915,7 +3916,7 @@
                 ${link('https://github.com/simulationcraft/simc/tree/midnight/SpellDataDump', 'SimulationCraft spell dumps')}
                 <a href="docs.html#spec-aura">How aura matching works →</a>
             </div>
-            <p class="source-caveat">Datamined third-party sources, not a Blizzard patch-note citation. Links show the providers’ latest data; the values above belong to this site's snapshot.</p>
+            <p class="source-caveat">${officialFactor !== 1 ? 'Captured source coefficients are preserved; the official Blizzard correction is recorded separately.' : 'Coefficients come from datamined third-party sources.'} Links show the providers’ latest data; the values above belong to this site's snapshot.</p>
         </details>`;
     }
 
@@ -4157,7 +4158,11 @@
                     <div class="path-row">
                         Drustvar ${escapeHtml(note.source_build)} reports ×${formatNumber(note.multiplier)}.
                         Current build ${escapeHtml(note.current_build)} uses ×${formatNumber(note.current_multiplier)},
-                        confirmed by Wowhead and SimC for effect ${escapeHtml(note.game_effect_id)}.
+                        confirmed by ${escapeHtml((note.resolved_by || []).map(source => ({
+                            simc_generated_exact_build: 'the pinned SimC generated table',
+                            simc_exact_build_hotfix: "SimC's recorded hotfix",
+                            wowhead_nether_pvp_branch: 'the Wowhead PvP tooltip',
+                        })[source]).filter(Boolean).join(' and ') || 'captured current-build evidence')} for effect ${escapeHtml(note.game_effect_id)}.
                     </div>`).join("")}
 
                 <div class="path-row">

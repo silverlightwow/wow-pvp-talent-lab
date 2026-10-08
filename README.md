@@ -54,6 +54,8 @@ When a same-build source temporarily lags a server hotfix, a mixed-field SimC ho
 
 Shared class tuning preserves unrelated PvP differences and updates only a matching announced old value in both descriptions. Small coefficient-rounding differences are canonicalized only when the same text structure and numeric position identify the affected field. Spec-wide changes support rounded relative gains as well as additive aura changes. Older confirmed tuning keeps an immutable git endpoint, rechecked against its pre-event values, so subsequent tuning does not invalidate the historical event or apply it again. The latest directive still requires current evidence.
 
+For a uniquely mapped scalar effect, official rounding also updates the mechanic card through a separate correction factor while retaining the captured coefficient. Property hotfixes carry the same official-source fields as percentage hotfixes, and source-resolution notes name only the evidence actually used.
+
 This is not an unconditional parser for future patches. Qualitative fixes, new kinds of numerical changes, PvP talents absent from the exact-build class/spec dump, changes to Blizzard's article ID, and lag or outages in the other sources may require review. The current official article ID is configured in `pvpcalc/sources/blizzard_hotfixes.py`. Specialization discovery, hotfix scoping, and rank-condition ordering use Raidbots data; a few legacy icon aliases in `web/app.js` are explicit asset corrections, not PvP value overrides.
 
 ## Run locally

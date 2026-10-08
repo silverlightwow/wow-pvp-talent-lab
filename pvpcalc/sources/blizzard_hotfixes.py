@@ -3034,6 +3034,59 @@ def _apply_property_hotfix(talent, hotfix):
     return 'APPLIED' if any(changed for _, _, changed, _ in updates) else 'ALREADY_CURRENT'
 
 
+
+def _canonicalize_percent_mechanics(talent, hotfix, change):
+    """Align a uniquely mapped scalar card with official rounding.
+
+    Keep source coefficients intact and record the small official correction
+    as a separate factor, as for existing relative hotfix overlays.
+    """
+    if hotfix.unit != 'percent' or talent.render_status in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'}:
+        return
+    candidates = []
+    for existing in talent.changes or []:
+        try:
+            old = float(str(existing['old_token']).rstrip('%'))
+            current = float(str(existing['new_token']).rstrip('%'))
+        except (KeyError, TypeError, ValueError):
+            continue
+        overlaps = (change is not None and max(existing.get('start', 0), change['start']) <
+                    min(existing.get('end', 0), change['end']))
+        if overlaps or (change is None and abs(current - hotfix.current_percent) <= 1e-9):
+            candidates.append((existing, old))
+    if len(candidates) != 1:
+        return
+    existing, old = candidates[0]
+    indexes = set(existing.get('effect_indexes') or [])
+    rows = []
+    for row in talent.mechanics or []:
+        if row.get('effect_index') not in indexes or row.get('simc_sp_coefficient') or row.get('simc_ap_coefficient'):
+            continue
+        try:
+            base, final = float(row['base_value']), float(row['final_pvp_value'])
+            multiplier = float(row['final_pvp_multiplier'])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if (abs(abs(base) - abs(old)) <= 1e-9 and abs(final) > 1e-12 and
+                abs(abs(final) - hotfix.current_percent) <= max(0.011, abs(hotfix.current_percent) * 0.001)):
+            rows.append((row, final, multiplier))
+    if not rows or len({(r.get('source_spell_id'), r.get('effect_index')) for r, _, _ in rows}) != 1:
+        return
+    if change is not None:
+        change['effect_indexes'] = sorted(indexes)
+    for row, final, multiplier in rows:
+        canonical = hotfix.current_percent * (1 if final > 0 else -1)
+        if abs(final - canonical) <= 1e-9:
+            continue
+        factor = canonical / final
+        previous_factor = row.get('official_hotfix_factor')
+        row.update(final_pvp_value=canonical, final_pvp_multiplier=multiplier * factor,
+                   official_hotfix_factor=float(1 if previous_factor is None else previous_factor) * factor,
+                   official_hotfix_date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                   official_hotfix_source_url=hotfix.source_url, official_hotfix_text=hotfix.text)
+        row['sources'] = list(dict.fromkeys([*(row.get('sources') or []), 'blizzard_hotfix']))
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -3207,7 +3260,9 @@ def apply_official_pvp_hotfixes(
                     current_value=hotfix.current_percent, previous_value=hotfix.previous_percent)
                 if status in {'APPLIED', 'ALREADY_CURRENT'}:
                     (applied if status == 'APPLIED' else already_current).append(record)
-                    talent.diagnostics.append(dict(record, source='blizzard_hotfix', reason=status))
+                    talent.diagnostics.append(dict(record, source='blizzard_hotfix', reason=status,
+                        status='OFFICIAL_HOTFIX_APPLIED' if status == 'APPLIED' else 'OFFICIAL_HOTFIX_CURRENT',
+                        hotfix_date=record['date'], hotfix_text=hotfix.text, source_url=hotfix.source_url))
                 else:
                     unresolved.append(dict(record, reason=status))
                 continue
@@ -3577,6 +3632,9 @@ def apply_official_pvp_hotfixes(
                         hotfix,
                     )
                 )
+
+            if status in {'APPLIED', 'ALREADY_CURRENT'}:
+                _canonicalize_percent_mechanics(talent, hotfix, change)
 
             diagnostic = {
                 "status": (

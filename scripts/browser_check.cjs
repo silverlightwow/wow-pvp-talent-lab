@@ -267,6 +267,20 @@ function assertDescription(shown, original) {
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`comparison overflow ${spec.slug} ${width}`);
     await page.locator('[data-tab="compendium"]').click();
 
+    if (requireCurrentHotfixAbilities && spec.slug === 'shaman-restoration' && width === 1440) {
+     const harmony=data.talents.find(t=>t.talent_name==='Earthen Harmony');
+     const officialChange=harmony?.changes.find(c=>c.source==='blizzard_hotfix' && c.kind==='official_hotfix_percent');
+     if (officialChange) {
+      await page.locator('#compendiumList .compendium-item').filter({hasText:'Earthen Harmony'}).click();
+      const detail=await page.locator('#compendiumDetail').textContent();
+      assert.ok(detail.includes(`Final value: ${parseFloat(officialChange.new_token)}`),
+       'Earthen Harmony card must agree with the official tooltip value');
+      assert.ok(detail.includes('official hotfix'), 'The source-rounding correction must expose its official factor');
+      assert.ok((await page.locator('#compendiumDetail a[href*="blizzard.com"]').count())>0,
+       'The authoritative correction must link the Blizzard source');
+     }
+    }
+
     if (requireCurrentHotfixAbilities && spec.className === 'Hunter') {
      const wingClipItem=page.locator('#compendiumList .compendium-item').filter({hasText:'Wing Clip'});
      assert.equal(await wingClipItem.count(),1,`${spec.slug}: Wing Clip must appear once in PvP mechanics`);
