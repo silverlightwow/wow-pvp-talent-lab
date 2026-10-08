@@ -366,7 +366,7 @@
         ]
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(58.8234% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(67.6469% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -374,7 +374,7 @@
           "start": 142,
           "end": 144,
           "old_token": "73",
-          "new_token": "58.8234",
+          "new_token": "67.6469",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -399,7 +399,25 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "73",
-          "new": "58.8234"
+          "new": "67.6469"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "hotfix_date": "2026-10-06",
+          "hotfix_text": "Earth Shield healing increased by 15% in PvP combat.",
+          "reason": "RELATIVE_HOTFIX_EVIDENCE",
+          "evidence": {
+            "source": "historical_verified_snapshot",
+            "field": "effective_player_value",
+            "source_spell_id": 379,
+            "effect_index": 1,
+            "old_value": 0.5882339999999999,
+            "new_value": 0.6764690999999999,
+            "ratio": 1.1500000000000001,
+            "baseline_commit": "8415c1af23b3b5af06b2d6532bc080c2128308f9"
+          }
         }
       ],
       "has_pvp_mechanics": true,
@@ -420,8 +438,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
-          "aura_factor": 0.948,
-          "final_pvp_multiplier": 0.8058,
+          "aura_factor": 1.0902,
+          "final_pvp_multiplier": 0.92667,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -445,8 +463,8 @@
               "aura_spell_id": 1256945,
               "game_effect_id": 1266438,
               "amount_kind": "direct",
-              "value_pct": 20.0,
-              "factor": 1.2,
+              "value_pct": 38.0,
+              "factor": 1.38,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -1915,7 +1933,7 @@
           "talent_spell_id": 51485,
           "source_spell_id": 116947,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1932,9 +1950,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6741,7 +6759,7 @@
         ]
       },
       "pve_tooltip": "Earth Shield reduces damage taken by 3% and its healing is increased by up to 150% as its target's health decreases. Maximum benefit is reached below 50% health.",
-      "pvp_tooltip": "Earth Shield reduces damage taken by 5% and its healing is increased by up to 150% as its target's health decreases. Maximum benefit is reached below 50% health.",
+      "pvp_tooltip": "Earth Shield reduces damage taken by 8% and its healing is increased by up to 200% as its target's health decreases. Maximum benefit is reached below 50% health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6749,11 +6767,22 @@
           "start": 37,
           "end": 38,
           "old_token": "3",
-          "new_token": "5",
+          "new_token": "8",
           "kind": "percent_value",
           "effect_indexes": [
             3
           ]
+        },
+        {
+          "start": 78,
+          "end": 82,
+          "old_token": "150%",
+          "new_token": "200%",
+          "kind": "official_hotfix_percent",
+          "effect_indexes": [
+            1
+          ],
+          "source": "blizzard_hotfix"
         }
       ],
       "diagnostics": [
@@ -6764,7 +6793,33 @@
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "3",
-          "new": "5"
+          "new": "8"
+        },
+        {
+          "effect_indexes": [
+            1,
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "150",
+          "new": "200.1"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "hotfix_date": "2026-10-06",
+          "hotfix_text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).",
+          "reason": "ALREADY_CURRENT"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_APPLIED",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "hotfix_date": "2026-10-06",
+          "hotfix_text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).",
+          "reason": "APPLIED"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6780,14 +6835,99 @@
           "dependency_kind": null,
           "talent_spell_id": 382020,
           "source_spell_id": 382020,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc_generated",
+            "drustvar",
+            "simc",
+            "blizzard_hotfix"
+          ],
+          "source_notes": [],
+          "confidence": "high",
+          "official_hotfix_factor": 0.9995002498750624,
+          "official_hotfix_date": "2026-10-06",
+          "official_hotfix_source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "official_hotfix_text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%)."
+        },
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382020,
+          "source_spell_id": 382020,
           "effect_index": 3,
           "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)",
           "base_value": -3.0,
-          "spell_pvp_multiplier": 1.67,
+          "spell_pvp_multiplier": 2.67,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.67,
-          "final_pvp_value": -5.01,
+          "final_pvp_multiplier": 2.6666666666666665,
+          "final_pvp_value": -8.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc_generated",
+            "simc",
+            "blizzard_hotfix"
+          ],
+          "source_notes": [
+            {
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "source_build": "12.1.0.69933",
+              "current_build": "12.1.0.69933",
+              "game_effect_id": 1013210,
+              "previous_multiplier": 1.67,
+              "current_multiplier": 2.67,
+              "current_effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)",
+              "resolved_by": [
+                "simc_generated_exact_build",
+                "simc_exact_build_hotfix"
+              ]
+            }
+          ],
+          "confidence": "high",
+          "official_hotfix_factor": 0.9987515605493134,
+          "official_hotfix_date": "2026-10-06",
+          "official_hotfix_source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "official_hotfix_text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%)."
+        },
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382020,
+          "source_spell_id": 382020,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6795,13 +6935,18 @@
           "sources": [
             "simc",
             "drustvar",
-            "simc_generated"
+            "simc_generated",
+            "blizzard_hotfix"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "high",
+          "official_hotfix_factor": 0.9995002498750624,
+          "official_hotfix_date": "2026-10-06",
+          "official_hotfix_source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "official_hotfix_text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%)."
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 3,
       "rank_tooltips": []
     },
     {
@@ -12350,6 +12495,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 116947,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116947'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 188196,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=188196'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12473,17 +12623,42 @@
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-09-24",
-    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
-    "applied": [],
-    "already_current": [],
+    "latest_date": "2026-10-06",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "applied": [
+      {
+        "talent_name": "Earthen Harmony",
+        "spell_id": 382020,
+        "text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).",
+        "date": "2026-10-06"
+      }
+    ],
+    "already_current": [
+      {
+        "talent_name": "Earth Shield",
+        "spell_id": 974,
+        "text": "Earth Shield healing increased by 15% in PvP combat.",
+        "date": "2026-10-06",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "field": "effective_player_value",
+          "source_spell_id": 379,
+          "effect_index": 1,
+          "old_value": 0.5882339999999999,
+          "new_value": 0.6764690999999999,
+          "ratio": 1.1500000000000001,
+          "baseline_commit": "8415c1af23b3b5af06b2d6532bc080c2128308f9"
+        }
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "spell_id": 382020,
+        "text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).",
+        "date": "2026-10-06"
+      }
+    ],
     "unresolved": [],
     "ignored_non_talent": [
-      {
-        "talent_name": "Font of Venomous Rage trinket",
-        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
-        "date": "2026-09-17"
-      },
       {
         "talent_name": "__SPEC_DAMAGE__",
         "text": "All damage increased by 3% in PvP combat.",
@@ -12576,16 +12751,6 @@
           "Mage",
           "Fire",
           "Sunfury"
-        ]
-      },
-      {
-        "talent_name": "Call of Ohn’ahra",
-        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -12769,15 +12934,6 @@
         "context_path": [
           "Shaman",
           "Elemental"
-        ]
-      },
-      {
-        "talent_name": "Mindgames direct",
-        "text": "Mindgames direct damage and reversal increased by 50%.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
         ]
       },
       {
@@ -13005,18 +13161,455 @@
         "context_path": [
           "Hunter"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All spell and ability damage increased by 8% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Absolute Faith",
+        "text": "Absolute Faith absorption increased by 113%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Ancient of Lore: Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Blightfall",
+        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy"
+        ]
+      },
+      {
+        "talent_name": "Bloodstone",
+        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Bonds of Fel",
+        "text": "Bonds of Fel damage increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Call Fel Lord’s Fel Cleave",
+        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Demonology"
+        ]
+      },
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "absolute",
+        "unit": "seconds",
+        "property": "Nature’s Swiftness",
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Cover of Darkness",
+        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter"
+        ]
+      },
+      {
+        "talent_name": "Dark Simulacrum",
+        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Death’s Cold Embrace",
+        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Dire Beast: Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery"
+        ]
+      },
+      {
+        "talent_name": "Dragon Charge",
+        "text": "Dragon Charge damage increased by 300%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior"
+        ]
+      },
+      {
+        "talent_name": "Dreamwalker’s Embrace",
+        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker"
+        ]
+      },
+      {
+        "talent_name": "Electrocute",
+        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Focused Assault now stacks to 6 times (was 5).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Frost Bomb",
+        "text": "Frost Bomb damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Glass Cannon",
+        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Hunting Pack",
+        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Icy Feet",
+        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance"
+        ]
+      },
+      {
+        "talent_name": "Improved Mass Dispel",
+        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mighty Ox Kick",
+        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk"
+        ]
+      },
+      {
+        "talent_name": "Moon and Stars",
+        "text": "Moon and Stars radius increased by 60%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Seismic Slam",
+        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Spellbreaker",
+        "text": "Spellbreaker damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Thick as Thieves",
+        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Tireless Pursuit",
+        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Ultimate Retribution",
+        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution"
+        ]
+      },
+      {
+        "talent_name": "World in Flames",
+        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
       }
     ],
-    "external_non_tree": []
+    "external_non_tree": [
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
+      }
+    ]
   },
   "non_tree_hotfix_resolution": {
     "resolved": [],
     "unresolved": [],
-    "external": []
+    "external": [
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
+      }
+    ]
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "cafc27227ec08760cb391d6a798e104435c29a87",
+    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
     "baseline_spell_ids": [
       2484,
       2645,
@@ -13077,7 +13670,7 @@
     ]
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-10-06T14:39:05.308826+00:00",
+  "generated_at": "2026-10-08T21:09:01.992725+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13092,7 +13685,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 140,
+    "source_warning_count": 141,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -13128,14 +13721,14 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
-    "captured_at": "2026-10-06T14:12:25.331017+00:00",
-    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
-    "evidence_hash": "4ea29e61db8ed497032ca5d2b82b9b9f762a6cc95469dd7723e4833f8e54c9a7"
+    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
+    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
+    "evidence_hash": "8274083a742f1bc85e752e6516681abdb231d3da14035fe444a99b34e7186097"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 49,
+    "effect_count": 51,
     "effects": [
       {
         "key": [
@@ -13836,15 +14429,57 @@
           127674,
           382020,
           382020,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          127674,
+          382020,
+          382020,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          127674,
+          382020,
+          382020,
           3
         ],
         "amount_kind": null,
         "values": {
           "base_value": -3.0,
-          "spell_pvp_multiplier": 1.67,
+          "spell_pvp_multiplier": 2.67,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.67,
-          "final_pvp_value": -5.01,
+          "final_pvp_multiplier": 2.6666666666666665,
+          "final_pvp_value": -8.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -13947,8 +14582,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.85,
-          "aura_factor": 0.948,
-          "final_pvp_multiplier": 0.8058,
+          "aura_factor": 1.0902,
+          "final_pvp_multiplier": 0.92667,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.73,
           "simc_ap_coefficient": null,
@@ -14167,7 +14802,7 @@
         }
       }
     ],
-    "semantic_hash": "80cf38dd95c630c1b07f43824ea337efe8bf689295165a5d73c40fcf40b09376",
+    "semantic_hash": "f4c2a8a1a47e2ced3ad9aaa5aa849cb7efee1938a2b31486ec89f32d73de4a5b",
     "independent_effects": [
       {
         "key": [
@@ -14847,15 +15482,57 @@
           127674,
           382020,
           382020,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          127674,
+          382020,
+          382020,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.334,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3333333333333333,
+          "final_pvp_value": 200.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          127674,
+          382020,
+          382020,
           3
         ],
         "amount_kind": null,
         "values": {
           "base_value": -3.0,
-          "spell_pvp_multiplier": 1.67,
+          "spell_pvp_multiplier": 2.67,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.67,
-          "final_pvp_value": -5.01,
+          "final_pvp_multiplier": 2.6666666666666665,
+          "final_pvp_value": -8.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -14958,8 +15635,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.85,
-          "aura_factor": 0.948,
-          "final_pvp_multiplier": 0.8058,
+          "aura_factor": 1.0902,
+          "final_pvp_multiplier": 0.92667,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.73,
           "simc_ap_coefficient": null,
@@ -15178,6 +15855,6 @@
         }
       }
     ],
-    "independent_hash": "e5c09bc803b37f0a227a8b13144964417e2cbcd5c0462ca8830a7c64e2bbe6a9"
+    "independent_hash": "38af212f1916daf7fe118d5cb9aa3f2fbd9d3c4a154b3882ec99c867aa991a75"
   }
 }

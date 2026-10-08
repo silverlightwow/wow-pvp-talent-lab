@@ -56,7 +56,7 @@
         ]
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (124.146% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (130.416% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -64,7 +64,7 @@
           "start": 126,
           "end": 131,
           "old_token": "125.4",
-          "new_token": "124.146",
+          "new_token": "130.416",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -109,7 +109,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "125.4",
-          "new": "124.146"
+          "new": "130.416"
         }
       ],
       "has_pvp_mechanics": true,
@@ -130,8 +130,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -141,8 +141,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -277,8 +277,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -295,8 +295,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -963,8 +963,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -981,8 +981,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -3583,7 +3583,7 @@
         ]
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "pvp_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (116.82% of Attack Power) Physical damage.",
+      "pvp_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (122.72% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3591,7 +3591,7 @@
           "start": 129,
           "end": 132,
           "old_token": "118",
-          "new_token": "116.82",
+          "new_token": "122.72",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3606,7 +3606,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "118",
-          "new": "116.82"
+          "new": "122.72"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3627,8 +3627,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3643,8 +3643,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -3907,8 +3907,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3925,8 +3925,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -5023,8 +5023,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5039,8 +5039,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -5478,8 +5478,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5498,8 +5498,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -6369,8 +6369,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.95,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6385,8 +6385,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -6674,7 +6674,7 @@
         ]
       },
       "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
-      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((138.6% of Attack Power) + (138.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((138.6% of Attack Power) + (138.6% of Attack Power)) * 8] over 3.50 sec]",
+      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 2] over 0.50 sec\n2 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 3] over 1.00 sec\n3 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 4] over 1.50 sec\n4 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 5] over 2.00 sec\n5 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((145.5999% of Attack Power) + (145.5999% of Attack Power)) * 8] over 3.50 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6682,7 +6682,7 @@
           "start": 354,
           "end": 357,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6692,7 +6692,7 @@
           "start": 379,
           "end": 382,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6702,7 +6702,7 @@
           "start": 434,
           "end": 437,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6712,7 +6712,7 @@
           "start": 459,
           "end": 462,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6722,7 +6722,7 @@
           "start": 514,
           "end": 517,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6732,7 +6732,7 @@
           "start": 539,
           "end": 542,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6742,7 +6742,7 @@
           "start": 594,
           "end": 597,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6752,7 +6752,7 @@
           "start": 619,
           "end": 622,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6762,7 +6762,7 @@
           "start": 674,
           "end": 677,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6772,7 +6772,7 @@
           "start": 699,
           "end": 702,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6782,7 +6782,7 @@
           "start": 756,
           "end": 759,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6792,7 +6792,7 @@
           "start": 781,
           "end": 784,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6802,7 +6802,7 @@
           "start": 839,
           "end": 842,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6812,7 +6812,7 @@
           "start": 864,
           "end": 867,
           "old_token": "225",
-          "new_token": "138.6",
+          "new_token": "145.5999",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -6837,7 +6837,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6846,7 +6846,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6855,7 +6855,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6864,7 +6864,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6873,7 +6873,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6882,7 +6882,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6891,7 +6891,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6900,7 +6900,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6909,7 +6909,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6918,7 +6918,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6927,7 +6927,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6936,7 +6936,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6945,7 +6945,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         },
         {
           "effect_indexes": [
@@ -6954,7 +6954,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "225",
-          "new": "138.6"
+          "new": "145.5999"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7006,8 +7006,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.622222,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7022,8 +7022,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7052,8 +7052,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.622222,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7068,8 +7068,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7363,7 +7363,7 @@
         ]
       },
       "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-      "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
+      "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (166.4% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7371,7 +7371,7 @@
           "start": 124,
           "end": 127,
           "old_token": "160",
-          "new_token": "158.4",
+          "new_token": "166.4",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             3
@@ -7386,7 +7386,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "160",
-          "new": "158.4"
+          "new": "166.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7407,8 +7407,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -7418,8 +7418,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7437,14 +7437,14 @@
         {
           "rank": 1,
           "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (166.4% of Attack Power) Physical damage.",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 124,
               "end": 127,
               "old_token": "160",
-              "new_token": "158.4",
+              "new_token": "166.4",
               "kind": "attack_power_coefficient",
               "effect_indexes": [
                 3
@@ -7457,14 +7457,14 @@
         {
           "rank": 2,
           "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
-          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (158.4% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (166.4% of Attack Power) Physical damage.",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 124,
               "end": 127,
               "old_token": "160",
-              "new_token": "158.4",
+              "new_token": "166.4",
               "kind": "attack_power_coefficient",
               "effect_indexes": [
                 3
@@ -7583,7 +7583,7 @@
         ]
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
-      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (111.4344% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
+      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (117.0624% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7591,7 +7591,7 @@
           "start": 186,
           "end": 189,
           "old_token": "168",
-          "new_token": "111.4344",
+          "new_token": "117.0624",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7606,7 +7606,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "168",
-          "new": "111.4344"
+          "new": "117.0624"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7627,8 +7627,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.6633,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.6968000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7643,8 +7643,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -8760,7 +8760,7 @@
         ]
       },
       "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
-      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (277.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
+      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (291.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8768,7 +8768,7 @@
           "start": 73,
           "end": 76,
           "old_token": "280",
-          "new_token": "277.2",
+          "new_token": "291.2",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -8783,7 +8783,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "280",
-          "new": "277.2"
+          "new": "291.2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8804,8 +8804,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8820,8 +8820,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10049,7 +10049,7 @@
         ]
       },
       "pve_tooltip": "35 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that dispatches the enemy, dealing damage per combo point:\n1 point : (61.16% of Attack Power) damage\n2 points: [(61.16% of Attack Power) * 2] damage\n3 points: [(61.16% of Attack Power) * 3] damage\n4 points: [(61.16% of Attack Power) * 4] damage\n5 points: [(61.16% of Attack Power) * 5] damage\n[ 6 points: [(61.16% of Attack Power) * 6] damage]\n[ 7 points: [(61.16% of Attack Power) * 7] damage]",
-      "pvp_tooltip": "35 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that dispatches the enemy, dealing damage per combo point:\n1 point : (72.6581% of Attack Power) damage\n2 points: [(72.6581% of Attack Power) * 2] damage\n3 points: [(72.6581% of Attack Power) * 3] damage\n4 points: [(72.6581% of Attack Power) * 4] damage\n5 points: [(72.6581% of Attack Power) * 5] damage\n[ 6 points: [(72.6581% of Attack Power) * 6] damage]\n[ 7 points: [(72.6581% of Attack Power) * 7] damage]",
+      "pvp_tooltip": "35 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that dispatches the enemy, dealing damage per combo point:\n1 point : (76.3277% of Attack Power) damage\n2 points: [(76.3277% of Attack Power) * 2] damage\n3 points: [(76.3277% of Attack Power) * 3] damage\n4 points: [(76.3277% of Attack Power) * 4] damage\n5 points: [(76.3277% of Attack Power) * 5] damage\n[ 6 points: [(76.3277% of Attack Power) * 6] damage]\n[ 7 points: [(76.3277% of Attack Power) * 7] damage]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10057,7 +10057,7 @@
           "start": 137,
           "end": 142,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10067,7 +10067,7 @@
           "start": 180,
           "end": 185,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10077,7 +10077,7 @@
           "start": 228,
           "end": 233,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10087,7 +10087,7 @@
           "start": 276,
           "end": 281,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10097,7 +10097,7 @@
           "start": 324,
           "end": 329,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10107,7 +10107,7 @@
           "start": 374,
           "end": 379,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10117,7 +10117,7 @@
           "start": 425,
           "end": 430,
           "old_token": "61.16",
-          "new_token": "72.6581",
+          "new_token": "76.3277",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10132,7 +10132,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10141,7 +10141,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10150,7 +10150,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10159,7 +10159,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10168,7 +10168,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10177,7 +10177,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         },
         {
           "effect_indexes": [
@@ -10186,7 +10186,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "61.16",
-          "new": "72.6581"
+          "new": "76.3277"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10207,8 +10207,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10218,8 +10218,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10352,7 +10352,7 @@
         ]
       },
       "pve_tooltip": "50 Energy\nMelee Range\nInstant\nAmbush the target, causing (278% of Attack Power) Physical damage. [Hidden Opportunity: Has a 30% chance to grant Opportunity]\nAwards 2 combo points.",
-      "pvp_tooltip": "50 Energy\nMelee Range\nInstant\nAmbush the target, causing (275.22% of Attack Power) Physical damage. [Hidden Opportunity: Has a 30% chance to grant Opportunity]\nAwards 2 combo points.",
+      "pvp_tooltip": "50 Energy\nMelee Range\nInstant\nAmbush the target, causing (289.12% of Attack Power) Physical damage. [Hidden Opportunity: Has a 30% chance to grant Opportunity]\nAwards 2 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10360,7 +10360,7 @@
           "start": 58,
           "end": 61,
           "old_token": "278",
-          "new_token": "275.22",
+          "new_token": "289.12",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10375,7 +10375,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "278",
-          "new": "275.22"
+          "new": "289.12"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10396,8 +10396,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10407,8 +10407,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10435,8 +10435,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10455,8 +10455,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10537,7 +10537,7 @@
         ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, which instantly inflicts (4.07% of Attack Power) Nature damage and reduces all healing received by 8% for 12 sec, stacking up to 3 times.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, which instantly inflicts (4.0293% of Attack Power) Nature damage and reduces all healing received by 4% for 12 sec, stacking up to 3 times.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, which instantly inflicts (4.2328% of Attack Power) Nature damage and reduces all healing received by 4% for 12 sec, stacking up to 3 times.\n(Proc chance: 30%)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10545,7 +10545,7 @@
           "start": 152,
           "end": 156,
           "old_token": "4.07",
-          "new_token": "4.0293",
+          "new_token": "4.2328",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10570,7 +10570,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "4.07",
-          "new": "4.0293"
+          "new": "4.2328"
         },
         {
           "effect_indexes": [
@@ -10600,8 +10600,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10616,8 +10616,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10692,7 +10692,7 @@
         ]
       },
       "pve_tooltip": "15 Energy\nInstant\n30 sec cooldown\nStrikes up to 5 nearby targets for (153% of Attack Power) Physical damage, and causes your single target attacks to also strike up to 4 additional nearby enemies for 28% of normal damage for 10 sec.",
-      "pvp_tooltip": "15 Energy\nInstant\n30 sec cooldown\nStrikes up to 5 nearby targets for (151.47% of Attack Power) Physical damage, and causes your single target attacks to also strike up to 4 additional nearby enemies for 28% of normal damage for 10 sec.",
+      "pvp_tooltip": "15 Energy\nInstant\n30 sec cooldown\nStrikes up to 5 nearby targets for (159.12% of Attack Power) Physical damage, and causes your single target attacks to also strike up to 4 additional nearby enemies for 28% of normal damage for 10 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10700,7 +10700,7 @@
           "start": 70,
           "end": 73,
           "old_token": "153",
-          "new_token": "151.47",
+          "new_token": "159.12",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10715,7 +10715,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "153",
-          "new": "151.47"
+          "new": "159.12"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10736,8 +10736,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10752,8 +10752,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10793,7 +10793,7 @@
         ]
       },
       "pve_tooltip": "Your main-hand attacks have a 30% chance to trigger an attack with your off-hand that deals (0.1% of Attack Power) Physical damage.\n(Proc chance: 30%)",
-      "pvp_tooltip": "Your main-hand attacks have a 30% chance to trigger an attack with your off-hand that deals (0.099% of Attack Power) Physical damage.\n(Proc chance: 30%)",
+      "pvp_tooltip": "Your main-hand attacks have a 30% chance to trigger an attack with your off-hand that deals (0.104% of Attack Power) Physical damage.\n(Proc chance: 30%)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10801,7 +10801,7 @@
           "start": 93,
           "end": 96,
           "old_token": "0.1",
-          "new_token": "0.099",
+          "new_token": "0.104",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -10816,7 +10816,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "0.1",
-          "new": "0.099"
+          "new": "0.104"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10837,8 +10837,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10853,8 +10853,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10989,7 +10989,7 @@
         ]
       },
       "pve_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(83.4% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage and reducing the target's movement speed by 30% for 6 sec.\nAwards 1 combo point.",
-      "pvp_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(99.0792% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage and reducing the target's movement speed by 20% for 6 sec.\nAwards 1 combo point.",
+      "pvp_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(104.0832% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage and reducing the target's movement speed by 20% for 6 sec.\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10997,7 +10997,7 @@
           "start": 99,
           "end": 103,
           "old_token": "83.4",
-          "new_token": "99.0792",
+          "new_token": "104.0832",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11022,7 +11022,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "83.4",
-          "new": "99.0792"
+          "new": "104.0832"
         },
         {
           "effect_indexes": [
@@ -11052,8 +11052,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -11063,8 +11063,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -11145,7 +11145,7 @@
         ]
       },
       "pve_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing (122.3% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275) Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
-      "pvp_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing (145.2924% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275) Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
+      "pvp_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing (152.6304% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275) Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11153,7 +11153,7 @@
           "start": 75,
           "end": 80,
           "old_token": "122.3",
-          "new_token": "145.2924",
+          "new_token": "152.6304",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11168,7 +11168,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "122.3",
-          "new": "145.2924"
+          "new": "152.6304"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11189,8 +11189,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -11200,8 +11200,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -11230,8 +11230,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11250,8 +11250,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -11332,7 +11332,7 @@
         ]
       },
       "pve_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : ((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) damage, 4 sec\n2 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
-      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : ((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) damage, 4 sec\n2 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((70.6315% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
+      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : ((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) damage, 4 sec\n2 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11340,7 +11340,7 @@
           "start": 247,
           "end": 251,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11350,7 +11350,7 @@
           "start": 363,
           "end": 367,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11360,7 +11360,7 @@
           "start": 484,
           "end": 488,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11370,7 +11370,7 @@
           "start": 605,
           "end": 609,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11380,7 +11380,7 @@
           "start": 727,
           "end": 731,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11390,7 +11390,7 @@
           "start": 851,
           "end": 855,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11400,7 +11400,7 @@
           "start": 976,
           "end": 980,
           "old_token": "75.1",
-          "new_token": "70.6315",
+          "new_token": "74.1988",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11415,7 +11415,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11424,7 +11424,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11433,7 +11433,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11442,7 +11442,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11451,7 +11451,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11460,7 +11460,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         },
         {
           "effect_indexes": [
@@ -11469,7 +11469,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "75.1",
-          "new": "70.6315"
+          "new": "74.1988"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11490,8 +11490,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.95,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -11501,8 +11501,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -11543,7 +11543,7 @@
         ]
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy which instantly inflicts (7.4% of Attack Power) Nature damage.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy which instantly inflicts (7.326% of Attack Power) Nature damage.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy which instantly inflicts (7.696% of Attack Power) Nature damage.\n(Proc chance: 30%)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11551,7 +11551,7 @@
           "start": 154,
           "end": 157,
           "old_token": "7.4",
-          "new_token": "7.326",
+          "new_token": "7.696",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -11566,7 +11566,7 @@
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "7.4",
-          "new": "7.326"
+          "new": "7.696"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11587,8 +11587,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11603,8 +11603,8 @@
               "aura_spell_id": 1256947,
               "game_effect_id": 1264713,
               "amount_kind": "direct",
-              "value_pct": -1.0,
-              "factor": 0.99,
+              "value_pct": 4.0,
+              "factor": 1.04,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -12582,8 +12582,8 @@
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-09-24",
-    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
+    "latest_date": "2026-10-06",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [
       {
@@ -12592,7 +12592,7 @@
         "text": "All damage increased by 5% in PvP combat.",
         "date": "2026-09-22",
         "evidence": {
-          "source": "historical_verified_snapshot",
+          "source": "historically_verified_tuning",
           "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290",
           "changed_effects": [
             {
@@ -12602,6 +12602,8 @@
               "old_aura_factor": 0.94,
               "new_aura_factor": 0.99,
               "delta": 0.050000000000000044,
+              "relative_delta": 0.05319148936170226,
+              "comparison": "relative",
               "expected_delta": 0.05
             },
             {
@@ -12611,6 +12613,8 @@
               "old_aura_factor": 0.94,
               "new_aura_factor": 0.99,
               "delta": 0.050000000000000044,
+              "relative_delta": 0.05319148936170226,
+              "comparison": "relative",
               "expected_delta": 0.05
             },
             {
@@ -12620,6 +12624,72 @@
               "old_aura_factor": 0.94,
               "new_aura_factor": 0.99,
               "delta": 0.050000000000000044,
+              "relative_delta": 0.05319148936170226,
+              "comparison": "relative",
+              "expected_delta": 0.05
+            }
+          ],
+          "verified_post_commit": "9176c60bbd3d4ecf610250208add49146f131d2d",
+          "verified_post_content_hash": "fc5af2ccaffd1360b7180410c09d47c88de449cc464505366b984f4153dd192a",
+          "current_effects": [
+            {
+              "source_spell_id": 5938,
+              "effect_index": 1,
+              "aura_factor": 1.04
+            },
+            {
+              "source_spell_id": 245388,
+              "effect_index": 2,
+              "aura_factor": 1.04
+            },
+            {
+              "source_spell_id": 383414,
+              "effect_index": 1,
+              "aura_factor": 1.04
+            }
+          ]
+        }
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "spell_id": null,
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-10-06",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "baseline_commit": "8415c1af23b3b5af06b2d6532bc080c2128308f9",
+          "changed_effects": [
+            {
+              "talent_name": "Shiv",
+              "source_spell_id": 5938,
+              "effect_index": 1,
+              "old_aura_factor": 0.99,
+              "new_aura_factor": 1.04,
+              "delta": 0.050000000000000044,
+              "relative_delta": 0.05050505050505061,
+              "comparison": "relative",
+              "expected_delta": 0.05
+            },
+            {
+              "talent_name": "Shiv",
+              "source_spell_id": 245388,
+              "effect_index": 2,
+              "old_aura_factor": 0.99,
+              "new_aura_factor": 1.04,
+              "delta": 0.050000000000000044,
+              "relative_delta": 0.05050505050505061,
+              "comparison": "relative",
+              "expected_delta": 0.05
+            },
+            {
+              "talent_name": "Master Poisoner",
+              "source_spell_id": 383414,
+              "effect_index": 1,
+              "old_aura_factor": 0.99,
+              "new_aura_factor": 1.04,
+              "delta": 0.050000000000000044,
+              "relative_delta": 0.05050505050505061,
+              "comparison": "relative",
               "expected_delta": 0.05
             }
           ]
@@ -12628,11 +12698,6 @@
     ],
     "unresolved": [],
     "ignored_non_talent": [
-      {
-        "talent_name": "Font of Venomous Rage trinket",
-        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
-        "date": "2026-09-17"
-      },
       {
         "talent_name": "__SPEC_DAMAGE__",
         "text": "All damage increased by 3% in PvP combat.",
@@ -12715,16 +12780,6 @@
           "Mage",
           "Fire",
           "Sunfury"
-        ]
-      },
-      {
-        "talent_name": "Call of Ohn’ahra",
-        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -12908,15 +12963,6 @@
         "context_path": [
           "Shaman",
           "Elemental"
-        ]
-      },
-      {
-        "talent_name": "Mindgames direct",
-        "text": "Mindgames direct damage and reversal increased by 50%.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
         ]
       },
       {
@@ -13144,18 +13190,476 @@
         "context_path": [
           "Hunter"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All spell and ability damage increased by 8% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Absolute Faith",
+        "text": "Absolute Faith absorption increased by 113%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Ancient of Lore: Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Blightfall",
+        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy"
+        ]
+      },
+      {
+        "talent_name": "Bloodstone",
+        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Bonds of Fel",
+        "text": "Bonds of Fel damage increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Call Fel Lord’s Fel Cleave",
+        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Demonology"
+        ]
+      },
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Cover of Darkness",
+        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter"
+        ]
+      },
+      {
+        "talent_name": "Dark Simulacrum",
+        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "absolute",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Death’s Cold Embrace",
+        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Dire Beast: Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery"
+        ]
+      },
+      {
+        "talent_name": "Dragon Charge",
+        "text": "Dragon Charge damage increased by 300%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior"
+        ]
+      },
+      {
+        "talent_name": "Dreamwalker’s Embrace",
+        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker"
+        ]
+      },
+      {
+        "talent_name": "Earth Shield",
+        "text": "Earth Shield healing increased by 15% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Electrocute",
+        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman"
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Focused Assault now stacks to 6 times (was 5).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Frost Bomb",
+        "text": "Frost Bomb damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Glass Cannon",
+        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Hunting Pack",
+        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Icy Feet",
+        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance"
+        ]
+      },
+      {
+        "talent_name": "Improved Mass Dispel",
+        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mighty Ox Kick",
+        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk"
+        ]
+      },
+      {
+        "talent_name": "Moon and Stars",
+        "text": "Moon and Stars radius increased by 60%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Seismic Slam",
+        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Spellbreaker",
+        "text": "Spellbreaker damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Thick as Thieves",
+        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "property_absolute",
+        "unit": "seconds",
+        "property": "duration",
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Tireless Pursuit",
+        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Ultimate Retribution",
+        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution"
+        ]
+      },
+      {
+        "talent_name": "World in Flames",
+        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
       }
     ],
-    "external_non_tree": []
+    "external_non_tree": [
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
+      }
+    ]
   },
   "non_tree_hotfix_resolution": {
     "resolved": [],
     "unresolved": [],
-    "external": []
+    "external": [
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
+      }
+    ]
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "cafc27227ec08760cb391d6a798e104435c29a87",
+    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
     "baseline_spell_ids": [
       408,
       1725,
@@ -13219,7 +13723,7 @@
     ]
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-10-06T14:38:19.677348+00:00",
+  "generated_at": "2026-10-08T21:08:20.020856+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -13270,10 +13774,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
-    "captured_at": "2026-10-06T14:12:25.331017+00:00",
-    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
-    "evidence_hash": "619c629db0ed0217f43360d62ae88fefb8f26e8ad815c7c7eee34f9a956e4a11"
+    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
+    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
+    "evidence_hash": "f16b3d68ebd14d44eaf404e3db31dd76c728d60a50644f5072f9392b1a279bea"
   },
   "coverage": {
     "schema": 1,
@@ -13291,8 +13795,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.53,
@@ -13312,8 +13816,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -13354,8 +13858,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -13396,8 +13900,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.223,
@@ -13417,8 +13921,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.6116,
@@ -13438,8 +13942,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.751,
@@ -13459,8 +13963,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.074,
@@ -13522,8 +14026,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.001,
@@ -13564,8 +14068,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -13606,8 +14110,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.78,
@@ -13627,8 +14131,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0407,
@@ -13669,8 +14173,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
@@ -13690,8 +14194,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.18,
@@ -13711,8 +14215,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -13753,8 +14257,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.753,
@@ -13774,8 +14278,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.751,
@@ -13795,8 +14299,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -13879,8 +14383,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.53,
@@ -13963,8 +14467,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.254,
@@ -14068,8 +14572,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.622222,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.25,
@@ -14089,8 +14593,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.622222,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.25,
@@ -14131,8 +14635,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.67,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.6633,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.6968000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.68,
@@ -14152,8 +14656,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
@@ -14320,8 +14824,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.6,
@@ -14330,7 +14834,7 @@
         }
       }
     ],
-    "semantic_hash": "fc5af2ccaffd1360b7180410c09d47c88de449cc464505366b984f4153dd192a",
+    "semantic_hash": "225fb4b19cd4194476fbbae464bcb9c5cbd0525981b38a44a5347cd807c58d2c",
     "independent_effects": [
       {
         "key": [
@@ -14344,8 +14848,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.53,
@@ -14365,8 +14869,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -14407,8 +14911,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -14449,8 +14953,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.223,
@@ -14470,8 +14974,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.6116,
@@ -14491,8 +14995,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.751,
@@ -14512,8 +15016,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.074,
@@ -14596,8 +15100,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -14659,8 +15163,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
@@ -14680,8 +15184,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.18,
@@ -14701,8 +15205,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -14743,8 +15247,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.753,
@@ -14764,8 +15268,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.9405,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.988,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.751,
@@ -14785,8 +15289,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.2,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 1.188,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.248,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
@@ -14869,8 +15373,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.53,
@@ -15037,8 +15541,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.622222,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.25,
@@ -15058,8 +15562,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.622222,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.61599978,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.64711088,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.25,
@@ -15100,8 +15604,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.67,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.6633,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 0.6968000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.68,
@@ -15121,8 +15625,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
@@ -15289,8 +15793,8 @@
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.99,
-          "final_pvp_multiplier": 0.99,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.6,
@@ -15299,6 +15803,6 @@
         }
       }
     ],
-    "independent_hash": "01105783344b333e59ed286f7f09e57c44f95834a0f5a8e2c8b46198e294b013"
+    "independent_hash": "59b1f087ffdd7c3239674ed69b0ecace77ed43731fe4c8ef6eeb16698f83fc6e"
   }
 }

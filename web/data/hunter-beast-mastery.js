@@ -4295,7 +4295,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4312,11 +4312,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -4330,7 +4329,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4347,11 +4346,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -4365,7 +4363,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4382,11 +4380,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -4400,7 +4397,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4417,11 +4414,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6386,7 +6382,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6405,11 +6401,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6423,7 +6418,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6442,11 +6437,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6460,7 +6454,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6479,11 +6473,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6497,7 +6490,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6516,11 +6509,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -6784,7 +6776,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6805,11 +6797,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6823,7 +6814,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6844,11 +6835,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6862,7 +6852,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6883,11 +6873,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -6901,7 +6890,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura: Mod Pet Damage %",
+          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6922,11 +6911,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -7327,7 +7315,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
-      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (322.0261% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
+      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (418.634% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7335,7 +7323,7 @@ window.WOW_PVP_DATA = {
           "start": 107,
           "end": 112,
           "old_token": "348.4",
-          "new_token": "322.0261",
+          "new_token": "418.634",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7350,7 +7338,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "348.4",
-          "new": "322.0261"
+          "new": "418.634"
         },
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
@@ -7386,8 +7374,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.9243000000000001,
-          "final_pvp_multiplier": 0.9243000000000001,
+          "aura_factor": 1.2015900000000002,
+          "final_pvp_multiplier": 1.2015900000000002,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -7408,6 +7396,15 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -21.0,
               "factor": 0.79,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            },
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1357256,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
               "label_id": null,
               "build": "12.1.0.69933"
             },
@@ -7444,8 +7441,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.6900000000000002,
+          "final_pvp_multiplier": 1.6900000000000002,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7456,6 +7453,15 @@ window.WOW_PVP_DATA = {
             "tooltip_value_ref"
           ],
           "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1357257,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "label_id": null,
+              "build": "12.1.0.69933"
+            },
             {
               "aura_spell_id": 1256939,
               "game_effect_id": 1357257,
@@ -11616,6 +11622,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 137015,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137015'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 157443,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11764,8 +11775,8 @@ window.WOW_PVP_DATA = {
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-09-24",
-    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
+    "latest_date": "2026-10-06",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Improved Snaring",
@@ -11797,11 +11808,6 @@ window.WOW_PVP_DATA = {
     ],
     "unresolved": [],
     "ignored_non_talent": [
-      {
-        "talent_name": "Font of Venomous Rage trinket",
-        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
-        "date": "2026-09-17"
-      },
       {
         "talent_name": "__SPEC_DAMAGE__",
         "text": "All damage increased by 3% in PvP combat.",
@@ -11883,16 +11889,6 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire",
           "Sunfury"
-        ]
-      },
-      {
-        "talent_name": "Call of Ohn’ahra",
-        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -12076,15 +12072,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Shaman",
           "Elemental"
-        ]
-      },
-      {
-        "talent_name": "Mindgames direct",
-        "text": "Mindgames direct damage and reversal increased by 50%.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
         ]
       },
       {
@@ -12294,6 +12281,461 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Paladin"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All spell and ability damage increased by 8% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Absolute Faith",
+        "text": "Absolute Faith absorption increased by 113%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Ancient of Lore: Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Blightfall",
+        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy"
+        ]
+      },
+      {
+        "talent_name": "Bloodstone",
+        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Bonds of Fel",
+        "text": "Bonds of Fel damage increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Call Fel Lord’s Fel Cleave",
+        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Demonology"
+        ]
+      },
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Cover of Darkness",
+        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter"
+        ]
+      },
+      {
+        "talent_name": "Dark Simulacrum",
+        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Death’s Cold Embrace",
+        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Dire Beast: Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Dragon Charge",
+        "text": "Dragon Charge damage increased by 300%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior"
+        ]
+      },
+      {
+        "talent_name": "Dreamwalker’s Embrace",
+        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker"
+        ]
+      },
+      {
+        "talent_name": "Earth Shield",
+        "text": "Earth Shield healing increased by 15% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Electrocute",
+        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman"
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Focused Assault now stacks to 6 times (was 5).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Frost Bomb",
+        "text": "Frost Bomb damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Glass Cannon",
+        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Hunting Pack",
+        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "property_absolute",
+        "unit": "yards",
+        "property": "radius",
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Icy Feet",
+        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance"
+        ]
+      },
+      {
+        "talent_name": "Improved Mass Dispel",
+        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mighty Ox Kick",
+        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk"
+        ]
+      },
+      {
+        "talent_name": "Moon and Stars",
+        "text": "Moon and Stars radius increased by 60%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Seismic Slam",
+        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Augmentation"
+        ]
+      },
+      {
+        "talent_name": "Spellbreaker",
+        "text": "Spellbreaker damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Thick as Thieves",
+        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Tireless Pursuit",
+        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Ultimate Retribution",
+        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution"
+        ]
+      },
+      {
+        "talent_name": "World in Flames",
+        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
       }
     ],
     "external_non_tree": []
@@ -12311,7 +12753,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "cafc27227ec08760cb391d6a798e104435c29a87",
+    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
     "baseline_spell_ids": [
       136,
       781,
@@ -12354,7 +12796,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-10-06T14:35:11.447047+00:00",
+  "generated_at": "2026-10-08T21:05:07.749078+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -12369,7 +12811,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 147,
+    "source_warning_count": 148,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -12405,10 +12847,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
-    "captured_at": "2026-10-06T14:12:25.331017+00:00",
-    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
-    "evidence_hash": "f63c0a5e597050da08367827c9038142793c3a064f090515bea9c594010812cf"
+    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
+    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
+    "evidence_hash": "6b9b901de896c31c3466e3b3aaeb59ab16dfc7a95f146e2d5d208e4ebde3fa75"
   },
   "coverage": {
     "schema": 1,
@@ -13371,8 +13813,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.9243000000000001,
-          "final_pvp_multiplier": 0.9243000000000001,
+          "aura_factor": 1.2015900000000002,
+          "final_pvp_multiplier": 1.2015900000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.484,
@@ -13392,8 +13834,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.6900000000000002,
+          "final_pvp_multiplier": 1.6900000000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.5,
@@ -13444,7 +13886,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "1360a9b34bc7b2e2da72e8f29f6b3e779c0f6017f93977fa9dcb41738e45eb56",
+    "semantic_hash": "4ca72049dc928c8c24a9082bd84db90ecb86323fb921b4b6543088968588fd3e",
     "independent_effects": [
       {
         "key": [
@@ -14403,8 +14845,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.9243000000000001,
-          "final_pvp_multiplier": 0.9243000000000001,
+          "aura_factor": 1.2015900000000002,
+          "final_pvp_multiplier": 1.2015900000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.484,
@@ -14424,8 +14866,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.6900000000000002,
+          "final_pvp_multiplier": 1.6900000000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.5,
@@ -14476,6 +14918,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "1360a9b34bc7b2e2da72e8f29f6b3e779c0f6017f93977fa9dcb41738e45eb56"
+    "independent_hash": "4ca72049dc928c8c24a9082bd84db90ecb86323fb921b4b6543088968588fd3e"
   }
 };

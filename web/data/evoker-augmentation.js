@@ -2220,7 +2220,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1200% of Spell Power) additional Spellfrost damage to them.",
-      "pvp_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1092% of Spell Power) additional Spellfrost damage to them.",
+      "pvp_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1176% of Spell Power) additional Spellfrost damage to them.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -2228,7 +2228,7 @@ window.WOW_PVP_DATA = {
           "start": 78,
           "end": 82,
           "old_token": "1200",
-          "new_token": "1092",
+          "new_token": "1176",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -2243,7 +2243,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "1200",
-          "new": "1092"
+          "new": "1176"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2264,8 +2264,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -2280,8 +2280,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -4002,7 +4002,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (322% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
-      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (601.7375% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
+      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (648.025% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4010,7 +4010,7 @@ window.WOW_PVP_DATA = {
           "start": 94,
           "end": 97,
           "old_token": "322",
-          "new_token": "601.7375",
+          "new_token": "648.025",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4025,7 +4025,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "322",
-          "new": "601.7375"
+          "new": "648.025"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4046,8 +4046,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.4375,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.8687500000000001,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.0124999999999997,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4057,8 +4057,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -4491,7 +4491,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (602% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
-      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (782.6% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
+      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (842.8% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4499,7 +4499,7 @@ window.WOW_PVP_DATA = {
           "start": 141,
           "end": 144,
           "old_token": "602",
-          "new_token": "782.6",
+          "new_token": "842.8",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -4514,7 +4514,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "602",
-          "new": "782.6"
+          "new": "842.8"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4535,8 +4535,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4551,8 +4551,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7754,7 +7754,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
-      "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (108.108% of Spell Power) Fire damage to nearby enemies up to 8 times.",
+      "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (116.424% of Spell Power) Fire damage to nearby enemies up to 8 times.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7762,7 +7762,7 @@ window.WOW_PVP_DATA = {
           "start": 134,
           "end": 137,
           "old_token": "252",
-          "new_token": "108.108",
+          "new_token": "116.424",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -7777,7 +7777,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 484.0,
-          "new": 572.572,
+          "new": 616.616,
           "full_tooltip_match_count": 0
         },
         {
@@ -7787,7 +7787,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "252",
-          "new": "108.108"
+          "new": "116.424"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7808,8 +7808,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.42900000000000005,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.46199999999999997,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7824,8 +7824,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7854,8 +7854,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.91,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.183,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.274,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7874,8 +7874,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -7965,8 +7965,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7981,8 +7981,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1266465,
               "amount_kind": "periodic",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -8672,8 +8672,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8688,8 +8688,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1266465,
               "amount_kind": "periodic",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -9561,7 +9561,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 602.0,
-          "new": 782.6,
+          "new": 842.8,
           "full_tooltip_match_count": 0
         }
       ],
@@ -9583,8 +9583,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9603,8 +9603,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10307,7 +10307,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3 Essence\n25 yd range\nChanneled (3 sec cast)\nTear into an enemy with a blast of blue magic, inflicting (475.53% of Spell Power) Spellfrost damage over 3 sec, and slowing their movement speed by 50% for 3 sec.",
-      "pvp_tooltip": "3 Essence\n25 yd range\nChanneled (3 sec cast)\nTear into an enemy with a blast of blue magic, inflicting (618.189% of Spell Power) Spellfrost damage over 3 sec, and slowing their movement speed by 30% for 3 sec.",
+      "pvp_tooltip": "3 Essence\n25 yd range\nChanneled (3 sec cast)\nTear into an enemy with a blast of blue magic, inflicting (665.742% of Spell Power) Spellfrost damage over 3 sec, and slowing their movement speed by 30% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10315,7 +10315,7 @@ window.WOW_PVP_DATA = {
           "start": 104,
           "end": 110,
           "old_token": "475.53",
-          "new_token": "618.189",
+          "new_token": "665.742",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10340,7 +10340,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "475.53",
-          "new": "618.189"
+          "new": "665.742"
         },
         {
           "effect_indexes": [
@@ -10370,8 +10370,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10381,8 +10381,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1266465,
               "amount_kind": "periodic",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10481,8 +10481,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10497,8 +10497,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10527,8 +10527,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10543,8 +10543,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1266465,
               "amount_kind": "periodic",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10585,7 +10585,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "12% of base mana\n25 yd range\n2 sec cast\nSend a flickering flame towards your target, Devastation, Augmentation\ndealing (232.001% of Spell Power) Fire damage to an enemy or healing an ally for (780% of Spell Power)",
-      "pvp_tooltip": "12% of base mana\n25 yd range\n2 sec cast\nSend a flickering flame towards your target, Devastation, Augmentation\ndealing (301.6013% of Spell Power) Fire damage to an enemy or healing an ally for (649.974% of Spell Power)",
+      "pvp_tooltip": "12% of base mana\n25 yd range\n2 sec cast\nSend a flickering flame towards your target, Devastation, Augmentation\ndealing (324.8014% of Spell Power) Fire damage to an enemy or healing an ally for (649.974% of Spell Power)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10593,7 +10593,7 @@ window.WOW_PVP_DATA = {
           "start": 120,
           "end": 127,
           "old_token": "232.001",
-          "new_token": "301.6013",
+          "new_token": "324.8014",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10618,7 +10618,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "232.001",
-          "new": "301.6013"
+          "new": "324.8014"
         },
         {
           "effect_indexes": [
@@ -10648,8 +10648,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10664,8 +10664,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10693,8 +10693,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10709,8 +10709,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1266465,
               "amount_kind": "periodic",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -10786,7 +10786,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "0.9% of base mana\n25 yd range\nInstant\nProject intense energy onto 2 enemies, dealing (163.185% of Spell Power) Spellfrost damage to them.",
-      "pvp_tooltip": "0.9% of base mana\n25 yd range\nInstant\nProject intense energy onto 2 enemies, dealing (356.396% of Spell Power) Spellfrost damage to them.",
+      "pvp_tooltip": "0.9% of base mana\n25 yd range\nInstant\nProject intense energy onto 2 enemies, dealing (383.8111% of Spell Power) Spellfrost damage to them.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10794,7 +10794,7 @@ window.WOW_PVP_DATA = {
           "start": 86,
           "end": 93,
           "old_token": "163.185",
-          "new_token": "356.396",
+          "new_token": "383.8111",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -10809,7 +10809,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "163.185",
-          "new": "356.396"
+          "new": "383.8111"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10830,8 +10830,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.68,
           "amount_kind": "direct",
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 2.184,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.352,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10841,8 +10841,8 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256942,
               "game_effect_id": 1264707,
               "amount_kind": "direct",
-              "value_pct": 30.0,
-              "factor": 1.3,
+              "value_pct": 40.0,
+              "factor": 1.4,
               "label_id": null,
               "build": "12.1.0.69933"
             }
@@ -12082,8 +12082,8 @@ window.WOW_PVP_DATA = {
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-09-24",
-    "snapshot_hash": "95b14c687dd86e7e51c24bd2cba869e24c4f50ffe2ac9645de7152919dd06b31",
+    "latest_date": "2026-10-06",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [
       {
@@ -12091,15 +12091,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 395152,
         "text": "Ebon Might grants 12% primary stat in PvP combat (was 10%).",
         "date": "2026-09-22"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "spell_id": null,
+        "text": "All spell and ability damage increased by 8% in PvP combat.",
+        "date": "2026-10-06",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "baseline_commit": "8415c1af23b3b5af06b2d6532bc080c2128308f9",
+          "changed_effects": [
+            {
+              "talent_name": "Unravel",
+              "source_spell_id": 1264379,
+              "effect_index": 1,
+              "old_aura_factor": 1.3,
+              "new_aura_factor": 1.4,
+              "delta": 0.09999999999999987,
+              "relative_delta": 0.07692307692307687,
+              "comparison": "relative",
+              "expected_delta": 0.08
+            },
+            {
+              "talent_name": "Eruption",
+              "source_spell_id": 395160,
+              "effect_index": 1,
+              "old_aura_factor": 1.3,
+              "new_aura_factor": 1.4,
+              "delta": 0.09999999999999987,
+              "relative_delta": 0.07692307692307687,
+              "comparison": "relative",
+              "expected_delta": 0.08
+            },
+            {
+              "talent_name": "Upheaval",
+              "source_spell_id": 396288,
+              "effect_index": 2,
+              "old_aura_factor": 1.3,
+              "new_aura_factor": 1.4,
+              "delta": 0.09999999999999987,
+              "relative_delta": 0.07692307692307687,
+              "comparison": "relative",
+              "expected_delta": 0.08
+            }
+          ]
+        }
       }
     ],
     "unresolved": [],
     "ignored_non_talent": [
-      {
-        "talent_name": "Font of Venomous Rage trinket",
-        "text": "Font of Venomous Rage trinket damage reduced by 50% in PvP combat.",
-        "date": "2026-09-17"
-      },
       {
         "talent_name": "__SPEC_DAMAGE__",
         "text": "All damage increased by 3% in PvP combat.",
@@ -12192,16 +12232,6 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire",
           "Sunfury"
-        ]
-      },
-      {
-        "talent_name": "Call of Ohn’ahra",
-        "text": "Call of Ohn’ahra increases the cooldown of Nature’s Swiftness by 60 seconds (was 30 seconds).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -12375,15 +12405,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Shaman",
           "Elemental"
-        ]
-      },
-      {
-        "talent_name": "Mindgames direct",
-        "text": "Mindgames direct damage and reversal increased by 50%.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
         ]
       },
       {
@@ -12611,6 +12632,451 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Hunter"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage increased by 5% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Outlaw"
+        ]
+      },
+      {
+        "talent_name": "Absolute Faith",
+        "text": "Absolute Faith absorption increased by 113%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Ancient of Lore: Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Blightfall",
+        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy"
+        ]
+      },
+      {
+        "talent_name": "Bloodstone",
+        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Bonds of Fel",
+        "text": "Bonds of Fel damage increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock"
+        ]
+      },
+      {
+        "talent_name": "Call Fel Lord’s Fel Cleave",
+        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warlock",
+          "Demonology"
+        ]
+      },
+      {
+        "talent_name": "Call of Al’Akir",
+        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Cover of Darkness",
+        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter"
+        ]
+      },
+      {
+        "talent_name": "Dark Simulacrum",
+        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death Chain",
+        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Death from Above",
+        "text": "Death from Above now increases damage by 30% (was 15%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Death’s Cold Embrace",
+        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Dire Beast: Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery"
+        ]
+      },
+      {
+        "talent_name": "Dragon Charge",
+        "text": "Dragon Charge damage increased by 300%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Warrior"
+        ]
+      },
+      {
+        "talent_name": "Dreamwalker’s Embrace",
+        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Earth Shield",
+        "text": "Earth Shield healing increased by 15% in PvP combat.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Earthen Harmony",
+        "text": "Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Electrocute",
+        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman"
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Focused Assault now stacks to 6 times (was 5).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Focused Assault",
+        "text": "Range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Tank Specializations",
+          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
+        ]
+      },
+      {
+        "talent_name": "Frost Bomb",
+        "text": "Frost Bomb damage increased by 150%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Glass Cannon",
+        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Healing Sphere",
+        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver"
+        ]
+      },
+      {
+        "talent_name": "Hunting Pack",
+        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter"
+        ]
+      },
+      {
+        "talent_name": "Icy Feet",
+        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Havoc"
+        ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Vengeance"
+        ]
+      },
+      {
+        "talent_name": "Improved Mass Dispel",
+        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mighty Ox Kick",
+        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk"
+        ]
+      },
+      {
+        "talent_name": "Moon and Stars",
+        "text": "Moon and Stars radius increased by 60%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Perpetual Paralysis",
+        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Windwalker"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Price of Progress",
+        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Blood"
+        ]
+      },
+      {
+        "talent_name": "Seismic Slam",
+        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "property_absolute",
+        "unit": "seconds",
+        "property": "stun_duration",
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Spellbreaker",
+        "text": "Spellbreaker damage increased by 50%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin"
+        ]
+      },
+      {
+        "talent_name": "Thick as Thieves",
+        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue"
+        ]
+      },
+      {
+        "talent_name": "Tireless Pursuit",
+        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Balance"
+        ]
+      },
+      {
+        "talent_name": "Ultimate Retribution",
+        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Retribution"
+        ]
+      },
+      {
+        "talent_name": "World in Flames",
+        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
       }
     ],
     "external_non_tree": []
@@ -12622,7 +13088,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "cafc27227ec08760cb391d6a798e104435c29a87",
+    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
     "baseline_spell_ids": [
       355913,
       356995,
@@ -12664,7 +13130,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-10-06T14:34:27.801914+00:00",
+  "generated_at": "2026-10-08T21:04:33.637779+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -12715,10 +13181,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d42e10f52cec5fc8dafa85967b767a14152e9fa2d1c8116656f1dc50b52816c",
-    "captured_at": "2026-10-06T14:12:25.331017+00:00",
-    "parser_hash": "e0432743433c110bb38a712ef5bba67775008f6d9297e97c9caf0116f9225ddb",
-    "evidence_hash": "6a5690c14bb5672bbfb16b49e900f335cc9dbff27dcca7ba71efdb67d4ff387d"
+    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
+    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
+    "evidence_hash": "bb20ae1ccc7cfc2b8816772f8e1e5fd63c74905a35e329c05dde5539211578cb"
   },
   "coverage": {
     "schema": 1,
@@ -12736,8 +13202,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.5851,
           "simc_ap_coefficient": null,
@@ -12778,8 +13244,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.7,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.63409,
           "simc_ap_coefficient": null,
@@ -12799,8 +13265,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.394834,
           "simc_ap_coefficient": null,
@@ -12820,8 +13286,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.32001,
           "simc_ap_coefficient": null,
@@ -12841,8 +13307,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.066286,
           "simc_ap_coefficient": null,
@@ -12883,8 +13349,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.68,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 2.184,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.352,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.63185,
           "simc_ap_coefficient": null,
@@ -12967,8 +13433,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.4375,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.8687500000000001,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.0124999999999997,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.22,
           "simc_ap_coefficient": null,
@@ -13009,8 +13475,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.02,
           "simc_ap_coefficient": null,
@@ -13450,8 +13916,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.7,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 12.0,
           "simc_ap_coefficient": null,
@@ -13513,8 +13979,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.4,
           "simc_ap_coefficient": null,
@@ -13534,8 +14000,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.02,
           "simc_ap_coefficient": null,
@@ -13555,8 +14021,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.4,
           "simc_ap_coefficient": null,
@@ -13891,8 +14357,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.33,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.42900000000000005,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.46199999999999997,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.52,
           "simc_ap_coefficient": null,
@@ -13912,8 +14378,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.91,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.183,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.274,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.84,
           "simc_ap_coefficient": null,
@@ -13922,7 +14388,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "94c5b1b6d4671293bf13e8983836224fdfa3dc3b1a2d0bfd781a840aa953d268",
+    "semantic_hash": "b5834a3191eb35ae477cd07005334e08f4a8a7c1449856eadc9eed2dfed745ac",
     "independent_effects": [
       {
         "key": [
@@ -13936,8 +14402,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.5851,
           "simc_ap_coefficient": null,
@@ -13978,8 +14444,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.7,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.63409,
           "simc_ap_coefficient": null,
@@ -13999,8 +14465,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.394834,
           "simc_ap_coefficient": null,
@@ -14020,8 +14486,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.32001,
           "simc_ap_coefficient": null,
@@ -14041,8 +14507,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.066286,
           "simc_ap_coefficient": null,
@@ -14083,8 +14549,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.68,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 2.184,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.352,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.63185,
           "simc_ap_coefficient": null,
@@ -14167,8 +14633,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.4375,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.8687500000000001,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 2.0124999999999997,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.22,
           "simc_ap_coefficient": null,
@@ -14209,8 +14675,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.02,
           "simc_ap_coefficient": null,
@@ -14650,8 +15116,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.7,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.9099999999999999,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.9799999999999999,
           "final_pvp_value": null,
           "simc_sp_coefficient": 12.0,
           "simc_ap_coefficient": null,
@@ -14713,8 +15179,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.4,
           "simc_ap_coefficient": null,
@@ -14734,8 +15200,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.02,
           "simc_ap_coefficient": null,
@@ -14755,8 +15221,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.3,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.4,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.4,
           "simc_ap_coefficient": null,
@@ -15091,8 +15557,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.33,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 0.42900000000000005,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 0.46199999999999997,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.52,
           "simc_ap_coefficient": null,
@@ -15112,8 +15578,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.91,
-          "aura_factor": 1.3,
-          "final_pvp_multiplier": 1.183,
+          "aura_factor": 1.4,
+          "final_pvp_multiplier": 1.274,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.84,
           "simc_ap_coefficient": null,
@@ -15122,6 +15588,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "94c5b1b6d4671293bf13e8983836224fdfa3dc3b1a2d0bfd781a840aa953d268"
+    "independent_hash": "b5834a3191eb35ae477cd07005334e08f4a8a7c1449856eadc9eed2dfed745ac"
   }
 };
