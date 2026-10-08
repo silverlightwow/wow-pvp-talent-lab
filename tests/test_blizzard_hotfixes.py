@@ -105,6 +105,88 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert "Fake Profession Talent" not in by_name
 
 
+def test_nested_shared_ability_properties_keep_subject_scope_and_units():
+    html = '''<h3>October 6, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Tank Specializations<ul><li>Tank PvP talents that apply Example Assault: several talents.
+    <ul><li>Example Assault now stacks to 6 times (was 5).</li>
+    <li>Duration increased to 10 seconds (was 6 seconds).</li>
+    <li>Cooldown reduced to 15 seconds (was 20 seconds).</li>
+    <li>Range increased to 15 yards (was 10 yards).</li></ul></li></ul></li></ul>'''
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    assert len(changes) == 4
+    assert {c.talent_name for c in changes} == {'Example Assault'}
+    assert {c.target_hint: (c.current_percent, c.previous_percent, c.unit) for c in changes} == {
+        'stacks': (6, 5, 'count'), 'duration': (10, 6, 'seconds'),
+        'cooldown': (15, 20, 'seconds'), 'range': (15, 10, 'yards')}
+    assert all(c.mode == 'property_absolute' and c.context_path[0] == 'Tank Specializations' for c in changes)
+    snapshot = blizzard_hotfixes.snapshot_for_hotfixes(changes)
+    assert blizzard_hotfixes.hotfixes_from_snapshot(snapshot) == changes
+
+
+@pytest.mark.parametrize('wording,prop,unit', [
+    ('Example (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).', 'cooldown', 'seconds'),
+    ('Example’s duration increased to 20 seconds (was 12 seconds).', 'duration', 'seconds'),
+    ('Example now affects 4 targets (was 3).', 'targets', 'count'),
+    ('Example spread range increased to 15 yards (was 10 yards).', 'spread_range', 'yards'),
+    ('Example radius increased by 60%.', 'radius', 'percent'),
+    ('Example now sacrifices 1% health every 1.5 seconds (was 1 second).', 'interval', 'seconds'),
+    ('Example stuns enemies for 5 seconds (was 4 seconds).', 'stun_duration', 'seconds'),
+    ('Example now allows maximum of 5 Things to be active at a time (was 3).', 'max_active', 'count'),
+])
+def test_property_hotfix_wording(wording,prop,unit):
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(
+        '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>' + wording + '</li></ul>')
+    assert len(changes) == 1 and changes[0].talent_name == 'Example'
+    assert changes[0].target_hint == prop and changes[0].unit == unit
+
+
+def test_property_overlay_never_changes_same_number_in_another_property():
+    html = '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>Example cooldown reduced to 15 seconds (was 20 seconds).</li></ul>'
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    tooltip = '20 sec cooldown\nLasts for 20 sec. Deals 20% more damage.'
+    talent = FakeTalent('Example',123,tooltip,tooltip)
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert not report['unresolved'] and len(report['applied']) == 1
+    assert talent.pvp_tooltip == '15 sec cooldown\nLasts for 20 sec. Deals 20% more damage.'
+    assert talent.pve_tooltip == tooltip
+    assert talent.changes[0]['old_token']=='20' and talent.changes[0]['new_token']=='15'
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert not report['unresolved'] and len(report['already_current']) == 1
+    talent.pvp_tooltip = 'Lasts for 20 sec.'
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert report['unresolved'][0]['reason'] == 'PROPERTY_VALUE_NOT_UNIQUE'
+
+
+def test_property_overlays_preserve_per_rank_change_annotations():
+    change=blizzard_hotfixes._parse_candidate('Example duration increased to 6 seconds (was 3 seconds).',
+        hotfix_date=None,in_pvp_section=True)
+    tooltip='Movement speed persists for 3 sec.'
+    talent=FakeTalent('Example',123,tooltip,tooltip,
+        rank_tooltips=[dict(rank=1,pve_tooltip=tooltip,pvp_tooltip=tooltip),
+                       dict(rank=2,pve_tooltip=tooltip,pvp_tooltip=tooltip)])
+    report=blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),[change])
+    assert not report['unresolved']
+    assert all(r['changes'] and r['render_status']=='CHANGED' and '6 sec' in r['pvp_tooltip']
+               for r in talent.rank_tooltips)
+
+
+def test_property_hotfix_does_not_clear_an_unrelated_rendering_error():
+    change=blizzard_hotfixes._parse_candidate('Example duration increased to 6 seconds (was 3 seconds).',
+        hotfix_date=None,in_pvp_section=True)
+    tooltip='Lasts for 3 sec. Another effect needs review.'
+    talent=FakeTalent('Example',123,tooltip,tooltip,render_status='REVIEW_REQUIRED')
+    report=blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),[change])
+    assert report['unresolved'][0]['reason']=='PROPERTY_SOURCE_REVIEW_REQUIRED'
+    assert talent.render_status=='REVIEW_REQUIRED' and talent.pvp_tooltip==tooltip
+
+
+def test_unknown_property_and_missing_inherited_subject_still_block():
+    for note in ('Unknown now leaps 7 times (was 4).', 'Duration increased to 10 seconds (was 6 seconds).'):
+        with pytest.raises(RuntimeError, match='Unparsed numeric PvP'):
+            blizzard_hotfixes.parse_official_pvp_hotfixes(
+                '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>' + note + '</li></ul>')
+
+
 def test_new_numeric_pvp_wording_cannot_be_silently_skipped():
     html = """
     <h3>September 24, 2026</h3><h3>Player versus Player</h3>
@@ -1301,3 +1383,196 @@ def test_spec_wide_relative_hotfix_rejects_wrong_aura_delta():
     )
     assert len(report["unresolved"]) == 1
     assert report["already_current"] == []
+
+
+def test_spec_wide_hotfix_accepts_rounded_relative_aura_transition():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name='__SPEC_DAMAGE__', current_percent=8, previous_percent=None,
+        target_hint=None, text='All spell and ability damage increased by 8% in PvP combat.',
+        hotfix_date=__import__('datetime').date(2026, 10, 6), mode='spec_relative_increase')
+    talents = [FakeTalent(f'Spell {i}', i, 'Damage.', 'Damage.',
+               mechanics=[dict(source_spell_id=i, effect_index=1, aura_factor=1.4)])
+               for i in range(1, 4)]
+    baseline = {'2026-10-06': {'commit': 'before-hotfix', 'by_spell': {
+        str(i): {'mechanics': [dict(source_spell_id=i, effect_index=1, aura_factor=1.3)]}
+        for i in range(1, 4)}}}
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        FakeCatalog(talents), [hotfix], historical_talents_by_date=baseline)
+    assert report['unresolved'] == []
+    effects = report['already_current'][0]['evidence']['changed_effects']
+    assert all(e['comparison'] == 'relative' for e in effects)
+    assert effects[0]['relative_delta'] == pytest.approx(1.4 / 1.3 - 1)
+
+
+@pytest.mark.parametrize('pvp_damage, expected', [(200, 'APPLIED'), (50, 'CLASS_HOTFIX_OVERLAPS_PVP_VARIANT')])
+def test_class_hotfix_preserves_unrelated_pvp_variant_and_rejects_overlap(pvp_damage, expected):
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name='Blightfall', current_percent=100, previous_percent=200,
+        target_hint=None, text='Blightfall now deals 100% of the remaining plague damage (was 200%).',
+        hotfix_date=None, mode='class_absolute')
+    pve = 'Consume 100% of plagues and deal 200% of remaining damage.'
+    pvp = f'Consume 25% of plagues and deal {pvp_damage}% of remaining damage.'
+    talent = FakeTalent('Blightfall', 1271974, pve, pvp,
+        tooltip_changed=True, render_status='CHANGED',
+        changes=[dict(start=8, end=11, old_token='100', new_token='25')])
+    status, _ = blizzard_hotfixes._apply_class_absolute_hotfix(talent, hotfix)
+    assert status == expected
+    if status == 'APPLIED':
+        assert talent.pve_tooltip == pve.replace('200%', '100%')
+        assert talent.pvp_tooltip == pvp.replace('200%', '100%')
+        assert talent.tooltip_changed and talent.render_status == 'CHANGED'
+        assert talent.changes == [dict(start=8, end=11, old_token='100', new_token='25')]
+    else:
+        assert talent.pve_tooltip == pve and talent.pvp_tooltip == pvp
+
+
+def test_shared_class_hotfix_reindexes_later_pvp_changes_and_ranks():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name='Example', current_percent=50, previous_percent=200,
+        target_hint=None, text='Example now deals 50% damage (was 200%).',
+        hotfix_date=None, mode='class_absolute')
+    pve, pvp = 'Deal 200% damage and slow by 100%.', 'Deal 200% damage and slow by 25%.'
+    start = pve.index('100')
+    change = dict(start=start, end=start+3, old_token='100', new_token='25')
+    rank = dict(pve_tooltip=pve, pvp_tooltip=pvp, render_status='CHANGED', changes=[change])
+    talent = FakeTalent('Example', 1, pve, pvp, changes=[change], rank_tooltips=[rank])
+    status, _ = blizzard_hotfixes._apply_class_absolute_hotfix(talent, hotfix)
+    assert status == 'APPLIED'
+    assert talent.pve_tooltip == 'Deal 50% damage and slow by 100%.'
+    assert talent.pvp_tooltip == 'Deal 50% damage and slow by 25%.'
+    assert talent.changes[0]['start'] == start - 1
+    assert rank['pve_tooltip'] == talent.pve_tooltip
+    assert rank['pvp_tooltip'] == talent.pvp_tooltip
+    assert rank['changes'] == talent.changes
+
+
+def test_shared_class_hotfix_rejects_unsafe_rank_atomically():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name='Example', current_percent=100, previous_percent=200,
+        target_hint=None, text='Example now deals 100% damage (was 200%).',
+        hotfix_date=None, mode='class_absolute')
+    text = 'Deals 200% damage.'
+    rank = dict(pve_tooltip=text, pvp_tooltip=text, render_status='REVIEW_REQUIRED')
+    talent = FakeTalent('Example', 1, text, text, rank_tooltips=[rank])
+    status, _ = blizzard_hotfixes._apply_class_absolute_hotfix(talent, hotfix)
+    assert status == 'CLASS_HOTFIX_SOURCE_REVIEW_REQUIRED'
+    assert talent.pve_tooltip == talent.pvp_tooltip == text
+
+
+@pytest.mark.parametrize('rendered, expected', [('200.1', 'APPLIED'), ('201', 'OLD_VALUE_NOT_UNIQUE')])
+def test_official_percent_canonicalizes_only_small_source_rounding(rendered, expected):
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix(
+        talent_name='Earthen Harmony', current_percent=200, previous_percent=150,
+        target_hint=None, text='Healing increased to 200% (was 150%).', hotfix_date=None)
+    pve = 'Reduces damage by 3%; healing increased by 150% below 50% health.'
+    pvp = f'Reduces damage by 8%; healing increased by {rendered}% below 50% health.'
+    updated, change, status = blizzard_hotfixes._replace_one_percent(
+        pve_tooltip=pve, pvp_tooltip=pvp, hotfix=hotfix)
+    assert status == expected
+    if status == 'APPLIED':
+        assert updated == pvp.replace('200.1%', '200%')
+        assert change['old_token'] == '150%' and change['new_token'] == '200%'
+
+
+def test_official_percent_rounding_rejects_two_nearby_candidates():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('Example', 200, 150, None,
+                                              'Example now grants 200% (was 150%).', None)
+    _, _, status = blizzard_hotfixes._replace_one_percent(
+        pve_tooltip='Healing increased by 150% and damage by 20%.',
+        pvp_tooltip='Healing increased by 200.1% and damage by 200.1%.', hotfix=hotfix)
+    assert status == 'OLD_VALUE_NOT_UNIQUE'
+
+
+def test_official_percent_rounding_requires_matching_semantic_text():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('Example', 200, 150, None,
+                                              'Example healing now increases by 200% (was 150%).', None)
+    _, _, status = blizzard_hotfixes._replace_one_percent(
+        pve_tooltip='Healing increased by 150% and damage by 20%.',
+        pvp_tooltip='Damage increased by 200.1% and healing by 20%.', hotfix=hotfix)
+    assert status == 'OLD_VALUE_NOT_UNIQUE'
+
+
+@pytest.mark.parametrize('endpoint, accepted', [(0.99, True), (0.97, False)])
+def test_older_spec_tuning_revalidates_proven_endpoint_after_later_changes(endpoint, accepted):
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('__SPEC_DAMAGE__', 5, None, None,
+        'All damage increased by 5% in PvP combat.', __import__('datetime').date(2026, 9, 22),
+        mode='spec_relative_increase')
+    current = FakeCatalog([FakeTalent(f'Spell {i}', i, 'Damage.', 'Damage.',
+        mechanics=[dict(source_spell_id=i, effect_index=1, aura_factor=1.04)]) for i in range(1, 4)])
+    def rows(value):
+        return {str(i): {'mechanics': [dict(source_spell_id=i, effect_index=1, aura_factor=value)]}
+                for i in range(1, 4)}
+    baseline = {'2026-09-22': dict(commit='pre-event', by_spell=rows(0.94),
+        verified_post_by_spell=rows(endpoint), verified_post_commit='post-event')}
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        current, [hotfix], historical_talents_by_date=baseline)
+    assert bool(report['already_current']) == accepted
+    assert bool(report['unresolved']) != accepted
+    if accepted:
+        proof = report['already_current'][0]['evidence']
+        assert proof['source'] == 'historically_verified_tuning'
+        assert proof['verified_post_commit'] == 'post-event'
+        assert all(e['aura_factor'] == 1.04 for e in proof['current_effects'])
+
+
+def test_spec_wide_tuning_requires_three_distinct_effects():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('__SPEC_DAMAGE__', 5, None, None,
+        'All damage increased by 5% in PvP combat.', __import__('datetime').date(2026, 9, 22),
+        mode='spec_relative_increase')
+    row = dict(source_spell_id=1, effect_index=1, aura_factor=0.99)
+    current = FakeCatalog([FakeTalent('Spell', 1, 'Damage.', 'Damage.', mechanics=[row]*3)])
+    baseline = {'2026-09-22': {'by_spell': {'1': {'mechanics': [dict(row, aura_factor=0.94)]}}}}
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(
+        current, [hotfix], historical_talents_by_date=baseline)
+    assert report['already_current'] == []
+    assert len(report['unresolved']) == 1
+
+
+@pytest.mark.parametrize('second_spell, canonical', [(1, True), (2, False)])
+def test_official_rounding_preserves_raw_coefficient_and_requires_one_effect_identity(second_spell, canonical):
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('Example', 200, 150, None,
+        'Example healing now increases by 200% in PvP combat (was 150%).', None)
+    pve, pvp = 'Healing increased by 150%.', 'Healing increased by 200.1%.'
+    row = dict(source_spell_id=1, effect_index=1, base_value=150,
+               spell_pvp_multiplier=1.334, final_pvp_multiplier=1.334,
+               final_pvp_value=200.1, sources=['simc_generated'])
+    talent = FakeTalent('Example', 1, pve, pvp,
+        changes=[dict(start=21, end=24, old_token='150', new_token='200.1', effect_indexes=[1, 1])],
+        mechanics=[row, dict(row, source_spell_id=second_spell)])
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]), [hotfix])
+    assert report['unresolved'] == []
+    assert talent.pvp_tooltip == 'Healing increased by 200%.'
+    for mechanic in talent.mechanics:
+        assert mechanic['spell_pvp_multiplier'] == 1.334
+        assert mechanic['final_pvp_value'] == (200 if canonical else 200.1)
+        if canonical:
+            assert mechanic['final_pvp_multiplier'] == pytest.approx(200 / 150)
+            assert mechanic['official_hotfix_factor'] == pytest.approx(200 / 200.1)
+            assert 'blizzard_hotfix' in mechanic['sources']
+
+
+def test_already_current_official_percent_keeps_signed_card_value_consistent():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('Example', 8, 5, None,
+        'Example reduces damage by 8% in PvP combat (was 5%).', None)
+    talent = FakeTalent('Example', 1, 'Reduces damage by 3%.', 'Reduces damage by 8%.',
+        changes=[dict(start=18, end=19, old_token='3', new_token='8', effect_indexes=[3])],
+        mechanics=[dict(source_spell_id=1, effect_index=3, base_value=-3,
+            spell_pvp_multiplier=2.67, final_pvp_multiplier=2.67, final_pvp_value=-8.01)])
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]), [hotfix])
+    assert len(report['already_current']) == 1
+    assert talent.mechanics[0]['final_pvp_value'] == -8
+    assert talent.mechanics[0]['spell_pvp_multiplier'] == 2.67
+
+
+def test_property_hotfix_diagnostic_exposes_official_mechanics_card_fields():
+    hotfix = blizzard_hotfixes.OfficialPvpHotfix('Example', 10, 5, 'duration',
+        'Example duration increased to 10 seconds in PvP combat (was 5 seconds).',
+        __import__('datetime').date(2026, 10, 6), unit='seconds', mode='property_absolute')
+    talent = FakeTalent('Example', 1, 'Lasts 5 sec.', 'Lasts 5 sec.')
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]), [hotfix])
+    assert len(report['applied']) == 1
+    diagnostic = talent.diagnostics[-1]
+    assert diagnostic['status'] == 'OFFICIAL_HOTFIX_APPLIED'
+    assert diagnostic['hotfix_date'] == '2026-10-06'
+    assert diagnostic['hotfix_text'] == hotfix.text
+    assert diagnostic['source_url'] == hotfix.source_url

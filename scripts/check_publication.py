@@ -39,12 +39,21 @@ def freshness(manifest: dict, *, max_age_hours: float, now=None):
     age = ((now or datetime.now(timezone.utc)) - stamp).total_seconds() / 3600
     if age < -5 / 60 or age > max_age_hours:
         raise ValueError(f'Published data age is {age:.2f} hours (limit {max_age_hours:g})')
+    source_age = None
+    if manifest.get('source_snapshot_hash'):
+        source_stamp = datetime.fromisoformat(manifest['source_captured_at'].replace('Z', '+00:00'))
+        if source_stamp.tzinfo is None:
+            raise ValueError('Source timestamp has no timezone')
+        source_age = ((now or datetime.now(timezone.utc)) - source_stamp).total_seconds() / 3600
+        if source_age < -5 / 60 or source_age > max_age_hours:
+            raise ValueError(f'Published source data age is {source_age:.2f} hours (limit {max_age_hours:g})')
     specs = [s for c in manifest['classes'] for s in c['specs']]
     if not specs or len(specs) != manifest['spec_count'] or any(
         s.get('verification_status') != 'VERIFIED' or any(s.get(k, -1) for k in
             ('fetch_error_count', 'unresolved_count', 'review_required_count')) for s in specs):
         raise ValueError('Live manifest contains incomplete specializations')
-    return dict(spec_count=len(specs), age_hours=round(age, 2), generated_at=manifest['generated_at'])
+    return dict(spec_count=len(specs), age_hours=round(age, 2), generated_at=manifest['generated_at'],
+                source_age_hours=round(source_age, 2) if source_age is not None else None)
 
 
 def check(base_url: str, inventory: dict | None, *, max_age_hours: float, attempts: int,

@@ -61,7 +61,7 @@ _PVP_EXCLUSION_RE = re.compile(
 
 _NAME_SPLIT_RE = re.compile(
     r"\s+(?:now\s+)?(?:increases|reduces|grants|causes|"
-    r"deals|heals|damage|healing)\b",
+    r"deals|heals|empowers|(?:initial |direct )?damage|healing|absorption)\b",
     re.I,
 )
 
@@ -299,6 +299,59 @@ def _extract_target_hint(
     )
 
 
+def _parse_property_candidate(text, *, hotfix_date, context_path):
+    """Parse a named property, never infer its meaning from a bare number.
+
+    Nested bullets may inherit a subject explicitly named by their parent
+    ("talents that apply ...:"). Keep that source scope and original prose.
+    Count/time changes require both current and former values; unknown numeric
+    prose still fails the article's coverage check.
+    """
+    number = r"\d+(?:\.\d+)?"
+    previous = rf"\s*\(was\s+(?P<previous>{number})(?:\s+(?:seconds?|sec|yards?|times|targets))?\)\.?(?:\s+in PvP(?: combat)?)?\.?"
+    patterns = [
+        (rf"(?:(?P<name>.+?)\s+)?(?P<property>(?:spread\s+)?range|radius|cooldown|duration)\s+(?P<direction>increased|reduced|decreased)\s+(?P<operation>to|by)\s+(?P<current>{number})\s*(?P<unit>seconds?|sec|yards?|%)", None),
+        (rf"(?P<name>.+?)\s+now\s+stacks\s+to\s+(?P<current>{number})\s+times", "stacks"),
+        (rf"(?P<name>.+?)\s+now\s+(?:affects|spreads\s+to)\s+(?P<current>{number})\s+targets", "targets"),
+        (rf"(?P<name>.+?)\s+now\s+allows\s+(?:a\s+)?maximum\s+of\s+(?P<current>{number})\s+.+?\s+to\s+be\s+active\s+at\s+a\s+time", "max_active"),
+        (rf"(?P<name>.+?)\s+now\s+sacrifices\s+{number}%\s+health\s+every\s+(?P<current>{number})\s+seconds?", "interval"),
+        (rf"(?P<name>.+?)\s+stuns\s+enemies\s+for\s+(?P<current>{number})\s+seconds?", "stun_duration"),
+    ]
+    for pattern, property_name in patterns:
+        match = re.fullmatch(pattern + previous, text, re.I)
+        # Relative radius tuning does not state a previous value.
+        if match is None and property_name is None:
+            match = re.fullmatch(pattern + r"\.", text, re.I)
+        if match is None:
+            continue
+        values = match.groupdict()
+        name = _clean_text(values.get("name") or "")
+        name = re.sub(r"\s*\(PvP Talent\)\s*$|['’]s$", "", name, flags=re.I)
+        if not name:
+            for parent in reversed(context_path):
+                inherited = re.search(r"\bthat\s+apply\s+(.+?):", parent, re.I)
+                if inherited:
+                    name = inherited[1]
+                    break
+        if not name:
+            return None
+        prop = property_name or str(values['property']).casefold().replace(' ', '_')
+        unit = values.get('unit') or ('seconds' if prop in {'interval', 'stun_duration'} else 'count')
+        unit = 'percent' if unit == '%' else 'seconds' if re.fullmatch(r'seconds?|sec', unit, re.I) else 'yards' if unit.casefold().startswith('yard') else unit
+        relative = values.get('operation') == 'by'
+        if relative and unit != 'percent':
+            return None
+        mode = ('property_relative_increase' if values.get('direction', '').casefold() == 'increased'
+                else 'property_relative_reduction') if relative else 'property_absolute'
+        return OfficialPvpHotfix(
+            talent_name=name, current_percent=float(values['current']),
+            previous_percent=float(values['previous']) if values.get('previous') else None,
+            target_hint=prop, text=text, hotfix_date=hotfix_date, unit=unit,
+            mode=mode, context_path=context_path,
+        )
+    return None
+
+
 def _parse_candidate(
     text: str,
     *,
@@ -317,6 +370,12 @@ def _parse_candidate(
         and not in_pvp_section
     ):
         return None
+
+    property_change = _parse_property_candidate(
+        text, hotfix_date=hotfix_date, context_path=context_path,
+    )
+    if property_change is not None:
+        return property_change
 
     # We only auto-overlay notes that state an absolute current percentage.
     # Relative-only notes such as "damage increased by 20%" remain owned by
@@ -407,7 +466,7 @@ def _parse_candidate(
     )
 
     relative_tuning = re.search(
-        r"\b(?P<direction>increased|reduced)\s+by\s+"
+        r"\b(?P<direction>increased|i0ncreased|reduced)\s+by\s+"
         r"(?P<value>\d+(?:\.\d+)?)\s*%",
         before_was,
         re.I,
@@ -421,6 +480,7 @@ def _parse_candidate(
             .group("direction")
             .casefold()
         )
+        direction = direction.replace("i0ncreased", "increased")
         return OfficialPvpHotfix(
             talent_name=raw_name,
             current_percent=float(
@@ -443,16 +503,16 @@ def _parse_candidate(
         unit == "percent"
         and relative_tuning is not None
         and previous is None
-        and " now " not in text.casefold()
+        and not re.search(r"\bnow\s+(?:increases|reduces|grants|causes)\b", before_was, re.I)
     ):
         direction = (
             relative_tuning
             .group("direction")
             .casefold()
         )
+        direction = direction.replace("i0ncreased", "increased")
         spec_wide = (
-            _normalize_name(raw_name)
-            == "all"
+            re.fullmatch(r"all(?:\s+spell\s+and\s+ability)?", _normalize_name(raw_name)) is not None
             and "damage" in text.casefold()
         )
         return OfficialPvpHotfix(
@@ -1433,6 +1493,28 @@ def _replace_one_percent(
         hotfix=hotfix,
         prefer_previous=True,
     )
+
+    # A source-rounded coefficient may render 200.1% for Blizzard's 200%.
+    # Canonicalize only one nearby current token when the corresponding
+    # PvE region still proves the unique, explicitly announced old value.
+    if match is None and hotfix.unit == 'percent' and hotfix.previous_percent is not None:
+        pve_region = _target_region(pve_tooltip, hotfix.target_hint)
+        pve_segment = pve_tooltip[slice(*pve_region)] if pve_region else ''
+        pve_matches = _value_matches(pve_segment, unit='percent')
+        pvp_matches = _value_matches(segment, unit='percent')
+        old_matches = ([m for m in pve_matches
+                       if abs(_match_value(m) - hotfix.previous_percent) <= 1e-9]
+                       if pve_region else [])
+        nearby = [m for m in pvp_matches
+                  if abs(_match_value(m) - hotfix.current_percent) <= max(0.011, abs(hotfix.current_percent) * 0.001)]
+        if len(old_matches) == 1 and len(nearby) == 1 and len(pve_matches) == len(pvp_matches):
+            def template(text, values):
+                for value in reversed(values):
+                    text = text[:value.start()] + '{value}' + text[value.end():]
+                return _normalize_name(text)
+            if (pve_matches.index(old_matches[0]) == pvp_matches.index(nearby[0]) and
+                    template(pve_segment, pve_matches) == template(segment, pvp_matches)):
+                match = nearby[0]
 
     if match is None:
         if _region_has_current_value(
@@ -2512,6 +2594,7 @@ def _spec_historical_relative_evidence(
         {},
     )
     changed = []
+    seen_effects = set()
 
     for talent in spec_catalog.talents:
         spell_id = getattr(
@@ -2560,11 +2643,19 @@ def _spec_historical_relative_evidence(
                 continue
 
             delta = new_value - old_value
-            if abs(
-                delta - expected_delta
-            ) > 0.011:
+            relative_delta = new_value / old_value - 1 if old_value > 0 else None
+            # Blizzard rounds published relative changes to whole percent.
+            # A 1.30 -> 1.40 aura is a 7.69% increase, announced as 8%.
+            # Retain additive aura tuning supported by older notes as well.
+            additive_matches = abs(delta - expected_delta) <= 0.011
+            relative_matches = (relative_delta is not None and
+                                abs(relative_delta - expected_delta) <= 0.005)
+            if not (additive_matches or relative_matches):
                 continue
 
+            if key in seen_effects:
+                continue
+            seen_effects.add(key)
             changed.append(
                 {
                     "talent_name":
@@ -2583,6 +2674,8 @@ def _spec_historical_relative_evidence(
                         new_value,
                     "delta":
                         delta,
+                    "relative_delta": relative_delta,
+                    "comparison": "relative" if relative_matches else "additive",
                     "expected_delta":
                         expected_delta,
                 }
@@ -2597,6 +2690,27 @@ def _spec_historical_relative_evidence(
                         changed,
                 }
 
+    post = baseline.get('verified_post_by_spell')
+    if post:
+        from types import SimpleNamespace
+        endpoint = SimpleNamespace(talents=[SimpleNamespace(
+            spell_id=t.spell_id, talent_name=t.talent_name,
+            mechanics=post.get(str(t.spell_id), {}).get('mechanics', []))
+            for t in spec_catalog.talents])
+        historical = dict(baseline)
+        historical.pop('verified_post_by_spell')
+        evidence = _spec_historical_relative_evidence(endpoint, hotfix,
+            {hotfix.hotfix_date.isoformat(): historical})
+        current = {(int(r.get('source_spell_id') or 0), int(r.get('effect_index') or 0)): r
+                   for t in spec_catalog.talents for r in (getattr(t, 'mechanics', None) or [])}
+        if evidence and all((e['source_spell_id'], e['effect_index']) in current
+                            for e in evidence['changed_effects']):
+            return dict(evidence, source='historically_verified_tuning',
+                verified_post_commit=baseline.get('verified_post_commit'),
+                verified_post_content_hash=baseline.get('verified_post_content_hash'),
+                current_effects=[dict(source_spell_id=e['source_spell_id'], effect_index=e['effect_index'],
+                    aura_factor=current[(e['source_spell_id'], e['effect_index'])].get('aura_factor'))
+                    for e in evidence['changed_effects']])
     return None
 
 
@@ -2609,8 +2723,9 @@ def _apply_class_absolute_hotfix(
     Class-section hotfixes can land server-side without a client build bump.
     They are not PvP modifiers: when they also apply in PvP, the authoritative
     current value belongs in both tooltips. We only auto-repair a stale value
-    when the talent has no separate rendered PvP variant; otherwise we fail
-    closed instead of overwriting a real PvP-specific difference.
+    when the talent has no separate rendered PvP variant. With a separate
+    variant, both copies must retain the exact announced old value in the
+    same unambiguous target, outside every existing PvP replacement.
     """
     pve = str(
         talent.pve_tooltip
@@ -2641,15 +2756,53 @@ def _apply_class_absolute_hotfix(
     if status != "APPLIED":
         return status, None
 
-    if pvp != pve:
-        return (
-            "CLASS_HOTFIX_OVERLAPS_PVP_VARIANT",
-            None,
-        )
-
-    talent.pve_tooltip = updated
-    talent.pvp_tooltip = updated
-    talent.tooltip_changed = False
+    staged = []
+    for version in [talent, *(talent.rank_tooltips or [])]:
+        get = version.get if isinstance(version, dict) else lambda key, default=None: getattr(version, key, default)
+        old_pve = str(get('pve_tooltip') or '')
+        old_pvp = str(get('pvp_tooltip') or old_pve)
+        if get('render_status') in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'}:
+            return 'CLASS_HOTFIX_SOURCE_REVIEW_REQUIRED', None
+        new_pve, pve_change, pve_status = _replace_one_percent(
+            pve_tooltip=old_pve, pvp_tooltip=old_pve, hotfix=hotfix)
+        if pve_status == 'ALREADY_CURRENT':
+            continue
+        if pve_status != 'APPLIED' or pve_change is None:
+            return pve_status, None
+        changes = list(get('changes') or [])
+        if old_pvp != old_pve:
+            pvp_region = _target_region(old_pvp, hotfix.target_hint)
+            pvp_match = (_select_value_match(old_pvp[slice(*pvp_region)], hotfix=hotfix,
+                         prefer_previous=True) if pvp_region else None)
+            pve_old = float(pve_change['old_token'].rstrip('%'))
+            if (hotfix.previous_percent is None or pvp_match is None
+                    or abs(pve_old - hotfix.previous_percent) > 1e-9
+                    or abs(_match_value(pvp_match) - pve_old) > 1e-9
+                    or any(max(c.get('start', 0), pve_change['start']) <
+                           min(c.get('end', 0), pve_change['end']) for c in changes)):
+                return 'CLASS_HOTFIX_OVERLAPS_PVP_VARIANT', None
+            new_pvp, _, pvp_status = _replace_one_percent(
+                pve_tooltip=old_pve, pvp_tooltip=old_pvp, hotfix=hotfix)
+            if pvp_status != 'APPLIED':
+                return 'CLASS_HOTFIX_OVERLAPS_PVP_VARIANT', None
+        else:
+            new_pvp = new_pve
+        # Existing differences are indexed against PvE text. A shared
+        # baseline replacement can change the length of preceding text.
+        shift = len(pve_change['new_token']) - len(pve_change['old_token'])
+        changes = [dict(c, start=c['start'] + shift, end=c['end'] + shift)
+                   if c.get('start', -1) >= pve_change['end'] and 'end' in c else c
+                   for c in changes]
+        staged.append((version, new_pve, new_pvp, changes))
+    for version, new_pve, new_pvp, changes in staged:
+        values = dict(pve_tooltip=new_pve, pvp_tooltip=new_pvp, changes=changes,
+                      tooltip_changed=new_pvp != new_pve,
+                      render_status='CHANGED' if new_pvp != new_pve else 'UNCHANGED')
+        if isinstance(version, dict):
+            version.update(values)
+        else:
+            for key, value in values.items():
+                setattr(version, key, value)
 
     diagnostic = {
         "status":
@@ -2804,6 +2957,136 @@ def _apply_removed_relative_tooltip(
     }
 
 
+def _property_matches(tooltip, hotfix):
+    """Locate only the explicitly named property in rendered player text."""
+    n = r"(?P<value>\d+(?:\.\d+)?)"
+    sec = r"\s*(?:seconds?|sec)\b"
+    yards = r"\s*(?:yards?|yds?)\b"
+    patterns = {
+        'cooldown': [n + sec + r"\s+(?:cooldown|recharge)", r"\bcooldown\s*:?\s*" + n + sec],
+        'duration': [r"\b(?:lasts?(?:\s+for)?|for|duration\s*:?)\s+" + n + sec],
+        'interval': [r"\bevery\s+" + n + sec],
+        'stun_duration': [r"\bstun[^.\n]*?\bfor\s+" + n + sec],
+        'range': [n + yards + r"\s+range", r"\brange\s*:?\s*" + n + yards],
+        'radius': [r"\bwithin\s+" + n + yards, n + yards + r"\s+radius"],
+        'spread_range': [r"\bspread[^.\n]*?\bwithin\s+" + n + yards],
+        'stacks': [r"\bstack[^.\n]*?\b(?:to|up to)\s+" + n, r"\bup to\s+" + n + r"\s+(?:times|stacks)"],
+        'targets': [r"\b(?:up to\s+)?" + n + r"\s+(?:additional\s+)?targets\b"],
+        'max_active': [r"\bmaximum of\s+" + n, r"\bup to\s+" + n + r"[^.\n]*?active at a time"],
+    }
+    matches = {}
+    for pattern in patterns.get(hotfix.target_hint, []):
+        for match in re.finditer(pattern, tooltip, re.I):
+            matches[match.span('value')] = match
+    return list(matches.values())
+
+
+def _apply_property_hotfix(talent, hotfix):
+    # A relative property change cannot be inferred from generic damage
+    # mechanics or an already-modified tooltip. Require explicit evidence.
+    if hotfix.mode != 'property_absolute':
+        return 'PROPERTY_RELATIVE_NOT_VERIFIED'
+    versions = [talent, *(talent.rank_tooltips or [])]
+    if any((version.get('render_status') if isinstance(version, dict) else version.render_status)
+           in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'} for version in versions):
+        return 'PROPERTY_SOURCE_REVIEW_REQUIRED'
+    updates = []
+    for version in versions:
+        tooltip = str(version.get('pvp_tooltip') if isinstance(version, dict) else version.pvp_tooltip)
+        pve = str(version.get('pve_tooltip') if isinstance(version, dict) else version.pve_tooltip)
+        candidates = _property_matches(tooltip, hotfix)
+        # More than one candidate is ambiguous, even if one happens to match.
+        if len(candidates) != 1:
+            return 'PROPERTY_VALUE_NOT_UNIQUE'
+        match = candidates[0]
+        value = float(match['value'])
+        if abs(value - hotfix.current_percent) <= 1e-9:
+            updates.append((version, tooltip, False, pve))
+        elif hotfix.previous_percent is not None and abs(value - hotfix.previous_percent) <= 1e-9:
+            start, end = match.span('value')
+            updated = tooltip[:start] + _format_number(hotfix.current_percent) + tooltip[end:]
+            updates.append((version, updated, True, pve))
+        else:
+            return 'PROPERTY_OLD_VALUE_MISMATCH'
+    annotations = []
+    for version, tooltip, changed, pve in updates:
+        pve_matches = _property_matches(pve, hotfix)
+        if tooltip != pve and len(pve_matches) != 1:
+            return 'PROPERTY_PVE_VALUE_NOT_UNIQUE'
+        match = pve_matches[0] if pve_matches else None
+        change = (dict(start=match.start('value'), end=match.end('value'),
+            old_token=match['value'], new_token=_format_number(hotfix.current_percent),
+            kind='official_hotfix_property', property=hotfix.target_hint, unit=hotfix.unit,
+            effect_indexes=[], source='blizzard_hotfix') if match and tooltip != pve else None)
+        annotations.append((version, tooltip, changed, change))
+    for version, tooltip, changed, change in annotations:
+        if isinstance(version, dict):
+            version['pvp_tooltip'] = tooltip
+            version['tooltip_changed'] = tooltip != version.get('pve_tooltip', '')
+            version['render_status'] = 'CHANGED' if version['tooltip_changed'] else 'UNCHANGED'
+            version['changes'] = _with_authoritative_change(version.get('changes'), change)
+        else:
+            version.pvp_tooltip = tooltip
+            version.tooltip_changed = tooltip != version.pve_tooltip
+            version.render_status = 'CHANGED' if version.tooltip_changed else 'UNCHANGED'
+            version.changes = _with_authoritative_change(version.changes, change)
+            version.has_pvp_mechanics = True
+    return 'APPLIED' if any(changed for _, _, changed, _ in updates) else 'ALREADY_CURRENT'
+
+
+
+def _canonicalize_percent_mechanics(talent, hotfix, change):
+    """Align a uniquely mapped scalar card with official rounding.
+
+    Keep source coefficients intact and record the small official correction
+    as a separate factor, as for existing relative hotfix overlays.
+    """
+    if hotfix.unit != 'percent' or talent.render_status in {'REVIEW_REQUIRED', 'MISSING_TOOLTIP'}:
+        return
+    candidates = []
+    for existing in talent.changes or []:
+        try:
+            old = float(str(existing['old_token']).rstrip('%'))
+            current = float(str(existing['new_token']).rstrip('%'))
+        except (KeyError, TypeError, ValueError):
+            continue
+        overlaps = (change is not None and max(existing.get('start', 0), change['start']) <
+                    min(existing.get('end', 0), change['end']))
+        if overlaps or (change is None and abs(current - hotfix.current_percent) <= 1e-9):
+            candidates.append((existing, old))
+    if len(candidates) != 1:
+        return
+    existing, old = candidates[0]
+    indexes = set(existing.get('effect_indexes') or [])
+    rows = []
+    for row in talent.mechanics or []:
+        if row.get('effect_index') not in indexes or row.get('simc_sp_coefficient') or row.get('simc_ap_coefficient'):
+            continue
+        try:
+            base, final = float(row['base_value']), float(row['final_pvp_value'])
+            multiplier = float(row['final_pvp_multiplier'])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if (abs(abs(base) - abs(old)) <= 1e-9 and abs(final) > 1e-12 and
+                abs(abs(final) - hotfix.current_percent) <= max(0.011, abs(hotfix.current_percent) * 0.001)):
+            rows.append((row, final, multiplier))
+    if not rows or len({(r.get('source_spell_id'), r.get('effect_index')) for r, _, _ in rows}) != 1:
+        return
+    if change is not None:
+        change['effect_indexes'] = sorted(indexes)
+    for row, final, multiplier in rows:
+        canonical = hotfix.current_percent * (1 if final > 0 else -1)
+        if abs(final - canonical) <= 1e-9:
+            continue
+        factor = canonical / final
+        previous_factor = row.get('official_hotfix_factor')
+        row.update(final_pvp_value=canonical, final_pvp_multiplier=multiplier * factor,
+                   official_hotfix_factor=float(1 if previous_factor is None else previous_factor) * factor,
+                   official_hotfix_date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                   official_hotfix_source_url=hotfix.source_url, official_hotfix_text=hotfix.text)
+        row['sources'] = list(dict.fromkeys([*(row.get('sources') or []), 'blizzard_hotfix']))
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -2954,6 +3237,10 @@ def apply_official_pvp_hotfixes(
                         hotfix.talent_name,
                     "text":
                         hotfix.text,
+                    "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+                    "mode": hotfix.mode,
+                    "unit": hotfix.unit,
+                    "property": hotfix.target_hint,
                     "date": (
                         hotfix.hotfix_date
                         .isoformat()
@@ -2965,6 +3252,20 @@ def apply_official_pvp_hotfixes(
             continue
 
         for talent in matches:
+            if hotfix.mode.startswith('property_'):
+                status = _apply_property_hotfix(talent, hotfix)
+                record = dict(talent_name=talent.talent_name, spell_id=talent.spell_id,
+                    text=hotfix.text, date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                    property=hotfix.target_hint, unit=hotfix.unit,
+                    current_value=hotfix.current_percent, previous_value=hotfix.previous_percent)
+                if status in {'APPLIED', 'ALREADY_CURRENT'}:
+                    (applied if status == 'APPLIED' else already_current).append(record)
+                    talent.diagnostics.append(dict(record, source='blizzard_hotfix', reason=status,
+                        status='OFFICIAL_HOTFIX_APPLIED' if status == 'APPLIED' else 'OFFICIAL_HOTFIX_CURRENT',
+                        hotfix_date=record['date'], hotfix_text=hotfix.text, source_url=hotfix.source_url))
+                else:
+                    unresolved.append(dict(record, reason=status))
+                continue
             pve = str(
                 talent.pve_tooltip
                 or ""
@@ -3331,6 +3632,9 @@ def apply_official_pvp_hotfixes(
                         hotfix,
                     )
                 )
+
+            if status in {'APPLIED', 'ALREADY_CURRENT'}:
+                _canonicalize_percent_mechanics(talent, hotfix, change)
 
             diagnostic = {
                 "status": (

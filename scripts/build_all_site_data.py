@@ -266,6 +266,7 @@ def _load_historical_hotfix_baselines(
     )
     if not dates:
         return {}
+    latest_hotfix_date = max(item.hotfix_date for item in hotfixes if item.hotfix_date is not None)
 
     path = f"web/data/{slug}.json"
     result = {}
@@ -347,6 +348,50 @@ def _load_historical_hotfix_baselines(
             "by_spell": by_spell,
             "by_name": by_name,
         }
+
+        # Older tuning is an event, not an immutable final coefficient.
+        # Preserve a proven post-event endpoint when later tuning changes
+        # the same aura. Revalidate its numbers against the actual pre-event
+        # git snapshot rather than trusting the old report's assertion.
+        previous_path = Path(path)
+        if previous_path.exists():
+            previous = json.loads(previous_path.read_text())
+            report = previous.get('official_hotfixes') or {}
+            candidates = [r for r in report.get('already_current', [])
+                if (r.get('evidence') or {}).get('source') in
+                   {'historical_verified_snapshot', 'historically_verified_tuning'}
+                and any(h.mode.startswith('spec_relative_') and h.hotfix_date == hotfix_date
+                        and (r.get('date'), r.get('text')) == (hotfix_date.isoformat(), h.text)
+                        for h in hotfixes)]
+            for confirmed in candidates:
+                evidence = confirmed['evidence']
+                try:
+                    anchor = evidence.get('verified_post_commit') or subprocess.run(
+                        ['git', 'rev-list', '-1', 'HEAD', '--', path], check=True,
+                        capture_output=True, text=True).stdout.strip()
+                    if len(anchor) != 40 or any(c not in '0123456789abcdef' for c in anchor):
+                        continue
+                    endpoint = json.loads(subprocess.run(['git', 'show', f'{anchor}:{path}'],
+                        check=True, capture_output=True, text=True).stdout)
+                except (OSError, subprocess.CalledProcessError, json.JSONDecodeError):
+                    continue
+                endpoint_report = endpoint.get('official_hotfixes') or {}
+                original_proof = any((r.get('date'), r.get('text')) ==
+                    (hotfix_date.isoformat(), confirmed['text']) and
+                    (r.get('evidence') or {}).get('source') == 'historical_verified_snapshot'
+                    for r in endpoint_report.get('already_current', []))
+                endpoint_hash = endpoint.get('coverage', {}).get('semantic_hash')
+                if (original_proof and hotfix_date < latest_hotfix_date and not endpoint_report.get('unresolved') and
+                        (endpoint_report.get('latest_date') or '') >= hotfix_date.isoformat() and
+                        endpoint.get('validation', {}).get('verification_status') == 'VERIFIED' and
+                        (not evidence.get('verified_post_content_hash') or
+                         evidence['verified_post_content_hash'] == endpoint_hash)):
+                    result[hotfix_date.isoformat()]['verified_post_by_spell'] = {
+                        str(int(t['spell_id'])): t for t in endpoint.get('talents', [])
+                        if t.get('spell_id') is not None}
+                    result[hotfix_date.isoformat()]['verified_post_content_hash'] = endpoint_hash
+                    result[hotfix_date.isoformat()]['verified_post_commit'] = anchor
+                    break
 
     return result
 
@@ -731,6 +776,8 @@ def build_manifest(
         "hotfix_latest_date":
             hotfix_dates.pop(),
         "source_snapshot_hash": source_hashes.pop(),
+        "source_captured_at": min((item['source_snapshot']['captured_at'] for item in built
+                                    if item.get('source_snapshot')), default=None),
         "default_slug":
             default_slug,
         "spec_count":

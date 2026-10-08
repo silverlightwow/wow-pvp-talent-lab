@@ -49,3 +49,14 @@ def test_stale_and_future_data_are_rejected(hours):
     manifest['generated_at'] = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
     with pytest.raises(ValueError, match='data age'):
         freshness(manifest, max_age_hours=12)
+
+
+def test_recent_republication_does_not_make_stale_sources_fresh():
+    files, _ = public_files()
+    manifest = json.loads(files['data/manifest.json'])
+    manifest.update(source_snapshot_hash='verified-snapshot',
+                    source_captured_at=(datetime.now(timezone.utc)-timedelta(hours=13)).isoformat())
+    with pytest.raises(ValueError,match='source data age'):
+        freshness(manifest,max_age_hours=12)
+    manifest['source_captured_at'] = datetime.now(timezone.utc).isoformat()
+    assert freshness(manifest,max_age_hours=12)['source_age_hours'] == 0

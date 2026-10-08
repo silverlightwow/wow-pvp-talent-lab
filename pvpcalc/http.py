@@ -50,6 +50,7 @@ class CachedClient:
         # One in-flight request plus a small interval is intentionally
         # conservative and makes scheduled refreshes much more stable.
         self._wowhead_sem = asyncio.Semaphore(1)
+        self._nether_sem = asyncio.Semaphore(2)
         self._wowhead_interval = max(
             0.0,
             float(wowhead_interval),
@@ -125,7 +126,7 @@ class CachedClient:
         )
 
         source_sem = (
-            self._wowhead_sem
+            self._nether_sem if urlparse(url).hostname == 'nether.wowhead.com' else self._wowhead_sem
             if is_wowhead
             else self._sem
         )
@@ -170,6 +171,7 @@ class CachedClient:
                     if (
                         attempt
                         < self._max_attempts
+                        and not (is_wowhead and response.status_code == 403 and attempt >= 2)
                     ):
                         await asyncio.sleep(
                             self._retry_delay(

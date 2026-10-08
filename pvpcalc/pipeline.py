@@ -2881,7 +2881,20 @@ def _build_generated_simc_fallback_rows(
                     for wh in (nether_by_spell or {}).get(spell_id, [])
                 )
             )
-            stale = stale or nether_agrees
+            # Same-build server hotfixes can temporarily outrun Drustvar.
+            # The human dump must record the exact old -> new transition,
+            # and its new value must agree with the pinned generated table.
+            human_effect = simc.effect_for_spell(simc_dump, spell_id, observation.effect_index)
+            hotfix_proven = (
+                not agrees and dr_build is not None and current_build is not None
+                and dr_build <= current_build and not _drustvar_is_hotfixed(dr)
+                and human_effect is not None and human_effect.pvp_hotfix_previous is not None
+                and human_effect.game_effect_id == exact_effect.game_effect_id
+                and _game_effect_id(dr) == exact_effect.game_effect_id
+                and multipliers_close(dr_multiplier, human_effect.pvp_hotfix_previous)
+                and multipliers_close(exact_multiplier, human_effect.pvp_coefficient, tolerance=1e-9)
+            )
+            stale = stale or nether_agrees or hotfix_proven
 
             if not (
                 agrees
@@ -2945,7 +2958,8 @@ def _build_generated_simc_fallback_rows(
                             effect_text,
                         "resolved_by": [
                             "simc_generated_exact_build",
-                        ] + (["wowhead_nether_pvp_branch"] if nether_agrees else []),
+                        ] + (["wowhead_nether_pvp_branch"] if nether_agrees else [])
+                          + (["simc_exact_build_hotfix"] if hotfix_proven else []),
                     }
                 )
 
@@ -4263,11 +4277,22 @@ def _filter_simc_corroborated_unresolved(
     *,
     simc_dump,
     wowhead_by_spell: dict[int, list],
+    generated_effects_by_spell: dict[int, dict] | None = None,
 ) -> list[dict]:
 
     result = []
 
     for item in unresolved_rows:
+        if item.get('reason') == 'WOWHEAD_ONLY_MODIFIER':
+            sid = int(item.get('source_spell_id', item['spell_id']))
+            exact = (generated_effects_by_spell or {}).get(sid, {}).get(item.get('effect_index'))
+            if exact is not None and exact.pvp_coefficient is not None:
+                if multipliers_close(item.get('multiplier'), exact.pvp_coefficient):
+                    continue
+                result.append(dict(item, reason='CONFLICT_WITH_EXACT_GENERATED_EFFECT',
+                    generated_multiplier=exact.pvp_coefficient,
+                    game_effect_id=exact.game_effect_id))
+                continue
         superseded = _superseded_drustvar_effect(
             item, simc_dump=simc_dump, wowhead_by_spell=wowhead_by_spell
         )
@@ -4828,6 +4853,7 @@ async def audit_spec(
                 in {
                     "UNMATCHED_DRUSTVAR_EFFECT",
                     "NO_WOWHEAD_EFFECTS",
+                    "WOWHEAD_ONLY_MODIFIER",
                 }
                 and item.get(
                     "source_spell_id",
@@ -4998,6 +5024,7 @@ async def audit_spec(
         _filter_simc_corroborated_unresolved(
             result.unresolved_rows,
             simc_dump=simc_dump,
+            generated_effects_by_spell=generated_effects_by_spell,
             wowhead_by_spell=
                 result.wowhead_by_spell,
         )
@@ -5131,6 +5158,7 @@ async def audit_spec(
             _filter_simc_corroborated_unresolved(
                 simc_direct_structured_unresolved,
                 simc_dump=simc_dump,
+                generated_effects_by_spell=generated_effects_by_spell,
                 wowhead_by_spell=
                     result.wowhead_by_spell,
             )
@@ -5244,6 +5272,7 @@ async def audit_spec(
             _filter_simc_corroborated_unresolved(
                 extra_unresolved,
                 simc_dump=simc_dump,
+                generated_effects_by_spell=generated_effects_by_spell,
                 wowhead_by_spell=
                     result.wowhead_by_spell,
             )
@@ -5754,6 +5783,7 @@ async def audit_spec(
             _filter_simc_corroborated_unresolved(
                 child_unresolved,
                 simc_dump=simc_dump,
+                generated_effects_by_spell=generated_effects_by_spell,
                 wowhead_by_spell=
                     dependency_wowhead_by_spell,
             )
