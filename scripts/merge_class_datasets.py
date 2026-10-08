@@ -28,7 +28,7 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
         raise ValueError('Artifacts used inconsistent official hotfix snapshots')
     if len(hotfix_dates) != 1:
         raise ValueError('Artifacts used inconsistent official hotfix dates')
-    classes, slugs = {}, set()
+    classes, slugs, source_times = {}, set(), []
     for directory, manifest in manifests:
         validate_snapshot(directory)
         for cls in manifest['classes']:
@@ -38,6 +38,12 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
                     raise ValueError(f'Duplicate specialization: {spec["slug"]}')
                 slugs.add(spec['slug'])
                 merged['specs'].append(spec)
+                payload = json.loads((directory / (spec['slug'] + '.json')).read_text())
+                captured = (payload.get('source_snapshot') or {}).get('captured_at')
+                if source_snapshots != {None} and not captured:
+                    raise ValueError('Verified source snapshot has no capture timestamp')
+                if captured:
+                    source_times.append(datetime.fromisoformat(captured))
     if expected_specs is None and len(slugs) < 40:
         raise ValueError(f'Expected the complete catalog, received {len(slugs)} specs')
     class_list = sorted(classes.values(), key=lambda c: c['name'])
@@ -47,6 +53,7 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
                   content_hash=hashes.pop(), hotfix_snapshot_hash=hotfix_hashes.pop(),
                   hotfix_latest_date=hotfix_dates.pop(),
                   source_snapshot_hash=source_snapshots.pop(),
+                  source_captured_at=min(source_times).isoformat() if source_times else None,
                   replay_verified_count=sum(s.get('replay_verified', False) for c in class_list for s in c['specs']),
                   default_slug='priest-discipline' if 'priest-discipline' in slugs else min(slugs),
                   spec_count=len(slugs), verified_count=len(slugs), partial_count=0, classes=class_list)

@@ -1942,7 +1942,7 @@ _SIMC_PVP_RE = re.compile(
 # Treat the right-hand side as current state, but only as a fallback
 # when the normal coefficient field is absent.
 _SIMC_PVP_HOTFIX_RE = re.compile(
-    r"Hotfixed\s*:\s*PvP Coefficient\s*"
+    r"Hotfixed\s*:[^\r\n]*?\bPvP Coefficient\s*"
     r"\(([+-]?\d+(?:\.\d+)?)\s*->\s*"
     r"([+-]?\d+(?:\.\d+)?)\)",
     re.I,

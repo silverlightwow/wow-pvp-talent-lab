@@ -31,6 +31,34 @@ def test_exact_identity_handles_renamed_effect_without_rounding_the_pvp_value():
     assert "Spell Direct Amount" in rows[0]['effect_text']
 
 
+@pytest.mark.parametrize('hotfixed,newer,identity,old,generated_value', [
+    (False,False,1001,1.45,1.34), (True,False,1001,1.45,1.34),
+    (False,True,1001,1.45,1.34), (False,False,1002,1.45,1.34),
+    (False,False,1001,1.6,1.34), (False,False,1001,1.45,1.3),
+])
+def test_mixed_hotfix_fields_prove_only_the_exact_old_to_new_transition(hotfixed,newer,identity,old,generated_value):
+    raw = ('Name : Example (id=100)\n#1 (id=1001) : School Damage (2): cosmic\n'
+           'Base Value: 0 | SP Coefficient: 3.67 | PvP Coefficient: 1.34\n'
+           'Hotfixed : SP Coefficient (3.4 -> 3.67), PvP Coefficient (1.45 -> 1.34)\n')
+    dump = SimcDump(class_slug='test',build='12.1.0.69933',header='',edges={},
+                   spells={100:SimcSpell(spell_id=100,name='Example',raw=raw)})
+    parsed = pipeline.simc.parse_spell_effects(dump.spells[100])[1]
+    assert parsed.pvp_hotfix_previous == 1.45
+    generated = SimcEffect(effect_index=1,effect_text='School Damage (2)',base_value=0,
+        sp_coefficient=3.67,pvp_coefficient=generated_value,game_effect_id=1001)
+    dr = EffectObservation(source='drustvar',spell_id=100,spell_name='Example',effect_index=0,
+        pvp_multiplier=old,effect_text='School Damage (2): cosmic',
+        patch='12.1.0.99999' if newer else dump.build,
+        raw=json.dumps({'game_effect_id':identity,'is_hotfixed':hotfixed}))
+    rows,resolved=pipeline._build_generated_simc_fallback_rows(spell_ids={100},talent_by_spell={100:{}},
+        drustvar_by_spell={100:[dr]},generated_effects_by_spell={100:{1:generated}},simc_dump=dump)
+    if not hotfixed and not newer and identity==1001 and old==1.45 and generated_value==1.34:
+        assert resolved=={100} and rows[0]['pvp_multiplier']==1.34
+        assert 'simc_exact_build_hotfix' in rows[0]['source_notes'][0]['resolved_by']
+    else:
+        assert not rows and not resolved
+
+
 @pytest.mark.parametrize('game_id,multiplier', [(1002, 0.33), (1001, 0.5)])
 def test_wrong_identity_or_conflicting_current_coefficient_remains_blocking(game_id, multiplier):
     rows, resolved = fallback(game_id=game_id, multiplier=multiplier,

@@ -2881,7 +2881,20 @@ def _build_generated_simc_fallback_rows(
                     for wh in (nether_by_spell or {}).get(spell_id, [])
                 )
             )
-            stale = stale or nether_agrees
+            # Same-build server hotfixes can temporarily outrun Drustvar.
+            # The human dump must record the exact old -> new transition,
+            # and its new value must agree with the pinned generated table.
+            human_effect = simc.effect_for_spell(simc_dump, spell_id, observation.effect_index)
+            hotfix_proven = (
+                not agrees and dr_build is not None and current_build is not None
+                and dr_build <= current_build and not _drustvar_is_hotfixed(dr)
+                and human_effect is not None and human_effect.pvp_hotfix_previous is not None
+                and human_effect.game_effect_id == exact_effect.game_effect_id
+                and _game_effect_id(dr) == exact_effect.game_effect_id
+                and multipliers_close(dr_multiplier, human_effect.pvp_hotfix_previous)
+                and multipliers_close(exact_multiplier, human_effect.pvp_coefficient, tolerance=1e-9)
+            )
+            stale = stale or nether_agrees or hotfix_proven
 
             if not (
                 agrees
@@ -2945,7 +2958,8 @@ def _build_generated_simc_fallback_rows(
                             effect_text,
                         "resolved_by": [
                             "simc_generated_exact_build",
-                        ] + (["wowhead_nether_pvp_branch"] if nether_agrees else []),
+                        ] + (["wowhead_nether_pvp_branch"] if nether_agrees else [])
+                          + (["simc_exact_build_hotfix"] if hotfix_proven else []),
                     }
                 )
 

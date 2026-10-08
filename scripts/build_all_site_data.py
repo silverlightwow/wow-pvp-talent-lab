@@ -731,6 +731,8 @@ def build_manifest(
         "hotfix_latest_date":
             hotfix_dates.pop(),
         "source_snapshot_hash": source_hashes.pop(),
+        "source_captured_at": min((item['source_snapshot']['captured_at'] for item in built
+                                    if item.get('source_snapshot')), default=None),
         "default_slug":
             default_slug,
         "spec_count":

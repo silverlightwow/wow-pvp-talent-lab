@@ -105,6 +105,64 @@ def test_parse_current_absolute_pvp_hotfixes():
     assert "Fake Profession Talent" not in by_name
 
 
+def test_nested_shared_ability_properties_keep_subject_scope_and_units():
+    html = '''<h3>October 6, 2026</h3><h3>Player versus Player</h3>
+    <ul><li>Tank Specializations<ul><li>Tank PvP talents that apply Example Assault: several talents.
+    <ul><li>Example Assault now stacks to 6 times (was 5).</li>
+    <li>Duration increased to 10 seconds (was 6 seconds).</li>
+    <li>Cooldown reduced to 15 seconds (was 20 seconds).</li>
+    <li>Range increased to 15 yards (was 10 yards).</li></ul></li></ul></li></ul>'''
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    assert len(changes) == 4
+    assert {c.talent_name for c in changes} == {'Example Assault'}
+    assert {c.target_hint: (c.current_percent, c.previous_percent, c.unit) for c in changes} == {
+        'stacks': (6, 5, 'count'), 'duration': (10, 6, 'seconds'),
+        'cooldown': (15, 20, 'seconds'), 'range': (15, 10, 'yards')}
+    assert all(c.mode == 'property_absolute' and c.context_path[0] == 'Tank Specializations' for c in changes)
+    snapshot = blizzard_hotfixes.snapshot_for_hotfixes(changes)
+    assert blizzard_hotfixes.hotfixes_from_snapshot(snapshot) == changes
+
+
+@pytest.mark.parametrize('wording,prop,unit', [
+    ('Example (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).', 'cooldown', 'seconds'),
+    ('Example’s duration increased to 20 seconds (was 12 seconds).', 'duration', 'seconds'),
+    ('Example now affects 4 targets (was 3).', 'targets', 'count'),
+    ('Example spread range increased to 15 yards (was 10 yards).', 'spread_range', 'yards'),
+    ('Example radius increased by 60%.', 'radius', 'percent'),
+    ('Example now sacrifices 1% health every 1.5 seconds (was 1 second).', 'interval', 'seconds'),
+    ('Example stuns enemies for 5 seconds (was 4 seconds).', 'stun_duration', 'seconds'),
+    ('Example now allows maximum of 5 Things to be active at a time (was 3).', 'max_active', 'count'),
+])
+def test_property_hotfix_wording(wording,prop,unit):
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(
+        '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>' + wording + '</li></ul>')
+    assert len(changes) == 1 and changes[0].talent_name == 'Example'
+    assert changes[0].target_hint == prop and changes[0].unit == unit
+
+
+def test_property_overlay_never_changes_same_number_in_another_property():
+    html = '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>Example cooldown reduced to 15 seconds (was 20 seconds).</li></ul>'
+    changes = blizzard_hotfixes.parse_official_pvp_hotfixes(html)
+    tooltip = '20 sec cooldown\nLasts for 20 sec. Deals 20% more damage.'
+    talent = FakeTalent('Example',123,tooltip,tooltip)
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert not report['unresolved'] and len(report['applied']) == 1
+    assert talent.pvp_tooltip == '15 sec cooldown\nLasts for 20 sec. Deals 20% more damage.'
+    assert talent.pve_tooltip == tooltip
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert not report['unresolved'] and len(report['already_current']) == 1
+    talent.pvp_tooltip = 'Lasts for 20 sec.'
+    report = blizzard_hotfixes.apply_official_pvp_hotfixes(FakeCatalog([talent]),changes)
+    assert report['unresolved'][0]['reason'] == 'PROPERTY_VALUE_NOT_UNIQUE'
+
+
+def test_unknown_property_and_missing_inherited_subject_still_block():
+    for note in ('Unknown now leaps 7 times (was 4).', 'Duration increased to 10 seconds (was 6 seconds).'):
+        with pytest.raises(RuntimeError, match='Unparsed numeric PvP'):
+            blizzard_hotfixes.parse_official_pvp_hotfixes(
+                '<h3>October 6, 2026</h3><h3>Player versus Player</h3><ul><li>' + note + '</li></ul>')
+
+
 def test_new_numeric_pvp_wording_cannot_be_silently_skipped():
     html = """
     <h3>September 24, 2026</h3><h3>Player versus Player</h3>

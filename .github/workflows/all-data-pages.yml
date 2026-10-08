@@ -3,6 +3,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '37 */6 * * *'
+  pull_request:
+    paths:
+      - 'pvpcalc/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'pyproject.toml'
+      - '.github/workflows/all-data-pages.yml'
   push:
     branches: [main]
     paths:
@@ -22,7 +29,7 @@ concurrency:
   # UI-only pushes are published by publish-web.yml and no longer restart
   # the expensive 40-spec data refresh. Data/code pushes may supersede an
   # older data run, while the 6-hour schedule remains the freshness source.
-  group: all-data-pages
+  group: all-data-pages-${{ github.event.pull_request.number || 'main' }}
   # A scheduled freshness check must wait for the running browser matrix.
   # Source pushes still supersede obsolete runs.
   cancel-in-progress: ${{ github.event_name != 'schedule' }}
@@ -230,6 +237,7 @@ jobs:
           REQUIRE_CURRENT_HOTFIX_ABILITIES: '1'
         run: npm test
       - name: Commit the verified snapshot without mixing source revisions
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         env:
           SOURCE_COMMIT: ${{ github.sha }}
         run: |
@@ -288,6 +296,7 @@ jobs:
         with:
           path: web
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: aggregate
     runs-on: ubuntu-latest
     environment:
