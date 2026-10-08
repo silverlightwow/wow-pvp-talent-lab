@@ -278,6 +278,9 @@ function assertDescription(shown, original) {
       assert.ok(detail.includes('official hotfix'), 'The source-rounding correction must expose its official factor');
       assert.ok((await page.locator('#compendiumDetail a[href*="blizzard.com"]').count())>0,
        'The authoritative correction must link the Blizzard source');
+      const stale=harmony.mechanics.flatMap(m=>m.source_notes || []).find(n=>n.previous_multiplier !== undefined);
+      if (stale) assert.ok(detail.includes(`reports ×${stale.previous_multiplier}`),
+       'The source note must show the recorded prior Drustvar value');
      }
     }
 

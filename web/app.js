@@ -3914,6 +3914,7 @@
                 ${link(`https://drustvar.com/api/v1/pvp-auras/${classSlug}`, 'Drustvar aura records')}
                 ${link(`https://drustvar.com/api/v1/pvp-spells/${classSlug}`, 'Drustvar spell records')}
                 ${link('https://github.com/simulationcraft/simc/tree/midnight/SpellDataDump', 'SimulationCraft spell dumps')}
+                ${mechanic.official_hotfix_source_url ? link(mechanic.official_hotfix_source_url, 'Official Blizzard hotfix') : ''}
                 <a href="docs.html#spec-aura">How aura matching works →</a>
             </div>
             <p class="source-caveat">${officialFactor !== 1 ? 'Captured source coefficients are preserved; the official Blizzard correction is recorded separately.' : 'Coefficients come from datamined third-party sources.'} Links show the providers’ latest data; the values above belong to this site's snapshot.</p>
@@ -4156,7 +4157,7 @@
 
                 ${(mechanic.source_notes || []).map(note => `
                     <div class="path-row">
-                        Drustvar ${escapeHtml(note.source_build)} reports ×${formatNumber(note.multiplier)}.
+                        Drustvar ${escapeHtml(note.source_build)} reports ×${formatNumber(note.multiplier ?? note.previous_multiplier)}.
                         Current build ${escapeHtml(note.current_build)} uses ×${formatNumber(note.current_multiplier)},
                         confirmed by ${escapeHtml((note.resolved_by || []).map(source => ({
                             simc_generated_exact_build: 'the pinned SimC generated table',
