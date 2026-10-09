@@ -12172,7 +12172,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12996,7 +12996,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13006,7 +13006,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13199,7 +13199,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-arcane",
-  "generated_at": "2026-10-09T01:12:56.297629+00:00",
+  "generated_at": "2026-10-09T07:10:24.064758+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -13250,10 +13250,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
-    "captured_at": "2026-10-09T01:00:10.947356+00:00",
+    "snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
+    "captured_at": "2026-10-09T06:58:00.213404+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
+    "evidence_hash": "235c7b6b2cec43982bcb8f85c1985a2e60b93aad0e3a4a3155bfac859a5ab17d"
   },
   "coverage": {
     "schema": 1,

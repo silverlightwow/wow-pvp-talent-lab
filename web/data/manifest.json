@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T01:17:28.939405+00:00",
+  "generated_at": "2026-10-09T07:15:13.510913+00:00",
   "tree_build": "12.1.0.69933",
   "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
-  "hotfix_snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+  "hotfix_snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
   "hotfix_latest_date": "2026-10-06",
-  "source_snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
-  "source_captured_at": "2026-10-09T01:00:10.947356+00:00",
+  "source_snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
+  "source_captured_at": "2026-10-09T06:58:00.213404+00:00",
   "replay_verified_count": 40,
   "default_slug": "priest-discipline",
   "spec_count": 40,
@@ -217,7 +217,7 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 149,
+          "source_warning_count": 148,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -307,7 +307,7 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 169,
+          "source_warning_count": 161,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -320,7 +320,7 @@
           "talents_with_pvp_mechanics": 48,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 185,
+          "source_warning_count": 177,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -333,7 +333,7 @@
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 176,
+          "source_warning_count": 172,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -410,7 +410,7 @@
           "talents_with_pvp_mechanics": 29,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 121,
+          "source_warning_count": 123,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -468,7 +468,7 @@
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 154,
+          "source_warning_count": 153,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -487,7 +487,7 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 139,
+          "source_warning_count": 138,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true

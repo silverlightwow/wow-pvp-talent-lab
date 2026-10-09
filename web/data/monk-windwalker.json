@@ -9626,8 +9626,8 @@
           "ability_monk_summontigerstatue"
         ]
       },
-      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
-      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
+      "pve_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
+      "pvp_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12640,7 +12640,7 @@
           "talent_spell_id": 122470,
           "source_spell_id": 122470,
           "effect_index": 3,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": 50.0,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": null,
@@ -12652,9 +12652,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13086,13 +13086,8 @@
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 116645,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123904,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 121817,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13761,23 +13756,8 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 116812,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 119381,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 120227,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120227'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 122470,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122470'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13970,7 +13950,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -14800,7 +14780,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14810,7 +14790,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -14999,7 +14979,7 @@
     ]
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-09T01:13:40.546694+00:00",
+  "generated_at": "2026-10-09T07:11:03.149565+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -15014,20 +14994,15 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 176,
+    "source_warning_count": 172,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 116645,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 123904,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 121817,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -15043,6 +15018,11 @@
         "source": "wowhead",
         "spell_id": 157411,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 196740,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196740'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -15050,10 +15030,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
-    "captured_at": "2026-10-09T01:00:10.947356+00:00",
+    "snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
+    "captured_at": "2026-10-09T06:58:00.213404+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
+    "evidence_hash": "bfde96380295393a162667f8eec3654fba5db2a5d2e79b678712efd8404c651a"
   },
   "coverage": {
     "schema": 1,

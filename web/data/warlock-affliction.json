@@ -12167,7 +12167,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Agony",
@@ -13003,7 +13003,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13013,7 +13013,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13213,7 +13213,7 @@
     ]
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-10-09T01:16:07.357978+00:00",
+  "generated_at": "2026-10-09T07:13:46.487575+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13264,10 +13264,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
-    "captured_at": "2026-10-09T01:00:10.947356+00:00",
+    "snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
+    "captured_at": "2026-10-09T06:58:00.213404+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "b59cfddf92f87873c3702e217a0adafe6ec9a6c00c26582e3a5611da375b6ccb"
+    "evidence_hash": "ca77b374614f78708d8ef7579f07eeddef75964507725a7b175f3c033be9a5f7"
   },
   "coverage": {
     "schema": 1,

@@ -12150,7 +12150,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -13030,7 +13030,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13040,7 +13040,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13239,7 +13239,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "shaman-enhancement",
-  "generated_at": "2026-10-09T01:15:32.526283+00:00",
+  "generated_at": "2026-10-09T07:13:25.733751+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -13290,10 +13290,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
-    "captured_at": "2026-10-09T01:00:10.947356+00:00",
+    "snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
+    "captured_at": "2026-10-09T06:58:00.213404+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "ab338756db403eeb0a8dbaa26ae845d4a0c8773099cad29d1dcd040d9bbaf87c"
+    "evidence_hash": "02cd365c115c85af56094ec374a00c9a07621b8cd8234340da336bb9f7dbfc80"
   },
   "coverage": {
     "schema": 1,
