@@ -66,6 +66,19 @@ async function check(browser, width) {
         await waitForSpec('Priest', 'Discipline');
         await page.locator('[data-tab="compare"]').click();
         assert.ok(await page.locator('#compareBody tr').count() > 0, 'No PvE vs PvP comparison rows');
+        const filter = page.locator('#compareTreeFilter');
+        assert.equal((await filter.locator('option[value="ability"]').textContent()).trim(),
+            'Base Spells', 'Published site does not contain the Base Spells filter');
+        const baseSpellIds = await page.evaluate(() =>
+            (window.WOW_PVP_DATA?.abilities || []).filter(row => row.tooltip_changed)
+                .map(row => row.spell_id).sort((a,b)=>a-b));
+        await filter.selectOption('ability');
+        assert.deepEqual(
+            await page.locator('#compareBody tr').evaluateAll(rows =>
+                rows.map(row=>Number(row.dataset.spellId)).sort((a,b)=>a-b)),
+            baseSpellIds,
+            'Live Base Spells filter does not match the published abilities');
+        await filter.selectOption('all');
         await page.locator('[data-tab="compendium"]').click();
         assert.ok(await page.locator('#compendiumList').isVisible(), 'Mechanics panel invisible');
         await page.locator('#classSelect').selectOption('Hunter');
