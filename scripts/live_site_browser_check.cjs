@@ -25,11 +25,26 @@ async function check(browser, width) {
             errors.push(req.url() + ': ' + (req.failure()?.errorText || 'failed'));
     });
     const waitForSpec = async (cls, spec) => {
-        await page.waitForFunction(({cls,spec}) =>
-            document.querySelector('#treeTitle')?.textContent?.trim() === spec + ' ' + cls &&
-            !document.querySelector('#classSelect')?.disabled &&
-            !document.body.classList.contains('welcome-active'),
-        {cls,spec}, {timeout:20000});
+        try {
+            await page.waitForFunction(({cls,spec}) =>
+                document.querySelector('#treeTitle')?.textContent?.trim() === spec + ' ' + cls &&
+                !document.querySelector('#classSelect')?.disabled &&
+                !document.body.classList.contains('welcome-active'),
+            {cls,spec}, {timeout:45000});
+        } catch (error) {
+            const state = await page.evaluate(() => ({
+                title: document.querySelector('#treeTitle')?.textContent?.trim(),
+                classValue: document.querySelector('#classSelect')?.value,
+                specValue: document.querySelector('#specSelect')?.value,
+                classDisabled: document.querySelector('#classSelect')?.disabled,
+                specDisabled: document.querySelector('#specSelect')?.disabled,
+                statusText: document.querySelector('#treeMessage')?.textContent?.trim(),
+                currentData: window.WOW_PVP_DATA?.slug,
+                pendingScript: document.querySelector('script[data-dataset-loader]')?.src,
+                home: document.body.classList.contains('welcome-active'),
+            }));
+            throw new Error(`Timeout loading ${spec} ${cls}: ${JSON.stringify({state, browserErrors:errors})}`, {cause:error});
+        }
         assert.ok(await page.locator('.talent-node').count() > 25,
             `No talent tree nodes for ${spec} ${cls}`);
     };
@@ -72,7 +87,24 @@ async function check(browser, width) {
     const browser = await chromium.launch({headless:true});
     try {
         const rows = [];
-        for (const width of widthList) rows.push(await check(browser,width));
+        for (const width of widthList) {
+            try {
+                rows.push(await check(browser,width));
+            } catch (firstError) {
+                // A concurrent GitHub Pages deployment or transient CDN error
+                // can interrupt one browser context. Never silently green a
+                // persistent failure: run a complete second pass on a *fresh*
+                // context, and keep evidence of the initial error in logs.
+                console.warn(`First live browser attempt at ${width}px failed:`, firstError);
+                await new Promise(resolve=>setTimeout(resolve,5000));
+                try {
+                    rows.push({...await check(browser,width), recoveredAfterRetry:true});
+                } catch (secondError) {
+                    throw new AggregateError([firstError,secondError],
+                        `Live website failed twice at ${width}px`);
+                }
+            }
+        }
         console.log(JSON.stringify({url, results:rows},null,2));
     } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
