@@ -81,6 +81,25 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    assert.equal(await page.locator('.talent-node img[src$="app-icon.svg"], #talentTooltip img[src$="app-icon.svg"]').count(),0,'The site icon must never be used as a talent icon fallback');
   }
   if([1920,1440,390].includes(width))await shot(page,`lightsmith-${width}`);
+  await page.locator('[data-tab="compare"]').click();
+  const sourceRecords=await page.evaluate(()=>[
+   ...(window.WOW_PVP_DATA?.talents||[]),
+   ...(window.WOW_PVP_DATA?.abilities||[])
+  ]);
+  const filter=page.locator('#compareTreeFilter');
+  assert.equal((await filter.locator('option[value="ability"]').textContent()).trim(),'Base Spells');
+  const modified=sourceRecords.filter(r=>r.tooltip_changed);
+  assert.equal(await page.locator('#compareBody tr').count(),modified.length,
+   'All trees comparison must include every modified talent and base spell');
+  await filter.selectOption('ability');
+  const baseSpells=modified.filter(r=>r.tree_type==='ability');
+  assert.deepEqual(
+   (await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(r=>Number(r.dataset.spellId)))).sort((a,b)=>a-b),
+   baseSpells.map(r=>r.spell_id).sort((a,b)=>a-b),
+   'Base Spells filter must show only modified player base abilities'
+  );
+  await filter.selectOption('all');
+  assert.equal(await page.locator('#compareBody tr').count(),modified.length);
   await page.locator('[data-tab="compendium"]').click();
   await page.locator('.compendium-item').first().click();
   const description=page.locator(width<=700?'.mobile-compendium-inline .mechanic-description': '#compendiumDetail .mechanic-description');

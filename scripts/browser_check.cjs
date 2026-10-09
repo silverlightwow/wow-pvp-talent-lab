@@ -250,6 +250,29 @@ function assertDescription(shown, original) {
     if(spec.slug==='priest-discipline' && [1440,390].includes(width))await require('./rank_browser_check.cjs')(page,data,width<600);
     await page.locator('[data-tab="compare"]').click();
     assert.equal(await page.locator('#compareBody tr').count(),pvpRecords.filter(t=>t.tooltip_changed).length);
+
+    // A baseline player ability belongs in its own selectable filter without
+    // altering the normal class/spec/hero trees or dropping it from "All trees".
+    const baseSpells=pvpRecords.filter(t=>t.tree_type==='ability'&&t.tooltip_changed);
+    const filter=page.locator('#compareTreeFilter');
+    assert.equal(await filter.locator('option[value="ability"]').textContent().then(s=>s.trim()),'Base Spells');
+    await filter.selectOption('ability');
+    assert.equal(await page.locator('#compareBody tr').count(),baseSpells.length,
+     `${spec.slug} ${width}: incomplete Base Spells filter`);
+    const filtered=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(r=>({
+     id:Number(r.dataset.spellId), label:r.querySelector('.spell-id')?.textContent.trim()
+    })));
+    assert.deepEqual(
+     filtered.map(r=>r.id).sort((a,b)=>a-b),
+     baseSpells.map(s=>s.spell_id).sort((a,b)=>a-b),
+     `${spec.slug} ${width}: Base Spells must contain only exact modified abilities`
+    );
+    assert.ok(filtered.every(row=>row.label==='Base ability'),
+     `${spec.slug} ${width}: Base Spells includes a non-base record`);
+    await filter.selectOption('all');
+    assert.equal(await page.locator('#compareBody tr').count(),
+     pvpRecords.filter(t=>t.tooltip_changed).length);
+
     const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({
      id:Number(row.dataset.spellId),
      pve:row.querySelector('.comparison-pve').textContent.trim(),
