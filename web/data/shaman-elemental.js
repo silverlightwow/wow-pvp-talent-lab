@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -130,8 +130,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -284,8 +284,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -414,8 +414,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -543,8 +543,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -605,8 +605,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -666,8 +666,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -728,8 +728,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -790,8 +790,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -922,8 +922,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -982,8 +982,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1044,8 +1044,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1106,8 +1106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1170,8 +1170,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1232,8 +1232,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1292,8 +1292,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1410,8 +1410,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1511,8 +1511,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1592,8 +1592,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1653,8 +1653,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1714,8 +1714,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1795,8 +1795,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1857,8 +1857,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1917,8 +1917,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -1998,7 +1998,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 51485,
           "source_spell_id": 116947,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2015,9 +2015,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2037,8 +2037,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2100,8 +2100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2162,8 +2162,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2223,8 +2223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2283,8 +2283,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2345,8 +2345,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2407,8 +2407,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2486,8 +2486,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2548,8 +2548,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2610,8 +2610,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2672,8 +2672,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2734,8 +2734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2816,8 +2816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2877,8 +2877,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2938,8 +2938,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -2998,8 +2998,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3060,8 +3060,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3121,8 +3121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3182,8 +3182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3245,8 +3245,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3308,8 +3308,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3368,8 +3368,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3428,8 +3428,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3490,8 +3490,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3550,8 +3550,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3610,8 +3610,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3672,8 +3672,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3734,8 +3734,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3852,8 +3852,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3911,8 +3911,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -3971,8 +3971,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4031,8 +4031,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4154,8 +4154,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4233,7 +4233,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 117014,
           "source_spell_id": 117014,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost) (SP mod: 2.0125)",
+          "effect_text": "School Damage (2): elemental (SP mod: 2.0125)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4264,10 +4264,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4284,8 +4285,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4412,8 +4413,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4540,8 +4541,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4600,8 +4601,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4660,8 +4661,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4721,8 +4722,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4781,8 +4782,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4841,8 +4842,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4901,8 +4902,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -4961,8 +4962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5021,8 +5022,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5136,8 +5137,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5254,8 +5255,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5316,8 +5317,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5376,8 +5377,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5437,8 +5438,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5498,8 +5499,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5559,8 +5560,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5704,8 +5705,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5766,8 +5767,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5830,8 +5831,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -5961,8 +5962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6021,8 +6022,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6083,8 +6084,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6145,8 +6146,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6205,8 +6206,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6267,8 +6268,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6327,8 +6328,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6391,8 +6392,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6451,8 +6452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6581,8 +6582,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6642,8 +6643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6702,8 +6703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6765,8 +6766,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6879,8 +6880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -6941,8 +6942,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7003,8 +7004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7064,8 +7065,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7123,8 +7124,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7232,8 +7233,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7394,8 +7395,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7505,8 +7506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7563,8 +7564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7621,8 +7622,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7679,8 +7680,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7756,8 +7757,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7880,8 +7881,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -7936,8 +7937,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8011,8 +8012,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8067,8 +8068,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8128,8 +8129,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8188,8 +8189,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8248,8 +8249,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8308,8 +8309,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8368,8 +8369,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8502,8 +8503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8562,8 +8563,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8622,8 +8623,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8725,8 +8726,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8785,8 +8786,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8845,8 +8846,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8905,8 +8906,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -8965,8 +8966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9097,8 +9098,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9157,8 +9158,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9217,8 +9218,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9278,8 +9279,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9339,8 +9340,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9399,8 +9400,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9459,8 +9460,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9519,8 +9520,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9579,8 +9580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9639,8 +9640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9699,8 +9700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9759,8 +9760,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9867,8 +9868,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9927,8 +9928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -9987,8 +9988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -10047,8 +10048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -10107,8 +10108,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -10167,8 +10168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -10227,8 +10228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -10287,8 +10288,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Shaman",
         "class_id": 7,
         "spec_name": "Elemental",
@@ -11500,8 +11501,8 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 117013,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117013'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 117014,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12097,11 +12098,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1279819,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1279819'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 116947,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116947'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13252,7 +13248,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-10-08T21:08:39.985743+00:00",
+  "generated_at": "2026-10-09T01:15:40.806692+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -13267,15 +13263,15 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 140,
+    "source_warning_count": 139,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 117013,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117013'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 117014,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -13303,10 +13299,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
-    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
+    "captured_at": "2026-10-09T01:00:10.947356+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "8274083a742f1bc85e752e6516681abdb231d3da14035fe444a99b34e7186097"
+    "evidence_hash": "ab338756db403eeb0a8dbaa26ae845d4a0c8773099cad29d1dcd040d9bbaf87c"
   },
   "coverage": {
     "schema": 1,
@@ -14893,6 +14889,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          127924,
+          117014,
+          117014,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6335999999999999,
+          "final_pvp_multiplier": 0.6335999999999999,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 2.0125,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           127925,
           61882,
           77478,
@@ -14975,6 +14992,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "bcc3d4f32205cff2a99fd69b78c0efe187a46213106daa334de93ded886552a2"
+    "independent_hash": "c7edc4653b04b8e8709ab898fba269830c34650704ce0a0dc437d588bdc728b5"
   }
 };

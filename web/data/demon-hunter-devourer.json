@@ -18,8 +18,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -135,8 +135,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -172,21 +172,31 @@
           "inv_12_voiddh_ability_voidblade"
         ]
       },
-      "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (225% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (225% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (247.5% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
+      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (331.0313% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 102,
+          "end": 107,
+          "old_token": "247.5",
+          "new_token": "331.0313",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 247.5,
-          "new": 331.03125000000006,
-          "full_tooltip_match_count": 0
+          "old": "247.5",
+          "new": "331.0313"
         }
       ],
       "has_pvp_mechanics": true,
@@ -252,8 +262,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -311,8 +321,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -429,8 +439,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -491,8 +501,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -553,8 +563,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -613,8 +623,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -675,8 +685,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -737,8 +747,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -799,8 +809,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -860,8 +870,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -923,8 +933,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -986,8 +996,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1047,8 +1057,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1160,8 +1170,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1280,8 +1290,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1342,8 +1352,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1402,8 +1412,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1465,8 +1475,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1523,8 +1533,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1586,8 +1596,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1646,8 +1656,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1707,8 +1717,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -1942,8 +1952,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2002,8 +2012,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2083,8 +2093,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2143,8 +2153,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2203,8 +2213,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2264,8 +2274,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2430,8 +2440,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2493,8 +2503,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2650,8 +2660,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2710,8 +2720,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2772,8 +2782,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2834,8 +2844,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2894,8 +2904,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -2973,8 +2983,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3031,8 +3041,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3150,8 +3160,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3266,8 +3276,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3345,8 +3355,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3403,8 +3413,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3461,8 +3471,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3519,8 +3529,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3577,8 +3587,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3704,8 +3714,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3765,8 +3775,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3826,8 +3836,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3886,8 +3896,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -3946,8 +3956,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4007,8 +4017,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4067,8 +4077,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4128,8 +4138,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4189,8 +4199,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4228,21 +4238,50 @@
           "inv_12_dh_void_ability_collapsingstar"
         ]
       },
-      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
-      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1275.5% of Spell Power) Cosmic damage to your target and [(1275.5% of Spell Power) * 0.5] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1011.3057% of Spell Power) Cosmic damage to your target and [(1011.3057% of Spell Power) * 0.5] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 197,
+          "end": 203,
+          "old_token": "1275.5",
+          "new_token": "1011.3057",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 256,
+          "end": 262,
+          "old_token": "1275.5",
+          "new_token": "1011.3057",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 1275.5,
-          "new": 1011.305685,
-          "full_tooltip_match_count": 0
+          "old": "1275.5",
+          "new": "1011.3057"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1275.5",
+          "new": "1011.3057"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4310,8 +4349,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4371,8 +4410,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4432,8 +4471,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4495,8 +4534,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4558,8 +4597,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4619,8 +4658,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4679,8 +4718,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4759,8 +4798,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4820,8 +4859,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4881,8 +4920,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -4942,8 +4981,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5022,8 +5061,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5082,8 +5121,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5216,8 +5255,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5298,8 +5337,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5415,8 +5454,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5475,8 +5514,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5535,8 +5574,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5616,8 +5655,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5697,8 +5736,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5757,8 +5796,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5817,8 +5856,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5878,8 +5917,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -5994,8 +6033,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6113,8 +6152,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6171,8 +6210,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6232,8 +6271,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6268,22 +6307,23 @@
           "inv_12_voiddh_ability_thehunt"
         ]
       },
-      "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (600% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
-      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (600% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [
+      "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (660% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (543.774% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
+          "start": 82,
+          "end": 85,
+          "old_token": "660",
+          "new_token": "543.774",
+          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 660.0,
-          "new": 543.774,
-          "full_tooltip_match_count": 0
-        },
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             1
@@ -6293,6 +6333,15 @@
           "old": 744.24,
           "new": 632.604,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "660",
+          "new": "543.774"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6443,8 +6492,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6501,8 +6550,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6559,8 +6608,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6595,22 +6644,33 @@
           "inv_12_dh_void_ability_eradicate"
         ]
       },
-      "pve_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
-      "pvp_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [
+      "pve_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (601.56% of Spell Power) Cosmic damage to your primary target and [(601.56% of Spell Power) * 0.83] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
+      "pvp_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (338.57% of Spell Power) Cosmic damage to your primary target and [(338.57% of Spell Power) * 0.83] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
+          "start": 110,
+          "end": 116,
+          "old_token": "601.56",
+          "new_token": "338.57",
+          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 601.5600000000001,
-          "new": 338.5699992000001,
-          "full_tooltip_match_count": 0
+          ]
         },
+        {
+          "start": 177,
+          "end": 183,
+          "old_token": "601.56",
+          "new_token": "338.57",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             1
@@ -6620,6 +6680,24 @@
           "old": 773.6,
           "new": 435.3975520000001,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "601.56",
+          "new": "338.57"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "601.56",
+          "new": "338.57"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6775,8 +6853,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6831,8 +6909,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6906,8 +6984,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -6962,8 +7040,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7127,8 +7205,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7281,8 +7359,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7341,8 +7419,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7504,8 +7582,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7564,8 +7642,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7624,8 +7702,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7684,8 +7762,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7744,8 +7822,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7804,8 +7882,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7864,8 +7942,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7924,8 +8002,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -7984,8 +8062,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8044,8 +8122,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8136,8 +8214,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8196,8 +8274,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8256,8 +8334,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8404,8 +8482,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8531,8 +8609,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8591,8 +8669,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8651,8 +8729,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8711,8 +8789,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8771,8 +8849,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8831,8 +8909,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8891,8 +8969,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -8951,8 +9029,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9011,8 +9089,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9071,8 +9149,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9131,8 +9209,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9251,8 +9329,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9311,8 +9389,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9438,8 +9516,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9498,8 +9576,8 @@
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Devourer",
@@ -9573,22 +9651,23 @@
           "inv_12_dh_void_ability_consume"
         ]
       },
-      "pve_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (340% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
-      "pvp_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (340% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [
+      "pve_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (367% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "pvp_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (526.2046% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
+          "start": 68,
+          "end": 71,
+          "old_token": "367",
+          "new_token": "526.2046",
+          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 367.0,
-          "new": 526.2046,
-          "full_tooltip_match_count": 0
-        },
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             1
@@ -9598,6 +9677,15 @@
           "old": 1.0,
           "new": 0.5,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "367",
+          "new": "526.2046"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9708,22 +9796,23 @@
           "inv_12_dh_void_ability_reap"
         ]
       },
-      "pve_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (557% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
-      "pvp_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (557% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [
+      "pve_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (601.56% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "pvp_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (338.57% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
+          "start": 156,
+          "end": 162,
+          "old_token": "601.56",
+          "new_token": "338.57",
+          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 601.5600000000001,
-          "new": 338.5699992000001,
-          "full_tooltip_match_count": 0
-        },
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             1
@@ -9743,6 +9832,15 @@
           "old": 773.6,
           "new": 435.3975520000001,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "601.56",
+          "new": "338.57"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12196,12 +12294,12 @@
     ]
   },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-10-08T21:03:06.605474+00:00",
+  "generated_at": "2026-10-09T01:10:00.718363+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
     "talents": 121,
-    "changed_tooltips": 19,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 26,
     "unique_nodes": 108,
     "tree_build": "12.1.0.69933",
@@ -12247,10 +12345,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
-    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
+    "captured_at": "2026-10-09T01:00:10.947356+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "4ef78bf973d3094f0604f50e45c91e165cc3855d72f15b85dfbb7c75df673c43"
+    "evidence_hash": "09e6c5afb91d8bdfb741295cee5b2430f40659ed58ba9c302d1032c60d927cf5"
   },
   "coverage": {
     "schema": 1,

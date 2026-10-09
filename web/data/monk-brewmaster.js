@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -77,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -136,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -195,8 +195,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -256,8 +256,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -319,8 +319,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -440,8 +440,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -503,8 +503,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -564,8 +564,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -627,8 +627,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -687,8 +687,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -750,8 +750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -810,8 +810,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -873,8 +873,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -935,8 +935,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -995,8 +995,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1058,8 +1058,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1118,8 +1118,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1182,8 +1182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1242,8 +1242,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1323,8 +1323,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1453,8 +1453,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1584,8 +1584,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1648,8 +1648,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1708,8 +1708,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1771,8 +1771,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1834,8 +1834,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1894,8 +1894,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1956,8 +1956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2018,8 +2018,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2098,8 +2098,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2160,8 +2160,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2222,8 +2222,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2341,8 +2341,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2402,8 +2402,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2464,8 +2464,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2527,8 +2527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2643,8 +2643,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2703,8 +2703,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2803,8 +2803,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2865,8 +2865,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2926,8 +2926,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2987,8 +2987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3102,8 +3102,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3164,8 +3164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3226,8 +3226,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3288,8 +3288,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3350,8 +3350,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3408,8 +3408,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3469,8 +3469,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3551,8 +3551,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3612,8 +3612,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3674,8 +3674,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3735,8 +3735,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3816,8 +3816,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3927,8 +3927,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3986,8 +3986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4046,8 +4046,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4106,8 +4106,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4165,8 +4165,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4223,8 +4223,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4320,7 +4320,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 121253,
           "source_spell_id": 121253,
           "effect_index": 2,
-          "effect_text": "School Damage (Physical) (AP mod: 1.9 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.9)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4342,10 +4342,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4362,8 +4363,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4424,8 +4425,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4486,8 +4487,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4546,8 +4547,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4607,8 +4608,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4646,8 +4647,8 @@ window.WOW_PVP_DATA = {
           "achievement_faction_brewmaster"
         ]
       },
-      "pve_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
-      "pvp_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
+      "pve_tooltip": "100 yd range\nPurify 8% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
+      "pvp_tooltip": "100 yd range\nPurify 8% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4668,8 +4669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4729,8 +4730,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4790,8 +4791,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4850,8 +4851,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4913,8 +4914,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5081,8 +5082,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5212,8 +5213,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5275,8 +5276,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5335,8 +5336,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5397,8 +5398,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5459,8 +5460,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5520,8 +5521,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5649,8 +5650,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5710,8 +5711,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5771,8 +5772,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5833,8 +5834,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5893,8 +5894,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6064,8 +6065,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6129,8 +6130,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6193,8 +6194,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6257,8 +6258,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6297,8 +6298,8 @@ window.WOW_PVP_DATA = {
           "inv_misc_archaeology_vrykuldrinkinghorn"
         ]
       },
-      "pve_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
-      "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
+      "pve_tooltip": "Drinking a Brew grants you 10% dodge for 8 sec.",
+      "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6319,8 +6320,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6381,8 +6382,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6443,8 +6444,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6505,8 +6506,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6567,8 +6568,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6629,8 +6630,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6799,8 +6800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6861,8 +6862,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6923,8 +6924,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6985,8 +6986,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7103,8 +7104,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7163,8 +7164,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7245,8 +7246,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7376,8 +7377,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7440,8 +7441,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7522,8 +7523,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7690,8 +7691,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7879,8 +7880,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7941,8 +7942,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8003,8 +8004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8065,8 +8066,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8128,8 +8129,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8186,8 +8187,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8311,8 +8312,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8436,8 +8437,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8496,8 +8497,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8554,8 +8555,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8612,8 +8613,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8668,8 +8669,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8743,8 +8744,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8799,8 +8800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8927,8 +8928,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8987,8 +8988,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9047,8 +9048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9107,8 +9108,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9167,8 +9168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9294,8 +9295,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9354,8 +9355,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9414,8 +9415,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9474,8 +9475,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9534,8 +9535,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9594,8 +9595,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9654,8 +9655,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9714,8 +9715,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9774,8 +9775,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9834,8 +9835,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9894,8 +9895,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9955,8 +9956,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10059,8 +10060,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10172,8 +10173,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10232,8 +10233,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10292,8 +10293,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10352,8 +10353,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10799,8 +10800,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10859,8 +10860,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10919,8 +10920,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10979,8 +10980,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11039,8 +11040,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11099,8 +11100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11159,8 +11160,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11219,8 +11220,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11279,8 +11280,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11339,8 +11340,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11399,8 +11400,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11459,8 +11460,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11788,7 +11789,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 117952,
           "source_spell_id": 117952,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 1 seconds (AP mod: 0.056)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11810,11 +11811,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -12246,13 +12246,23 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 116847,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116847'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 119582,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119582'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 121253,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121253'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
       "spell_id": 123986,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123986'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 124502,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124502'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12921,8 +12931,23 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 117952,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117952'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116812,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 117906,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117906'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 119381,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 120225,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120225'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14089,7 +14114,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "monk-brewmaster",
-  "generated_at": "2026-10-08T21:06:30.750113+00:00",
+  "generated_at": "2026-10-09T01:13:21.668915+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -14104,15 +14129,20 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 164,
+    "source_warning_count": 169,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 116847,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116847'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 119582,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119582'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 121253,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121253'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -14121,18 +14151,13 @@ window.WOW_PVP_DATA = {
       },
       {
         "source": "wowhead",
+        "spell_id": 124502,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124502'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
         "spell_id": 132578,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132578'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 157411,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196730,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196730'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -14140,10 +14165,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
-    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
+    "captured_at": "2026-10-09T01:00:10.947356+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "14c4b572662e44b1ccb8be8e7edea98655c5b98c7ba52320f8775b088bde3993"
+    "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
   },
   "coverage": {
     "schema": 1,
@@ -15015,27 +15040,6 @@ window.WOW_PVP_DATA = {
       },
       {
         "key": [
-          "abilities",
-          117952,
-          117952,
-          117952,
-          1
-        ],
-        "amount_kind": "periodic",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.056,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
           "talents",
           124843,
           115181,
@@ -15135,6 +15139,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.9,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          124865,
+          121253,
+          121253,
+          2
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 1.9,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15728,6 +15753,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "3560c2afbbc31744e204ac1d0ffb424f6cabab0c7608d120223a43d79aaa2c7e"
+    "independent_hash": "c5e699f7db8d092fffc2d00ea5bb5a0394623c31220cd37d0fed546a112b63e6"
   }
 };

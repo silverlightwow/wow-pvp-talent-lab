@@ -18,8 +18,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -77,8 +77,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -136,8 +136,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -265,8 +265,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -346,7 +346,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 132157,
           "source_spell_id": 132157,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 0.4095)",
+          "effect_text": "School Damage (2): holy (SP mod: 0.4095)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -368,10 +368,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -388,8 +389,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -451,8 +452,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -513,8 +514,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -575,8 +576,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -633,8 +634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -696,8 +697,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -756,8 +757,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -851,8 +852,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -913,8 +914,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -973,8 +974,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1033,8 +1034,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1094,8 +1095,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1154,8 +1155,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1217,8 +1218,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1277,8 +1278,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1392,8 +1393,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1455,8 +1456,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1519,8 +1520,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1579,8 +1580,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1639,8 +1640,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1699,8 +1700,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1760,8 +1761,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1935,8 +1936,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -1998,8 +1999,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2060,8 +2061,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2120,8 +2121,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2181,8 +2182,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2242,8 +2243,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2305,8 +2306,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2514,8 +2515,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2576,8 +2577,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2638,8 +2639,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2719,8 +2720,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2779,8 +2780,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2842,8 +2843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2903,8 +2904,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -2965,8 +2966,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3027,8 +3028,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3087,8 +3088,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3167,8 +3168,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3227,8 +3228,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3308,8 +3309,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3464,8 +3465,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3526,8 +3527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3585,8 +3586,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3644,8 +3645,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3703,8 +3704,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3762,8 +3763,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3821,8 +3822,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -3986,8 +3987,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4099,8 +4100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4159,8 +4160,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4219,8 +4220,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4279,8 +4280,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4339,8 +4340,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4399,8 +4400,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4527,8 +4528,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4654,8 +4655,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4717,8 +4718,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4777,8 +4778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4839,8 +4840,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4901,8 +4902,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -4961,8 +4962,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5096,8 +5097,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5156,8 +5157,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5218,8 +5219,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5279,8 +5280,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5339,8 +5340,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5402,8 +5403,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5464,8 +5465,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5590,8 +5591,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5721,8 +5722,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5781,8 +5782,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5842,8 +5843,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5902,8 +5903,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -5984,8 +5985,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6047,8 +6048,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6110,8 +6111,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6171,8 +6172,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6253,8 +6254,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6315,8 +6316,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6378,8 +6379,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6441,8 +6442,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6501,8 +6502,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6565,8 +6566,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6627,8 +6628,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6749,8 +6750,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6830,8 +6831,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6890,8 +6891,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -6972,8 +6973,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7032,8 +7033,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7113,8 +7114,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7235,8 +7236,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7294,8 +7295,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7487,8 +7488,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7633,8 +7634,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7862,8 +7863,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -7918,8 +7919,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8082,8 +8083,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8138,8 +8139,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8317,7 +8318,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120644,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
+          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8357,11 +8358,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8378,8 +8378,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8438,8 +8438,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8498,8 +8498,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8661,8 +8661,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8764,8 +8764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8824,8 +8824,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8884,8 +8884,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -8944,8 +8944,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9004,8 +9004,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9064,8 +9064,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9124,8 +9124,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9184,8 +9184,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9244,8 +9244,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9304,8 +9304,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9364,8 +9364,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9467,8 +9467,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9527,8 +9527,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9588,8 +9588,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9778,8 +9778,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9891,8 +9891,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -9951,8 +9951,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10087,8 +10087,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10190,8 +10190,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10293,8 +10293,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10353,8 +10353,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10413,8 +10413,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10473,8 +10473,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10581,8 +10581,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10641,8 +10641,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10764,8 +10764,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10867,8 +10867,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -10980,8 +10980,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -11040,8 +11040,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -11100,8 +11100,8 @@ window.WOW_PVP_DATA = {
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-03T00:26:48.710Z",
-        "content_hash": "1aad962b4cd1125e6d9868008ace13df",
+        "generated_at": "2026-10-08T20:33:15.854Z",
+        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Shadow",
@@ -12020,8 +12020,18 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 120644,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120644'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 121536,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 132157,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12612,11 +12622,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 120692,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 120696,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13757,7 +13762,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "priest-shadow",
-  "generated_at": "2026-10-08T21:08:01.775579+00:00",
+  "generated_at": "2026-10-09T01:14:56.154417+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -13772,15 +13777,25 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 140,
+    "source_warning_count": 141,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
+        "spell_id": 120644,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120644'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
         "spell_id": 121536,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 132157,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -13791,16 +13806,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 193063,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193063'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196704,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196704'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 199484,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199484'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -13808,10 +13813,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "2cc1e1ce1cdfb0abf13a2e4a6513dc9f211f345cabb61b2b715df906660613c8",
-    "captured_at": "2026-10-08T20:53:16.084117+00:00",
+    "snapshot_hash": "3417a7282578565e4a21ecd07f372d3d59de24aaf45a84d882950fac38ed3d60",
+    "captured_at": "2026-10-09T01:00:10.947356+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "748e55903579823f0a478ad5dc889abb98f6f56e8beb89b31d82850e49144e87"
+    "evidence_hash": "a8df5ab8f2d5de64a09cd37b1938ba1e9be609c3e7fea6ba390b71012da48418"
   },
   "coverage": {
     "schema": 1,
@@ -15314,6 +15319,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          103870,
+          132157,
+          132157,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 0.4095,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           115448,
           1227280,
           1227621,
@@ -15537,27 +15563,6 @@ window.WOW_PVP_DATA = {
           "final_pvp_multiplier": 1.25,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.61,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
-          117300,
-          120644,
-          120696,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.1749999999999998,
-          "final_pvp_multiplier": 1.1749999999999998,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 1.442,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -15858,6 +15863,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "810938b36235e4b0e1f38ba55f3703ae556c260bbed04bd468dd715d183b3504"
+    "independent_hash": "d85adff4a190f79cc0a8f25d486c2f6ed711065a81fa0ca6704de02bd776892b"
   }
 };
