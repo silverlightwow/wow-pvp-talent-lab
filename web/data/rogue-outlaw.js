@@ -3903,7 +3903,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 279876,
           "source_spell_id": 185763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.834)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.834 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -3932,9 +3932,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3951,7 +3951,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 279876,
           "source_spell_id": 185763,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -3970,9 +3970,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5474,7 +5474,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 381845,
           "source_spell_id": 185763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.834)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.834 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -5505,9 +5505,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5524,7 +5524,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 381845,
           "source_spell_id": 185763,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -5545,9 +5545,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10431,7 +10431,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 8676,
           "source_spell_id": 185763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.834)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.834 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -10462,9 +10462,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10481,7 +10481,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 8676,
           "source_spell_id": 185763,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -10502,9 +10502,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11048,7 +11048,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 185763,
           "source_spell_id": 185763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.834)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.834 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -11070,9 +11070,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11098,7 +11098,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 185763,
           "source_spell_id": 185763,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -11110,9 +11110,9 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11226,7 +11226,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 193315,
           "source_spell_id": 185763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.834)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.834 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -11257,9 +11257,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11276,7 +11276,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 193315,
           "source_spell_id": 185763,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -11297,9 +11297,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12479,11 +12479,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 185763,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185763'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 193315,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193315'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12583,7 +12578,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [
       {
@@ -13498,7 +13493,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13508,7 +13503,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13723,7 +13718,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-10-09T07:12:45.148516+00:00",
+  "generated_at": "2026-10-09T08:56:09.814259+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -13738,7 +13733,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 136,
+    "source_warning_count": 135,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -13774,10 +13769,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "bf19f5b6c854067e79f734ea19369cbd2fd5a4780833ec5fa68086c8b97edfc0",
-    "captured_at": "2026-10-09T06:58:00.213404+00:00",
+    "snapshot_hash": "c8f2cd67556991e30847f95c93c9c73bcaf6c626b1f19bd53db4acdc9d897456",
+    "captured_at": "2026-10-09T08:41:56.830241+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "2372485526964661b707d4f213917e85f1a957d616c0a373d0aab35ba77d21e8"
+    "evidence_hash": "b89f8063d910accabdcccb4442c898c367a2b6d4f881391d312637efe33442c3"
   },
   "coverage": {
     "schema": 1,
