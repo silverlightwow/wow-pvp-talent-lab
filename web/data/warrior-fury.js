@@ -12546,7 +12546,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
+    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
     "baseline_spell_ids": [
       100,
       355,
@@ -12584,7 +12584,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-10-09T19:12:06.509808+00:00",
+  "generated_at": "2026-10-10T01:15:54.044918+00:00",
   "validation": {
     "abilities": 2,
     "abilities_with_pvp_mechanics": 2,
@@ -12635,8 +12635,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "f4b72677ec43096c55d62a949be3b646f6b61000648a29114d5daf6a1d5f40d1",
-    "captured_at": "2026-10-09T18:54:28.335933+00:00",
+    "snapshot_hash": "b375902497ebc0704a1234e6b0ff4b6a73d4715611178b475ecc6f74e95ed777",
+    "captured_at": "2026-10-10T00:59:12.806640+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "deab0864f04d52919b73fe853d5fadd1bc48975a4c8d910d24b21bc7043ae874"
   },

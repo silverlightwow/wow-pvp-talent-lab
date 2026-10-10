@@ -7757,7 +7757,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1249658,
           "source_spell_id": 155166,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost) (AP mod: 1.1183 )",
+          "effect_text": "School Damage (2): frost (AP mod: 1.1183)",
           "base_value": null,
           "spell_pvp_multiplier": 0.833,
           "amount_kind": "direct",
@@ -7784,9 +7784,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13141,6 +13141,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 155166,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155166'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 178819,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=178819'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14355,7 +14360,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "eed909156d8eccbfca0f284cc271c080949d6a20",
+    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
     "baseline_spell_ids": [
       674,
       3714,
@@ -14401,7 +14406,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "death-knight-frost",
-  "generated_at": "2026-10-09T19:05:29.280367+00:00",
+  "generated_at": "2026-10-10T01:09:33.352952+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -14416,7 +14421,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 152,
+    "source_warning_count": 153,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -14452,8 +14457,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "f4b72677ec43096c55d62a949be3b646f6b61000648a29114d5daf6a1d5f40d1",
-    "captured_at": "2026-10-09T18:54:28.335933+00:00",
+    "snapshot_hash": "b375902497ebc0704a1234e6b0ff4b6a73d4715611178b475ecc6f74e95ed777",
+    "captured_at": "2026-10-10T00:59:12.806640+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "4a7b88f69e15d7a5e13d56208cd750bc321795ca4bf0bcfe087a3cd38c616b15"
   },
