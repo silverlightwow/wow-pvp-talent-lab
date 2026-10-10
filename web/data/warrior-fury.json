@@ -3598,7 +3598,7 @@
           "talent_spell_id": 23881,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -3615,9 +3615,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3830,7 +3830,7 @@
           "talent_spell_id": 383848,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -3853,9 +3853,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3915,20 +3915,30 @@
         ]
       },
       "pve_tooltip": "Enrage increases your mastery by 15% and your Leech by 3%.",
-      "pvp_tooltip": "Enrage increases your mastery by 15% and your Leech by 3%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Enrage increases your mastery by 15% and your Leech by 2%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 55,
+          "end": 56,
+          "old_token": "3",
+          "new_token": "2",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "OTHER_SPEC_BRANCH",
+          "status": "APPLIED",
           "kind": "percent_value",
-          "old": 3.0,
-          "new": 2.000001,
-          "full_tooltip_match_count": 1
+          "old": "3",
+          "new": "2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3945,7 +3955,7 @@
           "talent_spell_id": 440277,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -3968,9 +3978,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6934,7 +6944,7 @@
           "talent_spell_id": 396749,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -6955,9 +6965,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10551,20 +10561,30 @@
         ]
       },
       "pve_tooltip": "Becoming Enraged increases your damage done by 11% [Frenzied Enrage: Haste by 15%, and movement speed by 10% for 4 sec] [Powerful Enrage: Mastery by 15% and Leech by 3% for 4 sec / for 4 sec.]\nBloodthirst has a 30% chance to Enrage you.\nRampage always Enrages you.",
-      "pvp_tooltip": "Becoming Enraged increases your damage done by 11% [Frenzied Enrage: Haste by 15%, and movement speed by 10% for 4 sec] [Powerful Enrage: Mastery by 15% and Leech by 3% for 4 sec / for 4 sec.]\nBloodthirst has a 30% chance to Enrage you.\nRampage always Enrages you.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Becoming Enraged increases your damage done by 11% [Frenzied Enrage: Haste by 15%, and movement speed by 10% for 4 sec] [Powerful Enrage: Mastery by 15% and Leech by 2% for 4 sec / for 4 sec.]\nBloodthirst has a 30% chance to Enrage you.\nRampage always Enrages you.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 166,
+          "end": 167,
+          "old_token": "3",
+          "new_token": "2",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "OTHER_SPEC_BRANCH",
+          "status": "APPLIED",
           "kind": "percent_value",
-          "old": 3.0,
-          "new": 2.000001,
-          "full_tooltip_match_count": 1
+          "old": "3",
+          "new": "2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10581,7 +10601,7 @@
           "talent_spell_id": 184361,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -10600,9 +10620,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11413,11 +11433,6 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 117313,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117313'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 163558,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=163558'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11572,7 +11587,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12397,7 +12412,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -12407,7 +12422,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12584,12 +12599,12 @@
     ]
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-10-10T01:15:54.044918+00:00",
+  "generated_at": "2026-10-10T07:11:58.071402+00:00",
   "validation": {
     "abilities": 2,
     "abilities_with_pvp_mechanics": 2,
     "talents": 122,
-    "changed_tooltips": 25,
+    "changed_tooltips": 26,
     "talents_with_pvp_mechanics": 32,
     "unique_nodes": 106,
     "tree_build": "12.1.0.69933",
@@ -12599,7 +12614,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 135,
+    "source_warning_count": 134,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -12635,10 +12650,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "b375902497ebc0704a1234e6b0ff4b6a73d4715611178b475ecc6f74e95ed777",
-    "captured_at": "2026-10-10T00:59:12.806640+00:00",
+    "snapshot_hash": "b0633349661b1751a35543183f2feeb0e18307c542597fd1db2cbc321ba6d8bb",
+    "captured_at": "2026-10-10T06:55:13.844819+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "deab0864f04d52919b73fe853d5fadd1bc48975a4c8d910d24b21bc7043ae874"
+    "evidence_hash": "4462f3df2190da186091f731eba7882491c1745c5900fca7128965cc4ab84c4c"
   },
   "coverage": {
     "schema": 1,
