@@ -15238,7 +15238,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
+    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
     "baseline_spell_ids": [
       66,
       116,
@@ -15283,7 +15283,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-10T07:08:40.362660+00:00",
+  "generated_at": "2026-10-11T01:12:10.366256+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -15334,8 +15334,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "b0633349661b1751a35543183f2feeb0e18307c542597fd1db2cbc321ba6d8bb",
-    "captured_at": "2026-10-10T06:55:13.844819+00:00",
+    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
+    "captured_at": "2026-10-11T00:58:24.791604+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
   },

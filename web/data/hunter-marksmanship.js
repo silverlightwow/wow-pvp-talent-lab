@@ -1684,7 +1684,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 187698,
           "source_spell_id": 135299,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1701,9 +1701,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10797,6 +10797,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 147362,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=147362'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 187698,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=187698'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11394,6 +11399,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1301406,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1301406'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 135299,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=135299'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12536,7 +12546,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
+    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
     "baseline_spell_ids": [
       136,
       781,
@@ -12583,7 +12593,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-10-10T07:07:44.418733+00:00",
+  "generated_at": "2026-10-11T01:11:33.196885+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -12598,11 +12608,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 152,
+    "source_warning_count": 154,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 147362,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=147362'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 187698,
@@ -12622,11 +12637,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 199921,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199921'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 204089,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204089'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -12634,8 +12644,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "b0633349661b1751a35543183f2feeb0e18307c542597fd1db2cbc321ba6d8bb",
-    "captured_at": "2026-10-10T06:55:13.844819+00:00",
+    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
+    "captured_at": "2026-10-11T00:58:24.791604+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "90a81efa8c05902a4b50b309d6b698a0481f193542c353c79142eafa66277cca"
   },

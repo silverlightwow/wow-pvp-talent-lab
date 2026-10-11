@@ -4396,7 +4396,7 @@
           "talent_spell_id": 113656,
           "source_spell_id": 117418,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.6082 )",
+          "effect_text": "School Damage (2): physical | Attributes: Area Effects Use Target Radius (17) (AP mod: 2.6082)",
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
@@ -4423,9 +4423,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12441,7 +12441,7 @@
           "talent_spell_id": 116670,
           "source_spell_id": 116670,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.58)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.58)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -12463,10 +12463,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -12640,7 +12641,7 @@
           "talent_spell_id": 122470,
           "source_spell_id": 122470,
           "effect_index": 3,
-          "effect_text": "Dummy",
+          "effect_text": "Dummy (3)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": null,
@@ -12652,9 +12653,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13086,8 +13087,23 @@
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 115175,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 115396,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115396'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 116645,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 116841,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13103,6 +13119,11 @@
       "source": "wowhead",
       "spell_id": 137384,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137384'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 152175,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13761,13 +13782,33 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 115636,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115636'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 116670,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116670'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 116812,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
+      "spell_id": 117418,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117418'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 119381,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 122470,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122470'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14932,7 +14973,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
+    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
     "baseline_spell_ids": [
       8647,
       100780,
@@ -14984,7 +15025,7 @@
     ]
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-10T07:09:03.925693+00:00",
+  "generated_at": "2026-10-11T01:12:27.948584+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -14999,11 +15040,21 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 173,
+    "source_warning_count": 181,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 115175,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 115396,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115396'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 116645,
@@ -15011,23 +15062,13 @@
       },
       {
         "source": "wowhead",
+        "spell_id": 116841,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
         "spell_id": 121817,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 123904,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 137384,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137384'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 157411,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -15035,8 +15076,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "b0633349661b1751a35543183f2feeb0e18307c542597fd1db2cbc321ba6d8bb",
-    "captured_at": "2026-10-10T06:55:13.844819+00:00",
+    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
+    "captured_at": "2026-10-11T00:58:24.791604+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
   },
@@ -16268,6 +16309,27 @@
       {
         "key": [
           "abilities",
+          116670,
+          116670,
+          116670,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 2.58,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
           122470,
           122470,
           122470,
@@ -17274,6 +17336,6 @@
         }
       }
     ],
-    "independent_hash": "58f21b9bd972e3e1e770ac468a285c15e9e36850da75829c81f91f5f6b0c089e"
+    "independent_hash": "7a8aa3deb7dd72846c33674c21e36fb859b7b1a82f19e33c419d17eeef8c10fe"
   }
 }

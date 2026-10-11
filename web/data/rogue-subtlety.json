@@ -4044,7 +4044,7 @@
           "talent_spell_id": 121471,
           "source_spell_id": 121471,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -4056,9 +4056,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11977,6 +11977,11 @@
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 121471,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 185314,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185314'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13732,7 +13737,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "71a76b73cc4a69189e1f92d72ca5622206f3975d",
+    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
     "baseline_spell_ids": [
       53,
       408,
@@ -13794,7 +13799,7 @@
     ]
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-10-10T07:10:40.889853+00:00",
+  "generated_at": "2026-10-11T01:13:57.746150+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -13809,11 +13814,16 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 153,
+    "source_warning_count": 154,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 121471,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 185314,
@@ -13833,11 +13843,6 @@
         "source": "wowhead",
         "spell_id": 193539,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193539'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 193546,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193546'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -13845,8 +13850,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "b0633349661b1751a35543183f2feeb0e18307c542597fd1db2cbc321ba6d8bb",
-    "captured_at": "2026-10-10T06:55:13.844819+00:00",
+    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
+    "captured_at": "2026-10-11T00:58:24.791604+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "b89f8063d910accabdcccb4442c898c367a2b6d4f881391d312637efe33442c3"
   },
