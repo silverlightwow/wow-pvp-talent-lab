@@ -4396,7 +4396,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 113656,
           "source_spell_id": 117418,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical | Attributes: Area Effects Use Target Radius (17) (AP mod: 2.6082)",
+          "effect_text": "School Damage (Physical) (AP mod: 2.6082 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
@@ -4423,9 +4423,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13087,28 +13087,13 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 115175,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 115396,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115396'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 116645,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 115078,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115078'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
       "spell_id": 116841,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 121817,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13782,38 +13767,13 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 115636,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115636'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 116670,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116670'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 116812,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 117418,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117418'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 119381,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 122470,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122470'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 124146,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124146'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13996,7 +13956,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -14826,7 +14786,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14836,7 +14796,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15025,7 +14985,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-11T01:12:27.948584+00:00",
+  "generated_at": "2026-10-11T13:08:37.728254+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -15040,25 +15000,15 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 181,
+    "source_warning_count": 173,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 115175,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 115396,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115396'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 116645,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 115078,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115078'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -15067,8 +15017,18 @@ window.WOW_PVP_DATA = {
       },
       {
         "source": "wowhead",
-        "spell_id": 121817,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 123904,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 137384,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137384'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 152175,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -15076,10 +15036,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
-    "captured_at": "2026-10-11T00:58:24.791604+00:00",
+    "snapshot_hash": "eb56fe840c9f9353c2d5707a977dec532630771321438ee55adb2313f08f7988",
+    "captured_at": "2026-10-11T12:55:18.583371+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
+    "evidence_hash": "bfde96380295393a162667f8eec3654fba5db2a5d2e79b678712efd8404c651a"
   },
   "coverage": {
     "schema": 1,

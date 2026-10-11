@@ -12293,7 +12293,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Thrill of Blood",
@@ -13117,7 +13117,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13127,7 +13127,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13308,7 +13308,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-10-11T01:09:18.015541+00:00",
+  "generated_at": "2026-10-11T13:05:18.390447+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -13359,10 +13359,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
-    "captured_at": "2026-10-11T00:58:24.791604+00:00",
+    "snapshot_hash": "eb56fe840c9f9353c2d5707a977dec532630771321438ee55adb2313f08f7988",
+    "captured_at": "2026-10-11T12:55:18.583371+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "e5e684f264004ccc3b9c9b82f7e9ed0b8bd59d2a85e0607ee94c26ef015a127b"
+    "evidence_hash": "4a7b88f69e15d7a5e13d56208cd750bc321795ca4bf0bcfe087a3cd38c616b15"
   },
   "coverage": {
     "schema": 1,

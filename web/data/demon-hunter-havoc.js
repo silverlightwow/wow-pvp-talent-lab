@@ -13713,6 +13713,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 131347,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=131347'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 162243,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=162243'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14057,7 +14062,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Reaver's Mark",
@@ -14879,21 +14884,21 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Illidan’s Grasp",
         "text": "Illidan’s Grasp damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
         "date": "2026-10-06",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
           "Vengeance"
         ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
       },
       {
         "talent_name": "Improved Mass Dispel",
@@ -15092,7 +15097,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-10-11T01:09:59.070620+00:00",
+  "generated_at": "2026-10-11T13:05:48.397031+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -15107,7 +15112,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 193,
+    "source_warning_count": 194,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15143,10 +15148,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
-    "captured_at": "2026-10-11T00:58:24.791604+00:00",
+    "snapshot_hash": "eb56fe840c9f9353c2d5707a977dec532630771321438ee55adb2313f08f7988",
+    "captured_at": "2026-10-11T12:55:18.583371+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "09e6c5afb91d8bdfb741295cee5b2430f40659ed58ba9c302d1032c60d927cf5"
+    "evidence_hash": "77ac1222fdd40268705ca8617ed2263d3b1b824a75a32da1c2da98d2c473adf7"
   },
   "coverage": {
     "schema": 1,

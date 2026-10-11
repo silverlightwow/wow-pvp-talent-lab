@@ -11983,11 +11983,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 119898,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119898'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 146739,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146739'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12172,7 +12167,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Agony",
@@ -13008,7 +13003,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13018,7 +13013,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13218,7 +13213,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-10-11T01:14:35.493248+00:00",
+  "generated_at": "2026-10-11T13:11:08.339040+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13233,7 +13228,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 145,
+    "source_warning_count": 144,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -13269,10 +13264,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "6d3456a893d45f547502cf9ad435fb8270a9738520362f0373e708daec7ef66f",
-    "captured_at": "2026-10-11T00:58:24.791604+00:00",
+    "snapshot_hash": "eb56fe840c9f9353c2d5707a977dec532630771321438ee55adb2313f08f7988",
+    "captured_at": "2026-10-11T12:55:18.583371+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "b59cfddf92f87873c3702e217a0adafe6ec9a6c00c26582e3a5611da375b6ccb"
+    "evidence_hash": "ca77b374614f78708d8ef7579f07eeddef75964507725a7b175f3c033be9a5f7"
   },
   "coverage": {
     "schema": 1,
