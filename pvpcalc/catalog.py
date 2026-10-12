@@ -78,6 +78,7 @@ class TalentRecord:
     # main parent tooltip.
     render_effect_count: int
     rank_tooltips: list[dict]
+    player_description_status: str = 'AVAILABLE'
 
 
 @dataclass
@@ -145,6 +146,15 @@ BLOCKING_RENDER_STATUSES = {
 }
 
 
+
+def _icon_metadata(talent, page):
+    """Prefer the spell page's asset name, retaining every source alternative."""
+    canonical = page.icon if page and page.icon else ""
+    candidates = list(dict.fromkeys(icon for icon in (
+        canonical, *(talent.get("icon_candidates") or ()), talent.get("icon")
+    ) if isinstance(icon, str) and icon))
+    return dict(icon=canonical or talent.get("icon") or "", icon_candidates=candidates) if candidates else {}
+
 def _mechanic_row(
     row: dict,
 ) -> dict:
@@ -164,6 +174,10 @@ def _mechanic_row(
         "conditional_display_formulas": row.get("conditional_display_formulas", []),
         "scaled_base_value": row.get("scaled_base_value"),
         "scaled_final_pvp_value": row.get("scaled_final_pvp_value"),
+        "baseline_effective_factor": row.get("baseline_effective_factor"),
+        "baseline_modifiers": row.get("baseline_modifiers", []),
+        "unmodified_base_value": row.get("unmodified_base_value"),
+        "coefficient_based": row.get("coefficient_based"),
         "simc_sp_coefficient": row.get("simc_sp_coefficient"),
         "simc_ap_coefficient": row.get("simc_ap_coefficient"),
         "effect_origin":
@@ -719,6 +733,56 @@ async def attach_official_hotfix_abilities(
     }
 
 
+
+def unrepresented_nonabsolute_base_hotfixes(audit, spec_catalog, hotfixes) -> list[dict]:
+    """Detect scoped official changes omitted solely because no PvP effect was discovered.
+
+    Class/spec spellbook membership (not a name in an unscoped class dump)
+    establishes that an ability is available. Relative and property notes
+    cannot safely be overlaid onto an arbitrary *current* tooltip: its
+    old-to-new baseline may already contain the hotfix. Fail closed instead
+    of publishing an apparently verified but incomplete comparison.
+    """
+    dump = getattr(audit, "simc_dump", None)
+    inventory = getattr(audit, "spellbook_inventory", None) or {}
+    if dump is None or not inventory:
+        raise ValueError("Exact-build baseline spellbook inventory is required")
+
+    baseline_ids = {int(sid) for sid in inventory.get("baseline_spell_ids", ())}
+    by_name = {}
+    for spell_id in baseline_ids:
+        spell = dump.spells.get(spell_id)
+        if spell is not None:
+            key = blizzard_hotfixes._normalize_name(spell.name)
+            by_name.setdefault(key, set()).add(spell_id)
+
+    represented_names = {
+        blizzard_hotfixes._normalize_name(row.talent_name)
+        for row in [*spec_catalog.talents, *spec_catalog.abilities]
+    }
+    missing = []
+    for hotfix in hotfixes:
+        mode = str(hotfix.mode)
+        if not (mode.startswith(("relative_", "remove_relative_", "property_"))
+                and not str(hotfix.talent_name).startswith("__")
+                and blizzard_hotfixes._hotfix_applies_to_catalog(hotfix, spec_catalog)):
+            continue
+        names = (blizzard_hotfixes._relative_name_candidates(hotfix.talent_name)
+                 if mode.startswith(("relative_", "remove_relative_"))
+                 else (blizzard_hotfixes._normalize_name(hotfix.talent_name),))
+        normalized = {blizzard_hotfixes._normalize_name(name) for name in names}
+        matched_ids = sorted(set().union(*(by_name.get(name, set()) for name in normalized)))
+        if matched_ids and not normalized.intersection(represented_names):
+            missing.append(dict(
+                talent_name=hotfix.talent_name,
+                mode=mode,
+                text=hotfix.text,
+                spell_ids=matched_ids,
+                reason="UNREPRESENTED_SCOPED_BASE_HOTFIX",
+            ))
+    return missing
+
+
 # ============================================================
 # Builder
 # ============================================================
@@ -982,6 +1046,10 @@ async def build_spec_catalog(
                 fallback_note = {"status": "EXACT_BUILD_DESCRIPTION", **fallback}
 
 
+        from .passive_modifiers import normalize_text
+        projections = audit.baseline_projections.get(spell_id, [])
+        pve_tooltip, baseline_normalizations = normalize_text(pve_tooltip, projections)
+
         render_rows = (
             render_by_talent.get(
                 spell_id,
@@ -1019,6 +1087,19 @@ async def build_spec_catalog(
                 context_rows=context_rows,
             )
         )
+
+        rendered['pvp_tooltip'], baseline_changes = normalize_text(rendered['pvp_tooltip'], projections, pvp=True)
+        if baseline_normalizations:
+            rendered['diagnostics'].append(dict(status='EXACT_BASELINE_PASSIVE_NORMALIZATION', changes=baseline_normalizations))
+        if baseline_changes:
+            for change in baseline_changes:
+                original = rendered['pve_tooltip']
+                if original.count(change['old_token']) != 1:
+                    raise ValueError('Passive change has no unique original tooltip span')
+                change['start'] = original.index(change['old_token'])
+                change['end'] = change['start'] + len(change['old_token'])
+            rendered['replacements'].extend(baseline_changes)
+            rendered['changed'] = rendered['pve_tooltip'] != rendered['pvp_tooltip']
 
         if fallback_note:
             rendered["diagnostics"].append(fallback_note)
@@ -1068,6 +1149,18 @@ async def build_spec_catalog(
         )
 
 
+        exact_spell = getattr(audit, 'simc_dump', None)
+        exact_spell = exact_spell.spells.get(spell_id) if exact_spell else None
+        mechanics_only = (talent.get('tree_type') == 'ability'
+            and not rendered['pve_tooltip'].strip()
+            and exact_spell is not None and not simc._player_text_sections(exact_spell.raw)
+            and bool(mechanic_rows)
+            and all('simc' in row.get('sources', []) or 'simc_generated' in row.get('sources', [])
+                    for row in mechanic_rows))
+        if mechanics_only:
+            rendered['diagnostics'].append(dict(status='SOURCE_HAS_NO_PLAYER_DESCRIPTION',
+                source='simc_exact_build', build=audit.tree_build, spell_id=spell_id))
+
         records.append(
             TalentRecord(
                 talent_name=str(
@@ -1086,6 +1179,7 @@ async def build_spec_catalog(
                     spell_id,
 
                 rank_tooltips=rank_tooltips,
+                player_description_status='UNAVAILABLE_IN_EXACT_SOURCE' if mechanics_only else 'AVAILABLE',
 
                 node_id=
                     talent.get(
@@ -1115,41 +1209,7 @@ async def build_spec_catalog(
                 tree_data=
                     {
                         **talent,
-                        **(
-                            {
-                                "icon": (
-                                    (
-                                        page.icon
-                                        if display_override and page and page.icon
-                                        else talent.get("icon")
-                                    )
-                                    or (page.icon if page else "")
-                                ),
-                                "icon_candidates": list(
-                                    dict.fromkeys(
-                                        icon
-                                        for icon in (
-                                            (
-                                                page.icon
-                                                if display_override and page
-                                                else talent.get("icon")
-                                            ),
-                                            (
-                                                talent.get("icon")
-                                                if display_override
-                                                else (page.icon if page else "")
-                                            ),
-                                        )
-                                        if icon
-                                    )
-                                ),
-                            }
-                            if (
-                                talent.get("icon")
-                                or (page and page.icon)
-                            )
-                            else {}
-                        ),
+                        **_icon_metadata(talent, page),
                     },
 
                 pve_tooltip=
@@ -1168,7 +1228,7 @@ async def build_spec_catalog(
                     ],
 
                 render_status=
-                    _render_status(
+                    "MECHANICS_ONLY" if mechanics_only else _render_status(
                         tooltip=
                             rendered["pve_tooltip"],
 

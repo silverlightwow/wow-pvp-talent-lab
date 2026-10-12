@@ -73,6 +73,7 @@ class SpecAuditResult:
     rank_sources: dict[int, dict] = field(default_factory=dict)
     abilities: list[dict] = field(default_factory=list)
     spellbook_inventory: dict = field(default_factory=dict)
+    baseline_projections: dict = field(default_factory=dict)
 
     dependencies: list[Any] = field(
         default_factory=list
@@ -195,6 +196,9 @@ class SpecAuditResult:
             player-facing values live in effect_text instead,
             e.g. Heal (SP mod: 5.75).
             """
+            if row.get('baseline_projection'):
+                return False
+
 
             if not row.get(
                 "is_final_pvp_modified",
@@ -1496,6 +1500,7 @@ def _fill_missing_base_values_from_simc(
         # numbers. A shortened/unfamiliar Wowhead label must not drop an
         # otherwise proven direct, periodic or absorb PvP Aura bucket.
         row["simc_amount_kind"] = _infer_amount_kind(simc_effect.effect_text)
+        row["coefficient_based"] = simc.effect_uses_coefficient(simc_effect)
 
         own_reference_contexts = list(
             simc.effect_reference_contexts(
@@ -1837,10 +1842,7 @@ def _fill_missing_base_values_from_simc(
         # ----------------------------------------------------
 
         if (
-            simc_effect.sp_coefficient
-            is not None
-            or simc_effect.ap_coefficient
-            is not None
+            simc.effect_uses_coefficient(simc_effect)
         ):
 
             row[
@@ -1902,8 +1904,8 @@ def _simc_effect_text_for_renderer(
     extras = []
 
     if (
-        simc_effect.sp_coefficient
-        is not None
+        simc.effect_uses_coefficient(simc_effect)
+        and simc_effect.sp_coefficient is not None
         and "sp mod:" not in text.casefold()
     ):
         extras.append(
@@ -1912,8 +1914,8 @@ def _simc_effect_text_for_renderer(
         )
 
     if (
-        simc_effect.ap_coefficient
-        is not None
+        simc.effect_uses_coefficient(simc_effect)
+        and simc_effect.ap_coefficient is not None
         and "ap mod:" not in text.casefold()
     ):
         extras.append(
@@ -1943,10 +1945,7 @@ def _simc_row_from_effect(
 ) -> dict:
 
     coefficient_based = (
-        simc_effect.sp_coefficient
-        is not None
-        or simc_effect.ap_coefficient
-        is not None
+        simc.effect_uses_coefficient(simc_effect)
     )
 
     base_value = (
@@ -2403,10 +2402,7 @@ def _simc_effect_observations(
             continue
 
         coefficient_based = (
-            simc_effect.sp_coefficient
-            is not None
-            or simc_effect.ap_coefficient
-            is not None
+            simc.effect_uses_coefficient(simc_effect)
         )
 
         result.append(
@@ -2613,10 +2609,7 @@ def _build_generated_simc_fallback_rows(
                 )
 
             coefficient_based = (
-                effect.sp_coefficient
-                is not None
-                or effect.ap_coefficient
-                is not None
+                simc.effect_uses_coefficient(effect)
             )
 
             exact_observations.append(
@@ -2909,10 +2902,7 @@ def _build_generated_simc_fallback_rows(
             )
 
             coefficient_based = (
-                exact_effect.sp_coefficient
-                is not None
-                or exact_effect.ap_coefficient
-                is not None
+                simc.effect_uses_coefficient(exact_effect)
             )
 
             base_value = (
@@ -3216,6 +3206,7 @@ def _enrich_rows_from_generated_exact(
         if exact is None:
             continue
 
+        row["coefficient_based"] = simc.effect_uses_coefficient(exact)
         contexts = list(
             dict.fromkeys(
                 [
@@ -3684,10 +3675,7 @@ def _build_simc_fallback_rows(
                         (
                             "simc_exact_build_coefficient"
                             if (
-                                simc_effect.sp_coefficient
-                                is not None
-                                or simc_effect.ap_coefficient
-                                is not None
+                                simc.effect_uses_coefficient(simc_effect)
                             )
                             else "simc_exact_build"
                         ),
@@ -4863,6 +4851,13 @@ async def audit_spec(
             )
         )
 
+        inventory_rows = spellbook.scoped_table_rows(tables, class_id=identity['class_id'], spec_id=identity['spec_id'])
+        inventory_ids = {row['spell_id'] for row in inventory_rows}
+        inventory_dependencies = [dep for row in inventory_rows if not row.get('scope')
+            for dep in simc.dependency_closure(simc_dump, row['spell_id'], max_depth=None)]
+        generated_needed_ids.update(inventory_ids | ability_spell_ids | dependency_spell_ids
+            | {dep.target_spell_id for dep in inventory_dependencies})
+
         generated_effects_by_spell = (
             await simc.fetch_generated_effects(
                 client,
@@ -5926,6 +5921,32 @@ async def audit_spec(
                     and row.get("effect_index") == note.get("effect_index")):
                 row.setdefault("source_notes", []).append(note)
 
+    from .passive_modifiers import resource_projections
+    for projection in resource_projections(simc_dump, ability_records, tree_spell_ids | ability_spell_ids,
+                                           result.metadata.get('specAuraSpellIds', []), aura_rules):
+        sid, index = projection['spell_id'], projection['effect_index']
+        result.baseline_projections.setdefault(sid, []).append(projection)
+        effect = simc.effect_for_spell(simc_dump, sid, index)
+        derived = _simc_row_from_effect(simc_dump=simc_dump, spell_id=sid, simc_effect=effect,
+            talent=talent_by_spell.get(sid, {}), sources=['simc', 'simc_baseline_passive'], confidence='high')
+        derived['base_value'] = projection['pve_value']
+        derived['base_value_source'] = 'simc_exact_build_passive_projection'
+        _annotate_final_pvp_layers([derived], aura_rules, simc_dump)
+        factor = derived.get('aura_factor', 1)
+        derived['final_pvp_value'] = projection['pvp_value']
+        derived['baseline_modifiers'] = projection['modifiers']
+        derived['unmodified_base_value'] = projection['raw_value']
+        derived['baseline_projection'] = True
+        derived['final_pvp_multiplier'] = (derived['final_pvp_value'] / derived['base_value']
+                                           if derived['base_value'] else None)
+        derived['is_final_pvp_modified'] = abs(derived['final_pvp_value'] - derived['base_value']) > 1e-9
+        derived['baseline_effective_factor'] = (derived['final_pvp_multiplier'] / factor if factor else 1)
+        derived['aura_factor'] = derived['final_pvp_multiplier'] if derived['base_value'] else factor
+        derived.setdefault('source_notes', []).append(dict(reason='EXACT_BASELINE_PASSIVE_PROJECTION', **projection))
+        result.effect_rows = [row for row in result.effect_rows if not (
+            row.get('spell_id') == sid and row.get('effect_index') == index)]
+        result.effect_rows.append(derived)
+
     modified_roots = {int(row.get('talent_spell_id') or row['spell_id'])
                       for row in result.final_modified_effect_rows}
     result.abilities = [row for row in ability_records if row['spell_id'] in modified_roots]
@@ -5933,4 +5954,10 @@ async def audit_spec(
         baseline_spell_ids=sorted(ability_spell_ids),
         pvp_spell_ids=sorted(ability_spell_ids & modified_roots),
         unavailable=unavailable_abilities)
+    result.spellbook_inventory['candidate_universe'] = spellbook.candidate_inventory(
+        tables, simc_dump, class_id=identity['class_id'], spec_id=identity['spec_id'],
+        class_name=class_name, spec_name=spec_name, talent_spell_ids=tree_spell_ids,
+        ability_spell_ids=ability_spell_ids, generated_effects=generated_effects_by_spell,
+        dependencies=inventory_dependencies, published_rows=result.final_modified_effect_rows,
+        drustvar_ids=dr_all_ids, aura_ids=aura_affected_ids)
     return result

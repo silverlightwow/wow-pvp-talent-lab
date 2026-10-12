@@ -96,3 +96,17 @@ The HTTPS site is installable. Its core interface and default dataset are cached
 - A zero base value does not override a real spell-power coefficient.
 - Tiered Apex entries remain one progression; true choices follow the talent graph's choice-node type.
 - Historical wiki evidence is audit context, not an automatic source for current values.
+
+## Audit and publication boundaries (2026-10-12)
+
+The data workflow and verified-artifact recovery commit checked snapshots; `Publish current web snapshot` is the single serialized Pages publisher. It packages current main, validates the snapshot and browser smoke suite, and verifies every deployed file hash and source freshness. Scheduled data production remains every six hours. The exhaustive browser suite checks every spec/hero tree at ten widths in independent jobs before the data commit.
+
+`spellbook_inventory.candidate_universe` is an independent exact-build root/effect report, including replacements, hidden/passive roots, absent player text, raw/current coefficients, dependency paths, and conditional pet/racial candidates. Ordinary class/spec omissions block publication. Conditional pet-family/spec ownership and public racial coverage are not yet complete; issue #7 remains open. VERIFIED describes the published values and explicitly scoped class/spec checks, not complete coverage of all possible game abilities.
+
+A scalar percentage aura can retain AP/SP metadata in client data. `coefficient_based` distinguishes its literal parameter from damage/healing outputs without deleting that raw provenance. This distinction is used both in numerical reconciliation and tooltip rendering.
+
+For diagnostics only, `WOW_PVP_ARCHIVAL_REPLAY=1` permits integrity-checked replay of archived inputs with a new parser. Outputs are marked `ARCHIVAL_REPLAY`, rejected by normal publication validation, and cannot be written under web. It does not permit live fallback or uncaptured source requests.
+
+Internal baseline auras with exact numeric effects but no source player description are represented as `MECHANICS_ONLY`, with empty tooltip fields and explicit `UNAVAILABLE_IN_EXACT_SOURCE` provenance. The mechanics view displays the absence notice and raw sourced parameters. This status requires exact SimC evidence for every published effect; it is not an escape for failed rendering of an available description.
+
+Always-present baseline passives can add to neutral resource effects. A source-proved flat modifier, reciprocal effect identity, and literal client expression establish the resolved PvE/PvP values. Static tooltip zeroes are normalized only when the corresponding sourced fragment is uniquely present; optional proc/equipment conditions and unsupported scaling are not guessed. Raw target values, modifier values, and formula provenance remain in the mechanic.

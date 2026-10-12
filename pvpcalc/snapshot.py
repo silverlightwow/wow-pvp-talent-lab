@@ -20,9 +20,10 @@ class SnapshotError(RuntimeError):
 
 
 class HttpSnapshot:
-    def __init__(self, directory: Path, *, recording: bool = False):
+    def __init__(self, directory: Path, *, recording: bool = False, archival_replay: bool = False):
         self.directory = directory
         self.recording = recording
+        self.archival_replay = archival_replay
         self.misses: set[str] = set()
         self._verified: dict[str, str] = {}
         if recording:
@@ -38,7 +39,7 @@ class HttpSnapshot:
                 raise SnapshotError('Source snapshot manifest integrity check failed')
             captured = datetime.fromisoformat(self.manifest['captured_at'])
             age = (datetime.now(timezone.utc) - captured).total_seconds()
-            if not -300 <= age <= 6 * 3600:
+            if not archival_replay and not -300 <= age <= 6 * 3600:
                 raise SnapshotError('Source snapshot is stale or has a future timestamp')
 
     def read(self, key: str) -> str:
@@ -95,7 +96,7 @@ def active_snapshot() -> HttpSnapshot | None:
         return None
     path = str(Path(directory).resolve())
     if path not in _snapshots:
-        _snapshots[path] = HttpSnapshot(Path(path))
+        _snapshots[path] = HttpSnapshot(Path(path), archival_replay=os.environ.get('WOW_PVP_ARCHIVAL_REPLAY') == '1')
     return _snapshots[path]
 
 
@@ -106,11 +107,13 @@ def source_provenance(class_name: str) -> dict | None:
     if snapshot.misses:
         raise SnapshotError('Build requested uncaptured sources: ' + ', '.join(sorted(snapshot.misses)))
     context = snapshot.manifest['context']
-    if context['parser_hash'] != parser_hash():
+    if not snapshot.archival_replay and context['parser_hash'] != parser_hash():
         raise SnapshotError('Source snapshot was collected by a different parser revision')
     return dict(snapshot_hash=snapshot.manifest['snapshot_hash'],
                 captured_at=snapshot.manifest['captured_at'],
-                parser_hash=context['parser_hash'],
+                parser_hash=parser_hash(),
+                captured_parser_hash=context['parser_hash'],
+                archival_replay=snapshot.archival_replay,
                 evidence_hash=context['classes'][class_name]['evidence_hash'])
 
 

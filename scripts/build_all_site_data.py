@@ -510,6 +510,19 @@ async def build_one(
             )
         )
 
+    # A class/spec base spell with an official relative/property PvP change
+    # must not silently disappear merely because its current DBC coefficient
+    # is already normalized (or the historical value is unavailable).
+    # Do not guess an old value or double-apply a relative change.
+    unrepresented_base_hotfixes = catalog.unrepresented_nonabsolute_base_hotfixes(
+        audit, spec_catalog, official_hotfixes
+    )
+    if unrepresented_base_hotfixes:
+        raise RuntimeError(
+            "Unrepresented exact-spellbook base PvP hotfixes: "
+            + json.dumps(unrepresented_base_hotfixes, default=_json_default)
+        )
+
     hotfix_report = (
         blizzard_hotfixes
         .apply_official_pvp_hotfixes(
@@ -584,6 +597,8 @@ async def build_one(
                 or context['hotfix_snapshot_hash'] != hotfix_report['snapshot_hash']):
             raise ValueError('Source snapshot does not match tree/hotfix inputs')
         payload['source_snapshot'] = provenance
+    if provenance and provenance.get('archival_replay'):
+        summary['verification_status'] = 'ARCHIVAL_REPLAY'
     payload['coverage'] = coverage_report(payload)
     previous_path = Path('web/data') / f'{slug}.json'
     previous = json.loads(previous_path.read_text()) if previous_path.exists() else None
@@ -1015,6 +1030,8 @@ def main() -> None:
     )
 
     args = parser.parse_args()
+    if os.environ.get('WOW_PVP_ARCHIVAL_REPLAY') == '1' and (Path('web').resolve() == args.output_dir.resolve() or Path('web').resolve() in args.output_dir.resolve().parents):
+        parser.error('Archived diagnostic replay cannot write publishable web files')
 
     try:
         report = asyncio.run(

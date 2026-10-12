@@ -90,10 +90,16 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if len(ids) != len(set(ids)) or set(ids) & {t['spell_id'] for t in talents}:
         raise ValueError(f'{slug}: duplicated baseline ability identities')
     for ability in abilities:
+        mechanics_only = (ability.get('render_status') == 'MECHANICS_ONLY'
+            and ability.get('player_description_status') == 'UNAVAILABLE_IN_EXACT_SOURCE'
+            and not ability.get('pve_tooltip') and not ability.get('pvp_tooltip')
+            and not ability.get('tooltip_changed') and bool(ability.get('mechanics'))
+            and any(d.get('status') == 'SOURCE_HAS_NO_PLAYER_DESCRIPTION' for d in ability.get('diagnostics', []))
+            and all({'simc', 'simc_generated'} & set(row.get('sources', [])) for row in ability.get('mechanics', [])))
         if (ability.get('tree_type') != 'ability' or ability.get('node_id') is not None
                 or ability.get('entry_id') is not None
-                or ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}
-                or not all(ability.get(mode, '').strip() for mode in ('pve_tooltip', 'pvp_tooltip'))
+                or (not mechanics_only and (ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}
+                or not all(ability.get(mode, '').strip() for mode in ('pve_tooltip', 'pvp_tooltip'))))
                 or ability.get('tooltip_changed') != (ability['pve_tooltip'] != ability['pvp_tooltip'])):
             raise ValueError(f'{slug}: unsafe or invalid baseline ability {ability["spell_id"]}')
     inventory = data.get('spellbook_inventory')
@@ -103,6 +109,22 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
                 or not set(inventory['pvp_spell_ids']).issubset(inventory['baseline_spell_ids'])
                 or validation.get('abilities') != len(abilities)):
             raise ValueError(f'{slug}: incomplete spellbook coverage inventory')
+    universe = (inventory or {}).get('candidate_universe')
+    if universe is not None:
+        if universe.get('schema') != 1 or not universe.get('class_spec_complete'):
+            raise ValueError(f'{slug}: incomplete independent baseline universe')
+        from pvpcalc.coverage import mechanic_key
+        published = {mechanic_key(record['spell_id'], row)
+            for record in [*talents, *abilities] for row in record.get('mechanics', [])}
+        for entry in universe['entries']:
+            for effect in entry['effects']:
+                identity = (entry['spell_id'], effect['source_spell_id'], effect['effect_index'])
+                if effect['published'] and identity not in published:
+                    raise ValueError(f'{slug}: candidate claims an absent public effect {identity}')
+                if (not entry.get('scope') and entry['classification'] == 'BASE_ABILITY'
+                        and abs(effect['current_pvp_coefficient'] - 1) > 1e-9
+                        and identity not in published):
+                    raise ValueError(f'{slug}: baseline candidate omitted {identity}')
     return data
 
 

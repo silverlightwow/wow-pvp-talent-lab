@@ -138,37 +138,8 @@
     };
 
 
-    const ICON_NAME_OVERRIDES = {
-        "spell_priest_power_word":
-            "spell_priest_power-word",
-
-        // Raidbots currently normalizes this legacy icon with
-        // an underscore, while the actual CDN asset keeps the hyphen.
-        // Used by Dominate Mind (spell 205364).
-        "spell_priest_void_flay":
-            "spell_priest_void-flay",
-
-        // Midnight 12.1 currently exposes Aimed Shot with an inv121 alias,
-        // while the actual icon asset uses the canonical legacy name.
-        "inv121_ability_hunter_aimedshot":
-            "ability_hunter_aimedshot",
-    };
-
-
     function normalizeIconName(icon) {
-
-        if (!icon) {
-            return "";
-        }
-
-        if (icon === "inv_10_specialreagentfoozles_tuskclaw_ice") {
-            icon = "inv_10_specialreagentfoozles_tuskclaw-ice";
-        }
-
-        return (
-            ICON_NAME_OVERRIDES[icon]
-            || icon
-        );
+        return typeof icon === "string" ? icon : "";
     }
 
 
@@ -867,6 +838,8 @@
     // ========================================================
 
     let datasetLoadToken = 0;
+    let datasetAbortController = null;
+    let cancelDatasetLoad = () => {};
 
 
     function manifestClass(
@@ -1169,7 +1142,7 @@
 
 
         if (!spec) {
-            return;
+            return Promise.resolve(false);
         }
 
 
@@ -1212,143 +1185,72 @@
             );
 
 
-        if (
-            currentSlug
-            === spec.slug
-        ) {
+        // A selection of the current spec also invalidates an older pending load.
+        cancelDatasetLoad();
+        const token = ++datasetLoadToken;
+        datasetAbortController?.abort();
+        document.querySelector('script[data-dataset-loader]')?.remove();
+        const setBusy = value => {
+            $('#classSelect').disabled = value;
+            $('#specSelect').disabled = value;
+        };
+        if (currentSlug === spec.slug) {
+            setBusy(false);
             updateDocumentTitle();
             renderTrees();
-            return;
+            return Promise.resolve(true);
         }
-
-
-        const token =
-            ++datasetLoadToken;
-
-
-        $("#classSelect").disabled =
-            true;
-
-        $("#specSelect").disabled =
-            true;
-
-
-        const previous =
-            document.querySelector(
-                "script[data-dataset-loader]"
-            );
-
-        if (previous) {
-            previous.remove();
+        setBusy(true);
+        $('#treeMessage').textContent = 'Loading specialization…';
+        const accept = nextData => {
+            if (token !== datasetLoadToken) { window.WOW_PVP_DATA = data; return false; }
+            if (nextData?.class_name !== className || nextData?.spec_name !== specName || nextData?.slug !== spec.slug)
+                throw new Error('Loaded dataset identity mismatch');
+            window.WOW_PVP_DATA = nextData;
+            applyDataset(nextData);
+            return true;
+        };
+        const fail = error => {
+            if (token !== datasetLoadToken) return;
+            console.error(error);
+            $('#treeMessage').textContent = 'Could not load this specialization. Please try again.';
+            $('#classSelect').value = data.class_name;
+            rebuildSpecSelect(data.class_name, data.spec_name);
+        };
+        const complete = () => { if (token === datasetLoadToken) setBusy(false); };
+        const version = encodeURIComponent(manifest?.generated_at || manifest?.tree_build || '');
+        if (location.protocol === 'file:') {
+            // Keep downloaded/offline snapshots usable without file:// fetch permissions.
+            const script = document.createElement('script');
+            script.dataset.datasetLoader = spec.slug;
+            script.src = `data/${encodeURIComponent(spec.slug)}.js?v=${version}`;
+            return new Promise(resolve => {
+                let settled = false;
+                const finish = result => {
+                    if (settled) return;
+                    settled = true;
+                    clearTimeout(timer);
+                    complete();
+                    if (token === datasetLoadToken) cancelDatasetLoad = () => {};
+                    resolve(result);
+                };
+                const timer = setTimeout(() => { fail(new Error('Dataset request timed out')); finish(false); }, 30000);
+                cancelDatasetLoad = () => finish(false);
+                script.onload = () => { try { finish(accept(window.WOW_PVP_DATA)); } catch (error) { fail(error); finish(false); } };
+                script.onerror = () => { fail(new Error('Dataset script request failed')); finish(false); };
+                document.body.appendChild(script);
+            });
+        } else {
+            // JSON belongs to this request; an obsolete script cannot overwrite a newer dataset.
+            const controller = new AbortController();
+            datasetAbortController = controller;
+            const timer = setTimeout(() => controller.abort(new Error('Dataset request timed out')), 30000);
+            return fetch(`data/${encodeURIComponent(spec.slug)}.json?v=${version}`, {cache:'no-store', signal:controller.signal})
+                .then(response => {
+                    if (!response.ok) throw new Error(`Dataset HTTP ${response.status}`);
+                    return response.json();
+                }).then(accept).catch(error => { fail(error); return false; }).finally(() => { clearTimeout(timer); complete(); });
         }
-
-
-        const script =
-            document.createElement(
-                "script"
-            );
-
-        script.dataset.datasetLoader =
-            spec.slug;
-
-        script.src =
-            `data/${encodeURIComponent(
-                spec.slug
-            )}.js?v=${
-                encodeURIComponent(
-                    manifest?.generated_at
-                    || manifest?.tree_build
-                    || ""
-                )
-            }`;
-
-
-        script.onload =
-            () => {
-
-                if (
-                    token
-                    !== datasetLoadToken
-                ) {
-                    return;
-                }
-
-
-                try {
-
-                    const nextData =
-                        window.WOW_PVP_DATA;
-
-
-                    if (
-                        nextData?.class_name
-                        !== className
-                        || nextData?.spec_name
-                        !== specName
-                    ) {
-
-                        throw new Error(
-                            "Loaded dataset identity mismatch"
-                        );
-                    }
-
-
-                    applyDataset(
-                        nextData
-                    );
-
-                }
-                catch (error) {
-
-                    console.error(
-                        error
-                    );
-
-                    $("#treeMessage")
-                        .textContent =
-                        "Could not load this specialization. Please try again.";
-                    $("#classSelect").value = data.class_name;
-                    rebuildSpecSelect(data.class_name, data.spec_name);
-                }
-                finally {
-
-                    $("#classSelect").disabled =
-                        false;
-
-                    $("#specSelect").disabled =
-                        false;
-                }
-            };
-
-
-        script.onerror =
-            () => {
-
-                if (
-                    token
-                    !== datasetLoadToken
-                ) {
-                    return;
-                }
-
-
-                $("#classSelect").disabled =
-                    false;
-
-                $("#specSelect").disabled =
-                    false;
-
-                $("#treeMessage")
-                    .textContent =
-                    "Could not load this specialization. Please try again.";
-                $("#classSelect").value = data.class_name;
-                rebuildSpecSelect(data.class_name, data.spec_name);
-            };
-
-
-        document.body.appendChild(
-            script
-        );
     }
 
 
@@ -1410,6 +1312,8 @@
             verificationStatus
             === "VERIFIED";
 
+        const completeBaseCoverage = data.spellbook_inventory?.candidate_universe?.conditional_ownership_complete === true;
+
         const statusLabel =
             $("#datasetStatusLabel");
 
@@ -1421,14 +1325,14 @@
         if (statusLabel) {
             statusLabel.textContent =
                 isVerified
-                ? "Verified current dataset"
+                ? (completeBaseCoverage ? "Verified current dataset" : "Verified values · Base Spells coverage incomplete")
                 : "Current dataset · partial coverage";
         }
 
         if (statusDot) {
             statusDot.classList.toggle(
                 "partial",
-                !isVerified
+                !isVerified || !completeBaseCoverage
             );
         }
 
@@ -4431,15 +4335,7 @@
             )
         ) {
 
-            const preferred =
-                records.find(
-                    group =>
-                        group.entries.some(
-                            entry =>
-                                entry.spell_id === 62618
-                        )
-                )
-                || records[0];
+            const preferred = records[0];
 
             state.compendiumSpellId =
                 preferred
@@ -4586,7 +4482,7 @@
                 ${group.entries.flatMap(entry => entry.rank_tooltips?.length ? entry.rank_tooltips : [entry]).map((rank, index, all) => `
                     <div class="mechanic-description-rank">
                         ${all.length > 1 ? `<h4>Rank ${index + 1}/${all.length}</h4>` : ""}
-                        <p class="mechanic-description-text">${escapeHtml(descriptionText(rank.pvp_tooltip))}</p>
+                        <p class="mechanic-description-text">${escapeHtml(descriptionText(rank.pvp_tooltip) || 'No player-facing description is provided by the current sources. Verified effect parameters are shown below.')}</p>
                     </div>`).join("")}
             </section>
             <p class="mechanics-explanation">Modifiers below apply to the listed effects, including spells triggered by this talent. Open a source panel to see the calculation.</p>
@@ -4909,10 +4805,8 @@
     function registerServiceWorker() {
         if (
             "serviceWorker" in navigator
-            && (
-                location.protocol === "https:"
-                || location.hostname === "localhost"
-            )
+            && ["https:", "http:"].includes(location.protocol)
+            && window.isSecureContext
         ) {
             navigator.serviceWorker
                 .register(
@@ -4950,6 +4844,11 @@
     }
 
     function showHome() {
+        cancelDatasetLoad();
+        ++datasetLoadToken;
+        datasetAbortController?.abort();
+        document.querySelector('script[data-dataset-loader]')?.remove();
+        $('#classSelect').disabled = $('#specSelect').disabled = false;
 
         state.suspendUrl =
             true;
@@ -4984,16 +4883,11 @@
 
 
     async function activateSpec(className, specName) {
-        loadDatasetFor(className, specName);
-        const deadline = Date.now() + 30000;
-        await new Promise((resolve, reject) => {
-            const check = () => {
-                if (data.class_name === className && data.spec_name === specName && !$("#specSelect").disabled) return resolve();
-                if (Date.now() > deadline) return reject(new Error("Could not load this specialization. Try again."));
-                setTimeout(check, 50);
-            };
-            check();
-        });
+        const expectedToken = datasetLoadToken + 1;
+        const loaded = await loadDatasetFor(className, specName);
+        if (!loaded && expectedToken === datasetLoadToken)
+            throw new Error('Could not load this specialization. Try again.');
+        return loaded;
     }
 
     async function importBuild(raw) {
@@ -5006,7 +4900,7 @@
         const beforeImport={data,selected:new Map(state.selected),hero:state.heroTree,welcome:document.body.classList.contains("welcome-active")};
         state.suspendUrl = true;
         try {
-            await activateSpec(cls.name, spec.name);
+            if (!await activateSpec(cls.name, spec.name)) return;
             const imported = WowLoadout.decode(code, data);
             const previous = {selected:state.selected, hero:state.heroTree};
             state.selected = imported.selected;
@@ -5119,7 +5013,7 @@
         importBuild(initialParams.get("build")).catch(error=>{$("#treeMessage").textContent=error.message;});
     } else if (initialParams.get("spec")) {
         const wanted=manifest.classes.flatMap(c=>c.specs.map(s=>({...s,cls:c.name}))).find(s=>s.slug===initialParams.get("spec"));
-        if(wanted)activateSpec(wanted.cls,wanted.name);
+        if(wanted)activateSpec(wanted.cls,wanted.name).catch(error=>{$("#treeMessage").textContent=error.message;});
     }
 
 })();
