@@ -164,6 +164,7 @@ def _mechanic_row(
         "conditional_display_formulas": row.get("conditional_display_formulas", []),
         "scaled_base_value": row.get("scaled_base_value"),
         "scaled_final_pvp_value": row.get("scaled_final_pvp_value"),
+        "coefficient_based": row.get("coefficient_based"),
         "simc_sp_coefficient": row.get("simc_sp_coefficient"),
         "simc_ap_coefficient": row.get("simc_ap_coefficient"),
         "effect_origin":

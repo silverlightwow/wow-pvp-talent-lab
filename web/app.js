@@ -1325,6 +1325,8 @@
             verificationStatus
             === "VERIFIED";
 
+        const completeBaseCoverage = data.spellbook_inventory?.candidate_universe?.conditional_ownership_complete === true;
+
         const statusLabel =
             $("#datasetStatusLabel");
 
@@ -1336,14 +1338,14 @@
         if (statusLabel) {
             statusLabel.textContent =
                 isVerified
-                ? "Verified current dataset"
+                ? (completeBaseCoverage ? "Verified current dataset" : "Verified values · Base Spells coverage incomplete")
                 : "Current dataset · partial coverage";
         }
 
         if (statusDot) {
             statusDot.classList.toggle(
                 "partial",
-                !isVerified
+                !isVerified || !completeBaseCoverage
             );
         }
 

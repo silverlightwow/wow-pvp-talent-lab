@@ -1496,6 +1496,7 @@ def _fill_missing_base_values_from_simc(
         # numbers. A shortened/unfamiliar Wowhead label must not drop an
         # otherwise proven direct, periodic or absorb PvP Aura bucket.
         row["simc_amount_kind"] = _infer_amount_kind(simc_effect.effect_text)
+        row["coefficient_based"] = simc.effect_uses_coefficient(simc_effect)
 
         own_reference_contexts = list(
             simc.effect_reference_contexts(
@@ -3201,6 +3202,7 @@ def _enrich_rows_from_generated_exact(
         if exact is None:
             continue
 
+        row["coefficient_based"] = simc.effect_uses_coefficient(exact)
         contexts = list(
             dict.fromkeys(
                 [

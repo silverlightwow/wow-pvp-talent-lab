@@ -605,6 +605,12 @@ def semantic_transform(
         )
     )
 
+    if effect_row.get('coefficient_based') is False:
+        # Scalar aura parameters may retain unused AP/SP fields in DBC.
+        # Keep that metadata for audit, but do not render it as damage/healing.
+        sp_match = None
+        simc_sp_coefficient = simc_ap_coefficient = None
+
     # Wowhead's compact effect text does not always expose coefficients
     # even when exact-build SimC has the same concrete SpellEffect.
     # Use that exact-build coefficient as a fallback, but only when the
@@ -744,7 +750,7 @@ def semantic_transform(
 
     ap_match = _AP_MOD_RE.search(
         source_text
-    )
+    ) if effect_row.get('coefficient_based') is not False else None
 
     fallback_ap_coefficient = (
         simc_ap_coefficient

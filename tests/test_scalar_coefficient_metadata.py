@@ -2,7 +2,7 @@ from copy import deepcopy
 
 import pytest
 
-from pvpcalc import pipeline
+from pvpcalc import pipeline, tooltip_renderer
 from pvpcalc.coverage import coverage_report, validate_coverage
 from pvpcalc.sources import simc
 
@@ -25,6 +25,12 @@ def test_scalar_percent_aura_uses_literal_value_despite_unused_coefficient(coeff
     alternate[0]['base_value'] = None
     pipeline._fill_missing_base_values_from_simc(alternate, dump)
     assert alternate[0]['base_value'] == -70
+    for variant in (rows, alternate):
+        rendered = tooltip_renderer.render_pvp_tooltip(
+            tooltip='Movement speed reduced by 70%.', spec_name='Future',
+            effect_rows=variant, context_rows=variant)
+        assert rendered['pvp_tooltip'] == 'Movement speed reduced by 50%.'
+        assert rendered['changed']
 
 
 def test_coefficient_output_is_still_symbolic_and_scalar_drift_is_blocking():
