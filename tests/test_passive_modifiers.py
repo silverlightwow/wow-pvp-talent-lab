@@ -1,4 +1,5 @@
 from copy import deepcopy
+from dataclasses import replace
 import pytest
 from pvpcalc import passive_modifiers
 from pvpcalc.sources import simc
@@ -54,6 +55,6 @@ def test_ambiguous_visible_projection_blocks_and_absent_text_is_not_fabricated()
 def test_client_precision_preserves_integer_trailing_zero(precision):
     dump, _ = fixture()
     spell = dump.spells[20]
-    spell.raw = spell.raw.replace('${$m2/10}', '${$m2/10}.' + str(precision))
+    spell = replace(spell, raw=spell.raw.replace('${$m2/10}', '${$m2/10}.' + str(precision)))
     assert passive_modifiers._fragments(spell, 2, [0, 100, 50], {10, 20}, {10}) == [
         ['Generates 0 points', 'Generates 10 points', 'Generates 5 points']]
