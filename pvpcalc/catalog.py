@@ -165,6 +165,9 @@ def _mechanic_row(
         "conditional_display_formulas": row.get("conditional_display_formulas", []),
         "scaled_base_value": row.get("scaled_base_value"),
         "scaled_final_pvp_value": row.get("scaled_final_pvp_value"),
+        "baseline_effective_factor": row.get("baseline_effective_factor"),
+        "baseline_modifiers": row.get("baseline_modifiers", []),
+        "unmodified_base_value": row.get("unmodified_base_value"),
         "coefficient_based": row.get("coefficient_based"),
         "simc_sp_coefficient": row.get("simc_sp_coefficient"),
         "simc_ap_coefficient": row.get("simc_ap_coefficient"),
@@ -1034,6 +1037,10 @@ async def build_spec_catalog(
                 fallback_note = {"status": "EXACT_BUILD_DESCRIPTION", **fallback}
 
 
+        from .passive_modifiers import normalize_text
+        projections = audit.baseline_projections.get(spell_id, [])
+        pve_tooltip, baseline_normalizations = normalize_text(pve_tooltip, projections)
+
         render_rows = (
             render_by_talent.get(
                 spell_id,
@@ -1071,6 +1078,13 @@ async def build_spec_catalog(
                 context_rows=context_rows,
             )
         )
+
+        rendered['pvp_tooltip'], baseline_changes = normalize_text(rendered['pvp_tooltip'], projections, pvp=True)
+        if baseline_normalizations:
+            rendered['diagnostics'].append(dict(status='EXACT_BASELINE_PASSIVE_NORMALIZATION', changes=baseline_normalizations))
+        if baseline_changes:
+            rendered['replacements'].extend(baseline_changes)
+            rendered['changed'] = rendered['pve_tooltip'] != rendered['pvp_tooltip']
 
         if fallback_note:
             rendered["diagnostics"].append(fallback_note)

@@ -73,6 +73,7 @@ class SpecAuditResult:
     rank_sources: dict[int, dict] = field(default_factory=dict)
     abilities: list[dict] = field(default_factory=list)
     spellbook_inventory: dict = field(default_factory=dict)
+    baseline_projections: dict = field(default_factory=dict)
 
     dependencies: list[Any] = field(
         default_factory=list
@@ -195,6 +196,9 @@ class SpecAuditResult:
             player-facing values live in effect_text instead,
             e.g. Heal (SP mod: 5.75).
             """
+            if row.get('baseline_projection'):
+                return False
+
 
             if not row.get(
                 "is_final_pvp_modified",
@@ -5916,6 +5920,32 @@ async def audit_spec(
             if (row.get("source_spell_id", row.get("spell_id")) == note.get("source_spell_id", note.get("spell_id"))
                     and row.get("effect_index") == note.get("effect_index")):
                 row.setdefault("source_notes", []).append(note)
+
+    from .passive_modifiers import resource_projections
+    for projection in resource_projections(simc_dump, ability_records, tree_spell_ids | ability_spell_ids,
+                                           result.metadata.get('specAuraSpellIds', []), aura_rules):
+        sid, index = projection['spell_id'], projection['effect_index']
+        result.baseline_projections.setdefault(sid, []).append(projection)
+        effect = simc.effect_for_spell(simc_dump, sid, index)
+        derived = _simc_row_from_effect(simc_dump=simc_dump, spell_id=sid, simc_effect=effect,
+            talent=talent_by_spell.get(sid, {}), sources=['simc', 'simc_baseline_passive'], confidence='high')
+        derived['base_value'] = projection['pve_value']
+        derived['base_value_source'] = 'simc_exact_build_passive_projection'
+        _annotate_final_pvp_layers([derived], aura_rules, simc_dump)
+        factor = derived.get('aura_factor', 1)
+        derived['final_pvp_value'] = projection['pvp_value']
+        derived['baseline_modifiers'] = projection['modifiers']
+        derived['unmodified_base_value'] = projection['raw_value']
+        derived['baseline_projection'] = True
+        derived['final_pvp_multiplier'] = (derived['final_pvp_value'] / derived['base_value']
+                                           if derived['base_value'] else None)
+        derived['is_final_pvp_modified'] = abs(derived['final_pvp_value'] - derived['base_value']) > 1e-9
+        derived['baseline_effective_factor'] = (derived['final_pvp_multiplier'] / factor if factor else 1)
+        derived['aura_factor'] = derived['final_pvp_multiplier'] if derived['base_value'] else factor
+        derived.setdefault('source_notes', []).append(dict(reason='EXACT_BASELINE_PASSIVE_PROJECTION', **projection))
+        result.effect_rows = [row for row in result.effect_rows if not (
+            row.get('spell_id') == sid and row.get('effect_index') == index)]
+        result.effect_rows.append(derived)
 
     modified_roots = {int(row.get('talent_spell_id') or row['spell_id'])
                       for row in result.final_modified_effect_rows}

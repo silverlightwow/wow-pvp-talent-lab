@@ -1,0 +1,50 @@
+from copy import deepcopy
+import pytest
+from pvpcalc import passive_modifiers
+from pvpcalc.sources import simc
+
+
+def fixture(coefficient=0.5, reciprocal=True, proc=False):
+    raw = ('SimulationCraft for World of Warcraft 12.1.0.12345 Live\n'
+        'Name             : Resource Passive (id=10) [Passive, Hidden]\n'
+        + ('Proc Chance      : 50%\n' if proc else '')
+        + '#1 (id=101) : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 2 (12)\n'
+        + f'Base Value: 60 | PvP Coefficient: {coefficient}\n'
+        + 'Affected Spells: Resource Ability (20)\n'
+        + 'Name             : Resource Ability (id=20)\n'
+        + '#2 (id=202) : Energize Power (30)\nBase Value: 0 | Resource: example | Target: Self (1)\n'
+        + ('Modified By: Resource Passive (10 effect#1)\n' if reciprocal else '')
+        + 'Description      : $?s10[Generates ${$m2/10} points.][]\n')
+    dump = simc.parse_dump(raw,class_slug='example')
+    return dump,[dict(spell_id=10,passive=True)]
+
+
+@pytest.mark.parametrize('coefficient,expected', [(0.5,'3'),(0,'0'),(1,'6')])
+def test_literal_resource_formula_uses_owned_passive_and_retains_zero(coefficient, expected):
+    dump, roots = fixture(coefficient)
+    projected = passive_modifiers.resource_projections(dump,roots,{10,20})
+    assert projected[0]['pve_value'] == 60
+    assert projected[0]['pvp_value'] == 60*coefficient
+    pve,trace = passive_modifiers.normalize_text('Generates 0 points.',projected)
+    assert pve == 'Generates 6 points.' and trace
+    pvp,trace = passive_modifiers.normalize_text(pve,projected,pvp=True)
+    assert pvp == f'Generates {expected} points.'
+    assert bool(trace) == (coefficient != 1)
+    # A provider that already incorporated the passive is not corrected twice.
+    assert passive_modifiers.normalize_text(pve,projected)[0] == pve
+
+
+def test_optional_proc_and_missing_reciprocal_identity_are_not_guessed():
+    dump, roots = fixture(proc=True)
+    assert passive_modifiers.resource_projections(dump,roots,{10,20}) == []
+    dump, roots = fixture(reciprocal=False)
+    with pytest.raises(ValueError,match='reciprocal'):
+        passive_modifiers.resource_projections(dump,roots,{10,20})
+
+
+def test_ambiguous_visible_projection_blocks_and_absent_text_is_not_fabricated():
+    dump,roots = fixture()
+    projected = passive_modifiers.resource_projections(dump,roots,{10,20})
+    with pytest.raises(ValueError,match='Ambiguous'):
+        passive_modifiers.normalize_text('Generates 0 points. Generates 0 points.',projected)
+    assert passive_modifiers.normalize_text('No resource clause in this source.',projected) == ('No resource clause in this source.',[])
