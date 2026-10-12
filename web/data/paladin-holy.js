@@ -15068,7 +15068,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [
       {
@@ -15891,7 +15891,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15901,7 +15901,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -16162,7 +16162,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "paladin-holy",
-  "generated_at": "2026-10-11T13:08:51.291239+00:00",
+  "generated_at": "2026-10-12T07:17:34.021383+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -16213,10 +16213,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "eb56fe840c9f9353c2d5707a977dec532630771321438ee55adb2313f08f7988",
-    "captured_at": "2026-10-11T12:55:18.583371+00:00",
+    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
+    "captured_at": "2026-10-12T07:03:32.194907+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "782f3e7a1d4a270ec01f55296aaf2a99be0cba544df6a81293af7fb0fd558cc0"
+    "evidence_hash": "eaac509c836f24da93ebeba8e473551a54065d9eb8246d6de4a28ac0f1cd100b"
   },
   "coverage": {
     "schema": 1,
