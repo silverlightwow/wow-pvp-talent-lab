@@ -4933,26 +4933,12 @@
                         )
                 );
 
-            navigator.serviceWorker
-                .addEventListener(
-                    "controllerchange",
-                    () => {
-                        const key =
-                            "wow-pvp-sw-v22-reloaded";
-
-                        if (
-                            sessionStorage
-                            .getItem(key)
-                        ) {
-                            return;
-                        }
-
-                        sessionStorage
-                            .setItem(key, "1");
-
-                        location.reload();
-                    }
-                );
+            // A newly activated worker must not force-reload an active
+            // calculator session. A reload during async specialization
+            // switching can reset the selectors and discard the user's
+            // current build, leaving no JavaScript exception in the logs.
+            // The worker already uses network-first fetching; the next
+            // regular navigation loads the latest assets.
         }
     }
 
