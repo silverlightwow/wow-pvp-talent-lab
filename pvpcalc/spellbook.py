@@ -91,7 +91,7 @@ def ability_roots(tables, dump, *, class_id, spec_id, talent_spell_ids, unavaila
                 unavailable.append(dict(spell_id=sid, name=row['name'],
                     reason='NOT_IN_EXACT_BUILD_CLASS_DUMP'))
             continue
-        if 'Hidden' in spell.raw.splitlines()[0] or not simc._player_text_sections(spell.raw):
+        if not simc._player_text_sections(spell.raw):
             if unavailable is not None:
                 unavailable.append(dict(spell_id=sid, name=row['name'], reason='NO_PLAYER_TEXT_OR_HIDDEN'))
             continue

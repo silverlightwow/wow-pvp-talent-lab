@@ -225,3 +225,12 @@ def test_independent_generated_universe_blocks_unexplained_scalar_omission():
     report = spellbook.candidate_inventory(rows, dump,
         published_rows=[dict(spell_id=101, effect_index=1)], **arguments)
     assert report['entries'][0]['effects'][0]['published']
+
+
+def test_hidden_passive_with_player_text_remains_a_baseline_root():
+    rows = [dict(class_id=9, spec_id=0, spell_id=100, replaced_spell_id=0,
+                 name='Passive', passive=True)]
+    dump = dump_for(['Name             : Passive (id=100) [Passive, Hidden]\n'
+                     'Description      : Your attacks apply an effect.\n'])
+    roots = spellbook.ability_roots(rows, dump, class_id=9, spec_id=99, talent_spell_ids=set())
+    assert roots[0]['spell_id'] == 100 and roots[0]['passive']
