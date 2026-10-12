@@ -719,6 +719,56 @@ async def attach_official_hotfix_abilities(
     }
 
 
+
+def unrepresented_nonabsolute_base_hotfixes(audit, spec_catalog, hotfixes) -> list[dict]:
+    """Detect scoped official changes omitted solely because no PvP effect was discovered.
+
+    Class/spec spellbook membership (not a name in an unscoped class dump)
+    establishes that an ability is available. Relative and property notes
+    cannot safely be overlaid onto an arbitrary *current* tooltip: its
+    old-to-new baseline may already contain the hotfix. Fail closed instead
+    of publishing an apparently verified but incomplete comparison.
+    """
+    dump = getattr(audit, "simc_dump", None)
+    inventory = getattr(audit, "spellbook_inventory", None) or {}
+    if dump is None or not inventory:
+        raise ValueError("Exact-build baseline spellbook inventory is required")
+
+    baseline_ids = {int(sid) for sid in inventory.get("baseline_spell_ids", ())}
+    by_name = {}
+    for spell_id in baseline_ids:
+        spell = dump.spells.get(spell_id)
+        if spell is not None:
+            key = blizzard_hotfixes._normalize_name(spell.name)
+            by_name.setdefault(key, set()).add(spell_id)
+
+    represented_names = {
+        blizzard_hotfixes._normalize_name(row.talent_name)
+        for row in [*spec_catalog.talents, *spec_catalog.abilities]
+    }
+    missing = []
+    for hotfix in hotfixes:
+        mode = str(hotfix.mode)
+        if not (mode.startswith(("relative_", "remove_relative_", "property_"))
+                and not str(hotfix.talent_name).startswith("__")
+                and blizzard_hotfixes._hotfix_applies_to_catalog(hotfix, spec_catalog)):
+            continue
+        names = (blizzard_hotfixes._relative_name_candidates(hotfix.talent_name)
+                 if mode.startswith(("relative_", "remove_relative_"))
+                 else (blizzard_hotfixes._normalize_name(hotfix.talent_name),))
+        normalized = {blizzard_hotfixes._normalize_name(name) for name in names}
+        matched_ids = sorted(set().union(*(by_name.get(name, set()) for name in normalized)))
+        if matched_ids and not normalized.intersection(represented_names):
+            missing.append(dict(
+                talent_name=hotfix.talent_name,
+                mode=mode,
+                text=hotfix.text,
+                spell_ids=matched_ids,
+                reason="UNREPRESENTED_SCOPED_BASE_HOTFIX",
+            ))
+    return missing
+
+
 # ============================================================
 # Builder
 # ============================================================

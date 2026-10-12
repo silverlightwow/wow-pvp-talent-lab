@@ -20,8 +20,9 @@ async function check(browser, width) {
     page.on('pageerror', e => errors.push('JS: ' + e.message));
     page.on('requestfailed', req => {
         const source = new URL(req.url());
+        if (req.failure()?.errorText === 'net::ERR_ABORTED') return;
         if (source.origin === new URL(url).origin &&
-            /(?:\.js|\.css|\.html)(?:\?|$)/i.test(source.pathname))
+            /(?:\.js|\.json|\.css|\.html)(?:\?|$)/i.test(source.pathname))
             errors.push(req.url() + ': ' + (req.failure()?.errorText || 'failed'));
     });
     const waitForSpec = async (cls, spec) => {
@@ -29,7 +30,9 @@ async function check(browser, width) {
             await page.waitForFunction(({cls,spec}) =>
                 document.querySelector('#treeTitle')?.textContent?.trim() === spec + ' ' + cls &&
                 !document.querySelector('#classSelect')?.disabled &&
-                !document.body.classList.contains('welcome-active'),
+                !document.body.classList.contains('welcome-active') &&
+                document.querySelectorAll('.talent-node').length > 25 &&
+                window.WOW_PVP_DATA?.class_name === cls && window.WOW_PVP_DATA?.spec_name === spec,
             {cls,spec}, {timeout:45000});
         } catch (error) {
             const state = await page.evaluate(() => ({
@@ -97,7 +100,9 @@ async function check(browser, width) {
     }
 }
 (async () => {
-    const browser = await chromium.launch({headless:true});
+    const launch = {headless:true};
+    if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
+    const browser = await chromium.launch(launch);
     try {
         const rows = [];
         for (const width of widthList) {

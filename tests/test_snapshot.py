@@ -80,3 +80,14 @@ def test_stale_or_modified_manifest_is_rejected(tmp_path):
     p.write_text(json.dumps(manifest))
     with pytest.raises(SnapshotError, match='integrity'):
         HttpSnapshot(snapshot.directory)
+
+
+def test_explicit_archival_replay_keeps_integrity_checks(tmp_path):
+    snapshot = HttpSnapshot(tmp_path / 'inputs', recording=True)
+    snapshot.manifest['captured_at'] = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
+    snapshot.record('https://example.test/a', 'original')
+    snapshot.seal({})
+    archived = HttpSnapshot(snapshot.directory, archival_replay=True)
+    assert archived.read('https://example.test/a') == 'original'
+    with pytest.raises(SnapshotError, match='Uncaptured'):
+        archived.read('https://example.test/missing')

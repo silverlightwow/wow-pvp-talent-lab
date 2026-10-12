@@ -867,6 +867,7 @@
     // ========================================================
 
     let datasetLoadToken = 0;
+    let datasetAbortController = null;
 
 
     function manifestClass(
@@ -1212,143 +1213,57 @@
             );
 
 
-        if (
-            currentSlug
-            === spec.slug
-        ) {
+        // A selection of the current spec also invalidates an older pending load.
+        const token = ++datasetLoadToken;
+        datasetAbortController?.abort();
+        document.querySelector('script[data-dataset-loader]')?.remove();
+        const setBusy = value => {
+            $('#classSelect').disabled = value;
+            $('#specSelect').disabled = value;
+        };
+        if (currentSlug === spec.slug) {
+            setBusy(false);
             updateDocumentTitle();
             renderTrees();
             return;
         }
-
-
-        const token =
-            ++datasetLoadToken;
-
-
-        $("#classSelect").disabled =
-            true;
-
-        $("#specSelect").disabled =
-            true;
-
-
-        const previous =
-            document.querySelector(
-                "script[data-dataset-loader]"
-            );
-
-        if (previous) {
-            previous.remove();
+        setBusy(true);
+        $('#treeMessage').textContent = 'Loading specialization…';
+        const accept = nextData => {
+            if (token !== datasetLoadToken) return;
+            if (nextData?.class_name !== className || nextData?.spec_name !== specName || nextData?.slug !== spec.slug)
+                throw new Error('Loaded dataset identity mismatch');
+            window.WOW_PVP_DATA = nextData;
+            applyDataset(nextData);
+        };
+        const fail = error => {
+            if (token !== datasetLoadToken) return;
+            console.error(error);
+            $('#treeMessage').textContent = 'Could not load this specialization. Please try again.';
+            $('#classSelect').value = data.class_name;
+            rebuildSpecSelect(data.class_name, data.spec_name);
+        };
+        const complete = () => { if (token === datasetLoadToken) setBusy(false); };
+        const version = encodeURIComponent(manifest?.generated_at || manifest?.tree_build || '');
+        if (location.protocol === 'file:') {
+            // Keep downloaded/offline snapshots usable without file:// fetch permissions.
+            const script = document.createElement('script');
+            script.dataset.datasetLoader = spec.slug;
+            script.src = `data/${encodeURIComponent(spec.slug)}.js?v=${version}`;
+            script.onload = () => { try { accept(window.WOW_PVP_DATA); } catch (error) { fail(error); } finally { complete(); } };
+            script.onerror = () => { fail(new Error('Dataset script request failed')); complete(); };
+            document.body.appendChild(script);
+        } else {
+            // JSON belongs to this request; an obsolete script cannot overwrite a newer dataset.
+            const controller = new AbortController();
+            datasetAbortController = controller;
+            const timer = setTimeout(() => controller.abort(new Error('Dataset request timed out')), 30000);
+            fetch(`data/${encodeURIComponent(spec.slug)}.json?v=${version}`, {cache:'no-store', signal:controller.signal})
+                .then(response => {
+                    if (!response.ok) throw new Error(`Dataset HTTP ${response.status}`);
+                    return response.json();
+                }).then(accept).catch(fail).finally(() => { clearTimeout(timer); complete(); });
         }
-
-
-        const script =
-            document.createElement(
-                "script"
-            );
-
-        script.dataset.datasetLoader =
-            spec.slug;
-
-        script.src =
-            `data/${encodeURIComponent(
-                spec.slug
-            )}.js?v=${
-                encodeURIComponent(
-                    manifest?.generated_at
-                    || manifest?.tree_build
-                    || ""
-                )
-            }`;
-
-
-        script.onload =
-            () => {
-
-                if (
-                    token
-                    !== datasetLoadToken
-                ) {
-                    return;
-                }
-
-
-                try {
-
-                    const nextData =
-                        window.WOW_PVP_DATA;
-
-
-                    if (
-                        nextData?.class_name
-                        !== className
-                        || nextData?.spec_name
-                        !== specName
-                    ) {
-
-                        throw new Error(
-                            "Loaded dataset identity mismatch"
-                        );
-                    }
-
-
-                    applyDataset(
-                        nextData
-                    );
-
-                }
-                catch (error) {
-
-                    console.error(
-                        error
-                    );
-
-                    $("#treeMessage")
-                        .textContent =
-                        "Could not load this specialization. Please try again.";
-                    $("#classSelect").value = data.class_name;
-                    rebuildSpecSelect(data.class_name, data.spec_name);
-                }
-                finally {
-
-                    $("#classSelect").disabled =
-                        false;
-
-                    $("#specSelect").disabled =
-                        false;
-                }
-            };
-
-
-        script.onerror =
-            () => {
-
-                if (
-                    token
-                    !== datasetLoadToken
-                ) {
-                    return;
-                }
-
-
-                $("#classSelect").disabled =
-                    false;
-
-                $("#specSelect").disabled =
-                    false;
-
-                $("#treeMessage")
-                    .textContent =
-                    "Could not load this specialization. Please try again.";
-                $("#classSelect").value = data.class_name;
-                rebuildSpecSelect(data.class_name, data.spec_name);
-            };
-
-
-        document.body.appendChild(
-            script
-        );
     }
 
 

@@ -11,7 +11,7 @@ on:
   schedule:
     - cron: '43 1,7,13,19 * * *'
   workflow_run:
-    workflows: ['Build all PvP datasets and deploy', 'Publish current web snapshot']
+    workflows: ['Publish current web snapshot']
     types: [completed]
     branches: [main]
 

@@ -35,7 +35,7 @@ def coverage_report(data: dict) -> dict:
                 values = {field: row.get(field) for field in NUMERIC_FIELDS}
                 # A coefficient-based output's literal base amount may be
                 # absent or zero depending on its source representation.
-                if any(values.get(f) for f in ('simc_sp_coefficient', 'simc_ap_coefficient')):
+                if row.get('amount_kind') and any(values.get(f) for f in ('simc_sp_coefficient', 'simc_ap_coefficient')):
                     values['base_value'] = values['base_value'] or 0
                 effect = dict(key=[kind, record.get('entry_id') or record['spell_id'],
                                    *mechanic_key(record['spell_id'], row)],
@@ -78,7 +78,7 @@ def validate_coverage(data: dict, previous: dict | None = None):
 
 
 def replay_projection(data: dict) -> dict:
-    return dict(coverage=coverage_report(data), records=sorted([
+    return dict(coverage=coverage_report(data), spellbook_inventory=data.get('spellbook_inventory'), records=sorted([
         dict(kind=kind, spell_id=r['spell_id'], entry_id=r.get('entry_id'),
              pve_tooltip=r['pve_tooltip'], pvp_tooltip=r['pvp_tooltip'],
              rank_tooltips=r.get('rank_tooltips', []))
