@@ -8183,32 +8183,11 @@ window.WOW_PVP_DATA = {
           "inv_shadowflames_wave"
         ]
       },
-      "pve_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 240% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 240% of the amount consumed.",
-      "pvp_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 168% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 168% of the amount consumed.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 104,
-          "end": 107,
-          "old_token": "240",
-          "new_token": "168",
-          "kind": "percent_value",
-          "effect_indexes": [
-            6
-          ]
-        },
-        {
-          "start": 262,
-          "end": 265,
-          "old_token": "240",
-          "new_token": "168",
-          "kind": "percent_value",
-          "effect_indexes": [
-            6
-          ]
-        }
-      ],
+      "pve_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 290% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 290% of the amount consumed.",
+      "pvp_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 290% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 290% of the amount consumed.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -8224,19 +8203,11 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             6
           ],
-          "status": "APPLIED",
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
-          "old": "240",
-          "new": "168"
-        },
-        {
-          "effect_indexes": [
-            6
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "240",
-          "new": "168"
+          "old": 240.0,
+          "new": 168.0,
+          "full_tooltip_match_count": 0
         },
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
@@ -11428,7 +11399,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -12256,7 +12227,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12266,7 +12237,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -12447,12 +12418,12 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-10-12T07:15:43.899068+00:00",
+  "generated_at": "2026-10-12T10:58:35.686968+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
     "talents": 130,
-    "changed_tooltips": 7,
+    "changed_tooltips": 6,
     "talents_with_pvp_mechanics": 9,
     "unique_nodes": 117,
     "tree_build": "12.1.0.69933",
@@ -12498,10 +12469,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
+    "captured_at": "2026-10-12T10:46:28.734556+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "3697f1d2dfc91b8037e1528cd13f69190e0ce88dfd8a86c004ec814376923c11"
+    "evidence_hash": "f65567bda94a52a0310bd1b7d0ba90d2e5332f00d2bab468254c6ad7ff386879"
   },
   "coverage": {
     "schema": 1,

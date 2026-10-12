@@ -445,8 +445,8 @@
           "ability_evoker_timedilation"
         ]
       },
-      "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
-      "pvp_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
+      "pve_tooltip": "When your health is brought below 25%, your past self corrects your timeline if Alter Time is not on cooldown, instantly restoring 20% of your maximum health and healing you for an additional 30% over 6 sec.\nThis effect places Alter Time on cooldown as if it had been cast.",
+      "pvp_tooltip": "When your health is brought below 25%, your past self corrects your timeline if Alter Time is not on cooldown, instantly restoring 20% of your maximum health and healing you for an additional 30% over 6 sec.\nThis effect places Alter Time on cooldown as if it had been cast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -506,8 +506,8 @@
           "inv_belt_armor_waistoftime_d_01"
         ]
       },
-      "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+      "pve_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
+      "pvp_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -518,8 +518,8 @@
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
-          "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "pve_tooltip": "Alter Time's cooldown is reduced by 5 sec.",
+          "pvp_tooltip": "Alter Time's cooldown is reduced by 5 sec.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -527,8 +527,8 @@
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
-          "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "pve_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
+          "pvp_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -586,14 +586,14 @@
           "spell_ice_rune"
         ]
       },
-      "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 40,
-          "end": 42,
+          "start": 48,
+          "end": 50,
           "old_token": "60",
           "new_token": "30",
           "kind": "duration_seconds",
@@ -660,13 +660,13 @@
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 15 sec.",
+          "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 15 sec.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 40,
-              "end": 42,
+              "start": 48,
+              "end": 50,
               "old_token": "30",
               "new_token": "15",
               "kind": "duration_seconds",
@@ -680,13 +680,13 @@
         },
         {
           "rank": 2,
-          "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 40,
-              "end": 42,
+              "start": 48,
+              "end": 50,
               "old_token": "60",
               "new_token": "30",
               "kind": "duration_seconds",
@@ -811,8 +811,8 @@
           "spell_arcane_arcaneresilience"
         ]
       },
-      "pve_tooltip": "Reduces magic damage taken by 8%.",
-      "pvp_tooltip": "Reduces magic damage taken by 8%.",
+      "pve_tooltip": "Magic damage taken reduced by 8%.",
+      "pvp_tooltip": "Magic damage taken reduced by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -823,8 +823,8 @@
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces magic damage taken by 4%.",
-          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "pve_tooltip": "Magic damage taken reduced by 4%.",
+          "pvp_tooltip": "Magic damage taken reduced by 4%.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -832,8 +832,8 @@
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces magic damage taken by 8%.",
-          "pvp_tooltip": "Reduces magic damage taken by 8%.",
+          "pve_tooltip": "Magic damage taken reduced by 8%.",
+          "pvp_tooltip": "Magic damage taken reduced by 8%.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -2302,8 +2302,8 @@
           "spell_frost_frostward"
         ]
       },
-      "pve_tooltip": "Frost Nova now has 2 charges.",
-      "pvp_tooltip": "Frost Nova now has 2 charges.",
+      "pve_tooltip": "Frost Nova gains an additional charge.",
+      "pvp_tooltip": "Frost Nova gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2426,8 +2426,8 @@
           "inv_misc_book_04"
         ]
       },
-      "pve_tooltip": "Increases critical strike chance by 2%.",
-      "pvp_tooltip": "Increases critical strike chance by 2%.",
+      "pve_tooltip": "Critical strike chance by 2%.",
+      "pvp_tooltip": "Critical strike chance by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2550,8 +2550,8 @@
           "inv_misc_book_18"
         ]
       },
-      "pve_tooltip": "Increases Haste by 2%.",
-      "pvp_tooltip": "Increases Haste by 2%.",
+      "pve_tooltip": "Haste increased by 2%.",
+      "pvp_tooltip": "Haste increased by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2764,8 +2764,8 @@
           "ability_mage_invisibility"
         ]
       },
-      "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
+      "pve_tooltip": "[Greater Invisibility: Greater]Invisibility's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility's cooldown is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2952,33 +2952,22 @@
           "spell_arcane_blink"
         ]
       },
-      "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 1.5 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 50,
-          "end": 51,
-          "old_token": "3",
-          "new_token": "1.5",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
+      "pve_tooltip": "[Shimmer: Shimmer's / Blink's] cooldown is reduced by 3 sec.",
+      "pvp_tooltip": "[Shimmer: Shimmer's / Blink's] cooldown is reduced by 3 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1,
             2
           ],
-          "status": "APPLIED",
+          "status": "OTHER_SPEC_BRANCH",
           "kind": "duration_seconds",
-          "old": "3",
-          "new": "1.5"
+          "old": 3.0,
+          "new": 1.5,
+          "full_tooltip_match_count": 1
         }
       ],
       "has_pvp_mechanics": true,
@@ -3162,8 +3151,8 @@
           "inv_nerubian_necklace_02_color1"
         ]
       },
-      "pve_tooltip": "Your Mastery is increased by 3%.",
-      "pvp_tooltip": "Your Mastery is increased by 3%.",
+      "pve_tooltip": "Mastery increased by 3%.",
+      "pvp_tooltip": "Mastery increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3222,8 +3211,8 @@
           "inv_10_dungeonjewelry_primalist_necklace_2_frost"
         ]
       },
-      "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
+      "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3767,8 +3756,8 @@
           "spell_mage_temporalshield"
         ]
       },
-      "pve_tooltip": "Casting your barrier removes all snare effects.",
-      "pvp_tooltip": "Casting your barrier removes all snare effects.",
+      "pve_tooltip": "Casting Blazing Barrier removes all snare effects.",
+      "pvp_tooltip": "Casting Blazing Barrier removes all snare effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3887,14 +3876,14 @@
           "spell_mage_evanesce"
         ]
       },
-      "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 2.5 sec.",
+      "pve_tooltip": "When Blazing Barrier is removed, its remaining cooldown is reduced by 5 sec.",
+      "pvp_tooltip": "When Blazing Barrier is removed, its remaining cooldown is reduced by 2.5 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 53,
-          "end": 54,
+          "start": 70,
+          "end": 71,
           "old_token": "5",
           "new_token": "2.5",
           "kind": "duration_seconds",
@@ -8666,8 +8655,8 @@
           "spell_frostfire-orb"
         ]
       },
-      "pve_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 10% increased damage, explode for 30% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
+      "pve_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, and explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 10% increased damage, and explode for 30% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8683,8 +8672,8 @@
           ]
         },
         {
-          "start": 169,
-          "end": 171,
+          "start": 173,
+          "end": 175,
           "old_token": "60",
           "new_token": "30",
           "kind": "percent_value",
@@ -10027,7 +10016,7 @@
           "talent_spell_id": 431095,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
+          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
@@ -10058,9 +10047,9 @@
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12464,11 +12453,6 @@
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 117216,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 153561,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153561'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13039,11 +13023,6 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 153596,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 155158,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13218,7 +13197,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Burden of Power",
@@ -14038,7 +14017,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14048,7 +14027,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -14250,12 +14229,12 @@
     ]
   },
   "slug": "mage-fire",
-  "generated_at": "2026-10-12T07:16:52.690811+00:00",
+  "generated_at": "2026-10-12T10:59:39.289439+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
     "talents": 127,
-    "changed_tooltips": 34,
+    "changed_tooltips": 33,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69933",
@@ -14265,16 +14244,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 150,
+    "source_warning_count": 148,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 117216,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 153561,
@@ -14294,6 +14268,11 @@
         "source": "wowhead",
         "spell_id": 190319,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190319'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 205026,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -14301,10 +14280,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
+    "captured_at": "2026-10-12T10:46:28.734556+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
+    "evidence_hash": "235c7b6b2cec43982bcb8f85c1985a2e60b93aad0e3a4a3155bfac859a5ab17d"
   },
   "coverage": {
     "schema": 1,

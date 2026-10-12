@@ -8194,7 +8194,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 155580,
           "source_spell_id": 155625,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): arcane every 2 seconds (AP mod: 0.24)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8221,11 +8221,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -8239,7 +8238,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 155580,
           "source_spell_id": 155625,
           "effect_index": 2,
-          "effect_text": "School Damage (2): arcane (AP mod: 0.216)",
+          "effect_text": "School Damage (Arcane) (AP mod: 0.216 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8266,11 +8265,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -14595,11 +14593,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 155625,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155625'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 155722,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155722'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14719,7 +14712,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -15544,7 +15537,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15554,7 +15547,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15752,7 +15745,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "druid-feral",
-  "generated_at": "2026-10-12T07:14:55.914474+00:00",
+  "generated_at": "2026-10-12T10:57:26.454724+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -15767,7 +15760,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 137,
+    "source_warning_count": 136,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15803,10 +15796,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
+    "captured_at": "2026-10-12T10:46:28.734556+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "be7238db0b1e9e1e9715a04819fecc4f7c368566b3b5a32f19e1e265749afe45"
+    "evidence_hash": "07fb7bbd75083db1ac1808854208c132924a4148c90a1a18627cf4590fa069db"
   },
   "coverage": {
     "schema": 1,
@@ -18233,48 +18226,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
-          103170,
-          155580,
-          155625,
-          1
-        ],
-        "amount_kind": "periodic",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.88,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.24,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
-          103170,
-          155580,
-          155625,
-          2
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.88,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.216,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
           103175,
           274837,
           274838,
@@ -19407,6 +19358,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "f4bfafd5fa272c0d4328c13c17112e64db84bdbb1f1e2edd109215008725b318"
+    "independent_hash": "db410cda41c9d6258b9f9fb8606722818723459233c6e198c83ede6b32071225"
   }
 };

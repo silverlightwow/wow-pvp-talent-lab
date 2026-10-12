@@ -172,31 +172,21 @@
           "inv_12_voiddh_ability_voidblade"
         ]
       },
-      "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (247.5% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (331.0313% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 102,
-          "end": 107,
-          "old_token": "247.5",
-          "new_token": "331.0313",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
+      "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (225% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
+      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\n1 Charge\nUnleash your glaives and charge to your target, dealing (225% of Spell Power) Cosmic damage.\nGenerates 0 Fury.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "APPLIED",
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
-          "old": "247.5",
-          "new": "331.0313"
+          "old": 247.5,
+          "new": 331.03125000000006,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -5099,8 +5089,8 @@
           "inv_12_dh_void_ability_voidray"
         ]
       },
-      "pve_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
-      "pvp_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
+      "pve_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.5 sec.",
+      "pvp_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5492,8 +5482,8 @@
           "inv12_ability_deathknight_frostscythe"
         ]
       },
-      "pve_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 15%.",
-      "pvp_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 15%.",
+      "pve_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 18%.",
+      "pvp_tooltip": "Hungering Slash and Voidblade's critical strike chance is increased by 18%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6644,33 +6634,22 @@
           "inv_12_dh_void_ability_eradicate"
         ]
       },
-      "pve_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (601.56% of Spell Power) Cosmic damage to your primary target and [(601.56% of Spell Power) * 0.83] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
-      "pvp_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (338.57% of Spell Power) Cosmic damage to your primary target and [(338.57% of Spell Power) * 0.83] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 110,
-          "end": 116,
-          "old_token": "601.56",
-          "new_token": "338.57",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 177,
-          "end": 183,
-          "old_token": "601.56",
-          "new_token": "338.57",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
+      "pvp_tooltip": "Fully channeling Void Ray upgrades your Reap to Eradicate.\nEradicate\nSlam your Scythe to the ground, dealing (557% of Spell Power) Cosmic damage to your primary target and [(557% of Spell Power) * 0.9] to all other enemies within a 25 yd cone in front of you. Damage reduced beyond 5 targets.\nEradicate gathers up to 4 nearby souls.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 601.5600000000001,
+          "new": 338.5699992000001,
+          "full_tooltip_match_count": 0
+        },
         {
           "effect_indexes": [
             1
@@ -6680,24 +6659,6 @@
           "old": 773.6,
           "new": 435.3975520000001,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "601.56",
-          "new": "338.57"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "601.56",
-          "new": "338.57"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11264,7 +11225,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12089,7 +12050,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12099,7 +12060,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -12289,12 +12250,12 @@
     ]
   },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-10-12T07:13:40.482542+00:00",
+  "generated_at": "2026-10-12T10:56:32.748032+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
     "talents": 121,
-    "changed_tooltips": 23,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 26,
     "unique_nodes": 108,
     "tree_build": "12.1.0.69933",
@@ -12340,10 +12301,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
+    "captured_at": "2026-10-12T10:46:28.734556+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "09e6c5afb91d8bdfb741295cee5b2430f40659ed58ba9c302d1032c60d927cf5"
+    "evidence_hash": "77ac1222fdd40268705ca8617ed2263d3b1b824a75a32da1c2da98d2c473adf7"
   },
   "coverage": {
     "schema": 1,

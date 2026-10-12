@@ -7280,7 +7280,7 @@
           "talent_spell_id": 228920,
           "source_spell_id": 156287,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.79276 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.79276)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -7307,9 +7307,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12249,7 +12249,7 @@
           "talent_spell_id": 100,
           "source_spell_id": 126664,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.21)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.21 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -12276,11 +12276,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -13860,8 +13859,8 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 126664,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=126664'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 156287,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=156287'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14039,7 +14038,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Arterial Bleed",
@@ -14850,7 +14849,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14860,7 +14859,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15041,7 +15040,7 @@
     ]
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-10-12T07:20:28.434664+00:00",
+  "generated_at": "2026-10-12T11:05:35.000223+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -15092,10 +15091,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
+    "captured_at": "2026-10-12T10:46:28.734556+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "4462f3df2190da186091f731eba7882491c1745c5900fca7128965cc4ab84c4c"
+    "evidence_hash": "deab0864f04d52919b73fe853d5fadd1bc48975a4c8d910d24b21bc7043ae874"
   },
   "coverage": {
     "schema": 1,
@@ -17060,27 +17059,6 @@
       {
         "key": [
           "abilities",
-          100,
-          100,
-          126664,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.2,
-          "final_pvp_multiplier": 1.2,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": 0.21,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "abilities",
           163201,
           163201,
           260798,
@@ -18759,6 +18737,6 @@
         }
       }
     ],
-    "independent_hash": "37a9e049b3f503be99a6829f145bbe523d05d34b7690d39e5b04a6b89293f486"
+    "independent_hash": "bc6976fe4834d3130e48c50e88b71993039f9dc03f477a94146095fe02d18d31"
   }
 }
