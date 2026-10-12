@@ -186,7 +186,20 @@ jobs:
           WOW_PVP_SIMC_REF: ${{ needs.discover.outputs.simc_ref }}
         run: |
           set -o pipefail
-          python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 --verify-replay 2>&1 | tee build.log
+          # Temporary upstream responses can omit a structured effect
+          # even when the pinned authoritative inputs have not changed.
+          # Retry the entire VERIFIED build, never waive its coverage gate.
+          for attempt in 1 2 3; do
+            echo "Specialization verification attempt $attempt/3" | tee -a build.log
+            if python scripts/build_all_site_data.py --class-name "$CLASS_NAME" --spec-name "$SPEC_NAME" --output-dir spec-data --concurrency 4 --verify-replay 2>&1 | tee -a build.log; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "All three verification attempts failed; refusing to publish unverified values." | tee -a build.log
+              exit 1
+            fi
+            sleep 10
+          done
       - name: Preserve specialization diagnostics
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
