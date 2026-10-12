@@ -59,6 +59,8 @@ async function check(browser, width) {
         const specs = await page.locator('.welcome-spec').count();
         assert.equal(classes, 13, 'Landing page should expose every class');
         assert.equal(specs, 40, 'Landing page should expose every specialization');
+        const inventory = await page.locator('.welcome-spec').evaluateAll(buttons =>
+            buttons.map(button => ({cls:button.dataset.class, spec:button.dataset.spec})));
         const loaded = await page.evaluate(() => ({
             manifest: window.WOW_PVP_MANIFEST?.spec_count,
             talents: window.WOW_PVP_DATA?.talents?.length,
@@ -91,10 +93,27 @@ async function check(browser, width) {
         await page.locator('#homeBrand').click();
         await page.locator('.welcome-spec[data-class="Priest"][data-spec="Discipline"]').click();
         await waitForSpec('Priest', 'Discipline');
+        let visitedSpecializations = 0;
+        for (const {cls, spec} of inventory) {
+            await page.locator('#homeBrand').click();
+            await page.locator(`.welcome-spec[data-class="${cls}"][data-spec="${spec}"]`).click();
+            await waitForSpec(cls, spec);
+            await page.locator('[data-tab="compare"]').click();
+            const expected = await page.evaluate(() =>
+                (window.WOW_PVP_DATA?.abilities || []).filter(row => row.tooltip_changed)
+                    .map(row => row.spell_id).sort((a,b)=>a-b));
+            await page.locator('#compareTreeFilter').selectOption('ability');
+            assert.deepEqual(
+                await page.locator('#compareBody tr').evaluateAll(rows =>
+                    rows.map(row => Number(row.dataset.spellId)).sort((a,b)=>a-b)),
+                expected, `Live Base Spells filter mismatch for ${spec} ${cls}`);
+            visitedSpecializations++;
+        }
+        assert.equal(visitedSpecializations, 40, 'Incomplete live specialization navigation');
         await page.reload({waitUntil:'domcontentloaded'});
         assert.ok(await page.locator('#treeTitle').count(), 'App missing after reload');
         assert.deepEqual(errors, [], 'Browser errors or failed deployed script requests');
-        return {width, classes, specs, live: true, browserErrors:errors};
+        return {width, classes, specs, visitedSpecializations, live: true, browserErrors:errors};
     } finally {
         await context.close();
     }

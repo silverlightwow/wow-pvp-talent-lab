@@ -40,6 +40,11 @@ def _known_conditions(text, learned, active):
     return text
 
 
+def _format_client_amount(value, precision):
+    rendered = f'{value:.{precision}f}'
+    return rendered.rstrip('0').rstrip('.') if '.' in rendered else rendered
+
+
 def _fragments(spell, index, values, learned, active):
     text = _known_conditions('\n'.join(simc._player_text_sections(spell.raw)), learned, active)
     text = re.sub(r'\|c[0-9a-fA-F]{8}|\|r', '', text)
@@ -53,7 +58,7 @@ def _fragments(spell, index, values, learned, active):
         def resolve(value):
             rendered = token.sub(f'{value:g}',chunk)
             rendered = re.sub(r'\$\{([^{}]+)\}(?:\.(\d+))?',
-                lambda m: f'{ranks._arithmetic(m[1]):.{int(m[2] or 6)}f}'.rstrip('0').rstrip('.'), rendered)
+                lambda m: _format_client_amount(ranks._arithmetic(m[1]), int(m[2] or 6)), rendered)
             if '$' in rendered:
                 raise ValueError('Unresolved client expression')
             return ' '.join(rendered.split()).strip(' .')

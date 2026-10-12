@@ -48,3 +48,12 @@ def test_ambiguous_visible_projection_blocks_and_absent_text_is_not_fabricated()
     with pytest.raises(ValueError,match='Ambiguous'):
         passive_modifiers.normalize_text('Generates 0 points. Generates 0 points.',projected)
     assert passive_modifiers.normalize_text('No resource clause in this source.',projected) == ('No resource clause in this source.',[])
+
+
+@pytest.mark.parametrize('precision', [0, 2, 6])
+def test_client_precision_preserves_integer_trailing_zero(precision):
+    dump, _ = fixture()
+    spell = dump.spells[20]
+    spell.raw = spell.raw.replace('${$m2/10}', '${$m2/10}.' + str(precision))
+    assert passive_modifiers._fragments(spell, 2, [0, 100, 50], {10, 20}, {10}) == [
+        ['Generates 0 points', 'Generates 10 points', 'Generates 5 points']]
