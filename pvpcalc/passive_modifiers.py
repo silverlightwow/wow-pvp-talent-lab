@@ -49,6 +49,21 @@ def _fragments(spell, index, values, learned, active):
     text = _known_conditions('\n'.join(simc._player_text_sections(spell.raw)), learned, active)
     text = re.sub(r'\|c[0-9a-fA-F]{8}|\|r', '', text)
     token = re.compile(r'\$(?:'+str(spell.spell_id)+r')?[sSmMwW]'+str(index)+r'(?!\d)')
+    # Availability in a talent tree does not prove that a talent was learned.
+    # Remove unrelated conditional clauses; a resource formula inside an
+    # unresolved clause is a blocker, not permission to choose either branch.
+    conditional = re.compile(r'\$\?[sa]\d+\[')
+    while match := conditional.search(text):
+        left = match.end() - 1
+        end = simc._matching_bracket_end(text, left)
+        last = simc._matching_bracket_end(text, end + 1) if end is not None and text[end+1:end+2] == '[' else None
+        if last is None:
+            raise ValueError('Malformed conditional passive resource formula')
+        if token.search(text[match.start():last+1]):
+            raise ValueError('Passive resource formula requires unverified talent or aura state')
+        text = text[:match.start()] + text[last+1:]
+    if '$?' in text:
+        raise ValueError('Unsupported conditional passive resource formula')
     result = []
     for chunk in re.split(r'[\[\]\n]|(?<!\d)\.(?!\d)',text):
         if not token.search(chunk):
@@ -72,7 +87,7 @@ def _fragments(spell, index, values, learned, active):
 
 
 def resource_projections(dump, ability_records, public_ids, always_known_spell_ids=(), aura_rules=()):
-    learned = set(public_ids) | set(always_known_spell_ids)
+    learned = {r['spell_id'] for r in ability_records} | set(always_known_spell_ids)
     active = {r['spell_id'] for r in ability_records if r.get('passive')
         and not re.search(r'^(?:Duration|Proc Chance|Proc Flags|Triggered By)\s*:',
                           dump.spells[r['spell_id']].raw,re.M)}
@@ -91,7 +106,7 @@ def resource_projections(dump, ability_records, public_ids, always_known_spell_i
             if not targets:
                 continue
             for target in sorted(set(map(int,re.findall(r'\((\d+)\)',targets[1])))):
-                if target not in learned or target not in dump.spells:
+                if target not in public_ids or target not in dump.spells:
                     continue
                 target_effect = simc.effect_for_spell(dump,target,target_index)
                 if (not target_effect or 'Energize Power (30)' not in target_effect.effect_text

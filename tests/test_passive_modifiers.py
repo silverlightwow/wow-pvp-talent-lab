@@ -58,3 +58,20 @@ def test_client_precision_preserves_integer_trailing_zero(precision):
     spell = replace(spell, raw=spell.raw.replace('${$m2/10}', '${$m2/10}.' + str(precision)))
     assert passive_modifiers._fragments(spell, 2, [0, 100, 50], {10, 20}, {10}) == [
         ['Generates 0 points', 'Generates 10 points', 'Generates 5 points']]
+
+
+@pytest.mark.parametrize('condition', ['s20', 'a20'])
+def test_available_optional_talent_is_not_assumed_learned_or_active(condition):
+    dump, roots = fixture()
+    spell = dump.spells[20]
+    dump.spells[20] = replace(spell, raw=spell.raw.replace('$?s10[', '$?' + condition + '['))
+    with pytest.raises(ValueError, match='unverified talent or aura'):
+        passive_modifiers.resource_projections(dump, roots, {10, 20})
+
+
+def test_unrelated_optional_branch_does_not_change_unconditional_resource_formula():
+    dump, roots = fixture()
+    spell = dump.spells[20]
+    dump.spells[20] = replace(spell, raw=spell.raw + '\nTooltip          : $?s20[Deals $s1 damage.][Other text.]')
+    projected = passive_modifiers.resource_projections(dump, roots, {10, 20})
+    assert projected[0]['fragments'] == [['Generates 0 points', 'Generates 6 points', 'Generates 3 points']]
