@@ -146,6 +146,15 @@ BLOCKING_RENDER_STATUSES = {
 }
 
 
+
+def _icon_metadata(talent, page):
+    """Prefer the spell page's asset name, retaining every source alternative."""
+    canonical = page.icon if page and page.icon else ""
+    candidates = list(dict.fromkeys(icon for icon in (
+        canonical, *(talent.get("icon_candidates") or ()), talent.get("icon")
+    ) if isinstance(icon, str) and icon))
+    return dict(icon=canonical or talent.get("icon") or "", icon_candidates=candidates) if candidates else {}
+
 def _mechanic_row(
     row: dict,
 ) -> dict:
@@ -1200,41 +1209,7 @@ async def build_spec_catalog(
                 tree_data=
                     {
                         **talent,
-                        **(
-                            {
-                                "icon": (
-                                    (
-                                        page.icon
-                                        if display_override and page and page.icon
-                                        else talent.get("icon")
-                                    )
-                                    or (page.icon if page else "")
-                                ),
-                                "icon_candidates": list(
-                                    dict.fromkeys(
-                                        icon
-                                        for icon in (
-                                            (
-                                                page.icon
-                                                if display_override and page
-                                                else talent.get("icon")
-                                            ),
-                                            (
-                                                talent.get("icon")
-                                                if display_override
-                                                else (page.icon if page else "")
-                                            ),
-                                        )
-                                        if icon
-                                    )
-                                ),
-                            }
-                            if (
-                                talent.get("icon")
-                                or (page and page.icon)
-                            )
-                            else {}
-                        ),
+                        **_icon_metadata(talent, page),
                     },
 
                 pve_tooltip=

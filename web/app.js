@@ -138,37 +138,8 @@
     };
 
 
-    const ICON_NAME_OVERRIDES = {
-        "spell_priest_power_word":
-            "spell_priest_power-word",
-
-        // Raidbots currently normalizes this legacy icon with
-        // an underscore, while the actual CDN asset keeps the hyphen.
-        // Used by Dominate Mind (spell 205364).
-        "spell_priest_void_flay":
-            "spell_priest_void-flay",
-
-        // Midnight 12.1 currently exposes Aimed Shot with an inv121 alias,
-        // while the actual icon asset uses the canonical legacy name.
-        "inv121_ability_hunter_aimedshot":
-            "ability_hunter_aimedshot",
-    };
-
-
     function normalizeIconName(icon) {
-
-        if (!icon) {
-            return "";
-        }
-
-        if (icon === "inv_10_specialreagentfoozles_tuskclaw_ice") {
-            icon = "inv_10_specialreagentfoozles_tuskclaw-ice";
-        }
-
-        return (
-            ICON_NAME_OVERRIDES[icon]
-            || icon
-        );
+        return typeof icon === "string" ? icon : "";
     }
 
 
