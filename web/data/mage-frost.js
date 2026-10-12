@@ -8550,7 +8550,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247777,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
+          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
@@ -8577,9 +8577,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11107,8 +11107,8 @@ window.WOW_PVP_DATA = {
           "spell_arcane_prismaticcloak"
         ]
       },
-      "pve_tooltip": "Your Mirror Image summons 1 extra copy of you.",
-      "pvp_tooltip": "Your Mirror Image summons 1 extra copy of you.",
+      "pve_tooltip": "Casting Mirror Image summons 1 extra copy of you.",
+      "pvp_tooltip": "Casting Mirror Image summons 1 extra copy of you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11227,8 +11227,8 @@ window.WOW_PVP_DATA = {
           "inv_10_blacksmithing_craftedbar_frostfirealloy"
         ]
       },
-      "pve_tooltip": "Frostfire Bolt has an additional 5% chance to grant Brain Freeze.\nThe damage of your Frost spells and Fire spells are increased by 4%.",
-      "pvp_tooltip": "Frostfire Bolt has an additional 5% chance to grant Brain Freeze.\nThe damage of your Frost spells and Fire spells are increased by 4%.",
+      "pve_tooltip": "Frostfire Bolt grants Brain Freeze 5% more often.\nThe damage of your Frost spells and Fire spells are increased by 4%.",
+      "pvp_tooltip": "Frostfire Bolt grants Brain Freeze 5% more often.\nThe damage of your Frost spells and Fire spells are increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11708,22 +11708,11 @@ window.WOW_PVP_DATA = {
           "inv12_ability_mage_isothermiccore"
         ]
       },
-      "pve_tooltip": "Comet Storm now also calls down a Meteor, dealing (900% of Spell Power) Fire damage to nearby enemies. Damage reduced beyond 8 targets.\nDamage from Meteor Shatters 1 stacks of Freezing.",
-      "pvp_tooltip": "Comet Storm now also calls down a Meteor, dealing (751.9824% of Spell Power) Fire damage to nearby enemies. Damage reduced beyond 8 targets.\nDamage from Meteor Shatters 1 stacks of Freezing.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 51,
-          "end": 54,
-          "old_token": "900",
-          "new_token": "751.9824",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "Comet Storm now also calls down a Meteor, dealing (625% of Spell Power) Fire damage to nearby enemies. Damage reduced beyond 8 targets.\nDamage from Meteor Shatters 1 stacks of Freezing.",
+      "pvp_tooltip": "Comet Storm now also calls down a Meteor, dealing (625% of Spell Power) Fire damage to nearby enemies. Damage reduced beyond 8 targets.\nDamage from Meteor Shatters 1 stacks of Freezing.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -11733,6 +11722,16 @@ window.WOW_PVP_DATA = {
           "kind": "ordinary_value",
           "old": 300.0,
           "new": 200.01,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 900.0,
+          "new": 751.9824000000001,
           "full_tooltip_match_count": 0
         },
         {
@@ -11774,15 +11773,6 @@ window.WOW_PVP_DATA = {
           "old": 104.0,
           "new": 69.62800000000001,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "900",
-          "new": "751.9824"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12016,7 +12006,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
+          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
@@ -12047,9 +12037,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12158,8 +12148,8 @@ window.WOW_PVP_DATA = {
           "ability_mage_burstofcold"
         ]
       },
-      "pve_tooltip": "Each time Ray of Frost damages one or more enemies, it generates 1 Frost Splinter.\nFor 10 sec after casting Ray of Frost, your chance to conjure an additional Frost Splinter is increased to 100%.",
-      "pvp_tooltip": "Each time Ray of Frost damages one or more enemies, it generates 1 Frost Splinter.\nFor 10 sec after casting Ray of Frost, your chance to conjure an additional Frost Splinter is increased to 100%.",
+      "pve_tooltip": "Each time Ray of Frost damages one or more enemies, it conjures 1 Frost Splinter.\nFor 10 sec after casting Ray of Frost, your chance to conjure an additional Frost Splinter is increased to 100%.",
+      "pvp_tooltip": "Each time Ray of Frost damages one or more enemies, it conjures 1 Frost Splinter.\nFor 10 sec after casting Ray of Frost, your chance to conjure an additional Frost Splinter is increased to 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -14079,11 +14069,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 153596,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 155158,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14243,7 +14228,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -15066,7 +15051,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15076,7 +15061,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15272,12 +15257,12 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-12T13:27:53.035833+00:00",
+  "generated_at": "2026-10-12T19:10:00.599296+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
     "talents": 130,
-    "changed_tooltips": 32,
+    "changed_tooltips": 31,
     "talents_with_pvp_mechanics": 40,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",
@@ -15287,7 +15272,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 148,
+    "source_warning_count": 147,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15323,10 +15308,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3e00000826d311792e24326f9d8ee5c42b69ffcae6541202f1d1748a538c6999",
-    "captured_at": "2026-10-12T13:14:16.539863+00:00",
+    "snapshot_hash": "0211301c511406137428112f8d71059c052989bfe8dfc173358849b4c59fea66",
+    "captured_at": "2026-10-12T18:57:04.874964+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "235c7b6b2cec43982bcb8f85c1985a2e60b93aad0e3a4a3155bfac859a5ab17d"
+    "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
   },
   "coverage": {
     "schema": 1,
