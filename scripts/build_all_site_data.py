@@ -510,6 +510,19 @@ async def build_one(
             )
         )
 
+    # A class/spec base spell with an official relative/property PvP change
+    # must not silently disappear merely because its current DBC coefficient
+    # is already normalized (or the historical value is unavailable).
+    # Do not guess an old value or double-apply a relative change.
+    unrepresented_base_hotfixes = catalog.unrepresented_nonabsolute_base_hotfixes(
+        audit, spec_catalog, official_hotfixes
+    )
+    if unrepresented_base_hotfixes:
+        raise RuntimeError(
+            "Unrepresented exact-spellbook base PvP hotfixes: "
+            + json.dumps(unrepresented_base_hotfixes, default=_json_default)
+        )
+
     hotfix_report = (
         blizzard_hotfixes
         .apply_official_pvp_hotfixes(
