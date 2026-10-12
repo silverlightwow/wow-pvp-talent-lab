@@ -10713,7 +10713,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
     "baseline_spell_ids": [
       131347,
       183752,
@@ -10756,7 +10756,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-10-12T10:57:19.626750+00:00",
+  "generated_at": "2026-10-12T13:25:23.389930+00:00",
   "validation": {
     "abilities": 1,
     "abilities_with_pvp_mechanics": 1,
@@ -10807,8 +10807,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
-    "captured_at": "2026-10-12T10:46:28.734556+00:00",
+    "snapshot_hash": "3e00000826d311792e24326f9d8ee5c42b69ffcae6541202f1d1748a538c6999",
+    "captured_at": "2026-10-12T13:14:16.539863+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "77ac1222fdd40268705ca8617ed2263d3b1b824a75a32da1c2da98d2c473adf7"
   },

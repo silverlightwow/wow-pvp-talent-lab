@@ -3629,8 +3629,8 @@ window.WOW_PVP_DATA = {
           "spell_nature_doublepolymorph1"
         ]
       },
-      "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
-      "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
+      "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yds into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
+      "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yds into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8550,7 +8550,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1247777,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
+          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
@@ -8577,9 +8577,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10826,8 +10826,8 @@ window.WOW_PVP_DATA = {
           "achievement_bg_tophealer_av"
         ]
       },
-      "pve_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
-      "pvp_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
+      "pve_tooltip": "While in combat, [Shimmer / Blink] summons a Mirror Image at your previous location.",
+      "pvp_tooltip": "While in combat, [Shimmer / Blink] summons a Mirror Image at your previous location.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11167,8 +11167,8 @@ window.WOW_PVP_DATA = {
           "spell_mage_focusingcrystal"
         ]
       },
-      "pve_tooltip": "Direct damage from Frost Splinters have a 15% chance to apply 1 stack of Freezing.",
-      "pvp_tooltip": "Direct damage from Frost Splinters have a 15% chance to apply 1 stack of Freezing.",
+      "pve_tooltip": "Direct damage from Frost Splinters has a 15% chance to apply 1 stack of Freezing.",
+      "pvp_tooltip": "Direct damage from Frost Splinters has a 15% chance to apply 1 stack of Freezing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11407,8 +11407,8 @@ window.WOW_PVP_DATA = {
           "inv_ability_shaman_primordialwave"
         ]
       },
-      "pve_tooltip": "Meteor and Pyroblast now apply Ignite.\nYour Haste is increased by 2%.",
-      "pvp_tooltip": "Meteor and Pyroblast now apply Ignite.\nYour Haste is increased by 2%.",
+      "pve_tooltip": "Meteor and Pyroblast now apply Ignite.\nHaste increased by 2%.",
+      "pvp_tooltip": "Meteor and Pyroblast now apply Ignite.\nHaste increased by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12016,7 +12016,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
+          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
@@ -12047,9 +12047,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -14079,6 +14079,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 153596,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 155158,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -15222,7 +15227,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
     "baseline_spell_ids": [
       66,
       116,
@@ -15267,7 +15272,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-12T10:59:42.779878+00:00",
+  "generated_at": "2026-10-12T13:27:53.035833+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -15282,7 +15287,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 147,
+    "source_warning_count": 148,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15318,8 +15323,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
-    "captured_at": "2026-10-12T10:46:28.734556+00:00",
+    "snapshot_hash": "3e00000826d311792e24326f9d8ee5c42b69ffcae6541202f1d1748a538c6999",
+    "captured_at": "2026-10-12T13:14:16.539863+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "235c7b6b2cec43982bcb8f85c1985a2e60b93aad0e3a4a3155bfac859a5ab17d"
   },

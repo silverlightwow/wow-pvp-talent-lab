@@ -4228,50 +4228,21 @@ window.WOW_PVP_DATA = {
           "inv_12_dh_void_ability_collapsingstar"
         ]
       },
-      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1275.5% of Spell Power) Cosmic damage to your target and [(1275.5% of Spell Power) * 0.5] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
-      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1011.3057% of Spell Power) Cosmic damage to your target and [(1011.3057% of Spell Power) * 0.5] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 197,
-          "end": 203,
-          "old_token": "1275.5",
-          "new_token": "1011.3057",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 256,
-          "end": 262,
-          "old_token": "1275.5",
-          "new_token": "1011.3057",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "pvp_tooltip": "While in Void Metamorphosis, every 30 Soul Fragments harvested grants access to Collapsing Star.\nCollapsing Star\nChannel an immense amount of void energy into a single, cataclysmic blast, dealing (1181% of Spell Power) Cosmic damage to your target and [(1181% of Spell Power) * 0.54] Cosmic damage to all nearby enemies. Damage reduced beyond 8 targets.\nWhile casting Collapsing Star, your Fury drain is significantly reduced.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": "1275.5",
-          "new": "1011.3057"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "1275.5",
-          "new": "1011.3057"
+          "old": 1275.5,
+          "new": 1011.305685,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -5089,8 +5060,8 @@ window.WOW_PVP_DATA = {
           "inv_12_dh_void_ability_voidray"
         ]
       },
-      "pve_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.5 sec.",
-      "pvp_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.5 sec.",
+      "pve_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
+      "pvp_tooltip": "Void Ray's cooldown during Void Metamorphosis is reduced by 2.0 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6297,23 +6268,22 @@ window.WOW_PVP_DATA = {
           "inv_12_voiddh_ability_thehunt"
         ]
       },
-      "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (660% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
-      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (543.774% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
+      "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (600% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (600% of Spell Power) Cosmic damage, rooting them in place for 1.5 sec and inflicting (382.5% of Spell Power) Cosmic damage over 6 sec to up to 5 enemies in your path.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [
         {
-          "start": 82,
-          "end": 85,
-          "old_token": "660",
-          "new_token": "543.774",
-          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ]
-        }
-      ],
-      "diagnostics": [
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 660.0,
+          "new": 543.774,
+          "full_tooltip_match_count": 0
+        },
         {
           "effect_indexes": [
             1
@@ -6323,15 +6293,6 @@ window.WOW_PVP_DATA = {
           "old": 744.24,
           "new": 632.604,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "660",
-          "new": "543.774"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7821,8 +7782,8 @@ window.WOW_PVP_DATA = {
           "spell_shadow_demoniccirclesummon"
         ]
       },
-      "pve_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and The Hunt.\nThe Hunt deals 25% increased damage and resets the cooldown of Soul Immolation.",
-      "pvp_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and The Hunt.\nThe Hunt deals 25% increased damage and resets the cooldown of Soul Immolation.",
+      "pve_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and Soul Immolation.",
+      "pvp_tooltip": "Entering Void Metamorphosis resets the cooldown of Voidblade and Soul Immolation.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8213,8 +8174,8 @@ window.WOW_PVP_DATA = {
           "ability_warlock_demonicpower"
         ]
       },
-      "pve_tooltip": "Intellect increased by 15% while not in demon form.\nCollapsing Star damage increased by 15%.",
-      "pvp_tooltip": "Intellect increased by 15% while not in demon form.\nCollapsing Star damage increased by 15%.",
+      "pve_tooltip": "Intellect increased by 10% while not in demon form.\nCollapsing Star damage increased by 20%.",
+      "pvp_tooltip": "Intellect increased by 10% while not in demon form.\nCollapsing Star damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8334,8 +8295,8 @@ window.WOW_PVP_DATA = {
           "spell_warlock_demonicempowerment"
         ]
       },
-      "pve_tooltip": "Activating Void Metamorphosis greatly empowers The Hunt.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
-      "pvp_tooltip": "Activating Void Metamorphosis greatly empowers The Hunt.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
+      "pve_tooltip": "Void Metamorphosis greatly empowers The Hunt and casting Collapsing Star resets its cooldown.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
+      "pvp_tooltip": "Void Metamorphosis greatly empowers The Hunt and casting Collapsing Star resets its cooldown.\nVoidsurge damage is increased by 10% for each time it previously triggered while your demon form is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9612,23 +9573,22 @@ window.WOW_PVP_DATA = {
           "inv_12_dh_void_ability_consume"
         ]
       },
-      "pve_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (367% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
-      "pvp_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (526.2046% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
+      "pve_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (340% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "pvp_tooltip": "25 yd range\n2 sec cast\nDrain the essence from your target, dealing (340% of Spell Power) Cosmic damage.\nCastable while moving.\nGenerates 8 Fury.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [
         {
-          "start": 68,
-          "end": 71,
-          "old_token": "367",
-          "new_token": "526.2046",
-          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ]
-        }
-      ],
-      "diagnostics": [
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 367.0,
+          "new": 526.2046,
+          "full_tooltip_match_count": 0
+        },
         {
           "effect_indexes": [
             1
@@ -9638,15 +9598,6 @@ window.WOW_PVP_DATA = {
           "old": 1.0,
           "new": 0.5,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "367",
-          "new": "526.2046"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9757,23 +9708,22 @@ window.WOW_PVP_DATA = {
           "inv_12_dh_void_ability_reap"
         ]
       },
-      "pve_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (601.56% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
-      "pvp_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (338.57% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
+      "pve_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (557% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "pvp_tooltip": "25 yd range\nInstant\n8 sec cooldown\n1 Charge\nCut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing (557% of Spell Power) Cosmic damage.\nReap gathers up to 4 nearby souls.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [
         {
-          "start": 156,
-          "end": 162,
-          "old_token": "601.56",
-          "new_token": "338.57",
-          "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
-          ]
-        }
-      ],
-      "diagnostics": [
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 601.5600000000001,
+          "new": 338.5699992000001,
+          "full_tooltip_match_count": 0
+        },
         {
           "effect_indexes": [
             1
@@ -9793,15 +9743,6 @@ window.WOW_PVP_DATA = {
           "old": 773.6,
           "new": 435.3975520000001,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "601.56",
-          "new": "338.57"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12211,7 +12152,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
     "baseline_spell_ids": [
       131347,
       183752,
@@ -12250,12 +12191,12 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-10-12T10:56:32.748032+00:00",
+  "generated_at": "2026-10-12T13:24:36.319275+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
     "talents": 121,
-    "changed_tooltips": 21,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 26,
     "unique_nodes": 108,
     "tree_build": "12.1.0.69933",
@@ -12301,8 +12242,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
-    "captured_at": "2026-10-12T10:46:28.734556+00:00",
+    "snapshot_hash": "3e00000826d311792e24326f9d8ee5c42b69ffcae6541202f1d1748a538c6999",
+    "captured_at": "2026-10-12T13:14:16.539863+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "77ac1222fdd40268705ca8617ed2263d3b1b824a75a32da1c2da98d2c473adf7"
   },

@@ -5931,14 +5931,14 @@
           "spell_holy_greaterblessingofsalvation"
         ]
       },
-      "pve_tooltip": "Your Lay on Hands, Divine Shield, Blessing of Protection, and Blessing of Spellwarding have 15% reduced cooldown.",
-      "pvp_tooltip": "Your Lay on Hands, Divine Shield, Blessing of Protection, and Blessing of Spellwarding have 10% reduced cooldown.",
+      "pve_tooltip": "Your Lay on Hands, Divine Shield, and Blessing of Protection have 15% reduced cooldown.",
+      "pvp_tooltip": "Your Lay on Hands, Divine Shield, and Blessing of Protection have 10% reduced cooldown.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 92,
-          "end": 94,
+          "start": 66,
+          "end": 68,
           "old_token": "15",
           "new_token": "10",
           "kind": "percent_value",
@@ -13302,6 +13302,11 @@
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 146956,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 183416,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183416'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -15123,7 +15128,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
     "baseline_spell_ids": [
       642,
       853,
@@ -15243,7 +15248,7 @@
     ]
   },
   "slug": "paladin-protection",
-  "generated_at": "2026-10-12T11:00:30.382322+00:00",
+  "generated_at": "2026-10-12T13:28:34.854030+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -15258,11 +15263,16 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 169,
+    "source_warning_count": 170,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 146956,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 183416,
@@ -15282,11 +15292,6 @@
         "source": "wowhead",
         "spell_id": 204018,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204018'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 204019,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204019'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -15294,8 +15299,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "1e37fba4cbee054bf69eaae7f987e7a091de0509c750972cbe6e0f1e877235f1",
-    "captured_at": "2026-10-12T10:46:28.734556+00:00",
+    "snapshot_hash": "3e00000826d311792e24326f9d8ee5c42b69ffcae6541202f1d1748a538c6999",
+    "captured_at": "2026-10-12T13:14:16.539863+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "782f3e7a1d4a270ec01f55296aaf2a99be0cba544df6a81293af7fb0fd558cc0"
   },
