@@ -90,10 +90,16 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     if len(ids) != len(set(ids)) or set(ids) & {t['spell_id'] for t in talents}:
         raise ValueError(f'{slug}: duplicated baseline ability identities')
     for ability in abilities:
+        mechanics_only = (ability.get('render_status') == 'MECHANICS_ONLY'
+            and ability.get('player_description_status') == 'UNAVAILABLE_IN_EXACT_SOURCE'
+            and not ability.get('pve_tooltip') and not ability.get('pvp_tooltip')
+            and not ability.get('tooltip_changed') and bool(ability.get('mechanics'))
+            and any(d.get('status') == 'SOURCE_HAS_NO_PLAYER_DESCRIPTION' for d in ability.get('diagnostics', []))
+            and all({'simc', 'simc_generated'} & set(row.get('sources', [])) for row in ability.get('mechanics', [])))
         if (ability.get('tree_type') != 'ability' or ability.get('node_id') is not None
                 or ability.get('entry_id') is not None
-                or ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}
-                or not all(ability.get(mode, '').strip() for mode in ('pve_tooltip', 'pvp_tooltip'))
+                or (not mechanics_only and (ability.get('render_status') not in {'CHANGED', 'UNCHANGED'}
+                or not all(ability.get(mode, '').strip() for mode in ('pve_tooltip', 'pvp_tooltip'))))
                 or ability.get('tooltip_changed') != (ability['pve_tooltip'] != ability['pvp_tooltip'])):
             raise ValueError(f'{slug}: unsafe or invalid baseline ability {ability["spell_id"]}')
     inventory = data.get('spellbook_inventory')

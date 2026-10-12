@@ -106,3 +106,5 @@ The data workflow and verified-artifact recovery commit checked snapshots; `Publ
 A scalar percentage aura can retain AP/SP metadata in client data. `coefficient_based` distinguishes its literal parameter from damage/healing outputs without deleting that raw provenance. This distinction is used both in numerical reconciliation and tooltip rendering.
 
 For diagnostics only, `WOW_PVP_ARCHIVAL_REPLAY=1` permits integrity-checked replay of archived inputs with a new parser. Outputs are marked `ARCHIVAL_REPLAY`, rejected by normal publication validation, and cannot be written under web. It does not permit live fallback or uncaptured source requests.
+
+Internal baseline auras with exact numeric effects but no source player description are represented as `MECHANICS_ONLY`, with empty tooltip fields and explicit `UNAVAILABLE_IN_EXACT_SOURCE` provenance. The mechanics view displays the absence notice and raw sourced parameters. This status requires exact SimC evidence for every published effect; it is not an escape for failed rendering of an available description.

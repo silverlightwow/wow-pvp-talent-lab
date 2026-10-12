@@ -50,7 +50,7 @@ const server = http.createServer((req,res)=>{
       {cls:spec.className,name:spec.name});
     assert.ok(await page.locator('.talent-node').count()>25);
    }
-   await page.evaluate(()=>navigator.serviceWorker.ready);
+   await page.waitForFunction(()=>!!navigator.serviceWorker.controller, null, {timeout:15000});
    await page.locator('#homeBrand').click();
    await page.reload();
    await page.locator('.welcome-spec').first().waitFor();

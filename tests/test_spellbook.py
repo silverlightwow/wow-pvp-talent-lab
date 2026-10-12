@@ -234,3 +234,37 @@ def test_hidden_passive_with_player_text_remains_a_baseline_root():
                      'Description      : Your attacks apply an effect.\n'])
     roots = spellbook.ability_roots(rows, dump, class_id=9, spec_id=99, talent_spell_ids=set())
     assert roots[0]['spell_id'] == 100 and roots[0]['passive']
+
+
+@pytest.mark.parametrize('description_available', [False, True])
+def test_internal_aura_retains_exact_effects_without_inventing_player_text(monkeypatch, description_available):
+    raw = ('Name             : Internal Aura (id=100) [Passive, Hidden]\n'
+           '#1 (id=1001) : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)\n'
+           'Base Value: 60 | PvP Coefficient: 0.6667\n')
+    if description_available:
+        raw += 'Description      : Source description exists.\n'
+    dump = dump_for([raw])
+    rows = pipeline._build_simc_modified_rows(spell_ids={100}, talent_by_spell={}, simc_dump=dump)
+    pipeline._fill_missing_base_values_from_simc(rows, dump)
+    pipeline._annotate_final_pvp_layers(rows, [], dump)
+    audit = pipeline.SpecAuditResult(class_name='Example', spec_name='Future',
+        metadata={'wowBuild': dump.build, 'classSpecNames': ['Future']}, drustvar_builds=[],
+        talents=[], spell_ids=[], wowhead_by_spell={}, drustvar_by_spell={},
+        wowhead_candidate_ids=set(), drustvar_candidate_ids=set(), candidate_ids={100},
+        effect_rows=rows, simc_dump=dump,
+        abilities=[dict(spell_id=100, talent_name='Internal Aura', tree_type='ability')])
+    async def fetch_page(client, sid):
+        return wowhead.WowheadSpellPage(sid,'Internal Aura','',(),wowhead.BASE.format(spell_id=sid))
+    monkeypatch.setattr(wowhead,'fetch_spell_page',fetch_page)
+    record = asyncio.run(catalog.build_spec_catalog(audit)).abilities[0]
+    assert record.mechanics[0]['base_value'] == 60
+    assert record.mechanics[0]['final_pvp_value'] == pytest.approx(40.002)
+    assert record.pve_tooltip == record.pvp_tooltip == ''
+    assert not record.tooltip_changed
+    if description_available:
+        # Loss of a description that the pinned source has is still a blocker.
+        assert record.render_status == 'MISSING_TOOLTIP'
+    else:
+        assert record.render_status == 'MECHANICS_ONLY'
+        assert record.player_description_status == 'UNAVAILABLE_IN_EXACT_SOURCE'
+        assert record.diagnostics[-1]['status'] == 'SOURCE_HAS_NO_PLAYER_DESCRIPTION'

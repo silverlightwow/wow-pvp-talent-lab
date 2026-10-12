@@ -78,6 +78,7 @@ class TalentRecord:
     # main parent tooltip.
     render_effect_count: int
     rank_tooltips: list[dict]
+    player_description_status: str = 'AVAILABLE'
 
 
 @dataclass
@@ -1119,6 +1120,18 @@ async def build_spec_catalog(
         )
 
 
+        exact_spell = getattr(audit, 'simc_dump', None)
+        exact_spell = exact_spell.spells.get(spell_id) if exact_spell else None
+        mechanics_only = (talent.get('tree_type') == 'ability'
+            and not rendered['pve_tooltip'].strip()
+            and exact_spell is not None and not simc._player_text_sections(exact_spell.raw)
+            and bool(mechanic_rows)
+            and all('simc' in row.get('sources', []) or 'simc_generated' in row.get('sources', [])
+                    for row in mechanic_rows))
+        if mechanics_only:
+            rendered['diagnostics'].append(dict(status='SOURCE_HAS_NO_PLAYER_DESCRIPTION',
+                source='simc_exact_build', build=audit.tree_build, spell_id=spell_id))
+
         records.append(
             TalentRecord(
                 talent_name=str(
@@ -1137,6 +1150,7 @@ async def build_spec_catalog(
                     spell_id,
 
                 rank_tooltips=rank_tooltips,
+                player_description_status='UNAVAILABLE_IN_EXACT_SOURCE' if mechanics_only else 'AVAILABLE',
 
                 node_id=
                     talent.get(
@@ -1219,7 +1233,7 @@ async def build_spec_catalog(
                     ],
 
                 render_status=
-                    _render_status(
+                    "MECHANICS_ONLY" if mechanics_only else _render_status(
                         tooltip=
                             rendered["pve_tooltip"],
 

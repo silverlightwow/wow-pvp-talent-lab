@@ -91,12 +91,9 @@ def ability_roots(tables, dump, *, class_id, spec_id, talent_spell_ids, unavaila
                 unavailable.append(dict(spell_id=sid, name=row['name'],
                     reason='NOT_IN_EXACT_BUILD_CLASS_DUMP'))
             continue
-        if not simc._player_text_sections(spell.raw):
-            if unavailable is not None:
-                unavailable.append(dict(spell_id=sid, name=row['name'], reason='NO_PLAYER_TEXT_OR_HIDDEN'))
-            continue
         roots.append(dict(spell_id=sid, talent_name=row['name'], tree_type='ability',
-                          entry_type='ability', passive=row.get('passive', False), class_id=class_id, spec_id=spec_id,
+                          entry_type='ability', passive=row.get('passive', False) or 'Passive' in spell.raw.splitlines()[0],
+                          player_text_available=bool(simc._player_text_sections(spell.raw)), class_id=class_id, spec_id=spec_id,
                           source='simc_exact_build_spellbook', wow_build=dump.build))
     return roots
 
