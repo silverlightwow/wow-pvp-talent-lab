@@ -1083,6 +1083,12 @@ async def build_spec_catalog(
         if baseline_normalizations:
             rendered['diagnostics'].append(dict(status='EXACT_BASELINE_PASSIVE_NORMALIZATION', changes=baseline_normalizations))
         if baseline_changes:
+            for change in baseline_changes:
+                original = rendered['pve_tooltip']
+                if original.count(change['old_token']) != 1:
+                    raise ValueError('Passive change has no unique original tooltip span')
+                change['start'] = original.index(change['old_token'])
+                change['end'] = change['start'] + len(change['old_token'])
             rendered['replacements'].extend(baseline_changes)
             rendered['changed'] = rendered['pve_tooltip'] != rendered['pvp_tooltip']
 

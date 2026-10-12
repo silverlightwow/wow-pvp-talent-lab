@@ -21,7 +21,7 @@ def _blocks(spell):
 
 def _known_conditions(text, learned, active):
     pattern = re.compile(r'\$\?([sa])(\d+)\[')
-    for _ in range(10):
+    while True:
         changed = False
         for match in reversed(list(pattern.finditer(text))):
             allowed = learned if match[1] == 's' else active
@@ -85,7 +85,7 @@ def resource_projections(dump, ability_records, public_ids, always_known_spell_i
             targets = re.search(r'Affected Spells:\s*([^\n]+)',block)
             if not targets:
                 continue
-            for target in map(int,re.findall(r'\((\d+)\)',targets[1])):
+            for target in sorted(set(map(int,re.findall(r'\((\d+)\)',targets[1])))):
                 if target not in learned or target not in dump.spells:
                     continue
                 target_effect = simc.effect_for_spell(dump,target,target_index)
@@ -93,6 +93,8 @@ def resource_projections(dump, ability_records, public_ids, always_known_spell_i
                         or target_effect.base_value is None or simc.effect_uses_coefficient(target_effect)
                         or target_effect.pvp_coefficient not in (None,1)):
                     continue
+                if target_effect.scaled_value not in (None,target_effect.base_value):
+                    raise ValueError('Resource target depends on unsupported level scaling')
                 target_block = dict(_blocks(dump.spells[target])).get(target_index,'')
                 if not re.search(r'Modified By:[^\n]*\('+str(source)+r' effect#'+str(index)+r'\)',target_block):
                     raise ValueError('Passive modifier target lacks reciprocal effect identity')
