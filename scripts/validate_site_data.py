@@ -103,6 +103,22 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
                 or not set(inventory['pvp_spell_ids']).issubset(inventory['baseline_spell_ids'])
                 or validation.get('abilities') != len(abilities)):
             raise ValueError(f'{slug}: incomplete spellbook coverage inventory')
+    universe = (inventory or {}).get('candidate_universe')
+    if universe is not None:
+        if universe.get('schema') != 1 or not universe.get('class_spec_complete'):
+            raise ValueError(f'{slug}: incomplete independent baseline universe')
+        from pvpcalc.coverage import mechanic_key
+        published = {mechanic_key(record['spell_id'], row)
+            for record in [*talents, *abilities] for row in record.get('mechanics', [])}
+        for entry in universe['entries']:
+            for effect in entry['effects']:
+                identity = (entry['spell_id'], effect['source_spell_id'], effect['effect_index'])
+                if effect['published'] and identity not in published:
+                    raise ValueError(f'{slug}: candidate claims an absent public effect {identity}')
+                if (not entry.get('scope') and entry['classification'] == 'BASE_ABILITY'
+                        and abs(effect['current_pvp_coefficient'] - 1) > 1e-9
+                        and identity not in published):
+                    raise ValueError(f'{slug}: baseline candidate omitted {identity}')
     return data
 
 

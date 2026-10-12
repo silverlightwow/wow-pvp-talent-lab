@@ -35,7 +35,7 @@ def coverage_report(data: dict) -> dict:
                 values = {field: row.get(field) for field in NUMERIC_FIELDS}
                 # A coefficient-based output's literal base amount may be
                 # absent or zero depending on its source representation.
-                if row.get('amount_kind') and any(values.get(f) for f in ('simc_sp_coefficient', 'simc_ap_coefficient')):
+                if any(values.get(f) for f in ('simc_sp_coefficient', 'simc_ap_coefficient')):
                     values['base_value'] = values['base_value'] or 0
                 effect = dict(key=[kind, record.get('entry_id') or record['spell_id'],
                                    *mechanic_key(record['spell_id'], row)],
