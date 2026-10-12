@@ -18,6 +18,9 @@ concurrency:
 
 jobs:
   health:
+    # The failed data-build run already alerts; don't send another failure
+    # for the same incident. Periodic health checks still catch stale data.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

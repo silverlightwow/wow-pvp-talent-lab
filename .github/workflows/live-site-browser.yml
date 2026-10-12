@@ -24,6 +24,10 @@ concurrency:
 
 jobs:
   live_browser:
+    # Run against production only: a PR's not-yet-deployed UI cannot be
+    # validated by browsing the *old* live site. Build/browser smoke tests
+    # validate PR code locally. After failures, the data build already alerts.
+    if: github.event_name != 'pull_request' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

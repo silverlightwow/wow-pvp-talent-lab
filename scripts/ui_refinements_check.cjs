@@ -1,5 +1,11 @@
 const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
 const indexHtml=fs.readFileSync(path.resolve(__dirname,'../web/index.html'),'utf8');
+
+const appJs=fs.readFileSync(path.resolve(__dirname,'../web/app.js'),'utf8');
+// Service-worker activation must never reload a live build: activation can
+// happen after the visitor started switching specializations or editing nodes.
+assert.ok(!/controllerchange[\s\S]{0,1000}location\.reload\s*\(/.test(appJs),
+ 'Service-worker controllerchange must not reset an active calculator session');
 assert.equal(indexHtml.includes('\\n'),false,'index.html must not contain literal \\n text');
 const brandSrc=indexHtml.match(/class="brand-mark"[\s\S]*?src="([^"]+)"/)?.[1]?.split('?')[0];
 const faviconSrc=indexHtml.match(/<link rel="icon"[^>]*href="([^"]+)"/)?.[1]?.split('?')[0];
