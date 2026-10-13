@@ -12056,7 +12056,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 155158,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 0.5 seconds (SP mod: 1.04)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
@@ -12087,9 +12087,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -14069,11 +14069,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 155158,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 190336,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14228,7 +14223,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -15051,7 +15046,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15061,7 +15056,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15212,7 +15207,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
+    "source_ref": "d8986a85318ea61967f54ec644db86f5e44203ff",
     "baseline_spell_ids": [
       66,
       116,
@@ -15257,7 +15252,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-12T19:10:00.599296+00:00",
+  "generated_at": "2026-10-13T01:15:24.651005+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -15272,7 +15267,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 147,
+    "source_warning_count": 146,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15308,10 +15303,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "0211301c511406137428112f8d71059c052989bfe8dfc173358849b4c59fea66",
-    "captured_at": "2026-10-12T18:57:04.874964+00:00",
+    "snapshot_hash": "b4f84b84502dc4ccc89b092e34924ac004b2a2bc781056794194d0ab82e0429f",
+    "captured_at": "2026-10-13T01:02:23.807390+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
+    "evidence_hash": "235c7b6b2cec43982bcb8f85c1985a2e60b93aad0e3a4a3155bfac859a5ab17d"
   },
   "coverage": {
     "schema": 1,

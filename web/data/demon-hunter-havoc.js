@@ -4986,7 +4986,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 328725,
           "source_spell_id": 115804,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5005,11 +5005,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -13713,6 +13712,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 115804,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 131347,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=131347'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14062,7 +14066,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Reaver's Mark",
@@ -14884,21 +14888,21 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Illidan’s Grasp",
         "text": "Illidan’s Grasp damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
         "date": "2026-10-06",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
           "Vengeance"
         ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
       },
       {
         "talent_name": "Improved Mass Dispel",
@@ -15048,7 +15052,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
+    "source_ref": "d8986a85318ea61967f54ec644db86f5e44203ff",
     "baseline_spell_ids": [
       131347,
       162243,
@@ -15097,7 +15101,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-10-12T19:07:34.253732+00:00",
+  "generated_at": "2026-10-13T01:12:52.854628+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -15112,7 +15116,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 194,
+    "source_warning_count": 195,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15148,10 +15152,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "0211301c511406137428112f8d71059c052989bfe8dfc173358849b4c59fea66",
-    "captured_at": "2026-10-12T18:57:04.874964+00:00",
+    "snapshot_hash": "b4f84b84502dc4ccc89b092e34924ac004b2a2bc781056794194d0ab82e0429f",
+    "captured_at": "2026-10-13T01:02:23.807390+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "09e6c5afb91d8bdfb741295cee5b2430f40659ed58ba9c302d1032c60d927cf5"
+    "evidence_hash": "77ac1222fdd40268705ca8617ed2263d3b1b824a75a32da1c2da98d2c473adf7"
   },
   "coverage": {
     "schema": 1,

@@ -214,7 +214,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 107428,
           "source_spell_id": 115804,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -231,11 +231,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -9626,8 +9625,8 @@ window.WOW_PVP_DATA = {
           "ability_monk_summontigerstatue"
         ]
       },
-      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
-      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
+      "pve_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
+      "pvp_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12249,13 +12248,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 101545,
           "source_spell_id": 123586,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -70.0,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33) (AP mod: 0.14742)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             101545,
@@ -12266,9 +12265,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13086,6 +13085,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 116095,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116095'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 116705,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116705'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13093,11 +13097,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 121817,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123904,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13761,8 +13760,18 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 115804,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 117418,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117418'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 123586,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123586'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13950,7 +13959,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -14780,7 +14789,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14790,7 +14799,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -14927,7 +14936,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "80f9547c41b11c6fe15783539459c28ae49acb63",
+    "source_ref": "d8986a85318ea61967f54ec644db86f5e44203ff",
     "baseline_spell_ids": [
       8647,
       100780,
@@ -14979,7 +14988,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-12T19:10:26.778565+00:00",
+  "generated_at": "2026-10-13T01:15:59.757329+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -14994,11 +15003,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 172,
+    "source_warning_count": 174,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 116095,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116095'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 116705,
@@ -15008,11 +15022,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 121817,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121817'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 123904,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123904'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -15030,10 +15039,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "0211301c511406137428112f8d71059c052989bfe8dfc173358849b4c59fea66",
-    "captured_at": "2026-10-12T18:57:04.874964+00:00",
+    "snapshot_hash": "b4f84b84502dc4ccc89b092e34924ac004b2a2bc781056794194d0ab82e0429f",
+    "captured_at": "2026-10-13T01:02:23.807390+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
+    "evidence_hash": "bfde96380295393a162667f8eec3654fba5db2a5d2e79b678712efd8404c651a"
   },
   "coverage": {
     "schema": 1,
@@ -15091,11 +15100,11 @@ window.WOW_PVP_DATA = {
         ],
         "amount_kind": null,
         "values": {
-          "base_value": -70.0,
+          "base_value": 0,
           "spell_pvp_multiplier": 0.714286,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
+          "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.14742,
           "scaled_base_value": null,
@@ -16195,7 +16204,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "067af945889b23ed8ffb9f1978563f0ebdd8727a9844c50538af490031d302cf",
+    "semantic_hash": "0d240d91b84e65935a5efa3cf0c95654d6ebabfb5e00702ce39d776f2e44cc2f",
     "independent_effects": [
       {
         "key": [
@@ -16249,11 +16258,11 @@ window.WOW_PVP_DATA = {
         ],
         "amount_kind": null,
         "values": {
-          "base_value": -70.0,
+          "base_value": 0,
           "spell_pvp_multiplier": 0.714286,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
+          "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.14742,
           "scaled_base_value": null,
@@ -17269,6 +17278,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "58f21b9bd972e3e1e770ac468a285c15e9e36850da75829c81f91f5f6b0c089e"
+    "independent_hash": "7f43c166556cc1d621361c8070a8e7a3c7f83d11c68db6c4f460cd83d2df3953"
   }
 };
