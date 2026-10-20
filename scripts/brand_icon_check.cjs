@@ -32,7 +32,10 @@ const server = http.createServer((req, res) => {
         await self.skipWaiting();
       })));
       self.addEventListener('activate', e=>e.waitUntil(self.clients.claim()));
-      self.addEventListener('fetch', e=>e.respondWith(fetch(e.request).catch(async()=>await caches.match(e.request)||Response.error())));`);
+      self.addEventListener('fetch', e=>{
+        if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;
+        e.respondWith(fetch(e.request).catch(async()=>await caches.match(e.request)||Response.error()));
+      });`);
     return;
   }
   if (icons.includes(file)) {
@@ -66,7 +69,7 @@ const server = http.createServer((req, res) => {
     });
     assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
     oldWorker = false;
-    await page.goto(base);
+    await page.goto(base, {waitUntil:'domcontentloaded'});
     await page.waitForFunction(async current => (await caches.keys()).includes(current) && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'), currentCache);
     // Cache installation alone does not mean this page is controlled by the
     // new worker. Wait for its activation before testing immutable routing.
@@ -84,7 +87,7 @@ const server = http.createServer((req, res) => {
     // old-worker requests. A normal navigation adopts the new worker; only
     // then can a zero-network cache assertion describe the new fetch policy.
     // The app itself must never force this reload on an active user's build.
-    await page.reload();
+    await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {
