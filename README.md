@@ -35,10 +35,12 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 3. builds each specialization twice without network access and compares tooltips, all ranks, and numeric mechanics;
 4. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
 5. merges exactly the discovered list without damaging the previous snapshot on failure;
-6. runs Chromium checks for every specialization and hero tree at 2560, 1440, 1024, 390, and 320 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics;
+6. runs Chromium checks for every specialization and hero tree at ten widths from 320 to 2560 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics; the complete frontend regression suite also runs against the newly assembled data;
 7. commits the verified data and publishes the site only after all checks pass.
 
 After every deployment (including UI-only and recovered snapshots), an additional job checks every published file against the exact artifact's SHA-256 inventory. It retries only files that have not propagated yet. `site-health.yml` checks the frontend and manifest every three hours, after completed refresh/publication workflows regardless of their result, or on manual dispatch. It fails if either the publication or its original source capture is older than 12 hours; republishing old data cannot reset source freshness. The separate hourly ChatGPT monitor remains paused.
+
+The calculator reports verification, source freshness and conditional ability coverage separately. An overdue source capture remains overdue after republishing; missing or future timestamps are unknown rather than verified current. Service-worker migration checks query the actual controlling worker's cache version and retain icon bytes and stale-cache isolation checks.
 
 Data-code pull requests run the complete fresh-source, specialization and browser checks. Their dataset commits and Pages deployment are disabled; only a main-branch run can publish the verified result.
 

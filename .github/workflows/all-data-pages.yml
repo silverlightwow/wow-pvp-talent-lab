@@ -252,6 +252,9 @@ jobs:
           path: web/data
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - name: Full frontend regression suite against newly assembled data
+        if: matrix.width == 1440
+        run: npm run test:smoke
       - name: Check every specialization and hero tree at this width
         env:
           REQUIRE_CURRENT_HOTFIX_ABILITIES: '1'

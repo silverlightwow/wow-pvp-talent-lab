@@ -12,6 +12,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(web, 'manifest.json'), 'ut
 const icons = [...manifest.icons.map(icon => icon.src), 'favicon-v25-16.png', 'favicon-v25-32.png'];
 const oldIcon = '<svg xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="red"/></svg>';
 let oldWorker = true, blockIcons = false, iconRequests = 0;
+const iconRequestLog = [];
 const mime = { '.html': 'text/html', '.js': 'application/javascript', '.json': 'application/json', '.css': 'text/css', '.png': 'image/png', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg' };
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
@@ -36,6 +37,7 @@ const server = http.createServer((req, res) => {
   }
   if (icons.includes(file)) {
     iconRequests++;
+    iconRequestLog.push({file, destination:req.headers['sec-fetch-dest'], blocked:blockIcons});
     if (blockIcons) { res.destroy(); return; }
   }
   const resolved = path.resolve(web, file);
@@ -68,10 +70,16 @@ const server = http.createServer((req, res) => {
     await page.waitForFunction(async current => (await caches.keys()).includes(current) && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'), currentCache);
     // Cache installation alone does not mean this page is controlled by the
     // new worker. Wait for its activation before testing immutable routing.
-    await page.waitForFunction(async () => {
-      const registration = await navigator.serviceWorker.getRegistration();
-      return navigator.serviceWorker.controller === registration?.active && !registration?.installing && !registration?.waiting;
-    });
+    await page.waitForFunction(expected => new Promise(resolve => {
+      const controller = navigator.serviceWorker.controller;
+      if (!controller) return resolve(false);
+      const channel = new MessageChannel();
+      const timer = setTimeout(() => { channel.port1.close(); resolve(false); }, 250);
+      channel.port1.onmessage = event => {
+        clearTimeout(timer); channel.port1.close(); resolve(event.data?.cache === expected);
+      };
+      controller.postMessage({type:'CACHE_VERSION'}, [channel.port2]);
+    }), currentCache);
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {
@@ -94,7 +102,18 @@ const server = http.createServer((req, res) => {
     await page.locator('[data-tab="compare"]').click();
     await page.locator('.documentation-link').click();
     const frame = page.frameLocator('#docsFrame');
-    await frame.locator('#spec-aura').waitFor();
+    try {
+      await frame.locator('#spec-aura').waitFor();
+    } catch (error) {
+      console.error('Documentation migration state', await page.evaluate(() => ({
+        open:document.querySelector('#docsDialog').open,
+        src:document.querySelector('#docsFrame').src,
+        frameURL:document.querySelector('#docsFrame').contentWindow.location.href,
+        frameText:document.querySelector('#docsFrame').contentDocument?.body?.textContent?.slice(0,500),
+        controller:navigator.serviceWorker.controller?.scriptURL,
+      })));
+      throw error;
+    }
     const favicons = locator => locator.locator('link[rel="icon"], link[rel="shortcut icon"]').evaluateAll(links => links.map(link => link.href));
     assert.deepEqual(await favicons(frame), await favicons(page), 'Embedded documentation must use the calculator favicons');
     assert.equal(new URL(await page.locator('#docsFrame').getAttribute('src')).searchParams.get('v'), '25');
@@ -108,6 +127,13 @@ const server = http.createServer((req, res) => {
     // Once installed, immutable icons stay available even if their server fails.
     blockIcons = true;
     const before = iconRequests;
+    const cacheState = await page.evaluate(async current => ({
+      controller:navigator.serviceWorker.controller?.scriptURL,
+      keys:(await (await caches.open(current)).keys()).map(request=>request.url),
+    }), currentCache);
+    cacheState.workers = await Promise.all(context.serviceWorkers().map(worker => worker.evaluate(() => ({
+      cache:CACHE, brandUrls:typeof BRAND_URLS === 'undefined' ? null : [...BRAND_URLS],
+    }))));
     const bytes = await page.evaluate(async urls => Promise.all(urls.map(async url => {
       const response = await fetch(url); return { ok: response.ok, bytes: [...new Uint8Array(await response.arrayBuffer())] };
     })), icons);
@@ -115,7 +141,7 @@ const server = http.createServer((req, res) => {
       assert.equal(result.ok, true);
       assert.deepEqual(Buffer.from(result.bytes), fs.readFileSync(path.join(web, icons[i])));
     });
-    assert.equal(iconRequests, before, 'Cached rune must not be refetched on interactions');
+    assert.equal(iconRequests, before, 'Cached rune must not be refetched on interactions: '+JSON.stringify({cacheState,requests:iconRequestLog.slice(before)}));
 
     // A missing current icon must never fall back to an unrelated stale cache.
     await page.evaluate(async ({ brand, oldIcon, currentCache }) => {

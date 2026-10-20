@@ -4798,9 +4798,6 @@
                             "none",
                     }
                 )
-                .then(registration =>
-                    registration.update()
-                )
                 .catch(
                     error =>
                         console.warn(

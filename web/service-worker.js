@@ -48,6 +48,12 @@ self.addEventListener("activate", event => {
   );
 });
 
+// A page can observe the new cache before the new worker controls it.
+// Reply from the actual controller so migration checks identify its code.
+self.addEventListener("message", event => {
+  if (event.data?.type === "CACHE_VERSION") event.ports[0]?.postMessage({cache: CACHE});
+});
+
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET" || new URL(event.request.url).origin !== self.location.origin) return;
 
