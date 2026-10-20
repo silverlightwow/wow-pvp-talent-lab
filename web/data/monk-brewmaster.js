@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Monk",
   "spec_name": "Brewmaster",
-  "tree_build": "12.1.0.69933",
-  "simc_build": "12.1.0.69933",
+  "tree_build": "12.1.5.70448",
+  "simc_build": "12.1.5.70448",
   "drustvar_builds": [
-    "12.1.0.69933"
+    "12.1.5.70448"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -64,7 +64,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Paralysis",
@@ -76,9 +77,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -123,7 +124,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stagger",
@@ -135,9 +137,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -182,7 +184,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Elusive Mists",
@@ -194,9 +197,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -243,7 +246,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tiger's Lust",
@@ -255,9 +259,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -306,7 +310,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Crashing Momentum",
@@ -318,9 +323,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -394,6 +399,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -427,7 +436,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Disable",
@@ -439,9 +449,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -490,7 +500,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fast Feet",
@@ -502,9 +513,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -551,7 +562,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Grace of the Crane",
@@ -563,9 +575,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -614,7 +626,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bounding Agility",
@@ -626,9 +639,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -674,7 +687,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Calming Presence",
@@ -686,9 +700,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -737,7 +751,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wind's Reach",
@@ -749,9 +764,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -797,7 +812,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Detox",
@@ -809,9 +825,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -860,7 +876,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Vivacious Vivification",
@@ -872,9 +889,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -922,7 +939,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Silent Sanctuary",
@@ -934,9 +952,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -982,7 +1000,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Jade Walk",
@@ -994,9 +1013,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1045,7 +1064,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Pressure Points",
@@ -1057,9 +1077,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1105,7 +1125,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Spear Hand Strike",
@@ -1117,9 +1138,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1169,7 +1190,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Reinvigoration",
@@ -1181,9 +1203,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1229,7 +1251,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ancient Arts",
@@ -1241,9 +1264,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1299,7 +1322,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -1308,9 +1331,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chi Wave",
@@ -1322,9 +1346,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1398,6 +1422,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.2,
           "effect_origin": "DEPENDENCY",
@@ -1405,7 +1433,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1428,18 +1456,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chi Burst",
@@ -1451,9 +1482,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1527,6 +1558,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
           "effect_origin": "DEPENDENCY",
@@ -1534,7 +1569,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 123986,
           "source_spell_id": 148135,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5) (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.7,
           "amount_kind": "direct",
@@ -1557,20 +1592,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Transcendence",
@@ -1582,9 +1618,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1634,7 +1670,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Energy Transfer",
@@ -1646,9 +1683,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1694,7 +1731,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Celerity",
@@ -1706,9 +1744,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1757,7 +1795,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chi Torpedo",
@@ -1769,9 +1808,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1820,7 +1859,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stillstep Coil",
@@ -1832,9 +1872,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1880,7 +1920,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Quick Footed",
@@ -1892,9 +1933,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -1942,7 +1983,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Hasty Provocation",
@@ -1954,9 +1996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2004,7 +2046,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ferocity of Xuen",
@@ -2016,9 +2059,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2073,7 +2116,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -2082,9 +2125,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ring of Peace",
@@ -2096,9 +2140,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2146,7 +2190,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Song of Chi-Ji",
@@ -2158,9 +2203,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2208,7 +2253,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Spirit's Essence",
@@ -2220,9 +2266,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2294,6 +2340,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2327,7 +2377,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -2339,9 +2390,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2388,7 +2439,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Touch of Death",
@@ -2400,9 +2452,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2450,7 +2502,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Vigorous Expulsion",
@@ -2462,9 +2515,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2513,7 +2566,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Yu'lon's Grace",
@@ -2525,9 +2579,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2601,6 +2655,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -2629,7 +2687,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Peace and Prosperity",
@@ -2641,9 +2700,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2689,7 +2748,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fortifying Brew",
@@ -2701,9 +2761,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2756,6 +2816,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2782,14 +2846,16 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2801,9 +2867,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2851,7 +2917,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Save Them All",
@@ -2863,9 +2930,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2912,7 +2979,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Swift Art",
@@ -2924,9 +2992,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -2973,7 +3041,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Strength of Spirit",
@@ -2985,9 +3054,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3060,6 +3129,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3088,7 +3161,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Profound Rebuttal",
@@ -3100,9 +3174,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3150,7 +3224,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Summon Black Ox Statue",
@@ -3162,9 +3237,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3212,7 +3287,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ironshell Brew",
@@ -3224,9 +3300,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3274,7 +3350,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Expeditious Fortification",
@@ -3286,9 +3363,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3336,7 +3413,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Diffuse Magic",
@@ -3348,9 +3426,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3394,7 +3472,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Celestial Determination",
@@ -3406,9 +3485,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3455,7 +3534,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chi Proficiency",
@@ -3467,9 +3547,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3526,7 +3606,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3535,9 +3615,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Healing Winds",
@@ -3549,9 +3630,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3598,7 +3679,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Windwalking",
@@ -3610,9 +3692,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3660,7 +3742,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chi Transfer",
@@ -3672,9 +3755,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3721,7 +3804,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Martial Instincts",
@@ -3733,9 +3817,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3791,7 +3875,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3800,9 +3884,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lighter Than Air",
@@ -3814,9 +3899,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3885,6 +3970,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3913,7 +4002,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Flow of Chi",
@@ -3925,9 +4015,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -3972,7 +4062,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Escape from Reality",
@@ -3984,9 +4075,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4032,7 +4123,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Transcendence: Linked Spirits",
@@ -4044,9 +4136,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4092,7 +4184,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fatal Touch",
@@ -4104,9 +4197,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4151,7 +4244,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rushing Reflexes",
@@ -4163,9 +4257,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4209,7 +4303,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Keg Smash",
@@ -4221,9 +4316,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4312,6 +4407,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.9,
           "effect_origin": "DIRECT",
@@ -4319,7 +4418,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 121253,
           "source_spell_id": 121253,
           "effect_index": 2,
-          "effect_text": "School Damage (Physical) (AP mod: 1.9 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.9)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4337,18 +4436,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Purifying Brew",
@@ -4360,9 +4461,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4410,7 +4511,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shuffle",
@@ -4422,9 +4524,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4472,7 +4574,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "August Blessing",
@@ -4484,9 +4587,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4532,7 +4635,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Staggering Strikes",
@@ -4544,9 +4648,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4593,7 +4697,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Quick Sip",
@@ -4605,9 +4710,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4645,8 +4750,8 @@ window.WOW_PVP_DATA = {
           "achievement_faction_brewmaster"
         ]
       },
-      "pve_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
-      "pvp_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
+      "pve_tooltip": "100 yd range\nPurify 8% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
+      "pvp_tooltip": "100 yd range\nPurify 8% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4654,7 +4759,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Elixir of Determination",
@@ -4666,9 +4772,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4715,7 +4821,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Blackout Kick",
@@ -4727,9 +4834,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4776,7 +4883,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Swift as a Coursing River",
@@ -4788,9 +4896,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4836,7 +4944,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Gift of the Ox",
@@ -4848,9 +4957,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4899,7 +5008,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Special Delivery",
@@ -4911,9 +5021,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -4988,6 +5098,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -5024,6 +5138,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0,
           "effect_origin": "DEPENDENCY",
@@ -5054,7 +5172,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -5067,7 +5185,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rushing Jade Wind",
@@ -5079,9 +5198,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5156,6 +5275,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.133,
           "effect_origin": "DEPENDENCY",
@@ -5163,7 +5286,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116847,
           "source_spell_id": 148187,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.133)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5186,18 +5309,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Spirit of the Ox",
@@ -5209,9 +5335,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5260,7 +5386,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Jade Flash",
@@ -5272,9 +5399,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5320,7 +5447,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Celestial Brew",
@@ -5332,9 +5460,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5382,7 +5510,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Celestial Infusion",
@@ -5394,9 +5523,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5444,7 +5573,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Niuzao's Resolve",
@@ -5456,9 +5586,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5505,7 +5635,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Celestial Flames",
@@ -5517,9 +5648,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5592,6 +5723,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0,
           "effect_origin": "DEPENDENCY",
@@ -5622,19 +5757,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shadowboxing Treads",
@@ -5646,9 +5783,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5695,7 +5832,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fluidity of Motion",
@@ -5707,9 +5845,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5756,7 +5894,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Elusive Footwork",
@@ -5768,9 +5907,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5818,7 +5957,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "One With the Wind",
@@ -5830,9 +5970,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5878,7 +6018,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Breath of Fire",
@@ -5890,9 +6031,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -5965,6 +6106,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0,
           "effect_origin": "DIRECT",
@@ -5990,7 +6135,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -6006,6 +6151,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.11,
           "effect_origin": "DEPENDENCY",
@@ -6036,20 +6185,22 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Gai Plin's Imperial Brew",
@@ -6061,9 +6212,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6099,10 +6250,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Gai Plin's Imperial Brew",
         "spell_id": 383700,
         "visible_spell_id": null,
-        "icon": "inv_misc_beer_06",
+        "icon": "inv_misc_beer_05",
         "icon_candidates": [
-          "inv_misc_beer_06",
-          "inv_misc_beer_05"
+          "inv_misc_beer_05",
+          "inv_misc_beer_06"
         ]
       },
       "pve_tooltip": "Purifying Brew instantly heals you for 25% of the Staggered damage it clears.",
@@ -6114,7 +6265,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Light Brewing",
@@ -6126,9 +6278,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6178,7 +6330,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Training of Niuzao",
@@ -6190,9 +6343,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6242,7 +6395,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Pretense of Instability",
@@ -6254,9 +6408,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6295,8 +6449,8 @@ window.WOW_PVP_DATA = {
           "inv_misc_archaeology_vrykuldrinkinghorn"
         ]
       },
-      "pve_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
-      "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
+      "pve_tooltip": "Drinking a Brew grants you 10% dodge for 8 sec.",
+      "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6304,7 +6458,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Scalding Brew",
@@ -6316,9 +6471,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6366,7 +6521,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sal'salabim's Strength",
@@ -6378,9 +6534,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6428,7 +6584,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fortifying Brew: Determination",
@@ -6440,9 +6597,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6490,7 +6647,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bob and Weave",
@@ -6502,9 +6660,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6552,7 +6710,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Black Ox Brew",
@@ -6564,9 +6723,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6614,7 +6773,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Walk with the Ox",
@@ -6626,9 +6786,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6701,6 +6861,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 4.0,
           "effect_origin": "DEPENDENCY",
@@ -6731,12 +6895,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6762,7 +6927,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -6782,9 +6947,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Zen State",
@@ -6796,9 +6962,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6846,7 +7012,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tranquil Spirit",
@@ -6858,9 +7025,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6908,7 +7075,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Face Palm",
@@ -6920,9 +7088,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -6970,7 +7138,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Dragonfire Brew",
@@ -6982,9 +7151,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7055,6 +7224,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.2,
           "effect_origin": "DEPENDENCY",
@@ -7088,7 +7261,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Charred Passions",
@@ -7100,9 +7274,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7148,7 +7322,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "High Tolerance",
@@ -7160,9 +7335,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7219,7 +7394,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -7228,9 +7403,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Press the Advantage",
@@ -7242,9 +7418,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7319,6 +7495,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.3,
           "effect_origin": "DEPENDENCY",
@@ -7349,19 +7529,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blackout Combo",
@@ -7373,9 +7555,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7425,7 +7607,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Anvil and Stave",
@@ -7437,9 +7620,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7496,7 +7679,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -7505,9 +7688,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Counterstrike",
@@ -7519,9 +7703,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7582,6 +7766,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.9,
           "effect_origin": "DEPENDENCY",
@@ -7614,13 +7802,14 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7630,6 +7819,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.1,
           "effect_origin": "DEPENDENCY",
@@ -7664,18 +7857,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Exploding Keg",
@@ -7687,9 +7882,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7782,6 +7977,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.8,
           "effect_origin": "DIRECT",
@@ -7807,7 +8006,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -7822,6 +8021,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.3,
           "effect_origin": "DEPENDENCY",
@@ -7852,19 +8055,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ox Stance",
@@ -7876,9 +8081,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7926,7 +8131,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Awakening Spirit",
@@ -7938,9 +8144,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -7988,7 +8194,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Vital Flame",
@@ -8000,9 +8207,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8050,7 +8257,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Invoke Niuzao, the Black Ox",
@@ -8062,9 +8270,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8113,7 +8321,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fuel on the Fire",
@@ -8125,9 +8334,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8171,7 +8380,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Empty the Cellar",
@@ -8183,9 +8393,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8254,6 +8464,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.0,
           "effect_origin": "DEPENDENCY",
@@ -8284,19 +8498,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Empty the Cellar",
@@ -8308,9 +8524,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8379,6 +8595,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.0,
           "effect_origin": "DEPENDENCY",
@@ -8409,19 +8629,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stormstout's Last Keg",
@@ -8433,9 +8655,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8481,7 +8703,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Heart of the Ox",
@@ -8493,9 +8716,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8539,7 +8762,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mighty Stomp",
@@ -8551,9 +8775,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8597,7 +8821,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bring Me Another",
@@ -8609,9 +8834,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8653,7 +8878,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bring Me Another",
@@ -8665,9 +8891,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8717,7 +8943,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -8726,9 +8952,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bring Me Another",
@@ -8740,9 +8967,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8784,7 +9011,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Flurry Strikes",
@@ -8796,9 +9024,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8870,6 +9098,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.6,
           "effect_origin": "DEPENDENCY",
@@ -8900,19 +9132,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Pride of Pandaria",
@@ -8924,9 +9158,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -8972,7 +9206,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "High Impact",
@@ -8984,9 +9219,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9032,7 +9267,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Veteran's Eye",
@@ -9044,9 +9280,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9092,7 +9328,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Martial Precision",
@@ -9104,9 +9341,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9152,7 +9389,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shado Over the Battlefield",
@@ -9164,9 +9402,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9237,6 +9475,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.52,
           "effect_origin": "DEPENDENCY",
@@ -9267,19 +9509,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Combat Stance",
@@ -9291,9 +9535,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9339,7 +9583,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Initiator's Edge",
@@ -9351,9 +9596,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9399,7 +9644,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "One Versus Many",
@@ -9411,9 +9657,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9459,7 +9705,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Whirling Steel",
@@ -9471,9 +9718,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9519,7 +9766,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Predictive Training",
@@ -9531,9 +9779,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9579,7 +9827,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stand Ready",
@@ -9591,9 +9840,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9639,7 +9888,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Against All Odds",
@@ -9651,9 +9901,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9699,7 +9949,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Efficient Training",
@@ -9711,9 +9962,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9759,7 +10010,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Vigilant Watch",
@@ -9771,9 +10023,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9819,7 +10071,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Weapons of the Wall",
@@ -9831,9 +10084,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9879,7 +10132,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wisdom of the Wall",
@@ -9891,9 +10145,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Shado-Pan",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -9940,7 +10194,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Aspect of Harmony",
@@ -9952,9 +10207,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10016,6 +10271,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10044,7 +10303,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Manifestation",
@@ -10056,9 +10316,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10129,6 +10389,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10157,7 +10421,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Purified Spirit",
@@ -10169,9 +10434,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10217,7 +10482,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Harmonic Gambit",
@@ -10229,9 +10495,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10277,7 +10543,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Balanced Stratagem",
@@ -10289,9 +10556,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10337,7 +10604,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Harmonic Surge",
@@ -10349,9 +10617,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10533,6 +10801,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10564,6 +10836,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10595,6 +10871,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10626,6 +10906,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10657,6 +10941,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": 4.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10687,7 +10975,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -10703,6 +10991,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": 4.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10733,7 +11025,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -10749,6 +11041,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": 5.0,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10784,7 +11080,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 7,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tiger's Vigor",
@@ -10796,9 +11093,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10844,7 +11141,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Roar from the Heavens",
@@ -10856,9 +11154,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10904,7 +11202,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Endless Draught",
@@ -10916,9 +11215,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -10964,7 +11263,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mantra of Purity",
@@ -10976,9 +11276,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11024,7 +11324,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mantra of Tenacity",
@@ -11036,9 +11337,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11084,7 +11385,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Potential Energy",
@@ -11096,9 +11398,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11144,7 +11446,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Overwhelming Force",
@@ -11156,9 +11459,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11204,7 +11507,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Path of Resurgence",
@@ -11216,9 +11520,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11264,7 +11568,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Way of a Thousand Strikes",
@@ -11276,9 +11581,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11324,7 +11629,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Clarity of Purpose",
@@ -11336,9 +11642,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11384,7 +11690,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Meditative Focus",
@@ -11396,9 +11703,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11444,7 +11751,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Coalescence",
@@ -11456,9 +11764,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Brewmaster",
@@ -11505,7 +11813,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "abilities": [
@@ -11523,10 +11832,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 10,
         "spec_id": 268,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_monk_tigerpalm",
         "icon_candidates": [
           "ability_monk_tigerpalm"
@@ -11566,6 +11876,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.9,
           "effect_origin": "DIRECT",
@@ -11591,12 +11905,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -11604,7 +11919,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blackout Kick",
@@ -11620,10 +11936,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 10,
         "spec_id": 268,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_monk_roundhousekick",
         "icon_candidates": [
           "ability_monk_roundhousekick"
@@ -11682,6 +11999,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.847,
           "effect_origin": "DIRECT",
@@ -11707,12 +12028,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -11720,7 +12042,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Crackling Jade Lightning",
@@ -11736,10 +12059,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 10,
         "spec_id": 268,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_monk_cracklingjadelightning",
         "icon_candidates": [
           "ability_monk_cracklingjadelightning"
@@ -11779,6 +12103,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.056,
           "effect_origin": "DIRECT",
@@ -11804,18 +12132,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Spinning Crane Kick",
@@ -11831,10 +12161,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 10,
         "spec_id": 268,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_monk_cranekick_new",
         "icon_candidates": [
           "ability_monk_cranekick_new"
@@ -11874,6 +12205,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.1,
           "effect_origin": "DEPENDENCY",
@@ -11904,18 +12239,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -15.0,
               "factor": 0.85,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "fetch_errors": [],
@@ -12243,8 +12580,23 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 132578,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132578'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 119582,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119582'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 121253,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121253'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 123986,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123986'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 124502,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124502'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12908,6 +13260,36 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 120225,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120225'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 132467,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 137022,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137022'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 148135,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 148187,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148187'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 157361,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157361'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 157445,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157445'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12920,6 +13302,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 216519,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=216519'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 231602,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=231602'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12950,6 +13337,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 325095,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=325095'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 346104,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=346104'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12988,6 +13380,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 462088,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462088'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 1229376,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1229376'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13022,7 +13419,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -13847,7 +14244,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13857,7 +14254,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13995,30 +14392,38 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.0.69933",
-    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
+    "build": "12.1.5.70448",
+    "source_ref": "7bc10711b5a4514066fa402ca0a71c9ba4b7c9dd",
     "baseline_spell_ids": [
       8647,
       100780,
       100784,
+      107500,
       109132,
       115546,
       116670,
       116812,
       117906,
       117952,
+      117959,
       119381,
       120225,
       124146,
       125883,
+      130610,
+      137022,
+      157361,
       157445,
       216519,
+      231602,
       245013,
       322101,
       322102,
       322109,
       322729,
       325095,
+      346104,
+      462088,
       1229376
     ],
     "pvp_spell_ids": [
@@ -14038,10 +14443,2574 @@ window.WOW_PVP_DATA = {
         "name": "Stat Negation Aura - Agility Tank",
         "reason": "NOT_IN_EXACT_BUILD_CLASS_DUMP"
       }
-    ]
+    ],
+    "candidate_universe": {
+      "schema": 1,
+      "entries": [
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 8647,
+          "replaced_spell_id": 0,
+          "name": "Mystic Touch",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 100780,
+          "replaced_spell_id": 0,
+          "name": "Tiger Palm",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 100780,
+              "effect_index": 1,
+              "game_effect_id": 108857,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.3,
+              "current_pvp_coefficient": 1.3,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.9,
+              "published": true,
+              "dependency_path": [
+                100780
+              ],
+              "player_text": [
+                "Strike with the palm of your hand, dealing $s1 Physical damage."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 100784,
+          "replaced_spell_id": 0,
+          "name": "Blackout Kick",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 100784,
+              "effect_index": 1,
+              "game_effect_id": 108867,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.3,
+              "current_pvp_coefficient": 1.3,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.847,
+              "published": true,
+              "dependency_path": [
+                100784
+              ],
+              "player_text": [
+                "${$s1*$<CAP>/$AP}]",
+                "$s1]"
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 101546,
+          "replaced_spell_id": 0,
+          "name": "Spinning Crane Kick",
+          "passive": false,
+          "classification": "REPLACED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 107500,
+          "replaced_spell_id": 0,
+          "name": "<DND> Monk Energy Driver",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 109132,
+          "replaced_spell_id": 0,
+          "name": "Roll",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 115069,
+          "replaced_spell_id": 0,
+          "name": "Stagger",
+          "passive": false,
+          "classification": "TALENT_TREE",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 115178,
+          "replaced_spell_id": 0,
+          "name": "Resuscitate",
+          "passive": false,
+          "classification": "NOT_IN_CLASS_DUMP",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 115546,
+          "replaced_spell_id": 0,
+          "name": "Provoke",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 116670,
+          "replaced_spell_id": 0,
+          "name": "Vivify",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 116812,
+          "replaced_spell_id": 0,
+          "name": "Parry",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 117906,
+          "replaced_spell_id": 0,
+          "name": "Mastery: Elusive Brawler",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 117952,
+          "replaced_spell_id": 0,
+          "name": "Crackling Jade Lightning",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 117952,
+              "effect_index": 1,
+              "game_effect_id": 134063,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.056,
+              "published": true,
+              "dependency_path": [
+                117952
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 117959,
+          "replaced_spell_id": 0,
+          "name": "Crackling Jade Lightning",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 119381,
+          "replaced_spell_id": 0,
+          "name": "Leg Sweep",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 120225,
+          "replaced_spell_id": 0,
+          "name": "Leather Specialization",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 124146,
+          "replaced_spell_id": 0,
+          "name": "Dual Wield",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 125883,
+          "replaced_spell_id": 0,
+          "name": "Zen Flight",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 130610,
+          "replaced_spell_id": 0,
+          "name": "Monk",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 137022,
+          "replaced_spell_id": 0,
+          "name": "Monk",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 137023,
+          "replaced_spell_id": 0,
+          "name": "Brewmaster Monk",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 157361,
+          "replaced_spell_id": 0,
+          "name": "Roll Speed Controls",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 157445,
+          "replaced_spell_id": 0,
+          "name": "Critical Strikes",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 162700,
+          "replaced_spell_id": 0,
+          "name": "Stat Negation Aura - Agility Tank",
+          "passive": false,
+          "classification": "NOT_IN_CLASS_DUMP",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 216519,
+          "replaced_spell_id": 0,
+          "name": "Celestial Fortune",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 231602,
+          "replaced_spell_id": 0,
+          "name": "Improved Vivify",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 245013,
+          "replaced_spell_id": 0,
+          "name": "Brewmaster's Balance",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 322101,
+          "replaced_spell_id": 0,
+          "name": "Expel Harm",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 322102,
+          "replaced_spell_id": 0,
+          "name": "Expel Harm",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 0,
+          "spell_id": 322109,
+          "replaced_spell_id": 0,
+          "name": "Touch of Death",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 322729,
+          "replaced_spell_id": 101546,
+          "name": "Spinning Crane Kick",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 107270,
+              "effect_index": 1,
+              "game_effect_id": 117946,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.1,
+              "published": true,
+              "dependency_path": [
+                322729,
+                107270
+              ],
+              "player_text": []
+            },
+            {
+              "source_spell_id": 107270,
+              "effect_index": 1,
+              "game_effect_id": 117946,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.1,
+              "published": true,
+              "dependency_path": [
+                322729,
+                107270
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 322729,
+          "replaced_spell_id": 101546,
+          "name": "Spinning Crane Kick",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 107270,
+              "effect_index": 1,
+              "game_effect_id": 117946,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.1,
+              "published": true,
+              "dependency_path": [
+                322729,
+                107270
+              ],
+              "player_text": []
+            },
+            {
+              "source_spell_id": 107270,
+              "effect_index": 1,
+              "game_effect_id": 117946,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.1,
+              "published": true,
+              "dependency_path": [
+                322729,
+                107270
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 325095,
+          "replaced_spell_id": 0,
+          "name": "Touch of Death",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 346104,
+          "replaced_spell_id": 0,
+          "name": "Windwalker Monk Two-Hand Adjustment",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 462087,
+          "replaced_spell_id": 0,
+          "name": "Brewmaster Monk",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 462088,
+          "replaced_spell_id": 0,
+          "name": "Monk",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 1256978,
+          "replaced_spell_id": 0,
+          "name": "Brewmaster Monk",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 10,
+          "spec_id": 268,
+          "spell_id": 1258153,
+          "replaced_spell_id": 0,
+          "name": "Brewmaster Monk",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 822,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 5227,
+          "replaced_spell_id": 0,
+          "name": "Touch of the Grave",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 6562,
+          "replaced_spell_id": 0,
+          "name": "Heroic Presence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 7744,
+          "replaced_spell_id": 0,
+          "name": "Will of the Forsaken",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20549,
+          "replaced_spell_id": 0,
+          "name": "War Stomp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20550,
+          "replaced_spell_id": 0,
+          "name": "Endurance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20551,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20552,
+          "replaced_spell_id": 0,
+          "name": "Cultivation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20555,
+          "replaced_spell_id": 0,
+          "name": "Regeneration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20557,
+          "replaced_spell_id": 0,
+          "name": "Beast Slaying",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20573,
+          "replaced_spell_id": 0,
+          "name": "Hardiness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 20573,
+              "effect_index": 1,
+              "game_effect_id": 11566,
+              "base_value": -20.0,
+              "pvp_coefficient": 0.5,
+              "current_pvp_coefficient": 0.5,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                20573
+              ],
+              "player_text": [
+                "Duration of Stun effects reduced by an additional $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20577,
+          "replaced_spell_id": 0,
+          "name": "Cannibalize",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20579,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20582,
+          "replaced_spell_id": 0,
+          "name": "Quickness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20583,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20585,
+          "replaced_spell_id": 0,
+          "name": "Wisp Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20589,
+          "replaced_spell_id": 0,
+          "name": "Escape Artist",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20591,
+          "replaced_spell_id": 0,
+          "name": "Expansive Mind",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 978,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20592,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20593,
+          "replaced_spell_id": 0,
+          "name": "Engineering Specialization",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20594,
+          "replaced_spell_id": 0,
+          "name": "Stoneform",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20596,
+          "replaced_spell_id": 0,
+          "name": "Frost Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20598,
+          "replaced_spell_id": 0,
+          "name": "The Human Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 21563,
+          "replaced_spell_id": 0,
+          "name": "Command",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 26297,
+          "replaced_spell_id": 0,
+          "name": "Berserking",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28875,
+          "replaced_spell_id": 0,
+          "name": "Gemcutting",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28877,
+          "replaced_spell_id": 0,
+          "name": "Arcane Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 33697,
+          "replaced_spell_id": 0,
+          "name": "Blood Fury",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 576,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58943,
+          "replaced_spell_id": 0,
+          "name": "Da Voodoo Shuffle",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58984,
+          "replaced_spell_id": 0,
+          "name": "Shadowmeld",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59221,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59224,
+          "replaced_spell_id": 0,
+          "name": "Might of the Mountain",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59752,
+          "replaced_spell_id": 0,
+          "name": "Will to Survive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68975,
+          "replaced_spell_id": 0,
+          "name": "Viciousness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68976,
+          "replaced_spell_id": 0,
+          "name": "Aberration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68978,
+          "replaced_spell_id": 0,
+          "name": "Flayer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68992,
+          "replaced_spell_id": 0,
+          "name": "Darkflight",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68996,
+          "replaced_spell_id": 0,
+          "name": "Two Forms",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69041,
+          "replaced_spell_id": 0,
+          "name": "Rocket Barrage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69042,
+          "replaced_spell_id": 0,
+          "name": "Time is Money",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69044,
+          "replaced_spell_id": 0,
+          "name": "Best Deals Anywhere",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69045,
+          "replaced_spell_id": 0,
+          "name": "Better Living Through Chemistry",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69046,
+          "replaced_spell_id": 0,
+          "name": "Pack Hobgoblin",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69070,
+          "replaced_spell_id": 0,
+          "name": "Rocket Jump",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 87840,
+          "replaced_spell_id": 0,
+          "name": "Running Wild",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92680,
+          "replaced_spell_id": 0,
+          "name": "Nimble Fingers",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92682,
+          "replaced_spell_id": 0,
+          "name": "Explorer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 94293,
+          "replaced_spell_id": 0,
+          "name": "Altered Form",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107072,
+          "replaced_spell_id": 0,
+          "name": "Epicurean",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107073,
+          "replaced_spell_id": 0,
+          "name": "Gourmand",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107074,
+          "replaced_spell_id": 0,
+          "name": "Inner Peace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107076,
+          "replaced_spell_id": 0,
+          "name": "Bouncy",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107079,
+          "replaced_spell_id": 0,
+          "name": "Quaking Palm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 121093,
+          "replaced_spell_id": 0,
+          "name": "Gift of the Naaru",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 512,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 129597,
+          "replaced_spell_id": 0,
+          "name": "Arcane Torrent",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 512,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154742,
+          "replaced_spell_id": 0,
+          "name": "Arcane Acuity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154743,
+          "replaced_spell_id": 0,
+          "name": "Brawn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154744,
+          "replaced_spell_id": 0,
+          "name": "Expansive Mind",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 520,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154748,
+          "replaced_spell_id": 0,
+          "name": "Touch of Elune",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255647,
+          "replaced_spell_id": 0,
+          "name": "Light's Judgment",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255650,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255651,
+          "replaced_spell_id": 0,
+          "name": "Holy Providence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255652,
+          "replaced_spell_id": 0,
+          "name": "Light's Reckoning",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255653,
+          "replaced_spell_id": 0,
+          "name": "Demonbane",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255654,
+          "replaced_spell_id": 0,
+          "name": "Bull Rush",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255655,
+          "replaced_spell_id": 0,
+          "name": "Pride of Ironhorn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255656,
+          "replaced_spell_id": 0,
+          "name": "Waste Not, Want Not",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255658,
+          "replaced_spell_id": 0,
+          "name": "Mountaineer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255659,
+          "replaced_spell_id": 0,
+          "name": "Rugged Tenacity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255661,
+          "replaced_spell_id": 0,
+          "name": "Cantrips",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255663,
+          "replaced_spell_id": 0,
+          "name": "Ancient History",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255664,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255665,
+          "replaced_spell_id": 0,
+          "name": "Magical Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255667,
+          "replaced_spell_id": 0,
+          "name": "Ethereal Connection",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255668,
+          "replaced_spell_id": 0,
+          "name": "Chill of Night",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255669,
+          "replaced_spell_id": 0,
+          "name": "Entropic Embrace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255670,
+          "replaced_spell_id": 0,
+          "name": "Preternatural Calm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 256948,
+          "replaced_spell_id": 0,
+          "name": "Spatial Rift",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 259930,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 260364,
+          "replaced_spell_id": 0,
+          "name": "Arcane Pulse",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265221,
+          "replaced_spell_id": 0,
+          "name": "Fireblood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265222,
+          "replaced_spell_id": 0,
+          "name": "Mass Production",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265223,
+          "replaced_spell_id": 0,
+          "name": "Dungeon Delver",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265224,
+          "replaced_spell_id": 0,
+          "name": "Forged in Flames",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265225,
+          "replaced_spell_id": 0,
+          "name": "Mole Machine",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273216,
+          "replaced_spell_id": 0,
+          "name": "Open Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273217,
+          "replaced_spell_id": 0,
+          "name": "Sympathetic Vigor",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273220,
+          "replaced_spell_id": 0,
+          "name": "Savage Blood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 274738,
+          "replaced_spell_id": 0,
+          "name": "Ancestral Call",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 281954,
+          "replaced_spell_id": 0,
+          "name": "Pterrordax Swoop",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 287712,
+          "replaced_spell_id": 0,
+          "name": "Haymaker",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291417,
+          "replaced_spell_id": 0,
+          "name": "Rime of the Ancient Mariner",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291442,
+          "replaced_spell_id": 0,
+          "name": "Jack of All Trades",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291619,
+          "replaced_spell_id": 0,
+          "name": "City of Gold",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291622,
+          "replaced_spell_id": 0,
+          "name": "Child of the Sea",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291628,
+          "replaced_spell_id": 0,
+          "name": "Brush It Off",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291944,
+          "replaced_spell_id": 0,
+          "name": "Regeneratin'",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292751,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292752,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312198,
+          "replaced_spell_id": 0,
+          "name": "Fire Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312215,
+          "replaced_spell_id": 0,
+          "name": "Nose For Trouble",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312370,
+          "replaced_spell_id": 0,
+          "name": "Make Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312372,
+          "replaced_spell_id": 0,
+          "name": "Return to Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312411,
+          "replaced_spell_id": 0,
+          "name": "Bag of Tricks",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312425,
+          "replaced_spell_id": 0,
+          "name": "Rummage Your Bag",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312890,
+          "replaced_spell_id": 0,
+          "name": "Skeleton Pinkie",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312896,
+          "replaced_spell_id": 0,
+          "name": "Mastercraft",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312916,
+          "replaced_spell_id": 0,
+          "name": "Emergency Failsafe",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312923,
+          "replaced_spell_id": 0,
+          "name": "Combat Analysis",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312924,
+          "replaced_spell_id": 0,
+          "name": "Hyper Organic Light Originator",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 317795,
+          "replaced_spell_id": 0,
+          "name": "Alpaca Saddlebags",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 357214,
+          "replaced_spell_id": 0,
+          "name": "Wing Buffet",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358731,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358733,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 360009,
+          "replaced_spell_id": 0,
+          "name": "Familiar Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 365575,
+          "replaced_spell_id": 0,
+          "name": "Awakened",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 366489,
+          "replaced_spell_id": 0,
+          "name": "Discerning Eye",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 368437,
+          "replaced_spell_id": 0,
+          "name": "Visage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 381451,
+          "replaced_spell_id": 0,
+          "name": "Principles of Soaring",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406087,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406096,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436339,
+          "replaced_spell_id": 0,
+          "name": "Hyper Productive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436340,
+          "replaced_spell_id": 0,
+          "name": "Titan-Wrought Frame",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436341,
+          "replaced_spell_id": 0,
+          "name": "Ingest Minerals",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436344,
+          "replaced_spell_id": 0,
+          "name": "Azerite Surge",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 448924,
+          "replaced_spell_id": 0,
+          "name": "Wide-Eyed Wonder",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 458619,
+          "replaced_spell_id": 0,
+          "name": "No Place Like Home",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 461063,
+          "replaced_spell_id": 0,
+          "name": "Quiet Contemplation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 461063,
+              "effect_index": 3,
+              "game_effect_id": 1169181,
+              "base_value": 0.0,
+              "pvp_coefficient": 0.55552,
+              "current_pvp_coefficient": 0.55552,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                461063
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        }
+      ],
+      "class_spec_complete": true,
+      "conditional_ownership_complete": false,
+      "conditional_modified_count": 2,
+      "limitations": [
+        "Pet-family/spec and race-specific ownership is not established by class/spec tables."
+      ]
+    }
   },
   "slug": "monk-brewmaster",
-  "generated_at": "2026-10-13T07:16:12.733694+00:00",
+  "generated_at": "2026-10-20T21:42:47.120919+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -14049,42 +17018,42 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 22,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 124,
-    "tree_build": "12.1.0.69933",
-    "simc_build": "12.1.0.69933",
+    "tree_build": "12.1.5.70448",
+    "simc_build": "12.1.5.70448",
     "drustvar_builds": [
-      "12.1.0.69933"
+      "12.1.5.70448"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 155,
+    "source_warning_count": 167,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 132578,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132578'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 119582,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=119582'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 121253,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121253'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 123986,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123986'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 124502,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124502'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
         "spell_id": 157411,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196730,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196730'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196736,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196736'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196737,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196737'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -14092,10 +17061,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
-    "captured_at": "2026-10-13T07:03:24.615743+00:00",
-    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "a845af0128e457e1a0c93b8113ef303f8909bc6208787b9d28bcbe4db864de7a"
+    "snapshot_hash": "9aa9b8b0d93a9780ac68f79e0a8b2eed04b81dc12f19e8b992f78b2e7eb0f7a0",
+    "captured_at": "2026-10-20T21:29:24.732825+00:00",
+    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "archival_replay": false,
+    "evidence_hash": "ced73f762c99e2b92773b49958cd8e8c38e6638dcae3ee0dc7bc58004ff6d9a1"
   },
   "coverage": {
     "schema": 1,
@@ -14967,6 +17938,48 @@ window.WOW_PVP_DATA = {
       },
       {
         "key": [
+          "abilities",
+          117952,
+          117952,
+          117952,
+          1
+        ],
+        "amount_kind": "periodic",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.056,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          322729,
+          322729,
+          107270,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.1,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
           "talents",
           124843,
           115181,
@@ -15066,6 +18079,48 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.9,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          124854,
+          383785,
+          107270,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.1,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          124865,
+          121253,
+          121253,
+          2
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 1.9,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15304,6 +18359,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          125007,
+          116847,
+          148187,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.133,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           125008,
           196730,
           196733,
@@ -15423,6 +18499,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.8,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          126502,
+          450391,
+          132467,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.2,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15617,6 +18714,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "a619786d02bb16a6c8085e1c790b29831f159d65dd2c46dc8fa70a2330a7189f"
+    "independent_hash": "822149aa15dd2d01a54f9eb73690c68a2ad47e4e2a0c2ad01d781e5b729d757d"
   }
 };

@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Rogue",
   "spec_name": "Assassination",
-  "tree_build": "12.1.0.69933",
-  "simc_build": "12.1.0.69933",
+  "tree_build": "12.1.5.70448",
+  "simc_build": "12.1.5.70448",
   "drustvar_builds": [
-    "12.1.0.69933"
+    "12.1.5.70448"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -119,6 +119,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.254,
           "effect_origin": "DIRECT",
@@ -144,7 +148,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -158,6 +162,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -184,7 +192,8 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -194,6 +203,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -230,6 +243,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -266,6 +283,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.53,
           "effect_origin": "DEPENDENCY",
@@ -298,12 +319,13 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -313,6 +335,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -350,7 +376,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 4,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blind",
@@ -362,9 +389,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -410,7 +437,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Cloak of Shadows",
@@ -422,9 +450,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -469,7 +497,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Toxic Stiletto",
@@ -481,9 +510,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -529,7 +558,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fleet Footed",
@@ -541,9 +571,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -591,7 +621,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Gouge",
@@ -603,9 +634,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -651,7 +682,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Airborne Irritant",
@@ -663,9 +695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -736,6 +768,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -764,7 +800,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Thrill Seeking",
@@ -776,9 +813,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -826,7 +863,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shadowrunner",
@@ -838,9 +876,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -886,7 +924,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Master Poisoner",
@@ -898,9 +937,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -952,6 +991,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
           "effect_origin": "DEPENDENCY",
@@ -984,19 +1027,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Elusiveness",
@@ -1008,9 +1053,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1058,7 +1103,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Cheat Death",
@@ -1070,9 +1116,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1120,7 +1166,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tricks of the Trade",
@@ -1132,9 +1179,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1182,7 +1229,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blackjack",
@@ -1194,9 +1242,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1244,7 +1292,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Wound Poison",
@@ -1256,9 +1305,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1305,7 +1354,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Nimble Fingers",
@@ -1317,9 +1367,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1367,7 +1417,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deadened Nerves",
@@ -1379,9 +1430,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1427,7 +1478,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Quick Fingers",
@@ -1439,9 +1491,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1489,7 +1541,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Sprint",
@@ -1501,9 +1554,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1550,7 +1603,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Superior Mixture",
@@ -1562,9 +1616,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1635,6 +1689,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -1663,7 +1721,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Evasion",
@@ -1675,9 +1734,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1725,7 +1784,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Iron Stomach",
@@ -1737,9 +1797,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1785,7 +1845,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Virulent Poisons",
@@ -1797,9 +1858,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1849,7 +1910,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stillshroud",
@@ -1861,9 +1923,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1909,7 +1971,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Graceful Guile",
@@ -1921,9 +1984,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -1971,7 +2034,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Featherfoot",
@@ -1983,9 +2047,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2031,7 +2095,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Numbing Poison",
@@ -2043,9 +2108,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2107,6 +2172,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2133,7 +2202,8 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2143,6 +2213,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2169,14 +2243,16 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Atrophic Poison",
@@ -2188,9 +2264,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2237,7 +2313,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deadly Precision",
@@ -2249,9 +2326,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2300,7 +2377,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sanguine Vial",
@@ -2312,9 +2390,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2360,7 +2438,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deep Cuts",
@@ -2372,9 +2451,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2423,7 +2502,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unbreakable Stride",
@@ -2435,9 +2515,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2484,7 +2564,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Danger Sense",
@@ -2496,9 +2577,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2546,7 +2627,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Swift Slasher",
@@ -2558,9 +2640,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2610,7 +2692,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Ambush",
@@ -2622,9 +2705,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2672,7 +2755,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tight Spender",
@@ -2684,9 +2768,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2734,7 +2818,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Leeching Poison",
@@ -2746,9 +2831,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2819,6 +2904,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2849,18 +2938,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -50.0,
               "factor": 0.5,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lethality",
@@ -2872,9 +2963,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -2929,7 +3020,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -2938,9 +3029,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Recuperator",
@@ -2952,9 +3044,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3000,7 +3092,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Alacrity",
@@ -3012,9 +3105,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3069,7 +3162,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3078,9 +3171,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Soothing Darkness",
@@ -3092,9 +3186,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3155,6 +3249,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -3188,7 +3286,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Vigor",
@@ -3200,9 +3299,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3256,7 +3355,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3265,9 +3364,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Supercharger",
@@ -3279,9 +3379,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3335,7 +3435,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3344,9 +3444,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Subterfuge",
@@ -3358,9 +3459,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3414,7 +3515,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3423,9 +3524,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Thistle Tea",
@@ -3437,9 +3539,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3483,7 +3585,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Thistle Tea",
@@ -3495,9 +3598,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3541,7 +3644,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Cold Blooded Killer",
@@ -3553,9 +3657,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3599,7 +3703,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Echoing Reprimand",
@@ -3611,9 +3716,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3682,6 +3787,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.18,
           "effect_origin": "DEPENDENCY",
@@ -3712,19 +3821,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Forced Induction",
@@ -3736,9 +3847,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3782,7 +3893,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deeper Stratagem",
@@ -3794,9 +3906,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3840,7 +3952,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Without a Trace",
@@ -3852,9 +3965,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3898,7 +4011,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deadly Poison",
@@ -3910,9 +4024,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -3983,6 +4097,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.11374,
           "effect_origin": "DEPENDENCY",
@@ -4013,11 +4131,12 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
@@ -4027,6 +4146,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
           "effect_origin": "DEPENDENCY",
@@ -4057,18 +4180,20 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Motivated Murderer",
@@ -4080,9 +4205,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4129,7 +4254,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Poisons",
@@ -4141,9 +4267,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4187,7 +4313,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Path of Blood",
@@ -4199,9 +4326,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4248,7 +4375,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Crimson Tempest",
@@ -4260,9 +4388,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4335,6 +4463,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.1,
           "effect_origin": "DIRECT",
@@ -4360,7 +4492,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -4372,7 +4504,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Canny Strikes",
@@ -4384,9 +4517,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4434,7 +4567,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Internal Bleeding",
@@ -4446,9 +4580,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4500,6 +4634,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0717,
           "effect_origin": "DEPENDENCY",
@@ -4530,19 +4668,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Garrote",
@@ -4554,9 +4694,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4629,6 +4769,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4660,6 +4804,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4693,7 +4841,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Thrown Precision",
@@ -4705,9 +4854,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4753,7 +4902,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Seal Fate",
@@ -4765,9 +4915,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4815,7 +4965,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Doomblade",
@@ -4827,9 +4978,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4877,7 +5028,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Razor Wire",
@@ -4889,9 +5041,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -4937,7 +5089,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bloody Mess",
@@ -4949,9 +5102,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5001,7 +5154,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deathmark",
@@ -5013,9 +5167,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5089,6 +5243,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.4,
           "effect_origin": "DIRECT",
@@ -5114,7 +5272,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -5126,7 +5284,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Caustic Spatter",
@@ -5138,9 +5297,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5190,7 +5349,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sanguine Stratagem",
@@ -5202,9 +5362,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5250,7 +5410,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Intent to Kill",
@@ -5262,9 +5423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5310,7 +5471,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Iron Wire",
@@ -5322,9 +5484,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5395,6 +5557,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -5423,7 +5589,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fatal Concoction",
@@ -5435,9 +5602,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5493,7 +5660,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -5502,9 +5669,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Finish the Job",
@@ -5516,9 +5684,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5564,7 +5732,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Negotiable Contract",
@@ -5576,9 +5745,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5624,7 +5793,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lethal Dose",
@@ -5636,9 +5806,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5694,7 +5864,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -5703,9 +5873,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Flying Daggers",
@@ -5717,9 +5888,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5765,7 +5936,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Secondary Poisoning",
@@ -5777,9 +5949,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5850,6 +6022,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.15,
           "effect_origin": "DEPENDENCY",
@@ -5880,19 +6056,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Poison Bomb",
@@ -5904,9 +6082,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -5977,6 +6155,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.383328,
           "effect_origin": "DEPENDENCY",
@@ -6007,19 +6189,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Amplifying Poison",
@@ -6031,9 +6215,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6107,6 +6291,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
           "effect_origin": "DEPENDENCY",
@@ -6137,19 +6325,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Venomous Wounds",
@@ -6161,9 +6351,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6213,7 +6403,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Systemic Failure",
@@ -6225,9 +6416,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6276,7 +6467,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Dashing Scoundrel",
@@ -6288,9 +6480,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6336,7 +6528,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Kingsbane",
@@ -6348,9 +6541,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6442,6 +6635,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.469,
           "effect_origin": "DIRECT",
@@ -6467,7 +6664,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -6483,6 +6680,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.29,
           "effect_origin": "DIRECT",
@@ -6508,7 +6709,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -6521,7 +6722,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rapid Injection",
@@ -6533,9 +6735,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6590,7 +6792,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -6599,9 +6801,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shrouded Suffocation",
@@ -6613,9 +6816,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6663,7 +6866,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blindside",
@@ -6675,9 +6879,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6723,7 +6927,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Zoldyck Recipe",
@@ -6735,9 +6940,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6792,7 +6997,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -6801,9 +7006,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Regicide's Reward",
@@ -6815,9 +7021,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6861,7 +7067,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Inspiring Strike",
@@ -6873,9 +7080,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6921,7 +7128,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Poisoner's Drive",
@@ -6933,9 +7141,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -6981,7 +7189,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Avulsion",
@@ -6993,9 +7202,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7040,7 +7249,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Scent of Blood",
@@ -7052,9 +7262,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7109,7 +7319,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -7118,9 +7328,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unstable Toxin",
@@ -7132,9 +7343,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7178,7 +7389,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Dragon-Tempered Blades",
@@ -7190,9 +7402,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7236,7 +7448,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sudden Demise",
@@ -7248,9 +7461,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7338,6 +7551,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7369,6 +7586,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7397,7 +7618,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Implacable",
@@ -7409,9 +7631,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7453,7 +7675,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Implacable",
@@ -7465,9 +7688,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7517,7 +7740,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -7526,9 +7749,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Implacable",
@@ -7540,9 +7764,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7628,6 +7852,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.07,
           "effect_origin": "DEPENDENCY",
@@ -7658,7 +7886,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -7674,6 +7902,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.0,
           "effect_origin": "DEPENDENCY",
@@ -7704,7 +7936,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -7717,7 +7949,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Hand of Fate",
@@ -7729,9 +7962,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7803,6 +8036,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.68,
           "effect_origin": "DEPENDENCY",
@@ -7833,7 +8070,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "aura_spell_id": 1256950,
@@ -7842,7 +8079,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -7855,7 +8092,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deathstalker's Mark",
@@ -7867,9 +8105,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -7941,6 +8179,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.56,
           "effect_origin": "DEPENDENCY",
@@ -7971,19 +8213,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Chosen's Revelry",
@@ -7995,9 +8239,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8043,7 +8287,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tempted Fate",
@@ -8055,9 +8300,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8103,7 +8348,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mean Streak",
@@ -8115,9 +8361,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8163,7 +8409,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Inexorable March",
@@ -8175,9 +8422,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8223,7 +8470,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Death's Arrival",
@@ -8235,9 +8483,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8269,10 +8517,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Death's Arrival",
         "spell_id": 454433,
         "visible_spell_id": null,
-        "icon": "achievement_guildperk_havegroup_willtravel",
+        "icon": "achievement_guildperk_havegroup-willtravel",
         "icon_candidates": [
-          "achievement_guildperk_havegroup_willtravel",
-          "achievement_guildperk_havegroup-willtravel"
+          "achievement_guildperk_havegroup-willtravel",
+          "achievement_guildperk_havegroup_willtravel"
         ]
       },
       "pve_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
@@ -8311,6 +8559,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -8342,6 +8594,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -8370,7 +8626,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sometimes Lucky",
@@ -8382,9 +8639,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8430,7 +8687,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Clear the Witnesses",
@@ -8442,9 +8700,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8490,7 +8748,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Hunt Them Down",
@@ -8502,9 +8761,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8575,6 +8834,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.1,
           "effect_origin": "DEPENDENCY",
@@ -8605,19 +8868,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Singular Focus",
@@ -8629,9 +8894,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8677,7 +8942,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Precise Killer",
@@ -8689,9 +8955,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8737,7 +9003,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deal Fate",
@@ -8749,9 +9016,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8797,7 +9064,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fate Intertwined",
@@ -8809,9 +9077,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8857,7 +9125,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Edge Case",
@@ -8869,9 +9138,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8917,7 +9186,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Controlled Chaos",
@@ -8929,9 +9199,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -8977,7 +9247,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unshakeable Drive",
@@ -8989,9 +9260,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9062,6 +9333,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9098,6 +9373,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9131,7 +9410,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Corrupt the Blood",
@@ -9143,9 +9423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9191,7 +9471,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lingering Darkness",
@@ -9203,9 +9484,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9251,7 +9532,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Symbolic Victory",
@@ -9263,9 +9545,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9336,6 +9618,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9372,6 +9658,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -9405,7 +9695,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Quietus Celeris",
@@ -9417,9 +9708,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9465,7 +9756,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Delivered Doom",
@@ -9477,9 +9769,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9525,7 +9817,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Overflowing Purse",
@@ -9537,9 +9830,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9585,7 +9878,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Destiny Defined",
@@ -9597,9 +9891,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9645,7 +9939,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rush to the Inevitable",
@@ -9657,9 +9952,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9705,7 +10000,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ravenholdt Mint",
@@ -9717,9 +10013,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9765,7 +10061,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ethereal Cloak",
@@ -9777,9 +10074,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9825,7 +10122,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bait and Switch",
@@ -9837,9 +10135,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9885,7 +10183,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Momentum of Despair",
@@ -9897,9 +10196,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -9945,7 +10244,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Follow the Blood",
@@ -9957,9 +10257,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10005,7 +10305,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shadewalker",
@@ -10017,9 +10318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10065,7 +10366,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shroud of Night",
@@ -10077,9 +10379,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10125,7 +10427,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mass Casualty",
@@ -10137,9 +10440,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10185,7 +10488,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lucky Coin",
@@ -10197,9 +10501,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Fatebound",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10246,7 +10550,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Darkest Night",
@@ -10258,9 +10563,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Assassination",
@@ -10332,6 +10637,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -10365,7 +10674,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "abilities": [
@@ -10383,10 +10693,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_kidneyshot",
         "icon_candidates": [
           "ability_rogue_kidneyshot"
@@ -10429,7 +10740,7 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-3",
               "source": "simc_exact_build",
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "old": 6.0,
@@ -10437,7 +10748,7 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-2",
               "source": "simc_exact_build",
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "old": 7.0,
@@ -10445,12 +10756,16 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-1",
               "source": "simc_exact_build",
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10472,6 +10787,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -10479,7 +10795,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Garrote",
@@ -10495,10 +10812,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_garrote",
         "icon_candidates": [
           "ability_rogue_garrote"
@@ -10538,6 +10856,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.4515,
           "effect_origin": "DIRECT",
@@ -10563,12 +10885,13 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -10576,7 +10899,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Mutilate",
@@ -10592,10 +10916,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_shadowstrikes",
         "icon_candidates": [
           "ability_rogue_shadowstrikes"
@@ -10658,6 +10983,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.15,
           "effect_origin": "DEPENDENCY",
@@ -10688,13 +11017,14 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10704,6 +11034,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.15,
           "effect_origin": "DEPENDENCY",
@@ -10734,20 +11068,22 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rupture",
@@ -10763,10 +11099,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_rupture",
         "icon_candidates": [
           "ability_rogue_rupture"
@@ -10920,6 +11257,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.336574,
           "effect_origin": "DIRECT",
@@ -10945,18 +11286,20 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Crippling Poison",
@@ -10972,10 +11315,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_poisonsting",
         "icon_candidates": [
           "ability_poisonsting"
@@ -11015,6 +11359,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11041,14 +11389,16 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ambush",
@@ -11064,10 +11414,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_ambush",
         "icon_candidates": [
           "ability_rogue_ambush"
@@ -11107,6 +11458,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.78,
           "effect_origin": "DIRECT",
@@ -11132,11 +11487,12 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
@@ -11146,6 +11502,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.834,
           "effect_origin": "DEPENDENCY",
@@ -11180,7 +11540,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -11196,6 +11556,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11233,7 +11597,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wound Poison",
@@ -11249,10 +11614,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "inv_misc_herb_16",
         "icon_candidates": [
           "inv_misc_herb_16"
@@ -11311,6 +11677,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0407,
           "effect_origin": "DEPENDENCY",
@@ -11341,11 +11711,12 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
@@ -11355,6 +11726,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -11381,14 +11756,16 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Envenom",
@@ -11404,10 +11781,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_disembowel",
         "icon_candidates": [
           "ability_rogue_disembowel"
@@ -11561,6 +11939,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.395,
           "effect_origin": "DIRECT",
@@ -11586,18 +11968,20 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Fan of Knives",
@@ -11613,10 +11997,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_fanofknives",
         "icon_candidates": [
           "ability_rogue_fanofknives"
@@ -11656,6 +12041,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0588,
           "effect_origin": "DIRECT",
@@ -11681,18 +12070,20 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Poisoned Knife",
@@ -11708,10 +12099,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_rogue_poisonedknife",
         "icon_candidates": [
           "ability_rogue_poisonedknife"
@@ -11751,6 +12143,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.23232,
           "effect_origin": "DIRECT",
@@ -11776,19 +12172,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Instant Poison",
@@ -11804,10 +12202,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 4,
         "spec_id": 259,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_poisons",
         "icon_candidates": [
           "ability_poisons"
@@ -11847,6 +12246,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.074,
           "effect_origin": "DEPENDENCY",
@@ -11877,19 +12280,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 4.0,
               "factor": 1.04,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "fetch_errors": [],
@@ -12755,6 +13160,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 137034,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137034'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 157442,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157442'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12835,6 +13245,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 394932,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=394932'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 452538,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452538'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12857,6 +13272,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 457280,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 462103,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462103'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12894,7 +13314,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -13755,7 +14175,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13765,7 +14185,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13915,8 +14335,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.0.69933",
-    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
+    "build": "12.1.5.70448",
+    "source_ref": "7bc10711b5a4514066fa402ca0a71c9ba4b7c9dd",
     "baseline_spell_ids": [
       408,
       703,
@@ -13941,13 +14361,17 @@ window.WOW_PVP_DATA = {
       51723,
       76803,
       82245,
+      86092,
       114018,
+      137034,
       157442,
       185311,
       185565,
       315496,
       315584,
       319473,
+      394932,
+      462103,
       1229376
     ],
     "pvp_spell_ids": [
@@ -13974,10 +14398,3073 @@ window.WOW_PVP_DATA = {
         "name": "Stat Negation Aura - Agility DPS",
         "reason": "NOT_IN_EXACT_BUILD_CLASS_DUMP"
       }
-    ]
+    ],
+    "candidate_universe": {
+      "schema": 1,
+      "entries": [
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 408,
+          "replaced_spell_id": 0,
+          "name": "Kidney Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 408,
+              "effect_index": 2,
+              "game_effect_id": 1179773,
+              "base_value": 8.0,
+              "pvp_coefficient": 0.625,
+              "current_pvp_coefficient": 0.625,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                408
+              ],
+              "player_text": [
+                "Lasts longer per combo point, up to $s2 sec:",
+                "2 points: ${$s2-3} seconds",
+                "3 points: ${$s2-2} seconds",
+                "4 points: ${$s2-1} seconds",
+                "5 points: $s2 seconds"
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 703,
+          "replaced_spell_id": 0,
+          "name": "Garrote",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 703,
+              "effect_index": 1,
+              "game_effect_id": 280,
+              "base_value": 0.0,
+              "pvp_coefficient": 0.85,
+              "current_pvp_coefficient": 0.85,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.4515,
+              "published": true,
+              "dependency_path": [
+                703
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 703,
+          "replaced_spell_id": 0,
+          "name": "Garrote",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 703,
+              "effect_index": 1,
+              "game_effect_id": 280,
+              "base_value": 0.0,
+              "pvp_coefficient": 0.85,
+              "current_pvp_coefficient": 0.85,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.4515,
+              "published": true,
+              "dependency_path": [
+                703
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 921,
+          "replaced_spell_id": 0,
+          "name": "Pick Pocket",
+          "passive": false,
+          "classification": "NOT_IN_CLASS_DUMP",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1329,
+          "replaced_spell_id": 1752,
+          "name": "Mutilate",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 5374,
+              "effect_index": 2,
+              "game_effect_id": 99543,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                5374
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 27576,
+              "effect_index": 2,
+              "game_effect_id": 99544,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                27576
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 5374,
+              "effect_index": 2,
+              "game_effect_id": 99543,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                5374
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 27576,
+              "effect_index": 2,
+              "game_effect_id": 99544,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                27576
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1329,
+          "replaced_spell_id": 1752,
+          "name": "Mutilate",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 5374,
+              "effect_index": 2,
+              "game_effect_id": 99543,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                5374
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 27576,
+              "effect_index": 2,
+              "game_effect_id": 99544,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                27576
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 5374,
+              "effect_index": 2,
+              "game_effect_id": 99543,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                5374
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 27576,
+              "effect_index": 2,
+              "game_effect_id": 99544,
+              "base_value": 0.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.15,
+              "published": true,
+              "dependency_path": [
+                1329,
+                27576
+              ],
+              "player_text": [
+                "Instantly attacks for $s2 Physical damage."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1725,
+          "replaced_spell_id": 0,
+          "name": "Distract",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1752,
+          "replaced_spell_id": 0,
+          "name": "Sinister Strike",
+          "passive": false,
+          "classification": "REPLACED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1766,
+          "replaced_spell_id": 0,
+          "name": "Kick",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1784,
+          "replaced_spell_id": 0,
+          "name": "Stealth",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1804,
+          "replaced_spell_id": 0,
+          "name": "Pick Lock",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1833,
+          "replaced_spell_id": 0,
+          "name": "Cheap Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1856,
+          "replaced_spell_id": 0,
+          "name": "Vanish",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1860,
+          "replaced_spell_id": 0,
+          "name": "Safe Fall",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1943,
+          "replaced_spell_id": 0,
+          "name": "Rupture",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 1943,
+              "effect_index": 1,
+              "game_effect_id": 586,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.336574,
+              "published": true,
+              "dependency_path": [
+                1943
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1943,
+          "replaced_spell_id": 0,
+          "name": "Rupture",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 1943,
+              "effect_index": 1,
+              "game_effect_id": 586,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.336574,
+              "published": true,
+              "dependency_path": [
+                1943
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 1966,
+          "replaced_spell_id": 0,
+          "name": "Feint",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 2836,
+          "replaced_spell_id": 0,
+          "name": "Detect Traps",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 2983,
+          "replaced_spell_id": 0,
+          "name": "Sprint",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 3408,
+          "replaced_spell_id": 0,
+          "name": "Crippling Poison",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 3409,
+              "effect_index": 1,
+              "game_effect_id": 1114,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                3408,
+                3409
+              ],
+              "player_text": [
+                "Each strike has a $3408h% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 6770,
+          "replaced_spell_id": 0,
+          "name": "Sap",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 8676,
+          "replaced_spell_id": 0,
+          "name": "Ambush",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 8676,
+              "effect_index": 1,
+              "game_effect_id": 3612,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 2.78,
+              "published": true,
+              "dependency_path": [
+                8676
+              ],
+              "player_text": [
+                "Ambush the target, causing $s1 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 185763,
+              "effect_index": 1,
+              "game_effect_id": 269972,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.2,
+              "current_pvp_coefficient": 1.2,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.834,
+              "published": true,
+              "dependency_path": [
+                8676,
+                279876,
+                195627,
+                185763
+              ],
+              "player_text": [
+                "Draw a concealed pistol and fire a quick shot at an enemy, dealing ${$s1*$<CAP>/$AP} Physical damage and reducing the target's movement speed by $s3% for $d."
+              ]
+            },
+            {
+              "source_spell_id": 185763,
+              "effect_index": 3,
+              "game_effect_id": 269974,
+              "base_value": -30.0,
+              "pvp_coefficient": 0.666667,
+              "current_pvp_coefficient": 0.666667,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                8676,
+                279876,
+                195627,
+                185763
+              ],
+              "player_text": [
+                "Draw a concealed pistol and fire a quick shot at an enemy, dealing ${$s1*$<CAP>/$AP} Physical damage and reducing the target's movement speed by $s3% for $d.",
+                "Movement speed reduced by $s3%$?a428377["
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 8679,
+          "replaced_spell_id": 0,
+          "name": "Wound Poison",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 8680,
+              "effect_index": 1,
+              "game_effect_id": 3617,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.0407,
+              "published": true,
+              "dependency_path": [
+                8679,
+                8680
+              ],
+              "player_text": []
+            },
+            {
+              "source_spell_id": 8680,
+              "effect_index": 2,
+              "game_effect_id": 133966,
+              "base_value": -8.0,
+              "pvp_coefficient": 0.5,
+              "current_pvp_coefficient": 0.5,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                8679,
+                8680
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 32645,
+          "replaced_spell_id": 196819,
+          "name": "Envenom",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 32645,
+              "effect_index": 1,
+              "game_effect_id": 22420,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.395,
+              "published": true,
+              "dependency_path": [
+                32645
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 32645,
+          "replaced_spell_id": 196819,
+          "name": "Envenom",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 32645,
+              "effect_index": 1,
+              "game_effect_id": 22420,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.395,
+              "published": true,
+              "dependency_path": [
+                32645
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 51667,
+          "replaced_spell_id": 0,
+          "name": "Cut to the Chase",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 51723,
+          "replaced_spell_id": 0,
+          "name": "Fan of Knives",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 51723,
+              "effect_index": 1,
+              "game_effect_id": 44107,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.0588,
+              "published": true,
+              "dependency_path": [
+                51723
+              ],
+              "player_text": [
+                "Sprays knives at all enemies within $A1 yards, dealing $s1 Physical damage and applying your active poisons at their normal rate."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 51723,
+          "replaced_spell_id": 0,
+          "name": "Fan of Knives",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 51723,
+              "effect_index": 1,
+              "game_effect_id": 44107,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 1.0588,
+              "published": true,
+              "dependency_path": [
+                51723
+              ],
+              "player_text": [
+                "Sprays knives at all enemies within $A1 yards, dealing $s1 Physical damage and applying your active poisons at their normal rate."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 76803,
+          "replaced_spell_id": 0,
+          "name": "Mastery: Potent Assassin",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 82245,
+          "replaced_spell_id": 0,
+          "name": "Parry",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 86092,
+          "replaced_spell_id": 0,
+          "name": "Leather Specialization",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 114018,
+          "replaced_spell_id": 0,
+          "name": "Shroud of Concealment",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 137034,
+          "replaced_spell_id": 0,
+          "name": "Rogue",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 137037,
+          "replaced_spell_id": 0,
+          "name": "Assassination Rogue",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 157442,
+          "replaced_spell_id": 0,
+          "name": "Critical Strikes",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 162697,
+          "replaced_spell_id": 0,
+          "name": "Stat Negation Aura - Agility DPS",
+          "passive": false,
+          "classification": "NOT_IN_CLASS_DUMP",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 185311,
+          "replaced_spell_id": 0,
+          "name": "Crimson Vial",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 185565,
+          "replaced_spell_id": 0,
+          "name": "Poisoned Knife",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 185565,
+              "effect_index": 1,
+              "game_effect_id": 269456,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.23232,
+              "published": true,
+              "dependency_path": [
+                185565
+              ],
+              "player_text": [
+                "Throws a poison-coated knife, dealing $s1 damage and applying your active Lethal and Non-Lethal Poisons."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 185565,
+          "replaced_spell_id": 0,
+          "name": "Poisoned Knife",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 185565,
+              "effect_index": 1,
+              "game_effect_id": 269456,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.23232,
+              "published": true,
+              "dependency_path": [
+                185565
+              ],
+              "player_text": [
+                "Throws a poison-coated knife, dealing $s1 damage and applying your active Lethal and Non-Lethal Poisons."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 196819,
+          "replaced_spell_id": 0,
+          "name": "Eviscerate",
+          "passive": false,
+          "classification": "REPLACED",
+          "effects": [
+            {
+              "source_spell_id": 196819,
+              "effect_index": 1,
+              "game_effect_id": 288959,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.375,
+              "current_pvp_coefficient": 1.375,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.37325,
+              "published": false,
+              "dependency_path": [
+                196819
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 315496,
+          "replaced_spell_id": 0,
+          "name": "Slice and Dice",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 0,
+          "spell_id": 315584,
+          "replaced_spell_id": 0,
+          "name": "Instant Poison",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 315585,
+              "effect_index": 1,
+              "game_effect_id": 799408,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.074,
+              "published": true,
+              "dependency_path": [
+                315584,
+                315585
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 319473,
+          "replaced_spell_id": 0,
+          "name": "Mastery: Potent Assassin",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 394932,
+          "replaced_spell_id": 0,
+          "name": "Shadowstep",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 462102,
+          "replaced_spell_id": 0,
+          "name": "Assassination Rogue",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 462103,
+          "replaced_spell_id": 0,
+          "name": "Rogue",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 4,
+          "spec_id": 259,
+          "spell_id": 1256950,
+          "replaced_spell_id": 0,
+          "name": "Assassination Rogue",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 822,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 5227,
+          "replaced_spell_id": 0,
+          "name": "Touch of the Grave",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 6562,
+          "replaced_spell_id": 0,
+          "name": "Heroic Presence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 7744,
+          "replaced_spell_id": 0,
+          "name": "Will of the Forsaken",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20549,
+          "replaced_spell_id": 0,
+          "name": "War Stomp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20550,
+          "replaced_spell_id": 0,
+          "name": "Endurance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20551,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20552,
+          "replaced_spell_id": 0,
+          "name": "Cultivation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20555,
+          "replaced_spell_id": 0,
+          "name": "Regeneration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20557,
+          "replaced_spell_id": 0,
+          "name": "Beast Slaying",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20572,
+          "replaced_spell_id": 0,
+          "name": "Blood Fury",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 45,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20573,
+          "replaced_spell_id": 0,
+          "name": "Hardiness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 20573,
+              "effect_index": 1,
+              "game_effect_id": 11566,
+              "base_value": -20.0,
+              "pvp_coefficient": 0.5,
+              "current_pvp_coefficient": 0.5,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                20573
+              ],
+              "player_text": [
+                "Duration of Stun effects reduced by an additional $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20577,
+          "replaced_spell_id": 0,
+          "name": "Cannibalize",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20579,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20582,
+          "replaced_spell_id": 0,
+          "name": "Quickness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20583,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20585,
+          "replaced_spell_id": 0,
+          "name": "Wisp Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20589,
+          "replaced_spell_id": 0,
+          "name": "Escape Artist",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20592,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20593,
+          "replaced_spell_id": 0,
+          "name": "Engineering Specialization",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20594,
+          "replaced_spell_id": 0,
+          "name": "Stoneform",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20596,
+          "replaced_spell_id": 0,
+          "name": "Frost Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20598,
+          "replaced_spell_id": 0,
+          "name": "The Human Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 21009,
+          "replaced_spell_id": 0,
+          "name": "Elusiveness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 1032,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 21563,
+          "replaced_spell_id": 0,
+          "name": "Command",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 25046,
+          "replaced_spell_id": 0,
+          "name": "Arcane Torrent",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 8,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 26297,
+          "replaced_spell_id": 0,
+          "name": "Berserking",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28875,
+          "replaced_spell_id": 0,
+          "name": "Gemcutting",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28877,
+          "replaced_spell_id": 0,
+          "name": "Arcane Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58943,
+          "replaced_spell_id": 0,
+          "name": "Da Voodoo Shuffle",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58984,
+          "replaced_spell_id": 0,
+          "name": "Shadowmeld",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59221,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59224,
+          "replaced_spell_id": 0,
+          "name": "Might of the Mountain",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59752,
+          "replaced_spell_id": 0,
+          "name": "Will to Survive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68975,
+          "replaced_spell_id": 0,
+          "name": "Viciousness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68976,
+          "replaced_spell_id": 0,
+          "name": "Aberration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68978,
+          "replaced_spell_id": 0,
+          "name": "Flayer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68992,
+          "replaced_spell_id": 0,
+          "name": "Darkflight",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68996,
+          "replaced_spell_id": 0,
+          "name": "Two Forms",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69041,
+          "replaced_spell_id": 0,
+          "name": "Rocket Barrage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69042,
+          "replaced_spell_id": 0,
+          "name": "Time is Money",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69044,
+          "replaced_spell_id": 0,
+          "name": "Best Deals Anywhere",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69045,
+          "replaced_spell_id": 0,
+          "name": "Better Living Through Chemistry",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69046,
+          "replaced_spell_id": 0,
+          "name": "Pack Hobgoblin",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69070,
+          "replaced_spell_id": 0,
+          "name": "Rocket Jump",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 87840,
+          "replaced_spell_id": 0,
+          "name": "Running Wild",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92680,
+          "replaced_spell_id": 0,
+          "name": "Nimble Fingers",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92682,
+          "replaced_spell_id": 0,
+          "name": "Explorer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 94293,
+          "replaced_spell_id": 0,
+          "name": "Altered Form",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107072,
+          "replaced_spell_id": 0,
+          "name": "Epicurean",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107073,
+          "replaced_spell_id": 0,
+          "name": "Gourmand",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107074,
+          "replaced_spell_id": 0,
+          "name": "Inner Peace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107076,
+          "replaced_spell_id": 0,
+          "name": "Bouncy",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107079,
+          "replaced_spell_id": 0,
+          "name": "Quaking Palm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154742,
+          "replaced_spell_id": 0,
+          "name": "Arcane Acuity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154743,
+          "replaced_spell_id": 0,
+          "name": "Brawn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154744,
+          "replaced_spell_id": 0,
+          "name": "Expansive Mind",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 520,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154748,
+          "replaced_spell_id": 0,
+          "name": "Touch of Elune",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255647,
+          "replaced_spell_id": 0,
+          "name": "Light's Judgment",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255650,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255651,
+          "replaced_spell_id": 0,
+          "name": "Holy Providence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255652,
+          "replaced_spell_id": 0,
+          "name": "Light's Reckoning",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255653,
+          "replaced_spell_id": 0,
+          "name": "Demonbane",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255654,
+          "replaced_spell_id": 0,
+          "name": "Bull Rush",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255655,
+          "replaced_spell_id": 0,
+          "name": "Pride of Ironhorn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255656,
+          "replaced_spell_id": 0,
+          "name": "Waste Not, Want Not",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255658,
+          "replaced_spell_id": 0,
+          "name": "Mountaineer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255659,
+          "replaced_spell_id": 0,
+          "name": "Rugged Tenacity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255661,
+          "replaced_spell_id": 0,
+          "name": "Cantrips",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255663,
+          "replaced_spell_id": 0,
+          "name": "Ancient History",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255664,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255665,
+          "replaced_spell_id": 0,
+          "name": "Magical Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255667,
+          "replaced_spell_id": 0,
+          "name": "Ethereal Connection",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255668,
+          "replaced_spell_id": 0,
+          "name": "Chill of Night",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255669,
+          "replaced_spell_id": 0,
+          "name": "Entropic Embrace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255670,
+          "replaced_spell_id": 0,
+          "name": "Preternatural Calm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 256948,
+          "replaced_spell_id": 0,
+          "name": "Spatial Rift",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 259930,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 260364,
+          "replaced_spell_id": 0,
+          "name": "Arcane Pulse",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265221,
+          "replaced_spell_id": 0,
+          "name": "Fireblood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265222,
+          "replaced_spell_id": 0,
+          "name": "Mass Production",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265223,
+          "replaced_spell_id": 0,
+          "name": "Dungeon Delver",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265224,
+          "replaced_spell_id": 0,
+          "name": "Forged in Flames",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265225,
+          "replaced_spell_id": 0,
+          "name": "Mole Machine",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273216,
+          "replaced_spell_id": 0,
+          "name": "Open Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273217,
+          "replaced_spell_id": 0,
+          "name": "Sympathetic Vigor",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273220,
+          "replaced_spell_id": 0,
+          "name": "Savage Blood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 274738,
+          "replaced_spell_id": 0,
+          "name": "Ancestral Call",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 281954,
+          "replaced_spell_id": 0,
+          "name": "Pterrordax Swoop",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 287712,
+          "replaced_spell_id": 0,
+          "name": "Haymaker",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291417,
+          "replaced_spell_id": 0,
+          "name": "Rime of the Ancient Mariner",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291442,
+          "replaced_spell_id": 0,
+          "name": "Jack of All Trades",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291619,
+          "replaced_spell_id": 0,
+          "name": "City of Gold",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291622,
+          "replaced_spell_id": 0,
+          "name": "Child of the Sea",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291628,
+          "replaced_spell_id": 0,
+          "name": "Brush It Off",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291944,
+          "replaced_spell_id": 0,
+          "name": "Regeneratin'",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292751,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292752,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312198,
+          "replaced_spell_id": 0,
+          "name": "Fire Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312215,
+          "replaced_spell_id": 0,
+          "name": "Nose For Trouble",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312370,
+          "replaced_spell_id": 0,
+          "name": "Make Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312372,
+          "replaced_spell_id": 0,
+          "name": "Return to Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312411,
+          "replaced_spell_id": 0,
+          "name": "Bag of Tricks",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312425,
+          "replaced_spell_id": 0,
+          "name": "Rummage Your Bag",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312890,
+          "replaced_spell_id": 0,
+          "name": "Skeleton Pinkie",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312896,
+          "replaced_spell_id": 0,
+          "name": "Mastercraft",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312916,
+          "replaced_spell_id": 0,
+          "name": "Emergency Failsafe",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312923,
+          "replaced_spell_id": 0,
+          "name": "Combat Analysis",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312924,
+          "replaced_spell_id": 0,
+          "name": "Hyper Organic Light Originator",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 317795,
+          "replaced_spell_id": 0,
+          "name": "Alpaca Saddlebags",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 351239,
+          "replaced_spell_id": 0,
+          "name": "Visage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 413,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 357214,
+          "replaced_spell_id": 0,
+          "name": "Wing Buffet",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358731,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358733,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 360009,
+          "replaced_spell_id": 0,
+          "name": "Familiar Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 360022,
+          "replaced_spell_id": 0,
+          "name": "Chosen Identity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 413,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 365575,
+          "replaced_spell_id": 0,
+          "name": "Awakened",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 366489,
+          "replaced_spell_id": 0,
+          "name": "Discerning Eye",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 368437,
+          "replaced_spell_id": 0,
+          "name": "Visage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 370626,
+          "replaced_spell_id": 0,
+          "name": "Gift of the Naaru",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 8,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 381451,
+          "replaced_spell_id": 0,
+          "name": "Principles of Soaring",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406087,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406096,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436339,
+          "replaced_spell_id": 0,
+          "name": "Hyper Productive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436340,
+          "replaced_spell_id": 0,
+          "name": "Titan-Wrought Frame",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436341,
+          "replaced_spell_id": 0,
+          "name": "Ingest Minerals",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436344,
+          "replaced_spell_id": 0,
+          "name": "Azerite Surge",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 448924,
+          "replaced_spell_id": 0,
+          "name": "Wide-Eyed Wonder",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 458619,
+          "replaced_spell_id": 0,
+          "name": "No Place Like Home",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 461063,
+          "replaced_spell_id": 0,
+          "name": "Quiet Contemplation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 461063,
+              "effect_index": 3,
+              "game_effect_id": 1169181,
+              "base_value": 0.0,
+              "pvp_coefficient": 0.55552,
+              "current_pvp_coefficient": 0.55552,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                461063
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        }
+      ],
+      "class_spec_complete": true,
+      "conditional_ownership_complete": false,
+      "conditional_modified_count": 2,
+      "limitations": [
+        "Pet-family/spec and race-specific ownership is not established by class/spec tables."
+      ]
+    }
   },
   "slug": "rogue-assassination",
-  "generated_at": "2026-10-13T07:17:59.459960+00:00",
+  "generated_at": "2026-10-20T21:44:22.632379+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -13985,14 +17472,14 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 110,
-    "tree_build": "12.1.0.69933",
-    "simc_build": "12.1.0.69933",
+    "tree_build": "12.1.5.70448",
+    "simc_build": "12.1.5.70448",
     "drustvar_builds": [
-      "12.1.0.69933"
+      "12.1.5.70448"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 144,
+    "source_warning_count": 147,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -14028,10 +17515,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
-    "captured_at": "2026-10-13T07:03:24.615743+00:00",
-    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "b89f8063d910accabdcccb4442c898c367a2b6d4f881391d312637efe33442c3"
+    "snapshot_hash": "9aa9b8b0d93a9780ac68f79e0a8b2eed04b81dc12f19e8b992f78b2e7eb0f7a0",
+    "captured_at": "2026-10-20T21:29:24.732825+00:00",
+    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "archival_replay": false,
+    "evidence_hash": "0ab5291f91204ce68b86120e79be454e4cd579784428c6028e64f9d292536b2f"
   },
   "coverage": {
     "schema": 1,
@@ -15282,6 +18771,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "abilities",
+          1943,
+          1943,
+          1943,
+          1
+        ],
+        "amount_kind": "periodic",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.336574,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
           315584,
           315584,
           315585,
@@ -15296,6 +18806,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.074,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          32645,
+          32645,
+          32645,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.395,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15338,6 +18869,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": 5.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          51723,
+          51723,
+          51723,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 1.0588,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15401,6 +18953,48 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": -20.00001,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          8676,
+          8676,
+          8676,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 2.78,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          8679,
+          8679,
+          8680,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.0407,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -15639,6 +19233,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          112650,
+          280716,
+          108211,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.5,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           112656,
           5761,
           5760,
@@ -15758,6 +19373,48 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0814,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          112676,
+          2823,
+          113780,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.0814,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          112676,
+          2823,
+          2818,
+          1
+        ],
+        "amount_kind": "periodic",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.04,
+          "final_pvp_multiplier": 1.04,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.11374,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -16204,6 +19861,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "d36a292f9e0ef180a633483b9c585b477d506c9071a09d56107636da96ebf870"
+    "independent_hash": "14647be166e465dc924935e20e89e1f12cb1bd26f9bf88855f10f5b8741b8027"
   }
 };

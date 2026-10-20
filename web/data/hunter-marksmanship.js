@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Hunter",
   "spec_name": "Marksmanship",
-  "tree_build": "12.1.0.69933",
-  "simc_build": "12.1.0.69933",
+  "tree_build": "12.1.5.70448",
+  "simc_build": "12.1.5.70448",
   "drustvar_builds": [
-    "12.1.0.69933"
+    "12.1.5.70448"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -63,7 +63,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Survival of the Fittest",
@@ -75,9 +76,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -148,6 +149,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -177,6 +182,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -203,7 +212,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Posthaste",
@@ -215,9 +225,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -261,7 +271,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Natural Mending",
@@ -273,9 +284,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -330,7 +341,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -339,9 +350,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Padded Armor",
@@ -353,9 +365,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -402,7 +414,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Hunter's Avoidance",
@@ -414,9 +427,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -463,7 +476,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wilderness Medicine",
@@ -475,9 +489,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -527,6 +541,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -553,14 +571,16 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
-            "simc"
+            "simc",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Combat Experience",
@@ -572,9 +592,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -622,7 +642,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Aspect of the Cheetah",
@@ -634,9 +655,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -684,7 +705,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Concussive Shot",
@@ -696,9 +718,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -769,6 +791,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -797,7 +823,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Precision Strikes",
@@ -809,9 +836,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -859,7 +886,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Counter Shot",
@@ -871,9 +899,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -922,7 +950,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Serrated Tips",
@@ -934,9 +963,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -992,7 +1021,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -1001,9 +1030,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tranquilizing Shot",
@@ -1015,9 +1045,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1064,7 +1094,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Pathfinding",
@@ -1076,9 +1107,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1126,7 +1157,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Disruptive Rounds",
@@ -1138,9 +1170,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1188,7 +1220,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Feign Death",
@@ -1200,9 +1233,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1258,7 +1291,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -1267,9 +1300,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Misdirection",
@@ -1281,9 +1315,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1330,7 +1364,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Kodo Tranquilizer",
@@ -1342,9 +1377,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1390,7 +1425,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Devilsaur Tranquilizer",
@@ -1402,9 +1438,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1450,7 +1486,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Kindling Flare",
@@ -1462,9 +1499,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1511,7 +1548,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Trigger Finger",
@@ -1523,9 +1561,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1581,7 +1619,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -1590,9 +1628,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tar Trap",
@@ -1604,9 +1643,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1677,6 +1716,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -1684,7 +1727,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 187698,
           "source_spell_id": 135299,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1701,16 +1744,17 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Scare Beast",
@@ -1722,9 +1766,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1770,7 +1814,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Touch of Grass",
@@ -1782,9 +1827,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1840,7 +1885,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -1849,9 +1894,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Camouflage",
@@ -1863,9 +1909,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1912,7 +1958,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "No Hard Feelings",
@@ -1924,9 +1971,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -1972,7 +2019,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Aspect of the Turtle",
@@ -1984,9 +2032,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2036,7 +2084,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Specialized Arsenal",
@@ -2048,9 +2097,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2100,7 +2149,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Scout's Instincts",
@@ -2112,9 +2162,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2164,7 +2214,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shell Wall",
@@ -2176,9 +2227,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2224,7 +2275,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Intimidation",
@@ -2236,9 +2288,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2286,7 +2338,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Snaring",
@@ -2298,9 +2351,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2366,7 +2419,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": true,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lone Survivor",
@@ -2378,9 +2432,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2427,7 +2481,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Catlike Reflexes",
@@ -2439,9 +2494,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2488,7 +2543,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Binding Shot",
@@ -2500,9 +2556,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2550,7 +2606,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Trailblazer",
@@ -2562,9 +2619,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2610,7 +2667,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Moment of Opportunity",
@@ -2622,9 +2680,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2670,7 +2728,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Cold Feet",
@@ -2682,9 +2741,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2756,6 +2815,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -2789,7 +2852,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Territorial Instincts",
@@ -2801,9 +2865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2847,7 +2911,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Guttural Roar",
@@ -2859,9 +2924,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2905,7 +2970,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Born To Be Wild",
@@ -2917,9 +2983,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -2976,7 +3042,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -2985,9 +3051,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Keen Eyesight",
@@ -2999,9 +3066,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3058,7 +3125,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -3067,9 +3134,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tar-Coated Bindings",
@@ -3081,9 +3149,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3127,7 +3195,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Horsehair Tether",
@@ -3139,9 +3208,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3185,7 +3254,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Improved Traps",
@@ -3197,9 +3267,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3246,7 +3316,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Emergency Salve",
@@ -3258,9 +3329,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3305,7 +3376,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Roar of Sacrifice",
@@ -3317,9 +3389,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3389,6 +3461,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3417,7 +3493,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Guardian's Hide",
@@ -3429,9 +3506,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3476,7 +3553,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unnatural Causes",
@@ -3488,9 +3566,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3535,7 +3613,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Aimed Shot",
@@ -3547,9 +3626,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3580,10 +3659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Aimed Shot",
         "spell_id": 19434,
         "visible_spell_id": null,
-        "icon": "inv121_ability_hunter_aimedshot",
+        "icon": "8026692",
         "icon_candidates": [
-          "inv121_ability_hunter_aimedshot",
-          "8026692"
+          "8026692",
+          "inv121_ability_hunter_aimedshot"
         ]
       },
       "pve_tooltip": "35 Focus\n40 yd range\n2.5 sec cast\n15 sec recharge\n2 Charges\nA powerful aimed shot that deals (972% of Attack Power) Physical damage.",
@@ -3620,6 +3699,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3645,7 +3728,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -3657,7 +3740,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Rapid Fire",
@@ -3669,9 +3753,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3718,7 +3802,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Precise Shots",
@@ -3730,9 +3815,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3804,6 +3889,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -3832,7 +3921,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Quick Draw",
@@ -3844,9 +3934,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3892,7 +3982,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Avian Specialization",
@@ -3904,9 +3995,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -3979,6 +4070,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -4012,7 +4107,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unbreakable Bond",
@@ -4024,9 +4120,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4074,7 +4170,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lock and Load",
@@ -4086,9 +4183,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4135,7 +4232,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Surging Shots",
@@ -4147,9 +4245,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4196,7 +4294,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tenacious",
@@ -4208,9 +4307,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4256,7 +4355,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Cunning",
@@ -4268,9 +4368,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4316,7 +4416,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Penetrating Shots",
@@ -4328,9 +4429,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4379,7 +4480,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Trick Shots",
@@ -4391,9 +4493,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4467,6 +4569,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4498,6 +4604,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4526,7 +4636,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Aspect of the Hydra",
@@ -4538,9 +4649,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4612,6 +4723,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -4640,7 +4755,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Obsidian Arrowhead",
@@ -4652,9 +4768,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4700,7 +4816,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "On Target",
@@ -4712,9 +4829,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4760,7 +4877,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "No Scope",
@@ -4772,9 +4890,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4824,7 +4942,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Explosive Shot",
@@ -4836,9 +4955,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -4912,6 +5031,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.07,
           "effect_origin": "DIRECT",
@@ -4937,7 +5060,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -4949,7 +5072,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Light Ammo",
@@ -4961,9 +5085,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5009,7 +5133,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Kill Shot",
@@ -5021,9 +5146,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5097,6 +5222,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 10.5,
           "effect_origin": "DIRECT",
@@ -5122,7 +5251,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "aura_spell_id": 1256940,
@@ -5131,7 +5260,7 @@ window.WOW_PVP_DATA = {
               "value_pct": 0.0,
               "factor": 1.0,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -5142,7 +5271,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Trueshot",
@@ -5154,9 +5284,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5231,6 +5361,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -5259,7 +5393,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tactical Reload",
@@ -5271,9 +5406,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5319,7 +5454,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unstable Trigger",
@@ -5331,9 +5467,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5379,7 +5515,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Precision Detonation",
@@ -5391,9 +5528,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5441,7 +5578,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Critical Precision",
@@ -5453,9 +5591,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5501,7 +5639,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deathblow",
@@ -5513,9 +5652,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5561,7 +5700,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Deadeye",
@@ -5573,9 +5713,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5621,7 +5761,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bullseye",
@@ -5633,9 +5774,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5683,7 +5824,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Feathered Frenzy",
@@ -5695,9 +5837,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5743,7 +5885,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Master Marksman",
@@ -5755,9 +5898,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5805,7 +5948,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Eagle's Accuracy",
@@ -5817,9 +5961,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5866,7 +6010,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unmatched Precision",
@@ -5878,9 +6023,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -5937,7 +6082,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -5946,9 +6091,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Calling the Shots",
@@ -5960,9 +6106,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6010,7 +6156,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Unerring Vision",
@@ -6022,9 +6169,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6116,6 +6263,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -6147,6 +6298,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -6175,7 +6330,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Small Game Hunter",
@@ -6187,9 +6343,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6246,7 +6402,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -6255,9 +6411,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Focused Aim",
@@ -6269,9 +6426,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6317,7 +6474,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bulletstorm",
@@ -6329,9 +6487,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6378,7 +6536,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Tensile Bowstring",
@@ -6390,9 +6549,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6436,7 +6595,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Volley",
@@ -6448,9 +6608,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6522,6 +6682,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.85,
           "effect_origin": "DEPENDENCY",
@@ -6552,19 +6716,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Focus Fire",
@@ -6576,9 +6742,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6624,7 +6790,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Windrunner Quiver",
@@ -6636,9 +6803,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6682,7 +6849,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Accuracy By Volume",
@@ -6694,9 +6862,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6740,7 +6908,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Salvo",
@@ -6752,9 +6921,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6798,11 +6967,12 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
-      "talent_name": "Unload",
-      "spell_id": 1277548,
+      "talent_name": "Blood Fletching",
+      "spell_id": 1319011,
       "node_id": 104095,
       "entry_id": 128609,
       "definition_id": 133412,
@@ -6810,9 +6980,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6822,7 +6992,7 @@ window.WOW_PVP_DATA = {
         "hero_tree": null,
         "subtree_id": null,
         "node_id": 104095,
-        "node_name": "Unload",
+        "node_name": "Blood Fletching",
         "node_type": "single",
         "pos_x": 14400,
         "pos_y": 6900,
@@ -6839,77 +7009,25 @@ window.WOW_PVP_DATA = {
         "definition_id": 133412,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Unload",
-        "spell_id": 1277548,
+        "talent_name": "Blood Fletching",
+        "spell_id": 1319011,
         "visible_spell_id": null,
-        "icon": "ability_hunter_efficiency_brown",
+        "icon": "ability_revendreth_hunter",
         "icon_candidates": [
-          "ability_hunter_efficiency_brown"
+          "ability_revendreth_hunter"
         ]
       },
-      "pve_tooltip": "When Rapid Fire begins and finishes channeling, it releases an Arcane Shot at 100% effectiveness.\nIf your target is below 20% health, Rapid Fire instead releases Kill Shots.",
-      "pvp_tooltip": "When Rapid Fire begins and finishes channeling, it releases an Arcane Shot at 50% effectiveness.\nIf your target is below 20% health, Rapid Fire instead releases Kill Shots.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 78,
-          "end": 81,
-          "old_token": "100",
-          "new_token": "50",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "100",
-          "new": "50"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "display_formulas": [],
-          "conditional_display_formulas": [],
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null,
-          "effect_origin": "DIRECT",
-          "dependency_kind": null,
-          "talent_spell_id": 1277548,
-          "source_spell_id": 1277548,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 50.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [],
-          "dependency_relations": [],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1,
-      "rank_tooltips": []
+      "pve_tooltip": "Aimed Shot critical strikes now cause the Master Marksman bleed effect at 20% of damage dealt. For 4 sec after a critical Aimed Shot, the target will take an additional (45% of Attack Power) bleed damage any time your abilities damage that target.",
+      "pvp_tooltip": "Aimed Shot critical strikes now cause the Master Marksman bleed effect at 20% of damage dealt. For 4 sec after a critical Aimed Shot, the target will take an additional (45% of Attack Power) bleed damage any time your abilities damage that target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0,
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Take Aim",
@@ -6921,9 +7039,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -6965,7 +7083,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Take Aim",
@@ -6977,9 +7096,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7029,7 +7148,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         },
         {
           "rank": 2,
@@ -7038,9 +7157,10 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69933"
+          "build": "12.1.5.70448"
         }
-      ]
+      ],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Take Aim",
@@ -7052,9 +7172,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7100,6 +7220,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -7133,7 +7257,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Black Arrow",
@@ -7145,9 +7270,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7219,6 +7344,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.484,
           "effect_origin": "DEPENDENCY",
@@ -7249,7 +7378,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "aura_spell_id": 1256940,
@@ -7258,19 +7387,21 @@ window.WOW_PVP_DATA = {
               "value_pct": 0.0,
               "factor": 1.0,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sentinel",
@@ -7282,9 +7413,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7331,7 +7462,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bleak Arrows",
@@ -7343,9 +7475,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7391,7 +7523,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Soul Drinker",
@@ -7403,9 +7536,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7451,7 +7584,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Bleak Powder",
@@ -7463,9 +7597,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7536,6 +7670,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.5,
           "effect_origin": "DEPENDENCY",
@@ -7566,19 +7704,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Corpsecaller",
@@ -7590,9 +7730,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7638,7 +7778,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Don't Look Back",
@@ -7650,9 +7791,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7725,6 +7866,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7756,6 +7901,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -7784,7 +7933,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Moon's Blessing",
@@ -7796,9 +7946,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7844,7 +7994,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Sanctified Armaments",
@@ -7856,9 +8007,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7904,7 +8055,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Moonlight Chakram",
@@ -7916,9 +8068,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -7989,6 +8141,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.844,
           "effect_origin": "DEPENDENCY",
@@ -8021,7 +8177,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -8037,6 +8193,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.0,
           "effect_origin": "DEPENDENCY",
@@ -8074,7 +8234,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Ebon Bowstring",
@@ -8086,9 +8247,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8134,7 +8295,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Through the Eyes",
@@ -8146,9 +8308,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8194,7 +8356,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Smoke Screen",
@@ -8206,9 +8369,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8254,7 +8417,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Dark Chains",
@@ -8266,9 +8430,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8339,6 +8503,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8372,7 +8540,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Shadow Dagger",
@@ -8384,9 +8553,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8457,6 +8626,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DEPENDENCY",
@@ -8490,7 +8663,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wailing Dead",
@@ -8502,9 +8676,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8594,6 +8768,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 14.0,
           "effect_origin": "DEPENDENCY",
@@ -8626,12 +8804,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8641,6 +8820,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 7.0,
           "effect_origin": "DEPENDENCY",
@@ -8673,19 +8856,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 2,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stargazer",
@@ -8697,9 +8882,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8745,7 +8930,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Open Fire",
@@ -8757,9 +8943,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8805,7 +8991,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Can't Miss, Won't Miss",
@@ -8817,9 +9004,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8865,7 +9052,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Invigorating Pulse",
@@ -8877,9 +9065,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -8925,7 +9113,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Twilight Requiem",
@@ -8937,9 +9126,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9010,6 +9199,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.0,
           "effect_origin": "DEPENDENCY",
@@ -9040,19 +9233,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Stalk and Strike",
@@ -9064,9 +9259,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9112,7 +9307,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Blighted Quiver",
@@ -9124,9 +9320,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9172,7 +9368,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Banshee's Mark",
@@ -9184,9 +9381,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9232,7 +9429,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "The Bell Tolls",
@@ -9244,9 +9442,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9292,7 +9490,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Umbral Reach",
@@ -9304,9 +9503,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9352,7 +9551,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Pact of the Hollow",
@@ -9364,9 +9564,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9412,7 +9612,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Arcane Talons",
@@ -9424,9 +9625,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9458,10 +9659,10 @@ window.WOW_PVP_DATA = {
         "talent_name": "Arcane Talons",
         "spell_id": 1253846,
         "visible_spell_id": null,
-        "icon": "inv_10_specialreagentfoozles_tuskclaw_ice",
+        "icon": "inv_10_specialreagentfoozles_tuskclaw-ice",
         "icon_candidates": [
-          "inv_10_specialreagentfoozles_tuskclaw_ice",
-          "inv_10_specialreagentfoozles_tuskclaw-ice"
+          "inv_10_specialreagentfoozles_tuskclaw-ice",
+          "inv_10_specialreagentfoozles_tuskclaw_ice"
         ]
       },
       "pve_tooltip": "Sentinel's Mark further increases the damage of Aimed Shot by 15%",
@@ -9473,7 +9674,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lunar Calling",
@@ -9485,9 +9687,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9533,7 +9735,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Conditioning",
@@ -9545,9 +9748,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9593,7 +9796,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Scout's Vigil",
@@ -9605,9 +9809,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9653,7 +9857,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Radiant Edge",
@@ -9665,9 +9870,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9728,6 +9933,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.844,
           "effect_origin": "DEPENDENCY",
@@ -9760,7 +9969,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -9773,7 +9982,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Withering Fire",
@@ -9785,9 +9995,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Dark Ranger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9859,6 +10069,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -9887,7 +10101,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Lunar Storm",
@@ -9899,9 +10114,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sentinel",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69933",
-        "generated_at": "2026-10-08T20:33:15.854Z",
-        "content_hash": "4ef7246f73d3b95ffd6a3750f7c8aac0",
+        "wow_build": "12.1.5.70448",
+        "generated_at": "2026-10-20T02:37:02.504Z",
+        "content_hash": "2ff5825c5d2b5bd822d5f368db13f927",
         "class_name": "Hunter",
         "class_id": 3,
         "spec_name": "Marksmanship",
@@ -9973,6 +10188,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.0,
           "effect_origin": "DEPENDENCY",
@@ -10003,19 +10222,21 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "abilities": [
@@ -10033,10 +10254,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 3,
         "spec_id": 254,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_hunter_mendpet",
         "icon_candidates": [
           "ability_hunter_mendpet"
@@ -10079,7 +10301,7 @@ window.WOW_PVP_DATA = {
               "kind": "percent_value",
               "expression": "$m1*5",
               "source": "simc_exact_build",
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             },
             {
               "old": 10.0,
@@ -10087,12 +10309,16 @@ window.WOW_PVP_DATA = {
               "kind": "percent_value",
               "expression": "$w1",
               "source": "simc_exact_build",
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
@@ -10114,6 +10340,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -10121,7 +10348,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Steady Shot",
@@ -10137,10 +10365,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 3,
         "spec_id": 254,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_hunter_steadyshot",
         "icon_candidates": [
           "ability_hunter_steadyshot"
@@ -10180,6 +10409,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 4.8,
           "effect_origin": "DIRECT",
@@ -10205,12 +10438,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "wowhead",
             "drustvar",
+            "simc_generated",
             "simc"
           ],
           "source_notes": [],
@@ -10218,7 +10452,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Arcane Shot",
@@ -10234,10 +10469,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 3,
         "spec_id": 254,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_impalingbolt",
         "icon_candidates": [
           "ability_impalingbolt"
@@ -10277,6 +10513,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.758,
           "effect_origin": "DIRECT",
@@ -10302,7 +10542,7 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
@@ -10315,7 +10555,8 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Multi-Shot",
@@ -10331,10 +10572,11 @@ window.WOW_PVP_DATA = {
         "tree_type": "ability",
         "entry_type": "ability",
         "passive": false,
+        "player_text_available": true,
         "class_id": 3,
         "spec_id": 254,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "icon": "ability_upgrademoonglaive",
         "icon_candidates": [
           "ability_upgrademoonglaive"
@@ -10374,6 +10616,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.136,
           "effect_origin": "DIRECT",
@@ -10399,12 +10645,13 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
             "simc",
-            "drustvar"
+            "drustvar",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10414,6 +10661,10 @@ window.WOW_PVP_DATA = {
           "conditional_display_formulas": [],
           "scaled_base_value": null,
           "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": true,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.756,
           "effect_origin": "DEPENDENCY",
@@ -10444,18 +10695,20 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.0.69933"
+              "build": "12.1.5.70448"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     },
     {
       "talent_name": "Wing Clip",
@@ -10467,7 +10720,7 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "simc_exact_build",
-        "wow_build": "12.1.0.69933",
+        "wow_build": "12.1.5.70448",
         "entry_type": "ability",
         "talent_name": "Wing Clip",
         "spell_id": 195645,
@@ -10496,7 +10749,7 @@ window.WOW_PVP_DATA = {
           "status": "NON_TREE_ABILITY_RESOLVED",
           "source": "simc_exact_build",
           "source_spell_id": 195645,
-          "source_build": "12.1.0.69933",
+          "source_build": "12.1.5.70448",
           "hotfix_text": "Wing Clip now reduces movement speed by 40% in PvP combat."
         },
         {
@@ -10511,7 +10764,8 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": true,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
     }
   ],
   "fetch_errors": [],
@@ -11377,11 +11631,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 1277548,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277548'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 1277565,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277565'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11394,6 +11643,16 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1301406,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1301406'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1319011,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1319011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 135299,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=135299'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -11487,6 +11746,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 462080,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462080'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 466872,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=466872'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11561,7 +11825,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Improved Snaring",
@@ -12381,7 +12645,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12391,7 +12655,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -12535,8 +12799,8 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.0.69933",
-    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
+    "build": "12.1.5.70448",
+    "source_ref": "7bc10711b5a4514066fa402ca0a71c9ba4b7c9dd",
     "baseline_spell_ids": [
       136,
       781,
@@ -12550,8 +12814,10 @@ window.WOW_PVP_DATA = {
       6197,
       6991,
       56641,
+      86538,
       93321,
       109304,
+      137014,
       157443,
       175686,
       185358,
@@ -12563,6 +12829,7 @@ window.WOW_PVP_DATA = {
       257284,
       257620,
       272651,
+      462080,
       466904,
       1217788,
       1219616,
@@ -12580,25 +12847,3792 @@ window.WOW_PVP_DATA = {
         "name": "Stat Negation Aura - Agility DPS",
         "reason": "NOT_IN_EXACT_BUILD_CLASS_DUMP"
       }
-    ]
+    ],
+    "candidate_universe": {
+      "schema": 1,
+      "entries": [
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 136,
+          "replaced_spell_id": 0,
+          "name": "Mend Pet",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 136,
+              "effect_index": 1,
+              "game_effect_id": 94,
+              "base_value": 10.0,
+              "pvp_coefficient": 2.0,
+              "current_pvp_coefficient": 2.0,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                136
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 781,
+          "replaced_spell_id": 0,
+          "name": "Disengage",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 883,
+          "replaced_spell_id": 0,
+          "name": "Call Pet 1",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 982,
+          "replaced_spell_id": 0,
+          "name": "Revive Pet",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 1462,
+          "replaced_spell_id": 0,
+          "name": "Beast Lore",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 1515,
+          "replaced_spell_id": 0,
+          "name": "Tame Beast",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 1543,
+          "replaced_spell_id": 0,
+          "name": "Flare",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 2641,
+          "replaced_spell_id": 0,
+          "name": "Dismiss Pet",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 5384,
+          "replaced_spell_id": 0,
+          "name": "Feign Death",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 6197,
+          "replaced_spell_id": 0,
+          "name": "Eagle Eye",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 6197,
+          "replaced_spell_id": 0,
+          "name": "Eagle Eye",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 6991,
+          "replaced_spell_id": 0,
+          "name": "Feed Pet",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 56641,
+          "replaced_spell_id": 0,
+          "name": "Steady Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 56641,
+              "effect_index": 1,
+              "game_effect_id": 49735,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.4,
+              "current_pvp_coefficient": 1.4,
+              "sp_coefficient": null,
+              "ap_coefficient": 4.8,
+              "published": true,
+              "dependency_path": [
+                56641
+              ],
+              "player_text": [
+                "A steady shot that causes $s1 Physical damage."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 86538,
+          "replaced_spell_id": 0,
+          "name": "Mail Specialization",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 93321,
+          "replaced_spell_id": 0,
+          "name": "Control Pet",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 109304,
+          "replaced_spell_id": 0,
+          "name": "Exhilaration",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 137014,
+          "replaced_spell_id": 0,
+          "name": "Hunter",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 137016,
+          "replaced_spell_id": 0,
+          "name": "Marksmanship Hunter",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 157443,
+          "replaced_spell_id": 0,
+          "name": "Critical Strikes",
+          "passive": true,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 162697,
+          "replaced_spell_id": 0,
+          "name": "Stat Negation Aura - Agility DPS",
+          "passive": false,
+          "classification": "NOT_IN_CLASS_DUMP",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 175686,
+          "replaced_spell_id": 0,
+          "name": "Stopping Power",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 185358,
+          "replaced_spell_id": 0,
+          "name": "Arcane Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 185358,
+              "effect_index": 1,
+              "game_effect_id": 269119,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.863,
+              "current_pvp_coefficient": 1.863,
+              "sp_coefficient": null,
+              "ap_coefficient": 3.758,
+              "published": true,
+              "dependency_path": [
+                185358
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 186257,
+          "replaced_spell_id": 0,
+          "name": "Aspect of the Cheetah",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 186265,
+          "replaced_spell_id": 0,
+          "name": "Aspect of the Turtle",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 187650,
+          "replaced_spell_id": 0,
+          "name": "Freezing Trap",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 193468,
+          "replaced_spell_id": 0,
+          "name": "Mastery: Sniper Training",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 195645,
+          "replaced_spell_id": 0,
+          "name": "Wing Clip",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 257284,
+          "replaced_spell_id": 0,
+          "name": "Hunter's Mark",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 257620,
+          "replaced_spell_id": 0,
+          "name": "Multi-Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 257620,
+              "effect_index": 2,
+              "game_effect_id": 1193792,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 3.136,
+              "published": true,
+              "dependency_path": [
+                257620
+              ],
+              "player_text": [
+                "Fires several missiles, hitting your current target and all enemies within $A2 yards for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 2643,
+              "effect_index": 2,
+              "game_effect_id": 101372,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.756,
+              "published": true,
+              "dependency_path": [
+                257620,
+                2643
+              ],
+              "player_text": [
+                "Fires several missiles, hitting all nearby enemies within $A2 yds of your current target for $s2 Physical damage$?s115939["
+              ]
+            },
+            {
+              "source_spell_id": 2643,
+              "effect_index": 2,
+              "game_effect_id": 101372,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.756,
+              "published": true,
+              "dependency_path": [
+                257620,
+                2643
+              ],
+              "player_text": [
+                "Fires several missiles, hitting all nearby enemies within $A2 yds of your current target for $s2 Physical damage$?s115939["
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 257620,
+          "replaced_spell_id": 0,
+          "name": "Multi-Shot",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [
+            {
+              "source_spell_id": 257620,
+              "effect_index": 2,
+              "game_effect_id": 1193792,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 3.136,
+              "published": true,
+              "dependency_path": [
+                257620
+              ],
+              "player_text": [
+                "Fires several missiles, hitting your current target and all enemies within $A2 yards for $s2 Physical damage."
+              ]
+            },
+            {
+              "source_spell_id": 2643,
+              "effect_index": 2,
+              "game_effect_id": 101372,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.756,
+              "published": true,
+              "dependency_path": [
+                257620,
+                2643
+              ],
+              "player_text": [
+                "Fires several missiles, hitting all nearby enemies within $A2 yds of your current target for $s2 Physical damage$?s115939["
+              ]
+            },
+            {
+              "source_spell_id": 2643,
+              "effect_index": 2,
+              "game_effect_id": 101372,
+              "base_value": 0.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": 0.756,
+              "published": true,
+              "dependency_path": [
+                257620,
+                2643
+              ],
+              "player_text": [
+                "Fires several missiles, hitting all nearby enemies within $A2 yds of your current target for $s2 Physical damage$?s115939["
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": true
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 272651,
+          "replaced_spell_id": 0,
+          "name": "Command Pet",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 462080,
+          "replaced_spell_id": 0,
+          "name": "Hunter",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 462081,
+          "replaced_spell_id": 0,
+          "name": "Marksmanship Hunter",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 466904,
+          "replaced_spell_id": 0,
+          "name": "Harrier's Cry",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 466904,
+          "replaced_spell_id": 0,
+          "name": "Harrier's Cry",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 1217788,
+          "replaced_spell_id": 0,
+          "name": "Manhunter",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 1219616,
+          "replaced_spell_id": 0,
+          "name": "Spotter's Mark",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 1229376,
+          "replaced_spell_id": 0,
+          "name": "Single-Button Assistant",
+          "passive": false,
+          "classification": "BASE_ABILITY",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 254,
+          "spell_id": 1256940,
+          "replaced_spell_id": 0,
+          "name": "Marksmanship Hunter",
+          "passive": false,
+          "classification": "SPECIALIZATION_AURA",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 2649,
+          "replaced_spell_id": 0,
+          "name": "Growl",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 16827,
+          "replaced_spell_id": 0,
+          "name": "Claw",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 17253,
+          "replaced_spell_id": 0,
+          "name": "Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 24423,
+          "replaced_spell_id": 0,
+          "name": "Bloody Screech",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 24450,
+          "replaced_spell_id": 0,
+          "name": "Prowl",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 24450,
+              "effect_index": 2,
+              "game_effect_id": 14687,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                24450
+              ],
+              "player_text": [
+                "Puts your pet in stealth mode, but slows its movement speed by $s2%.",
+                "Movement speed slowed by $s2%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 26064,
+          "replaced_spell_id": 0,
+          "name": "Shell Shield",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 35346,
+          "replaced_spell_id": 0,
+          "name": "Warp Time",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 35346,
+              "effect_index": 1,
+              "game_effect_id": 25516,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                35346
+              ],
+              "player_text": [
+                "The Warp Stalker slows time around the enemy, reducing their movement speed by $s1% for $d.",
+                "Movement slowed by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 49966,
+          "replaced_spell_id": 0,
+          "name": "Smack",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 50245,
+          "replaced_spell_id": 0,
+          "name": "Pin",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 50245,
+              "effect_index": 1,
+              "game_effect_id": 42394,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                50245
+              ],
+              "player_text": [
+                "The Crab claws at the target's feet with its pincers, slowing movement by $s1% for $d."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 50285,
+          "replaced_spell_id": 0,
+          "name": "Dust Cloud",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 50285,
+              "effect_index": 1,
+              "game_effect_id": 42449,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                50285
+              ],
+              "player_text": [
+                "The Tallstrider kicks up a cloud of dust towards the target, slowing movement by $s1% for $d.",
+                "Movement slowed by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 50433,
+          "replaced_spell_id": 0,
+          "name": "Ankle Crack",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 50433,
+              "effect_index": 1,
+              "game_effect_id": 42638,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                50433
+              ],
+              "player_text": [
+                "Snap at the target's feet, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 54644,
+          "replaced_spell_id": 0,
+          "name": "Frost Breath",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 54644,
+              "effect_index": 1,
+              "game_effect_id": 47481,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                54644
+              ],
+              "player_text": [
+                "The Chimera blasts the target with frost breath, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 54680,
+          "replaced_spell_id": 0,
+          "name": "Monstrous Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 61684,
+          "replaced_spell_id": 0,
+          "name": "Dash",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 90328,
+          "replaced_spell_id": 0,
+          "name": "Spirit Walk",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 90328,
+              "effect_index": 2,
+              "game_effect_id": 93477,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                90328
+              ],
+              "player_text": [
+                "Puts your pet in stealth mode, but slows its movement speed by $s2%.",
+                "Movement speed slowed by $s2%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 90339,
+          "replaced_spell_id": 0,
+          "name": "Harden Carapace",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 90347,
+          "replaced_spell_id": 0,
+          "name": "Play",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 90361,
+          "replaced_spell_id": 0,
+          "name": "Spirit Mend",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 92380,
+          "replaced_spell_id": 0,
+          "name": "Froststorm Breath",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 93433,
+          "replaced_spell_id": 0,
+          "name": "Burrow Attack",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 94019,
+          "replaced_spell_id": 0,
+          "name": "Rest",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 94022,
+          "replaced_spell_id": 0,
+          "name": "Trick",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 126259,
+          "replaced_spell_id": 0,
+          "name": "Trick",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 126311,
+          "replaced_spell_id": 0,
+          "name": "Surface Trot",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 126364,
+          "replaced_spell_id": 0,
+          "name": "Rest",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 159953,
+          "replaced_spell_id": 0,
+          "name": "Feast",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160007,
+          "replaced_spell_id": 0,
+          "name": "Updraft",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160011,
+          "replaced_spell_id": 0,
+          "name": "Agile Reflexes",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160018,
+          "replaced_spell_id": 0,
+          "name": "Gruesome Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160044,
+          "replaced_spell_id": 0,
+          "name": "Primal Agility",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160060,
+          "replaced_spell_id": 0,
+          "name": "Deadly Sting",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160063,
+          "replaced_spell_id": 0,
+          "name": "Solid Shell",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160065,
+          "replaced_spell_id": 0,
+          "name": "Tendon Rip",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 160065,
+              "effect_index": 1,
+              "game_effect_id": 224317,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                160065
+              ],
+              "player_text": [
+                "The Aqiri slashes at the target's feet, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 160067,
+          "replaced_spell_id": 0,
+          "name": "Web Spray",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 160067,
+              "effect_index": 1,
+              "game_effect_id": 224321,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                160067
+              ],
+              "player_text": [
+                "The Spider wraps webs around the target, slowing movement by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263423,
+          "replaced_spell_id": 0,
+          "name": "Lock Jaw",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 263423,
+              "effect_index": 1,
+              "game_effect_id": 706186,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                263423
+              ],
+              "player_text": [
+                "The Hound bites the target's feet, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263446,
+          "replaced_spell_id": 0,
+          "name": "Acid Spit",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 263446,
+              "effect_index": 1,
+              "game_effect_id": 706228,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                263446
+              ],
+              "player_text": [
+                "The Worm spits acid at the target, slowing movement by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263840,
+          "replaced_spell_id": 0,
+          "name": "Furious Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 263840,
+              "effect_index": 1,
+              "game_effect_id": 706845,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                263840
+              ],
+              "player_text": [
+                "The Wolf bites the target's feet, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263841,
+          "replaced_spell_id": 0,
+          "name": "Petrifying Gaze",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263852,
+          "replaced_spell_id": 0,
+          "name": "Talon Rend",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 263852,
+              "effect_index": 1,
+              "game_effect_id": 706860,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                263852
+              ],
+              "player_text": [
+                "The Bird of Prey claws at the target's feet, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263853,
+          "replaced_spell_id": 0,
+          "name": "Infected Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263854,
+          "replaced_spell_id": 0,
+          "name": "Savage Rend",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263856,
+          "replaced_spell_id": 0,
+          "name": "Gnaw",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263857,
+          "replaced_spell_id": 0,
+          "name": "Ravage",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263858,
+          "replaced_spell_id": 0,
+          "name": "Toxic Sting",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263861,
+          "replaced_spell_id": 0,
+          "name": "Gore",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263863,
+          "replaced_spell_id": 0,
+          "name": "Acid Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263865,
+          "replaced_spell_id": 0,
+          "name": "Scale Shield",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263867,
+          "replaced_spell_id": 0,
+          "name": "Obsidian Skin",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263868,
+          "replaced_spell_id": 0,
+          "name": "Defense Matrix",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263869,
+          "replaced_spell_id": 0,
+          "name": "Bristle",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263887,
+          "replaced_spell_id": 0,
+          "name": "Dragon's Guile",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263892,
+          "replaced_spell_id": 0,
+          "name": "Catlike Reflexes",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263904,
+          "replaced_spell_id": 0,
+          "name": "Serpent's Swiftness",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 263916,
+          "replaced_spell_id": 0,
+          "name": "Feather Flurry",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 264360,
+          "replaced_spell_id": 0,
+          "name": "Winged Agility",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 267922,
+          "replaced_spell_id": 0,
+          "name": "Eternal Guardian",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 279336,
+          "replaced_spell_id": 0,
+          "name": "Swarm of Flies",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 279362,
+          "replaced_spell_id": 0,
+          "name": "Grievous Bite",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 279410,
+          "replaced_spell_id": 0,
+          "name": "Bulwark",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 288962,
+          "replaced_spell_id": 0,
+          "name": "Blood Bolt",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 288962,
+              "effect_index": 1,
+              "game_effect_id": 752997,
+              "base_value": -50.0,
+              "pvp_coefficient": 0.6,
+              "current_pvp_coefficient": 0.6,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                288962
+              ],
+              "player_text": [
+                "The blood beast belches blood at the target, reducing movement speed by $s1% for $d.",
+                "Movement speed reduced by $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": true,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344346,
+          "replaced_spell_id": 0,
+          "name": "Soothing Waters",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344347,
+          "replaced_spell_id": 0,
+          "name": "Spore Cloud",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344348,
+          "replaced_spell_id": 0,
+          "name": "Sonic Screech",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344349,
+          "replaced_spell_id": 0,
+          "name": "Nether Energy",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344350,
+          "replaced_spell_id": 0,
+          "name": "Oiled Feathers",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344351,
+          "replaced_spell_id": 0,
+          "name": "Spirit Pulse",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344352,
+          "replaced_spell_id": 0,
+          "name": "Nature's Grace",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": 3,
+          "spec_id": 0,
+          "spell_id": 344353,
+          "replaced_spell_id": 0,
+          "name": "Serenity Dust",
+          "passive": false,
+          "scope": "pet",
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 822,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 5227,
+          "replaced_spell_id": 0,
+          "name": "Touch of the Grave",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 6562,
+          "replaced_spell_id": 0,
+          "name": "Heroic Presence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 7744,
+          "replaced_spell_id": 0,
+          "name": "Will of the Forsaken",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20549,
+          "replaced_spell_id": 0,
+          "name": "War Stomp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20550,
+          "replaced_spell_id": 0,
+          "name": "Endurance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20551,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20552,
+          "replaced_spell_id": 0,
+          "name": "Cultivation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20555,
+          "replaced_spell_id": 0,
+          "name": "Regeneration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20557,
+          "replaced_spell_id": 0,
+          "name": "Beast Slaying",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20572,
+          "replaced_spell_id": 0,
+          "name": "Blood Fury",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 45,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20573,
+          "replaced_spell_id": 0,
+          "name": "Hardiness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 20573,
+              "effect_index": 1,
+              "game_effect_id": 11566,
+              "base_value": -20.0,
+              "pvp_coefficient": 0.5,
+              "current_pvp_coefficient": 0.5,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                20573
+              ],
+              "player_text": [
+                "Duration of Stun effects reduced by an additional $s1%."
+              ]
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20577,
+          "replaced_spell_id": 0,
+          "name": "Cannibalize",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20579,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20582,
+          "replaced_spell_id": 0,
+          "name": "Quickness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20583,
+          "replaced_spell_id": 0,
+          "name": "Nature Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20585,
+          "replaced_spell_id": 0,
+          "name": "Wisp Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20589,
+          "replaced_spell_id": 0,
+          "name": "Escape Artist",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20592,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20593,
+          "replaced_spell_id": 0,
+          "name": "Engineering Specialization",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20594,
+          "replaced_spell_id": 0,
+          "name": "Stoneform",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20596,
+          "replaced_spell_id": 0,
+          "name": "Frost Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 20598,
+          "replaced_spell_id": 0,
+          "name": "The Human Spirit",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 21563,
+          "replaced_spell_id": 0,
+          "name": "Command",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 26297,
+          "replaced_spell_id": 0,
+          "name": "Berserking",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28875,
+          "replaced_spell_id": 0,
+          "name": "Gemcutting",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 28877,
+          "replaced_spell_id": 0,
+          "name": "Arcane Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58943,
+          "replaced_spell_id": 0,
+          "name": "Da Voodoo Shuffle",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 128,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 58984,
+          "replaced_spell_id": 0,
+          "name": "Shadowmeld",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59221,
+          "replaced_spell_id": 0,
+          "name": "Shadow Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59224,
+          "replaced_spell_id": 0,
+          "name": "Might of the Mountain",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59543,
+          "replaced_spell_id": 0,
+          "name": "Gift of the Naaru",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1024,
+          "class_mask": 4,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 59752,
+          "replaced_spell_id": 0,
+          "name": "Will to Survive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68975,
+          "replaced_spell_id": 0,
+          "name": "Viciousness",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68976,
+          "replaced_spell_id": 0,
+          "name": "Aberration",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68978,
+          "replaced_spell_id": 0,
+          "name": "Flayer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68992,
+          "replaced_spell_id": 0,
+          "name": "Darkflight",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 68996,
+          "replaced_spell_id": 0,
+          "name": "Two Forms",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69041,
+          "replaced_spell_id": 0,
+          "name": "Rocket Barrage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69042,
+          "replaced_spell_id": 0,
+          "name": "Time is Money",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69044,
+          "replaced_spell_id": 0,
+          "name": "Best Deals Anywhere",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69045,
+          "replaced_spell_id": 0,
+          "name": "Better Living Through Chemistry",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69046,
+          "replaced_spell_id": 0,
+          "name": "Pack Hobgoblin",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 69070,
+          "replaced_spell_id": 0,
+          "name": "Rocket Jump",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 80483,
+          "replaced_spell_id": 0,
+          "name": "Arcane Torrent",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 4,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 87840,
+          "replaced_spell_id": 0,
+          "name": "Running Wild",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92680,
+          "replaced_spell_id": 0,
+          "name": "Nimble Fingers",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 92682,
+          "replaced_spell_id": 0,
+          "name": "Explorer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 94293,
+          "replaced_spell_id": 0,
+          "name": "Altered Form",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107072,
+          "replaced_spell_id": 0,
+          "name": "Epicurean",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107073,
+          "replaced_spell_id": 0,
+          "name": "Gourmand",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107074,
+          "replaced_spell_id": 0,
+          "name": "Inner Peace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107076,
+          "replaced_spell_id": 0,
+          "name": "Bouncy",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 107079,
+          "replaced_spell_id": 0,
+          "name": "Quaking Palm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 58720256,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154742,
+          "replaced_spell_id": 0,
+          "name": "Arcane Acuity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 512,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154743,
+          "replaced_spell_id": 0,
+          "name": "Brawn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 32,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 154748,
+          "replaced_spell_id": 0,
+          "name": "Touch of Elune",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 227057,
+          "replaced_spell_id": 0,
+          "name": "Expansive Mind",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 64,
+          "class_mask": 4,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255647,
+          "replaced_spell_id": 0,
+          "name": "Light's Judgment",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255650,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255651,
+          "replaced_spell_id": 0,
+          "name": "Holy Providence",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255652,
+          "replaced_spell_id": 0,
+          "name": "Light's Reckoning",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255653,
+          "replaced_spell_id": 0,
+          "name": "Demonbane",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255654,
+          "replaced_spell_id": 0,
+          "name": "Bull Rush",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255655,
+          "replaced_spell_id": 0,
+          "name": "Pride of Ironhorn",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255656,
+          "replaced_spell_id": 0,
+          "name": "Waste Not, Want Not",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255658,
+          "replaced_spell_id": 0,
+          "name": "Mountaineer",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255659,
+          "replaced_spell_id": 0,
+          "name": "Rugged Tenacity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 134217728,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255661,
+          "replaced_spell_id": 0,
+          "name": "Cantrips",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255663,
+          "replaced_spell_id": 0,
+          "name": "Ancient History",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255664,
+          "replaced_spell_id": 0,
+          "name": "Arcane Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255665,
+          "replaced_spell_id": 0,
+          "name": "Magical Affinity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255667,
+          "replaced_spell_id": 0,
+          "name": "Ethereal Connection",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255668,
+          "replaced_spell_id": 0,
+          "name": "Chill of Night",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255669,
+          "replaced_spell_id": 0,
+          "name": "Entropic Embrace",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 255670,
+          "replaced_spell_id": 0,
+          "name": "Preternatural Calm",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 256948,
+          "replaced_spell_id": 0,
+          "name": "Spatial Rift",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 268435456,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 259930,
+          "replaced_spell_id": 0,
+          "name": "Forge of Light",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 536870912,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 260364,
+          "replaced_spell_id": 0,
+          "name": "Arcane Pulse",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 67108864,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265221,
+          "replaced_spell_id": 0,
+          "name": "Fireblood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265222,
+          "replaced_spell_id": 0,
+          "name": "Mass Production",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265223,
+          "replaced_spell_id": 0,
+          "name": "Dungeon Delver",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265224,
+          "replaced_spell_id": 0,
+          "name": "Forged in Flames",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 265225,
+          "replaced_spell_id": 0,
+          "name": "Mole Machine",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2048,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273216,
+          "replaced_spell_id": 0,
+          "name": "Open Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273217,
+          "replaced_spell_id": 0,
+          "name": "Sympathetic Vigor",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 273220,
+          "replaced_spell_id": 0,
+          "name": "Savage Blood",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 274738,
+          "replaced_spell_id": 0,
+          "name": "Ancestral Call",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 8192,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 281954,
+          "replaced_spell_id": 0,
+          "name": "Pterrordax Swoop",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 287712,
+          "replaced_spell_id": 0,
+          "name": "Haymaker",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291417,
+          "replaced_spell_id": 0,
+          "name": "Rime of the Ancient Mariner",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291442,
+          "replaced_spell_id": 0,
+          "name": "Jack of All Trades",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291619,
+          "replaced_spell_id": 0,
+          "name": "City of Gold",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291622,
+          "replaced_spell_id": 0,
+          "name": "Child of the Sea",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291628,
+          "replaced_spell_id": 0,
+          "name": "Brush It Off",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2147483648,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 291944,
+          "replaced_spell_id": 0,
+          "name": "Regeneratin'",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292751,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 292752,
+          "replaced_spell_id": 0,
+          "name": "Embrace of the Loa",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1073741824,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312198,
+          "replaced_spell_id": 0,
+          "name": "Fire Resistance",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312215,
+          "replaced_spell_id": 0,
+          "name": "Nose For Trouble",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312370,
+          "replaced_spell_id": 0,
+          "name": "Make Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312372,
+          "replaced_spell_id": 0,
+          "name": "Return to Camp",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312411,
+          "replaced_spell_id": 0,
+          "name": "Bag of Tricks",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312425,
+          "replaced_spell_id": 0,
+          "name": "Rummage Your Bag",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312890,
+          "replaced_spell_id": 0,
+          "name": "Skeleton Pinkie",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312896,
+          "replaced_spell_id": 0,
+          "name": "Mastercraft",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312916,
+          "replaced_spell_id": 0,
+          "name": "Emergency Failsafe",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312923,
+          "replaced_spell_id": 0,
+          "name": "Combat Analysis",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 312924,
+          "replaced_spell_id": 0,
+          "name": "Hyper Organic Light Originator",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 16384,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 317795,
+          "replaced_spell_id": 0,
+          "name": "Alpaca Saddlebags",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 4096,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 351239,
+          "replaced_spell_id": 0,
+          "name": "Visage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 413,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 357214,
+          "replaced_spell_id": 0,
+          "name": "Wing Buffet",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358731,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 358733,
+          "replaced_spell_id": 0,
+          "name": "Glide",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 360009,
+          "replaced_spell_id": 0,
+          "name": "Familiar Skies",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 360022,
+          "replaced_spell_id": 0,
+          "name": "Chosen Identity",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 413,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 365575,
+          "replaced_spell_id": 0,
+          "name": "Awakened",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 366489,
+          "replaced_spell_id": 0,
+          "name": "Discerning Eye",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 368437,
+          "replaced_spell_id": 0,
+          "name": "Visage",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 381451,
+          "replaced_spell_id": 0,
+          "name": "Principles of Soaring",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 98304,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406087,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 406096,
+          "replaced_spell_id": 0,
+          "name": "Calm the Wolf",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 2097152,
+          "class_mask": 2015,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436339,
+          "replaced_spell_id": 0,
+          "name": "Hyper Productive",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436340,
+          "replaced_spell_id": 0,
+          "name": "Titan-Wrought Frame",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436341,
+          "replaced_spell_id": 0,
+          "name": "Ingest Minerals",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 436344,
+          "replaced_spell_id": 0,
+          "name": "Azerite Surge",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 448924,
+          "replaced_spell_id": 0,
+          "name": "Wide-Eyed Wonder",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 458619,
+          "replaced_spell_id": 0,
+          "name": "No Place Like Home",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 1,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        },
+        {
+          "class_id": null,
+          "spec_id": 0,
+          "spell_id": 461063,
+          "replaced_spell_id": 0,
+          "name": "Quiet Contemplation",
+          "passive": false,
+          "scope": "race",
+          "race_mask": 393216,
+          "class_mask": 16383,
+          "classification": "CONDITIONAL_OWNERSHIP_UNRESOLVED",
+          "effects": [
+            {
+              "source_spell_id": 461063,
+              "effect_index": 3,
+              "game_effect_id": 1169181,
+              "base_value": 0.0,
+              "pvp_coefficient": 0.55552,
+              "current_pvp_coefficient": 0.55552,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": false,
+              "dependency_path": [
+                461063
+              ],
+              "player_text": []
+            }
+          ],
+          "drustvar_candidate": false,
+          "aura_candidate": false
+        }
+      ],
+      "class_spec_complete": true,
+      "conditional_ownership_complete": false,
+      "conditional_modified_count": 16,
+      "limitations": [
+        "Pet-family/spec and race-specific ownership is not established by class/spec tables."
+      ]
+    }
   },
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-10-13T07:15:01.966505+00:00",
+  "generated_at": "2026-10-20T21:41:51.743935+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
     "talents": 130,
-    "changed_tooltips": 27,
-    "talents_with_pvp_mechanics": 30,
+    "changed_tooltips": 26,
+    "talents_with_pvp_mechanics": 29,
     "unique_nodes": 110,
-    "tree_build": "12.1.0.69933",
-    "simc_build": "12.1.0.69933",
+    "tree_build": "12.1.5.70448",
+    "simc_build": "12.1.5.70448",
     "drustvar_builds": [
-      "12.1.0.69933"
+      "12.1.5.70448"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 152,
+    "source_warning_count": 154,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -12634,14 +16668,16 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
-    "captured_at": "2026-10-13T07:03:24.615743+00:00",
-    "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
-    "evidence_hash": "90a81efa8c05902a4b50b309d6b698a0481f193542c353c79142eafa66277cca"
+    "snapshot_hash": "9aa9b8b0d93a9780ac68f79e0a8b2eed04b81dc12f19e8b992f78b2e7eb0f7a0",
+    "captured_at": "2026-10-20T21:29:24.732825+00:00",
+    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "archival_replay": false,
+    "evidence_hash": "f0d0a4f2f30abe523543861e3a6d0e73e8ceb884f384ca257590c6a65d30f27b"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 40,
+    "effect_count": 39,
     "effects": [
       {
         "key": [
@@ -13171,27 +17207,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
-          128609,
-          1277548,
-          1277548,
-          1
-        ],
-        "amount_kind": null,
-        "values": {
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.5,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 50.0,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
           128710,
           466867,
           466872,
@@ -13484,7 +17499,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "0113edf299f7b8557a704bd4165dfc3effcd6379ef3304e146ad1b5b51e3cd0d",
+    "semantic_hash": "718b3d510c26c2d8164f24fe4234dce6670e7849520a7f09deaa709e923df385",
     "independent_effects": [
       {
         "key": [
@@ -13545,6 +17560,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 3.136,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          257620,
+          257620,
+          2643,
+          2
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": 0.756,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -13993,27 +18029,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
-          128609,
-          1277548,
-          1277548,
-          1
-        ],
-        "amount_kind": null,
-        "values": {
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.5,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 50.0,
-          "simc_sp_coefficient": null,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
           128710,
           466867,
           466872,
@@ -14285,6 +18300,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "6fb43e84a4e347fd190b49edf71fa68e17680b0b1f5c6bb494261e203c341de9"
+    "independent_hash": "462c9eb125a58ab0221255f03249d9b0dfc7132959b8abaa34455b852920ff28"
   }
 };
