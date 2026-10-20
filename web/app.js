@@ -1306,35 +1306,17 @@
         const verificationStatus =
             data.validation
             ?.verification_status
-            || "VERIFIED";
+            || "UNKNOWN";
 
         const isVerified =
             verificationStatus
             === "VERIFIED";
 
-        const completeBaseCoverage = data.spellbook_inventory?.candidate_universe?.conditional_ownership_complete === true;
-
-        const statusLabel =
-            $("#datasetStatusLabel");
-
-        const statusDot =
-            document.querySelector(
-                ".status-dot"
-            );
-
-        if (statusLabel) {
-            statusLabel.textContent =
-                isVerified
-                ? (completeBaseCoverage ? "Verified current dataset" : "Verified values · Base Spells coverage incomplete")
-                : "Current dataset · partial coverage";
-        }
-
-        if (statusDot) {
-            statusDot.classList.toggle(
-                "partial",
-                !isVerified || !completeBaseCoverage
-            );
-        }
+        const status = window.WowPvpDataStatus(data);
+        const statusLabel = $("#datasetStatusLabel");
+        const statusDot = document.querySelector(".status-dot");
+        if (statusLabel) statusLabel.textContent = status.label;
+        if (statusDot) statusDot.classList.toggle("partial", status.partial);
 
 
         const verifiedAt = (() => {
