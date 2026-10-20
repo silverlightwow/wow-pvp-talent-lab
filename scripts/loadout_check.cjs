@@ -95,8 +95,15 @@ assert.ok(infernal.rank_tooltips[1].pvp_tooltip.includes('11.52%'));
 assert.ok(infernal.rank_tooltips.every(r=>r.tooltip_changed));
 for(const slug of ['mage-arcane','mage-fire','mage-frost']){
  const t=data(slug).talents.find(t=>t.spell_id===382424);
- assert.ok(t.rank_tooltips[0].pvp_tooltip.includes('15 sec'));
- assert.ok(t.rank_tooltips[1].pvp_tooltip.includes('30 sec'));
+ const effect=t.mechanics.find(m=>m.source_spell_id===t.spell_id && m.effect_index===1);
+ assert.ok(effect && Number.isFinite(effect.final_pvp_multiplier),`${slug}: missing cooldown effect evidence`);
+ for(const rank of t.rank_tooltips){
+  const pve=Number(rank.pve_tooltip.match(/reduced by ([0-9.]+) sec/)?.[1]);
+  const pvp=Number(rank.pvp_tooltip.match(/reduced by ([0-9.]+) sec/)?.[1]);
+  assert.ok(Number.isFinite(pve)&&pve>0&&Number.isFinite(pvp),`${slug}: missing ranked cooldown duration`);
+  assert.ok(Math.abs(pvp-pve*effect.final_pvp_multiplier)<1e-6,
+   `${slug} rank ${rank.rank}: duration must follow the captured current effect, including hotfixes`);
+ }
  assert.ok(t.rank_tooltips.every(r=>r.tooltip_changed),`${slug}: every Winter's Protection rank must be modified`);
 }
 console.log('Ranked PvP regressions: referenced spells, direct modifiers and rounded durations passed.');

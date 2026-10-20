@@ -10789,7 +10789,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 172,
           "source_spell_id": 146739,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds | Attributes: Is Harmful (12) (SP mod: 0.380105)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 0.869565,
           "amount_kind": "periodic",
@@ -10825,9 +10825,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11980,11 +11980,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1312998,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1312998'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 146739,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146739'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13152,7 +13147,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       126,
       172,
@@ -13213,7 +13208,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warlock-affliction",
-  "generated_at": "2026-10-12T07:19:49.500488+00:00",
+  "generated_at": "2026-10-13T07:18:42.710069+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13228,7 +13223,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 144,
+    "source_warning_count": 143,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -13264,8 +13259,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "b59cfddf92f87873c3702e217a0adafe6ec9a6c00c26582e3a5611da375b6ccb"
   },

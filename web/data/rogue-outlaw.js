@@ -4689,8 +4689,8 @@ window.WOW_PVP_DATA = {
           "spell_warrior_wildstrike"
         ]
       },
-      "pve_tooltip": "Blade Flurry's initial damage is increased by 100% and generates 1 combo point per target struck, but its Energy cost is increased by 30.",
-      "pvp_tooltip": "Blade Flurry's initial damage is increased by 100% and generates 1 combo point per target struck, but its Energy cost is increased by 30.",
+      "pve_tooltip": "Blade Flurry's initial damage is increased by 100% and it generates 1 combo point per target struck, but its Energy cost is increased by 5 for each target struck, up to 30.",
+      "pvp_tooltip": "Blade Flurry's initial damage is increased by 100% and it generates 1 combo point per target struck, but its Energy cost is increased by 5 for each target struck, up to 30.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -13659,7 +13659,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       408,
       1725,
@@ -13723,7 +13723,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-10-12T07:18:47.715188+00:00",
+  "generated_at": "2026-10-13T07:17:47.031172+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -13774,8 +13774,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "b89f8063d910accabdcccb4442c898c367a2b6d4f881391d312637efe33442c3"
   },

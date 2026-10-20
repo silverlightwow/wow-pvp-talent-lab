@@ -49,6 +49,11 @@ def _fragments(spell, index, values, learned, active):
     text = _known_conditions('\n'.join(simc._player_text_sections(spell.raw)), learned, active)
     text = re.sub(r'\|c[0-9a-fA-F]{8}|\|r', '', text)
     token = re.compile(r'\$(?:'+str(spell.spell_id)+r')?[sSmMwW]'+str(index)+r'(?!\d)')
+    if not token.search(text):
+        # A target can describe a separate passive's amount instead of its
+        # own Energize effect. This projection owns only the exact target
+        # token; unrelated conditional syntax cannot change that amount.
+        return []
     # Availability in a talent tree does not prove that a talent was learned.
     # Remove unrelated conditional clauses; a resource formula inside an
     # unresolved clause is a blocker, not permission to choose either branch.

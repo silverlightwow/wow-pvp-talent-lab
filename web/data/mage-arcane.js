@@ -481,8 +481,8 @@ window.WOW_PVP_DATA = {
           "ability_evoker_timedilation"
         ]
       },
-      "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
-      "pvp_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
+      "pve_tooltip": "When your health is brought below 25%, your past self corrects your timeline if Alter Time is not on cooldown, instantly restoring 20% of your maximum health and healing you for an additional 30% over 6 sec.\nThis effect places Alter Time on cooldown as if it had been cast.",
+      "pvp_tooltip": "When your health is brought below 25%, your past self corrects your timeline if Alter Time is not on cooldown, instantly restoring 20% of your maximum health and healing you for an additional 30% over 6 sec.\nThis effect places Alter Time on cooldown as if it had been cast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -542,8 +542,8 @@ window.WOW_PVP_DATA = {
           "inv_belt_armor_waistoftime_d_01"
         ]
       },
-      "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+      "pve_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
+      "pvp_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -554,8 +554,8 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
-          "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "pve_tooltip": "Alter Time's cooldown is reduced by 5 sec.",
+          "pvp_tooltip": "Alter Time's cooldown is reduced by 5 sec.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -563,8 +563,8 @@ window.WOW_PVP_DATA = {
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
-          "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "pve_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
+          "pvp_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -622,14 +622,14 @@ window.WOW_PVP_DATA = {
           "spell_ice_rune"
         ]
       },
-      "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 40,
-          "end": 42,
+          "start": 48,
+          "end": 50,
           "old_token": "60",
           "new_token": "30",
           "kind": "duration_seconds",
@@ -696,13 +696,13 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 15 sec.",
+          "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 15 sec.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 40,
-              "end": 42,
+              "start": 48,
+              "end": 50,
               "old_token": "30",
               "new_token": "15",
               "kind": "duration_seconds",
@@ -716,13 +716,13 @@ window.WOW_PVP_DATA = {
         },
         {
           "rank": 2,
-          "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
           "tooltip_changed": true,
           "changes": [
             {
-              "start": 40,
-              "end": 42,
+              "start": 48,
+              "end": 50,
               "old_token": "60",
               "new_token": "30",
               "kind": "duration_seconds",
@@ -847,8 +847,8 @@ window.WOW_PVP_DATA = {
           "spell_arcane_arcaneresilience"
         ]
       },
-      "pve_tooltip": "Reduces magic damage taken by 8%.",
-      "pvp_tooltip": "Reduces magic damage taken by 8%.",
+      "pve_tooltip": "Magic damage taken reduced by 8%.",
+      "pvp_tooltip": "Magic damage taken reduced by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -859,8 +859,8 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces magic damage taken by 4%.",
-          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "pve_tooltip": "Magic damage taken reduced by 4%.",
+          "pvp_tooltip": "Magic damage taken reduced by 4%.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -868,8 +868,8 @@ window.WOW_PVP_DATA = {
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces magic damage taken by 8%.",
-          "pvp_tooltip": "Reduces magic damage taken by 8%.",
+          "pve_tooltip": "Magic damage taken reduced by 8%.",
+          "pvp_tooltip": "Magic damage taken reduced by 8%.",
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
@@ -2338,8 +2338,8 @@ window.WOW_PVP_DATA = {
           "spell_frost_frostward"
         ]
       },
-      "pve_tooltip": "Frost Nova now has 2 charges.",
-      "pvp_tooltip": "Frost Nova now has 2 charges.",
+      "pve_tooltip": "Frost Nova gains an additional charge.",
+      "pvp_tooltip": "Frost Nova gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2462,8 +2462,8 @@ window.WOW_PVP_DATA = {
           "inv_misc_book_04"
         ]
       },
-      "pve_tooltip": "Increases critical strike chance by 2%.",
-      "pvp_tooltip": "Increases critical strike chance by 2%.",
+      "pve_tooltip": "Critical strike chance by 2%.",
+      "pvp_tooltip": "Critical strike chance by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2586,8 +2586,8 @@ window.WOW_PVP_DATA = {
           "inv_misc_book_18"
         ]
       },
-      "pve_tooltip": "Increases Haste by 2%.",
-      "pvp_tooltip": "Increases Haste by 2%.",
+      "pve_tooltip": "Haste increased by 2%.",
+      "pvp_tooltip": "Haste increased by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2800,8 +2800,8 @@ window.WOW_PVP_DATA = {
           "ability_mage_invisibility"
         ]
       },
-      "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
+      "pve_tooltip": "[Greater Invisibility: Greater]Invisibility's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility's cooldown is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2988,33 +2988,22 @@ window.WOW_PVP_DATA = {
           "spell_arcane_blink"
         ]
       },
-      "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 1.5 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 50,
-          "end": 51,
-          "old_token": "3",
-          "new_token": "1.5",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
+      "pve_tooltip": "[Shimmer: Shimmer's / Blink's] cooldown is reduced by 3 sec.",
+      "pvp_tooltip": "[Shimmer: Shimmer's / Blink's] cooldown is reduced by 3 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1,
             2
           ],
-          "status": "APPLIED",
+          "status": "OTHER_SPEC_BRANCH",
           "kind": "duration_seconds",
-          "old": "3",
-          "new": "1.5"
+          "old": 3.0,
+          "new": 1.5,
+          "full_tooltip_match_count": 1
         }
       ],
       "has_pvp_mechanics": true,
@@ -3198,8 +3187,8 @@ window.WOW_PVP_DATA = {
           "inv_nerubian_necklace_02_color1"
         ]
       },
-      "pve_tooltip": "Your Mastery is increased by 3%.",
-      "pvp_tooltip": "Your Mastery is increased by 3%.",
+      "pve_tooltip": "Mastery increased by 3%.",
+      "pvp_tooltip": "Mastery increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3258,8 +3247,8 @@ window.WOW_PVP_DATA = {
           "inv_10_dungeonjewelry_primalist_necklace_2_frost"
         ]
       },
-      "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
+      "pve_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "[Ice Cold / Ice Block]'s cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3740,8 +3729,8 @@ window.WOW_PVP_DATA = {
           "spell_nature_doublepolymorph1"
         ]
       },
-      "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
-      "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
+      "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yds into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
+      "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yds into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3803,8 +3792,8 @@ window.WOW_PVP_DATA = {
           "spell_mage_temporalshield"
         ]
       },
-      "pve_tooltip": "Casting your barrier removes all snare effects.",
-      "pvp_tooltip": "Casting your barrier removes all snare effects.",
+      "pve_tooltip": "Casting Prismatic Barrier removes all snare effects.",
+      "pvp_tooltip": "Casting Prismatic Barrier removes all snare effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3923,14 +3912,14 @@ window.WOW_PVP_DATA = {
           "spell_mage_evanesce"
         ]
       },
-      "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 2.5 sec.",
+      "pve_tooltip": "When Prismatic Barrier is removed, its remaining cooldown is reduced by 5 sec.",
+      "pvp_tooltip": "When Prismatic Barrier is removed, its remaining cooldown is reduced by 2.5 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 53,
-          "end": 54,
+          "start": 72,
+          "end": 73,
           "old_token": "5",
           "new_token": "2.5",
           "kind": "duration_seconds",
@@ -5180,7 +5169,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 153626,
           "source_spell_id": 153640,
           "effect_index": 1,
-          "effect_text": "School Damage (2): arcane | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (SP mod: 2.432)",
+          "effect_text": "School Damage (Arcane) (SP mod: 2.432)",
           "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "direct",
@@ -5207,9 +5196,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6000,8 +5989,8 @@ window.WOW_PVP_DATA = {
           "ability_socererking_arcaneacceleration"
         ]
       },
-      "pve_tooltip": "Your Haste is increased by 2%.",
-      "pvp_tooltip": "Your Haste is increased by 2%.",
+      "pve_tooltip": "Haste increased by 2%.",
+      "pvp_tooltip": "Haste increased by 2%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8450,8 +8439,8 @@ window.WOW_PVP_DATA = {
           "achievement_bg_tophealer_av"
         ]
       },
-      "pve_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
-      "pvp_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
+      "pve_tooltip": "While in combat, [Shimmer / Blink] summons a Mirror Image at your previous location.",
+      "pvp_tooltip": "While in combat, [Shimmer / Blink] summons a Mirror Image at your previous location.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8731,8 +8720,8 @@ window.WOW_PVP_DATA = {
           "spell_arcane_prismaticcloak"
         ]
       },
-      "pve_tooltip": "Your Mirror Image summons 1 extra copy of you.",
-      "pvp_tooltip": "Your Mirror Image summons 1 extra copy of you.",
+      "pve_tooltip": "Casting Mirror Image summons 1 extra copy of you.",
+      "pvp_tooltip": "Casting Mirror Image summons 1 extra copy of you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8791,8 +8780,8 @@ window.WOW_PVP_DATA = {
           "spell_mage_focusingcrystal"
         ]
       },
-      "pve_tooltip": "Direct damage from Arcane Splinters have a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
-      "pvp_tooltip": "Direct damage from Arcane Splinters have a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pve_tooltip": "Direct damage from Arcane Splinters has a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pvp_tooltip": "Direct damage from Arcane Splinters has a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9092,8 +9081,8 @@ window.WOW_PVP_DATA = {
           "ability_mage_burstofcold"
         ]
       },
-      "pve_tooltip": "Casting Arcane Surge generates 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
-      "pvp_tooltip": "Casting Arcane Surge generates 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
+      "pve_tooltip": "Casting Arcane Surge conjures 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
+      "pvp_tooltip": "Casting Arcane Surge conjures 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9764,8 +9753,8 @@ window.WOW_PVP_DATA = {
           "spell_holy_borrowedtime"
         ]
       },
-      "pve_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
-      "pvp_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
+      "pve_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
+      "pvp_tooltip": "Alter Time's cooldown is reduced by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12043,11 +12032,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 153640,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153640'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 157981,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157981'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13152,7 +13136,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       66,
       120,
@@ -13194,12 +13178,12 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "mage-arcane",
-  "generated_at": "2026-10-12T07:16:30.043877+00:00",
+  "generated_at": "2026-10-13T07:15:38.322008+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
     "talents": 128,
-    "changed_tooltips": 25,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69933",
@@ -13209,7 +13193,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 142,
+    "source_warning_count": 141,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -13245,8 +13229,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "9cca6dfc0db0e8d643e9d1c2d75be1ecd163e78e86511873bb7c18832166abe7"
   },

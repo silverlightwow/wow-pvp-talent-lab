@@ -9789,8 +9789,8 @@ window.WOW_PVP_DATA = {
           "ability_evoker_aspectsfavorbronze"
         ]
       },
-      "pve_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
-      "pvp_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
+      "pve_tooltip": "Prescience's cooldown is reduced by 2 sec and it grants 1% additional critical strike chance.",
+      "pvp_tooltip": "Prescience's cooldown is reduced by 2 sec and it grants 1% additional critical strike chance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -13088,7 +13088,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       355913,
       356995,
@@ -13130,7 +13130,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-10-12T07:15:26.748793+00:00",
+  "generated_at": "2026-10-13T07:14:17.014327+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13181,8 +13181,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "3697f1d2dfc91b8037e1528cd13f69190e0ce88dfd8a86c004ec814376923c11"
   },

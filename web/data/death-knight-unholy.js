@@ -6649,13 +6649,13 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
-      "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 25% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
+      "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 25% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 109,
-          "end": 112,
+          "start": 68,
+          "end": 71,
           "old_token": "100",
           "new_token": "25",
           "kind": "ordinary_value",
@@ -6673,6 +6673,14 @@ window.WOW_PVP_DATA = {
           "kind": "ordinary_value",
           "old": "100",
           "new": "25"
+        },
+        {
+          "status": "OFFICIAL_CLASS_HOTFIX_APPLIED",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24296142",
+          "hotfix_date": "2026-10-06",
+          "hotfix_text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+          "reason": "CLASS_ABSOLUTE_OVERLAY"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12305,6 +12313,17 @@ window.WOW_PVP_DATA = {
           "old_rendered_token": "10%",
           "new_rendered_token": "20%"
         }
+      },
+      {
+        "talent_name": "Blightfall",
+        "spell_id": 1271974,
+        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
+        "date": "2026-10-06",
+        "evidence": {
+          "source": "blizzard_class_hotfix_overlay",
+          "old_rendered_token": "200%",
+          "new_rendered_token": "100%"
+        }
       }
     ],
     "already_current": [
@@ -12337,15 +12356,6 @@ window.WOW_PVP_DATA = {
           "new_value": 4.6855366272,
           "ratio": 2.0,
           "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
-        }
-      },
-      {
-        "talent_name": "Blightfall",
-        "spell_id": 1271974,
-        "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
-        "date": "2026-10-06",
-        "evidence": {
-          "source": "official_class_hotfix_current"
         }
       }
     ],
@@ -13266,7 +13276,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       3714,
       43265,
@@ -13308,7 +13318,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-10-12T07:13:54.987155+00:00",
+  "generated_at": "2026-10-13T07:12:49.722502+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -13359,8 +13369,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "e5e684f264004ccc3b9c9b82f7e9ed0b8bd59d2a85e0607ee94c26ef015a127b"
   },

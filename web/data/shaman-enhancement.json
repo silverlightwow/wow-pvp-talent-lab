@@ -168,16 +168,16 @@
           "ability_shaman_lavalash"
         ]
       },
-      "pve_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (322.268% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
-      "pvp_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (272.8192% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
+      "pve_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (238.717% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
+      "pvp_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (202.0883% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 126,
           "end": 133,
-          "old_token": "322.268",
-          "new_token": "272.8192",
+          "old_token": "238.717",
+          "new_token": "202.0883",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -191,8 +191,8 @@
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "322.268",
-          "new": "272.8192"
+          "old": "238.717",
+          "new": "202.0883"
         }
       ],
       "has_pvp_mechanics": true,
@@ -209,7 +209,7 @@
           "talent_spell_id": 60103,
           "source_spell_id": 60103,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 3.22268 )",
+          "effect_text": "School Damage (Fire) (AP mod: 2.38717 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
@@ -13179,7 +13179,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       2484,
       2645,
@@ -13239,7 +13239,7 @@
     ]
   },
   "slug": "shaman-enhancement",
-  "generated_at": "2026-10-12T07:19:17.360535+00:00",
+  "generated_at": "2026-10-13T07:18:37.097169+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -13290,8 +13290,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "ab338756db403eeb0a8dbaa26ae845d4a0c8773099cad29d1dcd040d9bbaf87c"
   },

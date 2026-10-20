@@ -8183,32 +8183,11 @@
           "inv_shadowflames_wave"
         ]
       },
-      "pve_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 240% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 240% of the amount consumed.",
-      "pvp_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 168% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 168% of the amount consumed.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 104,
-          "end": 107,
-          "old_token": "240",
-          "new_token": "168",
-          "kind": "percent_value",
-          "effect_indexes": [
-            6
-          ]
-        },
-        {
-          "start": 262,
-          "end": 265,
-          "old_token": "240",
-          "new_token": "168",
-          "kind": "percent_value",
-          "effect_indexes": [
-            6
-          ]
-        }
-      ],
+      "pve_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 290% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 290% of the amount consumed.",
+      "pvp_tooltip": "Verdant Embrace consumes 4 sec of Dream Breath from allies it heals, detonating it and healing them for 290% of the amount consumed.\nEmerald Blossom and Fluttering Seedlings consume 2 sec of Dream Breath from allies they heal, detonating it and healing them for 290% of the amount consumed.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -8224,19 +8203,11 @@
           "effect_indexes": [
             6
           ],
-          "status": "APPLIED",
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
-          "old": "240",
-          "new": "168"
-        },
-        {
-          "effect_indexes": [
-            6
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "240",
-          "new": "168"
+          "old": 240.0,
+          "new": 168.0,
+          "full_tooltip_match_count": 0
         },
         {
           "status": "OFFICIAL_HOTFIX_CURRENT",
@@ -9345,8 +9316,8 @@
           "ability_evoker_aspectsfavorbronze"
         ]
       },
-      "pve_tooltip": "Temporal Anomaly mana cost reduced by 15% and cooldown reduced by 4 sec.",
-      "pvp_tooltip": "Temporal Anomaly mana cost reduced by 15% and cooldown reduced by 4 sec.",
+      "pve_tooltip": "Temporal Anomaly's mana cost is reduced by 15% and its cooldown is reduced by 4 sec.",
+      "pvp_tooltip": "Temporal Anomaly's mana cost is reduced by 15% and its cooldown is reduced by 4 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12405,7 +12376,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       355913,
       356995,
@@ -12447,12 +12418,12 @@
     ]
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-10-12T07:15:43.899068+00:00",
+  "generated_at": "2026-10-13T07:14:58.927101+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
     "talents": 130,
-    "changed_tooltips": 7,
+    "changed_tooltips": 6,
     "talents_with_pvp_mechanics": 9,
     "unique_nodes": 117,
     "tree_build": "12.1.0.69933",
@@ -12498,8 +12469,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "3697f1d2dfc91b8037e1528cd13f69190e0ce88dfd8a86c004ec814376923c11"
   },

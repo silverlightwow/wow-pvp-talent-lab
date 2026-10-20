@@ -3762,7 +3762,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116858,
           "source_spell_id": 116858,
           "effect_index": 1,
-          "effect_text": "School Damage (2): chromatic (SP mod: 4.29049)",
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (SP mod: 4.29049)",
           "base_value": null,
           "spell_pvp_multiplier": 2.28099,
           "amount_kind": "direct",
@@ -3784,9 +3784,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7162,8 +7162,8 @@ window.WOW_PVP_DATA = {
           "inv_shadowflame_buff"
         ]
       },
-      "pve_tooltip": "Conflagrate and Shadowburn have a 100% chance to critical strike and their damage is increased by your critical strike chance.",
-      "pvp_tooltip": "Conflagrate and Shadowburn have a 100% chance to critical strike and their damage is increased by your critical strike chance.",
+      "pve_tooltip": "Conflagrate and Shadowburn have a 100% chance to critically strike and their damage is increased by your critical strike chance.",
+      "pvp_tooltip": "Conflagrate and Shadowburn have a 100% chance to critically strike and their damage is increased by your critical strike chance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11639,11 +11639,6 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 116858,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 152108,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13352,7 +13347,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.0.69933",
-    "source_ref": "af05b9e2e1e50ad5b50f255d7189161dcc058554",
+    "source_ref": "eaf8c4670b420e05bfea82c992b671cd22d9c4c7",
     "baseline_spell_ids": [
       126,
       348,
@@ -13413,7 +13408,7 @@ window.WOW_PVP_DATA = {
     ]
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-10-12T07:20:00.863916+00:00",
+  "generated_at": "2026-10-13T07:19:10.532252+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -13428,16 +13423,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 147,
+    "source_warning_count": 146,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 116858,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 152108,
@@ -13457,6 +13447,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 196447,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196447'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 205148,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205148'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -13464,8 +13459,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "916911fa7ef9ce8de45be22546ceda886fa26a31e04f7be0e18b8a2facbba095",
-    "captured_at": "2026-10-12T07:03:32.194907+00:00",
+    "snapshot_hash": "67414aa7652668b346c74f7114317bf1a4e0b9462093b5cd0d96e3f1b6662c10",
+    "captured_at": "2026-10-13T07:03:24.615743+00:00",
     "parser_hash": "ff1e6d0bf3ebf1044de71348e1337794f4f2545566fdaaf230c0cba00e9aea86",
     "evidence_hash": "b59cfddf92f87873c3702e217a0adafe6ec9a6c00c26582e3a5611da375b6ccb"
   },

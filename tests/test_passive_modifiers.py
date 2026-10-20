@@ -75,3 +75,15 @@ def test_unrelated_optional_branch_does_not_change_unconditional_resource_formul
     dump.spells[20] = replace(spell, raw=spell.raw + '\nTooltip          : $?s20[Deals $s1 damage.][Other text.]')
     projected = passive_modifiers.resource_projections(dump, roots, {10, 20})
     assert projected[0]['fragments'] == [['Generates 0 points', 'Generates 6 points', 'Generates 3 points']]
+
+
+def test_unrelated_compound_condition_is_outside_target_projection():
+    dump, _ = fixture()
+    spell = replace(dump.spells[20], raw=dump.spells[20].raw.replace(
+        '$?s10[Generates ${$m2/10} points.][]',
+        '$?a10&a30[Generates ${$10s1+$30s1} points.]?a10[Generates $10s1 points.][]'))
+    assert passive_modifiers._fragments(spell, 2, [0, 60, 30], {10}, {10}) == []
+    # Unsupported syntax that actually contains the owned amount still blocks.
+    spell = replace(spell, raw=spell.raw.replace('$10s1', '$m2'))
+    with pytest.raises(ValueError, match='conditional|unverified'):
+        passive_modifiers._fragments(spell, 2, [0, 60, 30], {10}, {10})

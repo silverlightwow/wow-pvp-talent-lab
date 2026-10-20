@@ -5,6 +5,9 @@ const http = require('node:http');
 const { chromium } = require('playwright');
 
 const web = path.resolve(__dirname, '../web');
+const workerSource = fs.readFileSync(path.join(web, 'service-worker.js'), 'utf8');
+const currentCache = workerSource.match(/const CACHE = "([^"]+)"/)?.[1];
+assert.ok(currentCache && currentCache !== 'wow-pvp-talent-lab-v30', 'Worker must migrate the old cache');
 const manifest = JSON.parse(fs.readFileSync(path.join(web, 'manifest.json'), 'utf8'));
 const icons = [...manifest.icons.map(icon => icon.src), 'favicon-v25-16.png', 'favicon-v25-32.png'];
 const oldIcon = '<svg xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="red"/></svg>';
@@ -62,7 +65,13 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
     oldWorker = false;
     await page.goto(base);
-    await page.waitForFunction(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v31') && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'));
+    await page.waitForFunction(async current => (await caches.keys()).includes(current) && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'), currentCache);
+    // Cache installation alone does not mean this page is controlled by the
+    // new worker. Wait for its activation before testing immutable routing.
+    await page.waitForFunction(async () => {
+      const registration = await navigator.serviceWorker.getRegistration();
+      return navigator.serviceWorker.controller === registration?.active && !registration?.installing && !registration?.waiting;
+    });
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {
@@ -109,10 +118,10 @@ const server = http.createServer((req, res) => {
     assert.equal(iconRequests, before, 'Cached rune must not be refetched on interactions');
 
     // A missing current icon must never fall back to an unrelated stale cache.
-    await page.evaluate(async ({ brand, oldIcon }) => {
+    await page.evaluate(async ({ brand, oldIcon, currentCache }) => {
       await (await caches.open('foreign-cache')).put(brand, new Response(oldIcon));
-      await (await caches.open('wow-pvp-talent-lab-v31')).delete(brand);
-    }, { brand, oldIcon });
+      await (await caches.open(currentCache)).delete(brand);
+    }, { brand, oldIcon, currentCache });
     const stale = await page.evaluate(async brand => {
       try { return await (await fetch(brand)).text(); } catch { return null; }
     }, brand);
