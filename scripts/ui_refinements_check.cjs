@@ -65,7 +65,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    assert.equal(await page.evaluate(()=>window.scrollY),0,'Opening a specialization from Home must start at the top');
 
    // Aimed Shot currently arrives from the source dataset with an inv121
-   // alias. Normalize it to the real icon and never use the app/spec icon as
+   // alias. Preserve authoritative source candidates and never use the app/spec icon as
    // a visually misleading talent fallback.
    await page.locator('#classSelect').selectOption('Hunter');
    await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled);
@@ -75,8 +75,15 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
    assert.ok(aimedNodeId,'Aimed Shot must exist in the current Marksmanship tree');
    const aimedIcon=page.locator(`[data-node-id="${aimedNodeId}"] .node-main-icon`).first();
    const aimedCandidates=(await aimedIcon.getAttribute('data-icon-candidates')).split('|');
-   assert.equal(aimedCandidates[0],'ability_hunter_aimedshot','Aimed Shot must prefer its correct spell icon');
-   assert.match(await aimedIcon.getAttribute('src'),/\/ability_hunter_aimedshot\.jpg$/);
+   const sourcedIcons = await page.evaluate(() => {
+    const row = window.WOW_PVP_DATA.talents.find(t=>t.spell_id===19434);
+    return [...new Set([...(row.tree_data?.icon_candidates||[]), row.tree_data?.icon].filter(Boolean))];
+   });
+   assert.deepEqual(aimedCandidates,sourcedIcons,'Talent icons must preserve source-provided names and alternatives');
+   assert.ok(aimedCandidates.length, 'Source icon metadata is missing');
+   const aimedIconSource = await aimedIcon.getAttribute('src');
+   assert.ok(aimedCandidates.some(icon => aimedIconSource.endsWith('/'+encodeURIComponent(icon)+'.jpg')),
+    'The rendered icon must name a supplied source asset');
    await page.waitForFunction(nodeId=>{
     const node=document.querySelector(`[data-node-id="${nodeId}"]`);
     const icon=node?.querySelector('.node-main-icon');

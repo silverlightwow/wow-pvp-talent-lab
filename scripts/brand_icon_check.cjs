@@ -5,10 +5,14 @@ const http = require('node:http');
 const { chromium } = require('playwright');
 
 const web = path.resolve(__dirname, '../web');
+const workerSource = fs.readFileSync(path.join(web, 'service-worker.js'), 'utf8');
+const currentCache = workerSource.match(/const CACHE = "([^"]+)"/)?.[1];
+assert.ok(currentCache && currentCache !== 'wow-pvp-talent-lab-v30', 'Worker must migrate the old cache');
 const manifest = JSON.parse(fs.readFileSync(path.join(web, 'manifest.json'), 'utf8'));
 const icons = [...manifest.icons.map(icon => icon.src), 'favicon-v25-16.png', 'favicon-v25-32.png'];
 const oldIcon = '<svg xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="red"/></svg>';
 let oldWorker = true, blockIcons = false, iconRequests = 0;
+const iconRequestLog = [];
 const mime = { '.html': 'text/html', '.js': 'application/javascript', '.json': 'application/json', '.css': 'text/css', '.png': 'image/png', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg' };
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
@@ -28,11 +32,15 @@ const server = http.createServer((req, res) => {
         await self.skipWaiting();
       })));
       self.addEventListener('activate', e=>e.waitUntil(self.clients.claim()));
-      self.addEventListener('fetch', e=>e.respondWith(fetch(e.request).catch(async()=>await caches.match(e.request)||Response.error())));`);
+      self.addEventListener('fetch', e=>{
+        if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;
+        e.respondWith(fetch(e.request).catch(async()=>await caches.match(e.request)||Response.error()));
+      });`);
     return;
   }
   if (icons.includes(file)) {
     iconRequests++;
+    iconRequestLog.push({file, destination:req.headers['sec-fetch-dest'], blocked:blockIcons});
     if (blockIcons) { res.destroy(); return; }
   }
   const resolved = path.resolve(web, file);
@@ -52,7 +60,7 @@ const server = http.createServer((req, res) => {
   try {
     const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     await context.route('https://**/*', route => route.abort());
-    const page = await context.newPage();
+    let page = await context.newPage();
     await page.goto(base + 'prime.html');
     await page.evaluate(async () => {
       await navigator.serviceWorker.register('service-worker.js');
@@ -61,8 +69,43 @@ const server = http.createServer((req, res) => {
     });
     assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
     oldWorker = false;
-    await page.goto(base);
-    await page.waitForFunction(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v31') && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'));
+    await page.goto(base, {waitUntil:'domcontentloaded'});
+    await page.waitForFunction(async current => {
+      const keys = await caches.keys(), registration = await navigator.serviceWorker.getRegistration();
+      return keys.includes(current) && keys.includes('wow-pvp-talent-lab-v30') && registration?.waiting?.state === 'installed';
+    }, currentCache);
+    // A pending update must preserve the open calculator and its old cache.
+    await page.locator('.welcome-spec[data-class="Paladin"][data-spec="Holy"]').click();
+    await page.waitForFunction(() => document.querySelector('#treeTitle').textContent === 'Holy Paladin');
+    assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
+    const candidates = await Promise.all(context.serviceWorkers().map(async worker => ({
+      worker, cache:await worker.evaluate(() => CACHE),
+    })));
+    const nextWorker = candidates.find(item => item.cache === currentCache)?.worker;
+    assert.ok(nextWorker, 'Installed next worker is missing');
+    await page.close();
+    await nextWorker.evaluate(async () => {
+      const end = Date.now() + 15000;
+      while (self.registration.waiting || self.registration.installing || self.registration.active?.state !== 'activated') {
+        if (Date.now() > end) throw new Error('New worker did not activate after old documents closed');
+        await new Promise(resolve => setTimeout(resolve, 25));
+      }
+    });
+    page = await context.newPage();
+    await page.goto(base, {waitUntil:'domcontentloaded'});
+    // Cache installation alone does not mean this page is controlled by the
+    // new worker. Wait for its activation before testing immutable routing.
+    await page.waitForFunction(expected => new Promise(resolve => {
+      const controller = navigator.serviceWorker.controller;
+      if (!controller) return resolve(false);
+      const channel = new MessageChannel();
+      const timer = setTimeout(() => { channel.port1.close(); resolve(false); }, 250);
+      channel.port1.onmessage = event => {
+        clearTimeout(timer); channel.port1.close(); resolve(event.data?.cache === expected);
+      };
+      controller.postMessage({type:'CACHE_VERSION'}, [channel.port2]);
+    }), currentCache);
+    assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), false);
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {
@@ -85,7 +128,18 @@ const server = http.createServer((req, res) => {
     await page.locator('[data-tab="compare"]').click();
     await page.locator('.documentation-link').click();
     const frame = page.frameLocator('#docsFrame');
-    await frame.locator('#spec-aura').waitFor();
+    try {
+      await frame.locator('#spec-aura').waitFor();
+    } catch (error) {
+      console.error('Documentation migration state', await page.evaluate(() => ({
+        open:document.querySelector('#docsDialog').open,
+        src:document.querySelector('#docsFrame').src,
+        frameURL:document.querySelector('#docsFrame').contentWindow.location.href,
+        frameText:document.querySelector('#docsFrame').contentDocument?.body?.textContent?.slice(0,500),
+        controller:navigator.serviceWorker.controller?.scriptURL,
+      })));
+      throw error;
+    }
     const favicons = locator => locator.locator('link[rel="icon"], link[rel="shortcut icon"]').evaluateAll(links => links.map(link => link.href));
     assert.deepEqual(await favicons(frame), await favicons(page), 'Embedded documentation must use the calculator favicons');
     assert.equal(new URL(await page.locator('#docsFrame').getAttribute('src')).searchParams.get('v'), '25');
@@ -99,6 +153,13 @@ const server = http.createServer((req, res) => {
     // Once installed, immutable icons stay available even if their server fails.
     blockIcons = true;
     const before = iconRequests;
+    const cacheState = await page.evaluate(async current => ({
+      controller:navigator.serviceWorker.controller?.scriptURL,
+      keys:(await (await caches.open(current)).keys()).map(request=>request.url),
+    }), currentCache);
+    cacheState.workers = await Promise.all(context.serviceWorkers().map(worker => worker.evaluate(() => ({
+      cache:CACHE, brandUrls:typeof BRAND_URLS === 'undefined' ? null : [...BRAND_URLS],
+    }))));
     const bytes = await page.evaluate(async urls => Promise.all(urls.map(async url => {
       const response = await fetch(url); return { ok: response.ok, bytes: [...new Uint8Array(await response.arrayBuffer())] };
     })), icons);
@@ -106,13 +167,13 @@ const server = http.createServer((req, res) => {
       assert.equal(result.ok, true);
       assert.deepEqual(Buffer.from(result.bytes), fs.readFileSync(path.join(web, icons[i])));
     });
-    assert.equal(iconRequests, before, 'Cached rune must not be refetched on interactions');
+    assert.equal(iconRequests, before, 'Cached rune must not be refetched on interactions: '+JSON.stringify({cacheState,requests:iconRequestLog.slice(before)}));
 
     // A missing current icon must never fall back to an unrelated stale cache.
-    await page.evaluate(async ({ brand, oldIcon }) => {
+    await page.evaluate(async ({ brand, oldIcon, currentCache }) => {
       await (await caches.open('foreign-cache')).put(brand, new Response(oldIcon));
-      await (await caches.open('wow-pvp-talent-lab-v31')).delete(brand);
-    }, { brand, oldIcon });
+      await (await caches.open(currentCache)).delete(brand);
+    }, { brand, oldIcon, currentCache });
     const stale = await page.evaluate(async brand => {
       try { return await (await fetch(brand)).text(); } catch { return null; }
     }, brand);

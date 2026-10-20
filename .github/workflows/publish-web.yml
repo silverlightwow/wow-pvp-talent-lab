@@ -1,6 +1,10 @@
 name: Publish current web snapshot
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Build all PvP datasets and deploy', 'Recover verified snapshot from completed spec artifacts']
+    types: [completed]
+    branches: [main]
   push:
     branches: [main]
     paths:
@@ -13,15 +17,53 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-static-publish
-  cancel-in-progress: true
+  group: github-pages-publication
+  cancel-in-progress: false
 
 jobs:
-  package:
+  publication_route:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event != 'pull_request')
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 5
+    outputs:
+      publish: ${{ steps.route.outputs.publish }}
+      source_sha: ${{ steps.route.outputs.source_sha }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - name: Wait for data validation on mixed source and UI pushes
+        id: route
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SOURCE_BEFORE: ${{ github.event.before }}
+          SOURCE_AFTER: ${{ github.sha }}
+        run: |
+          if [ "$EVENT_NAME" = push ]; then
+            python scripts/publication_policy.py --before "$SOURCE_BEFORE" --after "$SOURCE_AFTER" --github-output "$GITHUB_OUTPUT"
+          else
+            python scripts/publication_policy.py --github-output "$GITHUB_OUTPUT"
+          fi
+          echo "source_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  package:
+    needs: publication_route
+    if: needs.publication_route.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      source_sha: ${{ steps.source.outputs.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ needs.publication_route.outputs.source_sha }}
+      - name: Record the exact packaged revision
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: '22'
@@ -58,11 +100,13 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
   verify_publication:
-    needs: deploy
+    needs: [deploy, package]
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ needs.package.outputs.source_sha }}
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
@@ -73,3 +117,11 @@ jobs:
           path: .publication
       - name: Verify every live file against the deployed artifact
         run: python scripts/check_publication.py --base-url 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/' --expected-inventory .publication/publication.json
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Verify the actual deployment in Chromium at desktop and mobile widths
+        run: node scripts/live_site_browser_check.cjs

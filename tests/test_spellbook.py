@@ -67,7 +67,8 @@ def test_passive_class_spellbook_effects_are_roots_too():
     roots = spellbook.ability_roots(tables, dump, class_id=9, spec_id=99, talent_spell_ids=set())
     assert [r['spell_id'] for r in roots] == [101, 105]
     assert roots[1]['passive'] is True
-    assert not any(r['spell_id'] == 104 for r in roots)  # Pet table is separate.
+    assert not any(r['spell_id'] == 104 for r in roots)  # Pet availability is conditional.
+    assert any(r['spell_id'] == 104 and r.get('scope') == 'pet' for r in tables)
     with pytest.raises(ValueError, match='Incomplete'):
         spellbook.parse_table(text.replace('passive_class_spell_t, 1', 'passive_class_spell_t, 2'), expected_build='12.1.0.12345')
     with pytest.raises(ValueError, match='Unrecognized'):
@@ -97,6 +98,9 @@ def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypat
     async def fetch_dump(*args, **kwargs): return dump
     async def fetch_effects(*args, **kwargs): return []
     async def fetch_auras(*args, **kwargs): return {'versions': [dump.build], 'auras': []}
+    async def generated(client, ids, **kwargs):
+        return {sid: simc.parse_spell_effects(dump.spells[sid]) for sid in ids if sid in dump.spells}
+    monkeypatch.setattr(simc, 'fetch_generated_effects', generated)
     async def fetch_tables(*args, **kwargs):
         return [dict(class_id=9, spec_id=0, spell_id=100, replaced_spell_id=0, name='Baseline Slow')]
     async def fetch_wowhead(*args, **kwargs): return {}, []
@@ -129,3 +133,138 @@ def test_baseline_ability_runs_through_effect_audit_and_public_catalog(monkeypat
         assert public.talents[0].pvp_tooltip == ('Slows the target by 25%.' if reverse else 'The slow is 25%.')
     if reverse:
         assert ability.mechanics[0]['source_spell_id'] == 1
+
+
+@pytest.mark.parametrize("mode", [
+    "relative_increase", "relative_reduction", "remove_relative_increase",
+    "property_absolute", "property_relative_increase",
+])
+def test_nonabsolute_off_tree_hotfixes_cannot_be_silently_skipped(mode):
+    """A targeted change to an exact-build, in-spec base ability must be audited."""
+    from types import SimpleNamespace
+    from pvpcalc.sources.blizzard_hotfixes import OfficialPvpHotfix
+
+    dump = dump_for([spell(100, "Baseline Slow")])
+    audit = SimpleNamespace(simc_dump=dump, spellbook_inventory={
+        "baseline_spell_ids": [100], "pvp_spell_ids": []})
+    base = dict(class_name="Example", spec_name="Future",
+                class_spec_names=["Future", "Other"], talents=[], abilities=[])
+    hotfix = OfficialPvpHotfix(
+        talent_name="Baseline Slow", current_percent=15.0, previous_percent=None,
+        target_hint=None, text="Baseline Slow changed in PvP combat.",
+        hotfix_date=None, mode=mode, context_path=("Example", "Future"))
+    scoped = SimpleNamespace(**base)
+
+    missed = catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix])
+    assert len(missed) == 1
+    assert missed[0]["spell_ids"] == [100]
+    assert missed[0]["mode"] == mode
+
+    # Once the correct ability is represented, no duplicate alert is needed.
+    scoped.abilities = [SimpleNamespace(talent_name="Baseline Slow")]
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix]) == []
+
+    scoped.abilities = []
+    outside = OfficialPvpHotfix(
+        talent_name=hotfix.talent_name, current_percent=15.0, previous_percent=None,
+        target_hint=None, text=hotfix.text, hotfix_date=None, mode=mode,
+        context_path=("Example", "Other"))
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [outside]) == []
+
+    # A class dump alone does not establish specialization ownership.
+    audit.spellbook_inventory["baseline_spell_ids"] = []
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(audit, scoped, [hotfix]) == []
+
+
+def test_absolute_base_hotfix_uses_existing_ability_resolver():
+    from types import SimpleNamespace
+    from pvpcalc.sources.blizzard_hotfixes import OfficialPvpHotfix
+
+    audit = SimpleNamespace(
+        simc_dump=dump_for([spell(100, "Baseline Slow")]),
+        spellbook_inventory={"baseline_spell_ids": [100]})
+    catalog_stub = SimpleNamespace(
+        class_name="Example", spec_name="Future", class_spec_names=["Future"],
+        talents=[], abilities=[])
+    absolute = OfficialPvpHotfix(
+        talent_name="Baseline Slow", current_percent=40.0,
+        previous_percent=50.0, target_hint=None, text="Now slows by 40% (was 50%).",
+        hotfix_date=None, mode="absolute", context_path=("Example", "Future"))
+    assert catalog.unrepresented_nonabsolute_base_hotfixes(
+        audit, catalog_stub, [absolute]) == []
+
+
+def test_racial_masks_and_pet_scope_are_recorded_without_universal_ownership():
+    text = TABLE + '''static constexpr std::array<racial_spell_entry_t, 1> __racial_spell_data { {
+  { 0x0000000000000002, 0x00000100, 106, "Racial Ability" },
+} };
+'''
+    rows = spellbook.parse_table(text, expected_build='12.1.0.12345')
+    scoped = spellbook.scoped_table_rows(rows, class_id=9, spec_id=99)
+    assert {r['spell_id'] for r in scoped} == {100, 101, 104, 106}
+    assert 106 not in {r['spell_id'] for r in spellbook.scoped_table_rows(rows, class_id=8, spec_id=99)}
+    dump = dump_for([spell(101, 'Replacement')])
+    effect = simc.SimcEffect(1, 'Apply Aura (6)', -50, None, 0.5)
+    report = spellbook.candidate_inventory(rows, dump, class_id=9, spec_id=99,
+        class_name='Example', spec_name='Future', talent_spell_ids=set(), ability_spell_ids={101},
+        generated_effects={104: {1: effect}, 106: {1: effect}}, dependencies=[], published_rows=[])
+    assert report['conditional_modified_count'] == 2
+    assert report['conditional_ownership_complete'] is False
+    assert all(e['classification'] == 'CONDITIONAL_OWNERSHIP_UNRESOLVED'
+               for e in report['entries'] if e.get('scope'))
+
+
+def test_independent_generated_universe_blocks_unexplained_scalar_omission():
+    rows = [dict(class_id=9, spec_id=99, spell_id=101, replaced_spell_id=0, name='Base')]
+    dump = dump_for([spell(101, 'Base')])
+    arguments = dict(class_id=9, spec_id=99, class_name='Example', spec_name='Future',
+        talent_spell_ids=set(), ability_spell_ids={101}, dependencies=[],
+        generated_effects={101: {1: simc.SimcEffect(1, 'Apply Aura (6)', -50, None, 0.5)}})
+    with pytest.raises(ValueError, match='UNEXPLAINED_BASE_EFFECT_OMISSION'):
+        spellbook.candidate_inventory(rows, dump, published_rows=[], **arguments)
+    report = spellbook.candidate_inventory(rows, dump,
+        published_rows=[dict(spell_id=101, effect_index=1)], **arguments)
+    assert report['entries'][0]['effects'][0]['published']
+
+
+def test_hidden_passive_with_player_text_remains_a_baseline_root():
+    rows = [dict(class_id=9, spec_id=0, spell_id=100, replaced_spell_id=0,
+                 name='Passive', passive=True)]
+    dump = dump_for(['Name             : Passive (id=100) [Passive, Hidden]\n'
+                     'Description      : Your attacks apply an effect.\n'])
+    roots = spellbook.ability_roots(rows, dump, class_id=9, spec_id=99, talent_spell_ids=set())
+    assert roots[0]['spell_id'] == 100 and roots[0]['passive']
+
+
+@pytest.mark.parametrize('description_available', [False, True])
+def test_internal_aura_retains_exact_effects_without_inventing_player_text(monkeypatch, description_available):
+    raw = ('Name             : Internal Aura (id=100) [Passive, Hidden]\n'
+           '#1 (id=1001) : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)\n'
+           'Base Value: 60 | PvP Coefficient: 0.6667\n')
+    if description_available:
+        raw += 'Description      : Source description exists.\n'
+    dump = dump_for([raw])
+    rows = pipeline._build_simc_modified_rows(spell_ids={100}, talent_by_spell={}, simc_dump=dump)
+    pipeline._fill_missing_base_values_from_simc(rows, dump)
+    pipeline._annotate_final_pvp_layers(rows, [], dump)
+    audit = pipeline.SpecAuditResult(class_name='Example', spec_name='Future',
+        metadata={'wowBuild': dump.build, 'classSpecNames': ['Future']}, drustvar_builds=[],
+        talents=[], spell_ids=[], wowhead_by_spell={}, drustvar_by_spell={},
+        wowhead_candidate_ids=set(), drustvar_candidate_ids=set(), candidate_ids={100},
+        effect_rows=rows, simc_dump=dump,
+        abilities=[dict(spell_id=100, talent_name='Internal Aura', tree_type='ability')])
+    async def fetch_page(client, sid):
+        return wowhead.WowheadSpellPage(sid,'Internal Aura','',(),wowhead.BASE.format(spell_id=sid))
+    monkeypatch.setattr(wowhead,'fetch_spell_page',fetch_page)
+    record = asyncio.run(catalog.build_spec_catalog(audit)).abilities[0]
+    assert record.mechanics[0]['base_value'] == 60
+    assert record.mechanics[0]['final_pvp_value'] == pytest.approx(40.002)
+    assert record.pve_tooltip == record.pvp_tooltip == ''
+    assert not record.tooltip_changed
+    if description_available:
+        # Loss of a description that the pinned source has is still a blocker.
+        assert record.render_status == 'MISSING_TOOLTIP'
+    else:
+        assert record.render_status == 'MECHANICS_ONLY'
+        assert record.player_description_status == 'UNAVAILABLE_IN_EXACT_SOURCE'
+        assert record.diagnostics[-1]['status'] == 'SOURCE_HAS_NO_PLAYER_DESCRIPTION'

@@ -1656,7 +1656,7 @@ def dependency_closure(
     root_spell_id: int,
     *,
     target_spell_ids: set[int] | None = None,
-    max_depth: int = 4,
+    max_depth: int | None = None,
 ) -> list[SimcDependency]:
     """
     Traverse structural spell dependencies.
@@ -1693,7 +1693,7 @@ def dependency_closure(
             queue.popleft()
         )
 
-        if len(path) >= max_depth:
+        if max_depth is not None and len(path) >= max_depth:
             continue
 
 
@@ -1827,7 +1827,7 @@ def pvp_dependencies(
     talent_spell_ids,
     pvp_spell_ids,
     *,
-    max_depth: int = 4,
+    max_depth: int | None = None,
     class_name: str | None = None,
     spec_name: str | None = None,
     spec_names=None,
@@ -1963,6 +1963,22 @@ def _float_match(
     return float(
         match.group(1)
     )
+
+
+def effect_uses_coefficient(effect) -> bool:
+    """Distinguish output formulas from literal percentage aura parameters.
+
+    Client rows can retain AP/SP metadata on a scalar aura (e.g. a snare).
+    The presence of that metadata alone does not make its amount damage.
+    Unknown effect semantics keep the conservative coefficient treatment.
+    """
+    if not (effect.sp_coefficient or effect.ap_coefficient):
+        return False
+    text = effect.effect_text.casefold()
+    scalar_aura = ("apply aura" in text and
+                   ("%" in text or "percent" in text or
+                    re.search(r"aura type \(33\)", text)))
+    return not scalar_aura
 
 
 def parse_spell_effects(

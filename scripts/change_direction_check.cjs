@@ -24,6 +24,10 @@ check('Every 20 Rage you spend reduces the cooldown by 1 sec.','20','10','buff',
 check('When you suffer a damaging effect equal to 25% of your maximum health, you instantly cast Death Pact at 50% effectiveness.','25','15','buff');
 check('Reduces all damage you take by 15% and all damage you deal by 10%.','10','15','nerf');
 check('Unknown parameter 8.','8','10','neutral');
+check('Generates 6 example power.','Generates 6 example power','Generates 4 example power','nerf','baseline_passive_resource');
+check('The caster regains [Optional: 3 / 2]% of their mana.', '[Optional: 3 / 2]%', '[Optional: 0.6 / 0.4]%', 'nerf');
+check('The caster regains [Optional: 3 / 2]% of their mana.', '[Optional: 3 / 2]%', '[Optional: 4 / 1]%', 'mixed');
+check('Generates 6 example power.', 'Generates 6 example power', 'Drains 4 example power', 'neutral', 'baseline_passive_resource');
 check('Casts 6 additional slashes.','6','3','nerf','ordinary_value');
 check('Stacks up to 8 times.','8','6','nerf','ordinary_value');
 check('Reforestation grants Tree of Life for 6 additional sec.','6','4','nerf','ordinary_value');
@@ -59,24 +63,10 @@ assert.equal(D.combine(['buff','neutral']),'neutral');
 }
 
 const dataset = slug=>JSON.parse(fs.readFileSync(path.join(__dirname,`../web/data/${slug}.json`)));
-const fixtures = [
- ['priest-discipline','Void Leech','nerf'],
- ['druid-restoration','Reforestation','nerf'],
- ['druid-restoration','Potent Enchantments','nerf'],
- ['hunter-marksmanship','Aimed Shot','buff'],
- ['hunter-survival',1252943,'buff'],
- ['hunter-survival',1259003,'buff'],
- ['death-knight-blood','Pact of the Deathbringer','buff'],
- ['monk-mistweaver','Heart of the Jade Serpent','nerf'],
- ['warrior-fury','Burst of Power','nerf'],
- ['demon-hunter-havoc','Demon Muzzle','nerf'],
- ['demon-hunter-havoc','Chaotic Disposition','mixed'],
-];
-for(const [slug,key,want] of fixtures) {
- const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
- assert.ok(talent,`${slug}: missing fixture ${key}`);
- assert.equal(D.talentDirection(talent),want,`${slug}: ${talent.talent_name}`);
-}
+// Fixed semantic examples are pinned inputs to the classifier, independent
+// of future game tuning. Current data is still audited in full below.
+const fixtures=JSON.parse(fs.readFileSync(path.join(__dirname,'../tests/fixtures/direction-cases.json'))).cases;
+for(const {name,record,expected} of fixtures) assert.equal(D.talentDirection(record),expected,name);
 
 // Rip is a direct attack-power coefficient. Its direction must follow the
 // current verified dataset rather than a stale hard-coded snapshot value.
@@ -95,16 +85,12 @@ for(const [slug,key,want] of fixtures) {
    'druid-feral: Rip direction must match current coefficient '+coefficientChanges[0].old_token+' -> '+coefficientChanges[0].new_token);
 }
 
-const evoker=dataset('evoker-devastation').talents.find(t=>t.talent_name==='Strafing Run');
-assert.equal(D.talentDirection(evoker),'nerf');
-for(const c of evoker.changes)assert.equal(D.direction(evoker,c),'nerf');
-
 const dataDir=path.join(__dirname,'../web/data');
 const files=fs.readdirSync(dataDir).filter(name=>name.endsWith('.json')&&name!=='manifest.json');
 let changedTalents=0, directionalTalents=0, neutralTalents=0;
 for(const name of files){
  const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
- for(const talent of data.talents||[]){
+ for(const talent of [...(data.talents||[]), ...(data.abilities||[])]){
   if(!(talent.changes||[]).length)continue;
   changedTalents++;
   const result=D.talentDirection(talent);
@@ -127,7 +113,7 @@ assert.equal(neutralTalents,0,'Every current player-facing PvP change must have 
 const inspectOnly=[];
 for(const name of files){
  const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
- for(const talent of data.talents||[]){
+ for(const talent of [...(data.talents||[]), ...(data.abilities||[])]){
   if((talent.changes||[]).length&&D.talentDirection(talent)==='neutral'){
    inspectOnly.push({
     spec:name.replace(/\.json$/,''),

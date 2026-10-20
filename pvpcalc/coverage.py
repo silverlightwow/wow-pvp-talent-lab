@@ -78,7 +78,7 @@ def validate_coverage(data: dict, previous: dict | None = None):
 
 
 def replay_projection(data: dict) -> dict:
-    return dict(coverage=coverage_report(data), records=sorted([
+    return dict(coverage=coverage_report(data), spellbook_inventory=data.get('spellbook_inventory'), records=sorted([
         dict(kind=kind, spell_id=r['spell_id'], entry_id=r.get('entry_id'),
              pve_tooltip=r['pve_tooltip'], pvp_tooltip=r['pvp_tooltip'],
              rank_tooltips=r.get('rank_tooltips', []))

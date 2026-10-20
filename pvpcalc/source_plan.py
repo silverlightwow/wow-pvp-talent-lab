@@ -17,7 +17,7 @@ def plan_spec_sources(*, dump, class_name, spec_name, spec_names, talent_spell_i
     simc_ids = simc.pvp_modified_spell_ids(dump)
     dependencies = simc.pvp_dependencies(
         dump, talent_spell_ids=set(talent_spell_ids) | set(ability_spell_ids),
-        pvp_spell_ids=drustvar_ids | aura_ids | simc_ids, max_depth=4,
+        pvp_spell_ids=drustvar_ids | aura_ids | simc_ids, max_depth=None,
         class_name=class_name, spec_name=spec_name, spec_names=spec_names,
     )
     return dump, rules, drustvar_ids, aura_ids, simc_ids, dependencies

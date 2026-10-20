@@ -20,8 +20,9 @@ async function check(browser, width) {
     page.on('pageerror', e => errors.push('JS: ' + e.message));
     page.on('requestfailed', req => {
         const source = new URL(req.url());
+        if (req.failure()?.errorText === 'net::ERR_ABORTED') return;
         if (source.origin === new URL(url).origin &&
-            /(?:\.js|\.css|\.html)(?:\?|$)/i.test(source.pathname))
+            /(?:\.js|\.json|\.css|\.html)(?:\?|$)/i.test(source.pathname))
             errors.push(req.url() + ': ' + (req.failure()?.errorText || 'failed'));
     });
     const waitForSpec = async (cls, spec) => {
@@ -29,7 +30,9 @@ async function check(browser, width) {
             await page.waitForFunction(({cls,spec}) =>
                 document.querySelector('#treeTitle')?.textContent?.trim() === spec + ' ' + cls &&
                 !document.querySelector('#classSelect')?.disabled &&
-                !document.body.classList.contains('welcome-active'),
+                !document.body.classList.contains('welcome-active') &&
+                document.querySelectorAll('.talent-node').length > 25 &&
+                window.WOW_PVP_DATA?.class_name === cls && window.WOW_PVP_DATA?.spec_name === spec,
             {cls,spec}, {timeout:45000});
         } catch (error) {
             const state = await page.evaluate(() => ({
@@ -56,6 +59,8 @@ async function check(browser, width) {
         const specs = await page.locator('.welcome-spec').count();
         assert.equal(classes, 13, 'Landing page should expose every class');
         assert.equal(specs, 40, 'Landing page should expose every specialization');
+        const inventory = await page.locator('.welcome-spec').evaluateAll(buttons =>
+            buttons.map(button => ({cls:button.dataset.class, spec:button.dataset.spec})));
         const loaded = await page.evaluate(() => ({
             manifest: window.WOW_PVP_MANIFEST?.spec_count,
             talents: window.WOW_PVP_DATA?.talents?.length,
@@ -88,16 +93,35 @@ async function check(browser, width) {
         await page.locator('#homeBrand').click();
         await page.locator('.welcome-spec[data-class="Priest"][data-spec="Discipline"]').click();
         await waitForSpec('Priest', 'Discipline');
+        let visitedSpecializations = 0;
+        for (const {cls, spec} of inventory) {
+            await page.locator('#homeBrand').click();
+            await page.locator(`.welcome-spec[data-class="${cls}"][data-spec="${spec}"]`).click();
+            await waitForSpec(cls, spec);
+            await page.locator('[data-tab="compare"]').click();
+            const expected = await page.evaluate(() =>
+                (window.WOW_PVP_DATA?.abilities || []).filter(row => row.tooltip_changed)
+                    .map(row => row.spell_id).sort((a,b)=>a-b));
+            await page.locator('#compareTreeFilter').selectOption('ability');
+            assert.deepEqual(
+                await page.locator('#compareBody tr').evaluateAll(rows =>
+                    rows.map(row => Number(row.dataset.spellId)).sort((a,b)=>a-b)),
+                expected, `Live Base Spells filter mismatch for ${spec} ${cls}`);
+            visitedSpecializations++;
+        }
+        assert.equal(visitedSpecializations, 40, 'Incomplete live specialization navigation');
         await page.reload({waitUntil:'domcontentloaded'});
         assert.ok(await page.locator('#treeTitle').count(), 'App missing after reload');
         assert.deepEqual(errors, [], 'Browser errors or failed deployed script requests');
-        return {width, classes, specs, live: true, browserErrors:errors};
+        return {width, classes, specs, visitedSpecializations, live: true, browserErrors:errors};
     } finally {
         await context.close();
     }
 }
 (async () => {
-    const browser = await chromium.launch({headless:true});
+    const launch = {headless:true};
+    if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
+    const browser = await chromium.launch(launch);
     try {
         const rows = [];
         for (const width of widthList) {

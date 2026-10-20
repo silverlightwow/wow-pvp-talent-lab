@@ -35,10 +35,14 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 3. builds each specialization twice without network access and compares tooltips, all ranks, and numeric mechanics;
 4. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
 5. merges exactly the discovered list without damaging the previous snapshot on failure;
-6. runs Chromium checks for every specialization and hero tree at 2560, 1440, 1024, 390, and 320 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics;
+6. runs Chromium checks for every specialization and hero tree at ten widths from 320 to 2560 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics; the complete frontend regression suite also runs against the newly assembled data;
 7. commits the verified data and publishes the site only after all checks pass.
 
-After every deployment (including UI-only and recovered snapshots), an additional job checks every published file against the exact artifact's SHA-256 inventory. It retries only files that have not propagated yet. `site-health.yml` checks the frontend and manifest every three hours, after completed refresh/publication workflows regardless of their result, or on manual dispatch. It fails if either the publication or its original source capture is older than 12 hours; republishing old data cannot reset source freshness. The separate hourly ChatGPT monitor remains paused.
+After every actual deployment (including UI-only and recovered snapshots), the publisher checks every published file against the exact artifact's SHA-256 inventory and runs the full live Chromium suite. These checks use the exact packaged source revision. It retries only files that have not propagated yet. `site-health.yml` independently checks the frontend and manifest every three hours or on manual dispatch. It fails if either the publication or its original source capture is older than 12 hours; republishing old data cannot reset source freshness. The separate hourly ChatGPT monitor remains paused.
+
+Mixed source/UI pushes wait for the successful data build. UI-only pushes can publish without rebuilding all sources when the checked-in catalog was built by the current parser. Skipped publication routes do not launch post-deployment monitors; the independent health/browser schedules remain active.
+
+The calculator reports verification, source freshness and conditional ability coverage separately. An overdue source capture remains overdue after republishing; missing or future timestamps are unknown rather than verified current. Service-worker migration checks query the actual controlling worker's cache version and retain icon bytes and stale-cache isolation checks.
 
 Data-code pull requests run the complete fresh-source, specialization and browser checks. Their dataset commits and Pages deployment are disabled; only a main-branch run can publish the verified result.
 
@@ -87,6 +91,8 @@ python scripts/build_all_site_data.py --class-name Priest --spec-name Discipline
 
 The HTTPS site is installable. Its core interface and default dataset are cached, followed by other datasets as they are opened. Opening a specialization offline requires that dataset to have been loaded previously. Direct `file://` use reads the checked-in JavaScript datasets without a service worker.
 
+A worker update waits until documents using the old worker close; it does not take over an edited build or delete that document's offline cache. Data requests remain network-first while an update waits. On a first visit, offline caching of additional specializations starts after a subsequent navigation is controlled by the installed worker.
+
 ## Data rules
 
 - Current values never silently inherit an older Drustvar build.
@@ -96,3 +102,17 @@ The HTTPS site is installable. Its core interface and default dataset are cached
 - A zero base value does not override a real spell-power coefficient.
 - Tiered Apex entries remain one progression; true choices follow the talent graph's choice-node type.
 - Historical wiki evidence is audit context, not an automatic source for current values.
+
+## Audit and publication boundaries (2026-10-12)
+
+The data workflow and verified-artifact recovery commit checked snapshots; `Publish current web snapshot` is the single serialized Pages publisher. It packages current main, validates the snapshot and browser smoke suite, and verifies every deployed file hash and source freshness. Scheduled data production remains every six hours. The exhaustive browser suite checks every spec/hero tree at ten widths in independent jobs before the data commit.
+
+`spellbook_inventory.candidate_universe` is an independent exact-build root/effect report, including replacements, hidden/passive roots, absent player text, raw/current coefficients, dependency paths, and conditional pet/racial candidates. Ordinary class/spec omissions block publication. Conditional pet-family/spec ownership and public racial coverage are not yet complete; issue #7 remains open. VERIFIED describes the published values and explicitly scoped class/spec checks, not complete coverage of all possible game abilities.
+
+A scalar percentage aura can retain AP/SP metadata in client data. `coefficient_based` distinguishes its literal parameter from damage/healing outputs without deleting that raw provenance. This distinction is used both in numerical reconciliation and tooltip rendering.
+
+For diagnostics only, `WOW_PVP_ARCHIVAL_REPLAY=1` permits integrity-checked replay of archived inputs with a new parser. Outputs are marked `ARCHIVAL_REPLAY`, rejected by normal publication validation, and cannot be written under web. It does not permit live fallback or uncaptured source requests.
+
+Internal baseline auras with exact numeric effects but no source player description are represented as `MECHANICS_ONLY`, with empty tooltip fields and explicit `UNAVAILABLE_IN_EXACT_SOURCE` provenance. The mechanics view displays the absence notice and raw sourced parameters. This status requires exact SimC evidence for every published effect; it is not an escape for failed rendering of an available description.
+
+Always-present baseline passives can add to neutral resource effects. A source-proved flat modifier, reciprocal effect identity, and literal client expression establish the resolved PvE/PvP values. Static tooltip zeroes are normalized only when the corresponding sourced fragment is uniquely present; optional proc/equipment conditions and unsupported scaling are not guessed. Raw target values, modifier values, and formula provenance remain in the mechanic.

@@ -3,6 +3,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {pathToFileURL}=require('node:url');
 const {chromium}=require('playwright');
+const direction=require('../web/change-direction.js');
 const base=process.env.SITE_URL||pathToFileURL(path.resolve(__dirname,'../web/index.html')).href;
 const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGLzYmhlFTzEDmZAQAMLz2CYsZAAYMjZMYgZGYCG';
 (async()=>{
@@ -98,7 +99,8 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   await page.locator('#specSelect').selectOption('Havoc');
   await page.waitForFunction(()=>document.querySelector('#treeTitle').textContent==='Havoc Demon Hunter');
   for(const spell of [204909,428492]) {
-   const nodeId=await page.evaluate(id=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===id).node_id,spell);
+   const sourceRecord=await page.evaluate(id=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===id),spell);
+   const nodeId=sourceRecord.node_id;
    const node=page.locator(`[data-node-id="${nodeId}"]`);
    if(width<600){
     // Real mobile browsers can emit a compatibility mouseenter before click.
@@ -119,8 +121,8 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
     assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('next')),false);
     assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),false);
    }
-   assert.ok(await sections.first().locator('.change-chip').count());
-   if(spell===428492)assert.equal(await page.locator('#talentTooltip .tooltip-badge.direction-mixed').count(),1);
+   assert.equal((await sections.first().locator('.change-chip').count())>0,sourceRecord.rank_tooltips[0].tooltip_changed);
+   if(sourceRecord.tooltip_changed)assert.ok(await page.locator(`#talentTooltip .tooltip-badge.direction-${direction.talentDirection(sourceRecord)}`).count());
    await shot(page,`rank-${spell}-${width}`);
    if(width<600)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
   }

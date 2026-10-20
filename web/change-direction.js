@@ -18,8 +18,23 @@
             .replaceAll(',', '')
             .trim()
             .replace(/%$/, '');
+        if (!/^[+-]?\d+(?:\.\d+)?$/.test(normalized)) return null;
         const value = Number(normalized);
         return Number.isFinite(value) ? value : null;
+    }
+
+    function numericPairs(change) {
+        const old = numericValue(change.old_token), next = numericValue(change.new_token);
+        if (old !== null && next !== null) return [[old, next]];
+        // These sourced replacements can span a whole resource sentence or
+        // several conditional alternatives. Pair only unchanged text shapes;
+        // never choose one branch or infer numbers from different prose.
+        if (!['baseline_passive_resource', 'percent_value'].includes(change.kind)) return [];
+        const number = /[+-]?\d+(?:\.\d+)?/g;
+        const before = String(change.old_token), after = String(change.new_token);
+        const a = [...before.matchAll(number)], b = [...after.matchAll(number)];
+        if (!a.length || a.length !== b.length || before.replace(number, '#') !== after.replace(number, '#')) return [];
+        return a.map((match, index) => [Number(match[0]), Number(b[index][0])]);
     }
 
     function localContext(talent, change) {
@@ -55,9 +70,8 @@
             return word ? direction(talent, word) : 'neutral';
         }
 
-        const oldValue = numericValue(change.old_token);
-        const newValue = numericValue(change.new_token);
-        if (oldValue === null || newValue === null || oldValue === newValue) return 'neutral';
+        const pairs = numericPairs(change).filter(([old, next]) => old !== next);
+        if (!pairs.length) return 'neutral';
 
         let polarity = 0; // +1 means a larger number is better for the player.
 
@@ -67,7 +81,11 @@
         // a smaller incoming hit. Keep this narrower than a generic
         // "below X% health" rule: execute/maximum-effect thresholds can
         // have the opposite meaning.
-        if (
+        if (change.kind === 'baseline_passive_resource') {
+            // This kind is emitted only by proved self Energize projections.
+            polarity = 1;
+        }
+        else if (
             /exceeds\s*$/i.test(prefix)
             || /every\s*$/i.test(prefix)
             || (
@@ -167,7 +185,7 @@
         }
 
         if (!polarity) return 'neutral';
-        return (newValue - oldValue) * polarity > 0 ? 'buff' : 'nerf';
+        return combine(pairs.map(([old, next]) => (next - old) * polarity > 0 ? 'buff' : 'nerf'));
     }
 
     function combine(directions) {

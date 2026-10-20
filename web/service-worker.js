@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v33";
+const CACHE = "wow-pvp-talent-lab-v35";
 // A new drawing gets new paths; never reuse a browser's older icon entry.
 const BRAND_ICONS = [
   "./favicon-v25-32.png",
@@ -12,7 +12,8 @@ const CORE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./app.js?v=31",
+  "./app.js?v=33",
+  "./data-status.js",
   "./change-direction.js",
   "./loadout-codec.js",
   "./class-icons.js",
@@ -33,7 +34,6 @@ self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE)
       .then(cache => cache.addAll(CORE))
-      .then(() => self.skipWaiting())
   );
 });
 
@@ -43,8 +43,17 @@ self.addEventListener("activate", event => {
       .then(keys => Promise.all(
         keys.filter(key => key.startsWith("wow-pvp-talent-lab-") && key !== CACHE).map(key => caches.delete(key))
       ))
-      .then(() => self.clients.claim())
   );
+});
+
+// Keep an open calculator on its existing worker. The new worker activates
+// after the old documents close, then controls subsequent navigations. This
+// avoids mixing fetch policies and deleting a live document's offline cache.
+// JSON/data requests remain network-first, including under the previous worker.
+// A page can observe the new cache before the new worker controls it.
+// Reply from the actual controller so migration checks identify its code.
+self.addEventListener("message", event => {
+  if (event.data?.type === "CACHE_VERSION") event.ports[0]?.postMessage({cache: CACHE});
 });
 
 self.addEventListener("fetch", event => {

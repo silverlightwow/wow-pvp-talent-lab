@@ -8,7 +8,7 @@ from pvpcalc.coverage import coverage_report, validate_audit_coverage, validate_
 
 def dataset():
     row = dict(source_spell_id=2, effect_index=1, sources=['simc', 'wowhead'],
-               base_value=None, simc_sp_coefficient=2, final_pvp_multiplier=1.5)
+               base_value=None, simc_sp_coefficient=2, final_pvp_multiplier=1.5, amount_kind='direct')
     data = dict(talents=[dict(entry_id=10, spell_id=1, mechanics=[row])],
                 source_snapshot=dict(parser_hash='parser', evidence_hash='evidence'))
     data['coverage'] = coverage_report(data)
