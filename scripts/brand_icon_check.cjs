@@ -60,7 +60,7 @@ const server = http.createServer((req, res) => {
   try {
     const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     await context.route('https://**/*', route => route.abort());
-    const page = await context.newPage();
+    let page = await context.newPage();
     await page.goto(base + 'prime.html');
     await page.evaluate(async () => {
       await navigator.serviceWorker.register('service-worker.js');
@@ -70,7 +70,29 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
     oldWorker = false;
     await page.goto(base, {waitUntil:'domcontentloaded'});
-    await page.waitForFunction(async current => (await caches.keys()).includes(current) && !(await caches.keys()).includes('wow-pvp-talent-lab-v30'), currentCache);
+    await page.waitForFunction(async current => {
+      const keys = await caches.keys(), registration = await navigator.serviceWorker.getRegistration();
+      return keys.includes(current) && keys.includes('wow-pvp-talent-lab-v30') && registration?.waiting?.state === 'installed';
+    }, currentCache);
+    // A pending update must preserve the open calculator and its old cache.
+    await page.locator('.welcome-spec[data-class="Paladin"][data-spec="Holy"]').click();
+    await page.waitForFunction(() => document.querySelector('#treeTitle').textContent === 'Holy Paladin');
+    assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), true);
+    const candidates = await Promise.all(context.serviceWorkers().map(async worker => ({
+      worker, cache:await worker.evaluate(() => CACHE),
+    })));
+    const nextWorker = candidates.find(item => item.cache === currentCache)?.worker;
+    assert.ok(nextWorker, 'Installed next worker is missing');
+    await page.close();
+    await nextWorker.evaluate(async () => {
+      const end = Date.now() + 15000;
+      while (self.registration.waiting || self.registration.installing || self.registration.active?.state !== 'activated') {
+        if (Date.now() > end) throw new Error('New worker did not activate after old documents closed');
+        await new Promise(resolve => setTimeout(resolve, 25));
+      }
+    });
+    page = await context.newPage();
+    await page.goto(base, {waitUntil:'domcontentloaded'});
     // Cache installation alone does not mean this page is controlled by the
     // new worker. Wait for its activation before testing immutable routing.
     await page.waitForFunction(expected => new Promise(resolve => {
@@ -83,11 +105,7 @@ const server = http.createServer((req, res) => {
       };
       controller.postMessage({type:'CACHE_VERSION'}, [channel.port2]);
     }), currentCache);
-    // The document was fetched through the old controller and can retain
-    // old-worker requests. A normal navigation adopts the new worker; only
-    // then can a zero-network cache assertion describe the new fetch policy.
-    // The app itself must never force this reload on an active user's build.
-    await page.reload({waitUntil:'domcontentloaded'});
+    assert.equal(await page.evaluate(async () => (await caches.keys()).includes('wow-pvp-talent-lab-v30')), false);
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {

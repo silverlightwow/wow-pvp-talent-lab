@@ -34,7 +34,6 @@ self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE)
       .then(cache => cache.addAll(CORE))
-      .then(() => self.skipWaiting())
   );
 });
 
@@ -44,10 +43,13 @@ self.addEventListener("activate", event => {
       .then(keys => Promise.all(
         keys.filter(key => key.startsWith("wow-pvp-talent-lab-") && key !== CACHE).map(key => caches.delete(key))
       ))
-      .then(() => self.clients.claim())
   );
 });
 
+// Keep an open calculator on its existing worker. The new worker activates
+// after the old documents close, then controls subsequent navigations. This
+// avoids mixing fetch policies and deleting a live document's offline cache.
+// JSON/data requests remain network-first, including under the previous worker.
 // A page can observe the new cache before the new worker controls it.
 // Reply from the actual controller so migration checks identify its code.
 self.addEventListener("message", event => {

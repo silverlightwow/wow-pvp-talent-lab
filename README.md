@@ -89,6 +89,8 @@ python scripts/build_all_site_data.py --class-name Priest --spec-name Discipline
 
 The HTTPS site is installable. Its core interface and default dataset are cached, followed by other datasets as they are opened. Opening a specialization offline requires that dataset to have been loaded previously. Direct `file://` use reads the checked-in JavaScript datasets without a service worker.
 
+A worker update waits until documents using the old worker close; it does not take over an edited build or delete that document's offline cache. Data requests remain network-first while an update waits. On a first visit, offline caching of additional specializations starts after a subsequent navigation is controlled by the installed worker.
+
 ## Data rules
 
 - Current values never silently inherit an older Drustvar build.
