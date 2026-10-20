@@ -24,6 +24,10 @@ check('Every 20 Rage you spend reduces the cooldown by 1 sec.','20','10','buff',
 check('When you suffer a damaging effect equal to 25% of your maximum health, you instantly cast Death Pact at 50% effectiveness.','25','15','buff');
 check('Reduces all damage you take by 15% and all damage you deal by 10%.','10','15','nerf');
 check('Unknown parameter 8.','8','10','neutral');
+check('Generates 6 example power.','Generates 6 example power','Generates 4 example power','nerf','baseline_passive_resource');
+check('The caster regains [Optional: 3 / 2]% of their mana.', '[Optional: 3 / 2]%', '[Optional: 0.6 / 0.4]%', 'nerf');
+check('The caster regains [Optional: 3 / 2]% of their mana.', '[Optional: 3 / 2]%', '[Optional: 4 / 1]%', 'mixed');
+check('Generates 6 example power.', 'Generates 6 example power', 'Drains 4 example power', 'neutral', 'baseline_passive_resource');
 check('Casts 6 additional slashes.','6','3','nerf','ordinary_value');
 check('Stacks up to 8 times.','8','6','nerf','ordinary_value');
 check('Reforestation grants Tree of Life for 6 additional sec.','6','4','nerf','ordinary_value');
@@ -104,7 +108,7 @@ const files=fs.readdirSync(dataDir).filter(name=>name.endsWith('.json')&&name!==
 let changedTalents=0, directionalTalents=0, neutralTalents=0;
 for(const name of files){
  const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
- for(const talent of data.talents||[]){
+ for(const talent of [...(data.talents||[]), ...(data.abilities||[])]){
   if(!(talent.changes||[]).length)continue;
   changedTalents++;
   const result=D.talentDirection(talent);
@@ -127,7 +131,7 @@ assert.equal(neutralTalents,0,'Every current player-facing PvP change must have 
 const inspectOnly=[];
 for(const name of files){
  const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
- for(const talent of data.talents||[]){
+ for(const talent of [...(data.talents||[]), ...(data.abilities||[])]){
   if((talent.changes||[]).length&&D.talentDirection(talent)==='neutral'){
    inspectOnly.push({
     spec:name.replace(/\.json$/,''),

@@ -80,6 +80,11 @@ const server = http.createServer((req, res) => {
       };
       controller.postMessage({type:'CACHE_VERSION'}, [channel.port2]);
     }), currentCache);
+    // The document was fetched through the old controller and can retain
+    // old-worker requests. A normal navigation adopts the new worker; only
+    // then can a zero-network cache assertion describe the new fetch policy.
+    // The app itself must never force this reload on an active user's build.
+    await page.reload();
     await page.waitForFunction(() => document.querySelector('.welcome-spec') && document.querySelector('.brand-mark')?.naturalWidth === 192);
     const brand = await page.locator('.brand-mark').getAttribute('src');
     const pixels = () => page.locator('.brand-mark').evaluate(img => {

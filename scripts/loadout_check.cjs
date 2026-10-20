@@ -47,10 +47,10 @@ for(const r of chaos.rank_tooltips){assert.ok(r.pvp_tooltip.includes('33.33%'));
 assert.equal(require('../web/change-direction.js').talentDirection(chaos),'mixed');
 const middle=talent(1270900);assert.equal(middle.rank_tooltips.length,2);assert.notEqual(middle.rank_tooltips[0].pve_tooltip,middle.rank_tooltips[1].pve_tooltip);
 for(const t of data('monk-brewmaster').talents.filter(t=>t.talent_name==='Knowledge of the Broken Temple'))for(const c of t.changes)assert.equal(require('../web/change-direction.js').direction(t,c),'nerf');
-// Raidbots now emits the normalized underscore form. app.js maps it to
-// the legacy CDN asset name with a hyphen before rendering.
-assert.equal(data('hunter-survival').talents.find(t=>t.spell_id===1253846).tree_data.icon,'inv_10_specialreagentfoozles_tuskclaw_ice');
 for(const filename of fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='manifest.json'))for(const t of JSON.parse(fs.readFileSync(path.join(dir,filename))).talents){
+ const icons=t.tree_data?.icon_candidates||[];
+ assert.ok(typeof t.tree_data?.icon==='string' && icons.includes(t.tree_data.icon),
+  `${filename} / ${t.talent_name}: primary icon must remain a source-provided candidate`);
  for(const text of [t.pve_tooltip,t.pvp_tooltip,...t.rank_tooltips.flatMap(r=>[r.pve_tooltip,r.pvp_tooltip])]){
   assert.ok(
    !/Modifies Effect #|\(\d+(?:\.\d+)?\)\)/.test(text),
@@ -101,7 +101,11 @@ for(const slug of ['mage-arcane','mage-fire','mage-frost']){
   const pve=Number(rank.pve_tooltip.match(/reduced by ([0-9.]+) sec/)?.[1]);
   const pvp=Number(rank.pvp_tooltip.match(/reduced by ([0-9.]+) sec/)?.[1]);
   assert.ok(Number.isFinite(pve)&&pve>0&&Number.isFinite(pvp),`${slug}: missing ranked cooldown duration`);
-  assert.ok(Math.abs(pvp-pve*effect.final_pvp_multiplier)<1e-6,
+  // Exact TraitDefinition overrides can be one millisecond below the
+  // whole-second PvE description. Preserve that sourced amount; allow its
+  // transformed quantization error plus the renderer's four decimal places.
+  const precision=Math.abs(effect.final_pvp_multiplier)/1000+0.0001;
+  assert.ok(Math.abs(pvp-pve*effect.final_pvp_multiplier)<=precision,
    `${slug} rank ${rank.rank}: duration must follow the captured current effect, including hotfixes`);
  }
  assert.ok(t.rank_tooltips.every(r=>r.tooltip_changed),`${slug}: every Winter's Protection rank must be modified`);
