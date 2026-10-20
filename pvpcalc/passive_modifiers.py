@@ -78,7 +78,7 @@ def _fragments(spell, index, values, learned, active):
         def resolve(value):
             rendered = token.sub(f'{value:g}',chunk)
             rendered = re.sub(r'\$\{([^{}]+)\}(?:\.(\d+))?',
-                lambda m: _format_client_amount(ranks._arithmetic(m[1]), int(m[2] or 6)), rendered)
+                lambda m: _format_client_amount(ranks._arithmetic(m[1]), int(m[2] or 0)), rendered)
             if '$' in rendered:
                 raise ValueError('Unresolved client expression')
             return ' '.join(rendered.split()).strip(' .')

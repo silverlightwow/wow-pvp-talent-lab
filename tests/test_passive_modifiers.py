@@ -20,7 +20,7 @@ def fixture(coefficient=0.5, reciprocal=True, proc=False):
     return dump,[dict(spell_id=10,passive=True)]
 
 
-@pytest.mark.parametrize('coefficient,expected', [(0.5,'3'),(0,'0'),(1,'6')])
+@pytest.mark.parametrize('coefficient,expected', [(0.5,'3'),(0,'0'),(1,'6'),(0.6667,'4'),(0.3333,'2')])
 def test_literal_resource_formula_uses_owned_passive_and_retains_zero(coefficient, expected):
     dump, roots = fixture(coefficient)
     projected = passive_modifiers.resource_projections(dump,roots,{10,20})
