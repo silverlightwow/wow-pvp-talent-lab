@@ -10,10 +10,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '43 1,7,13,19 * * *'
-  workflow_run:
-    workflows: ['Publish current web snapshot']
-    types: [completed]
-    branches: [main]
 
 permissions:
   contents: read
@@ -27,7 +23,8 @@ jobs:
     # Run against production only: a PR's not-yet-deployed UI cannot be
     # validated by browsing the *old* live site. Build/browser smoke tests
     # validate PR code locally. After failures, the data build already alerts.
-    if: github.event_name != 'pull_request' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    # The publisher also executes this same full live suite after actual deploys.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

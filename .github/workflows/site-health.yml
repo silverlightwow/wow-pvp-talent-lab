@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 */3 * * *'
-  workflow_run:
-    workflows: ['Publish current web snapshot']
-    types: [completed]
-    branches: [main]
 
 permissions:
   contents: read
@@ -18,9 +14,8 @@ concurrency:
 
 jobs:
   health:
-    # The failed data-build run already alerts; don't send another failure
-    # for the same incident. Periodic health checks still catch stale data.
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    # Post-deployment hashes and freshness run in the publisher itself.
+    # This independent schedule still detects later outages or stale sources.
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
