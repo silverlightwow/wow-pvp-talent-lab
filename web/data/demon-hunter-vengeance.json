@@ -9975,7 +9975,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [
       {
@@ -10795,21 +10795,21 @@
       {
         "talent_name": "Illidan’s Grasp",
         "text": "Illidan’s Grasp damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
         "date": "2026-10-06",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
           "Havoc"
         ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
       },
       {
         "talent_name": "Improved Mass Dispel",
@@ -13615,7 +13615,7 @@
     }
   },
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-10-20T21:40:08.711077+00:00",
+  "generated_at": "2026-10-20T22:02:42.007720+00:00",
   "validation": {
     "abilities": 1,
     "abilities_with_pvp_mechanics": 1,
@@ -13666,12 +13666,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9aa9b8b0d93a9780ac68f79e0a8b2eed04b81dc12f19e8b992f78b2e7eb0f7a0",
-    "captured_at": "2026-10-20T21:29:24.732825+00:00",
+    "snapshot_hash": "ddf7751972ff29ea07ff0c7d7317cb7271e2641c44d127752bc488dcda3a17ce",
+    "captured_at": "2026-10-20T21:52:38.904013+00:00",
     "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "archival_replay": false,
-    "evidence_hash": "80fac7db2df1fa6a434747e6f554829da7ed4719eb0bbd81afdaa7ecd74d1065"
+    "evidence_hash": "f0e5d227824f949d45ddc652bb5f74521bcbc4026757447f7f9c77229bd8ea9c"
   },
   "coverage": {
     "schema": 1,

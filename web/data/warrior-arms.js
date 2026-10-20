@@ -4593,7 +4593,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 12294,
           "source_spell_id": 115804,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4610,12 +4610,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -14363,6 +14362,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 115804,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 123829,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123829'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14562,7 +14566,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Cut to the Bone",
@@ -15374,7 +15378,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15384,7 +15388,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -18070,7 +18074,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-10-20T21:46:12.862807+00:00",
+  "generated_at": "2026-10-20T22:08:19.140283+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -18085,7 +18089,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 142,
+    "source_warning_count": 143,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18121,12 +18125,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "9aa9b8b0d93a9780ac68f79e0a8b2eed04b81dc12f19e8b992f78b2e7eb0f7a0",
-    "captured_at": "2026-10-20T21:29:24.732825+00:00",
+    "snapshot_hash": "ddf7751972ff29ea07ff0c7d7317cb7271e2641c44d127752bc488dcda3a17ce",
+    "captured_at": "2026-10-20T21:52:38.904013+00:00",
     "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "archival_replay": false,
-    "evidence_hash": "3a433f587cddce73cb014332078798159cd0563eb821e6c3f06743acb775928a"
+    "evidence_hash": "4fe66a9d6adb06279ab32504e2a2af69b7b7b1710013afdeee13faa085833c9e"
   },
   "coverage": {
     "schema": 1,
