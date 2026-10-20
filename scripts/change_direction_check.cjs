@@ -63,24 +63,10 @@ assert.equal(D.combine(['buff','neutral']),'neutral');
 }
 
 const dataset = slug=>JSON.parse(fs.readFileSync(path.join(__dirname,`../web/data/${slug}.json`)));
-const fixtures = [
- ['priest-discipline','Void Leech','nerf'],
- ['druid-restoration','Reforestation','nerf'],
- ['druid-restoration','Potent Enchantments','nerf'],
- ['hunter-marksmanship','Aimed Shot','buff'],
- ['hunter-survival',1252943,'buff'],
- ['hunter-survival',1259003,'buff'],
- ['death-knight-blood','Pact of the Deathbringer','buff'],
- ['monk-mistweaver','Heart of the Jade Serpent','nerf'],
- ['warrior-fury','Burst of Power','nerf'],
- ['demon-hunter-havoc','Demon Muzzle','nerf'],
- ['demon-hunter-havoc','Chaotic Disposition','mixed'],
-];
-for(const [slug,key,want] of fixtures) {
- const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
- assert.ok(talent,`${slug}: missing fixture ${key}`);
- assert.equal(D.talentDirection(talent),want,`${slug}: ${talent.talent_name}`);
-}
+// Fixed semantic examples are pinned inputs to the classifier, independent
+// of future game tuning. Current data is still audited in full below.
+const fixtures=JSON.parse(fs.readFileSync(path.join(__dirname,'../tests/fixtures/direction-cases.json'))).cases;
+for(const {name,record,expected} of fixtures) assert.equal(D.talentDirection(record),expected,name);
 
 // Rip is a direct attack-power coefficient. Its direction must follow the
 // current verified dataset rather than a stale hard-coded snapshot value.
@@ -98,10 +84,6 @@ for(const [slug,key,want] of fixtures) {
  assert.equal(D.talentDirection(rip),[...directions][0],
    'druid-feral: Rip direction must match current coefficient '+coefficientChanges[0].old_token+' -> '+coefficientChanges[0].new_token);
 }
-
-const evoker=dataset('evoker-devastation').talents.find(t=>t.talent_name==='Strafing Run');
-assert.equal(D.talentDirection(evoker),'nerf');
-for(const c of evoker.changes)assert.equal(D.direction(evoker,c),'nerf');
 
 const dataDir=path.join(__dirname,'../web/data');
 const files=fs.readdirSync(dataDir).filter(name=>name.endsWith('.json')&&name!=='manifest.json');
