@@ -12810,7 +12810,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Atonement",
@@ -13638,7 +13638,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13648,7 +13648,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -16512,7 +16512,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-10-21T17:51:58.134077+00:00",
+  "generated_at": "2026-10-21T22:12:02.253079+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16563,12 +16563,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "c45b111e699ad5e6988b413c827cf0099ea8fbc4e8add794c4d2e61488ed98fc",
-    "captured_at": "2026-10-21T17:37:01.760401+00:00",
+    "snapshot_hash": "fbab2503ec3e4ecb67094a230de2c894b417fcef426818d37f3429c3287ea6fa",
+    "captured_at": "2026-10-21T21:57:27.351007+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "8d5799972bad6c4e2ca9de2ce7089cc35ae9a64fc879a0fd67b5dbd05ae32746"
+    "evidence_hash": "5ea1bed34bf77dd5e2213773883ba3f1949994ef5ba23fb9cba993f9ddc141ea"
   },
   "coverage": {
     "schema": 1,

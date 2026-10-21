@@ -3880,7 +3880,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116858,
           "source_spell_id": 116858,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (SP mod: 4.29049)",
+          "effect_text": "School Damage (2): chromatic (SP mod: 4.29049)",
           "base_value": null,
           "spell_pvp_multiplier": 2.28099,
           "amount_kind": "direct",
@@ -3902,9 +3902,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12211,6 +12211,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 116858,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 152108,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12970,7 +12975,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -13795,7 +13800,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13805,7 +13810,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -17314,7 +17319,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-10-21T17:54:01.659206+00:00",
+  "generated_at": "2026-10-21T22:13:57.438027+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -17329,11 +17334,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 151,
+    "source_warning_count": 152,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 116858,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 152108,
@@ -17353,11 +17363,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 196447,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196447'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 205148,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205148'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17365,12 +17370,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "c45b111e699ad5e6988b413c827cf0099ea8fbc4e8add794c4d2e61488ed98fc",
-    "captured_at": "2026-10-21T17:37:01.760401+00:00",
+    "snapshot_hash": "fbab2503ec3e4ecb67094a230de2c894b417fcef426818d37f3429c3287ea6fa",
+    "captured_at": "2026-10-21T21:57:27.351007+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "874e195a9a742fe3011c1da00e3245e6f2fec84365adc7522d0f93d3be4b4144"
+    "evidence_hash": "9c29056bc89a28d4511b72d8a6517391857c4ad4b88fa34aa718b99491d8186a"
   },
   "coverage": {
     "schema": 1,
