@@ -2056,7 +2056,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 51485,
           "source_spell_id": 116947,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2073,9 +2073,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
             "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
@@ -4337,7 +4336,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 117014,
           "source_spell_id": 117014,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost) (SP mod: 2.0125)",
+          "effect_text": "School Damage (2): elemental (SP mod: 2.0125)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4368,10 +4367,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11811,6 +11811,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 117014,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 170374,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=170374'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12406,6 +12411,21 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 116947,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116947'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 123831,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123831'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 137038,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 168534,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=168534'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12520,7 +12540,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Lightning Bolt",
@@ -13358,7 +13378,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13368,7 +13388,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -16251,7 +16271,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-10-21T09:18:06.846985+00:00",
+  "generated_at": "2026-10-21T12:32:48.015909+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16266,11 +16286,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 141,
+    "source_warning_count": 145,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 117014,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 170374,
@@ -16290,11 +16315,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 191717,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191717'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 191861,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191861'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16302,12 +16322,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
-    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "snapshot_hash": "2ac57d6f7559252f0617d07fe32138df38cd0a9df4d428c839cfaae036eb72d7",
+    "captured_at": "2026-10-21T12:18:10.305042+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "3876c92ce8509a06d8f17939f5aee4477b3ad54b571999cdc250fcf740a733e3"
+    "evidence_hash": "3592b9f6f820324c9328ede52da6c5a86699e300948d644613b248cdceec3189"
   },
   "coverage": {
     "schema": 1,
@@ -17936,6 +17956,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          127924,
+          117014,
+          117014,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6335999999999999,
+          "final_pvp_multiplier": 0.6335999999999999,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 2.0125,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           127925,
           61882,
           77478,
@@ -18018,6 +18059,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "97d567a6a9096db724d0fd19a6a3fc703b8388413afb1a933a24f7e93bad37bc"
+    "independent_hash": "42e8e7f4f2d4a847a89ece23156dcbd16612152d337310336e720a3da476338b"
   }
 };

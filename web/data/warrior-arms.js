@@ -13848,6 +13848,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 118038,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=118038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 152278,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152278'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14562,7 +14567,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Cut to the Bone",
@@ -15374,7 +15379,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15384,7 +15389,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -18070,7 +18075,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-10-21T09:19:23.613319+00:00",
+  "generated_at": "2026-10-21T12:34:17.422318+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -18085,11 +18090,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 142,
+    "source_warning_count": 143,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 118038,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=118038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 152278,
@@ -18109,11 +18119,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 202163,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202163'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 202168,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202168'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -18121,12 +18126,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
-    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "snapshot_hash": "2ac57d6f7559252f0617d07fe32138df38cd0a9df4d428c839cfaae036eb72d7",
+    "captured_at": "2026-10-21T12:18:10.305042+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "3a433f587cddce73cb014332078798159cd0563eb821e6c3f06743acb775928a"
+    "evidence_hash": "4fe66a9d6adb06279ab32504e2a2af69b7b7b1710013afdeee13faa085833c9e"
   },
   "coverage": {
     "schema": 1,

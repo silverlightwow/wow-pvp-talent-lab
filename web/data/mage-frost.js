@@ -14692,11 +14692,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 121039,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121039'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 137018,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137018'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14876,7 +14871,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -15699,7 +15694,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15709,7 +15704,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -18481,7 +18476,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "mage-frost",
-  "generated_at": "2026-10-21T09:15:41.851234+00:00",
+  "generated_at": "2026-10-21T12:30:24.338223+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -18496,7 +18491,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 152,
+    "source_warning_count": 151,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18532,12 +18527,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
-    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "snapshot_hash": "2ac57d6f7559252f0617d07fe32138df38cd0a9df4d428c839cfaae036eb72d7",
+    "captured_at": "2026-10-21T12:18:10.305042+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "650d93083ebfb372743b528528b31440e3e12567ecf55f68ce1eced633ff0360"
+    "evidence_hash": "b5a2af3c1f629d3ec44f78fdef6dbbecc1ac78a61fdf18d181a6762c9b0b4bd5"
   },
   "coverage": {
     "schema": 1,

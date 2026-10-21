@@ -367,7 +367,7 @@
           "talent_spell_id": 132157,
           "source_spell_id": 132157,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 0.4095)",
+          "effect_text": "School Damage (2): holy (SP mod: 0.4095)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -389,10 +389,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -12155,6 +12156,16 @@
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 121536,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 132157,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 193063,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193063'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12799,7 +12810,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Atonement",
@@ -13627,7 +13638,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13637,7 +13648,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -16501,7 +16512,7 @@
     }
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-10-21T09:17:21.430440+00:00",
+  "generated_at": "2026-10-21T12:31:54.971083+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16516,11 +16527,21 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 128,
+    "source_warning_count": 130,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 121536,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 132157,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 193063,
@@ -16535,16 +16556,6 @@
         "source": "wowhead",
         "spell_id": 194509,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=194509'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196704,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196704'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 197045,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=197045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16552,12 +16563,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
-    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "snapshot_hash": "2ac57d6f7559252f0617d07fe32138df38cd0a9df4d428c839cfaae036eb72d7",
+    "captured_at": "2026-10-21T12:18:10.305042+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "8d5799972bad6c4e2ca9de2ce7089cc35ae9a64fc879a0fd67b5dbd05ae32746"
+    "evidence_hash": "5ea1bed34bf77dd5e2213773883ba3f1949994ef5ba23fb9cba993f9ddc141ea"
   },
   "coverage": {
     "schema": 1,
@@ -18062,6 +18073,27 @@
           "talents",
           103870,
           132157,
+          132157,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.5,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 0.4095,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          103870,
+          132157,
           281265,
           1
         ],
@@ -18709,6 +18741,6 @@
         }
       }
     ],
-    "independent_hash": "3639fa4bbecacb6cc5021c67ccf0f0d87b9cbb261b2930f7d122d581b7c9cf08"
+    "independent_hash": "d44da9c29511814b831c513983a111ddb25e1da6918c14f44f08a3844e10f062"
   }
 }
