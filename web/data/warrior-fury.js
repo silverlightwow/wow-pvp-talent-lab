@@ -3707,7 +3707,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 23881,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -3724,8 +3724,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -3946,7 +3947,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 383848,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -3969,8 +3970,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -4066,7 +4068,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440277,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -4089,8 +4091,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -7160,7 +7163,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 396749,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -7181,8 +7184,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -10949,7 +10953,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 184361,
           "source_spell_id": 117313,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -10968,8 +10972,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -11779,21 +11784,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1300463,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1300463'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 117313,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117313'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123829,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123829'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 137047,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -15539,7 +15529,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-10-20T22:08:49.550608+00:00",
+  "generated_at": "2026-10-21T05:30:33.677150+00:00",
   "validation": {
     "abilities": 2,
     "abilities_with_pvp_mechanics": 2,
@@ -15554,7 +15544,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 138,
+    "source_warning_count": 135,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15590,8 +15580,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "ddf7751972ff29ea07ff0c7d7317cb7271e2641c44d127752bc488dcda3a17ce",
-    "captured_at": "2026-10-20T21:52:38.904013+00:00",
+    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
+    "captured_at": "2026-10-21T05:14:33.391318+00:00",
     "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "archival_replay": false,

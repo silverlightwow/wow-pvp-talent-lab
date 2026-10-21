@@ -17190,7 +17190,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-10-20T22:07:13.120110+00:00",
+  "generated_at": "2026-10-21T05:29:09.137465+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -17241,8 +17241,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "ddf7751972ff29ea07ff0c7d7317cb7271e2641c44d127752bc488dcda3a17ce",
-    "captured_at": "2026-10-20T21:52:38.904013+00:00",
+    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
+    "captured_at": "2026-10-21T05:14:33.391318+00:00",
     "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
     "archival_replay": false,
