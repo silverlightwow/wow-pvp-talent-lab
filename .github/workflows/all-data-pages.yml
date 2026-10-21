@@ -9,6 +9,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'pyproject.toml'
+      - 'package*.json'
       - '.github/workflows/all-data-pages.yml'
   push:
     branches: [main]

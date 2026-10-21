@@ -506,8 +506,25 @@ def _page_text_lines(
     )
 
 
+def _main_tooltip_card(soup, spell_id=None):
+    title = soup.find('h1')
+    if not title:
+        return None
+    name = _clean_line(title.get_text(' ', strip=True))
+    for card in soup.find_all('noscript'):
+        heading = card.select_one('.whtt-name')
+        if not heading or _clean_line(heading.get_text(' ', strip=True)).casefold() != name.casefold():
+            continue
+        anchor = heading if heading.name == 'a' else heading.find_parent('a')
+        identity = re.search(r'(?:/|\?|&)spell=(\d+)(?:[/?&#]|$)', str(anchor.get('href', ''))) if anchor else None
+        if spell_id is None or identity and int(identity[1]) == int(spell_id):
+            return card
+    return None
+
+
 def parse_player_tooltip(
     html: str,
+    spell_id: int | None = None,
 ) -> tuple[str, str]:
     """
     Extract the player-facing tooltip section ABOVE
@@ -536,10 +553,9 @@ def parse_player_tooltip(
     title = soup.find("h1")
     if title:
         name = _clean_line(title.get_text(" ", strip=True))
-        for card in soup.find_all("noscript"):
-            heading = card.select_one(".whtt-name")
-            if heading and _clean_line(heading.get_text(" ", strip=True)).casefold() == name.casefold():
-                return name, "\n".join(_tooltip_card_lines(str(card), name))
+        card = _main_tooltip_card(soup, spell_id)
+        if card is not None:
+            return name, "\n".join(_tooltip_card_lines(str(card), name))
 
     (
         spell_name,
@@ -763,7 +779,7 @@ def parse_spell_page(
         spell_name,
         player_tooltip,
     ) = parse_player_tooltip(
-        html
+        html, spell_id=spell_id
     )
 
 
@@ -790,7 +806,11 @@ def parse_spell_page(
             )
 
 
-    icon_meta = BeautifulSoup(html, "lxml").find("meta", property="og:image")
+    soup = BeautifulSoup(html, "lxml")
+    card = _main_tooltip_card(soup, spell_id)
+    if card is None and _metadata_overrides(html):
+        raise WowheadParseError(f'Cannot establish tooltip metadata ownership for spell {spell_id}')
+    icon_meta = soup.find("meta", property="og:image")
     icon_match = re.search(r"/icons/(?:large|medium|small)/([A-Za-z0-9_-]+)\.(?:jpg|png)",
                            str(icon_meta.get("content", ""))) if icon_meta else None
 
@@ -811,7 +831,7 @@ def parse_spell_page(
 
         url=
             page_url,
-        metadata_overrides=_metadata_overrides(html),
+        metadata_overrides=_metadata_overrides(str(card)) if card is not None else (),
         icon=icon_match[1] if icon_match else "",
     )
 

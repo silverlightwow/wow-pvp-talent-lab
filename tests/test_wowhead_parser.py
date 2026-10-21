@@ -229,3 +229,31 @@ def test_zero_recharge_requires_exact_category_and_reciprocal_effect():
                     raw.replace('Charges          :', 'Cooldown         : 5 seconds\nCharges          :')):
         with pytest.raises(ValueError, match='Unverified cooldown metadata'):
             tooltip_for_specialization(page, [10], simc_dump=simc.parse_dump(changed,class_slug='example'))
+
+
+def test_full_page_metadata_belongs_to_exact_main_tooltip_not_related_spell_scripts():
+    from pvpcalc.sources.wowhead import parse_spell_page, tooltip_for_specialization
+    html = '''<h1>Example Ability</h1>
+    <script>const related = {"description": "<!--cooldown:10:until canceled--><!--charges:10:5 Charges-->"};</script>
+    <noscript><a class="whtt-name" href="/spell=99/other">Example Ability</a>
+    <div>Wrong description.<!--cooldown:10:1 sec cooldown--></div></noscript>
+    <noscript><a class="whtt-name" href="/spell=20/example">Example Ability</a>
+    <div>Instant<br>8 sec cooldown<br>Correct description.<!--cooldown:10:4 sec cooldown--></div></noscript>
+    <h2>Spell Details</h2>'''
+    page = parse_spell_page(html,20)
+    assert page.metadata_overrides == (('cooldown',10,'4 sec cooldown'),)
+    assert 'Correct description.' in page.player_tooltip and 'Wrong description' not in page.player_tooltip
+    assert '4 sec cooldown' in tooltip_for_specialization(page,[10])
+    assert 'until canceled' not in tooltip_for_specialization(page,[10])
+    fragment = html[html.index('<noscript><a class="whtt-name" href="/spell=20'):html.rindex('</noscript>') + len('</noscript>')]
+    nether = parse_nether_tooltip_payload({'name':'Example Ability','tooltip':fragment},20)
+    assert nether.metadata_overrides == page.metadata_overrides
+    assert nether.player_tooltip == page.player_tooltip
+
+
+def test_full_page_without_owned_card_does_not_claim_related_metadata():
+    import pytest
+    from pvpcalc.sources.wowhead import parse_spell_page, WowheadParseError
+    html = '<h1>Example</h1><p>Player description.</p><script>"<!--cooldown:10:until canceled-->"</script>'
+    with pytest.raises(WowheadParseError,match='metadata ownership'):
+        parse_spell_page(html,20)
