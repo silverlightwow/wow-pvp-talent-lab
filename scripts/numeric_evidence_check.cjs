@@ -51,7 +51,7 @@ function validateChange(data, record, change) {
     }
 }
 
-function checkDirectory(directory) {
+function checkDirectory(directory, {strictSourceText = false} = {}) {
     // Prove the gate accepts legitimate retuning and rejects unsupported values.
     const record = {spell_id:10,mechanics:[{effect_index:1,final_pvp_multiplier:0.5}]};
     const change = {old_token:'10',new_token:'5',kind:'percent_value',effect_indexes:[1]};
@@ -71,6 +71,9 @@ function checkDirectory(directory) {
                 views++;
                 for(const text of [view.pve_tooltip,view.pvp_tooltip]) assert.ok(
                     !/Modifies Effect #|\(\d+(?:\.\d+)?\)\)/.test(text), `${record.talent_name}: malformed player text`);
+                if(strictSourceText) for(const text of [view.pve_tooltip,view.pvp_tooltip]) assert.ok(
+                    !/\[[^\[\]\n]+\]\s*\[[^\[\]\n]+\]\s*--\s*[\w-]+\s*,|\)\s*\([^\n]*--\s*[\w-]+\s*,/.test(text),
+                    `${record.talent_name}: unlabelled arithmetic alternatives`);
                 for(const change of direction.visibleChanges(view)) {
                     try { validateChange(data,record,change); }
                     catch(error) { throw new Error(`${name} / ${record.talent_name} / rank ${view.rank||'max'}: ${error.message}`); }
@@ -83,4 +86,5 @@ function checkDirectory(directory) {
     console.log(`Current numeric evidence: ${files.length} specs, ${views} tooltip/rank views, ${changes} sourced replacements passed.`);
 }
 module.exports = {validateChange,checkDirectory};
-if(require.main===module)checkDirectory(path.resolve(__dirname,'../web/data'));
+if(require.main===module)checkDirectory(path.resolve(__dirname,'../web/data'),
+    {strictSourceText:process.argv.includes('--strict-source-text')});

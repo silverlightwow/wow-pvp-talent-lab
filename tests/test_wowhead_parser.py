@@ -164,3 +164,68 @@ def test_mind_blast_source_metadata_selects_discipline_recharge_override():
         disc = tooltip_for_specialization(page, [137032])
         assert '28 sec cooldown' in disc and '9 sec cooldown' not in disc
         assert '9 sec cooldown' in tooltip_for_specialization(page, [137033])
+
+
+def test_nonnumeric_cooldown_requires_reciprocal_exact_zero_modifier():
+    import pytest
+    from pvpcalc.sources import simc
+    from pvpcalc.sources.wowhead import WowheadSpellPage, tooltip_for_specialization
+    raw = ('SimulationCraft for World of Warcraft 12.1.5.12345 Live\n'
+        'Name             : Example Aura (id=10) [Passive, Hidden]\n'
+        '#1 (id=101) : Apply Aura (6) | Add Percent Modifier (108): Spell Cooldown (11)\n'
+        'Base Value: -100 | Scaled Value: -100\n'
+        'Affected Spells: Example Ability (20)\n'
+        'Name             : Example Ability (id=20)\n'
+        'Cooldown         : 3 seconds\n'
+        'Affecting Spells : Example Aura (10 effect: #1)\n'
+        'Description      : Deals damage.\n')
+    dump = simc.parse_dump(raw, class_slug='example')
+    page = WowheadSpellPage(20, 'Example Ability', 'Instant\n3 sec cooldown\nDeals damage.', (), '',
+        metadata_overrides=(('cooldown', 10, 'until canceled'),))
+    assert tooltip_for_specialization(page, [10], simc_dump=dump) == 'Instant\nDeals damage.'
+    assert '3 sec cooldown' in tooltip_for_specialization(page, [99], simc_dump=dump)
+    for changed in (raw.replace('-100', '-50'), raw.replace('(20)', '(21)'),
+                    raw.replace('(10 effect: #1)', '(10 effect: #2)'),
+                    raw.replace('Scaled Value: -100', 'Scaled Value: -90'),
+                    raw.replace('Scaled Value: -100', 'Scaled Value: -100 | PvP Coefficient: 0.5')):
+        with pytest.raises(ValueError, match='Unverified cooldown metadata'):
+            tooltip_for_specialization(page, [10], simc_dump=simc.parse_dump(changed, class_slug='example'))
+    with pytest.raises(ValueError, match='Unverified cooldown metadata'):
+        tooltip_for_specialization(page, [10])
+
+
+def test_source_named_arithmetic_alternatives_remain_distinct():
+    from pvpcalc.tooltip_renderer import tooltip_for_spec
+    text = 'Deals [(12% of Attack Power) * [(Power * 0.9)][((Power + Other Power) * 2 / 3)] -- A, B / Power] damage.'
+    rendered = tooltip_for_spec(text, 'Example', ['Example'])
+    assert '(A: (Power * 0.9); B: ((Power + Other Power) * 2 / 3))' in rendered
+    assert '12% of Attack Power' in rendered and '/ Power' in rendered
+    assert '-- A, B' not in rendered
+    arithmetic = 'Deals [(Power * 2)] damage.'
+    assert tooltip_for_spec(arithmetic, 'Example', ['Example']) == arithmetic
+    assert tooltip_for_spec('Deals [(12% of Spell Power)] damage.', 'Example', ['Example']) == 'Deals (12% of Spell Power) damage.'
+    unmatched = '[(Power * 2)][(Power * 3)] -- A, B, C'
+    assert tooltip_for_spec(unmatched, 'Example', ['Example']) == unmatched
+
+
+def test_zero_recharge_requires_exact_category_and_reciprocal_effect():
+    import pytest
+    from pvpcalc.sources import simc
+    from pvpcalc.sources.wowhead import WowheadSpellPage, tooltip_for_specialization
+    raw = ('SimulationCraft for World of Warcraft 12.1.5.12345 Live\n'
+        'Name             : Example Aura (id=10) [Passive, Hidden]\n'
+        '#1 (id=101) : Apply Aura (6) | Modify Recharge Time% (Category) (454)\n'
+        'Base Value: -100 | Scaled Value: -100 | Misc Value: 222 (Category)\n'
+        'Affected Spells (Category): Example Ability (20)\n'
+        'Name             : Example Ability (id=20)\n'
+        'Charges          : 1 (12 seconds cooldown)\n'
+        'Category         : 222 (Type 0x1): Example Aura (10 effect#1)\n'
+        'Description      : Deals damage.\n')
+    page = WowheadSpellPage(20, 'Example Ability', '12 sec cooldown\nDeals damage.', (), '',
+        metadata_overrides=(('cooldown', 10, 'until canceled'),))
+    assert tooltip_for_specialization(page, [10], simc_dump=simc.parse_dump(raw,class_slug='example')) == 'Deals damage.'
+    for changed in (raw.replace('Misc Value: 222', 'Misc Value: 333'),
+                    raw.replace('(10 effect#1)', '(10 effect#2)'),
+                    raw.replace('Charges          :', 'Cooldown         : 5 seconds\nCharges          :')):
+        with pytest.raises(ValueError, match='Unverified cooldown metadata'):
+            tooltip_for_specialization(page, [10], simc_dump=simc.parse_dump(changed,class_slug='example'))

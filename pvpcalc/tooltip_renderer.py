@@ -219,6 +219,19 @@ def tooltip_for_spec(
         spec_name,
     )
 
+    # Some source variables explicitly label adjacent arithmetic alternatives.
+    # Keep both equipment-dependent cases; never assume a player's equipment.
+    def named_alternatives(match):
+        values = re.findall(r'\[([^\[\]\n]+)\]', match['values'])
+        labels = [label.strip() for label in match['labels'].split(',')]
+        if len(values) != len(labels):
+            return match[0]
+        return '(' + '; '.join(f'{label}: {value}' for label, value in zip(labels, values)) + ')'
+    tooltip = re.sub(
+        r'(?P<values>(?:\[[^\[\]\n]+\]){2,})\s*--\s*'
+        r'(?P<labels>[A-Za-z0-9_-]+(?:\s*,\s*[A-Za-z0-9_-]+)+)',
+        named_alternatives, str(tooltip or ''))
+
     # Inline [Holy: 50 / 50] branches are local expressions, not section
     # headings. Resolve them before interpreting the surrounding paragraphs.
     labels = "|".join(re.escape(name) for name in names.values())
@@ -244,7 +257,7 @@ def tooltip_for_spec(
     # those square brackets. Preserve real arithmetic such as
     # "[(100% of Spell Power) * 2]" and specialization branches.
     tooltip = re.sub(
-        r"\[\(([^\[\]\n]+)\)\]",
+        r"\[\(([+-]?\d+(?:\.\d+)?%\s+of\s+(?:Spell|Attack)\s+Power)\)\]",
         r"(\1)",
         tooltip,
     )

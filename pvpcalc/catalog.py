@@ -543,6 +543,7 @@ async def attach_official_hotfix_abilities(
                                 "specAuraSpellIds",
                                 [],
                             ),
+                            simc_dump=audit.simc_dump,
                         )
                     )
                     tooltip = (
@@ -1021,7 +1022,7 @@ async def build_spec_catalog(
 
 
         pve_tooltip = (
-            wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []))
+            wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []), simc_dump=audit.simc_dump)
             if page is not None
             else ""
         )
@@ -1033,7 +1034,7 @@ async def build_spec_catalog(
             visible_page = pages.get(int(visible_id))
             if visible_page is not None:
                 page = visible_page
-                pve_tooltip = wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []))
+                pve_tooltip = wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []), simc_dump=audit.simc_dump)
                 display_override = True
                 fallback_note = {"status": "EXPLICIT_DISPLAY_OVERRIDE", "source_spell_id": visible_id, "source": "raidbots_visible_spell_id"}
         fallback = audit.simc_tooltip_fallbacks.get(spell_id)

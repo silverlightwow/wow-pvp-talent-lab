@@ -254,7 +254,9 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Full frontend regression suite against newly assembled data
         if: matrix.width == 1440
-        run: npm run test:smoke
+        run: |
+          node scripts/numeric_evidence_check.cjs --strict-source-text
+          npm run test:smoke
       - name: Check every specialization and hero tree at this width
         env:
           REQUIRE_CURRENT_HOTFIX_ABILITIES: '1'

@@ -394,12 +394,66 @@ def _metadata_overrides(html: str) -> tuple[tuple[str, int, str], ...]:
                  re.findall(r"<!--(cooldown|charges):(\d+):([^<>]+)-->", html))
 
 
-def tooltip_for_specialization(page: WowheadSpellPage, aura_ids) -> str:
+def _source_proves_zero_cooldown(dump, spell_id, aura_ids) -> bool:
+    """Accept a service's nonnumeric sentinel only with reciprocal client proof."""
+    if dump is None or not dump.build or spell_id not in dump.spells:
+        return False
+    from . import simc
+    target = dump.spells[spell_id]
+    affecting = re.search(r'^Affecting Spells\s*:\s*([^\n]+)', target.raw, re.M)
+    category = re.search(r'^Category\s*:\s*(\d+)([^\n]*)', target.raw, re.M)
+    zero = False
+    for aura_id in sorted(set(aura_ids)):
+        aura = dump.spells.get(aura_id)
+        if aura is None:
+            continue
+        reciprocal = re.search(r'\(' + str(aura_id) + r' effects?:\s*([^)]*)\)', affecting[1]) if affecting else None
+        indexes = set(map(int, re.findall(r'#(\d+)', reciprocal[1]))) if reciprocal else set()
+        category_indexes = set(map(int, re.findall(r'\(' + str(aura_id) + r' effect#(\d+)\)', category[2]))) if category else set()
+        headers = list(simc._SIMC_EFFECT_HEADER_RE.finditer(aura.raw))
+        for n, header in enumerate(headers):
+            index = int(header[1])
+            if index not in indexes | category_indexes:
+                continue
+            effect = simc.effect_for_spell(dump, aura_id, index)
+            if effect is None:
+                return False
+            direct = bool(re.search(r'Spell Cooldown \(11\)', effect.effect_text))
+            recharge = bool(re.search(r'Modify Recharge Time%? \(Category\) \((?:453|454)\)', effect.effect_text))
+            if not direct and not recharge:
+                continue
+            end = headers[n + 1].start() if n + 1 < len(headers) else len(aura.raw)
+            block = aura.raw[header.start():end].split('\nDescription', 1)[0]
+            targets = re.search(r'Affected Spells(?: \(Category\))?:\s*([^\n]+)', block)
+            if (not targets or spell_id not in set(map(int, re.findall(r'\((\d+)\)', targets[1])))
+                    or effect.base_value is None or effect.scaled_value not in (None, effect.base_value)
+                    or simc.effect_uses_coefficient(effect) or effect.pvp_coefficient not in (None, 1)):
+                return False
+            if effect.base_value == 0:
+                continue
+            if recharge and (not category or index not in category_indexes
+                    or not re.search(r'Misc Value:\s*' + re.escape(category[1]) + r' \(Category\)', block)
+                    or re.search(r'^Cooldown\s*:', target.raw, re.M)):
+                return False
+            percent = 'Add Percent Modifier (108)' in effect.effect_text if direct else '(454)' in effect.effect_text
+            if not percent or effect.base_value != -100:
+                return False  # Do not infer modifier ordering or optional talent state.
+            zero = True
+    return zero
+
+
+def tooltip_for_specialization(page: WowheadSpellPage, aura_ids, *, simc_dump=None) -> str:
     lines = page.player_tooltip.splitlines()
     patterns = {"cooldown": r"^[\d.]+\s+(?:sec|min)\s+(?:cooldown|recharge)$",
                 "charges": r"^\d+\s+Charges?$"}
     for kind, aura, value in page.metadata_overrides:
         if aura in aura_ids:
+            if not re.fullmatch(patterns[kind], value, re.I):
+                if (kind == 'cooldown' and value.casefold() == 'until canceled'
+                        and _source_proves_zero_cooldown(simc_dump, page.spell_id, aura_ids)):
+                    lines = [line for line in lines if not re.fullmatch(patterns[kind], line, re.I)]
+                    continue
+                raise ValueError(f'Unverified {kind} metadata override for spell {page.spell_id}: {value!r}')
             lines = [value if re.fullmatch(patterns[kind], line, re.I) else line for line in lines]
     return "\n".join(lines)
 
