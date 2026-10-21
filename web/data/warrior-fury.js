@@ -3788,8 +3788,8 @@ window.WOW_PVP_DATA = {
           "warrior_wild_strike"
         ]
       },
-      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of (206.998% of Attack Power) + (206.998% of Attack Power) Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
-      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of (206.998% of Attack Power) + (206.998% of Attack Power) Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
+      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
+      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4709,14 +4709,14 @@ window.WOW_PVP_DATA = {
           "ability_warrior_rampage"
         ]
       },
-      "pve_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of (203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power) Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of (258.9079% of Attack Power) + (151.0301% of Attack Power) + (345.2139% of Attack Power) + (194.1825% of Attack Power) Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(258.9079% of Attack Power) + (151.0301% of Attack Power) + (345.2139% of Attack Power) + (194.1825% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 81,
-          "end": 88,
+          "start": 82,
+          "end": 89,
           "old_token": "203.065",
           "new_token": "258.9079",
           "kind": "attack_power_coefficient",
@@ -4725,8 +4725,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 110,
-          "end": 117,
+          "start": 111,
+          "end": 118,
           "old_token": "118.455",
           "new_token": "151.0301",
           "kind": "attack_power_coefficient",
@@ -4735,8 +4735,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 168,
-          "end": 173,
+          "start": 169,
+          "end": 174,
           "old_token": "152.3",
           "new_token": "194.1825",
           "kind": "attack_power_coefficient",
@@ -4745,8 +4745,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 139,
-          "end": 146,
+          "start": 140,
+          "end": 147,
           "old_token": "270.756",
           "new_token": "345.2139",
           "kind": "attack_power_coefficient",
@@ -4755,8 +4755,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 288,
-          "end": 295,
+          "start": 290,
+          "end": 297,
           "old_token": "372.289",
           "new_token": "474.6685",
           "kind": "attack_power_coefficient",
@@ -10737,14 +10737,14 @@ window.WOW_PVP_DATA = {
           "inv_sword_48"
         ]
       },
-      "pve_tooltip": "20 to 40 Rage\nMelee Range\nInstant\n6 sec cooldown\nAttempt to finish off a wounded foe, causing (385.268% of Attack Power) + (385.268% of Attack Power) Physical damage. Only usable on enemies that have less than 20% health. [Improved Execute: Generates 0 Rage.]",
-      "pvp_tooltip": "20 to 40 Rage\nMelee Range\nInstant\n6 sec cooldown\nAttempt to finish off a wounded foe, causing (832.1789% of Attack Power) + (832.1789% of Attack Power) Physical damage. Only usable on enemies that have less than 20% health. [Improved Execute: Generates 0 Rage.]",
+      "pve_tooltip": "20 to 40 Rage\nMelee Range\nInstant\n6 sec cooldown\nAttempt to finish off a wounded foe, causing [(385.268% of Attack Power) + (385.268% of Attack Power)] Physical damage. Only usable on enemies that have less than 20% health. [Improved Execute: Generates 0 Rage.]",
+      "pvp_tooltip": "20 to 40 Rage\nMelee Range\nInstant\n6 sec cooldown\nAttempt to finish off a wounded foe, causing [(832.1789% of Attack Power) + (832.1789% of Attack Power)] Physical damage. Only usable on enemies that have less than 20% health. [Improved Execute: Generates 0 Rage.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 95,
-          "end": 102,
+          "start": 96,
+          "end": 103,
           "old_token": "385.268",
           "new_token": "832.1789",
           "kind": "attack_power_coefficient",
@@ -10754,8 +10754,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 124,
-          "end": 131,
+          "start": 125,
+          "end": 132,
           "old_token": "385.268",
           "new_token": "832.1789",
           "kind": "attack_power_coefficient",
@@ -11787,6 +11787,16 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 123829,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123829'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 137047,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 163558,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=163558'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11946,7 +11956,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12771,7 +12781,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12781,7 +12791,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15529,7 +15539,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warrior-fury",
-  "generated_at": "2026-10-21T05:30:33.677150+00:00",
+  "generated_at": "2026-10-21T09:19:34.888202+00:00",
   "validation": {
     "abilities": 2,
     "abilities_with_pvp_mechanics": 2,
@@ -15544,7 +15554,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 135,
+    "source_warning_count": 137,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -15580,12 +15590,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "4fe66a9d6adb06279ab32504e2a2af69b7b7b1710013afdeee13faa085833c9e"
+    "evidence_hash": "3a433f587cddce73cb014332078798159cd0563eb821e6c3f06743acb775928a"
   },
   "coverage": {
     "schema": 1,

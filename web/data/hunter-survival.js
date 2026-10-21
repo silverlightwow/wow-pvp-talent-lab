@@ -5958,14 +5958,14 @@ window.WOW_PVP_DATA = {
           "inv12_ability_hunter_takedown"
         ]
       },
-      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing (600% of Attack Power) + (1200% of Attack Power) Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
-      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing (289.7438% of Attack Power) + (613.575% of Attack Power) Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
+      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(600% of Attack Power) + (1200% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
+      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(289.7438% of Attack Power) + (613.575% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 127,
-          "end": 131,
+          "start": 128,
+          "end": 132,
           "old_token": "1200",
           "new_token": "613.575",
           "kind": "attack_power_coefficient",
@@ -5974,8 +5974,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 102,
-          "end": 105,
+          "start": 103,
+          "end": 106,
           "old_token": "600",
           "new_token": "289.7438",
           "kind": "attack_power_coefficient",
@@ -11468,11 +11468,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 137014,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 157443,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -11667,7 +11662,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Improved Snaring",
@@ -12505,7 +12500,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -12515,7 +12510,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -16428,7 +16423,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "hunter-survival",
-  "generated_at": "2026-10-21T05:26:29.005973+00:00",
+  "generated_at": "2026-10-21T09:15:08.468080+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -16443,7 +16438,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 159,
+    "source_warning_count": 158,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -16479,12 +16474,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "02a4272a05a94e2cd5671a7267c717a97d9a80c3b4771a7ae2e492f8206573a0"
+    "evidence_hash": "f0d0a4f2f30abe523543861e3a6d0e73e8ceb884f384ca257590c6a65d30f27b"
   },
   "coverage": {
     "schema": 1,

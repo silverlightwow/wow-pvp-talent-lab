@@ -12153,14 +12153,14 @@ window.WOW_PVP_DATA = {
           "ability_demonhunter_chaosstrike"
         ]
       },
-      "pve_tooltip": "40 Fury\nMelee Range\nInstant\nSlice your target for (73.6% of Attack Power) + (115.67% of Attack Power) Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.",
-      "pvp_tooltip": "40 Fury\nMelee Range\nInstant\nSlice your target for (77.7216% of Attack Power) + (122.1475% of Attack Power) Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.",
+      "pve_tooltip": "40 Fury\nMelee Range\nInstant\nSlice your target for [(73.6% of Attack Power) + (115.67% of Attack Power)] Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.",
+      "pvp_tooltip": "40 Fury\nMelee Range\nInstant\nSlice your target for [(77.7216% of Attack Power) + (122.1475% of Attack Power)] Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 77,
-          "end": 83,
+          "start": 78,
+          "end": 84,
           "old_token": "115.67",
           "new_token": "122.1475",
           "kind": "attack_power_coefficient",
@@ -12169,8 +12169,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 51,
-          "end": 55,
+          "start": 52,
+          "end": 56,
           "old_token": "73.6",
           "new_token": "77.7216",
           "kind": "attack_power_coefficient",
@@ -12831,14 +12831,14 @@ window.WOW_PVP_DATA = {
           "ability_demonhunter_chaosstrike"
         ]
       },
-      "pve_tooltip": "Slice your target for (73.6% of Attack Power) + (115.67% of Attack Power) Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.\n(Proc chance: 20%, 500ms cooldown)",
-      "pvp_tooltip": "Slice your target for (77.7216% of Attack Power) + (122.1475% of Attack Power) Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.\n(Proc chance: 20%, 500ms cooldown)",
+      "pve_tooltip": "Slice your target for [(73.6% of Attack Power) + (115.67% of Attack Power)] Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.\n(Proc chance: 20%, 500ms cooldown)",
+      "pvp_tooltip": "Slice your target for [(77.7216% of Attack Power) + (122.1475% of Attack Power)] Chaos damage. Chaos Strike has a [Min(20, 100)]% chance to refund 20 Fury.\n(Proc chance: 20%, 500ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 49,
-          "end": 55,
+          "start": 50,
+          "end": 56,
           "old_token": "115.67",
           "new_token": "122.1475",
           "kind": "attack_power_coefficient",
@@ -12847,8 +12847,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 23,
-          "end": 27,
+          "start": 24,
+          "end": 28,
           "old_token": "73.6",
           "new_token": "77.7216",
           "kind": "attack_power_coefficient",
@@ -14873,7 +14873,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Reaver's Mark",
@@ -15695,21 +15695,21 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Illidan’s Grasp",
         "text": "Illidan’s Grasp damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
         "date": "2026-10-06",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
           "Vengeance"
         ]
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
       },
       {
         "talent_name": "Improved Mass Dispel",
@@ -18806,7 +18806,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-10-21T05:24:32.828726+00:00",
+  "generated_at": "2026-10-21T09:13:16.020146+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -18857,12 +18857,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "f0e5d227824f949d45ddc652bb5f74521bcbc4026757447f7f9c77229bd8ea9c"
+    "evidence_hash": "80fac7db2df1fa6a434747e6f554829da7ed4719eb0bbd81afdaa7ecd74d1065"
   },
   "coverage": {
     "schema": 1,

@@ -4159,7 +4159,7 @@
           "talent_spell_id": 121471,
           "source_spell_id": 121471,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -4171,9 +4171,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10750,14 +10750,14 @@
           "ability_backstab"
         ]
       },
-      "pve_tooltip": "Level 90\n40 Energy\nMelee Range\nInstant\nStab the target, causing (107.31% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 11 + 260) / 370) Physical damage. Damage increased by 20% when you are behind your target [Improved Backstab: and critical strikes apply Find Weakness for 10 sec].\nAwards 1 combo point.",
-      "pvp_tooltip": "Level 90\n40 Energy\nMelee Range\nInstant\nStab the target, causing (156.8443% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 11 + 260) / 370) Physical damage. Damage increased by 20% when you are behind your target [Improved Backstab: and critical strikes apply Find Weakness for 10 sec].\nAwards 1 combo point.",
+      "pve_tooltip": "Level 90\n40 Energy\nMelee Range\nInstant\nStab the target, causing [(107.31% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 11 + 260) / 370)] Physical damage. Damage increased by 20% when you are behind your target [Improved Backstab: and critical strikes apply Find Weakness for 10 sec].\nAwards 1 combo point.",
+      "pvp_tooltip": "Level 90\n40 Energy\nMelee Range\nInstant\nStab the target, causing [(156.8443% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 11 + 260) / 370)] Physical damage. Damage increased by 20% when you are behind your target [Improved Backstab: and critical strikes apply Find Weakness for 10 sec].\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 65,
-          "end": 71,
+          "start": 66,
+          "end": 72,
           "old_token": "107.31",
           "new_token": "156.8443",
           "kind": "attack_power_coefficient",
@@ -11239,8 +11239,8 @@
           "inv_throwingknife_07"
         ]
       },
-      "pve_tooltip": "40 Energy\n30 yd range\nInstant\nThrows a shuriken at an enemy target for [(23.7838% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.\nAwards 1 combo point.",
-      "pvp_tooltip": "40 Energy\n30 yd range\nInstant\nThrows a shuriken at an enemy target for [(19.9784% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.\nAwards 1 combo point.",
+      "pve_tooltip": "40 Energy\n30 yd range\nInstant\nThrows a shuriken at an enemy target for [(23.7838% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.\nAwards 1 combo point.",
+      "pvp_tooltip": "40 Energy\n30 yd range\nInstant\nThrows a shuriken at an enemy target for [(19.9784% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11661,8 +11661,8 @@
           "ability_rogue_shurikenstorm"
         ]
       },
-      "pve_tooltip": "50 Energy\nInstant\nSprays shurikens at all enemies within 10 yards, dealing [(63% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage. Deals reduced damage beyond 8 targets. [Improved Shuriken Storm: Critical strikes with Shuriken Storm apply Find Weakness for 10 sec]\nAwards 1 combo point per target hit.",
-      "pvp_tooltip": "50 Energy\nInstant\nSprays shurikens at all enemies within 10 yards, dealing [(52.92% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage. Deals reduced damage beyond 8 targets. [Improved Shuriken Storm: Critical strikes with Shuriken Storm apply Find Weakness for 10 sec]\nAwards 1 combo point per target hit.",
+      "pve_tooltip": "50 Energy\nInstant\nSprays shurikens at all enemies within 10 yards, dealing [(63% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage. Deals reduced damage beyond 8 targets. [Improved Shuriken Storm: Critical strikes with Shuriken Storm apply Find Weakness for 10 sec]\nAwards 1 combo point per target hit.",
+      "pvp_tooltip": "50 Energy\nInstant\nSprays shurikens at all enemies within 10 yards, dealing [(52.92% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage. Deals reduced damage beyond 8 targets. [Improved Shuriken Storm: Critical strikes with Shuriken Storm apply Find Weakness for 10 sec]\nAwards 1 combo point per target hit.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12342,11 +12342,6 @@
     ]
   },
   "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 121471,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "source": "wowhead",
       "spell_id": 185314,
@@ -13133,7 +13128,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -13958,7 +13953,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13968,7 +13963,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -17190,7 +17185,7 @@
     }
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-10-21T05:29:09.137465+00:00",
+  "generated_at": "2026-10-21T09:18:07.213273+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -17205,16 +17200,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 157,
+    "source_warning_count": 156,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 121471,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 185314,
@@ -17234,6 +17224,11 @@
         "source": "wowhead",
         "spell_id": 193539,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193539'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 193546,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193546'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17241,12 +17236,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "6ef8bf174935bf42865372c2ebe7743f67239865ab9ea2a01ed0399fda94d17f"
+    "evidence_hash": "0ab5291f91204ce68b86120e79be454e4cd579784428c6028e64f9d292536b2f"
   },
   "coverage": {
     "schema": 1,

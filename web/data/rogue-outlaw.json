@@ -11326,8 +11326,8 @@
           "ability_rogue_pistolshot"
         ]
       },
-      "pve_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(83.4% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage and reducing the target's movement speed by 30% for 6 sec.\nAwards 1 combo point.",
-      "pvp_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(104.0832% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage and reducing the target's movement speed by 20% for 6 sec.\nAwards 1 combo point.",
+      "pve_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(83.4% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage and reducing the target's movement speed by 30% for 6 sec.\nAwards 1 combo point.",
+      "pvp_tooltip": "40 Energy\n20 yd range\nInstant\nDraw a concealed pistol and fire a quick shot at an enemy, dealing [(104.0832% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage and reducing the target's movement speed by 20% for 6 sec.\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11342,8 +11342,8 @@
           ]
         },
         {
-          "start": 279,
-          "end": 281,
+          "start": 281,
+          "end": 283,
           "old_token": "30",
           "new_token": "20",
           "kind": "percent_value",
@@ -11492,14 +11492,14 @@
           "spell_shadow_ritualofsacrifice"
         ]
       },
-      "pve_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing (122.3% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275) Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
-      "pvp_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing (152.6304% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275) Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
+      "pve_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing [(122.3% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275)] Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
+      "pvp_tooltip": "Level 90\n45 Energy\nMelee Range\nInstant\nViciously strike an enemy, causing [(152.6304% of Attack Power) * ((Max(0, Min(90 - 10, 10)) * 8 + 195) / 275)] Physical damage. [Opportunity: Has a 30% chance to hit an additional time and make your next Pistol Shot cost 30% less Energy and deal 30% increased damage]\nAwards 1 combo point each time it strikes.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 75,
-          "end": 80,
+          "start": 76,
+          "end": 81,
           "old_token": "122.3",
           "new_token": "152.6304",
           "kind": "attack_power_coefficient",
@@ -11693,14 +11693,14 @@
           "inv_weapon_rifle_01"
         ]
       },
-      "pve_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : ((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) damage, 4 sec\n2 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
-      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : ((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) damage, 4 sec\n2 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
+      "pve_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power)] damage, 4 sec\n2 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((75.1% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
+      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n20 yd range\nInstant\n45 sec cooldown\nFinishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by 4%. Multiple instances of this bonus can overlap.\n1 point : [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power)] damage, 4 sec\n2 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 2] damage, 6 sec\n3 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 3] damage, 8 sec\n4 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 4] damage, 10 sec\n5 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 5] damage, 12 sec\n[ 6 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 6] damage, 14 sec]\n[ 7 points: [((74.1988% of Attack Power) * ((Attack Power + Offhand Attack Power) * 2 / 3) / Attack Power) * 7] damage, 16 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 247,
-          "end": 251,
+          "start": 248,
+          "end": 252,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11709,8 +11709,8 @@
           ]
         },
         {
-          "start": 363,
-          "end": 367,
+          "start": 365,
+          "end": 369,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11719,8 +11719,8 @@
           ]
         },
         {
-          "start": 484,
-          "end": 488,
+          "start": 486,
+          "end": 490,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11729,8 +11729,8 @@
           ]
         },
         {
-          "start": 605,
-          "end": 609,
+          "start": 607,
+          "end": 611,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11739,8 +11739,8 @@
           ]
         },
         {
-          "start": 727,
-          "end": 731,
+          "start": 729,
+          "end": 733,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11749,8 +11749,8 @@
           ]
         },
         {
-          "start": 851,
-          "end": 855,
+          "start": 853,
+          "end": 857,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -11759,8 +11759,8 @@
           ]
         },
         {
-          "start": 976,
-          "end": 980,
+          "start": 978,
+          "end": 982,
           "old_token": "75.1",
           "new_token": "74.1988",
           "kind": "attack_power_coefficient",
@@ -12967,7 +12967,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -13882,7 +13882,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13892,7 +13892,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -17330,7 +17330,7 @@
     }
   },
   "slug": "rogue-outlaw",
-  "generated_at": "2026-10-21T05:29:02.459903+00:00",
+  "generated_at": "2026-10-21T09:17:57.575205+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -17381,12 +17381,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "6ef8bf174935bf42865372c2ebe7743f67239865ab9ea2a01ed0399fda94d17f"
+    "evidence_hash": "0ab5291f91204ce68b86120e79be454e4cd579784428c6028e64f9d292536b2f"
   },
   "coverage": {
     "schema": 1,

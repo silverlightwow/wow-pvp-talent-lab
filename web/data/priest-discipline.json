@@ -367,7 +367,7 @@
           "talent_spell_id": 132157,
           "source_spell_id": 132157,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (SP mod: 0.4095)",
+          "effect_text": "School Damage (Holy) (SP mod: 0.4095)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -389,11 +389,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -876,8 +875,8 @@
           "spell_holy_powerinfusion"
         ]
       },
-      "pve_tooltip": "40 yd range\nInstant\n28 sec cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
-      "pvp_tooltip": "40 yd range\nInstant\n28 sec cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4554,8 +4553,8 @@
           "spell_holy_holysmite"
         ]
       },
-      "pve_tooltip": "Smite prevents the next (Shadow spell power * 180 / 100) * (1 + Versatility) damage dealt by the enemy.",
-      "pvp_tooltip": "Smite prevents the next (Shadow spell power * 180 / 100) * (1 + Versatility) damage dealt by the enemy.",
+      "pve_tooltip": "Smite prevents the next [(Shadow spell power * 180 / 100) * (1 + Versatility)] damage dealt by the enemy.",
+      "pvp_tooltip": "Smite prevents the next [(Shadow spell power * 180 / 100) * (1 + Versatility)] damage dealt by the enemy.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -11254,8 +11253,8 @@
           "spell_holy_holysmite"
         ]
       },
-      "pve_tooltip": "3% of base mana\n40 yd range\n1.5 sec cast\nSmites an enemy for (98.7% of Spell Power) Holy damage [Sanctuary: and absorbs the next (Shadow spell power * 180 / 100) * (1 + Versatility) damage dealt by the enemy] [Holy Fire: and has a 20% chance to reset the cooldown of Holy Fire].",
-      "pvp_tooltip": "3% of base mana\n40 yd range\n1.5 sec cast\nSmites an enemy for (148.05% of Spell Power) Holy damage [Sanctuary: and absorbs the next (Shadow spell power * 180 / 100) * (1 + Versatility) damage dealt by the enemy] [Holy Fire: and has a 20% chance to reset the cooldown of Holy Fire].",
+      "pve_tooltip": "3% of base mana\n40 yd range\n1.5 sec cast\nSmites an enemy for (98.7% of Spell Power) Holy damage [Sanctuary: and absorbs the next [(Shadow spell power * 180 / 100) * (1 + Versatility)] damage dealt by the enemy] [Holy Fire: and has a 20% chance to reset the cooldown of Holy Fire].",
+      "pvp_tooltip": "3% of base mana\n40 yd range\n1.5 sec cast\nSmites an enemy for (148.05% of Spell Power) Holy damage [Sanctuary: and absorbs the next [(Shadow spell power * 180 / 100) * (1 + Versatility)] damage dealt by the enemy] [Holy Fire: and has a 20% chance to reset the cooldown of Holy Fire].",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11641,8 +11640,8 @@
           "spell_holy_penance"
         ]
       },
-      "pve_tooltip": "1.28% of base mana\n40 yd range\nChanneled\n9 sec cooldown\n1 Charge\nLaunches a volley of holy light at the target, causing (93.2% of Spell Power) * 1 * 1 * (3 + 0 + 0) Holy damage to an enemy or (401.1% of Spell Power) * 1 * (3 + 0 + 0) healing to an ally over 2 sec. Castable while moving.\nWhen you heal with Penance, everyone with your Atonement is healed for (18.72% of Spell Power).",
-      "pvp_tooltip": "1.28% of base mana\n40 yd range\nChanneled\n9 sec cooldown\n1 Charge\nLaunches a volley of holy light at the target, causing (93.2% of Spell Power) * 1 * 1 * (3 + 0 + 0) Holy damage to an enemy or (401.1% of Spell Power) * 1 * (3 + 0 + 0) healing to an ally over 2 sec. Castable while moving.\nWhen you heal with Penance, everyone with your Atonement is healed for (18.72% of Spell Power).",
+      "pve_tooltip": "1.28% of base mana\n40 yd range\nChanneled\n9 sec cooldown\n1 Charge\nLaunches a volley of holy light at the target, causing [(93.2% of Spell Power) * 1 * 1 * (3 + 0 + 0)] Holy damage to an enemy or [(401.1% of Spell Power) * 1 * (3 + 0 + 0)] healing to an ally over 2 sec. Castable while moving.\nWhen you heal with Penance, everyone with your Atonement is healed for (18.72% of Spell Power).",
+      "pvp_tooltip": "1.28% of base mana\n40 yd range\nChanneled\n9 sec cooldown\n1 Charge\nLaunches a volley of holy light at the target, causing [(93.2% of Spell Power) * 1 * 1 * (3 + 0 + 0)] Holy damage to an enemy or [(401.1% of Spell Power) * 1 * (3 + 0 + 0)] healing to an ally over 2 sec. Castable while moving.\nWhen you heal with Penance, everyone with your Atonement is healed for (18.72% of Spell Power).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -12154,16 +12153,6 @@
     ]
   },
   "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 121536,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 132157,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "source": "wowhead",
       "spell_id": 193063,
@@ -12716,6 +12705,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 137030,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137030'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 186263,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=186263'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12805,7 +12799,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Atonement",
@@ -13633,7 +13627,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13643,7 +13637,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -16507,7 +16501,7 @@
     }
   },
   "slug": "priest-discipline",
-  "generated_at": "2026-10-21T05:28:13.509989+00:00",
+  "generated_at": "2026-10-21T09:17:21.430440+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16522,21 +16516,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 129,
+    "source_warning_count": 128,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 121536,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 132157,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 193063,
@@ -16551,6 +16535,16 @@
         "source": "wowhead",
         "spell_id": 194509,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=194509'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 196704,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196704'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 197045,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=197045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16558,12 +16552,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "5ea1bed34bf77dd5e2213773883ba3f1949994ef5ba23fb9cba993f9ddc141ea"
+    "evidence_hash": "8d5799972bad6c4e2ca9de2ce7089cc35ae9a64fc879a0fd67b5dbd05ae32746"
   },
   "coverage": {
     "schema": 1,
@@ -18068,27 +18062,6 @@
           "talents",
           103870,
           132157,
-          132157,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 1.5,
-          "final_pvp_multiplier": 1.5,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.4095,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
-          103870,
-          132157,
           281265,
           1
         ],
@@ -18736,6 +18709,6 @@
         }
       }
     ],
-    "independent_hash": "d44da9c29511814b831c513983a111ddb25e1da6918c14f44f08a3844e10f062"
+    "independent_hash": "3639fa4bbecacb6cc5021c67ccf0f0d87b9cbb261b2930f7d122d581b7c9cf08"
   }
 }

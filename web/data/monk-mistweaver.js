@@ -1813,7 +1813,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1840,11 +1840,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -4684,7 +4685,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 124682,
           "source_spell_id": 124682,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 1.4352)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -4706,10 +4707,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -4727,7 +4729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 124682,
           "source_spell_id": 124682,
           "effect_index": 3,
-          "effect_text": "Heal (SP mod: 8.6112)",
+          "effect_text": "Direct Heal (10) (SP mod: 8.6112)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4749,10 +4751,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -5658,7 +5661,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 115310,
           "source_spell_id": 115310,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) | Attributes: Area Effects Use Target Radius (17) (SP mod: 59.8828)",
+          "effect_text": "Heal (SP mod: 59.8828)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5680,11 +5683,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -13689,8 +13691,8 @@ window.WOW_PVP_DATA = {
           "ability_titankeeper_cleanse"
         ]
       },
-      "pve_tooltip": "Casting Enveloping Mist stores (Spell Power * 300 / 100) * (1 + Versatility) additional vitality.",
-      "pvp_tooltip": "Casting Enveloping Mist stores (Spell Power * 300 / 100) * (1 + Versatility) additional vitality.",
+      "pve_tooltip": "Casting Enveloping Mist stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
+      "pvp_tooltip": "Casting Enveloping Mist stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -13954,8 +13956,8 @@ window.WOW_PVP_DATA = {
           "ability_monk_roundhousekick"
         ]
       },
-      "pve_tooltip": "3 Chi\nMelee Range\nInstant\n2 min cooldown\nKick with a blast of Chi energy, dealing [ Windwalker: [(84.7% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] /\n(84.7% of Attack Power)] Physical damage. [Sharp Reflexes: Reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec when used] [Shadowboxing Treads: Strikes up to 2 additionaltargets] [Staggering Strikes: Reduces Stagger by (Attack Power * 750 / 100).] [Elusive Footwork: Critical hits grant an additional 1 stack of Elusive Brawler]",
-      "pvp_tooltip": "3 Chi\nMelee Range\nInstant\n2 min cooldown\nKick with a blast of Chi energy, dealing [ Windwalker: [(134.3342% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] /\n(134.3342% of Attack Power)] Physical damage. [Sharp Reflexes: Reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec when used] [Shadowboxing Treads: Strikes up to 2 additionaltargets] [Staggering Strikes: Reduces Stagger by (Attack Power * 750 / 100).] [Elusive Footwork: Critical hits grant an additional 1 stack of Elusive Brawler]",
+      "pve_tooltip": "3 Chi\nMelee Range\nInstant\n3 sec cooldown\nKick with a blast of Chi energy, dealing [ Windwalker: [(84.7% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] /\n(84.7% of Attack Power)] Physical damage. [Sharp Reflexes: Reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec when used] [Shadowboxing Treads: Strikes up to 2 additionaltargets] [Staggering Strikes: Reduces Stagger by (Attack Power * 750 / 100).] [Elusive Footwork: Critical hits grant an additional 1 stack of Elusive Brawler]",
+      "pvp_tooltip": "3 Chi\nMelee Range\nInstant\n3 sec cooldown\nKick with a blast of Chi energy, dealing [ Windwalker: [(134.3342% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] /\n(134.3342% of Attack Power)] Physical damage. [Sharp Reflexes: Reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec when used] [Shadowboxing Treads: Strikes up to 2 additionaltargets] [Staggering Strikes: Reduces Stagger by (Attack Power * 750 / 100).] [Elusive Footwork: Critical hits grant an additional 1 stack of Elusive Brawler]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13970,8 +13972,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 221,
-          "end": 225,
+          "start": 223,
+          "end": 227,
           "old_token": "84.7",
           "new_token": "134.3342",
           "kind": "attack_power_coefficient",
@@ -15353,13 +15355,18 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 115310,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115310'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116841,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 116841,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 122280,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 124682,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -16063,23 +16070,13 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 124081,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 125883,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=125883'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 130610,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=130610'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 132463,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132463'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 132467,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -16307,7 +16304,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -17130,7 +17127,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -17140,7 +17137,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -20168,7 +20165,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "monk-mistweaver",
-  "generated_at": "2026-10-21T05:27:19.417517+00:00",
+  "generated_at": "2026-10-21T09:16:09.966633+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -20183,20 +20180,25 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 190,
+    "source_warning_count": 189,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 115310,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115310'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 116841,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 116841,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 122280,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 124682,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -20207,11 +20209,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 173841,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=173841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 197895,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=197895'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -20219,12 +20216,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "908ef5dff439243c3d99486d74bedc86500be6af5159bcbd128c14db39252576"
+    "evidence_hash": "ced73f762c99e2b92773b49958cd8e8c38e6638dcae3ee0dc7bc58004ff6d9a1"
   },
   "coverage": {
     "schema": 1,
@@ -22756,27 +22753,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
-          124919,
-          115310,
-          115310,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.71,
-          "final_pvp_multiplier": 0.71,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 59.8828,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
           124920,
           115869,
           115294,
@@ -22854,6 +22830,48 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 2.4,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          124922,
+          124682,
+          124682,
+          1
+        ],
+        "amount_kind": "periodic",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.71,
+          "final_pvp_multiplier": 0.71,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 1.4352,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          124922,
+          124682,
+          124682,
+          3
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.71,
+          "final_pvp_multiplier": 0.71,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 8.6112,
+          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -23573,6 +23591,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "a5fe671c82756fa3d4ce2d222611907a5640c47771ca55621c503abaadc52795"
+    "independent_hash": "68f7de1eeea9a055dc7207ef7b3b6c74b677f0c14521ef35315e418c20c3c38c"
   }
 };

@@ -113,14 +113,14 @@
           "spell_deathknight_butcher2"
         ]
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of (176.1% of Attack Power) + (29.835% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of (198.993% of Attack Power) + (33.7135% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(176.1% of Attack Power) + (29.835% of Attack Power)] Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(198.993% of Attack Power) + (33.7135% of Attack Power)] Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 110,
-          "end": 115,
+          "start": 111,
+          "end": 116,
           "old_token": "176.1",
           "new_token": "198.993",
           "kind": "attack_power_coefficient",
@@ -129,8 +129,8 @@
           ]
         },
         {
-          "start": 137,
-          "end": 143,
+          "start": 138,
+          "end": 144,
           "old_token": "29.835",
           "new_token": "33.7135",
           "kind": "attack_power_coefficient",
@@ -3765,8 +3765,8 @@
           "spell_deathknight_empowerruneblade2"
         ]
       },
-      "pve_tooltip": "35 Runic Power\nMelee Range\nInstant\nChill your [weapon with icy power and quickly strike the enemy, dealing (198.089% of Attack Power) Frost damage.][weapons with icy power and quickly strike the enemy with both, dealing a total of (139.308% of Attack Power) + (139.308% of Attack Power) Frost damage.]",
-      "pvp_tooltip": "35 Runic Power\nMelee Range\nInstant\nChill your [weapon with icy power and quickly strike the enemy, dealing (198.089% of Attack Power) Frost damage.][weapons with icy power and quickly strike the enemy with both, dealing a total of (139.308% of Attack Power) + (139.308% of Attack Power) Frost damage.]",
+      "pve_tooltip": "35 Runic Power\nMelee Range\nInstant\nChill your [weapon with icy power and quickly strike the enemy, dealing (198.089% of Attack Power) Frost damage.][weapons with icy power and quickly strike the enemy with both, dealing a total of [(139.308% of Attack Power) + (139.308% of Attack Power)] Frost damage.]",
+      "pvp_tooltip": "35 Runic Power\nMelee Range\nInstant\nChill your [weapon with icy power and quickly strike the enemy, dealing (198.089% of Attack Power) Frost damage.][weapons with icy power and quickly strike the enemy with both, dealing a total of [(139.308% of Attack Power) + (139.308% of Attack Power)] Frost damage.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4006,8 +4006,8 @@
           "spell_deathknight_classicon"
         ]
       },
-      "pve_tooltip": "2 Runes\nMelee Range\nInstant\nA brutal attack [that deals (116.304% of Attack Power) Physical and (116.304% of Attack Power) Frost damage.][with both weapons that deals a total of ((78.5643% of Attack Power) + (78.5643% of Attack Power)) Physical and ((78.5643% of Attack Power) + (78.5643% of Attack Power)) Frost damage.]",
-      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\nA brutal attack [that deals (116.304% of Attack Power) Physical and (116.304% of Attack Power) Frost damage.][with both weapons that deals a total of ((78.5643% of Attack Power) + (78.5643% of Attack Power)) Physical and ((78.5643% of Attack Power) + (78.5643% of Attack Power)) Frost damage.]",
+      "pve_tooltip": "2 Runes\nMelee Range\nInstant\nA brutal attack [that deals (116.304% of Attack Power) Physical and (116.304% of Attack Power) Frost damage.][with both weapons that deals a total of [((78.5643% of Attack Power) + (78.5643% of Attack Power))] Physical and [((78.5643% of Attack Power) + (78.5643% of Attack Power))] Frost damage.]",
+      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\nA brutal attack [that deals (116.304% of Attack Power) Physical and (116.304% of Attack Power) Frost damage.][with both weapons that deals a total of [((78.5643% of Attack Power) + (78.5643% of Attack Power))] Physical and [((78.5643% of Attack Power) + (78.5643% of Attack Power))] Frost damage.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4424,8 +4424,8 @@
           "spell_frost_arcticwinds"
         ]
       },
-      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(222.4744% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(222.4744% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4440,8 +4440,8 @@
           ]
         },
         {
-          "start": 446,
-          "end": 451,
+          "start": 448,
+          "end": 453,
           "old_token": "342.4",
           "new_token": "222.4744",
           "kind": "attack_power_coefficient",
@@ -7975,8 +7975,8 @@
           "spell_deathknight_breathofsindragosa"
         ]
       },
-      "pve_tooltip": "60 Runic Power\nInstant\n1.5 min cooldown\nCall upon Sindragosa's aid in battle for 8 sec, continuously dealing [(111.83% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage every 1 sec to enemies in a cone in front of you. Consuming Killing Machine or Rime increases the duration by 0.8 sec. Deals reduced damage to secondary targets.\nGrants a charge of Empower Rune Weapon at the start and 2 Runes at the end.\n(100ms cooldown)",
-      "pvp_tooltip": "60 Runic Power\nInstant\n1.5 min cooldown\nCall upon Sindragosa's aid in battle for 8 sec, continuously dealing [(105.2645% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage every 1 sec to enemies in a cone in front of you. Consuming Killing Machine or Rime increases the duration by 0.8 sec. Deals reduced damage to secondary targets.\nGrants a charge of Empower Rune Weapon at the start and 2 Runes at the end.\n(100ms cooldown)",
+      "pve_tooltip": "60 Runic Power\nInstant\n1.5 min cooldown\nCall upon Sindragosa's aid in battle for 8 sec, continuously dealing [(111.83% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage every 1 sec to enemies in a cone in front of you. Consuming Killing Machine or Rime increases the duration by 0.8 sec. Deals reduced damage to secondary targets.\nGrants a charge of Empower Rune Weapon at the start and 2 Runes at the end.\n(100ms cooldown)",
+      "pvp_tooltip": "60 Runic Power\nInstant\n1.5 min cooldown\nCall upon Sindragosa's aid in battle for 8 sec, continuously dealing [(105.2645% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage every 1 sec to enemies in a cone in front of you. Consuming Killing Machine or Rime increases the duration by 0.8 sec. Deals reduced damage to secondary targets.\nGrants a charge of Empower Rune Weapon at the start and 2 Runes at the end.\n(100ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12402,8 +12402,8 @@
           "ability_hunter_glacialtrap"
         ]
       },
-      "pve_tooltip": "Talent / Specialization\n35 Runic Power\n100 yd range\nInstant\nSummon glacial spikes from the ground that advance forward, each dealing [(82.4557% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage near their eruption point and applying Razorice.",
-      "pvp_tooltip": "Talent / Specialization\n35 Runic Power\n100 yd range\nInstant\nSummon glacial spikes from the ground that advance forward, each dealing [(119.2639% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage near their eruption point and applying Razorice.",
+      "pve_tooltip": "Talent / Specialization\n35 Runic Power\n100 yd range\nInstant\nSummon glacial spikes from the ground that advance forward, each dealing [(82.4557% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage near their eruption point and applying Razorice.",
+      "pvp_tooltip": "Talent / Specialization\n35 Runic Power\n100 yd range\nInstant\nSummon glacial spikes from the ground that advance forward, each dealing [(119.2639% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage near their eruption point and applying Razorice.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12510,8 +12510,8 @@
           "ability_deathknight_remorselesswinters2"
         ]
       },
-      "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n20 sec cooldown\nDrain the warmth of life from all nearby enemies within 8 yards, dealing [9 * (12.6462% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 8 sec and reducing their movement speed by 20%.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n20 sec cooldown\nDrain the warmth of life from all nearby enemies within 8 yards, dealing [9 * (20.435% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Frost damage over 8 sec and reducing their movement speed by 20%.",
+      "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n20 sec cooldown\nDrain the warmth of life from all nearby enemies within 8 yards, dealing [9 * (12.6462% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage over 8 sec and reducing their movement speed by 20%.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n20 sec cooldown\nDrain the warmth of life from all nearby enemies within 8 yards, dealing [9 * (20.435% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Frost damage over 8 sec and reducing their movement speed by 20%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13619,6 +13619,11 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 137005,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137005'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 155166,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155166'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13863,7 +13868,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -14687,7 +14692,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14697,7 +14702,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -17722,7 +17727,7 @@
     }
   },
   "slug": "death-knight-frost",
-  "generated_at": "2026-10-21T05:23:57.865639+00:00",
+  "generated_at": "2026-10-21T09:12:50.398425+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -17737,7 +17742,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 155,
+    "source_warning_count": 156,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -17773,12 +17778,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "6aa5b2c0bddacb0cb7ac19fde864936ed2df5d6fd5eb9525c1887d9d058cb20c"
+    "evidence_hash": "ffcb2e87ed66442a4ecd9ef8226abef7e7ba9d859d0d715125bc605852ff4e00"
   },
   "coverage": {
     "schema": 1,

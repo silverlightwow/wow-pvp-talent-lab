@@ -175,8 +175,8 @@ window.WOW_PVP_DATA = {
           "ability_monk_risingsunkick"
         ]
       },
-      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.",
-      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(120.3606% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.",
+      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.",
+      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(120.3606% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6584,14 +6584,14 @@ window.WOW_PVP_DATA = {
           "inv_hand_1h_artifactskywall_d_01"
         ]
       },
-      "pve_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing (1008% of Attack Power) + (504% of Attack Power) Physical damage and reducing movement speed by 50% for 6 sec. Deals reduced damage to secondary targets.",
-      "pvp_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing (937.44% of Attack Power) + (468.72% of Attack Power) Physical damage and reducing movement speed by 30% for 6 sec. Deals reduced damage to secondary targets.",
+      "pve_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing [(1008% of Attack Power) + (504% of Attack Power)] Physical damage and reducing movement speed by 50% for 6 sec. Deals reduced damage to secondary targets.",
+      "pvp_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing [(937.44% of Attack Power) + (468.72% of Attack Power)] Physical damage and reducing movement speed by 30% for 6 sec. Deals reduced damage to secondary targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 200,
-          "end": 202,
+          "start": 202,
+          "end": 204,
           "old_token": "50",
           "new_token": "30",
           "kind": "percent_value",
@@ -6600,8 +6600,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 105,
-          "end": 109,
+          "start": 106,
+          "end": 110,
           "old_token": "1008",
           "new_token": "937.44",
           "kind": "attack_power_coefficient",
@@ -6610,8 +6610,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 131,
-          "end": 134,
+          "start": 132,
+          "end": 135,
           "old_token": "504",
           "new_token": "468.72",
           "kind": "attack_power_coefficient",
@@ -12636,14 +12636,14 @@ window.WOW_PVP_DATA = {
           "ability_monk_roundhousekick"
         ]
       },
-      "pve_tooltip": "3 Chi\nMelee Range\nInstant\nuntil canceled\nKick with a blast of Chi energy, dealing [(84.7% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.",
-      "pvp_tooltip": "3 Chi\nMelee Range\nInstant\nuntil canceled\nKick with a blast of Chi energy, dealing [(87.042% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage.",
+      "pve_tooltip": "3 Chi\nMelee Range\nInstant\nKick with a blast of Chi energy, dealing [(84.7% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.",
+      "pvp_tooltip": "3 Chi\nMelee Range\nInstant\nKick with a blast of Chi energy, dealing [(87.042% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 84,
-          "end": 88,
+          "start": 69,
+          "end": 73,
           "old_token": "84.7",
           "new_token": "87.042",
           "kind": "attack_power_coefficient",
@@ -12794,7 +12794,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 101545,
           "source_spell_id": 123586,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -12811,8 +12811,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -12847,8 +12848,8 @@ window.WOW_PVP_DATA = {
           "ability_monk_cranekick_new"
         ]
       },
-      "pve_tooltip": "2 Chi / 1% of base mana / 40 Energy\nChanneled (1.5 sec cast)\nSpin while kicking in the air, dealing [4 * (10% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage over 1.5 sec to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "2 Chi / 1% of base mana / 40 Energy\nChanneled (1.5 sec cast)\nSpin while kicking in the air, dealing [4 * (9.3% of Attack Power) * (Attack Power * 0.98)((Attack Power + Offhand Attack Power) * 2 / 3) -- 2H, DW / Attack Power] Physical damage over 1.5 sec to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "2 Chi / 1% of base mana / 40 Energy\nChanneled (1.5 sec cast)\nSpin while kicking in the air, dealing [4 * (10% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage over 1.5 sec to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "2 Chi / 1% of base mana / 40 Energy\nChanneled (1.5 sec cast)\nSpin while kicking in the air, dealing [4 * (9.3% of Attack Power) * (2H: (Attack Power * 0.98); DW: ((Attack Power + Offhand Attack Power) * 2 / 3)) / Attack Power] Physical damage over 1.5 sec to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13213,7 +13214,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 122470,
           "source_spell_id": 122470,
           "effect_index": 3,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": 50.0,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": null,
@@ -13225,9 +13226,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc_generated",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -13761,11 +13763,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 137384,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137384'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 152175,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14434,41 +14431,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 120227,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120227'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 122470,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122470'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123586,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123586'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 124146,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124146'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 125883,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=125883'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 128595,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=128595'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 130610,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=130610'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 137022,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137022'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14683,7 +14645,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -15513,7 +15475,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15523,7 +15485,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -18486,7 +18448,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-10-21T05:27:26.928454+00:00",
+  "generated_at": "2026-10-21T09:16:31.578521+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -18501,7 +18463,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 187,
+    "source_warning_count": 179,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18528,8 +18490,8 @@ window.WOW_PVP_DATA = {
       },
       {
         "source": "wowhead",
-        "spell_id": 152175,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152175'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 157411,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -18537,12 +18499,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "908ef5dff439243c3d99486d74bedc86500be6af5159bcbd128c14db39252576"
+    "evidence_hash": "ced73f762c99e2b92773b49958cd8e8c38e6638dcae3ee0dc7bc58004ff6d9a1"
   },
   "coverage": {
     "schema": 1,

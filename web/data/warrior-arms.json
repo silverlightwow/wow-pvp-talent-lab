@@ -10544,14 +10544,14 @@
           "inv_ability_colossuswarrior_demolish"
         ]
       },
-      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing (531.455% of Attack Power) + (531.455% of Attack Power) + (1232.36% of Attack Power) damage to it, and (1232.36% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
-      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing (637.746% of Attack Power) + (637.746% of Attack Power) + (1183.0656% of Attack Power) damage to it, and (1183.0656% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
+      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing [(531.455% of Attack Power) + (531.455% of Attack Power) + (1232.36% of Attack Power)] damage to it, and (1232.36% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
+      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing [(637.746% of Attack Power) + (637.746% of Attack Power) + (1183.0656% of Attack Power)] damage to it, and (1183.0656% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 130,
-          "end": 137,
+          "start": 131,
+          "end": 138,
           "old_token": "531.455",
           "new_token": "637.746",
           "kind": "attack_power_coefficient",
@@ -10561,8 +10561,8 @@
           ]
         },
         {
-          "start": 159,
-          "end": 166,
+          "start": 160,
+          "end": 167,
           "old_token": "531.455",
           "new_token": "637.746",
           "kind": "attack_power_coefficient",
@@ -10572,8 +10572,8 @@
           ]
         },
         {
-          "start": 188,
-          "end": 195,
+          "start": 189,
+          "end": 196,
           "old_token": "1232.36",
           "new_token": "1183.0656",
           "kind": "attack_power_coefficient",
@@ -10582,8 +10582,8 @@
           ]
         },
         {
-          "start": 233,
-          "end": 240,
+          "start": 235,
+          "end": 242,
           "old_token": "1232.36",
           "new_token": "1183.0656",
           "kind": "attack_power_coefficient",
@@ -12692,7 +12692,7 @@
           "talent_spell_id": 100,
           "source_spell_id": 126664,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.21 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.21)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -12719,11 +12719,12 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -14362,6 +14363,21 @@
     },
     {
       "source": "wowhead",
+      "spell_id": 123829,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123829'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 126664,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=126664'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 137047,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 156287,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=156287'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14546,7 +14562,7 @@
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Cut to the Bone",
@@ -15358,7 +15374,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15368,7 +15384,7 @@
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -18054,7 +18070,7 @@
     }
   },
   "slug": "warrior-arms",
-  "generated_at": "2026-10-21T05:30:28.210610+00:00",
+  "generated_at": "2026-10-21T09:19:23.613319+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -18069,7 +18085,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 139,
+    "source_warning_count": 142,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18105,12 +18121,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "e6382cd594bd1053841085d94510456c02dfa875b9df1db23d9c2f73c25c4dc5",
-    "captured_at": "2026-10-21T05:14:33.391318+00:00",
-    "parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
-    "captured_parser_hash": "0c36b6e5b8299a373f4c405930f0889b31b68607f43cd9791840349e7fd83890",
+    "snapshot_hash": "83470d6d60ee30121713f2556a9c0b018b37182f650b04f7bb513463fb27183d",
+    "captured_at": "2026-10-21T09:03:28.895966+00:00",
+    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "4fe66a9d6adb06279ab32504e2a2af69b7b7b1710013afdeee13faa085833c9e"
+    "evidence_hash": "3a433f587cddce73cb014332078798159cd0563eb821e6c3f06743acb775928a"
   },
   "coverage": {
     "schema": 1,
