@@ -9975,7 +9975,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -10795,21 +10795,21 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Illidan’s Grasp",
         "text": "Illidan’s Grasp damage increased by 50%.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Illidan’s Grasp",
+        "text": "Illidan’s Grasp damage increased by 50%.",
         "date": "2026-10-06",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
           "Havoc"
         ]
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
       },
       {
         "talent_name": "Improved Mass Dispel",
@@ -10959,7 +10959,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "090e9524f39072a951d605e4561fa2c58e724dad",
+    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
     "baseline_spell_ids": [
       131347,
       183752,
@@ -13615,7 +13615,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-10-22T12:30:27.163109+00:00",
+  "generated_at": "2026-10-22T17:46:20.045248+00:00",
   "validation": {
     "abilities": 1,
     "abilities_with_pvp_mechanics": 1,
@@ -13666,12 +13666,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "268f2875e68bd34acf6039fb1aacae5b65672ebca58365242fcd491c7c2c3815",
-    "captured_at": "2026-10-22T12:19:29.710225+00:00",
+    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
+    "captured_at": "2026-10-22T17:35:16.500104+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "7fc2ed617f997a3d6bf91556aed02f78378fec02b1bf2fc479f37135eeeb5de1"
+    "evidence_hash": "a1793586a916608611b4a7f1f844c50efaae160f21a12602ed619fe6438b9a5d"
   },
   "coverage": {
     "schema": 1,

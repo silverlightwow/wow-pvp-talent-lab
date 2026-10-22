@@ -14622,6 +14622,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 137026,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 137028,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137028'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14841,7 +14846,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -15664,7 +15669,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15674,7 +15679,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15813,7 +15818,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "090e9524f39072a951d605e4561fa2c58e724dad",
+    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
     "baseline_spell_ids": [
       642,
       853,
@@ -19021,7 +19026,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "paladin-protection",
-  "generated_at": "2026-10-22T12:33:42.135571+00:00",
+  "generated_at": "2026-10-22T17:49:33.310021+00:00",
   "validation": {
     "abilities": 8,
     "abilities_with_pvp_mechanics": 8,
@@ -19036,7 +19041,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 174,
+    "source_warning_count": 175,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -19072,12 +19077,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "268f2875e68bd34acf6039fb1aacae5b65672ebca58365242fcd491c7c2c3815",
-    "captured_at": "2026-10-22T12:19:29.710225+00:00",
+    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
+    "captured_at": "2026-10-22T17:35:16.500104+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "45de33c6004a9d48ef0352e6ce9f69504c31fe2af0cd29d1677f43f60092fc6d"
+    "evidence_hash": "4126e2faa582960d1220d44796f862dd0d2929cfc7e16bf0c1d94253a892ebb7"
   },
   "coverage": {
     "schema": 1,
