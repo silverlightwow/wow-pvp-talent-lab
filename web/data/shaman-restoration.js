@@ -1988,7 +1988,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 51485,
           "source_spell_id": 116947,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2005,8 +2005,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -4908,7 +4909,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 108280,
           "source_spell_id": 114942,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 5.145)",
+          "effect_text": "Heal (SP mod: 5.145)",
           "base_value": null,
           "spell_pvp_multiplier": 1.75,
           "amount_kind": "direct",
@@ -4935,8 +4936,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -8104,7 +8106,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 378270,
           "source_spell_id": 114050,
           "effect_index": 2,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.0,
           "amount_kind": null,
@@ -8121,8 +8123,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
-            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
@@ -12815,26 +12817,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 114050,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=114050'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 114942,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=114942'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 116947,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116947'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123831,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123831'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 137038,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13954,7 +13936,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "d080afd0a5fa3974006a63e3708a5206a4cc5114",
+    "source_ref": "090e9524f39072a951d605e4561fa2c58e724dad",
     "baseline_spell_ids": [
       2484,
       2645,
@@ -16791,7 +16773,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-10-22T05:34:04.080796+00:00",
+  "generated_at": "2026-10-22T12:35:51.641994+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -16806,7 +16788,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 146,
+    "source_warning_count": 142,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -16842,8 +16824,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3a0a8dca738a7a960789ff5f8abbefc0b1e0b7a4ef0d0c4ac4ea24053057438d",
-    "captured_at": "2026-10-22T05:18:08.309841+00:00",
+    "snapshot_hash": "268f2875e68bd34acf6039fb1aacae5b65672ebca58365242fcd491c7c2c3815",
+    "captured_at": "2026-10-22T12:19:29.710225+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
