@@ -15859,7 +15859,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       131347,
       162243,
@@ -18806,7 +18806,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-10-22T17:46:16.974893+00:00",
+  "generated_at": "2026-10-22T22:05:56.536736+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -18857,12 +18857,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "a1793586a916608611b4a7f1f844c50efaae160f21a12602ed619fe6438b9a5d"
+    "evidence_hash": "19155f5c64d879a449f8def8967b4c67e5e70c4a53d949ce069021670914607f"
   },
   "coverage": {
     "schema": 1,

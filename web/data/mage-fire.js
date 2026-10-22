@@ -12980,6 +12980,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 117216,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 153561,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153561'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14739,7 +14744,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       66,
       120,
@@ -17365,7 +17370,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "mage-fire",
-  "generated_at": "2026-10-22T17:48:31.623868+00:00",
+  "generated_at": "2026-10-22T22:08:18.597143+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -17380,11 +17385,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 153,
+    "source_warning_count": 154,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 117216,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 153561,
@@ -17404,11 +17414,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 190319,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190319'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 205026,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17416,12 +17421,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "91a0df430b766aa958954798af0bb3bc7796cec533b57910107714067ea736aa"
+    "evidence_hash": "2d6dd5f2144ffa06fc9d1ae228ec122768eef4cd6d55089bc19c18695fb27d2c"
   },
   "coverage": {
     "schema": 1,

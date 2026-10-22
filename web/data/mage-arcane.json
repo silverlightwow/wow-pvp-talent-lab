@@ -13557,7 +13557,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       66,
       120,
@@ -16194,7 +16194,7 @@
     }
   },
   "slug": "mage-arcane",
-  "generated_at": "2026-10-22T17:48:32.199076+00:00",
+  "generated_at": "2026-10-22T22:08:08.285049+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -16245,12 +16245,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "91a0df430b766aa958954798af0bb3bc7796cec533b57910107714067ea736aa"
+    "evidence_hash": "2d6dd5f2144ffa06fc9d1ae228ec122768eef4cd6d55089bc19c18695fb27d2c"
   },
   "coverage": {
     "schema": 1,

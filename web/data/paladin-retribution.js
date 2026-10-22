@@ -16729,7 +16729,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       642,
       853,
@@ -19769,7 +19769,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "paladin-retribution",
-  "generated_at": "2026-10-22T17:49:54.258312+00:00",
+  "generated_at": "2026-10-22T22:09:47.334543+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -19820,12 +19820,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "4126e2faa582960d1220d44796f862dd0d2929cfc7e16bf0c1d94253a892ebb7"
+    "evidence_hash": "800ec3d0707261cc1155ecbde972b7bdff728b52ad0439b243b4553c4e9fef8b"
   },
   "coverage": {
     "schema": 1,

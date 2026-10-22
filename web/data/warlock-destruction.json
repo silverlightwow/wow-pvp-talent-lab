@@ -3880,7 +3880,7 @@
           "talent_spell_id": 116858,
           "source_spell_id": 116858,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (SP mod: 4.29049)",
+          "effect_text": "School Damage (2): chromatic (SP mod: 4.29049)",
           "base_value": null,
           "spell_pvp_multiplier": 2.28099,
           "amount_kind": "direct",
@@ -3902,9 +3902,9 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12211,6 +12211,11 @@
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 116858,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 152108,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13944,7 +13949,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       126,
       348,
@@ -17314,7 +17319,7 @@
     }
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-10-22T17:52:18.857261+00:00",
+  "generated_at": "2026-10-22T22:12:13.967722+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -17329,11 +17334,16 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 151,
+    "source_warning_count": 152,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 116858,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 152108,
@@ -17353,11 +17363,6 @@
         "source": "wowhead",
         "spell_id": 196447,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196447'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 205148,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205148'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17365,12 +17370,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "dcf495f9d8193d482601bab2fa1e9b0b0a8fb352f925c01977170d930a8923d0"
+    "evidence_hash": "9755025d6c2ca0debe22182a0d5f8fc2daab216ea212000962bd7e2da43791d5"
   },
   "coverage": {
     "schema": 1,

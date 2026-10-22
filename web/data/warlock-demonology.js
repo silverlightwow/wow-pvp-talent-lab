@@ -12307,7 +12307,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       126,
       172,
@@ -15455,7 +15455,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warlock-demonology",
-  "generated_at": "2026-10-22T17:51:56.402334+00:00",
+  "generated_at": "2026-10-22T22:11:50.773544+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -15506,12 +15506,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "dcf495f9d8193d482601bab2fa1e9b0b0a8fb352f925c01977170d930a8923d0"
+    "evidence_hash": "9755025d6c2ca0debe22182a0d5f8fc2daab216ea212000962bd7e2da43791d5"
   },
   "coverage": {
     "schema": 1,

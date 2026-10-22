@@ -16274,7 +16274,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       339,
       768,
@@ -19097,7 +19097,7 @@
     }
   },
   "slug": "druid-feral",
-  "generated_at": "2026-10-22T17:46:17.084363+00:00",
+  "generated_at": "2026-10-22T22:06:05.308685+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -19148,12 +19148,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "976c5d8b25b307aee5181573a7ef3df9f18f45906a8aa8150833cd9ac5cabb27"
+    "evidence_hash": "7717c82c7efbc446936748285b94995774e8100cad854e188ea7dadbe4eae16f"
   },
   "coverage": {
     "schema": 1,

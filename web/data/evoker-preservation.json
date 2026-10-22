@@ -12744,7 +12744,7 @@
   },
   "spellbook_inventory": {
     "build": "12.1.5.70448",
-    "source_ref": "5d56621b3e702dd5d7eb80acad0debd92a3d92fc",
+    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
     "baseline_spell_ids": [
       355913,
       356995,
@@ -15086,7 +15086,7 @@
     }
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-10-22T17:47:43.973916+00:00",
+  "generated_at": "2026-10-22T22:07:22.555086+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -15137,12 +15137,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "d156909f4c87287281526102569b45358d265cb04e52a121a22c99d77349d6ea",
-    "captured_at": "2026-10-22T17:35:16.500104+00:00",
+    "snapshot_hash": "ffa5c3418bfe44a60d37a0dee5c6c50fff4d8c6b7e602a9298aa73e92d7e0ce6",
+    "captured_at": "2026-10-22T21:54:04.118495+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "592dd196ae81571f5a85ada5272e04facd5654571580f57ef4d7003283196bef"
+    "evidence_hash": "159b824c997e21a4adcd7e353c03b71852fe97e5b8907edd41e88186c2262717"
   },
   "coverage": {
     "schema": 1,
