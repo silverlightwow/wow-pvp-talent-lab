@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Rogue",
   "spec_name": "Subtlety",
-  "tree_build": "12.1.5.70448",
-  "simc_build": "12.1.5.70448",
+  "tree_build": "12.1.5.70529",
+  "simc_build": "12.1.5.70529",
   "drustvar_builds": [
     "12.1.5.70448"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -389,9 +389,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -450,9 +450,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -510,9 +510,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -571,9 +571,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -634,9 +634,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -695,9 +695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -813,9 +813,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -876,9 +876,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -937,9 +937,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1053,9 +1053,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1116,9 +1116,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1179,9 +1179,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1242,9 +1242,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1305,9 +1305,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1367,9 +1367,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1430,9 +1430,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1491,9 +1491,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1554,9 +1554,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1616,9 +1616,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1734,9 +1734,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1797,9 +1797,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1858,9 +1858,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1923,9 +1923,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -1984,9 +1984,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2047,9 +2047,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2108,9 +2108,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2264,9 +2264,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2326,9 +2326,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2390,9 +2390,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2451,9 +2451,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2515,9 +2515,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2577,9 +2577,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2640,9 +2640,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2705,9 +2705,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2768,9 +2768,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2831,9 +2831,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2892,9 +2892,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -2949,7 +2949,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2958,7 +2958,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2973,9 +2973,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3034,9 +3034,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3091,7 +3091,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3100,7 +3100,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3115,9 +3115,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3228,9 +3228,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3284,7 +3284,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3293,7 +3293,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3308,9 +3308,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3364,7 +3364,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3373,7 +3373,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3388,9 +3388,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3444,7 +3444,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3453,7 +3453,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3468,9 +3468,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3527,9 +3527,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3586,9 +3586,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3645,9 +3645,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3776,9 +3776,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3835,9 +3835,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3894,9 +3894,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -3953,9 +3953,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4014,9 +4014,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4075,9 +4075,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4193,9 +4193,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4255,9 +4255,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4317,9 +4317,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4379,9 +4379,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4441,9 +4441,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4504,9 +4504,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4565,9 +4565,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4629,9 +4629,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4693,9 +4693,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4800,9 +4800,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4864,9 +4864,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4925,9 +4925,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -4986,9 +4986,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5050,9 +5050,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5178,9 +5178,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5241,9 +5241,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5302,9 +5302,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5366,9 +5366,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5427,9 +5427,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5489,9 +5489,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5551,9 +5551,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5615,9 +5615,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5679,9 +5679,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5741,9 +5741,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5802,9 +5802,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5864,9 +5864,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -5927,9 +5927,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6153,9 +6153,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6216,9 +6216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6335,9 +6335,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6397,9 +6397,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6460,9 +6460,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6521,9 +6521,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6584,9 +6584,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6646,9 +6646,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -6848,7 +6848,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -6870,7 +6870,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6885,9 +6885,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7051,7 +7051,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -7072,7 +7072,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7087,9 +7087,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7259,7 +7259,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -7279,7 +7279,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7294,9 +7294,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7415,9 +7415,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7475,9 +7475,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7606,9 +7606,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7728,9 +7728,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7787,9 +7787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7844,9 +7844,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7896,7 +7896,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -7905,7 +7905,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7920,9 +7920,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -7977,9 +7977,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8111,9 +8111,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8172,9 +8172,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8305,9 +8305,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8366,9 +8366,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8427,9 +8427,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8609,9 +8609,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8670,9 +8670,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8731,9 +8731,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8894,9 +8894,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -8955,9 +8955,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9016,9 +9016,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9077,9 +9077,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9138,9 +9138,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9199,9 +9199,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9260,9 +9260,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9321,9 +9321,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9382,9 +9382,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Deathstalker",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9496,9 +9496,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9639,9 +9639,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9700,9 +9700,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9761,9 +9761,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9822,9 +9822,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9883,9 +9883,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -9944,9 +9944,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10005,9 +10005,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10123,9 +10123,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10184,9 +10184,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10245,9 +10245,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10306,9 +10306,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10367,9 +10367,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10428,9 +10428,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10489,9 +10489,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10550,9 +10550,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10611,9 +10611,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10672,9 +10672,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Trickster",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Rogue",
         "class_id": 4,
         "spec_name": "Subtlety",
@@ -10744,7 +10744,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_backstab",
         "icon_candidates": [
           "ability_backstab"
@@ -10848,7 +10848,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_rogue_kidneyshot",
         "icon_candidates": [
           "ability_rogue_kidneyshot"
@@ -10891,7 +10891,7 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-3",
               "source": "simc_exact_build",
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70529"
             },
             {
               "old": 6.0,
@@ -10899,7 +10899,7 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-2",
               "source": "simc_exact_build",
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70529"
             },
             {
               "old": 7.0,
@@ -10907,7 +10907,7 @@ window.WOW_PVP_DATA = {
               "kind": "duration_seconds",
               "expression": "$s2-1",
               "source": "simc_exact_build",
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70529"
             }
           ],
           "conditional_display_formulas": [],
@@ -10967,7 +10967,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_poisonsting",
         "icon_candidates": [
           "ability_poisonsting"
@@ -11066,7 +11066,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "inv_misc_herb_16",
         "icon_candidates": [
           "inv_misc_herb_16"
@@ -11233,7 +11233,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "inv_throwingknife_07",
         "icon_candidates": [
           "inv_throwingknife_07"
@@ -11335,7 +11335,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_rogue_shadowstrike",
         "icon_candidates": [
           "ability_rogue_shadowstrike"
@@ -11438,7 +11438,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_rogue_eviscerate",
         "icon_candidates": [
           "ability_rogue_eviscerate"
@@ -11655,7 +11655,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_rogue_shurikenstorm",
         "icon_candidates": [
           "ability_rogue_shurikenstorm"
@@ -11758,7 +11758,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_poisons",
         "icon_candidates": [
           "ability_poisons"
@@ -11866,7 +11866,7 @@ window.WOW_PVP_DATA = {
         "class_id": 4,
         "spec_id": 261,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "spell_priest_divinestar_shadow",
         "icon_candidates": [
           "spell_priest_divinestar_shadow"
@@ -14118,8 +14118,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70448",
-    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
+    "build": "12.1.5.70529",
+    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
     "baseline_spell_ids": [
       53,
       408,
@@ -17190,7 +17190,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-10-23T12:16:37.773884+00:00",
+  "generated_at": "2026-10-23T17:40:00.314801+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -17198,8 +17198,8 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
-    "tree_build": "12.1.5.70448",
-    "simc_build": "12.1.5.70448",
+    "tree_build": "12.1.5.70529",
+    "simc_build": "12.1.5.70529",
     "drustvar_builds": [
       "12.1.5.70448"
     ],
@@ -17241,12 +17241,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "bf9cba3d3c0b9efa2a3f627d29fd4705371db38ee8ee1bc6daf8b6cd51a06029",
-    "captured_at": "2026-10-23T12:01:31.442520+00:00",
+    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
+    "captured_at": "2026-10-23T17:24:20.594216+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "e09c27d254b9a2c2a0726059d7a2979b621dbd18db19857b274633c57935b6aa"
+    "evidence_hash": "640c833c2ab58bd3d69ad98cbaa91d2a0be12e97b7f51a5941e528331212173f"
   },
   "coverage": {
     "schema": 1,

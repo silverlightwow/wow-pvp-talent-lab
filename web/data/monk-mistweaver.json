@@ -1,8 +1,8 @@
 {
   "class_name": "Monk",
   "spec_name": "Mistweaver",
-  "tree_build": "12.1.5.70448",
-  "simc_build": "12.1.5.70448",
+  "tree_build": "12.1.5.70529",
+  "simc_build": "12.1.5.70529",
   "drustvar_builds": [
     "12.1.5.70448"
   ],
@@ -17,9 +17,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -142,9 +142,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -202,9 +202,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -285,7 +285,7 @@
           "talent_spell_id": 107428,
           "source_spell_id": 115804,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
+          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -302,11 +302,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -373,9 +374,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -435,9 +436,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -499,9 +500,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -625,9 +626,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -689,9 +690,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -751,9 +752,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -815,9 +816,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -876,9 +877,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -940,9 +941,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1001,9 +1002,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1065,9 +1066,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1128,9 +1129,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1191,9 +1192,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1324,9 +1325,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1388,9 +1389,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1449,9 +1450,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1513,9 +1514,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1574,9 +1575,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1632,7 +1633,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -1641,7 +1642,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1656,9 +1657,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1861,9 +1862,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1926,9 +1927,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -1990,9 +1991,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2054,9 +2055,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2115,9 +2116,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2178,9 +2179,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2241,9 +2242,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2298,7 +2299,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2307,7 +2308,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2322,9 +2323,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2385,9 +2386,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2448,9 +2449,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2572,9 +2573,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2633,9 +2634,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2696,9 +2697,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2760,9 +2761,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2881,9 +2882,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -2942,9 +2943,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3008,7 +3009,7 @@
           "talent_spell_id": 388917,
           "source_spell_id": 115203,
           "effect_index": 2,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": -20.0,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": null,
@@ -3025,8 +3026,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -3047,9 +3049,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3167,9 +3169,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3229,9 +3231,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3291,9 +3293,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3354,9 +3356,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3468,9 +3470,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3582,9 +3584,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3645,9 +3647,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3708,9 +3710,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3767,9 +3769,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3829,9 +3831,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3888,7 +3890,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3897,7 +3899,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3912,9 +3914,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -3974,9 +3976,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4037,9 +4039,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4099,9 +4101,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4157,7 +4159,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -4166,7 +4168,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4181,9 +4183,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4297,9 +4299,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4357,9 +4359,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4418,9 +4420,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4479,9 +4481,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4539,9 +4541,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4598,9 +4600,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -4770,9 +4772,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5023,9 +5025,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5085,9 +5087,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5149,7 +5151,7 @@
           "talent_spell_id": 116849,
           "source_spell_id": 116849,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "effect_text": "Apply Aura (6) | Absorb Damage (69)",
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.975,
           "amount_kind": "absorb",
@@ -5161,9 +5163,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5183,9 +5185,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5287,9 +5289,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5421,9 +5423,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5573,9 +5575,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5659,7 +5661,7 @@
           "talent_spell_id": 115310,
           "source_spell_id": 115310,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 59.8828)",
+          "effect_text": "Direct Heal (10) | Attributes: Area Effects Use Target Radius (17) (SP mod: 59.8828)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5681,10 +5683,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -5701,9 +5704,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5830,9 +5833,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -5953,9 +5956,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6016,9 +6019,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6079,9 +6082,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6140,9 +6143,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6201,9 +6204,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6319,9 +6322,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6378,9 +6381,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6437,9 +6440,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6571,9 +6574,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6634,9 +6637,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6769,9 +6772,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -6883,9 +6886,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7018,9 +7021,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7080,9 +7083,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7138,7 +7141,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -7147,7 +7150,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7162,9 +7165,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7280,9 +7283,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7413,9 +7416,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7549,9 +7552,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7611,9 +7614,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7727,9 +7730,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7790,9 +7793,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -7964,9 +7967,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8027,9 +8030,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8089,9 +8092,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8153,9 +8156,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8216,9 +8219,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8279,9 +8282,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8488,9 +8491,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8551,9 +8554,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8613,9 +8616,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8762,9 +8765,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -8881,9 +8884,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9015,9 +9018,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9073,7 +9076,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -9082,7 +9085,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -9097,9 +9100,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9154,7 +9157,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -9163,7 +9166,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -9178,9 +9181,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9236,7 +9239,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -9245,7 +9248,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -9260,9 +9263,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9323,9 +9326,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9385,9 +9388,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9447,9 +9450,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -9989,9 +9992,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10049,9 +10052,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10166,9 +10169,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10280,9 +10283,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10341,9 +10344,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10400,9 +10403,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10459,9 +10462,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10516,9 +10519,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10568,7 +10571,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -10577,7 +10580,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -10592,9 +10595,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10649,9 +10652,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10861,9 +10864,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10922,9 +10925,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -10983,9 +10986,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11116,9 +11119,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11177,9 +11180,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11238,9 +11241,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11371,9 +11374,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11432,9 +11435,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11555,9 +11558,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11616,9 +11619,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11734,9 +11737,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11795,9 +11798,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11856,9 +11859,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11917,9 +11920,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -11978,9 +11981,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12090,9 +12093,9 @@
       "hero_tree": "Conduit of the Celestials",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12152,9 +12155,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12261,9 +12264,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12379,9 +12382,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12440,9 +12443,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12501,9 +12504,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -12562,9 +12565,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13050,9 +13053,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13111,9 +13114,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13172,9 +13175,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13233,9 +13236,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13345,9 +13348,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13406,9 +13409,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13467,9 +13470,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13528,9 +13531,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13589,9 +13592,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13650,9 +13653,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13711,9 +13714,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13772,9 +13775,9 @@
       "hero_tree": "Master of Harmony",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Monk",
         "class_id": 10,
         "spec_name": "Mistweaver",
@@ -13844,7 +13847,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_tigerpalm",
         "icon_candidates": [
           "ability_monk_tigerpalm"
@@ -13948,7 +13951,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_roundhousekick",
         "icon_candidates": [
           "ability_monk_roundhousekick"
@@ -14071,7 +14074,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_cranekick_new",
         "icon_candidates": [
           "ability_monk_cranekick_new"
@@ -14178,7 +14181,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_renewingmists",
         "icon_candidates": [
           "ability_monk_renewingmists"
@@ -14318,7 +14321,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "passive_monk_teachingsofmonastery",
         "icon_candidates": [
           "passive_monk_teachingsofmonastery"
@@ -14426,7 +14429,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_vivify",
         "icon_candidates": [
           "ability_monk_vivify"
@@ -14496,7 +14499,7 @@
           "talent_spell_id": 116670,
           "source_spell_id": 116670,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 2.58)",
+          "effect_text": "Direct Heal (10) (SP mod: 2.58)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -14518,11 +14521,12 @@
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -14597,7 +14601,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_souldance",
         "icon_candidates": [
           "ability_monk_souldance"
@@ -14705,7 +14709,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_cracklingjadelightning",
         "icon_candidates": [
           "ability_monk_cracklingjadelightning"
@@ -14756,7 +14760,7 @@
           "talent_spell_id": 117952,
           "source_spell_id": 117952,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 1 seconds (AP mod: 0.056)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -14778,12 +14782,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar",
+            "wowhead",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -14808,7 +14811,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_monk_expelharm",
         "icon_candidates": [
           "ability_monk_expelharm"
@@ -14939,7 +14942,7 @@
         "class_id": 10,
         "spec_id": 270,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "inv_misc_book_07",
         "icon_candidates": [
           "inv_misc_book_07"
@@ -14982,7 +14985,7 @@
               "kind": "percent_value",
               "expression": "$s1",
               "source": "simc_exact_build",
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70529"
             }
           ],
           "conditional_display_formulas": [],
@@ -15352,8 +15355,13 @@
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 115313,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115313'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 115310,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115310'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 115869,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115869'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -15362,13 +15370,13 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 116680,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116680'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116841,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 116844,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116844'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116849,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116849'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -16062,33 +16070,23 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 115203,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115203'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116645,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116645'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 115450,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115450'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116670,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116670'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 115546,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115546'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 115804,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 116812,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
       "spell_id": 117907,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117907'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 117952,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117952'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -17332,8 +17330,8 @@
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70448",
-    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
+    "build": "12.1.5.70529",
+    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
     "baseline_spell_ids": [
       8647,
       100780,
@@ -20222,7 +20220,7 @@
     }
   },
   "slug": "monk-mistweaver",
-  "generated_at": "2026-10-23T12:15:10.614117+00:00",
+  "generated_at": "2026-10-23T17:38:27.791274+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -20230,22 +20228,27 @@
     "changed_tooltips": 36,
     "talents_with_pvp_mechanics": 48,
     "unique_nodes": 122,
-    "tree_build": "12.1.5.70448",
-    "simc_build": "12.1.5.70448",
+    "tree_build": "12.1.5.70529",
+    "simc_build": "12.1.5.70529",
     "drustvar_builds": [
       "12.1.5.70448"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 201,
+    "source_warning_count": 200,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 115313,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115313'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 115310,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115310'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 115869,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115869'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -20254,18 +20257,13 @@
       },
       {
         "source": "wowhead",
-        "spell_id": 116680,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116680'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 116841,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116841'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 116844,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116844'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 122280,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 116849,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116849'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -20273,12 +20271,12 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "bf9cba3d3c0b9efa2a3f627d29fd4705371db38ee8ee1bc6daf8b6cd51a06029",
-    "captured_at": "2026-10-23T12:01:31.442520+00:00",
+    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
+    "captured_at": "2026-10-23T17:24:20.594216+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "57248eb0a9ce3099922d5dfb7c1d06f4bca938dc7c04bdec291883e3a5d0ba60"
+    "evidence_hash": "f62686689be1e419c44a6dfda053de134ad04c5ce15442a3809315c9a272573d"
   },
   "coverage": {
     "schema": 1,
@@ -22810,6 +22808,27 @@
       {
         "key": [
           "talents",
+          124919,
+          115310,
+          115310,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.71,
+          "final_pvp_multiplier": 0.71,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 59.8828,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           124920,
           115869,
           115294,
@@ -23648,6 +23667,6 @@
         }
       }
     ],
-    "independent_hash": "68f7de1eeea9a055dc7207ef7b3b6c74b677f0c14521ef35315e418c20c3c38c"
+    "independent_hash": "e5d6a083d1b4898f85f7daff9a2b3b595eab664a3d5c241bb0e4c796acd9dfe4"
   }
 }

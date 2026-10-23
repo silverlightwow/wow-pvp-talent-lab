@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Demon Hunter",
   "spec_name": "Vengeance",
-  "tree_build": "12.1.5.70448",
-  "simc_build": "12.1.5.70448",
+  "tree_build": "12.1.5.70529",
+  "simc_build": "12.1.5.70529",
   "drustvar_builds": [
     "12.1.5.70448"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -139,9 +139,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -240,9 +240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -300,9 +300,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -423,9 +423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -486,9 +486,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -549,9 +549,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -610,9 +610,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -673,9 +673,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -736,9 +736,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -799,9 +799,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -860,9 +860,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -924,9 +924,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -988,9 +988,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1050,9 +1050,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1168,9 +1168,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1292,9 +1292,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1354,9 +1354,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1415,9 +1415,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1479,9 +1479,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1538,9 +1538,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1602,9 +1602,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1663,9 +1663,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1725,9 +1725,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -1922,7 +1922,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -1954,7 +1954,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1969,9 +1969,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2030,9 +2030,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2088,7 +2088,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2097,7 +2097,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2112,9 +2112,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2173,9 +2173,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2234,9 +2234,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2296,9 +2296,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2422,7 +2422,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2442,7 +2442,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2457,9 +2457,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2521,9 +2521,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2648,7 +2648,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2668,7 +2668,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2683,9 +2683,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2744,9 +2744,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2807,9 +2807,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2870,9 +2870,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2931,9 +2931,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -2987,7 +2987,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -2996,7 +2996,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3011,9 +3011,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3070,9 +3070,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3194,9 +3194,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3315,9 +3315,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3371,7 +3371,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -3380,7 +3380,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3395,9 +3395,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3454,9 +3454,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3513,9 +3513,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3572,9 +3572,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3631,9 +3631,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3691,9 +3691,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3753,9 +3753,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3815,9 +3815,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3877,9 +3877,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -3939,9 +3939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4001,9 +4001,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4063,9 +4063,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4124,9 +4124,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4187,9 +4187,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4248,9 +4248,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4310,9 +4310,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4371,9 +4371,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4436,9 +4436,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4499,9 +4499,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4564,9 +4564,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4625,9 +4625,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4688,9 +4688,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4749,9 +4749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4812,9 +4812,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4873,9 +4873,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4936,9 +4936,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -4997,9 +4997,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5058,9 +5058,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5121,9 +5121,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5182,9 +5182,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5242,7 +5242,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -5251,7 +5251,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5266,9 +5266,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5329,9 +5329,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5389,7 +5389,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -5398,7 +5398,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5413,9 +5413,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5531,9 +5531,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5593,9 +5593,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5655,9 +5655,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5718,9 +5718,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5780,9 +5780,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5842,9 +5842,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5900,7 +5900,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -5909,7 +5909,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5924,9 +5924,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -5989,9 +5989,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6047,7 +6047,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -6056,7 +6056,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6071,9 +6071,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6130,9 +6130,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6190,9 +6190,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6249,9 +6249,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6309,9 +6309,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6368,9 +6368,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6426,9 +6426,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6479,7 +6479,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         },
         {
           "rank": 2,
@@ -6488,7 +6488,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70448"
+          "build": "12.1.5.70529"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6503,9 +6503,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6561,9 +6561,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6623,9 +6623,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6684,9 +6684,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6745,9 +6745,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6806,9 +6806,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6867,9 +6867,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6928,9 +6928,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -6989,9 +6989,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7050,9 +7050,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7111,9 +7111,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7172,9 +7172,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7290,9 +7290,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7351,9 +7351,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7412,9 +7412,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7473,9 +7473,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7534,9 +7534,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7595,9 +7595,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Aldrachi Reaver",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7657,9 +7657,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7770,9 +7770,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7831,9 +7831,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7892,9 +7892,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -7953,9 +7953,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8014,9 +8014,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8075,9 +8075,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8136,9 +8136,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8197,9 +8197,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8258,9 +8258,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8319,9 +8319,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8380,9 +8380,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8496,9 +8496,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8557,9 +8557,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8618,9 +8618,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8679,9 +8679,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Annihilator",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70448",
-        "generated_at": "2026-10-21T23:54:58.973Z",
-        "content_hash": "b64687f21bc402b4720cb7c4022dff46",
+        "wow_build": "12.1.5.70529",
+        "generated_at": "2026-10-23T02:33:25.466Z",
+        "content_hash": "c8923d36aeba191c534fb135ee67c604",
         "class_name": "Demon Hunter",
         "class_id": 12,
         "spec_name": "Vengeance",
@@ -8751,7 +8751,7 @@ window.WOW_PVP_DATA = {
         "class_id": 12,
         "spec_id": 581,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70448",
+        "wow_build": "12.1.5.70529",
         "icon": "ability_demonhunter_sigilofchains",
         "icon_candidates": [
           "ability_demonhunter_sigilofchains"
@@ -10958,8 +10958,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70448",
-    "source_ref": "b36fc0a2e299f925bc0f72375eea013d7ff5b1cf",
+    "build": "12.1.5.70529",
+    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
     "baseline_spell_ids": [
       131347,
       183752,
@@ -13615,7 +13615,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-10-23T12:12:27.210219+00:00",
+  "generated_at": "2026-10-23T17:35:21.358747+00:00",
   "validation": {
     "abilities": 1,
     "abilities_with_pvp_mechanics": 1,
@@ -13623,8 +13623,8 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 11,
     "talents_with_pvp_mechanics": 14,
     "unique_nodes": 112,
-    "tree_build": "12.1.5.70448",
-    "simc_build": "12.1.5.70448",
+    "tree_build": "12.1.5.70529",
+    "simc_build": "12.1.5.70529",
     "drustvar_builds": [
       "12.1.5.70448"
     ],
@@ -13666,12 +13666,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "bf9cba3d3c0b9efa2a3f627d29fd4705371db38ee8ee1bc6daf8b6cd51a06029",
-    "captured_at": "2026-10-23T12:01:31.442520+00:00",
+    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
+    "captured_at": "2026-10-23T17:24:20.594216+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "7875f1b9a9bad177bc08c9ae38ba9388f083b27d413c16e461729523c0520f39"
+    "evidence_hash": "dc73b089824442f02e24b72281a5ffdb4cd6f31fa9e456f8297a6c08f4f7a0bd"
   },
   "coverage": {
     "schema": 1,
