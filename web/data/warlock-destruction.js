@@ -3880,7 +3880,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116858,
           "source_spell_id": 116858,
           "effect_index": 1,
-          "effect_text": "School Damage (2): chromatic (SP mod: 4.29049)",
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (SP mod: 4.29049)",
           "base_value": null,
           "spell_pvp_multiplier": 2.28099,
           "amount_kind": "direct",
@@ -3902,9 +3902,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -12211,11 +12211,6 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 116858,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 152108,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=152108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12975,7 +12970,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -13800,7 +13795,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13810,7 +13805,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13949,7 +13944,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70529",
-    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
+    "source_ref": "73a372b76188c703e48729caded3258cdc5b726b",
     "baseline_spell_ids": [
       126,
       348,
@@ -17319,7 +17314,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "warlock-destruction",
-  "generated_at": "2026-10-23T17:41:28.275724+00:00",
+  "generated_at": "2026-10-23T21:55:52.832955+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -17334,16 +17329,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 152,
+    "source_warning_count": 151,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 116858,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=116858'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 152108,
@@ -17363,6 +17353,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 196447,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196447'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 205148,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205148'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17370,12 +17365,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
-    "captured_at": "2026-10-23T17:24:20.594216+00:00",
+    "snapshot_hash": "8c8bd867ed755460d7fa3cef482dd6ca2a3599fe2d9855630e2fcd3254927261",
+    "captured_at": "2026-10-23T21:37:10.557028+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "84aa0a12a3ffae160bfb4a8d6ecd67f3fc92befea25d59fb4bef102aaf5c1fd8"
+    "evidence_hash": "67a66885ed21ca1d9a7b9248944fc0c5be28e2f9b0242ac53c794bf4a3f1e034"
   },
   "coverage": {
     "schema": 1,

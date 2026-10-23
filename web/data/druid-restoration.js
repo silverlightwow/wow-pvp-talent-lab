@@ -14582,7 +14582,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -15410,7 +15410,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -15420,7 +15420,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15559,7 +15559,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70529",
-    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
+    "source_ref": "73a372b76188c703e48729caded3258cdc5b726b",
     "baseline_spell_ids": [
       339,
       768,
@@ -18444,7 +18444,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-10-23T17:36:08.698196+00:00",
+  "generated_at": "2026-10-23T21:49:05.381168+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -18495,12 +18495,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
-    "captured_at": "2026-10-23T17:24:20.594216+00:00",
+    "snapshot_hash": "8c8bd867ed755460d7fa3cef482dd6ca2a3599fe2d9855630e2fcd3254927261",
+    "captured_at": "2026-10-23T21:37:10.557028+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "0dbf1c8e07abbbc1037cba27edb432a75eb5c743a539ca061f90987c62dbd430"
+    "evidence_hash": "175b32d13294686a63291c875d67daf15e2dd09dbedb3bb517f2ae207da475f0"
   },
   "coverage": {
     "schema": 1,

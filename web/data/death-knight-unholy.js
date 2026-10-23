@@ -12835,7 +12835,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [
       {
         "talent_name": "Thrill of Blood",
@@ -13659,7 +13659,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13669,7 +13669,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13808,7 +13808,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70529",
-    "source_ref": "cc01837ffb90ae5641a40f17ca56b78b602befa1",
+    "source_ref": "73a372b76188c703e48729caded3258cdc5b726b",
     "baseline_spell_ids": [
       3714,
       43265,
@@ -16903,7 +16903,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "death-knight-unholy",
-  "generated_at": "2026-10-23T17:34:37.754860+00:00",
+  "generated_at": "2026-10-23T21:47:59.118900+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16954,12 +16954,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "4635261a9a3e83e02a3495e35c82c6dcc7e89a19d5bcaf5e3c74e58324c7ba49",
-    "captured_at": "2026-10-23T17:24:20.594216+00:00",
+    "snapshot_hash": "8c8bd867ed755460d7fa3cef482dd6ca2a3599fe2d9855630e2fcd3254927261",
+    "captured_at": "2026-10-23T21:37:10.557028+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "fa12226b9edc894e817496fc5f29db405d575f67a50eed8b2639cbedc1d93a72"
+    "evidence_hash": "abcf67c727d18a8e5f89b29d0e6dddbe19c8a621a2fdca3062bde3e3f03794bf"
   },
   "coverage": {
     "schema": 1,
