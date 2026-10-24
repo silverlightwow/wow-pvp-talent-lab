@@ -12482,7 +12482,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
     "applied": [],
     "already_current": [
       {
@@ -13339,7 +13339,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13349,7 +13349,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -15890,7 +15890,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "evoker-augmentation",
-  "generated_at": "2026-10-24T05:10:32.090340+00:00",
+  "generated_at": "2026-10-24T11:43:46.645507+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -15941,12 +15941,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "4580e84452271480adabeb88566044901cacf470dade539019a5d20144b5deeb",
-    "captured_at": "2026-10-24T04:58:35.451709+00:00",
+    "snapshot_hash": "12e85a57de74198c60446becd4db7c0b94b9b1dd48ed9ded4afbb3da333674a2",
+    "captured_at": "2026-10-24T11:32:10.902396+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "99c72f3f97f7ecf181414954edaf6a1d00d3d594ca01201683b96372178d1d1f"
+    "evidence_hash": "7d3f7889ab2dff74bc400cfff4fe9cc837b94747ecb77852e5cc5d7f9a740696"
   },
   "coverage": {
     "schema": 1,
