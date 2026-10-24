@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Druid",
   "spec_name": "Guardian",
-  "tree_build": "12.1.5.70529",
-  "simc_build": "12.1.5.70529",
+  "tree_build": "12.1.5.70575",
+  "simc_build": "12.1.5.70575",
   "drustvar_builds": [
     "12.1.5.70448"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -136,9 +136,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -254,9 +254,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -372,9 +372,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -432,9 +432,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -491,9 +491,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -554,9 +554,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -618,9 +618,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -679,9 +679,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -738,9 +738,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -933,9 +933,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -998,9 +998,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1062,9 +1062,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1169,9 +1169,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1229,9 +1229,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1289,7 +1289,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -1298,7 +1298,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1313,9 +1313,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1372,9 +1372,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1437,9 +1437,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1498,9 +1498,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1558,7 +1558,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -1567,7 +1567,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1582,9 +1582,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1745,9 +1745,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1804,9 +1804,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1868,9 +1868,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1927,9 +1927,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -1992,9 +1992,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2053,9 +2053,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2117,9 +2117,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2181,9 +2181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2243,9 +2243,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2305,9 +2305,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2369,9 +2369,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2429,9 +2429,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2490,9 +2490,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2552,9 +2552,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2607,7 +2607,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -2616,7 +2616,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2631,9 +2631,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2694,9 +2694,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2754,9 +2754,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2879,9 +2879,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -2940,9 +2940,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3001,9 +3001,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3065,9 +3065,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3124,9 +3124,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3183,9 +3183,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3241,7 +3241,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -3250,7 +3250,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3265,9 +3265,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3324,9 +3324,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3383,9 +3383,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3442,9 +3442,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3506,9 +3506,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3565,9 +3565,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3624,9 +3624,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3683,9 +3683,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3744,9 +3744,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3805,9 +3805,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3866,9 +3866,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3927,9 +3927,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -3986,9 +3986,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4040,7 +4040,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -4049,7 +4049,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4064,9 +4064,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4123,9 +4123,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4247,9 +4247,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4353,9 +4353,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4413,9 +4413,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4475,9 +4475,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4537,9 +4537,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4598,9 +4598,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4660,9 +4660,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4809,9 +4809,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4871,9 +4871,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -4994,9 +4994,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5057,9 +5057,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5121,9 +5121,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5184,9 +5184,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5241,7 +5241,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -5250,7 +5250,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5265,9 +5265,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5323,7 +5323,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -5332,7 +5332,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5347,9 +5347,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5472,9 +5472,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5530,7 +5530,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -5539,7 +5539,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5554,9 +5554,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5611,7 +5611,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -5620,7 +5620,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5635,9 +5635,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5697,9 +5697,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5821,9 +5821,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5883,9 +5883,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -5946,9 +5946,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6007,9 +6007,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6068,9 +6068,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6131,9 +6131,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6194,9 +6194,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6256,9 +6256,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6318,9 +6318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6380,9 +6380,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6445,9 +6445,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6510,9 +6510,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6575,9 +6575,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6640,9 +6640,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6703,9 +6703,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6759,7 +6759,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -6768,7 +6768,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6783,9 +6783,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6846,9 +6846,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6909,9 +6909,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -6965,7 +6965,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -6974,7 +6974,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6989,9 +6989,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7144,9 +7144,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7207,9 +7207,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7271,9 +7271,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7336,9 +7336,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7401,9 +7401,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7465,9 +7465,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7525,9 +7525,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7585,9 +7585,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7644,9 +7644,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7704,9 +7704,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7764,9 +7764,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7821,9 +7821,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7873,7 +7873,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -7882,7 +7882,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7897,9 +7897,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -7954,9 +7954,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8128,9 +8128,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8189,9 +8189,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8250,9 +8250,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8311,9 +8311,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8372,9 +8372,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8433,9 +8433,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8494,9 +8494,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8636,9 +8636,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8697,9 +8697,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8758,9 +8758,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8866,9 +8866,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8927,9 +8927,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -8988,9 +8988,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9049,9 +9049,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9110,9 +9110,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9171,9 +9171,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9318,9 +9318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9380,9 +9380,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9441,9 +9441,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9583,9 +9583,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9644,9 +9644,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9705,9 +9705,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9766,9 +9766,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9874,9 +9874,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9935,9 +9935,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -9996,9 +9996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10057,9 +10057,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10118,9 +10118,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10179,9 +10179,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10240,9 +10240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10301,9 +10301,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10362,9 +10362,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10423,9 +10423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Druid of the Claw",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Guardian",
@@ -10495,7 +10495,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "ability_druid_catform",
         "icon_candidates": [
           "ability_druid_catform"
@@ -10576,7 +10576,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "ability_racial_bearform",
         "icon_candidates": [
           "ability_racial_bearform"
@@ -10657,7 +10657,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_nature_starfall",
         "icon_candidates": [
           "spell_nature_starfall"
@@ -10795,7 +10795,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_nature_resistnature",
         "icon_candidates": [
           "spell_nature_resistnature"
@@ -10944,7 +10944,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "ability_druid_ferociousbite",
         "icon_candidates": [
           "ability_druid_ferociousbite"
@@ -11366,7 +11366,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 104,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "ability_druid_prowl",
         "icon_candidates": [
           "ability_druid_prowl"
@@ -12495,7 +12495,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -13320,7 +13320,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -13330,7 +13330,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -13468,8 +13468,8 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70529",
-    "source_ref": "73a372b76188c703e48729caded3258cdc5b726b",
+    "build": "12.1.5.70575",
+    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
     "baseline_spell_ids": [
       339,
       768,
@@ -16214,7 +16214,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "druid-guardian",
-  "generated_at": "2026-10-23T21:48:44.948560+00:00",
+  "generated_at": "2026-10-24T05:10:18.063218+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16222,8 +16222,8 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 11,
     "talents_with_pvp_mechanics": 20,
     "unique_nodes": 121,
-    "tree_build": "12.1.5.70529",
-    "simc_build": "12.1.5.70529",
+    "tree_build": "12.1.5.70575",
+    "simc_build": "12.1.5.70575",
     "drustvar_builds": [
       "12.1.5.70448"
     ],
@@ -16265,12 +16265,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "8c8bd867ed755460d7fa3cef482dd6ca2a3599fe2d9855630e2fcd3254927261",
-    "captured_at": "2026-10-23T21:37:10.557028+00:00",
+    "snapshot_hash": "4580e84452271480adabeb88566044901cacf470dade539019a5d20144b5deeb",
+    "captured_at": "2026-10-24T04:58:35.451709+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "175b32d13294686a63291c875d67daf15e2dd09dbedb3bb517f2ae207da475f0"
+    "evidence_hash": "079596109881e1a721c24c8fe1631edb186e22a657a40e961b9909993d9e6844"
   },
   "coverage": {
     "schema": 1,

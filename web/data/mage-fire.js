@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Mage",
   "spec_name": "Fire",
-  "tree_build": "12.1.5.70529",
-  "simc_build": "12.1.5.70529",
+  "tree_build": "12.1.5.70575",
+  "simc_build": "12.1.5.70575",
   "drustvar_builds": [
     "12.1.5.70448"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -238,9 +238,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -300,9 +300,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -362,9 +362,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -423,9 +423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -484,9 +484,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -541,7 +541,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -550,7 +550,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -565,9 +565,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -700,7 +700,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -720,7 +720,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -735,9 +735,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -796,9 +796,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -854,7 +854,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -863,7 +863,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -878,9 +878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -942,9 +942,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1005,9 +1005,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1067,9 +1067,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1131,9 +1131,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1257,9 +1257,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1384,9 +1384,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1448,9 +1448,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1572,7 +1572,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -1592,7 +1592,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1607,9 +1607,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1787,9 +1787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1902,9 +1902,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2023,9 +2023,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2084,9 +2084,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2149,9 +2149,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2210,9 +2210,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2274,9 +2274,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2336,9 +2336,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2398,9 +2398,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2459,9 +2459,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2524,9 +2524,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2585,9 +2585,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2650,9 +2650,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2774,7 +2774,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -2794,7 +2794,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2809,9 +2809,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2870,9 +2870,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2935,9 +2935,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2996,9 +2996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3155,9 +3155,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3216,9 +3216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3281,9 +3281,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3342,9 +3342,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3465,9 +3465,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3592,9 +3592,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3656,9 +3656,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3780,9 +3780,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3841,9 +3841,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3905,9 +3905,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3966,9 +3966,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4084,9 +4084,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4145,9 +4145,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4206,9 +4206,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4267,9 +4267,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4328,9 +4328,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4506,9 +4506,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4635,9 +4635,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4694,9 +4694,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4890,9 +4890,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5087,9 +5087,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5148,9 +5148,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5210,9 +5210,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5271,9 +5271,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5333,9 +5333,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5396,9 +5396,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5599,9 +5599,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5728,9 +5728,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5791,9 +5791,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5852,9 +5852,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5910,7 +5910,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -5919,7 +5919,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5934,9 +5934,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5996,9 +5996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6119,9 +6119,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6183,9 +6183,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6246,9 +6246,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6310,9 +6310,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6371,9 +6371,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6505,9 +6505,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6567,9 +6567,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6625,7 +6625,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -6634,7 +6634,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6649,9 +6649,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6810,9 +6810,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6872,9 +6872,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6930,7 +6930,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -6939,7 +6939,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6954,9 +6954,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7055,7 +7055,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -7064,7 +7064,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7079,9 +7079,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7137,7 +7137,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -7146,7 +7146,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7161,9 +7161,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7222,9 +7222,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7285,9 +7285,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7408,9 +7408,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7471,9 +7471,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7532,9 +7532,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7648,9 +7648,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7707,9 +7707,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7768,9 +7768,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7921,9 +7921,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7999,9 +7999,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8130,9 +8130,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8249,9 +8249,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8301,7 +8301,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         },
         {
           "rank": 2,
@@ -8310,7 +8310,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70529"
+          "build": "12.1.5.70575"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -8325,9 +8325,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8382,9 +8382,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8698,9 +8698,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8853,9 +8853,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8914,9 +8914,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9195,9 +9195,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9256,9 +9256,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9318,9 +9318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9451,9 +9451,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9512,9 +9512,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9573,9 +9573,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9634,9 +9634,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9695,9 +9695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9756,9 +9756,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9817,9 +9817,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9878,9 +9878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9939,9 +9939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10000,9 +10000,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10545,9 +10545,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10688,9 +10688,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10749,9 +10749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10810,9 +10810,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10880,9 +10880,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11015,9 +11015,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11180,9 +11180,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11241,9 +11241,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11302,9 +11302,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11363,9 +11363,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11536,9 +11536,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11597,9 +11597,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11658,9 +11658,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11719,9 +11719,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11780,9 +11780,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11841,9 +11841,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11902,9 +11902,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70529",
-        "generated_at": "2026-10-23T02:33:25.466Z",
-        "content_hash": "c8923d36aeba191c534fb135ee67c604",
+        "wow_build": "12.1.5.70575",
+        "generated_at": "2026-10-23T19:33:18.393Z",
+        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11974,7 +11974,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "ability_mage_invisibility",
         "icon_candidates": [
           "ability_mage_invisibility"
@@ -12062,7 +12062,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_frost_glacier",
         "icon_candidates": [
           "spell_frost_glacier"
@@ -12218,7 +12218,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_frost_frostnova",
         "icon_candidates": [
           "spell_frost_frostnova"
@@ -12320,7 +12320,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_fire_flamebolt",
         "icon_candidates": [
           "spell_fire_flamebolt"
@@ -12424,7 +12424,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_nature_wispsplode",
         "icon_candidates": [
           "spell_nature_wispsplode"
@@ -12526,7 +12526,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_arcane_blink",
         "icon_candidates": [
           "spell_arcane_blink"
@@ -12613,7 +12613,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70529",
+        "wow_build": "12.1.5.70575",
         "icon": "spell_fire_fireball",
         "icon_candidates": [
           "spell_fire_fireball"
@@ -13749,7 +13749,7 @@ window.WOW_PVP_DATA = {
     "source": "Blizzard official hotfixes",
     "source_url": "https://news.blizzard.com/en-us/article/24296142",
     "latest_date": "2026-10-06",
-    "snapshot_hash": "fd5043d6d8516effc51938cc7f6c9a0a63b7dda77bda23198eaf1cd496e8d93d",
+    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
     "applied": [
       {
         "talent_name": "Burden of Power",
@@ -14569,7 +14569,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Vengeance"
+          "Havoc"
         ]
       },
       {
@@ -14579,7 +14579,7 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Demon Hunter",
-          "Havoc"
+          "Vengeance"
         ]
       },
       {
@@ -14738,8 +14738,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70529",
-    "source_ref": "73a372b76188c703e48729caded3258cdc5b726b",
+    "build": "12.1.5.70575",
+    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
     "baseline_spell_ids": [
       66,
       120,
@@ -17365,7 +17365,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "mage-fire",
-  "generated_at": "2026-10-23T21:50:33.948891+00:00",
+  "generated_at": "2026-10-24T05:11:51.320414+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -17373,8 +17373,8 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 34,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 110,
-    "tree_build": "12.1.5.70529",
-    "simc_build": "12.1.5.70529",
+    "tree_build": "12.1.5.70575",
+    "simc_build": "12.1.5.70575",
     "drustvar_builds": [
       "12.1.5.70448"
     ],
@@ -17416,12 +17416,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "8c8bd867ed755460d7fa3cef482dd6ca2a3599fe2d9855630e2fcd3254927261",
-    "captured_at": "2026-10-23T21:37:10.557028+00:00",
+    "snapshot_hash": "4580e84452271480adabeb88566044901cacf470dade539019a5d20144b5deeb",
+    "captured_at": "2026-10-24T04:58:35.451709+00:00",
     "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
     "archival_replay": false,
-    "evidence_hash": "71b239131d4b836785ef708e4b9e68d87388c51162640a95c09a9126ed7701b3"
+    "evidence_hash": "4736ab23031956bb4c39b85c99c29aca6db86c9d8cf3a0c04dfe123f89cd4b5a"
   },
   "coverage": {
     "schema": 1,
