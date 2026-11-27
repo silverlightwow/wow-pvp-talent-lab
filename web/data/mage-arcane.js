@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Mage",
   "spec_name": "Arcane",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -277,9 +277,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -339,9 +339,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -401,9 +401,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -462,9 +462,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -523,9 +523,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -580,7 +580,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -589,7 +589,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -604,9 +604,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -707,7 +707,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -50.0,
               "factor": 0.5,
               "label_id": 7158,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -739,7 +740,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -759,7 +760,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -774,9 +775,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -835,9 +836,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -893,7 +894,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -902,7 +903,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -917,9 +918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -981,9 +982,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1044,9 +1045,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1106,9 +1107,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1170,9 +1171,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1272,7 +1273,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1296,9 +1298,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1398,7 +1400,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1423,9 +1426,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1487,9 +1490,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1611,7 +1614,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1631,7 +1634,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1646,9 +1649,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1747,7 +1750,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1800,7 +1804,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1826,9 +1831,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -1941,9 +1946,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2062,9 +2067,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2123,9 +2128,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2188,9 +2193,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2249,9 +2254,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2313,9 +2318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2375,9 +2380,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2437,9 +2442,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2498,9 +2503,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2563,9 +2568,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2624,9 +2629,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2689,9 +2694,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2813,7 +2818,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2833,7 +2838,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2848,9 +2853,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2909,9 +2914,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -2974,9 +2979,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3035,9 +3040,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3194,9 +3199,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3255,9 +3260,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3320,9 +3325,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3381,9 +3386,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3504,9 +3509,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3606,7 +3611,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -3631,9 +3637,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3695,9 +3701,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3819,9 +3825,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3880,9 +3886,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -3944,9 +3950,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4005,9 +4011,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4123,9 +4129,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4184,9 +4190,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4245,9 +4251,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4306,9 +4312,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4367,9 +4373,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4473,7 +4479,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4523,7 +4530,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4549,9 +4557,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4611,9 +4619,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4700,7 +4708,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4727,9 +4736,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4788,9 +4797,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4850,9 +4859,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -4911,9 +4920,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5014,7 +5023,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5039,9 +5049,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5162,7 +5172,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5268,9 +5279,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5376,7 +5387,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5402,9 +5414,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5463,9 +5475,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5527,9 +5539,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5591,9 +5603,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5650,9 +5662,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5714,9 +5726,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5775,9 +5787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5839,9 +5851,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5898,9 +5910,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -5962,9 +5974,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6023,9 +6035,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6086,9 +6098,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6147,9 +6159,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6208,9 +6220,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6266,7 +6278,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6275,7 +6287,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6290,9 +6302,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6352,9 +6364,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6479,7 +6491,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6505,9 +6518,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6569,9 +6582,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6630,9 +6643,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6693,9 +6706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6756,9 +6769,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6819,9 +6832,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6882,9 +6895,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -6944,9 +6957,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7002,7 +7015,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7011,7 +7024,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7026,9 +7039,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7088,9 +7101,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7234,7 +7247,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7267,7 +7281,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7287,7 +7301,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7302,9 +7316,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7361,9 +7375,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7420,9 +7434,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7479,9 +7493,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7600,9 +7614,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7659,9 +7673,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7718,9 +7732,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7840,7 +7854,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7892,7 +7907,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7918,9 +7934,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -7970,7 +7986,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7979,7 +7995,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7994,9 +8010,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8051,9 +8067,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8169,7 +8185,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8219,7 +8236,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8245,9 +8263,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8306,9 +8324,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8367,9 +8385,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8428,9 +8446,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8490,9 +8508,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8551,9 +8569,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8669,9 +8687,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8730,9 +8748,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8817,7 +8835,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8844,9 +8863,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -8962,9 +8981,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9023,9 +9042,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9084,9 +9103,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9145,9 +9164,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9206,9 +9225,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9267,9 +9286,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9328,9 +9347,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9390,9 +9409,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9533,9 +9552,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9594,9 +9613,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9655,9 +9674,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9716,9 +9735,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -9825,7 +9844,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9851,9 +9871,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10033,9 +10053,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10094,9 +10114,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10155,9 +10175,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10216,9 +10236,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10323,7 +10343,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10389,9 +10410,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10450,9 +10471,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10511,9 +10532,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10572,9 +10593,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10633,9 +10654,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10694,9 +10715,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10755,9 +10776,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Arcane",
@@ -10827,7 +10848,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_mage_invisibility",
         "icon_candidates": [
           "ability_mage_invisibility"
@@ -10915,7 +10936,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_frost_glacier",
         "icon_candidates": [
           "spell_frost_glacier"
@@ -10994,7 +11015,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11071,7 +11093,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_frost_frostnova",
         "icon_candidates": [
           "spell_frost_frostnova"
@@ -11140,7 +11162,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11173,7 +11196,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_nature_wispsplode",
         "icon_candidates": [
           "spell_nature_wispsplode"
@@ -11242,7 +11265,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11275,7 +11299,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_arcane_blink",
         "icon_candidates": [
           "spell_arcane_blink"
@@ -11362,7 +11386,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_arcane_blast",
         "icon_candidates": [
           "spell_arcane_blast"
@@ -11431,7 +11455,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11466,7 +11491,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 62,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_mage_arcanebarrage",
         "icon_candidates": [
           "ability_mage_arcanebarrage"
@@ -11535,7 +11560,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -5.0,
               "factor": 0.95,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12570,9 +12596,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -12715,6 +12745,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -12791,7 +12832,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Halo",
+        "talent_name": "Halo damage and",
         "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
@@ -12941,16 +12982,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -13044,15 +13075,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "absolute",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-09-24"
-      },
-      {
         "talent_name": "Consecrated Ground",
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24",
@@ -13106,16 +13128,6 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
-        ]
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -13221,16 +13233,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -13351,6 +13353,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -13416,6 +13429,17 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
         ]
       },
       {
@@ -13534,30 +13558,303 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Divine Favor",
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Reverberations",
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
-    "external_non_tree": [
-      {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
-      }
-    ]
+    "external_non_tree": []
   },
   "non_tree_hotfix_resolution": {
     "resolved": [],
     "unresolved": [],
-    "external": [
-      {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "reason": "NOT_IN_EXACT_BUILD_CLASS_SPEC_DUMP"
-      }
-    ]
+    "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       66,
       120,
@@ -13877,6 +14174,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 116,
           "name": "Arcane Blast",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -13937,6 +14235,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 319836,
           "name": "Arcane Barrage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -13967,6 +14266,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Clearcasting",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -14027,6 +14327,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Arcane Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -14039,6 +14340,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stat Negation Aura - Intellect DPS",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "NOT_IN_CLASS_DUMP",
           "effects": [],
           "drustvar_candidate": false,
@@ -14063,6 +14365,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Arcane Charge",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -14075,6 +14378,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Savant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -14123,6 +14427,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Arcane Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -14135,6 +14440,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -14159,6 +14465,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -14171,6 +14478,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Arcane Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -16194,7 +16502,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "mage-arcane",
-  "generated_at": "2026-10-24T16:27:04.422154+00:00",
+  "generated_at": "2026-11-27T12:30:19.102348+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -16202,10 +16510,10 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 25,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
@@ -16245,12 +16553,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "4736ab23031956bb4c39b85c99c29aca6db86c9d8cf3a0c04dfe123f89cd4b5a"
+    "evidence_hash": "db03fa00e3169faf211fad23336d6b0b1e05376b54262b3777f54de4aeda0a94"
   },
   "coverage": {
     "schema": 1,

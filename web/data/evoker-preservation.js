@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Evoker",
   "spec_name": "Preservation",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -76,9 +76,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -135,9 +135,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -194,9 +194,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -257,9 +257,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -320,9 +320,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -445,9 +445,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -504,9 +504,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -563,7 +563,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -572,7 +572,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -587,9 +587,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -646,9 +646,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -705,7 +705,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -714,7 +714,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -729,9 +729,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -788,9 +788,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -851,9 +851,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -912,9 +912,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -972,9 +972,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1033,9 +1033,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1096,9 +1096,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1155,9 +1155,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1211,7 +1211,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1220,7 +1220,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1235,9 +1235,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1296,9 +1296,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1352,7 +1352,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1361,7 +1361,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1376,9 +1376,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1435,9 +1435,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1497,9 +1497,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1555,7 +1555,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1564,7 +1564,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1579,9 +1579,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1640,9 +1640,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1698,7 +1698,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1707,7 +1707,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1722,9 +1722,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1783,9 +1783,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1842,9 +1842,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1906,9 +1906,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1967,9 +1967,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2030,9 +2030,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2091,9 +2091,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2155,9 +2155,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2217,9 +2217,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2340,9 +2340,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3047,9 +3047,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3108,9 +3108,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3172,9 +3172,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3228,7 +3228,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -3237,7 +3237,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3252,9 +3252,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3313,9 +3313,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3374,9 +3374,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3437,9 +3437,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3496,9 +3496,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3559,9 +3559,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3620,9 +3620,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3681,9 +3681,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3741,9 +3741,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3800,9 +3800,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3859,9 +3859,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3920,9 +3920,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3980,9 +3980,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4199,9 +4199,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4261,9 +4261,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4322,9 +4322,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4384,9 +4384,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4445,9 +4445,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4507,9 +4507,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4570,9 +4570,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4633,9 +4633,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4695,9 +4695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4753,7 +4753,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -4762,7 +4762,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4777,9 +4777,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4838,9 +4838,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4901,9 +4901,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4960,9 +4960,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5019,9 +5019,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5081,9 +5081,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5142,9 +5142,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5203,9 +5203,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5258,7 +5258,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -5267,7 +5267,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5282,9 +5282,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5344,9 +5344,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5405,9 +5405,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5462,7 +5462,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -5471,7 +5471,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5486,9 +5486,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5541,7 +5541,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -5550,7 +5550,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5565,9 +5565,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5626,9 +5626,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5687,9 +5687,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5751,9 +5751,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5816,9 +5816,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5881,9 +5881,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5945,9 +5945,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6006,9 +6006,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6067,9 +6067,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6130,9 +6130,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6191,9 +6191,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6254,9 +6254,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6315,9 +6315,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6438,9 +6438,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6497,7 +6497,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6506,7 +6506,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6521,9 +6521,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6579,7 +6579,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6588,7 +6588,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6603,9 +6603,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6662,7 +6662,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6671,7 +6671,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6686,9 +6686,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6745,9 +6745,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6804,9 +6804,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6863,9 +6863,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7005,9 +7005,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7064,9 +7064,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7123,9 +7123,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7242,9 +7242,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7294,7 +7294,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7303,7 +7303,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7318,9 +7318,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7375,9 +7375,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7437,9 +7437,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7498,9 +7498,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7559,9 +7559,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7620,9 +7620,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7681,9 +7681,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7742,9 +7742,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7803,9 +7803,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7864,9 +7864,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7925,9 +7925,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7986,9 +7986,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8047,9 +8047,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8108,9 +8108,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8169,9 +8169,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8230,9 +8230,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8291,9 +8291,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8352,9 +8352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8550,9 +8550,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8612,9 +8612,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8673,9 +8673,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9347,9 +9347,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9408,9 +9408,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9448,14 +9448,79 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Verdant Embrace heals for an additional 40% over 8 sec.",
-      "pvp_tooltip": "Verdant Embrace heals for an additional 40% over 8 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Verdant Embrace heals for an additional 80% over 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 42,
+          "old_token": "40",
+          "new_token": "80",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "40",
+          "new": "80"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+          "reason": "ALREADY_CURRENT"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 431615,
+          "source_spell_id": 431615,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 80.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9469,9 +9534,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9530,9 +9595,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9591,9 +9656,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9652,9 +9717,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9692,14 +9757,89 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
-      "pvp_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 80% increased damage or healing when it is a non-instant cast.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 61,
+          "end": 63,
+          "old_token": "50",
+          "new_token": "80",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "80"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+          "reason": "ALREADY_CURRENT"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1291522,
+          "source_spell_id": 1291522,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.6,
+          "final_pvp_multiplier": 1.6,
+          "final_pvp_value": 80.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256944,
+              "game_effect_id": 1367980,
+              "amount_kind": "effect:2",
+              "value_pct": 60.0,
+              "factor": 1.6,
+              "label_id": 7444,
+              "build": "12.1.5.70783",
+              "source": "drustvar"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9713,9 +9853,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9774,9 +9914,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9835,9 +9975,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9896,9 +10036,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9957,9 +10097,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -10018,9 +10158,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -10079,9 +10219,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -10151,7 +10291,7 @@ window.WOW_PVP_DATA = {
         "class_id": 13,
         "spec_id": 1468,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_evoker_disintegrate",
         "icon_candidates": [
           "ability_evoker_disintegrate"
@@ -10249,7 +10389,7 @@ window.WOW_PVP_DATA = {
         "class_id": 13,
         "spec_id": 1468,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_evoker_firebreath",
         "icon_candidates": [
           "ability_evoker_firebreath"
@@ -10326,7 +10466,7 @@ window.WOW_PVP_DATA = {
         "class_id": 13,
         "spec_id": 1468,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_evoker_livingflame",
         "icon_candidates": [
           "ability_evoker_livingflame"
@@ -10419,7 +10559,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10493,7 +10634,7 @@ window.WOW_PVP_DATA = {
         "class_id": 13,
         "spec_id": 1468,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_evoker_azurestrike",
         "icon_candidates": [
           "ability_evoker_azurestrike"
@@ -10586,7 +10727,7 @@ window.WOW_PVP_DATA = {
         "class_id": 13,
         "spec_id": 1468,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_frost_coldhearted",
         "icon_candidates": [
           "spell_frost_coldhearted"
@@ -11765,9 +11906,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [],
     "already_current": [
       {
@@ -11782,6 +11927,18 @@ window.WOW_PVP_DATA = {
           "effect_index": 6,
           "source_spell_id": 444088
         }
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "spell_id": 1291522,
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27"
+      },
+      {
+        "talent_name": "Reverberations",
+        "spell_id": 431615,
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27"
       }
     ],
     "unresolved": [],
@@ -11913,6 +12070,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -11989,7 +12157,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Halo",
+        "talent_name": "Halo damage and",
         "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
@@ -12139,16 +12307,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -12242,16 +12400,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "date": "2026-09-24",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Arcane"
-        ]
-      },
-      {
         "talent_name": "Consecrated Ground",
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24",
@@ -12305,16 +12453,6 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
-        ]
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -12420,16 +12558,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -12550,6 +12678,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -12615,6 +12754,17 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
         ]
       },
       {
@@ -12733,6 +12883,269 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Divine Favor",
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
     "external_non_tree": []
@@ -12743,8 +13156,8 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       355913,
       356995,
@@ -12820,6 +13233,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Preservation Evoker",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -12926,6 +13340,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 365585,
           "name": "Naturalize",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -12950,6 +13365,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mass Return",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13049,6 +13465,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Life-Binder",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13073,6 +13490,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Improved Emerald Blossom",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13174,6 +13592,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Evoker",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13186,6 +13605,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Preservation Evoker",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -13210,6 +13630,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13222,6 +13643,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Preservation Evoker",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -15086,18 +15508,18 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "evoker-preservation",
-  "generated_at": "2026-10-24T16:26:08.411146+00:00",
+  "generated_at": "2026-11-27T12:29:28.007784+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
     "talents": 130,
-    "changed_tooltips": 7,
-    "talents_with_pvp_mechanics": 9,
+    "changed_tooltips": 9,
+    "talents_with_pvp_mechanics": 11,
     "unique_nodes": 117,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
@@ -15137,16 +15559,16 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "99c72f3f97f7ecf181414954edaf6a1d00d3d594ca01201683b96372178d1d1f"
+    "evidence_hash": "31dc28ba3be885a581807fd0147f21c5e2ec8d5d5016841ef3ab352610361733"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 47,
+    "effect_count": 49,
     "effects": [
       {
         "key": [
@@ -15760,6 +16182,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          117522,
+          431615,
+          431615,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 80.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           117552,
           431695,
           431698,
@@ -16117,6 +16560,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          135742,
+          1291522,
+          1291522,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.6,
+          "final_pvp_multiplier": 1.6,
+          "final_pvp_value": 80.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           137007,
           1256577,
           1256581,
@@ -16136,7 +16600,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "0babd399b956d9710cf5bcc775c2810ab2ad825011d8f7cc6101a7562d29aa1e",
+    "semantic_hash": "cee5c4a8567de297b4958611aed973f0518e32e37bd643438d1ee956044a40c2",
     "independent_effects": [
       {
         "key": [
@@ -16750,6 +17214,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          117522,
+          431615,
+          431615,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 80.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           117552,
           431695,
           431698,
@@ -17107,6 +17592,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          135742,
+          1291522,
+          1291522,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.6,
+          "final_pvp_multiplier": 1.6,
+          "final_pvp_value": 80.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           137007,
           1256577,
           1256581,
@@ -17126,6 +17632,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "0babd399b956d9710cf5bcc775c2810ab2ad825011d8f7cc6101a7562d29aa1e"
+    "independent_hash": "cee5c4a8567de297b4958611aed973f0518e32e37bd643438d1ee956044a40c2"
   }
 };

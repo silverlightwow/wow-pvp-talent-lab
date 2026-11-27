@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Paladin",
   "spec_name": "Holy",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -220,9 +220,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -442,9 +442,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -549,7 +549,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 30.0,
               "factor": 1.3,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 428076,
@@ -558,7 +559,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -584,9 +586,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -646,9 +648,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -769,9 +771,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -833,9 +835,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -897,9 +899,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -958,9 +960,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -998,7 +1000,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (1080% of Spell Power).",
-      "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (177.0014% of Spell Power).",
+      "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (186.0015% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1006,7 +1008,7 @@ window.WOW_PVP_DATA = {
           "start": 80,
           "end": 84,
           "old_token": "1080",
-          "new_token": "177.0014",
+          "new_token": "186.0015",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -1021,7 +1023,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "1080",
-          "new": "177.0014"
+          "new": "186.0015"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1046,8 +1048,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.27778,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.16389020000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.1722236,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -1062,10 +1064,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1082,14 +1085,14 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (540% of Spell Power).",
-          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (88.5007% of Spell Power).",
+          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (93.0007% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 80,
               "end": 83,
               "old_token": "540",
-              "new_token": "88.5007",
+              "new_token": "93.0007",
               "kind": "spell_power_coefficient",
               "effect_indexes": [
                 1
@@ -1097,19 +1100,19 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
           "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (1080% of Spell Power).",
-          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (177.0014% of Spell Power).",
+          "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for (186.0015% of Spell Power).",
           "tooltip_changed": true,
           "changes": [
             {
               "start": 80,
               "end": 84,
               "old_token": "1080",
-              "new_token": "177.0014",
+              "new_token": "186.0015",
               "kind": "spell_power_coefficient",
               "effect_indexes": [
                 1
@@ -1117,7 +1120,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1132,9 +1135,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1195,9 +1198,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1254,9 +1257,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1319,9 +1322,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1378,9 +1381,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1498,9 +1501,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1559,9 +1562,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1620,9 +1623,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1683,9 +1686,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1746,9 +1749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1805,9 +1808,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1868,9 +1871,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1931,9 +1934,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -1993,9 +1996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2052,7 +2055,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2061,7 +2064,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2076,9 +2079,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2140,9 +2143,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2204,9 +2207,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2265,9 +2268,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2326,9 +2329,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2470,7 +2473,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 67.0,
               "factor": 1.67,
               "label_id": 2602,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -2514,7 +2518,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 67.0,
               "factor": 1.67,
               "label_id": 2602,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -2558,7 +2563,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 67.0,
               "factor": 1.67,
               "label_id": 2602,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -2609,7 +2615,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2649,7 +2655,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2664,9 +2670,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2727,9 +2733,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2788,9 +2794,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2853,9 +2859,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2912,9 +2918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -2971,9 +2977,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3036,9 +3042,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3289,9 +3295,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3416,9 +3422,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3480,9 +3486,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3543,9 +3549,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3606,9 +3612,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3669,9 +3675,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3794,9 +3800,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3856,9 +3862,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3920,9 +3926,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -3961,7 +3967,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
-      "pvp_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (73.75% of Attack Power).",
+      "pvp_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (77.5% of Attack Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3969,7 +3975,7 @@ window.WOW_PVP_DATA = {
           "start": 78,
           "end": 81,
           "old_token": "125",
-          "new_token": "73.75",
+          "new_token": "77.5",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3984,7 +3990,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "125",
-          "new": "73.75"
+          "new": "77.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4009,8 +4015,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4025,10 +4031,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4054,9 +4061,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4118,9 +4125,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4179,9 +4186,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4240,9 +4247,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4282,7 +4289,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Allies are healed for (2000% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
-      "pvp_tooltip": "Allies are healed for (1180% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
+      "pvp_tooltip": "Allies are healed for (1240% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4290,7 +4297,7 @@ window.WOW_PVP_DATA = {
           "start": 23,
           "end": 27,
           "old_token": "2000",
-          "new_token": "1180",
+          "new_token": "1240",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4305,7 +4312,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "2000",
-          "new": "1180"
+          "new": "1240"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4330,8 +4337,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4346,10 +4353,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4375,9 +4383,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4437,9 +4445,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4501,9 +4509,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4563,9 +4571,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4625,9 +4633,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4743,9 +4751,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4802,7 +4810,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -4811,7 +4819,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4826,9 +4834,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -4953,7 +4961,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -4973,7 +4981,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4988,9 +4996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5111,9 +5119,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5152,7 +5160,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Consecration heals you and 5 allies within it for (6.25% of Attack Power) every 1 sec.",
-      "pvp_tooltip": "Consecration heals you and 5 allies within it for (3.6875% of Attack Power) every 1 sec.",
+      "pvp_tooltip": "Consecration heals you and 5 allies within it for (3.875% of Attack Power) every 1 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5160,7 +5168,7 @@ window.WOW_PVP_DATA = {
           "start": 51,
           "end": 55,
           "old_token": "6.25",
-          "new_token": "3.6875",
+          "new_token": "3.875",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5185,7 +5193,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "6.25",
-          "new": "3.6875"
+          "new": "3.875"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5210,8 +5218,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5226,10 +5234,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5298,9 +5307,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5360,9 +5369,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5421,9 +5430,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5481,9 +5490,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5542,9 +5551,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5581,7 +5590,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nTriggers a burst of Light on the target, dealing (216% of Spell Power) Holy damage to an enemy, or (1117% of Spell Power) healing to an ally. [Holy Shock: Has an additional 10% critical strike chance]\nGenerates 1 Holy Power.",
-      "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nTriggers a burst of Light on the target, dealing (216% of Spell Power) Holy damage to an enemy, or (599.0583% of Spell Power) healing to an ally. [Holy Shock: Has an additional 10% critical strike chance]\nGenerates 1 Holy Power.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nTriggers a burst of Light on the target, dealing (216% of Spell Power) Holy damage to an enemy, or (629.5189% of Spell Power) healing to an ally. [Holy Shock: Has an additional 10% critical strike chance]\nGenerates 1 Holy Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5589,7 +5598,7 @@ window.WOW_PVP_DATA = {
           "start": 160,
           "end": 164,
           "old_token": "1117",
-          "new_token": "599.0583",
+          "new_token": "629.5189",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5604,7 +5613,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "1117",
-          "new": "599.0583"
+          "new": "629.5189"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5629,8 +5638,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.909,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5363100000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.56358,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5645,10 +5654,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5675,9 +5685,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5737,9 +5747,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5778,7 +5788,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (506.736% of Spell Power).",
-      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (249.1352% of Spell Power).",
+      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (261.8031% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5786,7 +5796,7 @@ window.WOW_PVP_DATA = {
           "start": 133,
           "end": 140,
           "old_token": "506.736",
-          "new_token": "249.1352",
+          "new_token": "261.8031",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5801,7 +5811,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "506.736",
-          "new": "249.1352"
+          "new": "261.8031"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5826,8 +5836,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.8333,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4916470000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.516646,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -5837,10 +5847,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5866,9 +5877,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -5928,9 +5939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6039,9 +6050,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6101,9 +6112,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6163,9 +6174,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6225,9 +6236,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6286,9 +6297,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6348,9 +6359,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6467,9 +6478,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6529,9 +6540,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6572,7 +6583,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "The mana cost of Holy Light is reduced by 10% and its cast time is reduced by 15%.",
-      "pvp_tooltip": "The mana cost of Holy Light is reduced by 30% and its cast time is reduced by 15%.",
+      "pvp_tooltip": "The mana cost of Holy Light is reduced by 50% and its cast time is reduced by 15%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6580,7 +6591,7 @@ window.WOW_PVP_DATA = {
           "start": 42,
           "end": 44,
           "old_token": "10",
-          "new_token": "30",
+          "new_token": "50",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -6595,7 +6606,15 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "10",
-          "new": "30"
+          "new": "50"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+          "reason": "ALREADY_CURRENT"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6618,11 +6637,11 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost 1 (14)",
           "base_value": -10.0,
-          "spell_pvp_multiplier": 3.0,
+          "spell_pvp_multiplier": 5.0,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 3.0,
-          "final_pvp_value": -30.0,
+          "final_pvp_multiplier": 5.0,
+          "final_pvp_value": -50.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6650,9 +6669,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6712,9 +6731,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6774,9 +6793,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6838,9 +6857,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6899,9 +6918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -6964,9 +6983,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7081,9 +7100,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7145,9 +7164,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7206,9 +7225,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7268,9 +7287,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7330,9 +7349,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7392,9 +7411,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7453,9 +7472,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7518,9 +7537,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7585,8 +7604,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7601,10 +7620,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7629,9 +7649,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7687,7 +7707,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7696,7 +7716,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7711,9 +7731,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7772,9 +7792,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7836,9 +7856,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7898,9 +7918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -7954,7 +7974,7 @@ window.WOW_PVP_DATA = {
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
           "old": 33.0,
-          "new": 19.470000000000002,
+          "new": 20.46,
           "full_tooltip_match_count": 0
         }
       ],
@@ -7980,8 +8000,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -7991,10 +8011,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8024,8 +8045,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8042,10 +8063,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8070,9 +8092,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8141,8 +8163,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8159,10 +8181,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8187,9 +8210,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8248,9 +8271,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8311,9 +8334,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8476,9 +8499,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8629,7 +8652,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 30.0,
               "factor": 1.3,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8654,9 +8678,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8717,9 +8741,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8755,7 +8779,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Beacon of Faith:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
-      "pvp_tooltip": "Beacon of Faith:\nAllies with Beacon of Light or Beacon of Faith are healed for (19.47% of Spell Power) every 3 sec.\nBeacon of Virtue:\nBeacon of Virtue instantly heals allies for (345.74% of Spell Power).",
+      "pvp_tooltip": "Beacon of Faith:\nAllies with Beacon of Light or Beacon of Faith are healed for (20.46% of Spell Power) every 3 sec.\nBeacon of Virtue:\nBeacon of Virtue instantly heals allies for (363.32% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8763,7 +8787,7 @@ window.WOW_PVP_DATA = {
           "start": 80,
           "end": 82,
           "old_token": "33",
-          "new_token": "19.47",
+          "new_token": "20.46",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             5
@@ -8773,7 +8797,7 @@ window.WOW_PVP_DATA = {
           "start": 176,
           "end": 179,
           "old_token": "586",
-          "new_token": "345.74",
+          "new_token": "363.32",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8788,7 +8812,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "33",
-          "new": "19.47"
+          "new": "20.46"
         },
         {
           "effect_indexes": [
@@ -8797,7 +8821,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "586",
-          "new": "345.74"
+          "new": "363.32"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8822,8 +8846,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8838,10 +8862,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8871,8 +8896,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8887,10 +8912,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8916,9 +8942,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -8979,9 +9005,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9138,9 +9164,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9201,9 +9227,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9258,7 +9284,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -9267,7 +9293,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -9282,9 +9308,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9322,7 +9348,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Judgment heals you for (312% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
-      "pvp_tooltip": "Judgment heals you for (184.08% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
+      "pvp_tooltip": "Judgment heals you for (193.44% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9330,7 +9356,7 @@ window.WOW_PVP_DATA = {
           "start": 24,
           "end": 27,
           "old_token": "312",
-          "new_token": "184.08",
+          "new_token": "193.44",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -9345,7 +9371,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "312",
-          "new": "184.08"
+          "new": "193.44"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9370,8 +9396,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9386,10 +9412,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9415,9 +9442,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9477,9 +9504,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9536,9 +9563,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9596,9 +9623,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9655,9 +9682,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9716,9 +9743,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9777,9 +9804,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9838,9 +9865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9895,9 +9922,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -9947,7 +9974,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -9956,7 +9983,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -9971,9 +9998,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10028,9 +10055,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10131,9 +10158,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10192,9 +10219,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10254,9 +10281,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10294,7 +10321,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (378% of Spell Power) and an additional (109.44% of Spell Power) over 16 sec.\nHealing increased by 25% when cast on self.",
-      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (267.624% of Spell Power) and an additional (77.4835% of Spell Power) over 16 sec.\nHealing increased by 15% when cast on self.",
+      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (281.232% of Spell Power) and an additional (81.4234% of Spell Power) over 16 sec.\nHealing increased by 15% when cast on self.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10312,7 +10339,7 @@ window.WOW_PVP_DATA = {
           "start": 112,
           "end": 118,
           "old_token": "109.44",
-          "new_token": "77.4835",
+          "new_token": "81.4234",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10322,7 +10349,7 @@ window.WOW_PVP_DATA = {
           "start": 72,
           "end": 75,
           "old_token": "378",
-          "new_token": "267.624",
+          "new_token": "281.232",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -10347,7 +10374,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "378",
-          "new": "267.624"
+          "new": "281.232"
         },
         {
           "effect_indexes": [
@@ -10356,7 +10383,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "109.44",
-          "new": "77.4835"
+          "new": "81.4234"
         },
         {
           "effect_indexes": [
@@ -10460,8 +10487,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10471,10 +10498,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 428076,
@@ -10483,7 +10511,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10514,8 +10543,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -10525,10 +10554,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 428076,
@@ -10537,7 +10567,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 20.0,
               "factor": 1.2,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10563,9 +10594,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10624,9 +10655,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10685,9 +10716,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10813,8 +10844,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10829,10 +10860,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10858,9 +10890,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10919,9 +10951,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -10980,9 +11012,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11041,9 +11073,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11108,8 +11140,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11124,10 +11156,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11197,9 +11230,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11258,9 +11291,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11319,9 +11352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11380,9 +11413,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11441,9 +11474,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11502,9 +11535,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Herald of the Sun",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11543,7 +11576,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
-      "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (21.9834% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
+      "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (23.1012% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11551,7 +11584,7 @@ window.WOW_PVP_DATA = {
           "start": 104,
           "end": 109,
           "old_token": "37.26",
-          "new_token": "21.9834",
+          "new_token": "23.1012",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -11566,7 +11599,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "37.26",
-          "new": "21.9834"
+          "new": "23.1012"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11591,8 +11624,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11607,10 +11640,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11636,9 +11670,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11783,9 +11817,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11844,9 +11878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11905,9 +11939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -11966,9 +12000,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12067,9 +12101,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12128,9 +12162,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12189,9 +12223,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12250,9 +12284,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12311,9 +12345,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12372,9 +12406,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12433,9 +12467,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12494,9 +12528,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12534,7 +12568,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (113.4% of Spell Power).",
-      "pvp_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (49.5773% of Spell Power).",
+      "pvp_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (52.0982% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12542,7 +12576,7 @@ window.WOW_PVP_DATA = {
           "start": 103,
           "end": 108,
           "old_token": "113.4",
-          "new_token": "49.5773",
+          "new_token": "52.0982",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -12557,7 +12591,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "113.4",
-          "new": "49.5773"
+          "new": "52.0982"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12582,8 +12616,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.741,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4371900000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.45942,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -12598,10 +12632,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12627,9 +12662,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12688,9 +12723,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12830,9 +12865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12891,9 +12926,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -12952,9 +12987,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Lightsmith",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Paladin",
         "class_id": 2,
         "spec_name": "Holy",
@@ -13024,7 +13059,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_divineprotection",
         "icon_candidates": [
           "spell_holy_divineprotection"
@@ -13067,7 +13102,7 @@ window.WOW_PVP_DATA = {
               "kind": "percent_value",
               "expression": "$s1",
               "source": "simc_exact_build",
-              "build": "12.1.5.70575"
+              "build": "12.1.5.70961"
             },
             {
               "old": 20.0,
@@ -13075,7 +13110,7 @@ window.WOW_PVP_DATA = {
               "kind": "percent_value",
               "expression": "$w1",
               "source": "simc_exact_build",
-              "build": "12.1.5.70575"
+              "build": "12.1.5.70961"
             }
           ],
           "conditional_display_formulas": [],
@@ -13135,14 +13170,14 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_flashheal",
         "icon_candidates": [
           "spell_holy_flashheal"
         ]
       },
       "pve_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nQuickly heal a friendly target for [(315.6% of Spell Power)](315.6% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
-      "pvp_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nQuickly heal a friendly target for [(186.204% of Spell Power)](186.204% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
+      "pvp_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nQuickly heal a friendly target for [(195.672% of Spell Power)](195.672% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13150,7 +13185,7 @@ window.WOW_PVP_DATA = {
           "start": 79,
           "end": 84,
           "old_token": "315.6",
-          "new_token": "186.204",
+          "new_token": "195.672",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -13160,7 +13195,7 @@ window.WOW_PVP_DATA = {
           "start": 103,
           "end": 108,
           "old_token": "315.6",
-          "new_token": "186.204",
+          "new_token": "195.672",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -13175,7 +13210,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "315.6",
-          "new": "186.204"
+          "new": "195.672"
         },
         {
           "effect_indexes": [
@@ -13184,7 +13219,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "315.6",
-          "new": "186.204"
+          "new": "195.672"
         }
       ],
       "has_pvp_mechanics": true,
@@ -13209,8 +13244,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -13220,10 +13255,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13256,7 +13292,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_innerfire",
         "icon_candidates": [
           "spell_holy_innerfire"
@@ -13433,7 +13469,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_crusaderstrike",
         "icon_candidates": [
           "spell_holy_crusaderstrike"
@@ -13502,7 +13538,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 30.0,
               "factor": 1.3,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13535,7 +13572,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_paladin_beaconoflight",
         "icon_candidates": [
           "ability_paladin_beaconoflight"
@@ -13554,7 +13591,7 @@ window.WOW_PVP_DATA = {
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
           "old": 33.0,
-          "new": 19.470000000000002,
+          "new": 20.46,
           "full_tooltip_match_count": 0
         }
       ],
@@ -13580,8 +13617,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -13591,10 +13628,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13627,7 +13665,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_paladin_beaconoflight",
         "icon_candidates": [
           "ability_paladin_beaconoflight"
@@ -13646,7 +13684,7 @@ window.WOW_PVP_DATA = {
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
           "old": 33.0,
-          "new": 19.470000000000002,
+          "new": 20.46,
           "full_tooltip_match_count": 0
         }
       ],
@@ -13672,8 +13710,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -13688,10 +13726,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13724,14 +13763,14 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_surgeoflight",
         "icon_candidates": [
           "spell_holy_surgeoflight"
         ]
       },
       "pve_tooltip": "7% of base mana\n40 yd range\n2 sec cast\nA powerful but expensive spell, healing a friendly target for (3250% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
-      "pvp_tooltip": "7% of base mana\n40 yd range\n2 sec cast\nA powerful but expensive spell, healing a friendly target for (1917.5% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
+      "pvp_tooltip": "7% of base mana\n40 yd range\n2 sec cast\nA powerful but expensive spell, healing a friendly target for (2015% of Spell Power). [Tower of Radiance: Generates 1 Holy Power.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13739,7 +13778,7 @@ window.WOW_PVP_DATA = {
           "start": 102,
           "end": 106,
           "old_token": "3250",
-          "new_token": "1917.5",
+          "new_token": "2015",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -13754,7 +13793,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "3250",
-          "new": "1917.5"
+          "new": "2015"
         }
       ],
       "has_pvp_mechanics": true,
@@ -13779,8 +13818,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -13790,10 +13829,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13826,14 +13866,14 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "inv_helmet_96",
         "icon_candidates": [
           "inv_helmet_96"
         ]
       },
       "pve_tooltip": "3 Holy Power / 15% of base mana\n40 yd range\nInstant\nCalls down the Light to heal a friendly target for (415.8% of Spell Power).",
-      "pvp_tooltip": "3 Holy Power / 15% of base mana\n40 yd range\nInstant\nCalls down the Light to heal a friendly target for (245.322% of Spell Power).",
+      "pvp_tooltip": "3 Holy Power / 15% of base mana\n40 yd range\nInstant\nCalls down the Light to heal a friendly target for (257.796% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -13841,7 +13881,7 @@ window.WOW_PVP_DATA = {
           "start": 104,
           "end": 109,
           "old_token": "415.8",
-          "new_token": "245.322",
+          "new_token": "257.796",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -13856,7 +13896,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "415.8",
-          "new": "245.322"
+          "new": "257.796"
         }
       ],
       "has_pvp_mechanics": true,
@@ -13881,8 +13921,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -13892,10 +13932,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13925,8 +13966,8 @@ window.WOW_PVP_DATA = {
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": "periodic",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.35400000000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.372,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -13941,10 +13982,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108027,
               "amount_kind": "periodic",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13978,7 +14020,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_righteousfury",
         "icon_candidates": [
           "spell_holy_righteousfury"
@@ -14066,7 +14108,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14158,7 +14201,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14210,7 +14254,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14244,7 +14289,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_righteousfury",
         "icon_candidates": [
           "spell_holy_righteousfury"
@@ -14299,7 +14344,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14351,7 +14397,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -8.0,
               "factor": 0.92,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14385,7 +14432,7 @@ window.WOW_PVP_DATA = {
         "class_id": 2,
         "spec_id": 65,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_paladin_shieldofvengeance",
         "icon_candidates": [
           "ability_paladin_shieldofvengeance"
@@ -14419,8 +14466,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -14435,10 +14482,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14469,8 +14517,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -14485,10 +14533,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 428076,
               "game_effect_id": 1108026,
               "amount_kind": "direct",
-              "value_pct": -41.0,
-              "factor": 0.5900000000000001,
+              "value_pct": -38.0,
+              "factor": 0.62,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -14809,11 +14858,6 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 146956,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "source": "wowhead",
       "spell_id": 156322,
@@ -15491,16 +15535,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 115675,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115675'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 123830,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123830'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 137026,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -15698,9 +15732,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [],
     "already_current": [
       {
@@ -15708,6 +15746,61 @@ window.WOW_PVP_DATA = {
         "spell_id": 204054,
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24"
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "spell_id": null,
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "baseline_commit": "fa5a724bb913bf265f43eac2cbb78bb6c793b538",
+          "changed_effects": [
+            {
+              "talent_name": "A Just Reward",
+              "source_spell_id": 469413,
+              "effect_index": 1,
+              "old_aura_factor": 0.5900000000000001,
+              "new_aura_factor": 0.62,
+              "delta": 0.029999999999999916,
+              "relative_delta": 0.05084745762711851,
+              "comparison": "relative",
+              "pve_context_factor": 1.0,
+              "expected_delta": 0.05
+            },
+            {
+              "talent_name": "Lightforged Blessing",
+              "source_spell_id": 403460,
+              "effect_index": 1,
+              "old_aura_factor": 0.5900000000000001,
+              "new_aura_factor": 0.62,
+              "delta": 0.029999999999999916,
+              "relative_delta": 0.05084745762711851,
+              "comparison": "relative",
+              "pve_context_factor": 1.0,
+              "expected_delta": 0.05
+            },
+            {
+              "talent_name": "Holy Ritual",
+              "source_spell_id": 199423,
+              "effect_index": 1,
+              "old_aura_factor": 0.5900000000000001,
+              "new_aura_factor": 0.62,
+              "delta": 0.029999999999999916,
+              "relative_delta": 0.05084745762711851,
+              "comparison": "relative",
+              "pve_context_factor": 1.0,
+              "expected_delta": 0.05
+            }
+          ],
+          "pve_context": []
+        }
+      },
+      {
+        "talent_name": "Divine Favor",
+        "spell_id": 1270916,
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27"
       }
     ],
     "unresolved": [],
@@ -15850,6 +15943,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -15926,7 +16030,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Halo",
+        "talent_name": "Halo damage and",
         "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
@@ -16076,16 +16180,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -16179,16 +16273,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "date": "2026-09-24",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Arcane"
-        ]
-      },
-      {
         "talent_name": "Improved Snaring",
         "text": "Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.",
         "date": "2026-09-24",
@@ -16233,16 +16317,6 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
-        ]
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -16348,16 +16422,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -16478,6 +16542,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -16543,6 +16618,17 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
         ]
       },
       {
@@ -16661,6 +16747,271 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Reverberations",
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
     "external_non_tree": []
@@ -16671,8 +17022,8 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       498,
       642,
@@ -16839,6 +17190,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Divine Protection",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -16905,6 +17257,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 440013,
           "name": "Cleanse",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17170,6 +17523,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Beacon of Light",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -17210,6 +17564,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Light's Beacon",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -17341,6 +17696,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Light",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -17415,6 +17771,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Plate Specialization",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17463,6 +17820,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Paladin",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [
             {
@@ -17551,6 +17909,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stat Negation Aura - Intellect Healer",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "NOT_IN_CLASS_DUMP",
           "effects": [],
           "drustvar_candidate": false,
@@ -17563,6 +17922,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Lightbringer",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17587,6 +17947,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Absolution",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17599,6 +17960,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Tower of Radiance",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17769,6 +18131,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 20271,
           "name": "Judgment",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -17903,6 +18266,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Shock",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -17927,6 +18291,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Judgment",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -18000,6 +18365,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Seasoned Warhorse",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -18101,6 +18467,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 53600,
           "name": "Shield of the Righteous",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -18178,6 +18545,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Paladin",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -18202,6 +18570,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Cleanse Toxins",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "REPLACED",
           "effects": [],
           "drustvar_candidate": false,
@@ -18226,6 +18595,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Paladin",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -18238,6 +18608,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Paladin",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -18262,6 +18633,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -18274,6 +18646,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Paladin",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -20213,7 +20586,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "paladin-holy",
-  "generated_at": "2026-10-24T16:27:56.251640+00:00",
+  "generated_at": "2026-11-27T12:31:20.449064+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -20221,23 +20594,18 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 26,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 125,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 177,
+    "source_warning_count": 174,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 146956,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 156322,
@@ -20257,6 +20625,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 183416,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183416'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 190784,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190784'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -20264,12 +20637,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "dd4217f57d47c58b6e3b780e3a5cd7ff2acfdfac335efd1f62e8ea11514665ce"
+    "evidence_hash": "e0e50005253570f8013034de31ce5d1de34a9b74035ea18eceaa91f8f769d5d2"
   },
   "coverage": {
     "schema": 1,
@@ -20287,8 +20660,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.156,
           "simc_ap_coefficient": null,
@@ -20497,8 +20870,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -20518,8 +20891,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -20560,8 +20933,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20581,8 +20954,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20602,8 +20975,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 32.5,
           "simc_ap_coefficient": null,
@@ -20623,8 +20996,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.6,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.35400000000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.372,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
@@ -20644,8 +21017,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.158,
           "simc_ap_coefficient": null,
@@ -20686,8 +21059,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20707,8 +21080,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20728,8 +21101,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20749,8 +21122,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.909,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5363100000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.56358,
           "final_pvp_value": null,
           "simc_sp_coefficient": 11.17,
           "simc_ap_coefficient": null,
@@ -20770,8 +21143,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8333,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4916470000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.516646,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.06736,
           "simc_ap_coefficient": null,
@@ -20811,10 +21184,10 @@ window.WOW_PVP_DATA = {
         "amount_kind": null,
         "values": {
           "base_value": -10.0,
-          "spell_pvp_multiplier": 3.0,
+          "spell_pvp_multiplier": 5.0,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 3.0,
-          "final_pvp_value": -30.0,
+          "final_pvp_multiplier": 5.0,
+          "final_pvp_value": -50.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -20875,8 +21248,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -20896,8 +21269,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.86,
           "simc_ap_coefficient": null,
@@ -20917,8 +21290,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -21337,8 +21710,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.135,
           "simc_ap_coefficient": null,
@@ -21358,8 +21731,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.1368,
           "simc_ap_coefficient": null,
@@ -21379,8 +21752,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.78,
           "simc_ap_coefficient": null,
@@ -21463,8 +21836,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.3455,
           "simc_ap_coefficient": null,
@@ -21505,8 +21878,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.3726,
           "simc_ap_coefficient": null,
@@ -21610,8 +21983,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -21652,8 +22025,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0625,
@@ -21694,8 +22067,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.27778,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.16389020000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.1722236,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.4,
           "simc_ap_coefficient": null,
@@ -21757,8 +22130,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 20.0,
           "simc_ap_coefficient": null,
@@ -21778,8 +22151,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.12,
           "simc_ap_coefficient": null,
@@ -21820,8 +22193,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.741,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4371900000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.45942,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.134,
           "simc_ap_coefficient": null,
@@ -21956,7 +22329,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "6ff92d2cbc0c501c0a3c36033044e31564d2a4b86ea098cd421de539b0450ce3",
+    "semantic_hash": "0f6a883434f8ae1645ac54367d624cf4e336e71c3831e7dbf483bf11080cbe9c",
     "independent_effects": [
       {
         "key": [
@@ -21970,8 +22343,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.156,
           "simc_ap_coefficient": null,
@@ -22180,8 +22553,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -22201,8 +22574,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -22243,8 +22616,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22264,8 +22637,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22285,8 +22658,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 32.5,
           "simc_ap_coefficient": null,
@@ -22306,8 +22679,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0.0,
           "spell_pvp_multiplier": 0.6,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.35400000000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.372,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
@@ -22327,8 +22700,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 4.158,
           "simc_ap_coefficient": null,
@@ -22369,8 +22742,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22390,8 +22763,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22411,8 +22784,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22432,8 +22805,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.909,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5363100000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.56358,
           "final_pvp_value": null,
           "simc_sp_coefficient": 11.17,
           "simc_ap_coefficient": null,
@@ -22453,8 +22826,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8333,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4916470000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.516646,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.06736,
           "simc_ap_coefficient": null,
@@ -22494,10 +22867,10 @@ window.WOW_PVP_DATA = {
         "amount_kind": null,
         "values": {
           "base_value": -10.0,
-          "spell_pvp_multiplier": 3.0,
+          "spell_pvp_multiplier": 5.0,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 3.0,
-          "final_pvp_value": -30.0,
+          "final_pvp_multiplier": 5.0,
+          "final_pvp_value": -50.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -22558,8 +22931,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -22579,8 +22952,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.86,
           "simc_ap_coefficient": null,
@@ -22600,8 +22973,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.33,
           "simc_ap_coefficient": null,
@@ -23020,8 +23393,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.135,
           "simc_ap_coefficient": null,
@@ -23041,8 +23414,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.1368,
           "simc_ap_coefficient": null,
@@ -23062,8 +23435,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.7080000000000001,
-          "final_pvp_multiplier": 0.7080000000000001,
+          "aura_factor": 0.744,
+          "final_pvp_multiplier": 0.744,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.78,
           "simc_ap_coefficient": null,
@@ -23146,8 +23519,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.3455,
           "simc_ap_coefficient": null,
@@ -23188,8 +23561,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.3726,
           "simc_ap_coefficient": null,
@@ -23293,8 +23666,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.25,
@@ -23335,8 +23708,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.0625,
@@ -23377,8 +23750,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.27778,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.16389020000000004,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.1722236,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.4,
           "simc_ap_coefficient": null,
@@ -23440,8 +23813,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 20.0,
           "simc_ap_coefficient": null,
@@ -23461,8 +23834,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.5900000000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.62,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.12,
           "simc_ap_coefficient": null,
@@ -23503,8 +23876,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.741,
-          "aura_factor": 0.5900000000000001,
-          "final_pvp_multiplier": 0.4371900000000001,
+          "aura_factor": 0.62,
+          "final_pvp_multiplier": 0.45942,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.134,
           "simc_ap_coefficient": null,
@@ -23639,6 +24012,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "6ff92d2cbc0c501c0a3c36033044e31564d2a4b86ea098cd421de539b0450ce3"
+    "independent_hash": "0f6a883434f8ae1645ac54367d624cf4e336e71c3831e7dbf483bf11080cbe9c"
   }
 };

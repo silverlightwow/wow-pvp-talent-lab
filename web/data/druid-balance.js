@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Druid",
   "spec_name": "Balance",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -136,9 +136,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -228,7 +228,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 60.0,
               "factor": 1.6,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -254,9 +255,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -372,9 +373,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -492,7 +493,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -518,9 +520,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -577,9 +579,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -640,9 +642,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -704,9 +706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -765,9 +767,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -865,7 +867,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -889,9 +892,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1084,9 +1087,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1149,9 +1152,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1213,9 +1216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1288,10 +1291,12 @@ window.WOW_PVP_DATA = {
           "dependency_path": [
             24858,
             1261870,
-            1261867,
+            1286247,
+            191034,
             191037
           ],
           "dependency_relations": [
+            "trigger_spell",
             "trigger_spell",
             "spelldesc_ref",
             "tooltip_value_ref"
@@ -1304,7 +1309,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1330,9 +1336,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1390,9 +1396,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1450,7 +1456,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1459,7 +1465,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1474,9 +1480,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1533,9 +1539,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1598,9 +1604,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1659,9 +1665,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1719,7 +1725,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1728,7 +1734,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1743,9 +1749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -1930,7 +1936,7 @@ window.WOW_PVP_DATA = {
                 ]
               ],
               "source": "simc_exact_build_passive_modifier",
-              "build": "12.1.5.70575"
+              "build": "12.1.5.70961"
             }
           ],
           "confidence": "high"
@@ -1974,7 +1980,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -2024,7 +2031,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -2050,9 +2058,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2109,9 +2117,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2173,9 +2181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2232,9 +2240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2297,9 +2305,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2358,9 +2366,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2422,9 +2430,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2486,9 +2494,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2548,9 +2556,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2610,9 +2618,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2674,9 +2682,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2734,9 +2742,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2795,9 +2803,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2857,9 +2865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2912,7 +2920,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2921,7 +2929,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2936,9 +2944,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -2999,9 +3007,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3059,9 +3067,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3184,9 +3192,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3245,9 +3253,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3306,9 +3314,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3370,9 +3378,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3429,9 +3437,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3488,9 +3496,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3546,7 +3554,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -3555,7 +3563,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3570,9 +3578,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3629,9 +3637,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3688,9 +3696,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3747,9 +3755,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3811,9 +3819,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3870,9 +3878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3929,9 +3937,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -3988,9 +3996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4049,9 +4057,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4110,9 +4118,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4171,9 +4179,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4232,9 +4240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4291,9 +4299,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4345,7 +4353,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -4354,7 +4362,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -4369,9 +4377,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4428,9 +4436,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4473,72 +4481,10 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 27.0,
-          "new": 17.9928,
-          "full_tooltip_match_count": 1
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "display_formulas": [],
-          "conditional_display_formulas": [],
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null,
-          "baseline_effective_factor": null,
-          "baseline_modifiers": [],
-          "unmodified_base_value": null,
-          "coefficient_based": true,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1261867,
-          "source_spell_id": 191037,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.27)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.833,
-          "amount_kind": "direct",
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1261867,
-            191037
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256996,
-              "game_effect_id": 1264731,
-              "amount_kind": "direct",
-              "value_pct": -20.0,
-              "factor": 0.8,
-              "label_id": null,
-              "build": "12.1.5.70448"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1,
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -4552,9 +4498,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4658,9 +4604,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4760,9 +4706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4868,7 +4814,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4894,9 +4841,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -4956,9 +4903,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5018,9 +4965,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5082,9 +5029,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5144,9 +5091,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5206,9 +5153,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5269,9 +5216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5332,9 +5279,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5394,9 +5341,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5456,9 +5403,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5520,9 +5467,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5585,9 +5532,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5649,9 +5596,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -5777,7 +5724,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5867,7 +5815,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5893,9 +5842,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6021,7 +5970,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6111,7 +6061,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6136,9 +6087,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6197,9 +6148,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6258,9 +6209,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6320,9 +6271,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6418,9 +6369,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6564,7 +6515,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6614,7 +6566,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6664,7 +6617,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6714,7 +6668,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6740,9 +6695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6803,9 +6758,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6912,7 +6867,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6938,9 +6894,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -6997,7 +6953,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7006,7 +6962,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7021,9 +6977,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7080,9 +7036,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7142,9 +7098,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7201,9 +7157,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7261,7 +7217,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7270,7 +7226,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7285,9 +7241,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7347,9 +7303,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7405,7 +7361,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7414,7 +7370,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7429,9 +7385,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7487,7 +7443,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7496,7 +7452,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7511,9 +7467,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7572,9 +7528,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7633,9 +7589,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7776,7 +7732,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7802,9 +7759,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7865,9 +7822,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -7985,9 +7942,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8049,9 +8006,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8113,9 +8070,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8223,7 +8180,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8249,9 +8207,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8354,7 +8312,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8379,9 +8338,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8495,9 +8454,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8555,9 +8514,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8614,9 +8573,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8674,9 +8633,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8733,9 +8692,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8790,9 +8749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8842,7 +8801,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -8851,7 +8810,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -8866,9 +8825,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -8988,7 +8947,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9038,7 +8998,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9064,9 +9025,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9191,7 +9152,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9241,7 +9203,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9267,9 +9230,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9328,9 +9291,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9389,9 +9352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9450,9 +9413,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9511,9 +9474,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9572,9 +9535,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9633,9 +9596,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9719,7 +9682,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9769,7 +9733,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9795,9 +9760,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9856,9 +9821,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -9917,9 +9882,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10035,9 +10000,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10142,7 +10107,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10168,9 +10134,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10229,9 +10195,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10290,9 +10256,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10351,9 +10317,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10412,9 +10378,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Elune's Chosen",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10499,7 +10465,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10553,7 +10520,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10579,9 +10547,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10687,7 +10655,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10713,9 +10682,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10774,9 +10743,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10835,9 +10804,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10896,9 +10865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -10957,9 +10926,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11018,9 +10987,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11079,9 +11048,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11140,9 +11109,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11201,9 +11170,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11309,9 +11278,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11370,9 +11339,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11431,9 +11400,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11492,9 +11461,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11553,9 +11522,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11614,9 +11583,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11737,9 +11706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11798,9 +11767,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Keeper of the Grove",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Druid",
         "class_id": 11,
         "spec_name": "Balance",
@@ -11955,188 +11924,6 @@ window.WOW_PVP_DATA = {
   ],
   "abilities": [
     {
-      "talent_name": "Cat Form",
-      "spell_id": 768,
-      "node_id": null,
-      "entry_id": null,
-      "definition_id": null,
-      "tree_type": "ability",
-      "hero_tree": null,
-      "tree_data": {
-        "spell_id": 768,
-        "talent_name": "Cat Form",
-        "tree_type": "ability",
-        "entry_type": "ability",
-        "passive": false,
-        "player_text_available": true,
-        "class_id": 11,
-        "spec_id": 102,
-        "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
-        "icon": "ability_druid_catform",
-        "icon_candidates": [
-          "ability_druid_catform"
-        ]
-      },
-      "pve_tooltip": "Instant\nShapeshift into Cat Form, increasing auto-attack damage by 40%, movement speed by 30%, granting protection from Polymorph effects, and reducing falling damage.\nThe act of shapeshifting frees you from movement impairing effects.",
-      "pvp_tooltip": "Instant\nShapeshift into Cat Form, increasing auto-attack damage by 40%, movement speed by 30%, granting protection from Polymorph effects, and reducing falling damage.\nThe act of shapeshifting frees you from movement impairing effects.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "display_formulas": [],
-          "conditional_display_formulas": [],
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null,
-          "baseline_effective_factor": null,
-          "baseline_modifiers": [],
-          "unmodified_base_value": null,
-          "coefficient_based": true,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 768,
-          "source_spell_id": 191037,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.27)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.833,
-          "amount_kind": "direct",
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            768,
-            1261868,
-            1261867,
-            191037
-          ],
-          "dependency_relations": [
-            "trigger_spell",
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256996,
-              "game_effect_id": 1264731,
-              "amount_kind": "direct",
-              "value_pct": -20.0,
-              "factor": 0.8,
-              "label_id": null,
-              "build": "12.1.5.70448"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 0,
-      "rank_tooltips": [],
-      "player_description_status": "AVAILABLE"
-    },
-    {
-      "talent_name": "Bear Form",
-      "spell_id": 5487,
-      "node_id": null,
-      "entry_id": null,
-      "definition_id": null,
-      "tree_type": "ability",
-      "hero_tree": null,
-      "tree_data": {
-        "spell_id": 5487,
-        "talent_name": "Bear Form",
-        "tree_type": "ability",
-        "entry_type": "ability",
-        "passive": false,
-        "player_text_available": true,
-        "class_id": 11,
-        "spec_id": 102,
-        "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
-        "icon": "ability_racial_bearform",
-        "icon_candidates": [
-          "ability_racial_bearform"
-        ]
-      },
-      "pve_tooltip": "Instant\nShapeshift into Bear Form, increasing armor by 220% and Stamina by 25%, granting protection from Polymorph effects, and increasing threat generation.\nThe act of shapeshifting frees you from movement impairing effects.",
-      "pvp_tooltip": "Instant\nShapeshift into Bear Form, increasing armor by 220% and Stamina by 25%, granting protection from Polymorph effects, and increasing threat generation.\nThe act of shapeshifting frees you from movement impairing effects.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "display_formulas": [],
-          "conditional_display_formulas": [],
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null,
-          "baseline_effective_factor": null,
-          "baseline_modifiers": [],
-          "unmodified_base_value": null,
-          "coefficient_based": true,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 5487,
-          "source_spell_id": 191037,
-          "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.27)",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.833,
-          "amount_kind": "direct",
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            5487,
-            1261872,
-            1261867,
-            191037
-          ],
-          "dependency_relations": [
-            "trigger_spell",
-            "spelldesc_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256996,
-              "game_effect_id": 1264731,
-              "amount_kind": "direct",
-              "value_pct": -20.0,
-              "factor": 0.8,
-              "label_id": null,
-              "build": "12.1.5.70448"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar",
-            "simc_generated"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 0,
-      "rank_tooltips": [],
-      "player_description_status": "AVAILABLE"
-    },
-    {
       "talent_name": "Moonfire",
       "spell_id": 8921,
       "node_id": null,
@@ -12154,7 +11941,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_nature_starfall",
         "icon_candidates": [
           "spell_nature_starfall"
@@ -12308,7 +12095,7 @@ window.WOW_PVP_DATA = {
                 ]
               ],
               "source": "simc_exact_build_passive_modifier",
-              "build": "12.1.5.70575"
+              "build": "12.1.5.70961"
             }
           ],
           "confidence": "high"
@@ -12352,7 +12139,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12402,7 +12190,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12436,22 +12225,22 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_nature_resistnature",
         "icon_candidates": [
           "spell_nature_resistnature"
         ]
       },
-      "pve_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nHeals a friendly target for (536% of Spell Power) and another [(67.4904% of Spell Power) * 1] over 6 sec. [Improved Regrowth: Initial heal has a 40% increased chance for a critical effect if the target is already affected by Regrowth] [Incarnation: Tree of Life: Tree of Life: Instant cast.]",
-      "pvp_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nHeals a friendly target for (750.4% of Spell Power) and another [(94.4866% of Spell Power) * 1] over 6 sec. [Improved Regrowth: Initial heal has a 40% increased chance for a critical effect if the target is already affected by Regrowth] [Incarnation: Tree of Life: Tree of Life: Instant cast.]",
+      "pve_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nHeals a friendly target for (590% of Spell Power) and another [(74.25% of Spell Power) * 1] over 6 sec. [Improved Regrowth: Initial heal has a 40% increased chance for a critical effect if the target is already affected by Regrowth] [Incarnation: Tree of Life: Tree of Life: Instant cast.]",
+      "pvp_tooltip": "10% of base mana\n40 yd range\n1.5 sec cast\nHeals a friendly target for (749.3% of Spell Power) and another [(94.2975% of Spell Power) * 1] over 6 sec. [Improved Regrowth: Initial heal has a 40% increased chance for a critical effect if the target is already affected by Regrowth] [Incarnation: Tree of Life: Tree of Life: Instant cast.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 71,
           "end": 74,
-          "old_token": "536",
-          "new_token": "750.4",
+          "old_token": "590",
+          "new_token": "749.3",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -12459,9 +12248,9 @@ window.WOW_PVP_DATA = {
         },
         {
           "start": 106,
-          "end": 113,
-          "old_token": "67.4904",
-          "new_token": "94.4866",
+          "end": 111,
+          "old_token": "74.25",
+          "new_token": "94.2975",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -12475,8 +12264,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": "536",
-          "new": "750.4"
+          "old": "590",
+          "new": "749.3"
         },
         {
           "effect_indexes": [
@@ -12484,8 +12273,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": "67.4904",
-          "new": "94.4866"
+          "old": "74.25",
+          "new": "94.2975"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12499,19 +12288,19 @@ window.WOW_PVP_DATA = {
           "baseline_modifiers": [],
           "unmodified_base_value": null,
           "coefficient_based": true,
-          "simc_sp_coefficient": 5.36,
+          "simc_sp_coefficient": 5.9,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
           "dependency_kind": null,
           "talent_spell_id": 8936,
           "source_spell_id": 8936,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 5.36)",
+          "effect_text": "Heal (SP mod: 5.9)",
           "base_value": null,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "amount_kind": "direct",
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12535,7 +12324,7 @@ window.WOW_PVP_DATA = {
           "baseline_modifiers": [],
           "unmodified_base_value": null,
           "coefficient_based": true,
-          "simc_sp_coefficient": 0.224968,
+          "simc_sp_coefficient": 0.2475,
           "simc_ap_coefficient": null,
           "effect_origin": "DIRECT",
           "dependency_kind": null,
@@ -12544,10 +12333,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "amount_kind": "periodic",
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12585,7 +12374,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_druid_ferociousbite",
         "icon_candidates": [
           "ability_druid_ferociousbite"
@@ -13007,7 +12796,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_nature_wrathv2",
         "icon_candidates": [
           "spell_nature_wrathv2"
@@ -13076,7 +12865,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13110,7 +12900,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_druid_starfall",
         "icon_candidates": [
           "ability_druid_starfall"
@@ -13184,7 +12974,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13218,7 +13009,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "mail_gmicon",
         "icon_candidates": [
           "mail_gmicon"
@@ -13233,7 +13024,7 @@ window.WOW_PVP_DATA = {
         {
           "status": "SOURCE_HAS_NO_PLAYER_DESCRIPTION",
           "source": "simc_exact_build",
-          "build": "12.1.5.70575",
+          "build": "12.1.5.70961",
           "spell_id": 197911
         }
       ],
@@ -13296,7 +13087,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_druid_prowl",
         "icon_candidates": [
           "ability_druid_prowl"
@@ -13374,7 +13165,7 @@ window.WOW_PVP_DATA = {
         "class_id": 11,
         "spec_id": 102,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_druid_stellarflare",
         "icon_candidates": [
           "ability_druid_stellarflare"
@@ -13467,7 +13258,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13517,7 +13309,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13567,7 +13360,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -20.0,
               "factor": 0.8,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -13940,11 +13734,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 131768,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=131768'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 132469,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14523,11 +14312,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 137009,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137009'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 159456,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=159456'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -14705,9 +14489,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [],
     "already_current": [],
     "unresolved": [],
@@ -14850,6 +14638,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -14926,7 +14725,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Halo",
+        "talent_name": "Halo damage and",
         "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
@@ -15076,16 +14875,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -15179,16 +14968,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "date": "2026-09-24",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Arcane"
-        ]
-      },
-      {
         "talent_name": "Consecrated Ground",
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24",
@@ -15242,16 +15021,6 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
-        ]
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -15357,16 +15126,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -15487,6 +15246,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -15552,6 +15322,17 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
         ]
       },
       {
@@ -15668,6 +15449,291 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Divine Favor",
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Reverberations",
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
     "external_non_tree": []
@@ -15678,8 +15744,8 @@ window.WOW_PVP_DATA = {
     "external": []
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       339,
       768,
@@ -15719,8 +15785,6 @@ window.WOW_PVP_DATA = {
       1297521
     ],
     "pvp_spell_ids": [
-      768,
-      5487,
       8921,
       8936,
       22568,
@@ -15770,26 +15834,7 @@ window.WOW_PVP_DATA = {
           "name": "Cat Form",
           "passive": false,
           "classification": "BASE_ABILITY",
-          "effects": [
-            {
-              "source_spell_id": 191037,
-              "effect_index": 1,
-              "game_effect_id": 280158,
-              "base_value": 0.0,
-              "pvp_coefficient": 0.833,
-              "current_pvp_coefficient": 0.833,
-              "sp_coefficient": 0.27,
-              "ap_coefficient": null,
-              "published": true,
-              "dependency_path": [
-                768,
-                1261868,
-                1261867,
-                191037
-              ],
-              "player_text": []
-            }
-          ],
+          "effects": [],
           "drustvar_candidate": false,
           "aura_candidate": false
         },
@@ -15885,26 +15930,7 @@ window.WOW_PVP_DATA = {
           "name": "Bear Form",
           "passive": false,
           "classification": "BASE_ABILITY",
-          "effects": [
-            {
-              "source_spell_id": 191037,
-              "effect_index": 1,
-              "game_effect_id": 280158,
-              "base_value": 0.0,
-              "pvp_coefficient": 0.833,
-              "current_pvp_coefficient": 0.833,
-              "sp_coefficient": 0.27,
-              "ap_coefficient": null,
-              "published": true,
-              "dependency_path": [
-                5487,
-                1261872,
-                1261867,
-                191037
-              ],
-              "player_text": []
-            }
-          ],
+          "effects": [],
           "drustvar_candidate": false,
           "aura_candidate": false
         },
@@ -15994,9 +16020,9 @@ window.WOW_PVP_DATA = {
               "effect_index": 1,
               "game_effect_id": 3728,
               "base_value": 0.0,
-              "pvp_coefficient": 1.4,
-              "current_pvp_coefficient": 1.4,
-              "sp_coefficient": 5.36,
+              "pvp_coefficient": 1.27,
+              "current_pvp_coefficient": 1.27,
+              "sp_coefficient": 5.9,
               "ap_coefficient": null,
               "published": true,
               "dependency_path": [
@@ -16011,9 +16037,9 @@ window.WOW_PVP_DATA = {
               "effect_index": 2,
               "game_effect_id": 3729,
               "base_value": 0.0,
-              "pvp_coefficient": 1.4,
-              "current_pvp_coefficient": 1.4,
-              "sp_coefficient": 0.224968,
+              "pvp_coefficient": 1.27,
+              "current_pvp_coefficient": 1.27,
+              "sp_coefficient": 0.2475,
               "ap_coefficient": null,
               "published": true,
               "dependency_path": [
@@ -16235,6 +16261,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Leather Specialization",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16271,6 +16298,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Balance Druid",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -16295,6 +16323,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stat Negation Aura - Intellect DPS",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "NOT_IN_CLASS_DUMP",
           "effects": [],
           "drustvar_candidate": false,
@@ -16337,6 +16366,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 5176,
           "name": "Wrath",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -16412,6 +16442,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Starfall",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -16457,6 +16488,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Feral Affinity",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16469,6 +16501,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Astral Power",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -16497,6 +16530,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Shapeshift Form",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16509,6 +16543,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Owlkin Frenzy",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16545,6 +16580,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Moonfire",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16569,6 +16605,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Astral Invocation",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16581,6 +16618,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Improved Prowl",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -16612,6 +16650,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Balance Druid",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -16624,6 +16663,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Druid",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16648,6 +16688,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -16660,6 +16701,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Balance Druid",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -16672,6 +16714,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stellar Protection",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -18632,22 +18675,22 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "druid-balance",
-  "generated_at": "2026-10-24T16:24:47.213992+00:00",
+  "generated_at": "2026-11-27T12:28:16.738615+00:00",
   "validation": {
-    "abilities": 10,
-    "abilities_with_pvp_mechanics": 10,
+    "abilities": 8,
+    "abilities_with_pvp_mechanics": 8,
     "talents": 142,
     "changed_tooltips": 24,
-    "talents_with_pvp_mechanics": 33,
+    "talents_with_pvp_mechanics": 32,
     "unique_nodes": 119,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 153,
+    "source_warning_count": 151,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18656,11 +18699,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 131768,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=131768'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 132469,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -18676,6 +18714,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 194153,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=194153'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 197524,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=197524'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -18683,16 +18726,16 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "079596109881e1a721c24c8fe1631edb186e22a657a40e961b9909993d9e6844"
+    "evidence_hash": "32cf69f7afd90f7a480705a9e922be7600f65212fafa401fc5fc239fd9e84758"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 69,
+    "effect_count": 66,
     "effects": [
       {
         "key": [
@@ -18991,48 +19034,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "abilities",
-          5487,
-          5487,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "abilities",
-          768,
-          768,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "abilities",
           8921,
           8921,
           164812,
@@ -19104,11 +19105,11 @@ window.WOW_PVP_DATA = {
         "amount_kind": "direct",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
-          "simc_sp_coefficient": 5.36,
+          "simc_sp_coefficient": 5.9,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -19125,11 +19126,11 @@ window.WOW_PVP_DATA = {
         "amount_kind": "periodic",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
-          "simc_sp_coefficient": 0.224968,
+          "simc_sp_coefficient": 0.2475,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -19299,27 +19300,6 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.3113,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
-          103309,
-          1261867,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -20144,7 +20124,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "d46633b39477f3ad06e6f38527166443a491295e03d5c6d5008fb18fe852138c",
+    "semantic_hash": "7dc86e56f3c770649fe799cdc04c7c32908060e135eda45fabf08242c9ec2f4c",
     "independent_effects": [
       {
         "key": [
@@ -20443,48 +20423,6 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "abilities",
-          5487,
-          5487,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "abilities",
-          768,
-          768,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "abilities",
           8921,
           8921,
           164812,
@@ -20556,11 +20494,11 @@ window.WOW_PVP_DATA = {
         "amount_kind": "direct",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
-          "simc_sp_coefficient": 5.36,
+          "simc_sp_coefficient": 5.9,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -20577,11 +20515,11 @@ window.WOW_PVP_DATA = {
         "amount_kind": "periodic",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 1.4,
+          "spell_pvp_multiplier": 1.27,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.4,
+          "final_pvp_multiplier": 1.27,
           "final_pvp_value": null,
-          "simc_sp_coefficient": 0.224968,
+          "simc_sp_coefficient": 0.2475,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -20730,27 +20668,6 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.3113,
-          "scaled_base_value": null,
-          "scaled_final_pvp_value": null
-        }
-      },
-      {
-        "key": [
-          "talents",
-          103309,
-          1261867,
-          191037,
-          1
-        ],
-        "amount_kind": "direct",
-        "values": {
-          "base_value": 0,
-          "spell_pvp_multiplier": 0.833,
-          "aura_factor": 0.8,
-          "final_pvp_multiplier": 0.6664,
-          "final_pvp_value": null,
-          "simc_sp_coefficient": 0.27,
-          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -21575,6 +21492,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "fa4a2e9e90c7b1094385fd8399afe1b5ccaa44a700b7eece3aadca4d914ffcc2"
+    "independent_hash": "79ee42b1d12f67be1390be687ec71878ee8a07129295e74b39bbf3840c2eba43"
   }
 };

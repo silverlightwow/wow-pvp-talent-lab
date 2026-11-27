@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Mage",
   "spec_name": "Fire",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -56,7 +56,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (11.7875% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -74,7 +74,7 @@ window.WOW_PVP_DATA = {
           "start": 255,
           "end": 261,
           "old_token": "14.375",
-          "new_token": "13.0812",
+          "new_token": "11.7875",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -98,7 +98,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "14.375",
-          "new": "13.0812"
+          "new": "11.7875"
         }
       ],
       "has_pvp_mechanics": true,
@@ -193,8 +193,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -209,10 +209,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -238,9 +239,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -300,9 +301,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -362,9 +363,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -423,9 +424,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -484,9 +485,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -541,7 +542,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -550,7 +551,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -565,9 +566,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -668,7 +669,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -50.0,
               "factor": 0.5,
               "label_id": 7158,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -700,7 +702,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -720,7 +722,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -735,9 +737,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -796,9 +798,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -854,7 +856,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -863,7 +865,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -878,9 +880,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -942,9 +944,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1005,9 +1007,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1067,9 +1069,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1131,9 +1133,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1171,7 +1173,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (66.99% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.\nAlways deals a critical strike and contributes to Hot Streak.",
-      "pvp_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (60.9609% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.\nAlways deals a critical strike and contributes to Hot Streak.",
+      "pvp_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (54.9318% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.\nAlways deals a critical strike and contributes to Hot Streak.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1179,7 +1181,7 @@ window.WOW_PVP_DATA = {
           "start": 86,
           "end": 91,
           "old_token": "66.99",
-          "new_token": "60.9609",
+          "new_token": "54.9318",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -1194,7 +1196,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "66.99",
-          "new": "60.9609"
+          "new": "54.9318"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1219,8 +1221,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -1230,10 +1232,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1257,9 +1260,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1297,7 +1300,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (34.5% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
-      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (31.395% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
+      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (28.29% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1305,7 +1308,7 @@ window.WOW_PVP_DATA = {
           "start": 99,
           "end": 103,
           "old_token": "34.5",
-          "new_token": "31.395",
+          "new_token": "28.29",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -1320,7 +1323,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "34.5",
-          "new": "31.395"
+          "new": "28.29"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1345,8 +1348,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -1356,10 +1359,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1384,9 +1388,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1448,9 +1452,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1572,7 +1576,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -1592,7 +1596,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -1607,9 +1611,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1659,7 +1663,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 26.8,
-          "new": 24.388,
+          "new": 21.976000000000003,
           "full_tooltip_match_count": 0
         }
       ],
@@ -1685,8 +1689,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -1705,10 +1709,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1738,8 +1743,8 @@ window.WOW_PVP_DATA = {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -1758,10 +1763,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264855,
               "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1787,9 +1793,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -1902,9 +1908,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2023,9 +2029,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2084,9 +2090,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2149,9 +2155,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2210,9 +2216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2274,9 +2280,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2336,9 +2342,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2398,9 +2404,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2459,9 +2465,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2524,9 +2530,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2585,9 +2591,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2650,9 +2656,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2774,7 +2780,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2794,7 +2800,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2809,9 +2815,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2870,9 +2876,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2935,9 +2941,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -2996,9 +3002,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3155,9 +3161,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3216,9 +3222,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3281,9 +3287,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3342,9 +3348,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3465,9 +3471,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3505,7 +3511,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (138% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (125.58% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
+      "pvp_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (113.16% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3513,7 +3519,7 @@ window.WOW_PVP_DATA = {
           "start": 90,
           "end": 93,
           "old_token": "138",
-          "new_token": "125.58",
+          "new_token": "113.16",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -3528,7 +3534,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "138",
-          "new": "125.58"
+          "new": "113.16"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3553,8 +3559,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -3564,10 +3570,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -3592,9 +3599,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3656,9 +3663,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3780,9 +3787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3841,9 +3848,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3905,9 +3912,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -3966,9 +3973,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4084,9 +4091,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4145,9 +4152,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4206,9 +4213,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4267,9 +4274,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4328,9 +4335,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4368,7 +4375,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (638.8% of Spell Power) Fire damage.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (863.2424% of Spell Power) Fire damage.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (777.8668% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4376,7 +4383,7 @@ window.WOW_PVP_DATA = {
           "start": 85,
           "end": 90,
           "old_token": "638.8",
-          "new_token": "863.2424",
+          "new_token": "777.8668",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4391,7 +4398,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "638.8",
-          "new": "863.2424"
+          "new": "777.8668"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4416,8 +4423,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.485,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.35135,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 1.2177000000000002,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4427,10 +4434,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4461,8 +4469,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4477,10 +4485,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264855,
               "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4506,9 +4515,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4547,7 +4556,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(98.625% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(82.5689% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(74.4027% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4555,7 +4564,7 @@ window.WOW_PVP_DATA = {
           "start": 105,
           "end": 111,
           "old_token": "98.625",
-          "new_token": "82.5689",
+          "new_token": "74.4027",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4570,7 +4579,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "98.625",
-          "new": "82.5689"
+          "new": "74.4027"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4595,8 +4604,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.92,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8372,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7544000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4606,10 +4615,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4635,9 +4645,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4694,9 +4704,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4735,7 +4745,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (282.9% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (12.3% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4743,7 +4753,7 @@ window.WOW_PVP_DATA = {
           "start": 113,
           "end": 116,
           "old_token": "345",
-          "new_token": "313.95",
+          "new_token": "282.9",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4753,7 +4763,7 @@ window.WOW_PVP_DATA = {
           "start": 300,
           "end": 302,
           "old_token": "15",
-          "new_token": "13.65",
+          "new_token": "12.3",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4768,7 +4778,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "345",
-          "new": "313.95"
+          "new": "282.9"
         },
         {
           "effect_indexes": [
@@ -4777,7 +4787,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "15",
-          "new": "13.65"
+          "new": "12.3"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4802,8 +4812,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4813,10 +4823,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4845,8 +4856,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -4861,10 +4872,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4890,9 +4902,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -4931,7 +4943,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (282.9% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (12.3% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4939,7 +4951,7 @@ window.WOW_PVP_DATA = {
           "start": 128,
           "end": 131,
           "old_token": "345",
-          "new_token": "313.95",
+          "new_token": "282.9",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4949,7 +4961,7 @@ window.WOW_PVP_DATA = {
           "start": 307,
           "end": 309,
           "old_token": "15",
-          "new_token": "13.65",
+          "new_token": "12.3",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4964,7 +4976,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "345",
-          "new": "313.95"
+          "new": "282.9"
         },
         {
           "effect_indexes": [
@@ -4973,7 +4985,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "15",
-          "new": "13.65"
+          "new": "12.3"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4998,8 +5010,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -5009,10 +5021,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5042,8 +5055,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5058,10 +5071,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5087,9 +5101,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5148,9 +5162,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5210,9 +5224,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5271,9 +5285,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5333,9 +5347,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5396,9 +5410,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5437,7 +5451,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (900% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (104% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (664.3728% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (61.516% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n45 sec cooldown\nCalls down a meteor which lands at the target location after 3 sec, dealing (598.6656% of Spell Power) Fire damage to all enemies, and burns the ground, dealing [8 * (55.432% of Spell Power)] Fire damage over 4 sec to all enemies in the area.\nDamage reduced beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5445,7 +5459,7 @@ window.WOW_PVP_DATA = {
           "start": 214,
           "end": 217,
           "old_token": "104",
-          "new_token": "61.516",
+          "new_token": "55.432",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5455,7 +5469,7 @@ window.WOW_PVP_DATA = {
           "start": 129,
           "end": 132,
           "old_token": "900",
-          "new_token": "664.3728",
+          "new_token": "598.6656",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5470,7 +5484,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "900",
-          "new": "664.3728"
+          "new": "598.6656"
         },
         {
           "effect_indexes": [
@@ -5479,7 +5493,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "104",
-          "new": "61.516"
+          "new": "55.432"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5504,8 +5518,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5520,10 +5534,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264855,
               "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5554,8 +5569,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.8112,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5570,10 +5585,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5599,9 +5615,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5640,7 +5656,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (100% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (273% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (246% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5648,7 +5664,7 @@ window.WOW_PVP_DATA = {
           "start": 64,
           "end": 67,
           "old_token": "100",
-          "new_token": "273",
+          "new_token": "246",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -5663,7 +5679,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "100",
-          "new": "273"
+          "new": "246"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5688,8 +5704,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 3.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.73,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.46,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -5699,10 +5715,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5728,9 +5745,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5791,9 +5808,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5852,9 +5869,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5910,7 +5927,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -5919,7 +5936,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -5934,9 +5951,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -5996,9 +6013,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6119,9 +6136,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6183,9 +6200,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6246,9 +6263,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6310,9 +6327,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6371,9 +6388,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6412,7 +6429,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Fire Blast deals (40% of Spell Power) additional Fire damage to up to 8 nearby enemies.",
-      "pvp_tooltip": "Fire Blast deals (36.4% of Spell Power) additional Fire damage to up to 8 nearby enemies.",
+      "pvp_tooltip": "Fire Blast deals (32.8% of Spell Power) additional Fire damage to up to 8 nearby enemies.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6420,7 +6437,7 @@ window.WOW_PVP_DATA = {
           "start": 18,
           "end": 20,
           "old_token": "40",
-          "new_token": "36.4",
+          "new_token": "32.8",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -6435,7 +6452,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "40",
-          "new": "36.4"
+          "new": "32.8"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6460,8 +6477,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6476,10 +6493,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6505,9 +6523,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6567,9 +6585,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6625,7 +6643,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6634,7 +6652,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6649,9 +6667,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6810,9 +6828,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6872,9 +6890,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -6930,7 +6948,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -6939,7 +6957,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -6954,9 +6972,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7055,7 +7073,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7064,7 +7082,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7079,9 +7097,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7137,7 +7155,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7146,7 +7164,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7161,9 +7179,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7222,9 +7240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7285,9 +7303,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7408,9 +7426,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7471,9 +7489,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7532,9 +7550,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7648,9 +7666,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7707,9 +7725,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7768,9 +7786,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7921,9 +7939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -7999,9 +8017,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8037,7 +8055,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (200% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
-      "pvp_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (182% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
+      "pvp_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (164% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8045,7 +8063,7 @@ window.WOW_PVP_DATA = {
           "start": 163,
           "end": 166,
           "old_token": "200",
-          "new_token": "182",
+          "new_token": "164",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8060,7 +8078,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "200",
-          "new": "182"
+          "new": "164"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8085,8 +8103,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8101,10 +8119,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8130,9 +8149,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8249,9 +8268,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8301,7 +8320,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -8310,7 +8329,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -8325,9 +8344,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8382,9 +8401,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8423,7 +8442,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (259.4% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.",
-      "pvp_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (695.179% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (626.4251% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8431,7 +8450,7 @@ window.WOW_PVP_DATA = {
           "start": 94,
           "end": 99,
           "old_token": "259.4",
-          "new_token": "695.179",
+          "new_token": "626.4251",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8446,7 +8465,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
-          "new": 83.3014,
+          "new": 75.0628,
           "full_tooltip_match_count": 0
         },
         {
@@ -8456,7 +8475,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "259.4",
-          "new": "695.179"
+          "new": "626.4251"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8481,8 +8500,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.9,
           "amount_kind": "direct",
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 2.67995,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 2.4149000000000003,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8497,10 +8516,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1256911,
@@ -8509,7 +8529,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 55.0,
               "factor": 1.55,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8540,8 +8561,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.95,
           "amount_kind": "periodic",
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 1.339975,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 1.2074500000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8556,10 +8577,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264855,
               "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1256911,
@@ -8568,7 +8590,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 55.0,
               "factor": 1.55,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8599,8 +8622,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8617,10 +8640,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8651,8 +8675,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8669,10 +8693,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8698,9 +8723,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8853,9 +8878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -8914,9 +8939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9195,9 +9220,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9256,9 +9281,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9318,9 +9343,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9358,7 +9383,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (366.24% of Spell Power) Frost damage.",
-      "pvp_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (109.9819% of Spell Power) Frost damage.",
+      "pvp_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (99.1045% of Spell Power) Frost damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9366,7 +9391,7 @@ window.WOW_PVP_DATA = {
           "start": 74,
           "end": 80,
           "old_token": "366.24",
-          "new_token": "109.9819",
+          "new_token": "99.1045",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -9381,7 +9406,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "366.24",
-          "new": "109.9819"
+          "new": "99.1045"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9406,8 +9431,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.3003,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.2706,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -9422,10 +9447,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9451,9 +9477,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9512,9 +9538,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9573,9 +9599,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9634,9 +9660,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9695,9 +9721,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9756,9 +9782,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9817,9 +9843,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9878,9 +9904,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -9939,9 +9965,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10000,9 +10026,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10041,7 +10067,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Meteor now also calls down a Comet Storm, dealing [(92.8% of Spell Power) * 7] Frost damage to nearby enemies.",
-      "pvp_tooltip": "Meteor now also calls down a Comet Storm, dealing [(67.5584% of Spell Power) * 7] Frost damage to nearby enemies.",
+      "pvp_tooltip": "Meteor now also calls down a Comet Storm, dealing [(60.8768% of Spell Power) * 7] Frost damage to nearby enemies.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10049,7 +10075,7 @@ window.WOW_PVP_DATA = {
           "start": 52,
           "end": 56,
           "old_token": "92.8",
-          "new_token": "67.5584",
+          "new_token": "60.8768",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10074,7 +10100,7 @@ window.WOW_PVP_DATA = {
           "status": "OTHER_SPEC_BRANCH",
           "kind": "spell_power_coefficient",
           "old": 625.0,
-          "new": 379.35625,
+          "new": 410.0000000000001,
           "full_tooltip_match_count": 1
         },
         {
@@ -10084,7 +10110,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
-          "new": 83.3014,
+          "new": 75.0628,
           "full_tooltip_match_count": 0
         },
         {
@@ -10094,7 +10120,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 129.0,
-          "new": 109.1727,
+          "new": 98.37540000000001,
           "full_tooltip_match_count": 0
         },
         {
@@ -10104,7 +10130,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 104.0,
-          "new": 61.516000000000005,
+          "new": 55.432,
           "full_tooltip_match_count": 0
         },
         {
@@ -10114,7 +10140,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 900.0,
-          "new": 664.3728000000001,
+          "new": 598.6656000000002,
           "full_tooltip_match_count": 0
         },
         {
@@ -10124,7 +10150,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "92.8",
-          "new": "67.5584"
+          "new": "60.8768"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10182,10 +10208,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "School Damage (2): fire (SP mod: 6.25)",
           "base_value": null,
-          "spell_pvp_multiplier": 0.667,
+          "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.60697,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10200,10 +10226,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10234,8 +10261,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7280000000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10250,10 +10277,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10284,8 +10312,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10302,10 +10330,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10336,8 +10365,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10354,10 +10383,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10384,12 +10414,12 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431095,
           "source_spell_id": 153596,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 1.29)",
+          "effect_text": "School Damage (Frost) (SP mod: 1.29)",
           "base_value": null,
           "spell_pvp_multiplier": 0.93,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8463,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7626000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10408,15 +10438,17 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -10442,8 +10474,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.65,
           "amount_kind": "periodic",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10462,10 +10494,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264855,
               "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10496,8 +10529,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.8112,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10516,10 +10549,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10545,9 +10579,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10688,9 +10722,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10749,9 +10783,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10810,9 +10844,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10880,9 +10914,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -10920,7 +10954,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
-      "pvp_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (92.82% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
+      "pvp_tooltip": "Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of 4 Meteorites on its target.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (83.64% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10928,7 +10962,7 @@ window.WOW_PVP_DATA = {
           "start": 208,
           "end": 211,
           "old_token": "102",
-          "new_token": "92.82",
+          "new_token": "83.64",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -10943,7 +10977,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "102",
-          "new": "92.82"
+          "new": "83.64"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10968,8 +11002,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -10986,10 +11020,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11015,9 +11050,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11067,7 +11102,7 @@ window.WOW_PVP_DATA = {
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 14.374999999999998,
-          "new": 13.081249999999999,
+          "new": 11.7875,
           "full_tooltip_match_count": 0
         }
       ],
@@ -11133,8 +11168,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11151,10 +11186,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11180,9 +11216,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11241,9 +11277,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11302,9 +11338,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11363,9 +11399,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11403,7 +11439,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
-      "pvp_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (49.4471% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pvp_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (44.5568% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -11411,7 +11447,7 @@ window.WOW_PVP_DATA = {
           "start": 102,
           "end": 109,
           "old_token": "54.3375",
-          "new_token": "49.4471",
+          "new_token": "44.5568",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -11426,7 +11462,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "54.3375",
-          "new": "49.4471"
+          "new": "44.5568"
         }
       ],
       "has_pvp_mechanics": true,
@@ -11451,8 +11487,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -11467,10 +11503,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11536,9 +11573,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11597,9 +11634,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11658,9 +11695,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11719,9 +11756,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11780,9 +11817,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11841,9 +11878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11902,9 +11939,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Sunfury",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Fire",
@@ -11974,7 +12011,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "ability_mage_invisibility",
         "icon_candidates": [
           "ability_mage_invisibility"
@@ -12062,14 +12099,14 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_frost_glacier",
         "icon_candidates": [
           "spell_frost_glacier"
         ]
       },
       "pve_tooltip": "4% of base mana\nInstant\n25 sec cooldown\nTargets in a cone in front of you take (43.125% of Spell Power) Frost damage and have movement slowed by 50% for 8 sec.",
-      "pvp_tooltip": "4% of base mana\nInstant\n25 sec cooldown\nTargets in a cone in front of you take (39.2437% of Spell Power) Frost damage and have movement slowed by 50% for 8 sec.",
+      "pvp_tooltip": "4% of base mana\nInstant\n25 sec cooldown\nTargets in a cone in front of you take (35.3625% of Spell Power) Frost damage and have movement slowed by 50% for 8 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12077,7 +12114,7 @@ window.WOW_PVP_DATA = {
           "start": 80,
           "end": 86,
           "old_token": "43.125",
-          "new_token": "39.2437",
+          "new_token": "35.3625",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -12102,7 +12139,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "43.125",
-          "new": "39.2437"
+          "new": "35.3625"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12127,8 +12164,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12138,10 +12175,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12218,14 +12256,14 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_frost_frostnova",
         "icon_candidates": [
           "spell_frost_frostnova"
         ]
       },
       "pve_tooltip": "2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nBlasts enemies within 12 yds of you for (5.149% of Spell Power) Frost damage and freezes them in place for 6 sec. Damage may interrupt the freeze effect.",
-      "pvp_tooltip": "2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nBlasts enemies within 12 yds of you for (4.6856% of Spell Power) Frost damage and freezes them in place for 6 sec. Damage may interrupt the freeze effect.",
+      "pvp_tooltip": "2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nBlasts enemies within 12 yds of you for (4.2222% of Spell Power) Frost damage and freezes them in place for 6 sec. Damage may interrupt the freeze effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12233,7 +12271,7 @@ window.WOW_PVP_DATA = {
           "start": 90,
           "end": 95,
           "old_token": "5.149",
-          "new_token": "4.6856",
+          "new_token": "4.2222",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -12248,7 +12286,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "5.149",
-          "new": "4.6856"
+          "new": "4.2222"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12273,8 +12311,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12284,10 +12322,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12320,14 +12359,14 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_fire_flamebolt",
         "icon_candidates": [
           "spell_fire_flamebolt"
         ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\n1.75 sec cast\nThrows a fiery ball that causes (388.125% of Spell Power) Fire damage.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\n1.75 sec cast\nThrows a fiery ball that causes (915.4782% of Spell Power) Fire damage.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\n1.75 sec cast\nThrows a fiery ball that causes (824.9364% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12335,7 +12374,7 @@ window.WOW_PVP_DATA = {
           "start": 75,
           "end": 82,
           "old_token": "388.125",
-          "new_token": "915.4782",
+          "new_token": "824.9364",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -12350,7 +12389,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "388.125",
-          "new": "915.4782"
+          "new": "824.9364"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12375,8 +12414,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 2.592,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.3587200000000004,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.12544,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12386,10 +12425,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12424,14 +12464,14 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_nature_wispsplode",
         "icon_candidates": [
           "spell_nature_wispsplode"
         ]
       },
       "pve_tooltip": "10% of base mana\nInstant\nCauses an explosion of magic around the caster, dealing (61.76% of Spell Power) Arcane damage to all enemies within 10 yards. [ Arcane (Level 10): Generates 1 Arcane Charge if any targets are hit.]",
-      "pvp_tooltip": "10% of base mana\nInstant\nCauses an explosion of magic around the caster, dealing (56.2016% of Spell Power) Arcane damage to all enemies within 10 yards. [ Arcane (Level 10): Generates 1 Arcane Charge if any targets are hit.]",
+      "pvp_tooltip": "10% of base mana\nInstant\nCauses an explosion of magic around the caster, dealing (50.6432% of Spell Power) Arcane damage to all enemies within 10 yards. [ Arcane (Level 10): Generates 1 Arcane Charge if any targets are hit.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12439,7 +12479,7 @@ window.WOW_PVP_DATA = {
           "start": 82,
           "end": 87,
           "old_token": "61.76",
-          "new_token": "56.2016",
+          "new_token": "50.6432",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -12454,7 +12494,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "61.76",
-          "new": "56.2016"
+          "new": "50.6432"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12479,8 +12519,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12490,10 +12530,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12526,7 +12567,7 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_arcane_blink",
         "icon_candidates": [
           "spell_arcane_blink"
@@ -12613,14 +12654,14 @@ window.WOW_PVP_DATA = {
         "class_id": 8,
         "spec_id": 63,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_fire_fireball",
         "icon_candidates": [
           "spell_fire_fireball"
         ]
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy for (82.8% of Spell Power) Fire damage.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy for (75.348% of Spell Power) Fire damage.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy for (67.896% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -12628,7 +12669,7 @@ window.WOW_PVP_DATA = {
           "start": 83,
           "end": 87,
           "old_token": "82.8",
-          "new_token": "75.348",
+          "new_token": "67.896",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -12643,7 +12684,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "82.8",
-          "new": "75.348"
+          "new": "67.896"
         }
       ],
       "has_pvp_mechanics": true,
@@ -12668,8 +12709,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -12679,10 +12720,11 @@ window.WOW_PVP_DATA = {
               "aura_spell_id": 1256911,
               "game_effect_id": 1264664,
               "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
+              "value_pct": -18.0,
+              "factor": 0.8200000000000001,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -12978,11 +13020,6 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
-    {
-      "source": "wowhead",
-      "spell_id": 117216,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "source": "wowhead",
       "spell_id": 153561,
@@ -13565,11 +13602,6 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 153596,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=153596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 155158,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13752,9 +13784,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [
       {
         "talent_name": "Burden of Power",
@@ -13782,6 +13818,71 @@ window.WOW_PVP_DATA = {
         "date": "2026-09-22",
         "evidence": {
           "source": "official_class_hotfix_current"
+        }
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "spell_id": null,
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "evidence": {
+          "source": "historical_verified_snapshot",
+          "baseline_commit": "fa5a724bb913bf265f43eac2cbb78bb6c793b538",
+          "changed_effects": [
+            {
+              "talent_name": "Blazing Barrier",
+              "source_spell_id": 235314,
+              "effect_index": 1,
+              "old_aura_factor": 0.91,
+              "new_aura_factor": 0.8200000000000001,
+              "delta": -0.08999999999999997,
+              "relative_delta": -0.09890109890109888,
+              "comparison": "relative_with_pve_context",
+              "pve_context_factor": 1.05,
+              "expected_delta": -0.05
+            },
+            {
+              "talent_name": "Dragon's Breath",
+              "source_spell_id": 31661,
+              "effect_index": 2,
+              "old_aura_factor": 0.91,
+              "new_aura_factor": 0.8200000000000001,
+              "delta": -0.08999999999999997,
+              "relative_delta": -0.09890109890109888,
+              "comparison": "relative_with_pve_context",
+              "pve_context_factor": 1.05,
+              "expected_delta": -0.05
+            },
+            {
+              "talent_name": "Supernova",
+              "source_spell_id": 157980,
+              "effect_index": 2,
+              "old_aura_factor": 0.91,
+              "new_aura_factor": 0.8200000000000001,
+              "delta": -0.08999999999999997,
+              "relative_delta": -0.09890109890109888,
+              "comparison": "relative_with_pve_context",
+              "pve_context_factor": 1.05,
+              "expected_delta": -0.05
+            }
+          ],
+          "pve_context": [
+            {
+              "talent_name": "__SPEC_DAMAGE__",
+              "current_percent": 5.0,
+              "previous_percent": null,
+              "target_hint": null,
+              "text": "All damage done increased by 5%. Does not affect PvP combat.",
+              "hotfix_date": "2026-10-27",
+              "unit": "percent",
+              "mode": "spec_pve_relative_increase",
+              "context_path": [
+                "Mage",
+                "Fire"
+              ],
+              "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+            }
+          ]
         }
       }
     ],
@@ -13914,6 +14015,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -13979,7 +14091,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Halo",
+        "talent_name": "Halo damage and",
         "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
@@ -14119,16 +14231,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -14222,16 +14324,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "date": "2026-09-24",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Arcane"
-        ]
-      },
-      {
         "talent_name": "Consecrated Ground",
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24",
@@ -14285,16 +14377,6 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
-        ]
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
         ]
       },
       {
@@ -14400,16 +14482,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -14529,6 +14601,17 @@ window.WOW_PVP_DATA = {
         "date": "2026-10-06"
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -14594,6 +14677,17 @@ window.WOW_PVP_DATA = {
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
           "Priest"
+        ]
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
         ]
       },
       {
@@ -14711,6 +14805,279 @@ window.WOW_PVP_DATA = {
         "unit": "percent",
         "property": null,
         "date": "2026-10-06"
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "PVE_ONLY_RATIO_CONTEXT",
+        "mode": "spec_pve_relative_increase",
+        "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Divine Favor",
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Realized Potential",
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Holy",
+          "Archon"
+        ]
+      },
+      {
+        "talent_name": "Reverberations",
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
     "external_non_tree": [
@@ -14743,8 +15110,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       66,
       120,
@@ -14979,6 +15346,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 116,
           "name": "Fireball",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -15094,6 +15462,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Ignite",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -15106,6 +15475,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Pyroblast Clearcasting Driver",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -15166,6 +15536,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Fire Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [
             {
@@ -15209,6 +15580,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stat Negation Aura - Intellect DPS",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "NOT_IN_CLASS_DUMP",
           "effects": [],
           "drustvar_candidate": false,
@@ -15233,6 +15605,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Hot Streak",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -15299,6 +15672,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -15311,6 +15685,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Fire Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -15335,6 +15710,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -15347,6 +15723,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Fire Mage",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -17370,7 +17747,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "mage-fire",
-  "generated_at": "2026-10-24T16:27:15.800039+00:00",
+  "generated_at": "2026-11-27T12:30:25.817484+00:00",
   "validation": {
     "abilities": 7,
     "abilities_with_pvp_mechanics": 7,
@@ -17378,23 +17755,18 @@ window.WOW_PVP_DATA = {
     "changed_tooltips": 34,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 110,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 154,
+    "source_warning_count": 152,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 117216,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117216'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 153561,
@@ -17414,6 +17786,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 190319,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190319'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 205026,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=205026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17421,12 +17798,12 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "4736ab23031956bb4c39b85c99c29aca6db86c9d8cf3a0c04dfe123f89cd4b5a"
+    "evidence_hash": "db03fa00e3169faf211fad23336d6b0b1e05376b54262b3777f54de4aeda0a94"
   },
   "coverage": {
     "schema": 1,
@@ -17444,8 +17821,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.43125,
           "simc_ap_coefficient": null,
@@ -17486,8 +17863,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.05149,
           "simc_ap_coefficient": null,
@@ -17507,8 +17884,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 2.592,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.3587200000000004,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.12544,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.88125,
           "simc_ap_coefficient": null,
@@ -17528,8 +17905,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.6176,
           "simc_ap_coefficient": null,
@@ -17570,8 +17947,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.828,
           "simc_ap_coefficient": null,
@@ -17612,8 +17989,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
@@ -17633,8 +18010,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
@@ -17654,8 +18031,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.93,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8463,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7626000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
           "simc_ap_coefficient": null,
@@ -17675,8 +18052,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.65,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
           "simc_ap_coefficient": null,
@@ -17696,8 +18073,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8112,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
           "simc_ap_coefficient": null,
@@ -17737,9 +18114,9 @@ window.WOW_PVP_DATA = {
         "amount_kind": "direct",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 0.667,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.60697,
+          "spell_pvp_multiplier": 0.8,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.25,
           "simc_ap_coefficient": null,
@@ -17759,8 +18136,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7280000000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.928,
           "simc_ap_coefficient": null,
@@ -17969,8 +18346,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.14375,
           "simc_ap_coefficient": null,
@@ -17990,8 +18367,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.92,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8372,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7544000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.98625,
           "simc_ap_coefficient": null,
@@ -18011,8 +18388,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.485,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.35135,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 1.2177000000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.388,
           "simc_ap_coefficient": null,
@@ -18032,8 +18409,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.062,
           "simc_ap_coefficient": null,
@@ -18074,8 +18451,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.65,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
           "simc_ap_coefficient": null,
@@ -18095,8 +18472,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8112,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
           "simc_ap_coefficient": null,
@@ -18116,8 +18493,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.345,
           "simc_ap_coefficient": null,
@@ -18137,8 +18514,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.6699,
           "simc_ap_coefficient": null,
@@ -18200,8 +18577,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.38,
           "simc_ap_coefficient": null,
@@ -18242,8 +18619,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.543375,
           "simc_ap_coefficient": null,
@@ -18263,8 +18640,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.45,
           "simc_ap_coefficient": null,
@@ -18284,8 +18661,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.15,
           "simc_ap_coefficient": null,
@@ -18326,8 +18703,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.0,
           "simc_ap_coefficient": null,
@@ -18431,8 +18808,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.15,
           "simc_ap_coefficient": null,
@@ -18452,8 +18829,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.45,
           "simc_ap_coefficient": null,
@@ -18494,8 +18871,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.33,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.3003,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.2706,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.6624,
           "simc_ap_coefficient": null,
@@ -18515,8 +18892,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.02,
           "simc_ap_coefficient": null,
@@ -18536,8 +18913,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
@@ -18557,8 +18934,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
@@ -18578,8 +18955,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.9,
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 2.67995,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 2.4149000000000003,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.594,
           "simc_ap_coefficient": null,
@@ -18599,8 +18976,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 1.339975,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 1.2074500000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.027,
           "simc_ap_coefficient": null,
@@ -18620,8 +18997,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
@@ -18641,8 +19018,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.268,
           "simc_ap_coefficient": null,
@@ -18662,8 +19039,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.4,
           "simc_ap_coefficient": null,
@@ -18704,8 +19081,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 3.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.73,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.46,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.0,
           "simc_ap_coefficient": null,
@@ -18935,8 +19312,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.14375,
           "simc_ap_coefficient": null,
@@ -18966,7 +19343,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "4004268d199799f68207ba107705953d36aeac89789ce63b4f29831c74fdacb1",
+    "semantic_hash": "b389855431ecc3955fd62c73d9c340420c6cc0d2196d168b9e0aeb412aa49374",
     "independent_effects": [
       {
         "key": [
@@ -18980,8 +19357,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.43125,
           "simc_ap_coefficient": null,
@@ -19022,8 +19399,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.05149,
           "simc_ap_coefficient": null,
@@ -19043,8 +19420,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 2.592,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.3587200000000004,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.12544,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.88125,
           "simc_ap_coefficient": null,
@@ -19064,8 +19441,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.6176,
           "simc_ap_coefficient": null,
@@ -19106,8 +19483,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.828,
           "simc_ap_coefficient": null,
@@ -19148,8 +19525,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
@@ -19169,8 +19546,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
@@ -19190,8 +19567,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.93,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8463,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7626000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.29,
           "simc_ap_coefficient": null,
@@ -19211,8 +19588,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.65,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
           "simc_ap_coefficient": null,
@@ -19232,8 +19609,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8112,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
           "simc_ap_coefficient": null,
@@ -19273,9 +19650,9 @@ window.WOW_PVP_DATA = {
         "amount_kind": "direct",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 0.667,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.60697,
+          "spell_pvp_multiplier": 0.8,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.25,
           "simc_ap_coefficient": null,
@@ -19295,8 +19672,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7280000000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6560000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.928,
           "simc_ap_coefficient": null,
@@ -19505,8 +19882,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.14375,
           "simc_ap_coefficient": null,
@@ -19526,8 +19903,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.92,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.8372,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.7544000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.98625,
           "simc_ap_coefficient": null,
@@ -19547,8 +19924,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.485,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 1.35135,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 1.2177000000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": 6.388,
           "simc_ap_coefficient": null,
@@ -19568,8 +19945,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.062,
           "simc_ap_coefficient": null,
@@ -19610,8 +19987,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.65,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.5915,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.533,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.04,
           "simc_ap_coefficient": null,
@@ -19631,8 +20008,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.8112,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.7381920000000001,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.6651840000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 9.0,
           "simc_ap_coefficient": null,
@@ -19652,8 +20029,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.345,
           "simc_ap_coefficient": null,
@@ -19715,8 +20092,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.38,
           "simc_ap_coefficient": null,
@@ -19757,8 +20134,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.543375,
           "simc_ap_coefficient": null,
@@ -19778,8 +20155,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.45,
           "simc_ap_coefficient": null,
@@ -19799,8 +20176,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.15,
           "simc_ap_coefficient": null,
@@ -19841,8 +20218,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.0,
           "simc_ap_coefficient": null,
@@ -19946,8 +20323,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.15,
           "simc_ap_coefficient": null,
@@ -19988,8 +20365,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.33,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.3003,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.2706,
           "final_pvp_value": null,
           "simc_sp_coefficient": 3.6624,
           "simc_ap_coefficient": null,
@@ -20009,8 +20386,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.02,
           "simc_ap_coefficient": null,
@@ -20030,8 +20407,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.9154,
           "simc_ap_coefficient": null,
@@ -20051,8 +20428,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.273,
           "simc_ap_coefficient": null,
@@ -20072,8 +20449,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.9,
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 2.67995,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 2.4149000000000003,
           "final_pvp_value": null,
           "simc_sp_coefficient": 2.594,
           "simc_ap_coefficient": null,
@@ -20093,8 +20470,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 0.95,
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 1.339975,
+          "aura_factor": 1.2710000000000001,
+          "final_pvp_multiplier": 1.2074500000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.027,
           "simc_ap_coefficient": null,
@@ -20114,8 +20491,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": 0.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
@@ -20135,8 +20512,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.268,
           "simc_ap_coefficient": null,
@@ -20156,8 +20533,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.4,
           "simc_ap_coefficient": null,
@@ -20198,8 +20575,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 3.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 2.73,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 2.46,
           "final_pvp_value": null,
           "simc_sp_coefficient": 1.0,
           "simc_ap_coefficient": null,
@@ -20429,8 +20806,8 @@ window.WOW_PVP_DATA = {
         "values": {
           "base_value": 0,
           "spell_pvp_multiplier": 1.0,
-          "aura_factor": 0.91,
-          "final_pvp_multiplier": 0.91,
+          "aura_factor": 0.8200000000000001,
+          "final_pvp_multiplier": 0.8200000000000001,
           "final_pvp_value": null,
           "simc_sp_coefficient": 0.14375,
           "simc_ap_coefficient": null,
@@ -20460,6 +20837,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "56b623f30b463973786318cbc0b643f7e7c9baf8e60958376ef868f3266e1ec5"
+    "independent_hash": "ab53523a1edbb055a569db6689a42f38fe20f8c622d3b6366b2aa3cc86ca0bd3"
   }
 };

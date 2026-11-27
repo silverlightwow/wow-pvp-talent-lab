@@ -1,10 +1,10 @@
 window.WOW_PVP_DATA = {
   "class_name": "Priest",
   "spec_name": "Holy",
-  "tree_build": "12.1.5.70575",
-  "simc_build": "12.1.5.70575",
+  "tree_build": "12.1.5.70961",
+  "simc_build": "12.1.5.70961",
   "drustvar_builds": [
-    "12.1.5.70448"
+    "12.1.5.70783"
   ],
   "talents": [
     {
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -77,9 +77,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -137,9 +137,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -308,9 +308,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -417,7 +417,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -443,9 +444,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -507,9 +508,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -570,9 +571,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -633,9 +634,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -692,9 +693,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -756,9 +757,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -817,9 +818,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -917,9 +918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -980,9 +981,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1041,9 +1042,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1102,9 +1103,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1191,7 +1192,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -1200,7 +1202,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1251,7 +1254,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -1260,7 +1264,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -1286,9 +1291,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1347,9 +1352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1411,9 +1416,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1472,9 +1477,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1592,9 +1597,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1656,9 +1661,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1721,9 +1726,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1782,9 +1787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1843,9 +1848,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1904,9 +1909,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -1966,9 +1971,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2154,9 +2159,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2218,9 +2223,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2281,9 +2286,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2342,9 +2347,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2404,9 +2409,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2466,9 +2471,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2530,9 +2535,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2594,9 +2599,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2657,9 +2662,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2720,9 +2725,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2778,7 +2783,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -2787,7 +2792,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -2802,9 +2807,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2863,9 +2868,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2927,9 +2932,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -2989,9 +2994,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3052,9 +3057,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3115,9 +3120,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3176,9 +3181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3233,7 +3238,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -3242,7 +3247,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3257,9 +3262,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3318,9 +3323,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3376,7 +3381,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -3385,7 +3390,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3400,9 +3405,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3526,7 +3531,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -3546,7 +3551,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -3561,9 +3566,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3624,9 +3629,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3684,9 +3689,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3744,9 +3749,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3804,9 +3809,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3864,9 +3869,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -3924,9 +3929,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4026,7 +4031,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4053,9 +4059,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4156,7 +4162,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4183,9 +4190,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4244,9 +4251,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4306,9 +4313,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4348,7 +4355,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (578.742% of Spell Power).",
-      "pvp_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (520.8678% of Spell Power).",
+      "pvp_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (677.1281% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4356,7 +4363,7 @@ window.WOW_PVP_DATA = {
           "start": 128,
           "end": 135,
           "old_token": "578.742",
-          "new_token": "520.8678",
+          "new_token": "677.1281",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             2
@@ -4371,7 +4378,22 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "578.742",
-          "new": "520.8678"
+          "new": "677.1281"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Prayer of Healing healing increased by 30% in PvP combat.",
+          "reason": "RELATIVE_HOTFIX_EVIDENCE",
+          "evidence": {
+            "source": "spell_pvp_multiplier",
+            "factor": 1.3,
+            "expected_factor": 1.3,
+            "effect_index": 2,
+            "source_spell_id": 596
+          }
         }
       ],
       "has_pvp_mechanics": true,
@@ -4394,10 +4416,10 @@ window.WOW_PVP_DATA = {
           "effect_index": 2,
           "effect_text": "Heal (SP mod: 5.78742)",
           "base_value": null,
-          "spell_pvp_multiplier": 1.0,
+          "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
           "aura_factor": 0.9,
-          "final_pvp_multiplier": 0.9,
+          "final_pvp_multiplier": 1.1700000000000002,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -4410,14 +4432,17 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4434,9 +4459,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4496,9 +4521,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4558,9 +4583,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4619,9 +4644,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4681,9 +4706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4721,14 +4746,79 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "The primary target of Prayer of Healing is healed for 125% more.",
-      "pvp_tooltip": "The primary target of Prayer of Healing is healed for 125% more.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "The primary target of Prayer of Healing is healed for 75% more.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 54,
+          "end": 57,
+          "old_token": "125",
+          "new_token": "75",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "125",
+          "new": "75"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+          "reason": "ALREADY_CURRENT"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 391209,
+          "source_spell_id": 391209,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 125.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 75.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -4742,9 +4832,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4852,7 +4942,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -4878,9 +4969,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -4939,9 +5030,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5080,9 +5171,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5141,9 +5232,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5204,9 +5295,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5265,9 +5356,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5376,7 +5467,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5403,9 +5495,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5521,9 +5613,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5630,7 +5722,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5657,9 +5750,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5719,9 +5812,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5783,9 +5876,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5844,9 +5937,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -5943,7 +6036,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -5970,9 +6064,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6034,9 +6128,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6096,9 +6190,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6262,9 +6356,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6327,9 +6421,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6390,9 +6484,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6453,9 +6547,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6516,9 +6610,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6580,9 +6674,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6641,9 +6735,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6702,9 +6796,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6790,7 +6884,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -6816,9 +6911,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6879,9 +6974,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6940,9 +7035,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -6998,7 +7093,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7007,7 +7102,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7022,9 +7117,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7079,7 +7174,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7088,7 +7183,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7103,9 +7198,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7162,7 +7257,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7171,7 +7266,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7186,9 +7281,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7244,7 +7339,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7253,7 +7348,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7268,9 +7363,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7329,9 +7424,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7416,7 +7511,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -7443,9 +7539,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7503,9 +7599,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7563,9 +7659,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7623,9 +7719,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7683,9 +7779,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7740,9 +7836,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7792,7 +7888,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         },
         {
           "rank": 2,
@@ -7801,7 +7897,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.5.70575"
+          "build": "12.1.5.70961"
         }
       ],
       "player_description_status": "AVAILABLE"
@@ -7816,9 +7912,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7873,9 +7969,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -7935,9 +8031,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8000,24 +8096,6 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "161",
           "new": "234.738"
-        },
-        {
-          "status": "OFFICIAL_HOTFIX_CURRENT",
-          "source": "blizzard_hotfix",
-          "source_url": "https://news.blizzard.com/en-us/article/24296142",
-          "hotfix_date": "2026-09-22",
-          "hotfix_text": "Halo damage and healing increased by 30% in PvP combat.",
-          "reason": "RELATIVE_HOTFIX_EVIDENCE",
-          "evidence": {
-            "source": "historical_verified_snapshot",
-            "field": "effective_player_value",
-            "source_spell_id": 120692,
-            "effect_index": 1,
-            "old_value": 1.81125,
-            "new_value": 2.3473800000000002,
-            "ratio": 1.296,
-            "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
-          }
         }
       ],
       "has_pvp_mechanics": true,
@@ -8038,7 +8116,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120692,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.61)",
+          "effect_text": "Heal (SP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8061,7 +8139,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -8070,16 +8149,16 @@ window.WOW_PVP_DATA = {
               "value_pct": 62.0,
               "factor": 1.62,
               "label_id": 2932,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
-            "simc",
-            "drustvar",
+            "wowhead",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "display_formulas": [],
@@ -8097,7 +8176,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8120,15 +8199,17 @@ window.WOW_PVP_DATA = {
               "value_pct": 62.0,
               "factor": 1.62,
               "label_id": 4003,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8145,9 +8226,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8388,9 +8469,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8449,9 +8530,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8510,9 +8591,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8572,9 +8653,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8633,9 +8714,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8694,9 +8775,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -8784,7 +8865,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -8793,7 +8875,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8846,7 +8929,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -8855,7 +8939,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -8881,9 +8966,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9012,9 +9097,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9109,7 +9194,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -9135,9 +9221,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9196,9 +9282,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9257,9 +9343,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9318,9 +9404,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9379,9 +9465,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9423,10 +9509,110 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "percent_value",
+          "old": 2.0,
+          "new": 4.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 453852,
+          "source_spell_id": 453846,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453852,
+            453848,
+            453845,
+            453846
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 453852,
+          "source_spell_id": 453846,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453852,
+            453848,
+            453845,
+            453846
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9440,9 +9626,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9501,9 +9687,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9562,9 +9748,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9602,14 +9788,79 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Your spells affected by Surge of Light heal for 5% more while Surge of Light is active.",
-      "pvp_tooltip": "Your spells affected by Surge of Light heal for 5% more while Surge of Light is active.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Your spells affected by Surge of Light heal for 10% more while Surge of Light is active.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 48,
+          "end": 49,
+          "old_token": "5",
+          "new_token": "10",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "5",
+          "new": "10"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+          "reason": "ALREADY_CURRENT"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 453799,
+          "source_spell_id": 453799,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Effect 5 (33)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9623,9 +9874,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9684,9 +9935,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9745,9 +9996,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9863,9 +10114,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -9924,9 +10175,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10031,7 +10282,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10057,9 +10309,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10118,9 +10370,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10179,9 +10431,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10240,9 +10492,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10301,9 +10553,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10341,14 +10593,124 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Creating a Halo increases your healing done by 2% for 10 sec, stacking up to 4 times.",
-      "pvp_tooltip": "Creating a Halo increases your healing done by 2% for 10 sec, stacking up to 4 times.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Creating a Halo increases your healing done by 4% for 10 sec, stacking up to 4 times.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 47,
+          "end": 48,
+          "old_token": "2",
+          "new_token": "4",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "2",
+          "new": "4"
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+          "reason": "ALREADY_CURRENT"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 453845,
+          "source_spell_id": 453846,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453845,
+            453846
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 453845,
+          "source_spell_id": 453846,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453845,
+            453846
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -10362,9 +10724,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10423,9 +10785,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10463,7 +10825,7 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Flash Heal healing increased by 10%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
-      "pvp_tooltip": "Flash Heal healing increased by 20%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
+      "pvp_tooltip": "Flash Heal healing increased by 25%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -10471,7 +10833,7 @@ window.WOW_PVP_DATA = {
           "start": 32,
           "end": 34,
           "old_token": "10",
-          "new_token": "20",
+          "new_token": "25",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -10486,14 +10848,36 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "10",
-          "new": "20"
+          "new": "25"
         },
         {
-          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "status": "OFFICIAL_HOTFIX_HISTORICALLY_SUPERSEDED",
           "source": "blizzard_hotfix",
           "source_url": "https://news.blizzard.com/en-us/article/24296142",
           "hotfix_date": "2026-09-22",
           "hotfix_text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
+          "evidence": {
+            "source": "historically_superseded",
+            "verified_post_commit": "fa5a724bb913bf265f43eac2cbb78bb6c793b538",
+            "effect_keys": [
+              [
+                1272326,
+                1
+              ]
+            ],
+            "previous_value": 20.0,
+            "current_value": 25.0,
+            "successor_date": "2026-10-27",
+            "successor_text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+            "successor_source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+          }
+        },
+        {
+          "status": "OFFICIAL_HOTFIX_CURRENT",
+          "source": "blizzard_hotfix",
+          "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+          "hotfix_date": "2026-10-27",
+          "hotfix_text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
           "reason": "ALREADY_CURRENT"
         }
       ],
@@ -10517,11 +10901,11 @@ window.WOW_PVP_DATA = {
           "effect_index": 1,
           "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 10.0,
-          "spell_pvp_multiplier": 2.0,
+          "spell_pvp_multiplier": 2.5,
           "amount_kind": null,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 2.0,
-          "final_pvp_value": 20.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": 25.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -10549,9 +10933,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10639,7 +11023,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -10648,7 +11033,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10701,7 +11087,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -10710,7 +11097,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -10736,9 +11124,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Oracle",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10855,9 +11243,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.5.70575",
-        "generated_at": "2026-10-23T19:33:18.393Z",
-        "content_hash": "0fc60cfc6a6bdce08405b6c2bf4ddc20",
+        "wow_build": "12.1.5.70961",
+        "generated_at": "2026-11-24T23:26:08.513Z",
+        "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
         "class_name": "Priest",
         "class_id": 5,
         "spec_name": "Holy",
@@ -10927,7 +11315,7 @@ window.WOW_PVP_DATA = {
         "class_id": 5,
         "spec_id": 257,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_holysmite",
         "icon_candidates": [
           "spell_holy_holysmite"
@@ -10996,7 +11384,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 82.0,
               "factor": 1.8199999999999998,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11029,7 +11418,7 @@ window.WOW_PVP_DATA = {
         "class_id": 5,
         "spec_id": 257,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_flashheal",
         "icon_candidates": [
           "spell_holy_flashheal"
@@ -11098,7 +11487,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -11107,7 +11497,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 19.0,
               "factor": 1.19,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11140,7 +11531,7 @@ window.WOW_PVP_DATA = {
         "class_id": 5,
         "spec_id": 257,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_prayerofmendingtga",
         "icon_candidates": [
           "spell_holy_prayerofmendingtga"
@@ -11214,7 +11605,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             },
             {
               "aura_spell_id": 1238052,
@@ -11223,7 +11615,8 @@ window.WOW_PVP_DATA = {
               "value_pct": 48.0,
               "factor": 1.48,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11258,7 +11651,7 @@ window.WOW_PVP_DATA = {
         "class_id": 5,
         "spec_id": 257,
         "source": "simc_exact_build_spellbook",
-        "wow_build": "12.1.5.70575",
+        "wow_build": "12.1.5.70961",
         "icon": "spell_holy_serendipity",
         "icon_candidates": [
           "spell_holy_serendipity"
@@ -11311,7 +11704,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11362,7 +11756,8 @@ window.WOW_PVP_DATA = {
               "value_pct": -10.0,
               "factor": 0.9,
               "label_id": null,
-              "build": "12.1.5.70448"
+              "build": "12.1.5.70783",
+              "source": "drustvar"
             }
           ],
           "sources": [
@@ -11680,8 +12075,8 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
-      "spell_id": 132157,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 121536,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12235,8 +12630,8 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
-      "spell_id": 120692,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 120696,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -12270,6 +12665,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 453846,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=453846'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 462097,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462097'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12297,9 +12697,13 @@ window.WOW_PVP_DATA = {
   "source_warnings_complete": true,
   "official_hotfixes": {
     "source": "Blizzard official hotfixes",
-    "source_url": "https://news.blizzard.com/en-us/article/24296142",
-    "latest_date": "2026-10-06",
-    "snapshot_hash": "12306ea8c255a01257a9f103942286957eefc0286471d0a31fb9125eea7b8af5",
+    "source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026",
+    "source_urls": [
+      "https://news.blizzard.com/en-us/article/24296142",
+      "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
+    ],
+    "latest_date": "2026-10-27",
+    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
     "applied": [],
     "already_current": [
       {
@@ -12309,26 +12713,62 @@ window.WOW_PVP_DATA = {
         "date": "2026-09-22"
       },
       {
-        "talent_name": "Halo",
-        "spell_id": 120517,
-        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "talent_name": "Realized Potential",
+        "spell_id": 1272326,
+        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
         "date": "2026-09-22",
         "evidence": {
-          "source": "historical_verified_snapshot",
-          "field": "effective_player_value",
-          "source_spell_id": 120692,
-          "effect_index": 1,
-          "old_value": 1.81125,
-          "new_value": 2.3473800000000002,
-          "ratio": 1.296,
-          "baseline_commit": "dc80a9d44b8a4b34ccbbdec61b5910e7915de290"
+          "source": "historically_superseded",
+          "verified_post_commit": "fa5a724bb913bf265f43eac2cbb78bb6c793b538",
+          "effect_keys": [
+            [
+              1272326,
+              1
+            ]
+          ],
+          "previous_value": 20.0,
+          "current_value": 25.0,
+          "successor_date": "2026-10-27",
+          "successor_text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+          "successor_source_url": "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
         }
+      },
+      {
+        "talent_name": "Empowered Surges",
+        "spell_id": 453799,
+        "text": "Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).",
+        "date": "2026-10-27"
+      },
+      {
+        "talent_name": "Prayer of Healing",
+        "spell_id": 596,
+        "text": "Prayer of Healing healing increased by 30% in PvP combat.",
+        "date": "2026-10-27",
+        "evidence": {
+          "source": "spell_pvp_multiplier",
+          "factor": 1.3,
+          "expected_factor": 1.3,
+          "effect_index": 2,
+          "source_spell_id": 596
+        }
+      },
+      {
+        "talent_name": "Prayerful Litany",
+        "spell_id": 391209,
+        "text": "Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).",
+        "date": "2026-10-27"
       },
       {
         "talent_name": "Realized Potential",
         "spell_id": 1272326,
-        "text": "Realized Potential now increases Flash Heal healing by 20% in PvP combat (was 10%).",
-        "date": "2026-09-22"
+        "text": "Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).",
+        "date": "2026-10-27"
+      },
+      {
+        "talent_name": "Resonant Energy",
+        "spell_id": 453845,
+        "text": "Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).",
+        "date": "2026-10-27"
       }
     ],
     "unresolved": [],
@@ -12471,6 +12911,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Death",
+        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
+        "date": "2026-09-22",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Priest",
+          "Shadow",
+          "Shadow Word"
+        ]
+      },
+      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -12534,6 +12985,15 @@ window.WOW_PVP_DATA = {
           "Windwalker",
           "Shado-Pan"
         ]
+      },
+      {
+        "talent_name": "Halo damage and",
+        "text": "Halo damage and healing increased by 30% in PvP combat.",
+        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
+        "mode": "relative_increase",
+        "unit": "percent",
+        "property": null,
+        "date": "2026-09-22"
       },
       {
         "talent_name": "Hammer of Light",
@@ -12664,16 +13124,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Shadow Word: Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow"
-        ]
-      },
-      {
         "talent_name": "Swift and Painful",
         "text": "Swift and Painful now increases Strength by 15% (was 10%).",
         "date": "2026-09-22",
@@ -12767,16 +13217,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Chrono Shift",
-        "text": "Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).",
-        "date": "2026-09-24",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Arcane"
-        ]
-      },
-      {
         "talent_name": "Consecrated Ground",
         "text": "Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).",
         "date": "2026-09-24",
@@ -12831,16 +13271,6 @@ window.WOW_PVP_DATA = {
         "unit": "percent",
         "property": null,
         "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Ancient of Lore: Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration"
-        ]
       },
       {
         "talent_name": "Blightfall",
@@ -12945,16 +13375,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dire Beast: Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery"
         ]
       },
       {
@@ -13075,6 +13495,17 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
+        "talent_name": "Hawk",
+        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Beast Mastery",
+          "Dire Beast"
+        ]
+      },
+      {
         "talent_name": "Healing Sphere",
         "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
         "date": "2026-10-06",
@@ -13141,6 +13572,17 @@ window.WOW_PVP_DATA = {
         "unit": "seconds",
         "property": "Mass Dispel",
         "date": "2026-10-06"
+      },
+      {
+        "talent_name": "Mass Blooming",
+        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
+        "date": "2026-10-06",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Restoration",
+          "Ancient of Lore"
+        ]
       },
       {
         "talent_name": "Mighty Ox Kick",
@@ -13258,6 +13700,238 @@ window.WOW_PVP_DATA = {
           "Mage",
           "Fire"
         ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Druid",
+          "Feral"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage done increased by 5%. Does not affect PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_DAMAGE__",
+        "text": "All damage reduced by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Fire"
+        ]
+      },
+      {
+        "talent_name": "__SPEC_HEALING__",
+        "text": "All healing increased by 5% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Black Arrow",
+        "text": "Dark Ranger: Black Arrow damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship",
+          "Dark Ranger"
+        ]
+      },
+      {
+        "talent_name": "Celestial Conduit",
+        "text": "Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Chronal Dynamo",
+        "text": "Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Collapsing Star",
+        "text": "Collapsing Star damage increased by 20% in PvP combat .",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Demon Hunter",
+          "Devourer"
+        ]
+      },
+      {
+        "talent_name": "Darkest Night",
+        "text": "Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Deathblow",
+        "text": "Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Deathstalker’s Mark",
+        "text": "Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Divine Favor",
+        "text": "Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Paladin",
+          "Holy"
+        ]
+      },
+      {
+        "talent_name": "Duality’s Pyroblast",
+        "text": "Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Fazed",
+        "text": "Trickster: Fazed now increases damage by 5% (was 7%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Subtlety",
+          "Trickster"
+        ]
+      },
+      {
+        "talent_name": "Healing Stream Totem and Stormstream Totem",
+        "text": "Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Shaman",
+          "Restoration"
+        ]
+      },
+      {
+        "talent_name": "Hunt Them Down",
+        "text": "Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Rogue",
+          "Assassination",
+          "Deathstalker"
+        ]
+      },
+      {
+        "talent_name": "Isothermic Core’s Meteor",
+        "text": "Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Mage",
+          "Frost",
+          "Frostfire"
+        ]
+      },
+      {
+        "talent_name": "Kill Shot",
+        "text": "Kill Shot damage increased by 40% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Reverberations",
+        "text": "Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Evoker",
+          "Preservation",
+          "Chronowarden"
+        ]
+      },
+      {
+        "talent_name": "Strength of the Black Ox",
+        "text": "Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Monk",
+          "Mistweaver",
+          "Conduit of the Celestials"
+        ]
+      },
+      {
+        "talent_name": "Trick Shots",
+        "text": "Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Hunter",
+          "Marksmanship"
+        ]
+      },
+      {
+        "talent_name": "Vampiric Strike",
+        "text": "San’layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "date": "2026-10-27",
+        "reason": "SPEC_SCOPE_MISMATCH",
+        "context_path": [
+          "Death Knight",
+          "Unholy",
+          "San’layn"
+        ]
       }
     ],
     "external_non_tree": [
@@ -13280,8 +13954,8 @@ window.WOW_PVP_DATA = {
     ]
   },
   "spellbook_inventory": {
-    "build": "12.1.5.70575",
-    "source_ref": "3af1a7573c59f7ce5c294c2a5bcc266a7de0d0ed",
+    "build": "12.1.5.70961",
+    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
     "baseline_spell_ids": [
       453,
       527,
@@ -13385,6 +14059,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 440006,
           "name": "Purify",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13505,6 +14180,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Spirit of Redemption",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13574,6 +14250,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 17,
           "name": "Prayer of Mending",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -13631,6 +14308,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Serendipity",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [
             {
@@ -13680,6 +14358,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mastery: Echo of Light",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13716,6 +14395,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Priest",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [
             {
@@ -13774,6 +14454,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Stat Negation Aura - Intellect Healer",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "NOT_IN_CLASS_DUMP",
           "effects": [],
           "drustvar_candidate": false,
@@ -13810,6 +14491,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Mass Resurrection",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13834,6 +14516,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Purify Disease",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "REPLACED",
           "effects": [],
           "drustvar_candidate": false,
@@ -13846,6 +14529,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Priest",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13858,6 +14542,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Priest",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -13882,6 +14567,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Single-Button Assistant",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "BASE_ABILITY",
           "effects": [],
           "drustvar_candidate": false,
@@ -13894,6 +14580,7 @@ window.WOW_PVP_DATA = {
           "replaced_spell_id": 0,
           "name": "Holy Priest",
           "passive": false,
+          "source_table": "specialization_spells",
           "classification": "SPECIALIZATION_AURA",
           "effects": [],
           "drustvar_candidate": false,
@@ -15878,30 +16565,30 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "priest-holy",
-  "generated_at": "2026-10-24T16:28:57.980802+00:00",
+  "generated_at": "2026-11-27T12:32:08.564949+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
     "talents": 135,
-    "changed_tooltips": 21,
-    "talents_with_pvp_mechanics": 29,
+    "changed_tooltips": 24,
+    "talents_with_pvp_mechanics": 33,
     "unique_nodes": 119,
-    "tree_build": "12.1.5.70575",
-    "simc_build": "12.1.5.70575",
+    "tree_build": "12.1.5.70961",
+    "simc_build": "12.1.5.70961",
     "drustvar_builds": [
-      "12.1.5.70448"
+      "12.1.5.70783"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 123,
+    "source_warning_count": 124,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 132157,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 121536,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -15929,16 +16616,16 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "3b7df1aaa87d7e0c4bb26f1814d32383c6cb612ae091856fac298e8904641fd3",
-    "captured_at": "2026-10-24T16:13:00.178177+00:00",
-    "parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
-    "captured_parser_hash": "e10ef23fbb50de5cd751ec28bb5572a5127fd365fd96f5b1e568d7156a5120de",
+    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
+    "captured_at": "2026-11-27T12:17:19.308432+00:00",
+    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
     "archival_replay": false,
-    "evidence_hash": "cfc1ed3b525f8e8225c2763ee3a02f71b63f8e7b267d18a7b71e80478d0c0763"
+    "evidence_hash": "f1383d64ff7267163047d95805b805be97bfb5b768ce063f0f6731285a83e90b"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 45,
+    "effect_count": 51,
     "effects": [
       {
         "key": [
@@ -16245,11 +16932,32 @@ window.WOW_PVP_DATA = {
         "amount_kind": "direct",
         "values": {
           "base_value": 0,
-          "spell_pvp_multiplier": 1.0,
+          "spell_pvp_multiplier": 1.3,
           "aura_factor": 0.9,
-          "final_pvp_multiplier": 0.9,
+          "final_pvp_multiplier": 1.1700000000000002,
           "final_pvp_value": null,
           "simc_sp_coefficient": 5.78742,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          103769,
+          391209,
+          391209,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 125.0,
+          "spell_pvp_multiplier": 0.6,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 75.0,
+          "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
@@ -16426,6 +17134,90 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          117279,
+          453845,
+          453846,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117279,
+          453845,
+          453846,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117289,
+          453852,
+          453846,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117289,
+          453852,
+          453846,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           117290,
           440742,
           440742,
@@ -16438,6 +17230,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117291,
+          453799,
+          453799,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -16812,10 +17625,10 @@ window.WOW_PVP_DATA = {
         "amount_kind": null,
         "values": {
           "base_value": 10.0,
-          "spell_pvp_multiplier": 2.0,
+          "spell_pvp_multiplier": 2.5,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 2.0,
-          "final_pvp_value": 20.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -16886,7 +17699,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "9bff1efe0dc033a405ecf1b08108be36cacf147364c079d33a6857b869ecfced",
+    "semantic_hash": "ea1c0a2be744f990cbbbde64e1370406cb17f21271d4d41e126a2ba18150096c",
     "independent_effects": [
       {
         "key": [
@@ -17185,6 +17998,48 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          103767,
+          596,
+          596,
+          2
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.3,
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 1.1700000000000002,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 5.78742,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          103769,
+          391209,
+          391209,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 125.0,
+          "spell_pvp_multiplier": 0.6,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 75.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           103775,
           2050,
           2050,
@@ -17353,6 +18208,90 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          117279,
+          453845,
+          453846,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117279,
+          453845,
+          453846,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117289,
+          453852,
+          453846,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117289,
+          453852,
+          453846,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           117290,
           440742,
           440742,
@@ -17365,6 +18304,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 2.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          117291,
+          453799,
+          453799,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 2.0,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 10.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -17739,10 +18699,10 @@ window.WOW_PVP_DATA = {
         "amount_kind": null,
         "values": {
           "base_value": 10.0,
-          "spell_pvp_multiplier": 2.0,
+          "spell_pvp_multiplier": 2.5,
           "aura_factor": 1.0,
-          "final_pvp_multiplier": 2.0,
-          "final_pvp_value": 20.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": 25.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -17813,6 +18773,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "f1177d027cef3e17ee5249e6515ba9b7a3233c14b2d37a4a533a17b1b45c4662"
+    "independent_hash": "ea1c0a2be744f990cbbbde64e1370406cb17f21271d4d41e126a2ba18150096c"
   }
 };
