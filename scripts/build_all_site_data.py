@@ -461,6 +461,7 @@ async def build_one(
                     previous_keys=blizzard_hotfixes.published_hotfix_keys(
                         "web/data"
                     ),
+                    previous_sources=blizzard_hotfixes.published_hotfix_sources("web/data"),
                 )
             )
         finally:

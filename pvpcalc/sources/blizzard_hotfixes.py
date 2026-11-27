@@ -7,14 +7,16 @@ import json
 from pathlib import Path
 import re
 from typing import Any
+from urllib.parse import urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
 from ..http import CachedClient
 
 
-# Blizzard updates the slug as new dates are added to this rolling article.
-# The article ID redirects to its current canonical title automatically.
+# Legacy article is an archive seed, not the current feed.
+# Discover current Retail articles from Blizzard?s official game index.
+OFFICIAL_HOTFIX_INDEX = "https://news.blizzard.com/en-us/world-of-warcraft"
 OFFICIAL_HOTFIX_URL = (
     "https://news.blizzard.com/en-us/article/24296142"
 )
@@ -787,7 +789,7 @@ def parse_official_pvp_hotfixes(
             raise RuntimeError(
                 "Unparsed numeric PvP hotfix on "
                 f"{latest_numeric_date.isoformat()}: "
-                + "; ".join(new_unparsed[:3])
+                + "; ".join(new_unparsed)
             )
 
     if not parsed:
@@ -899,17 +901,104 @@ def select_official_pvp_hotfixes(
     )
 
 
+def _official_article_id(url: str) -> str:
+    """Validate source ownership; never follow arbitrary links from stored data."""
+    parsed = urlsplit(url)
+    match = re.fullmatch(r"/en-us/article/(\d+)(?:/hotfixes-[a-z]+-\d{1,2}-20\d{2})?/?", parsed.path)
+    if (parsed.scheme != "https" or parsed.netloc != "news.blizzard.com"
+            or parsed.query or parsed.fragment or match is None):
+        raise ValueError(f"Not an official Retail hotfix article URL: {url}")
+    return match[1]
+
+
+def discover_official_hotfix_articles(html: str) -> list[str]:
+    """Find Retail rolling articles, excluding Classic/Forever and other games."""
+    candidates = {}
+    for anchor in BeautifulSoup(html, "lxml").find_all("a", href=True):
+        url = urljoin(OFFICIAL_HOTFIX_INDEX, anchor["href"])
+        try:
+            identity = _official_article_id(url)
+        except ValueError:
+            continue
+        slug = urlsplit(url).path.rstrip("/").rsplit("/", 1)[-1]
+        match = re.fullmatch(r"hotfixes-([a-z]+)-(\d{1,2})-(20\d{2})", slug)
+        if match is None:
+            continue
+        try:
+            published = datetime.strptime("-".join(match.groups()), "%B-%d-%Y").date()
+        except ValueError:
+            continue
+        if identity not in candidates or published > candidates[identity][0]:
+            candidates[identity] = (published, url)
+    if not candidates:
+        raise RuntimeError("No Retail hotfix article found on Blizzard?s official game index")
+    return [url for _, url in sorted(candidates.values(), reverse=True)]
+
+
+def published_hotfix_sources(data_dir: str | Path) -> set[str]:
+    """Keep the article identities used by previous verified publications."""
+    sources = set()
+    for path in sorted(Path(data_dir).glob("*.json")):
+        if path.name == "manifest.json":
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        report = payload.get("official_hotfixes") or {}
+        for url in report.get("source_urls") or [report.get("source_url")]:
+            if url:
+                _official_article_id(url)
+                sources.add(url)
+    return sources
+
+
 async def fetch_official_pvp_hotfixes(
     client: CachedClient,
     *,
     previous_keys: set[tuple[str, str]] | None = None,
+    previous_sources: set[str] | None = None,
 ) -> list[OfficialPvpHotfix]:
-    html = await client.get_text(
-        OFFICIAL_HOTFIX_URL
-    )
-    return select_official_pvp_hotfixes(
-        html,
-        previous_keys=previous_keys,
+    current_urls = discover_official_hotfix_articles(
+        await client.get_text(OFFICIAL_HOTFIX_INDEX))
+    urls = {}
+    for url in sorted(previous_sources or ({OFFICIAL_HOTFIX_URL} if previous_keys else set())):
+        urls[_official_article_id(url)] = url
+    for url in reversed(current_urls):
+        urls[_official_article_id(url)] = url
+
+    previous_keys = previous_keys or set()
+    all_items = {}
+    current_items = []
+    current_ids = {_official_article_id(url) for url in current_urls}
+    for identity, url in urls.items():
+        html = await client.get_text(url)
+        try:
+            items = parse_official_pvp_hotfixes(html, recent_days=None)
+        except RuntimeError as exc:
+            raise RuntimeError(f"Blizzard article {url}: {exc}") from exc
+        for item in items:
+            key = (item.hotfix_date.isoformat() if item.hotfix_date else "", item.text)
+            item = replace(item, source_url=url)
+            # The same wording can legitimately occur under different class
+            # and spec headings. Deduplicate full directive identity, not text.
+            identity_key = (key, item.context_path, item.talent_name, item.mode, item.unit)
+            if identity_key in all_items and replace(all_items[identity_key], source_url=url) != item:
+                raise RuntimeError(f"Conflicting Blizzard directive across articles: {identity_key}")
+            all_items[identity_key] = item
+            if identity in current_ids:
+                current_items.append(item)
+    missing = previous_keys - {key[0] for key in all_items}
+    if missing:
+        raise RuntimeError(f"Previously verified Blizzard PvP hotfix missing from source articles: {sorted(missing)[0]}")
+    newest = max(item.hotfix_date for item in current_items if item.hotfix_date)
+    previous_dates = [date.fromisoformat(day) for day, _ in previous_keys]
+    if previous_dates and newest < max(previous_dates):
+        raise RuntimeError("Blizzard current article is older than the verified directive history")
+    # Include every parsed directive since the previous publication, not just
+    # the last 14 days: a prolonged outage must not discard intervening tuning.
+    cutoff = min(max(previous_dates), newest - timedelta(days=13)) if previous_dates else newest - timedelta(days=13)
+    return sorted(
+        (item for key, item in all_items.items()
+         if key[0] in previous_keys or (item.hotfix_date and item.hotfix_date >= cutoff)),
+        key=lambda item: (item.hotfix_date or date.min, item.talent_name.casefold(), item.text),
     )
 
 
@@ -965,8 +1054,8 @@ def snapshot_for_hotfixes(
     return {
         "source":
             "Blizzard official hotfixes",
-        "source_url":
-            OFFICIAL_HOTFIX_URL,
+        "source_url": max(hotfixes, key=lambda item: item.hotfix_date or date.min).source_url if hotfixes else OFFICIAL_HOTFIX_URL,
+        "source_urls": sorted({item.source_url for item in hotfixes}),
         "latest_date": (
             max(dated).isoformat()
             if dated
@@ -3754,6 +3843,7 @@ def apply_official_pvp_hotfixes(
             snapshot["source"],
         "source_url":
             snapshot["source_url"],
+        "source_urls": snapshot["source_urls"],
         "latest_date":
             snapshot["latest_date"],
         "snapshot_hash":

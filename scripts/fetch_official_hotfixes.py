@@ -20,6 +20,7 @@ async def _run(output: Path, previous_data_dir: Path) -> None:
                 previous_keys=blizzard_hotfixes.published_hotfix_keys(
                     previous_data_dir
                 ),
+                    previous_sources=blizzard_hotfixes.published_hotfix_sources(previous_data_dir),
             )
         )
     finally:
