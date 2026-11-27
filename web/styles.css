@@ -2790,8 +2790,8 @@ details.tooltip-comparison summary {
 .source-caveat { color: var(--muted); font-size: 11px; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin: 42px 0 0; padding: 22px 4px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .site-footer strong { color: #ece5ff; font-weight: 600; }
-.documentation-link { display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border: 1px solid #3a334e; border-radius: 8px; background: #211c30; color: #d6c4ff; text-decoration: none; }
-.documentation-link:hover { border-color: #bca6ff; background: #2e2542; }
+.documentation-link, .client-evidence-link { display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border: 1px solid #3a334e; border-radius: 8px; background: #211c30; color: #d6c4ff; text-decoration: none; }
+.documentation-link:hover, .client-evidence-link:hover { border-color: #bca6ff; background: #2e2542; }
 .documentation { max-width: 1100px; margin: auto; padding: 36px 24px; line-height: 1.75; }
 .documentation h1 { font-size: clamp(32px, 5vw, 54px); line-height: 1.1; margin: 18px 0; letter-spacing: -1.5px; }
 .documentation h2 { font-size: 25px; letter-spacing: -.4px; margin-top: 0; }

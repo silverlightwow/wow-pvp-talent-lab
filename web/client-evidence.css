@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+:root{color-scheme:dark;background:#10131a;color:#e4e7ef;font:15px/1.5 system-ui,sans-serif}
+body{margin:0}
+main{max-width:1150px;margin:auto;padding:24px}
+a{color:#9ec7f4}
+h1{font-size:clamp(1.55rem,4vw,2.4rem);line-height:1.2;margin:16px 0}
+h2{font-size:1.2rem;margin-top:28px}
+header p,p{color:#bfc7d7}
+#controls{display:flex;gap:16px;flex-wrap:wrap;padding:16px 0}
+#controls[hidden]{display:none}
+label{display:grid;gap:6px;flex:1;min-width:min(100%,220px)}
+select,input{background:#1a202a;color:inherit;border:1px solid #526174;border-radius:6px;padding:9px;min-width:0;font:inherit}
+.card{border:1px solid #354152;border-radius:9px;background:#191f29;padding:14px;margin:10px 0;overflow-wrap:anywhere}
+.card h3{margin:0 0 6px;font-size:1rem}
+.card p{margin:5px 0}
+small{color:#a5b1c3}
+summary{cursor:pointer;margin-top:10px;color:#9ec7f4}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:.88rem}
+table{border-collapse:collapse;width:100%;margin-top:8px}
+th,td{text-align:left;border-bottom:1px solid #354152;padding:6px 8px;font-variant-numeric:tabular-nums}
+.table-wrap{overflow-x:auto}
+.warning{color:#f0c77b}
+.good{color:#9ddac0}
+@media(max-width:500px){main{padding:12px}.card{padding:10px}th,td{padding:5px}}
+
+main, header, section, p {overflow-wrap:anywhere;min-width:0}
+label {grid-template-columns:minmax(0,1fr)}
+select,input {width:100%;max-width:100%}

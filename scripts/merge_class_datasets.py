@@ -63,6 +63,10 @@ def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dic
     try:
         if output_dir.exists():
             shutil.copytree(output_dir, staging, dirs_exist_ok=True)
+        # Supplemental data is tied to the source hash, not reusable on a
+        # newly assembled or recovered snapshot. A fresh build regenerates it.
+        if (staging / "client-evidence").exists():
+            shutil.rmtree(staging / "client-evidence")
         for p in staging.iterdir():
             if p.is_file() and p.suffix in {'.json', '.js'}:
                 p.unlink()

@@ -379,6 +379,12 @@ def _flat_scalar_unit(dump, sid, index):
     def collect(text, token):
         if re.search(token + r"\s*%", text):
             units.add("percent")
+        # Both alternatives share the trailing literal percent sign.
+        # This proves the unit, not the selected talent or spec branch.
+        branches=re.finditer(r"\$\?(?:a\d+|c\d+)\[([^\[\]]+)\]\[([^\[\]]+)\]\s*%",text)
+        for match in branches:
+            if any(re.fullmatch(token,part.strip()) for part in match.groups()):
+                units.add("percent")
         if re.search(r"\$\{(?:-?" + token + r"|\d+(?:\.\d+)?\s*[+-]\s*" +
                      token + r")\}\s*%", text):
             units.add("percent")
@@ -394,6 +400,11 @@ def _flat_scalar_unit(dump, sid, index):
         if parent.spell_id != sid and re.search(qualified,parent.raw):
             for line in simc._player_text_sections(parent.raw):
                 collect(line,qualified)
+    # A percentage spell modifier has percentage-point units even if
+    # it is a hidden periodic/direct sibling with no player-facing token.
+    effect=simc.effect_for_spell(dump,sid,index)
+    if effect and re.search(r"\b(?:Add Percent Modifier \(108\)|Apply Percent Modifier w/ Label \(218\)):",effect.effect_text):
+        units.add("percent")
     return next(iter(units)) if len(units)==1 else None
 
 
