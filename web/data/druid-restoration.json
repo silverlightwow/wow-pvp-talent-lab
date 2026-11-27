@@ -13037,6 +13037,131 @@
       "player_description_status": "AVAILABLE"
     },
     {
+      "talent_name": "Barkskin",
+      "spell_id": 22812,
+      "node_id": null,
+      "entry_id": null,
+      "definition_id": null,
+      "tree_type": "ability",
+      "hero_tree": null,
+      "tree_data": {
+        "spell_id": 22812,
+        "talent_name": "Barkskin",
+        "tree_type": "ability",
+        "entry_type": "ability",
+        "passive": false,
+        "player_text_available": true,
+        "class_id": 11,
+        "spec_id": 105,
+        "source": "simc_exact_build_spellbook",
+        "wow_build": "12.1.5.70961",
+        "icon": "spell_nature_stoneclawtotem",
+        "icon_candidates": [
+          "spell_nature_stoneclawtotem"
+        ]
+      },
+      "pve_tooltip": "Instant\n1 min cooldown\nYour skin becomes as tough as bark, reducing all damage you take by 20% and preventing damage from delaying your spellcasts. Lasts 8 sec.\nUsable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nYour skin becomes as tough as bark, reducing all damage you take by 30% and preventing damage from delaying your spellcasts. Lasts 8 sec.\nUsable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 91,
+          "end": 93,
+          "old_token": "20",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "20",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 20.0,
+              "new": 30.0,
+              "kind": "percent_value",
+              "expression": "$s1",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            },
+            {
+              "old": 20.0,
+              "new": 30.0,
+              "kind": "percent_value",
+              "expression": "$w1",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 22812,
+          "source_spell_id": 22812,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.5,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256995,
+              "game_effect_id": 1315889,
+              "amount_kind": "effect:1",
+              "value_pct": -10.0,
+              "factor": 1.5,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -10.0,
+              "projection_base_value": -20.0,
+              "target_label_id": null,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1,
+      "rank_tooltips": [],
+      "player_description_status": "AVAILABLE"
+    },
+    {
       "talent_name": "Mangle",
       "spell_id": 33917,
       "node_id": null,
@@ -13938,13 +14063,13 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 145108,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 132469,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 145205,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145205'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 145108,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14523,8 +14648,8 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 125972,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=125972'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 137009,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137009'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14676,7 +14801,7 @@
       "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
     ],
     "latest_date": "2026-10-27",
-    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
+    "snapshot_hash": "604c7a4a3590c4f6239db5c51dc3393f6fc2d9a49a5d528fc105fea8b926119b",
     "applied": [],
     "already_current": [
       {
@@ -14833,17 +14958,6 @@
         ]
       },
       {
-        "talent_name": "Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow",
-          "Shadow Word"
-        ]
-      },
-      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -14911,17 +15025,6 @@
       {
         "talent_name": "Focused Outburst",
         "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Holy",
-          "Archon"
-        ]
-      },
-      {
-        "talent_name": "Halo damage and",
-        "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -15200,15 +15303,6 @@
         ]
       },
       {
-        "talent_name": "Absolute Faith",
-        "text": "Absolute Faith absorption increased by 113%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
-        ]
-      },
-      {
         "talent_name": "Blightfall",
         "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
         "date": "2026-10-06",
@@ -15216,119 +15310,6 @@
         "context_path": [
           "Death Knight",
           "Unholy"
-        ]
-      },
-      {
-        "talent_name": "Bloodstone",
-        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock"
-        ]
-      },
-      {
-        "talent_name": "Bonds of Fel",
-        "text": "Bonds of Fel damage increased by 100%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock"
-        ]
-      },
-      {
-        "talent_name": "Call Fel Lord’s Fel Cleave",
-        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock",
-          "Demonology"
-        ]
-      },
-      {
-        "talent_name": "Call of Al’Akir",
-        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Shaman",
-          "Restoration"
-        ]
-      },
-      {
-        "talent_name": "Cover of Darkness",
-        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter"
-        ]
-      },
-      {
-        "talent_name": "Dark Simulacrum",
-        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight"
-        ]
-      },
-      {
-        "talent_name": "Death Chain",
-        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Death Chain",
-        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Death from Above",
-        "text": "Death from Above now increases damage by 30% (was 15%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Rogue"
-        ]
-      },
-      {
-        "talent_name": "Death’s Cold Embrace",
-        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dragon Charge",
-        "text": "Dragon Charge damage increased by 300%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warrior"
-        ]
-      },
-      {
-        "talent_name": "Dreamwalker’s Embrace",
-        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Evoker"
         ]
       },
       {
@@ -15359,280 +15340,6 @@
         "context_path": [
           "Shaman",
           "Restoration"
-        ]
-      },
-      {
-        "talent_name": "Electrocute",
-        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Shaman"
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Duration increased to 10 seconds (was 6 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Focused Assault now stacks to 6 times (was 5).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Range increased to 15 yards (was 10 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Frost Bomb",
-        "text": "Frost Bomb damage increased by 150%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Glass Cannon",
-        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Fire"
-        ]
-      },
-      {
-        "talent_name": "Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery",
-          "Dire Beast"
-        ]
-      },
-      {
-        "talent_name": "Healing Sphere",
-        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Mistweaver"
-        ]
-      },
-      {
-        "talent_name": "Healing Sphere",
-        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Mistweaver"
-        ]
-      },
-      {
-        "talent_name": "Hunting Pack",
-        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter"
-        ]
-      },
-      {
-        "talent_name": "Icy Feet",
-        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter",
-          "Havoc"
-        ]
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter",
-          "Vengeance"
-        ]
-      },
-      {
-        "talent_name": "Improved Mass Dispel",
-        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
-        ]
-      },
-      {
-        "talent_name": "Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Mighty Ox Kick",
-        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk"
-        ]
-      },
-      {
-        "talent_name": "Moon and Stars",
-        "text": "Moon and Stars radius increased by 60%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Balance"
-        ]
-      },
-      {
-        "talent_name": "Perpetual Paralysis",
-        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Windwalker"
-        ]
-      },
-      {
-        "talent_name": "Perpetual Paralysis",
-        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Windwalker"
-        ]
-      },
-      {
-        "talent_name": "Price of Progress",
-        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Price of Progress",
-        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Seismic Slam",
-        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Evoker",
-          "Augmentation"
-        ]
-      },
-      {
-        "talent_name": "Spellbreaker",
-        "text": "Spellbreaker damage increased by 50%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Paladin"
-        ]
-      },
-      {
-        "talent_name": "Thick as Thieves",
-        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Rogue"
-        ]
-      },
-      {
-        "talent_name": "Tireless Pursuit",
-        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Balance"
-        ]
-      },
-      {
-        "talent_name": "Ultimate Retribution",
-        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Paladin",
-          "Retribution"
-        ]
-      },
-      {
-        "talent_name": "World in Flames",
-        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Fire"
         ]
       },
       {
@@ -15974,6 +15681,7 @@
       8921,
       8936,
       22568,
+      22812,
       33917,
       77758,
       405834,
@@ -16458,9 +16166,27 @@
           "name": "Barkskin",
           "passive": false,
           "classification": "BASE_ABILITY",
-          "effects": [],
+          "effects": [
+            {
+              "source_spell_id": 22812,
+              "effect_index": 1,
+              "game_effect_id": 13023,
+              "base_value": -20.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                22812
+              ],
+              "player_text": [
+                "Your skin becomes as tough as bark, reducing all damage you take by $s1%$?a301768["
+              ]
+            }
+          ],
           "drustvar_candidate": false,
-          "aura_candidate": false
+          "aura_candidate": true
         },
         {
           "class_id": 11,
@@ -18829,10 +18555,10 @@
     }
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-11-27T12:29:01.637918+00:00",
+  "generated_at": "2026-11-27T13:24:14.224176+00:00",
   "validation": {
-    "abilities": 11,
-    "abilities_with_pvp_mechanics": 11,
+    "abilities": 12,
+    "abilities_with_pvp_mechanics": 12,
     "talents": 147,
     "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 35,
@@ -18861,13 +18587,13 @@
       },
       {
         "source": "wowhead",
-        "spell_id": 145108,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 132469,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 145205,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145205'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 145108,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -18880,16 +18606,16 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
-    "captured_at": "2026-11-27T12:17:19.308432+00:00",
-    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
-    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
+    "captured_at": "2026-11-27T13:12:53.604140+00:00",
+    "parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
+    "captured_parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
     "archival_replay": false,
-    "evidence_hash": "32cf69f7afd90f7a480705a9e922be7600f65212fafa401fc5fc239fd9e84758"
+    "evidence_hash": "953c3d49b86b6e4da5dc0823a9235c50909254af6a94c4f2240c0f9d0d7e4c87"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 63,
+    "effect_count": 64,
     "effects": [
       {
         "key": [
@@ -19034,6 +18760,27 @@
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.452,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          22812,
+          22812,
+          22812,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.5,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -30.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -20215,7 +19962,7 @@
         }
       }
     ],
-    "semantic_hash": "d99508850fb3619e69bc94f4178176bf8ffcd4ad59aa40b92af28c4df872f837",
+    "semantic_hash": "a9b7cc6fc23d1c0ad1cffacbf3884660c8df71cdb1504b025aa26573ace0a7d5",
     "independent_effects": [
       {
         "key": [
@@ -20360,6 +20107,27 @@
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 1.452,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          22812,
+          22812,
+          22812,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 1.5,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -30.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -21478,6 +21246,6 @@
         }
       }
     ],
-    "independent_hash": "020c061540266fdccd86d410bb8560178a34b2dfa2e90e55ac52a3ee515626d3"
+    "independent_hash": "b49cd4192d0fd49dcb29ddf2910627295d2472e0a67cfdfcbf3e1ca18129bf54"
   }
 }

@@ -2900,14 +2900,102 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
-      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 20%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 116,
+          "end": 118,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "30",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 30.0,
+              "new": 20.0,
+              "kind": "percent_value",
+              "expression": "$s1",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            },
+            {
+              "old": 30.0,
+              "new": 20.0,
+              "kind": "percent_value",
+              "expression": "$w1",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 6940,
+          "source_spell_id": 6940,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Split Damage % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.6666666666666666,
+          "final_pvp_multiplier": 0.6666666666666666,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079865,
+              "amount_kind": "effect:1",
+              "value_pct": -10.0,
+              "factor": 0.6666666666666666,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -10.0,
+              "projection_base_value": 30.0,
+              "target_label_id": 2655,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -3591,14 +3679,86 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 49,
+          "end": 51,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "60",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 384820,
+          "source_spell_id": 384820,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Cooldown (11)",
+          "base_value": -60000.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -30000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1350110,
+              "amount_kind": "effect:1",
+              "value_pct": 30000.0,
+              "factor": 0.5,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": 30000.0,
+              "projection_base_value": -60000.0,
+              "target_label_id": 2651,
+              "flat_unit": "milliseconds"
+            }
+          ],
+          "sources": [
+            "simc",
+            "simc_exact_flat_pvp_aura"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -4008,14 +4168,94 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
-      "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 146,
+          "end": 148,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "30",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 30.0,
+              "new": 20.0,
+              "kind": "percent_value",
+              "expression": "$s1",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 114154,
+          "source_spell_id": 114154,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.6666666666666666,
+          "final_pvp_multiplier": 0.6666666666666666,
+          "final_pvp_value": -20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1350142,
+              "amount_kind": "effect:1",
+              "value_pct": 10.0,
+              "factor": 0.6666666666666666,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": 10.0,
+              "projection_base_value": -30.0,
+              "target_label_id": 7093,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -6328,6 +6568,16 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "percent_value",
+          "old": 20.0,
+          "new": 15.0,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 40.0,
@@ -6346,6 +6596,73 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 20.0,
+              "new": 15.0,
+              "kind": "percent_value",
+              "expression": "$s2",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            },
+            {
+              "old": 20.0,
+              "new": 15.0,
+              "kind": "percent_value",
+              "expression": "$w2",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 31884,
+          "source_spell_id": 31884,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1140346,
+              "amount_kind": "effect:2",
+              "value_pct": -5.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -5.0,
+              "projection_base_value": 20.0,
+              "target_label_id": null,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
         {
           "display_formulas": [],
           "conditional_display_formulas": [],
@@ -6486,7 +6803,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 3,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9535,14 +9852,95 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Avenging Wrath empowers your next damage dealing single target Holy Power ability to automatically activate Divine Storm with 25% increased effectiveness.",
-      "pvp_tooltip": "Avenging Wrath empowers your next damage dealing single target Holy Power ability to automatically activate Divine Storm with 25% increased effectiveness.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Avenging Wrath empowers your next damage dealing single target Holy Power ability to automatically activate Divine Storm with 15% increased effectiveness.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 126,
+          "end": 128,
+          "old_token": "25",
+          "new_token": "15",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "25",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 25.0,
+              "new": 15.0,
+              "kind": "percent_value",
+              "expression": "$s2",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 387170,
+          "source_spell_id": 387170,
+          "effect_index": 2,
+          "effect_text": "Dummy (3)",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.6,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1266256,
+              "amount_kind": "effect:2",
+              "value_pct": -10.0,
+              "factor": 0.6,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -10.0,
+              "projection_base_value": 25.0,
+              "target_label_id": 2627,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "simc",
+            "simc_exact_flat_pvp_aura"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -9658,8 +10056,65 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 458359,
+          "source_spell_id": 454351,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            458359,
+            454351
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1140346,
+              "amount_kind": "effect:2",
+              "value_pct": -5.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -5.0,
+              "projection_base_value": 20.0,
+              "target_label_id": null,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "simc",
+            "simc_exact_flat_pvp_aura",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
@@ -9771,14 +10226,96 @@ window.WOW_PVP_DATA = {
         ]
       },
       "pve_tooltip": "Avenging Wrath now grants you 2% Haste.\nEach Holy Power spent during Avenging Wrath increases Haste by an additional 2%, up to 20%.",
-      "pvp_tooltip": "Avenging Wrath now grants you 2% Haste.\nEach Holy Power spent during Avenging Wrath increases Haste by an additional 2%, up to 20%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pvp_tooltip": "Avenging Wrath now grants you 2% Haste.\nEach Holy Power spent during Avenging Wrath increases Haste by an additional 2%, up to 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 127,
+          "end": 129,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "20",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "display_formulas": [
+            {
+              "old": 20.0,
+              "new": 10.0,
+              "kind": "percent_value",
+              "expression": "$s2",
+              "source": "simc_exact_build",
+              "build": "12.1.5.70961"
+            }
+          ],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1253598,
+          "source_spell_id": 1253598,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1266256,
+              "amount_kind": "effect:2",
+              "value_pct": -10.0,
+              "factor": 0.5,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -10.0,
+              "projection_base_value": 20.0,
+              "target_label_id": 2627,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "simc",
+            "simc_exact_flat_pvp_aura",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     },
@@ -14471,6 +15008,16 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
+          "old": 20.0,
+          "new": 10.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "percent_value",
           "old": 40.0,
           "new": 26.663999999999998,
           "full_tooltip_match_count": 0
@@ -14478,6 +15025,61 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 384376,
+          "source_spell_id": 31884,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            384376,
+            31884
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1140346,
+              "amount_kind": "effect:2",
+              "value_pct": -5.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -5.0,
+              "projection_base_value": 20.0,
+              "target_label_id": null,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
         {
           "display_formulas": [],
           "conditional_display_formulas": [],
@@ -14526,6 +15128,64 @@ window.WOW_PVP_DATA = {
           "sources": [
             "simc",
             "drustvar",
+            "simc_generated"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "display_formulas": [],
+          "conditional_display_formulas": [],
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null,
+          "baseline_effective_factor": null,
+          "baseline_modifiers": [],
+          "unmodified_base_value": null,
+          "coefficient_based": false,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 384376,
+          "source_spell_id": 1253598,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            384376,
+            31884,
+            1253598
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1266256,
+              "amount_kind": "effect:2",
+              "value_pct": -10.0,
+              "factor": 0.5,
+              "label_id": null,
+              "build": "12.1.5.70961",
+              "source": "simc_exact_flat_pvp_aura",
+              "operation": "add_flat_value",
+              "flat_delta": -10.0,
+              "projection_base_value": 20.0,
+              "target_label_id": 2627,
+              "flat_unit": "percent"
+            }
+          ],
+          "sources": [
+            "simc",
+            "simc_exact_flat_pvp_aura",
             "simc_generated"
           ],
           "source_notes": [],
@@ -14624,7 +15284,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 3,
       "rank_tooltips": [],
       "player_description_status": "AVAILABLE"
     }
@@ -14932,6 +15592,11 @@ window.WOW_PVP_DATA = {
     ]
   },
   "source_warnings": [
+    {
+      "source": "wowhead",
+      "spell_id": 146956,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "source": "wowhead",
       "spell_id": 156322,
@@ -15564,6 +16229,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 123830,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123830'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 137026,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -15769,6 +16439,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 454351,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=454351'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 462092,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462092'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -15786,6 +16461,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1229376,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1229376'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 1253598,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1253598'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -15807,7 +16487,7 @@ window.WOW_PVP_DATA = {
       "https://news.blizzard.com/en-us/article/24307310/hotfixes-november-24-2026"
     ],
     "latest_date": "2026-10-27",
-    "snapshot_hash": "dd594128a822fbfa1ef8960b03a56d19fc6064942b3ae3340a8e17a4342c07fb",
+    "snapshot_hash": "604c7a4a3590c4f6239db5c51dc3393f6fc2d9a49a5d528fc105fea8b926119b",
     "applied": [],
     "already_current": [
       {
@@ -15973,17 +16653,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Death",
-        "text": "Shadow Word: Death damage increased by 30% in PvP combat.",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Shadow",
-          "Shadow Word"
-        ]
-      },
-      {
         "talent_name": "Deathly Blows",
         "text": "Deathly Blows now increases Death Strike damage by 20% (was 12%).",
         "date": "2026-09-22",
@@ -16051,17 +16720,6 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Focused Outburst",
         "text": "Focused Outburst now reduces the cast time of Prayer of Healing by 40% in PvP combat (was 15%).",
-        "date": "2026-09-22",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest",
-          "Holy",
-          "Archon"
-        ]
-      },
-      {
-        "talent_name": "Halo damage and",
-        "text": "Halo damage and healing increased by 30% in PvP combat.",
         "date": "2026-09-22",
         "reason": "SPEC_SCOPE_MISMATCH",
         "context_path": [
@@ -16330,15 +16988,6 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "talent_name": "Absolute Faith",
-        "text": "Absolute Faith absorption increased by 113%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
-        ]
-      },
-      {
         "talent_name": "Blightfall",
         "text": "Blightfall now deals 100% of the remaining plague damage (was 200%).",
         "date": "2026-10-06",
@@ -16346,119 +16995,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Death Knight",
           "Unholy"
-        ]
-      },
-      {
-        "talent_name": "Bloodstone",
-        "text": "Bloodstone duration increased to 18 seconds (was 12 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock"
-        ]
-      },
-      {
-        "talent_name": "Bonds of Fel",
-        "text": "Bonds of Fel damage increased by 100%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock"
-        ]
-      },
-      {
-        "talent_name": "Call Fel Lord’s Fel Cleave",
-        "text": "Call Fel Lord’s Fel Cleave damage increased by 150%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warlock",
-          "Demonology"
-        ]
-      },
-      {
-        "talent_name": "Call of Al’Akir",
-        "text": "Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Shaman",
-          "Restoration"
-        ]
-      },
-      {
-        "talent_name": "Cover of Darkness",
-        "text": "Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter"
-        ]
-      },
-      {
-        "talent_name": "Dark Simulacrum",
-        "text": "Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight"
-        ]
-      },
-      {
-        "talent_name": "Death Chain",
-        "text": "Death Chain (PvP Talent) initial damage increased by 500%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Death Chain",
-        "text": "Death Chain (PvP Talent) now affects 4 targets (was 3).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Death from Above",
-        "text": "Death from Above now increases damage by 30% (was 15%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Rogue"
-        ]
-      },
-      {
-        "talent_name": "Death’s Cold Embrace",
-        "text": "Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Dragon Charge",
-        "text": "Dragon Charge damage increased by 300%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Warrior"
-        ]
-      },
-      {
-        "talent_name": "Dreamwalker’s Embrace",
-        "text": "Dreamwalker’s Embrace damage i0ncreased by 140%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Evoker"
         ]
       },
       {
@@ -16489,281 +17025,6 @@ window.WOW_PVP_DATA = {
         "context_path": [
           "Shaman",
           "Restoration"
-        ]
-      },
-      {
-        "talent_name": "Electrocute",
-        "text": "Electrocute damage increased by 100% and is now a rolling periodic.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Shaman"
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Cooldown reduced to 15 seconds (was 20 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Duration increased to 10 seconds (was 6 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Focused Assault now stacks to 6 times (was 5).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Focused Assault",
-        "text": "Range increased to 15 yards (was 10 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Tank Specializations",
-          "Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor."
-        ]
-      },
-      {
-        "talent_name": "Frost Bomb",
-        "text": "Frost Bomb damage increased by 150%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Glass Cannon",
-        "text": "Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Fire"
-        ]
-      },
-      {
-        "talent_name": "Hawk",
-        "text": "Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter",
-          "Beast Mastery",
-          "Dire Beast"
-        ]
-      },
-      {
-        "talent_name": "Healing Sphere",
-        "text": "Healing Sphere (PvP Talent) healing increased by 100%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Mistweaver"
-        ]
-      },
-      {
-        "talent_name": "Healing Sphere",
-        "text": "Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Mistweaver"
-        ]
-      },
-      {
-        "talent_name": "Hunting Pack",
-        "text": "Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Hunter"
-        ]
-      },
-      {
-        "talent_name": "Icy Feet",
-        "text": "Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Frost"
-        ]
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter",
-          "Havoc"
-        ]
-      },
-      {
-        "talent_name": "Illidan’s Grasp",
-        "text": "Illidan’s Grasp damage increased by 50%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Demon Hunter",
-          "Vengeance"
-        ]
-      },
-      {
-        "talent_name": "Improved Mass Dispel",
-        "text": "Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Priest"
-        ]
-      },
-      {
-        "talent_name": "Mass Blooming",
-        "text": "Ancient of Lore: Mass Blooming healing increased by 30%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Restoration",
-          "Ancient of Lore"
-        ]
-      },
-      {
-        "talent_name": "Mighty Ox Kick",
-        "text": "Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk"
-        ]
-      },
-      {
-        "talent_name": "Moon and Stars",
-        "text": "Moon and Stars radius increased by 60%.",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Balance"
-        ]
-      },
-      {
-        "talent_name": "Perpetual Paralysis",
-        "text": "Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Windwalker"
-        ]
-      },
-      {
-        "talent_name": "Perpetual Paralysis",
-        "text": "Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Monk",
-          "Windwalker"
-        ]
-      },
-      {
-        "talent_name": "Price of Progress",
-        "text": "Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Price of Progress",
-        "text": "Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Death Knight",
-          "Blood"
-        ]
-      },
-      {
-        "talent_name": "Seismic Slam",
-        "text": "Seismic Slam stuns enemies for 5 seconds (was 4 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Evoker",
-          "Augmentation"
-        ]
-      },
-      {
-        "talent_name": "Spellbreaker",
-        "text": "Spellbreaker damage increased by 50%.",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "relative_increase",
-        "unit": "percent",
-        "property": null,
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "Thick as Thieves",
-        "text": "Thick as Thieves duration increased to 10 seconds (was 6 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Rogue"
-        ]
-      },
-      {
-        "talent_name": "Tireless Pursuit",
-        "text": "Tireless Pursuit duration increased to 6 seconds (was 3 seconds).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Druid",
-          "Balance"
-        ]
-      },
-      {
-        "talent_name": "Ultimate Retribution",
-        "text": "Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).",
-        "reason": "OUTSIDE_CLASS_SPEC_CATALOG",
-        "mode": "property_absolute",
-        "unit": "seconds",
-        "property": "duration",
-        "date": "2026-10-06"
-      },
-      {
-        "talent_name": "World in Flames",
-        "text": "World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).",
-        "date": "2026-10-06",
-        "reason": "SPEC_SCOPE_MISMATCH",
-        "context_path": [
-          "Mage",
-          "Fire"
         ]
       },
       {
@@ -17954,6 +18215,24 @@ window.WOW_PVP_DATA = {
           "classification": "BASE_ABILITY",
           "effects": [
             {
+              "source_spell_id": 31884,
+              "effect_index": 2,
+              "game_effect_id": 21557,
+              "base_value": 20.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                384376,
+                31884
+              ],
+              "player_text": [
+                "increasing your damage, healing, and critical strike chance by $s2%$?s1253598["
+              ]
+            },
+            {
               "source_spell_id": 326731,
               "effect_index": 1,
               "game_effect_id": 817884,
@@ -17969,6 +18248,25 @@ window.WOW_PVP_DATA = {
                 326731
               ],
               "player_text": []
+            },
+            {
+              "source_spell_id": 1253598,
+              "effect_index": 2,
+              "game_effect_id": 1259496,
+              "base_value": 20.0,
+              "pvp_coefficient": 1.0,
+              "current_pvp_coefficient": 1.0,
+              "sp_coefficient": null,
+              "ap_coefficient": null,
+              "published": true,
+              "dependency_path": [
+                384376,
+                31884,
+                1253598
+              ],
+              "player_text": [
+                "Each Holy Power spent during Avenging Wrath increases Haste by an additional $s1%, up to $s2%."
+              ]
             },
             {
               "source_spell_id": 204074,
@@ -20118,13 +20416,13 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "paladin-retribution",
-  "generated_at": "2026-11-27T12:32:04.641760+00:00",
+  "generated_at": "2026-11-27T13:26:47.992522+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
     "talents": 137,
-    "changed_tooltips": 30,
-    "talents_with_pvp_mechanics": 39,
+    "changed_tooltips": 35,
+    "talents_with_pvp_mechanics": 45,
     "unique_nodes": 116,
     "tree_build": "12.1.5.70961",
     "simc_build": "12.1.5.70961",
@@ -20133,11 +20431,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 173,
+    "source_warning_count": 177,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 146956,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=146956'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 156322,
@@ -20157,11 +20460,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 190784,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=190784'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 199422,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199422'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -20169,16 +20467,16 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "13324b3b4d3503bdfd57e70222239fbcd746232a056284571442cba6e62f4a18",
-    "captured_at": "2026-11-27T12:17:19.308432+00:00",
-    "parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
-    "captured_parser_hash": "b19451ba4e9f378264e27b7704668bab0e36f0030526234846a9f1e01c3a20da",
+    "snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
+    "captured_at": "2026-11-27T13:12:53.604140+00:00",
+    "parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
+    "captured_parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
     "archival_replay": false,
-    "evidence_hash": "e0e50005253570f8013034de31ce5d1de34a9b74035ea18eceaa91f8f769d5d2"
+    "evidence_hash": "dbecabf95f038ba35fd60b06b919348fa8f41dc8f28f1fff52c3d78d148a346c"
   },
   "coverage": {
     "schema": 1,
-    "effect_count": 93,
+    "effect_count": 102,
     "effects": [
       {
         "key": [
@@ -20374,6 +20672,27 @@ window.WOW_PVP_DATA = {
           "abilities",
           384376,
           384376,
+          1253598,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          384376,
+          384376,
           204074,
           1
         ],
@@ -20405,6 +20724,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.6666,
           "final_pvp_value": -26.663999999999998,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          384376,
+          384376,
+          31884,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -20773,6 +21113,27 @@ window.WOW_PVP_DATA = {
           "talents",
           102519,
           31884,
+          31884,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102519,
+          31884,
           326731,
           1
         ],
@@ -20806,6 +21167,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.585195,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102525,
+          458359,
+          454351,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -20951,6 +21333,69 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 0.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102595,
+          384820,
+          384820,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -60000.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -30000.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102602,
+          6940,
+          6940,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6666666666666666,
+          "final_pvp_multiplier": 0.6666666666666666,
+          "final_pvp_value": 20.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102603,
+          114154,
+          114154,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6666666666666666,
+          "final_pvp_multiplier": 0.6666666666666666,
+          "final_pvp_value": -20.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -21329,6 +21774,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": -20.00001,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          115453,
+          387170,
+          387170,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -21884,6 +22350,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          135565,
+          1253598,
+          1253598,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           136003,
           1260429,
           1260429,
@@ -22134,7 +22621,7 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "semantic_hash": "b60759a12d84896665f469d9c6f51b05736d948ec0947ead2b4db55c2ba1b543",
+    "semantic_hash": "7c98901353a3127b2385f5dd9da5c4e3ef1a1df42c9afea7cdea2d7916b188d9",
     "independent_effects": [
       {
         "key": [
@@ -22330,6 +22817,27 @@ window.WOW_PVP_DATA = {
           "abilities",
           384376,
           384376,
+          1253598,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          384376,
+          384376,
           204074,
           1
         ],
@@ -22361,6 +22869,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.6666,
           "final_pvp_value": -26.663999999999998,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "abilities",
+          384376,
+          384376,
+          31884,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -22708,6 +23237,27 @@ window.WOW_PVP_DATA = {
           "talents",
           102519,
           31884,
+          31884,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102519,
+          31884,
           326731,
           1
         ],
@@ -22741,6 +23291,27 @@ window.WOW_PVP_DATA = {
           "final_pvp_value": null,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": 0.585195,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102525,
+          458359,
+          454351,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
           "scaled_base_value": null,
           "scaled_final_pvp_value": null
         }
@@ -22886,6 +23457,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
           "final_pvp_value": 0.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          102595,
+          384820,
+          384820,
+          1
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": -60000.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -30000.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -23264,6 +23856,27 @@ window.WOW_PVP_DATA = {
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.666667,
           "final_pvp_value": -20.00001,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
+          115453,
+          387170,
+          387170,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
           "simc_sp_coefficient": null,
           "simc_ap_coefficient": null,
           "scaled_base_value": null,
@@ -23819,6 +24432,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          135565,
+          1253598,
+          1253598,
+          2
+        ],
+        "amount_kind": null,
+        "values": {
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "simc_sp_coefficient": null,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           136003,
           1260429,
           1260429,
@@ -24069,6 +24703,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "be89e8fe9d8faf23a0dd68e025440861b8b0958adc983a73b02503e252a0dded"
+    "independent_hash": "fd72241b5fc867ec7d55658aec4a1f1e03485cfa74ea41a552600060e0fe8521"
   }
 };
