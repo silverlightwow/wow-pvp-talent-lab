@@ -16,7 +16,8 @@ from pvpcalc.snapshot import HttpSnapshot
 from pvpcalc.sources import raidbots, simc
 
 
-def audit_spec(dump, payload, *, class_name, spec_name, spec_names, generated_labels=None):
+def audit_spec(dump, payload, *, class_name, spec_name, spec_names, generated_labels=None,
+               baseline_spec_ids=()):
     scoped=simc.scope_dump_to_specialization(dump,class_name=class_name,
         spec_name=spec_name,spec_names=spec_names)
     rules=pvp_aura.normalize_current_spec_aura(payload,class_name=class_name,spec_name=spec_name)
@@ -53,6 +54,23 @@ def audit_spec(dump, payload, *, class_name, spec_name, spec_names, generated_la
                 proof=flat_by_id[eid]
                 statuses=Counter(t["status"] for t in proof["targets"])
                 row.update(status="FLAT_TARGET_INVENTORY",target_statuses=dict(statuses),targets=proof["targets"])
+                from pvpcalc.passive_modifiers import exact_spec_flat_baseline
+                for target in row["targets"]:
+                    if target["status"]!="COMBINED_MODIFIER_ORDER_UNPROVED":
+                        continue
+                    baseline=exact_spec_flat_baseline(scoped,target["spell_id"],target["effect_index"],
+                        spec_source_ids=baseline_spec_ids,pvp_source_ids={int(a["id"]) for a in selected})
+                    if baseline is not None:
+                        target["regular_specialization_baseline"]=baseline
+                        base=baseline["baseline_value"]
+                        coefficient=target.get("spell_pvp_coefficient")
+                        if coefficient is not None:
+                            delta=proof["raw_delta"]
+                            target["candidate_order_values"]={
+                                "coefficient_then_flat":base*coefficient+delta,
+                                "flat_then_coefficient":(base+delta)*coefficient,
+                                "flat_without_spell_coefficient":base+delta}
+
             else:
                 row["status"]="UNSUPPORTED_AURA_OPERATION"
                 label=re.search(r"Misc Value 2:\s*(\d+)\s*\(Label\)",block)
@@ -102,8 +120,12 @@ def audit(snapshot_dir,raidbots_file):
             spec_id_to_name={s["spec_id"]:s["spec_name"] for s in cls})
         payload=json.loads(snapshot.read("https://drustvar.com/api/v1/pvp-auras/"+class_name.casefold().replace(" ","-")))
         for item in cls:
+            baseline_ids={r["spell_id"] for r in tables if r.get("source_table")=="specialization_spells"
+                and r["class_id"]==item["class_id"] and r["spec_id"]==item["spec_id"]
+                and r["name"].casefold()==f'{item["spec_name"]} {class_name}'.casefold()}
             row=audit_spec(dump,payload,class_name=class_name,
-                spec_name=item["spec_name"],spec_names=spec_names,generated_labels=labels_by_ref[ref])
+                spec_name=item["spec_name"],spec_names=spec_names,generated_labels=labels_by_ref[ref],
+                baseline_spec_ids=baseline_ids)
             row.update(class_id=item["class_id"],spec_id=item["spec_id"])
             result.append(row)
     status=Counter(e["status"] for r in result for e in r["effects"])

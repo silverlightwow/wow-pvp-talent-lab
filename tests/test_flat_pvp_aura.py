@@ -76,6 +76,10 @@ Description      : Duration $s1 seconds.
 
 @pytest.mark.parametrize("description,expected",[
     ("Damage increased by $w1%.","percent"),
+    ("Damage increased by $?a212613[$s1][$s3]%.","percent"),
+    ("Damage increased by $?a212613[$s3][$s1]%.","percent"),
+    ("Damage increased by $?c1[$s1][$s3]%.","percent"),
+    ("Damage increased by $?a212613[$s1][$s3] seconds.",None),
     ("Damage increased by ${-$s1}%.","percent"),
     ("Critical damage ${200+$s1}%.","percent"),
     ("Reduces cooldown by ${$m1/-1000} sec.","milliseconds"),
@@ -148,3 +152,13 @@ static constexpr std::array<spelllabel_data_t, 2> __spelllabel_data { {
     assert parse_generated_labels(text.replace("201","200"),"12.1.5.70961")=={900:{200}}
     with pytest.raises(ValueError):
         parse_generated_labels(text.replace("  { 201, 900 },",""),"12.1.5.70961")
+
+def test_hidden_percent_modifier_type_proves_unit_without_player_text():
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.5.70961 Live
+Name             : Target (id=200)
+Effects          :
+#1 (id=3002) : Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)
+                   Base Value: 2
+Description      : Nature damage is increased.
+""",class_slug="shaman")
+    assert pvp_aura._flat_scalar_unit(dump,200,1)=="percent"

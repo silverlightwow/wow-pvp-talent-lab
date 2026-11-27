@@ -169,3 +169,51 @@ def normalize_text(text, projections, *, pvp=False):
                 # A provider can omit this clause altogether; do not add a fabricated description.
                 continue
     return text,changes
+
+def exact_spec_flat_baseline(dump, spell_id, index, *, spec_source_ids, pvp_source_ids):
+    """Evidence for unconditional, regular specialization flat modifiers.
+
+    This does not choose a PvP operation order. Both source and target must
+    establish the same effect identity; optional talent and PvP aura sources
+    cannot enter the ordinary specialization baseline.
+    """
+    target=dump.spells.get(spell_id)
+    effect=simc.effect_for_spell(dump,spell_id,index)
+    if not target or not effect or effect.base_value is None or simc.effect_uses_coefficient(effect):
+        return None
+    if effect.scaled_value not in (None,effect.base_value):
+        return None
+    target_block=dict(_blocks(target)).get(index,"")
+    sources=set(spec_source_ids)-set(pvp_source_ids)
+    mods=[]
+    refs=re.findall(r"\((\d+) effect#(\d+)\)",target_block)
+    for sid,slot in sorted({(int(sid),int(slot)) for sid,slot in refs}):
+        if sid not in sources:
+            continue
+        spell=dump.spells.get(sid)
+        source=simc.effect_for_spell(dump,sid,slot)
+        if not spell or not source or "Passive" not in spell.raw.splitlines()[0]:
+            return None
+        if re.search(r"^(?:Duration|Proc Chance|Proc Flags|Triggered By)\s*:",spell.raw,re.M):
+            return None
+        operation=re.search(r"(?:Add Flat Modifier \(107\)|Apply Flat Modifier w/ Label \(219\)): Spell Effect (\d+)",source.effect_text)
+        if (not operation or int(operation[1])!=index or source.base_value is None
+                or source.pvp_coefficient not in (None,1) or simc.effect_uses_coefficient(source)
+                or source.scaled_value not in (None,source.base_value)):
+            return None
+        block=dict(_blocks(spell)).get(slot,"")
+        targets=re.search(r"Affected Spells(?: \(Label\))?:\s*([^\n]+)",block)
+        if not targets or spell_id not in set(map(int,re.findall(r"\((\d+)\)",targets[1]))):
+            return None
+        if "(219)" in source.effect_text:
+            label=re.search(r"Misc Value 2:\s*(\d+)\s*\(Label\)",block)
+            if not label or int(label[1]) not in simc.spell_label_ids(dump,spell_id):
+                return None
+        mods.append(dict(source_spell_id=sid,source_effect_index=slot,
+                         game_effect_id=source.game_effect_id,raw_delta=source.base_value,
+                         source="simc_exact_build_regular_specialization"))
+    if not mods:
+        return None
+    return dict(raw_value=effect.base_value,
+                baseline_value=effect.base_value+sum(m["raw_delta"] for m in mods),
+                modifiers=mods,build=dump.build)
