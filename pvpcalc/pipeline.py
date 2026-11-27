@@ -279,6 +279,9 @@ class SpecAuditResult:
                     or "modifies " in effect_text
                 )
                 and not reference_contexts
+                and not (row.get("display_formula") and any(
+                    a.get("operation")=="add_flat_value" and a.get("flat_unit")=="milliseconds"
+                    for a in row.get("aura_rules", [])))
                 and "simc" in sources
             )
 
@@ -4408,6 +4411,11 @@ def _annotate_final_pvp_layers(
                     or abs(float(base_value)-flat_rules[0].projection_base_value)>1e-9):
                 raise ValueError("Flat scalar projection differs from exact source baseline")
 
+        if flat_rules and flat_rules[0].flat_unit == "milliseconds":
+            row["display_formula"] = {"old": abs(float(base_value))/1000,
+                "new": abs(float(base_value)+flat_rules[0].flat_delta)/1000,
+                "kind": "duration_seconds", "divisor": 1000, "precision": 4}
+
         final_value = (
             float(base_value)
             * final_multiplier
@@ -4466,7 +4474,7 @@ def _annotate_final_pvp_layers(
                                 getattr(rule, "source", "drustvar"),
                             **({"operation": "add_flat_value", "flat_delta": rule.flat_delta,
                                 "projection_base_value": rule.projection_base_value,
-                                "target_label_id": rule.target_label_id}
+                                "target_label_id": rule.target_label_id, "flat_unit": rule.flat_unit}
                                if getattr(rule, "flat_delta", None) is not None else {}),
                         }
                         for rule
@@ -5865,7 +5873,7 @@ async def audit_spec(
         sid = int(row.get("source_spell_id", row.get("spell_id", 0)))
         index = int(row.get("effect_index") or 0)
         spell = simc_dump.spells.get(sid)
-        if not spell or row.get("base_value") is None:
+        if not spell or row.get("base_value") is None or row.get("display_formula"):
             continue
         pattern = re.compile(r"\$\{\$(?:" + str(sid) + r")?s" + str(index)
                              + r"/(-?\d+(?:\.\d+)?)\}(?:\.(\d+))?(%)?")
@@ -5883,11 +5891,12 @@ async def audit_spec(
 
     from .display_formulas import effect_formulas
     for row in result.all_effect_rows:
-        if (not row.get('display_formula')
-                and int(row.get('talent_spell_id') or row['spell_id']) in ability_spell_ids):
+        is_ability = int(row.get('talent_spell_id') or row['spell_id']) in ability_spell_ids
+        has_flat = any(a.get("operation")=="add_flat_value" for a in row.get("aura_rules", []))
+        if not row.get('display_formula') and (is_ability or has_flat):
             exact = simc.effect_for_spell(simc_dump, int(row.get('source_spell_id') or row['spell_id']),
                                           int(row.get('effect_index') or 0))
-            if (row.get('effect_origin', 'DIRECT') == 'DIRECT' and exact
+            if (is_ability and row.get('effect_origin', 'DIRECT') == 'DIRECT' and exact
                     and exact.base_value == 0 and exact.scaled_value
                     and not exact.sp_coefficient and not exact.ap_coefficient):
                 row['scaled_base_value'] = exact.scaled_value
@@ -5896,7 +5905,7 @@ async def audit_spec(
             if formulas:
                 row['display_formulas'] = formulas
             from .baseline_tooltips import conditional_percent_formulas
-            conditional = conditional_percent_formulas(simc_dump, row)
+            conditional = conditional_percent_formulas(simc_dump, row) if is_ability else []
             if conditional:
                 row['conditional_display_formulas'] = conditional
 

@@ -16,7 +16,25 @@ from pvpcalc.snapshot import HttpSnapshot
 from pvpcalc.sources import raidbots, simc
 
 
-def audit_spec(dump, payload, *, class_name, spec_name, spec_names):
+def parse_generated_labels(text, expected_build):
+    """Read the entire exact-build label relation, including off-class IDs."""
+    from collections import defaultdict
+    build=re.search(r"wow build level (\d+\.\d+\.\d+\.\d+)",text)
+    header=re.search(r"std::array<spelllabel_data_t, (\d+)> __spelllabel_data \{ \{",text)
+    if not build or build[1]!=expected_build or not header:
+        raise ValueError("Missing exact-build generated spell label table")
+    body=text[header.end():].split("} };",1)[0]
+    pairs=[(int(sid),int(label)) for sid,label in re.findall(r"\{\s*(\d+),\s*(\d+)\s*\}",body)]
+    if len(pairs)!=int(header[1]):
+        raise ValueError("Incomplete exact spell label entries")
+    # The upstream table itself contains repeated pairs; membership is a set.
+    result=defaultdict(set)
+    for sid,label in pairs:
+        result[label].add(sid)
+    return dict(result)
+
+
+def audit_spec(dump, payload, *, class_name, spec_name, spec_names, generated_labels=None):
     scoped=simc.scope_dump_to_specialization(dump,class_name=class_name,
         spec_name=spec_name,spec_names=spec_names)
     rules=pvp_aura.normalize_current_spec_aura(payload,class_name=class_name,spec_name=spec_name)
@@ -55,6 +73,23 @@ def audit_spec(dump, payload, *, class_name, spec_name, spec_names):
                 row.update(status="FLAT_TARGET_INVENTORY",target_statuses=dict(statuses),targets=proof["targets"])
             else:
                 row["status"]="UNSUPPORTED_AURA_OPERATION"
+                label=re.search(r"Misc Value 2:\s*(\d+)\s*\(Label\)",block)
+                category=re.search(r"Misc Value:\s*(\d+)\s*\(Category\)",block)
+                if label:
+                    label_id=int(label[1])
+                    row.update(label_id=label_id,
+                        class_dump_targets=sorted(simc.spell_ids_for_label(scoped,label_id)))
+                    if generated_labels is not None:
+                        row["generated_label_targets"]=sorted(generated_labels.get(label_id,set()))
+                        row["target_evidence"]=("EXACT_GENERATED_LABEL_PRESENT" if row["generated_label_targets"]
+                            else "LABEL_ABSENT_FROM_GENERATED_TABLE")
+                elif category:
+                    row["category_id"]=int(category[1])
+                    match=re.search(r"Affected Spells \(Category\):\s*([^\r\n]+)",block)
+                    row["declared_category_targets"]=sorted(set(map(int,re.findall(r"\((\d+)\)",match[1])))) if match else []
+                    row["target_evidence"]="COOLDOWN_CATEGORY_REQUIRES_ITEM_OR_ABILITY_OWNERSHIP"
+                elif re.search(r"Modify (?:Pet|Guardian) Damage Done%",effect.effect_text):
+                    row["target_evidence"]="PET_OR_GUARDIAN_OWNERSHIP_REQUIRED"
             effects.append(row)
     return dict(class_name=class_name,spec_name=spec_name,effects=effects,
                 applied_flat_targets=len(flat),build=scoped.build)
@@ -66,10 +101,13 @@ def audit(snapshot_dir,raidbots_file):
     data=json.loads(raidbots_file.read_text(encoding="utf-8"))
     specs=raidbots.discover_specs(data["talents"])
     result=[]
+    labels_by_ref={}
     for class_name in sorted({s["class_name"] for s in specs}):
         cls=[s for s in specs if s["class_name"]==class_name]
         ref=context["classes"][class_name]["simc_ref"]
         url=f"https://raw.githubusercontent.com/{simc.SIMC_REPO}/{ref}/"
+        if ref not in labels_by_ref:
+            labels_by_ref[ref]=parse_generated_labels(snapshot.read(url+"engine/dbc/generated/sc_spell_data.inc"),context["tree_build"])
         slug=class_name.casefold().replace(" ","")
         dump=simc.parse_dump(snapshot.read(url+f"SpellDataDump/{slug}.txt"),
             class_slug=slug,source_ref=ref)
@@ -83,10 +121,11 @@ def audit(snapshot_dir,raidbots_file):
         payload=json.loads(snapshot.read("https://drustvar.com/api/v1/pvp-auras/"+class_name.casefold().replace(" ","-")))
         for item in cls:
             result.append(audit_spec(dump,payload,class_name=class_name,
-                spec_name=item["spec_name"],spec_names=spec_names))
+                spec_name=item["spec_name"],spec_names=spec_names,generated_labels=labels_by_ref[ref]))
     status=Counter(e["status"] for r in result for e in r["effects"])
     flat=Counter(t["status"] for r in result for e in r["effects"] for t in e.get("targets",[]))
-    return dict(schema=1,source_snapshot_hash=snapshot.manifest["snapshot_hash"],
+    target_evidence=Counter(e["target_evidence"] for r in result for e in r["effects"] if "target_evidence" in e)
+    return dict(schema=1,unsupported_target_evidence=dict(target_evidence),source_snapshot_hash=snapshot.manifest["snapshot_hash"],
         build=context["tree_build"],spec_count=len(result),effect_statuses=dict(status),
         flat_target_statuses=dict(flat),specializations=result)
 

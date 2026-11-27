@@ -72,3 +72,79 @@ Description      : Duration $s1 seconds.
     assert rules==[]
     assert {r["status"] for r in report[0]["targets"]}=={
         "COMBINED_MODIFIER_ORDER_UNPROVED","UNPROVED_SCALAR_PERCENT_UNIT"}
+
+
+@pytest.mark.parametrize("description,expected",[
+    ("Damage increased by $w1%.","percent"),
+    ("Damage increased by ${-$s1}%.","percent"),
+    ("Critical damage ${200+$s1}%.","percent"),
+    ("Reduces cooldown by ${$m1/-1000} sec.","milliseconds"),
+    ("Duration $s1 seconds.","seconds"),
+    ("Value $s1% for $s1 seconds.",None),
+    ("Value $s2%.",None),
+    ("Value ${$s1*$s2}%.",None),
+])
+def test_flat_unit_explicit_client_grammar(description,expected):
+    dump=simc.parse_dump(f"""SimulationCraft for World of Warcraft 12.1.5.70961 Live
+Name             : Target (id=200)
+Effects          :
+#1 (id=3002) : Apply Aura (6) | Dummy (4)
+                   Base Value: 230
+Description      : {description}
+""",class_slug="mage")
+    assert pvp_aura._flat_scalar_unit(dump,200,1)==expected
+
+
+def test_flat_unit_qualified_parent_reference_not_same_named_sibling():
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.5.70961 Live
+Name             : Target (id=200)
+Effects          :
+#1 (id=3002) : Apply Aura (6) | Dummy (4)
+                   Base Value: 50
+Name             : Target (id=201)
+Effects          :
+#1 (id=3003) : Apply Aura (6) | Dummy (4)
+                   Base Value: 50
+Name             : Parent (id=202)
+Description      : Damage reduced by $200s1%.
+""",class_slug="mage")
+    assert pvp_aura._flat_scalar_unit(dump,200,1)=="percent"
+    assert pvp_aura._flat_scalar_unit(dump,201,1) is None
+
+
+def test_exact_flat_milliseconds_has_explicit_seconds_projection():
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.5.70961 Live
+Name             : Example Mage (id=100)
+Effects          :
+#1 (id=2001) : Apply Aura (6) | Modify Flat PVP Multiplier by Label (648): Modify Effect 1 (5)
+                   Base Value: 30000 | Misc Value 2: 900 (Label)
+Name             : Cooldown Talent (id=200)
+Labels           : 900
+Effects          :
+#1 (id=3002) : Apply Aura (6) | Add Flat Modifier (107): Spell Cooldown (11)
+                   Base Value: -60000
+Description      : Reduces cooldown by ${$m1/-1000} sec.
+""",class_slug="mage")
+    rules,report=pvp_aura.exact_flat_scalar_inventory([],dict(auras=[dict(id=100,name="Example Mage",spec="Example")]),
+        dump,spec_name="Example",class_name="Mage")
+    assert report[0]["targets"][0]["status"]=="APPLIED_EXACT_FLAT_MILLISECONDS"
+    rows=[dict(spell_id=200,effect_index=1,base_value=-60000,pvp_multiplier=1,effect_text="Cooldown")]
+    pipeline._annotate_final_pvp_layers(rows,rules,dump)
+    assert rows[0]["final_pvp_value"]==-30000
+    assert rows[0]["display_formula"]==dict(old=60,new=30,kind="duration_seconds",divisor=1000,precision=4)
+
+
+def test_generated_labels_complete_and_exact_build():
+    from scripts.audit_exact_pvp_auras import parse_generated_labels
+    text="""// wow build level 12.1.5.70961
+static constexpr std::array<spelllabel_data_t, 2> __spelllabel_data { {
+  { 200, 900 },
+  { 201, 900 },
+} };
+"""
+    assert parse_generated_labels(text,"12.1.5.70961")=={900:{200,201}}
+    with pytest.raises(ValueError):
+        parse_generated_labels(text,"12.1.5.70000")
+    assert parse_generated_labels(text.replace("201","200"),"12.1.5.70961")=={900:{200}}
+    with pytest.raises(ValueError):
+        parse_generated_labels(text.replace("  { 201, 900 },",""),"12.1.5.70961")

@@ -99,6 +99,16 @@ def rows_at_rank(rows, rules, rank, spell_id):
                 row["final_pvp_value"] = value + flat[0]["flat_delta"]
                 row["final_pvp_multiplier"] = row["final_pvp_value"]/value
                 row["aura_factor"] = row["final_pvp_multiplier"]
+                row["aura_rules"] = [{**flat[0], "factor": row["aura_factor"],
+                    "projection_base_value": value}]
+                if row.get("display_formulas"):
+                    import re
+                    sid = row.get("source_spell_id", row.get("spell_id", spell_id))
+                    token = re.compile(r"\$(?:"+str(sid)+r")?[sSmMwW]"+str(row["effect_index"])+r"(?!\d)")
+                    row["display_formulas"] = [{**formula,
+                        "old": round(abs(_arithmetic(token.sub(str(value),formula["expression"]))),4),
+                        "new": round(abs(_arithmetic(token.sub(str(row["final_pvp_value"]),formula["expression"]))),4)}
+                        for formula in row["display_formulas"]]
             else:
                 row["final_pvp_value"] = value * (
                     multiplier if multiplier is not None else 1
