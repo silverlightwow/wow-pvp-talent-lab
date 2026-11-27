@@ -91,3 +91,28 @@ def test_missing_previous_evidence_and_stale_index_fail_closed():
     with pytest.raises(RuntimeError, match="older than"):
         asyncio.run(h.fetch_official_pvp_hotfixes(client,
             previous_keys={("2026-12-02", OLD_TEXT)}, previous_sources={OLD}))
+
+
+@pytest.mark.parametrize("text, expected_name, expected_mode, expected_target, expected_scope", [
+    ("San'layn: Vampiric Strike damage reduced by 20% in PvP combat.",
+        "Vampiric Strike", "relative_reduction", None, ("Death Knight", "Unholy", "San'layn")),
+    ("Prayer of Healing healing increased by 30% in PvP combat.",
+        "Prayer of Healing", "relative_increase", None, ("Death Knight", "Unholy")),
+    ("Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).",
+        "Reverberations", "absolute", "Verdant Embrace", ("Death Knight", "Unholy", "Chronowarden")),
+    ("Deathblow\u2019s chance to be activated by Aimed Shot increased to 25% in PvP combat.",
+        "Deathblow", "absolute", "Aimed Shot", ("Death Knight", "Unholy")),
+    ("Strength of the Black Ox absorb increased by 25% in PvP combat.",
+        "Strength of the Black Ox", "relative_increase", None, ("Death Knight", "Unholy")),
+    ("All healing increased by 5% in PvP combat.",
+        "__SPEC_HEALING__", "spec_relative_increase", None, ("Death Knight", "Unholy")),
+])
+def test_new_numeric_grammar_preserves_source(text, expected_name, expected_mode, expected_target, expected_scope):
+    item = h._parse_candidate(text, hotfix_date=None, in_pvp_section=True,
+                              context_path=("Death Knight", "Unholy"))
+    assert item is not None
+    assert item.talent_name == expected_name
+    assert item.mode == expected_mode
+    assert item.target_hint == expected_target
+    assert item.context_path == expected_scope
+    assert item.text == text

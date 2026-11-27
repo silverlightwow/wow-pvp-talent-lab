@@ -253,14 +253,6 @@ def _load_historical_hotfix_baselines(
             for item in hotfixes
             if (
                 item.hotfix_date is not None
-                and (
-                    item.mode.startswith(
-                        "relative_"
-                    )
-                    or item.mode.startswith(
-                        "spec_relative_"
-                    )
-                )
             )
         }
     )
@@ -317,10 +309,7 @@ def _load_historical_hotfix_baselines(
 
         by_spell = {}
         by_name = {}
-        for talent in payload.get(
-            "talents",
-            []
-        ):
+        for talent in [*payload.get("talents", []), *payload.get("abilities", [])]:
             spell_id = talent.get(
                 "spell_id"
             )
@@ -347,6 +336,9 @@ def _load_historical_hotfix_baselines(
             "commit": commit,
             "by_spell": by_spell,
             "by_name": by_name,
+            "verified": payload.get("validation", {}).get("verification_status") == "VERIFIED"
+                and not (payload.get("official_hotfixes") or {}).get("unresolved"),
+            "official_report": payload.get("official_hotfixes") or {},
         }
 
         # Older tuning is an event, not an immutable final coefficient.

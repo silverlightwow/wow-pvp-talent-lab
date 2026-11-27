@@ -373,6 +373,34 @@ def _parse_candidate(
     ):
         return None
 
+    # Modern Blizzard bullets sometimes put the hero-tree heading inline.
+    # Keep it as scope and retain the verbatim source text for provenance.
+    prefixed = re.fullmatch(r"(?P<scope>[^:]+):\s*(?P<body>.+)", text)
+    if prefixed and context_path:
+        child = _parse_candidate(prefixed["body"], hotfix_date=hotfix_date,
+            in_pvp_section=in_pvp_section, context_path=(*context_path, prefixed["scope"]))
+        if child is not None:
+            return replace(child, text=text)
+
+    # A percentage and a duration can coexist if the duration is explicitly
+    # a constant qualifier, and only the percentage has a previous value.
+    periodic = re.fullmatch(
+        r"(?P<name>.+?) now causes (?P<target>.+?) to heal for an additional "
+        r"(?P<current>\d+(?:\.\d+)?)% over (?P<duration>\d+(?:\.\d+)?) seconds? "
+        r"in PvP(?: combat)? \(was (?P<previous>\d+(?:\.\d+)?)%\)\.", text, re.I)
+    if periodic:
+        return OfficialPvpHotfix(periodic["name"], float(periodic["current"]),
+            float(periodic["previous"]), periodic["target"], text, hotfix_date,
+            context_path=context_path)
+
+    # Explicit source/trigger chance, not an arbitrary percentage in the talent.
+    chance = re.fullmatch(
+        r"(?P<name>.+?)['\u2019]s chance to be activated by (?P<target>.+?) "
+        r"increased to (?P<current>\d+(?:\.\d+)?)% in PvP(?: combat)?\.", text, re.I)
+    if chance:
+        return OfficialPvpHotfix(chance["name"], float(chance["current"]), None,
+            chance["target"], text, hotfix_date, context_path=context_path)
+
     property_change = _parse_property_candidate(
         text, hotfix_date=hotfix_date, context_path=context_path,
     )
@@ -383,11 +411,17 @@ def _parse_candidate(
     # Relative-only notes such as "damage increased by 20%" remain owned by
     # the exact-build effect pipeline because applying them to arbitrary
     # tooltip numbers would be unsafe.
+    output_tuning = re.match(
+        r"^(?P<name>.+?)\s+(?P<output>(?:initial |direct |periodic )?damage|healing|absorb(?:ption)?)"
+        r"\s+(?:is\s+)?(?:no longer\s+)?(?:increased|i0ncreased|reduced)\s+by\s+"
+        r"\d+(?:\.\d+)?%", text, re.I)
     split = _NAME_SPLIT_RE.search(text)
-    if split is None:
+    if output_tuning:
+        raw_name = output_tuning["name"].strip()
+    elif split is not None:
+        raw_name = text[:split.start()].strip()
+    else:
         return None
-
-    raw_name = text[:split.start()].strip()
     raw_name = re.sub(
         r"\s*\(PvP Talent\)\s*$",
         "",
@@ -513,14 +547,15 @@ def _parse_candidate(
             .casefold()
         )
         direction = direction.replace("i0ncreased", "increased")
+        output = output_tuning["output"].casefold() if output_tuning else ""
         spec_wide = (
             re.fullmatch(r"all(?:\s+spell\s+and\s+ability)?", _normalize_name(raw_name)) is not None
-            and "damage" in text.casefold()
+            and output in {"damage", "healing"}
         )
         return OfficialPvpHotfix(
             talent_name=(
-                "__SPEC_DAMAGE__"
-                if spec_wide
+                "__SPEC_HEALING__" if spec_wide and output == "healing"
+                else "__SPEC_DAMAGE__" if spec_wide
                 else raw_name
             ),
             current_percent=float(
@@ -2227,6 +2262,8 @@ def _mechanic_proves_relative_hotfix(
         getattr(talent, "mechanics", None)
         or []
     ):
+        if not _output_matches(mechanic, hotfix, talent):
+            continue
         candidates = [
             (
                 "spell_pvp_multiplier",
@@ -2507,6 +2544,8 @@ def _historical_relative_evidence(
         getattr(talent, "mechanics", None)
         or []
     ):
+        if not _output_matches(row, hotfix, talent):
+            continue
         key = (
             int(row.get("source_spell_id") or 0),
             int(row.get("effect_index") or 0),
@@ -2714,6 +2753,11 @@ def _spec_historical_relative_evidence(
             getattr(talent, "mechanics", None)
             or []
         ):
+            effect_text = str(row.get("effect_text") or "").casefold()
+            if hotfix.talent_name == "__SPEC_HEALING__" and "heal" not in effect_text:
+                continue
+            if hotfix.talent_name == "__SPEC_DAMAGE__" and effect_text and "damage" not in effect_text:
+                continue
             key = (
                 int(row.get("source_spell_id") or 0),
                 int(row.get("effect_index") or 0),
@@ -3176,6 +3220,134 @@ def _canonicalize_percent_mechanics(talent, hotfix, change):
         row['sources'] = list(dict.fromkeys([*(row.get('sources') or []), 'blizzard_hotfix']))
 
 
+def _relative_output(text: str) -> str | None:
+    match = re.search(r"\b(damage|healing|absorb(?:ption)?)\s+"
+                      r"(?:is\s+)?(?:no longer\s+)?(?:increased|i0ncreased|reduced)\s+by\b",
+                      text, re.I)
+    return match[1].casefold().removesuffix("ption") if match else None
+
+
+def _output_matches(row: dict, hotfix: OfficialPvpHotfix, talent=None) -> bool:
+    """A damage event cannot be proved by a heal/absorb with the same factor."""
+    output = _relative_output(hotfix.text)
+    effect = str(row.get("effect_text") or "").casefold()
+    if not output or not effect:
+        return True
+    if "absorb" in effect or row.get("amount_kind") == "absorb":
+        return output == "absorb"
+    if "damage" in effect:
+        return output == "damage"
+    if "heal" in effect:
+        return output == "healing"
+    if talent is None or row.get("coefficient_based") is not False:
+        return False
+    # Scalar modifier effects may be Dummy auras; map their rendered value
+    # to the semantically named clause, not to any equal numeric token.
+    tooltip = getattr(talent, "pve_tooltip", "") or ""
+    index = row.get("effect_index")
+    if not index:
+        return False
+    siblings = [m for m in getattr(talent, "mechanics", []) or []
+                if m.get("effect_index") == index]
+    if len(siblings) != 1:
+        return False
+    terms = {"damage": r"\bdamage\b", "healing": r"\bheal(?:s|ing|ed)?\b",
+             "absorb": r"\babsorb(?:s|ed|ption)?\b"}
+    for change in getattr(talent, "changes", []) or []:
+        if index not in (change.get("effect_indexes") or []):
+            continue
+        start, end = change.get("start"), change.get("end")
+        if not isinstance(start, int) or not isinstance(end, int):
+            continue
+        clause = tooltip[tooltip.rfind("\n", 0, start)+1:]
+        clause = clause.split("\n", 1)[0]
+        kinds = {kind for kind, term in terms.items() if re.search(term, clause, re.I)}
+        if kinds == {output}:
+            return True
+    return False
+
+
+def _historically_superseded(talent, hotfix, all_hotfixes, baselines):
+    """Do not reapply a proved old event to a newer exact-build value.
+
+    Require the verified snapshot immediately preceding the successor, an
+    exact old report entry, the same scoped spell and output, and the same
+    concrete effect identity at both endpoints. The successor must already
+    be supported by current source values; it is still validated normally.
+    """
+    if not baselines or hotfix.hotfix_date is None:
+        return None
+    for newer in all_hotfixes:
+        if (newer.hotfix_date is None or newer.hotfix_date <= hotfix.hotfix_date
+                or _normalize_name(newer.talent_name) != _normalize_name(hotfix.talent_name)
+                or tuple(map(_normalize_name, newer.context_path)) != tuple(map(_normalize_name, hotfix.context_path))
+                or newer.unit != hotfix.unit):
+            continue
+        baseline = baselines.get(newer.hotfix_date.isoformat(), {})
+        if not baseline.get("verified"):
+            continue
+        old = baseline.get("by_spell", {}).get(str(talent.spell_id))
+        if not old:
+            continue
+        old_report = baseline.get("official_report", {})
+        proof = next((r for status in ("applied", "already_current")
+                      for r in old_report.get(status, [])
+                      if r.get("spell_id") == talent.spell_id
+                      and r.get("date") == hotfix.hotfix_date.isoformat()
+                      and r.get("text") == hotfix.text), None)
+        if proof is None:
+            continue
+        if hotfix.mode.startswith("relative_") and newer.mode.startswith("relative_"):
+            if _relative_output(hotfix.text) != _relative_output(newer.text):
+                continue
+            from types import SimpleNamespace
+            prior_evidence = _historical_relative_evidence(SimpleNamespace(**old), hotfix, baselines)
+            new_evidence = _historical_relative_evidence(talent, newer, baselines)
+            if not prior_evidence or not new_evidence:
+                continue
+            key = tuple(prior_evidence.get(k) for k in ("source_spell_id", "effect_index"))
+            if key != tuple(new_evidence.get(k) for k in ("source_spell_id", "effect_index")):
+                continue
+            return dict(source="historically_superseded", verified_post_commit=baseline.get("commit"),
+                        previous_event=prior_evidence, successor_event=new_evidence,
+                        successor_date=newer.hotfix_date.isoformat(), successor_text=newer.text,
+                        successor_source_url=newer.source_url)
+        if (hotfix.mode not in {"absolute", "class_absolute"} or newer.mode != hotfix.mode
+                or hotfix.previous_percent is None or newer.previous_percent != hotfix.current_percent
+                or (hotfix.target_hint and newer.target_hint and
+                    _normalize_name(hotfix.target_hint) != _normalize_name(newer.target_hint))):
+            continue
+        field = "base_value" if hotfix.mode == "class_absolute" else "final_pvp_value"
+        def exact_rows(rows, expected):
+            result = set()
+            for row in rows:
+                try:
+                    value = float(row.get(field))
+                except (TypeError, ValueError):
+                    continue
+                if abs(abs(value) - expected) <= 1e-9:
+                    result.add((row.get("source_spell_id"), row.get("effect_index")))
+            return result
+        before = exact_rows(old.get("mechanics", []), hotfix.current_percent)
+        after = exact_rows(talent.mechanics, newer.current_percent)
+        # All effects representing the old value must have the new value,
+        # including same-valued parallel effects, with no extra candidates.
+        if not before or before != after:
+            continue
+        tooltip_field = "pve_tooltip" if hotfix.mode == "class_absolute" else "pvp_tooltip"
+        if _replace_one_percent(pve_tooltip=old.get("pve_tooltip", ""),
+                                pvp_tooltip=old.get(tooltip_field, ""), hotfix=hotfix)[2] != "ALREADY_CURRENT":
+            continue
+        if _replace_one_percent(pve_tooltip=talent.pve_tooltip,
+                                pvp_tooltip=getattr(talent, tooltip_field), hotfix=newer)[2] != "ALREADY_CURRENT":
+            continue
+        return dict(source="historically_superseded", verified_post_commit=baseline.get("commit"),
+                    effect_keys=[list(k) for k in sorted(before)], previous_value=hotfix.current_percent,
+                    current_value=newer.current_percent, successor_date=newer.hotfix_date.isoformat(),
+                    successor_text=newer.text, successor_source_url=newer.source_url)
+    return None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -3341,6 +3513,15 @@ def apply_official_pvp_hotfixes(
             continue
 
         for talent in matches:
+            superseded = _historically_superseded(talent, hotfix, hotfixes, historical_talents_by_date)
+            if superseded:
+                already_current.append(dict(talent_name=talent.talent_name, spell_id=talent.spell_id,
+                    text=hotfix.text, date=hotfix.hotfix_date.isoformat(), evidence=superseded))
+                talent.diagnostics.append(dict(status="OFFICIAL_HOTFIX_HISTORICALLY_SUPERSEDED",
+                    source="blizzard_hotfix", source_url=hotfix.source_url,
+                    hotfix_date=hotfix.hotfix_date.isoformat(), hotfix_text=hotfix.text,
+                    evidence=superseded))
+                continue
             if hotfix.mode.startswith('property_'):
                 status = _apply_property_hotfix(talent, hotfix)
                 record = dict(talent_name=talent.talent_name, spell_id=talent.spell_id,
