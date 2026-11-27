@@ -30,6 +30,10 @@ class PvpAuraRule:
     build: str
     is_hotfixed: bool | None
     source: str = "drustvar"
+    flat_delta: float | None = None
+    projection_base_value: float | None = None
+    target_label_id: int | None = None
+    flat_unit: str | None = None
 
 
 def _amount_kind(
@@ -357,6 +361,128 @@ def supplement_exact_percent_rules(rules, payload, dump, *, spec_name, class_nam
             affected_spells=affected, family_flags=None,label_id=label_id,build=dump.build,
             is_hotfixed=None,source="simc_exact_pvp_aura"))
     return output
+
+
+def _flat_scalar_unit(dump, sid, index):
+    """Prove units from literal client tokens, not effect names or magnitude.
+
+    A child may own the numeric effect while its parent owns the tooltip.
+    Only explicitly qualified references may transfer that unit. Simple
+    negation and addition preserve percent units; a /1000 seconds formula
+    explicitly identifies a millisecond quantity. Conflicting units reject.
+    """
+    from .sources import simc
+    spell = dump.spells[sid]
+    own = r"\$(?:" + str(sid) + r")?[sSmMwW]" + str(index) + r"(?!\d)"
+    qualified = r"\$" + str(sid) + r"[sSmMwW]" + str(index) + r"(?!\d)"
+    units = set()
+    def collect(text, token):
+        if re.search(token + r"\s*%", text):
+            units.add("percent")
+        if re.search(r"\$\{(?:-?" + token + r"|\d+(?:\.\d+)?\s*[+-]\s*" +
+                     token + r")\}\s*%", text):
+            units.add("percent")
+        if re.search(r"\$\{" + token + r"\s*/\s*-?1000\}\s*sec(?:onds?)?\b",text):
+            units.add("milliseconds")
+        if re.search(token+r"\s*sec(?:onds?)?\b",text):
+            units.add("seconds")
+        if re.search(token+r"\s*(?:yds?|yards?)\b",text):
+            units.add("yards")
+    for line in simc._player_text_sections(spell.raw):
+        collect(line,own)
+    for parent in dump.spells.values():
+        if parent.spell_id != sid and re.search(qualified,parent.raw):
+            for line in simc._player_text_sections(parent.raw):
+                collect(line,qualified)
+    return next(iter(units)) if len(units)==1 else None
+
+
+def exact_flat_scalar_inventory(rules, payload, dump, *, spec_name, class_name):
+    """Inventory exact 646/648 targets and materialize only proved scalar cases.
+
+    These auras add signed points to an effect (e.g. -25 + 10 = -15).
+    Do not guess the order when a spell coefficient/another aura is active,
+    or interpret duration, power, coefficient, unknown or scaled units as
+    percentages. Preserve every rejected target and its reason for audit.
+    """
+    from collections import Counter
+    from .sources import simc
+    selected = [a for a in payload.get("auras", [])
+                if str(a.get("spec", "")).casefold() == spec_name.casefold()
+                or str(a.get("name", "")).casefold() == f"{spec_name} {class_name}".casefold()]
+    if len(selected) != 1:
+        return [], []
+    aura = selected[0]
+    spell = dump.spells.get(int(aura["id"]))
+    if not spell or not dump.build or spell.name.casefold() != str(aura.get("name", "")).casefold():
+        return [], []
+    inventory, candidates = [], []
+    headers = list(simc._SIMC_EFFECT_HEADER_RE.finditer(spell.raw))
+    for n, header in enumerate(headers):
+        effect = simc.effect_for_spell(dump, spell.spell_id, int(header[1]))
+        if not effect or not effect.game_effect_id or not effect.base_value:
+            continue
+        match = re.search(r"Modify Flat PVP Multiplier( by Label)? \((646|648)\): Modify Effect (\d+)\b",
+                          effect.effect_text)
+        if not match:
+            continue
+        block = spell.raw[header.start():headers[n+1].start() if n+1<len(headers) else len(spell.raw)]
+        label = re.search(r"Misc Value 2:\s*(\d+)\s*\(Label\)", block)
+        explicit = re.search(r"Affected Spells(?: \(Label\))?:\s*([^\r\n]+)", block)
+        declared = set(map(int,re.findall(r"\((\d+)\)",explicit[1]))) if explicit else set()
+        label_id = int(label[1]) if label else None
+        targets = (simc.spell_ids_for_label(dump,label_id) | declared
+                   if match[2]=="648" and label_id is not None else declared if match[2]=="646" else set())
+        index = int(match[3])
+        audit = dict(aura_spell_id=spell.spell_id,game_effect_id=effect.game_effect_id,
+                     aura_type=int(match[2]),effect_index=index,raw_delta=effect.base_value,
+                     label_id=label_id,targets=[])
+        inventory.append(audit)
+        if not targets:
+            audit["status"]="NO_EXACT_TARGET"
+            continue
+        for sid in sorted(targets):
+            target = simc.effect_for_spell(dump,sid,index)
+            entry=dict(spell_id=sid,effect_index=index)
+            audit["targets"].append(entry)
+            if not target:
+                entry["status"]="TARGET_EFFECT_ABSENT"
+                continue
+            base=target.base_value
+            entry.update(game_effect_id=target.game_effect_id,base_value=base,
+                         unit=_flat_scalar_unit(dump,sid,index),spell_pvp_coefficient=target.pvp_coefficient)
+            if effect.scaled_value not in (None,effect.base_value) or simc.effect_uses_coefficient(effect):
+                entry["status"]="SCALED_AURA"
+            elif target.pvp_coefficient not in (None,1) or rules_for_spell(rules,sid,
+                    amount_kind=None,effect_index=index,spell_label_ids=simc.spell_label_ids(dump,sid)):
+                entry["status"]="COMBINED_MODIFIER_ORDER_UNPROVED"
+            elif (base is None or not base or simc.effect_uses_coefficient(target)
+                    or target.scaled_value not in (None,base) or entry["unit"] not in {"percent","milliseconds"}):
+                entry["status"]="UNPROVED_SCALAR_PERCENT_UNIT"
+            elif not math.isfinite(base+effect.base_value) or (base+effect.base_value)*base<=0:
+                entry["status"]="ZERO_OR_SIGN_CROSSING"
+            else:
+                entry["status"]="CANDIDATE"
+                candidates.append((audit,entry,target))
+    counts=Counter((e["spell_id"],e["effect_index"]) for a in inventory for e in a["targets"]
+                   if e["status"]!="TARGET_EFFECT_ABSENT")
+    output=[]
+    for audit,entry,target in candidates:
+        sid,index=entry["spell_id"],entry["effect_index"]
+        if counts[sid,index]!=1:
+            entry["status"]="MULTIPLE_FLAT_MODIFIERS"
+            continue
+        base,delta=target.base_value,audit["raw_delta"]
+        unit=entry["unit"]
+        entry.update(status="APPLIED_EXACT_FLAT_PERCENT" if unit=="percent" else "APPLIED_EXACT_FLAT_MILLISECONDS",
+                     final_pvp_value=base+delta)
+        output.append(PvpAuraRule(aura_spell_id=spell.spell_id,aura_name=spell.name,
+            spec_name=spec_name,drustvar_effect_id=None,game_effect_id=audit["game_effect_id"],
+            amount_kind=f"effect:{index}",value_pct=delta,factor=(base+delta)/base,
+            affected_spells=((sid,dump.spells[sid].name),),family_flags=None,label_id=None,
+            build=dump.build,is_hotfixed=None,source="simc_exact_flat_pvp_aura",
+            flat_delta=delta,projection_base_value=base,target_label_id=audit["label_id"],flat_unit=unit))
+    return output,inventory
 
 
 def rules_for_spell(
