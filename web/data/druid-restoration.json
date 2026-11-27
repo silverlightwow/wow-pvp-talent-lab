@@ -14058,18 +14058,13 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 132158,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 132469,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
-      "spell_id": 145108,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 145205,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145205'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -14645,6 +14640,11 @@
       "source": "wowhead",
       "spell_id": 1270592,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1270592'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 125972,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=125972'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -18555,7 +18555,7 @@
     }
   },
   "slug": "druid-restoration",
-  "generated_at": "2026-11-27T13:24:14.224176+00:00",
+  "generated_at": "2026-11-27T14:03:34.384830+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -18582,23 +18582,23 @@
       },
       {
         "source": "wowhead",
-        "spell_id": 132158,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132158'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
         "spell_id": 132469,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132469'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 145108,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145108'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 145205,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=145205'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
         "spell_id": 155675,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=155675'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 158478,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=158478'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -18606,10 +18606,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
-    "captured_at": "2026-11-27T13:12:53.604140+00:00",
-    "parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
-    "captured_parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
+    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
+    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
+    "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,
     "evidence_hash": "953c3d49b86b6e4da5dc0823a9235c50909254af6a94c4f2240c0f9d0d7e4c87"
   },

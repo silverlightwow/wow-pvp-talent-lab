@@ -14676,6 +14676,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 131347,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=131347'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 162243,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=162243'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -18930,7 +18935,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-11-27T13:23:10.288689+00:00",
+  "generated_at": "2026-11-27T14:02:45.589518+00:00",
   "validation": {
     "abilities": 12,
     "abilities_with_pvp_mechanics": 12,
@@ -18945,7 +18950,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 199,
+    "source_warning_count": 200,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18981,10 +18986,10 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
-    "captured_at": "2026-11-27T13:12:53.604140+00:00",
-    "parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
-    "captured_parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
+    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
+    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
+    "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,
     "evidence_hash": "bbe0f9c48545914ec9da1e2c97b5fbe77ed91a8cd2ebb4ee51d960e1868b0910"
   },

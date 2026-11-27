@@ -13255,7 +13255,7 @@
           "talent_spell_id": 122470,
           "source_spell_id": 122470,
           "effect_index": 3,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": 50.0,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": null,
@@ -13267,9 +13267,10 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
-            "simc_generated"
+            "simc_generated",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -14452,28 +14453,13 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 120227,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120227'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 122470,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=122470'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 125883,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=125883'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "spell_id": 124146,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124146'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
       "spell_id": 128595,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=128595'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 130610,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=130610'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -18380,7 +18366,7 @@
     }
   },
   "slug": "monk-windwalker",
-  "generated_at": "2026-11-27T13:25:58.266666+00:00",
+  "generated_at": "2026-11-27T14:05:54.932489+00:00",
   "validation": {
     "abilities": 9,
     "abilities_with_pvp_mechanics": 9,
@@ -18395,7 +18381,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 180,
+    "source_warning_count": 177,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -18431,10 +18417,10 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
-    "captured_at": "2026-11-27T13:12:53.604140+00:00",
-    "parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
-    "captured_parser_hash": "513436a7b8765abcc11bd64579e79f992b153fd0f860d022d0e20fe8f3b65262",
+    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
+    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
+    "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,
     "evidence_hash": "fe078493f864011d6cd394479274aa5d50c4ca798301b3e704e844dfdce9810f"
   },

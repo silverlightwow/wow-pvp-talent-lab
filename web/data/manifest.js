@@ -1,11 +1,11 @@
 window.WOW_PVP_MANIFEST = {
-  "generated_at": "2026-11-27T13:29:57.339176+00:00",
+  "generated_at": "2026-11-27T14:09:41.668880+00:00",
   "tree_build": "12.1.5.70961",
   "content_hash": "80b780a3006ec6e3bd3877b3edb49a76",
   "hotfix_snapshot_hash": "604c7a4a3590c4f6239db5c51dc3393f6fc2d9a49a5d528fc105fea8b926119b",
   "hotfix_latest_date": "2026-10-27",
-  "source_snapshot_hash": "fa46ac4777724f4682be7c5fb76a6bd5384c4e1017c25ae5fe914cc773240f86",
-  "source_captured_at": "2026-11-27T13:12:53.604140+00:00",
+  "source_snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
+  "source_captured_at": "2026-11-27T13:52:27.659249+00:00",
   "replay_verified_count": 40,
   "default_slug": "priest-discipline",
   "spec_count": 40,
@@ -69,7 +69,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 26,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 166,
+          "source_warning_count": 167,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -82,7 +82,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 42,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 199,
+          "source_warning_count": 200,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -95,7 +95,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 14,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 167,
+          "source_warning_count": 168,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -114,7 +114,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 152,
+          "source_warning_count": 153,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -127,7 +127,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 141,
+          "source_warning_count": 142,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -140,7 +140,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 20,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 141,
+          "source_warning_count": 142,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -307,7 +307,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 169,
+          "source_warning_count": 165,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -320,7 +320,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 49,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 188,
+          "source_warning_count": 184,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -333,7 +333,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 180,
+          "source_warning_count": 177,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -352,7 +352,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 175,
+          "source_warning_count": 174,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -365,7 +365,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 38,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 174,
+          "source_warning_count": 173,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -378,7 +378,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 45,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 177,
+          "source_warning_count": 175,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -410,7 +410,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 124,
+          "source_warning_count": 123,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -423,7 +423,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 36,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 143,
+          "source_warning_count": 142,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -468,7 +468,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 157,
+          "source_warning_count": 156,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -532,7 +532,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 43,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 145,
+          "source_warning_count": 146,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -545,7 +545,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 28,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 143,
+          "source_warning_count": 144,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -558,7 +558,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 149,
+          "source_warning_count": 150,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -577,7 +577,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 49,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 143,
+          "source_warning_count": 142,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -590,7 +590,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 137,
+          "source_warning_count": 136,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
@@ -603,7 +603,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 43,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 149,
+          "source_warning_count": 148,
           "unresolved_count": 0,
           "review_required_count": 0,
           "replay_verified": true
