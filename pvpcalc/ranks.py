@@ -92,9 +92,17 @@ def rows_at_rank(rows, rules, rank, spell_id):
             value = values[row["effect_index"]]
             row["base_value"] = value
             multiplier = row.get("final_pvp_multiplier", row.get("pvp_multiplier", 1))
-            row["final_pvp_value"] = value * (
-                multiplier if multiplier is not None else 1
-            )
+            flat = [a for a in row.get("aura_rules", []) if a.get("operation")=="add_flat_value"]
+            if flat:
+                if len(flat)!=1 or not value:
+                    raise ValueError("Unsupported flat aura rank projection")
+                row["final_pvp_value"] = value + flat[0]["flat_delta"]
+                row["final_pvp_multiplier"] = row["final_pvp_value"]/value
+                row["aura_factor"] = row["final_pvp_multiplier"]
+            else:
+                row["final_pvp_value"] = value * (
+                    multiplier if multiplier is not None else 1
+                )
         if row.get("display_formula"):
             formula = dict(row["display_formula"])
             formula["old"] = round(abs(row["base_value"] / formula["divisor"]), formula["precision"])

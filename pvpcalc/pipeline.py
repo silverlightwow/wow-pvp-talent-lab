@@ -2355,10 +2355,7 @@ def _build_simc_aura_rows(
                     simc_effect,
                 talent=
                     talent,
-                sources=[
-                    "simc",
-                    "drustvar",
-                ],
+                sources=["simc", *dict.fromkeys(rule.source for rule in applicable)],
                 confidence=
                     "high",
             )
@@ -4405,6 +4402,12 @@ def _annotate_final_pvp_layers(
         )
 
 
+        flat_rules = [rule for rule in applicable_rules if getattr(rule, "flat_delta", None) is not None]
+        if flat_rules:
+            if (len(applicable_rules) != 1 or spell_multiplier != 1 or base_value is None
+                    or abs(float(base_value)-flat_rules[0].projection_base_value)>1e-9):
+                raise ValueError("Flat scalar projection differs from exact source baseline")
+
         final_value = (
             float(base_value)
             * final_multiplier
@@ -4461,6 +4464,10 @@ def _annotate_final_pvp_layers(
                                 rule.build,
                             "source":
                                 getattr(rule, "source", "drustvar"),
+                            **({"operation": "add_flat_value", "flat_delta": rule.flat_delta,
+                                "projection_base_value": rule.projection_base_value,
+                                "target_label_id": rule.target_label_id}
+                               if getattr(rule, "flat_delta", None) is not None else {}),
                         }
                         for rule
                         in applicable_rules

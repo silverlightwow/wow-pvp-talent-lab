@@ -11,6 +11,9 @@ def plan_spec_sources(*, dump, class_name, spec_name, spec_names, talent_spell_i
                                                 class_name=class_name)
     rules = pvp_aura.supplement_exact_percent_rules(rules, aura_payload, dump,
         spec_name=spec_name, class_name=class_name)
+    flat_rules, _ = pvp_aura.exact_flat_scalar_inventory(rules, aura_payload, dump,
+        spec_name=spec_name, class_name=class_name)
+    rules.extend(flat_rules)
     drustvar_ids = {int(effect.spell_id) for effect in drustvar_effects}
     aura_ids = {int(spell_id) for rule in rules for spell_id, _ in rule.affected_spells}
     for rule in rules:
