@@ -9,6 +9,8 @@ def plan_spec_sources(*, dump, class_name, spec_name, spec_names, talent_spell_i
                                             spec_name=spec_name, spec_names=spec_names)
     rules = pvp_aura.normalize_current_spec_aura(aura_payload, spec_name=spec_name,
                                                 class_name=class_name)
+    rules = pvp_aura.supplement_exact_percent_rules(rules, aura_payload, dump,
+        spec_name=spec_name, class_name=class_name)
     drustvar_ids = {int(effect.spell_id) for effect in drustvar_effects}
     aura_ids = {int(spell_id) for rule in rules for spell_id, _ in rule.affected_spells}
     for rule in rules:

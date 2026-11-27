@@ -294,3 +294,44 @@ def test_missing_spec_pvp_aura_is_valid_identity_state():
         spec_name="Test",
         class_name="Test",
     ) == []
+
+
+def test_exact_pvp_aura_recovers_label_effect_without_touching_pve_aura_or_sibling():
+    from pvpcalc import pvp_aura, pipeline
+    from pvpcalc.sources import simc
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.5.70961 Live
+Name             : Example Rogue (id=100)
+Effects          :
+#1 (id=2001) : Apply Aura (6) | Apply Percent Modifier w/ Label (218): Spell Effect 2 (12)
+                   Base Value: 72 | Scaled Value: 72 | Misc Value: 12 | Misc Value 2: 900 (Label)
+                   Affected Spells (Label): Target (200)
+#2 (id=2002) : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Effect 2 (12)
+                   Base Value: 5 | Misc Value 2: 900 (Label)
+Name             : Target (id=200)
+Labels           : 900
+Effects          :
+#1 (id=3001) : Apply Aura (6) | Dummy (4)
+                   Base Value: 30
+#2 (id=3002) : Apply Aura (6) | Dummy (4)
+                   Base Value: 35 | PvP Coefficient: 0.25
+Name             : Other Target (id=201)
+Effects          :
+#1 (id=3003) : Apply Aura (6) | Dummy (4)
+                   Base Value: 35
+""",class_slug="rogue")
+    payload={"auras":[{"id":100,"name":"Example Rogue","spec":"Example","effects":[]}],
+             "versions":["12.1.5.70783"]}
+    rules=pvp_aura.supplement_exact_percent_rules([],payload,dump,spec_name="Example",class_name="Rogue")
+    assert len(rules)==1
+    assert rules[0].game_effect_id==2001 and rules[0].source=="simc_exact_pvp_aura"
+    rows=[dict(spell_id=200,effect_index=2,base_value=35,pvp_multiplier=.25,effect_text="Dummy"),
+          dict(spell_id=200,effect_index=1,base_value=30,pvp_multiplier=1,effect_text="Dummy"),
+          dict(spell_id=201,effect_index=2,base_value=35,pvp_multiplier=1,effect_text="Dummy")]
+    pipeline._annotate_final_pvp_layers(rows,rules,dump)
+    assert abs(rows[0]["final_pvp_value"]-15.05)<1e-9
+    assert rows[1]["final_pvp_value"]==30 and rows[2]["final_pvp_value"]==35
+    assert rows[0]["aura_rules"][0]["build"]==dump.build
+    assert pvp_aura.supplement_exact_percent_rules([],dict(payload,auras=[]),dump,
+        spec_name="Example",class_name="Rogue")==[]
+    assert pvp_aura.supplement_exact_percent_rules(rules,payload,dump,
+        spec_name="Example",class_name="Rogue")==rules

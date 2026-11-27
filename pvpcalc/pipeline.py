@@ -4459,6 +4459,8 @@ def _annotate_final_pvp_layers(
 
                             "build":
                                 rule.build,
+                            "source":
+                                getattr(rule, "source", "drustvar"),
                         }
                         for rule
                         in applicable_rules

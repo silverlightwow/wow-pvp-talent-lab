@@ -3491,6 +3491,103 @@ def _owned_class_absolute_evidence(hotfix, records, source_dump):
     return proof, None
 
 
+def _numeric_proof_for_conflicting_target(talent, hotfix, catalog, baselines):
+    """Resolve a note's numeric tuning without trusting its conflicting noun.
+
+    This is evidence-only: it never applies a guessed overlay, renames a
+    spell, or rounds the underlying mechanics. Require exact specialization
+    scope, unchanged PvE text, a single owned scalar at both verified
+    endpoints, and a newly discovered exact-build PvP aura for that effect.
+    Keep the wording conflict in the public diagnostic.
+    """
+    import math
+    if (hotfix.mode != "absolute" or hotfix.unit != "percent"
+            or hotfix.previous_percent is None or hotfix.hotfix_date is None
+            or not hotfix.target_hint or getattr(talent, "rank_tooltips", None)):
+        return None
+    scope = tuple(map(_normalize_name, hotfix.context_path))
+    if scope[:2] != (_normalize_name(catalog.class_name), _normalize_name(catalog.spec_name)):
+        return None
+    if len(scope) > 2 and _normalize_name(getattr(talent, "hero_tree", "") or "") not in scope[2:]:
+        return None
+    terms = _target_terms(hotfix.target_hint)
+    if not terms or any(term in _normalize_name(talent.pvp_tooltip) for term in terms):
+        return None
+    baseline = (baselines or {}).get(hotfix.hotfix_date.isoformat(), {})
+    if not baseline.get("verified"):
+        return None
+    prior = baseline.get("by_spell", {}).get(str(talent.spell_id), {})
+    if not prior or _normalize_name(prior.get("pve_tooltip", "")) != _normalize_name(talent.pve_tooltip):
+        return None
+    before = {(r.get("source_spell_id"),r.get("effect_index")):r for r in prior.get("mechanics", [])}
+    candidates = []
+    for row in talent.mechanics:
+        key = (row.get("source_spell_id"),row.get("effect_index"))
+        old = before.get(key)
+        if not old or row.get("coefficient_based") is not False or old.get("coefficient_based") is not False:
+            continue
+        try:
+            x,y = abs(float(old["final_pvp_value"])),abs(float(row["final_pvp_value"]))
+            base = float(row["base_value"])
+            if (base != float(old["base_value"])
+                    or float(row["spell_pvp_multiplier"]) != float(old["spell_pvp_multiplier"])):
+                continue
+        except (KeyError,TypeError,ValueError):
+            continue
+        # An announced integer is not a replacement for the actual client
+        # value. Accept the old truncated integer only as corroboration;
+        # the current value must agree within half a displayed unit.
+        if not (float(hotfix.previous_percent).is_integer()
+                and float(hotfix.current_percent).is_integer()
+                and math.floor(x) == hotfix.previous_percent
+                and abs(y-hotfix.current_percent) < .5
+                and (y-x)*(hotfix.current_percent-hotfix.previous_percent)>0):
+            continue
+        old_ids = {r.get("game_effect_id") for r in old.get("aura_rules", [])}
+        exact = [r for r in row.get("aura_rules", [])
+                 if r.get("source") == "simc_exact_pvp_aura"
+                 and r.get("amount_kind") == f"effect:{key[1]}"
+                 and r.get("game_effect_id") not in old_ids
+                 and r.get("label_id") is not None and r.get("build")]
+        if len(exact) != 1:
+            continue
+        # Unique renderer ownership: both endpoint changes must reference
+        # this exact effect index, at the same original tooltip span.
+        if sum(r.get("effect_index")==key[1] for r in talent.mechanics)!=1:
+            continue
+        if sum(r.get("effect_index")==key[1] for r in before.values())!=1:
+            continue
+        def owned(changes):
+            return [c for c in changes if c.get("effect_indexes")==[key[1]]
+                    and c.get("kind")=="percent_value"]
+        old_changes,new_changes=owned(prior.get("changes", [])),owned(talent.changes or [])
+        if len(old_changes)!=1 or len(new_changes)!=1:
+            continue
+        a,b=old_changes[0],new_changes[0]
+        if any(a.get(k)!=b.get(k) for k in ("start","end","old_token")):
+            continue
+        try:
+            start,end=int(b["start"]),int(b["end"])
+            token=float(str(b["new_token"]).rstrip("%"))
+            old_token=float(str(a["new_token"]).rstrip("%"))
+        except (ValueError,TypeError,KeyError):
+            continue
+        if token!=hotfix.current_percent or abs(old_token-x)>1e-9:
+            continue
+        if talent.pve_tooltip[start:end]!=str(b["old_token"]):
+            continue
+        if talent.pve_tooltip[:start]+str(b["new_token"])+talent.pve_tooltip[end:]!=talent.pvp_tooltip:
+            continue
+        if prior["pve_tooltip"][:start]+str(a["new_token"])+prior["pve_tooltip"][end:]!=prior["pvp_tooltip"]:
+            continue
+        candidates.append(dict(source="exact_effect_history_with_conflicting_official_target",
+            source_spell_id=key[0],effect_index=key[1],prior_value=x,current_value=y,
+            displayed_value=token,announced_target=hotfix.target_hint,
+            verified_pre_commit=baseline.get("commit"),aura_rule=exact[0],
+            wording_conflict=True))
+    return candidates[0] if len(candidates)==1 else None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
@@ -4083,6 +4180,21 @@ def apply_official_pvp_hotfixes(
                     hotfix=hotfix,
                 )
             )
+
+            if status == "AMBIGUOUS_TARGET_REGION":
+                evidence = _numeric_proof_for_conflicting_target(
+                    talent, hotfix, spec_catalog, historical_talents_by_date)
+                if evidence is not None:
+                    talent.has_pvp_mechanics = True
+                    talent.diagnostics.append(dict(
+                        status="OFFICIAL_HOTFIX_NUMERICALLY_PROVED_TARGET_CONFLICT",
+                        source="blizzard_hotfix", source_url=hotfix.source_url,
+                        hotfix_text=hotfix.text, hotfix_date=hotfix.hotfix_date.isoformat(),
+                        evidence=evidence))
+                    already_current.append(dict(talent_name=talent.talent_name,
+                        spell_id=talent.spell_id, text=hotfix.text,
+                        date=hotfix.hotfix_date.isoformat(), evidence=evidence))
+                    continue
 
             rank_statuses = []
             for rank in (

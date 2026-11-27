@@ -187,3 +187,41 @@ Effects          :
     assert reason is None and resolved[0][1]["source_spell_id"]==101
     t.pvp_tooltip="Marked enemies take 7% more damage."
     assert h._owned_class_absolute_evidence(note,[t],dump)[1]=="UNPROVED_OWNED_CLASS_SCALAR"
+
+
+def test_scope_conflict_uses_unique_exact_numeric_history_without_overlay():
+    from datetime import date
+    from types import SimpleNamespace as NS
+    from copy import deepcopy
+    from pvpcalc.sources import blizzard_hotfixes as h
+    note=h.OfficialPvpHotfix("Example",15,8,"other strike",
+        "Example increases damage of other strike by 15% (was 8%).",
+        date(2026,10,27),context_path=("Rogue","First","Hero"))
+    pve="Your own strike deals 35% additional damage."
+    start=pve.index("35")
+    def change(value):
+        return dict(start=start,end=start+2,old_token="35",new_token=value,
+            kind="percent_value",effect_indexes=[2])
+    def row(value,aura):
+        return dict(source_spell_id=200,effect_index=2,coefficient_based=False,
+            base_value=35,spell_pvp_multiplier=.25,final_pvp_value=value,aura_rules=aura)
+    aura=dict(source="simc_exact_pvp_aura",amount_kind="effect:2",game_effect_id=2001,
+        label_id=900,build="12.1.5.70961",factor=1.72)
+    prior=dict(pve_tooltip=pve,pvp_tooltip=pve.replace("35","8.75"),
+        changes=[change("8.75")],mechanics=[row(8.75,[])])
+    talent=NS(spell_id=100,hero_tree="Hero",pve_tooltip=pve,pvp_tooltip=pve.replace("35","15"),
+        changes=[change("15")],mechanics=[row(15.05,[aura])],rank_tooltips=[])
+    baseline={"2026-10-27":dict(verified=True,commit="a"*40,by_spell={"100":prior})}
+    scope=NS(class_name="Rogue",spec_name="First")
+    evidence=h._numeric_proof_for_conflicting_target(talent,note,scope,baseline)
+    assert evidence["wording_conflict"] is True and evidence["current_value"]==15.05
+    assert talent.mechanics[0]["final_pvp_value"]==15.05
+    for mutation in ("wrong_scope","old_unverified","wrong_effect","wrong_source","wrong_value","wrong_text"):
+        t,b,c=deepcopy(talent),deepcopy(baseline),deepcopy(scope)
+        if mutation=="wrong_scope":c.spec_name="Second"
+        elif mutation=="old_unverified":b["2026-10-27"]["verified"]=False
+        elif mutation=="wrong_effect":t.mechanics[0]["effect_index"]=3
+        elif mutation=="wrong_source":t.mechanics[0]["aura_rules"][0]["source"]="drustvar"
+        elif mutation=="wrong_value":t.mechanics[0]["final_pvp_value"]=16
+        else:t.pvp_tooltip=t.pvp_tooltip.replace("own","other")
+        assert h._numeric_proof_for_conflicting_target(t,note,c,b) is None
