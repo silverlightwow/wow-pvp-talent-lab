@@ -16,24 +16,6 @@ from pvpcalc.snapshot import HttpSnapshot
 from pvpcalc.sources import raidbots, simc
 
 
-def parse_generated_labels(text, expected_build):
-    """Read the entire exact-build label relation, including off-class IDs."""
-    from collections import defaultdict
-    build=re.search(r"wow build level (\d+\.\d+\.\d+\.\d+)",text)
-    header=re.search(r"std::array<spelllabel_data_t, (\d+)> __spelllabel_data \{ \{",text)
-    if not build or build[1]!=expected_build or not header:
-        raise ValueError("Missing exact-build generated spell label table")
-    body=text[header.end():].split("} };",1)[0]
-    pairs=[(int(sid),int(label)) for sid,label in re.findall(r"\{\s*(\d+),\s*(\d+)\s*\}",body)]
-    if len(pairs)!=int(header[1]):
-        raise ValueError("Incomplete exact spell label entries")
-    # The upstream table itself contains repeated pairs; membership is a set.
-    result=defaultdict(set)
-    for sid,label in pairs:
-        result[label].add(sid)
-    return dict(result)
-
-
 def audit_spec(dump, payload, *, class_name, spec_name, spec_names, generated_labels=None):
     scoped=simc.scope_dump_to_specialization(dump,class_name=class_name,
         spec_name=spec_name,spec_names=spec_names)
@@ -107,7 +89,7 @@ def audit(snapshot_dir,raidbots_file):
         ref=context["classes"][class_name]["simc_ref"]
         url=f"https://raw.githubusercontent.com/{simc.SIMC_REPO}/{ref}/"
         if ref not in labels_by_ref:
-            labels_by_ref[ref]=parse_generated_labels(snapshot.read(url+"engine/dbc/generated/sc_spell_data.inc"),context["tree_build"])
+            labels_by_ref[ref]=simc.parse_generated_labels(snapshot.read(url+"engine/dbc/generated/sc_spell_data.inc"),context["tree_build"])
         slug=class_name.casefold().replace(" ","")
         dump=simc.parse_dump(snapshot.read(url+f"SpellDataDump/{slug}.txt"),
             class_slug=slug,source_ref=ref)

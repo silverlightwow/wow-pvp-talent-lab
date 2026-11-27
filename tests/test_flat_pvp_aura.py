@@ -135,7 +135,7 @@ Description      : Reduces cooldown by ${$m1/-1000} sec.
 
 
 def test_generated_labels_complete_and_exact_build():
-    from scripts.audit_exact_pvp_auras import parse_generated_labels
+    from pvpcalc.sources.simc import parse_generated_labels
     text="""// wow build level 12.1.5.70961
 static constexpr std::array<spelllabel_data_t, 2> __spelllabel_data { {
   { 200, 900 },

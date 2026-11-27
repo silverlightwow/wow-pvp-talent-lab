@@ -2766,3 +2766,21 @@ def pvp_modified_spell_ids(
                 break
 
     return result
+
+
+def parse_generated_labels(text, expected_build):
+    """Read the entire exact-build label relation, including off-class IDs."""
+    from collections import defaultdict
+    build=re.search(r"wow build level (\d+\.\d+\.\d+\.\d+)",text)
+    header=re.search(r"std::array<spelllabel_data_t, (\d+)> __spelllabel_data \{ \{",text)
+    if not build or build[1]!=expected_build or not header:
+        raise ValueError("Missing exact-build generated spell label table")
+    body=text[header.end():].split("} };",1)[0]
+    pairs=[(int(sid),int(label)) for sid,label in re.findall(r"\{\s*(\d+),\s*(\d+)\s*\}",body)]
+    if len(pairs)!=int(header[1]):
+        raise ValueError("Incomplete exact spell label entries")
+    # The upstream table itself contains repeated pairs; membership is a set.
+    result=defaultdict(set)
+    for sid,label in pairs:
+        result[label].add(sid)
+    return dict(result)
