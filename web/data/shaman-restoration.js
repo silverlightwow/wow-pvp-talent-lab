@@ -12934,6 +12934,11 @@ window.WOW_PVP_DATA = {
     },
     {
       "source": "wowhead",
+      "spell_id": 137038,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 188196,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=188196'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13953,7 +13958,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70961",
-    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
+    "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438",
     "baseline_spell_ids": [
       2484,
       2645,
@@ -16804,7 +16809,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "shaman-restoration",
-  "generated_at": "2026-11-27T14:08:22.175816+00:00",
+  "generated_at": "2026-11-27T21:51:46.968264+00:00",
   "validation": {
     "abilities": 5,
     "abilities_with_pvp_mechanics": 5,
@@ -16819,7 +16824,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 144,
+    "source_warning_count": 145,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -16855,8 +16860,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
-    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
+    "captured_at": "2026-11-27T21:35:54.766603+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,

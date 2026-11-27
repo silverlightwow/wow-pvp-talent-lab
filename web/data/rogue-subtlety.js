@@ -4173,7 +4173,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 121471,
           "source_spell_id": 121471,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -4185,9 +4185,9 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar",
-            "simc"
+            "simc_generated"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9596,7 +9596,7 @@ window.WOW_PVP_DATA = {
             "source_line": "Fazed enemies take $441224s1% more damage from you and cannot parry your attacks.",
             "rendered_line": "Fazed enemies take 5% more damage from you and cannot parry your attacks.",
             "source_build": "12.1.5.70961",
-            "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f"
+            "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438"
           }
         }
       ],
@@ -12391,6 +12391,11 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 121471,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 185314,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185314'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -13196,7 +13201,7 @@ window.WOW_PVP_DATA = {
           "source_line": "Fazed enemies take $441224s1% more damage from you and cannot parry your attacks.",
           "rendered_line": "Fazed enemies take 5% more damage from you and cannot parry your attacks.",
           "source_build": "12.1.5.70961",
-          "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f"
+          "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438"
         }
       }
     ],
@@ -14018,7 +14023,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70961",
-    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
+    "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438",
     "baseline_spell_ids": [
       53,
       408,
@@ -17107,7 +17112,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "rogue-subtlety",
-  "generated_at": "2026-11-27T14:07:37.491814+00:00",
+  "generated_at": "2026-11-27T21:50:53.558042+00:00",
   "validation": {
     "abilities": 10,
     "abilities_with_pvp_mechanics": 10,
@@ -17122,11 +17127,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 156,
+    "source_warning_count": 157,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 121471,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121471'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 185314,
@@ -17146,11 +17156,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 193539,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193539'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 193546,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193546'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -17158,8 +17163,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
-    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
+    "captured_at": "2026-11-27T21:35:54.766603+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,

@@ -8116,7 +8116,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120692,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 1.61)",
+          "effect_text": "Direct Heal (10) (SP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8154,11 +8154,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -8176,7 +8177,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120517,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8204,11 +8205,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -12074,6 +12076,16 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 120517,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120517'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 121536,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 132157,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12626,6 +12638,16 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 1272363,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1272363'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 120692,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 120696,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13519,7 +13541,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70961",
-    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
+    "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438",
     "baseline_spell_ids": [
       453,
       527,
@@ -16129,7 +16151,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "priest-holy",
-  "generated_at": "2026-11-27T14:06:44.547414+00:00",
+  "generated_at": "2026-11-27T21:50:00.463969+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -16144,11 +16166,21 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 123,
+    "source_warning_count": 127,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 120517,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120517'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 121536,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=121536'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 132157,
@@ -16163,16 +16195,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 193155,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193155'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 193157,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196704,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196704'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16180,8 +16202,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
-    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
+    "captured_at": "2026-11-27T21:35:54.766603+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,

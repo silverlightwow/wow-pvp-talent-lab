@@ -4345,7 +4345,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 117014,
           "source_spell_id": 117014,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Nature, Frost) (SP mod: 2.0125)",
+          "effect_text": "School Damage (2): elemental (SP mod: 2.0125)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4378,10 +4378,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -12068,6 +12069,16 @@ window.WOW_PVP_DATA = {
   "source_warnings": [
     {
       "source": "wowhead",
+      "spell_id": 117013,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117013'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 117014,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
       "spell_id": 170374,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=170374'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12665,6 +12676,11 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 123831,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123831'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "wowhead",
+      "spell_id": 137038,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -13631,7 +13647,7 @@ window.WOW_PVP_DATA = {
   },
   "spellbook_inventory": {
     "build": "12.1.5.70961",
-    "source_ref": "568a1cba25697a0ee254ee707dfe0759e603555f",
+    "source_ref": "76395bc4821832cab166a3c76f224bd1f1923438",
     "baseline_spell_ids": [
       2484,
       2645,
@@ -16388,7 +16404,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "shaman-elemental",
-  "generated_at": "2026-11-27T14:07:58.314234+00:00",
+  "generated_at": "2026-11-27T21:50:54.934303+00:00",
   "validation": {
     "abilities": 6,
     "abilities_with_pvp_mechanics": 6,
@@ -16403,11 +16419,21 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 142,
+    "source_warning_count": 145,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 117013,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117013'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 117014,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=117014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 170374,
@@ -16422,16 +16448,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 191634,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191634'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 191717,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191717'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 191861,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191861'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16439,8 +16455,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "18969c6f4e9f18b5d2348c0bca5496d2831b10eac8b29f26c5b92b7d870c5f45",
-    "captured_at": "2026-11-27T13:52:27.659249+00:00",
+    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
+    "captured_at": "2026-11-27T21:35:54.766603+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,
@@ -18178,6 +18194,27 @@ window.WOW_PVP_DATA = {
       {
         "key": [
           "talents",
+          127924,
+          117014,
+          117014,
+          1
+        ],
+        "amount_kind": "direct",
+        "values": {
+          "base_value": 0,
+          "spell_pvp_multiplier": 1.0,
+          "aura_factor": 0.6335999999999999,
+          "final_pvp_multiplier": 0.6335999999999999,
+          "final_pvp_value": null,
+          "simc_sp_coefficient": 2.0125,
+          "simc_ap_coefficient": null,
+          "scaled_base_value": null,
+          "scaled_final_pvp_value": null
+        }
+      },
+      {
+        "key": [
+          "talents",
           127925,
           61882,
           77478,
@@ -18281,6 +18318,6 @@ window.WOW_PVP_DATA = {
         }
       }
     ],
-    "independent_hash": "bc42cf49c44bdf2d140c4a4dd341ef594ebca016d6b068c1bcfa14fa843489b4"
+    "independent_hash": "040db4b847e5bcdad4ecd8d5262d42f12d982e19b44d62d010b627321cbe6d43"
   }
 };
