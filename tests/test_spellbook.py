@@ -268,3 +268,47 @@ def test_internal_aura_retains_exact_effects_without_inventing_player_text(monke
         assert record.render_status == 'MECHANICS_ONLY'
         assert record.player_description_status == 'UNAVAILABLE_IN_EXACT_SOURCE'
         assert record.diagnostics[-1]['status'] == 'SOURCE_HAS_NO_PLAYER_DESCRIPTION'
+
+
+def test_client_specialization_index_uses_generated_order_not_numeric_id():
+    text = '''// Specialization spells, wow build 12.1.0.12345
+static constexpr std::array<specialization_spell_entry_t, 4> __specialization_spell_data { {
+  { 10, 268, 100, 0, "One", 0 },
+  { 10, 270, 101, 0, "Two", 0 },
+  { 10, 270, 102, 0, "Another", 0 },
+  { 10, 269, 103, 0, "Three", 0 },
+} };
+'''
+    rows = spellbook.parse_table(text, expected_build='12.1.0.12345')
+    names = {268:'First',269:'Third',270:'Second'}
+    order = spellbook.specialization_order(rows,class_id=10,spec_id_to_name=names)
+    assert order == ['First','Second','Third']
+    starter = dict(rows[-1],spec_id=999)
+    assert spellbook.specialization_order([*rows,starter],class_id=10,spec_id_to_name=names)==order
+    with pytest.raises(ValueError,match='coverage mismatch'):
+        spellbook.specialization_order([starter,*rows],class_id=10,spec_id_to_name=names)
+    source = 'Description : $?c2[heal $101s1.]?c3[damage $103s1.][]'
+    # The client omits the dollar sign in a chained continuation.
+    assert 'heal $101s1' in simc._without_inactive_specialization_index_branches(
+        source,spec_name='Second',spec_names=order)
+    assert 'damage $103s1' not in simc._without_inactive_specialization_index_branches(
+        source,spec_name='Second',spec_names=order)
+    with pytest.raises(ValueError,match='coverage mismatch'):
+        spellbook.specialization_order(rows[:-1],class_id=10,spec_id_to_name=names)
+    with pytest.raises(ValueError,match='Noncontiguous'):
+        spellbook.specialization_order([*rows,rows[0]],class_id=10,spec_id_to_name=names)
+
+
+@pytest.mark.parametrize("spec, expected", [
+    ("First","fallback"),("Second","heal [[$101s1]*2]"),("Third","damage $103s1")
+])
+def test_balanced_chained_specialization_conditions(spec,expected):
+    raw = "$?c2[heal [[$101s1]*2]]?c3[damage $103s1][fallback]"
+    assert simc._without_inactive_specialization_index_branches(raw,
+        spec_name=spec,spec_names=["First","Second","Third"]) == expected
+
+
+def test_unknown_chain_is_not_guessed():
+    raw="$?c2[heal]?s123[damage][]"
+    assert simc._without_inactive_specialization_index_branches(raw,
+        spec_name="Second",spec_names=["First","Second","Third"])==raw

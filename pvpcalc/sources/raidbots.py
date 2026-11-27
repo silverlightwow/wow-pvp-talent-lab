@@ -420,6 +420,10 @@ async def fetch_spec_tree(
         item["spec_name"]
         for item in class_specs
     ]
+    # Identity map; the client ordinal comes from exact SimC tables later.
+    metadata["classSpecIds"] = {
+        item["spec_id"]: item["spec_name"] for item in class_specs
+    }
 
     rows = normalize_spec_tree(
         talents,

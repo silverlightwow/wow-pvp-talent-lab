@@ -127,3 +127,63 @@ def test_absolute_successor_matches_parallel_effect_ids_not_names_only():
     assert proof["effect_keys"] == [[100, 4], [100, 5]]
     current.mechanics.pop()
     assert h._historically_superseded(current, old, [old, new], baseline) is None
+
+
+def test_named_child_requires_exact_direct_dependency_and_effect_history():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    note = h.OfficialPvpHotfix("Parent's Meteor",20,None,None,
+        "Parent's Meteor damage increased by 20% in PvP combat.",date(2026,10,27),
+        mode="relative_increase")
+    def row(sid, factor, path):
+        return dict(source_spell_id=sid,effect_index=1,effect_text="School Damage (SP mod: 1)",
+            final_pvp_multiplier=factor,spell_pvp_multiplier=factor,aura_factor=1,
+            dependency_path=path)
+    current = FakeTalent("Parent",100,"Meteor deals damage.","Meteor deals damage.",
+        mechanics=[row(101,.8,[100,101]),row(102,.8,[100,101,102])])
+    base={"2026-10-27":dict(by_spell={"100":dict(mechanics=[row(101,2/3,[100,101]),row(102,.8,[100,101,102])])})}
+    resolved,reason=h._compound_relative_evidence(note,{"parent":[current]},base,{101:"Meteor",102:"Meteor"})
+    assert reason is None
+    assert resolved[0][1]["source_spell_id"]==101
+    current.mechanics[0]["dependency_path"]=[100,999,101]
+    resolved,reason=h._compound_relative_evidence(note,{"parent":[current]},base,{101:"Meteor",102:"Meteor"})
+    assert not resolved and reason=="UNPROVED_NAMED_CHILD"
+
+
+def test_conjunctive_note_requires_evidence_for_every_named_subject():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    note=h.OfficialPvpHotfix("First Totem and Second Totem",20,None,None,
+        "First Totem and Second Totem healing increased by 20% in PvP combat.",date(2026,10,27),
+        mode="relative_increase")
+    def talent(sid,name):
+        return FakeTalent(name,sid,"Heals.","Heals.",mechanics=[dict(source_spell_id=sid+10,effect_index=1,
+            effect_text="Direct Heal (SP mod: 1)",spell_pvp_multiplier=1.2,aura_factor=1,final_pvp_multiplier=1.2)])
+    a,b=talent(100,"First Totem"),talent(200,"Second Totem")
+    resolved,reason=h._compound_relative_evidence(note,{"first totem":[a],"second totem":[b]},None,{})
+    assert reason is None and {t.spell_id for t,_ in resolved}=={100,200}
+    b.mechanics[0]["spell_pvp_multiplier"]=1.1
+    assert h._compound_relative_evidence(note,{"first totem":[a],"second totem":[b]},None,{})[1]=="UNPROVED_COMPOUND_RELATIVE_EFFECT"
+    assert h._compound_relative_evidence(note,{"first totem":[a]},None,{})[1]=="UNREPRESENTED_CONJUNCTIVE_SUBJECT"
+
+
+def test_internal_class_scalar_proof_requires_owned_client_line():
+    from pvpcalc.sources import blizzard_hotfixes as h, simc
+    from test_blizzard_hotfixes import FakeTalent
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.0.12345 Live
+Name             : Parent (id=100)
+Description      : Marked enemies take $101s1% more damage.
+Name             : Marked (id=101)
+Effects          :
+#1 (id=2001) : Apply Aura (6) | Modify Damage Taken%
+                   Base Value: 5
+""",class_slug="example")
+    note=h.OfficialPvpHotfix("Marked",5,7,None,"Marked now increases damage by 5% (was 7%).",
+        None,mode="class_absolute")
+    t=FakeTalent("Parent",100,"Marked enemies take 5% more damage.","Marked enemies take 5% more damage.")
+    resolved,reason=h._owned_class_absolute_evidence(note,[t],dump)
+    assert reason is None and resolved[0][1]["source_spell_id"]==101
+    t.pvp_tooltip="Marked enemies take 7% more damage."
+    assert h._owned_class_absolute_evidence(note,[t],dump)[1]=="UNPROVED_OWNED_CLASS_SCALAR"

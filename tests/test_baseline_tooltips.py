@@ -87,3 +87,20 @@ def test_known_talent_percent_alternatives_receive_the_same_concrete_effect_tuni
     assert changes[0]['old_token'] == '[Resource Talent: 3 / 2]%'
     assert 'Restores [Resource Talent: 3 / 2]% mana.'[changes[0]['start']:changes[0]['end']] == changes[0]['old_token']
     assert baseline_tooltips.render_conditional_percent('Restores [Resource Talent: 4 / 2]% mana.',formulas)[1] == []
+
+
+def test_statless_talent_absorb_uses_exact_owned_child_coefficient():
+    from pvpcalc.baseline_tooltips import restore_statless_zero
+    from pvpcalc.sources import simc
+    dump = simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.0.12345 Live
+Name             : Parent (id=100)
+Description      : Grants an absorb shield to 5 allies for $101s1.
+Name             : Child (id=101)
+Effects          :
+#1 (id=1001) : Apply Aura (6) | Absorb Damage (69)
+                   Base Value: 0 | SP Coefficient: 1.5 | PvP Coefficient: 1.25
+""",class_slug="example")
+    result=restore_statless_zero("Grants an absorb shield to 5 allies for 0.",dump,100)
+    assert result["text"]=="Grants an absorb shield to 5 allies for (150% of Spell Power)."
+    assert restore_statless_zero("Grants an absorb shield to 3 allies for 0.",dump,100) is None
+    assert restore_statless_zero("Grants an absorb shield to 5 allies for 1.",dump,100) is None

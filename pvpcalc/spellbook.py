@@ -44,6 +44,10 @@ def parse_table(text: str, *, expected_build: str, require_passive: bool = False
                     passive=passive)
                 if pet:
                     row['scope'] = 'pet'
+                if array[1] == 'specialization_spell_entry_t':
+                    # Generated in ChrSpecialization.index order by SimC's
+                    # SpecializationSpellGenerator (not numeric spec ID order).
+                    row['source_table'] = 'specialization_spells'
                 table_rows.append(row)
         if len(table_rows) != int(array[2]):
             raise ValueError('Incomplete spellbook table')
@@ -51,6 +55,33 @@ def parse_table(text: str, *, expected_build: str, require_passive: bool = False
     if not rows:
         raise ValueError('Incomplete spellbook table')
     return rows
+
+
+def specialization_order(tables, *, class_id, spec_id_to_name):
+    """Recover client $?cN ordinal from exact-build generated spellbook order.
+
+    SimC's generator sorts by ChrSpecialization.class_id/index/id, then
+    spell ID. Validate completeness and contiguous groups against the live
+    Raidbots identity set; never silently substitute numerical ID order.
+    """
+    expected = {int(sid): str(name) for sid, name in spec_id_to_name.items()}
+    ordered = []
+    for row in tables:
+        if row.get('source_table') != 'specialization_spells' or row.get('class_id') != class_id:
+            continue
+        sid = int(row['spec_id'])
+        if ordered and ordered[-1] == sid:
+            continue
+        if sid in ordered:
+            raise ValueError('Noncontiguous specialization spellbook index groups')
+        ordered.append(sid)
+    # The generated spellbook also includes starter/Initial specializations
+    # (not in the active Raidbots tree set). Only accept extra groups after
+    # all active ordinals, so they cannot shift a known client's index.
+    active = ordered[:len(expected)]
+    if set(active) != set(expected):
+        raise ValueError(f'Exact-build specialization index coverage mismatch: {ordered} vs {sorted(expected)}')
+    return [expected[sid] for sid in active]
 
 
 async def fetch_tables(client, dump) -> list[dict]:

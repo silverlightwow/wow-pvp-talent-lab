@@ -736,7 +736,19 @@ def parse_official_pvp_hotfixes(
             )
         )
 
-        if inside_pvp:
+        pve_only = re.fullmatch(
+            r"All (?:spell and ability )?(?P<output>damage|healing)(?: done)? "
+            r"(?P<direction>increased|reduced) by (?P<value>\d+(?:\.\d+)?)%\. "
+            r"Does not (?:affect|apply to) PvP combat\.", text, re.I)
+        if active_section == "classes" and not inside_pvp and pve_only:
+            # PvP coefficients are ratios against the PvE baseline. A PvE-only
+            # change can therefore change that ratio even when PvP output is unchanged.
+            item = OfficialPvpHotfix(
+                "__SPEC_DAMAGE__" if pve_only["output"].casefold() == "damage" else "__SPEC_HEALING__",
+                float(pve_only["value"]), None, None, text, current_date,
+                mode="spec_pve_relative_increase" if pve_only["direction"].casefold() == "increased"
+                    else "spec_pve_relative_reduction", context_path=context_path)
+        elif inside_pvp:
             item = _parse_candidate(
                 text,
                 hotfix_date=current_date,
@@ -1030,10 +1042,16 @@ async def fetch_official_pvp_hotfixes(
     # Include every parsed directive since the previous publication, not just
     # the last 14 days: a prolonged outage must not discard intervening tuning.
     cutoff = min(max(previous_dates), newest - timedelta(days=13)) if previous_dates else newest - timedelta(days=13)
-    return sorted(
-        (item for key, item in all_items.items()
-         if key[0] in previous_keys or (item.hotfix_date and item.hotfix_date >= cutoff)),
-        key=lambda item: (item.hotfix_date or date.min, item.talent_name.casefold(), item.text),
+    selected = {item for key, item in all_items.items()
+                if key[0] in previous_keys or (item.hotfix_date and item.hotfix_date >= cutoff)}
+    context_keys = {(item.hotfix_date, item.context_path, item.talent_name) for item in selected
+                    if item.mode.startswith("spec_relative_")}
+    selected.update(item for item in all_items.values()
+                    if item.mode.startswith("spec_pve_relative_")
+                    and (item.hotfix_date, item.context_path, item.talent_name) in context_keys)
+    return sorted(selected,
+        key=lambda item: (item.hotfix_date or date.min, item.talent_name.casefold(), item.text,
+                          item.context_path, item.mode),
     )
 
 
@@ -2695,6 +2713,8 @@ def _spec_historical_relative_evidence(
     spec_catalog,
     hotfix: OfficialPvpHotfix,
     historical_talents_by_date,
+    *,
+    pve_context=(),
 ) -> dict | None:
     if (
         not historical_talents_by_date
@@ -2717,6 +2737,11 @@ def _spec_historical_relative_evidence(
             else -1.0
         )
     )
+    pve_factor = 1.0
+    for item in pve_context:
+        pve_factor *= 1 + (1 if item.mode.endswith("increase") else -1) * item.current_percent / 100
+    if pve_factor <= 0:
+        return None
     old_by_spell = baseline.get(
         "by_spell",
         {},
@@ -2780,9 +2805,16 @@ def _spec_historical_relative_evidence(
             # Blizzard rounds published relative changes to whole percent.
             # A 1.30 -> 1.40 aura is a 7.69% increase, announced as 8%.
             # Retain additive aura tuning supported by older notes as well.
-            additive_matches = abs(delta - expected_delta) <= 0.011
-            relative_matches = (relative_delta is not None and
-                                abs(relative_delta - expected_delta) <= 0.005)
+            if pve_context:
+                # The aura measures PvP / PvE, not absolute PvP output.
+                # Normalize the observed ratio by the announced PvE-only change.
+                additive_matches = False
+                relative_matches = (old_value > 0 and
+                                    abs(new_value / old_value * pve_factor - 1 - expected_delta) <= 0.005)
+            else:
+                additive_matches = abs(delta - expected_delta) <= 0.011
+                relative_matches = (relative_delta is not None and
+                                    abs(relative_delta - expected_delta) <= 0.005)
             if not (additive_matches or relative_matches):
                 continue
 
@@ -2808,7 +2840,8 @@ def _spec_historical_relative_evidence(
                     "delta":
                         delta,
                     "relative_delta": relative_delta,
-                    "comparison": "relative" if relative_matches else "additive",
+                    "comparison": "relative_with_pve_context" if pve_context else "relative" if relative_matches else "additive",
+                    "pve_context_factor": pve_factor,
                     "expected_delta":
                         expected_delta,
                 }
@@ -2821,6 +2854,7 @@ def _spec_historical_relative_evidence(
                         baseline.get("commit"),
                     "changed_effects":
                         changed,
+                    "pve_context": [_hotfix_dict(item) for item in pve_context],
                 }
 
     post = baseline.get('verified_post_by_spell')
@@ -2833,7 +2867,7 @@ def _spec_historical_relative_evidence(
         historical = dict(baseline)
         historical.pop('verified_post_by_spell')
         evidence = _spec_historical_relative_evidence(endpoint, hotfix,
-            {hotfix.hotfix_date.isoformat(): historical})
+            {hotfix.hotfix_date.isoformat(): historical}, pve_context=pve_context)
         current = {(int(r.get('source_spell_id') or 0), int(r.get('effect_index') or 0)): r
                    for t in spec_catalog.talents for r in (getattr(t, 'mechanics', None) or [])}
         if evidence and all((e['source_spell_id'], e['effect_index']) in current
@@ -3348,12 +3382,124 @@ def _historically_superseded(talent, hotfix, all_hotfixes, baselines):
     return None
 
 
+def _compound_relative_evidence(hotfix, by_name, baselines, source_spell_names):
+    """Resolve named child outputs and conjunctive subjects without guesses.
+
+    Only used when the complete official name is not itself a catalogue
+    name. No text overlay is allowed: each named target must be proved by
+    current exact effects, and a child must have a direct structural edge.
+    """
+    from types import SimpleNamespace
+    name = _normalize_name(hotfix.talent_name)
+    possessive = re.fullmatch(r"(.+)'s (.+)", name)
+    if possessive and possessive[1] in by_name:
+        group = []
+        for talent in by_name[possessive[1]]:
+            rows = [row for row in talent.mechanics
+                    if _normalize_name(source_spell_names.get(row.get("source_spell_id"), "")) == possessive[2]
+                    and row.get("dependency_path") == [talent.spell_id, row.get("source_spell_id")]
+                    and _output_matches(row, hotfix, talent)]
+            if not rows:
+                continue
+            if len({row.get("source_spell_id") for row in rows}) != 1:
+                return [], "AMBIGUOUS_NAMED_CHILD"
+            group.append((talent, rows, possessive[2]))
+        if not group:
+            return [], "UNPROVED_NAMED_CHILD"
+        subjects = [group]
+    else:
+        names = re.split(r"\s+and\s+", name)
+        if len(names) < 2 or not any(n in by_name for n in names):
+            return None, None
+        subjects = []
+        for subject in names:
+            if subject not in by_name:
+                return [], "UNREPRESENTED_CONJUNCTIVE_SUBJECT"
+            group = []
+            for talent in by_name[subject]:
+                rows = [row for row in talent.mechanics if _output_matches(row, hotfix, talent)]
+                if rows:
+                    group.append((talent, rows, subject))
+            if not group:
+                return [], "UNPROVED_CONJUNCTIVE_SUBJECT"
+            subjects.append(group)
+
+    records = []
+    for group in subjects:
+        for talent, rows, subject in group:
+            scoped = SimpleNamespace(spell_id=talent.spell_id, talent_name=talent.talent_name,
+                mechanics=rows, pve_tooltip=talent.pve_tooltip, changes=talent.changes)
+            evidence = (_historical_relative_evidence(scoped, hotfix, baselines)
+                        or _mechanic_proves_relative_hotfix(scoped, hotfix))
+            if not evidence:
+                return [], "UNPROVED_COMPOUND_RELATIVE_EFFECT"
+            records.append((talent, dict(evidence, resolved_subject=subject,
+                                         source_spell_name=source_spell_names.get(evidence.get("source_spell_id")))))
+    return records, None
+
+
+def _owned_class_absolute_evidence(hotfix, records, source_dump):
+    """Prove an already-current shared scalar in a referenced child spell.
+
+    Only a literal client value reference in an exact player-description
+    line may establish ownership of an internal named effect. No lookup by
+    similar names, no text overlay and no unverified source multiplier.
+    """
+    if source_dump is None or hotfix.unit != "percent":
+        return None, None
+    from . import simc
+    candidates = {sid for sid, spell in source_dump.spells.items()
+                  if _normalize_name(spell.name) == _normalize_name(hotfix.talent_name)}
+    if not candidates:
+        return None, None
+    owners = []
+    for talent in records:
+        for edge in source_dump.edges.get(talent.spell_id, ()):
+            if edge.target_spell_id not in candidates or edge.relation != "tooltip_value_ref":
+                continue
+            sid = edge.target_spell_id
+            pattern = re.compile(r"\$" + str(sid) + r"[sSmMwW](\d+)%")
+            line = re.sub(r"^Description\s*:\s*", "", edge.evidence).strip()
+            matches = list(pattern.finditer(line))
+            if len(matches) != 1:
+                continue
+            effect = simc.effect_for_spell(source_dump, sid, int(matches[0][1]))
+            if effect is None or effect.base_value is None:
+                continue
+            owners.append((talent, sid, effect, line, matches[0]))
+    if not owners:
+        return None, None
+    proof = []
+    for talent, sid, effect, line, match in owners:
+        if (effect.sp_coefficient or effect.ap_coefficient
+                or effect.pvp_coefficient not in (None, 1)
+                or abs(abs(effect.base_value) - hotfix.current_percent) > 1e-9):
+            continue
+        expected = line[:match.start()] + f"{abs(effect.base_value):g}%" + line[match.end():]
+        if "$" in expected:
+            continue
+        normalized = _normalize_name(expected)
+        if not all(any(_normalize_name(row) == normalized for row in str(tooltip or "").splitlines())
+                   for tooltip in (talent.pve_tooltip, talent.pvp_tooltip)):
+            continue
+        proof.append((talent, dict(source="exact_owned_class_scalar", source_spell_id=sid,
+            effect_index=effect.effect_index, game_effect_id=effect.game_effect_id,
+            base_value=effect.base_value, source_line=line, rendered_line=expected,
+            source_build=source_dump.build, source_ref=source_dump.source_ref)))
+    if not proof or len({(e["source_spell_id"], e["effect_index"]) for _, e in proof}) != 1:
+        return [], "UNPROVED_OWNED_CLASS_SCALAR"
+    return proof, None
+
+
 def apply_official_pvp_hotfixes(
     spec_catalog,
     hotfixes: list[OfficialPvpHotfix],
     *,
     historical_talents_by_date=None,
+    source_spell_names=None,
+    source_dump=None,
 ) -> dict:
+    source_spell_names = source_spell_names or {}
     by_name: dict[str, list] = {}
 
     # Official PvP notes can target both selectable talents and ordinary
@@ -3404,14 +3550,26 @@ def apply_official_pvp_hotfixes(
             )
             continue
 
+        if hotfix.mode.startswith("spec_pve_relative_"):
+            ignored.append(dict(talent_name=hotfix.talent_name, text=hotfix.text,
+                date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                reason="PVE_ONLY_RATIO_CONTEXT", mode=hotfix.mode, source_url=hotfix.source_url))
+            continue
+
         if hotfix.mode.startswith(
             "spec_relative_"
         ):
+            pve_context = tuple(item for item in hotfixes
+                if item.mode.startswith("spec_pve_relative_")
+                and item.hotfix_date == hotfix.hotfix_date
+                and item.talent_name == hotfix.talent_name
+                and item.context_path == hotfix.context_path)
             evidence = (
                 _spec_historical_relative_evidence(
                     spec_catalog,
                     hotfix,
                     historical_talents_by_date,
+                    pve_context=pve_context,
                 )
             )
             if evidence is None:
@@ -3478,6 +3636,24 @@ def apply_official_pvp_hotfixes(
             if matches:
                 break
 
+        if not matches and hotfix.mode.startswith("relative_"):
+            resolved, reason = _compound_relative_evidence(
+                hotfix, by_name, historical_talents_by_date, source_spell_names)
+            if reason:
+                unresolved.append(dict(talent_name=hotfix.talent_name, spell_id=None,
+                    text=hotfix.text, date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                    reason=reason))
+                continue
+            if resolved:
+                for talent, evidence in resolved:
+                    talent.has_pvp_mechanics = True
+                    talent.diagnostics.append(dict(status="OFFICIAL_HOTFIX_CURRENT", source="blizzard_hotfix",
+                        source_url=hotfix.source_url, hotfix_text=hotfix.text, evidence=evidence))
+                    already_current.append(dict(talent_name=talent.talent_name, spell_id=talent.spell_id,
+                        text=hotfix.text, date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                        evidence=evidence))
+                continue
+
         if (
             not matches
             and hotfix.mode.startswith(
@@ -3490,6 +3666,23 @@ def apply_official_pvp_hotfixes(
                     hotfix,
                 )
             )
+
+        if not matches and hotfix.mode == "class_absolute":
+            resolved, reason = _owned_class_absolute_evidence(hotfix, records, source_dump)
+            if reason:
+                unresolved.append(dict(talent_name=hotfix.talent_name, spell_id=None,
+                    text=hotfix.text, date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                    reason=reason))
+                continue
+            if resolved:
+                for talent, evidence in resolved:
+                    talent.diagnostics.append(dict(status="OFFICIAL_CLASS_HOTFIX_CURRENT",
+                        source="blizzard_hotfix", source_url=hotfix.source_url,
+                        hotfix_text=hotfix.text, evidence=evidence))
+                    already_current.append(dict(talent_name=talent.talent_name, spell_id=talent.spell_id,
+                        text=hotfix.text, date=hotfix.hotfix_date.isoformat() if hotfix.hotfix_date else None,
+                        evidence=evidence))
+                continue
 
         if not matches:
             ignored.append(

@@ -4711,6 +4711,9 @@ async def audit_spec(
         tree_spell_ids = set(talent_spell_ids)
         identity = result.talents[0]
         tables = await spellbook.fetch_tables(client, simc_dump)
+        if "classSpecIds" in result.metadata:
+            result.metadata["classSpecNames"] = spellbook.specialization_order(
+                tables, class_id=identity['class_id'], spec_id_to_name=result.metadata["classSpecIds"])
         unavailable_abilities = []
         ability_records = spellbook.ability_roots(tables, simc_dump,
             class_id=identity['class_id'], spec_id=identity['spec_id'],

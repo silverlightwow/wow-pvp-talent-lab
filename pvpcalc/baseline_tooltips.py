@@ -81,6 +81,33 @@ def coefficient_description(dump, spell_id):
                 spell_id=spell_id, coefficient_values=True)
 
 
+def restore_statless_zero(tooltip: str, dump, spell_id: int):
+    """Replace a statless amount only when complete exact client text agrees.
+
+    Do not substitute every zero in a talent or infer coefficients from
+    neighboring spell IDs. Require a unique coefficient and identical
+    remaining player-facing text (including durations and other values).
+    """
+    if not re.search(r"(?<![\d.])0(?!\d|[.,]\d|%)", tooltip):
+        return None
+    fallback = coefficient_description(dump, spell_id)
+    if not fallback:
+        return None
+    # A signed database reduction is displayed as a positive magnitude
+    # after the explicit words "reduced by". Do not normalize other signs.
+    exact = re.sub(r"(\breduced by\s+)-(\d+(?:\.\d+)?%)", r"\1\2",
+                   fallback["text"], flags=re.I)
+    matches = list(re.finditer(r"\([\d.]+% of (?:Spell|Attack) Power\)", exact))
+    if len(matches) != 1:
+        return None
+    match = matches[0]
+    statless = exact[:match.start()] + "0" + exact[match.end():]
+    normalize = lambda value: " ".join(value.split())
+    if normalize(tooltip) != normalize(statless):
+        return None
+    return dict(fallback, text=exact, restoration="exact_statless_zero", previous_text=tooltip)
+
+
 def conditional_percent_formulas(dump, row):
     """Resolve both scalar alternatives of a proven client talent condition."""
     parent = int(row.get('talent_spell_id') or row['spell_id'])

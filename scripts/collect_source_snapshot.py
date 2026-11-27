@@ -47,7 +47,9 @@ async def collect(args):
             effects = drustvar.parse_spell_payload(spells, slug)
             spellbook_tables = await spellbook.fetch_tables(client, dump)
             class_specs = [s for s in specs if s['class_name'] == class_name]
-            spec_names = [s['spec_name'] for s in sorted(class_specs, key=lambda s: s['spec_id'])]
+            spec_names = spellbook.specialization_order(spellbook_tables,
+                class_id=class_specs[0]['class_id'],
+                spec_id_to_name={s['spec_id']: s['spec_name'] for s in class_specs})
             for item in class_specs:
                 _, rows = await raidbots.fetch_spec_tree(client, class_name=class_name, spec_name=item['spec_name'])
                 roots = {int(row['spell_id']) for row in rows if row.get('spell_id')}

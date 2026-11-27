@@ -116,3 +116,25 @@ def test_new_numeric_grammar_preserves_source(text, expected_name, expected_mode
     assert item.target_hint == expected_target
     assert item.context_path == expected_scope
     assert item.text == text
+
+
+def test_pve_only_spec_tuning_is_context_not_a_pvp_overlay():
+    from datetime import date
+    from types import SimpleNamespace as NS
+    html = """<h3>October 27, 2026</h3><h3>Classes</h3>
+      <ul><li>Mage<ul><li>Fire<ul><li>All damage done increased by 5%. Does not affect PvP combat.</li></ul></li></ul></li></ul>
+      <h3>Player versus Player</h3><ul><li>Mage<ul><li>Fire<ul><li>All damage reduced by 5% in PvP combat.</li></ul></li></ul></li></ul>"""
+    items = h.parse_official_pvp_hotfixes(html)
+    pve = next(i for i in items if i.mode.startswith("spec_pve_relative_"))
+    pvp = next(i for i in items if i.mode.startswith("spec_relative_"))
+    def row(sid, factor):
+        return dict(source_spell_id=sid, effect_index=1, effect_text="School Damage", aura_factor=factor)
+    talents = [NS(spell_id=sid, talent_name=f"Spell {sid}", mechanics=[row(sid, .82)])
+               for sid in (1,2,3)]
+    catalog = NS(talents=talents)
+    baseline = {"2026-10-27": {"by_spell": {str(sid): {"mechanics": [row(sid,.91)]} for sid in (1,2,3)}}}
+    assert h._spec_historical_relative_evidence(catalog,pvp,baseline) is None
+    proof = h._spec_historical_relative_evidence(catalog,pvp,baseline,pve_context=(pve,))
+    assert proof["changed_effects"][0]["comparison"] == "relative_with_pve_context"
+    assert proof["pve_context"][0]["text"] == pve.text
+    assert all(t.mechanics[0]["aura_factor"] == .82 for t in talents)

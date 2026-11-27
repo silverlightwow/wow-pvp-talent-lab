@@ -523,6 +523,9 @@ async def build_one(
             official_hotfixes,
             historical_talents_by_date=
                 hotfix_baselines,
+            source_spell_names={sid: spell.name for sid, spell in audit.simc_dump.spells.items()}
+                if audit.simc_dump is not None else {},
+            source_dump=audit.simc_dump,
         )
     )
     # Preserve official directives that are outside the ordinary exact-build
