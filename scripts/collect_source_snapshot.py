@@ -25,8 +25,9 @@ async def collect(args):
         specs = raidbots.discover_specs(talents)
         # A mutable branch must never resolve to different revisions for
         # class dumps and generated DBC during the same collection.
-        revision = await client.get_json(f'https://api.github.com/repos/{simc.SIMC_REPO}/commits/{simc.SIMC_BRANCH}')
+        revision = await simc.resolve_branch_revision(client)
         os.environ['WOW_PVP_SIMC_REF'] = revision['sha']
+        print(f"Pinned SimC {revision['sha']} via {revision['method']}", flush=True)
         classes = {}
         ids: set[int] = set()
         nether_ids: set[int] = set()
@@ -95,6 +96,7 @@ async def collect(args):
                 generated=generated_hashes[info['simc_ref']]))
         context = dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
             hotfix_snapshot_hash=hotfix_context['snapshot_hash'], simc_ref=revision['sha'],
+            simc_revision_evidence=revision,
             parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids),
             nether_spell_ids=sorted(ids & nether_ids))
         if args.phase == 'full':

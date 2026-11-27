@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 import ast
+import asyncio
+import subprocess
+
+import httpx
 import os
 import re
 from collections import defaultdict, deque
@@ -708,6 +712,41 @@ def parse_dump(
 # ============================================================
 # Fetch
 # ============================================================
+
+async def resolve_branch_revision(client) -> dict:
+    """Pin the public upstream branch, even if the REST API is rate-limited.
+
+    Git's public read-only transport is an independent way to obtain the
+    same immutable branch identity. Never substitute a cached SHA or the
+    mutable branch name. Ordinary authentication/schema failures remain
+    visible, and all subsequent files still require exact build checks.
+    """
+    url = f"{SIMC_COMMITS_URL}/{SIMC_BRANCH}"
+    try:
+        revision = await client.get_json(url)
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code not in (403, 429):
+            raise
+        branch_ref = f"refs/heads/{SIMC_BRANCH}"
+        result = await asyncio.to_thread(
+            subprocess.run,
+            ["git", "-c", "credential.helper=", "-c", "http.extraHeader=",
+             "ls-remote", "--exit-code", "--refs",
+             f"https://github.com/{SIMC_REPO}.git", branch_ref],
+            check=True, capture_output=True, text=True, timeout=45,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        )
+        match = re.fullmatch(r"([0-9a-f]{40})\t" + re.escape(branch_ref),
+                             result.stdout.strip())
+        if not match:
+            raise ValueError("Unrecognized or ambiguous SimC Git branch identity") from exc
+        return dict(sha=match[1], method="git_ls_remote", ref=branch_ref,
+                    api_status=exc.response.status_code, git_output=result.stdout.strip())
+    sha = revision.get("sha") if isinstance(revision, dict) else None
+    if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{40}", sha):
+        raise ValueError("Unrecognized SimC REST branch identity")
+    return dict(sha=sha, method="github_rest", ref=f"refs/heads/{SIMC_BRANCH}")
+
 
 async def _find_build_commit(
     client,
