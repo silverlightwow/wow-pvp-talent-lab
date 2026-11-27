@@ -25,8 +25,9 @@ async def collect(args):
         specs = raidbots.discover_specs(talents)
         # A mutable branch must never resolve to different revisions for
         # class dumps and generated DBC during the same collection.
-        revision = await client.get_json(f'https://api.github.com/repos/{simc.SIMC_REPO}/commits/{simc.SIMC_BRANCH}')
+        revision = await simc.resolve_branch_revision(client)
         os.environ['WOW_PVP_SIMC_REF'] = revision['sha']
+        print(f"Pinned SimC {revision['sha']} via {revision['method']}", flush=True)
         classes = {}
         ids: set[int] = set()
         nether_ids: set[int] = set()
@@ -47,7 +48,9 @@ async def collect(args):
             effects = drustvar.parse_spell_payload(spells, slug)
             spellbook_tables = await spellbook.fetch_tables(client, dump)
             class_specs = [s for s in specs if s['class_name'] == class_name]
-            spec_names = [s['spec_name'] for s in sorted(class_specs, key=lambda s: s['spec_id'])]
+            spec_names = spellbook.specialization_order(spellbook_tables,
+                class_id=class_specs[0]['class_id'],
+                spec_id_to_name={s['spec_id']: s['spec_name'] for s in class_specs})
             for item in class_specs:
                 _, rows = await raidbots.fetch_spec_tree(client, class_name=class_name, spec_name=item['spec_name'])
                 roots = {int(row['spell_id']) for row in rows if row.get('spell_id')}
@@ -93,6 +96,7 @@ async def collect(args):
                 generated=generated_hashes[info['simc_ref']]))
         context = dict(tree_build=metadata['wowBuild'], content_hash=metadata['contentHash'],
             hotfix_snapshot_hash=hotfix_context['snapshot_hash'], simc_ref=revision['sha'],
+            simc_revision_evidence=revision,
             parser_hash=parser_hash(), classes=classes, spell_count=len(ids), spell_ids=sorted(ids),
             nether_spell_ids=sorted(ids & nether_ids))
         if args.phase == 'full':

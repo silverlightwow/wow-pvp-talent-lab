@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 import ast
+import asyncio
+import subprocess
+
+import httpx
 import os
 import re
 from collections import defaultdict, deque
@@ -361,145 +365,60 @@ def _without_inactive_specialization_branches(
 
 
 def _without_inactive_specialization_index_branches(
-    text: str,
-    *,
-    spec_name: str,
-    spec_names,
+    text: str, *, spec_name: str, spec_names,
 ) -> str:
-    """Resolve Blizzard $?cN[true][false] specialization branches.
+    """Resolve balanced client $?cN chains with proven class ordinals.
 
-    In spell text, c1/c2/c3/... refer to the class specialization
-    ordinal.  We only evaluate them when the current spec is present
-    in an explicitly supplied ordered specialization list.
+    A chain can be written $?c1[... ]?c2[... ]?c3[... ][fallback].
+    Treat the whole chain as one expression. Never retain an inactive
+    continuation or choose a branch from a malformed/unknown condition.
     """
-
-    ordered_names = [
-        str(name)
-        for name in (
-            spec_names
-            or ()
-        )
-    ]
-
-    try:
-        active_index = (
-            ordered_names.index(
-                str(spec_name)
-            )
-            + 1
-        )
-    except ValueError:
+    ordered = list(map(str, spec_names or ()))
+    if len(set(ordered)) != len(ordered) or str(spec_name) not in ordered:
         return text
-
-    pattern = re.compile(
-        r"\$\?c(\d+)\["
-    )
+    active = ordered.index(str(spec_name)) + 1
+    first = re.compile(r"\$\?c(\d+)\[")
+    continuation = re.compile(r"\?c(\d+)\[")
 
     while True:
-
         changed = False
-
-        for match in reversed(
-            list(
-                pattern.finditer(
-                    text
-                )
-            )
-        ):
-
-            branch_index = int(
-                match.group(1)
-            )
-
-            true_start = (
-                match.end() - 1
-            )
-
-            true_end = (
-                _matching_bracket_end(
-                    text,
-                    true_start,
-                )
-            )
-
-            if true_end is None:
-                continue
-
-            false_start = (
-                true_end + 1
-                if (
-                    true_end + 1
-                    < len(text)
-                    and text[
-                        true_end + 1
-                    ] == "["
-                )
-                else None
-            )
-
-            false_end = (
-                _matching_bracket_end(
-                    text,
-                    false_start,
-                )
-                if false_start
-                is not None
-                else None
-            )
-
-            if (
-                false_start is not None
-                and false_end is None
-            ):
-                continue
-
-            true_branch = text[
-                true_start + 1:
-                true_end
-            ]
-
-            false_branch = (
-                text[
-                    false_start + 1:
-                    false_end
-                ]
-                if (
-                    false_start
-                    is not None
-                    and false_end
-                    is not None
-                )
-                else ""
-            )
-
-            replacement = (
-                true_branch
-                if (
-                    branch_index
-                    == active_index
-                )
-                else false_branch
-            )
-
-            end = (
-                false_end + 1
-                if false_end
-                is not None
-                else true_end + 1
-            )
-
-            text = (
-                text[:match.start()]
-                + replacement
-                + text[end:]
-            )
-
-            changed = True
-
+        # Resolve one innermost/rightmost expression, then re-scan offsets.
+        for match in reversed(list(first.finditer(text))):
+            branches = []
+            current = match
+            while True:
+                index = int(current[1])
+                start = current.end() - 1
+                end = _matching_bracket_end(text, start)
+                if end is None or not 1 <= index <= len(ordered):
+                    break
+                if any(n == index for n, _ in branches):
+                    break
+                branches.append((index, text[start+1:end]))
+                pos = end + 1
+                following = continuation.match(text, pos)
+                if following is not None:
+                    current = following
+                    continue
+                # An unknown chained condition must not become unconditional.
+                if text[pos:pos+1] == "?":
+                    break
+                fallback = ""
+                if text[pos:pos+1] == "[":
+                    last = _matching_bracket_end(text, pos)
+                    if last is None:
+                        break
+                    fallback = text[pos+1:last]
+                    pos = last + 1
+                replacement = next((branch for n, branch in branches if n == active), fallback)
+                text = text[:match.start()] + replacement + text[pos:]
+                changed = True
+                break
+            if changed:
+                break
         if not changed:
-            break
+            return text
 
-    return text
 
 
 def scope_dump_to_specialization(
@@ -793,6 +712,41 @@ def parse_dump(
 # ============================================================
 # Fetch
 # ============================================================
+
+async def resolve_branch_revision(client) -> dict:
+    """Pin the public upstream branch, even if the REST API is rate-limited.
+
+    Git's public read-only transport is an independent way to obtain the
+    same immutable branch identity. Never substitute a cached SHA or the
+    mutable branch name. Ordinary authentication/schema failures remain
+    visible, and all subsequent files still require exact build checks.
+    """
+    url = f"{SIMC_COMMITS_URL}/{SIMC_BRANCH}"
+    try:
+        revision = await client.get_json(url)
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code not in (403, 429):
+            raise
+        branch_ref = f"refs/heads/{SIMC_BRANCH}"
+        result = await asyncio.to_thread(
+            subprocess.run,
+            ["git", "-c", "credential.helper=", "-c", "http.extraHeader=",
+             "ls-remote", "--exit-code", "--refs",
+             f"https://github.com/{SIMC_REPO}.git", branch_ref],
+            check=True, capture_output=True, text=True, timeout=45,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        )
+        match = re.fullmatch(r"([0-9a-f]{40})\t" + re.escape(branch_ref),
+                             result.stdout.strip())
+        if not match:
+            raise ValueError("Unrecognized or ambiguous SimC Git branch identity") from exc
+        return dict(sha=match[1], method="git_ls_remote", ref=branch_ref,
+                    api_status=exc.response.status_code, git_output=result.stdout.strip())
+    sha = revision.get("sha") if isinstance(revision, dict) else None
+    if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{40}", sha):
+        raise ValueError("Unrecognized SimC REST branch identity")
+    return dict(sha=sha, method="github_rest", ref=f"refs/heads/{SIMC_BRANCH}")
+
 
 async def _find_build_commit(
     client,

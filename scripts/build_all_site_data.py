@@ -253,14 +253,6 @@ def _load_historical_hotfix_baselines(
             for item in hotfixes
             if (
                 item.hotfix_date is not None
-                and (
-                    item.mode.startswith(
-                        "relative_"
-                    )
-                    or item.mode.startswith(
-                        "spec_relative_"
-                    )
-                )
             )
         }
     )
@@ -317,10 +309,7 @@ def _load_historical_hotfix_baselines(
 
         by_spell = {}
         by_name = {}
-        for talent in payload.get(
-            "talents",
-            []
-        ):
+        for talent in [*payload.get("talents", []), *payload.get("abilities", [])]:
             spell_id = talent.get(
                 "spell_id"
             )
@@ -347,6 +336,9 @@ def _load_historical_hotfix_baselines(
             "commit": commit,
             "by_spell": by_spell,
             "by_name": by_name,
+            "verified": payload.get("validation", {}).get("verification_status") == "VERIFIED"
+                and not (payload.get("official_hotfixes") or {}).get("unresolved"),
+            "official_report": payload.get("official_hotfixes") or {},
         }
 
         # Older tuning is an event, not an immutable final coefficient.
@@ -461,6 +453,7 @@ async def build_one(
                     previous_keys=blizzard_hotfixes.published_hotfix_keys(
                         "web/data"
                     ),
+                    previous_sources=blizzard_hotfixes.published_hotfix_sources("web/data"),
                 )
             )
         finally:
@@ -530,6 +523,9 @@ async def build_one(
             official_hotfixes,
             historical_talents_by_date=
                 hotfix_baselines,
+            source_spell_names={sid: spell.name for sid, spell in audit.simc_dump.spells.items()}
+                if audit.simc_dump is not None else {},
+            source_dump=audit.simc_dump,
         )
     )
     # Preserve official directives that are outside the ordinary exact-build

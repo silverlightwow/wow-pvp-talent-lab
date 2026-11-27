@@ -1047,6 +1047,15 @@ async def build_spec_catalog(
                 fallback_note = {"status": "EXACT_BUILD_DESCRIPTION", **fallback}
 
 
+        if audit.simc_dump is not None:
+            from .baseline_tooltips import restore_statless_zero
+            selected_text = tooltip_renderer.tooltip_for_spec(
+                pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames"))
+            restored = restore_statless_zero(selected_text, audit.simc_dump, spell_id)
+            if restored is not None:
+                pve_tooltip = restored["text"]
+                fallback_note = {"status": "EXACT_CLIENT_STATELESS_AMOUNT", **restored}
+
         from .passive_modifiers import normalize_text
         projections = audit.baseline_projections.get(spell_id, [])
         pve_tooltip, baseline_normalizations = normalize_text(pve_tooltip, projections)

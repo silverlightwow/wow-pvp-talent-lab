@@ -50,3 +50,178 @@ def test_tuning_history_keeps_original_git_endpoint_across_refreshes(
     # The latest directive must still be proved from current mechanics.
     latest = builder._load_historical_hotfix_baselines(slug='example', hotfixes=[hotfix])['2026-09-22']
     assert 'verified_post_by_spell' not in latest
+
+
+def _relative_fixture():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    older = h.OfficialPvpHotfix("Example Strike", 100, None, None,
+        "Example Strike damage increased by 100% in PvP combat.", date(2026, 9, 22),
+        mode="relative_increase", context_path=("Example Class", "Example Spec"))
+    newer = h.OfficialPvpHotfix("Example Strike", 20, None, None,
+        "Example Strike damage reduced by 20% in PvP combat.", date(2026, 10, 27),
+        mode="relative_reduction", context_path=older.context_path)
+    def row(multiplier):
+        return dict(source_spell_id=101, effect_index=1, effect_text="School Damage (AP mod: 1)",
+            spell_pvp_multiplier=multiplier, aura_factor=1, final_pvp_multiplier=multiplier,
+            final_pvp_value=None, base_value=None, coefficient_based=True)
+    old_talent = dict(spell_id=100, talent_name="Example Strike", mechanics=[row(2)])
+    current = FakeTalent("Example Strike", 100, "Deals damage.", "Deals damage.", mechanics=[row(1.6)])
+    proof = dict(spell_id=100, text=older.text, date=older.hotfix_date.isoformat())
+    baselines = {
+        "2026-09-22": dict(commit="a"*40, by_spell={"100": dict(spell_id=100, mechanics=[row(1)])}),
+        "2026-10-27": dict(commit="b"*40, verified=True, by_spell={"100": old_talent},
+            official_report=dict(already_current=[proof], unresolved=[]))}
+    return h, older, newer, current, baselines
+
+
+def test_relative_successor_keeps_prior_event_without_reapplying():
+    h, older, newer, current, baselines = _relative_fixture()
+    evidence = h._historically_superseded(current, older, [older, newer], baselines)
+    assert evidence["source"] == "historically_superseded"
+    assert evidence["previous_event"]["ratio"] == 2
+    assert evidence["successor_event"]["ratio"] == pytest.approx(.8)
+    assert current.mechanics[0]["spell_pvp_multiplier"] == 1.6
+
+
+@pytest.mark.parametrize("corruption", ["scope", "effect", "proof", "verified", "output", "numeric"])
+def test_relative_successor_refuses_unproved_history(corruption):
+    from dataclasses import replace
+    h, older, newer, current, baselines = _relative_fixture()
+    if corruption == "scope":
+        newer = replace(newer, context_path=("Other Class",))
+    elif corruption == "effect":
+        current.mechanics[0]["effect_index"] = 2
+    elif corruption == "proof":
+        baselines["2026-10-27"]["official_report"]["already_current"] = []
+    elif corruption == "verified":
+        baselines["2026-10-27"]["verified"] = False
+    elif corruption == "output":
+        current.mechanics[0]["effect_text"] = "Direct Heal (SP mod: 1)"
+    else:
+        current.mechanics[0].update(spell_pvp_multiplier=1.7, final_pvp_multiplier=1.7)
+    assert h._historically_superseded(current, older, [older, newer], baselines) is None
+
+
+def test_absolute_successor_matches_parallel_effect_ids_not_names_only():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    old = h.OfficialPvpHotfix("Example Talent", 75, 60, None,
+        "Example Talent now increases ricochet damage by 75% (was 60%).",
+        date(2026, 9, 22), mode="class_absolute")
+    new = h.OfficialPvpHotfix("Example Talent", 85, 75, None,
+        "Example Talent now increases ricochet damage by 85% (was 75%).",
+        date(2026, 10, 27), mode="class_absolute")
+    def rows(value):
+        return [dict(source_spell_id=100, effect_index=i, base_value=value) for i in (4, 5)]
+    prior = dict(spell_id=100, pve_tooltip="Ricochets deal 75% damage.",
+                 pvp_tooltip="Ricochets deal 40.5% damage.", mechanics=rows(75))
+    current = FakeTalent("Example Talent", 100, "Ricochets deal 85% damage.",
+                        "Ricochets deal 45.9% damage.", mechanics=rows(85))
+    baseline = {"2026-10-27": dict(verified=True, commit="b"*40,
+        by_spell={"100": prior}, official_report=dict(already_current=[
+            dict(spell_id=100, date=old.hotfix_date.isoformat(), text=old.text)]))}
+    proof = h._historically_superseded(current, old, [old, new], baseline)
+    assert proof["effect_keys"] == [[100, 4], [100, 5]]
+    current.mechanics.pop()
+    assert h._historically_superseded(current, old, [old, new], baseline) is None
+
+
+def test_named_child_requires_exact_direct_dependency_and_effect_history():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    note = h.OfficialPvpHotfix("Parent's Meteor",20,None,None,
+        "Parent's Meteor damage increased by 20% in PvP combat.",date(2026,10,27),
+        mode="relative_increase")
+    def row(sid, factor, path):
+        return dict(source_spell_id=sid,effect_index=1,effect_text="School Damage (SP mod: 1)",
+            final_pvp_multiplier=factor,spell_pvp_multiplier=factor,aura_factor=1,
+            dependency_path=path)
+    current = FakeTalent("Parent",100,"Meteor deals damage.","Meteor deals damage.",
+        mechanics=[row(101,.8,[100,101]),row(102,.8,[100,101,102])])
+    base={"2026-10-27":dict(by_spell={"100":dict(mechanics=[row(101,2/3,[100,101]),row(102,.8,[100,101,102])])})}
+    resolved,reason=h._compound_relative_evidence(note,{"parent":[current]},base,{101:"Meteor",102:"Meteor"})
+    assert reason is None
+    assert resolved[0][1]["source_spell_id"]==101
+    current.mechanics[0]["dependency_path"]=[100,999,101]
+    resolved,reason=h._compound_relative_evidence(note,{"parent":[current]},base,{101:"Meteor",102:"Meteor"})
+    assert not resolved and reason=="UNPROVED_NAMED_CHILD"
+
+
+def test_conjunctive_note_requires_evidence_for_every_named_subject():
+    from datetime import date
+    from pvpcalc.sources import blizzard_hotfixes as h
+    from test_blizzard_hotfixes import FakeTalent
+    note=h.OfficialPvpHotfix("First Totem and Second Totem",20,None,None,
+        "First Totem and Second Totem healing increased by 20% in PvP combat.",date(2026,10,27),
+        mode="relative_increase")
+    def talent(sid,name):
+        return FakeTalent(name,sid,"Heals.","Heals.",mechanics=[dict(source_spell_id=sid+10,effect_index=1,
+            effect_text="Direct Heal (SP mod: 1)",spell_pvp_multiplier=1.2,aura_factor=1,final_pvp_multiplier=1.2)])
+    a,b=talent(100,"First Totem"),talent(200,"Second Totem")
+    resolved,reason=h._compound_relative_evidence(note,{"first totem":[a],"second totem":[b]},None,{})
+    assert reason is None and {t.spell_id for t,_ in resolved}=={100,200}
+    b.mechanics[0]["spell_pvp_multiplier"]=1.1
+    assert h._compound_relative_evidence(note,{"first totem":[a],"second totem":[b]},None,{})[1]=="UNPROVED_COMPOUND_RELATIVE_EFFECT"
+    assert h._compound_relative_evidence(note,{"first totem":[a]},None,{})[1]=="UNREPRESENTED_CONJUNCTIVE_SUBJECT"
+
+
+def test_internal_class_scalar_proof_requires_owned_client_line():
+    from pvpcalc.sources import blizzard_hotfixes as h, simc
+    from test_blizzard_hotfixes import FakeTalent
+    dump=simc.parse_dump("""SimulationCraft for World of Warcraft 12.1.0.12345 Live
+Name             : Parent (id=100)
+Description      : Marked enemies take $101s1% more damage.
+Name             : Marked (id=101)
+Effects          :
+#1 (id=2001) : Apply Aura (6) | Modify Damage Taken%
+                   Base Value: 5
+""",class_slug="example")
+    note=h.OfficialPvpHotfix("Marked",5,7,None,"Marked now increases damage by 5% (was 7%).",
+        None,mode="class_absolute")
+    t=FakeTalent("Parent",100,"Marked enemies take 5% more damage.","Marked enemies take 5% more damage.")
+    resolved,reason=h._owned_class_absolute_evidence(note,[t],dump)
+    assert reason is None and resolved[0][1]["source_spell_id"]==101
+    t.pvp_tooltip="Marked enemies take 7% more damage."
+    assert h._owned_class_absolute_evidence(note,[t],dump)[1]=="UNPROVED_OWNED_CLASS_SCALAR"
+
+
+def test_scope_conflict_uses_unique_exact_numeric_history_without_overlay():
+    from datetime import date
+    from types import SimpleNamespace as NS
+    from copy import deepcopy
+    from pvpcalc.sources import blizzard_hotfixes as h
+    note=h.OfficialPvpHotfix("Example",15,8,"other strike",
+        "Example increases damage of other strike by 15% (was 8%).",
+        date(2026,10,27),context_path=("Rogue","First","Hero"))
+    pve="Your own strike deals 35% additional damage."
+    start=pve.index("35")
+    def change(value):
+        return dict(start=start,end=start+2,old_token="35",new_token=value,
+            kind="percent_value",effect_indexes=[2])
+    def row(value,aura):
+        return dict(source_spell_id=200,effect_index=2,coefficient_based=False,
+            base_value=35,spell_pvp_multiplier=.25,final_pvp_value=value,aura_rules=aura)
+    aura=dict(source="simc_exact_pvp_aura",amount_kind="effect:2",game_effect_id=2001,
+        label_id=900,build="12.1.5.70961",factor=1.72)
+    prior=dict(pve_tooltip=pve,pvp_tooltip=pve.replace("35","8.75"),
+        changes=[change("8.75")],mechanics=[row(8.75,[])])
+    talent=NS(spell_id=100,hero_tree="Hero",pve_tooltip=pve,pvp_tooltip=pve.replace("35","15"),
+        changes=[change("15")],mechanics=[row(15.05,[aura])],rank_tooltips=[])
+    baseline={"2026-10-27":dict(verified=True,commit="a"*40,by_spell={"100":prior})}
+    scope=NS(class_name="Rogue",spec_name="First")
+    evidence=h._numeric_proof_for_conflicting_target(talent,note,scope,baseline)
+    assert evidence["wording_conflict"] is True and evidence["current_value"]==15.05
+    assert talent.mechanics[0]["final_pvp_value"]==15.05
+    for mutation in ("wrong_scope","old_unverified","wrong_effect","wrong_source","wrong_value","wrong_text"):
+        t,b,c=deepcopy(talent),deepcopy(baseline),deepcopy(scope)
+        if mutation=="wrong_scope":c.spec_name="Second"
+        elif mutation=="old_unverified":b["2026-10-27"]["verified"]=False
+        elif mutation=="wrong_effect":t.mechanics[0]["effect_index"]=3
+        elif mutation=="wrong_source":t.mechanics[0]["aura_rules"][0]["source"]="drustvar"
+        elif mutation=="wrong_value":t.mechanics[0]["final_pvp_value"]=16
+        else:t.pvp_tooltip=t.pvp_tooltip.replace("own","other")
+        assert h._numeric_proof_for_conflicting_target(t,note,c,b) is None
