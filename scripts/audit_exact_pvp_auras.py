@@ -102,8 +102,10 @@ def audit(snapshot_dir,raidbots_file):
             spec_id_to_name={s["spec_id"]:s["spec_name"] for s in cls})
         payload=json.loads(snapshot.read("https://drustvar.com/api/v1/pvp-auras/"+class_name.casefold().replace(" ","-")))
         for item in cls:
-            result.append(audit_spec(dump,payload,class_name=class_name,
-                spec_name=item["spec_name"],spec_names=spec_names,generated_labels=labels_by_ref[ref]))
+            row=audit_spec(dump,payload,class_name=class_name,
+                spec_name=item["spec_name"],spec_names=spec_names,generated_labels=labels_by_ref[ref])
+            row.update(class_id=item["class_id"],spec_id=item["spec_id"])
+            result.append(row)
     status=Counter(e["status"] for r in result for e in r["effects"])
     flat=Counter(t["status"] for r in result for e in r["effects"] for t in e.get("targets",[]))
     target_evidence=Counter(e["target_evidence"] for r in result for e in r["effects"] if "target_evidence" in e)
@@ -117,10 +119,20 @@ def main():
     parser.add_argument("--snapshot",type=Path,required=True)
     parser.add_argument("--raidbots",type=Path,required=True)
     parser.add_argument("--output",type=Path,required=True)
+    parser.add_argument("--client-db2",type=Path,help="Exact-build sealed Wago DB2 snapshot")
+    parser.add_argument("--capture-client-db2",action="store_true",help="Capture a fresh build-pinned DB2 snapshot")
     args=parser.parse_args()
     report=audit(args.snapshot,args.raidbots)
+    if args.capture_client_db2 and not args.client_db2:
+        parser.error("--capture-client-db2 requires --client-db2")
+    if args.client_db2:
+        from pvpcalc.sources import client_db2
+        if args.capture_client_db2:
+            client_db2.capture(args.client_db2,report["build"])
+        report["client_db2"]=client_db2.resolve_unsupported(report,
+            client_db2.ClientSnapshot(args.client_db2,build=report["build"]))
     args.output.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print(json.dumps({k:v for k,v in report.items() if k!="specializations"},indent=2))
+    print(json.dumps({k:v for k,v in report.items() if k not in {"specializations","client_db2"}},indent=2))
 
 
 if __name__=="__main__":
