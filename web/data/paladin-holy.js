@@ -12063,7 +12063,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 433106,
           "source_spell_id": 137028,
           "effect_index": 5,
-          "effect_text": "Apply Aura (6) | Modify Auto Attack Damage Done% (344)",
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
           "base_value": 350.0,
           "spell_pvp_multiplier": 0.57,
           "amount_kind": null,
@@ -12080,11 +12080,12 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -15552,11 +15553,6 @@ window.WOW_PVP_DATA = {
       "source": "wowhead",
       "spell_id": 137026,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 137028,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137028'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -20181,7 +20177,7 @@ window.WOW_PVP_DATA = {
     }
   },
   "slug": "paladin-holy",
-  "generated_at": "2026-11-27T21:49:21.185079+00:00",
+  "generated_at": "2026-11-28T08:36:26.896491+00:00",
   "validation": {
     "abilities": 11,
     "abilities_with_pvp_mechanics": 11,
@@ -20196,7 +20192,7 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 177,
+    "source_warning_count": 176,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -20232,8 +20228,8 @@ window.WOW_PVP_DATA = {
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
-    "captured_at": "2026-11-27T21:35:54.766603+00:00",
+    "snapshot_hash": "abff1182238d67b36972555a7dff6263611ad1077fb055a384e7329dd85acf3b",
+    "captured_at": "2026-11-28T08:22:30.797881+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,

@@ -1727,7 +1727,7 @@
           "talent_spell_id": 187698,
           "source_spell_id": 135299,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1744,8 +1744,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
+            "wowhead",
             "drustvar",
+            "simc",
             "simc_generated"
           ],
           "source_notes": [],
@@ -4467,7 +4468,7 @@
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4484,11 +4485,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -4506,7 +4508,7 @@
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -4523,11 +4525,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -4545,7 +4548,7 @@
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4562,11 +4565,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -4584,7 +4588,7 @@
           "talent_spell_id": 19574,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -4601,11 +4605,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -6626,7 +6631,7 @@
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6645,11 +6650,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -6667,7 +6673,7 @@
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -6686,11 +6692,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -6708,7 +6715,7 @@
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6727,11 +6734,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -6749,7 +6757,7 @@
           "talent_spell_id": 1272099,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -6768,11 +6776,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -7044,7 +7053,7 @@
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -7065,11 +7074,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -7087,7 +7097,7 @@
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 8.0,
           "spell_pvp_multiplier": -0.46,
           "amount_kind": null,
@@ -7108,11 +7118,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -7130,7 +7141,7 @@
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Pet Damage Done% (429)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -7151,11 +7162,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -7173,7 +7185,7 @@
           "talent_spell_id": 1232739,
           "source_spell_id": 137015,
           "effect_index": 4,
-          "effect_text": "Apply Aura (6) | Modify Guardian Damage Done% (531)",
+          "effect_text": "Apply Aura: Mod Pet Damage %",
           "base_value": 8.0,
           "spell_pvp_multiplier": -1.12,
           "amount_kind": null,
@@ -7194,11 +7206,12 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc",
             "simc_generated"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "display_formulas": [],
@@ -11541,11 +11554,6 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 120679,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120679'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 147362,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=147362'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -12131,18 +12139,8 @@
     },
     {
       "source": "wowhead",
-      "spell_id": 135299,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=135299'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
       "spell_id": 137014,
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137014'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "wowhead",
-      "spell_id": 137015,
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=137015'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "wowhead",
@@ -16886,7 +16884,7 @@
     }
   },
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-11-27T21:47:45.606894+00:00",
+  "generated_at": "2026-11-28T08:34:52.832103+00:00",
   "validation": {
     "abilities": 4,
     "abilities_with_pvp_mechanics": 4,
@@ -16901,7 +16899,7 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 153,
+    "source_warning_count": 150,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
@@ -16910,11 +16908,6 @@
         "source": "wowhead",
         "spell_id": 115939,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115939'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 120679,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120679'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
@@ -16930,6 +16923,11 @@
         "source": "wowhead",
         "spell_id": 191384,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191384'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 193455,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193455'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
@@ -16937,8 +16935,8 @@
     "replay_verified": true
   },
   "source_snapshot": {
-    "snapshot_hash": "ece397371480baf4603fb27ae60469642e8ba393d1ca51a0b915ecfa702758e0",
-    "captured_at": "2026-11-27T21:35:54.766603+00:00",
+    "snapshot_hash": "abff1182238d67b36972555a7dff6263611ad1077fb055a384e7329dd85acf3b",
+    "captured_at": "2026-11-28T08:22:30.797881+00:00",
     "parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "captured_parser_hash": "7115a5f72cda032b68bc259a8c5e51da35b406d86d7e0a04092cb5338bd2bedb",
     "archival_replay": false,
